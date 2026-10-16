@@ -137,7 +137,7 @@ class Paleta(unittest.TestCase):
         self.assertEqual(OSCURO_SISTEMA, OSCURO_MANUAL, "el tema oscuro está duplicado (preferencia del sistema y data-theme): mantenlos iguales")
 
     def test_ambos_temas_definen_las_mismas_variables_de_color(self):
-        colores = lambda v: {k for k, x in v.items() if x.startswith("#")}
+        colores = lambda v: {k for k, x in v.items() if x.startswith(("#", "rgb"))}
         self.assertEqual(colores(CLARO), colores(OSCURO_MANUAL))
 
     def comprobar(self, nombre, tema):
@@ -166,6 +166,63 @@ class Paleta(unittest.TestCase):
         for tema in (CLARO, OSCURO_MANUAL):
             self.assertEqual(len({tema["--a"], tema["--b"], tema["--c"]}), 3)
             self.assertEqual(len({tema["--a-soft"], tema["--b-soft"], tema["--c-soft"]}), 3)
+
+
+# ---------------------------------------------------------------- resaltado de los datos clave
+def a_rgba(valor):
+    """'#rrggbb' o 'rgba(r, g, b, a)' -> (r, g, b, alfa)."""
+    v = valor.strip()
+    if v.startswith("#"):
+        h = v.lstrip("#")
+        return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4)) + (1.0,)
+    m = re.fullmatch(r"rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*(?:,\s*([\d.]+)\s*)?\)", v)
+    assert m, "color no reconocido: " + valor
+    return int(m.group(1)), int(m.group(2)), int(m.group(3)), float(m.group(4) or 1)
+
+
+def sobre_fondo(valor, fondo_hex):
+    """Color efectivo (hex) de `valor` (con transparencia) pintado encima de `fondo_hex`."""
+    r, g, b, a = a_rgba(valor)
+    fr, fg, fb, _ = a_rgba(fondo_hex)
+    return "#%02x%02x%02x" % tuple(round(a * c + (1 - a) * f) for c, f in ((r, fr), (g, fg), (b, fb)))
+
+
+class Resaltado(unittest.TestCase):
+    """El resaltado (negritas del temario y coincidencias del buscador) debe leerse bien sobre cualquier fondo en que aparece."""
+    FONDOS = ("--bg", "--surface", "--surface-2", "--accent-soft", "--warn-soft", "--ok-soft", "--ko-soft")
+
+    def comprobar(self, nombre, tema):
+        malos = []
+        for fondo in self.FONDOS:
+            relleno = sobre_fondo(tema["--mark-bg"], tema[fondo])
+            r = contraste(tema["--mark-fg"], relleno)
+            if r < 4.5:
+                malos.append("texto del resaltado sobre %s = %.2f" % (fondo, r))
+        for fondo in ("--bg", "--surface"):  # la línea inferior es lo que distingue el resaltado: >= 3:1 (WCAG 1.4.11)
+            r = contraste(tema["--mark-line"], tema[fondo])
+            if r < 3.0:
+                malos.append("línea del resaltado sobre %s = %.2f (mínimo 3)" % (fondo, r))
+        self.assertEqual(malos, [], "tema %s: resaltado por debajo de WCAG AA" % nombre)
+
+    def test_resaltado_claro_cumple_wcag_aa(self):
+        self.comprobar("claro", CLARO)
+
+    def test_resaltado_oscuro_cumple_wcag_aa(self):
+        self.comprobar("oscuro", OSCURO_MANUAL)
+
+    def test_el_relleno_con_transparencia_se_mezcla_bien(self):
+        self.assertEqual(sobre_fondo("rgba(255, 255, 255, 0.5)", "#000000"), "#808080")
+        self.assertEqual(sobre_fondo("#fef08a", "#123456"), "#fef08a")
+
+    def test_las_reglas_usan_las_variables_del_resaltado(self):
+        for sel in (".read strong", "mark"):
+            d = props(sel)
+            self.assertEqual(d.get("color"), "var(--mark-fg)", sel)
+            self.assertEqual(d.get("background-color"), "var(--mark-bg)", sel)
+            self.assertIn("var(--mark-line)", d.get("border-bottom", ""), sel)
+        # el buscador no debe volver a pintar sus coincidencias con otro estilo, ni heredar el color
+        self.assertNotIn("color", props(".sres mark"))
+        self.assertNotIn("background", props(".sres mark"))
 
 
 # ---------------------------------------------------------------- media queries

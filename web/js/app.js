@@ -168,14 +168,30 @@
     var pos = -1;
     for (var i = 0; i < tokens.length; i++) { var p = plano.indexOf(tokens[i]); if (p >= 0 && (pos < 0 || p < pos)) pos = p; }
     var ini = Math.max(0, pos - 50);
-    var frag = texto.slice(ini, ini + 170);
-    var html = AA.esc(frag);
-    tokens.forEach(function (t) {
-      var esc = t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-      // La normalización conserva la longitud en español salvo casos raros; resaltamos sobre el texto original.
-      html = html.replace(new RegExp("(" + esc + ")", "ig"), "<mark>$1</mark>");
+    var fin = Math.min(texto.length, ini + 170);
+    // Las coincidencias se buscan en el texto sin tildes y se marcan en el original: AA.norm conserva la
+    // longitud en español (cada letra con tilde sigue siendo una letra), así que las posiciones valen para ambos.
+    var rangos = [];
+    if (plano.length === texto.length) {
+      tokens.forEach(function (t) {
+        var i = plano.indexOf(t, ini);
+        while (i >= 0 && i < fin) {
+          rangos.push([i, Math.min(fin, i + t.length)]);
+          i = plano.indexOf(t, i + t.length);
+        }
+      });
+    }
+    rangos.sort(function (a, b) { return a[0] - b[0]; });
+    var html = "";
+    var cursor = ini;
+    rangos.forEach(function (r) {
+      if (r[1] <= cursor) return; // solapada con una anterior
+      var desde = Math.max(r[0], cursor);
+      html += AA.esc(texto.slice(cursor, desde)) + "<mark>" + AA.esc(texto.slice(desde, r[1])) + "</mark>";
+      cursor = r[1];
     });
-    return (ini > 0 ? "…" : "") + html + (ini + 170 < texto.length ? "…" : "");
+    html += AA.esc(texto.slice(cursor, fin));
+    return (ini > 0 ? "…" : "") + html + (fin < texto.length ? "…" : "");
   }
 
   var overlay, qInput, qRes;
