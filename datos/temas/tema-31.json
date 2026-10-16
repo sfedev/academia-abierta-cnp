@@ -37,29 +37,34 @@
       "verificado": "Notas de prensa leídas el 16/10/2026"
     },
     {
-      "nombre": "Naciones Unidas, Pacto Mundial para una Migración Segura, Ordenada y Regular (documento A/CONF.231/L.1, Marrakech, 10/12/2018; Res. 73/195 de la Asamblea General, 19/12/2018)",
-      "url": "https://digitallibrary.un.org/record/1654594/files/A_CONF-231_L-1-ES.pdf",
-      "verificado": "Fechas, resolución y número de objetivos contrastados el 16/10/2026 con extractos del buscador; el documento no se leyó íntegro"
+      "nombre": "Naciones Unidas, Pacto Mundial para una Migración Segura, Ordenada y Regular (Marrakech, 10-11/12/2018; anexo de la Res. 73/195 de la Asamblea General, 19/12/2018) y acta de la votación (A/73/PV.60)",
+      "url": "https://documents.un.org/api/symbol/access?s=A/RES/73/195&l=es&t=pdf",
+      "verificado": "Resolución y Pacto (párrs. 7, 12, 16 y 18) leídos el 16/10/2026; votación: 152 a favor, 5 en contra y 12 abstenciones"
     },
     {
       "nombre": "Proceso de Rabat y Proceso de Jartum (secretarías: ICMPD); Cumbre de La Valeta (2015)",
       "url": "https://www.khartoumprocess.net/about",
-      "verificado": "Fechas y ámbito contrastados el 16/10/2026 con extractos del buscador sobre las páginas de ambos procesos"
+      "verificado": "Páginas oficiales de ambos procesos leídas el 16/10/2026 (Rabat: https://www.rabat-process.org/en/about y Declaración de Rabat de 10-11/7/2006)"
     },
     {
-      "nombre": "Organización Internacional para las Migraciones (OIM): historia; Estadísticas de población migrante de la ONU (UN DESA, International Migrant Stock 2024)",
-      "url": "https://en.wikipedia.org/wiki/International_Organization_for_Migration",
-      "verificado": "Fuente secundaria leída el 16/10/2026; la web de la OIM bloqueó el acceso directo. UN DESA: https://www.un.org/development/desa/pd/content/international-migrant-stock"
+      "nombre": "Organización Internacional para las Migraciones (OIM): historia y términos clave; Res. 70/296 de la Asamblea General (25/7/2016); ONU DESA, International Migrant Stock 2024: Key facts",
+      "url": "https://www.iom.int/iom-history",
+      "verificado": "Leídos el 16/10/2026: fundación en 1951 (PICMME), nombre actual en 1989, acuerdo con la ONU aprobado el 25/7/2016 y firmado en septiembre; 304 millones de migrantes internacionales en 2024 (3,7 %): https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2025_intlmigstock_2024_key_facts_and_figures_advance-unedited.pdf"
     },
     {
-      "nombre": "J. Achotegui, «Estrés crónico y múltiple (síndrome de Ulises)», Revista Migraciones (Universidad Pontificia Comillas)",
+      "nombre": "J. Achotegui, «Estrés límite y salud mental: el síndrome del inmigrante con estrés crónico y múltiple (síndrome de Ulises)», Migraciones, n.º 19 (2006), pp. 59-85 (Universidad Pontificia Comillas)",
       "url": "https://revistas.comillas.edu/index.php/revistamigraciones/article/download/3083/2847",
-      "verificado": "Definición y cuatro estresores contrastados el 16/10/2026 con extractos del buscador"
+      "verificado": "Artículo leído el 16/10/2026: definición, cuatro estresores y siete áreas de duelo"
+    },
+    {
+      "nombre": "Comisión Europea, Pacto sobre Migración y Asilo: entrada en aplicación (nota de 12/6/2026) y Reglamentos (UE) 2024/1347, 2024/1348 y 2024/1351",
+      "url": "https://home-affairs.ec.europa.eu/news/new-migration-and-asylum-rules-enter-application-what-changing-2026-06-12_en",
+      "verificado": "Leídos el 16/10/2026: en aplicación desde el 12/6/2026 según la Comisión; los Reglamentos 2024/1347 y 2024/1351 se aplican desde el 1/7/2026 (arts. 42 y 85) y el 2024/1348 desde el 12/6/2026 (art. 79)"
     }
   ],
   "novedades": [
-    "**Pacto de la UE sobre Migración y Asilo**: comenzó a aplicarse en todos los Estados miembros el **12 de junio de 2026**, de forma gradual. Es Derecho de la UE vinculante, distinto del Pacto Mundial de la ONU de 2018 (no vinculante).",
-    "**RD 1155/2024**: el nuevo Reglamento de extranjería regula los centros de migraciones y los CETI en los arts. 263 a 265 (en el Reglamento anterior eran los arts. 264 a 266).",
+    "**Pacto de la UE sobre Migración y Asilo**: según la Comisión Europea, entró en aplicación el **12 de junio de 2026** (algunos de sus reglamentos, como el de gestión del asilo y la migración o el de requisitos de protección, se aplican desde el 1 de julio de 2026). Es Derecho de la UE vinculante, distinto del Pacto Mundial de la ONU de 2018 (no vinculante).",
+    "**RD 1155/2024**: el nuevo Reglamento de extranjería regula los centros de migraciones y los CETI en los arts. 263 a 265 (en el Reglamento anterior, aprobado por el RD 557/2011, eran los arts. 264 a 266).",
     "Datos del INE a **1 de julio de 2026** (provisionales): 49.801.559 habitantes; 7.437.543 extranjeros y 10.291.807 nacidos en el extranjero. La nota del INE de 12/2/2026 destacó que España superaba por primera vez los 10 millones de habitantes nacidos en el extranjero (a 1 de enero de 2026: 10.004.581)."
   ],
   "clave": [
@@ -86,7 +91,7 @@
       "titulo": "Causas y efectos",
       "puntos": [
         "Se agrupan en cuatro tipos de causas: **económicas** (pobreza, desempleo, diferencias salariales), **sociopolíticas** (guerras, persecuciones, violaciones de derechos humanos), **ambientales** (desastres naturales, desertificación, cambio climático) y **sociales** (reagrupación familiar, redes migratorias, estudios). Una misma migración suele deberse a varias a la vez. Los factores de **expulsión** («push») actúan en el origen y los de **atracción** («pull») en el destino.",
-        "**Síndrome de Ulises** (Achotegui): cuadro de estrés crónico y múltiple vinculado a duelos migratorios muy intensos; sus síntomas son depresivos, de ansiedad, somáticos y confusionales. Se sitúa en el límite entre la salud mental y la psicopatología: el autor no lo considera una enfermedad en sentido estricto."
+        "**Síndrome de Ulises** (Achotegui): cuadro de estrés crónico y múltiple vinculado a duelos migratorios muy intensos; sus síntomas son depresivos, de ansiedad, somáticos y confusionales. Se sitúa en el límite entre la salud mental y la psicopatología: el autor no lo considera una enfermedad en sentido estricto. El autor agrupa los duelos migratorios en siete áreas: familia y amigos, lengua, cultura, tierra, estatus social, contacto con el grupo nacional y riesgos físicos."
       ],
       "tabla": {
         "cabecera": [
@@ -113,17 +118,17 @@
       "titulo": "Grandes migraciones históricas y actualidad",
       "puntos": [
         "Hitos que suelen citarse (sin cifras): las migraciones de los pueblos germánicos en la Antigüedad tardía, la trata transatlántica de esclavos (siglos XVI al XIX), la gran emigración europea hacia América (siglos XIX y comienzos del XX), los desplazamientos de la Segunda Guerra Mundial y la reconstrucción de Europa (década de 1950) y, desde finales del siglo XX, la intensificación de los flujos por la globalización y los conflictos. España fue país de emigración (a América y, en los años sesenta, a Alemania, Francia y Suiza) y se convirtió en país receptor de inmigración a partir de la década de 1990.",
-        "**Mundo**: a mediados de 2024 había unos **304 millones de migrantes internacionales**, el 3,7 % de la población mundial (estimaciones de la ONU recogidas por fuentes secundarias).",
+        "**Mundo**: en 2024 había unos **304 millones de migrantes internacionales**, el **3,7 %** de la población mundial (ONU DESA, International Migrant Stock 2024).",
         "**España (INE, ECP a 1 de julio de 2026, datos provisionales)**: **49.801.559** habitantes (máximo histórico); **7.437.543** extranjeros (nacionalidad) y **10.291.807** nacidos en el extranjero. La diferencia se debe a las adquisiciones de nacionalidad española. Principales nacionalidades de los inmigrantes en el 2.º trimestre: **colombiana (34.000 llegadas), venezolana (23.300) y marroquí (21.100)**."
       ]
     },
     {
       "titulo": "Marco internacional de cooperación",
       "puntos": [
-        "**OIM**: nació en **1951** como comité intergubernamental para trasladar a migrantes europeos tras la Segunda Guerra Mundial, tuvo varias denominaciones y adoptó el nombre actual en 1989; en septiembre de 2016 la Asamblea General aprobó el acuerdo que la convierte en organización vinculada a la ONU.",
+        "**OIM**: nació en **1951** como Comité Intergubernamental Provisional para los Movimientos de Migrantes desde Europa (PICMME), tras la Segunda Guerra Mundial; tuvo varias denominaciones y adoptó el nombre actual en **1989**. En 2016 se convirtió en organización vinculada a la ONU: la Asamblea General aprobó el acuerdo el 25 de julio (Res. 70/296) y se firmó en septiembre.",
         "**Pacto Mundial** (Marrakech, 10 y 11 de diciembre de 2018): 23 objetivos, no vinculante; la Asamblea General lo respaldó el 19 de diciembre de 2018 (Res. 73/195). Algunos Estados anunciaron que no lo suscribirían.",
         "**Proceso de Rabat** (Diálogo Euroafricano sobre Migración y Desarrollo): lanzado en la conferencia ministerial de Rabat en **julio de 2006** tras el aumento de las llegadas irregulares a Canarias; cubre las rutas centroafricana, occidental y norteafricana. **Proceso de Jartum** (Iniciativa UE-Cuerno de África sobre la ruta migratoria): lanzado en la conferencia ministerial de **Roma, en noviembre de 2014**. **Cumbre de La Valeta** (noviembre de 2015): Plan de Acción Conjunto; los dos procesos supervisan su ejecución.",
-        "**Pacto de la UE sobre Migración y Asilo**: aplicable desde el 12 de junio de 2026 en todos los Estados miembros."
+        "**Pacto de la UE sobre Migración y Asilo**: en aplicación desde el 12 de junio de 2026 según la Comisión Europea; algunos de sus reglamentos se aplican desde el 1 de julio de 2026."
       ]
     },
     {
@@ -144,7 +149,7 @@
     "OIM: **1951** como fecha de fundación; 1989 es el año en que adoptó su denominación actual y 2016, su vinculación a la ONU.",
     "**Nacido en el extranjero** no es igual a **extranjero**: el primero (10,29 millones) supera al segundo (7,44 millones) por las adquisiciones de nacionalidad española.",
     "Síndrome de Ulises: cuatro estresores (soledad forzada, fracaso del proyecto migratorio, lucha por la supervivencia y miedo). No es un trastorno de personalidad ni un problema escolar.",
-    "Pacto Mundial de la ONU (2018, no vinculante, 23 objetivos) frente al Pacto de la UE sobre Migración y Asilo (Derecho de la UE vinculante, aplicable desde el 12/6/2026)."
+    "Pacto Mundial de la ONU (2018, no vinculante, 23 objetivos) frente al Pacto de la UE sobre Migración y Asilo (Derecho de la UE vinculante, en aplicación desde el 12/6/2026)."
   ],
   "caido": [
     {
@@ -242,8 +247,8 @@
     },
     {
       "id": "t_31_15",
-      "p": "¿Cuándo se aplica el Pacto de la UE sobre Migración y Asilo?",
-      "r": "Desde el **12 de junio de 2026**, de forma gradual, en todos los Estados miembros."
+      "p": "¿Desde cuándo está en aplicación el Pacto de la UE sobre Migración y Asilo?",
+      "r": "Desde el **12 de junio de 2026**, según la Comisión Europea; algunos de sus reglamentos se aplican desde el 1 de julio de 2026."
     }
   ],
   "preguntas": [
@@ -282,8 +287,8 @@
         "Causas de las migraciones"
       ],
       "correcta": 2,
-      "explicacion": "Son los cuatro grandes grupos de causas de las migraciones, que actúan como factores de expulsión en el origen y de atracción en el destino. No son efectos de la inmigración ni modelos de integración.",
-      "ref": "Causas de las migraciones (manuales de sociología de las migraciones)",
+      "explicacion": "Son los grandes grupos de causas de las migraciones: el Pacto Mundial de la ONU habla de crear en los países de origen condiciones políticas, económicas, sociales y ambientales que permitan vivir en ellos, y los manuales los presentan como factores de expulsión en el origen y de atracción en el destino. No son efectos de la inmigración ni modelos de integración.",
+      "ref": "Pacto Mundial para la Migración (anexo de la Res. 73/195), párrs. 12 y 18",
       "dificultad": 1
     },
     {
@@ -295,8 +300,8 @@
         "1989"
       ],
       "correcta": 0,
-      "explicacion": "La OIM nació en 1951 para organizar el traslado de migrantes y refugiados europeos tras la Segunda Guerra Mundial. 1945 es el año de fundación de la ONU y 1989 es la fecha en que adoptó su denominación actual.",
-      "ref": "Historia de la OIM",
+      "explicacion": "La OIM nació en 1951 como Comité Intergubernamental Provisional para los Movimientos de Migrantes desde Europa (PICMME), para organizar el traslado de migrantes tras la Segunda Guerra Mundial. 1945 es el año de fundación de la ONU y 1989, aquel en que adoptó su denominación actual.",
+      "ref": "OIM, historia (iom.int)",
       "dificultad": 2
     },
     {
@@ -334,8 +339,8 @@
         "Dificultades de adaptación escolar en los hijos de inmigrantes"
       ],
       "correcta": 0,
-      "explicacion": "Achotegui lo describe como un estrés crónico y múltiple vinculado a los duelos migratorios. No se trata de un trastorno de la personalidad ni de un problema escolar.",
-      "ref": "J. Achotegui, síndrome del inmigrante con estrés crónico y múltiple",
+      "explicacion": "Achotegui describe el Síndrome del Inmigrante con Estrés Crónico y Múltiple (síndrome de Ulises), que surge de estresores límite vinculados a los duelos migratorios. No se trata de un trastorno de la personalidad ni de un problema escolar.",
+      "ref": "J. Achotegui, Migraciones n.º 19 (2006), pp. 59-85",
       "dificultad": 2
     },
     {
@@ -348,7 +353,7 @@
       ],
       "correcta": 1,
       "explicacion": "Los cuatro estresores son la soledad forzada por la separación familiar, el sentimiento de fracaso del proyecto migratorio, la lucha por la supervivencia básica y el miedo. La sobreprotección del país de acogida no figura entre ellos.",
-      "ref": "J. Achotegui, síndrome de Ulises",
+      "ref": "J. Achotegui, Migraciones n.º 19 (2006), pp. 59-85",
       "dificultad": 2
     },
     {
@@ -360,7 +365,7 @@
         "Los países del Cuerno de África y a lo largo de la ruta migratoria hacia Europa"
       ],
       "correcta": 2,
-      "explicacion": "El Proceso de Jartum, lanzado en la conferencia ministerial de Roma en noviembre de 2014, es la Iniciativa UE-Cuerno de África sobre la ruta migratoria. El Proceso de Rabat, distinto, cubre las rutas centroafricana, occidental y norteafricana.",
+      "explicacion": "El Proceso de Jartum, creado el 28 de noviembre de 2014 en la conferencia ministerial de Roma, es la Iniciativa UE-Cuerno de África sobre la ruta migratoria. El Proceso de Rabat, distinto, cubre las rutas que unen África central, occidental y del norte con Europa.",
       "ref": "Proceso de Jartum (2014)",
       "dificultad": 3
     },
@@ -373,7 +378,7 @@
         "La Valeta"
       ],
       "correcta": 0,
-      "explicacion": "La conferencia ministerial de Rabat, en julio de 2006, lanzó el Proceso que lleva su nombre. Jartum da nombre al proceso de 2014 sobre el Cuerno de África y La Valeta acogió la cumbre de noviembre de 2015.",
+      "explicacion": "La conferencia ministerial de Rabat, los días 10 y 11 de julio de 2006, lanzó el Proceso que lleva su nombre. Jartum da nombre al proceso de 2014 sobre el Cuerno de África y La Valeta acogió la cumbre sobre migración de noviembre de 2015.",
       "ref": "Proceso de Rabat (2006)",
       "dificultad": 2
     },
@@ -399,8 +404,8 @@
         "Es un instrumento no vinculante que contiene 23 objetivos"
       ],
       "correcta": 2,
-      "explicacion": "El Pacto reúne 23 objetivos y no es jurídicamente vinculante. Algunos Estados, como Estados Unidos, Hungría o la República Checa, anunciaron que no lo suscribirían, por lo que no fue aprobado por todos.",
-      "ref": "Pacto Mundial para la Migración (2018)",
+      "explicacion": "El Pacto se define como marco de cooperación no vinculante jurídicamente (párr. 7) y consta de 23 objetivos (párr. 16). No fue aprobado por todos: la Asamblea General lo respaldó por 152 votos a favor, 5 en contra (Chequia, Estados Unidos, Hungría, Israel y Polonia) y 12 abstenciones.",
+      "ref": "Pacto Mundial para la Migración (anexo de la Res. 73/195), párrs. 7 y 16; A/73/PV.60",
       "dificultad": 3
     },
     {
@@ -464,30 +469,27 @@
         "En territorio español en situación administrativa irregular"
       ],
       "correcta": 1,
-      "explicacion": "El art. 3 exige encontrarse fuera del país de la nacionalidad y no poder o no querer, por esos temores, acogerse a su protección. Quien permanece dentro de su país es un desplazado interno, y la situación administrativa en España no define al refugiado.",
+      "explicacion": "El art. 3 exige encontrarse fuera del país de la nacionalidad y no poder o no querer, por esos temores, acogerse a su protección. Quien permanece dentro de su país no cumple ese requisito, y la situación administrativa en España no forma parte de la definición de refugiado.",
       "ref": "art. 3 Ley 12/2009",
       "dificultad": 2
     },
     {
       "id": "q_31_18",
-      "enunciado": "¿Qué instrumento comenzó a aplicarse en todos los Estados miembros de la Unión Europea el 12 de junio de 2026?",
+      "enunciado": "Según la Comisión Europea, ¿qué entró en aplicación el 12 de junio de 2026?",
       "opciones": [
         "El Pacto Mundial de la ONU para una Migración Segura, Ordenada y Regular",
         "El Plan de Acción Conjunto de La Valeta",
         "El Pacto de la UE sobre Migración y Asilo"
       ],
       "correcta": 2,
-      "explicacion": "El Pacto de la UE sobre Migración y Asilo comenzó a aplicarse el 12 de junio de 2026 de forma gradual. El Pacto Mundial de la ONU es de 2018 y no es vinculante, y el Plan de Acción de La Valeta se adoptó en 2015.",
-      "ref": "Pacto de la UE sobre Migración y Asilo",
+      "explicacion": "La Comisión Europea anunció que el Pacto de la UE sobre Migración y Asilo, un paquete de diez actos legislativos, entró en aplicación el 12 de junio de 2026 (algunos de sus reglamentos se aplican desde el 1 de julio). El Pacto Mundial de la ONU es de 2018 y no es vinculante, y el Plan de Acción de La Valeta se adoptó en la cumbre de 2015.",
+      "ref": "Comisión Europea, nota de 12/6/2026; Reglamento (UE) 2024/1348, art. 79",
       "dificultad": 2
     }
   ],
   "dudas": [
-    "El Glosario de la OIM (2019) no se pudo leer (acceso bloqueado), por lo que los tipos de migración son una clasificación convencional de manual y no una cita literal. La historia de la OIM y la cifra de 304 millones de migrantes proceden de fuentes secundarias.",
-    "Pacto de la UE sobre Migración y Asilo: solo se contrastó la fecha de aplicación (12/6/2026) en información de prensa; no se leyeron los reglamentos ni se indica su numeración.",
-    "Síndrome de Ulises: se contrastó el año (2002), la definición y los cuatro estresores con extractos del buscador; no se verificaron las siete categorías de duelo migratorio, que no se incluyen.",
-    "Los datos de población del INE son provisionales (ECP a 1/7/2026) y se revisan cada trimestre; las fichas de otros temas pueden citar cifras de otras fechas.",
-    "El repaso histórico de grandes migraciones es una síntesis de manual sin cifras; no procede de una norma.",
-    "La equivalencia entre los arts. 263-265 del RD 1155/2024 y los arts. 264-266 del Reglamento anterior (RD 557/2011) procede de un extracto del buscador; no se leyó el RD 557/2011."
+    "Algunas clasificaciones de la migración (temporal, estacional o permanente; voluntaria o forzosa) son de manual. La OIM define en su glosario la migración interna, la internacional, la regular y la irregular.",
+    "Las cifras de población del INE a 1/7/2026 son provisionales y se revisan cada trimestre (la de 1/1/2026 ya se ha corregido): retenga el orden de magnitud y que los nacidos en el extranjero superan a los extranjeros por las adquisiciones de nacionalidad.",
+    "El repaso de las grandes migraciones históricas es una síntesis de manual, sin cifras ni fuente oficial única: sirve para situar épocas y direcciones de los flujos, no para memorizar fechas exactas."
   ]
 }

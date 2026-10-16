@@ -37,6 +37,12 @@
       "boe": "BOE-A-1978-31229",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
       "verificado": "Texto consolidado, última actualización de la consolidación 20/05/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad (art. 5.2.c)",
+      "boe": "BOE-A-1986-6859",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859",
+      "verificado": "Texto consolidado, última actualización de la consolidación 17/12/2025 (leído el 16/10/2026)"
     }
   ],
   "novedades": [
@@ -434,7 +440,7 @@
         "Necesidad."
       ],
       "correcta": 1,
-      "explicacion": "Los principios del art. 588 bis a son especialidad, idoneidad, excepcionalidad, necesidad y proporcionalidad. La oportunidad es uno de los principios de uso de la fuerza de la LO 2/1986 (congruencia, oportunidad y proporcionalidad), no de estas medidas.",
+      "explicacion": "Los principios del art. 588 bis a son especialidad, idoneidad, excepcionalidad, necesidad y proporcionalidad. La oportunidad no figura entre ellos: junto con la congruencia y la proporcionalidad, rige el uso de los medios por las Fuerzas y Cuerpos de Seguridad (art. 5.2.c LO 2/1986).",
       "ref": "art. 588 bis a LECrim",
       "dificultad": 2
     },
@@ -486,7 +492,7 @@
         "Cualquier delito doloso con pena máxima de al menos tres años de prisión."
       ],
       "correcta": 2,
-      "explicacion": "El art. 588 septies a contiene una lista cerrada: organización criminal, terrorismo, delitos contra menores o personas con capacidad modificada judicialmente, delitos contra la Constitución, traición y defensa nacional y delitos cometidos con instrumentos informáticos o TIC. El criterio de pena máxima de al menos tres años pertenece a otras medidas, como la interceptación de comunicaciones del art. 579.1.",
+      "explicacion": "El art. 588 septies a contiene una lista cerrada: organización criminal, terrorismo, delitos contra menores o personas con capacidad modificada judicialmente, delitos contra la Constitución, traición y defensa nacional y delitos cometidos con instrumentos informáticos o TIC. El criterio de la pena máxima de al menos tres años pertenece a otras medidas, como la detención de la correspondencia (art. 579.1) y la interceptación de comunicaciones telefónicas y telemáticas (art. 588 ter a, que remite a esa lista).",
       "ref": "art. 588 septies a LECrim",
       "dificultad": 3
     },
@@ -538,7 +544,7 @@
         "Cuando la víctima ha perdonado al autor."
       ],
       "correcta": 0,
-      "explicacion": "El art. 201.2 exime de denuncia los hechos del art. 198, los que afectan a intereses generales o a una pluralidad de personas y los cometidos contra menores o personas con discapacidad necesitadas de especial protección. Con víctima mayor y autor particular sí hace falta denuncia, y el perdón del ofendido extingue la acción penal, no la sustituye.",
+      "explicacion": "El art. 201.2 exime de denuncia los hechos del art. 198, los que afectan a intereses generales o a una pluralidad de personas y los cometidos contra menores o personas con discapacidad necesitadas de especial protección. Con víctima mayor y autor particular sí hace falta denuncia, y el perdón del ofendido no dispensa de ella: extingue la acción penal (art. 201.3).",
       "ref": "art. 201 CP",
       "dificultad": 2
     },

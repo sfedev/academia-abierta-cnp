@@ -13,6 +13,12 @@
       "boe": "BOE-A-1995-25444",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
       "verificado": "Texto consolidado, última actualización de la consolidación 09/04/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad (art. 7)",
+      "boe": "BOE-A-1986-6859",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859",
+      "verificado": "Texto consolidado, última actualización de la consolidación 17/12/2025 (leído el 16/10/2026)"
     }
   ],
   "novedades": [
@@ -184,7 +190,8 @@
     "Depósito de armas de fuego reglamentadas: cinco o más armas, no tres ni cuatro; en las armas de guerra basta cualquiera, y en las municiones decide el tribunal.",
     "Sedición suprimida desde 2023 y rebelión fuera del título: las preguntas de ubicación sistemática juegan con ello. Tampoco existe ya la incitación del art. 559.",
     "Disposición común (art. 562): inhabilitación absoluta de 10 a 15 años para la autoridad; no la mezcles con los 6 a 8 años del art. 557.2 ni con los 12 a 20 años del art. 570.2.",
-    "Concurso de delitos: las penas de los desórdenes se imponen sin perjuicio de las de lesiones, amenazas, coacciones o daños (art. 557.6); no hay absorción automática."
+    "Concurso de delitos: las penas de los desórdenes se imponen sin perjuicio de las de lesiones, amenazas, coacciones o daños (art. 557.6); no hay absorción automática.",
+    "Los policías son **agentes de la autoridad** (art. 7.1 LO 2/1986), no autoridad: solo se les considera **autoridad**, a efectos de su protección penal, en el atentado con **armas de fuego, explosivos u otros medios de análoga peligrosidad** (art. 7.2 LO 2/1986)."
   ],
   "caido": [
     {
@@ -422,8 +429,8 @@
         "La tenencia ilícita de armas."
       ],
       "correcta": 1,
-      "explicacion": "La rebelión se regula en el Título XXI (delitos contra la Constitución, capítulo I). El atentado (art. 550) y la tenencia de armas (arts. 563-564) pertenecen al Título XXII.",
-      "ref": "Título XXI y Título XXII, Libro II CP",
+      "explicacion": "La rebelión (art. 472) se regula en el Título XXI (delitos contra la Constitución, capítulo I). El atentado (art. 550) y la tenencia ilícita de armas (arts. 563-564) pertenecen al Título XXII, delitos contra el orden público (capítulos II y V).",
+      "ref": "arts. 472, 550 y 564 CP (Títulos XXI y XXII del Libro II)",
       "dificultad": 1
     },
     {
@@ -500,8 +507,8 @@
         "Los agentes de las Fuerzas y Cuerpos de Seguridad en el ejercicio de sus funciones."
       ],
       "correcta": 0,
-      "explicacion": "El art. 24.1 considera autoridad a quien tiene mando o ejerce jurisdicción propia y, en todo caso, a diputados, senadores, miembros de asambleas autonómicas y del Parlamento Europeo y a los funcionarios del Ministerio Fiscal. El funcionario público (art. 24.2) es un concepto más amplio, y los agentes de la autoridad no son autoridad.",
-      "ref": "art. 24 CP",
+      "explicacion": "El art. 24.1 considera autoridad a quien tiene mando o ejerce jurisdicción propia y, en todo caso, a diputados, senadores, miembros de asambleas autonómicas y del Parlamento Europeo y a los funcionarios del Ministerio Fiscal. El funcionario público (art. 24.2) es un concepto más amplio. Los miembros de las Fuerzas y Cuerpos de Seguridad son agentes de la autoridad (art. 7.1 LO 2/1986): solo se les considera autoridad, a efectos de su protección penal, en el atentado cometido con armas de fuego, explosivos u otros medios de agresión de análoga peligrosidad (art. 7.2 LO 2/1986), no siempre.",
+      "ref": "art. 24 CP; art. 7 LO 2/1986",
       "dificultad": 2
     },
     {

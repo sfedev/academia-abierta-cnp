@@ -1,0 +1,56 @@
+{
+  "fuente": {
+    "boe": "BOE-A-2026-15055",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15055",
+    "nota": "Datos de las bases de la convocatoria de 2026. La de 2027 puede cambiarlos: cuando salga, la pestaña Novedades la compara con esta."
+  },
+  "calendario2026": {
+    "publicacion": "2026-07-10",
+    "plazoInicio": "2026-07-13",
+    "plazoFin": "2026-07-31",
+    "plazoTexto": "Quince días hábiles contados a partir del día siguiente al de la publicación en el BOE (base 3.1)."
+  },
+  "idioma": {
+    "requisito": "Nivel A2 como mínimo en inglés o francés (idiomas prioritarios de la Policía Nacional), acreditado antes de que termine el último día del plazo de solicitud (base 2.1.1.i).",
+    "consecuencia": "Si no se acredita ese nivel, se queda excluido del proceso selectivo.",
+    "comoSeAcredita": "El idioma se indica en la solicitud y el certificado se presenta cuando se cita a la entrevista personal (base 7.1.b). Solo valen los certificados del Anexo VI y, si un examen tiene varias modalidades, solo la presencial (salvo los certificados de la Policía Nacional y de las EOI, que valen en cualquier modalidad).",
+    "certificadosA2": {
+      "inglesYFrances": [
+        "Certificado de nivel de idioma de la División de Formación y Perfeccionamiento de la Policía Nacional",
+        "Certificado de una Escuela Oficial de Idiomas (EOI) de nivel A2 o superior"
+      ],
+      "ingles": [
+        "Cambridge A2 Key con grado B o C (con grado A acredita B1)",
+        "Linguaskill General (todos los módulos, presencial): de 120 a 139 puntos",
+        "Trinity College ISE Foundation (pass, merit o distinction)",
+        "IELTS (Academic o General Training): nota media de 3,5 a menos de 4",
+        "TOEIC 4 Skills: de 225 a 549 en Listening and Reading y de 160 a 239 en Speaking and Writing",
+        "Oxford Test of English: puntuación media final A2",
+        "Aptis General o Aptis ESOL General (British Council): nivel A2",
+        "LPT 360 (Capman Testing Solutions): de 44 a 82 puntos",
+        "TELC English A2"
+      ],
+      "frances": [
+        "DELF A2 (Centre International d'Études Pédagogiques del Ministerio de Educación francés, o Alliance Française)",
+        "TCF Tout Public: de 200 a 299 puntos",
+        "TELC Français A2"
+      ]
+    },
+    "meritos": [
+      {"nivel": "B1", "puntos": 0.5},
+      {"nivel": "B2", "puntos": 1},
+      {"nivel": "C1", "puntos": 1.5},
+      {"nivel": "C2", "puntos": 2}
+    ],
+    "meritosTexto": "Un nivel superior al A2 en un idioma prioritario o de interés policial suma puntos a la nota final de la oposición, como máximo 2, con independencia del número de idiomas (base 6.14). La fecha límite para tenerlo es el último día del plazo de solicitud (base 6.15).",
+    "consejo": "Los exámenes de certificación tienen convocatorias y plazos de resultados propios: conviene tener el certificado antes de que se publique la convocatoria, porque el plazo de solicitud es corto."
+  },
+  "psicotecnicos": {
+    "base": "6.1.3.c",
+    "descripcion": "Uno o varios test de aptitudes (inteligencia general y específica) para la función policial, con una duración total máxima de 60 minutos.",
+    "formula": "[A − E/(n−1)] × 10 / P, con A aciertos, E errores, n alternativas por pregunta y P preguntas. Si hay varios ejercicios, la nota es su media.",
+    "calificacion": "Apto o no apto: el tribunal fija la puntuación mínima.",
+    "cuando": "Se hacen en el mismo acto que la prueba de conocimientos (base 6.7), pero solo se corrigen a quien supera las pruebas anteriores (base 6.8).",
+    "impugnacion": "Dos días hábiles desde la publicación del cuestionario para impugnar preguntas (base 6.2)."
+  }
+}

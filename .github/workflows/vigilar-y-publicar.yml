@@ -46,15 +46,37 @@ jobs:
         id: vigilar
         run: python -I herramientas/vigilar_leyes.py
 
+      - name: Vigilar la convocatoria de Escala Básica (BOE)
+        # Lee los sumarios diarios del BOE; si sale la convocatoria nueva, compara su Anexo I con el temario actual.
+        id: convocatoria
+        run: python -I herramientas/vigilar_convocatoria.py
+
       - name: Guardar las novedades en el repositorio
         run: |
           git config user.name "vigilante-leyes"
           git config user.email "actions@users.noreply.github.com"
           git add datos/novedades.json datos/vigilancia
           if ! git diff --cached --quiet; then
-            git commit -m "Vigilancia de leyes: novedades detectadas"
+            git commit -m "Vigilancia de leyes y convocatoria: novedades detectadas"
             git push
           fi
+
+      - name: Avisar con un issue si sale la convocatoria
+        if: steps.convocatoria.outputs.nueva == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create convocatoria --description "Nueva convocatoria de Escala Básica" --color 1D76DB --force
+          URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/#novedades"
+          {
+            cat convocatoria-resumen.md
+            echo
+            echo "Ver la comparación del temario en la web: $URL"
+          } > cuerpo-convocatoria.md
+          gh issue create \
+            --title "Nueva convocatoria de Escala Básica publicada en el BOE" \
+            --label convocatoria \
+            --body-file cuerpo-convocatoria.md
 
       - name: Mantener activo el programador
         # GitHub desactiva los workflows programados de un repositorio público tras 60 días sin actividad.

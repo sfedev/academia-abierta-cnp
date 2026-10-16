@@ -14,8 +14,13 @@ PROYECTO_academia-abierta-cnp.md
 # Temporales
 novedades-resumen.md
 cuerpo-issue.md
+convocatoria-resumen.md
+cuerpo-convocatoria.md
 .repro/
 .tmp*
 __pycache__/
 *.pyc
 .claude/
+
+# Exámenes oficiales importados: solo en local (derechos y fiabilidad de las copias)
+examenes/

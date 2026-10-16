@@ -37,6 +37,7 @@
         exp: q.explicacion,
         ref: q.ref,
         dif: q.dificultad || 2,
+        verif: q.verif || null, // estado de la auditoría contra el BOE (herramientas/auditar_preguntas.py)
       });
     });
     (t.datos.tarjetas || []).forEach(function (c) {
@@ -49,7 +50,7 @@
   /* ---------- Progreso ---------- */
   var IDS_V = 2; // 1 = progreso guardado con «tema.hash(texto)»; 2 = con el id fijo de la ficha
   function fresh() {
-    return { v: 1, ids: IDS_V, leidos: {}, preg: {}, tarj: {}, sims: [], ult: null, tema: 0, nov: [] };
+    return { v: 1, ids: IDS_V, leidos: {}, preg: {}, tarj: {}, sims: [], ult: null, tema: 0, nov: [], aj: {}, psico: [] };
   }
   /* Traslada el progreso guardado con los ids antiguos (hash del texto) a los ids fijos. Los ids antiguos se
      recalculan desde el texto actual: sirve para el contenido publicado cuando se introdujeron los ids fijos. */
@@ -110,6 +111,18 @@
   };
 
   AA.store = {
+    /* Preferencias sueltas (p. ej. «a2»: ya tiene el certificado de idioma). Con un valor, lo guarda. */
+    ajuste: function (k, v) {
+      S.aj = S.aj || {};
+      if (arguments.length > 1) { S.aj[k] = v; save(); }
+      return S.aj[k];
+    },
+    /* Sesiones de psicotécnicos: {ts, tipo, n, a, e, nota}. Se guardan las 40 últimas. */
+    guardarPsico: function (r) {
+      S.psico = (S.psico || []).concat([r]).slice(-40);
+      save();
+    },
+    psico: function () { return S.psico || []; },
     novedadesVistas: function () { return S.nov || []; },
     marcarNovedadesVistas: function (ids) {
       var vistas = S.nov || [];

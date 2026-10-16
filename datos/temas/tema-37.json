@@ -21,7 +21,12 @@
     {
       "nombre": "RAE-ASALE, Diccionario panhispánico de dudas (2.ª ed., en línea)",
       "url": "https://www.rae.es/dpd/",
-      "verificado": "Entradas «guion», «cliché», «deshecho», «desecho» y «grosso modo» consultadas el 16/10/2026"
+      "verificado": "Entradas «guion», «cliché», «deshecho», «desecho», «grosso modo», «gusto», «bordo», «aparte», «porqué», «sino», «todo» (sobre todo), «tilde», «echar», «idiosincrasia» y «beneficencia» consultadas el 16/10/2026"
+    },
+    {
+      "nombre": "RAE-ASALE, Nueva gramática básica de la lengua española (2011), versión en línea",
+      "url": "https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/",
+      "verificado": "Apartado 12.4 (numerales) consultado el 16/10/2026"
     },
     {
       "nombre": "RAE, Diccionario de la lengua española (DLE, en línea)",
@@ -113,7 +118,7 @@
       "titulo": "Uso de las letras",
       "puntos": [
         "El abecedario tiene **27 letras**; **ch, ll, gu, qu y rr** son **dígrafos** (ch y ll ya no son letras). La **h** es la única letra que no representa ningún fonema. Nombres: be, uve, uve doble, ye (i griega), erre, zeta.",
-        "Las listas siguientes son orientadoras: en caso de duda, la palabra concreta se consulta en el diccionario."
+        "Las listas siguientes son orientadoras: en caso de duda, la palabra concreta se consulta en el diccionario. Grafías que ya han caído: **idiosincrasia** (no «idiosincracia»), **beneficencia** (no «beneficiencia») y **vicisitud**; **echo**, de echar (te echo de menos), sin h, frente a **hecho**, participio de hacer, con h."
       ],
       "tabla": {
         "cabecera": [
@@ -283,7 +288,7 @@
         "**Locuciones y citas en otra lengua** (incluidas las latinas: ad libitum, grosso modo, post mortem, vox populi, numerus clausus): en **cursiva** (o comillas) y **sin tildes**, porque el latín no las lleva. DPD: «grosso modo» es ‘aproximadamente’, no «a grosso modo»; «motu proprio», no «motu propio» ni «de motu proprio».",
         "**Nombres propios**: los topónimos extranjeros con forma tradicional asentada se mantienen (Pekín, Bombay, Esmirna, Costa de Marfil) salvo cambio oficial de nombre (Sri Lanka, Burkina Faso); México y Méjico valen, y se prefiere México. Nombre de pila compuesto sin guion (José Antonio); apellido compuesto con guion (Juan Pérez-Gómez).",
         "**Números romanos**: siempre en mayúscula; no se repite un signo más de tres veces consecutivas (444 = CDXLIV) ni cuando hay otro signo de ese valor (10 = X, no VV); **V, L y D no restan** (45 = XLV). Se usan para siglos (siempre pospuestos: siglo XXI), reyes y papas (Juan XXIII), congresos y capítulos o tomos.",
-        "**Cifras**: los miles se separan con un **pequeño espacio** (27 315 857), nunca con punto ni coma; no se separan los números de cuatro cifras ni los años, páginas, números de ley, códigos postales o identificadores (el año 2010; artículo 1566). Separador decimal: coma o punto, ambos válidos.",
+        "**Cifras**: los miles se separan con un **pequeño espacio** (27 315 857), nunca con punto ni coma; no se separan los números de cuatro cifras ni los años, páginas, números de ley, códigos postales o identificadores (el año 2010; artículo 1566). Separador decimal: coma o punto, ambos válidos; la Ortografía recomienda el **punto** para unificar el uso (OB 7.3.2.2). Nunca el apóstrofo (28'57).",
         "**Numerales**: «doscientos, trescientos, seiscientos» (no «docientos»), «setecientos, novecientos» (no «setescientos»); «veintiún mil». Ordinales 11.º y 12.º: undécimo y duodécimo, o decimoprimero y decimosegundo; vigésimo primero o vigesimoprimero. **Fraccionarios** en una palabra: onceavo (1/11), doceavo, veinteavo, centésimo; **onceavo no es ordinal**."
       ]
     }
@@ -455,7 +460,7 @@
         "Si tu no vienes, iré yo sola."
       ],
       "correcta": 1,
-      "explicacion": "«Si» condicional es conjunción átona y se escribe sin tilde; «tú» pronombre personal es tónico y lleva tilde diacrítica. La primera frase cumple ambas reglas y las otras fallan una cada una: la tilde en «sí» condicional o la ausencia de tilde en «tú».",
+      "explicacion": "«Si» condicional es conjunción átona y se escribe sin tilde; «tú» pronombre personal es tónico y lleva tilde diacrítica. Solo «Si tú no vienes» cumple ambas reglas: «Sí tú...» tilda la conjunción condicional y «Si tu...» deja sin tilde el pronombre.",
       "ref": "OB 2.4.3.1",
       "dificultad": 1
     },
@@ -468,7 +473,7 @@
         "Aún cuando llegue tarde, lo esperaremos."
       ],
       "correcta": 0,
-      "explicacion": "«Aún» lleva tilde cuando equivale a «todavía», como en la primera frase. «Aun» sin tilde se usa con valor inclusivo (hasta, incluso) o concesivo, como en «aun cuando»; por eso falla la segunda frase, que lleva «aún cuando» con tilde, y la tercera, que escribe sin tilde un «aún» temporal.",
+      "explicacion": "«Aún» lleva tilde cuando equivale a «todavía», como en «Aún no ha llegado el paquete». «Aun» se escribe sin tilde cuando significa ‘incluso’ o tiene valor concesivo, como en la locución «aun cuando». Por eso fallan «Aun no ha llegado», que deja sin tilde un «aún» temporal, y «Aún cuando llegue tarde», que tilda el concesivo.",
       "ref": "OB 2.4.4",
       "dificultad": 2
     },
@@ -533,7 +538,7 @@
         "Esta cuestión es un caso a parte."
       ],
       "correcta": 0,
-      "explicacion": "En «afectar a parte del equipo» se combinan la preposición «a» y el sustantivo «parte». «Aparte» en una sola palabra es adjetivo (‘distinto’), sustantivo (‘conversación privada’) o adverbio (‘en otro lugar’): la segunda frase la usa donde hace falta la preposición «a» más «parte», y la tercera separa «a parte» donde corresponde el adjetivo («un caso aparte»).",
+      "explicacion": "En «afectar a parte del equipo» se combinan la preposición «a» y el sustantivo «parte». «Aparte», en una sola palabra, es adjetivo (‘distinto’: un caso aparte), sustantivo (‘conversación al margen de otros’) o adverbio (‘en otro lugar’). Por eso es incorrecto «ha afectado aparte del equipo», donde hace falta la preposición más el sustantivo, y también «un caso a parte», donde corresponde el adjetivo.",
       "ref": "OB 5.5.2",
       "dificultad": 2
     },
@@ -546,8 +551,8 @@
         "Se encontraba a gusto en su nuevo puesto."
       ],
       "correcta": 2,
-      "explicacion": "«A gusto» es una locución adverbial que el Diccionario de la lengua española recoge en dos palabras y significa ‘según conviene, agrada o es necesario’. No existe la grafía «agusto» ni la forma con guion.",
-      "ref": "DLE, «gusto», loc. adv. a gusto",
+      "explicacion": "«A gusto» es una locución adverbial que el Diccionario de la lengua española recoge en dos palabras (‘según conviene, agrada o es necesario’). El Diccionario panhispánico de dudas califica de incorrecta la grafía simple «agusto», y la forma con guion tampoco existe.",
+      "ref": "DLE, «gusto», loc. adv. a gusto; DPD, «gusto» 3",
       "dificultad": 1
     },
     {
@@ -559,8 +564,8 @@
         "La embarcación encalló en la costa con todos los pasajeros abordo."
       ],
       "correcta": 1,
-      "explicacion": "«Encallar» se escribe con ll (‘asentarse en arena, piedras o rocas y quedar inmovilizada’) y «a bordo» es una locución adverbial en dos palabras. «Abordo» en una palabra es un sustantivo poco usado equivalente a «abordaje» y «encayar» no existe.",
-      "ref": "DLE, «encallar» y «bordo»",
+      "explicacion": "«Encallar» se escribe con ll (‘asentarse en arena, piedras o rocas y quedar inmovilizada’) y «a bordo» es una locución adverbial que se escribe siempre en dos palabras: el DPD no admite «abordo» para ella (en una palabra, «abordo» es un sustantivo poco usado equivalente a «abordaje»). «Encayar» no figura en el diccionario.",
+      "ref": "DLE, «encallar» y «abordo»; DPD, «bordo»",
       "dificultad": 2
     },
     {
@@ -585,8 +590,8 @@
         "Decimoprimero"
       ],
       "correcta": 0,
-      "explicacion": "«Onceavo» es un numeral fraccionario: designa una de las once partes iguales en que se divide un todo. Para el orden se usan «undécimo», «decimoprimero» o «décimo primero», que son válidas.",
-      "ref": "OB 7.3.3.2 y 7.3.3.3; DLE, «onceavo»",
+      "explicacion": "«Onceavo» es un numeral fraccionario: designa cada una de las once partes iguales en que se divide un todo, y la gramática académica considera incorrecto usar los fraccionarios con valor de ordinales. Para el orden valen «undécimo», «decimoprimero» o «décimo primero».",
+      "ref": "OB 7.3.3.2 y 7.3.3.3; NGB 12.4.4; DLE, «onceavo»",
       "dificultad": 3
     },
     {
@@ -729,7 +734,7 @@
       ],
       "correcta": 2,
       "explicacion": "El sujeto no puede separarse del verbo con coma, sea cual sea su longitud o su naturaleza; por eso la coma tras la enumeración del sujeto es un error. En cambio, los miembros de la enumeración sí se separan con comas, de modo que tampoco es correcto omitirlas.",
-      "ref": "OB 3.2.2.7 y 3.2.2.8",
+      "ref": "OB 3.2.2.6 a) y 3.2.2.7",
       "dificultad": 2
     },
     {
@@ -759,9 +764,5 @@
       "dificultad": 1
     }
   ],
-  "dudas": [
-    "El separador decimal: la Ortografía recomienda el punto pero admite coma y punto; en España se usa la coma. No he redactado preguntas sobre ello.",
-    "He leído la Ortografía básica (2012), que la RAE declara fiel a la Ortografía de 2010; no he podido abrir el texto íntegro de 2010, por lo que los números de apartado citados son los de la versión básica.",
-    "«Idiosincrasia», «vicisitud» y «beneficencia» (P39) se han comprobado en el DLE, pero no hay regla específica en el resumen; «hecho / echo» y «había» impersonal se tratan solo como tarjetas o en el tema 36."
-  ]
+  "dudas": []
 }

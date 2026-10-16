@@ -22,22 +22,27 @@
     {
       "nombre": "Diccionario de la lengua española (RAE): «prejuicio», «estereotipo» y «xenofobia»",
       "url": "https://dle.rae.es/prejuicio",
-      "verificado": "Acepciones contrastadas el 16/10/2026 con extractos del DLE en línea obtenidos por buscador (el acceso directo devolvió error 403)"
+      "verificado": "Acepciones de «prejuicio», «estereotipo» y «xenofobia» leídas en dle.rae.es el 16/10/2026"
     },
     {
-      "nombre": "Daniel Katz (1960), «The Functional Approach to the Study of Attitudes», Public Opinion Quarterly 24(2); Rosenberg y Hovland (1960), modelo tripartito de la actitud (obras citadas en «Attitude (psychology)»)",
-      "url": "https://en.wikipedia.org/wiki/Attitude_(psychology)",
-      "verificado": "Cuatro funciones de Katz y modelo tripartito contrastados el 16/10/2026 en fuente secundaria (el artículo original no estaba accesible)"
+      "nombre": "Daniel Katz (1960), «The Functional Approach to the Study of Attitudes», Public Opinion Quarterly 24(2), pp. 163-204 (DOI 10.1086/266945)",
+      "url": "https://doi.org/10.1086/266945",
+      "verificado": "Texto del artículo leído el 16/10/2026: cuatro funciones (pp. 170-176) y resumen final"
     },
     {
-      "nombre": "The Authoritarian Personality (Adorno, Frenkel-Brunswik, Levinson y Sanford, 1950); Milton Rokeach, The Open and Closed Mind (1960)",
-      "url": "https://en.wikipedia.org/wiki/Authoritarian_personality",
-      "verificado": "Autores, año y nueve rasgos de la escala F contrastados el 16/10/2026 en fuentes secundarias; definición de dogmatismo según extractos de tesis que citan a Rokeach"
+      "nombre": "Adorno, Frenkel-Brunswik, Levinson y Sanford, «The Authoritarian Personality» (Harper, 1950)",
+      "url": "https://archive.org/details/dli.ernet.469826",
+      "verificado": "Texto leído el 16/10/2026: autores, año, construcción de la escala F y sus nueve variables"
     },
     {
-      "nombre": "Obras de referencia sobre estereotipo (Lippmann, 1922), prejuicio (Allport, 1954), identidad social (Tajfel y Turner), experimento de Robbers Cave (Sherif, 1954) y grupos sociales (Cooley, 1909; Sumner, 1906)",
-      "url": "https://en.wikipedia.org/wiki/Social_identity_theory",
-      "verificado": "Autores y fechas contrastados el 16/10/2026 en las entradas «Stereotype», «Prejudice», «Social identity theory», «Robbers Cave experiment», «Social group» y «Ethnocentrism»"
+      "nombre": "Obras originales de dominio público o de acceso abierto: W. Lippmann, «Public Opinion» (1922, parte III «Stereotypes»); C. H. Cooley, «Social Organization» (1909, cap. III); W. G. Sumner, «Folkways» (1906); E. S. Bogardus, «Measuring Social Distances» (1925); A. H. Maslow, «A Theory of Human Motivation» (1943); M. Sherif y otros, «Intergroup Conflict and Cooperation: The Robbers Cave Experiment» (1954/1961); H. Tajfel y J. Turner (1979, revisado en 1986)",
+      "url": "https://www.gutenberg.org/ebooks/6456",
+      "verificado": "Textos leídos el 16/10/2026 (Project Gutenberg, psychclassics.yorku.ca, Mead Project)"
+    },
+    {
+      "nombre": "Obras de referencia sin texto abierto: Rosenberg y Hovland (eds.), «Attitude Organization and Change» (Yale University Press, 1960); M. Rokeach, «The Open and Closed Mind» (Basic Books, 1960); G. Allport, «The Nature of Prejudice» (1954)",
+      "url": "https://archive.org/details/attitudeorganiza0003unse",
+      "verificado": "Datos bibliográficos comprobados el 16/10/2026; el contenido se recoge según la literatura académica que los cita"
     }
   ],
   "novedades": [],
@@ -45,7 +50,7 @@
     "**Componentes de la actitud** (modelo tripartito, Rosenberg y Hovland, 1960): **cognitivo** (creencias), **afectivo** (sentimientos) y **conductual** (tendencia a actuar).",
     "**Funciones de las actitudes (Katz, 1960)**: **instrumental** (adaptativa o utilitaria), de **defensa del yo**, de **expresión de valores** y de **conocimiento**. Cuidado con funciones inventadas («gestión del duelo»).",
     "Estereotipo, prejuicio y discriminación forman una cadena: el **estereotipo** es la creencia compartida (cognitivo), el **prejuicio** la valoración, por lo general negativa (afectivo) y la **discriminación** el trato desfavorable (conductual).",
-    "**Walter Lippmann** («Public Opinion», 1922) introdujo «estereotipo» en su sentido psicológico moderno; **Gordon Allport** («The Nature of Prejudice», 1954) es la referencia sobre el prejuicio y la hipótesis del contacto.",
+    "A **Walter Lippmann** («Public Opinion», 1922) se atribuye el uso de «estereotipo» en su sentido psicológico moderno; **Gordon Allport** («The Nature of Prejudice», 1954) es la referencia sobre el prejuicio y la hipótesis del contacto.",
     "**DLE**: «prejuicio» = opinión previa y tenaz, por lo general desfavorable, acerca de algo que se conoce mal; «estereotipo» = imagen o idea aceptada comúnmente por un grupo o sociedad con carácter inmutable.",
     "**Personalidad autoritaria**: Adorno, Frenkel-Brunswik, Levinson y Sanford (1950); se mide con la **escala F** (potencial fascista), con **nueve rasgos**. **Dogmatismo**: Rokeach, «The Open and Closed Mind» (1960).",
     "Protocolo de las FCSE: **racismo** = creencias que aseveran la superioridad natural de un grupo sobre otro; **xenofobia** = rechazo y exclusión de toda identidad cultural ajena, que proclama la segregación cultural y acepta al extranjero solo mediante su asimilación.",
@@ -99,7 +104,7 @@
       "puntos": [
         "El **Protocolo de actuación de las FCSE para los delitos de odio** (Anexo I) los define así. **Estereotipos**: «un conjunto de creencias compartidas y generalmente estructuradas acerca de los atributos personales que caracterizan a los miembros de un grupo»; pueden ser positivos o negativos y se originan en el aprendizaje de la cultura y las vivencias personales. **Prejuicios**: «tendencias evaluativas dirigidas hacia los grupos sociales y sus miembros», por lo general negativas hacia grupos étnicos y nacionales. **Discriminar**: tratar de forma diferente y desfavorable a una persona o grupo basándose en la creencia de que no todos somos iguales en derechos y dignidad.",
         "**DLE**: «prejuicio» es la opinión previa y tenaz, por lo general desfavorable, acerca de algo que se conoce mal; «estereotipo», la imagen o idea aceptada comúnmente por un grupo o sociedad con carácter inmutable.",
-        "Origen del vocabulario: **Walter Lippmann** utilizó por primera vez «estereotipo» en el sentido psicológico moderno en «Public Opinion» (**1922**). **Gordon Allport**, en «The Nature of Prejudice» (**1954**), vinculó el prejuicio al pensamiento por categorías y propuso la **hipótesis del contacto**: el contacto intergrupal en condiciones adecuadas reduce el prejuicio.",
+        "Origen del vocabulario: a **Walter Lippmann** se atribuye el uso de «estereotipo» en el sentido psicológico moderno, en «Public Opinion» (**1922**), que dedica una parte a los «Stereotypes». **Gordon Allport**, en «The Nature of Prejudice» (**1954**), vinculó el prejuicio al pensamiento por categorías y propuso la **hipótesis del contacto**: el contacto intergrupal en condiciones adecuadas reduce el prejuicio.",
         "**Discriminación** (Ley 15/2022, art. 6): **directa** (se trata a una persona o grupo de manera menos favorable que a otros en situación análoga por una causa protegida), **indirecta** (una disposición, criterio o práctica aparentemente neutros causa una desventaja particular), **por asociación**, **por error**, **múltiple e interseccional**, acoso, inducción u orden de discriminar y represalias. La Convención internacional sobre la eliminación de la discriminación racial (art. 1.1) define la discriminación racial como toda distinción, exclusión, restricción o preferencia basada en raza, color, linaje u origen nacional o étnico que anule o menoscabe derechos humanos en condiciones de igualdad."
       ],
       "tabla": {
@@ -134,8 +139,8 @@
     {
       "titulo": "Teorías sobre el prejuicio y el conflicto entre grupos",
       "puntos": [
-        "**Sherif y Robbers Cave (1954)**: en un campamento de verano de Oklahoma, 22 niños de once y doce años formaron dos grupos y compitieron por premios; la hostilidad apareció sin que hiciera falta ninguna diferencia individual. Es la base de la teoría del **conflicto realista** entre grupos.",
-        "**Teoría de la identidad social** (Henri Tajfel y John Turner, años setenta y ochenta): la identidad social es la parte del autoconcepto que procede de la pertenencia percibida a grupos; las personas buscan una **distintividad positiva** del propio grupo. Tajfel desarrolló además el **paradigma del grupo mínimo**: basta una categorización trivial para generar favoritismo endogrupal.",
+        "**Sherif y Robbers Cave (1954)**: en un campamento de verano de Oklahoma, 22 niños de unos once años, que no se conocían entre sí, formaron dos grupos y compitieron por premios; la hostilidad apareció sin que hiciera falta ninguna diferencia individual. Es la base de la teoría del **conflicto realista** entre grupos.",
+        "**Teoría de la identidad social** (Henri Tajfel y John Turner, 1979; versión revisada de 1986): la identidad social es la parte del autoconcepto que procede de la pertenencia percibida a grupos; las personas buscan una **distintividad positiva** del propio grupo. Tajfel desarrolló además el **paradigma del grupo mínimo** (estudios de 1970 y 1971): basta una categorización trivial para generar favoritismo endogrupal.",
         "**Disonancia cognitiva** (Festinger, 1957) y **conformidad** (experimentos de Asch, años cincuenta) explican por qué los individuos acomodan sus actitudes a las del grupo."
       ]
     },
@@ -152,7 +157,7 @@
       "titulo": "Los grupos sociales",
       "puntos": [
         "**Grupo social**: dos o más personas que interactúan, comparten características y tienen un sentido de unidad. Los grupos primarios son pequeños, duraderos, de interacción cara a cara y alta cohesión e identificación; son la principal fuente de socialización.",
-        "**Cooley** («Social Organization», 1909) formuló el concepto de **grupo primario** (familia, grupos de juego y comunidad de mayores) como fuente de moral, sentimientos e ideales. **Tönnies** distinguió **comunidad** («Gemeinschaft») y **sociedad** («Gesellschaft»). **Sumner** («Folkways», 1906) acuñó **etnocentrismo**: ver el propio grupo como centro de todo y medir a los demás en relación con él. **Merton** desarrolló la teoría del **grupo de referencia**, al que el individuo se compara aunque no pertenezca.",
+        "**Cooley** («Social Organization», 1909) formuló el concepto de **grupo primario** (familia, grupos de juego y comunidad de mayores) como fuente de moral, sentimientos e ideales. **Tönnies** distinguió **comunidad** («Gemeinschaft») y **sociedad** («Gesellschaft»). **Sumner** («Folkways», 1906) definió el **etnocentrismo**: ver el propio grupo como centro de todo y medir a los demás en relación con él. **Merton** desarrolló la teoría del **grupo de referencia**, al que el individuo se compara aunque no pertenezca.",
         "**Maslow** (1943, «A Theory of Human Motivation»): cinco niveles de necesidades (fisiológicas, seguridad, afiliación, estima y autorrealización), que se representan en una pirámide aunque Maslow no la dibujó.",
         "**Lewin** distinguió climas de liderazgo **autoritario**, **democrático** y «laissez-faire»."
       ]
@@ -223,7 +228,7 @@
     },
     {
       "id": "t_29_07",
-      "p": "¿Quién introdujo «estereotipo» en su sentido psicológico moderno y cuándo?",
+      "p": "¿A quién se atribuye el uso de «estereotipo» en su sentido psicológico moderno y en qué obra?",
       "r": "**Walter Lippmann**, en «Public Opinion» (**1922**)."
     },
     {
@@ -277,7 +282,7 @@
         "Perceptivo, motivacional y social"
       ],
       "correcta": 0,
-      "explicacion": "El modelo tripartito distingue el componente cognitivo (creencias), el afectivo (sentimientos) y el conductual (tendencia a actuar). Instrumental, expresivo y defensivo recuerdan a las funciones de Katz, y perceptivo, motivacional y social no forman ningún modelo clásico de la actitud.",
+      "explicacion": "El modelo tripartito distingue el componente cognitivo (creencias), el afectivo (sentimientos) y el conductual (tendencia a actuar). Instrumental, expresivo y defensivo recuerdan a las funciones de Katz, y perceptivo, motivacional y social no son los componentes de este modelo.",
       "ref": "Rosenberg y Hovland (1960), modelo tripartito",
       "dificultad": 1
     },
@@ -322,15 +327,15 @@
     },
     {
       "id": "q_29_05",
-      "enunciado": "¿Quién introdujo el término «estereotipo» en su sentido psicológico moderno en la obra Public Opinion (1922)?",
+      "enunciado": "¿Qué autor dedicó a los «estereotipos» una parte de su obra Public Opinion (1922), a la que se atribuye el uso moderno de ese término en psicología social?",
       "opciones": [
         "Gordon Allport",
         "Walter Lippmann",
         "Theodor Adorno"
       ],
       "correcta": 1,
-      "explicacion": "Walter Lippmann, periodista estadounidense, usó por primera vez «estereotipo» con el sentido psicológico moderno en Public Opinion (1922). Allport escribió The Nature of Prejudice (1954) y Adorno es uno de los autores de La personalidad autoritaria (1950).",
-      "ref": "Lippmann (1922)",
+      "explicacion": "Walter Lippmann, periodista estadounidense, dedica la parte III de Public Opinion (1922) a los «Stereotypes»: imágenes que la cultura nos da ya formadas y con las que primero definimos y luego vemos. Allport escribió The Nature of Prejudice (1954) y Adorno es uno de los autores de La personalidad autoritaria (1950).",
+      "ref": "W. Lippmann, Public Opinion (1922), parte III",
       "dificultad": 1
     },
     {
@@ -355,8 +360,8 @@
         "El componente conductual: el trato desfavorable hacia sus miembros"
       ],
       "correcta": 0,
-      "explicacion": "El prejuicio es una tendencia evaluativa, de carácter afectivo, hacia un grupo y sus miembros. La creencia compartida sobre los atributos del grupo es el estereotipo (cognitivo) y el trato desfavorable es la discriminación (conductual).",
-      "ref": "Protocolo FCSE delitos de odio (2020), Anexo I",
+      "explicacion": "El Anexo I del Protocolo define los prejuicios como «tendencias evaluativas dirigidas hacia los grupos sociales y sus miembros», por lo general negativas; en la tríada clásica de la psicología social corresponden al componente afectivo-evaluativo. La creencia compartida sobre los atributos del grupo es el estereotipo (cognitivo) y el trato desfavorable es la discriminación (conductual).",
+      "ref": "Protocolo FCSE delitos de odio (2020), Anexo I; tríada clásica de la psicología social",
       "dificultad": 2
     },
     {
@@ -400,15 +405,15 @@
     },
     {
       "id": "q_29_11",
-      "enunciado": "¿Qué autor definió el dogmatismo como una organización cognitiva relativamente cerrada de creencias, centrada en la autoridad absoluta, en The Open and Closed Mind (1960)?",
+      "enunciado": "¿Qué autor publicó The Open and Closed Mind (1960), obra clásica sobre el dogmatismo y la mente cerrada?",
       "opciones": [
         "Theodor Adorno",
         "Milton Rokeach",
         "Henri Tajfel"
       ],
       "correcta": 1,
-      "explicacion": "Es la definición de Milton Rokeach en The Open and Closed Mind (1960). Adorno estudió la personalidad autoritaria y Tajfel desarrolló, con Turner, la teoría de la identidad social.",
-      "ref": "Rokeach (1960)",
+      "explicacion": "The Open and Closed Mind (1960) es de Milton Rokeach, que estudió el dogmatismo como sistema cerrado de creencias y lo midió con la escala D. Adorno estudió la personalidad autoritaria (escala F) y Tajfel desarrolló, con Turner, la teoría de la identidad social.",
+      "ref": "M. Rokeach, The Open and Closed Mind (Basic Books, 1960)",
       "dificultad": 2
     },
     {
@@ -433,8 +438,8 @@
         "La falta de contacto previo entre ellos"
       ],
       "correcta": 0,
-      "explicacion": "Los Sherif observaron hostilidad y agresividad cuando los grupos, creados con características equivalentes, competían por premios valorados; no hacían falta diferencias individuales. Esa es la base de la teoría del conflicto realista intergrupal.",
-      "ref": "Sherif y Sherif, Robbers Cave (1954)",
+      "explicacion": "Sherif y sus colaboradores seleccionaron niños de características semejantes que no se conocían entre sí, lo que descarta las diferencias individuales y las relaciones previas como explicación; la hostilidad surgió cuando los grupos competían por metas que solo uno podía alcanzar. El simple contacto posterior no redujo la fricción: la redujeron las metas superordinadas. Es la base de la teoría del conflicto realista.",
+      "ref": "Sherif, Harvey, White, Hood y Sherif, Robbers Cave (1954/1961), caps. 3 y 8",
       "dificultad": 3
     },
     {
@@ -447,7 +452,7 @@
       ],
       "correcta": 1,
       "explicacion": "La teoría de la identidad social fue formulada por Henri Tajfel y John Turner, que entienden la identidad social como la parte del autoconcepto derivada de la pertenencia a grupos. Festinger se asocia a la disonancia cognitiva, Asch a la conformidad, Allport al prejuicio y Lippmann al estereotipo.",
-      "ref": "Tajfel y Turner (años setenta y ochenta)",
+      "ref": "Tajfel y Turner (1979; versión revisada de 1986)",
       "dificultad": 2
     },
     {
@@ -465,15 +470,15 @@
     },
     {
       "id": "q_29_16",
-      "enunciado": "En la pirámide de necesidades de Maslow (1943), ¿qué necesidades ocupan la base?",
+      "enunciado": "En la jerarquía de necesidades de Maslow (1943), que suele representarse como una pirámide, ¿qué necesidades ocupan la base?",
       "opciones": [
         "Las fisiológicas",
         "Las de seguridad",
         "Las de autorrealización"
       ],
       "correcta": 0,
-      "explicacion": "Maslow propuso cinco conjuntos de necesidades: la base la forman las fisiológicas, que son las más potentes, y la cima la autorrealización. La seguridad es el segundo nivel.",
-      "ref": "Maslow (1943)",
+      "explicacion": "Maslow toma como punto de partida las necesidades fisiológicas, las más prepotentes, y la siguiente en la jerarquía es la de seguridad; la autorrealización ocupa la cima. El propio artículo no habla de pirámide: es la representación habitual.",
+      "ref": "A. H. Maslow, «A Theory of Human Motivation», Psychological Review 50 (1943)",
       "dificultad": 1
     },
     {
@@ -498,15 +503,14 @@
         "Gordon Allport"
       ],
       "correcta": 2,
-      "explicacion": "La hipótesis del contacto la formuló Gordon Allport en The Nature of Prejudice (1954). Festinger se asocia a la disonancia cognitiva y Asch a los experimentos de conformidad.",
+      "explicacion": "La hipótesis del contacto se atribuye a Gordon Allport, The Nature of Prejudice (1954). Festinger se asocia a la disonancia cognitiva y Asch a los experimentos de conformidad.",
       "ref": "Allport (1954)",
       "dificultad": 2
     }
   ],
   "dudas": [
-    "El artículo original de Katz (1960) no pudo leerse; las cuatro funciones y su nombre se contrastaron con fuentes secundarias («Attitude (psychology)»). La descripción de cada función es una síntesis habitual de manuales.",
-    "El concepto de actitud, los mecanismos de formación y las clasificaciones de grupos sociales proceden de manuales de psicología y sociología, no de una norma; no se ha podido verificar una definición literal única.",
-    "Los años de la teoría de la identidad social y del paradigma del grupo mínimo se dan de forma aproximada (años setenta y ochenta).",
-    "La definición de dogmatismo de Rokeach se contrastó en extractos de tesis que citan su libro; no se leyó el texto original de 1960."
+    "La definición de actitud, sus mecanismos de formación y la clasificación de los grupos sociales son doctrinales: no hay definición oficial única y se recoge la síntesis habitual de los manuales. Ojo: Cooley formuló el «grupo primario»; la expresión «grupo secundario» no aparece en su obra.",
+    "El modelo tripartito de la actitud se atribuye a Rosenberg y Hovland (1960) y la hipótesis del contacto a Allport (1954): son las atribuciones habituales de los manuales de psicología social y las que se preguntan.",
+    "La definición de dogmatismo que se recoge es la que se atribuye a Rokeach (artículo de 1954 y libro de 1960); su redacción literal varía según la traducción. Retenga las ideas clave: sistema de creencias cerrado, centrado en la autoridad absoluta, que genera intolerancia."
   ]
 }

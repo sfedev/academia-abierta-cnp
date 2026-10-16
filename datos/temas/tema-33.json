@@ -39,6 +39,12 @@
       "verificado": "Texto consolidado, actualización de 14/10/2026 (leído el 16/10/2026)"
     },
     {
+      "nombre": "Real Decreto 1150/2021, de 28 de diciembre, por el que se aprueba la Estrategia de Seguridad Nacional 2021",
+      "boe": "BOE-A-2021-21884",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21884",
+      "verificado": "Texto consolidado, actualización de 20/12/2025 (leído el 16/10/2026); el Departamento de Seguridad Nacional la presenta como la Estrategia actual"
+    },
+    {
       "nombre": "Ley Orgánica 10/1995, del Código Penal (arts. 19, 570 bis y 570 ter)",
       "boe": "BOE-A-1995-25444",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
@@ -50,6 +56,11 @@
       "verificado": "Artículo de acceso abierto leído el 16/10/2026"
     },
     {
+      "nombre": "Instituto Vasco de Criminología (UPV/EHU), curso «Miedo al delito: delitos registrados y victimización oculta. ¿Qué nos dice la Criminología?» (2020)",
+      "url": "https://www.uik.eus/es/node/6125/pdf",
+      "verificado": "Descripción y objetivos del curso leídos el 16/10/2026"
+    },
+    {
       "nombre": "Ministerio del Interior, Balance de Criminalidad. Cuarto trimestre de 2025 (enero a diciembre)",
       "url": "https://estadisticasdecriminalidad.ses.mir.es/publico/portalestadistico/dam/jcr:7d3776cd-9ca4-4c02-8ca4-96b2571dbee4/Balance%20de%20Criminalidad%20Cuarto%20Trimestre%202025.pdf",
       "verificado": "Datos provisionales leídos el 16/10/2026"
@@ -57,17 +68,22 @@
     {
       "nombre": "Cohen y Felson (1979), «Social Change and Crime Rate Trends: A Routine Activity Approach», American Sociological Review 44(4), 588-608",
       "url": "https://doi.org/10.2307/2094589",
-      "verificado": "Referencia comprobada en Crossref el 16/10/2026"
+      "verificado": "Artículo leído íntegro el 16/10/2026"
     },
     {
       "nombre": "Merton (1938), «Social Structure and Anomie», American Sociological Review 3(5), 672-682",
       "url": "https://doi.org/10.2307/2084686",
-      "verificado": "Referencia comprobada en Crossref el 16/10/2026"
+      "verificado": "Artículo leído íntegro el 16/10/2026"
     },
     {
       "nombre": "Sutherland (1940), «White-Collar Criminality», American Sociological Review 5(1), 1-12",
       "url": "https://doi.org/10.2307/2083937",
       "verificado": "Referencia comprobada en Crossref el 16/10/2026"
+    },
+    {
+      "nombre": "Sutherland (1947), «Principles of Criminology», 4.ª ed., Chicago, Lippincott, cap. 1 (enunciado de la asociación diferencial)",
+      "url": "https://krimdok.uni-tuebingen.de/Record/1099775094",
+      "verificado": "Proposiciones 1 a 6 del capítulo 1 leídas el 16/10/2026"
     },
     {
       "nombre": "Sykes y Matza (1957), «Techniques of Neutralization», American Sociological Review 22(6), 664-670",
@@ -82,7 +98,7 @@
     {
       "nombre": "Wilson y Kelling (1982), «Broken Windows: The police and neighborhood safety», The Atlantic, marzo de 1982",
       "url": "https://www.theatlantic.com/magazine/archive/1982/03/broken-windows/304465/",
-      "verificado": "Título y fecha comprobados en la web de la revista (texto de pago, no leído íntegro)"
+      "verificado": "Texto íntegro leído el 16/10/2026 en la reproducción del Manhattan Institute (https://www.manhattan-institute.org/pdf/_atlantic_monthly-broken_windows.pdf)"
     }
   ],
   "novedades": [
@@ -107,7 +123,7 @@
         "La Constitución encomienda a las Fuerzas y Cuerpos de Seguridad «proteger el libre ejercicio de los derechos y libertades» y «garantizar la **seguridad ciudadana**» (art. 104.1) y reserva al Estado la competencia exclusiva sobre **seguridad pública**, sin perjuicio de las policías de las CCAA (art. 149.1.29.ª).",
         "El preámbulo de la **LO 4/2015** recuerda que doctrina y jurisprudencia interpretan ambos conceptos, **con matices, como sinónimos**: la actividad dirigida a la protección de personas y bienes y al mantenimiento de la tranquilidad ciudadana.",
         "Art. 1 LO 4/2015: la seguridad ciudadana es un **requisito indispensable** para el pleno ejercicio de los derechos fundamentales y las libertades públicas y su salvaguarda, como **bien jurídico de carácter colectivo**, es **función del Estado**; la ley regula un conjunto plural de actuaciones de tutela mediante la protección de personas y bienes y el mantenimiento de la tranquilidad de los ciudadanos.",
-        "**Seguridad Nacional** (art. 3 Ley 36/2015): acción del Estado dirigida a proteger la libertad, los derechos y el bienestar de los ciudadanos, garantizar la defensa de España y sus principios y valores constitucionales, y contribuir a la seguridad internacional. Sus **tres componentes fundamentales** son la **Defensa Nacional, la Seguridad Pública y la Acción Exterior** (art. 9.1); los servicios de inteligencia la apoyan de forma permanente (art. 9.2)."
+        "**Seguridad Nacional** (art. 3 Ley 36/2015): acción del Estado dirigida a proteger la libertad, los derechos y el bienestar de los ciudadanos, garantizar la defensa de España y sus principios y valores constitucionales, y contribuir a la seguridad internacional. Sus **tres componentes fundamentales** son la **Defensa Nacional, la Seguridad Pública y la Acción Exterior** (art. 9.1); los servicios de inteligencia la apoyan de forma permanente (art. 9.2). Su marco político estratégico es la **Estrategia de Seguridad Nacional**, que se revisa **cada cinco años** o cuando lo aconsejen las circunstancias (art. 4.3); la vigente es la **de 2021** (RD 1150/2021)."
       ]
     },
     {
@@ -530,8 +546,8 @@
         "Se aprende en la interacción con otras personas"
       ],
       "correcta": 2,
-      "explicacion": "Para Sutherland el comportamiento criminal es una conducta aprendida en la comunicación e interacción con otros. Los rasgos físicos hereditarios son propios de Lombroso, y el debilitamiento de los vínculos de apego y compromiso es la explicación de Hirschi (control social).",
-      "ref": "Sutherland (1940)",
+      "explicacion": "Sutherland enuncia que el comportamiento criminal se aprende en interacción con otras personas, en un proceso de comunicación, y que no se hereda. Los rasgos físicos hereditarios son propios de la escuela positiva de Lombroso, y el debilitamiento de los vínculos de apego y compromiso es la explicación del control social de Hirschi.",
+      "ref": "Sutherland (1947), «Principles of Criminology»",
       "dificultad": 2
     },
     {
@@ -575,14 +591,14 @@
     },
     {
       "id": "q_33_16",
-      "enunciado": "Un comerciante contrata un vigilante y una alarma conectada para proteger su tienda. En la teoría de las actividades rutinarias, está actuando sobre el elemento de:",
+      "enunciado": "Un comerciante contrata a un vigilante para que proteja su tienda. En la teoría de las actividades rutinarias, está actuando sobre el elemento de:",
       "opciones": [
         "La presencia de un guardián capaz que proteja el objetivo",
         "La motivación del delincuente",
         "La anomia de la comunidad"
       ],
       "correcta": 0,
-      "explicacion": "Vigilantes y alarmas son guardianes capaces de impedir el delito: refuerzan el tercer elemento de la teoría de Cohen y Felson. No modifican la motivación del delincuente ni tienen que ver con la anomia, concepto de Merton referido al desajuste entre metas y medios.",
+      "explicacion": "Un vigilante es un guardián capaz de impedir el delito: refuerza el tercer elemento de la teoría de Cohen y Felson, cuya ausencia facilita los delitos de contacto directo. No modifica la motivación del delincuente ni tiene que ver con la anomia, concepto de Merton referido al desajuste entre metas y medios.",
       "ref": "Cohen y Felson (1979)",
       "dificultad": 2
     },
@@ -614,9 +630,8 @@
     }
   ],
   "dudas": [
-    "No he localizado una definición normativa de «seguridad individual» y «seguridad colectiva»: se presentan como distinción doctrinal y no se han redactado preguntas literales sobre ella.",
-    "La influencia del sensacionalismo mediático sobre la inseguridad subjetiva figura como factor en el examen P43, pero la literatura la discute y no he podido contrastar el manual de referencia.",
-    "Los datos del Balance de Criminalidad son provisionales (pendientes de consolidación). No he comprobado si existe ya un balance de 2026 posterior al leído.",
-    "Estrategia de Seguridad Nacional: la de 2021 estaba en revisión desde abril de 2025; no he podido confirmar si hay una nueva aprobada."
+    "La distinción entre seguridad individual y colectiva es doctrinal: ninguna ley la define. Se expone la clasificación habitual de los manuales, apoyada en el carácter de bien jurídico colectivo que el art. 1.1 LO 4/2015 da a la seguridad ciudadana.",
+    "Que el sensacionalismo mediático aumente la inseguridad subjetiva es una tesis discutida en criminología. Si el examen lo plantea, tómalo como un factor que influye en la percepción del delito, no como causa de la delincuencia real.",
+    "Las cifras del Balance de Criminalidad son provisionales y se publican cada trimestre con datos acumulados; la ficha usa el balance anual de 2025. En el examen cuentan la clasificación (convencional y cibercriminalidad) y las tendencias, no las décimas."
   ]
 }

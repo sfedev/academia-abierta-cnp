@@ -125,7 +125,7 @@
    "puntos": [
     "**Expulsión en lugar de multa** (art. 57.1): infracciones **muy graves** y graves del art. 53.1 letras a, b, c, d y f, con resolución motivada y proporcionada. También es causa de expulsión la **condena por delito doloso con pena de prisión superior a un año** (57.2). Nunca se imponen **expulsión y multa a la vez** (57.3). La expulsión extingue cualquier autorización y archiva los procedimientos de residencia o trabajo (57.4).",
     "Límites (57.5-57.6): salvo seguridad nacional o reincidencia en un año, **no se expulsa** a los nacidos en España con 5 años de residencia legal, a los residentes de larga duración, a quienes fueron españoles de origen ni a ciertos perceptores de prestaciones; tampoco se ejecuta si vulnera el principio de **no devolución** o afecta a una embarazada con riesgo. El juez autoriza en **3 días como máximo** la expulsión de procesados con pena inferior a 6 años (57.7).",
-    "Expulsión judicial (art. 89 CP): las penas de prisión de **más de un año** impuestas a un extranjero se sustituyen por la expulsión, con prohibición de regresar de **5 a 10 años**, salvo desproporción por su arraigo."
+    "Expulsión judicial (art. 89 CP): las penas de prisión de **más de un año** impuestas a un extranjero se sustituyen por la expulsión, con prohibición de regresar de **5 a 10 años**, salvo desproporción por su arraigo. No se sustituyen las penas por trata de seres humanos ni por los delitos de los arts. 312, 313 y 318 bis (art. 89.9 CP)."
    ],
    "tabla": {
     "cabecera": [
@@ -587,7 +587,6 @@
   }
  ],
  "dudas": [
-  "No se verificó si existe una norma que actualice expresamente las remisiones a la LO 1/1992 de los arts. 53.1.f y 54.1.a de la LO 4/2000 (derogada por la LO 4/2015); se explica solo que el texto aún la cita.",
-  "La sustitución de penas por expulsión (art. 89 CP) se recoge solo en lo esencial; el desarrollo procesal queda fuera del tema."
+  "Los arts. 53.1.f y 54.1.a de la LO 4/2000 siguen remitiendo a la LO 1/1992 de seguridad ciudadana, derogada por la LO 4/2015, que no actualizó esas remisiones. En el test se pregunta el texto literal de la LO 4/2000."
  ]
 }

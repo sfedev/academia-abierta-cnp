@@ -84,7 +84,7 @@
   {
    "titulo": "Cómo se conduce en servicio urgente (arts. 67 y 68 RGC)",
    "puntos": [
-    "El conductor debe cerciorarse de que no pone en peligro a ningún usuario. Las **órdenes y señales de los agentes** son siempre de obligado cumplimiento (art. 68.1). Las infracciones al art. 68 son **graves** (art. 68.3).",
+    "El conductor debe cerciorarse de que no pone en peligro a ningún usuario. Las **órdenes y señales de los agentes** son siempre de obligado cumplimiento (art. 68.1). Las infracciones al art. 68 son **graves** (art. 68.3, que remite al art. 65.4.c del antiguo texto articulado: hoy, art. 76.c de la Ley de Tráfico).",
     "El régimen especial solo se usa cuando se circula en prestación de un servicio urgente y con **uso ponderado** (art. 67.2). La responsabilidad es **exclusiva del conductor**."
    ],
    "tabla": {
@@ -370,7 +370,7 @@
     "Muy graves."
    ],
    "correcta": 1,
-   "explicacion": "El art. 68.3 califica de graves las infracciones a las normas de ese precepto.",
+   "explicacion": "El art. 68.3 califica de graves, no de leves ni de muy graves, las infracciones a las normas de ese precepto. Remite al art. 65.4.c del antiguo texto articulado, que hoy corresponde al art. 76.c de la Ley de Tráfico (RDL 6/2015).",
    "ref": "art. 68.3 RGC",
    "dificultad": 1
   },
@@ -506,9 +506,7 @@
   }
  ],
  "dudas": [
-  "Autorización de las luces y sirenas: el art. 67.3 RGC (Jefatura Provincial de Tráfico), el anexo XI RGV (la V-1 no requiere autorización administrativa) y el art. 11.7 RGV (órgano de industria para la sirena) no concuerdan del todo. No hay pregunta de test sobre ello porque la respuesta depende de qué texto se cite.",
-  "La IOPR-003 de la DGP es de 2013; no he podido comprobar si existe una edición posterior. Cita normas luego derogadas (Orden INT/161/2011), por lo que solo se usa para el comportamiento del conductor policial.",
-  "El art. 68.3 RGC remite al art. 65.4.c del antiguo texto articulado de 1990; hoy esa calificación corresponde al art. 76.c del RDL 6/2015 (preferencia de paso y utilización de carriles y arcenes). Es mi correspondencia, no una remisión actualizada del BOE.",
-  "Los contenidos de la Orden INT/2573/2015 (vehículos de conducción de detenidos), que el análisis de exámenes asigna a este tema, se desarrollan en el tema 44."
+  "Las normas no coinciden sobre la autorización de luces y sirenas: el art. 67.3 RGC exige la de la Jefatura Provincial de Tráfico, el anexo XI RGV dice que la V-1 no la necesita y el art. 11.7 RGV pide la de Industria para la sirena. Responde según la norma que cite el enunciado.",
+  "La IOPR-003 de la DGP es de 2013 y cita normas luego derogadas (como la Orden INT/161/2011): úsala solo para las pautas de conducción del policía; los permisos policiales se rigen hoy por la Orden INT/1518/2021."
  ]
 }

@@ -21,7 +21,7 @@
     {
       "nombre": "Microsoft Learn: Overview of FAT, HPFS, and NTFS File Systems",
       "url": "https://learn.microsoft.com/en-us/troubleshoot/windows-client/backup-and-storage/fat-hpfs-and-ntfs-file-systems",
-      "verificado": "Página actualizada el 12/02/2026 (leída el 16/10/2026)"
+      "verificado": "Página actualizada el 12/02/2026 (leída el 16/10/2026): particiones FAT de 2 GB en MS-DOS y límite de 2 TB en la tabla de particiones"
     },
     {
       "nombre": "Microsoft Learn: Windows and GPT FAQ (MBR frente a GPT)",
@@ -89,6 +89,11 @@
       "verificado": "Leída el 16/10/2026"
     },
     {
+      "nombre": "kernel.org: notas de la versión 0.01 de Linux (RELNOTES-0.01)",
+      "url": "https://mirrors.edge.kernel.org/pub/linux/kernel/Historic/old-versions/RELNOTES-0.01",
+      "verificado": "Leídas el 16/10/2026 («This kernel is (C) 1991 Linus Torvalds»)"
+    },
+    {
       "nombre": "Documentación del kernel Linux: reglas de licencia",
       "url": "https://docs.kernel.org/process/license-rules.html",
       "verificado": "Leída el 16/10/2026"
@@ -112,6 +117,11 @@
       "nombre": "The Open Group: registro de productos UNIX 03 de Apple (macOS)",
       "url": "https://www.opengroup.org/openbrand/register/apple.htm",
       "verificado": "Registro leído el 16/10/2026: macOS 26.0 Tahoe y 15.0 Sequoia, producto UNIX 03"
+    },
+    {
+      "nombre": "Canonical: Ubuntu kernels (el núcleo Linux como base de Ubuntu)",
+      "url": "https://ubuntu.com/kernel",
+      "verificado": "Leída el 16/10/2026"
     },
     {
       "nombre": "D. M. Ritchie y K. Thompson, The UNIX Time-Sharing System (Communications of the ACM, julio de 1974)",
@@ -494,7 +504,7 @@
         "16 TiB"
       ],
       "correcta": 1,
-      "explicacion": "La tabla de límites de Microsoft Learn fija en 4 GiB el archivo máximo de FAT32, mientras que NTFS y exFAT admiten hasta 2^64 − 1 bytes. Los 2 GiB corresponden al límite de las particiones FAT en MS-DOS y los 16 TiB al archivo máximo de ext4 con bloques de 4 KiB.",
+      "explicacion": "La tabla de límites de Microsoft Learn fija en 4 GiB el archivo máximo de FAT32, mientras que NTFS y exFAT admiten hasta 2^64 − 1 bytes. Los 2 GB son el límite de las particiones FAT en MS-DOS, y 16 TiB, el archivo máximo de ext4 con bloques de 4 KiB.",
       "ref": "Microsoft Learn, File System Functionality Comparison (Limits)",
       "dificultad": 1
     },
@@ -533,8 +543,8 @@
         "iOS"
       ],
       "correcta": 2,
-      "explicacion": "iOS comparte con macOS el núcleo híbrido XNU de Darwin, que combina Mach con componentes de FreeBSD. Android se apoya en el núcleo Linux y Ubuntu es una distribución basada en Linux.",
-      "ref": "Apple, repositorio XNU; Android Developers, Platform architecture",
+      "explicacion": "iOS comparte con macOS el núcleo híbrido XNU de Darwin, que combina Mach con componentes de FreeBSD. Android se apoya en el núcleo Linux y, según Canonical, el núcleo Linux es la base del sistema Ubuntu.",
+      "ref": "Android Developers, Platform architecture; Apple, repositorio XNU (README); Canonical, Ubuntu kernels",
       "dificultad": 1
     },
     {
@@ -611,7 +621,7 @@
         "exFAT"
       ],
       "correcta": 2,
-      "explicacion": "FAT32 no admite archivos de más de 4 GiB. exFAT admite archivos de hasta 2^64 − 1 bytes y es el formato que Apple propone para volúmenes compartidos con Windows. ext4 es el sistema de archivos propio de Linux, no un formato de intercambio entre Windows y macOS.",
+      "explicacion": "FAT32 no admite archivos de más de 4 GiB. exFAT admite archivos de hasta 2^64 − 1 bytes y Apple lo incluye entre los formatos compatibles con Windows de la Utilidad de Discos. ext4 es el sistema de archivos propio de Linux, no un formato de intercambio entre Windows y macOS.",
       "ref": "Microsoft Learn, File System Functionality Comparison; Apple Support, Disk Utility",
       "dificultad": 2
     },
@@ -702,8 +712,8 @@
         "RAID 5"
       ],
       "correcta": 1,
-      "explicacion": "RAID 1 escribe datos idénticos en cada disco miembro (espejo) y el conjunto funciona aunque solo quede uno. RAID 0 reparte datos sin redundancia y RAID 5 usa paridad distribuida y exige al menos tres discos.",
-      "ref": "SNIA Dictionary (RAID 1); Red Hat, Managing RAID",
+      "explicacion": "RAID 1 (espejo) escribe datos idénticos en cada disco del conjunto, que sigue funcionando aunque falle uno. RAID 0 reparte los datos sin redundancia, y RAID 5 también tolera el fallo de un disco, pero lo consigue con paridad distribuida, no con copias idénticas.",
+      "ref": "SNIA Dictionary (RAID 0, RAID 1 y RAID 5); Red Hat, Managing RAID",
       "dificultad": 1
     },
     {
@@ -747,9 +757,6 @@
     }
   ],
   "dudas": [
-    "El año de nacimiento de Linux (1991) lo recogen fuentes secundarias (el mensaje de Linus Torvalds en comp.os.minix de agosto de 1991); la ficha no da día ni cita de fuente primaria.",
-    "«Monotarea» y «línea de comandos» de MS-DOS se apoyan en el Computer History Museum («solo un programa de usuario a la vez»); no he encontrado una definición oficial de Microsoft con esas palabras.",
-    "El límite de 2 TB de MBR aparece en un artículo antiguo de Microsoft sobre Windows NT; el FAQ de GPT actual no lo repite.",
-    "No se incluyen fechas de lanzamiento de iOS ni de Android porque no localicé una fuente oficial que las confirme."
+    "Que MS-DOS ejecutaba un solo programa a la vez y se manejaba con órdenes de texto lo describe el Computer History Museum, no una definición de Microsoft; de ahí que se clasifique como monotarea y de línea de comandos."
   ]
 }

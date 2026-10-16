@@ -11,7 +11,7 @@
     {
       "nombre": "Versiones consolidadas del Tratado de la Unión Europea (TUE) y del Tratado de Funcionamiento de la Unión Europea (TFUE), con el Protocolo nº 6 sobre las sedes (DO C 202, 7.6.2016)",
       "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:12016M/TXT",
-      "verificado": "Arts. 14, 17 y 19 TUE y 238, 252 y 253 TFUE leídos en EUR-Lex (versión de 2016, «In force»). Resto de artículos citados (TUE 1-6, 13-16, 18, 49-50; TFUE 85-89, 228, 234, 251-267, 282-297; Protocolo nº 6) leídos en la edición oficial consolidada de 2010 (DO C 83) publicada por el Gobierno de España; cotejo de su texto con la versión de 2016 solo en los artículos citados antes. Leído el 16/10/2026"
+      "verificado": "Versión consolidada de 2016 (DO C 202, Oficina de Publicaciones de la UE): arts. 1, 6, 13 a 17 y 19 TUE; arts. 88, 238, 252, 253, 258, 263, 267, 282, 283 y 288 TFUE; Protocolo nº 6 y art. 48 del Estatuto del Tribunal de Justicia (Protocolo nº 3), leídos el 16/10/2026. El resto de artículos citados se leyó en la edición oficial consolidada de 2010 (DO C 83)"
     },
     {
       "nombre": "Convenio Europeo para la protección de los derechos humanos y de las libertades fundamentales (texto refundido de la Resolución de 5 de abril de 1999, con los Protocolos nº 11, 14 y 15)",
@@ -20,9 +20,9 @@
       "verificado": "Texto consolidado, actualización de 16/07/2026 (leído el 16/10/2026)"
     },
     {
-      "nombre": "Reglamento (UE) 2016/794 del Parlamento Europeo y del Consejo, de 11 de mayo de 2016, sobre la Agencia de la Unión Europea para la Cooperación Policial (Europol)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2016/794/oj/spa",
-      "verificado": "Texto original publicado en el DO L 135 de 24.5.2016, leído el 16/10/2026. Modificado por el Reglamento (UE) 2022/991, de 8 de junio de 2022 (verificados título y entrada en vigor)"
+      "nombre": "Reglamento (UE) 2016/794 del Parlamento Europeo y del Consejo, de 11 de mayo de 2016, sobre la Agencia de la Unión Europea para la Cooperación Policial (Europol), modificado por los Reglamentos (UE) 2021/1133, 2022/991 y 2025/2611",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:02016R0794-20260111",
+      "verificado": "Versión consolidada de 11/1/2026 (Oficina de Publicaciones de la UE): arts. 3, 4.5, 7, 51, 54 y 62 leídos el 16/10/2026"
     },
     {
       "nombre": "Reglamento (UE) 2024/982 del Parlamento Europeo y del Consejo, de 13 de marzo de 2024, relativo a la búsqueda y al intercambio automatizados de datos para la cooperación policial (Prüm II)",
@@ -40,9 +40,14 @@
       "verificado": "Texto publicado en el DO L 165 de 18.6.2013, leído el 16/10/2026"
     },
     {
+      "nombre": "Decisión 2013/336/UE del Consejo, de 25 de junio de 2013, por la que se aumenta el número de abogados generales del Tribunal de Justicia de la Unión Europea",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32013D0336",
+      "verificado": "Texto publicado en el DO L 179 de 29.6.2013 (once abogados generales desde el 7/10/2015), leído el 16/10/2026"
+    },
+    {
       "nombre": "Reglamento (UE) 2018/1727 (Eurojust), Reglamento (UE) 2019/1896 (Guardia Europea de Fronteras y Costas), Reglamento (UE) 2015/2219 (CEPOL) y Reglamento (UE) 2018/1862 (Sistema de Información de Schengen en el ámbito policial y judicial penal)",
       "url": "https://eur-lex.europa.eu/eli/reg/2018/1862/oj/spa",
-      "verificado": "Títulos, sedes (Eurojust art. 79; Frontex art. 93.5; CEPOL considerando 19) y art. 7 del Reglamento 2018/1862 leídos en EUR-Lex el 16/10/2026"
+      "verificado": "Títulos, sedes (Eurojust art. 79.1; Frontex art. 93.5; CEPOL art. 25.3), cuerpo permanente de Frontex (art. 5.2) y art. 7 del Reglamento 2018/1862 (versión consolidada de 1/8/2022) leídos en textos de la Oficina de Publicaciones de la UE el 16/10/2026"
     },
     {
       "nombre": "Tratado de Prüm, de 27 de mayo de 2005 (Instrumento de ratificación de España)",
@@ -54,7 +59,12 @@
       "nombre": "Acuerdo de Adhesión de España al Convenio de aplicación del Acuerdo de Schengen (Bonn, 25 de junio de 1991), con el texto del Convenio de 1990",
       "boe": "BOE-A-1994-7586",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-7586",
-      "verificado": "Texto original publicado en el BOE de 5/4/1994 (no consolidado), arts. 39 a 41 leídos el 16/10/2026"
+      "verificado": "Texto original publicado en el BOE de 5/4/1994 (no consolidado), arts. 39 a 41 leídos el 16/10/2026. Modificaciones posteriores comprobadas en la relación de actos modificativos de la Oficina de Publicaciones de la UE: ninguna afecta al art. 41"
+    },
+    {
+      "nombre": "Decisión 2003/725/JAI del Consejo, de 2 de octubre de 2003, por la que se modifican los apartados 1 y 7 del artículo 40 del Convenio de aplicación del Acuerdo de Schengen, y Directiva (UE) 2023/977 del Parlamento Europeo y del Consejo, de 10 de mayo de 2023, relativa al intercambio de información entre los servicios de seguridad y de aduanas de los Estados miembros",
+      "url": "https://eur-lex.europa.eu/eli/dir/2023/977/oj/spa",
+      "verificado": "Decisión 2003/725/JAI (DO L 260 de 11.10.2003) y art. 20 de la Directiva (UE) 2023/977 (desde el 12/12/2024 sustituye los arts. 39 y 46 del Convenio en el intercambio de información de su ámbito) leídos el 16/10/2026"
     },
     {
       "nombre": "Páginas oficiales del Tribunal de Justicia de la Unión Europea (Tribunal de Justicia y Tribunal General), del Consejo de la UE (Presidencia), de la Comisión Europea (Colegio de Comisarios), de europa.eu (historia, países y euro), del Consejo de Europa (Estados miembros) y de INTERPOL",
@@ -68,7 +78,8 @@
     "Tribunal Europeo de Derechos Humanos: el Protocolo nº 15 (en vigor desde el 1/8/2021) redujo de seis a cuatro meses el plazo para presentar la demanda (aplicable desde el 1/2/2022) y sustituyó el límite de los 70 años de los jueces por la exigencia de que los candidatos tengan menos de 65 años cuando se presenta la lista.",
     "Tribunal de Justicia: el art. 252 TFUE prevé ocho abogados generales, pero el Consejo ha ampliado el número y hoy son 11. El Tribunal General tiene 54 jueces (dos por Estado).",
     "Zona del euro: Bulgaria se incorporó en 2026; son 21 de los 27 Estados miembros.",
-    "Europol: el Reglamento (UE) 2022/991 reformó el Reglamento 2016/794 (cooperación con entidades privadas, tratamiento de datos personales en apoyo de investigaciones penales e investigación e innovación)."
+    "Europol: el Reglamento 2016/794 se ha reformado por los Reglamentos (UE) 2021/1133, 2022/991 (cooperación con entidades privadas, tratamiento de datos personales en apoyo de investigaciones penales e investigación e innovación) y 2025/2611 (más apoyo de Europol contra el tráfico ilícito de migrantes y la trata de seres humanos). Sigue sin aplicar medidas coercitivas (art. 4.5).",
+    "Convenio de Schengen: desde el 12/12/2024 el intercambio de información entre policías de sus arts. 39 y 46 se rige por la Directiva (UE) 2023/977; la vigilancia transfronteriza del art. 40 se amplió en 2003 (Decisión 2003/725/JAI)."
   ],
   "clave": [
     "**CECA (Tratado de París, 18/4/1951)**: seis Estados fundadores (Alemania, Francia, Italia, Países Bajos, Bélgica y Luxemburgo). Portugal no. España ingresó el **1/1/1986**, junto con Portugal.",
@@ -331,9 +342,9 @@
         "**INTERPOL**: organización intergubernamental de **196** países, que nace del congreso de Viena de 1923 y adopta en 1956 su constitución (ICPO-INTERPOL). Su Secretaría General está en **Lyon** (desde 1989); cada país tiene una **Oficina Central Nacional**, la Asamblea General se reúne una vez al año y la red de comunicación es **I-24/7**. Prohíbe actuar en cuestiones de carácter político, militar, religioso o racial (art. 3).",
         "Notificaciones: **roja** (localizar y detener a un reclamado), **amarilla** (desaparecidos), **azul** (información sobre identidad, paradero o actividades), **negra** (cadáveres sin identificar), **verde** (advertencia sobre actividades delictivas), **naranja** (amenaza grave e inminente), **púrpura** (modus operandi) y **plata** (activos, en fase piloto).",
         "**Europol** (art. 88 TFUE; Reglamento 2016/794): apoya a las policías nacionales contra la delincuencia grave que afecta a dos o más Estados y el terrorismo; **no aplica medidas coercitivas** (art. 4.5); se comunica con los Estados mediante **unidades nacionales**; su director ejecutivo tiene mandato de cuatro años, prorrogable una vez. Controlan su actividad el Parlamento Europeo y los parlamentos nacionales.",
-        "**Eurojust** (art. 85 TFUE) coordina a las autoridades judiciales penales; **CEPOL** forma a los funcionarios policiales; **Frontex** es la Guardia Europea de Fronteras y Costas, con un cuerpo permanente de 10 000 efectivos.",
+        "**Eurojust** (art. 85 TFUE) coordina a las autoridades judiciales penales; **CEPOL** forma a los funcionarios policiales; **Frontex** es la Guardia Europea de Fronteras y Costas, con un cuerpo permanente de hasta 10 000 efectivos operativos (art. 5.2 Reglamento 2019/1896).",
         "**Schengen**: Acuerdo de 14/6/1985 y Convenio de aplicación de 19/6/1990; España se adhirió el 25/6/1991. En el **SIS** (Reglamento 2018/1862) cada Estado designa una oficina N.SIS y una **oficina Sirene**, operativa 24 horas al día y 7 días a la semana, que es el punto único de contacto para la información complementaria.",
-        "Convenio de Schengen, art. 40 (**vigilancia transfronteriza**: si no hay autorización previa por urgencia, cesa a las cinco horas de cruzar la frontera sin obtenerla) y art. 41 (**persecución transfronteriza**: solo por fronteras terrestres, sin entrar en domicilios, con arma de servicio solo para legítima defensa; el no nacional detenido se libera como máximo a las seis horas, sin contar de medianoche a las nueve de la mañana).",
+        "Convenio de Schengen, art. 40 (**vigilancia transfronteriza**: si no hay autorización previa por urgencia, cesa a las cinco horas de cruzar la frontera sin obtenerla) y art. 41 (**persecución transfronteriza**: solo por fronteras terrestres, sin entrar en domicilios, con arma de servicio solo para legítima defensa; el no nacional detenido se libera como máximo a las seis horas, sin contar de medianoche a las nueve de la mañana). La Decisión 2003/725/JAI amplió el art. 40: con autorización previa, también puede vigilarse a quien pueda ayudar a identificar o localizar al sospechoso, y la lista de delitos del apartado 7 incluye, entre otros, terrorismo, blanqueo de capitales y red de inmigración ilegal.",
         "**Prüm**: Tratado de 27/5/2005 (Bélgica, Alemania, España, Francia, Luxemburgo, Países Bajos y Austria; en vigor para España el 1/11/2006), para consultar ficheros de ADN, huellas dactilares y matrículas. Las Decisiones 2008/615/JAI y 2008/616/JAI lo llevaron al Derecho de la UE y el **Reglamento (UE) 2024/982 (Prüm II)** añade imágenes faciales y antecedentes policiales.",
         "El art. 87 TFUE prevé la cooperación entre todas las autoridades policiales, de aduanas y otros servicios coercitivos; el art. 89 deja al Consejo, por unanimidad y previa consulta al Parlamento, fijar las condiciones en que pueden actuar en el territorio de otro Estado."
       ],
@@ -552,8 +563,8 @@
         "27 jueces y 11 abogados generales"
       ],
       "correcta": 2,
-      "explicacion": "El art. 19.2 TUE prevé un juez por Estado miembro (27). El art. 252 TFUE fija ocho abogados generales, pero el Consejo, por unanimidad y a petición del Tribunal, puede aumentarlos; según la web oficial del TJUE son hoy 11. Los 54 jueces, dos por Estado, son los del Tribunal General.",
-      "ref": "art. 19.2 TUE; art. 252 TFUE",
+      "explicacion": "El art. 19.2 TUE prevé un juez por Estado miembro (27). El art. 252 TFUE fija ocho abogados generales, pero el Consejo, por unanimidad y a petición del Tribunal, puede aumentarlos: la Decisión 2013/336/UE los elevó a once desde el 7/10/2015. Los 54 jueces, dos por Estado, son los del Tribunal General (art. 48 del Estatuto del Tribunal de Justicia).",
+      "ref": "art. 19.2 TUE; art. 252 TFUE; Decisión 2013/336/UE",
       "dificultad": 2
     },
     {
@@ -799,7 +810,7 @@
         "pueden interrogar siempre a la persona aprehendida y retenerla sin límite de tiempo"
       ],
       "correcta": 1,
-      "explicacion": "El art. 41.5 permite llevar el arma de servicio, aunque prohíbe usarla salvo legítima defensa, y prohíbe entrar en domicilios y lugares no accesibles al público. La facultad de interrogar o retener depende de la modalidad declarada por cada Estado (art. 41.2), y el no nacional detenido debe ser liberado como máximo seis horas después de la detención, salvo solicitud previa de arresto provisional a efectos de extradición (art. 41.6).",
+      "explicacion": "El art. 41.5 permite llevar el arma de servicio, aunque prohíbe usarla salvo legítima defensa, y prohíbe entrar en domicilios y lugares no accesibles al público. Según la modalidad que declare cada Estado (art. 41.2), los agentes perseguidores no tienen derecho a interrogar o solo pueden retener a la persona hasta que actúen los agentes locales; y el no nacional detenido por las autoridades locales debe ser liberado como máximo seis horas después, sin contar de medianoche a las nueve, salvo solicitud previa de arresto provisional a efectos de extradición (art. 41.6).",
       "ref": "art. 41 Convenio de aplicación del Acuerdo de Schengen",
       "dificultad": 3
     },
@@ -844,9 +855,7 @@
     }
   ],
   "dudas": [
-    "No se ha podido verificar en fuente oficial el estado actual (2026) de la adhesión de la UE al Convenio Europeo de Derechos Humanos que exige el art. 6.2 TUE; la ficha solo afirma que el TEDH no es hoy una institución de la UE.",
-    "Las declaraciones españolas sobre la persecución transfronteriza (10 km con Francia; 50 km o dos horas con Portugal) son de 1994 (BOE-A-1994-7586) y no se ha comprobado su vigencia; no se han incluido.",
-    "Los arts. 39 a 41 del Convenio de Schengen se han leído en el texto original publicado en el BOE (no consolidado); no se ha contrastado si algún instrumento posterior de la UE los ha modificado.",
-    "El Reglamento (UE) 2016/794 se ha leído en su redacción original; de la reforma del Reglamento (UE) 2022/991 solo se han verificado el título y la entrada en vigor."
+    "El art. 6.2 TUE obliga a la UE a adherirse al Convenio Europeo de Derechos Humanos (el art. 59.2 del Convenio lo permite), pero la adhesión sigue en trámite: en el examen, la UE no es parte del Convenio y el TEDH es un tribunal del Consejo de Europa, no una institución de la UE (art. 13 TUE).",
+    "Las distancias y plazos concretos de la persecución transfronteriza dependen de la declaración de cada Estado (art. 41.3 y 41.9 del Convenio de Schengen) y de acuerdos bilaterales que pueden ampliarlos (art. 41.10): no son un dato fijo; en el examen se preguntan las reglas generales del art. 41."
   ]
 }

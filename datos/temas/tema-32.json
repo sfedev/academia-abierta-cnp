@@ -16,7 +16,7 @@
     {
       "nombre": "INE, Movimiento Natural de la Población / Indicadores Demográficos Básicos, año 2024 (nota de prensa de 19/11/2025) y Estimación Mensual de Nacimientos y Defunciones, año 2025 (nota de 18/2/2026)",
       "url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177003&menu=ultiDatos&idp=1254735573002",
-      "verificado": "Datos de 2024 y estimación de 2025 leídos el 16/10/2026 (estimación: https://www.ine.es/dyngs/Prensa/EDES_EMN2025.htm)"
+      "verificado": "Datos de 2024 (nota de prensa de 19/11/2025: https://www.ine.es/dyngs/Prensa/MNP2024.htm) y estimación de 2025 leídos el 16/10/2026 (estimación: https://www.ine.es/dyngs/Prensa/EDES_EMN2025.htm)"
     },
     {
       "nombre": "INE, España en cifras 2026 (superficie, población y densidad) y Estadística Continua de Población a 1/7/2026",
@@ -54,14 +54,19 @@
       "verificado": "Texto consolidado, actualización de 23/07/2026 (leído el 16/10/2026)"
     },
     {
+      "nombre": "Ministerio para la Transición Ecológica y el Reto Demográfico: Plan Nacional Integrado de Energía y Clima (PNIEC) 2023-2030",
+      "url": "https://www.miteco.gob.es/es/ministerio/planes-estrategias/plan-nacional-integrado-energia-clima.html",
+      "verificado": "Objetivos para 2030 (32 % de reducción de emisiones respecto a 1990) leídos el 16/10/2026"
+    },
+    {
       "nombre": "Naciones Unidas: Conferencia sobre el Medio Humano (Estocolmo, 1972) y Cumbre de la Tierra (Río de Janeiro, 1992); UN Treaty Collection: Protocolo de Montreal, Protocolo de Kioto y Acuerdo de París",
       "url": "https://www.un.org/en/conferences/environment/stockholm1972",
       "verificado": "Fechas y contenidos leídos el 16/10/2026 (Río: https://www.un.org/en/conferences/environment/rio1992; tratados: https://treaties.un.org, capítulo XXVII)"
     },
     {
-      "nombre": "Obras de referencia sobre modelos urbanos (Burgess, Hoyt, Harris y Ullman, Christaller, Wirth, Sassen), transición demográfica y sociedad de masas",
-      "url": "https://en.wikipedia.org/wiki/Concentric_zone_model",
-      "verificado": "Autores y fechas contrastados el 16/10/2026 en fuentes secundarias (entradas de modelos urbanos, Demographic transition, Mass society, The Revolt of the Masses)"
+      "nombre": "Obras originales sobre la ciudad y la población: Park, Burgess y McKenzie, «The City» (1925); H. Hoyt (Federal Housing Administration, 1939); C. Harris y E. Ullman, «The Nature of Cities» (1945, DOI 10.1177/000271624524200103); L. Wirth, «Urbanism as a Way of Life» (1938, DOI 10.1086/217913); W. Christaller (Jena, 1933); T. R. Malthus (1798); W. Thompson (1929); F. W. Notestein, «Population — The Long View» (1945)",
+      "url": "https://www.gutenberg.org/ebooks/73285",
+      "verificado": "Textos o registros bibliográficos originales comprobados el 16/10/2026 (Project Gutenberg, Crossref, Biblioteca Nacional Alemana); la sociedad de masas y la tipología de pirámides se recogen según los manuales"
     }
   ],
   "novedades": [
@@ -69,7 +74,7 @@
     "Población de España según el INE: **49.801.559** habitantes a 1/7/2026 (provisional, máximo de la serie histórica)."
   ],
   "clave": [
-    "**Crecimiento (saldo) vegetativo** = nacimientos − defunciones (INE). Es **negativo** cuando la natalidad es inferior a la mortalidad. En 2024 en España: 318.005 nacimientos y 436.118 defunciones, es decir, un saldo de **−118.113**. Estimación INE para 2025: **−122.167**.",
+    "**Crecimiento (saldo) vegetativo** = nacimientos − defunciones (INE). Es **negativo** cuando la natalidad es inferior a la mortalidad. En 2024 hubo en España 318.005 nacimientos y 436.118 defunciones, y el saldo vegetativo de la **población residente** (nacimientos de madres residentes menos defunciones de residentes) fue de **−116.056**, negativo por octavo año consecutivo. Estimación INE para 2025: **−122.167**.",
     "**Crecimiento de la población** = saldo vegetativo + saldo migratorio (inmigraciones − emigraciones).",
     "**Densidad de población** (población relativa) = habitantes por km². España: **97,1 hab./km²** (1/1/2025; 49.128.297 habitantes sobre 506.050 km²); UE-27: 109,7 (2024). **Población absoluta** = número total de habitantes.",
     "**Tasa bruta de natalidad** = nacimientos por 1.000 habitantes (España 2024: **6,49‰**); **tasa bruta de mortalidad** = defunciones por 1.000 habitantes (**8,87‰**). Indicador coyuntural de fecundidad: **1,10** hijos por mujer.",
@@ -85,7 +90,7 @@
       "titulo": "Geografía humana y la ciudad",
       "puntos": [
         "La **geografía humana** estudia la relación entre las sociedades y el espacio (distribución de la población, actividades, ciudades y paisajes), frente a la geografía física. Entre sus enfoques clásicos están el **determinismo ambiental** (siglo XIX: el medio condiciona a la sociedad) y el **posibilismo** (el medio impone límites, pero la cultura y las condiciones sociales determinan lo demás).",
-        "**Qué es una ciudad** depende del criterio: en los censos del INE se agrupaban los núcleos en zona **rural** (hasta 2.000 habitantes), **intermedia** (de 2.001 a 10.000) y **urbana** (más de 10.000). Para la calidad del aire, la Ley 34/2007 llama **aglomeración** a la conurbación de más de 250.000 habitantes (art. 3.b).",
+        "**Qué es una ciudad** depende del criterio: el INE ha distinguido tradicionalmente tres umbrales de población, **rural**, **intermedia** y **urbana**, y en los estudios españoles se suele considerar rural la población de entidades de menos de **2.000** habitantes o de municipios de menos de **10.000**. Para la calidad del aire, la Ley 34/2007 llama **aglomeración** a la conurbación de más de 250.000 habitantes (art. 3.b).",
         "**Escuela de Chicago** (Park, Burgess y McKenzie, «The City», 1925): enfoque de **ecología humana** que ve la ciudad como un sistema en el que los grupos compiten por el suelo. Sus modelos de estructura urbana son los de **Burgess** (zonas concéntricas, 1925), **Hoyt** (sectores, 1939) y **Harris y Ullman** (núcleos múltiples, 1945, «The Nature of Cities»). **Wirth** («Urbanism as a Way of Life», 1938) estudia el modo de vida urbano. **Christaller** formuló la teoría de los **lugares centrales** (1933). **Sassen** popularizó el concepto de **ciudad global** («The Global City», 1991: Nueva York, Londres y Tokio)."
       ]
     },
@@ -93,7 +98,7 @@
       "titulo": "Indicadores demográficos (definiciones del INE)",
       "puntos": [
         "El INE mide los fenómenos demográficos con tasas por 1.000 habitantes y con indicadores sintéticos. La **población absoluta** es el número de habitantes; la **población relativa** o densidad, los habitantes por km².",
-        "Datos de España (INE, 2024 definitivos): 318.005 nacimientos (−0,8 % respecto a 2023), 436.118 defunciones, 33,3 % de nacimientos de madre nacida en el extranjero, edad media a la maternidad de 32,61 años y esperanza de vida al nacimiento de 84,01 años. Tasa de mortalidad infantil: 3,04 por mil nacidos vivos."
+        "Datos de España (INE, 2024 definitivos): 318.005 nacimientos (−0,8 % respecto a 2023), 436.118 defunciones, 33,3 % de nacimientos de madre nacida en el extranjero, edad media a la maternidad de 32,6 años y esperanza de vida al nacimiento de 84,01 años. Tasa de mortalidad infantil: 3,04 por mil nacidos vivos."
       ],
       "tabla": {
         "cabecera": [
@@ -115,7 +120,7 @@
           [
             "Saldo vegetativo (crecimiento vegetativo)",
             "Diferencia entre nacimientos y defunciones",
-            "−118.113"
+            "−116.056 (población residente)"
           ],
           [
             "Saldo migratorio",
@@ -158,9 +163,9 @@
     {
       "titulo": "Crecimiento vegetativo, estructura y transición demográfica",
       "puntos": [
-        "**Crecimiento vegetativo positivo**: nacimientos superiores a defunciones; **negativo**: natalidad inferior a mortalidad (España: −118.113 en 2024 y −122.167 estimado en 2025). No incluye las migraciones: el **crecimiento real** suma el saldo migratorio, por eso la población española crece pese al saldo vegetativo negativo.",
+        "**Crecimiento vegetativo positivo**: nacimientos superiores a defunciones; **negativo**: natalidad inferior a mortalidad (España: −116.056 en 2024 y −122.167 estimado en 2025). No incluye las migraciones: el **crecimiento real** suma el saldo migratorio, por eso la población española crece pese al saldo vegetativo negativo.",
         "**Pirámide de población** (por sexo y edad): la base refleja la natalidad y la cima, el envejecimiento. Clasificación habitual: **expansiva o progresiva** (base ancha, natalidad alta, crecimiento rápido), **estacionaria** (crecimiento lento o nulo; base y centro de anchura parecida) y **regresiva** (base más estrecha que el centro, natalidad baja y población envejecida).",
-        "**Transición demográfica** (interpretación de Warren Thompson en la década de 1930; formalizada por Frank Notestein en las décadas de 1940 y 1950): cuatro etapas, o cinco según autores. En la primera, preindustrial, natalidad y mortalidad son **altas y están equilibradas**; en la segunda cae la mortalidad (mejor alimentación y sanidad) y la población crece deprisa; en la tercera desciende la natalidad; en la última natalidad y mortalidad son bajas y el crecimiento es lento o incluso negativo.",
+        "**Transición demográfica** (Warren Thompson, 1929; Frank Notestein, 1945, que distinguió tres tipos de población según su fase): los manuales la exponen en cuatro etapas, o cinco según autores. En la primera, preindustrial, natalidad y mortalidad son **altas**, y la mortalidad, elevada y variable, determina el crecimiento; en la segunda cae la mortalidad (mejor alimentación y sanidad) y la población crece deprisa; en la tercera desciende la natalidad; en la última natalidad y mortalidad son bajas y el crecimiento es lento o incluso negativo.",
         "**Malthus** («Ensayo sobre el principio de la población», 1798) es la referencia clásica sobre la relación entre población y recursos."
       ]
     },
@@ -175,7 +180,7 @@
       "titulo": "Sociedad de masas",
       "puntos": [
         "Es el tipo de sociedad que surge con la industrialización, la urbanización y los medios de comunicación de masas: predominan el anonimato, la uniformidad de gustos y comportamientos y el consumo, y se debilitan los vínculos comunitarios. Los autores la valoran de forma crítica.",
-        "**Ortega y Gasset**, «La rebelión de las masas» (aparecida como artículos en «El Sol» en 1929 y como libro en 1930), lamenta el declive de la alta cultura ante el «hombre-masa». **Escuela de Frankfurt** (Horkheimer y Adorno, «Dialéctica de la Ilustración», 1947, circulada en 1944): la **industria cultural** sirve a los intereses del capitalismo. **Riesman**, «La muchedumbre solitaria» (1950). **C. Wright Mills**, «La élite del poder» (1956): distingue entre sociedad de masas y sociedad de públicos. **Marcuse**, «El hombre unidimensional» (1964). **Le Bon** estudió la psicología de las multitudes."
+        "**Ortega y Gasset**, «La rebelión de las masas» (aparecida como artículos en «El Sol» en 1929 y como libro en 1930), lamenta el declive de la alta cultura ante el «hombre-masa». **Escuela de Frankfurt** (Horkheimer y Adorno, «Dialéctica de la Ilustración», 1947, circulada en 1944): la **industria cultural** sirve a los intereses del capitalismo. **Riesman**, «La muchedumbre solitaria» (1950). **C. Wright Mills**, «La élite del poder» (1956): distingue entre sociedad de masas y sociedad de públicos. **Marcuse**, «El hombre unidimensional» (1964). **Le Bon** estudió la psicología de las multitudes en «Psicología de las masas» («Psychologie des foules», 1895)."
       ]
     },
     {
@@ -183,7 +188,7 @@
       "puntos": [
         "**Art. 45 CE**: todos tienen derecho a disfrutar de un medio ambiente adecuado para el desarrollo de la persona y el deber de conservarlo; los poderes públicos velarán por la utilización racional de los recursos naturales, apoyándose en la solidaridad colectiva; para quienes lo violen se establecerán sanciones penales o administrativas y la obligación de reparar el daño.",
         "Definiciones legales: **contaminación atmosférica** (Ley 34/2007, art. 3.e): presencia en la atmósfera de materias, sustancias o formas de energía que impliquen molestia grave, riesgo o daño para la seguridad o la salud de las personas, el medio ambiente y demás bienes. **Contaminación lumínica** (art. 3.f): resplandor luminoso nocturno que altera las condiciones naturales de las horas nocturnas. **Contaminación acústica** (Ley 37/2003, art. 3.d): presencia en el ambiente de ruidos o vibraciones que impliquen molestia, riesgo o daño para las personas, sus actividades o los bienes, o que causen efectos significativos sobre el medio ambiente. **Suelo contaminado** (Ley 7/2022, art. 2): el alterado por componentes químicos peligrosos de origen humano en concentración que comporte un riesgo inaceptable para la salud o el medio ambiente.",
-        "**Ley 7/2021 de cambio climático y transición energética** (art. 3), para 2030: reducir al menos un **23 %** las emisiones de gases de efecto invernadero respecto a 1990; al menos un **42 %** de renovables en el consumo de energía final; al menos un **74 %** de generación eléctrica renovable; mejorar la eficiencia energética (consumo de energía primaria al menos un 39,5 % menor). **Neutralidad climática antes de 2050**."
+        "**Ley 7/2021 de cambio climático y transición energética** (art. 3), para 2030: reducir al menos un **23 %** las emisiones de gases de efecto invernadero respecto a 1990; al menos un **42 %** de renovables en el consumo de energía final; al menos un **74 %** de generación eléctrica renovable; mejorar la eficiencia energética (consumo de energía primaria al menos un 39,5 % menor). **Neutralidad climática antes de 2050**. El Consejo de Ministros solo puede revisar estos objetivos al alza (art. 3.3 y 3.4): la actualización del **PNIEC 2023-2030** (Plan Nacional Integrado de Energía y Clima) prevé un **32 %** de reducción respecto a 1990, pero el mínimo que fija la ley sigue siendo el 23 %."
       ],
       "tabla": {
         "cabecera": [
@@ -229,7 +234,7 @@
     "Modelos urbanos: **Burgess** 1925 (zonas concéntricas), **Hoyt** 1939 (sectores), **Harris y Ullman** 1945 (núcleos múltiples), **Christaller** 1933 (lugares centrales). Los exámenes cambian el autor o el año.",
     "Hitos ambientales: Estocolmo (1972, PNUMA), Río (1992, Agenda 21 y Convención sobre el Cambio Climático), Kioto (1997, en vigor 2005), París (2015, en vigor 2016). No confundir firma y entrada en vigor.",
     "Pirámide **estacionaria** = crecimiento lento o nulo; **expansiva** = base ancha y crecimiento rápido; **regresiva** = base estrecha y envejecimiento.",
-    "La **Ley 7/2021** fija una reducción del **23 %** de emisiones en 2030 respecto a 1990, no del 55 % (objetivo de la Unión Europea)."
+    "La **Ley 7/2021** fija una reducción mínima del **23 %** de emisiones en 2030 respecto a 1990, no del 55 % (objetivo de la Unión Europea) ni del 32 % (previsión del PNIEC 2023-2030, que es un plan, no la ley)."
   ],
   "caido": [
     {
@@ -289,7 +294,7 @@
     {
       "id": "t_32_08",
       "p": "Etapas de la transición demográfica.",
-      "r": "Cuatro (o cinco): natalidad y mortalidad altas y equilibradas; cae la mortalidad; cae la natalidad; ambas bajas con crecimiento lento o negativo."
+      "r": "Cuatro (o cinco, según autores): natalidad y mortalidad altas, con mortalidad variable; cae la mortalidad; cae la natalidad; ambas bajas, con crecimiento lento o negativo."
     },
     {
       "id": "t_32_09",
@@ -369,7 +374,7 @@
       ],
       "correcta": 2,
       "explicacion": "La densidad o población relativa relaciona los habitantes con la superficie (habitantes por kilómetro cuadrado). El número total de habitantes es la población absoluta.",
-      "ref": "Concepto de densidad de población (INE, España en cifras 2026)",
+      "ref": "INE, España en cifras 2026 (densidad, hab./km²); DLE, «densidad de población»",
       "dificultad": 1
     },
     {
@@ -408,7 +413,7 @@
       ],
       "correcta": 2,
       "explicacion": "En la clasificación habitual de pirámides, la estacionaria corresponde a un crecimiento lento o nulo. La expansiva tiene base ancha y alto crecimiento y la regresiva presenta una base más estrecha que el centro y envejecimiento.",
-      "ref": "Clasificación de pirámides de población",
+      "ref": "Clasificación didáctica habitual de las pirámides de población",
       "dificultad": 2
     },
     {
@@ -426,15 +431,15 @@
     },
     {
       "id": "q_32_08",
-      "enunciado": "En 2024 se registraron en España 318.005 nacimientos y 436.118 defunciones. ¿Cómo fue el crecimiento vegetativo?",
+      "enunciado": "Según el INE, ¿cómo fue en 2024 el saldo vegetativo de la población residente en España?",
       "opciones": [
-        "Positivo, de 118.113 personas",
-        "Negativo, de 118.113 personas",
-        "Nulo, porque la diferencia la compensa la inmigración"
+        "Positivo, de 116.056 personas",
+        "Negativo, de 116.056 personas",
+        "Nulo, porque la inmigración compensa la diferencia"
       ],
       "correcta": 1,
-      "explicacion": "El crecimiento vegetativo es nacimientos menos defunciones: 318.005 − 436.118 = −118.113, es decir, negativo. La inmigración forma parte del saldo migratorio, que se suma después para obtener el crecimiento total de la población, pero no altera el saldo vegetativo.",
-      "ref": "INE, MNP 2024",
+      "explicacion": "El INE cifra el saldo vegetativo de la población residente (nacimientos de madres residentes menos defunciones de residentes) en −116.056 personas en 2024: negativo por octavo año consecutivo. La inmigración forma parte del saldo migratorio, que se suma después para obtener el crecimiento de la población, pero no altera el saldo vegetativo.",
+      "ref": "INE, Movimiento Natural de la Población 2024 (nota de prensa de 19/11/2025)",
       "dificultad": 2
     },
     {
@@ -443,11 +448,11 @@
       "opciones": [
         "Bajas y estables",
         "La natalidad alta y la mortalidad baja",
-        "Ambas altas y aproximadamente equilibradas"
+        "Ambas altas, con una mortalidad elevada y variable que determina el crecimiento"
       ],
       "correcta": 2,
-      "explicacion": "En la etapa preindustrial natalidad y mortalidad son altas y se compensan, por lo que el crecimiento es muy lento. La natalidad alta con mortalidad baja es la etapa siguiente, en la que cae la mortalidad.",
-      "ref": "Modelo de transición demográfica",
+      "explicacion": "Notestein (1945) describe las poblaciones que apenas han iniciado la transición: mortalidad alta y variable, principal determinante del crecimiento, y natalidad alta sin tendencia a bajar; el crecimiento depende de las guerras, las hambrunas y las epidemias. La natalidad alta con mortalidad baja corresponde a la fase en que cae la mortalidad, y ambas bajas, a la fase final.",
+      "ref": "F. W. Notestein, «Population — The Long View» (1945); modelo de transición demográfica",
       "dificultad": 2
     },
     {
@@ -569,10 +574,8 @@
     }
   ],
   "dudas": [
-    "La clasificación de las pirámides (expansiva, estacionaria, regresiva), la fases de la transición demográfica y las características de la sociedad de masas son síntesis de manuales; no proceden de una norma. Warren Thompson y Frank Notestein se citan por décadas porque las fuentes consultadas difieren en el año.",
-    "Los datos de 2025 son estimaciones provisionales del INE (nota de 18/2/2026) y la población a 1/7/2026 también; se revisan con nuevas publicaciones. Los datos definitivos más recientes son los de 2024.",
-    "La clasificación rural-intermedia-urbana (2.000 y 10.000 habitantes) es la clásica de los censos del INE (según extractos del buscador); el INE y Eurostat usan hoy otros criterios (grado de urbanización).",
-    "El art. 3 de la Ley 7/2021 prevé una primera revisión de los objetivos desde 2023; el texto consolidado leído (23/07/2026) mantiene el 23 %.",
-    "No se incluyen datos de Le Bon (año de su obra) ni de Kornhauser porque no se pudieron verificar."
+    "La clasificación de las pirámides (expansiva, estacionaria, regresiva) y los rasgos de la sociedad de masas son síntesis de manuales, no definiciones oficiales; se recoge la versión habitual, que es la que se pregunta. Las etapas de la transición demográfica también varían según el autor.",
+    "Los datos de 2025 y la población a 1/7/2026 son provisionales: el INE los revisa en cada publicación (la población a 1/1/2026 ya se ha corregido). En el examen importan el signo del saldo y el orden de magnitud, no la cifra exacta.",
+    "No hay una definición legal única de ciudad: los umbrales de 2.000 y 10.000 habitantes son los tradicionales en los estudios españoles y cambian según se apliquen a entidades de población o a municipios."
   ]
 }

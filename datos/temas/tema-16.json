@@ -316,7 +316,7 @@
       "titulo": "Concursos de delitos",
       "puntos": [
         "**Concurso real** (arts. 73 a 75): a quien comete varios delitos se le imponen **todas** las penas, simultáneas si es posible o sucesivas.",
-        "**Límite de cumplimiento** (art. 76.1): **triple** de la pena más grave, sin pasar de **20 años**; excepciones de **25, 30 y 40 años** según la gravedad de los delitos."
+        "**Límite de cumplimiento** (art. 76.1): **triple** de la pena más grave, con tope general de **20 años**."
       ],
       "tabla": {
         "cabecera": [
@@ -406,10 +406,79 @@
           ],
           [
             "18 años o más",
-            "**Código Penal** (art. 19). A los de 18 a 20 años puede aplicarse la ley del menor en los casos que esta disponga (art. 69)"
+            "**Código Penal** (art. 19). El art. 69 remite a la ley del menor para los de 18 a 20 años «en los casos y con los requisitos que esta disponga», pero la LO 5/2000 vigente **no lo prevé** (la LO 8/2006 suprimió ese régimen): solo se aplica de 14 a 17 años (art. 1.1)"
           ]
         ]
       }
+    },
+    {
+      "titulo": "Eximentes y circunstancias: los requisitos que deciden el caso",
+      "puntos": [
+        "El **trastorno mental transitorio** no exime si el sujeto lo **provocó** para delinquir o **previó o debió prever** el delito (art. 20.1.º). El **síndrome de abstinencia** exime solo si impide comprender la ilicitud del hecho o actuar conforme a esa comprensión (art. 20.2.º).",
+        "Legítima defensa de **bienes**: solo es agresión ilegítima el ataque que **constituya delito** y los ponga en **grave peligro de deterioro o pérdida inminentes**; en la **morada** o sus dependencias basta la **entrada indebida** (art. 20.4.º).",
+        "**Eximente incompleta**: pena inferior en **uno o dos grados**, según el **número y la entidad** de los requisitos que falten o concurran y las circunstancias personales del autor (art. 68); una atenuante ordinaria solo lleva a la **mitad inferior** (art. 66.1.1.ª).",
+        "Momentos que deciden la atenuante: **confesión** antes de saber que el procedimiento **judicial** se dirige contra el culpable (art. 21.4.ª); **reparación** en cualquier momento del procedimiento y **antes del acto del juicio oral** (art. 21.5.ª); **dilación** extraordinaria e indebida **no atribuible al inculpado** y desproporcionada con la complejidad de la causa (art. 21.6.ª).",
+        "**Alevosía**: solo en **delitos contra las personas** (art. 22.1.ª). La agravante **discriminatoria** se aplica aunque la condición **no concurra efectivamente** en la víctima (art. 22.4.ª).",
+        "Más de **dos** agravantes sin atenuantes: los jueces **podrán** imponer la superior en grado **en su mitad inferior** (art. 66.1.4.ª); con reincidencia cualificada (**al menos tres** condenas ejecutorias por delitos del mismo título y naturaleza), también la superior en grado (art. 66.1.5.ª)."
+      ],
+      "ampliado": true
+    },
+    {
+      "titulo": "Grados de pena, sustitución y concursos: cómo se calcula",
+      "puntos": [
+        "Pena **superior en grado**: va del **máximo** legal **más un día** hasta ese máximo más su **mitad**. **Inferior en grado**: va del **mínimo** menos su **mitad** hasta ese mínimo **menos un día** (art. 70.1).",
+        "Si la superior en grado rebasa los límites del Código, su máximo es: prisión e inhabilitación, **30 años**; suspensión de empleo o cargo, **8**; conducir, **15**; armas, residencia, aproximación y comunicación, **20**; multa, **30 meses** (art. 70.3).",
+        "Si al bajar grados resulta prisión **inferior a 3 meses**, se **sustituye en todo caso** por multa, trabajos en beneficio de la comunidad o localización permanente: cada día de prisión, **2 cuotas**, **1 jornada** o **1 día** de localización (art. 71.2).",
+        "Tentativa: uno o dos grados según el **peligro inherente al intento** y el **grado de ejecución alcanzado** (art. 62); el cómplice baja un grado también en el delito **intentado** (art. 63).",
+        "Delito continuado: mitad superior de la más grave, **pudiendo llegar a la mitad inferior de la superior en grado** (art. 74.1); patrimonial de **notoria gravedad** que perjudique a una **generalidad de personas**, superior en **uno o dos grados** (art. 74.2); quedan fuera los bienes eminentemente personales, **salvo** honor y libertad e indemnidad sexuales del **mismo sujeto pasivo** (art. 74.3).",
+        "Concurso ideal: si la mitad superior excede la suma de las penas separadas, se penan **por separado** (art. 77.2). Medial: pena **superior** a la que correspondería en concreto por la más grave, sin exceder la **suma de las penas concretas** ni el límite del art. 76 (art. 77.3).",
+        "Límite de cumplimiento (art. 76.1): **20 años**, salvo **25** si algún delito tiene prisión de **hasta 20**; **30** si alguno la tiene **superior a 20**; **40** si **al menos dos** la tienen superior a 20 o si es terrorismo y alguno la supera."
+      ],
+      "ampliado": true
+    },
+    {
+      "titulo": "Prescripción y cancelación: cómputo y plazos exactos",
+      "puntos": [
+        "La prescripción del delito corre desde su comisión; en el **continuado**, desde la última infracción; en el **permanente**, desde que se eliminó la situación ilícita; si exige **habitualidad**, desde que cesó la conducta (art. 132.1).",
+        "**Interrupción**: queda **sin efecto el tiempo transcurrido** cuando el procedimiento se dirige contra el indiciariamente responsable, lo que exige una **resolución judicial motivada** que le atribuya participación; vuelve a correr si el procedimiento se paraliza o termina sin condena (art. 132.2, regla 1.ª).",
+        "La querella o denuncia ante un **órgano judicial** contra persona determinada **suspende** el cómputo **hasta 6 meses**: si en ese plazo se dicta esa resolución, la interrupción se retrotrae a **la fecha de la querella o denuncia**; si no, o si se inadmite por resolución firme, el cómputo **continúa** (art. 132.2, regla 2.ª).",
+        "La prescripción de la **pena** corre desde la **sentencia firme** o desde el **quebrantamiento** si ya se cumplía, y queda **en suspenso** durante la suspensión de la ejecución y el cumplimiento sucesivo de otras penas (art. 134). **Medidas de seguridad**: **10 años** las privativas de libertad de más de 3 años; **5** las demás (art. 135).",
+        "**Cancelación de antecedentes** sin volver a delinquir (art. 136.1): **6 meses** (leves); **2 años** (penas de hasta 12 meses e imprudentes); **3 años** (restantes menos graves inferiores a 3 años); **5 años** (menos graves de 3 o más años); **10 años** (graves).",
+        "El **perdón** del ofendido no extingue la responsabilidad en delitos contra **menores** o personas con discapacidad necesitadas de especial protección que afecten a bienes eminentemente personales (art. 130.1.5.º)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Pena impuesta por sentencia firme (art. 133.1)",
+          "Prescribe a los"
+        ],
+        "filas": [
+          [
+            "Prisión de más de 20 años",
+            "**30 años**"
+          ],
+          [
+            "Prisión de 15 a 20 años",
+            "**25 años**"
+          ],
+          [
+            "Inhabilitación de más de 10 años; prisión de más de 10 y menos de 15",
+            "**20 años**"
+          ],
+          [
+            "Inhabilitación de más de 6 y hasta 10 años; prisión de más de 5 y hasta 10",
+            "**15 años**"
+          ],
+          [
+            "Restantes penas graves",
+            "**10 años**"
+          ],
+          [
+            "Menos graves / leves",
+            "**5 años** / **1 año**"
+          ]
+        ]
+      },
+      "ampliado": true
     }
   ],
   "trampas": [
@@ -422,7 +491,7 @@
     "Las medidas de seguridad **no** pueden ser más gravosas ni de mayor duración que la pena abstractamente aplicable, y solo se aplican a las tres primeras eximentes (más eximentes incompletas).",
     "**Reincidencia**: mismo título y misma naturaleza, condena ejecutoria; no cuentan antecedentes cancelados ni delitos leves (salvo multirreincidencia de leves tras la LO 1/2026). No confundir con reiteración.",
     "Modelos de prevención de la persona jurídica: para eximir deben estar adoptados **antes** del delito; adoptar medidas **antes del juicio oral** es solo atenuante.",
-    "Plazos de prescripción: se calculan con la pena **máxima** señalada al delito y el tramo es por **más de** (p. ej. prisión de 12 años prescribe a los 15, no a los 10)."
+    "Prescripción del **delito**: se calcula con la pena **máxima** señalada y el tramo es por **más de** (un delito castigado con hasta 12 años de prisión prescribe a los 15, no a los 10). La **pena** impuesta de 12 años prescribe a los **20** (art. 133): no mezcles las dos tablas."
   ],
   "caido": [
     {
@@ -567,6 +636,11 @@
       "id": "t_16_23",
       "p": "¿Cuándo procede el internamiento cerrado de un menor?",
       "r": "Delito grave; o menos grave con violencia, intimidación o grave riesgo; o delito cometido en grupo o al servicio de una banda u organización (art. 9.2 LO 5/2000)."
+    },
+    {
+      "id": "t_16_24",
+      "p": "¿En cuánto prescriben las penas de prisión impuestas por sentencia firme?",
+      "r": "Más de 20 años: **30**; de 15 a 20: **25**; más de 10 y menos de 15: **20**; más de 5 y hasta 10: **15**. Restantes graves, **10**; menos graves, **5**; leves, **1 año** (art. 133.1)."
     }
   ],
   "preguntas": [
@@ -865,8 +939,8 @@
         "Tentativa de homicidio"
       ],
       "correcta": 0,
-      "explicacion": "El Derecho penal sanciona acciones u omisiones previstas como delito (art. 1.1 CP) y no los meros pensamientos. La conspiración exige que dos o más personas se concierten y resuelvan ejecutar el delito (art. 17.1), y la tentativa requiere el principio de ejecución por hechos exteriores (art. 16.1). Ninguno de esos elementos concurre.",
-      "ref": "arts. 1.1, 16.1 y 17.1 CP",
+      "explicacion": "Son delitos las acciones y omisiones dolosas o imprudentes penadas por la ley (art. 10 CP); el mero pensamiento que no se exterioriza no es acción penalmente relevante. La conspiración exige que dos o más personas se concierten y resuelvan ejecutar el delito (art. 17.1), y la tentativa requiere dar principio a la ejecución directamente por hechos exteriores (art. 16.1). Ninguno de esos elementos concurre.",
+      "ref": "arts. 10, 16.1 y 17.1 CP",
       "dificultad": 1
     },
     {
@@ -881,10 +955,87 @@
       "explicacion": "Las medidas de seguridad se fundamentan en la peligrosidad criminal del sujeto, exteriorizada en la comisión de un hecho previsto como delito (art. 6.1), y no pueden ser más gravosas ni de mayor duración que la pena abstractamente aplicable (art. 6.2). La culpabilidad es el fundamento de la pena, y no cabe aplicar medidas sin un hecho delictivo previo (art. 95.1).",
       "ref": "arts. 6 y 95 CP",
       "dificultad": 1
+    },
+    {
+      "id": "q_16_25",
+      "enunciado": "Según el art. 20.4.º del Código Penal, en caso de defensa de la morada o sus dependencias, se reputa agresión ilegítima:",
+      "opciones": [
+        "La entrada indebida en aquella o en estas",
+        "Solo la entrada que constituya delito y ponga la morada en grave peligro de deterioro o pérdida inminentes",
+        "Solo la entrada realizada con violencia o intimidación sobre sus moradores"
+      ],
+      "correcta": 0,
+      "explicacion": "El requisito primero de la legítima defensa (art. 20.4.º) precisa que, en caso de defensa de la morada o sus dependencias, se reputa agresión ilegítima la entrada indebida en aquella o estas. Exigir un ataque que constituya delito y ponga los bienes en grave peligro de deterioro o pérdida inminentes es la regla para la defensa de los bienes, no de la morada, y el precepto no requiere violencia ni intimidación sobre los moradores.",
+      "ref": "art. 20.4.º CP",
+      "dificultad": 3
+    },
+    {
+      "id": "q_16_26",
+      "enunciado": "Para que se aprecie la atenuante de reparación del daño del art. 21.5.ª del Código Penal, ¿hasta qué momento puede el culpable reparar el daño ocasionado a la víctima o disminuir sus efectos?",
+      "opciones": [
+        "Hasta antes de conocer que el procedimiento judicial se dirige contra él",
+        "Hasta que se dicte sentencia firme",
+        "En cualquier momento del procedimiento, con anterioridad a la celebración del acto del juicio oral"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 21.5.ª exige que el culpable repare el daño ocasionado a la víctima, o disminuya sus efectos, en cualquier momento del procedimiento y con anterioridad a la celebración del acto del juicio oral. El límite de «antes de conocer que el procedimiento judicial se dirige contra él» es el de la atenuante de confesión (art. 21.4.ª), y el Código no extiende la reparación atenuante hasta la sentencia firme.",
+      "ref": "art. 21.4.ª y 21.5.ª CP",
+      "dificultad": 3
+    },
+    {
+      "id": "q_16_27",
+      "enunciado": "Al aplicar la pena inferior en grado, el tribunal llega a una pena de prisión de dos meses. ¿Qué dispone el art. 71.2 del Código Penal?",
+      "opciones": [
+        "Se impone la prisión de dos meses, porque al determinar la pena inferior en grado el tribunal no queda limitado por las cuantías mínimas",
+        "Se sustituye en todo caso por multa, trabajos en beneficio de la comunidad o localización permanente, a razón de dos cuotas de multa, una jornada de trabajo o un día de localización por cada día de prisión",
+        "Se eleva la prisión al mínimo legal de tres meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 71.1 permite que, al determinar la pena inferior en grado, el tribunal no quede limitado por las cuantías mínimas legales, pero el art. 71.2 añade que, cuando así proceda imponer una prisión inferior a tres meses, esta será en todo caso sustituida por multa, trabajos en beneficio de la comunidad o localización permanente, aunque la ley no prevea estas penas para el delito, sustituyendo cada día de prisión por dos cuotas de multa, una jornada de trabajo o un día de localización permanente. Ni se impone la prisión de dos meses ni se eleva a tres meses.",
+      "ref": "art. 71 CP",
+      "dificultad": 3
+    },
+    {
+      "id": "q_16_28",
+      "enunciado": "Fuera de los delitos de terrorismo y de la prisión permanente revisable, ¿qué exige el art. 76.1 del Código Penal para que el límite máximo de cumplimiento efectivo de la condena sea de 40 años?",
+      "opciones": [
+        "Que el sujeto haya sido condenado por dos o más delitos y alguno de ellos esté castigado por la ley con pena de prisión superior a 20 años",
+        "Que el sujeto haya sido condenado por tres o más delitos castigados por la ley con pena de prisión de hasta 20 años",
+        "Que el sujeto haya sido condenado por dos o más delitos y al menos dos de ellos estén castigados por la ley con pena de prisión superior a 20 años"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 76.1 eleva excepcionalmente el límite general de 20 años: a 25 años cuando alguno de los delitos está castigado con prisión de hasta 20 años; a 30 cuando alguno lo está con prisión superior a 20 años; y a 40 cuando al menos dos están castigados con prisión superior a 20 años (o, en terrorismo, cuando alguno lo está). Que solo uno supere los 20 años lleva al límite de 30, y los delitos castigados con hasta 20 años nunca conducen al de 40.",
+      "ref": "art. 76.1 CP",
+      "dificultad": 3
+    },
+    {
+      "id": "q_16_29",
+      "enunciado": "Una sentencia firme impone una pena de prisión de 12 años. ¿En qué plazo prescribe esa pena según el art. 133 del Código Penal?",
+      "opciones": [
+        "A los 15 años",
+        "A los 20 años",
+        "A los 25 años"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 133.1 establece que prescriben a los 20 años las penas de prisión por más de 10 y menos de 15 años. A los 15 años prescriben las de prisión por más de cinco años que no excedan de 10, y a los 25 las de prisión de 15 o más años sin que excedan de 20. No debe confundirse con la prescripción del delito: un delito cuya pena máxima es de 12 años de prisión prescribe a los 15 años (art. 131.1).",
+      "ref": "art. 133.1 CP",
+      "dificultad": 3
+    },
+    {
+      "id": "q_16_30",
+      "enunciado": "Se presenta ante un juzgado una querella que atribuye a una persona determinada su presunta participación en un hecho que puede ser delito. Según el art. 132.2 del Código Penal, ¿qué efecto tiene sobre la prescripción?",
+      "opciones": [
+        "Suspende el cómputo durante un máximo de seis meses; si en ese plazo se dicta contra el querellado resolución judicial motivada que le atribuya participación, la interrupción se entiende producida en la fecha de presentación de la querella",
+        "Interrumpe por sí sola la prescripción, quedando sin efecto el tiempo transcurrido, aunque el juez no llegue a dictar resolución alguna",
+        "Suspende el cómputo durante un máximo de un año, transcurrido el cual se reanuda aunque se haya dictado resolución judicial contra el querellado"
+      ],
+      "correcta": 0,
+      "explicacion": "La regla 2.ª del art. 132.2 dispone que la querella o denuncia ante un órgano judicial que atribuya a persona determinada su presunta participación suspende el cómputo de la prescripción por un plazo máximo de seis meses desde su presentación. Si en ese plazo se dicta la resolución judicial motivada de la regla 1.ª, la interrupción se entiende producida retroactivamente en la fecha de la querella o denuncia; si recae inadmisión firme o el juez no resuelve, el cómputo continúa. La querella no interrumpe por sí sola, y la suspensión no dura un año.",
+      "ref": "art. 132.2 CP",
+      "dificultad": 3
     }
   ],
   "dudas": [
-    "El art. 69 CP permite aplicar la ley del menor a mayores de 18 y menores de 21 'en los casos y con los requisitos que esta disponga'; no he comprobado si la LO 5/2000 vigente contiene hoy ese régimen específico, por lo que no hay pregunta sobre su aplicación práctica.",
-    "La clasificación de ausencia de acción (pensamiento, movimiento reflejo, fuerza irresistible) y los principios de intervención mínima o proporcionalidad son doctrina, no texto literal del Código; están marcados como tales en el resumen."
+    "Los supuestos de ausencia de acción (pensamiento, movimientos reflejos, fuerza irresistible, inconsciencia) y los principios de intervención mínima y proporcionalidad son doctrina: el Código no los enumera. Se recoge la clasificación habitual de los manuales."
   ]
 }

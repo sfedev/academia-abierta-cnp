@@ -27,6 +27,12 @@
       "verificado": "Texto consolidado, actualización de 18/12/2025 (leído el 16/10/2026)"
     },
     {
+      "nombre": "Orden INT/859/2023, de 21 de julio, por la que se desarrolla la estructura orgánica y funciones de los servicios centrales y territoriales de la Dirección General de la Policía (art. 10)",
+      "boe": "BOE-A-2023-17072",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-17072",
+      "verificado": "Texto consolidado, actualización de 20/12/2025 (leído el 16/10/2026)"
+    },
+    {
       "nombre": "Real Decreto 67/2010, de 29 de enero, de adaptación de la legislación de Prevención de Riesgos Laborales a la Administración General del Estado",
       "boe": "BOE-A-2010-2161",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-2161",
@@ -42,6 +48,7 @@
   "novedades": [
     "El «Instituto Nacional de Seguridad e Higiene en el Trabajo» (INSHT) que citan la Ley 31/1995, el RD 2/2006 y el RD 67/2010 se denomina hoy Instituto Nacional de Seguridad y Salud en el Trabajo, O.A., M.P. (INSST): la disposición adicional 5.ª que el RD 787/2020 añade al RD 577/1982 dispone que las referencias a la denominación anterior en el resto del ordenamiento se entienden hechas a la actual. Los textos consolidados conservan el nombre antiguo.",
     "El RD 67/2010 derogó el RD 1488/1998. El art. 18.2 del RD 2/2006 aún remite al art. 7 del RD 1488/1998; el equivalente actual es el art. 7 del RD 67/2010 (servicios de prevención).",
+    "El art. 18.1 del RD 2/2006 sigue situando el Servicio de Prevención en la «Subdirección General de Gestión y Recursos Humanos», denominación ya superada: hoy la prevención de riesgos laborales de la DGP la ejerce la Unidad de Prevención de Riesgos Laborales y Protección Socio-Sanitaria de la Subdirección General de Recursos Humanos y Formación (art. 10.3.c Orden INT/859/2023).",
     "Las auditorías del RD 39/1997 se repiten cada 4 años (2 si hay actividades del anexo I) tras el RD 337/2010; en materiales antiguos aparecen otros plazos. No son las del RD 2/2006 (cada 5 años) y no se aplican a las Administraciones públicas (disp. adic. 4.ª.2 del RD 39/1997)."
   ],
   "clave": [
@@ -141,10 +148,10 @@
     {
       "titulo": "RD 2/2006: prevención en el Cuerpo Nacional de Policía",
       "puntos": [
-        "**Ámbito (art. 2)**: funcionarios del CNP en los órganos **centrales y periféricos** dependientes de la **Dirección General de la Policía (DGP)**. Las funciones no exclusivas de policía se rigen por la normativa general con las peculiaridades de la AGE. Sus **diez principios** (art. 4) calcan los del art. 15 de la Ley 31/1995.",
+        "**Ámbito (art. 2)**: funcionarios del CNP en los órganos **centrales y periféricos** dependientes de la **Dirección General de la Policía (DGP)**. Las funciones no exclusivas de policía se rigen por la normativa general con las peculiaridades de la AGE. Sus **diez principios** (art. 4) siguen los del art. 15 de la Ley 31/1995 con matices policiales (evaluar los riesgos «de imposible o muy difícil evitación», estimular el interés de los funcionarios por la seguridad).",
         "**Evaluación de riesgos (art. 5.2)**: se revisa **cada cuatro años** y siempre que haya daños, equipos nuevos con riesgos no contemplados o inadecuación.",
         "**Vigilancia de la salud (art. 10)**: la **DGP** la garantiza (reconocimientos médicos y campañas de vacunación). Son **voluntarios**, salvo que una norma disponga otra cosa o sean necesarios para detectar patologías con **grave riesgo para los propios funcionarios o los ciudadanos**: entonces obligatorios, informando a los representantes. A los datos médicos solo accede el personal médico y sanitario; la DGP, por el Servicio de Prevención, conoce las **conclusiones de aptitud** y de mejora preventiva.",
-        "**Servicio de Prevención (art. 18)**: **propio**, de **ámbito nacional**, en la **Subdirección General de Gestión y Recursos Humanos** de la DGP; al menos **dos** de las cuatro funciones de nivel superior.",
+        "**Servicio de Prevención (art. 18)**: **propio**, de **ámbito nacional**, en la **Subdirección General de Gestión y Recursos Humanos** de la DGP; al menos **dos** de las cuatro funciones de nivel superior. Hoy esa materia la lleva la Unidad de Prevención de Riesgos Laborales y Protección Socio-Sanitaria de la **Subdirección General de Recursos Humanos y Formación** (art. 10.3.c Orden INT/859/2023).",
         "**Control (art. 19)**: auditorías y evaluaciones del sistema **cada cinco años** por la **Inspección de Personal y Servicios de Seguridad** de la Secretaría de Estado de Seguridad, con posible asesoramiento del INSHT (hoy INSST)."
       ],
       "tabla": {
@@ -373,7 +380,7 @@
         "Cada dos años por el Instituto Nacional de Seguridad e Higiene en el Trabajo"
       ],
       "correcta": 0,
-      "explicacion": "El art. 19 encomienda las auditorías y evaluaciones, cada cinco años, a la Inspección de Personal y Servicios de Seguridad de la Secretaría de Estado de Seguridad, que podrá requerir el asesoramiento del Instituto Nacional de Seguridad e Higiene en el Trabajo (hoy INSST). En las actividades exclusivas de policía, las funciones que corresponderían a la Inspección de Trabajo las asume la Inspección de Personal y Servicios de Seguridad (disp. adic. 1.ª), y el INSHT solo asesora.",
+      "explicacion": "El art. 19 encomienda las auditorías y evaluaciones, cada cinco años, a la Inspección de Personal y Servicios de Seguridad de la Secretaría de Estado de Seguridad, que podrá requerir el asesoramiento del Instituto Nacional de Seguridad e Higiene en el Trabajo (hoy INSST). La Inspección de Trabajo no es el órgano auditor: en las actividades exclusivas de policía, incluso el procedimiento de medidas correctoras del RD 707/2002 entiende sus referencias a la Inspección de Trabajo hechas a la Inspección de Personal y Servicios de Seguridad (disp. adic. 1.ª). El INSHT solo asesora.",
       "ref": "art. 19 y disp. adic. 1.ª RD 2/2006",
       "dificultad": 2
     },
@@ -451,7 +458,7 @@
         "Un servicio mancomunado compartido con otros Cuerpos de Seguridad"
       ],
       "correcta": 0,
-      "explicacion": "El art. 18.1 constituye un Servicio de Prevención propio, de ámbito nacional, en la Subdirección General de Gestión y Recursos Humanos de la DGP, que debe integrar al menos dos de las cuatro funciones de nivel superior (art. 18.2). No es ajeno ni mancomunado.",
+      "explicacion": "El art. 18.1 constituye un Servicio de Prevención propio, de ámbito nacional, en la Subdirección General de Gestión y Recursos Humanos de la DGP, que debe integrar al menos dos de las cuatro funciones de nivel superior (art. 18.2). No es ajeno ni mancomunado. Esa subdirección es la que nombra el real decreto; en la estructura actual de la DGP la prevención de riesgos laborales depende de la Subdirección General de Recursos Humanos y Formación (art. 10.3.c Orden INT/859/2023).",
       "ref": "art. 18 RD 2/2006",
       "dificultad": 2
     },
@@ -600,8 +607,6 @@
     }
   ],
   "dudas": [
-    "El análisis de exámenes recoge que el RD 2/2006 es lo más preguntado, pero no precisa los enunciados; las preguntas de esta ficha se han redactado desde el texto consolidado y no copian preguntas oficiales.",
-    "El RD 2/2006 (art. 18) ubica el Servicio de Prevención en la Subdirección General de Gestión y Recursos Humanos de la DGP; la estructura orgánica actual de la DGP (Orden INT/859/2023) puede haber cambiado esa denominación y no se ha contrastado.",
-    "El art. 18.2 del RD 2/2006 cita el RD 1488/1998, derogado por el RD 67/2010; la ficha lo indica como novedad, pero no se ha localizado una corrección oficial del RD 2/2006."
+    "El art. 18.2 del RD 2/2006 sigue remitiendo al RD 1488/1998, derogado por el RD 67/2010, sin que su texto consolidado la haya actualizado; su contenido (servicios de prevención en la AGE) está hoy en el art. 7 del RD 67/2010. Si te preguntan por el texto del RD 2/2006, vale la cita literal."
   ]
 }

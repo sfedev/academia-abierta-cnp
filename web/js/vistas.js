@@ -27,6 +27,10 @@
     var leido = store.leido(t.tema);
     var meta = [pillPeso(t.peso), t.media != null ? h("span", { class: "num" }, "≈ " + AA.fmt1(t.media) + " preg./examen") : null];
     if (!t.datos) meta.push(h("span", {}, "Contenido en preparación"));
+    var conv = AA.convocatoriaPendiente && AA.convocatoriaPendiente();
+    var cambio = conv && AA.cambioDeTema(conv, t.tema);
+    if (cambio) meta.push(h("span", { class: "insignia-conv", title: "Ver la ficha para el detalle" },
+      cambio.tipo === "eliminado" ? "Sale del temario" : cambio.tipo === "renumerado" ? "Pasa a ser el tema " + cambio.ahora : "Cambia en la convocatoria"));
     var estado = h(
       "div",
       { class: "state" },
@@ -83,7 +87,20 @@
 
     // Siguiente paso
     var pasos = [];
-    var cambiosLey = AA.novedadesPendientes();
+    var conv = AA.convocatoriaPendiente();
+    if (conv) {
+      var tc = (conv.convocatoria || {}).temario || {};
+      var nCambios = (tc.modificados || []).length + (tc.nuevos || []).length + (tc.eliminados || []).length;
+      pasos.push({ txt: "Ha salido la convocatoria nueva: ", fuerte: nCambios ? AA.plural(nCambios, "cambio en el temario", "cambios en el temario") : "el temario no cambia", btn: "Ver la convocatoria", ir: "novedades" });
+    }
+    // Recordatorio del idioma (A2) hasta que se marque «ya lo tengo» en Proceso
+    if (!store.ajuste("a2")) {
+      var fin = conv ? AA.plazoEstimado(conv.publicacion) : null;
+      pasos.push(fin ?
+        { txt: "Plazo de solicitud hasta el " + AA.fecha(fin) + " (aprox.): ", fuerte: "acredita ya el nivel A2 de inglés o francés", btn: "Ver requisitos", ir: "proceso" } :
+        { txt: "Requisito: ", fuerte: "certificado A2 de inglés o francés antes de que acabe el plazo de solicitud", btn: "Ver requisitos", ir: "proceso" });
+    }
+    var cambiosLey = AA.novedadesPendientes().filter(function (e) { return e.tipo !== "convocatoria"; });
     if (cambiosLey.length) {
       pasos.push({ txt: "Hay ", fuerte: AA.plural(cambiosLey.length, "cambio legal pendiente de revisar", "cambios legales pendientes de revisar"), btn: "Ver novedades", ir: "novedades" });
     }
@@ -409,7 +426,7 @@
           h("button", { class: "btn", onclick: function () { AA.tarjetasUI.preparar({ temas: [n] }); } }, "Repasar tarjetas")))
     );
 
-    root.appendChild(h("div", { class: "ficha" }, h("div", { style: "min-width:0" }, head, avisoLeyes(n), cuerpo, fin, navegacion(n), nota(d)), indice));
+    root.appendChild(h("div", { class: "ficha" }, h("div", { style: "min-width:0" }, head, avisoConvocatoria(n), avisoLeyes(n), cuerpo, fin, navegacion(n), nota(d)), indice));
     root.appendChild(fabIndice);
     return root;
   };
@@ -467,7 +484,87 @@
     return (soloArt ? (total === 1 ? "Art. " : "Arts. ") : "") + lista + (resto > 0 ? " y " + resto + " más" : "");
   }
 
+  /* Último día del plazo de solicitud: 15 días hábiles desde el día siguiente a la publicación (base 3.1).
+     Sábados y domingos no cuentan (Ley 39/2015, art. 30.2); los festivos no se conocen, por eso es aproximado. */
+  AA.plazoEstimado = function (pubIso, dias) {
+    var d = new Date(pubIso + "T12:00:00");
+    var habiles = 0;
+    while (habiles < (dias || 15)) {
+      d.setDate(d.getDate() + 1);
+      var s = d.getDay();
+      if (s !== 0 && s !== 6) habiles++;
+    }
+    return d.getFullYear() + "-" + AA.pad(d.getMonth() + 1) + "-" + AA.pad(d.getDate());
+  };
+
+  /* ---------- Convocatoria nueva (herramientas/vigilar_convocatoria.py) ---------- */
+  function convocatoriaPendiente() {
+    return AA.novedades.items.filter(function (e) { return e.tipo === "convocatoria" && e.estado === "pendiente"; })[0] || null;
+  }
+  AA.convocatoriaPendiente = convocatoriaPendiente;
+  /* Qué le pasa a un tema actual en la convocatoria nueva: {tipo: modificado|eliminado|renumerado, …} o null. */
+  function cambioDeTema(c, n) {
+    var t = (c.convocatoria || {}).temario || {};
+    var m = (t.modificados || []).filter(function (x) { return x.tema === n; })[0];
+    if (m) return { tipo: "modificado", ahora: m.nuevoNumero, antes: m.antes, despues: m.despues };
+    if ((t.eliminados || []).some(function (x) { return x.tema === n; })) return { tipo: "eliminado" };
+    var r = (t.renumerados || []).filter(function (x) { return x.de === n; })[0];
+    if (r) return { tipo: "renumerado", ahora: r.a };
+    return null;
+  }
+  AA.cambioDeTema = cambioDeTema;
+
+  function tarjetaConvocatoria(e) {
+    var c = e.convocatoria || {};
+    var t = c.temario || {};
+    var pend = e.estado === "pendiente";
+    var lista = h("ul", { class: "conv-cambios" });
+    (t.nuevos || []).forEach(function (x) { lista.appendChild(h("li", {}, h("span", { class: "pill pill--alto" }, "Tema nuevo " + x.tema), " ", recorta(x.texto, 220))); });
+    (t.eliminados || []).forEach(function (x) { lista.appendChild(h("li", {}, h("span", { class: "pill pill--pend" }, "Se elimina"), " ", h("a", { href: "#tema-" + x.tema }, "Tema " + x.tema), ": " + recorta(x.texto, 160))); });
+    (t.modificados || []).forEach(function (x) {
+      lista.appendChild(h("li", {},
+        h("span", { class: "pill pill--pend" }, "Cambia"), " ", h("a", { href: "#tema-" + x.tema }, "Tema " + x.tema),
+        x.nuevoNumero !== x.tema ? " (pasa a ser el " + x.nuevoNumero + ")" : "",
+        h("details", { class: "conv-diff" }, h("summary", {}, "Ver epígrafe antes y después"),
+          h("p", {}, h("strong", {}, "Antes: "), x.antes), h("p", {}, h("strong", {}, "Ahora: "), x.despues))));
+    });
+    var soloRenum = (t.renumerados || []).filter(function (r) { return !(t.modificados || []).some(function (m) { return m.tema === r.de; }); });
+    if (soloRenum.length) lista.appendChild(h("li", {}, h("span", { class: "pill" }, "Renumerados"), " " + soloRenum.map(function (r) { return r.de + "→" + r.a; }).join(", ") + " (mismo contenido)."));
+    if (!lista.children.length) lista.appendChild(h("li", {}, t.sinAnexo ? "No se ha podido leer el Anexo I: compáralo a mano con el temario actual." : "El temario es el mismo: los 45 epígrafes no cambian."));
+    var datos = [];
+    if (c.plazas) datos.push(h("div", {}, h("strong", {}, c.plazas.toLocaleString("es-ES") + " plazas"), c.plazasLibres ? " (" + c.plazasLibres.toLocaleString("es-ES") + " de oposición libre)" : ""));
+    if (c.plazo) datos.push(h("div", {}, h("span", { class: "muted" }, "Plazo de solicitud: "), c.plazo));
+    if (c.primeraPrueba) datos.push(h("div", { class: "muted" }, recorta(c.primeraPrueba, 220)));
+    datos.push(h("div", { class: "aviso-a2" }, h("strong", {}, "Idioma: "), "acredita el nivel A2 de inglés o francés antes de que acabe el plazo de solicitud. ", enlace("proceso", "", "Ver requisitos")));
+    return h("article", { class: "nov-card nov-card--conv" + (pend ? " nov-card--pend" : "") },
+      h("div", { class: "nov-head" },
+        h("strong", { class: "nov-norma" }, "Nueva convocatoria de Escala Básica"),
+        h("span", { class: "pill " + (pend ? "pill--pend" : "pill--ok") }, pend ? "Temario por revisar" : "Fichas actualizadas")),
+      h("div", { class: "nov-cuando" }, "Publicada en el BOE el " + AA.fecha(e.publicacion)),
+      h("div", { class: "muted nov-titulo" }, recorta(e.norma.titulo, 180)),
+      h("div", { class: "nov-detalle" }, datos),
+      h("h3", { style: "margin-top:12px;font-size:1rem" }, "Cambios en el temario respecto al de 2026"),
+      lista,
+      h("div", { class: "row", style: "margin-top:10px" }, h("a", { class: "btn btn--sm", href: e.norma.url, target: "_blank", rel: "noopener noreferrer" }, "Ver la convocatoria en el BOE")));
+  }
+
+  /* Banner en la ficha de un tema que cambia en la convocatoria nueva. */
+  function avisoConvocatoria(n) {
+    var c = convocatoriaPendiente();
+    var cambio = c && cambioDeTema(c, n);
+    if (!cambio) return null;
+    var texto = cambio.tipo === "eliminado" ? "La nueva convocatoria **elimina este tema** del temario." :
+      cambio.tipo === "renumerado" ? "En la nueva convocatoria este tema pasa a ser el **tema " + cambio.ahora + "** (mismo contenido)." :
+      "La nueva convocatoria **cambia el epígrafe** de este tema" + (cambio.ahora !== n ? " (y pasa a ser el tema " + cambio.ahora + ")" : "") + ": puede incluir contenidos que esta ficha no cubre.";
+    return h("aside", { class: "aviso-conv", role: "note" },
+      h("strong", {}, "Convocatoria nueva publicada el " + AA.fecha(c.publicacion)),
+      h("p", { html: rich(texto) }),
+      cambio.tipo === "modificado" ? h("details", { class: "conv-diff" }, h("summary", {}, "Ver el epígrafe nuevo"), h("p", {}, cambio.despues)) : null,
+      h("div", { style: "margin-top:8px" }, h("a", { class: "btn btn--sm", href: "#novedades" }, "Ver todos los cambios del temario")));
+  }
+
   function tarjetaNovedad(e) {
+    if (e.tipo === "convocatoria") return tarjetaConvocatoria(e);
     var pend = e.estado === "pendiente";
     var sin = !!e.sinImpacto; // ninguna ficha cita los artículos modificados
     var otros = e.otrosTemas || [];
@@ -567,7 +664,7 @@
 
   /* Banner en la ficha de un tema afectado por cambios legales pendientes. */
   function avisoLeyes(n) {
-    var ps = AA.novedadesPendientes(n);
+    var ps = AA.novedadesPendientes(n).filter(function (e) { return e.tipo !== "convocatoria"; });
     if (!ps.length) return null;
     var ul = h("ul", {}, ps.map(function (e) {
       var arts = listaArticulos(e, n);

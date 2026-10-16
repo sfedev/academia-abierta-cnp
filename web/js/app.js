@@ -10,6 +10,8 @@
     ["novedades", "Novedades"],
     ["test", "Tests"],
     ["tarjetas", "Tarjetas"],
+    ["oficiales", "Exámenes oficiales"],
+    ["psicotecnicos", "Psicotécnicos"],
     ["fisicas", "Pruebas físicas"],
     ["proceso", "Proceso"],
     ["progreso", "Progreso"],
@@ -22,7 +24,7 @@
     ["test", "Tests", '<circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/>'],
     ["tarjetas", "Tarjetas", '<rect x="3" y="8" width="14" height="12" rx="2"/><path d="M7 8V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-2"/>'],
   ];
-  var MAS = ["novedades", "fisicas", "proceso", "progreso"];
+  var MAS = ["novedades", "oficiales", "psicotecnicos", "fisicas", "proceso", "progreso"];
 
   var host, nav, tabbar, hoja, fondoHoja, btnMas, lastRendered = null;
 
@@ -60,6 +62,8 @@
       else if (r === "panel") vista = V.panel();
       else if (r === "temario") vista = V.temario();
       else if (r === "novedades") vista = V.novedades();
+      else if (r === "oficiales") vista = V.oficiales();
+      else if (r === "psicotecnicos") vista = V.psicotecnicos();
       else if (r === "test") vista = AA.test.vista();
       else if (r === "tarjetas") vista = AA.tarjetasUI.vista();
       else if (r === "fisicas") vista = V.fisicas();

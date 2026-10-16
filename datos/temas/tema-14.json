@@ -23,10 +23,11 @@
   ],
   "novedades": [
     "Art. 8.1 (DNI), modificado por el Real Decreto-ley 14/2019 (en vigor desde el 06/11/2019): el DNI es hoy «el **único** documento con suficiente valor por sí solo para la acreditación, a todos los efectos, de la identidad y los datos personales de su titular». Antes decía solo que tenía «suficiente valor por sí solo»: el material antiguo puede estar desfasado.",
-    "Ningún artículo ha cambiado desde 2021. Desde 2015 solo hay, además del RDL 14/2019, pronunciamientos del Tribunal Constitucional: la STC 172/2020 (19/11/2020) y la STC 13/2021 (28/01/2021) declaran conformes a la Constitución, solo con una interpretación concreta, los arts. 36.22, 36.23, 37.3 y 37.7 y la disposición final 1.ª (rechazo en frontera de Ceuta y Melilla), y anulan el inciso «no autorizado» del art. 36.23. La actualización de la consolidación de 19/12/2025 no modifica ningún artículo (historial de versiones del BOE comprobado el 16/10/2026).",
+    "Ningún artículo ha cambiado desde el RDL 14/2019: la actualización de la consolidación de 19/12/2025 no modifica ninguno (historial de versiones del BOE comprobado el 16/10/2026). Lo posterior son sentencias del Tribunal Constitucional: la STC 172/2020 (19/11/2020) anula el inciso «no autorizado» del art. 36.23 y, junto con la STC 13/2021 (28/01/2021), declara conformes a la Constitución, solo con una interpretación concreta, los arts. 36.22, 36.23, 37.3 y 37.7 y la disposición final 1.ª (rechazo en frontera de Ceuta y Melilla).",
+    "Cómo deben leerse según el TC: art. 36.23, solo se sanciona **publicar o difundir** (no la mera captación) imágenes o datos de agentes sin su consentimiento cuando creen un **peligro concreto**, no remoto, ponderando el derecho a la información (STC 172/2020, FJ 7 C); art. 37.3, las «alteraciones menores» han de ser relevantes e imputables al participante (FJ 6 E); art. 37.7, la ocupación de la vía pública solo es sancionable si infringe una norma **con rango de ley** o la decisión de la autoridad adoptada en su aplicación (FJ 6 F); art. 36.22, solo restricciones a la navegación impuestas por seguridad ciudadana y con perjuicio real o amenaza concreta (STC 13/2021).",
     "Drones: la Ley no emplea la palabra. Lo más cercano es el **sobrevuelo** de infraestructuras de servicios básicos (infracción muy grave si genera riesgo para la vida o integridad física, art. 35.1; grave si causa una interferencia grave en su funcionamiento, art. 36.9) y las **aeronaves ligeras** (registro documental, art. 25.2; incumplir restricciones a la navegación es infracción grave, art. 36.22).",
     "El RD 933/2021 desarrolla el registro de hospedaje y alquiler de vehículos del art. 25.1: partes firmados por mayores de 14 años, conservación de 3 años y comunicación en un máximo de 24 horas. Es materia que ha caído en examen.",
-    "El texto de la LO 4/2015 sigue citando la Ley 30/1992 (arts. 6, 44 y 51) y la LO 15/1999 (arts. 43 y 46), normas ya derogadas, sin haberlas actualizado. No estudies esas citas como derecho vigente; los plazos y reglas propios de la LO 4/2015 (por ejemplo, la caducidad de 1 año del art. 50) son los que se preguntan."
+    "El texto de la LO 4/2015 sigue citando la Ley 30/1992 (arts. 6, 44 y 51) y la LO 15/1999 (arts. 43 y 46), normas ya derogadas, sin haberlas actualizado. Las referencias a la Ley 30/1992 se entienden hechas a la Ley 39/2015 o a la Ley 40/2015, según corresponda (disposición final 4.ª de la Ley 39/2015), y la LO 15/1999 la derogó la LO 3/2018 (disposición derogatoria única). No estudies esas citas como derecho vigente; los plazos y reglas propios de la LO 4/2015 (por ejemplo, la caducidad de 1 año del art. 50) son los que se preguntan."
   ],
   "clave": [
     "**Identificación en dependencias policiales: máximo 6 horas** (en ningún caso podrá superarlas), solo si no es posible identificar por otro medio o la persona se niega (art. 16.2).",
@@ -358,6 +359,67 @@
         "**Valor probatorio** (art. 52): las denuncias, atestados o actas de agentes que **presenciaron los hechos**, ratificadas si son negadas, bastan salvo prueba en contrario.",
         "**Procedimiento abreviado** (art. 54): solo graves y leves; en **15 días** desde la notificación de la incoación se puede pagar con **reducción del 50 %** (renuncia a alegaciones; termina sin resolución expresa; solo recurso contencioso-administrativo) o alegar. La multa se paga en 15 días desde la firmeza (art. 53)."
       ]
+    },
+    {
+      "titulo": "Identificación, registro corporal y entrada en domicilio: los matices",
+      "puntos": [
+        "Los **dos supuestos** del requerimiento de identificación (art. 16.1): **indicios de haber participado en una infracción** (penal o administrativa) o que sea **razonablemente necesario para prevenir un delito**. Los distractores intercambian «infracción» y «delito».",
+        "Las comprobaciones se hacen **en la vía pública o en el lugar donde se hizo el requerimiento**, incluida la identificación de quien oculta el rostro, **cuando fuere preciso** (art. 16.1).",
+        "El traslado exige que no sea posible identificar **por cualquier medio, incluida la vía telemática o telefónica**, o que la persona se niegue; busca **impedir un delito o sancionar una infracción** y se hace a las dependencias **más próximas que dispongan de medios adecuados**, **a los solos efectos** de identificar (art. 16.2).",
+        "Libro-registro: el extracto mensual lo remite **el órgano competente de la Administración** al **Ministerio Fiscal**, con **el tiempo utilizado en cada diligencia**; sus datos solo se comunican a la **autoridad judicial competente** y al **Ministerio Fiscal** (art. 16.3). Ante la resistencia o negativa se aplican el **Código Penal**, la **LECrim** y, en su caso, esta Ley (art. 16.5).",
+        "Registro corporal: la **única** excepción a que lo haga un agente del **mismo sexo** y a que se practique en **lugar reservado** es la **urgencia por riesgo grave e inminente para los agentes** (art. 20.2). El consentimiento no es requisito (art. 20.4).",
+        "Si deja a la vista partes del cuerpo normalmente cubiertas por ropa: lugar **reservado y fuera de la vista de terceros** y **constancia escrita** de la diligencia, de sus **causas** y de la **identidad del agente que la adoptó** (art. 20.2).",
+        "Se practica causando el **menor perjuicio a la intimidad y dignidad**, con **injerencia mínima** e información **inmediata y comprensible** de sus razones; la compulsión se rige por **idoneidad, necesidad y proporcionalidad** (art. 20.3 y 20.4).",
+        "Entrada en domicilio (art. 15): es **causa legítima suficiente** evitar **daños inminentes y graves** a personas y cosas en **catástrofe, calamidad, ruina inminente** u otros casos de **extrema y urgente necesidad**; tras entrar en un domicilio particular, el acta o atestado va **sin dilación** a la **autoridad judicial competente**. En edificios de **organismos oficiales o entidades públicas** no hace falta el consentimiento de quien los tenga a su cargo."
+      ],
+      "ampliado": true
+    },
+    {
+      "titulo": "Sanciones: órgano según la cuantía y cómo corren los plazos",
+      "puntos": [
+        "La multa concreta fija el grado (art. 39.1) y el grado, el órgano estatal (art. 32.1): una muy grave en grado mínimo o medio (hasta **410.000 €**) la impone el **Secretario de Estado de Seguridad**; solo el grado máximo es del **Ministro del Interior**.",
+        "Grado mínimo por la sola comisión; medio con **al menos una** de las cuatro circunstancias; máximo solo si hay **especial gravedad** justificada por el número y la entidad de las circunstancias y criterios. Las **leves** no tienen tramos: la multa se fija **directamente** (art. 33.2 y 33.3).",
+        "La prescripción de la **infracción** se interrumpe por cualquier actuación administrativa dirigida a sancionarla de la que el interesado tenga **conocimiento formal**, y se **reanuda** si el procedimiento se paraliza **más de un mes** por causa no imputable al presunto responsable (art. 38.3). Un proceso penal la interrumpe hasta que el juez **comunique su finalización** (art. 38.4).",
+        "La prescripción de la **sanción** se interrumpe al iniciarse, con conocimiento del interesado, el **procedimiento de ejecución**, y vuelve a correr si este se paraliza **más de un mes** por causa no imputable al infractor (art. 40.2).",
+        "**Caducidad** (art. 50): **un año desde la incoación** sin **notificar** la resolución, teniendo en cuenta las paralizaciones imputables al interesado y la suspensión por un proceso penal con identidad de sujeto, hecho y fundamento. Caducado, cabe incoar **otro** procedimiento mientras la infracción no haya prescrito; el caducado **no interrumpe** la prescripción.",
+        "Si los hechos pueden ser delito: **tanto de culpa** a la autoridad judicial o al Ministerio Fiscal y **abstención** hasta la resolución que ponga fin al proceso penal o hasta que el Fiscal descarte la vía penal, con la prescripción **interrumpida**; vinculan los **hechos probados** judicialmente y las medidas cautelares previas pueden **mantenerse** mientras el juez no resuelva otra cosa (art. 45).",
+        "Ejecución (art. 53): el cumplimiento de la suspensión de licencias empieza **un mes** después de la firmeza; la multa no pagada se abona en los **15 días** siguientes a la firmeza y después va a **apremio**; los objetos cuya devolución se acuerde y no se recojan en **un mes** desde la notificación se destruyen o reciben el destino adecuado."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Multa (art. 39.1)",
+          "Clase y grado",
+          "Órgano estatal (art. 32.1)"
+        ],
+        "filas": [
+          [
+            "100 a 600 €",
+            "Leve, sin grados",
+            "**Delegado del Gobierno**"
+          ],
+          [
+            "601 a 30.000 €",
+            "Grave, cualquier grado",
+            "**Delegado del Gobierno**"
+          ],
+          [
+            "30.001 a 220.000 €",
+            "Muy grave, grado mínimo",
+            "**Secretario de Estado de Seguridad**"
+          ],
+          [
+            "220.001 a 410.000 €",
+            "Muy grave, grado medio",
+            "**Secretario de Estado de Seguridad**"
+          ],
+          [
+            "410.001 a 600.000 €",
+            "Muy grave, grado máximo",
+            "**Ministro del Interior**"
+          ]
+        ]
+      },
+      "ampliado": true
     }
   ],
   "trampas": [
@@ -369,7 +431,8 @@
     "Tres «15» que se confunden: 15 días para ratificar las medidas provisionales previas al procedimiento (art. 47.2), 15 días para el pago voluntario con reducción del 50 % (art. 54) y 15 días para pagar la multa tras la firmeza (art. 53.3).",
     "DNI: tras el RDL 14/2019 es el **único** documento con suficiente valor por sí solo. Obligatorio desde los 14 años. Pérdida del DNI: «tan pronto como sea posible»; pérdida del pasaporte: «de manera inmediata».",
     "Registro corporal externo: no es «nunca contra la voluntad»; la Ley permite practicarlo contra la voluntad con la compulsión indispensable. Lo realiza un agente del mismo sexo salvo urgencia por riesgo grave e inminente para los agentes.",
-    "Menores: los de **menos de 14 años** están exentos; en hospedaje, firman el parte los **mayores de 14 años**. El procedimiento abreviado nunca se aplica a las infracciones muy graves."
+    "Menores: los de **menos de 14 años** están exentos; en hospedaje, firman el parte los **mayores de 14 años**. El procedimiento abreviado nunca se aplica a las infracciones muy graves.",
+    "Caducidad no es prescripción: el procedimiento caduca al **año de su incoación** sin notificar la resolución; caducado, puede incoarse otro mientras la infracción no haya prescrito, y el caducado **no interrumpe** la prescripción (art. 50)."
   ],
   "caido": [
     {
@@ -506,6 +569,21 @@
       "id": "t_14_20",
       "p": "¿Quién está exento de responsabilidad por las infracciones?",
       "r": "Los **menores de 14 años**; la autoridad lo pone en conocimiento del Ministerio Fiscal (art. 30.2)."
+    },
+    {
+      "id": "t_14_21",
+      "p": "¿Cuándo se reanuda el cómputo de la prescripción de una infracción que se había interrumpido?",
+      "r": "Si el procedimiento está **paralizado más de un mes** por causa no imputable al presunto responsable (art. 38.3)."
+    },
+    {
+      "id": "t_14_22",
+      "p": "¿Qué efectos tiene la caducidad del procedimiento sancionador de la LO 4/2015?",
+      "r": "Pone fin al procedimiento; se puede incoar otro **mientras no haya prescrito la infracción**, y el procedimiento caducado **no interrumpe** la prescripción (art. 50.2)."
+    },
+    {
+      "id": "t_14_23",
+      "p": "¿Qué se exige si el registro corporal externo deja a la vista partes del cuerpo normalmente cubiertas?",
+      "r": "Salvo urgencia por riesgo grave e inminente para los agentes: **lugar reservado y fuera de la vista de terceros** y **constancia escrita** de la diligencia, sus causas y la identidad del agente que la adoptó (art. 20.2)."
     }
   ],
   "preguntas": [
@@ -820,11 +898,87 @@
       "explicacion": "El art. 30.2 declara exentos de responsabilidad por las infracciones a los menores de catorce años y ordena a la autoridad competente ponerlo en conocimiento del Ministerio Fiscal. La responsabilidad solidaria de padres o tutores del art. 42.3 se refiere a menores de dieciocho años no emancipados declarados autores, y el procedimiento abreviado exige un responsable sancionado.",
       "ref": "art. 30.2 y 42.3 LO 4/2015",
       "dificultad": 2
+    },
+    {
+      "id": "q_14_25",
+      "enunciado": "¿Cuál de las siguientes formulaciones recoge correctamente los dos supuestos en que el art. 16.1 de la LO 4/2015 permite a los agentes requerir la identificación de una persona?",
+      "opciones": [
+        "Cuando existan indicios de que ha podido participar en la comisión de un delito, o cuando se considere razonablemente necesario que acredite su identidad para prevenir cualquier infracción",
+        "Cuando existan indicios de que ha podido participar en la comisión de una infracción, o cuando se considere razonablemente necesario que acredite su identidad para prevenir la comisión de un delito",
+        "Cuando existan indicios de que ha podido participar en la comisión de una infracción, o cuando lo solicite la autoridad judicial o el Ministerio Fiscal para prevenir la comisión de un delito"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 16.1 permite requerir la identificación cuando existan indicios de que la persona ha podido participar en la comisión de una infracción y cuando, en atención a las circunstancias, se considere razonablemente necesario que acredite su identidad para prevenir la comisión de un delito. La formulación que habla de participar en «un delito» y de prevenir «cualquier infracción» intercambia los términos, y la Ley no condiciona el requerimiento a una solicitud de la autoridad judicial o del Ministerio Fiscal.",
+      "ref": "art. 16.1 LO 4/2015",
+      "dificultad": 3
+    },
+    {
+      "id": "q_14_26",
+      "enunciado": "Un registro corporal externo exige dejar a la vista partes del cuerpo normalmente cubiertas por ropa y no existe urgencia por riesgo grave e inminente para los agentes. ¿Qué exige el art. 20.2 de la LO 4/2015?",
+      "opciones": [
+        "Que se practique en dependencias policiales y se anote en el libro-registro de identificaciones, cuyo extracto se remite mensualmente al Ministerio Fiscal",
+        "Que se practique en un lugar reservado, en presencia de un testigo, y se comunique de inmediato a la autoridad judicial",
+        "Que lo realice un agente del mismo sexo, en un lugar reservado y fuera de la vista de terceros, dejando constancia escrita de la diligencia, de sus causas y de la identidad del agente que la adoptó"
+      ],
+      "correcta": 2,
+      "explicacion": "Salvo urgencia por riesgo grave e inminente para los agentes, el art. 20.2 exige que el registro lo realice un agente del mismo sexo y, si obliga a dejar a la vista partes del cuerpo normalmente cubiertas por ropa, que se efectúe en un lugar reservado y fuera de la vista de terceros, dejando constancia escrita de la diligencia, de sus causas y de la identidad del agente que la adoptó. El libro-registro con extracto mensual al Ministerio Fiscal es propio de las identificaciones en dependencias policiales (art. 16.3), y la Ley no exige testigo ni comunicación inmediata a la autoridad judicial.",
+      "ref": "art. 20.2 LO 4/2015",
+      "dificultad": 3
+    },
+    {
+      "id": "q_14_27",
+      "enunciado": "Los agentes entran en un domicilio particular para evitar daños inminentes y graves a las personas ante la ruina inminente del edificio. Según el art. 15 de la LO 4/2015, ¿qué deben hacer a continuación?",
+      "opciones": [
+        "Remitir sin dilación el acta o atestado que instruyan a la autoridad judicial competente",
+        "Remitir el acta al Ministerio Fiscal en el plazo máximo de veinticuatro horas",
+        "Solicitar al Delegado del Gobierno, en las setenta y dos horas siguientes, la convalidación de la entrada"
+      ],
+      "correcta": 0,
+      "explicacion": "La necesidad de evitar daños inminentes y graves a las personas y a las cosas en supuestos de catástrofe, calamidad, ruina inminente u otros semejantes de extrema y urgente necesidad es causa legítima suficiente para entrar en un domicilio (art. 15.2). Cuando por esa causa entran en un domicilio particular, las Fuerzas y Cuerpos de Seguridad remiten sin dilación el acta o atestado que instruyan a la autoridad judicial competente (art. 15.4). El precepto no fija un plazo de veinticuatro horas ante el Ministerio Fiscal ni prevé una convalidación por el Delegado del Gobierno.",
+      "ref": "art. 15.2 y 15.4 LO 4/2015",
+      "dificultad": 3
+    },
+    {
+      "id": "q_14_28",
+      "enunciado": "En la Administración General del Estado, por una infracción muy grave de la LO 4/2015, procede imponer una multa de 300.000 euros. ¿Qué órgano es competente para imponerla?",
+      "opciones": [
+        "El Ministro del Interior",
+        "El Secretario de Estado de Seguridad",
+        "El Delegado del Gobierno en la comunidad autónoma"
+      ],
+      "correcta": 1,
+      "explicacion": "Una multa de 300.000 euros se sitúa en el grado medio de las infracciones muy graves, que va de 220.001 a 410.000 euros (art. 39.1). El art. 32.1 atribuye al Secretario de Estado de Seguridad la sanción de las muy graves en grado medio y en grado mínimo; el Ministro del Interior solo sanciona las muy graves en grado máximo (de 410.001 a 600.000 euros), y los Delegados del Gobierno, las graves y las leves.",
+      "ref": "arts. 32.1 y 39.1 LO 4/2015",
+      "dificultad": 3
+    },
+    {
+      "id": "q_14_29",
+      "enunciado": "Un procedimiento sancionador por una infracción grave de la LO 4/2015 caduca porque ha transcurrido un año desde su incoación sin que se haya notificado la resolución. ¿Qué consecuencia prevé el art. 50?",
+      "opciones": [
+        "La caducidad extingue la responsabilidad por la infracción, y la Administración ya no puede sancionar esos hechos",
+        "La Administración puede incoar un nuevo procedimiento en cualquier momento, porque el procedimiento caducado interrumpió la prescripción",
+        "La Administración puede incoar un nuevo procedimiento mientras no haya prescrito la infracción, y el procedimiento caducado no interrumpe el plazo de prescripción"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 50.2 dispone que la resolución que declara la caducidad pone fin al procedimiento, sin perjuicio de que la Administración pueda incoar uno nuevo en tanto no haya prescrito la infracción, y que los procedimientos caducados no interrumpen el plazo de prescripción. La caducidad no extingue por sí sola la responsabilidad ni permite reabrir el asunto sin límite de tiempo.",
+      "ref": "art. 50 LO 4/2015",
+      "dificultad": 3
+    },
+    {
+      "id": "q_14_30",
+      "enunciado": "La prescripción de una infracción de la LO 4/2015 se ha interrumpido por una actuación administrativa dirigida a sancionarla, de la que el interesado tuvo conocimiento formal. ¿Cuándo se reanuda el cómputo del plazo?",
+      "opciones": [
+        "Si el procedimiento está paralizado más de un mes por causa no imputable al presunto responsable",
+        "Si el procedimiento está paralizado más de quince días, cualquiera que sea la causa",
+        "Si el procedimiento está paralizado más de tres meses por causa imputable al presunto responsable"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el art. 38.3, la prescripción se interrumpe por cualquier actuación administrativa dirigida a la sanción de la infracción de la que tenga conocimiento formal el interesado, y el cómputo se reanuda si el procedimiento está paralizado más de un mes por causa no imputable al presunto responsable. La Ley no fija plazos de quince días ni de tres meses, y la paralización que cuenta es la no imputable al presunto responsable.",
+      "ref": "art. 38.3 LO 4/2015",
+      "dificultad": 3
     }
   ],
   "dudas": [
-    "No he podido verificar el contenido exacto de las interpretaciones conformes fijadas por la STC 172/2020 y la STC 13/2021 sobre los arts. 36.22, 36.23, 37.3 y 37.7 (el texto consolidado solo remite a sus fundamentos jurídicos); por eso no se han redactado preguntas sobre ellas.",
-    "Una búsqueda web indica que hay proposiciones de ley en trámite para reformar la LO 4/2015 («Ley Mordaza», 2024). No he podido confirmar su estado ni contenido, y no son derecho vigente: el texto consolidado leído (actualización de 19/12/2025) no contiene ninguna reforma posterior a 2021.",
-    "Las citas del texto a la Ley 30/1992 y a la LO 15/1999 (ya derogadas) no se han contrastado con las normas que hoy las sustituyen, por lo que no se han formulado preguntas que dependan de ellas."
+    "Las iniciativas parlamentarias para reformar la LO 4/2015 no son derecho vigente hasta que se publiquen en el BOE: en el examen aplica el texto consolidado, cuyo articulado no ha cambiado desde el RDL 14/2019."
   ]
 }

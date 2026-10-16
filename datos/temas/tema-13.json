@@ -24,12 +24,13 @@
       "nombre": "Orden INT/859/2023, de 21 de julio, por la que se desarrolla la estructura orgánica y funciones de los servicios centrales y territoriales de la Dirección General de la Policía (art. 7: Unidad Central de Seguridad Privada)",
       "boe": "BOE-A-2023-17072",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-17072",
-      "verificado": "Texto consolidado, actualización de 20/12/2025 (leído el 16/10/2026 en la copia de trabajo del proyecto)"
+      "verificado": "Texto consolidado, actualización de 20/12/2025 (leído el 16/10/2026)"
     }
   ],
   "novedades": [
     "La Ley Orgánica 7/2021 (disposición final séptima) dio nueva redacción al art. 69 de la Ley 5/2014: las medidas cautelares de retirada preventiva de autorizaciones o habilitaciones y de suspensión de la habilitación del personal no pueden durar más de un año (art. 69.5).",
-    "No hay un reglamento nuevo de desarrollo de la Ley 5/2014 en el texto consolidado: el Reglamento de 1994 y el resto de la normativa de desarrollo de la ley anterior mantienen su vigencia en lo que no contravenga la ley (disposición derogatoria única, apartado 2). Sus referencias a los Gobernadores Civiles son históricas.",
+    "No hay un reglamento nuevo de desarrollo de la Ley 5/2014: a 16/10/2026 el BOE mantiene sin derogar el Reglamento de 1994 (RD 2364/1994), que con el resto de la normativa de desarrollo de la ley anterior conserva su vigencia en lo que no contravenga la ley (disposición derogatoria única, apartado 2). Sus referencias a los Gobernadores Civiles son históricas.",
+    "Siguen vigentes, también en lo que no contravengan la Ley 5/2014, las cinco órdenes de desarrollo de 1 de febrero de 2011: INT/314/2011 (empresas de seguridad privada), INT/315/2011 (Comisiones Mixtas de Coordinación), INT/316/2011 (sistemas de alarma), INT/317/2011 (medidas de seguridad privada) e INT/318/2011 (personal de seguridad privada).",
     "En la Policía Nacional, la Unidad Central de Seguridad Privada (Comisaría General de Seguridad Ciudadana) es la Autoridad Nacional de Control del sector (Orden INT/859/2023, art. 7.2.e). La Secretaría de Estado de Seguridad conserva las competencias de la legislación de seguridad privada (RD 207/2024, art. 2.1.c)."
   ],
   "clave": [
@@ -594,9 +595,5 @@
       "dificultad": 3
     }
   ],
-  "dudas": [
-    "No he localizado un nuevo Reglamento de Seguridad Privada aprobado a 16/10/2026: una fuente secundaria de abril de 2026 lo describe como pendiente. Conviene comprobar en el BOE antes del examen.",
-    "No he leído las Órdenes INT/314/2011 a INT/318/2011 (empresas, personal, medidas de seguridad y otras materias); quedan fuera de este tema salvo que el temario las desarrolle.",
-    "La Orden INT/859/2023 la he leído en la copia consolidada que otro redactor descargó en trabajo/g3 (cabecera: actualización de 20/12/2025), no en una descarga propia."
-  ]
+  "dudas": []
 }

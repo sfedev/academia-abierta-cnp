@@ -35,10 +35,14 @@ class ConstruccionDeDatosJs(ConTemporal):
     def repo(self, sin=()):
         raiz = self.ruta("repo")
         os.makedirs(os.path.join(raiz, "herramientas"))
-        shutil.copy(os.path.join(HERRAMIENTAS, "build.py"), os.path.join(raiz, "herramientas", "build.py"))
+        for script in ("build.py", "auditar_preguntas.py", "citas.py"):  # build.py lee el estado de la auditoría
+            shutil.copy(os.path.join(HERRAMIENTAS, script), os.path.join(raiz, "herramientas", script))
         os.makedirs(os.path.join(raiz, "datos", "temas"), exist_ok=True)
         os.makedirs(os.path.join(raiz, "fuentes"), exist_ok=True)
         shutil.copy(os.path.join(RAIZ, "datos", "meta.json"), os.path.join(raiz, "datos", "meta.json"))
+        for extra in ("auditoria.json", "proceso.json"):  # estado de la auditoría y datos del proceso selectivo
+            if os.path.exists(os.path.join(RAIZ, "datos", extra)):
+                shutil.copy(os.path.join(RAIZ, "datos", extra), os.path.join(raiz, "datos", extra))
         shutil.copy(os.path.join(RAIZ, "fuentes", "pesos-por-tema.json"), os.path.join(raiz, "fuentes", "pesos-por-tema.json"))
         for p in fichas_reales():
             if os.path.basename(p) not in sin:
@@ -72,7 +76,10 @@ class ConstruccionDeDatosJs(ConTemporal):
             origen = json.loads(leer(p))
             n = origen["tema"]
             publicada = temas[str(n)]
-            self.assertEqual({k: v for k, v in publicada.items() if k != "peso"}, {k: v for k, v in origen.items() if k != "peso"}, "tema %d" % n)
+            # build.py completa el peso y añade a cada pregunta su estado de verificación («verif»)
+            limpia = lambda d: {k: ([{kk: vv for kk, vv in q.items() if kk != "verif"} for q in v] if k == "preguntas" else v)
+                                for k, v in d.items() if k != "peso"}
+            self.assertEqual(limpia(publicada), limpia(origen), "tema %d" % n)
             self.assertEqual(publicada["peso"]["nivel"], pesos[n]["peso"])  # pesos-por-tema.json manda sobre la ficha
             self.assertEqual(publicada["peso"]["media"], pesos[n]["preguntasMedia"])
             self.assertEqual(publicada["peso"]["confianza"], pesos[n]["confianza"])

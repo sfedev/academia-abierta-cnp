@@ -330,6 +330,77 @@
           ]
         ]
       }
+    },
+    {
+      "titulo": "Defensor del Pueblo: tramitación, plazos y quién decide",
+      "puntos": [
+        "**Incompatibilidad**: debe cesar en ella **dentro de los 10 días** siguientes al nombramiento y **antes de tomar posesión**; si no, se entiende que **no acepta**. Si es sobrevenida, se entiende que **renuncia** (art. 7 LO 3/1981).",
+        "**Adjuntos**: los **nombra y separa el Defensor**, previa conformidad de las Cámaras (art. 8.2), que otorga la **Comisión Mixta**; toman posesión ante los **Presidentes de ambas Cámaras y el Defensor** (arts. 13 y 14 del Reglamento). Cesan **automáticamente**, con los asesores, cuando toma posesión un nuevo Defensor (art. 36).",
+        "**Admisión** (art. 17): se acusa recibo de toda queja y el rechazo va en **escrito motivado**. Las anónimas se **rechazan**; las de mala fe, sin fundamento o sin pretensión **pueden** rechazarse. Sus decisiones **no admiten recurso**.",
+        "**Efectos**: la queja **no suspende** los plazos para recurrir **ni la ejecución** del acto (art. 27.2 del Reglamento). Con resolución judicial pendiente no examina el caso individual, pero sí los **problemas generales** (art. 17.2).",
+        "**Plazos**: informe inicial del organismo, **15 días ampliables** (art. 18.1); el funcionario investigado responde en el plazo fijado, **nunca inferior a 10 días** y prorrogable **por la mitad** (art. 20.2).",
+        "**Documentos secretos**: la no remisión la acuerda el **Consejo de Ministros** (art. 22.1); si el documento es decisivo para la investigación, el Defensor lo comunica a la **Comisión Mixta** (art. 22.3). Los hechos delictivos, al **Fiscal General del Estado** (art. 25.1).",
+        "**Informe anual**: en **periodo ordinario de sesiones** (art. 32.1), previo paso por la **Comisión Mixta** (art. 11.1 del Reglamento); un resumen se expone **oralmente ante los Plenos de ambas Cámaras** (art. 33.4).",
+        "**Prevención de la Tortura**: los informes del Mecanismo van a las Cortes y al **Subcomité para la Prevención de la Tortura** de la ONU (art. 11.3 del Reglamento); los vocales del Consejo Asesor sirven **4 años** y se renuevan **por mitades cada 2** (art. 20 del Reglamento)."
+      ],
+      "ampliado": true
+    },
+    {
+      "titulo": "Estados de alarma, excepción y sitio: trámite y medidas (LO 4/1981)",
+      "puntos": [
+        "**Alarma autonómica**: el Presidente de la Comunidad **puede solicitarla**, pero la declara **el Gobierno** (art. 5); por delegación puede ser la autoridad competente (art. 7) y requerir a las Fuerzas y Cuerpos de Seguridad del Estado, que actúan bajo sus **mandos naturales** (art. 9.2).",
+        "**Medidas de la alarma** (arts. 9 y 11): las **policías autonómicas y locales** quedan bajo las **órdenes directas** de la autoridad competente; caben limitar la circulación, requisas, prestaciones personales y ocupar industrias o locales, **salvo domicilios privados**.",
+        "**Solicitud de excepción** (art. 13): indica los **derechos a suspender** (solo los del art. 55.1 CE), medidas, ámbito, duración (**máximo 30 días**) y **cuantía máxima de las sanciones**; el Congreso puede aprobarla o **modificarla**.",
+        "**Prórroga y fin** (art. 15): la prórroga, que pide el Gobierno al Congreso, no excede de **30 días**; el fin anticipado, por decreto del Consejo de Ministros **dando cuenta** al Congreso.",
+        "**Sitio** (arts. 33 a 35): el Gobierno **designa la Autoridad militar**, que publica los **bandos**; el **Congreso** puede fijar en la declaración los delitos sometidos a la **Jurisdicción Militar**.",
+        "**Reglas comunes**: vigencia **desde la publicación** en el BOE (art. 2); actos impugnables y daños indemnizables (art. 3); al terminar decaen las medidas, **salvo las sanciones firmes** (art. 1.3)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Derecho suspendido (CE)",
+          "Medida en la excepción (LO 4/1981)"
+        ],
+        "filas": [
+          [
+            "Domicilio (art. 18.2)",
+            "Registros con **orden formal y escrita**, en todo caso ante **dos vecinos**; acta al juez (art. 17)"
+          ],
+          [
+            "Comunicaciones (art. 18.3)",
+            "Intervención comunicada al juez por **escrito motivado** (art. 18)"
+          ],
+          [
+            "Circulación (art. 19)",
+            "Prohibir circular; aviso de desplazamientos con **2 días** de antelación; fijar residencia (art. 20)"
+          ],
+          [
+            "Información (art. 20)",
+            "Suspender publicaciones y emisiones, **sin censura previa** (art. 21)"
+          ],
+          [
+            "Reunión (art. 21)",
+            "**Autorización previa**, prohibición o disolución, **salvo** reuniones orgánicas de partidos, sindicatos y asociaciones empresariales (art. 22)"
+          ],
+          [
+            "Huelga y conflicto colectivo (arts. 28.2 y 37.2)",
+            "Prohibirlos (art. 23)"
+          ]
+        ]
+      },
+      "ampliado": true
+    },
+    {
+      "titulo": "Derechos fundamentales: matices literales que cambian la respuesta",
+      "puntos": [
+        "**Art. 16.1**: la libertad ideológica y religiosa solo se limita, en sus manifestaciones, por lo **necesario para el mantenimiento del orden público** protegido por la ley.",
+        "**Detenido** (art. 17.3): información **inmediata y comprensible**; abogado en las diligencias **policiales y judiciales**. El máximo de la **prisión provisional** lo fija la ley, no la CE (art. 17.4).",
+        "**Art. 18**: el flagrante delito exceptúa la inviolabilidad del domicilio (18.2), **no** el secreto de las comunicaciones, que solo cede ante **resolución judicial** (18.3).",
+        "**Art. 20.4**: límite **especial** de la expresión y la información: honor, intimidad, propia imagen y **protección de la juventud y de la infancia**; la ley regula la **cláusula de conciencia y el secreto profesional** (20.1.d).",
+        "**Penados** (art. 25.2): conservan los derechos fundamentales salvo los limitados por el **fallo, el sentido de la pena y la ley penitenciaria**; **en todo caso**, trabajo remunerado y Seguridad Social. La Administración civil no impone sanciones que **directa o subsidiariamente** priven de libertad (25.3).",
+        "**Art. 28.1**: para Fuerzas o Institutos armados y Cuerpos con disciplina militar, la ley **podrá limitar o exceptuar** la sindicación; para los **funcionarios públicos**, solo **regulará sus peculiaridades**; **nadie** está obligado a afiliarse.",
+        "**Titulares según la letra**: «los españoles» (arts. 14, 19 y 29); «los ciudadanos» (art. 23); «todos», «toda persona» o «todas las personas» (arts. 15, 17, 24, 27 y 28.1)."
+      ],
+      "ampliado": true
     }
   ],
   "trampas": [
@@ -341,7 +412,8 @@
     "**Defensor del Pueblo**: queja en **1 año** (no 6 meses ni 2 años); lo eligen las **Cortes Generales** (3/5 de cada Cámara; no el Gobierno ni solo el Congreso); la vacante por muerte, renuncia o expiración la declara el Presidente del **Congreso**; toma posesión ante las **Mesas de ambas Cámaras** reunidas conjuntamente.",
     "**Amparo**: protege el art. 14, los arts. 15-29 y la objeción de conciencia (30.2), no los arts. 31-38 ni los principios rectores. No confundir los plazos: 20 días (Gobierno o Administración), 30 días (órgano judicial) y 3 meses (Cortes o Asambleas).",
     "**Reunión**: no hay autorización previa; la comunicación previa solo se exige en lugares de tránsito público y manifestaciones; la prohibición exige razones fundadas de alteración del orden público con peligro para personas o bienes.",
-    "**Extranjeros**: tienen libertades públicas «en los términos que establezcan los tratados y la ley» (art. 13.1), pero el art. 23 es solo de españoles, salvo el sufragio municipal por reciprocidad. En la extradición, el terrorismo no es delito político."
+    "**Extranjeros**: tienen libertades públicas «en los términos que establezcan los tratados y la ley» (art. 13.1), pero el art. 23 es solo de españoles, salvo el sufragio municipal por reciprocidad. En la extradición, el terrorismo no es delito político.",
+    "**Medidas excepcionales**: en la excepción, las reuniones pueden someterse a autorización previa, prohibirse o disolverse, pero **nunca** las reuniones orgánicas de partidos, sindicatos y asociaciones empresariales (art. 22.3 LO 4/1981); en la alarma pueden ocuparse industrias y locales, pero **no domicilios privados** (art. 11)."
   ],
   "caido": [
     {
@@ -480,6 +552,26 @@
       "id": "t_02_20",
       "p": "¿Quién preside el Consejo Asesor del Mecanismo Nacional de Prevención de la Tortura?",
       "r": "El **Adjunto en quien el Defensor del Pueblo delegue** las funciones del Mecanismo (disp. final única LO 3/1981; art. 8.h y 19.3 del Reglamento)."
+    },
+    {
+      "id": "t_02_21",
+      "p": "¿En qué plazo debe cesar el Defensor del Pueblo en una situación de incompatibilidad?",
+      "r": "Dentro de los **10 días** siguientes a su nombramiento y antes de tomar posesión; si no, se entiende que **no acepta** el nombramiento (art. 7.2 LO 3/1981)."
+    },
+    {
+      "id": "t_02_22",
+      "p": "¿Qué plazo tiene el funcionario cuya conducta investiga el Defensor del Pueblo para responder por escrito?",
+      "r": "El que se le fije, **nunca inferior a 10 días**, prorrogable a instancia de parte **por la mitad** del concedido (art. 20.2 LO 3/1981)."
+    },
+    {
+      "id": "t_02_23",
+      "p": "¿Qué debe contener la solicitud del Gobierno para declarar el estado de excepción?",
+      "r": "Efectos y **derechos cuya suspensión se solicita** (solo los del art. 55.1 CE), medidas, ámbito territorial, duración (**máximo 30 días**) y **cuantía máxima de las sanciones pecuniarias** (art. 13.2 LO 4/1981)."
+    },
+    {
+      "id": "t_02_24",
+      "p": "¿Qué reuniones no pueden prohibirse, disolverse ni someterse a autorización previa en el estado de excepción?",
+      "r": "Las **reuniones orgánicas** de partidos políticos, sindicatos y asociaciones empresariales, conforme a sus Estatutos (art. 22.3 LO 4/1981)."
     }
   ],
   "preguntas": [
@@ -768,10 +860,114 @@
       "explicacion": "Art. 55.1 CE: «Se exceptúa de lo establecido anteriormente el apartado 3 del artículo 17 para el supuesto de declaración de estado de excepción». En el estado de sitio, en cambio, la declaración puede autorizar la suspensión temporal de esas garantías jurídicas del detenido (art. 32.3 LO 4/1981). El art. 55.1 no exceptúa los demás apartados del art. 17.",
       "ref": "art. 55.1 CE; art. 32.3 LO 4/1981",
       "dificultad": 3
+    },
+    {
+      "id": "q_02_23",
+      "enunciado": "El Defensor del Pueblo recibe una queja sobre un asunto en el que está pendiente una resolución judicial. Según la Ley Orgánica 3/1981, ¿cómo debe actuar?",
+      "opciones": [
+        "Debe rechazar la queja y abstenerse también de investigar los problemas generales que plantee",
+        "No entrará en el examen individual de la queja, aunque podrá investigar los problemas generales que plantee",
+        "Examinará la queja individualmente, pero no podrá formular recomendaciones hasta que recaiga sentencia firme"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 17.2 LO 3/1981: el Defensor no entra en el examen individual de las quejas sobre las que esté pendiente resolución judicial, y lo suspende si, ya iniciada su actuación, el interesado interpone demanda o recurso ante los Tribunales ordinarios o el Tribunal Constitucional; ello no impide la investigación sobre los problemas generales planteados. Por eso no debe abstenerse de toda investigación, y la ley no prevé un examen individual con recomendaciones aplazadas hasta la sentencia.",
+      "ref": "art. 17.2 LO 3/1981",
+      "dificultad": 3
+    },
+    {
+      "id": "q_02_24",
+      "enunciado": "El Defensor del Pueblo solicita a la Administración un documento clasificado como secreto. Según la Ley Orgánica 3/1981, la decisión de no remitírselo:",
+      "opciones": [
+        "Corresponde al Ministro del departamento que custodie el documento, que debe dar cuenta a la Comisión Mixta Congreso-Senado",
+        "Corresponde a la Comisión Mixta Congreso-Senado de relaciones con el Defensor del Pueblo",
+        "Debe acordarla el Consejo de Ministros y acompañarse de una certificación acreditativa del acuerdo denegatorio"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 22.1 LO 3/1981: el Defensor puede solicitar a los poderes públicos todos los documentos que considere necesarios, incluidos los clasificados como secretos, y en este caso la no remisión debe acordarla el Consejo de Ministros, con una certificación acreditativa del acuerdo denegatorio. La Comisión Mixta no decide: el Defensor solo le comunica el caso cuando el documento no remitido pudiera afectar de forma decisiva a su investigación (art. 22.3). Tampoco basta la decisión de un Ministro.",
+      "ref": "art. 22 LO 3/1981",
+      "dificultad": 3
+    },
+    {
+      "id": "q_02_25",
+      "enunciado": "Según la Ley Orgánica 3/1981, ¿ante quién expone oralmente el Defensor del Pueblo el resumen de su informe anual?",
+      "opciones": [
+        "Ante los Plenos de ambas Cámaras, donde pueden intervenir los grupos parlamentarios para fijar su postura",
+        "Ante las Mesas del Congreso y del Senado reunidas conjuntamente, sin intervención de los grupos parlamentarios",
+        "Ante las Diputaciones Permanentes de las Cámaras, aunque las Cortes estén reunidas en periodo ordinario de sesiones"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 33.4 LO 3/1981: un resumen del informe se expone oralmente ante los Plenos de ambas Cámaras, y los grupos parlamentarios pueden intervenir para fijar su postura. El informe anual se presenta cuando las Cortes están reunidas en periodo ordinario de sesiones (art. 32.1); a las Diputaciones Permanentes solo se dirigen los informes extraordinarios si las Cámaras no están reunidas (art. 32.2). Ante las Mesas reunidas conjuntamente el Defensor toma posesión (art. 4.2), no expone su informe.",
+      "ref": "arts. 32 y 33 LO 3/1981",
+      "dificultad": 3
+    },
+    {
+      "id": "q_02_26",
+      "enunciado": "Declarado el estado de excepción con suspensión del derecho de reunión, la autoridad gubernativa quiere impedir la reunión orgánica que un sindicato celebra conforme a sus Estatutos. Según la Ley Orgánica 4/1981:",
+      "opciones": [
+        "No puede prohibirla, disolverla ni someterla a autorización previa",
+        "Puede someterla a autorización previa, aunque no prohibirla ni disolverla",
+        "Puede prohibirla si tiene fundadas sospechas de que alterará el orden público"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 22 LO 4/1981: cuando la autorización del Congreso comprende la suspensión del art. 21 CE, la autoridad gubernativa puede someter a autorización previa, prohibir o disolver reuniones y manifestaciones, pero las reuniones orgánicas que los partidos políticos, los sindicatos y las asociaciones empresariales realicen para sus fines constitucionales y de acuerdo con sus Estatutos no pueden ser prohibidas, disueltas ni sometidas a autorización previa (art. 22.3). Las fundadas sospechas de alteración del orden público son el presupuesto de la detención gubernativa (art. 16), no una excepción a esa regla.",
+      "ref": "art. 22 LO 4/1981",
+      "dificultad": 3
+    },
+    {
+      "id": "q_02_27",
+      "enunciado": "¿Cuál de las siguientes medidas NO puede acordar el decreto de declaración del estado de alarma, según el artículo 11 de la Ley Orgánica 4/1981?",
+      "opciones": [
+        "Practicar requisas temporales de todo tipo de bienes e imponer prestaciones personales obligatorias",
+        "Intervenir y ocupar transitoriamente domicilios privados",
+        "Limitar la circulación o permanencia de personas o vehículos en horas y lugares determinados"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 11 LO 4/1981: el decreto puede limitar la circulación o permanencia de personas o vehículos en horas y lugares determinados, practicar requisas temporales de todo tipo de bienes e imponer prestaciones personales obligatorias, e intervenir y ocupar transitoriamente industrias, fábricas, talleres, explotaciones o locales de cualquier naturaleza, con excepción de domicilios privados. En la alarma no se suspende la inviolabilidad del domicilio: solo cabe en la excepción y el sitio (art. 55.1 CE).",
+      "ref": "art. 11 LO 4/1981",
+      "dificultad": 3
+    },
+    {
+      "id": "q_02_28",
+      "enunciado": "Durante el estado de sitio, ¿a quién corresponde determinar los delitos que quedan sometidos a la Jurisdicción Militar, según la Ley Orgánica 4/1981?",
+      "opciones": [
+        "A la Autoridad militar designada por el Gobierno, mediante los bandos que publique",
+        "Al Gobierno, mediante decreto acordado en Consejo de Ministros",
+        "Al Congreso de los Diputados, en la declaración del estado de sitio"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 35 LO 4/1981: en la declaración del estado de sitio el Congreso de los Diputados podrá determinar los delitos que durante su vigencia quedan sometidos a la Jurisdicción Militar. El Gobierno designa la Autoridad militar que ejecuta las medidas (art. 33.2) y esta publica los bandos con las medidas y prevenciones necesarias conforme a la declaración (art. 34), pero ninguno de los dos decide qué delitos pasan a la Jurisdicción Militar.",
+      "ref": "arts. 33 a 35 LO 4/1981",
+      "dificultad": 3
+    },
+    {
+      "id": "q_02_29",
+      "enunciado": "Según el artículo 28.1 de la Constitución, en relación con el derecho a sindicarse de los funcionarios públicos, la ley:",
+      "opciones": [
+        "Podrá limitar o exceptuar su ejercicio, igual que para las Fuerzas o Institutos armados",
+        "Regulará las peculiaridades de su ejercicio",
+        "Deberá exceptuarlo para los funcionarios que ejerzan funciones de autoridad"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 28.1 CE: la ley podrá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados o a los demás Cuerpos sometidos a disciplina militar, y regulará las peculiaridades de su ejercicio para los funcionarios públicos. La posibilidad de limitar o exceptuar no se extiende a los funcionarios en general, y la Constitución no obliga a exceptuar a quienes ejerzan funciones de autoridad. Además, nadie puede ser obligado a afiliarse a un sindicato.",
+      "ref": "art. 28.1 CE",
+      "dificultad": 3
+    },
+    {
+      "id": "q_02_30",
+      "enunciado": "Según la letra del artículo 18 de la Constitución, señale la afirmación correcta:",
+      "opciones": [
+        "El flagrante delito es una excepción a la inviolabilidad del domicilio, pero no al secreto de las comunicaciones, que solo cede ante resolución judicial",
+        "El flagrante delito permite tanto entrar en un domicilio como intervenir las comunicaciones sin resolución judicial",
+        "La resolución judicial solo se exige para el domicilio; el secreto de las comunicaciones puede levantarse por orden del Ministerio Fiscal"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 18.2 CE: ninguna entrada o registro puede hacerse en el domicilio sin consentimiento del titular o resolución judicial, salvo en caso de flagrante delito. Art. 18.3 CE: se garantiza el secreto de las comunicaciones y, en especial, de las postales, telegráficas y telefónicas, salvo resolución judicial. El precepto no recoge el flagrante delito ni la orden del Ministerio Fiscal como excepciones al secreto de las comunicaciones.",
+      "ref": "art. 18.2 y 18.3 CE",
+      "dificultad": 3
     }
   ],
   "dudas": [
-    "Los caracteres de la CE (escrita, codificada, rígida) son una clasificación doctrinal, no un texto del BOE.",
-    "No se incluye la jurisprudencia del Tribunal Constitucional sobre la frontera entre limitación y suspensión de derechos en el estado de alarma, porque no se ha contrastado con una fuente primaria: el texto de la CE (art. 55.1) y de la LO 4/1981 (art. 11) es el que se ha leído."
+    "Los caracteres de la CE (escrita, codificada, rígida, norma suprema) son una clasificación doctrinal: la Constitución no los enumera. Se recoge la de los manuales; la rigidez se apoya en la reforma agravada (arts. 166-169) y la supremacía, en el art. 9.1.",
+    "La frontera entre limitar derechos (estado de alarma, art. 11 LO 4/1981) y suspenderlos (excepción y sitio, art. 55.1 CE) la ha perfilado la jurisprudencia del Tribunal Constitucional, que no se desarrolla aquí. En el test, aplica la letra: en el estado de alarma no se suspende ningún derecho."
   ]
 }

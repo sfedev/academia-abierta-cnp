@@ -24,7 +24,7 @@
       "nombre": "Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016 (Reglamento general de protección de datos), arts. 8, 12, 33 y 83",
       "boe": "DOUE-L-2016-80807",
       "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807",
-      "verificado": "Texto original del DOUE publicado en el BOE, sin consolidar (leído el 16/10/2026)"
+      "verificado": "Texto original del DOUE publicado en el BOE, sin modificaciones posteriores registradas (solo correcciones de errores de 2018 y 2021); leído el 16/10/2026"
     },
     {
       "nombre": "Real Decreto 207/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio del Interior (art. 6)",
@@ -36,7 +36,13 @@
       "nombre": "Orden INT/859/2023, de 21 de julio, por la que se desarrolla la estructura orgánica y funciones de los servicios centrales y territoriales de la Dirección General de la Policía (art. 16)",
       "boe": "BOE-A-2023-17072",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-17072",
-      "verificado": "Texto consolidado, actualización de 20/12/2025 (leído el 16/10/2026 en la copia de trabajo del proyecto)"
+      "verificado": "Texto consolidado, actualización de 20/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto 1720/2007, de 21 de diciembre, por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica 15/1999, de 13 de diciembre, de protección de datos de carácter personal",
+      "boe": "BOE-A-2008-979",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-979",
+      "verificado": "Texto consolidado, actualización de 25/06/2026; no derogado (leído el 16/10/2026)"
     }
   ],
   "novedades": [
@@ -65,7 +71,8 @@
       "titulo": "Qué ley se aplica a cada tratamiento",
       "puntos": [
         "La protección de datos personales es un derecho fundamental (art. 18.4 CE). La **LO 3/2018** adapta el RGPD y garantiza los derechos digitales (art. 1); la **LO 7/2021** transpone la Directiva (UE) 2016/680 y regula el tratamiento por autoridades competentes con fines penales (art. 1).",
-        "La LO 3/2018 no se aplica a los datos de personas fallecidas (salvo su art. 3) ni a materias clasificadas (art. 2). La LO 7/2021 deja fuera los tratamientos de las autoridades competentes con **fines distintos** (rige el RGPD y la LO 3/2018; por ejemplo, las nóminas de los policías), las materias clasificadas, incluida la Defensa Nacional, y lo ajeno al Derecho de la UE (art. 2.3)."
+        "La LO 3/2018 no se aplica a los datos de personas fallecidas (salvo su art. 3) ni a materias clasificadas (art. 2). La LO 7/2021 deja fuera los tratamientos de las autoridades competentes con **fines distintos** (rige el RGPD y la LO 3/2018; por ejemplo, las nóminas de los policías), las materias clasificadas, incluida la Defensa Nacional, y lo ajeno al Derecho de la UE (art. 2.3).",
+        "El **RD 1720/2007** (reglamento de la derogada LO 15/1999) no está derogado expresamente: queda derogado solo en lo que contradiga, se oponga o sea incompatible con el RGPD o la LO 3/2018 (disposición derogatoria única.3 LO 3/2018)."
       ],
       "tabla": {
         "cabecera": [
@@ -379,7 +386,7 @@
         "Veinte años."
       ],
       "correcta": 2,
-      "explicacion": "El art. 8.3 fija, con carácter general, un plazo máximo de veinte años para la supresión, salvo que concurran factores como investigaciones abiertas, delitos no prescritos, pena sin ejecutar, reincidencia o necesidad de proteger a las víctimas. Diez y quince años no aparecen en la ley.",
+      "explicacion": "El art. 8.3 fija, con carácter general, un plazo máximo de veinte años para la supresión, salvo que concurran factores como investigaciones abiertas, delitos no prescritos, pena sin ejecutar, reincidencia o necesidad de proteger a las víctimas. Diez y quince años no son plazos de supresión de la ley.",
       "ref": "art. 8.3 LO 7/2021",
       "dificultad": 1
     },
@@ -606,8 +613,6 @@
     }
   ],
   "dudas": [
-    "El Reglamento (UE) 2016/679 está leído en el texto original publicado en el BOE (DOUE-L-2016-80807), sin consolidar; solo cito de él los arts. 8, 12.3, 33 y 83. Los plazos y cifras de las dos leyes orgánicas están contrastados con sus textos consolidados.",
-    "ARSULIPO es una regla mnemotécnica de uso académico, no un término legal.",
-    "No he leído el Real Decreto 1720/2007 (reglamento de la antigua LOPD), del que solo subsisten disposiciones en lo que no se oponga a la nueva normativa; no se pregunta en el temario."
+    "ARSULIPO es una regla mnemotécnica de uso académico, no un término legal."
   ]
 }

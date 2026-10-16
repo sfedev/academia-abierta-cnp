@@ -11,36 +11,47 @@
     {
       "nombre": "Declaración Universal de Derechos Humanos (Asamblea General de la ONU, Resolución 217 A (III), 10 de diciembre de 1948)",
       "url": "https://www.un.org/es/about-us/universal-declaration-of-human-rights",
-      "verificado": "Texto íntegro leído en la web de la ONU el 16/10/2026; historia de la Declaración leída en https://www.un.org/en/about-us/udhr/history-of-the-declaration"
+      "verificado": "Texto íntegro leído en la web de la ONU el 16/10/2026; historia de la Declaración leída en https://www.un.org/en/about-us/udhr/history-of-the-declaration; Carta Internacional de Derechos Humanos (DUDH y los dos Pactos) en https://www.un.org/es/about-us/udhr/foundation-of-international-human-rights-law"
+    },
+    {
+      "nombre": "Resolución 60/251 de la Asamblea General de las Naciones Unidas, de 15 de marzo de 2006, Consejo de Derechos Humanos",
+      "url": "https://documents.un.org/api/symbol/access?s=A/RES/60/251&l=es&t=pdf",
+      "verificado": "Texto oficial en español (A/RES/60/251) leído el 16/10/2026: establece el Consejo, con sede en Ginebra, en sustitución de la Comisión de Derechos Humanos"
     },
     {
       "nombre": "Convenio Europeo de Derechos Humanos (Roma, 4/11/1950), texto modificado por los Protocolos 11, 14 y 15 y completado por los Protocolos 1, 4, 6, 7, 12, 13 y 16 (traducción no oficial del Consejo de Europa)",
       "url": "https://www.echr.coe.int/documents/d/echr/convention_spa",
-      "verificado": "PDF del TEDH leído el 16/10/2026 (arts. 1-59 y Protocolos). Ratificación española: BOE-A-1979-24010 (BOE 10/10/1979; texto original sin consolidar): ratificación 26/09/1979, en vigor para España el 04/10/1979"
+      "verificado": "PDF del TEDH leído el 16/10/2026 (arts. 1-59 y Protocolos). Ratificación española: BOE-A-1979-24010 (BOE 10/10/1979; texto original sin consolidar): ratificación 26/09/1979, en vigor para España el 04/10/1979. Protocolo n.º 15: BOE-A-2021-7554 (en vigor con carácter general y para España el 01/08/2021; el plazo de cuatro meses del art. 35.1 rige seis meses después, art. 8)"
     },
     {
       "nombre": "Instrumento de ratificación de la Convención contra la tortura y otros tratos o penas crueles, inhumanos o degradantes (Nueva York, 10/12/1984)",
       "boe": "BOE-A-1987-25053",
       "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1987-25053",
-      "verificado": "Texto original (BOE 09/11/1987, no consolidado) leído el 16/10/2026; adopción por la Res. 39/46 y entrada en vigor (26/06/1987) contrastadas en la UN Treaty Collection"
+      "verificado": "Texto original (BOE 09/11/1987, no consolidado) leído el 16/10/2026; adopción por la Res. 39/46 y entrada en vigor (26/06/1987) contrastadas en la UN Treaty Collection, donde consta (estado a 16/10/2026) que las enmiendas de 1992 a los arts. 17.7 y 18.5 (gastos del Comité) no han entrado en vigor"
     },
     {
       "nombre": "Instrumento de ratificación del Protocolo facultativo a la Convención contra la tortura (OPCAT, Nueva York, 18/12/2002)",
       "boe": "BOE-A-2006-11128",
       "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2006-11128",
-      "verificado": "Texto original (BOE 22/06/2006, no consolidado) leído el 16/10/2026; adopción por la Res. A/RES/57/199 contrastada en la UN Treaty Collection"
+      "verificado": "Texto original (BOE 22/06/2006, no consolidado) leído el 16/10/2026; adopción por la Res. A/RES/57/199, entrada en vigor (22/06/2006) y ratificación española (04/04/2006) contrastadas en la UN Treaty Collection (estado a 16/10/2026)"
     },
     {
       "nombre": "Instrumento de ratificación del Convenio Europeo para la prevención de la tortura y de las penas o tratos inhumanos o degradantes (Estrasburgo, 26/11/1987)",
       "boe": "BOE-A-1989-15618",
       "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1989-15618",
-      "verificado": "Texto original (BOE 05/07/1989) leído el 16/10/2026; en vigor de forma general el 01/02/1989 y para España el 01/09/1989"
+      "verificado": "Texto original (BOE 05/07/1989) leído el 16/10/2026; en vigor de forma general el 01/02/1989 y para España el 01/09/1989. El Protocolo n.º 2 (BOE-A-2002-2639, en vigor de forma general y para España el 01/03/2002) modificó el art. 5.3: los miembros del Comité pueden ser reelegidos dos veces"
     },
     {
       "nombre": "Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo (disposición final única, Mecanismo Nacional de Prevención de la Tortura, añadida por la LO 1/2009)",
       "boe": "BOE-A-1981-10325",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325",
       "verificado": "Texto consolidado, actualización de 16/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Reglamento de Organización y Funcionamiento del Defensor del Pueblo, de 6 de abril de 1983 (Mecanismo Nacional de Prevención de la Tortura y su Consejo Asesor: arts. 19 a 23)",
+      "boe": "BOE-A-1983-10613",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1983-10613",
+      "verificado": "Texto consolidado, actualización de 16/12/2025 (leído el 16/10/2026); los arts. 19 a 22 conservan la redacción de la reforma de 2012"
     },
     {
       "nombre": "Resolución de 25 de enero de 2012, de las Mesas del Congreso y del Senado, por la que se modifica el Reglamento de Organización y Funcionamiento del Defensor del Pueblo (capítulo V, arts. 19 a 22: Consejo Asesor del MNP)",
@@ -76,7 +87,7 @@
       "puntos": [
         "La **Declaración Universal de Derechos Humanos** fue proclamada por la Asamblea General de la ONU en **París, el 10 de diciembre de 1948** (Resolución 217 A (III)), «como un ideal común para todos los pueblos y naciones». Se aprobó con **ocho abstenciones y ningún voto en contra**.",
         "Es una **declaración**, no un tratado sujeto a ratificación. Consta de preámbulo y **30 artículos**. Inspiró más de setenta tratados posteriores. En España los derechos fundamentales de la Constitución se interpretan de conformidad con ella (**art. 10.2 CE**).",
-        "Elaboración: la Comisión de Derechos Humanos (18 miembros) estuvo presidida por **Eleanor Roosevelt**; **René Cassin** (Francia) redactó el primer borrador; **Charles Malik** (Líbano) fue relator; **Peng Chun Chang** (China), vicepresidente; **John Humphrey** (Canadá), director de la División de Derechos Humanos de la ONU, preparó el anteproyecto. A **Hansa Mehta** (India) se le atribuye el cambio de «todos los hombres» por «todos los seres humanos» en el art. 1."
+        "Elaboración: la Comisión de Derechos Humanos (18 miembros) estuvo presidida por **Eleanor Roosevelt**; **René Cassin** (Francia) redactó el primer borrador; **Charles Malik** (Líbano) fue relator; **Peng Chung Chang** (China), vicepresidente; **John Humphrey** (Canadá), director de la División de Derechos Humanos de la ONU, preparó el anteproyecto. A **Hansa Mehta** (India) se le atribuye el cambio de «todos los hombres» por «todos los seres humanos» en el art. 1."
       ],
       "tabla": {
         "cabecera": ["Artículo DUDH", "Contenido"],
@@ -157,7 +168,7 @@
         "filas": [
           ["Comité contra la Tortura (ONU)", "Convención de 1984", "10 expertos", "4 años, reelegibles"],
           ["Subcomité para la Prevención de la Tortura (ONU)", "OPCAT (2002)", "10, luego 25 tras la 50ª ratificación", "4 años, reelegibles una vez"],
-          ["Comité Europeo para la Prevención de la Tortura (CPT, Consejo de Europa)", "Convenio de 26/11/1987 (en vigor para España el 1/9/1989)", "Tantos miembros como Partes", "4 años; visitas por al menos dos miembros"],
+          ["Comité Europeo para la Prevención de la Tortura (CPT, Consejo de Europa)", "Convenio de 26/11/1987 (en vigor para España el 1/9/1989)", "Tantos miembros como Partes", "4 años, reelegibles dos veces (Protocolo n.º 2, en vigor desde el 1/3/2002); visitas por al menos dos miembros"],
           ["Tribunal Europeo de Derechos Humanos", "CEDH (1950)", "Un juez por Estado parte", "9 años, sin reelección"]
         ]
       }
@@ -448,10 +459,5 @@
       "dificultad": 3
     }
   ],
-  "dudas": [
-    "Protocolo n.º 2 (1993) al Convenio Europeo para la Prevención de la Tortura: no se pudo leer su texto, por lo que no se indica si los miembros del CPT son reelegibles una o más veces (el texto original de 1987 decía una sola vez, pero el BOE consigna que el Protocolo de 1993 modificó el art. 5).",
-    "La composición de la «Carta Internacional de Derechos Humanos» (DUDH y los dos Pactos) y la creación del Consejo de Derechos Humanos por la Res. 60/251 se han dado como conocimiento general; la web de OHCHR no permitió la lectura directa desde el entorno de trabajo.",
-    "Los textos de la Convención contra la Tortura, el OPCAT y el Convenio del CPT se leyeron en la versión original publicada en el BOE (no consolidada); no se comprobaron modificaciones posteriores de la ONU o del Consejo de Europa distintas de las citadas.",
-    "El Reglamento del Defensor del Pueblo se leyó en la Resolución de reforma de 25/01/2012; no se comprobó si ha habido modificaciones posteriores de los arts. 19-22."
-  ]
+  "dudas": []
 }

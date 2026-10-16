@@ -13,6 +13,18 @@
       "boe": "BOE-A-2015-11719",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
       "verificado": "Texto consolidado, última actualización de la consolidación: 14/10/2026 (leído el 16/10/2026, con la versión vigente y la que entra en vigor el 23/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto 2669/1998, de 11 de diciembre, por el que se aprueba el procedimiento a seguir en materia de rehabilitación de los funcionarios públicos en el ámbito de la Administración General del Estado",
+      "boe": "BOE-A-1998-29722",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-29722",
+      "verificado": "Texto consolidado, última actualización de la consolidación: 18/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 9/2015, de 28 de julio, de Régimen de Personal de la Policía Nacional (arts. 4 a 6)",
+      "boe": "BOE-A-2015-8468",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-8468",
+      "verificado": "Texto consolidado, última actualización de la consolidación: 30/04/2026 (leído el 16/10/2026)"
     }
   ],
   "novedades": [
@@ -26,7 +38,7 @@
     "**Adquisición** (art. 62): cuatro requisitos **sucesivos**: superar el proceso selectivo; nombramiento publicado en el Diario Oficial; acto de acatamiento de la Constitución (y, en su caso, del Estatuto de Autonomía y del ordenamiento); y **toma de posesión** dentro del plazo, que es el último.",
     "**Pérdida** (art. 63), cinco causas: renuncia; pérdida de la nacionalidad; **jubilación total**; sanción de separación del servicio **firme**; pena principal o accesoria de inhabilitación absoluta o especial **firme**. La jubilación parcial no figura.",
     "**Renuncia** (art. 64): por escrito y aceptada expresamente; no se acepta si el funcionario está sujeto a expediente disciplinario o tiene auto de procesamiento o de apertura de juicio oral por delito. No inhabilita para volver a ingresar.",
-    "**Jubilación forzosa** (art. 67.3): se declara de oficio a los **65 años**; puede solicitarse la prolongación como máximo hasta los **70**.",
+    "**Jubilación forzosa** (art. 67.3): se declara de oficio a los **65 años**; puede solicitarse la prolongación como máximo hasta los **70**. Para el funcionario del Régimen General de la Seguridad Social, la edad es la de su pensión de jubilación contributiva sin coeficiente reductor (art. 67.4).",
     "**Interino** (art. 10): nombramiento temporal por necesidad y urgencia; por vacante, **máximo tres años**; nunca da la condición de funcionario de carrera. **Eventual** (art. 12): funciones de confianza o asesoramiento especial; nombramiento y cese **libres**; cesa cuando cesa la autoridad; no es mérito.",
     "**Requisitos generales de acceso** (art. 56.1): nacionalidad española (con excepciones), capacidad funcional, **16 años** cumplidos sin exceder la edad de jubilación forzosa, no estar separado ni inhabilitado, y la titulación exigida.",
     "**Grupos** (art. 76): A (subgrupos A1 y A2, título de Grado), B (Técnico Superior) y C (C1: Bachiller o Técnico; C2: Graduado en ESO).",
@@ -66,8 +78,9 @@
       "titulo": "Cómo se pierde la condición de funcionario de carrera",
       "puntos": [
         "El art. 63 enumera **cinco causas** de pérdida. Las dos de naturaleza penal o disciplinaria exigen que sean **firmes**: la separación del servicio y la inhabilitación absoluta o especial para cargo público.",
-        "Jubilación (art. 67): puede ser **voluntaria** (a solicitud, si cumple los requisitos de Seguridad Social), **forzosa** (de oficio a los 65 años; se puede pedir prolongar hasta los 70, y la Administración resuelve de forma motivada) o por **incapacidad permanente** para las funciones de su cuerpo o escala. Los funcionarios con normas estatales específicas de jubilación quedan excluidos de la regla de los 65 y 70 años. La causa de pérdida es la **jubilación total**.",
-        "Rehabilitación (art. 68): quien perdió la condición por pérdida de la nacionalidad o por jubilación por incapacidad permanente puede solicitarla cuando desaparezca la causa y **le será concedida**. Quien la perdió por inhabilitación solo puede obtenerla con carácter **excepcional**, y si no hay resolución expresa en plazo se entiende **desestimada**."
+        "Jubilación (art. 67): puede ser **voluntaria** (a solicitud, si cumple los requisitos de Seguridad Social), **forzosa** (de oficio a los 65 años; se puede pedir prolongar hasta los 70, y la Administración resuelve de forma motivada) o por **incapacidad permanente** para las funciones de su cuerpo o escala. Los funcionarios con normas estatales específicas de jubilación quedan excluidos de la regla de los 65 y 70 años, y para los incluidos en el Régimen General de la Seguridad Social la edad de jubilación forzosa es la que esas normas fijan para la pensión contributiva sin coeficiente reductor (art. 67.4). La causa de pérdida es la **jubilación total**.",
+        "Rehabilitación (art. 68): quien perdió la condición por pérdida de la nacionalidad o por jubilación por incapacidad permanente puede solicitarla cuando desaparezca la causa y **le será concedida**. Quien la perdió por inhabilitación solo puede obtenerla con carácter **excepcional**, y si no hay resolución expresa en plazo se entiende **desestimada**.",
+        "En la AGE, el procedimiento de rehabilitación dura como máximo **seis meses** y lo resuelve el **Consejo de Ministros** si la pérdida fue por inhabilitación (arts. 3.2 y 7.3 del Real Decreto 2669/1998). En la Policía Nacional, esa rehabilitación excepcional la concede el Consejo de Ministros a propuesta del Ministro del Interior, también con silencio desestimatorio (art. 6.2 LO 9/2015)."
       ],
       "tabla": {
         "cabecera": ["Causa (art. 63)", "Regla clave"],
@@ -84,7 +97,7 @@
   "trampas": [
     "**Clases inventadas**: no existen el personal «accidental», el «fijo-discontinuo» ni el «de Cuerpos Generales». Las cuatro clases son funcionarios de carrera, interinos, laboral y eventual.",
     "**Orden de los requisitos del art. 62**: proceso selectivo, nombramiento publicado, acatamiento y, al final, toma de posesión. El distractor suele poner el acatamiento o el nombramiento como último.",
-    "**Jubilación**: la causa de pérdida es la jubilación **total**, no la parcial. La edad es 65 años con prolongación a petición hasta 70, no 67 ni 72 ni 75.",
+    "**Jubilación**: la causa de pérdida es la jubilación **total**, no la parcial. El art. 67.3 fija 65 años con prolongación a petición hasta 70, no 72 ni 75; para el funcionario del Régimen General de la Seguridad Social rige la edad ordinaria de su pensión (art. 67.4).",
     "**Firmeza**: la separación del servicio y la inhabilitación solo hacen perder la condición cuando son firmes. Una suspensión, un traslado o una sanción no firme no la hacen perder.",
     "**Inhabilitación absoluta frente a especial**: la absoluta afecta a todos los empleos o cargos; la especial, solo a los especificados en la sentencia.",
     "**Renuncia**: es expresa, por escrito y aceptada por la Administración; no puede ser tácita, ni aceptarse con expediente disciplinario o con auto de procesamiento o de apertura de juicio oral.",
@@ -197,7 +210,7 @@
         "Los 65 años, sin posibilidad de prolongar la permanencia en el servicio activo"
       ],
       "correcta": 1,
-      "explicacion": "El art. 67.3 fija la jubilación forzosa a los sesenta y cinco años y permite solicitar la prolongación de la permanencia en el servicio activo como máximo hasta los setenta, con resolución motivada de la Administración. Quedan excluidos los funcionarios con normas estatales específicas de jubilación.",
+      "explicacion": "El art. 67.3 fija la jubilación forzosa a los sesenta y cinco años y permite solicitar la prolongación de la permanencia en el servicio activo como máximo hasta los setenta, con resolución motivada de la Administración. Quedan excluidos los funcionarios con normas estatales específicas de jubilación, y para los del Régimen General de la Seguridad Social el art. 67.4 remite a la edad de su pensión contributiva sin coeficiente reductor. Los 67 años con prolongación hasta los 72 no figuran en el art. 67.3, ni este impide prolongar la permanencia.",
       "ref": "art. 67.3 TREBEP",
       "dificultad": 2
     },
@@ -359,7 +372,6 @@
     }
   ],
   "dudas": [
-    "No se ha podido verificar el plazo concreto de resolución de la solicitud de rehabilitación que cayó en el examen de 23/04/2023: el art. 68.2 TREBEP se limita a prever que, transcurrido «el plazo para dictar la resolución», se entiende desestimada, y remite a la normativa de desarrollo (no leída).",
-    "No se han localizado en el TREBEP las reglas sobre efectos económicos desde la toma de posesión que, según el análisis de exámenes, cayeron en 2024 y 2025; no se han incluido."
+    "El TREBEP no regula los efectos económicos de la toma de posesión, que han caído en examen como «efectos económicos plenos desde la toma de posesión»: es coherente con que la condición de funcionario de carrera solo se adquiere al tomar posesión (art. 62.1.d)."
   ]
 }

@@ -14,6 +14,16 @@
       "verificado": "Edición de 2017 leída el 16/10/2026"
     },
     {
+      "nombre": "INCIBE: Vishing (temáticas de ciudadanía, ingeniería social y fraudes online)",
+      "url": "https://www.incibe.es/ciudadania/tematicas/ingenieria-social-fraudes-online/vishing",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "INCIBE: Historias reales, suplantaron a mi jefe y nuestro dinero desapareció (fraude del CEO)",
+      "url": "https://www.incibe.es/empresas/blog/historias-reales-suplantaron-mi-jefe-y-nuestro-dinero-desaparecio",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
       "nombre": "NIST CSRC Glossary (malware, spyware, troyano, gusano, virus, rootkit, spoofing, phishing, botnet, DoS, zero-day, APT, insider threat, ingeniería social)",
       "url": "https://csrc.nist.gov/glossary",
       "verificado": "Entradas consultadas el 16/10/2026"
@@ -55,8 +65,8 @@
     },
     {
       "nombre": "Europol: IOCTA 2025, Steal, deal and repeat (junio de 2025)",
-      "url": "https://www.europol.europa.eu/publication-events/main-reports/steal-deal-and-repeat-how-cybercriminals-trade-and-exploit-your-data",
-      "verificado": "Texto del informe leído en una copia alojada por la FIAU de Malta el 16/10/2026; la web de Europol no se pudo leer sin JavaScript"
+      "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/Steal-deal-repeat-IOCTA_2025.pdf",
+      "verificado": "Informe PDF leído en la web de Europol el 16/10/2026"
     },
     {
       "nombre": "Europol: Cyber-attacks, the apex of crime-as-a-service (IOCTA 2023 Spotlight Report)",
@@ -147,7 +157,7 @@
           ],
           [
             "Smishing y vishing",
-            "Smishing: phishing por mensajes SMS. Vishing: phishing por voz, con llamadas o mensajes de voz que fingen ser de empresas conocidas (NCSC); INCIBE lo asocia a voz sobre IP",
+            "Smishing: phishing por mensajes SMS. Vishing: llamadas telefónicas fraudulentas (o mensajes de voz automatizados) que suplantan a bancos, empresas o entidades públicas para obtener datos, instalar programas maliciosos o lograr un pago (INCIBE)",
             "Canal: SMS (smishing) o voz (vishing)"
           ],
           [
@@ -158,7 +168,7 @@
           [
             "Business E-mail Compromise (BEC)",
             "Estafa dirigida a empresas que trabajan con proveedores o hacen transferencias con frecuencia: se comprometen cuentas de correo legítimas, por ingeniería social o intrusión, para ordenar transferencias no autorizadas (FBI IC3)",
-            "Una variante, el «fraude del CEO», suplanta a un directivo. En su alerta de 2024 el FBI incluye también a particulares"
+            "Una variante, el «fraude del CEO», suplanta a un alto directivo para forzar transferencias (INCIBE, que también lo llama whaling). En su alerta de 2024 el FBI incluye también a particulares"
           ],
           [
             "Cartas nigerianas",
@@ -553,8 +563,8 @@
         "Pharming"
       ],
       "correcta": 0,
-      "explicacion": "El vishing es el phishing por voz: llamadas o mensajes de voz que simulan proceder de una entidad de confianza para obtener datos sensibles. El smishing usa mensajes SMS y el pharming redirige a una web falsa mediante la manipulación del DNS.",
-      "ref": "INCIBE, Glosario (phishing); NCSC, Phishing attacks",
+      "explicacion": "Según INCIBE, el vishing engaña mediante llamadas telefónicas fraudulentas (o mensajes de voz automatizados) en las que se suplanta a bancos u otras organizaciones legítimas para obtener datos. El smishing usa mensajes SMS y el pharming redirige a una web falsa mediante la manipulación del DNS.",
+      "ref": "INCIBE, Vishing (fraudes online); INCIBE, Glosario (phishing)",
       "dificultad": 1
     },
     {
@@ -761,7 +771,7 @@
         "enviar mensajes SMS fraudulentos que simulan proceder de una entidad financiera."
       ],
       "correcta": 1,
-      "explicacion": "Europol describe el skimming como la copia de los datos de la banda magnética en terminales de venta y cajeros, normalmente con un dispositivo en la ranura o de inserción profunda y una cámara para captar el PIN. La redirección por DNS es pharming y los SMS fraudulentos, smishing.",
+      "explicacion": "Europol describe el skimming como la copia de los datos de la banda magnética en terminales de venta y cajeros, por ejemplo con dispositivos de inserción profunda en el cajero y una cámara para captar el PIN. La redirección por DNS es pharming y los SMS fraudulentos, smishing.",
       "ref": "Europol, IOCTA 2019, apartado 6.3",
       "dificultad": 2
     },
@@ -788,7 +798,7 @@
       ],
       "correcta": 0,
       "explicacion": "NIST define el APT como un adversario con un nivel sofisticado de experiencia y recursos significativos que usa varios vectores de ataque, y Europol señala que suelen ser grupos patrocinados u operados por Estados. Las otras opciones describen un virus y una amenaza interna accidental.",
-      "ref": "NIST SP 800-39 (vía CSRC); Europol, IOCTA 2025; Lockheed Martin",
+      "ref": "NIST CSRC Glossary (APT, de NIST SP 800-39); Europol, IOCTA 2025 (nota sobre APT)",
       "dificultad": 2
     },
     {
@@ -845,10 +855,7 @@
     }
   ],
   "dudas": [
-    "Las traducciones al español de las fases de la Kill Chain (armamento, preparación, militarización) varían entre manuales; la ficha usa «armamento».",
-    "La variante «fraude del CEO» del BEC se apoya en cobertura técnica de casos de Europol, no en una definición oficial de Europol que haya podido leer.",
-    "Los informes públicos de CCN-CERT bloquean el acceso automatizado y no he podido leerlos; las definiciones de hacktivismo, insider y APT se apoyan en ENISA, Europol, NIST y CISA.",
-    "Ransomware «blocker»: la terminología no está normalizada. Europol (IOCTA 2018) distingue el «police ransomware» sin cifrado del cryptoware; la ficha lo describe como variante que solo bloquea el equipo.",
-    "El IOCTA 2025 de Europol se leyó en una copia PDF alojada por la FIAU de Malta porque la web de Europol exige JavaScript."
+    "La fase «weaponization» se traduce como armamento, preparación o militarización según el manual: las tres designan la fase 2, en la que se acopla el exploit con el troyano en una carga entregable.",
+    "«Ransomware blocker» o de bloqueo no es un término normalizado: Europol distingue el ransomware policial, sin cifrado, del cryptoware, que cifra los archivos. En el examen, el blocker es el que bloquea el equipo sin cifrar."
   ]
 }

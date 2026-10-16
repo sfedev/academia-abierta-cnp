@@ -663,3 +663,36 @@ details.notas-fuentes li { overflow-wrap: break-word; }
   .toc a { padding-block: 10px; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }
+
+/* ---------- Insignia de verificación de las preguntas (auditoría contra el BOE) ---------- */
+.verif { display: inline-flex; align-items: center; gap: 6px; margin-top: 10px; padding: 2px 10px; border-radius: 999px; font-family: var(--font-ui); font-size: 0.76rem; font-weight: 600; line-height: 1.6; max-width: 100%; }
+.verif::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; flex: none; }
+.verif--ok { background: var(--ok-soft); color: var(--ok); }
+.verif--neutra { background: var(--surface); color: var(--muted); border: 1px solid var(--line); }
+.verif--aviso { background: var(--warn-soft); color: var(--warn); }
+
+/* ---------- Convocatoria nueva: tarjeta, banner en fichas e insignia en el temario ---------- */
+.nov-card--conv { border-left: 4px solid var(--accent); }
+.conv-cambios { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 8px; font-size: 0.94rem; overflow-wrap: anywhere; }
+.conv-cambios .pill { margin-right: 4px; }
+.conv-diff { margin-top: 6px; font-size: 0.9rem; }
+.conv-diff summary { cursor: pointer; color: var(--accent); font-weight: 600; }
+.conv-diff p { margin-top: 6px; font-family: var(--font-read); line-height: 1.5; overflow-wrap: break-word; }
+.aviso-conv { margin-top: 20px; padding: 14px 18px; border: 1px solid var(--accent); border-left-width: 4px; border-radius: var(--radius); background: var(--accent-soft); overflow-wrap: break-word; }
+.aviso-conv p { margin-top: 6px; }
+.aviso-a2 { margin-top: 6px; padding: 8px 12px; border-radius: var(--radius-sm); background: var(--warn-soft); }
+.insignia-conv { display: inline-flex; padding: 1px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 600; font-size: 0.76rem; max-width: 100%; }
+
+/* ---------- Objetivo de nota, calibración y exámenes oficiales ---------- */
+.objetivo { padding: 10px 14px; border-radius: var(--radius-sm); border-left: 4px solid var(--line-strong); background: var(--surface-2); overflow-wrap: break-word; }
+.objetivo--ok { border-left-color: var(--ok); background: var(--ok-soft); }
+.objetivo--no { border-left-color: var(--warn); background: var(--warn-soft); }
+.calib-fila { display: grid; grid-template-columns: minmax(0, 9rem) minmax(0, 1fr) 3.5rem; gap: 10px; align-items: center; font-size: 0.92rem; }
+.calib-fila strong { text-align: right; }
+.pasos-import { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; overflow-wrap: anywhere; }
+.pasos-import code, .card code { font-family: var(--font-mono); font-size: 0.8rem; background: var(--surface-2); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
+
+/* ---------- Psicotécnicos ---------- */
+.lista-simple { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; line-height: 1.5; overflow-wrap: break-word; }
+.tbl td.r, .tbl th.r { text-align: right; font-variant-numeric: tabular-nums; }
+.tbl--estrecha table { min-width: 0; }

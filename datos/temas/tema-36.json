@@ -11,12 +11,12 @@
     {
       "nombre": "RAE-ASALE, Nueva gramática básica de la lengua española (2011), versión en línea",
       "url": "https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/",
-      "verificado": "Apartados de morfología, clases de palabras, verbo, sintaxis y oraciones consultados en línea el 16/10/2026"
+      "verificado": "Apartados de morfología, clases de palabras, adjetivo, pronombre, adverbio, verbo, preposición, conjunción y sintaxis consultados en línea el 16/10/2026"
     },
     {
       "nombre": "RAE-ASALE, Glosario de términos gramaticales (versión 1.0 en línea)",
       "url": "https://www.rae.es/gtg/",
-      "verificado": "Entradas «adverbio», «modo» y las de tiempos verbales consultadas el 16/10/2026"
+      "verificado": "Entradas «adverbio», «modo», «incoativo», «perífrasis verbal tempoaspectual» y las de tiempos verbales consultadas el 16/10/2026"
     },
     {
       "nombre": "RAE-ASALE, Diccionario panhispánico de dudas (2.ª ed., en línea)",
@@ -31,7 +31,7 @@
     {
       "nombre": "RAE, Diccionario de la lengua española (DLE, en línea)",
       "url": "https://dle.rae.es/",
-      "verificado": "Consultado el 16/10/2026"
+      "verificado": "Entradas «verbo» (verbo incoativo), «-ecer», «conminar» y «grosso modo» consultadas el 16/10/2026"
     }
   ],
   "novedades": [
@@ -144,7 +144,7 @@
       "titulo": "Adverbios y sus tipos",
       "puntos": [
         "El adverbio es **invariable** y **tónico**; modifica a verbos, adjetivos, otros adverbios, grupos nominales o preposicionales y oraciones. Por su **estructura**: en **-mente** (rápidamente), adjetivales (hablar alto) y locuciones adverbiales (a gatas).",
-        "Por su **significado**, la gramática actual distingue: **cantidad** (muy, bastante, más), **lugar** (aquí, ahí, allí; delante, detrás, encima), **tiempo** (ayer, hoy; siempre; nunca), **aspectuales** (ya, todavía, otra vez) y **modo o manera** (bien, mal, así, despacio). La clasificación tradicional añadía **afirmación, negación y duda**; el Glosario advierte de que mezcla criterios (nunca es de negación, cantidad y tiempo a la vez).",
+        "Por su **significado** (NGB 14.2): **cantidad** (más, mucho, muy, bastante), **lugar** (aquí, allí, cerca, detrás), **tiempo** (ayer, hoy, siempre, nunca), **aspecto** (ya, todavía, aún), **modo o manera** (bien, mal, así, adverbios en -mente), **afirmación y negación** (sí, también, no, tampoco) y **duda o posibilidad** (quizá, acaso, probablemente). Es la clasificación tradicional más el grupo aspectual; el Glosario advierte de que mezcla criterios (nunca es a la vez de negación, cantidad y tiempo).",
         "Por su naturaleza, los adverbios son **léxicos** (clase abierta) o **gramaticales** (demostrativos, cuantificativos, relativos e interrogativos). Evitar «alante» (es «adelante»); es preferible «el día antes» a «el día de antes»."
       ]
     },
@@ -154,7 +154,7 @@
         "Tres **modos**: **indicativo, subjuntivo e imperativo** (Glosario de términos gramaticales). El imperativo no forma oposiciones temporales. Tres **conjugaciones** por la vocal temática del infinitivo: **-ar** (amar), **-er** (temer) e **-ir** (partir).",
         "**Formas no personales**: infinitivo (-r), gerundio (-ndo) y participio (-do); carecen de persona, tiempo y modo, y solo el participio varía en número. Infinitivo y gerundio tienen forma compuesta (haber cantado, habiendo cantado); el participio no.",
         "**Irregularidades**: vocálicas (pedir > pido; contar > cuento), consonánticas (padecer > padezco; hacer > haga) y mixtas (decir > digo); más las supletivas (ir > voy; ser > somos ~ fuimos). **Defectivos**: los de fenómenos de la naturaleza (llover, amanecer), los terciopersonales (acaecer, acontecer, atañer, concernir, ocurrir, urgir) y, en parte, soler y acostumbrar.",
-        "**Perífrasis**: las de fase inicial o **incoativas** son «empezar a», «comenzar a» y «ponerse a + infinitivo»; «dejar de», «cesar de» y «parar de» son de interrupción.",
+        "**Perífrasis**: las de fase inicial o **incoativas** son «empezar a», «comenzar a» y «ponerse a + infinitivo»; «dejar de», «cesar de» y «parar de» son de interrupción. **Verbo incoativo** es el que indica el comienzo de una acción (florecer, DLE); el sufijo **-ecer** forma verbos de acción incoativa o de cambio de estado (entristecer, amanecer).",
         "**Haber impersonal**: el sintagma que lo acompaña es complemento directo, así que el verbo va en singular («Hubo varios accidentes», «Va a haber reuniones»). Son incorrectos «hubieron», «habían» ante plural y «van a haber».",
         "**Dequeísmo** (Creo de que..., Es seguro de que...) y **queísmo** (Confío que..., Estoy seguro que...). Con algunos verbos valen las dos formas (advertir que ~ advertir de que). No hay dequeísmo en «antes de que», «después de que».",
         "**Gerundio**: no es correcto como modificador restrictivo del nombre («Nueva ley reformando las tarifas»); se usa como circunstancial (Redactó el trabajo poniendo cuidado) o predicativo (Las vi alejándose)."
@@ -487,7 +487,7 @@
         "Siete u ocho"
       ],
       "correcta": 2,
-      "explicacion": "La conjunción disyuntiva «o» se convierte en «u» ante palabras que empiezan por o- u ho-: «siete u ocho». En «ocho o siete», la palabra siguiente comienza por s-, de modo que no procede el cambio.",
+      "explicacion": "La conjunción disyuntiva «o» se convierte en «u» ante palabras que empiezan por o- u ho-: «siete u ocho», no «siete o ocho». En «ocho o siete» la palabra siguiente empieza por s-, así que no procede el cambio y «ocho u siete» es incorrecta.",
       "ref": "NGB 16.2.4",
       "dificultad": 2
     },
@@ -579,7 +579,7 @@
       ],
       "correcta": 0,
       "explicacion": "En la derivación nominal, -dad, -ez, -eza y -ura forman nombres de cualidad, estado y condición a partir de adjetivos. Los nombres de acción y efecto usan, por ejemplo, -ción y -miento, y los de agente, instrumento o lugar, -dor, -dero o -ero.",
-      "ref": "NGB 5.2.2 a 5.2.4",
+      "ref": "NGB 5.2.1 y 5.2.3",
       "dificultad": 1
     },
     {
@@ -591,7 +591,7 @@
         "Regimenes"
       ],
       "correcta": 0,
-      "explicacion": "Los sustantivos esdrújulos que se forman sobre una palabra llana terminada en -n desplazan el acento en el plural: régimen → regímenes, espécimen → especímenes. «Régimenes» mantiene un acento en la sílaba equivocada y «regimenes» pierde la tilde.",
+      "explicacion": "Los sustantivos esdrújulos terminados en -n que hacen el plural en -es desplazan el acento una sílaba: régimen → regímenes, espécimen → especímenes. «Régimenes» sería sobresdrújula, con el acento en la sílaba inicial, y «regimenes» deja sin tilde una palabra esdrújula.",
       "ref": "NGB 3.3.1.2",
       "dificultad": 2
     },
@@ -695,15 +695,13 @@
         "Lo calculó a groso modo."
       ],
       "correcta": 0,
-      "explicacion": "«Grosso modo» es una locución latina que significa ‘aproximadamente o a grandes rasgos’; el DPD declara incorrecto anteponerle la preposición a y también escribirla con una sola s.",
-      "ref": "DPD, «grosso modo»",
+      "explicacion": "«Grosso modo» es una locución latina que significa ‘aproximadamente o a grandes rasgos’ y el diccionario académico la recoge con ss. El DPD declara incorrecto anteponerle la preposición a («a grosso modo»); en «a groso modo» se suma ese error y, además, se altera la grafía latina.",
+      "ref": "DPD, «grosso modo»; DLE, «grosso modo»",
       "dificultad": 1
     }
   ],
   "dudas": [
-    "«Verbo incoativo» cayó en P39-P40, pero el DLE define incoativo solo como «que implica o denota el principio de una cosa o de una acción progresiva» y la Nueva gramática básica solo lo usa para las perífrasis de fase inicial. Si el examen se refería a los verbos en -ecer, no he podido confirmarlo; por eso no hay pregunta específica.",
-    "No he verificado el régimen de «conminar» (P39-P40) ni he redactado pregunta sobre él.",
-    "La clasificación tradicional de los adverbios (afirmación, negación, duda, lugar, tiempo, modo, cantidad) sigue en manuales y puede ser la del examen; el Glosario la considera poco precisa. Las preguntas no dependen de ella.",
-    "El apartado de análisis sintáctico práctico es una guía de estudio propia, no un procedimiento oficial de la RAE."
+    "El DLE define «conminar» como verbo transitivo ('amenazar'; 'requerir a alguien el cumplimiento de un mandato bajo sanción'), pero ni el DLE ni el DPD fijan con qué preposición se introduce lo exigido. Ante la duda, recuerda que la persona conminada es complemento directo (la conminaron).",
+    "El método de análisis sintáctico del resumen es una guía práctica de estudio, no un procedimiento oficial de la RAE; las funciones y sus nombres sí siguen la Nueva gramática básica."
   ]
 }

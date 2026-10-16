@@ -61,14 +61,24 @@
       "verificado": "Documento leído el 16/10/2026"
     },
     {
+      "nombre": "Plan de Acción de Lucha contra los Delitos de Odio (I Plan, Secretaría de Estado de Seguridad, 2019)",
+      "url": "https://www.policia.es/miscelanea/participacion_ciudadana/normativa/Plan_de_accion_lucha_contra_los_delitosdeodio.pdf",
+      "verificado": "Estructura (cuatro líneas de acción, trece objetivos y cuarenta y siete medidas) leída el 16/10/2026"
+    },
+    {
+      "nombre": "Ministerio del Interior, Informe sobre la evolución de los delitos e incidentes de odio en España 2024 (nota de prensa de La Moncloa, 18/07/2025)",
+      "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/Paginas/2025/180725-informe-delitos-odio.aspx",
+      "verificado": "Cifras de 2024 leídas el 16/10/2026"
+    },
+    {
       "nombre": "Declaración de Principios sobre la Tolerancia (UNESCO, 16 de noviembre de 1995)",
       "url": "https://igualdadynodiscriminacion.igualdad.gob.es/wp-content/uploads/2024/06/decl_prps_tolerancia_UNESCO_1995.pdf",
       "verificado": "Texto leído el 16/10/2026"
     },
     {
-      "nombre": "Observatorio Español del Racismo y la Xenofobia (OBERAXE): «Sobre Oberaxe» y Memorias 2023 y 2024",
+      "nombre": "Observatorio Español del Racismo y la Xenofobia (OBERAXE): «Sobre Oberaxe», Memorias 2023 y 2024 y páginas de los proyectos PROXIMITY y FIRIR",
       "url": "https://www.inclusion.gob.es/web/oberaxe/sobre-oberaxe",
-      "verificado": "Páginas y memorias leídas el 16/10/2026"
+      "verificado": "Páginas y memorias leídas el 16/10/2026 (PROXIMITY: https://www.inclusion.gob.es/web/oberaxe/w/missm-proyecto-proximity; FIRIR: nota del Ministerio de Inclusión de 15/11/2012)"
     },
     {
       "nombre": "Constitución Española (arts. 1.1, 9.2, 10.1 y 14)",
@@ -79,12 +89,22 @@
     {
       "nombre": "Diccionario de la lengua española (RAE): «fanatismo», «sectarismo», «fundamentalismo» y «racismo»",
       "url": "https://dle.rae.es/fanatismo",
-      "verificado": "Acepciones contrastadas el 16/10/2026 con extractos del DLE en línea obtenidos por buscador (el acceso directo devolvió error 403)"
+      "verificado": "Acepciones leídas en dle.rae.es (versión electrónica 23.8.1) el 16/10/2026"
     },
     {
-      "nombre": "Bryan R. Wilson (tipología de las sectas); Rokeach Value Survey; etapas del desarrollo moral de Kohlberg",
-      "url": "https://en.wikipedia.org/wiki/Bryan_R._Wilson",
-      "verificado": "Siete tipos de Wilson, 18+18 valores de Rokeach y tres niveles de Kohlberg contrastados el 16/10/2026 en fuentes secundarias"
+      "nombre": "Bryan R. Wilson, «Typologie des sectes dans une perspective dynamique et comparative», Archives de sociologie des religions, n.º 16 (1963), pp. 49-63; desarrollada en «Magic and the Millennium» (1973)",
+      "url": "https://www.persee.fr/doc/assr_0003-9659_1963_num_16_1_2001",
+      "verificado": "Artículo de 1963 leído el 16/10/2026 (tipos de sectas y definición de la taumatúrgica)"
+    },
+    {
+      "nombre": "Rokeach Value Survey; etapas del desarrollo moral de Kohlberg (obras de referencia)",
+      "url": "https://en.wikipedia.org/wiki/Rokeach_Value_Survey",
+      "verificado": "18+18 valores de Rokeach y tres niveles de Kohlberg contrastados el 16/10/2026 en fuentes secundarias"
+    },
+    {
+      "nombre": "Comité español de ACNUR, «¿Qué es el racismo y qué tipos de racismo hay?» (23/07/2025)",
+      "url": "https://eacnur.org/es/blog/que-es-el-racismo-y-tipos-de-racismo",
+      "verificado": "Definición de racismo simbólico leída el 16/10/2026"
     }
   ],
   "novedades": [
@@ -99,7 +119,7 @@
     "**Art. 510.1 CP**: fomentar, promover o incitar públicamente al odio, hostilidad, discriminación o violencia contra un grupo o persona por su pertenencia a él: **prisión de 1 a 4 años y multa de 6 a 12 meses**. **Art. 510.2** (lesionar la dignidad o enaltecer o justificar delitos de odio): prisión de **6 meses a 2 años** y multa de 6 a 12 meses.",
     "**Agravantes del art. 510**: **mitad superior** si se difunde por medio de comunicación social, internet o tecnologías de la información (apdo. 3) y si es idóneo para alterar la paz pública o crear un grave sentimiento de inseguridad (apdo. 4, que puede elevarse a la pena superior en grado). Inhabilitación especial educativa de 3 a 10 años (apdo. 5).",
     "**Circular 7/2019 de la FGE**: delitos de **peligro abstracto** (salvo el resultado del 510.2.a primer inciso); basta el **dolo genérico** más la **motivación discriminatoria**; los motivos son «numerus clausus»; el bien jurídico es la dignidad y la igualdad (art. 14 CE).",
-    "**ONDOD** (Oficina Nacional de Lucha contra los Delitos de Odio): creada en **2018**, depende de la **Dirección General de Coordinación y Estudios** (Secretaría de Estado de Seguridad). Impulsa los **Planes de Acción**: I (2019-2021), II (2022-2024) y **III (2025-2028**: 6 líneas, 15 objetivos, 109 medidas). Equipos **EVO** (Policía Nacional) y **REDO** (Guardia Civil).",
+    "**ONDOD** (Oficina Nacional de Lucha contra los Delitos de Odio): creada en **2018** (Instrucción 1/2018 de la SES), depende de la **Dirección General de Coordinación y Estudios** (Secretaría de Estado de Seguridad). Impulsa los **Planes de Acción**: I (2019-2021), II (2022-2024) y **III (2025-2028**: 6 líneas, 15 objetivos, 109 medidas). Equipos **EVO** (Policía Nacional) y **REDO** (Guardia Civil).",
     "**OBERAXE** (Observatorio Español del Racismo y la Xenofobia): base legal en el **art. 71 de la LO 4/2000**; depende de la **Secretaría de Estado de Migraciones** (Ministerio de Inclusión, Seguridad Social y Migraciones). Sistema **FARO** = Filtrado y Análisis de Odio en las Redes Sociales.",
     "Definiciones del Protocolo: **mesofobia** = rechazo a la mezcla y a la convivencia intercultural; **disfobia** = delito motivado por la discapacidad; **aporofobia** = odio al pobre; **gerontofobia** (discriminación generacional) = hostilidad hacia los ancianos; **antigitanismo o romafobia**; **islamofobia**.",
     "**Tolerancia** (UNESCO, 1995): respeto, aceptación y aprecio de la rica diversidad de las culturas; no es concesión ni indulgencia sino una actitud activa de reconocimiento de los derechos humanos; **Día Internacional para la Tolerancia: 16 de noviembre**.",
@@ -182,8 +202,8 @@
       "titulo": "Actuación policial, ONDOD y planes de acción",
       "puntos": [
         "El **Protocolo de las FCSE** (edición de julio de 2020) manda incluir en el atestado los **indicadores de polarización**, que acreditan la motivación discriminatoria: la **percepción de la víctima**, su pertenencia a un colectivo minoritario, la discriminación por asociación, las expresiones, tatuajes o estética del autor, la propaganda extremista, los antecedentes, la cercanía a un lugar de culto, la relación con grupos ultras, la gratuidad de la violencia, las fechas significativas y la conducta del autor, también en redes.",
-        "El Sistema Estadístico de Criminalidad (SEC) recoge **once ámbitos**: racismo/xenofobia; ideología; orientación sexual o identidad de género; discriminación por sexo/género; creencias o prácticas religiosas; antisemitismo; persona con discapacidad; aporofobia; antigitanismo; discriminación por enfermedad; y discriminación generacional. En 2023 el más numeroso fue racismo y xenofobia (856 hechos, el 41,8 %), seguido de orientación sexual e identidad de género (522) e ideología (352).",
-        "**ONDOD**: creada en 2018, bajo la **Dirección General de Coordinación y Estudios**. Planes de Acción: **I (2019-2021)**; **II (2022-2024)**, aprobado por el Consejo de Ministros el 12/4/2022 e Instrucción 5/2022 de la SES (8 líneas, 15 objetivos, 86 medidas); **III (2025-2028)**: **6 líneas, 15 objetivos y 109 medidas**. Su Comisión de Seguimiento, presidida por el Director General de Coordinación y Estudios, se reúne ordinariamente una vez al semestre.",
+        "El Sistema Estadístico de Criminalidad (SEC) recoge **once ámbitos**: racismo/xenofobia; ideología; orientación sexual o identidad de género; discriminación por sexo/género; creencias o prácticas religiosas; antisemitismo; persona con discapacidad; aporofobia; antigitanismo; discriminación por enfermedad; y discriminación generacional (apartado 8 del Protocolo). El informe de Interior de 2024 recoge por primera vez, además, la **islamofobia** (13 hechos). En 2024 se investigaron **1.955** infracciones penales e incidentes de odio; el ámbito más numeroso fue racismo y xenofobia (804 hechos), seguido de orientación sexual e identidad de género (528) y discriminación por sexo/género (181).",
+        "**ONDOD**: creada por la **Instrucción 1/2018** de la Secretaría de Estado de Seguridad, bajo la **Dirección General de Coordinación y Estudios**. Planes de Acción: **I (2019-2021)**; **II (2022-2024)**, aprobado por el Consejo de Ministros el 12/4/2022 e Instrucción 5/2022 de la SES (8 líneas, 15 objetivos, 86 medidas); **III (2025-2028)**: **6 líneas, 15 objetivos y 109 medidas**. Su Comisión de Seguimiento, presidida por el Director General de Coordinación y Estudios, se reúne ordinariamente una vez al semestre.",
         "Equipos **EVO** (Extremismo Violento y Odio) de la **Policía Nacional** y **REDO** de la **Guardia Civil**; el III Plan prevé estructuras centrales operativas para perseguir estos delitos."
       ]
     },
@@ -193,7 +213,7 @@
         "**Ley 15/2022**: toda persona, con independencia de su nacionalidad o residencia legal, tiene derecho a la igualdad de trato (art. 2); las causas incluyen origen racial o étnico, sexo, religión, convicción u opinión, edad, discapacidad, orientación o identidad sexual, expresión de género, enfermedad, lengua y situación socioeconómica. Crea la **Autoridad Independiente para la Igualdad de Trato y la No Discriminación** (art. 40): asistencia, mediación o conciliación vinculante, investigación y acciones judiciales.",
         "**OBERAXE**: el art. 71 LO 4/2000 (añadido por la LO 14/2003) dispone su constitución con funciones de estudio y análisis y capacidad de elevar propuestas contra el racismo y la xenofobia. Depende de la **Secretaría de Estado de Migraciones**. Funciones: recopilar y analizar información (red de información), promover la igualdad de trato, colaborar con agentes públicos y privados nacionales e internacionales y elaborar planes, estudios y estrategias de inclusión de las personas migrantes.",
         "Monitoriza a diario el discurso de odio en Facebook, X, Instagram, YouTube y TikTok. El sistema **FARO** (Filtrado y Análisis de Odio en las Redes Sociales), fruto de un convenio con LALIGA, usa IA entrenada en el MOOD (Monitor para la Observación del Odio en el Deporte) y más de 100.000 reglas semánticas.",
-        "Proyectos europeos (2023): participó en **LEARN, IMMERSE, HELCI, CISDO, REAL UP y SCORE** y lideró LEARN, CISDO, REAL UP y SCORE. **CLARA** (Comunidades Locales de Aprendizaje contra el Racismo, la Xenofobia y los Discursos de Odio) formó a 165 policías locales en siete ciudades hasta febrero de 2022."
+        "Proyectos europeos (2023): participó en **LEARN, IMMERSE, HELCI, CISDO, REAL UP y SCORE** y lideró LEARN, CISDO, REAL UP y SCORE. Anteriores: **FIRIR** (Formación para la Identificación y Registro de Incidentes Racistas, financiado por la UE; en 2012 había formado a 800 especialistas de las fuerzas de seguridad) y **PROXIMITY** («Policing against racism, xenophobia and other forms of intolerance», liderado por el OBERAXE de abril de 2017 a marzo de 2019, para las policías de proximidad). **CLARA** (Comunidades Locales de Aprendizaje contra el Racismo, la Xenofobia y los Discursos de Odio) formó a 165 policías locales en siete ciudades hasta febrero de 2022."
       ]
     },
     {
@@ -263,8 +283,8 @@
     {
       "titulo": "Contravalores: racismo, fanatismo, fundamentalismo, sectarismo y hooliganismo",
       "puntos": [
-        "**Racismo**: creencia en la superioridad natural de un grupo sobre otro (Protocolo); para el DLE, creencia en la superioridad de un grupo étnico que conduce a la discriminación o persecución social. **Fanatismo** (DLE): apasionamiento y tenacidad desmedida en la defensa de creencias u opiniones, especialmente religiosas o políticas. **Sectarismo**: fanatismo e intransigencia en la defensa de una idea o ideología. **Fundamentalismo** (sentido general): exigencia intransigente de sometimiento a una doctrina o práctica establecida.",
-        "**Sectas de Bryan Wilson** (siete): conversionista (cambio sobrenatural personal), revolucionista (destruir el orden social), introversionista (retirarse del mundo), gnóstico-manipulacionista (salvación por técnicas o medios adecuados), **taumatúrgica** (dispensaciones mágicas locales para escapar de los problemas), reformista (cambiar el mundo con revelaciones sobrenaturales) y utópica (crear un nuevo orden social sin intervención divina).",
+        "**Racismo**: creencia en la superioridad natural de un grupo sobre otro (Protocolo); para el DLE, creencia en la superioridad de un grupo étnico que conduce a la discriminación o persecución social. **Fanatismo** (DLE): apasionamiento y tenacidad desmedida en la defensa de creencias u opiniones, especialmente religiosas o políticas. **Sectarismo**: fanatismo e intransigencia en la defensa de una idea o ideología. **Fundamentalismo** (sentido general): exigencia intransigente de sometimiento a una doctrina o práctica establecida. **Racismo simbólico** (según el Comité español de ACNUR): admite el derecho a ser iguales, pero solo en ámbitos puntuales o ciertas situaciones, lo que produce segregación cultural entre grupos.",
+        "**Sectas de Bryan Wilson** (siete): conversionista (cambio sobrenatural personal), revolucionista (destruir el orden social), introversionista (retirarse del mundo), gnóstico-manipulacionista (salvación por técnicas o medios adecuados), **taumatúrgica** (curaciones y milagros: la acción extraordinaria de lo sobrenatural mediante dispensaciones especiales y personales frente a males concretos), reformista (cambiar el mundo con revelaciones sobrenaturales) y utópica (crear un nuevo orden social sin intervención divina).",
         "**Hooliganismo**: la **Ley 19/2007** considera violentas la participación activa en altercados, los cánticos o pancartas que inciten a la violencia y la irrupción no autorizada en el terreno de juego, y racistas, xenófobos o intolerantes las declaraciones, gestos, cánticos o símbolos vejatorios por origen racial, étnico, religión, discapacidad, edad u orientación sexual. Crea la **Comisión Estatal contra la Violencia, el Racismo, la Xenofobia y la Intolerancia en el Deporte** (art. 20)."
       ]
     }
@@ -278,7 +298,7 @@
     "Sistema FARO: pertenece al **OBERAXE** y analiza el discurso de odio en redes; no es una base de datos policial ni la herramienta de riesgo de reincidencia del II Plan.",
     "Autores de definiciones de valor: la definición de Rokeach alude a creencia duradera (modo de conducta o estado final); no la confundan con las de otros autores citados en los exámenes.",
     "La Circular 7/2019 es anterior a la LO 6/2022: lo que dice sobre aporofobia o antigitanismo (no incluidos) ya no es válido, aunque sus criterios generales siguen vigentes.",
-    "Tipos de sectas de Wilson: son **siete**; confundir «taumatúrgica» (dispensaciones mágicas locales) con «revolucionista» (destruir el orden existente) o «introversionista» (retirarse del mundo)."
+    "Tipos de sectas de Wilson: son **siete**; confundir «taumatúrgica» (curaciones y milagros, dispensaciones especiales) con «revolucionista» (destruir el orden existente) o «introversionista» (retirarse del mundo)."
   ],
   "caido": [
     {
@@ -496,8 +516,8 @@
         "Indicadores de reincidencia"
       ],
       "correcta": 1,
-      "explicacion": "El Protocolo de las FCSE habla de indicadores de polarización: la percepción de la víctima, símbolos, tatuajes, propaganda, antecedentes y otros indicios que acreditan la motivación discriminatoria. El III Plan prevé sustituir esa diligencia por una de indicadores por motivación discriminatoria.",
-      "ref": "Protocolo FCSE (2020), apartado 3; III Plan, medida 12.4",
+      "explicacion": "El Protocolo de las FCSE habla de indicadores de polarización (la percepción de la víctima, símbolos, tatuajes, propaganda, antecedentes y otros indicios que acreditan la motivación discriminatoria) y manda incorporarlos todos al atestado. El III Plan prevé sustituir esa diligencia por una «diligencia de indicadores por motivación discriminatoria» (medida 12.4, primer semestre de 2027). Vulnerabilidad y reincidencia no son el nombre de esos indicadores.",
+      "ref": "Protocolo FCSE (2020), apartados 3 y 4.2; III Plan, medida 12.4",
       "dificultad": 2
     },
     {
@@ -509,8 +529,8 @@
         "La Dirección General de Coordinación y Estudios de la Secretaría de Estado de Seguridad"
       ],
       "correcta": 2,
-      "explicacion": "El III Plan de Acción sitúa la ONDOD, creada en 2018, bajo la Dirección General de Coordinación y Estudios de la Secretaría de Estado de Seguridad, que impulsa, coordina y supervisa los Planes de Acción. No pertenece a la Policía Nacional ni a la Guardia Civil, que cuentan con los equipos EVO y REDO.",
-      "ref": "III Plan de Acción de Lucha contra los Delitos de Odio, apartado 2",
+      "explicacion": "El III Plan de Acción sitúa la ONDOD, creada por la Instrucción 1/2018 de la Secretaría de Estado de Seguridad, bajo la Dirección General de Coordinación y Estudios de esa Secretaría de Estado, que impulsa, coordina y supervisa los Planes de Acción. No pertenece a la Policía Nacional ni a la Guardia Civil, que cuentan con los equipos EVO y REDO.",
+      "ref": "III Plan de Acción de Lucha contra los Delitos de Odio, apartados 2 y 4",
       "dificultad": 2
     },
     {
@@ -522,8 +542,8 @@
         "Vigencia 2019-2021, seis líneas de acción y 109 medidas"
       ],
       "correcta": 0,
-      "explicacion": "El III Plan abarca 2025-2028 y se articula en seis líneas de acción, quince objetivos y ciento nueve medidas. La segunda opción describe el II Plan (2022-2024: ocho líneas, quince objetivos, 86 medidas) y el I Plan fue el de 2019-2021.",
-      "ref": "III Plan de Acción 2025-2028, apartado 2",
+      "explicacion": "El III Plan abarca 2025-2028 y se articula en seis líneas de acción, quince objetivos y ciento nueve medidas. La segunda opción describe el II Plan (2022-2024: ocho líneas estratégicas, quince objetivos y 86 medidas) y la tercera mezcla el periodo del I Plan (2019-2021), que tenía cuatro líneas de acción, trece objetivos y cuarenta y siete medidas, con cifras del III.",
+      "ref": "III Plan de Acción 2025-2028, apartados 1 y 2",
       "dificultad": 3
     },
     {
@@ -535,7 +555,7 @@
         "La Policía Nacional y las policías locales"
       ],
       "correcta": 1,
-      "explicacion": "Los EVO (extremismo violento y odio) son equipos de la Policía Nacional y los REDO, de la Guardia Civil. La primera opción invierte las pertenencias y las policías locales no cuentan con estos equipos en el Plan.",
+      "explicacion": "Los EVO (Equipos de Extremismo Violento y Odio) son de la Policía Nacional, y los REDO, equipos de respuesta ante los delitos de odio, son de la Guardia Civil. La primera opción invierte las pertenencias y el Plan no atribuye estos equipos a las policías locales.",
       "ref": "III Plan de Acción 2025-2028, línea de acción 6",
       "dificultad": 2
     },
@@ -548,8 +568,8 @@
         "Discriminación por razón de profesión"
       ],
       "correcta": 2,
-      "explicacion": "El SEC recoge once ámbitos: racismo/xenofobia, ideología, orientación sexual o identidad de género, discriminación por sexo/género, creencias o prácticas religiosas, antisemitismo, persona con discapacidad, aporofobia, antigitanismo, discriminación por enfermedad y discriminación generacional. La profesión no figura.",
-      "ref": "Protocolo FCSE (2020), apartado de estadística (SEC)",
+      "explicacion": "El Protocolo de 2020 enumera once ámbitos del SEC: racismo/xenofobia, ideología, orientación sexual o identidad de género, discriminación por sexo/género, creencias o prácticas religiosas, antisemitismo, persona con discapacidad, aporofobia, antigitanismo, discriminación por razón de enfermedad y discriminación generacional. Desde el informe de 2024, Interior desglosa también la islamofobia. La profesión no figura.",
+      "ref": "Protocolo FCSE (2020), apartado 8",
       "dificultad": 2
     },
     {
@@ -600,7 +620,7 @@
         "21 de marzo"
       ],
       "correcta": 0,
-      "explicacion": "El art. 6 de la Declaración proclama el 16 de noviembre de cada año como Día Internacional para la Tolerancia. El 10 de diciembre se conmemora el Día de los Derechos Humanos y el 21 de marzo, el Día Internacional contra la Discriminación Racial.",
+      "explicacion": "El art. 6 de la Declaración proclama el 16 de noviembre de cada año como Día Internacional para la Tolerancia. El 10 de diciembre se conmemora el Día de los Derechos Humanos y el 21 de marzo, el Día Internacional de la Eliminación de la Discriminación Racial.",
       "ref": "art. 6 Declaración de Principios sobre la Tolerancia",
       "dificultad": 1
     },
@@ -619,15 +639,15 @@
     },
     {
       "id": "q_30_18",
-      "enunciado": "En la tipología de las sectas de Bryan Wilson, ¿qué tipo busca dispensaciones mágicas locales que permitan escapar de los problemas del mundo?",
+      "enunciado": "En la tipología de las sectas de Bryan Wilson, ¿qué tipo busca curaciones y milagros, es decir, el alivio de males concretos de sus miembros mediante dispensaciones especiales y personales de lo sobrenatural?",
       "opciones": [
         "Revolucionista",
         "Introversionista",
         "Taumatúrgica"
       ],
       "correcta": 2,
-      "explicacion": "La secta taumatúrgica busca dispensaciones locales y mágicas para escapar de los problemas. La revolucionista sostiene que hay que destruir el orden social existente y la introversionista propone retirarse del mundo todo lo posible.",
-      "ref": "Bryan Wilson, tipología de movimientos religiosos",
+      "explicacion": "Wilson describe las sectas taumatúrgicas como movimientos que insisten en experimentar la acción extraordinaria de lo sobrenatural (curaciones, milagros) mediante dispensaciones especiales y personales. La revolucionista espera la destrucción del orden social existente por intervención sobrenatural y la introversionista propone retirarse del mundo.",
+      "ref": "B. R. Wilson, «Typologie des sectes» (1963) y «Magic and the Millennium» (1973)",
       "dificultad": 3
     },
     {
@@ -671,10 +691,8 @@
     }
   ],
   "dudas": [
-    "Definiciones de valor de **Fichter** y **Rocher** (citadas en exámenes) y **racismo simbólico (ACNUR)**: no se han podido verificar en fuentes primarias, por lo que no se incluyen. Sí se recoge la definición de Rokeach contrastada en fuentes secundarias.",
-    "Proyectos del OBERAXE: PROXIMITY (liderado por OBERAXE entre abril de 2017 y marzo de 2019, según un extracto del buscador) y FIRIR no pudieron contrastarse en documentos leídos; solo se confirman LEARN, IMMERSE, HELCI, CISDO, REAL UP, SCORE (Memoria 2023) y CLARA. Esos dos nombres figuran entre los preguntados en los exámenes.",
-    "Estadísticas de delitos de odio: solo se citan los datos de 2023 (nota de prensa de Interior de 1/7/2024). No se pudo leer la web del Ministerio del Interior (error 403), por lo que no se incluyen las cifras del informe de 2025.",
-    "Las definiciones de fanatismo, sectarismo, fundamentalismo y racismo del DLE se contrastaron con extractos del buscador; la RAE puede revisarlas.",
-    "No se ha identificado el número de la Instrucción de la Secretaría de Estado de Seguridad que aprobó el Protocolo de 2020; solo consta su edición revisada de julio de 2020."
+    "Las definiciones de valor de Fichter y de Rocher, que han aparecido en exámenes, proceden de manuales de sociología sin texto oficial de referencia y no se reproducen aquí; solo se recoge la de Rokeach.",
+    "Las cifras de delitos de odio cambian con cada informe anual de Interior: aquí figuran las de 2024. Según la prensa, el informe de 2025 (junio de 2026) eleva el total a 2.417 hechos, con racismo y xenofobia de nuevo en cabeza; en el examen importa más el orden de los ámbitos que la cifra.",
+    "El Protocolo de julio de 2020 no indica la instrucción que lo aprobó: actualiza el de diciembre de 2015, cuyo origen es la Instrucción 16/2014 de la Secretaría de Estado de Seguridad, modificada en 2015. No lo confunda con la Instrucción 1/2018, que creó la ONDOD."
   ]
 }

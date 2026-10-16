@@ -29,7 +29,8 @@
   ],
   "novedades": [
     "LO 10/2022 (solo sí es sí), con efectos desde el 7 de octubre de 2022: el Título VIII pasa a llamarse «Delitos contra la libertad sexual», desaparece la distinción entre abuso y agresión (todo acto sexual sin consentimiento es agresión sexual) y el art. 178.1 define el consentimiento.",
-    "LO 4/2023, de 27 de abril: reajusta las penas de los arts. 178 a 181 (agresión sexual básica de 1 a 4 años; con violencia o intimidación, de 1 a 5; violación de 4 a 12 años, o de 6 a 12 si hay violencia, intimidación o voluntad anulada) y fija en 35 años de la víctima menor el inicio de la prescripción de los delitos sexuales (art. 132.1).",
+    "LO 4/2023, de 27 de abril: mantiene la agresión sexual básica (1 a 4 años) y la violación (4 a 12), pero añade los tipos con violencia, intimidación o voluntad anulada (de 1 a 5 años, art. 178.3; violación de 6 a 12, art. 179.2) y retoca el art. 181. Da también la redacción vigente del art. 132.1: con víctima menor, la prescripción de los delitos contra la libertad sexual corre desde que cumple 35 años (regla que introdujo la LO 8/2021).",
+    "LO 10/2022 (disposición final 4.ª, apartados ocho y nueve) reescribió el capítulo II del Título VIII (arts. 181 a 183 bis) y suprimió el antiguo capítulo II bis: el contacto tecnológico con menores de 16 años con fines sexuales (grooming) está hoy en el art. 183 y la exclusión por consentimiento con autor próximo en edad, en el art. 183 bis. Con manuales anteriores a 2022 se citaban como arts. 183 ter y 183 quater.",
     "LO 3/2021 (eutanasia): el art. 143.4 limita la pena atenuada a quien causa o coopera a la muerte de una persona con padecimiento grave, crónico e imposibilitante o enfermedad grave e incurable, y el art. 143.5 declara exento a quien cumple la ley reguladora de la eutanasia.",
     "LO 11/2022 retoca la imprudencia menos grave en homicidio (art. 142.2) y lesiones (art. 152.2) con vehículo; LO 2/2019 añadió los arts. 142 bis y 152 bis (pena superior en grado en imprudencias de notoria gravedad con varias víctimas).",
     "LO 8/2021 (protección de la infancia frente a la violencia): añade el art. 143 bis (incitación al suicidio de menores) y los arts. 156 quater y 156 quinquies (libertad vigilada e inhabilitación en lesiones contra menores o familiares), y retoca los arts. 140 bis (privación de la patria potestad) y 156 ter.",
@@ -714,7 +715,5 @@
       "dificultad": 1
     }
   ],
-  "dudas": [
-    "Los bloques 183 ter y 183 quater del texto consolidado descargado reproducen contenidos del grooming y del consentimiento del menor que coinciden con los de los arts. 183 y 183 bis; no los he citado y hago referencia solo a los arts. 183 y 183 bis, que recogen la numeración posterior a la LO 10/2022."
-  ]
+  "dudas": []
 }

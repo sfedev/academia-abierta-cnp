@@ -150,6 +150,20 @@ class ReglasDelValidador(ConTemporal):
         self.assertEqual(err, [])
         self.assertFalse(any("resumen largo" in a for a in avi))
 
+    def test_tope_de_preguntas_sube_a_30_con_secciones_ampliadas(self):
+        def hasta(total, ampliado):
+            def mutar(d):
+                d["resumen"][0]["ampliado"] = ampliado
+                base = d["preguntas"][0]
+                k = 90
+                while len(d["preguntas"]) < total:
+                    d["preguntas"].append(dict(base, id="q_%02d_%d" % (d["tema"], k), enunciado="Pregunta adicional %d del tema" % k))
+                    k += 1
+            return mutar
+        self.assertError(hasta(25, False), "preguntas: entre 15 y 24")
+        self.assertEqual(self.comprobar(hasta(30, True))[0], [])
+        self.assertError(hasta(31, True), "hasta 30 si el tema tiene secciones ampliadas")
+
 
 class SalidaDelValidador(ConTemporal):
     def test_codigo_de_salida_y_mensajes(self):

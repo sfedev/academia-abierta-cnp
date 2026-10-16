@@ -62,7 +62,7 @@ Un fichero por tema: `datos/temas/tema-NN.json` (NN con dos dígitos). UTF-8, JS
 }
 ```
 
-Campos: `tarjetas` 10-24; `preguntas` 15-24 (ver §4); `clave` 6-14; `trampas` 4-10; `resumen` ≥ 3 secciones; `tabla` y `mnemotecnias`, `caido`, `novedades`, `dudas` son opcionales (`[]` si no hay).
+Campos: `tarjetas` 10-24; `preguntas` 15-24, o hasta 30 si el tema tiene secciones ampliadas (ver §4 y §4 bis); `clave` 6-14; `trampas` 4-10; `resumen` ≥ 3 secciones; `tabla` y `mnemotecnias`, `caido`, `novedades`, `dudas` son opcionales (`[]` si no hay). Una sección de `resumen` con `"ampliado": true` se muestra plegada (ver §4 bis).
 
 **`id`** (en cada pregunta y tarjeta): identificador estable con el que la web guarda el progreso de cada usuario. Formato `q_NN_01` (preguntas) y `t_NN_01` (tarjetas), con NN = número de tema a dos dígitos. No lo escribas a mano: al terminar, ejecuta `python -I herramientas/migrar_ids.py` y da el siguiente número libre a las que no lo tengan (los números no se reutilizan). Gracias a él puedes corregir un enunciado sin que los usuarios pierdan su historial; si cambia el **sentido** de una pregunta (otra respuesta correcta), borra su `id` y vuelve a ejecutar el script para que reciba uno nuevo. El validador da error si falta, tiene otro formato o está repetido en cualquier ficha.
 
@@ -90,6 +90,35 @@ Campos: `tarjetas` 10-24; `preguntas` 15-24 (ver §4); `clave` 6-14; `trampas` 4
 - `explicacion`: di por qué la correcta lo es (con artículo) y por qué falla cada distractor. **No cites letras** («la opción B»): la web baraja el orden de las opciones; describe cada opción por su contenido. `ref`: artículo/apartado exacto. `dificultad`: 1 fácil, 2 media, 3 difícil (trampa fina).
 - **Originales**: redacta tú los enunciados. No reproduzcas preguntas de exámenes oficiales ni de academias. Cubre los conceptos que más caen según el análisis.
 - Nada que dependa de redacción derogada. Comprueba cada respuesta contra el texto consolidado que has leído.
+
+## 4 bis. Secciones ampliadas: el nivel «trampa fina»
+
+En los temas que más puntúan, la nota de corte (7-7,7 en los últimos exámenes) se decide en los detalles. Ese
+detalle va en secciones de `resumen` con `"ampliado": true`: la web las muestra plegadas, con la etiqueta
+«Ampliación», y sus palabras no cuentan para la longitud del resumen. Así la ficha se lee de un tirón y el
+detalle está a un clic.
+
+**Qué va en una sección ampliada** (solo lo que se puede señalar en el texto vigente, con su artículo):
+
+- **Excepciones y excepciones de la excepción**: «salvo», «en todo caso», «sin perjuicio de», supuestos tasados.
+- **Plazos con su cómputo**: hábiles o naturales, desde cuándo se cuentan, si son prorrogables y quién prorroga.
+- **Quién hace qué**: quién propone, quién nombra, quién aprueba, quién informa y si el informe es preceptivo o
+  vinculante; mayorías exactas y quórum.
+- **Listas cerradas completas**, con el número de elementos, y los elementos que suelen colarse como distractor.
+- **Verbos y cuantificadores que cambian la respuesta**: «podrá» frente a «deberá», «al menos», «como máximo»,
+  «previa audiencia», «oído», «a propuesta de».
+- **Parejas que se confunden**: cifras, plazos u órganos parecidos en artículos distintos (mejor en tabla).
+- **Redacción anterior a una reforma** que todavía circula en manuales, marcada como derogada.
+
+**Formato**: de 1 a 3 secciones por tema, de 6 a 14 puntos cada una, cada punto con su artículo entre paréntesis;
+el título dice qué se aclara («Plazos y su cómputo», «Quién propone y quién nombra»), no «Ampliación». Entre 250 y
+900 palabras en total. No repitas `clave` ni el resumen principal: complétalos. Lo que no esté en el texto vigente
+no entra (ni de academias ni de memoria).
+
+**Preguntas de trampa fina**: por cada sección ampliada, escribe de 2 a 4 preguntas de `dificultad` 3 que dependan
+de ese detalle (con el tope de 30 preguntas por tema). Los distractores cambian solo el matiz (el plazo vecino, el
+órgano que informa en lugar del que aprueba, «podrá» por «deberá») y siguen siendo inequívocamente falsos según el
+texto. Después pasa la auditoría a tu tema (`GUIA_REVISION.md`) y registra lo que hayas comprobado.
 
 ## 5. Bloques B y C (no son leyes del BOE)
 

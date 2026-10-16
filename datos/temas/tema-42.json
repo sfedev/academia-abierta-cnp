@@ -52,7 +52,7 @@
   "El **RD 726/2020** (en vigor desde el 5/11/2020) reformó el Reglamento: las «piezas fundamentales» pasan a ser **componentes esenciales**; nacen la **8.ª categoría** (armas acústicas y de salvas) y la **9.ª** (inutilizadas); las licencias B y F pasan de 3 a **5 años**; todas las armas con guía pasan revista cada **5 años**; el visado de licencias se exige a los mayores de **67 años**, a los 3 años de su expedición. El material anterior a esa fecha da datos desfasados.",
   "Desde 2020 las licencias C, D y E las concede el **Jefe de la Comandancia de la Guardia Civil** de la provincia (antes, el Director General o los Gobernadores civiles); B y F siguen en la Dirección General de la Guardia Civil.",
   "El art. 9 (Registro Nacional de Armas) fue anulado en su apartado 1 por el Tribunal Supremo (sentencia de 4/4/2022) y se reformuló por el RD 653/2023. No afecta al contenido que suele preguntarse.",
-  "Los arts. 155 a 157 del Reglamento siguen publicados con las cuantías de la LO 1/1992, derogada por la LO 4/2015. Las infracciones sobre armas se tipifican hoy en la LO 4/2015 (arts. 35.2, 36.10 y 36.12)."
+  "Los arts. 155 a 157 del Reglamento siguen publicados con las cuantías de la LO 1/1992, derogada por la LO 4/2015. Las infracciones sobre armas se tipifican hoy en la LO 4/2015 (arts. 35.2, 36.10, 36.12 y 37.8), con las multas de su art. 39."
  ],
  "clave": [
   "Arma **corta**: cañón de hasta **30 cm** o longitud total de hasta **60 cm** (art. 2.13); larga es la que no es corta.",
@@ -506,7 +506,7 @@
     "Las escopetas de la 3.ª categoría."
    ],
    "correcta": 1,
-   "explicacion": "El art. 5.1.j incluye entre las armas prohibidas salvo funcionarios habilitados las defensas eléctricas, de goma o extensibles y las tonfas o similares. Las ballestas y los arcos son de la 7.ª categoría y las escopetas de la 3.ª, ambas documentables por particulares.",
+   "explicacion": "El art. 5.1.j incluye entre las armas prohibidas salvo funcionarios especialmente habilitados las defensas eléctricas, de goma o extensibles y las tonfas o similares. Las ballestas y los arcos son armas reglamentadas de la 7.ª categoría y las escopetas, de la 3.ª.2: los particulares pueden tenerlas con los requisitos del Reglamento.",
    "ref": "art. 5.1 Reglamento de Armas",
    "dificultad": 2
   },
@@ -668,7 +668,7 @@
   },
   {
    "id": "q_42_19",
-   "enunciado": "¿Cómo se denomina la rama de la balística forense que estudia el comportamiento del proyectil desde que sale por la boca del arma hasta que impacta en el blanco?",
+   "enunciado": "¿Cómo se denomina la rama de la balística que estudia el comportamiento del proyectil desde que sale por la boca del arma hasta que impacta en el blanco?",
    "opciones": [
     "Balística exterior.",
     "Balística interior.",
@@ -714,16 +714,15 @@
     "Cargadas y acompañadas de su guía de pertenencia, en cualquier trayecto."
    ],
    "correcta": 0,
-   "explicacion": "El art. 149.1 limita el porte urbano al trayecto entre el lugar de guarda y el de uso autorizado, y exige que el arma vaya desmontada o en su caja o funda. Las demás opciones describen un porte que el art. 146.1 prohíbe con carácter general.",
+   "explicacion": "El art. 149.1 solo permite llevar las armas reglamentadas por vías y lugares públicos urbanos desmontadas o dentro de sus cajas o fundas, durante el trayecto entre el lugar donde se guardan y el de su utilización autorizada. No contempla llevarlas cargadas en cualquier trayecto ni a la vista; además, el art. 146.1 prohíbe con carácter general portar y exhibir armas de fuego cortas fuera del domicilio, del lugar de trabajo o de las actividades deportivas.",
    "ref": "arts. 146.1 y 149.1 Reglamento de Armas",
    "dificultad": 2
   }
  ],
  "dudas": [
-  "Origen histórico de las armas de fuego: solo fuentes secundarias (Wikipedia en español y Crimipedia); no hay norma ni pregunta de examen registrada sobre fechas, por lo que no se pregunta en el banco.",
-  "Los arts. 155 a 157 del Reglamento siguen publicados con remisiones a la LO 1/1992, derogada por la LO 4/2015. Es inferencia propia que hoy se aplican las infracciones y sanciones de la LO 4/2015; no he comparado las cuantías para armas.",
-  "No he leído las ITC 1 a 5 completas (solo su relación con los arts. 28, 108 y 113), ni la normativa especial sobre las armas de dotación de la Policía Nacional, excluidas del Reglamento por su art. 1.4.",
-  "El Manual de Balística Forense citado es de la Policía Nacional de Nicaragua (2013): se usa solo para la función de cada componente del cartucho, que la norma española no detalla.",
-  "El art. 166.2 manda depositar en locales de Defensa las armas de guerra o de la categoría 1.ª (o un gran número); la práctica policial habitual con pistolas intervenidas no se ha verificado, y por eso no se pregunta."
+  "Las fechas del origen de las armas de fuego proceden de obras divulgativas, no de una norma ni de un estudio oficial: tómalas como orientativas.",
+  "Los arts. 155 a 157 del Reglamento conservan las cuantías de la derogada LO 1/1992. Las infracciones sobre armas y sus multas están hoy en la LO 4/2015 (arts. 35.2, 36.10, 36.12, 37.8 y 39): si te preguntan por sanciones, responde con la LO 4/2015.",
+  "Las armas de dotación de la Policía Nacional se rigen por su normativa especial (art. 1.4 del Reglamento) y las ITC son anexos técnicos: esta ficha no desarrolla ninguna de las dos.",
+  "La función de cada componente del cartucho no la describe ninguna norma española: se toma de un manual de balística forense de la Policía Nacional de Nicaragua (2013). Es contenido técnico, no normativo."
  ]
 }

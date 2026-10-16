@@ -340,7 +340,7 @@
     "30 días"
    ],
    "correcta": 0,
-   "explicacion": "Art. 30.1 LO 4/2000: la estancia no supera los 90 días; pasado ese tiempo hace falta una prórroga de estancia o una autorización de residencia (art. 30.2). Seis meses es el umbral a partir del cual el visado o la autorización obligan a solicitar la TIE (art. 4.2), y 30 días no es un plazo de la norma.",
+   "explicacion": "Art. 30.1 LO 4/2000: la estancia no supera los 90 días; pasado ese tiempo hace falta una prórroga de estancia o una autorización de residencia (art. 30.2). Seis meses es el umbral a partir del cual el visado o la autorización obligan a solicitar la TIE (art. 4.2), y 30 días no es el límite de la estancia.",
    "ref": "art. 30 LO 4/2000",
    "dificultad": 1
   },
@@ -366,7 +366,7 @@
     "En tres meses desde su entrada en España"
    ],
    "correcta": 0,
-   "explicacion": "Art. 4.2 LO 4/2000: los extranjeros con visado o autorización por un período superior a seis meses solicitan la TIE personalmente en el plazo de un mes desde su entrada o desde la concesión (arts. 37.3 y 209 RD 1155/2024). Tres meses es el plazo de inscripción de los ciudadanos UE (art. 7.5 RD 240/2007) y quince días no figura en la norma.",
+   "explicacion": "Art. 4.2 LO 4/2000: los extranjeros con visado o autorización por un período superior a seis meses solicitan la TIE personalmente en el plazo de un mes desde su entrada o desde la concesión (arts. 37.3 y 209 RD 1155/2024). Tres meses es el plazo de inscripción de los ciudadanos UE (art. 7.5 RD 240/2007) y quince días no es el plazo para pedir la TIE.",
    "ref": "art. 4.2 LO 4/2000; arts. 37.3 y 209 RD 1155/2024",
    "dificultad": 2
   },
@@ -548,7 +548,7 @@
     "el 200 % del IPREM, sin incremento por miembros adicionales"
    ],
    "correcta": 0,
-   "explicacion": "Art. 67.1 RD 1155/2024: 150 % del IPREM para la unidad formada por el reagrupante y un familiar y 50 % del IPREM por cada miembro adicional. Debe sumarse la vivienda adecuada y el seguro de enfermedad (art. 67.2 y 67.3). Las otras cifras no figuran en la norma.",
+   "explicacion": "Art. 67.1 RD 1155/2024: 150 % del IPREM para la unidad formada por el reagrupante y un familiar y 50 % del IPREM por cada miembro adicional. Debe sumarse la vivienda adecuada y el seguro de enfermedad (art. 67.2 y 67.3). Las otras combinaciones no son las del art. 67.",
    "ref": "art. 67 RD 1155/2024",
    "dificultad": 3
   },
@@ -574,7 +574,7 @@
     "estimada"
    ],
    "correcta": 2,
-   "explicacion": "DA 1.ª.2 LO 4/2000 y art. 80.9 RD 1155/2024: en las renovaciones, prórrogas de residencia y solicitudes de larga duración, el transcurso de tres meses sin respuesta supone la concesión. En las solicitudes iniciales, el silencio es desestimatorio (DA 1.ª.1 LO; art. 77.6 R).",
+   "explicacion": "DA 1.ª.2 LO 4/2000 y art. 80.9 RD 1155/2024: en las renovaciones, prórrogas de residencia y solicitudes de larga duración, el transcurso de tres meses sin respuesta supone la concesión. En las solicitudes iniciales, el silencio es desestimatorio (DA 1.ª.1 LO 4/2000; art. 77.6 RD 1155/2024).",
    "ref": "DA 1.ª LO 4/2000; art. 80.9 RD 1155/2024",
    "dificultad": 2
   },
@@ -632,8 +632,8 @@
   }
  ],
  "dudas": [
-  "Los anteproyectos de nueva ley de asilo y de reforma parcial de la LO 4/2000 (Consejo de Ministros, 25/08/2026) se conocen por notas de prensa oficiales; no se ha leído su texto íntegro y no están en vigor.",
-  "No se ha leído el texto del Código de Fronteras Schengen (Reglamento (UE) 2016/399) ni de los Reglamentos ETIAS y SES: solo se recogen las remisiones del Reglamento de extranjería.",
-  "No se cita la cuantía en euros del IPREM (no verificada); las preguntas usan solo los porcentajes."
+  "Los anteproyectos de nueva ley de asilo y de reforma de la LO 4/2000 aprobados por el Consejo de Ministros el 25/08/2026 no son derecho vigente: en el examen se aplican la LO 4/2000 y su Reglamento (RD 1155/2024) en su redacción actual.",
+  "El cruce de fronteras exteriores lo regula también el Derecho de la UE (Código de Fronteras Schengen, Reglamento (UE) 2016/399, y sistemas SES y ETIAS). La ficha recoge los requisitos de entrada tal como los reproduce el art. 4 del Reglamento de extranjería.",
+  "La cuantía en euros del IPREM cambia con el tiempo. En extranjería los requisitos económicos se expresan como porcentaje del IPREM (150 % en la reagrupación, 400 % en la residencia no lucrativa): aprende los porcentajes, no cifras en euros."
  ]
 }

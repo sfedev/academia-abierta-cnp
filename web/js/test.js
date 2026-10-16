@@ -28,8 +28,33 @@
       .slice(0, n)
       .map(function (x) { return x.q; });
   }
-  /* Reparto del simulacro: preguntas por tema ∝ media de los últimos exámenes. */
-  function simulacro(n) {
+  /* Mezcla de dificultad del simulacro (fracción de preguntas fáciles, medias y difíciles).
+     «real»: la de los exámenes analizados por las academias (P40: 27/37/36 %, P41: 74/23/3 %; media aproximada
+     50/30/20). «exigente»: más difícil, para entrenar por encima de las notas de corte recientes. */
+  var MEZCLAS = { real: { 1: 0.5, 2: 0.3, 3: 0.2 }, exigente: { 1: 0.3, 2: 0.4, 3: 0.3 } };
+  var OBJETIVO = 7.5; // por encima de las notas de corte recientes (7,05-7,72, orientativas)
+  function composicion(qs) {
+    var c = { 1: 0, 2: 0, 3: 0 };
+    qs.forEach(function (q) { c[q.dif || 2] = (c[q.dif || 2] || 0) + 1; });
+    var n = qs.length || 1;
+    return { 1: c[1] / n, 2: c[2] / n, 3: c[3] / n };
+  }
+  /* Como `muestra`, pero corrige el peso de cada pregunta para acercar la mezcla de dificultad a `mezcla`. */
+  function muestraMezcla(qs, n, factor) {
+    return qs
+      .map(function (q) { return { q: q, k: Math.pow(Math.random(), 1 / (pesoP(q) * (factor[q.dif || 2] || 1))) }; })
+      .sort(function (a, b) { return b.k - a.k; })
+      .slice(0, n)
+      .map(function (x) { return x.q; });
+  }
+  /* Reparto del simulacro: preguntas por tema ∝ media de los últimos exámenes y, si se indica, mezcla de dificultad. */
+  function simulacro(n, mezcla) {
+    var factor = null;
+    if (mezcla) {
+      var banco = composicion(AA.preguntas);
+      factor = {};
+      [1, 2, 3].forEach(function (d) { factor[d] = mezcla[d] / Math.max(banco[d], 0.01); });
+    }
     var temas = AA.listaTemas.filter(function (t) {
       return t.datos && (t.datos.preguntas || []).length && t.media;
     });
@@ -59,7 +84,7 @@
     var out = [];
     temas.forEach(function (t) {
       var pool = AA.preguntas.filter(function (q) { return q.tema === t.tema; });
-      out = out.concat(muestra(pool, cuota[t.tema]));
+      out = out.concat(factor ? muestraMezcla(pool, cuota[t.tema], factor) : muestra(pool, cuota[t.tema]));
     });
     return AA.shuffle(out);
   }
@@ -103,15 +128,18 @@
 
   var T = (AA.test = {});
   // Selección de preguntas: se expone para poder probarla (herramientas/tests/js).
-  T.interno = { poolBase: poolBase, pesoP: pesoP, muestra: muestra, simulacro: simulacro };
+  T.interno = { poolBase: poolBase, pesoP: pesoP, muestra: muestra, simulacro: simulacro, composicion: composicion, MEZCLAS: MEZCLAS, OBJETIVO: OBJETIVO,
+                sesion: function () { return S; } };
 
   T.preparar = function (o) {
     var preguntas = [];
     var cfg = { modo: "estudio", minutos: 0, titulo: "", preset: o.preset || "" };
     if (!AA.preguntas.length) { AA.toast("Todavía no hay preguntas publicadas"); return; }
-    if (o.preset === "simulacro") {
-      cfg = { modo: "examen", minutos: 50, titulo: "Simulacro oficial", preset: "simulacro" };
-      preguntas = simulacro(Math.min(100, AA.preguntas.length));
+    if (o.preset === "simulacro" || o.preset === "exigente") {
+      var exigente = o.preset === "exigente";
+      cfg = { modo: "examen", minutos: 50, titulo: exigente ? "Simulacro exigente" : "Simulacro oficial", preset: o.preset,
+              mezcla: exigente ? "exigente" : "real", objetivo: OBJETIVO };
+      preguntas = simulacro(Math.min(100, AA.preguntas.length), MEZCLAS[cfg.mezcla]);
     } else if (o.preset === "rapido") {
       cfg.titulo = "Test rápido";
       preguntas = muestra(AA.preguntas, 20);
@@ -132,6 +160,16 @@
       if (cfg.modo === "examen" && o.cronometro) cfg.minutos = Math.max(1, Math.round(n / 2));
     }
     if (!preguntas.length) { AA.toast("No hay preguntas para esa selección"); return; }
+    nuevaSesion(cfg, preguntas);
+    AA.go("test");
+  };
+
+  /* Examen oficial importado (web/js/oficiales.js): mismas reglas que el real, sin las preguntas anuladas. */
+  T.prepararOficial = function (examen, modo, preguntas) {
+    if (!preguntas || !preguntas.length) { AA.toast("Ese examen no tiene preguntas válidas"); return; }
+    var cfg = { modo: modo || "examen", minutos: modo === "estudio" ? 0 : Math.max(1, Math.round(preguntas.length / 2)),
+                titulo: "Examen oficial · " + (examen.titulo || examen.codigo), preset: "oficial", oficial: examen.codigo,
+                objetivo: (AA.oficiales && AA.oficiales.corteDe(examen.codigo)) || OBJETIVO };
     nuevaSesion(cfg, preguntas);
     AA.go("test");
   };
@@ -163,19 +201,22 @@
     var A = 0, E = 0, B = 0;
     var porBloque = { A: { n: 0, a: 0, e: 0 }, B: { n: 0, a: 0, e: 0 }, C: { n: 0, a: 0, e: 0 } };
     var porTema = {};
+    var porDif = { 1: { n: 0, a: 0, e: 0 }, 2: { n: 0, a: 0, e: 0 }, 3: { n: 0, a: 0, e: 0 } };
     S.qs.forEach(function (x, i) {
       var q = x.q;
       var r = S.resp[i];
-      var pb = porBloque[q.bloque];
-      var pt = porTema[q.tema] || (porTema[q.tema] = { n: 0, a: 0, e: 0 });
-      pb.n++; pt.n++;
+      // las preguntas de examen oficial pueden no tener tema/bloque estimado
+      var pb = porBloque[q.bloque] || (porBloque[q.bloque || "sin"] = porBloque[q.bloque || "sin"] || { n: 0, a: 0, e: 0 });
+      var pt = porTema[q.tema || 0] || (porTema[q.tema || 0] = { n: 0, a: 0, e: 0 });
+      var pd = q.oficial ? null : porDif[q.dif || 2];
+      pb.n++; pt.n++; if (pd) pd.n++;
       if (r == null) B++;
-      else if (r === q.ok) { A++; pb.a++; pt.a++; }
-      else { E++; pb.e++; pt.e++; }
+      else if (r === q.ok) { A++; pb.a++; pt.a++; if (pd) pd.a++; }
+      else { E++; pb.e++; pt.e++; if (pd) pd.e++; }
     });
     var N = S.qs.length;
     var bruta = AA.notaTest(A, E, N);
-    return { A: A, E: E, B: B, N: N, nota: Math.max(0, bruta), bruta: bruta, porBloque: porBloque, porTema: porTema };
+    return { A: A, E: E, B: B, N: N, nota: Math.max(0, bruta), bruta: bruta, porBloque: porBloque, porTema: porTema, porDif: porDif };
   }
 
   function terminar(porTiempo) {
@@ -195,7 +236,7 @@
       store.guardarSimulacro({
         ts: S.fin, n: r.N, a: r.A, e: r.E, b: r.B, nota: Math.round(r.nota * 100) / 100,
         seg: Math.round((S.fin - S.inicio) / 1000), modo: S.cfg.modo, titulo: S.cfg.titulo,
-        bloques: r.porBloque,
+        bloques: r.porBloque, preset: S.cfg.preset || "", oficial: S.cfg.oficial || null, mezcla: S.cfg.mezcla || null,
       });
     } else {
       store.commit();
@@ -230,7 +271,8 @@
 
     var fallos = store.fallosPendientes().length;
     var presets = h("div", { class: "preset section" },
-      cardPreset("Simulacro oficial", "100 preguntas, 50 minutos, corrección por fórmula oficial. Reparto por temas según los últimos exámenes.", "Empezar simulacro", function () { T.preparar({ preset: "simulacro" }); }, true),
+      cardPreset("Simulacro oficial", "100 preguntas, 50 minutos, corrección por fórmula oficial. Reparto por temas y mezcla de dificultad como en los últimos exámenes.", "Empezar simulacro", function () { T.preparar({ preset: "simulacro" }); }, true),
+      cardPreset("Simulacro exigente", "Igual que el oficial pero con más preguntas difíciles (30 % frente a 20 %), para entrenar por encima del objetivo de 7,5.", "Empezar", function () { T.preparar({ preset: "exigente" }); }),
       cardPreset("Test rápido", "20 preguntas con feedback inmediato, priorizando lo nuevo y lo fallado.", "Empezar", function () { T.preparar({ preset: "rapido" }); }),
       cardPreset("Mis fallos", fallos ? AA.plural(fallos, "pregunta pendiente", "preguntas pendientes") + "." : "Cuando falles preguntas, podrás repasarlas aquí.", "Repasar fallos", function () { T.preparar({ preset: "fallos" }); }, false, !fallos)
     );
@@ -305,6 +347,23 @@
     return h("div", { class: "card" }, h("h3", {}, titulo), h("p", {}, texto), h("div", {}, h("button", { class: "btn btn--sm" + (primario ? " btn--primary" : ""), onclick: fn, disabled: off ? true : null }, boton)));
   }
 
+  /* Insignia del estado de verificación de la pregunta (herramientas/auditar_preguntas.py). */
+  var VERIF = {
+    verificada: ["ok", "Verificada con el BOE", "Las cifras de la respuesta están en el artículo vigente citado."],
+    revisada: ["ok", "Revisada con la fuente", "Comprobada a mano contra el texto citado."],
+    referencia: ["neutra", "Artículo comprobado", "El artículo citado existe y está vigente; el sentido de la respuesta no se puede comprobar automáticamente."],
+    no_verificable: ["neutra", "Fuente no del BOE", "La fuente no es una norma del BOE (RAE, organismos, autores…): no se comprueba automáticamente."],
+    revisar: ["aviso", "Pendiente de revisión", "La auditoría encontró algo que no cuadra con el BOE: contrasta esta pregunta con la norma."],
+  };
+  AA.VERIF = VERIF;
+  function insigniaVerificacion(q) {
+    if (!q.verif || !VERIF[q.verif.e]) return null;
+    var v = VERIF[q.verif.e];
+    var texto = v[1] + (q.verif.e === "revisada" && q.verif.por === "ia" ? " (asistida por IA)" : "");
+    return h("span", { class: "verif verif--" + v[0], title: v[2] }, texto);
+  }
+  AA.insigniaVerificacion = insigniaVerificacion;
+
   function pantallaPregunta() {
     var x = S.qs[S.i];
     var q = x.q;
@@ -316,7 +375,7 @@
       h("div", {}, h("div", { class: "eyebrow" }, S.cfg.titulo), h("div", { class: "num", style: "font-weight:600" }, "Pregunta " + (S.i + 1) + " de " + N)),
       h("div", { class: "row" },
         S.cfg.minutos ? (tickEl = h("span", { class: "timer num" }, AA.clock(restante()))) : null,
-        h("span", { class: "chip" }, "Tema " + q.tema)
+        h("span", { class: "chip" }, q.oficial ? (q.tema ? "Oficial · tema " + q.tema + " (estimado)" : "Examen oficial") : "Tema " + q.tema)
       )
     );
     C.appendChild(cab);
@@ -344,7 +403,8 @@
       C.appendChild(h("div", { class: "explica" },
         h("strong", { class: acierto ? "ok-t" : "ko-t", style: "color:" + (acierto ? "var(--ok)" : "var(--ko)") }, acierto ? "Correcto. " : "Incorrecto. "),
         h("span", { html: rich(q.exp) }),
-        q.ref ? h("span", { class: "ref" }, q.ref) : null
+        q.ref ? h("span", { class: "ref" }, q.ref) : null,
+        insigniaVerificacion(q)
       ));
     }
 
@@ -407,6 +467,23 @@
       r.nota < 3 ? "Por debajo de 3 puntos no se pasa a la siguiente prueba. Sigue con los temas de más peso." :
       "Con 3 puntos se supera el mínimo, pero para entrar entre los primeros hace falta mucho más: las notas de corte recientes rondan el 6-7,7 (orientativas).";
     C.appendChild(h("div", { class: "notice section" }, msg));
+    if (S.cfg.objetivo) {
+      var supera = r.nota >= S.cfg.objetivo;
+      C.appendChild(h("div", { class: "objetivo section " + (supera ? "objetivo--ok" : "objetivo--no") },
+        h("strong", {}, (supera ? "Objetivo alcanzado: " : "Objetivo no alcanzado: ") + AA.fmt1(r.nota) + " frente a " + AA.fmt1(S.cfg.objetivo)),
+        h("span", {}, S.cfg.oficial ? " Es la nota de corte orientativa de ese examen." :
+          " El objetivo de 7,5 queda por encima de las notas de corte recientes (7,05-7,72, orientativas)." + (S.cfg.mezcla === "exigente" ? " Este simulacro es más difícil que el real." : ""))));
+    }
+    var difs = r.porDif && [1, 2, 3].filter(function (d) { return r.porDif[d].n; });
+    if (difs && difs.length > 1) {
+      var nombres = { 1: "Fáciles", 2: "Medias", 3: "Difíciles" };
+      C.appendChild(h("div", { class: "section card" }, h("h2", { class: "sec-title" }, "Por dificultad"),
+        h("table", { class: "mini" }, h("thead", {}, h("tr", {}, h("th", {}, "Preguntas"), h("th", { class: "r" }, "Aciertos"), h("th", { class: "r" }, "Errores"), h("th", { class: "r" }, "% acierto"))),
+          h("tbody", {}, difs.map(function (d) {
+            var p = r.porDif[d];
+            return h("tr", {}, h("td", {}, nombres[d]), h("td", { class: "r" }, p.a + "/" + p.n), h("td", { class: "r" }, p.e), h("td", { class: "r" }, AA.pct(p.a, p.n) + " %"));
+          })))));
+    }
 
     // Por bloque
     var tb = h("table", { class: "mini" }, h("thead", {}, h("tr", {}, h("th", {}, "Bloque"), h("th", { class: "r" }, "Aciertos"), h("th", { class: "r" }, "Errores"), h("th", { class: "r" }, "% acierto"))));
@@ -420,7 +497,7 @@
 
     // Temas a reforzar
     var temas = Object.keys(r.porTema).map(function (k) { return { t: Number(k), d: r.porTema[k] }; })
-      .filter(function (x) { return x.d.e > 0 || x.d.a < x.d.n; })
+      .filter(function (x) { return AA.temas[x.t] && (x.d.e > 0 || x.d.a < x.d.n); })
       .sort(function (a, b) { return (b.d.e - a.d.e) || (a.d.a / a.d.n - b.d.a / b.d.n); }).slice(0, 8);
     var refuerzo = h("div", { class: "stack" });
     if (!temas.length) refuerzo.appendChild(h("p", { class: "muted" }, "Sin errores que reforzar. Buen trabajo."));
@@ -458,7 +535,7 @@
             var cls = "opt" + (orig === q.ok ? " ok" : orig === rsp ? " ko" : "");
             return h("div", { class: cls }, h("span", { class: "l" }, LETRAS[k]), h("span", { html: rich(q.ops[orig]) }));
           })),
-          h("div", { class: "explica" }, h("span", { html: rich(q.exp) }), q.ref ? h("span", { class: "ref" }, q.ref) : null)
+          h("div", { class: "explica" }, h("span", { html: rich(q.exp) }), q.ref ? h("span", { class: "ref" }, q.ref) : null, insigniaVerificacion(q))
         )
       );
       rev.appendChild(d);

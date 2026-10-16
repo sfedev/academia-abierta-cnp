@@ -45,7 +45,9 @@ function cargarWeb(opts) {
   if (opts.datosReales) cargarScript(c.ctx, path.join(WEB, "data", "datos.js"), "datos.js");
   cargarScript(c.ctx, path.join(WEB, "js", "util.js"), "util.js");
   cargarScript(c.ctx, path.join(WEB, "js", "store.js"), "store.js");
-  if (opts.test) cargarScript(c.ctx, path.join(WEB, "js", "test.js"), "test.js");
+  if (opts.test || opts.oficiales) cargarScript(c.ctx, path.join(WEB, "js", "test.js"), "test.js");
+  if (opts.oficiales) cargarScript(c.ctx, path.join(WEB, "js", "oficiales.js"), "oficiales.js");
+  if (opts.psico) cargarScript(c.ctx, path.join(WEB, "js", "psicotecnicos.js"), "psicotecnicos.js");
   c.AA = c.ctx.AA;
   return c;
 }

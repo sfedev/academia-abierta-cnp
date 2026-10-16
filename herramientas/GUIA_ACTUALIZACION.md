@@ -69,3 +69,18 @@ revisadas». Revisa el resultado antes de subirlo: un dato legal mal reescrito s
   vez en cuando.
 - El BOE actualiza el texto consolidado días o semanas después de publicar una reforma: un aviso puede llegar
   con retraso respecto al día de publicación.
+
+## Cuando sale una convocatoria nueva
+
+`vigilar_convocatoria.py` la registra como novedad de tipo `convocatoria` con la comparación del Anexo I
+(`convocatoria.temario`: `nuevos`, `eliminados`, `modificados` con el epígrafe antes y después, y `renumerados`).
+
+1. Comprueba la comparación con el texto oficial (enlace al BOE en la tarjeta de Novedades). Si el detector no pudo leer
+   el Anexo I (`sinAnexo`), compáralo a mano.
+2. Sustituye `fuentes/anexo-I-literal.txt` por el Anexo I nuevo (mismo formato: una línea «Tema N. …» por tema) y
+   regenera `datos/meta.json` con `python -I herramientas/gen_meta.py` (ajusta los títulos cortos si cambian temas).
+3. Rehaz las fichas: los temas `modificados` se amplían o recortan según el epígrafe nuevo; los `nuevos` necesitan ficha
+   nueva (`datos/temas/tema-NN.json`, con `GUIA_REDACTORES.md`); los `eliminados` se retiran; si hay `renumerados`,
+   cambia el número de tema de las fichas y sus ids con `migrar_ids.py`.
+4. Actualiza `fuentes/pesos-por-tema.json` si cambia la numeración, valida, audita (`auditar_preguntas.py`) y construye.
+5. Marca la novedad como incorporada: `python -I herramientas/vigilar_leyes.py revisar <id>`.

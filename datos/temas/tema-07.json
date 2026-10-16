@@ -31,13 +31,32 @@
       "boe": "BOE-A-2025-8650",
       "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-8650",
       "verificado": "Texto original publicado en el BOE de 01/05/2025, sin consolidar; leído el 16/10/2026"
+    },
+    {
+      "nombre": "Real Decreto Legislativo 6/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial (art. 8, Consejo Superior de Tráfico y Seguridad Vial)",
+      "boe": "BOE-A-2015-11722",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+      "verificado": "Texto consolidado, actualización de 01/10/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público (arts. 60 a 66: órganos superiores y directivos de los Ministerios)",
+      "boe": "BOE-A-2015-10566",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "verificado": "Texto consolidado, actualización de 15/10/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad (art. 14.2: nombramiento del Director General de la Guardia Civil)",
+      "boe": "BOE-A-1986-6859",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859",
+      "verificado": "Texto consolidado, actualización de 17/12/2025 (leído el 16/10/2026)"
     }
   ],
   "novedades": [
     "El RD 207/2024 derogó el RD 734/2020. Cualquier material anterior a febrero de 2024 que cite el RD 734/2020 o el RD 94/2022 como estructura vigente está desfasado.",
     "RD 353/2025 (BOE 01/05/2025): reforma el art. 4 del RD 207/2024 (Dirección General de la Guardia Civil): incardina en la Jefatura de Personal la coordinación y ejecución de las evaluaciones, recoge funciones de desarrollo del deporte en las Jefaturas de Enseñanza y de Asistencia al Personal, y retoca las Jefaturas del Mando de Fronteras y Policía Marítima (aclaradas después por el RD 328/2026).",
     "RD 328/2026 (BOE 27/04/2026, en vigor el mismo día): crea la Secretaría General de Protección Civil y Emergencias, que depende del Ministro, y de la que depende la Dirección General de Protección Civil y Emergencias. Esta Dirección General deja de depender de la Subsecretaría del Interior (el antiguo art. 13 queda suprimido, y los arts. 8 bis y 8 ter regulan el nuevo esquema).",
-    "El RD 328/2026 suprime las Subdirecciones Generales de Prevención, Planificación y Emergencias, de Gestión de Recursos y Subvenciones y de Formación y Relaciones Institucionales. La Dirección General se estructura ahora en tres: Anticipación y Preparación, Planificación y Gestión de Emergencias, y Resiliencia y Recuperación."
+    "El RD 328/2026 suprime las Subdirecciones Generales de Prevención, Planificación y Emergencias, de Gestión de Recursos y Subvenciones y de Formación y Relaciones Institucionales. La Dirección General se estructura ahora en tres: Anticipación y Preparación, Planificación y Gestión de Emergencias, y Resiliencia y Recuperación.",
+    "La Ley 9/2025, de 3 de diciembre, cambia el nombre del Consejo Superior de Tráfico, Seguridad Vial y Movilidad Sostenible, que pasa a llamarse Consejo Superior de Tráfico y Seguridad Vial (art. 8 y DA 1.ª del RDLeg 6/2015). Lo preside el Ministro del Interior."
   ],
   "clave": [
     "La norma de referencia es el **RD 207/2024** (estructura hasta **subdirección general**), modificado por el **RD 353/2025** (Guardia Civil) y el **RD 328/2026** (Protección Civil). El RD 1009/2023, art. 5, fija la estructura hasta el nivel de **dirección general**.",
@@ -181,10 +200,77 @@
       "puntos": [
         "**Subsecretaría del Interior** (art. 9): representación ordinaria del Departamento y dirección de los servicios comunes. Gestiona procesos electorales, registro de partidos y de asociaciones de ámbito estatal, relaciones con Delegaciones y Subdelegaciones del Gobierno en lo no atribuido a otros órganos, política de tráfico, víctimas del terrorismo y protección internacional. De ella dependen **cinco** órganos directivos (art. 9.5); directamente tiene un **Gabinete Técnico** y una **Oficina Presupuestaria** (nivel de subdirección general), y están adscritas la Abogacía del Estado y la Intervención Delegada.",
         "Dentro de la Subsecretaría: la **Secretaría General Técnica** (Vicesecretaría General Técnica; SG de Recursos, Reclamaciones y Relaciones con los Tribunales; SG de Asociaciones, Archivos y Documentación); la **DG de Política Interior** (procesos electorales, partidos y servicios comunes); la **DG de Tráfico** (vía para las competencias sobre el organismo autónomo Jefatura Central de Tráfico); y la **DG de Apoyo a Víctimas del Terrorismo** (dos SG, de Apoyo y de Ayudas).",
+        "Fuera del RD 207/2024: el **Consejo Superior de Tráfico y Seguridad Vial**, órgano de consulta y participación en tráfico y seguridad vial, lo **preside el Ministro del Interior** (art. 8.2 RDLeg 6/2015, Ley de Tráfico). Hasta la Ley 9/2025 se llamaba Consejo Superior de Tráfico, Seguridad Vial y Movilidad Sostenible.",
         "**DG de Protección Internacional** (art. 15): ejerce las funciones de la **Oficina de Asilo y Refugio**, preside y ejerce la secretaría de la CIAR (Comisión Interministerial de Asilo y Refugio) y lleva las relaciones con las Delegaciones y Subdelegaciones del Gobierno en cuestiones de protección internacional. Tiene tres SG: Relaciones Institucionales e Información; Asuntos Generales y Jurídicos; e Instrucción de Protección Internacional y Apatridia.",
         "**Secretaría General de Instituciones Penitenciarias** (art. 7): de ella dependen la DG de Ejecución Penal y Reinserción Social (SG de Medio Abierto y de Penas y Medidas Alternativas, y de Sanidad Penitenciaria) y cuatro SG propias: Relaciones Institucionales y Coordinación Territorial, Recursos Humanos, Planificación y Gestión Económica, y Análisis e Inspección.",
         "**Secretaría General de Protección Civil y Emergencias** (arts. 8 bis y 8 ter, RD 328/2026): gestiona las competencias en protección civil (Ley 17/2015) y emergencias; su titular es vicepresidente del Consejo Nacional de Protección Civil. La DG de Protección Civil y Emergencias tiene tres SG: Anticipación y Preparación (con la Escuela Nacional de Protección Civil), Planificación y Gestión de Emergencias (con el CEISE) y Resiliencia y Recuperación."
       ]
+    },
+    {
+      "titulo": "Quién nombra, qué rango tiene y quién preside",
+      "puntos": [
+        "**Secretarios generales** (Instituciones Penitenciarias; Protección Civil y Emergencias): **categoría de subsecretario**. **Secretario General Técnico**: **de director general** (arts. 60.2 y 65.2 Ley 40/2015).",
+        "DG de la Policía y de la Guardia Civil: «a los efectos exclusivos de su nombramiento» siguen el **art. 64.3 Ley 40/2015**, el de los secretarios generales: **Real Decreto del Consejo de Ministros** entre personas con experiencia en la gestión pública o privada, sin la exigencia de ser **funcionario de carrera A1** del director general ordinario (DA 1.ª RD 207/2024; art. 66.2 Ley 40/2015).",
+        "Para el de la **Guardia Civil**, además, proponen el nombramiento **conjuntamente** los Ministros de **Defensa e Interior** (art. 14.2 LO 2/1986).",
+        "Los subdirectores generales de la Secretaría de Estado los **nombra y separa el Secretario de Estado** (art. 62.2.c Ley 40/2015).",
+        "Gabinete del **Ministro**: director con **rango de director general** y **hasta cinco asesores**. Gabinete de la **Secretaría de Estado**: director y **hasta tres asesores**, **todos** de nivel de subdirección general (art. 23.2 y 23.3 RD 1009/2023).",
+        "Guardia Civil: la **DAO** sustituye al Director General, también en la potestad sancionadora, y **preside el Consejo Superior** si él no asiste (art. 4.5); forman ese Consejo los **Tenientes Generales y Generales de División** en activo (art. 4.2)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Órgano colegiado o entidad",
+          "Presidencia",
+          "Otros datos"
+        ],
+        "filas": [
+          [
+            "Consejo Superior de Tráfico y Seguridad Vial",
+            "**Ministro del Interior** (art. 8.2 RDLeg 6/2015)",
+            "Secretaría: **DG de Tráfico**, por medio del **Observatorio Nacional de Seguridad Vial** (art. 12 RD 207/2024)"
+          ],
+          [
+            "Comisión Interministerial Permanente de Armas y Explosivos",
+            "**Secretario General Técnico** (art. 10.2.i)",
+            "La SGT lleva también su secretariado"
+          ],
+          [
+            "Consejo Nacional de Protección Civil",
+            "Vicepresidencia: **Secretario General de Protección Civil y Emergencias**, que preside la **Comisión Permanente** (DA 3.ª.2 RD 328/2026)",
+            "Su secretaría, en esa Secretaría General (art. 8 bis.1.i)"
+          ],
+          [
+            "Trabajo Penitenciario y Formación para el Empleo",
+            "**Secretario General de Instituciones Penitenciarias** (art. 7.7)",
+            "Entidad de derecho público adscrita a esa Secretaría General"
+          ]
+        ]
+      },
+      "ampliado": true
+    },
+    {
+      "titulo": "Funciones parecidas que corresponden a órganos distintos",
+      "puntos": [
+        "Estadística: la **Estadística Nacional de Criminalidad**, la DG de Coordinación y Estudios (art. 6.1.2.º); la **estadística oficial sobre drogas, crimen organizado y trata**, el **CITCO** en coordinación con esa DG (art. 2.3.4.º); la **coordinación estadística** del Departamento con el INE, la **SGT** (art. 10.2.o).",
+        "Inspección: de **Policía y Guardia Civil**, la **Inspección de Personal y Servicios de Seguridad** (art. 6.2); de los **servicios del Ministerio**, con expedientes disciplinarios y compatibilidades, la **DG de Política Interior** (art. 11.2.p); de la penitenciaria, la **SG de Análisis e Inspección** (art. 7.6).",
+        "Recursos y responsabilidad patrimonial: los tramita la **SGT** (art. 10.2.j y k), **salvo** las reclamaciones que afecten a la **Administración Penitenciaria**, que tramita la SG de Análisis e Inspección (art. 7.6.d).",
+        "Protección de datos: el **Delegado de Protección de Datos de la SES** está en la DG de Coordinación y Estudios (art. 6.1.20.º); la política del Departamento la coordina la **DG de Política Interior** (art. 11.2.q).",
+        "Ciberseguridad: **dirige** las políticas la **SES** (art. 2.1.n); la **OCC** de la DG de Coordinación y Estudios es punto de contacto operativo, CSIRT-MIR-PJ y Observatorio de la Cibercriminalidad (art. 6.1.15.º y 16.º); la del **ámbito electoral**, la **DG de Política Interior** (art. 11.2.d).",
+        "Precursores: los **dirige y coordina la SES** (art. 2.1.l); el **CITCO** fija los criterios de actuación de las unidades operativas y es **Punto de Contacto Nacional para precursores de explosivos** (art. 2.3).",
+        "Defensor del Pueblo y registros: coordina las relaciones con el Defensor la **SGT** (art. 10.2.e), que lleva también el **Registro Nacional de Asociaciones** (art. 10.2.ñ); el registro de **partidos políticos** es de la **DG de Política Interior** (art. 11.2.h)."
+      ],
+      "ampliado": true
+    },
+    {
+      "titulo": "Dentro de cada rama: quién depende de quién",
+      "puntos": [
+        "Guardia Civil: del **Director General** dependen directamente la DAO, el **Mando de Personal** y el **Mando de Apoyo** (art. 4.3); de la **DAO**, el **Mando de Operaciones**, el **Mando de Fronteras y Policía Marítima** y las Jefaturas de Información, Policía Judicial, Cooperación Internacional y Transformación Digital y Ciberseguridad (art. 4.6).",
+        "Los cuatro Mandos tienen nivel de subdirección general y los dirige un **Teniente General** en activo; las Jefaturas, un Oficial General; las Zonas, un Oficial General o un Coronel (art. 4.7 a 4.10).",
+        "DG de Relaciones Internacionales y Extranjería: las funciones comunes se reparten por materia entre sus tres subdirecciones, pero los **proyectos con Fondos Europeos** y las **ayudas del RD 732/2007** solo figuran entre las de **Cooperación Policial Internacional** y **Relaciones Internacionales, Inmigración y Extranjería**, no entre las de Asuntos Europeos (art. 5.2).",
+        "SGT (art. 10.3 y 10.4): la **Vicesecretaría General Técnica** prepara lo normativo, el Defensor del Pueblo, los convenios y la Comisión de Armas y Explosivos; la SG de **Recursos, Reclamaciones y Relaciones con los Tribunales**, recursos y responsabilidad patrimonial; la SG de **Asociaciones, Archivos y Documentación**, asociaciones, estadística y archivos. La **Unidad de Igualdad** depende directamente del titular.",
+        "DG de Tráfico: cuatro órganos de nivel de subdirección general, entre ellos el **Observatorio Nacional de Seguridad Vial**; la **Gerencia de Informática** y la **Unidad de Normativa** dependen del titular del organismo, con el nivel que fije la relación de puestos de trabajo (art. 12.2 a 12.4).",
+        "Protección Civil: la DG de Protección Civil y Emergencias ejerce las competencias de la Secretaría General **salvo las del ámbito tecnológico** (art. 8 ter.1), que lleva la **División de Tecnología**, dependiente directamente del Secretario General, que tiene además un **Gabinete Técnico** de nivel de subdirección general (art. 8 bis.2 y 8 bis.4)."
+      ],
+      "ampliado": true
     }
   ],
   "trampas": [
@@ -195,7 +281,9 @@
     "Relatoría Nacional contra la Trata: la ejerce el titular del **Gabinete de la SES**; el CITCO solo es su **punto focal** de apoyo técnico.",
     "Relaciones con Delegaciones y Subdelegaciones del Gobierno: regla general en la **Subsecretaría** (art. 9.2.e); en protección internacional, la **DG de Protección Internacional** (art. 15.2.b); la SES coordina sus competencias en seguridad ciudadana (art. 2.1.k).",
     "La Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado es un **organismo autónomo adscrito** a la SES, no una subdirección; mientras no se adapte su Estatuto la dirige transitoriamente el Secretario de Estado.",
-    "Preguntas con base en normas derogadas (RD 734/2020, RD 94/2022) o con el esquema anterior a 2026, en el que la DG de Protección Civil dependía de la Subsecretaría (que entonces tenía seis órganos directivos y ahora tiene cinco)."
+    "Preguntas con base en normas derogadas (RD 734/2020, RD 94/2022) o con el esquema anterior a 2026, en el que la DG de Protección Civil dependía de la Subsecretaría (que entonces tenía seis órganos directivos y ahora tiene cinco).",
+    "Mandos de la Guardia Civil: el **Mando de Personal** y el **Mando de Apoyo** dependen directamente del Director General; el **Mando de Operaciones** y el **Mando de Fronteras y Policía Marítima**, de la Dirección Adjunta Operativa.",
+    "Tres estadísticas distintas: la **Estadística Nacional de Criminalidad** (DG de Coordinación y Estudios), la **estadística oficial sobre drogas, crimen organizado y trata** (CITCO, en coordinación con esa DG) y la **coordinación estadística con el INE** (Secretaría General Técnica)."
   ],
   "caido": [
     {
@@ -213,6 +301,10 @@
     {
       "examen": "P40 (13 abr 2024)",
       "concepto": "Relaciones con Delegaciones y Subdelegaciones del Gobierno: Subsecretaría del Interior (art. 9.2.e); pregunta con base en el RD 94/2022 cuya respuesta se mantiene en el RD 207/2024"
+    },
+    {
+      "examen": "P40 (13 abr 2024)",
+      "concepto": "Presidencia del Consejo Superior de Tráfico, Seguridad Vial y Movilidad Sostenible (hoy Consejo Superior de Tráfico y Seguridad Vial): Ministro del Interior (art. 8.2 RDLeg 6/2015)"
     },
     {
       "examen": "P42 (25 oct 2025)",
@@ -309,6 +401,41 @@
       "id": "t_07_17",
       "p": "¿Qué nivel orgánico tienen el Gabinete del Ministro y la Oficina de Comunicación?",
       "r": "Gabinete: **dirección general**. Oficina de Comunicación: **subdirección general**, dependiente directamente del Ministro (art. 1.3 y 1.4)."
+    },
+    {
+      "id": "t_07_18",
+      "p": "¿Quién preside el Consejo Superior de Tráfico y Seguridad Vial?",
+      "r": "El **Ministro del Interior** (art. 8.2 RDLeg 6/2015). Hasta la Ley 9/2025 se llamaba Consejo Superior de Tráfico, Seguridad Vial y Movilidad Sostenible."
+    },
+    {
+      "id": "t_07_19",
+      "p": "¿Qué categoría tienen los Secretarios generales y el Secretario General Técnico?",
+      "r": "Los **Secretarios generales**, categoría de **subsecretario**; el **Secretario General Técnico**, de **director general** (arts. 60.2 y 65.2 Ley 40/2015)."
+    },
+    {
+      "id": "t_07_20",
+      "p": "¿Por qué régimen se nombra a los Directores Generales de la Policía y de la Guardia Civil?",
+      "r": "Por el del **art. 64.3 Ley 40/2015** (secretarios generales): **Real Decreto del Consejo de Ministros** entre personas con cualificación y experiencia en la gestión pública o privada (DA 1.ª RD 207/2024). Para la Guardia Civil, propuesta **conjunta** de Defensa e Interior (art. 14.2 LO 2/1986)."
+    },
+    {
+      "id": "t_07_21",
+      "p": "¿Cómo se componen el Gabinete del Ministro y el de la Secretaría de Estado de Seguridad?",
+      "r": "Ministro: director con **rango de director general** y hasta **cinco** asesores de nivel de subdirección general. Secretaría de Estado: director y hasta **tres** asesores, todos de nivel de subdirección general (art. 23.2 y 23.3 RD 1009/2023)."
+    },
+    {
+      "id": "t_07_22",
+      "p": "¿Quién preside la Comisión Interministerial Permanente de Armas y Explosivos?",
+      "r": "La persona titular de la **Secretaría General Técnica**, que lleva también su secretariado (art. 10.2.i RD 207/2024)."
+    },
+    {
+      "id": "t_07_23",
+      "p": "¿Qué Mandos de la Guardia Civil dependen de la DAO y cuáles directamente del Director General?",
+      "r": "De la **DAO**: Mando de **Operaciones** y Mando de **Fronteras y Policía Marítima**. Del **Director General**: Mando de **Personal** y Mando de **Apoyo** (art. 4.3 y 4.6 RD 207/2024)."
+    },
+    {
+      "id": "t_07_24",
+      "p": "¿Quién ejerce la secretaría del Consejo Superior de Tráfico y Seguridad Vial?",
+      "r": "La **DG de Tráfico**, a través del **Observatorio Nacional de Seguridad Vial** (art. 12.1.r y 12.2.c RD 207/2024). Lo preside el **Ministro del Interior** (art. 8.2 RDLeg 6/2015)."
     }
   ],
   "preguntas": [
@@ -321,7 +448,7 @@
         "Directamente de la persona titular del Ministerio."
       ],
       "correcta": 1,
-      "explicacion": "El art. 1.5, letra a, del RD 207/2024 (en la redacción del RD 328/2026) sitúa esas cuatro Direcciones Generales bajo la Secretaría de Estado de Seguridad. La Subsecretaría tiene otras cinco unidades directivas (Secretaría General Técnica, Política Interior, Tráfico, Apoyo a Víctimas del Terrorismo y Protección Internacional) y ninguna de las cuatro depende directamente del Ministro.",
+      "explicacion": "El art. 1.5, letra a, del RD 207/2024 (en la redacción del RD 328/2026) sitúa esas cuatro Direcciones Generales bajo la Secretaría de Estado de Seguridad. De la Subsecretaría dependen otros cinco órganos directivos (Secretaría General Técnica y DG de Política Interior, de Tráfico, de Apoyo a Víctimas del Terrorismo y de Protección Internacional, art. 1.5.d), y ninguna de las cuatro depende directamente del Ministro.",
       "ref": "art. 1.5.a) RD 207/2024",
       "dificultad": 1
     },
@@ -334,8 +461,8 @@
         "La Dirección General de Relaciones Internacionales y Extranjería."
       ],
       "correcta": 0,
-      "explicacion": "El art. 6.1.9.º del RD 207/2024 atribuye a la DG de Coordinación y Estudios actuar como Unidad Nacional de CEPOL. La División de Cooperación Internacional de la DGP gestiona la Oficina Central Nacional de INTERPOL, la Unidad Nacional de EUROPOL y la Oficina SIRENE, que son otras agencias. La DG de Relaciones Internacionales y Extranjería coordina la acción exterior pero no es esa unidad nacional.",
-      "ref": "art. 6.1.9.º RD 207/2024; art. 3.2 Orden INT/859/2023",
+      "explicacion": "El art. 6.1.9.º del RD 207/2024 atribuye a la DG de Coordinación y Estudios actuar como Unidad Nacional de CEPOL. La División de Cooperación Internacional de la DGP gestiona la Oficina Central Nacional de INTERPOL, la Unidad Nacional de EUROPOL y la Oficina SIRENE (art. 3.2.e), no CEPOL. La DG de Relaciones Internacionales y Extranjería coordina la acción exterior del Ministerio (art. 5), pero no es esa unidad nacional.",
+      "ref": "art. 6.1.9.º y art. 3.2.e) RD 207/2024",
       "dificultad": 2
     },
     {
@@ -451,7 +578,7 @@
         "La persona titular de la Subsecretaría del Interior."
       ],
       "correcta": 0,
-      "explicacion": "El art. 2.4 del RD 207/2024 precisa que el Comité está integrado, entre otros, por el titular de la DG de Coordinación y Estudios, que ejerce las funciones de secretaría. El Gabinete del Ministro y la Subsecretaría son vocales, no secretarios.",
+      "explicacion": "El art. 2.4 del RD 207/2024 precisa que el Comité está integrado, entre otros, por el titular de la DG de Coordinación y Estudios, que ejerce las funciones de secretaría. Los titulares del Gabinete del Ministro y de la Subsecretaría también forman parte del Comité, pero no ejercen la secretaría.",
       "ref": "art. 2.4 RD 207/2024",
       "dificultad": 2
     },
@@ -509,7 +636,7 @@
     },
     {
       "id": "q_07_16",
-      "enunciado": "Un expediente exige las relaciones del Ministerio con una Subdelegación del Gobierno en una cuestión de protección internacional. Según el RD 207/2024, ¿qué órgano tiene atribuida esa función de forma específica?",
+      "enunciado": "Un expediente de protección internacional obliga al Ministerio a relacionarse con una Subdelegación del Gobierno. Según el RD 207/2024, ¿qué órgano tiene atribuida esa función de forma específica?",
       "opciones": [
         "La Dirección General de Protección Internacional.",
         "La Secretaría de Estado de Seguridad.",
@@ -542,12 +669,140 @@
         "La Subdirección General de Sistemas de Información y Comunicaciones para la Seguridad."
       ],
       "correcta": 2,
-      "explicacion": "El art. 2.5, letra b, apartado 9.º, atribuye a la SG de Sistemas de Información y Comunicaciones para la Seguridad dirigir el CETSE, como órgano de implementación de sus funciones y de las políticas de I+D+i. La SG de Planificación y Gestión de Infraestructuras y Medios se ocupa de inversiones y patrimonio inmobiliario de seguridad, y la de Logística e Innovación pertenece a la DGP y no depende de la SES.",
-      "ref": "art. 2.5 RD 207/2024",
+      "explicacion": "El art. 2.5, letra b, apartado 9.º, atribuye a la SG de Sistemas de Información y Comunicaciones para la Seguridad dirigir el CETSE, como órgano de implementación de sus funciones y de las políticas de I+D+i. La SG de Planificación y Gestión de Infraestructuras y Medios se ocupa de inversiones y patrimonio inmobiliario de seguridad, y la de Logística e Innovación pertenece a la DGP (art. 3.2), no depende directamente de la SES y no tiene esa función.",
+      "ref": "art. 2.5.b) RD 207/2024",
+      "dificultad": 3
+    },
+    {
+      "id": "q_07_19",
+      "enunciado": "Según el RD 207/2024, ¿qué régimen se aplica al nombramiento de la persona titular de la Dirección General de la Policía?",
+      "opciones": [
+        "El de los secretarios generales del art. 64.3 de la Ley 40/2015: Real Decreto del Consejo de Ministros, entre personas con cualificación y experiencia en puestos de responsabilidad de la gestión pública o privada.",
+        "El general de los directores generales: debe recaer en un funcionario de carrera del subgrupo A1, salvo que el real decreto de estructura motive una excepción.",
+        "El de los puestos policiales de libre designación: lo nombra el Ministro del Interior por orden, a propuesta del Secretario de Estado de Seguridad, entre Comisarios Principales."
+      ],
+      "correcta": 0,
+      "explicacion": "La DA 1.ª del RD 207/2024 dispone que los titulares de las Direcciones Generales de la Policía y de la Guardia Civil, a los efectos exclusivos de su nombramiento, se rigen por el art. 64.3 de la Ley 40/2015, previsto para los secretarios generales: nombramiento y separación por Real Decreto del Consejo de Ministros, a propuesta del titular del Ministerio o del Presidente del Gobierno, entre personas con cualificación y experiencia en la gestión pública o privada. Por eso no se les aplica la exigencia de ser funcionario de carrera del subgrupo A1 que el art. 66.2 de esa Ley impone a los directores generales, y su nombramiento no es una orden ministerial ni se limita a Comisarios Principales.",
+      "ref": "DA 1.ª RD 207/2024; arts. 64.3 y 66.2 Ley 40/2015",
+      "dificultad": 3
+    },
+    {
+      "id": "q_07_20",
+      "enunciado": "¿Quién propone al Gobierno el nombramiento de la persona titular de la Dirección General de la Guardia Civil?",
+      "opciones": [
+        "El Ministro del Interior, previo informe del Ministro de Defensa.",
+        "Los Ministros de Defensa e Interior, conjuntamente.",
+        "El Secretario de Estado de Seguridad, oído el Consejo Superior de la Guardia Civil."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 14.2 de la LO 2/1986 dispone que los Ministros de Defensa e Interior, conjuntamente, propondrán al Gobierno el nombramiento del titular de la Dirección General de la Guardia Civil, y la DA 1.ª del RD 207/2024 obliga a tenerlo en cuenta además del régimen del art. 64.3 de la Ley 40/2015. No es una propuesta del Ministro del Interior con un simple informe de Defensa, ni la formula el Secretario de Estado; el Consejo Superior de la Guardia Civil, adscrito a la Dirección General, no interviene en ese nombramiento.",
+      "ref": "art. 14.2 LO 2/1986; DA 1.ª RD 207/2024",
+      "dificultad": 3
+    },
+    {
+      "id": "q_07_21",
+      "enunciado": "Según el RD 1009/2023, ¿cómo está formado el Gabinete de la persona titular de la Secretaría de Estado de Seguridad?",
+      "opciones": [
+        "Por un director con rango de director general y un máximo de cinco asesores con nivel orgánico de subdirección general.",
+        "Por un director con nivel orgánico de subdirección general y un máximo de cinco asesores.",
+        "Por un director y un máximo de tres asesores, todos ellos con nivel orgánico de subdirección general."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 23.3 del RD 1009/2023 forma los Gabinetes de los Secretarios de Estado con un director y un máximo de tres asesores, todos con nivel orgánico de subdirección general; el art. 2.2 del RD 207/2024 remite a esa estructura. Un director con rango de director general y hasta cinco asesores es la composición del Gabinete de un Ministro (art. 23.2), y ningún Gabinete de Secretaría de Estado llega a cinco asesores.",
+      "ref": "art. 23.3 RD 1009/2023; art. 2.2 RD 207/2024",
+      "dificultad": 3
+    },
+    {
+      "id": "q_07_22",
+      "enunciado": "¿Qué órgano del Ministerio del Interior preside la Comisión Interministerial Permanente de Armas y Explosivos?",
+      "opciones": [
+        "La persona titular de la Secretaría General Técnica.",
+        "La persona titular de la Dirección General de la Guardia Civil.",
+        "La persona titular de la Secretaría de Estado de Seguridad."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 10.2 del RD 207/2024, en su párrafo i, atribuye a la Secretaría General Técnica el secretariado y la documentación de las reuniones de la Comisión Interministerial Permanente de Armas y Explosivos, presidida por la persona titular de la Secretaría General Técnica; la Vicesecretaría General Técnica prepara esas gestiones (art. 10.3). La Dirección General de la Guardia Civil cumple las funciones que le atribuye la legislación de armas y explosivos (art. 4.1), pero no preside la Comisión, y tampoco lo hace el Secretario de Estado de Seguridad.",
+      "ref": "art. 10.2.i) y 10.3.a) RD 207/2024",
+      "dificultad": 3
+    },
+    {
+      "id": "q_07_23",
+      "enunciado": "Según el RD 207/2024, ¿a quién corresponde elaborar la estadística oficial sobre drogas, crimen organizado y trata y explotación de seres humanos?",
+      "opciones": [
+        "A la Secretaría General Técnica, como servicio estadístico del Departamento.",
+        "Al Centro de Inteligencia contra el Terrorismo y el Crimen Organizado (CITCO), en coordinación con la Dirección General de Coordinación y Estudios.",
+        "A la Dirección General de Coordinación y Estudios, a través del Centro Permanente de Información y Coordinación (CEPIC)."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 2.3, apartado 4.º, encarga al CITCO elaborar, en coordinación con la Dirección General de Coordinación y Estudios, las informaciones estadísticas no clasificadas de sus materias, en especial la estadística oficial sobre drogas, crimen organizado y trata y explotación de seres humanos. La Dirección General de Coordinación y Estudios gestiona la Estadística Nacional de Criminalidad, y su CEPIC centraliza sucesos e informaciones, no esa estadística (art. 6.1). La Secretaría General Técnica coordina la actividad estadística del Departamento con el INE (art. 10.2), sin elaborar esta estadística.",
+      "ref": "arts. 2.3, 6.1 y 10.2.o) RD 207/2024",
+      "dificultad": 3
+    },
+    {
+      "id": "q_07_24",
+      "enunciado": "Una persona presenta una reclamación de responsabilidad patrimonial por el funcionamiento de un centro penitenciario. Según el RD 207/2024, ¿qué órgano la tramita?",
+      "opciones": [
+        "La Subdirección General de Recursos, Reclamaciones y Relaciones con los Tribunales, de la Secretaría General Técnica.",
+        "La Subdirección General de Relaciones Institucionales y Coordinación Territorial, de la Secretaría General de Instituciones Penitenciarias.",
+        "La Subdirección General de Análisis e Inspección, de la Secretaría General de Instituciones Penitenciarias."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 7.6 atribuye a la Subdirección General de Análisis e Inspección la tramitación de los expedientes de responsabilidad patrimonial que afecten a la Administración Penitenciaria. La Secretaría General Técnica tramita las reclamaciones de responsabilidad patrimonial del Ministerio, salvo precisamente las que afecten a la Administración Penitenciaria (art. 10.2), y la Subdirección General de Relaciones Institucionales y Coordinación Territorial se ocupa de la coordinación territorial y de las relaciones institucionales (art. 7.3).",
+      "ref": "arts. 7.6.d) y 10.2.k) RD 207/2024",
+      "dificultad": 3
+    },
+    {
+      "id": "q_07_25",
+      "enunciado": "¿Qué órgano del Ministerio del Interior tiene atribuida la planificación, dirección y coordinación de las actuaciones en materia de ciberseguridad en el ámbito electoral?",
+      "opciones": [
+        "La Dirección General de Política Interior.",
+        "La Oficina de Coordinación de Ciberseguridad de la Dirección General de Coordinación y Estudios.",
+        "La Subdirección General de Sistemas de Información y Comunicaciones para la Seguridad."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 11.2, en su párrafo d, encomienda a la Dirección General de Política Interior la ciberseguridad en el ámbito electoral y la Red de coordinación para la Seguridad en procesos electorales. La Oficina de Coordinación de Ciberseguridad es el punto de contacto operativo, el CSIRT-MIR-PJ y el Observatorio de la Cibercriminalidad (art. 6.1), y la Subdirección General de Sistemas de Información y Comunicaciones para la Seguridad gestiona los sistemas compartidos de las Fuerzas y Cuerpos de Seguridad del Estado (art. 2.5); ninguna de las dos tiene la ciberseguridad electoral.",
+      "ref": "arts. 11.2.d), 6.1 y 2.5.b) RD 207/2024",
+      "dificultad": 3
+    },
+    {
+      "id": "q_07_26",
+      "enunciado": "En la Dirección General de la Guardia Civil, ¿cuál de los siguientes órganos depende de la Dirección Adjunta Operativa y no directamente del Director General?",
+      "opciones": [
+        "El Mando de Personal.",
+        "El Mando de Fronteras y Policía Marítima.",
+        "El Mando de Apoyo."
+      ],
+      "correcta": 1,
+      "explicacion": "Según el art. 4.6 del RD 207/2024, de la Dirección Adjunta Operativa dependen el Mando de Operaciones, el Mando de Fronteras y Policía Marítima y las Jefaturas de Información, Policía Judicial, Cooperación Internacional y Transformación Digital y Ciberseguridad. El Mando de Personal y el Mando de Apoyo dependen directamente del Director General, igual que la propia Dirección Adjunta Operativa (art. 4.3).",
+      "ref": "art. 4.3 y 4.6 RD 207/2024",
+      "dificultad": 3
+    },
+    {
+      "id": "q_07_27",
+      "enunciado": "Dentro de la Dirección General de Relaciones Internacionales y Extranjería, ¿a qué subdirecciones generales corresponden el impulso y la negociación de proyectos financiados con Fondos Europeos?",
+      "opciones": [
+        "Únicamente a la Subdirección General de Asuntos Europeos.",
+        "A las tres subdirecciones generales según la materia, incluida la de Asuntos Europeos cuando se trate de asuntos de la Unión Europea.",
+        "A la Subdirección General de Cooperación Policial Internacional o a la de Relaciones Internacionales, Inmigración y Extranjería, según se refieran a cooperación policial internacional o a inmigración y extranjería."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 5.2 del RD 207/2024 asigna los proyectos con Fondos Europeos (párrafo k del art. 5.1) a la Subdirección General de Cooperación Policial Internacional cuando se refieren a cooperación policial internacional y a la de Relaciones Internacionales, Inmigración y Extranjería cuando se refieren a inmigración y extranjería. La de Asuntos Europeos solo recibe el seguimiento de la Unión Europea y la representación en sus grupos y comités, más las funciones de los párrafos a, j y m cuando se refieren a asuntos de la Unión; los Fondos Europeos no figuran entre ellas.",
+      "ref": "art. 5.1.k) y 5.2 RD 207/2024",
+      "dificultad": 3
+    },
+    {
+      "id": "q_07_28",
+      "enunciado": "Tras el RD 328/2026, la Dirección General de Protección Civil y Emergencias ejerce las competencias de la Secretaría General de Protección Civil y Emergencias, con la excepción de:",
+      "opciones": [
+        "Las relacionadas con el ámbito tecnológico, de las que se encarga la División de Tecnología, dependiente de la persona titular de la Secretaría General.",
+        "Las de planificación estatal y gestión operativa de las emergencias, que se reserva la persona titular de la Secretaría General.",
+        "Las de subvenciones y ayudas estatales, que corresponden al Gabinete Técnico de la Secretaría General."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 8 ter.1 del RD 207/2024 atribuye a la Dirección General las competencias de la Secretaría General salvo las relacionadas con el ámbito tecnológico, y el art. 8 bis.4 encarga esas funciones tecnológicas a una División de Tecnología que depende de la persona titular de la Secretaría General. La planificación y la gestión operativa de las emergencias corresponden a la Subdirección General de Planificación y Gestión de Emergencias (art. 8 ter.4), y las subvenciones y ayudas, a la de Resiliencia y Recuperación (art. 8 ter.5); el Gabinete Técnico solo presta apoyo y asistencia (art. 8 bis.2).",
+      "ref": "arts. 8 bis y 8 ter RD 207/2024",
       "dificultad": 3
     }
   ],
-  "dudas": [
-    "El análisis de exámenes anota una pregunta sobre la presidencia del Consejo Superior de Tráfico, Seguridad Vial y Movilidad Sostenible (P40, respuesta: Ministro del Interior). No figura en el RD 207/2024 y no se ha verificado en esta ficha."
-  ]
+  "dudas": []
 }

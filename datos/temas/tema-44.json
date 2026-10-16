@@ -26,7 +26,7 @@
   {
    "nombre": "Reglamento (UE) 2019/2144 relativo a los requisitos de homologación de tipo de los vehículos en lo que respecta a su seguridad general (DOUE L 325, 16/12/2019): arts. 4 a 7 y anexo II",
    "url": "https://eur-lex.europa.eu/eli/reg/2019/2144/oj",
-   "verificado": "Texto publicado en el DOUE (copia del BOE) leído el 16/10/2026"
+   "verificado": "Texto publicado en el DOUE (copia del BOE) leído el 16/10/2026; filas D8, E3 y E5 del anexo II contrastadas con los Reglamentos Delegados (UE) 2021/1958, 2023/2590 y 2024/2220, que las sustituyen sin cambiar sus fechas"
   },
   {
    "nombre": "Reglamento (UE) 2015/758 relativo al despliegue del sistema eCall basado en el número 112 (DOUE L 123, 19/05/2015)",
@@ -69,7 +69,7 @@
   }
  ],
  "novedades": [
-  "El Reglamento (UE) 2019/2144 hace obligatorios los ADAS: la homologación de **nuevos tipos** desde el **6/7/2022** y la matriculación de **todos los vehículos nuevos** desde el **7/7/2024** (por ejemplo, asistente de velocidad inteligente y registrador de datos de incidencias); el aviso avanzado de distracciones, desde el 7/7/2024 en nuevos tipos y desde el 7/7/2026 en todos los vehículos nuevos. El material anterior a 2022 no los recoge.",
+  "El Reglamento (UE) 2019/2144 hace obligatorios los ADAS. Para la mayoría de los sistemas de turismos y furgonetas (por ejemplo, asistente de velocidad inteligente y registrador de datos de incidencias): homologación de **nuevos tipos** desde el **6/7/2022** y matriculación de **todos los vehículos nuevos** desde el **7/7/2024**. El aviso avanzado de distracciones, desde el 7/7/2024 en nuevos tipos y desde el 7/7/2026 en todos los vehículos nuevos; el registrador de datos de autobuses y camiones, desde el 7/1/2026 y el 7/1/2029. El material anterior a 2022 no los recoge.",
   "**RD 518/2026** (en vigor desde el 1/10/2026): los motoristas deben llevar casco conforme al Reglamento UNECE R22 (los ciclomotores, un año de transición para los cascos certificados), guantes en vías interurbanas y calzado cerrado en todas las vías; las motocicletas llevan chaleco reflectante en su dotación; la exención del cinturón del art. 119.2 queda para los vehículos en servicios de urgencia en poblado (desaparecen taxistas, distribuidores y acompañantes de alumnos)."
  ],
  "clave": [
@@ -182,9 +182,9 @@
   {
    "titulo": "ADAS, eCall y registrador de datos (normativa europea)",
    "puntos": [
-    "Calendario del Reglamento (UE) 2019/2144: nuevos tipos de vehículo desde el **6/7/2022**; todos los vehículos nuevos desde el **7/7/2024**.",
+    "Calendario del Reglamento (UE) 2019/2144 (anexo II): para la mayoría de los sistemas de turismos y furgonetas (M1 y N1), como el asistente de velocidad inteligente y el registrador de datos, nuevos tipos desde el **6/7/2022** y todos los vehículos nuevos que se matriculen desde el **7/7/2024**. Otros llegan más tarde: aviso avanzado de distracciones, 7/7/2024 y **7/7/2026**; registrador de datos en autobuses y camiones, 7/1/2026 y **7/1/2029**.",
     "**EDR (caja negra)**: registra velocidad, frenado, posición e inclinación, estado de los sistemas de seguridad y del eCall poco antes, durante e inmediatamente después de una colisión. **No puede desactivarse**; los datos se anonimizan y solo se ponen a disposición de las autoridades nacionales para investigar y analizar accidentes (art. 6.4).",
-    "**eCall** (Reglamento 2015/758): ante un accidente grave detectado por sensores, se activa automáticamente una llamada al **112**. Desde el **31/3/2018** solo se homologan nuevos tipos de turismos y furgonetas (M1 y N1) que lo lleven (art. 7)."
+    "**eCall** (Reglamento 2015/758): ante un accidente grave detectado por sensores, se activa automáticamente una llamada al **112**. Desde el **31/3/2018** solo se homologan nuevos tipos de turismos y furgonetas (M1 y N1) que lo lleven (art. 7). El Manual de la DGT lo describe en el tema de seguridad pasiva, junto al airbag."
    ]
   },
   {
@@ -270,7 +270,7 @@
   "Cinturón en servicio urgente: la exención es **solo en poblado**. Desde el 1/10/2026 ya no incluye a taxistas, distribuidores ni acompañantes de alumnos.",
   "Orden INT/2573/2015: **hasta 9 plazas = M1 y un extintor de 6 kg**; **más de 9 = M2/M3 y dos de 12 kg**. Climatización **18-28 ºC** en ambos.",
   "El EDR **no se puede desactivar** y sus datos solo se ceden a las autoridades para investigar accidentes; no graba imágenes ni llama al 112 (eso es el eCall).",
-  "Fechas de los ADAS: **6/7/2022** (nuevos tipos) y **7/7/2024** (todos los vehículos nuevos). El eCall, **31/3/2018**.",
+  "Fechas de los ADAS en turismos y furgonetas: **6/7/2022** (nuevos tipos) y **7/7/2024** (todos los vehículos nuevos). El eCall, **31/3/2018**.",
   "Reposacabezas: unos **4 cm** de la cabeza, no apoyada en él; la altura se refiere al borde superior."
  ],
  "caido": [
@@ -361,7 +361,7 @@
   {
    "id": "t_44_14",
    "p": "¿Desde cuándo son obligatorios los ADAS de la UE?",
-   "r": "Nuevos tipos desde el **6/7/2022**; todos los vehículos nuevos desde el **7/7/2024** (Reglamento 2019/2144)."
+   "r": "Para la mayoría de los sistemas de turismos y furgonetas: nuevos tipos desde el **6/7/2022** y todos los vehículos nuevos desde el **7/7/2024** (Reglamento 2019/2144, anexo II). Algunos llegan más tarde (aviso avanzado de distracciones: 2024 y 2026)."
   },
   {
    "id": "t_44_15",
@@ -416,14 +416,14 @@
   },
   {
    "id": "q_44_04",
-   "enunciado": "El sistema ASR evita el patinaje de las ruedas motrices al acelerar, actuando:",
+   "enunciado": "Según el Manual de la DGT, el sistema ASR evita el patinaje de las ruedas motrices al acelerar, actuando:",
    "opciones": [
     "Solo sobre el motor, reduciendo la potencia aunque el conductor mantenga el acelerador a fondo.",
     "Sobre los frenos de las cuatro ruedas, repartiendo la presión entre ejes.",
     "Sobre la dirección, corrigiendo la trayectoria del vehículo."
    ],
    "correcta": 0,
-   "explicacion": "Según el Manual de la DGT, el ASR (Anti Slip Regulation) solo actúa sobre el motor. Los sistemas que frenan ruedas concretas son el TCS en algunas versiones, el EDS y el ESP; el ABS evita el bloqueo al frenar.",
+   "explicacion": "Según el Manual de la DGT, el ASR (Anti Slip Regulation) solo actúa sobre el motor, reduciendo la potencia aunque el conductor mantenga el acelerador pisado a fondo. Los sistemas que frenan ruedas concretas son el TCS en algunas versiones, el EDS y el ESP; ninguno de ellos actúa sobre la dirección.",
    "ref": "Manual II DGT, tema 8",
    "dificultad": 3
   },
@@ -450,7 +450,7 @@
    ],
    "correcta": 2,
    "explicacion": "El Reglamento (UE) 2015/758 obliga a que los nuevos tipos de vehículos M1 y N1 activen automáticamente una llamada eCall al 112 en caso de accidente grave detectado por sensores, y fija el 31 de marzo de 2018 como fecha desde la que las autoridades solo conceden homologaciones con ese sistema.",
-   "ref": "arts. 5 y 7 Reglamento (UE) 2015/758",
+   "ref": "arts. 2, 5 y 7 Reglamento (UE) 2015/758",
    "dificultad": 2
   },
   {
@@ -462,7 +462,7 @@
     "Sí, pero solo el conductor, y únicamente cuando circule de día."
    ],
    "correcta": 0,
-   "explicacion": "El art. 119.2 extiende la exención del cinturón a quienes circulen en poblado en vehículos en servicios de urgencia, pero en ningún caso cuando lo hagan por autopistas, autovías o carreteras convencionales. No distingue entre conductor y pasajeros ni entre día y noche.",
+   "explicacion": "El art. 119.2 extiende la exención del cinturón a los conductores y pasajeros de vehículos en servicios de urgencia cuando circulan en poblado, pero en ningún caso por autopistas, autovías o carreteras convencionales. No distingue entre conductor y pasajeros ni entre día y noche. La única salvedad en cualquier vía es la de los pasajeros de ambulancias asistenciales que atienden al paciente en ruta, que no alcanza a una dotación policial.",
    "ref": "art. 119.2 RGC",
    "dificultad": 2
   },
@@ -559,14 +559,14 @@
   },
   {
    "id": "q_44_15",
-   "enunciado": "Según el Reglamento (UE) 2019/2144, ¿desde qué fecha deben incorporar todos los vehículos nuevos que se matriculen el asistente de velocidad inteligente y el registrador de datos de incidencias?",
+   "enunciado": "Según el Reglamento (UE) 2019/2144, ¿desde qué fecha deben llevar el asistente de velocidad inteligente y el registrador de datos de incidencias todos los turismos y furgonetas nuevos (categorías M1 y N1) que se matriculen?",
    "opciones": [
     "Desde el 31 de marzo de 2018.",
     "Desde el 1 de enero de 2020.",
     "Desde el 7 de julio de 2024."
    ],
    "correcta": 2,
-   "explicacion": "El anexo II fija el 6 de julio de 2022 para denegar la homologación de nuevos tipos sin esos sistemas y el 7 de julio de 2024 para prohibir la matriculación de vehículos nuevos que no los lleven. El 31 de marzo de 2018 es la fecha del eCall.",
+   "explicacion": "Para estos sistemas en turismos y furgonetas, el anexo II fija el 6 de julio de 2022 para denegar la homologación de nuevos tipos que no los lleven y el 7 de julio de 2024 para prohibir la matriculación de vehículos nuevos sin ellos. El 31 de marzo de 2018 es la fecha del eCall y el 1 de enero de 2020 no figura en el calendario. En autobuses y camiones el registrador llega después (matriculación desde el 7 de enero de 2029).",
    "ref": "anexo II Reglamento (UE) 2019/2144",
    "dificultad": 3
   },
@@ -598,10 +598,8 @@
   }
  ],
  "dudas": [
-  "EBD: la definición procede de fabricantes de automóviles; no figura en el Manual de la DGT. No se pregunta.",
-  "El eCall se clasifica como seguridad pasiva según los exámenes y encaja en la definición de la DGT (actúa cuando el accidente ya se ha producido), pero no he hallado una fuente oficial que lo diga expresamente; por eso no hay pregunta que lo clasifique.",
-  "La lista de diez ADAS de la revista de la DGT (julio de 2024) es divulgativa; el art. 6.1 del Reglamento (UE) 2019/2144 enumera siete sistemas y otros figuran en los arts. 5 y 7 y en el anexo II. No se pregunta el número.",
-  "Las fechas del anexo II del Reglamento 2019/2144 se leen de las notas del cuadro (A a D); no he contrastado cada sistema con los actos delegados posteriores.",
-  "La IOPR-003 de la DGP es de 2013 y no sé si existe una edición posterior; solo se usa para el ajuste del puesto de conducción y la opinión de la DGP sobre el cinturón."
+  "La EBD (distribución electrónica de la frenada) no aparece en el Manual de la DGT: se describe con la definición habitual de los fabricantes y se agrupa con la seguridad activa porque ayuda a frenar sin perder el control.",
+  "El número de ADAS obligatorios depende de cómo se cuenten: el art. 6.1 del Reglamento (UE) 2019/2144 enumera siete sistemas para todos los vehículos de motor y la DGT difundió una lista divulgativa de diez. Si te preguntan una cifra, atiende a la fuente que cite el enunciado.",
+  "La IOPR-003 de la DGP es de 2013 y no consta si hay una edición posterior: aquí solo se usa para el ajuste del puesto de conducción y la recomendación de llevar siempre el cinturón."
  ]
 }

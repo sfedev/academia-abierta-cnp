@@ -45,6 +45,36 @@
       "Nivel **A2 como mínimo en inglés o francés**, acreditado antes de que termine el plazo de solicitud.",
     ])));
 
+    // Idioma y psicotécnicos: datos de datos/proceso.json (bases de la convocatoria)
+    var P = AA.meta.proceso;
+    if (P && P.idioma) {
+      var id = P.idioma;
+      var check = h("input", { type: "checkbox", id: "tengo-a2" });
+      check.checked = !!store.ajuste("a2");
+      check.addEventListener("change", function () {
+        store.ajuste("a2", check.checked);
+        AA.toast(check.checked ? "Anotado: ya tienes el A2" : "Recordatorio del A2 activado");
+      });
+      var certs = function (titulo, lista) { return h("div", { style: "min-width:0" }, h("strong", {}, titulo), ul(lista)); };
+      sec("Idioma: nivel A2 obligatorio", h("div", { class: "card stack", id: "idioma" },
+        h("p", { html: AA.rich("**" + id.requisito + "** " + id.consecuencia) }),
+        h("p", {}, id.comoSeAcredita),
+        h("div", { class: "grid" },
+          certs("Inglés y francés", id.certificadosA2.inglesYFrances),
+          certs("Inglés: certificados que acreditan A2", id.certificadosA2.ingles),
+          certs("Francés: certificados que acreditan A2", id.certificadosA2.frances)),
+        tabla(["Nivel acreditado (mérito)", "Puntos"], id.meritos.map(function (m) { return [m.nivel, AA.fmt1(m.puntos)]; })),
+        h("p", { class: "muted" }, id.meritosTexto),
+        h("div", { class: "notice" }, h("strong", {}, "Consejo: "), id.consejo),
+        h("label", { class: "opt-line", for: "tengo-a2" }, check, "Ya tengo un certificado A2 válido (oculta el recordatorio del Panel)")));
+    }
+    if (P && P.psicotecnicos) {
+      var ps = P.psicotecnicos;
+      sec("Test psicotécnicos", h("div", { class: "card stack" },
+        ul([ps.descripcion, ps.formula, ps.calificacion, ps.cuando, ps.impugnacion]),
+        h("div", {}, AA.ui.enlace("psicotecnicos", "btn btn--sm btn--primary", "Practicar psicotécnicos"))));
+    }
+
     sec("Pruebas de la fase de oposición", tabla(
       ["Prueba", "En qué consiste", "Cómo se supera"],
       [
@@ -234,6 +264,9 @@
       cuerpoSims = h("div", {}, barras, h("p", { class: "muted", style: "font-size:.82rem;margin-top:10px" }, "Nota sobre 10 de los últimos tests (más reciente arriba)."));
     }
     root.appendChild(h("section", { class: "section card" }, h("h2", { class: "sec-title" }, "Tests recientes"), cuerpoSims));
+    // Banco propio frente a exámenes oficiales importados (web/js/oficiales.js)
+    if (AA.tarjetaCalibracion) root.appendChild(h("section", { class: "section" }, AA.tarjetaCalibracion(),
+      h("div", { class: "row", style: "margin-top:10px" }, AA.ui.enlace("oficiales", "btn btn--sm", "Ir a exámenes oficiales"))));
 
     // Por tema
     var filas = h("tbody");

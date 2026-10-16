@@ -53,7 +53,7 @@
   ],
   "novedades": [
     "La Ley Orgánica 9/2022, de 28 de julio, modificó el art. 13.1 de la Ley 8/2011 con efectos de 29/08/2022: los operadores críticos deben acreditar mediante certificación la implantación de las medidas exigidas en su Plan de Seguridad del Operador y en sus Planes de Protección Específicos (letras c y d) y constituir un Área de Seguridad del Operador (letra h).",
-    "Estructura actual: según el RD 207/2024, la Secretaría de Estado de Seguridad dirige el Sistema Nacional de Protección de Infraestructuras Críticas y la coordinación de las políticas de ciberseguridad del Ministerio (art. 2.1.m y n), y la Dirección General de Coordinación y Estudios impulsa y supervisa, a través del CNPIC, esas actividades (art. 6.1). La Oficina de Coordinación de Ciberseguridad (OCC) es el CSIRT del Ministerio del Interior de apoyo a la Policía Judicial y ejerce las funciones de la Secretaría de Estado de Seguridad como autoridad competente del RDL 12/2018 para operadores críticos. El RDL 12/2018 conserva denominaciones anteriores («Centro Nacional de Protección de Infraestructuras y Ciberseguridad», «Oficina de Coordinación Cibernética»).",
+    "Estructura actual: según el RD 207/2024, la Secretaría de Estado de Seguridad dirige el Sistema Nacional de Protección de Infraestructuras Críticas y la coordinación de las políticas de ciberseguridad del Ministerio (art. 2.1.m y n), y la Dirección General de Coordinación y Estudios impulsa y supervisa, a través del CNPIC, esas actividades (art. 6.1). La Oficina de Coordinación de Ciberseguridad (OCC) es el CSIRT del Ministerio del Interior de apoyo a la Policía Judicial y ejerce las funciones de la Secretaría de Estado de Seguridad como autoridad competente del RDL 12/2018 para operadores críticos. El RDL 12/2018 conserva denominaciones anteriores («Centro Nacional de Protección de Infraestructuras y Ciberseguridad», «Oficina de Coordinación Cibernética», «Ministerio de Asuntos Económicos y Transformación Digital»).",
     "El Esquema Nacional de Seguridad vigente es el RD 311/2022, que derogó el RD 3/2010. Los textos antiguos hablan de «ENS en el ámbito de la Administración Electrónica».",
     "La Estrategia Nacional de Ciberseguridad vigente publicada es la de 2019. La Orden PJC/522/2025 publicó el procedimiento para elaborar una nueva, que elaborará el Consejo de Seguridad Nacional a través del Consejo Nacional de Ciberseguridad.",
     "El RDL 12/2018 transpone la Directiva NIS (UE) 2016/1148. El consolidado leído no está derogado: la transposición de la Directiva NIS2 (UE) 2022/2555 no consta en él (ver dudas)."
@@ -346,7 +346,7 @@
         "A la Comisión Nacional para la Protección de las Infraestructuras Críticas."
       ],
       "correcta": 0,
-      "explicacion": "El art. 4.1 de la Ley 8/2011 hace responsable del Catálogo al Ministerio del Interior, a través de la Secretaría de Estado de Seguridad, que también clasifica las infraestructuras (art. 4.2). El CNPIC realiza altas, bajas y modificaciones, y la Comisión Nacional tiene otras funciones (planes sectoriales y designación de operadores). El Centro Criptológico Nacional solo certifica la seguridad de los sistemas de comunicaciones.",
+      "explicacion": "El art. 4.1 de la Ley 8/2011 hace responsable del Catálogo al Ministerio del Interior, a través de la Secretaría de Estado de Seguridad, que también clasifica las infraestructuras (art. 4.2). El CNPIC realiza altas, bajas y modificaciones, y la Comisión Nacional tiene otras funciones (planes sectoriales y designación de operadores). El Centro Criptológico Nacional no gestiona el Catálogo: acredita y, en su caso, certifica la seguridad de los sistemas de información y comunicaciones del Sistema (art. 33.2 del Reglamento).",
       "ref": "art. 4 Ley 8/2011",
       "dificultad": 1
     },
@@ -463,7 +463,7 @@
         "CCN-CERT."
       ],
       "correcta": 2,
-      "explicacion": "El art. 11.1 asigna al CCN-CERT, del Centro Criptológico Nacional, la comunidad de referencia formada por las entidades de la Ley 40/2015. El INCIBE-CERT atiende a las entidades no incluidas en ella, a los ciudadanos y a las entidades de derecho privado, y el ESPDEF-CERT, del Ministerio de Defensa, coopera con ambos y es el de referencia para la Defensa nacional.",
+      "explicacion": "El art. 11.1 asigna al CCN-CERT, del Centro Criptológico Nacional, la comunidad de referencia formada por las entidades de la Ley 40/2015. El INCIBE-CERT atiende a las entidades no incluidas en ella, a los ciudadanos y a las entidades de derecho privado, y el ESPDEF-CERT, del Ministerio de Defensa, coopera con ambos cuando lo requieran y, necesariamente, con los operadores con incidencia en la Defensa Nacional.",
       "ref": "art. 11 RDL 12/2018",
       "dificultad": 2
     },
@@ -541,15 +541,14 @@
         "El Delegado del Gobierno en la comunidad autónoma donde esté la infraestructura."
       ],
       "correcta": 0,
-      "explicacion": "El art. 23.1 del Reglamento atribuye la aprobación del Plan de Seguridad del Operador al Secretario de Estado de Seguridad u órgano en quien delegue, previo informe del CNPIC, con notificación en el plazo máximo de dos meses. La Comisión aprueba los Planes Estratégicos Sectoriales y la Delegación del Gobierno solo interviene con su informe en los Planes de Protección Específicos.",
+      "explicacion": "El art. 23.1 del Reglamento atribuye la aprobación del Plan de Seguridad del Operador al Secretario de Estado de Seguridad u órgano en quien delegue, previo informe del CNPIC, con notificación en el plazo máximo de dos meses. La Comisión aprueba los Planes Estratégicos Sectoriales y la Delegación del Gobierno no interviene en el Plan de Seguridad del Operador: emite informe preceptivo sobre los Planes de Protección Específicos (art. 26.1) y supervisa la elaboración de los de Apoyo Operativo (art. 30.2).",
       "ref": "art. 23.1 RD 704/2011",
       "dificultad": 3
     }
   ],
   "dudas": [
-    "Transposición de la Directiva NIS2: el consolidado del RDL 12/2018 (20/12/2025) no está derogado y no recoge su transposición. Fuentes secundarias indican que la ley de transposición (Ley de Coordinación y Gobernanza de la Ciberseguridad, anteproyecto aprobado el 14/01/2025) seguía en tramitación en 2026; no he podido verificar su estado en el BOE ni en el BOCG. Ninguna pregunta depende de ello.",
-    "Una fuente de prensa de abril de 2026 recoge un proyecto de ley de protección y resiliencia de entidades críticas (transposición de la Directiva (UE) 2022/2557); no verificado en BOE ni BOCG. La Ley 8/2011 figura vigente en su consolidado de 16/02/2026.",
-    "No he encontrado publicada una Estrategia Nacional de Ciberseguridad posterior a la de 2019; solo el procedimiento para elaborarla (Orden PJC/522/2025).",
-    "No he leído el RD 43/2021 (desarrollo del RDL 12/2018) ni los anexos del ENS salvo el anexo I. Los textos de los ministerios del Real Decreto-ley 12/2018 conservan nombres anteriores a las últimas reestructuraciones."
+    "La transposición de la Directiva NIS2 (UE) 2022/2555 no consta en el BOE: a 16/10/2026 el RDL 12/2018 sigue vigente y sin derogar. Si antes del examen se publica la nueva ley de ciberseguridad, cambiarán autoridades y obligaciones: prevalece la ley nueva.",
+    "La transposición de la Directiva (UE) 2022/2557, de resiliencia de las entidades críticas, no consta en el BOE: a 16/10/2026 rigen la Ley 8/2011 y su Reglamento (RD 704/2011), que son los que se preguntan. Una ley de transposición publicada antes del examen los sustituiría.",
+    "La Estrategia Nacional de Ciberseguridad de 2019 es la última publicada en el BOE; la nueva está en elaboración (Orden PJC/522/2025). Si se aprueba y publica antes del examen, sustituye a la de 2019."
   ]
 }

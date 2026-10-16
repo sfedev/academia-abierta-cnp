@@ -252,7 +252,7 @@
   "El RD 773/1997 **excluye** de su definición de EPI los de los policías; los EPI de los funcionarios del CNP se rigen por el RD 2/2006 (art. 6.2).",
   "Chaleco reflectante: obligatorio **al salir del vehículo y ocupar calzada o arcén de vía interurbana**, no «siempre que se conduzca».",
   "Mantenimiento: preventivo = programa del fabricante; **predictivo = inspecciones técnicas**; correctivo = avería o accidente.",
-  "Verificación previa: **cada cambio de turno** (vehículos Zs) o, en el resto, **cada quince días**, no cada mes ni antes de cada servicio.",
+  "Verificación previa (apartado 5.3.1 de la IOPR-003): **cada cambio de turno** (vehículos Zs) o, en el resto, **cada quince días**, no cada semana ni cada mes. Aparte, al recoger el vehículo para un servicio se comprueba su estado general.",
   "El Sistema Seguro no pretende eliminar los siniestros, sino las **lesiones mortales y graves**."
  ],
  "caido": [
@@ -372,7 +372,7 @@
    ],
    "correcta": 0,
    "explicacion": "El tráfico es un sistema en el que intervienen el factor humano, el vehículo y la vía y su entorno (ambiental). El INSST añade, en los accidentes laborales de tráfico, el factor organización del trabajo.",
-   "ref": "Manual II DGT, tema 1; INSST",
+   "ref": "Manual II DGT, temas 1 y 10; INSST, Seguridad Vial Laboral",
    "dificultad": 1
   },
   {
@@ -423,7 +423,7 @@
     "0,15 g/l en sangre o 0,075 mg/l en aire espirado."
    ],
    "correcta": 1,
-   "explicacion": "Los conductores de vehículos de servicio de urgencia o transportes especiales (como los de mercancías de más de 3.500 kg, viajeros de más de nueve plazas o servicio público) no pueden superar 0,3 g/l en sangre ni 0,15 mg/l en aire espirado. La tasa general es de 0,5 g/l y 0,25 mg/l.",
+   "explicacion": "El párrafo segundo del art. 20 fija 0,3 g/l en sangre o 0,15 mg/l en aire espirado para los conductores de vehículos de servicio de urgencia, igual que para los de mercancías de más de 3.500 kg, viajeros de más de nueve plazas, servicio público, transporte escolar y de menores, mercancías peligrosas y transportes especiales. La tasa general es de 0,5 g/l y 0,25 mg/l; 0,15 g/l en sangre no es ninguna de las tasas del art. 20.",
    "ref": "art. 20 RGC",
    "dificultad": 2
   },
@@ -484,11 +484,11 @@
    "enunciado": "Según el art. 2 del RD 773/1997, quedan excluidos de la definición de equipo de protección individual:",
    "opciones": [
     "Los equipos de protección individual de los militares, de los policías y de las personas de los servicios de mantenimiento del orden.",
-    "Los cascos de protección y los guantes de seguridad que utilicen los trabajadores.",
-    "Los chalecos reflectantes de alta visibilidad que lleven los trabajadores."
+    "Los cascos contra la caída de objetos y los guantes contra riesgos mecánicos que utilicen los trabajadores.",
+    "Los protectores auditivos y las gafas de protección que utilicen los trabajadores."
    ],
    "correcta": 0,
-   "explicacion": "El art. 2.2.c excluye los EPI de militares, policías y servicios de mantenimiento del orden. Los cascos, guantes y chalecos reflectantes son equipos que encajan en la definición del art. 2.1.",
+   "explicacion": "El art. 2.2.c excluye los EPI de los militares, de los policías y de las personas de los servicios de mantenimiento del orden. Los cascos, los guantes, los protectores auditivos y las gafas de protección figuran en la lista de EPI del anexo II y encajan en la definición del art. 2.1.",
    "ref": "art. 2 RD 773/1997",
    "dificultad": 3
   },
@@ -501,7 +501,7 @@
     "Al delegado de prevención."
    ],
    "correcta": 1,
-   "explicacion": "El art. 6.2 dispone que la Administración proporcionará a los funcionarios EPI adecuados y velará por su uso efectivo y correcto. El funcionario debe utilizarlos correctamente (art. 12.2), pero no costearlos.",
+   "explicacion": "El art. 6.2 dispone que la Administración proporcionará a los funcionarios del CNP equipos de protección individual adecuados y velará por su uso efectivo y correcto. Al funcionario le corresponde utilizarlos correctamente (art. 12.2), no proporcionarlos, y el art. 6.2 no atribuye esa tarea al delegado de prevención.",
    "ref": "arts. 6.2 y 12.2 RD 2/2006",
    "dificultad": 2
   },
@@ -537,10 +537,10 @@
    "opciones": [
     "Una vez al mes.",
     "Una vez cada quince días.",
-    "Antes de cada servicio."
+    "Una vez a la semana."
    ],
    "correcta": 1,
-   "explicacion": "La verificación previa la realiza el conductor y su acompañante siempre en los cambios de turno en los vehículos Zs y, en el resto, al menos una vez cada quince días.",
+   "explicacion": "Según el apartado 5.3.1, la verificación previa la realizan el conductor y su acompañante siempre en los cambios de turno en los vehículos Zs y, en el resto, al menos una vez cada quince días; no se fija una periodicidad semanal ni mensual.",
    "ref": "IOPR-003 DGP, 5.3.1",
    "dificultad": 3
   },
@@ -585,9 +585,7 @@
   }
  ],
  "dudas": [
-  "La IOPR-003 de la DGP es de 2013 y no he podido comprobar si existe una edición posterior ni si sigue vigente. Cita normas que se han derogado o modificado (Orden INT/161/2011, permiso BTP) y otras que no he leído (RD 711/2006 y Orden de 25/11/1997 sobre la ITV de los vehículos de la DGP). Es la única fuente oficial específica sobre riesgos de los vehículos policiales que he encontrado.",
-  "Los porcentajes de la DGT (70-90 %, 10-35 % y 4-13 %) son rangos de estudios que cita el Manual; el propio Manual da otras cifras (vehículo, causa exclusiva del 12 %; factor humano, 90 %). Se preguntan solo con el rango.",
-  "No he encontrado una norma o guía oficial más reciente que la IOPR-003 sobre los riesgos laborales de la conducción de vehículos prioritarios por la Policía Nacional.",
-  "El análisis de exámenes menciona la tasa de 0,3 g/l de 2023 como del tema 45: la tasa de alcohol de los servicios de urgencia figura en el art. 20 RGC, que he leído en su versión consolidada de 01/10/2026."
+  "La IOPR-003 de la DGP es la instrucción específica sobre el uso de sus vehículos, pero es de 2013, cita normas y permisos ya suprimidos (Orden INT/161/2011, permiso BTP) y no consta si hay una edición posterior: úsala para las pautas de uso y mantenimiento, no para permisos.",
+  "El peso de cada factor varía según el estudio: el Manual de la DGT da rangos (humano 70-90 %, vía 10-35 %, vehículo 4-13 %) y, en otros pasajes, un 90 % para el factor humano y un 12 % para el vehículo como causa exclusiva. En el examen, quédate con los rangos."
  ]
 }

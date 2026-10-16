@@ -109,7 +109,7 @@
     {
       "titulo": "Prevención, protección y derecho a la protección eficaz",
       "puntos": [
-        "La ley distingue las medidas de **prevención** (evitar o disminuir el riesgo, art. 4.1) de las de **protección**, **colectivas** o **individuales**. La colectiva tiene prioridad (art. 15.1.h) y los **EPI** se usan cuando los riesgos no pueden evitarse o limitarse suficientemente por medios técnicos de protección colectiva o por medidas de organización (art. 17.2).",
+        "La ley define la **prevención** (evitar o disminuir el riesgo, art. 4.1), pero no la **protección**: entre sus ocho definiciones del art. 4 no figura; sí distingue la protección **colectiva** de la **individual**. La colectiva tiene prioridad (art. 15.1.h) y los **EPI** se usan cuando los riesgos no pueden evitarse o limitarse suficientemente por medios técnicos de protección colectiva o por medidas de organización (art. 17.2).",
         "**Protección eficaz (art. 14)**: derecho de los trabajadores y deber correlativo del empresario y de las **Administraciones públicas respecto de su personal**. Lo integran la **información, consulta y participación**, la **formación**, la **paralización** ante riesgo grave e inminente y la **vigilancia de la salud**. El coste **no puede recaer sobre los trabajadores** (art. 14.5)."
       ]
     },
@@ -455,7 +455,6 @@
     }
   ],
   "dudas": [
-    "La Ley 31/1995 no define «trabajo» ni «protección»: la ficha no inventa definiciones y solo remite a los artículos que sí tratan estos conceptos (arts. 3, 14, 15.1.h y 17.2).",
-    "El concepto de «patologías inespecíficas» (fatiga, estrés, insatisfacción laboral) que algunos manuales incluyen entre los daños a la salud no figura en las normas leídas y no se ha desarrollado."
+    "Algunos manuales añaden a los daños del trabajo las «patologías inespecíficas» (fatiga, estrés, insatisfacción laboral): es una clasificación doctrinal; la ley solo define los daños derivados del trabajo (art. 4.3 Ley 31/1995) y la LGSS, el accidente de trabajo y la enfermedad profesional."
   ]
 }

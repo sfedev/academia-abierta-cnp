@@ -25,7 +25,7 @@
       "verificado": "Capítulos 1, 2 y 4 leídos el 16/10/2026"
     },
     {
-      "nombre": "Pub. L. 109-163, art. 931 (definición de inteligencia de fuentes abiertas), recogida en las notas al 50 U.S.C. 3039",
+      "nombre": "Pub. L. 109-163, sección 931 (definición de inteligencia de fuentes abiertas), recogida en las notas al 50 U.S.C. 3039",
       "url": "https://www.govinfo.gov/link/uscode/50/3039",
       "verificado": "Texto oficial de la GPO leído el 16/10/2026"
     },
@@ -37,7 +37,7 @@
     {
       "nombre": "intelligence.gov: How the IC Works (disciplinas de recogida y ciclo de inteligencia)",
       "url": "https://www.intelligence.gov/how-the-ic-works",
-      "verificado": "Página leída el 16/10/2026"
+      "verificado": "Página leída el 16/10/2026 (seis disciplinas de recogida y seis pasos del ciclo)"
     },
     {
       "nombre": "R. J. Heuer Jr., Psychology of Intelligence Analysis (CIA, Center for the Study of Intelligence, 1999)",
@@ -159,7 +159,7 @@
           [
             "MASINT",
             "Measurement and Signature Intelligence",
-            "Información científica y técnica para localizar, identificar o describir"
+            "Información científica y técnica para localizar, identificar o describir las características distintivas de objetivos concretos"
           ],
           [
             "OSINT",
@@ -172,7 +172,7 @@
     {
       "titulo": "OSINT: concepto, categorías y herramientas",
       "puntos": [
-        "**OSINT** (inteligencia de fuentes abiertas) es la inteligencia producida a partir de **información públicamente disponible** que se recoge, explota y difunde a tiempo a la audiencia adecuada para responder a un requerimiento de inteligencia concreto (Pub. L. 109-163, art. 931).",
+        "**OSINT** (inteligencia de fuentes abiertas) es la inteligencia producida a partir de **información públicamente disponible** que se recoge, explota y difunde a tiempo a la audiencia adecuada para responder a un requerimiento de inteligencia concreto (Pub. L. 109-163, sección 931).",
         "La **OTAN** distingue 4 categorías: **OSD** (datos abiertos en bruto: prensa, emisiones, imágenes comerciales de satélite, cartas), **OSIF** (información abierta: datos reunidos mediante un proceso editorial con cierto filtrado, como periódicos y libros), **OSINT** (información descubierta, discriminada, destilada y difundida a una audiencia selecta para responder a una pregunta concreta) y **OSINT-V** (OSINT **validada**, con un grado de certeza muy alto).",
         "La dificultad principal de las fuentes abiertas es su **evaluación**: la información pública puede estar sesgada, ser inexacta o sensacionalista (UNODC).",
         "INCIBE-CERT: el reconocimiento se basa sobre todo en OSINT y puede ser **pasivo** (sin interactuar con los sistemas del objetivo; por ejemplo, consultar Shodan) o **activo** (enviando tráfico al objetivo, con más riesgo de detección)."
@@ -527,8 +527,8 @@
         "Inteligencia procedente de fuentes humanas que el servicio capta de forma encubierta."
       ],
       "correcta": 0,
-      "explicacion": "Es la definición recogida en la ley estadounidense Pub. L. 109-163 (art. 931). La interceptación de señales es SIGINT y la procedente de fuentes humanas es HUMINT.",
-      "ref": "Pub. L. 109-163, art. 931 (50 U.S.C. 3039, notas)",
+      "explicacion": "Es la definición recogida en la ley estadounidense Pub. L. 109-163 (sección 931). La interceptación de señales es SIGINT y la procedente de fuentes humanas es HUMINT.",
+      "ref": "Pub. L. 109-163, sec. 931(a)(1) (notas al 50 U.S.C. 3039)",
       "dificultad": 1
     },
     {
@@ -715,10 +715,8 @@
     }
   ],
   "dudas": [
-    "El encargo citaba un «Esquema Nacional de Inteligencia»: no he localizado ningún documento oficial con ese nombre (existe el Esquema Nacional de Seguridad). El ciclo se ha tomado de la página oficial del CNI y de la Ley 11/2002.",
-    "La distinción entre «dato» e «información» no está definida en las fuentes oficiales consultadas (CNI, UNODC): la UNODC llama a la información «conocimiento en bruto». La ficha sigue la doctrina habitual y lo indica.",
-    "La UNODC solo distingue inteligencia estratégica y operativa; algunas academias añaden el nivel táctico y no lo he podido contrastar con una fuente oficial.",
-    "GooScan: no he podido confirmar la herramienta en una fuente primaria (INCIBE-CERT solo habla de dorking); aparece en el análisis de exámenes anteriores como herramienta de Google hacking.",
-    "La definición de MASINT procede de intelligence.gov, cuyo texto aparece truncado en la página consultada."
+    "La UNODC define la información como «conocimiento en bruto» y no separa dato de información; la definición de dato como elemento aislado y sin contexto es la habitual de los manuales.",
+    "La UNODC divide la inteligencia en dos áreas, estratégica y operativa; algunos manuales añaden la táctica (el modelo británico que recoge la UNODC habla de evaluación táctica, a corto plazo). No hay una clasificación oficial única.",
+    "GooScan es una herramienta antigua que automatiza el Google hacking (búsquedas con operadores avanzados) y ha aparecido en exámenes; los catálogos oficiales actuales, como el de INCIBE-CERT, no la citan. Basta asociarla con el dorking."
   ]
 }

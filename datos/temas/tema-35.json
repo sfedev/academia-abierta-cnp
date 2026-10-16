@@ -19,6 +19,11 @@
       "verificado": "Texto en español leído el 16/10/2026"
     },
     {
+      "nombre": "Resolución A/RES/55/2 de la Asamblea General de la ONU, «Declaración del Milenio» (8 de septiembre de 2000)",
+      "url": "https://documents.un.org/api/symbol/access?s=A/RES/55/2&l=es&t=pdf",
+      "verificado": "Texto en español leído el 16/10/2026 (aprobada en la 8.ª sesión plenaria, 8 de septiembre de 2000)"
+    },
+    {
       "nombre": "ONU, Objetivos de Desarrollo Sostenible (denominaciones oficiales en español)",
       "url": "https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/",
       "verificado": "Página leída el 16/10/2026"
@@ -60,6 +65,17 @@
       "boe": "BOE-A-2021-8447",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8447",
       "verificado": "Texto consolidado, actualización de 23/07/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto 986/2024, de 24 de septiembre, por el que se aprueba la actualización del Plan Nacional Integrado de Energía y Clima 2023-2030",
+      "boe": "BOE-A-2024-19278",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-19278",
+      "verificado": "Texto original publicado el 25/09/2024 (leído el 16/10/2026); el Plan se publica aparte en la web del Ministerio"
+    },
+    {
+      "nombre": "Ministerio para la Transición Ecológica y el Reto Demográfico, «El Gobierno aprueba la actualización del Plan Nacional Integrado de Energía y Clima 2023-2030» (nota oficial de 24/09/2024)",
+      "url": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2024/septiembre/el-gobierno-aprueba-la-actualizacion-del-plan-nacional-integrado.html",
+      "verificado": "Objetivos del PNIEC para 2030 leídos el 16/10/2026"
     },
     {
       "nombre": "Ley 21/2013, de 9 de diciembre, de evaluación ambiental",
@@ -119,7 +135,8 @@
   ],
   "novedades": [
     "El Reglamento (UE) 2026/667, de 11 de marzo de 2026 (DOUE de 18/03/2026), modificó la Ley Europea del Clima y fijó el objetivo vinculante para 2040: reducción neta de emisiones del **90 %** respecto de 1990. Los materiales anteriores solo recogen el 55 % para 2030 y la neutralidad en 2050.",
-    "Ley 1/2023, de Cooperación para el Desarrollo Sostenible y la Solidaridad Global: destina al menos el 0,7 % de la renta nacional bruta a ayuda oficial al desarrollo en el horizonte de 2030."
+    "Ley 1/2023, de Cooperación para el Desarrollo Sostenible y la Solidaridad Global: destina al menos el 0,7 % de la renta nacional bruta a ayuda oficial al desarrollo en el horizonte de 2030.",
+    "El Plan Nacional Integrado de Energía y Clima 2023-2030, actualizado por el Real Decreto 986/2024, prevé para 2030 una reducción del **32 %** de emisiones respecto de 1990, un **48 %** de renovables en el consumo final, un **81 %** de generación eléctrica renovable y un **43 %** de eficiencia. Los mínimos legales del art. 3 de la Ley 7/2021 no han cambiado (23 %, 42 %, 74 % y 39,5 %)."
   ],
   "clave": [
     "**Desarrollo sostenible** (Informe Brundtland, «Nuestro futuro común», 1987): el que **satisface las necesidades de la generación presente sin comprometer la capacidad de las generaciones futuras** para satisfacer las suyas. La versión oficial en español de la ONU lo llama «desarrollo duradero».",
@@ -179,7 +196,7 @@
           ],
           [
             "2000",
-            "Declaración del Milenio (res. 55/2)",
+            "Declaración del Milenio (res. 55/2, aprobada el **8 de septiembre**)",
             "Ocho Objetivos de Desarrollo del Milenio (**ODM**), con horizonte en 2015"
           ],
           [
@@ -308,6 +325,7 @@
         "**Pacto Verde Europeo** (Comunicación COM(2019) 640, de 11 de diciembre de 2019). Ley Europea del Clima (Reglamento (UE) 2021/1119): los gases de efecto invernadero deben estar equilibrados en la Unión **a más tardar en 2050**, y el objetivo vinculante para 2030 es una reducción neta de al menos el **55 %** respecto de 1990. El Reglamento (UE) 2026/667 añade el objetivo de **-90 % en 2040**.",
         "Estrategia **«de la granja a la mesa»** (COM(2020) 381, de 20 de mayo de 2020), para un sistema alimentario justo, saludable y respetuoso con el medio ambiente. Objetivos de 2030: reducir las **pérdidas de nutrientes al menos un 50 %** sin deteriorar la fertilidad del suelo (lo que reduce el uso de **fertilizantes al menos un 20 %**); reducir un **50 %** el uso y riesgo global de plaguicidas químicos; reducir un **50 %** las ventas de antimicrobianos para animales de granja y acuicultura; y que al menos el **25 %** de las tierras agrícolas sea de **agricultura ecológica**.",
         "**Ley 7/2021** de cambio climático y transición energética (art. 3): objetivos mínimos para 2030 de **-23 %** de emisiones respecto de 1990, **42 %** de renovables en el consumo de energía final, **74 %** de generación eléctrica renovable y mejora de la eficiencia con un **39,5 %** menos de energía primaria; **neutralidad climática antes de 2050**, con un sistema eléctrico exclusivamente renovable.",
+        "**PNIEC 2023-2030** (actualización aprobada por el RD 986/2024, conforme al art. 4.1 de la Ley 7/2021): prevé para 2030 **-32 %** de emisiones respecto de 1990, **48 %** de renovables en el consumo final de energía, **81 %** de generación eléctrica renovable y **43 %** de mejora de la eficiencia. Es la planificación del Gobierno; los objetivos mínimos legales siguen siendo los del art. 3 de la ley.",
         "**Consejo Nacional del Clima** (RD 415/2014): órgano colegiado **interministerial**, concebido como foro institucional de participación de las Administraciones públicas y de las organizaciones sociales y ambientales en las políticas de cambio climático; informa, formula recomendaciones sobre planes y programas y conoce las políticas de la UE y las negociaciones internacionales. Mandato de **tres años**; el Pleno se reúne al menos **una vez al año**; la Oficina Española de Cambio Climático ejerce la Secretaría.",
         "**Cooperación al desarrollo** (Ley 1/2023): política pública de la acción exterior que contribuye a las metas globales de desarrollo sostenible (Agenda 2030, Acuerdo de París); España destinará al menos el **0,7 % de la renta nacional bruta** a ayuda oficial al desarrollo en el horizonte de 2030."
       ]
@@ -357,7 +375,7 @@
     "Las fechas se confunden: Agenda 2030 aprobada el **25-IX-2015** y vigente el **1-I-2016**; Acuerdo de París **12-XII-2015**; Kioto 1997 no es de Río 1992.",
     "**Río+20 (2012)** decide crear los ODS; **Río 1992** produce el Programa 21 y los convenios de clima y biodiversidad; **Estocolmo 1972** es la primera y crea el PNUMA.",
     "Nombres falsos de estrategias europeas («Agenda verde», «Horizonte verde»): la estrategia alimentaria del Pacto Verde se llama **«De la granja a la mesa»**.",
-    "Cifras UE y España no coinciden: UE **-55 % (2030)** y **-90 % (2040)**, neutralidad en **2050**; Ley 7/2021 **-23 %** en 2030 y **74 %** renovable solo en el sistema **eléctrico** (el 42 % es de energía final).",
+    "Cifras UE y España no coinciden: UE **-55 % (2030)** y **-90 % (2040)**, neutralidad en **2050**; Ley 7/2021 **-23 %** en 2030 y **74 %** renovable solo en el sistema **eléctrico** (el 42 % es de energía final). El **PNIEC 2023-2030** eleva las previsiones (-32 %, 48 %, 81 %), pero si el enunciado cita el art. 3 de la Ley 7/2021 la respuesta son sus mínimos.",
     "El foro institucional del clima es el **Consejo Nacional del Clima** (órgano colegiado), no una comisión ni una oficina; la Oficina Española de Cambio Climático solo ejerce su Secretaría.",
     "Evaluación **estratégica** = planes y programas; **de impacto** = proyectos. Sus documentos finales son distintos (declaración ambiental estratégica frente a declaración de impacto ambiental).",
     "EMAS y la etiqueta ecológica son **voluntarios**; la autorización ambiental integrada es una **resolución administrativa** del órgano de la comunidad autónoma."
@@ -713,7 +731,7 @@
         "Únicamente los proyectos de obra pública, y la evaluación de impacto ambiental no existe en la ley"
       ],
       "correcta": 1,
-      "explicacion": "El art. 5.1.a distingue la evaluación ambiental estratégica, que procede respecto de planes o programas, de la evaluación de impacto ambiental, que procede respecto de proyectos; ambas pueden ser ordinarias o simplificadas. La segunda opción invierte el ámbito y la tercera es falsa.",
+      "explicacion": "El art. 5.1.a distingue la evaluación ambiental estratégica, que procede respecto de planes o programas, de la evaluación de impacto ambiental, que procede respecto de proyectos; ambas pueden ser ordinarias o simplificadas. Atribuir la estratégica a los proyectos invierte los ámbitos, y la ley sí regula la evaluación de impacto ambiental.",
       "ref": "art. 5.1.a Ley 21/2013",
       "dificultad": 2
     },
@@ -771,9 +789,6 @@
     }
   ],
   "dudas": [
-    "El enunciado exacto de las preguntas de examen sobre «De la granja a la mesa» (nitratos y contaminación difusa) no consta en el análisis; se han incluido los objetivos cuantitativos de la Comunicación COM(2020) 381 por si se preguntan.",
-    "No he comprobado si el PNIEC o una norma posterior a la Ley 7/2021 han elevado los objetivos nacionales de 2030; el art. 3 de la ley ordena iniciar en 2023 la primera revisión y permite al Consejo de Ministros revisarlos al alza.",
-    "El Consejo Nacional del Clima sigue regulado por el RD 415/2014, cuyo texto consolidado conserva las denominaciones ministeriales de 2014; no he verificado su adscripción actual.",
-    "La fecha de la Declaración del Milenio (2000) no se ha contrastado en una fuente primaria; la Agenda 2030 solo cita la resolución 55/2 y dice que los ODM se acordaron «hace casi 15 años»."
+    "El RD 415/2014 conserva su adscripción original al Ministerio de Agricultura, Alimentación y Medio Ambiente; hoy la política de cambio climático corresponde al Ministerio para la Transición Ecológica (RD 503/2024). Lo que se pregunta es su naturaleza: órgano colegiado interministerial."
   ]
 }

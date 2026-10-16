@@ -150,7 +150,11 @@ def validar(path):
             comprobar_id(c, "tarjetas[%d]" % i, "t", ids_t)
 
     pre = d.get("preguntas", [])
-    need(isinstance(pre, list) and 15 <= len(pre) <= 24, "preguntas: entre 15 y 24 (%d)" % len(pre))
+    # Los temas con secciones «ampliado» (detalle de trampa fina) admiten hasta 30: las de dificultad 3 salen de ahí
+    con_amp = any(isinstance(s, dict) and s.get("ampliado") is True for s in res)
+    tope = 30 if con_amp else 24
+    need(isinstance(pre, list) and 15 <= len(pre) <= tope,
+         "preguntas: entre 15 y 24, o hasta 30 si el tema tiene secciones ampliadas (%d)" % len(pre))
     pos = Counter()
     vistos = set()
     ids_p = set()

@@ -1,0 +1,207 @@
+# Auditoría automática del banco de preguntas
+
+Generada el 2026-10-16 por `herramientas/auditar_preguntas.py` con 110 de 115 normas del BOE en caché.
+
+| Estado | Preguntas | % |
+|---|---|---|
+| Verificada (cifras en el artículo) | 201 | 20.4 % |
+| Revisada a mano | 777 | 78.9 % |
+| Artículo vigente, sin cifras que comprobar | 0 | 0.0 % |
+| Pendiente de revisar | 0 | 0.0 % |
+| Fuente no comprobable automáticamente | 7 | 0.7 % |
+
+## Preguntas pendientes de revisar
+
+
+## Avisos (no bloquean)
+
+- q_01_01 (tema 1): Una respuesta incorrecta usa una cifra que también está en el artículo: 5 ano.
+- q_01_03 (tema 1): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_01_04 (tema 1): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_01_07 (tema 1): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano.
+- q_01_09 (tema 1): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano.
+- q_01_12 (tema 1): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_02_01 (tema 2): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_02_02 (tema 2): Cifras no localizadas; la ref no dice con certeza de qué norma es el artículo: 10, 169.
+- q_02_06 (tema 2): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_02_08 (tema 2): Una respuesta incorrecta usa una cifra que también está en el artículo: 30 dia.
+- q_02_16 (tema 2): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_02_20 (tema 2): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_02_27 (tema 2): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_03_09 (tema 3): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_03_14 (tema 3): Una respuesta incorrecta usa una cifra que también está en el artículo: 20 dia, 3 mes.
+- q_04_05 (tema 4): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_04_11 (tema 4): Cifras no localizadas; la ref no dice con certeza de qué norma es el artículo: 6, 720, 96.
+- q_04_16 (tema 4): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_04_22 (tema 4): Una respuesta incorrecta usa una cifra que también está en el artículo: 6 mes.
+- q_05_03 (tema 5): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_05_08 (tema 5): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_05_09 (tema 5): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_05_16 (tema 5): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_06_01 (tema 6): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_06_04 (tema 6): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_07_03 (tema 7): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_07_09 (tema 7): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_08_02 (tema 8): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_08_18 (tema 8): Una respuesta incorrecta usa una cifra que también está en el artículo: 60 ano.
+- q_08_19 (tema 8): Una respuesta incorrecta usa una cifra que también está en el artículo: 6 mes.
+- q_08_20 (tema 8): Una respuesta incorrecta usa una cifra que también está en el artículo: 6 mes.
+- q_08_25 (tema 8): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_09_04 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_09_09 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_09_14 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_09_16 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_09_21 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_09_30 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_10_01 (tema 10): Una respuesta incorrecta usa una cifra que también está en el artículo: 6 mes.
+- q_10_05 (tema 10): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas. Cifras de las opciones verdaderas no localizadas en el artículo citado: 19 ano.
+- q_10_09 (tema 10): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_10_14 (tema 10): Una respuesta incorrecta usa una cifra que también está en el artículo: 5 ano.
+- q_10_15 (tema 10): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 ano.
+- q_10_18 (tema 10): Una respuesta incorrecta usa una cifra que también está en el artículo: 18 mes.
+- q_11_01 (tema 11): Una respuesta incorrecta usa una cifra que también está en el artículo: 10000 euro.
+- q_11_02 (tema 11): Una respuesta incorrecta usa una cifra que también está en el artículo: 100000 euro.
+- q_11_03 (tema 11): Una respuesta incorrecta usa una cifra que también está en el artículo: 2 ano, 5 ano.
+- q_11_04 (tema 11): Una respuesta incorrecta usa una cifra que también está en el artículo: 10 ano, 3 ano.
+- q_11_05 (tema 11): Una respuesta incorrecta usa una cifra que también está en el artículo: 10 ano, 3 ano.
+- q_11_06 (tema 11): Una respuesta incorrecta usa una cifra que también está en el artículo: 2 ano.
+- q_11_07 (tema 11): Una respuesta incorrecta usa una cifra que también está en el artículo: 5 ano.
+- q_11_08 (tema 11): Una respuesta incorrecta usa una cifra que también está en el artículo: 10 ano.
+- q_11_09 (tema 11): Una respuesta incorrecta usa una cifra que también está en el artículo: 72 hora.
+- q_11_12 (tema 11): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_11_15 (tema 11): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_11_20 (tema 11): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 ano.
+- q_12_04 (tema 12): Una respuesta incorrecta usa una cifra que también está en el artículo: 2 dia.
+- q_12_05 (tema 12): Una respuesta incorrecta usa una cifra que también está en el artículo: 4 dia.
+- q_12_10 (tema 12): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_12_11 (tema 12): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_12_14 (tema 12): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_12_20 (tema 12): Cifras que no están en los artículos citados (pueden estar en la disposición o el documento que también cita la ref): 6 mes.
+- q_12_28 (tema 12): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_13_01 (tema 13): Una respuesta incorrecta usa una cifra que también está en el artículo: 2 ano, 6 mes.
+- q_13_02 (tema 13): Una respuesta incorrecta usa una cifra que también está en el artículo: 6 mes.
+- q_13_05 (tema 13): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_14_01 (tema 14): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas. Cifras de las opciones verdaderas no localizadas en el artículo citado: 72 hora.
+- q_14_03 (tema 14): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_14_08 (tema 14): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_14_10 (tema 14): Una respuesta incorrecta usa una cifra que también está en el artículo: 220000 euro, 600000 euro.
+- q_14_11 (tema 14): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_14_15 (tema 14): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 ano, 3 ano.
+- q_14_20 (tema 14): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 miembro.
+- q_14_21 (tema 14): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 miembro.
+- q_15_07 (tema 15): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_16_08 (tema 16): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_16_10 (tema 16): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_16_14 (tema 16): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_16_15 (tema 16): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_16_17 (tema 16): Una respuesta incorrecta usa una cifra que también está en el artículo: 10 ano, 20 ano.
+- q_16_27 (tema 16): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 mes.
+- q_16_29 (tema 16): Una respuesta incorrecta usa una cifra que también está en el artículo: 15 ano, 25 ano.
+- q_17_01 (tema 17): Una respuesta incorrecta usa una cifra que también está en el artículo: 25 ano.
+- q_17_02 (tema 17): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_17_04 (tema 17): Una respuesta incorrecta usa una cifra que también está en el artículo: 15 ano, 25 ano.
+- q_17_05 (tema 17): Una respuesta incorrecta usa una cifra que también está en el artículo: 25 ano.
+- q_17_06 (tema 17): Una respuesta incorrecta usa una cifra que también está en el artículo: 4 ano.
+- q_17_07 (tema 17): Una respuesta incorrecta usa una cifra que también está en el artículo: 10 ano, 8 ano.
+- q_17_08 (tema 17): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano.
+- q_17_09 (tema 17): Una respuesta incorrecta usa una cifra que también está en el artículo: 5 ano, 6 ano.
+- q_17_11 (tema 17): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_17_12 (tema 17): Una respuesta incorrecta usa una cifra que también está en el artículo: 10 ano, 6 ano.
+- q_17_14 (tema 17): Una respuesta incorrecta usa una cifra que también está en el artículo: 5 ano.
+- q_17_17 (tema 17): Una respuesta incorrecta usa una cifra que también está en el artículo: 4 ano.
+- q_17_18 (tema 17): Una respuesta incorrecta usa una cifra que también está en el artículo: 18 ano.
+- q_18_01 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 mes.
+- q_18_02 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 mes.
+- q_18_03 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano, 3 mes.
+- q_18_04 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano, 3 mes.
+- q_18_05 (tema 18): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_18_07 (tema 18): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_18_09 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano, 6 mes.
+- q_18_14 (tema 18): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_18_20 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 mes.
+- q_18_21 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 18 mes, 3 mes.
+- q_18_25 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 12 mes, 3 ano, 6 ano, 6 mes.
+- q_18_26 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 mes, 6 mes.
+- q_18_28 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 48 hora.
+- q_18_29 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 12 mes, 250000 euro, 6 ano.
+- q_19_01 (tema 19): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano, 3 mes.
+- q_19_02 (tema 19): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 ano, 3 ano, 6 mes.
+- q_19_04 (tema 19): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_19_06 (tema 19): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_19_07 (tema 19): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano, 6 mes.
+- q_19_10 (tema 19): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_19_12 (tema 19): Una respuesta incorrecta usa una cifra que también está en el artículo: 20 ano.
+- q_19_13 (tema 19): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 ano, 3 ano, 6 mes.
+- q_19_17 (tema 19): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano, 4 ano, 6 mes.
+- q_20_01 (tema 20): Una respuesta incorrecta usa una cifra que también está en el artículo: 2 ano, 5 ano, 6 mes.
+- q_20_02 (tema 20): Una respuesta incorrecta usa una cifra que también está en el artículo: 24 mes, 4 ano.
+- q_20_04 (tema 20): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 mes.
+- q_20_05 (tema 20): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano, 6 mes.
+- q_20_07 (tema 20): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_20_11 (tema 20): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_20_15 (tema 20): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_21_03 (tema 21): Respuesta calculada (fechas u horas): el auditor solo comprueba el artículo. Una respuesta incorrecta usa una cifra que también está en el artículo: 48 hora.
+- q_21_06 (tema 21): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_21_08 (tema 21): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_21_12 (tema 21): Una respuesta incorrecta usa una cifra que también está en el artículo: 5 dia.
+- q_21_13 (tema 21): Una respuesta incorrecta usa una cifra que también está en el artículo: 24 hora, 72 hora.
+- q_21_20 (tema 21): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_21_23 (tema 21): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_21_24 (tema 21): Respuesta calculada (fechas u horas): el auditor solo comprueba el artículo.
+- q_21_26 (tema 21): Una respuesta incorrecta usa una cifra que también está en el artículo: 72 hora.
+- q_21_30 (tema 21): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 vez.
+- q_22_03 (tema 22): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_22_12 (tema 22): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_23_08 (tema 23): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_23_09 (tema 23): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_23_10 (tema 23): Una respuesta incorrecta usa una cifra que también está en el artículo: 18 mes, 6 mes.
+- q_23_14 (tema 23): El art. 26 de BOE-A-2006-21990 tiene una reforma que entra en vigor el 2026-10-23.
+- q_23_15 (tema 23): El art. 28 de BOE-A-2006-21990 tiene una reforma que entra en vigor el 2026-10-23.
+- q_23_16 (tema 23): El art. 4 de BOE-A-2013-12632 tiene una reforma que entra en vigor el 2026-10-23.
+- q_23_21 (tema 23): El art. 4 de BOE-A-2013-12632 tiene una reforma que entra en vigor el 2026-10-23. Cifras comprobadas en la redacción que entra en vigor el 2026-10-23.
+- q_23_22 (tema 23): El art. 15 de BOE-A-2006-21990 tiene una reforma que entra en vigor el 2026-10-23.
+- q_23_23 (tema 23): El art. 5 de BOE-A-2006-21990 tiene una reforma que entra en vigor el 2026-10-23. Cifras comprobadas en la redacción que entra en vigor el 2026-10-23. Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano, 5 ano.
+- q_23_24 (tema 23): El art. 14 de BOE-A-2006-21990 tiene una reforma que entra en vigor el 2026-10-23.
+- q_24_06 (tema 24): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_25_05 (tema 25): Una respuesta incorrecta usa una cifra que también está en el artículo: 5 ano.
+- q_25_11 (tema 25): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_25_17 (tema 25): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_25_21 (tema 25): Una respuesta incorrecta usa una cifra que también está en el artículo: 5 ano.
+- q_26_04 (tema 26): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_26_06 (tema 26): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_26_07 (tema 26): Una respuesta incorrecta usa una cifra que también está en el artículo: 72 hora.
+- q_26_14 (tema 26): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_26_15 (tema 26): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 ano, 2 ano.
+- q_27_03 (tema 27): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_27_10 (tema 27): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_27_15 (tema 27): Cifras no localizadas; la ref no dice con certeza de qué norma es el artículo: 1 ano, 2 vez.
+- q_28_10 (tema 28): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_28_12 (tema 28): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_29_02 (tema 29): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_30_02 (tema 30): Una respuesta incorrecta usa una cifra que también está en el artículo: 2 ano, 6 mes.
+- q_30_03 (tema 30): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_30_05 (tema 30): Una respuesta incorrecta usa una cifra que también está en el artículo: 2 ano.
+- q_30_12 (tema 30): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_31_08 (tema 31): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_33_04 (tema 33): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_34_09 (tema 34): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_35_03 (tema 35): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_35_04 (tema 35): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_35_10 (tema 35): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_35_13 (tema 35): Una respuesta incorrecta usa una cifra que también está en el artículo: 74 pct.
+- q_36_06 (tema 36): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_37_11 (tema 37): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_38_02 (tema 38): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_38_04 (tema 38): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_38_20 (tema 38): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_39_02 (tema 39): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_39_13 (tema 39): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_40_04 (tema 40): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_42_02 (tema 42): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_42_08 (tema 42): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano.
+- q_42_12 (tema 42): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano.
+- q_42_21 (tema 42): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 ano, 3 ano, 6 mes.
+- q_43_01 (tema 43): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_44_02 (tema 44): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_45_05 (tema 45): Una respuesta incorrecta usa una cifra que también está en el artículo: 0,5 gramo.
+- q_45_08 (tema 45): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.

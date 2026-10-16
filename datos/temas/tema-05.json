@@ -177,7 +177,8 @@
     "**Gobierno en funciones**: no confundir lo que no puede hacer el Presidente (disolución, cuestión de confianza, referéndum) con lo que no puede hacer el Gobierno (Presupuestos y proyectos de ley). Sí despacha el ordinario y, en caso de urgencia acreditada, puede ir más allá.",
     "**Control**: la vía de hecho va a la jurisdicción contencioso-administrativa; no la lleves al Tribunal Constitucional. El control político es de las Cortes Generales, no del Consejo de Estado.",
     "**Cese del Gobierno**: elecciones generales, pérdida de confianza, dimisión o fallecimiento del **Presidente**. La dimisión de un Ministro no cesa al Gobierno.",
-    "**Personalidad jurídica**: la tiene cada Administración (una sola), no cada órgano ni cada Ministerio."
+    "**Personalidad jurídica**: la tiene cada Administración (una sola), no cada órgano ni cada Ministerio.",
+    "**Denominación literal**: la Ley 40/2015 sigue nombrando al «Ministerio de Hacienda y Administraciones Públicas» (p. ej., arts. 54.2, 59 y 69.3), denominación de 2015 que el texto vigente no ha actualizado: no descartes una opción solo por usar ese nombre."
   ],
   "caido": [
     {
@@ -537,7 +538,5 @@
       "dificultad": 2
     }
   ],
-  "dudas": [
-    "La Ley 40/2015 mantiene la denominación «Ministerio de Hacienda y Administraciones Públicas» (arts. 54.2, 59, 69.3) aunque la estructura ministerial actual es distinta; la ficha reproduce la denominación literal de la ley y no se pregunta por qué ministerio ejerce hoy esas competencias."
-  ]
+  "dudas": []
 }

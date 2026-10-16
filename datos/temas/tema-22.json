@@ -19,6 +19,12 @@
       "boe": "BOE-A-2015-14263",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-14263",
       "verificado": "Texto consolidado, actualización de 19/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto de 14 de septiembre de 1882 por el que se aprueba la Ley de Enjuiciamiento Criminal (art. 544 ter)",
+      "boe": "BOE-A-1882-6036",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "verificado": "Texto consolidado, última actualización de la consolidación 09/04/2026 (leído el 16/10/2026)"
     }
   ],
   "novedades": [
@@ -94,7 +100,8 @@
       "puntos": [
         "**Evaluación individual (art. 23)**: se valoran las circunstancias personales (discapacidad, minoría de edad), la naturaleza y gravedad del delito y el riesgo de reiteración; atención especial a terrorismo, organización criminal, violencia en pareja o familia, delitos sexuales, trata, desaparición forzada y delitos de odio. En delitos contra la libertad sexual se aplican siempre las medidas de las letras a a d del art. 25.1.",
         "**Quién evalúa (art. 24)**: en la investigación, el **Juez de Instrucción o el de Violencia sobre la Mujer**, sin perjuicio de la evaluación y resolución **provisionales** del Fiscal o de la policía en la fase inicial; en el enjuiciamiento, el **Juez o Tribunal**. La víctima puede **renunciar** a las medidas.",
-        "**Menores, víctimas con discapacidad necesitadas de especial protección y víctimas de violencias sexuales (art. 26)**: declaraciones **grabadas**, declaración por **expertos**, **defensor judicial** a petición del Fiscal si hay conflicto de intereses y, ante la duda sobre la edad, se **presume menor**."
+        "**Menores, víctimas con discapacidad necesitadas de especial protección y víctimas de violencias sexuales (art. 26)**: declaraciones **grabadas**, declaración por **expertos**, **defensor judicial** a petición del Fiscal si hay conflicto de intereses y, ante la duda sobre la edad, se **presume menor**.",
+        "**Orden de protección (art. 544 ter LECrim)**: la dicta el **Juez de Instrucción** para víctimas de **violencia doméstica** (personas del art. 173.2 CP) si hay indicios fundados de delito y una **situación objetiva de riesgo**. Se acuerda de oficio o a instancia de la víctima, de quien tenga con ella alguna de esas relaciones o del **Fiscal**, y puede pedirse también ante las **FCS**, las OAV o los servicios sociales. Audiencia urgente en un máximo de **72 horas** desde la solicitud; incluye medidas penales y civiles (estas duran **30 días** salvo que se inicie un proceso de familia) y se inscribe en el **Registro Central para la Protección de las Víctimas de la Violencia Doméstica y de Género**."
       ],
       "tabla": {
         "cabecera": [
@@ -163,7 +170,7 @@
     },
     {
       "examen": "25 oct 2025",
-      "concepto": "Orden de protección y su ámbito (el análisis la clasifica en este tema)"
+      "concepto": "Orden de protección y su ámbito (art. 544 ter LECrim)"
     }
   ],
   "mnemotecnias": [
@@ -275,7 +282,7 @@
         "Hasta que se dicte el auto de apertura de juicio oral"
       ],
       "correcta": 0,
-      "explicacion": "El art. 8.1 fija un periodo de reflexión de 45 días desde el hecho, que queda sin efecto si la víctima solicita expresamente los servicios; el incumplimiento es infracción disciplinaria muy grave (art. 8.2). El plazo de 30 días es inventado y la ley no vincula la prohibición a ninguna fase del proceso.",
+      "explicacion": "El art. 8.1 fija un periodo de reflexión de 45 días desde el hecho, que queda sin efecto si la víctima solicita expresamente los servicios; el incumplimiento es infracción disciplinaria muy grave (art. 8.2). El plazo de 30 días no figura en la ley, que tampoco vincula la prohibición a ninguna fase del proceso.",
       "ref": "art. 8 Ley 4/2015; art. 4 RD 1109/2015",
       "dificultad": 1
     },
@@ -385,14 +392,14 @@
     },
     {
       "id": "q_22_11",
-      "enunciado": "La persona condenada por denuncia falsa o simulación de delito que se hubiera beneficiado de ayudas por su condición de víctima debe reembolsarlas. ¿Con qué interés, según el art. 35 de la Ley 4/2015?",
+      "enunciado": "Quien se benefició de ayudas por su condición de víctima y de medidas de protección de la Ley 4/2015 y después es condenado por denuncia falsa o simulación de delito debe reembolsarlas. ¿Con qué interés, según el art. 35 de esa ley?",
       "opciones": [
         "Con el interés legal del dinero, sin incremento",
         "Con el interés legal del dinero aumentado en un 25 %",
         "Con el interés legal del dinero aumentado en un 50 %"
       ],
       "correcta": 2,
-      "explicacion": "El art. 35.1 obliga a reembolsar las cantidades recibidas y los gastos causados a la Administración con el interés legal del dinero aumentado en un cincuenta por ciento. El RD 1109/2015 (art. 5.4) mantiene el mismo incremento del 50 %.",
+      "explicacion": "El art. 35.1 obliga a reembolsar las cantidades recibidas y los gastos causados a la Administración con el interés legal del dinero aumentado en un cincuenta por ciento. El RD 1109/2015 (art. 5.4) fija el mismo interés de demora: el legal incrementado en un 50 %.",
       "ref": "art. 35 Ley 4/2015; art. 5 RD 1109/2015",
       "dificultad": 2
     },
@@ -475,7 +482,5 @@
       "dificultad": 3
     }
   ],
-  "dudas": [
-    "El análisis de exámenes incluye en este tema una pregunta de P42 sobre la «orden de protección y su ámbito»; la orden de protección se regula en el art. 544 ter de la LECrim (no leído para esta ficha), así que no se ha desarrollado aquí."
-  ]
+  "dudas": []
 }

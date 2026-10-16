@@ -48,7 +48,7 @@
   "novedades": [
     "Reforma de la Constitución de 19 de mayo de 2026 (BOE de 20/05/2026): el art. 69.3 pasa a decir que, en las provincias insulares, cada isla con Cabildo o Consejo Insular es una circunscripción para elegir Senadores, con tres Senadores en cada una de las islas mayores (Gran Canaria, Mallorca y Tenerife) y uno en cada una de Ibiza, Formentera, Menorca, Fuerteventura, La Gomera, El Hierro, Lanzarote y La Palma. Antes, Ibiza y Formentera elegían un único Senador conjunto. La eficacia de las circunscripciones de Ibiza y Formentera queda pospuesta hasta las primeras elecciones al Senado que se celebren tras la entrada en vigor de la reforma. La LO 2/2026, de 30 de junio (en vigor desde el 3 de julio de 2026), adaptó los arts. 161.2 y 165.2 de la LOREG.",
     "LOPJ, art. 26 (LO 1/2025, de 2 de enero): los órganos con potestad jurisdiccional son los jueces de paz, los Tribunales de Instancia, las Audiencias Provinciales, los Tribunales Superiores de Justicia, el Tribunal Central de Instancia, la Audiencia Nacional y el Tribunal Supremo. Con material anterior a esa reforma, la lista no incluía los Tribunales de Instancia ni el Tribunal Central de Instancia.",
-    "CGPJ: la LOPJ vigente (arts. 566-567, tras las LO 4/2013, LO 2/2024 y LO 3/2024) dispone que las Cortes Generales eligen los veinte vocales por mayoría de 3/5, diez cada Cámara (cuatro juristas y seis del turno judicial). El art. 122.3 CE no ha cambiado."
+    "CGPJ: la LOPJ vigente (arts. 566-567, en la redacción de las LO 4/2013 y LO 2/2024) dispone que las Cortes Generales eligen los veinte vocales por mayoría de 3/5, diez cada Cámara (cuatro juristas y seis del turno judicial). El art. 122.3 CE no ha cambiado."
   ],
   "clave": [
     "**Congreso**: mínimo 300 y máximo 400 Diputados (la LOREG fija 350); circunscripción provincial; **4 años**. **Senado**: Cámara de representación territorial; 4 por provincia, **2 por Ceuta y por Melilla**, 3 en las islas mayores y 1 en las demás islas, y 1 + 1 por millón de habitantes por Comunidad Autónoma.",
@@ -304,6 +304,46 @@
           ]
         ]
       }
+    },
+    {
+      "titulo": "Cortes Generales: mayorías, plazos y quién decide (arts. 74-95)",
+      "puntos": [
+        "**Art. 74.2**: las decisiones de los arts. **94.1** (tratados), **145.2** (cooperación entre CCAA) y **158.2** (Fondo de Compensación) exigen mayoría de **cada Cámara**; empieza el **Congreso** en el primer caso y el **Senado** en los otros; si fracasa la **Comisión Mixta**, decide el **Congreso por mayoría absoluta**.",
+        "**Art. 75**: las Cámaras pueden delegar en las Comisiones Legislativas Permanentes y el Pleno puede **recabar** el asunto en cualquier momento; no se delegan la **reforma constitucional, las cuestiones internacionales, las leyes orgánicas y de bases ni los Presupuestos**.",
+        "**Comisiones de investigación** (art. 76): sus conclusiones **no vinculan a los Tribunales**, aunque el resultado puede comunicarse al **Ministerio Fiscal**; comparecer es **obligatorio**. Las **peticiones** a las Cámaras, **siempre por escrito** (art. 77).",
+        "**Quórum y voto** (arts. 79 y 80): asistencia de la **mayoría de los miembros** y aprobación por **mayoría de los presentes**; voto **personal e indelegable**; Plenos públicos salvo acuerdo por **mayoría absoluta** o según el Reglamento.",
+        "**Veto del Senado** (art. 90): lo aprueba su **mayoría absoluta**; el Congreso lo levanta ratificando el texto inicial por **mayoría absoluta** o, pasados **dos meses**, por **mayoría simple**. Los 20 días naturales rigen si declaran urgente el proyecto el **Gobierno o el Congreso**.",
+        "**Decreto-ley y referéndum**: durante los 30 días, las Cortes **pueden** tramitar el decreto-ley como **proyecto de ley por urgencia** (art. 86.3). El referéndum consultivo lo convoca el **Rey**, a propuesta del **Presidente del Gobierno**, **previamente autorizada por el Congreso** (art. 92.2).",
+        "**Tratados** (arts. 93 a 95): la cesión de competencias a organizaciones internacionales, por **ley orgánica**; de los no incluidos en el art. 94.1 solo se **informa** a las Cámaras; si contradicen la CE, **revisión constitucional previa**, y el **Gobierno o cualquier Cámara** puede requerir al TC."
+      ],
+      "ampliado": true
+    },
+    {
+      "titulo": "Gobierno y Corona: quién propone, quién nombra y quién responde",
+      "puntos": [
+        "**Candidato** (art. 99): el Rey lo propone **previa consulta** con los representantes de los grupos con representación parlamentaria y **a través del Presidente del Congreso**; si fracasa, se tramitan **sucesivas propuestas**.",
+        "**Responsabilidad criminal** (art. 102): ante la **Sala de lo Penal del Tribunal Supremo**; por **traición o delito contra la seguridad del Estado**, la acusación exige iniciativa de **la cuarta parte** del Congreso y aprobación de su **mayoría absoluta**. No cabe la prerrogativa real de gracia.",
+        "**Moción de censura** (art. 113): en los **dos primeros días** del plazo de cinco caben **mociones alternativas**; si fracasa, sus **signatarios** no pueden presentar otra en el **mismo periodo de sesiones**.",
+        "**Confianza y disolución**: ambas exigen **previa deliberación del Consejo de Ministros** (arts. 112 y 115.1); negada la confianza, el Gobierno dimite y se aplica el art. 99 (art. 114.1). Puede disolverse el **Congreso, el Senado o las Cortes Generales**; el decreto fija la **fecha de las elecciones**.",
+        "**Gobierno** (arts. 98.3 y 111): sus miembros solo ejercen las funciones representativas del **mandato parlamentario**; los Reglamentos fijan un **tiempo mínimo semanal** para interpelaciones y preguntas; toda interpelación puede acabar en **moción**.",
+        "**Sucesión** (art. 57): en el mismo grado, el **varón a la mujer**; extinguidas las líneas, **proveen las Cortes Generales**; queda excluido, con sus descendientes, quien se case contra la **expresa prohibición del Rey y de las Cortes Generales**.",
+        "**Regencia y tutela** (arts. 58 a 60): el consorte solo asume funciones constitucionales en la Regencia, ejercida **siempre en nombre del Rey**. Tutor del Rey menor: el designado en el testamento del Rey difunto; si no, el padre o la madre mientras sigan **viudos**; en su defecto, las **Cortes Generales**."
+      ],
+      "ampliado": true
+    },
+    {
+      "titulo": "Tribunal Constitucional: Pleno, Salas, plazos y legitimación (LOTC)",
+      "puntos": [
+        "**Presidente** (art. 9 LOTC): lo elige el **Pleno** en votación secreta, por **mayoría absoluta** en primera votación o por **más votos** en la segunda; si el empate se repite, el de **mayor antigüedad** en el cargo. El **Vicepresidente** se elige igual y por 3 años.",
+        "**Salas y Secciones** (arts. 7, 8 y 14): los Magistrados de cada Sala los nombra el **Pleno**; el Presidente del Tribunal preside la **Sala Primera**. Cada Sección: su Presidente y **dos Magistrados**. Quórum de **dos tercios** en Pleno y Salas.",
+        "**Magistrados** (art. 16): los del **Senado** salen de candidaturas de las **Asambleas Legislativas autonómicas**; nadie puede ser propuesto para otro **periodo inmediato**, salvo si ocupó el cargo **3 años o menos**.",
+        "**Cese** (arts. 23 y 24): por renuncia, expiración o fallecimiento lo decreta el **Presidente**; por incapacidad o incompatibilidad sobrevenida, el Pleno por **mayoría simple**; en los demás casos, por **tres cuartas partes**, igual que la suspensión.",
+        "**Recurso de inconstitucionalidad**: **no suspende** la ley, salvo que el Gobierno invoque el art. 161.2 CE contra normas autonómicas (art. 30). Plazo de **9 meses** para el Presidente del Gobierno y los ejecutivos autonómicos si actúa la **Comisión Bilateral de Cooperación** (art. 33.2).",
+        "**Cuestión de inconstitucionalidad** (art. 35): el juez la plantea **concluso el procedimiento**, tras oír a las partes y al Fiscal en **10 días**; el auto no es recurrible. Suspende el **proceso judicial**, no la vigencia de la ley (art. 30).",
+        "**Amparo** (arts. 46 y 50): recurre la **persona directamente afectada** (art. 42) o **quien fue parte** en el proceso judicial (arts. 43 y 44) y, siempre, el **Defensor del Pueblo** y el **Ministerio Fiscal**. La Sección admite **por unanimidad**; si no, decide la Sala; la inadmisión solo la recurre el **Fiscal**.",
+        "**Impugnación del art. 161.2 CE** (arts. 76 y 77): el Gobierno dispone de **2 meses** desde la publicación de la disposición o resolución autonómica sin fuerza de ley; la suspensión se ratifica o levanta en **5 meses** como máximo."
+      ],
+      "ampliado": true
     }
   ],
   "trampas": [
@@ -312,7 +352,7 @@
     "**Mayorías**: ley orgánica = mayoría absoluta **del Congreso** (no de cada Cámara); cuestión de confianza = mayoría **simple**; moción de censura = mayoría **absoluta**; reforma ordinaria = **3/5**; agravada = **2/3**; art. 150.3 = mayoría absoluta de **cada** Cámara; art. 155 = mayoría absoluta del **Senado**.",
     "**Delegación legislativa**: ley de bases para textos articulados y ley ordinaria para refundir; cambian el orden o ponen ley orgánica. No se puede delegar en materias de ley orgánica.",
     "**Plazos del amparo**: 20 días (Gobierno o Administración), 30 días (órgano judicial) y 3 meses (Cortes o Asambleas). El recurso de inconstitucionalidad tiene 3 meses desde la publicación.",
-    "**Composición del TC y del CGPJ**: TC 4 + 4 + 2 + 2 con 12 miembros y 9 años; CGPJ 12 + 4 + 4 más el Presidente del Supremo, 5 años. El Presidente del TC dura 3 años. No confundir los números.",
+    "**Composición del TC y del CGPJ**: TC 4 + 4 + 2 + 2 con 12 miembros y 9 años; CGPJ 12 + 4 + 4 más el Presidente del Supremo, 5 años. El Presidente del TC dura 3 años. No confundir los números. El 12 + 4 + 4 es el reparto del art. 122.3 CE; la LOPJ (art. 567.2) hace que cada Cámara elija 10 vocales (4 juristas y 6 del turno judicial): si el enunciado cita la Constitución, responde con el art. 122.3.",
     "**Quién refrenda**: el Presidente del Congreso (no el del Gobierno) refrenda la propuesta y el nombramiento del Presidente del Gobierno y la disolución del art. 99.5.",
     "**Vías autonómicas**: 2/3 de municipios (art. 143) frente a 3/4 más referéndum (art. 151); plazos de 6 meses y 5 años; Ceuta y Melilla requieren ley orgánica de las Cortes.",
     "**Proceso de reforma agravada** (art. 168): incluye la Sección 1.ª del Capítulo II del Título I (arts. 15-29), no los arts. 30 a 38 ni los principios rectores; esos se reforman por el procedimiento del art. 167.",
@@ -463,6 +503,21 @@
       "id": "t_03_21",
       "p": "¿Quién nombra al Fiscal General del Estado?",
       "r": "El **Rey**, a propuesta del **Gobierno**, oído el Consejo General del Poder Judicial (art. 124.4 CE)."
+    },
+    {
+      "id": "t_03_22",
+      "p": "¿Qué asuntos no pueden delegarse en las Comisiones Legislativas Permanentes?",
+      "r": "La **reforma constitucional**, las **cuestiones internacionales**, las **leyes orgánicas y de bases** y los **Presupuestos Generales del Estado** (art. 75.3 CE)."
+    },
+    {
+      "id": "t_03_23",
+      "p": "¿Quién convoca el referéndum consultivo del art. 92 CE?",
+      "r": "El **Rey**, a propuesta del **Presidente del Gobierno**, previamente autorizada por el **Congreso de los Diputados** (art. 92.2 CE)."
+    },
+    {
+      "id": "t_03_24",
+      "p": "¿Quién decide el cese de un Magistrado del Tribunal Constitucional?",
+      "r": "El **Presidente** en renuncia, expiración del plazo y fallecimiento; el **Pleno por mayoría simple** en incapacidad o incompatibilidad sobrevenida, y por **tres cuartas partes** en los demás casos (art. 23 LOTC)."
     }
   ],
   "preguntas": [
@@ -751,9 +806,111 @@
       "explicacion": "Art. 124.4 CE: nombrado por el Rey, a propuesta del Gobierno, oído el Consejo General del Poder Judicial. El Consejo propone, en cambio, al Presidente del Tribunal Supremo (art. 123.2) y dos Magistrados del Tribunal Constitucional (art. 159.1).",
       "ref": "art. 124.4 CE",
       "dificultad": 1
+    },
+    {
+      "id": "q_03_23",
+      "enunciado": "Según el artículo 74.2 de la Constitución, la decisión de las Cortes Generales sobre la distribución de los recursos del Fondo de Compensación (art. 158.2) se adopta por mayoría de cada Cámara. ¿En qué Cámara se inicia el procedimiento y quién decide si no se aprueba el texto de la Comisión Mixta?",
+      "opciones": [
+        "Se inicia en el Senado y, en último término, decide el Congreso por mayoría absoluta",
+        "Se inicia en el Congreso y, en último término, decide el Senado por mayoría absoluta",
+        "Se inicia en el Senado y, en último término, decide el Congreso por mayoría simple"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 74.2 CE: las decisiones de los arts. 94.1, 145.2 y 158.2 se adoptan por mayoría de cada una de las Cámaras; en el primer caso (autorización de tratados) el procedimiento se inicia por el Congreso, y en los otros dos (acuerdos de cooperación entre Comunidades Autónomas y Fondo de Compensación), por el Senado. Si no hay acuerdo, se intenta mediante una Comisión Mixta de igual número de Diputados y Senadores, y si su texto no se aprueba, decide el Congreso por mayoría absoluta, no por mayoría simple.",
+      "ref": "art. 74.2 CE",
+      "dificultad": 3
+    },
+    {
+      "id": "q_03_24",
+      "enunciado": "Las Cámaras pueden delegar en sus Comisiones Legislativas Permanentes la aprobación de proyectos o proposiciones de ley. Según el artículo 75 de la Constitución, ¿cuál de los siguientes podría aprobarse por esa vía?",
+      "opciones": [
+        "Un proyecto de ley de bases para la formación de un texto articulado",
+        "Un proyecto de ley ordinaria sobre el régimen jurídico de los Colegios Profesionales",
+        "El proyecto de Ley de Presupuestos Generales del Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 75.3 CE: quedan exceptuados de la delegación en las Comisiones Legislativas Permanentes la reforma constitucional, las cuestiones internacionales, las leyes orgánicas y de bases y los Presupuestos Generales del Estado. Una ley ordinaria sobre Colegios Profesionales (art. 36) no figura en esa lista, de modo que puede aprobarse por delegación, aunque el Pleno puede recabar en cualquier momento su debate y votación (art. 75.2).",
+      "ref": "art. 75 CE",
+      "dificultad": 3
+    },
+    {
+      "id": "q_03_25",
+      "enunciado": "El Senado opone su veto, por mayoría absoluta, a un proyecto de ley aprobado por el Congreso. Según el artículo 90.2 de la Constitución, ¿cómo puede el Congreso levantarlo?",
+      "opciones": [
+        "Ratificando el texto inicial por mayoría de tres quintos o, transcurridos dos meses desde el veto, por mayoría absoluta",
+        "Ratificando el texto inicial por mayoría simple en cualquier momento, sin plazo de espera",
+        "Ratificando el texto inicial por mayoría absoluta o, transcurridos dos meses desde la interposición del veto, por mayoría simple"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 90.2 CE: el proyecto vetado no puede someterse al Rey para su sanción sin que el Congreso ratifique el texto inicial por mayoría absoluta o, una vez transcurridos dos meses desde la interposición del veto, por mayoría simple. Las enmiendas del Senado se aceptan o rechazan por mayoría simple. La Constitución no exige tres quintos para superar el veto, y la mayoría simple solo basta pasados esos dos meses.",
+      "ref": "art. 90.2 CE",
+      "dificultad": 3
+    },
+    {
+      "id": "q_03_26",
+      "enunciado": "Según el artículo 102 de la Constitución, si la acusación contra el Presidente o un miembro del Gobierno es por traición o por cualquier delito contra la seguridad del Estado en el ejercicio de sus funciones, solo podrá plantearse:",
+      "opciones": [
+        "A iniciativa de la décima parte de los Diputados y con la aprobación de la mayoría absoluta del Congreso",
+        "A iniciativa de la cuarta parte de los miembros del Congreso y con la aprobación de la mayoría absoluta del mismo",
+        "A iniciativa del Fiscal General del Estado y con la autorización de la mayoría absoluta de cada Cámara"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 102.2 CE: en esos casos la acusación solo puede plantearse por iniciativa de la cuarta parte de los miembros del Congreso y con la aprobación de la mayoría absoluta del mismo. La responsabilidad criminal se exige ante la Sala de lo Penal del Tribunal Supremo (art. 102.1) y la prerrogativa real de gracia no se aplica a ninguno de estos supuestos (art. 102.3). La décima parte de los Diputados es la que puede proponer la moción de censura (art. 113.2), y el Senado no interviene.",
+      "ref": "art. 102 CE",
+      "dificultad": 3
+    },
+    {
+      "id": "q_03_27",
+      "enunciado": "Una moción de censura presentada en el Congreso no obtiene la mayoría necesaria. Según el artículo 113 de la Constitución:",
+      "opciones": [
+        "Sus signatarios no podrán presentar otra durante el mismo período de sesiones",
+        "Sus signatarios no podrán presentar otra hasta que transcurra un año desde la votación",
+        "Ningún Diputado podrá presentar otra moción de censura durante el mismo período de sesiones"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 113.4 CE: si la moción de censura no es aprobada por el Congreso, sus signatarios no pueden presentar otra durante el mismo período de sesiones. La prohibición alcanza solo a quienes la firmaron, no a todos los Diputados, y se mide por período de sesiones; el año es el plazo que impide una nueva disolución (art. 115.3). En los dos primeros días del plazo de cinco pueden presentarse mociones alternativas (art. 113.3).",
+      "ref": "art. 113 CE",
+      "dificultad": 3
+    },
+    {
+      "id": "q_03_28",
+      "enunciado": "Según la Ley Orgánica del Tribunal Constitucional, ¿cómo se elige al Presidente del Tribunal?",
+      "opciones": [
+        "Lo elige el Pleno entre sus miembros por mayoría de tres quintos y el Rey lo nombra por tres años, sin posibilidad de reelección",
+        "Lo propone el Consejo General del Poder Judicial entre los Magistrados del Tribunal y el Rey lo nombra por tres años",
+        "Lo elige el Pleno entre sus miembros, en votación secreta, por mayoría absoluta en primera votación o, si no se alcanza, por el mayor número de votos en la segunda, y el Rey lo nombra por tres años"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 9 LOTC (y art. 160 CE): el Tribunal en Pleno elige de entre sus miembros, por votación secreta, a su Presidente y propone al Rey su nombramiento; en primera votación se requiere la mayoría absoluta y, si no se alcanza, en la segunda resulta elegido quien obtenga mayor número de votos. El nombramiento es por tres años y puede ser reelegido por una sola vez. No se exigen tres quintos, y el Consejo General del Poder Judicial propone dos Magistrados del Tribunal (art. 159.1 CE), no a su Presidente.",
+      "ref": "art. 9 LOTC",
+      "dificultad": 3
+    },
+    {
+      "id": "q_03_29",
+      "enunciado": "Una persona considera que la sentencia dictada en un proceso en el que fue parte ha vulnerado su derecho a la tutela judicial efectiva. Según el artículo 46 de la Ley Orgánica del Tribunal Constitucional, ¿quiénes están legitimados para interponer el recurso de amparo?",
+      "opciones": [
+        "Quienes hayan sido parte en el proceso judicial correspondiente, el Defensor del Pueblo y el Ministerio Fiscal",
+        "Toda persona que invoque un interés legítimo, aunque no haya sido parte en el proceso, y el Defensor del Pueblo, pero no el Ministerio Fiscal",
+        "Solo quien haya sido parte en el proceso, porque el Defensor del Pueblo y el Ministerio Fiscal únicamente recurren decisiones parlamentarias"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 46.1 LOTC: en los casos de los arts. 43 y 44 (violaciones originadas por el Gobierno o la Administración, o por un órgano judicial) están legitimados quienes hayan sido parte en el proceso judicial correspondiente, el Defensor del Pueblo y el Ministerio Fiscal; en los del art. 42 (decisiones sin valor de ley de las Cortes o de las Asambleas autonómicas), la persona directamente afectada, el Defensor del Pueblo y el Ministerio Fiscal. El Defensor y el Fiscal están legitimados en todos los casos.",
+      "ref": "art. 46 LOTC",
+      "dificultad": 3
+    },
+    {
+      "id": "q_03_30",
+      "enunciado": "El plazo general del recurso de inconstitucionalidad es de tres meses desde la publicación de la norma. Según el artículo 33.2 de la Ley Orgánica del Tribunal Constitucional, el Presidente del Gobierno puede interponerlo contra una ley autonómica en el plazo de nueve meses cuando:",
+      "opciones": [
+        "Lo solicite al Tribunal Constitucional dentro de los tres meses siguientes a la publicación, previo dictamen del Consejo de Estado",
+        "Se reúna la Comisión Bilateral de Cooperación con la Comunidad Autónoma, acuerde iniciar negociaciones y el acuerdo se comunique al Tribunal Constitucional dentro de los tres meses siguientes a la publicación",
+        "Lo autorice el Senado por mayoría absoluta dentro del mes siguiente a la publicación de la ley autonómica"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 33.2 LOTC: el Presidente del Gobierno y los órganos colegiados ejecutivos de las Comunidades Autónomas disponen de nueve meses si se reúne la Comisión Bilateral de Cooperación entre la Administración General del Estado y la Comunidad Autónoma, en su seno se acuerda iniciar negociaciones para resolver las discrepancias y el acuerdo se pone en conocimiento del Tribunal Constitucional dentro de los tres meses siguientes a la publicación, insertándose en el BOE y en el diario oficial autonómico. No intervienen el Consejo de Estado ni el Senado, y los demás legitimados conservan su facultad de recurrir (art. 33.3).",
+      "ref": "art. 33.2 LOTC",
+      "dificultad": 3
     }
   ],
-  "dudas": [
-    "No se detallan las competencias del CGPJ ni el procedimiento de elección de los vocales del turno judicial (LOPJ arts. 568 y siguientes), porque el Anexo I solo remite a la Constitución (Título VI)."
-  ]
+  "dudas": []
 }

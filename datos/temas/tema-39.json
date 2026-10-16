@@ -11,7 +11,7 @@
     {
       "nombre": "ITU-T X.200 | ISO/IEC 7498-1: modelo de referencia de interconexión de sistemas abiertos (OSI)",
       "url": "https://www.itu.int/rec/T-REC-X.200-199407-I/en",
-      "verificado": "Recomendación aprobada el 01/07/1994, en vigor; índice con las siete capas (sección 7) leído el 16/10/2026"
+      "verificado": "Recomendación aprobada el 01/07/1994, en vigor; sección 7 (las siete capas, en especial 7.4 y 7.5) leída el 16/10/2026"
     },
     {
       "nombre": "RFC 1122: Requirements for Internet Hosts, Communication Layers (modelo TCP/IP, direcciones especiales)",
@@ -51,7 +51,7 @@
     {
       "nombre": "RFC 3927: Dynamic Configuration of IPv4 Link-Local Addresses",
       "url": "https://www.rfc-editor.org/rfc/rfc3927",
-      "verificado": "Texto leído el 16/10/2026"
+      "verificado": "Texto leído el 16/10/2026 (apartados 1 y 2.7: los paquetes de enlace local no se reenvían)"
     },
     {
       "nombre": "RFC 6598: IANA-Reserved IPv4 Prefix for Shared Address Space",
@@ -91,7 +91,7 @@
     {
       "nombre": "Microsoft Learn: cómo usar el direccionamiento TCP/IP automático sin servidor DHCP (APIPA)",
       "url": "https://learn.microsoft.com/en-us/windows-server/troubleshoot/how-to-use-automatic-tcpip-addressing-without-a-dh",
-      "verificado": "Consultado a través de buscador el 16/10/2026"
+      "verificado": "Leído el 16/10/2026 (rango 169.254.0.0/16; sin comunicación con otras subredes)"
     },
     {
       "nombre": "RFC 1034 (Domain Names, Concepts and Facilities) y RFC 1035 (Domain Names, Implementation and Specification)",
@@ -722,7 +722,7 @@
       ],
       "correcta": 1,
       "explicacion": "La capa de red (capa 3) trabaja con direcciones lógicas (IP) y decide la ruta de los paquetes entre redes; en TCP/IP equivale a la capa de internet. La capa de enlace entrega tramas dentro de la red local mediante direcciones MAC y la de transporte comunica procesos mediante puertos.",
-      "ref": "ITU-T X.200 (capa 3); RFC 1122, apartado 1.1.3",
+      "ref": "ITU-T X.200, apartado 7.5 (capa de red); RFC 1122, apartado 1.1.3",
       "dificultad": 1
     },
     {
@@ -838,8 +838,8 @@
         "Se ha autoasignado una dirección de enlace local porque no obtuvo respuesta de ningún servidor DHCP."
       ],
       "correcta": 2,
-      "explicacion": "El rango 169.254.0.0/16 es el de direcciones de enlace local (RFC 3927), que el equipo se autoasigna cuando no hay respuesta de un servidor DHCP; en Windows se llama APIPA y no incluye puerta de enlace. No es una dirección pública del proveedor ni la de loopback, que pertenece a 127.0.0.0/8.",
-      "ref": "RFC 3927; RFC 1122, apartado 3.2.1.3",
+      "explicacion": "El rango 169.254.0.0/16 es el de direcciones de enlace local (RFC 3927), que el equipo se autoasigna cuando no hay respuesta de un servidor DHCP; en Windows se llama APIPA. Solo sirve dentro del enlace local: los routers no reenvían paquetes con estas direcciones. No es una dirección pública del proveedor ni la de loopback, que pertenece a 127.0.0.0/8.",
+      "ref": "RFC 3927, apartados 1 y 2.7; RFC 1122, apartado 3.2.1.3; Microsoft Learn, APIPA",
       "dificultad": 2
     },
     {
@@ -872,13 +872,13 @@
       "id": "q_39_13",
       "enunciado": "Señale la afirmación INCORRECTA sobre dispositivos de red:",
       "opciones": [
-        "Un concentrador (hub) opera en la capa física y repite la señal que recibe por todos sus demás puertos.",
+        "Un cortafuegos (firewall) se sitúa en el límite de una red y permite o limita el tráfico según un conjunto de normas.",
         "Un conmutador (switch) aprende las direcciones MAC de origen y reenvía cada trama por el puerto del destinatario.",
         "Un encaminador (router) decide por qué puerto reenvía cada trama en función de su dirección MAC de destino."
       ],
       "correcta": 2,
-      "explicacion": "El router trabaja en la capa de red y decide la ruta de cada paquete según la dirección IP de destino; reenviar tramas según la MAC es función del switch. Las dos primeras afirmaciones describen bien al hub y al switch.",
-      "ref": "Cisco, Catalyst 2960 SCG (direcciones MAC); INCIBE, Glosario (router)",
+      "explicacion": "El router trabaja en la capa de red: comprueba la dirección de destino de cada paquete (la IP) y decide por qué ruta enviarlo; reenviar tramas según la dirección MAC es función del switch, que aprende las MAC de origen en su tabla. La afirmación sobre el cortafuegos coincide con la definición de INCIBE.",
+      "ref": "Cisco, Catalyst 2960 SCG (tabla de direcciones MAC); INCIBE, Glosario (router y cortafuegos)",
       "dificultad": 2
     },
     {
@@ -930,7 +930,7 @@
       ],
       "correcta": 0,
       "explicacion": "El secundario recibe la zona del primario por transferencia de zona (AXFR) y responde con esa copia; el primario es la fuente original de los datos de la zona. Las otras opciones atribuyen al secundario la función del primario o describen mal a un servidor de consulta.",
-      "ref": "RFC 1035 (registro SOA); RFC 5936",
+      "ref": "RFC 1034, apartado 4.3.5; RFC 5936",
       "dificultad": 2
     },
     {
@@ -995,13 +995,13 @@
       ],
       "correcta": 2,
       "explicacion": "La capa de transporte (capa 4) comunica los procesos del equipo de origen y del de destino y los identifica con puertos; en ella trabajan TCP y UDP. La capa de red solo encamina paquetes y la de sesión gestiona el diálogo entre aplicaciones.",
-      "ref": "ITU-T X.200 (capa 4); RFC 1122, apartado 1.1.3",
+      "ref": "ITU-T X.200, apartado 7.4 (capa de transporte); RFC 1122, apartado 1.1.3",
       "dificultad": 1
     }
   ],
   "dudas": [
-    "Los nombres de las unidades de datos (bits, trama, paquete, segmento) y la ubicación de ARP entre las capas 2 y 3 siguen la convención de los manuales; la Recomendación X.200 no usa esos nombres.",
-    "La inclusión de la capa de sesión dentro de la capa de aplicación de TCP/IP y la división de TCP/IP en 5 capas son convenciones de manuales; el RFC 1122 solo habla de 4 capas y menciona presentación y aplicación.",
-    "Las características de hub (repetidor que envía por todos los puertos) y las de las clases de dispositivos son hechos de manual: no encontré una fuente web oficial que los recoja con esas palabras."
+    "Los nombres de las unidades de datos (bit, trama, paquete, segmento) y situar ARP entre las capas 2 y 3 son convenciones de los manuales: la Recomendación X.200 no los fija. Es la terminología que usan los exámenes.",
+    "El RFC 1122 define 4 capas y dice que la de aplicación reúne presentación y aplicación de OSI; añadirle la sesión o hablar de 5 capas es convención de manuales. Si la pregunta cita el RFC, son 4.",
+    "Que el hub trabaja en la capa física y repite la señal por todos sus puertos es doctrina de manual, sin una norma de acceso libre que lo defina con esas palabras; es la respuesta habitual en los exámenes."
   ]
 }

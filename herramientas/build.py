@@ -37,6 +37,30 @@ def comprobar_ids(temas):
     return len(vistos)
 
 
+def anadir_auditoria(temas, ruta="datos/auditoria.json"):
+    """Copia a cada pregunta su estado de verificación (datos/auditoria.json, de auditar_preguntas.py).
+
+    Solo si la pregunta no ha cambiado desde la auditoría (misma huella): si se editó después, no lleva
+    insignia hasta que se vuelva a auditar. Devuelve el resumen para la web (o None si no hay auditoría)."""
+    if not os.path.exists(ruta):
+        return None
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import auditar_preguntas  # noqa: E402
+    aud = leer(ruta)
+    estados = aud.get("preguntas", {})
+    vigentes = {}
+    for d in temas.values():
+        for q in d.get("preguntas", []):
+            r = estados.get(q.get("id"))
+            if not r or r.get("huella") != auditar_preguntas.huella(q):
+                continue
+            q["verif"] = {"e": r["estado"]}
+            if r["estado"] == "revisada":
+                q["verif"]["por"] = (r.get("revision") or {}).get("por", "persona")
+            vigentes[r["estado"]] = vigentes.get(r["estado"], 0) + 1
+    return {"fecha": aud.get("generado"), "resumen": vigentes}
+
+
 def main():
     dir_temas = "datos/temas"
     out = "web/data/datos.js"
@@ -65,6 +89,9 @@ def main():
         d["peso"].setdefault("nota", peso.get("nota", ""))
         temas[n] = d
     comprobar_ids({k: v for k, v in temas.items() if v})
+    meta["auditoria"] = anadir_auditoria({k: v for k, v in temas.items() if v})
+    # Requisitos, calendario, idioma y psicotécnicos de la convocatoria (pestañas Proceso, Psicotécnicos y Panel)
+    meta["proceso"] = leer("datos/proceso.json") if os.path.exists("datos/proceso.json") else None
     # el peso también va en meta (para el temario aunque falte contenido)
     for t in meta["temas"]:
         pe = pesos.get(t["tema"], {})
