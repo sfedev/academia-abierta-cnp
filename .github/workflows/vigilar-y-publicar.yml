@@ -56,6 +56,19 @@ jobs:
             git push
           fi
 
+      - name: Mantener activo el programador
+        # GitHub desactiva los workflows programados de un repositorio público tras 60 días sin actividad.
+        # Si el último commit tiene más de 40 días, se añade uno vacío para que la vigilancia no se apague.
+        run: |
+          ultimo=$(git log -1 --format=%ct)
+          ahora=$(date +%s)
+          if [ $(( (ahora - ultimo) / 86400 )) -ge 40 ]; then
+            git config user.name "vigilante-leyes"
+            git config user.email "actions@users.noreply.github.com"
+            git commit --allow-empty -m "Mantener activo el programador de la vigilancia"
+            git push
+          fi
+
       - name: Avisar con un issue si hay cambios nuevos
         if: steps.vigilar.outputs.nuevas != '' && steps.vigilar.outputs.nuevas != '0'
         env:
