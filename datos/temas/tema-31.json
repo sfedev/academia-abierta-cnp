@@ -1,0 +1,460 @@
+{
+  "tema": 31,
+  "titulo": "Inmigración: causas, efectos e integración social",
+  "bloque": "B",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "Entre 0 y 1 pregunta por examen (media 0,8). Han caído las causas de la migración (económicas, sociopolíticas, ambientales y sociales), la OIM (1951), los CETI y su ministerio, el síndrome de Ulises y el Proceso de Jartum."
+  },
+  "normas": [
+    {
+      "nombre": "Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social (arts. 2 bis, 2 ter, 69, 70 y 71)",
+      "boe": "BOE-A-2000-544",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544",
+      "verificado": "Texto consolidado, actualización de 03/07/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto 1155/2024, de 19 de noviembre, por el que se aprueba el Reglamento de la Ley Orgánica 4/2000 (arts. 263 a 265: centros de migraciones)",
+      "boe": "BOE-A-2024-24099",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099",
+      "verificado": "Texto consolidado, actualización de 22/09/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 12/2009, de 30 de octubre, reguladora del derecho de asilo y de la protección subsidiaria (arts. 3 y 4)",
+      "boe": "BOE-A-2009-17242",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-17242",
+      "verificado": "Texto consolidado, actualización de 15/06/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "INE, Indicadores Demográficos Básicos: informe metodológico estandarizado (definiciones de inmigración, saldo migratorio y otros)",
+      "url": "https://www.ine.es/dynt3/metadatos/RespuestaPrint.htm?oper=33",
+      "verificado": "Definiciones leídas el 16/10/2026"
+    },
+    {
+      "nombre": "INE, Estadística Continua de Población (1 de julio de 2026, datos provisionales, nota de prensa de 6/8/2026; 1 de enero de 2026, nota de 12/2/2026)",
+      "url": "https://www.ine.es/dyngs/Prensa/ECP2T26.htm",
+      "verificado": "Notas de prensa leídas el 16/10/2026"
+    },
+    {
+      "nombre": "Naciones Unidas, Pacto Mundial para una Migración Segura, Ordenada y Regular (documento A/CONF.231/L.1, Marrakech, 10/12/2018; Res. 73/195 de la Asamblea General, 19/12/2018)",
+      "url": "https://digitallibrary.un.org/record/1654594/files/A_CONF-231_L-1-ES.pdf",
+      "verificado": "Fechas, resolución y número de objetivos contrastados el 16/10/2026 con extractos del buscador; el documento no se leyó íntegro"
+    },
+    {
+      "nombre": "Proceso de Rabat y Proceso de Jartum (secretarías: ICMPD); Cumbre de La Valeta (2015)",
+      "url": "https://www.khartoumprocess.net/about",
+      "verificado": "Fechas y ámbito contrastados el 16/10/2026 con extractos del buscador sobre las páginas de ambos procesos"
+    },
+    {
+      "nombre": "Organización Internacional para las Migraciones (OIM): historia; Estadísticas de población migrante de la ONU (UN DESA, International Migrant Stock 2024)",
+      "url": "https://en.wikipedia.org/wiki/International_Organization_for_Migration",
+      "verificado": "Fuente secundaria leída el 16/10/2026; la web de la OIM bloqueó el acceso directo. UN DESA: https://www.un.org/development/desa/pd/content/international-migrant-stock"
+    },
+    {
+      "nombre": "J. Achotegui, «Estrés crónico y múltiple (síndrome de Ulises)», Revista Migraciones (Universidad Pontificia Comillas)",
+      "url": "https://revistas.comillas.edu/index.php/revistamigraciones/article/download/3083/2847",
+      "verificado": "Definición y cuatro estresores contrastados el 16/10/2026 con extractos del buscador"
+    }
+  ],
+  "novedades": [
+    "**Pacto de la UE sobre Migración y Asilo**: comenzó a aplicarse en todos los Estados miembros el **12 de junio de 2026**, de forma gradual. Es Derecho de la UE vinculante, distinto del Pacto Mundial de la ONU de 2018 (no vinculante).",
+    "**RD 1155/2024**: el nuevo Reglamento de extranjería regula los centros de migraciones y los CETI en los arts. 263 a 265 (en el Reglamento anterior eran los arts. 264 a 266).",
+    "Datos del INE a **1 de julio de 2026** (provisionales): 49.801.559 habitantes; 7.437.543 extranjeros y 10.291.807 nacidos en el extranjero. La nota del INE de 12/2/2026 destacó que España superaba por primera vez los 10 millones de habitantes nacidos en el extranjero (a 1 de enero de 2026: 10.004.581)."
+  ],
+  "clave": [
+    "**INE**: inmigración = acción por la que una persona fija su residencia habitual en un territorio por un período que es, o se espera que sea, de **al menos doce meses**, habiendo sido residente habitual de otro territorio. **Saldo migratorio** = inmigraciones menos emigraciones.",
+    "**Causas de las migraciones**: factores **económicos**, **sociopolíticos** (guerras, persecución, inestabilidad), **ambientales** (desastres, cambio climático) y **sociales** (familia, redes, estudios). Se agrupan en factores de **expulsión** y de **atracción**.",
+    "**OIM** (Organización Internacional para las Migraciones): fundada en **1951** para trasladar a migrantes y refugiados europeos tras la Segunda Guerra Mundial; desde septiembre de **2016** es una organización vinculada a la ONU.",
+    "**CETI** (Centros de Estancia Temporal de Inmigrantes): están en **Ceuta y Melilla** y forman parte de la red pública de centros de migraciones del **Ministerio de Inclusión, Seguridad Social y Migraciones** (arts. 263 a 265 del RD 1155/2024).",
+    "**Síndrome de Ulises** (Joseba Achotegui, 2002): **estrés crónico y múltiple** del inmigrante; cuatro estresores: **soledad** por la separación familiar, **fracaso** del proyecto migratorio, **lucha por la supervivencia** y **miedo**.",
+    "**Proceso de Rabat** (conferencia de Rabat, julio de 2006; diálogo euroafricano), **Proceso de Jartum** (Roma, noviembre de 2014; **ruta UE-Cuerno de África**) y **Cumbre de La Valeta** (noviembre de 2015): ambos procesos forman el Marco de La Valeta.",
+    "**Pacto Mundial para una Migración Segura, Ordenada y Regular**: adoptado en **Marrakech (10-11/12/2018)** y respaldado por la Asamblea General en su **Res. 73/195 (19/12/2018)**; **23 objetivos**; **no vinculante**.",
+    "**LO 4/2000**: art. 2 ter (integración: plena integración en un marco de convivencia de identidades y culturas diversas, sin más límite que la Constitución y la ley); art. 70 (**Foro para la Integración Social de los Inmigrantes**); art. 71 (**OBERAXE**).",
+    "**España (INE, 1 de julio de 2026)**: principales nacionalidades de los inmigrantes en el segundo trimestre, **colombiana, venezolana y marroquí**; la población **nacida en el extranjero** supera a la de **nacionalidad extranjera** por las adquisiciones de nacionalidad española."
+  ],
+  "resumen": [
+    {
+      "titulo": "Concepto y tipos de migración",
+      "puntos": [
+        "**Inmigración** (INE): acción por la cual una persona fija su residencia habitual en un territorio por un período que es, o se espera que sea, de al menos **doce meses**, habiendo sido previamente residente habitual de otro territorio distinto. **Saldo migratorio**: diferencia entre inmigraciones y emigraciones. **Crecimiento de la población** = saldo vegetativo + saldo migratorio.",
+        "Clasificaciones habituales (de manual): según el espacio, **interna** (dentro de un mismo país) o **internacional**; según la duración, **temporal, estacional o permanente**; según la voluntad, **voluntaria** o **forzosa**; según la situación administrativa, **regular** o **irregular**; según el motivo, económica, política, familiar, de estudios o ambiental.",
+        "Migración forzosa y asilo: la Ley 12/2009 (art. 3) reconoce la condición de **refugiado** a quien, por fundados temores de persecución por motivos de raza, religión, nacionalidad, opiniones políticas, pertenencia a determinado grupo social, género, orientación sexual o identidad sexual, se encuentra fuera del país de su nacionalidad y no puede o no quiere acogerse a su protección. La **protección subsidiaria** (art. 4) ampara a quien se enfrentaría a un riesgo real de daños graves."
+      ]
+    },
+    {
+      "titulo": "Causas y efectos",
+      "puntos": [
+        "Se agrupan en cuatro tipos de causas: **económicas** (pobreza, desempleo, diferencias salariales), **sociopolíticas** (guerras, persecuciones, violaciones de derechos humanos), **ambientales** (desastres naturales, desertificación, cambio climático) y **sociales** (reagrupación familiar, redes migratorias, estudios). Una misma migración suele deberse a varias a la vez. Los factores de **expulsión** («push») actúan en el origen y los de **atracción** («pull») en el destino.",
+        "**Síndrome de Ulises** (Achotegui): cuadro de estrés crónico y múltiple vinculado a duelos migratorios muy intensos; sus síntomas son depresivos, de ansiedad, somáticos y confusionales. Se sitúa en el límite entre la salud mental y la psicopatología: el autor no lo considera una enfermedad en sentido estricto."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Ámbito",
+          "Efectos habituales (esquema doctrinal)"
+        ],
+        "filas": [
+          [
+            "País de origen",
+            "Remesas, alivio del desempleo; pérdida de población joven y cualificada, desestructuración familiar"
+          ],
+          [
+            "País de destino",
+            "Aporte de mano de obra y de población (natalidad, envejecimiento), diversidad cultural; presión sobre servicios, riesgo de segregación y xenofobia"
+          ],
+          [
+            "Persona migrante",
+            "Oportunidades económicas; duelo migratorio, estrés, discriminación, síndrome de Ulises"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Grandes migraciones históricas y actualidad",
+      "puntos": [
+        "Hitos que suelen citarse (sin cifras): las migraciones de los pueblos germánicos en la Antigüedad tardía, la trata transatlántica de esclavos (siglos XVI al XIX), la gran emigración europea hacia América (siglos XIX y comienzos del XX), los desplazamientos de la Segunda Guerra Mundial y la reconstrucción de Europa (década de 1950) y, desde finales del siglo XX, la intensificación de los flujos por la globalización y los conflictos. España fue país de emigración (a América y, en los años sesenta, a Alemania, Francia y Suiza) y se convirtió en país receptor de inmigración a partir de la década de 1990.",
+        "**Mundo**: a mediados de 2024 había unos **304 millones de migrantes internacionales**, el 3,7 % de la población mundial (estimaciones de la ONU recogidas por fuentes secundarias).",
+        "**España (INE, ECP a 1 de julio de 2026, datos provisionales)**: **49.801.559** habitantes (máximo histórico); **7.437.543** extranjeros (nacionalidad) y **10.291.807** nacidos en el extranjero. La diferencia se debe a las adquisiciones de nacionalidad española. Principales nacionalidades de los inmigrantes en el 2.º trimestre: **colombiana (34.000 llegadas), venezolana (23.300) y marroquí (21.100)**."
+      ]
+    },
+    {
+      "titulo": "Marco internacional de cooperación",
+      "puntos": [
+        "**OIM**: nació en **1951** como comité intergubernamental para trasladar a migrantes europeos tras la Segunda Guerra Mundial, tuvo varias denominaciones y adoptó el nombre actual en 1989; en septiembre de 2016 la Asamblea General aprobó el acuerdo que la convierte en organización vinculada a la ONU.",
+        "**Pacto Mundial** (Marrakech, 10 y 11 de diciembre de 2018): 23 objetivos, no vinculante; la Asamblea General lo respaldó el 19 de diciembre de 2018 (Res. 73/195). Algunos Estados anunciaron que no lo suscribirían.",
+        "**Proceso de Rabat** (Diálogo Euroafricano sobre Migración y Desarrollo): lanzado en la conferencia ministerial de Rabat en **julio de 2006** tras el aumento de las llegadas irregulares a Canarias; cubre las rutas centroafricana, occidental y norteafricana. **Proceso de Jartum** (Iniciativa UE-Cuerno de África sobre la ruta migratoria): lanzado en la conferencia ministerial de **Roma, en noviembre de 2014**. **Cumbre de La Valeta** (noviembre de 2015): Plan de Acción Conjunto; los dos procesos supervisan su ejecución.",
+        "**Pacto de la UE sobre Migración y Asilo**: aplicable desde el 12 de junio de 2026 en todos los Estados miembros."
+      ]
+    },
+    {
+      "titulo": "Integración social en España",
+      "puntos": [
+        "**Art. 2 ter LO 4/2000**: los poderes públicos promoverán la **plena integración** de los extranjeros en un marco de convivencia de identidades y culturas diversas, sin más límite que el respeto a la Constitución y la ley. La integración se incorpora con carácter **transversal** a todas las políticas y servicios públicos y se apoya en un **plan estratégico plurianual**, en programas bienales acordados en la Conferencia Sectorial de Inmigración y en un fondo estatal para la integración de los inmigrantes. La escolarización, el aprendizaje de las lenguas oficiales y el acceso al empleo son factores esenciales de integración.",
+        "**Art. 2 bis**: entre los principios de la política inmigratoria figuran la integración social mediante políticas transversales dirigidas a toda la ciudadanía, la ordenación de los flujos laborales, la no discriminación y la lucha contra la inmigración irregular y la trata. **Art. 69**: apoyo al movimiento asociativo de los inmigrantes.",
+        "**Foro para la Integración Social de los Inmigrantes** (art. 70): órgano de consulta, información y asesoramiento en integración, de composición **tripartita y equilibrada** (Administraciones públicas, asociaciones de inmigrantes y otras organizaciones con interés e implantación en el ámbito migratorio, incluidos sindicatos y organizaciones empresariales más representativas). **OBERAXE** (art. 71): estudio y análisis y propuestas contra el racismo y la xenofobia; depende de la Secretaría de Estado de Migraciones.",
+        "**Centros de migraciones** (RD 1155/2024, arts. 263 a 265): el Ministerio de Inclusión, Seguridad Social y Migraciones dispone de una red pública que incluye los centros de acogida a refugiados y los **centros de estancia temporal de inmigrantes (CETI) de Ceuta y Melilla**; la Dirección General de Atención Humanitaria y del Sistema de Acogida de Protección Internacional determina sus programas y destinatarios. Quien carece de título de permanencia recibe al ingresar un volante personal e intransferible (art. 265.2).",
+        "La integración es un factor esencial de **cohesión social**: sociedades en las que la población de origen extranjero participa en igualdad de derechos y deberes, con convivencia entre culturas, frente a modelos de asimilación o de simple coexistencia."
+      ]
+    }
+  ],
+  "trampas": [
+    "Los CETI dependen del **Ministerio de Inclusión, Seguridad Social y Migraciones**, no del Ministerio del Interior, y están solo en **Ceuta y Melilla** (no en Canarias ni en la península).",
+    "Procesos con nombre de ciudad: **Rabat** (2006, euroafricano), **Jartum** (2014, Cuerno de África), **La Valeta** (2015, cumbre), **Marrakech** (2018, Pacto Mundial). Un distractor intercambia ciudad, año o región.",
+    "Las causas de la migración **no son solo económicas**: la respuesta suele ser «todas» (económicas, sociopolíticas, ambientales y sociales). Un distractor excluye las ambientales o las sociales.",
+    "OIM: **1951** como fecha de fundación; 1989 es el año en que adoptó su denominación actual y 2016, su vinculación a la ONU.",
+    "**Nacido en el extranjero** no es igual a **extranjero**: el primero (10,29 millones) supera al segundo (7,44 millones) por las adquisiciones de nacionalidad española.",
+    "Síndrome de Ulises: cuatro estresores (soledad forzada, fracaso del proyecto migratorio, lucha por la supervivencia y miedo). No es un trastorno de personalidad ni un problema escolar.",
+    "Pacto Mundial de la ONU (2018, no vinculante, 23 objetivos) frente al Pacto de la UE sobre Migración y Asilo (Derecho de la UE vinculante, aplicable desde el 12/6/2026)."
+  ],
+  "caido": [
+    {
+      "examen": "26 sep 2026",
+      "concepto": "Causas de la migración: factores económicos, sociopolíticos, ambientales y sociales (la respuesta «ambas» es habitual)"
+    },
+    {
+      "examen": "13 abr 2024",
+      "concepto": "La OIM se creó en 1951"
+    },
+    {
+      "examen": "23 abr 2023",
+      "concepto": "CETI: gestionados por el Ministerio de Inclusión, Seguridad Social y Migraciones"
+    },
+    {
+      "examen": "23 abr 2023 y 25 oct 2025",
+      "concepto": "Síndrome de Ulises y Proceso de Jartum (ruta UE-Cuerno de África)"
+    }
+  ],
+  "mnemotecnias": [
+    "Causas: **E-S-A-S** = **E**conómicas, **S**ociopolíticas, **A**mbientales y **S**ociales.",
+    "Estresores de Ulises: **S-F-L-M** = **S**oledad, **F**racaso, **L**ucha por sobrevivir y **M**iedo.",
+    "Procesos: **Rabat 06** (euroafricano), **Jartum 14** (Cuerno de África), **La Valeta 15** (cumbre), **Marrakech 18** (Pacto Mundial)."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Cómo define el INE la inmigración?",
+      "r": "Acción por la cual una persona fija su residencia habitual en un territorio por un período que es, o se espera que sea, de **al menos doce meses**, habiendo sido residente habitual de otro territorio."
+    },
+    {
+      "p": "¿Qué es el saldo migratorio?",
+      "r": "La diferencia entre **inmigraciones y emigraciones** (INE). Sumado al saldo vegetativo da el crecimiento de la población."
+    },
+    {
+      "p": "Cuatro grandes grupos de causas de la migración.",
+      "r": "**Económicas, sociopolíticas, ambientales y sociales**; actúan como factores de expulsión y de atracción."
+    },
+    {
+      "p": "¿Cuándo se fundó la OIM y cuál es su relación con la ONU?",
+      "r": "En **1951**; desde septiembre de **2016** es una organización vinculada a la ONU."
+    },
+    {
+      "p": "¿Qué son los CETI y de qué ministerio dependen?",
+      "r": "Centros de Estancia Temporal de Inmigrantes de **Ceuta y Melilla**, integrados en la red pública de centros de migraciones del **Ministerio de Inclusión, Seguridad Social y Migraciones**."
+    },
+    {
+      "p": "¿Qué es el síndrome de Ulises y quién lo describió?",
+      "r": "Cuadro de **estrés crónico y múltiple** del inmigrante, descrito por **Joseba Achotegui** (2002)."
+    },
+    {
+      "p": "Cuatro estresores del síndrome de Ulises.",
+      "r": "Soledad por la separación familiar, **fracaso del proyecto migratorio**, **lucha por la supervivencia** y **miedo**."
+    },
+    {
+      "p": "Proceso de Rabat: año y ámbito.",
+      "r": "**Julio de 2006**, Diálogo Euroafricano sobre Migración y Desarrollo; rutas centroafricana, occidental y norteafricana."
+    },
+    {
+      "p": "Proceso de Jartum: año y ámbito.",
+      "r": "**Noviembre de 2014** (conferencia ministerial de Roma); Iniciativa UE-**Cuerno de África** sobre la ruta migratoria."
+    },
+    {
+      "p": "Pacto Mundial para una Migración Segura, Ordenada y Regular.",
+      "r": "Marrakech, **10-11 de diciembre de 2018**; Res. 73/195 (19/12/2018); **23 objetivos**; **no vinculante**."
+    },
+    {
+      "p": "¿Qué dice el art. 2 ter de la LO 4/2000?",
+      "r": "Los poderes públicos promoverán la **plena integración** de los extranjeros en un marco de convivencia de identidades y culturas diversas, sin más límite que el respeto a la Constitución y la ley."
+    },
+    {
+      "p": "Foro para la Integración Social de los Inmigrantes: naturaleza y composición.",
+      "r": "Órgano de **consulta, información y asesoramiento** en integración, **tripartito y equilibrado** (Administraciones, asociaciones de inmigrantes y otras organizaciones, con sindicatos y empresariales) (art. 70 LO 4/2000)."
+    },
+    {
+      "p": "Base legal del OBERAXE.",
+      "r": "**Art. 71 LO 4/2000**; depende de la Secretaría de Estado de Migraciones."
+    },
+    {
+      "p": "¿Por qué la población nacida en el extranjero supera a la de nacionalidad extranjera?",
+      "r": "Por las **adquisiciones de nacionalidad española** (INE, 1/7/2026: 10.291.807 frente a 7.437.543)."
+    },
+    {
+      "p": "¿Cuándo se aplica el Pacto de la UE sobre Migración y Asilo?",
+      "r": "Desde el **12 de junio de 2026**, de forma gradual, en todos los Estados miembros."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Según el INE, la inmigración es la acción por la cual una persona fija su residencia habitual en un territorio por un período que es, o se espera que sea, de al menos:",
+      "opciones": [
+        "Doce meses",
+        "Seis meses",
+        "Tres meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El INE exige un período de residencia de al menos doce meses, habiendo sido previamente residente habitual de otro territorio. Seis y tres meses no corresponden a su definición de inmigración.",
+      "ref": "INE, Indicadores Demográficos Básicos, definición de inmigración",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El saldo migratorio es:",
+      "opciones": [
+        "La diferencia entre nacimientos y defunciones",
+        "La diferencia entre inmigraciones y emigraciones",
+        "La suma de la tasa de natalidad y la de mortalidad"
+      ],
+      "correcta": 1,
+      "explicacion": "El INE define el saldo migratorio como la diferencia entre inmigraciones y emigraciones. La diferencia entre nacimientos y defunciones es el saldo (o crecimiento) vegetativo.",
+      "ref": "INE, Indicadores Demográficos Básicos",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Los factores económicos, sociopolíticos, ambientales y sociales se identifican, en el estudio de las migraciones, como:",
+      "opciones": [
+        "Efectos de la inmigración en el país de destino",
+        "Tipos de integración social",
+        "Causas de las migraciones"
+      ],
+      "correcta": 2,
+      "explicacion": "Son los cuatro grandes grupos de causas de las migraciones, que actúan como factores de expulsión en el origen y de atracción en el destino. No son efectos de la inmigración ni modelos de integración.",
+      "ref": "Causas de las migraciones (manuales de sociología de las migraciones)",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "La Organización Internacional para las Migraciones (OIM) se fundó en:",
+      "opciones": [
+        "1951",
+        "1945",
+        "1989"
+      ],
+      "correcta": 0,
+      "explicacion": "La OIM nació en 1951 para organizar el traslado de migrantes y refugiados europeos tras la Segunda Guerra Mundial. 1945 es el año de fundación de la ONU y 1989 es la fecha en que adoptó su denominación actual.",
+      "ref": "Historia de la OIM",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Los Centros de Estancia Temporal de Inmigrantes (CETI) se encuentran en:",
+      "opciones": [
+        "Canarias y Baleares",
+        "Ceuta y Melilla",
+        "Madrid y Barcelona"
+      ],
+      "correcta": 1,
+      "explicacion": "Los CETI son los establecimientos de Ceuta y Melilla que forman parte de la red pública de centros de migraciones (art. 263.3 del RD 1155/2024). No existen en Canarias, Baleares ni en las grandes ciudades de la península.",
+      "ref": "art. 263.3 RD 1155/2024",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Los CETI forman parte de la red pública de centros de migraciones del Ministerio de:",
+      "opciones": [
+        "Interior",
+        "Asuntos Exteriores, Unión Europea y Cooperación",
+        "Inclusión, Seguridad Social y Migraciones"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 263 del RD 1155/2024 atribuye la red pública de centros de migraciones al Ministerio de Inclusión, Seguridad Social y Migraciones, que incluye los CETI de Ceuta y Melilla. El Ministerio del Interior gestiona otras materias, como las fronteras y la seguridad.",
+      "ref": "art. 263 RD 1155/2024",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El síndrome de Ulises, descrito por Joseba Achotegui, es un cuadro de:",
+      "opciones": [
+        "Estrés crónico y múltiple en personas migrantes",
+        "Trastorno antisocial de la personalidad en jóvenes migrantes",
+        "Dificultades de adaptación escolar en los hijos de inmigrantes"
+      ],
+      "correcta": 0,
+      "explicacion": "Achotegui lo describe como un estrés crónico y múltiple vinculado a los duelos migratorios. No se trata de un trastorno de la personalidad ni de un problema escolar.",
+      "ref": "J. Achotegui, síndrome del inmigrante con estrés crónico y múltiple",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes NO es uno de los estresores del síndrome de Ulises?",
+      "opciones": [
+        "La soledad por la separación forzada de la familia",
+        "La sobreprotección excesiva del país de acogida",
+        "El miedo permanente"
+      ],
+      "correcta": 1,
+      "explicacion": "Los cuatro estresores son la soledad forzada por la separación familiar, el sentimiento de fracaso del proyecto migratorio, la lucha por la supervivencia básica y el miedo. La sobreprotección del país de acogida no figura entre ellos.",
+      "ref": "J. Achotegui, síndrome de Ulises",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El Proceso de Jartum es una iniciativa de diálogo y cooperación entre la Unión Europea y:",
+      "opciones": [
+        "Los países del Magreb",
+        "Los países de África Occidental",
+        "Los países del Cuerno de África y a lo largo de la ruta migratoria hacia Europa"
+      ],
+      "correcta": 2,
+      "explicacion": "El Proceso de Jartum, lanzado en la conferencia ministerial de Roma en noviembre de 2014, es la Iniciativa UE-Cuerno de África sobre la ruta migratoria. El Proceso de Rabat, distinto, cubre las rutas centroafricana, occidental y norteafricana.",
+      "ref": "Proceso de Jartum (2014)",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "El Proceso de Rabat (Diálogo Euroafricano sobre Migración y Desarrollo) se puso en marcha en una conferencia ministerial celebrada en 2006 en:",
+      "opciones": [
+        "Rabat",
+        "Jartum",
+        "La Valeta"
+      ],
+      "correcta": 0,
+      "explicacion": "La conferencia ministerial de Rabat, en julio de 2006, lanzó el Proceso que lleva su nombre. Jartum da nombre al proceso de 2014 sobre el Cuerno de África y La Valeta acogió la cumbre de noviembre de 2015.",
+      "ref": "Proceso de Rabat (2006)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El Pacto Mundial para una Migración Segura, Ordenada y Regular se adoptó en una conferencia intergubernamental celebrada en diciembre de 2018 en:",
+      "opciones": [
+        "Nueva York",
+        "Marrakech",
+        "La Valeta"
+      ],
+      "correcta": 1,
+      "explicacion": "El Pacto se adoptó en la conferencia de Marrakech de los días 10 y 11 de diciembre de 2018 y, después, la Asamblea General de la ONU lo respaldó en Nueva York el 19 de diciembre mediante la Resolución 73/195. La Valeta fue la sede de la cumbre euroafricana de 2015.",
+      "ref": "Pacto Mundial para la Migración; Res. 73/195",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El Pacto Mundial para una Migración Segura, Ordenada y Regular de la ONU:",
+      "opciones": [
+        "Es un tratado vinculante que los Estados han de ratificar",
+        "Fue aprobado por todos los Estados sin excepción",
+        "Es un instrumento no vinculante que contiene 23 objetivos"
+      ],
+      "correcta": 2,
+      "explicacion": "El Pacto reúne 23 objetivos y no es jurídicamente vinculante. Algunos Estados, como Estados Unidos, Hungría o la República Checa, anunciaron que no lo suscribirían, por lo que no fue aprobado por todos.",
+      "ref": "Pacto Mundial para la Migración (2018)",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Según el art. 2 ter de la Ley Orgánica 4/2000, los poderes públicos promoverán la plena integración de los extranjeros en la sociedad española:",
+      "opciones": [
+        "En un marco de convivencia de identidades y culturas diversas, sin más límite que el respeto a la Constitución y la ley",
+        "Mediante la asimilación de los valores y costumbres mayoritarios",
+        "Solo respecto de quienes dispongan de autorización de residencia de larga duración"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 2 ter.1 habla de convivencia de identidades y culturas diversas con el único límite de la Constitución y la ley. No se menciona la asimilación ni se restringe la política de integración a los residentes de larga duración.",
+      "ref": "art. 2 ter.1 LO 4/2000",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El Foro para la Integración Social de los Inmigrantes, regulado en el art. 70 de la Ley Orgánica 4/2000, es:",
+      "opciones": [
+        "Un órgano judicial especializado en extranjería",
+        "El órgano de consulta, información y asesoramiento en materia de integración de los inmigrantes, de composición tripartita y equilibrada",
+        "Una comisión parlamentaria de seguimiento de la política migratoria"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 70.1 lo define como órgano de consulta, información y asesoramiento, constituido de forma tripartita y equilibrada por representantes de las Administraciones, de las asociaciones de inmigrantes y de otras organizaciones con interés en el ámbito migratorio. No es un órgano judicial ni parlamentario.",
+      "ref": "art. 70 LO 4/2000",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el INE, la población nacida en el extranjero que reside en España es mayor que la de nacionalidad extranjera debido principalmente a:",
+      "opciones": [
+        "La emigración de españoles",
+        "Las regularizaciones extraordinarias de extranjeros",
+        "Las adquisiciones de nacionalidad española"
+      ],
+      "correcta": 2,
+      "explicacion": "El INE señala que la población nacida en el extranjero es mayor que la de nacionalidad extranjera por los procesos de adquisición de la nacionalidad española: quienes la adquieren dejan de ser extranjeros, pero siguen habiendo nacido fuera.",
+      "ref": "INE, Estadística Continua de Población (2026)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el INE, ¿cuáles fueron las tres principales nacionalidades de los inmigrantes llegados a España en el segundo trimestre de 2026?",
+      "opciones": [
+        "Colombiana, venezolana y marroquí",
+        "Marroquí, rumana y ecuatoriana",
+        "Ucraniana, china y senegalesa"
+      ],
+      "correcta": 0,
+      "explicacion": "El INE sitúa en cabeza a la nacionalidad colombiana (34.000 llegadas), la venezolana (23.300) y la marroquí (21.100). Las otras combinaciones no recogen esas nacionalidades.",
+      "ref": "INE, Estadística Continua de Población, 1 de julio de 2026",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el art. 3 de la Ley 12/2009, la condición de refugiado se reconoce a la persona que, debido a fundados temores de ser perseguida por determinados motivos, se encuentra:",
+      "opciones": [
+        "Dentro de su país, sin poder trasladarse a otra región",
+        "Fuera del país de su nacionalidad y no puede o, a causa de dichos temores, no quiere acogerse a su protección",
+        "En territorio español en situación administrativa irregular"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 3 exige encontrarse fuera del país de la nacionalidad y no poder o no querer, por esos temores, acogerse a su protección. Quien permanece dentro de su país es un desplazado interno, y la situación administrativa en España no define al refugiado.",
+      "ref": "art. 3 Ley 12/2009",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué instrumento comenzó a aplicarse en todos los Estados miembros de la Unión Europea el 12 de junio de 2026?",
+      "opciones": [
+        "El Pacto Mundial de la ONU para una Migración Segura, Ordenada y Regular",
+        "El Plan de Acción Conjunto de La Valeta",
+        "El Pacto de la UE sobre Migración y Asilo"
+      ],
+      "correcta": 2,
+      "explicacion": "El Pacto de la UE sobre Migración y Asilo comenzó a aplicarse el 12 de junio de 2026 de forma gradual. El Pacto Mundial de la ONU es de 2018 y no es vinculante, y el Plan de Acción de La Valeta se adoptó en 2015.",
+      "ref": "Pacto de la UE sobre Migración y Asilo",
+      "dificultad": 2
+    }
+  ],
+  "dudas": [
+    "El Glosario de la OIM (2019) no se pudo leer (acceso bloqueado), por lo que los tipos de migración son una clasificación convencional de manual y no una cita literal. La historia de la OIM y la cifra de 304 millones de migrantes proceden de fuentes secundarias.",
+    "Pacto de la UE sobre Migración y Asilo: solo se contrastó la fecha de aplicación (12/6/2026) en información de prensa; no se leyeron los reglamentos ni se indica su numeración.",
+    "Síndrome de Ulises: se contrastó el año (2002), la definición y los cuatro estresores con extractos del buscador; no se verificaron las siete categorías de duelo migratorio, que no se incluyen.",
+    "Los datos de población del INE son provisionales (ECP a 1/7/2026) y se revisan cada trimestre; las fichas de otros temas pueden citar cifras de otras fechas.",
+    "El repaso histórico de grandes migraciones es una síntesis de manual sin cifras; no procede de una norma.",
+    "La equivalencia entre los arts. 263-265 del RD 1155/2024 y los arts. 264-266 del Reglamento anterior (RD 557/2011) procede de un extracto del buscador; no se leyó el RD 557/2011."
+  ]
+}

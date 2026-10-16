@@ -1,0 +1,737 @@
+{
+  "tema": 35,
+  "titulo": "Desarrollo sostenible: Agenda 2030 y gestión ambiental",
+  "bloque": "B",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "0-2 preguntas por examen: lista de los 17 ODS (cae con un intruso), definición del Informe Brundtland, estrategia «De la granja a la mesa» y Consejo Nacional del Clima."
+  },
+  "normas": [
+    {
+      "nombre": "Informe de la Comisión Mundial sobre el Medio Ambiente y el Desarrollo, «Nuestro futuro común» (A/42/427, 4 de agosto de 1987)",
+      "url": "https://documents.un.org/api/symbol/access?s=A/42/427&l=es&t=pdf",
+      "verificado": "Versión en español leída el 16/10/2026 (definición en el capítulo 2, párr. 1)"
+    },
+    {
+      "nombre": "Resolución A/RES/70/1 de la Asamblea General de la ONU, «Transformar nuestro mundo: la Agenda 2030 para el Desarrollo Sostenible» (25 de septiembre de 2015)",
+      "url": "https://documents.un.org/api/symbol/access?s=A/RES/70/1&l=es&t=pdf",
+      "verificado": "Texto en español leído el 16/10/2026"
+    },
+    {
+      "nombre": "ONU, Objetivos de Desarrollo Sostenible (denominaciones oficiales en español)",
+      "url": "https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "ONU, Conferencia sobre el Medio Humano, Estocolmo 1972",
+      "url": "https://www.un.org/es/conferences/environment/stockholm1972",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "ONU, Conferencia sobre Medio Ambiente y Desarrollo, Río de Janeiro 1992",
+      "url": "https://www.un.org/es/conferences/environment/rio1992",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "ONU, Cumbre Mundial sobre el Desarrollo Sostenible, Johannesburgo 2002",
+      "url": "https://www.un.org/es/conferences/environment/johannesburg2002",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "ONU, Conferencia sobre el Desarrollo Sostenible, Río 2012 (Río+20)",
+      "url": "https://www.un.org/es/conferences/environment/rio2012",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "Instrumento de ratificación del Acuerdo de París, hecho en París el 12 de diciembre de 2015",
+      "boe": "BOE-A-2017-1066",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2017-1066",
+      "verificado": "Texto original publicado el 02/02/2017 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Instrumento de Ratificación del Protocolo de Kyoto (Kioto), hecho el 11 de diciembre de 1997",
+      "boe": "BOE-A-2005-1967",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2005-1967",
+      "verificado": "Texto consolidado, actualización de 18/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 7/2021, de 20 de mayo, de cambio climático y transición energética",
+      "boe": "BOE-A-2021-8447",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8447",
+      "verificado": "Texto consolidado, actualización de 23/07/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 21/2013, de 9 de diciembre, de evaluación ambiental",
+      "boe": "BOE-A-2013-12913",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12913",
+      "verificado": "Texto consolidado, actualización de 12/01/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto Legislativo 1/2016, de 16 de diciembre, texto refundido de la Ley de prevención y control integrados de la contaminación",
+      "boe": "BOE-A-2016-12601",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-12601",
+      "verificado": "Texto consolidado, actualización de 19/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 26/2007, de 23 de octubre, de Responsabilidad Medioambiental",
+      "boe": "BOE-A-2007-18475",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-18475",
+      "verificado": "Texto consolidado, actualización de 19/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 1/2023, de 20 de febrero, de Cooperación para el Desarrollo Sostenible y la Solidaridad Global",
+      "boe": "BOE-A-2023-4512",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-4512",
+      "verificado": "Texto consolidado, actualización de 25/06/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto 415/2014, de 6 de junio, por el que se regula la composición y funciones del Consejo Nacional del Clima",
+      "boe": "BOE-A-2014-7290",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-7290",
+      "verificado": "Texto consolidado, actualización de 19/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Reglamento (UE) 2021/1119 (Ley Europea del Clima)",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32021R1119",
+      "verificado": "Texto en EUR-Lex leído el 16/10/2026 (arts. 2 y 4)"
+    },
+    {
+      "nombre": "Reglamento (UE) 2026/667, de 11 de marzo de 2026, por el que se modifica el Reglamento (UE) 2021/1119 (objetivo climático para 2040)",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32026R0667",
+      "verificado": "Texto en EUR-Lex leído el 16/10/2026 (DOUE de 18/03/2026)"
+    },
+    {
+      "nombre": "Comunicación COM(2019) 640 final, «El Pacto Verde Europeo» (11 de diciembre de 2019)",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:52019DC0640",
+      "verificado": "Texto en EUR-Lex consultado el 16/10/2026"
+    },
+    {
+      "nombre": "Comunicación COM(2020) 381 final, Estrategia «de la granja a la mesa» (20 de mayo de 2020)",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:52020DC0381",
+      "verificado": "Texto en EUR-Lex leído el 16/10/2026"
+    },
+    {
+      "nombre": "Reglamento (CE) n.º 1221/2009 (EMAS) y Reglamento (CE) n.º 66/2010 (etiqueta ecológica de la UE)",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32009R1221",
+      "verificado": "Textos originales en EUR-Lex leídos el 16/10/2026"
+    }
+  ],
+  "novedades": [
+    "El Reglamento (UE) 2026/667, de 11 de marzo de 2026 (DOUE de 18/03/2026), modificó la Ley Europea del Clima y fijó el objetivo vinculante para 2040: reducción neta de emisiones del **90 %** respecto de 1990. Los materiales anteriores solo recogen el 55 % para 2030 y la neutralidad en 2050.",
+    "Ley 1/2023, de Cooperación para el Desarrollo Sostenible y la Solidaridad Global: destina al menos el 0,7 % de la renta nacional bruta a ayuda oficial al desarrollo en el horizonte de 2030."
+  ],
+  "clave": [
+    "**Desarrollo sostenible** (Informe Brundtland, «Nuestro futuro común», 1987): el que **satisface las necesidades de la generación presente sin comprometer la capacidad de las generaciones futuras** para satisfacer las suyas. La versión oficial en español de la ONU lo llama «desarrollo duradero».",
+    "**Agenda 2030**: resolución 70/1 de la Asamblea General, aprobada el **25 de septiembre de 2015**; **17 ODS y 169 metas**; vigente desde el **1 de enero de 2016** durante 15 años.",
+    "Tres dimensiones del desarrollo sostenible: **económica, social y ambiental**. Cinco esferas (las 5 P): **personas, planeta, prosperidad, paz y alianzas**.",
+    "Los 17 ODS: 1 Fin de la pobreza, 2 Hambre cero, 3 Salud y bienestar, 4 Educación de calidad, 5 Igualdad de género, 6 Agua limpia y saneamiento, 7 Energía asequible y no contaminante, 8 Trabajo decente y crecimiento económico, 9 Industria, innovación e infraestructuras, 10 Reducción de las desigualdades, 11 Ciudades y comunidades sostenibles, 12 Producción y consumo responsables, 13 Acción por el clima, 14 Vida submarina, 15 Vida de ecosistemas terrestres, 16 Paz, justicia e instituciones sólidas, 17 Alianzas para lograr los objetivos.",
+    "Hitos: **Estocolmo 1972** (primera conferencia ambiental; origen del PNUMA), **Río 1992** (Cumbre de la Tierra; Programa 21, convenios de clima y biodiversidad), **Kioto 1997**, **Johannesburgo 2002**, **Río+20 2012** (decide crear los ODS) y **París 2015**.",
+    "**Acuerdo de París** (12 de diciembre de 2015): mantener el aumento de la temperatura media mundial **muy por debajo de 2 °C** y proseguir los esfuerzos para limitarlo a **1,5 °C**.",
+    "**UE**: Pacto Verde Europeo (COM(2019) 640); Ley Europea del Clima: neutralidad climática en **2050** y reducción neta de al menos el **55 % en 2030**, ampliada al **90 % en 2040** por el Reglamento (UE) 2026/667.",
+    "Estrategia **«De la granja a la mesa»** (2020), para 2030: **-50 %** de pérdidas de nutrientes (**-20 %** de fertilizantes), **-50 %** de uso y riesgo de plaguicidas químicos, **-50 %** de ventas de antimicrobianos y **25 %** de tierras agrícolas en ecológico.",
+    "**Ley 7/2021** (objetivos mínimos): **-23 %** de gases de efecto invernadero en 2030 respecto de 1990, **42 %** de renovables en energía final, **74 %** de electricidad renovable, **39,5 %** de eficiencia energética y neutralidad climática **antes de 2050**.",
+    "**Consejo Nacional del Clima** (RD 415/2014): órgano colegiado **interministerial** y foro institucional de participación de las Administraciones y de las organizaciones sociales y ambientales en las políticas de cambio climático.",
+    "**Evaluación ambiental** (Ley 21/2013): **estratégica** para planes y programas y **de impacto ambiental** para proyectos; cada una puede ser ordinaria o simplificada."
+  ],
+  "resumen": [
+    {
+      "titulo": "Concepto de desarrollo sostenible: el Informe Brundtland",
+      "puntos": [
+        "La Asamblea General de la ONU acogió en su resolución 38/161 (19 de diciembre de 1983) la creación de una comisión especial sobre el medio ambiente; tomó el nombre de **Comisión Mundial sobre el Medio Ambiente y el Desarrollo** y la presidió **Gro Harlem Brundtland** (Noruega). Su informe, **«Nuestro futuro común»** (documento A/42/427, 1987), se conoce como Informe Brundtland.",
+        "Definición (capítulo 2, párr. 1): el desarrollo sostenible (en la versión oficial española, «desarrollo duradero») es **el desarrollo que satisface las necesidades de la generación presente sin comprometer la capacidad de las generaciones futuras para satisfacer sus propias necesidades**.",
+        "Encierra **dos conceptos fundamentales**: el de **necesidades**, en particular las esenciales de los pobres, a las que se debe dar prioridad preponderante, y la idea de **limitaciones** impuestas por la capacidad del medio ambiente para satisfacer las necesidades presentes y futuras.",
+        "La Agenda 2030 lo integra en tres dimensiones: **económica, social y ambiental**."
+      ]
+    },
+    {
+      "titulo": "Hitos de la cooperación internacional",
+      "puntos": [
+        "Cada hito se asocia a una fecha y a un resultado; en examen suele preguntarse qué se aprobó en qué cumbre.",
+        "Orden cronológico para no confundirlos: Estocolmo (1972, primera), Brundtland (1987), Río (1992), Kioto (1997), Johannesburgo (2002), Río+20 (2012) y Agenda 2030 y París (2015)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Año",
+          "Hito",
+          "Resultado clave"
+        ],
+        "filas": [
+          [
+            "1972",
+            "Conferencia de la ONU sobre el Medio Humano, **Estocolmo** (5-16 de junio)",
+            "Primera conferencia mundial que hizo del medio ambiente un tema importante; Declaración de Estocolmo (26 principios); creación del **PNUMA**"
+          ],
+          [
+            "1987",
+            "Informe **Brundtland**",
+            "Definición de desarrollo sostenible"
+          ],
+          [
+            "1992",
+            "Cumbre de la Tierra, **Río de Janeiro** (3-14 de junio)",
+            "Declaración de Río (27 principios), **Programa 21**, Convención Marco sobre el Cambio Climático (**CMNUCC**), Convenio sobre la Diversidad Biológica, principios sobre bosques; Comisión sobre el Desarrollo Sostenible"
+          ],
+          [
+            "1997",
+            "**Protocolo de Kioto** (hecho el 11 de diciembre)",
+            "Compromisos de limitación y reducción de emisiones; en vigor desde el **16 de febrero de 2005**"
+          ],
+          [
+            "2000",
+            "Declaración del Milenio (res. 55/2)",
+            "Ocho Objetivos de Desarrollo del Milenio (**ODM**), con horizonte en 2015"
+          ],
+          [
+            "2002",
+            "Cumbre Mundial sobre el Desarrollo Sostenible, **Johannesburgo** (26 de agosto-4 de septiembre)",
+            "Declaración Política y Plan de Implementación"
+          ],
+          [
+            "2012",
+            "Conferencia de la ONU sobre el Desarrollo Sostenible, **Río+20** (20-22 de junio)",
+            "Decide poner en marcha el proceso para elaborar los **ODS**; res. 66/288"
+          ],
+          [
+            "2015",
+            "**Agenda 2030** (25 de septiembre) y **Acuerdo de París** (12 de diciembre)",
+            "17 ODS y 169 metas; Acuerdo de París en vigor desde el 4 de noviembre de 2016 (para España, el 11 de febrero de 2017)"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Agenda 2030 y los 17 ODS",
+      "puntos": [
+        "La Agenda 2030 («Transformar nuestro mundo») fue aprobada por la Asamblea General el **25 de septiembre de 2015** (res. 70/1). Contiene **17 Objetivos de Desarrollo Sostenible y 169 metas**, de carácter **integrado e indivisible**; los objetivos y metas entraron en vigor el **1 de enero de 2016** y guiarán las decisiones durante 15 años. Retoman los ODM.",
+        "Cinco esferas de importancia crítica (5 P): **personas, planeta, prosperidad, paz y alianzas**.",
+        "Seguimiento y examen: el **foro político de alto nivel**, bajo los auspicios de la Asamblea General y del Consejo Económico y Social, tiene un papel central a escala mundial; los Gobiernos son los principales responsables a escala nacional."
+      ],
+      "tabla": {
+        "cabecera": [
+          "ODS",
+          "Nombre ONU",
+          "Contenido (título oficial resumido)"
+        ],
+        "filas": [
+          [
+            "1",
+            "Fin de la pobreza",
+            "Poner fin a la pobreza en todas sus formas en todo el mundo"
+          ],
+          [
+            "2",
+            "Hambre cero",
+            "Poner fin al hambre, seguridad alimentaria, nutrición y agricultura sostenible"
+          ],
+          [
+            "3",
+            "Salud y bienestar",
+            "Vida sana y bienestar para todos en todas las edades"
+          ],
+          [
+            "4",
+            "Educación de calidad",
+            "Educación inclusiva, equitativa y de calidad; aprendizaje permanente"
+          ],
+          [
+            "5",
+            "Igualdad de género",
+            "Igualdad de género y empoderamiento de mujeres y niñas"
+          ],
+          [
+            "6",
+            "Agua limpia y saneamiento",
+            "Disponibilidad y gestión sostenible del agua y el saneamiento"
+          ],
+          [
+            "7",
+            "Energía asequible y no contaminante",
+            "Energía asequible, fiable, sostenible y moderna"
+          ],
+          [
+            "8",
+            "Trabajo decente y crecimiento económico",
+            "Crecimiento sostenido, inclusivo y sostenible; empleo pleno y trabajo decente"
+          ],
+          [
+            "9",
+            "Industria, innovación e infraestructuras",
+            "Infraestructuras resilientes, industrialización inclusiva y sostenible, innovación"
+          ],
+          [
+            "10",
+            "Reducción de las desigualdades",
+            "Reducir la desigualdad en los países y entre ellos"
+          ],
+          [
+            "11",
+            "Ciudades y comunidades sostenibles",
+            "Ciudades y asentamientos humanos inclusivos, seguros, resilientes y sostenibles"
+          ],
+          [
+            "12",
+            "Producción y consumo responsables",
+            "Modalidades de consumo y producción sostenibles"
+          ],
+          [
+            "13",
+            "Acción por el clima",
+            "Medidas urgentes contra el cambio climático y sus efectos"
+          ],
+          [
+            "14",
+            "Vida submarina",
+            "Conservar y utilizar sosteniblemente océanos, mares y recursos marinos"
+          ],
+          [
+            "15",
+            "Vida de ecosistemas terrestres",
+            "Ecosistemas terrestres, bosques, desertificación, tierras y biodiversidad"
+          ],
+          [
+            "16",
+            "Paz, justicia e instituciones sólidas",
+            "Sociedades pacíficas e inclusivas, acceso a la justicia, instituciones eficaces"
+          ],
+          [
+            "17",
+            "Alianzas para lograr los objetivos",
+            "Medios de implementación y Alianza Mundial para el Desarrollo Sostenible"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Coordinación y cooperación: UE y España",
+      "puntos": [
+        "**Pacto Verde Europeo** (Comunicación COM(2019) 640, de 11 de diciembre de 2019). Ley Europea del Clima (Reglamento (UE) 2021/1119): los gases de efecto invernadero deben estar equilibrados en la Unión **a más tardar en 2050**, y el objetivo vinculante para 2030 es una reducción neta de al menos el **55 %** respecto de 1990. El Reglamento (UE) 2026/667 añade el objetivo de **-90 % en 2040**.",
+        "Estrategia **«de la granja a la mesa»** (COM(2020) 381, de 20 de mayo de 2020), para un sistema alimentario justo, saludable y respetuoso con el medio ambiente. Objetivos de 2030: reducir las **pérdidas de nutrientes al menos un 50 %** sin deteriorar la fertilidad del suelo (lo que reduce el uso de **fertilizantes al menos un 20 %**); reducir un **50 %** el uso y riesgo global de plaguicidas químicos; reducir un **50 %** las ventas de antimicrobianos para animales de granja y acuicultura; y que al menos el **25 %** de las tierras agrícolas sea de **agricultura ecológica**.",
+        "**Ley 7/2021** de cambio climático y transición energética (art. 3): objetivos mínimos para 2030 de **-23 %** de emisiones respecto de 1990, **42 %** de renovables en el consumo de energía final, **74 %** de generación eléctrica renovable y mejora de la eficiencia con un **39,5 %** menos de energía primaria; **neutralidad climática antes de 2050**, con un sistema eléctrico exclusivamente renovable.",
+        "**Consejo Nacional del Clima** (RD 415/2014): órgano colegiado **interministerial**, concebido como foro institucional de participación de las Administraciones públicas y de las organizaciones sociales y ambientales en las políticas de cambio climático; informa, formula recomendaciones sobre planes y programas y conoce las políticas de la UE y las negociaciones internacionales. Mandato de **tres años**; el Pleno se reúne al menos **una vez al año**; la Oficina Española de Cambio Climático ejerce la Secretaría.",
+        "**Cooperación al desarrollo** (Ley 1/2023): política pública de la acción exterior que contribuye a las metas globales de desarrollo sostenible (Agenda 2030, Acuerdo de París); España destinará al menos el **0,7 % de la renta nacional bruta** a ayuda oficial al desarrollo en el horizonte de 2030."
+      ]
+    },
+    {
+      "titulo": "Instrumentos de gestión ambiental",
+      "puntos": [
+        "El **órgano ambiental** formula el pronunciamiento final (preceptivo y determinante); el **órgano sustantivo** adopta, aprueba o autoriza el plan, programa o proyecto; el **promotor** elabora el estudio ambiental estratégico o el estudio de impacto ambiental.",
+        "**Autorización ambiental integrada** (RDL 1/2016): resolución escrita del órgano competente de la comunidad autónoma que permite explotar una instalación bajo determinadas condiciones, para proteger el medio ambiente y la salud; la ley busca evitar o reducir y controlar la contaminación de la atmósfera, el agua y el suelo.",
+        "**Responsabilidad medioambiental** (Ley 26/2007): regula la responsabilidad de los operadores de prevenir, evitar y reparar los daños medioambientales, con los principios de prevención y «quien contamina paga»; para las actividades del anexo III se aplica aunque no exista dolo, culpa o negligencia.",
+        "Instrumentos **voluntarios**: **EMAS** (Reglamento (CE) 1221/2009), sistema comunitario de gestión y auditoría medioambientales de participación voluntaria para promover la mejora continua del comportamiento medioambiental, que incorpora los requisitos de la norma ISO 14001; y la **etiqueta ecológica de la UE** (Reglamento (CE) 66/2010), sistema voluntario aplicable a bienes y servicios."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Instrumento",
+          "Se aplica a",
+          "Termina con"
+        ],
+        "filas": [
+          [
+            "Evaluación ambiental estratégica **ordinaria**",
+            "Planes y programas",
+            "**Declaración ambiental estratégica**"
+          ],
+          [
+            "Evaluación ambiental estratégica **simplificada**",
+            "Planes y programas",
+            "**Informe ambiental estratégico**"
+          ],
+          [
+            "Evaluación de impacto ambiental **ordinaria**",
+            "Proyectos",
+            "**Declaración de impacto ambiental**"
+          ],
+          [
+            "Evaluación de impacto ambiental **simplificada**",
+            "Proyectos",
+            "**Informe de impacto ambiental**"
+          ]
+        ]
+      }
+    }
+  ],
+  "trampas": [
+    "La ONU traduce el concepto de Brundtland como «desarrollo **duradero**»; en el uso común es «desarrollo **sostenible**». Es el mismo concepto.",
+    "**17 ODS y 169 metas**. Los ODM eran **ocho** (hasta 2015). Los intrusos de las preguntas son objetivos inventados («Seguridad ciudadana», «Defensa nacional», «Control de la natalidad»).",
+    "Las fechas se confunden: Agenda 2030 aprobada el **25-IX-2015** y vigente el **1-I-2016**; Acuerdo de París **12-XII-2015**; Kioto 1997 no es de Río 1992.",
+    "**Río+20 (2012)** decide crear los ODS; **Río 1992** produce el Programa 21 y los convenios de clima y biodiversidad; **Estocolmo 1972** es la primera y crea el PNUMA.",
+    "Nombres falsos de estrategias europeas («Agenda verde», «Horizonte verde»): la estrategia alimentaria del Pacto Verde se llama **«De la granja a la mesa»**.",
+    "Cifras UE y España no coinciden: UE **-55 % (2030)** y **-90 % (2040)**, neutralidad en **2050**; Ley 7/2021 **-23 %** en 2030 y **74 %** renovable solo en el sistema **eléctrico** (el 42 % es de energía final).",
+    "El foro institucional del clima es el **Consejo Nacional del Clima** (órgano colegiado), no una comisión ni una oficina; la Oficina Española de Cambio Climático solo ejerce su Secretaría.",
+    "Evaluación **estratégica** = planes y programas; **de impacto** = proyectos. Sus documentos finales son distintos (declaración ambiental estratégica frente a declaración de impacto ambiental).",
+    "EMAS y la etiqueta ecológica son **voluntarios**; la autorización ambiental integrada es una **resolución administrativa** del órgano de la comunidad autónoma."
+  ],
+  "caido": [
+    {
+      "examen": "P41 (1 mar 2025) y P43 (26 sep 2026)",
+      "concepto": "Agenda 2030: 17 ODS; cuál no figura en la lista."
+    },
+    {
+      "examen": "P40 (13 abr 2024)",
+      "concepto": "Definición de desarrollo sostenible del Informe Brundtland."
+    },
+    {
+      "examen": "P42 (25 oct 2025) y P43",
+      "concepto": "Estrategia «De la granja a la mesa» del Pacto Verde Europeo (nitratos y contaminación difusa) y Consejo Nacional del Clima."
+    }
+  ],
+  "mnemotecnias": [
+    "Las 5 P de la Agenda 2030: **P**ersonas, **P**laneta, **P**rosperidad, **P**az y **P**artenariado (alianzas).",
+    "Evaluación ambiental **estratégica** ⇢ **planes y programas**; evaluación **de impacto** ⇢ **proyectos** (la obra o actividad concreta)."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Cómo define el Informe Brundtland el desarrollo sostenible?",
+      "r": "El que **satisface las necesidades de la generación presente sin comprometer la capacidad de las generaciones futuras** para satisfacer las suyas."
+    },
+    {
+      "p": "¿Cuál es el título del Informe Brundtland?",
+      "r": "**«Nuestro futuro común»** (1987), de la Comisión Mundial sobre el Medio Ambiente y el Desarrollo, presidida por Gro Harlem Brundtland."
+    },
+    {
+      "p": "¿Cuándo se aprobó la Agenda 2030 y cuántos objetivos tiene?",
+      "r": "El **25 de septiembre de 2015**; **17 ODS y 169 metas**; en vigor desde el **1 de enero de 2016**."
+    },
+    {
+      "p": "¿Cuáles son las cinco esferas de la Agenda 2030?",
+      "r": "**Personas, planeta, prosperidad, paz y alianzas**."
+    },
+    {
+      "p": "¿Cuáles son las tres dimensiones del desarrollo sostenible?",
+      "r": "**Económica, social y ambiental**."
+    },
+    {
+      "p": "ODS 1 a 6.",
+      "r": "Fin de la pobreza; Hambre cero; Salud y bienestar; Educación de calidad; Igualdad de género; Agua limpia y saneamiento."
+    },
+    {
+      "p": "ODS 7 a 12.",
+      "r": "Energía asequible y no contaminante; Trabajo decente y crecimiento económico; Industria, innovación e infraestructuras; Reducción de las desigualdades; Ciudades y comunidades sostenibles; Producción y consumo responsables."
+    },
+    {
+      "p": "ODS 13 a 17.",
+      "r": "Acción por el clima; Vida submarina; Vida de ecosistemas terrestres; Paz, justicia e instituciones sólidas; Alianzas para lograr los objetivos."
+    },
+    {
+      "p": "¿Qué resultado tuvo la Conferencia de Estocolmo de 1972?",
+      "r": "Primera conferencia mundial ambiental: Declaración de Estocolmo (26 principios) y creación del **PNUMA**."
+    },
+    {
+      "p": "¿Qué se aprobó en la Cumbre de la Tierra de Río de 1992?",
+      "r": "Declaración de Río (27 principios), **Programa 21**, **CMNUCC**, Convenio sobre la Diversidad Biológica y principios sobre bosques."
+    },
+    {
+      "p": "¿Qué decidió Río+20 (2012)?",
+      "r": "Poner en marcha un proceso para desarrollar los **Objetivos de Desarrollo Sostenible**."
+    },
+    {
+      "p": "¿Cuál es el objetivo de temperatura del Acuerdo de París?",
+      "r": "Mantener el aumento muy por debajo de **2 °C** y proseguir los esfuerzos para limitarlo a **1,5 °C** (art. 2.1.a)."
+    },
+    {
+      "p": "Objetivos de la Ley Europea del Clima.",
+      "r": "Neutralidad climática a más tardar en **2050**; reducción neta de al menos el **55 %** en 2030 y del **90 %** en 2040 (Reglamento 2026/667), respecto de 1990."
+    },
+    {
+      "p": "Objetivos de «De la granja a la mesa» para 2030.",
+      "r": "-50 % pérdidas de nutrientes (-20 % fertilizantes), -50 % plaguicidas químicos, -50 % antimicrobianos, 25 % tierras en ecológico."
+    },
+    {
+      "p": "Objetivos mínimos de la Ley 7/2021 para 2030.",
+      "r": "**-23 %** de emisiones respecto de 1990; **42 %** de renovables en energía final; **74 %** de electricidad renovable; **39,5 %** de eficiencia."
+    },
+    {
+      "p": "¿Qué es el Consejo Nacional del Clima?",
+      "r": "Órgano colegiado **interministerial**, foro institucional de participación en las políticas de cambio climático (RD 415/2014)."
+    },
+    {
+      "p": "¿Qué documento pone fin a la evaluación ambiental estratégica ordinaria? ¿Y a la simplificada?",
+      "r": "Ordinaria: **declaración ambiental estratégica**. Simplificada: **informe ambiental estratégico**."
+    },
+    {
+      "p": "¿Qué documento pone fin a la evaluación de impacto ambiental ordinaria? ¿Y a la simplificada?",
+      "r": "Ordinaria: **declaración de impacto ambiental**. Simplificada: **informe de impacto ambiental**."
+    },
+    {
+      "p": "¿Qué es la autorización ambiental integrada?",
+      "r": "Resolución escrita del órgano competente de la comunidad autónoma que permite explotar una instalación bajo determinadas condiciones (RDL 1/2016)."
+    },
+    {
+      "p": "¿Qué es EMAS?",
+      "r": "Sistema comunitario de gestión y auditoría medioambientales de participación **voluntaria** (Reglamento (CE) 1221/2009)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "¿Cuántos Objetivos de Desarrollo Sostenible y cuántas metas contiene la Agenda 2030?",
+      "opciones": [
+        "8 objetivos y 169 metas",
+        "17 objetivos y 169 metas",
+        "17 objetivos y 196 metas"
+      ],
+      "correcta": 1,
+      "explicacion": "La resolución 70/1 anuncia 17 Objetivos de Desarrollo Sostenible y 169 metas conexas, de carácter integrado e indivisible. Los ocho objetivos eran los del Milenio (ODM), a los que la Agenda da continuidad, y la cifra de metas no es 196.",
+      "ref": "A/RES/70/1, Preámbulo y párr. 18",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "La Agenda 2030 fue aprobada por la Asamblea General de las Naciones Unidas el 25 de septiembre de 2015. Los objetivos y metas entraron en vigor el:",
+      "opciones": [
+        "1 de enero de 2016",
+        "25 de septiembre de 2015, el mismo día de su aprobación",
+        "1 de enero de 2030"
+      ],
+      "correcta": 0,
+      "explicacion": "El párrafo 21 de la resolución 70/1 dice que los nuevos Objetivos y metas entrarán en vigor el 1 de enero de 2016 y guiarán las decisiones durante los próximos 15 años. 2030 es el horizonte final, no la fecha de entrada en vigor.",
+      "ref": "A/RES/70/1, párr. 21",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes NO es uno de los 17 Objetivos de Desarrollo Sostenible?",
+      "opciones": [
+        "Hambre cero",
+        "Reducción de las desigualdades",
+        "Seguridad ciudadana y orden público"
+      ],
+      "correcta": 2,
+      "explicacion": "Hambre cero (ODS 2) y Reducción de las desigualdades (ODS 10) son objetivos de la Agenda 2030. No existe ningún ODS denominado «Seguridad ciudadana y orden público»; lo más cercano es el ODS 16, Paz, justicia e instituciones sólidas.",
+      "ref": "A/RES/70/1; ONU, Objetivos de Desarrollo Sostenible",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes denominaciones NO corresponde a un Objetivo de Desarrollo Sostenible?",
+      "opciones": [
+        "Acción por el clima",
+        "Vida submarina",
+        "Defensa y soberanía nacional"
+      ],
+      "correcta": 2,
+      "explicacion": "Acción por el clima (ODS 13) y Vida submarina (ODS 14) figuran en la lista de 17. La defensa y la soberanía nacional no son un objetivo de la Agenda 2030, que se centra en dimensiones económica, social y ambiental.",
+      "ref": "ONU, Objetivos de Desarrollo Sostenible",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "El ODS 11 de la Agenda 2030 se denomina:",
+      "opciones": [
+        "Industria, innovación e infraestructuras",
+        "Ciudades y comunidades sostenibles",
+        "Producción y consumo responsables"
+      ],
+      "correcta": 1,
+      "explicacion": "El ODS 11 es Ciudades y comunidades sostenibles (lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles). Industria, innovación e infraestructuras es el ODS 9 y Producción y consumo responsables, el 12.",
+      "ref": "ONU, Objetivos de Desarrollo Sostenible; A/RES/70/1",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el Informe Brundtland, el desarrollo sostenible es:",
+      "opciones": [
+        "El que satisface las necesidades de la generación presente sin comprometer la capacidad de las generaciones futuras para satisfacer las suyas",
+        "El que maximiza el crecimiento económico actual para financiar después la protección ambiental",
+        "El que garantiza la conservación intacta de todos los recursos, sin ningún uso económico"
+      ],
+      "correcta": 0,
+      "explicacion": "El capítulo 2 de «Nuestro futuro común» define el desarrollo duradero (sostenible) como el que satisface las necesidades de la generación presente sin comprometer la capacidad de las generaciones futuras. Ni subordina el medio ambiente al crecimiento ni prohíbe todo uso de los recursos.",
+      "ref": "A/42/427, cap. 2, párr. 1",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "El Informe Brundtland, elaborado por la Comisión Mundial sobre el Medio Ambiente y el Desarrollo, se titula:",
+      "opciones": [
+        "«Nuestro futuro común»",
+        "«Los límites del crecimiento»",
+        "«Primavera silenciosa»"
+      ],
+      "correcta": 0,
+      "explicacion": "El informe de la Comisión presidida por Gro Harlem Brundtland, presentado a la Asamblea General en 1987, se titula «Nuestro futuro común». Los otros títulos corresponden a obras distintas sobre el medio ambiente y no al informe de esa Comisión.",
+      "ref": "A/42/427, nota del Secretario General, párr. 3",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Las cinco esferas de importancia crítica de la Agenda 2030 (las 5 P) son:",
+      "opciones": [
+        "Producción, población, progreso, protección y planificación",
+        "Personas, patrimonio, prosperidad, política y poder",
+        "Personas, planeta, prosperidad, paz y alianzas"
+      ],
+      "correcta": 2,
+      "explicacion": "El preámbulo de la Agenda 2030 organiza sus ámbitos en las personas, el planeta, la prosperidad, la paz y las alianzas. Las otras combinaciones son inventadas, aunque suenen plausibles.",
+      "ref": "A/RES/70/1, Preámbulo",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Qué organismo se creó como uno de los principales resultados de la Conferencia de las Naciones Unidas sobre el Medio Humano (Estocolmo, 1972)?",
+      "opciones": [
+        "La Organización Mundial de la Salud",
+        "El Programa de las Naciones Unidas para el Medio Ambiente (PNUMA)",
+        "La Comisión Mundial sobre el Medio Ambiente y el Desarrollo"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la página oficial de la ONU, uno de los principales resultados de la conferencia de Estocolmo fue la creación del PNUMA. La Comisión Mundial sobre el Medio Ambiente y el Desarrollo es posterior (1983-1987) y la OMS no tiene ese origen.",
+      "ref": "ONU, Estocolmo 1972",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes NO fue un resultado de la Cumbre de la Tierra de Río de Janeiro de 1992?",
+      "opciones": [
+        "La Convención Marco de las Naciones Unidas sobre el Cambio Climático",
+        "El Protocolo de Kioto",
+        "El Convenio sobre la Diversidad Biológica"
+      ],
+      "correcta": 1,
+      "explicacion": "La Cumbre de Río 1992 produjo la Declaración de Río, el Programa 21, la Convención Marco sobre el Cambio Climático, el Convenio sobre la Diversidad Biológica y los principios sobre bosques. El Protocolo de Kioto se hizo en 1997, desarrollando esa Convención Marco.",
+      "ref": "ONU, Río 1992; BOE-A-2005-1967",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La Conferencia de las Naciones Unidas sobre el Desarrollo Sostenible de 2012 (Río+20) decidió:",
+      "opciones": [
+        "Poner en marcha un proceso para desarrollar unos Objetivos de Desarrollo Sostenible",
+        "Aprobar el Protocolo de Kioto sobre limitación de emisiones",
+        "Crear el Programa de las Naciones Unidas para el Medio Ambiente"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la ONU, en Río+20 los Estados Miembros decidieron poner en marcha un proceso para desarrollar un conjunto de ODS, basado en los ODM y convergente con la agenda posterior a 2015. Kioto es de 1997 y el PNUMA nació en 1972.",
+      "ref": "ONU, Río 2012",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El Acuerdo de París (2015) tiene por objeto, entre otros fines:",
+      "opciones": [
+        "Mantener el aumento de la temperatura por debajo de 3 °C y proseguir los esfuerzos para limitarlo a 2 °C",
+        "Reducir un 55 % las emisiones netas en 2030 respecto de 1990",
+        "Mantener el aumento de la temperatura media mundial muy por debajo de 2 °C y proseguir los esfuerzos para limitarlo a 1,5 °C"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 2.1 del Acuerdo fija mantener el aumento de la temperatura media mundial muy por debajo de 2 °C respecto de los niveles preindustriales y proseguir los esfuerzos para limitarlo a 1,5 °C. La reducción del 55 % en 2030 es el objetivo vinculante de la Unión Europea, no una cifra del Acuerdo.",
+      "ref": "art. 2.1 Acuerdo de París (BOE-A-2017-1066)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el art. 3 de la Ley 7/2021, de cambio climático y transición energética, uno de los objetivos mínimos nacionales para 2030 es:",
+      "opciones": [
+        "Reducir al menos un 55 % las emisiones de gases de efecto invernadero respecto de 1990 y alcanzar un 42 % de renovables en el consumo de energía final",
+        "Reducir al menos un 23 % las emisiones respecto de 1990 y alcanzar un 74 % de renovables en el consumo de energía final",
+        "Reducir al menos un 23 % las emisiones de gases de efecto invernadero respecto de 1990 y alcanzar al menos un 42 % de energías renovables en el consumo de energía final"
+      ],
+      "correcta": 2,
+      "explicacion": "La Ley 7/2021 fija como mínimos para 2030 una reducción del 23 % de las emisiones y un 42 % de renovables en el consumo de energía final; el 74 % se refiere solo al sistema eléctrico (generación renovable). El 55 % es el objetivo de la Unión Europea para 2030.",
+      "ref": "art. 3.1 Ley 7/2021",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "La Ley Europea del Clima (Reglamento (UE) 2021/1119) establece como objetivos:",
+      "opciones": [
+        "La neutralidad climática de la Unión en 2040 y una reducción neta del 40 % en 2030",
+        "La neutralidad climática de la Unión a más tardar en 2050 y una reducción neta de las emisiones de al menos el 55 % en 2030 respecto de 1990",
+        "La neutralidad climática de la Unión en 2050 y una reducción neta del 90 % en 2030"
+      ],
+      "correcta": 1,
+      "explicacion": "Los arts. 2 y 4 del Reglamento fijan el equilibrio entre emisiones y absorciones a más tardar en 2050 y, para 2030, una reducción interna de las emisiones netas de al menos el 55 % respecto de 1990. El 90 % es el objetivo añadido para 2040 por el Reglamento (UE) 2026/667.",
+      "ref": "arts. 2.1 y 4.1 Reglamento (UE) 2021/1119; Reglamento (UE) 2026/667",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Cómo se denomina la estrategia del Pacto Verde Europeo para un sistema alimentario justo, saludable y respetuoso con el medio ambiente?",
+      "opciones": [
+        "«De la granja a la mesa»",
+        "«Agenda verde de la Unión»",
+        "«Horizonte verde»"
+      ],
+      "correcta": 0,
+      "explicacion": "La Comunicación COM(2020) 381, de 20 de mayo de 2020, lleva por título Estrategia «de la granja a la mesa» para un sistema alimentario justo, saludable y respetuoso con el medio ambiente. Los otros nombres son genéricos y no corresponden a ningún documento de esa estrategia.",
+      "ref": "COM(2020) 381 final",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "La estrategia «De la granja a la mesa» propone reducir las pérdidas de nutrientes al menos un 50 % de aquí a 2030, lo que reducirá el uso de fertilizantes en, al menos:",
+      "opciones": [
+        "Un 20 %",
+        "Un 50 %",
+        "Un 10 %"
+      ],
+      "correcta": 0,
+      "explicacion": "La Comisión actuará para reducir las pérdidas de nutrientes en un 50 % como mínimo, garantizando que no se deteriore la fertilidad del suelo, lo que reducirá el uso de fertilizantes en al menos un 20 % de aquí a 2030. El 50 % es la reducción de pérdidas, y también de plaguicidas químicos y de antimicrobianos.",
+      "ref": "COM(2020) 381 final, apdo. 2.1",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Según el Real Decreto 415/2014, el Consejo Nacional del Clima es:",
+      "opciones": [
+        "Un organismo autónomo con personalidad jurídica propia que gestiona las ayudas al clima",
+        "Un órgano de las Cortes Generales que aprueba las leyes sobre cambio climático",
+        "Un órgano colegiado interministerial concebido como foro de participación de las Administraciones y de las organizaciones sociales y ambientales en las políticas de cambio climático"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 1.2 lo define como órgano colegiado interministerial y el preámbulo explica que se reorganiza para convertirlo en un verdadero foro institucional de participación de todas las Administraciones y de las entidades representativas de intereses sociales y ambientales. No es un organismo autónomo ni un órgano parlamentario.",
+      "ref": "art. 1 y preámbulo RD 415/2014",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "De acuerdo con la Ley 21/2013 de evaluación ambiental, la evaluación ambiental estratégica procede respecto de:",
+      "opciones": [
+        "Los proyectos, mientras que la evaluación de impacto ambiental procede respecto de los planes y programas",
+        "Los planes y programas, mientras que la evaluación de impacto ambiental procede respecto de los proyectos",
+        "Únicamente los proyectos de obra pública, y la evaluación de impacto ambiental no existe en la ley"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 5.1.a distingue la evaluación ambiental estratégica, que procede respecto de planes o programas, de la evaluación de impacto ambiental, que procede respecto de proyectos; ambas pueden ser ordinarias o simplificadas. La segunda opción invierte el ámbito y la tercera es falsa.",
+      "ref": "art. 5.1.a Ley 21/2013",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Con qué documento finaliza la evaluación de impacto ambiental ordinaria de un proyecto?",
+      "opciones": [
+        "Con el informe ambiental estratégico",
+        "Con la declaración de impacto ambiental, formulada por el órgano ambiental",
+        "Con la declaración ambiental estratégica"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 5.3.d define la declaración de impacto ambiental como el informe preceptivo y determinante del órgano ambiental con el que finaliza la evaluación de impacto ambiental ordinaria. La declaración ambiental estratégica y el informe ambiental estratégico ponen fin, respectivamente, a la evaluación estratégica ordinaria y a la simplificada, que se aplican a planes y programas.",
+      "ref": "art. 5.2.d, 5.2.e y 5.3.d Ley 21/2013",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "La autorización ambiental integrada regulada en el RDL 1/2016 es:",
+      "opciones": [
+        "La resolución escrita del órgano competente de la comunidad autónoma que permite explotar una instalación bajo determinadas condiciones, para proteger el medio ambiente y la salud",
+        "Un certificado voluntario que acredita ante la Unión Europea el sistema de gestión ambiental de una empresa",
+        "Un informe del Gobierno de la Nación que prohíbe cualquier actividad industrial cerca de espacios protegidos"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 3.2 la define como la resolución escrita del órgano competente de la comunidad autónoma en que se ubique la instalación, por la que se permite explotarla bajo determinadas condiciones. El certificado voluntario ante la Unión Europea describe más bien EMAS, y la ley no prevé una prohibición general como la descrita.",
+      "ref": "art. 3.2 RDL 1/2016",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El sistema EMAS regulado por el Reglamento (CE) n.º 1221/2009 es:",
+      "opciones": [
+        "Un sistema obligatorio de control de emisiones para todas las industrias de la Unión",
+        "Una etiqueta que identifica los productos más respetuosos con el medio ambiente",
+        "Un sistema comunitario de gestión y auditoría medioambientales de participación voluntaria para las organizaciones"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 1 del Reglamento establece el sistema comunitario de gestión y auditoría medioambientales (EMAS), de participación voluntaria, para promover la mejora continua del comportamiento medioambiental de las organizaciones. La etiqueta de producto es la etiqueta ecológica de la UE, regulada por otro reglamento.",
+      "ref": "art. 1 Reglamento (CE) 1221/2009",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según la Ley 1/2023 de Cooperación para el Desarrollo Sostenible y la Solidaridad Global, España destinará a ayuda oficial al desarrollo, en el horizonte de 2030, al menos:",
+      "opciones": [
+        "El 1 % de la renta nacional bruta",
+        "El 0,35 % del producto interior bruto",
+        "El 0,7 % de la renta nacional bruta"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 1.6 establece que, en cumplimiento de los compromisos multilaterales y de la Unión Europea, España destinará al menos el 0,7 % de la renta nacional bruta a la ayuda oficial al desarrollo en el horizonte del año 2030. No se fija el 1 % ni se mide sobre el PIB.",
+      "ref": "art. 1.6 Ley 1/2023",
+      "dificultad": 2
+    }
+  ],
+  "dudas": [
+    "El enunciado exacto de las preguntas de examen sobre «De la granja a la mesa» (nitratos y contaminación difusa) no consta en el análisis; se han incluido los objetivos cuantitativos de la Comunicación COM(2020) 381 por si se preguntan.",
+    "No he comprobado si el PNIEC o una norma posterior a la Ley 7/2021 han elevado los objetivos nacionales de 2030; el art. 3 de la ley ordena iniciar en 2023 la primera revisión y permite al Consejo de Ministros revisarlos al alza.",
+    "El Consejo Nacional del Clima sigue regulado por el RD 415/2014, cuyo texto consolidado conserva las denominaciones ministeriales de 2014; no he verificado su adscripción actual.",
+    "La fecha de la Declaración del Milenio (2000) no se ha contrastado en una fuente primaria; la Agenda 2030 solo cita la resolución 55/2 y dice que los ODM se acordaron «hace casi 15 años»."
+  ]
+}

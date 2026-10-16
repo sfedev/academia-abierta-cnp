@@ -1,0 +1,786 @@
+{
+  "tema": 14,
+  "titulo": "Ley de Seguridad Ciudadana (LO 4/2015)",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "alto",
+    "nota": "El más estable de los grandes: 4 a 6 preguntas en cada examen (media 4,6). Identificación (6 horas), registros corporales, potestades especiales, clasificación de infracciones y cuantías caen casi siempre."
+  },
+  "normas": [
+    {
+      "nombre": "Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana",
+      "boe": "BOE-A-2015-3442",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442",
+      "verificado": "Texto consolidado, actualización de 19/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto 933/2021, de 26 de octubre, por el que se establecen las obligaciones de registro documental e información de las personas físicas o jurídicas que ejercen actividades de hospedaje y alquiler de vehículos a motor (desarrolla el art. 25.1)",
+      "boe": "BOE-A-2021-17461",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17461",
+      "verificado": "Texto consolidado, actualización de 20/12/2025 (leído el 16/10/2026)"
+    }
+  ],
+  "novedades": [
+    "Art. 8.1 (DNI), modificado por el Real Decreto-ley 14/2019 (en vigor desde el 06/11/2019): el DNI es hoy «el **único** documento con suficiente valor por sí solo para la acreditación, a todos los efectos, de la identidad y los datos personales de su titular». Antes decía solo que tenía «suficiente valor por sí solo»: el material antiguo puede estar desfasado.",
+    "Ningún artículo ha cambiado desde 2021. Desde 2015 solo hay, además del RDL 14/2019, pronunciamientos del Tribunal Constitucional: la STC 172/2020 (19/11/2020) y la STC 13/2021 (28/01/2021) declaran conformes a la Constitución, solo con una interpretación concreta, los arts. 36.22, 36.23, 37.3 y 37.7 y la disposición final 1.ª (rechazo en frontera de Ceuta y Melilla), y anulan el inciso «no autorizado» del art. 36.23. La actualización de la consolidación de 19/12/2025 no modifica ningún artículo (historial de versiones del BOE comprobado el 16/10/2026).",
+    "Drones: la Ley no emplea la palabra. Lo más cercano es el **sobrevuelo** de infraestructuras de servicios básicos (infracción muy grave si genera riesgo para la vida o integridad física, art. 35.1; grave si causa una interferencia grave en su funcionamiento, art. 36.9) y las **aeronaves ligeras** (registro documental, art. 25.2; incumplir restricciones a la navegación es infracción grave, art. 36.22).",
+    "El RD 933/2021 desarrolla el registro de hospedaje y alquiler de vehículos del art. 25.1: partes firmados por mayores de 14 años, conservación de 3 años y comunicación en un máximo de 24 horas. Es materia que ha caído en examen.",
+    "El texto de la LO 4/2015 sigue citando la Ley 30/1992 (arts. 6, 44 y 51) y la LO 15/1999 (arts. 43 y 46), normas ya derogadas, sin haberlas actualizado. No estudies esas citas como derecho vigente; los plazos y reglas propios de la LO 4/2015 (por ejemplo, la caducidad de 1 año del art. 50) son los que se preguntan."
+  ],
+  "clave": [
+    "**Identificación en dependencias policiales: máximo 6 horas** (en ningún caso podrá superarlas), solo si no es posible identificar por otro medio o la persona se niega (art. 16.2).",
+    "**Libro-registro** de identificaciones: extracto **mensual** al Ministerio Fiscal; asientos **cancelados de oficio a los 3 años**; a la salida se entrega un volante (art. 16.3 y 16.4).",
+    "**DNI obligatorio desde los 14 años**; único documento con suficiente valor por sí solo. Pasaporte: lo expide la **DG de la Policía** en España y las **Representaciones Diplomáticas y Consulares** en el extranjero (arts. 8, 9 y 12).",
+    "**Multas**: leves 100 a 600 €; graves 601 a 30.000 €; muy graves 30.001 a 600.000 € (art. 39.1). Graves y muy graves se dividen en tres tramos de igual extensión.",
+    "**Competencia sancionadora estatal**: Ministro del Interior, muy graves en grado máximo; Secretario de Estado de Seguridad, muy graves en grado medio y mínimo; Delegados del Gobierno, graves y leves (art. 32.1).",
+    "**Prescripción de infracciones**: leves 6 meses, graves 1 año, muy graves 2 años (art. 38). **Sanciones**: 1, 2 y 3 años (art. 40). **Registro Central**: cancelación a 1, 2 y 3 años (art. 43.3).",
+    "**Cuatro** infracciones muy graves (art. 35): reuniones no comunicadas o prohibidas junto a infraestructuras de servicios básicos con riesgo para la vida; armas y explosivos con perjuicios muy graves; espectáculos celebrados pese a prohibición o suspensión; haces de luz sobre pilotos o conductores.",
+    "**Registro corporal externo** (art. 20): indicios racionales; agente del **mismo sexo**; lugar **reservado** si hay que dejar partes del cuerpo a la vista; puede hacerse **contra la voluntad** del afectado con la compulsión indispensable.",
+    "**Intervención de armas, explosivos, cartuchería y artículos pirotécnicos**: Ministerio del Interior, a través de la **DG de la Guardia Civil** (art. 28.2).",
+    "**Medidas provisionales** previas al procedimiento: se ratifican, modifican o revocan en el acuerdo de incoación en un máximo de **15 días** (art. 47.2). Tras la incoación, duran como máximo la **mitad del plazo de la sanción** (art. 49.3).",
+    "**Procedimiento abreviado** (solo graves y leves): pago voluntario en **15 días** desde la notificación de la incoación con **reducción del 50 %** (art. 54). No se aplica a las muy graves.",
+    "**Menores de 14 años**: exentos de responsabilidad por las infracciones; se comunica al Ministerio Fiscal (art. 30.2). La disolución de una manifestación es el **último recurso** (art. 23.2)."
+  ],
+  "resumen": [
+    {
+      "titulo": "Fines, principios y autoridades (arts. 1 a 7)",
+      "puntos": [
+        "La seguridad ciudadana es **requisito indispensable** para el pleno ejercicio de los derechos fundamentales y su salvaguarda, como bien jurídico colectivo, es **función del Estado** (art. 1).",
+        "**Fines** (art. 3), nueve: libre ejercicio de derechos y libertades; funcionamiento de las instituciones; seguridad y convivencia; respeto a las Leyes, la paz y la seguridad ciudadana; protección de personas y bienes, con atención especial a **menores y personas con discapacidad necesitadas de especial protección**; uso pacífico de vías y bienes demaniales; servicios básicos; prevención de delitos e infracciones; **transparencia**.",
+        "**Principios rectores** (art. 4.1), siete: **legalidad, igualdad de trato y no discriminación, oportunidad, proporcionalidad, eficacia, eficiencia y responsabilidad**. Los capítulos III y V se interpretan del modo más favorable a los derechos fundamentales, singularmente reunión y manifestación, expresión e información, libertad sindical y huelga.",
+        "**Autoridades** de la Administración General del Estado (art. 5.2), cinco: **Ministro del Interior**, **Secretario de Estado de Seguridad**, titulares de órganos directivos del Ministerio del Interior con esa condición, **Delegados del Gobierno** y **Subdelegados del Gobierno** y Directores Insulares."
+      ]
+    },
+    {
+      "titulo": "DNI, pasaporte y documentación de extranjeros (arts. 8 a 13)",
+      "puntos": [
+        "**DNI** (arts. 8 y 9): derecho de los españoles; documento público y oficial; **obligatorio desde los 14 años**; personal e intransferible; no se puede privar de él, ni temporalmente, salvo para sustituirlo. No puede incluir datos de raza, etnia, religión, ideología, orientación sexual ni afiliación política o sindical.",
+        "**Pasaporte** (art. 11): solo se exceptúa su expedición en **cuatro** supuestos: condena a pena o medida de seguridad privativa de libertad no extinguida; retirada judicial; libertad vigilada con prohibición de abandonar el territorio nacional; prohibición judicial de salida o de expedición a menores o personas con capacidad modificada judicialmente.",
+        "La **comparecencia personal** es obligatoria para obtener DNI y pasaporte; solo se exime del pasaporte provisional en el extranjero por razones justificadas (disposición adicional 3.ª)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Aspecto",
+          "DNI (arts. 8 a 10)",
+          "Pasaporte (arts. 11 y 12)",
+          "Extranjeros (art. 13)"
+        ],
+        "filas": [
+          [
+            "Naturaleza",
+            "Documento público y oficial; **único** con suficiente valor por sí solo",
+            "Documento público, personal, individual e intransferible; acredita identidad y nacionalidad fuera de España",
+            "Deben conservar y portar la documentación de su país y la que acredite su situación regular"
+          ],
+          [
+            "Quién lo expide",
+            "Ministerio del Interior, a través de la **DG de la Policía**; tasa",
+            "**DG de la Policía** en España; **Representaciones Diplomáticas y Consulares** en el extranjero; tasa",
+            "No pueden ser privados de su documentación de origen salvo en investigaciones judiciales penales"
+          ],
+          [
+            "Pérdida o sustracción",
+            "Dar cuenta **tan pronto como sea posible** a la comisaría o puesto de las FCS más próximo",
+            "Dar cuenta **de manera inmediata** a las FCS o a la Representación Diplomática o Consular",
+            "Sin regla específica"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Identificación de personas: supuestos, 6 horas y libro-registro (art. 16)",
+      "puntos": [
+        "Los agentes pueden **requerir la identificación** (art. 16.1) cuando existan **indicios de participación en la comisión de una infracción** o sea **razonablemente necesario** para prevenir un delito. Las comprobaciones se hacen en la vía pública, incluso a personas con el **rostro cubierto**, respetando proporcionalidad, igualdad de trato y no discriminación.",
+        "Si **no es posible identificar** por ningún medio (incluido el telefónico o telemático) o la persona se niega, pueden requerirle que les acompañe a las **dependencias policiales más próximas**, solo para identificarla y por el tiempo estrictamente necesario, que **en ningún caso podrá superar las seis horas** (art. 16.2). Se le informa de modo inmediato y comprensible.",
+        "**Libro-registro** (art. 16.3): solo asientos de seguridad ciudadana; datos comunicables solo a la autoridad judicial y al Ministerio Fiscal; extracto **mensual** al Fiscal; asientos **cancelados de oficio a los tres años**. A la salida se entrega un **volante** con el tiempo de permanencia, la causa y la identidad de los agentes (art. 16.4).",
+        "La negativa a identificarse o dar datos falsos es infracción **grave** (art. 36.6)."
+      ]
+    },
+    {
+      "titulo": "Otras potestades generales de policía de seguridad (arts. 14, 15 y 17 a 22)",
+      "puntos": [
+        "Se ejercen con legalidad, proporcionalidad, injerencia mínima y no discriminación (art. 4). Las órdenes y prohibiciones exigen resolución **debidamente motivada** (art. 14); las **videocámaras** legalmente autorizadas pueden grabar personas, lugares u objetos (art. 22).",
+        "Las diligencias de identificación, registro y comprobación **no están sujetas a las formalidades de la detención**; la aprehensión de armas, drogas u otros efectos consta en acta firmada por el interesado (si se niega, se deja constancia), con **presunción de veracidad** salvo prueba en contrario (art. 19)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Potestad",
+          "Presupuesto y contenido",
+          "Garantía o límite"
+        ],
+        "filas": [
+          [
+            "Entrada y registro en domicilio (art. 15)",
+            "Solo en los casos permitidos por la Constitución y las Leyes; causa legítima: evitar daños inminentes y graves a personas y cosas en catástrofe, calamidad, ruina inminente u otra extrema y urgente necesidad",
+            "Acta o atestado a la autoridad judicial; en edificios oficiales no se precisa consentimiento"
+          ],
+          [
+            "Restricción del tránsito y zonas de seguridad (art. 17.1)",
+            "Limitar la circulación o permanencia en vías o lugares públicos ante alteración (o indicios racionales) de la seguridad ciudadana; ocupar preventivamente efectos",
+            "Tiempo **imprescindible**"
+          ],
+          [
+            "Controles en vías públicas (art. 17.2)",
+            "Prevenir delitos de especial gravedad o alarma social: identificación, registro de vehículos y control superficial de efectos personales",
+            "Solo si es **indispensable**"
+          ],
+          [
+            "Comprobaciones y registros en lugares públicos (art. 18)",
+            "Comprobar personas, bienes y vehículos para impedir el porte o uso ilegal de armas, explosivos o sustancias peligrosas; ocupación temporal de objetos o medios de agresión, incluso armas con licencia",
+            "Indicios de su presencia; la ocupación busca prevenir delitos o peligros"
+          ],
+          [
+            "Medidas extraordinarias (art. 21)",
+            "Cierre o desalojo de locales, prohibición de paso, evacuación de inmuebles o espacios acotados, depósito de explosivos",
+            "Solo en **emergencias** y el tiempo estrictamente necesario; los agentes pueden adoptarlas con órdenes verbales"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Registro corporal externo (art. 20)",
+      "puntos": [
+        "El **registro corporal externo y superficial** exige **indicios racionales** de que puede conducir al hallazgo de objetos relevantes. Salvo urgencia por riesgo grave e inminente para los agentes, lo hace un agente del **mismo sexo** y, si deja a la vista partes del cuerpo normalmente cubiertas, en **lugar reservado y fuera de la vista de terceros**, con constancia escrita.",
+        "Se respetan los principios del art. 16.1 y la **injerencia mínima**; se informa a la persona. Puede practicarse **contra la voluntad** del afectado con la compulsión indispensable."
+      ]
+    },
+    {
+      "titulo": "Reuniones y manifestaciones: actuación policial (arts. 23 y 24)",
+      "puntos": [
+        "Las autoridades protegen las reuniones y manifestaciones y pueden disolverlas en los supuestos del art. 5 de la LO 9/1983 (art. 23.1).",
+        "Las medidas son **graduales y proporcionadas**; la disolución es el **último recurso**. Antes se **avisa** a los afectados (verbalmente si hay urgencia); con **armas, artefactos explosivos u objetos contundentes o peligrosos** se disuelve **sin previo aviso** (art. 23.2 y 23.3)."
+      ]
+    },
+    {
+      "titulo": "Potestades especiales de policía administrativa (arts. 25 a 29)",
+      "puntos": [
+        "**Registro documental** (art. 25.1): hospedaje; transporte de personas; acceso comercial a servicios telefónicos o telemáticos en establecimientos abiertos al público; comercio o reparación de objetos usados; alquiler o desguace de vehículos; compraventa de joyas y metales, objetos u obras de arte; cerrajería de seguridad; centros gestores de residuos metálicos; comercio al por mayor de chatarra o productos de desecho; venta de productos químicos peligrosos a particulares. También los titulares de embarcaciones de alta velocidad y aeronaves ligeras (art. 25.2).",
+        "**Hospedaje y alquiler de vehículos** (RD 933/2021): el parte de entrada lo **firma toda persona mayor de 14 años** (los datos de menores de 14 los aporta el adulto acompañante); registro conservado **3 años**; comunicaciones telemáticas en un máximo de **24 horas**. Carecer de registros u omitir comunicaciones es **grave** (art. 36.20); irregularidades o comunicar fuera de plazo, **leve** (art. 37.9).",
+        "**Espectáculos** (art. 27): las autoridades pueden **prohibir** y, si ya se celebran, **suspender** los espectáculos con peligro cierto para personas y bienes o graves alteraciones de la seguridad ciudadana.",
+        "**Armas, explosivos, cartuchería y pirotecnia** (arts. 28 y 29): el **Gobierno** regula requisitos y condiciones; la **intervención** corresponde al **Ministerio del Interior, a través de la DG de la Guardia Civil**, que puede inspeccionar en cualquier momento. Licencias obligatorias para armas de fuego, con carácter **restrictivo** en las de defensa personal."
+      ]
+    },
+    {
+      "titulo": "Infracciones: clasificación completa (arts. 34 a 37)",
+      "puntos": [
+        "Hay **4 muy graves, 23 graves y 17 leves** (art. 34); la mayoría exige que no sean constitutivas de infracción penal. En los arts. 35.1 y 37.1 responden los **organizadores o promotores**. Servicios básicos (disposición adicional 6.ª): centrales nucleares, petroquímicas, refinerías y depósitos de combustible; puertos, aeropuertos y demás infraestructuras de transporte; agua, gas y electricidad; telecomunicaciones.",
+        "Lee la tabla por filas: se pregunta la **gravedad de conductas parecidas**."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Materia",
+          "Muy graves (art. 35)",
+          "Graves (art. 36)",
+          "Leves (art. 37)"
+        ],
+        "filas": [
+          [
+            "Reuniones y manifestaciones",
+            "No comunicadas o prohibidas junto a infraestructuras de servicios básicos, con riesgo para la vida o integridad física (35.1)",
+            "Perturbación grave ante Congreso, Senado o asambleas autonómicas (36.2); negarse a disolver (36.7); perturbar una reunión lícita (36.8)",
+            "Incumplir arts. 4.2, 8, 9, 10 y 11 LO 9/1983 (37.1); restricciones de circulación peatonal o itinerario, con alteraciones menores (37.3)"
+          ],
+          [
+            "Infraestructuras de servicios básicos",
+            "Intrusión en sus recintos, incluido el **sobrevuelo**, con riesgo para la vida o integridad física (35.1)",
+            "Intrusión o sobrevuelo con interferencia grave en su funcionamiento (36.9)",
+            "Sin tipo específico"
+          ],
+          [
+            "Orden público y espectáculos",
+            "Celebrar espectáculos **quebrantando la prohibición o suspensión** por razones de seguridad pública (35.3)",
+            "Perturbar la seguridad en actos públicos, espectáculos, solemnidades u oficios religiosos con numerosas personas (36.1); desórdenes u obstaculizar la vía pública con alteración grave (36.3)",
+            "Daños o deslucimiento de bienes de uso público o privados en la vía pública (37.13); escalar edificios o monumentos (37.14); remover vallas de perímetros de seguridad (37.15)"
+          ],
+          [
+            "Autoridad y agentes",
+            "Sin tipo específico",
+            "Obstrucción a la autoridad (36.4); obstaculizar servicios de emergencia (36.5); **desobediencia o resistencia, negativa a identificarse o datos falsos** (36.6); uso indebido de uniformes (36.14); falta de colaboración con las FCS (36.15); uso de imágenes o datos de agentes que ponga en peligro su seguridad (36.23)",
+            "**Faltas de respeto y consideración** a un miembro de las FCS (37.4)"
+          ],
+          [
+            "Armas, explosivos y pirotecnia",
+            "Incumplir la normativa sobre armas reglamentarias, explosivos catalogados, cartuchería o pirotecnia **con perjuicios muy graves** (35.2)",
+            "Lo mismo sin perjuicios muy graves (36.12); portar, exhibir o usar armas prohibidas, o armas de modo negligente, temerario o intimidatorio o fuera de lugares habilitados aun con licencia (36.10); obstruir inspecciones (36.13); incumplir restricciones de navegación (36.22)",
+            "Exhibir objetos peligrosos con ánimo intimidatorio (37.2); omitir medidas de conservación de la documentación de armas o no denunciar su pérdida (37.8)"
+          ],
+          [
+            "Haces de luz",
+            "Sobre **pilotos o conductores** de medios de transporte (35.4)",
+            "Sin tipo específico",
+            "Sobre **miembros de las FCS** para dificultar sus funciones (37.6)"
+          ],
+          [
+            "Drogas y alcohol",
+            "Sin tipo específico",
+            "**Consumo o tenencia ilícitos** en lugares, vías, establecimientos o transportes públicos y abandono de instrumentos (36.16); traslado de personas para facilitarles drogas (36.17); cultivo visible (36.18); tolerancia en locales (36.19)",
+            "Consumo de alcohol en lugares públicos que perturbe gravemente la tranquilidad (37.17)"
+          ],
+          [
+            "Documentación y registros",
+            "Sin tipo específico",
+            "Carencia de registros u omisión de comunicaciones (36.20); datos falsos para obtener documentaciones (36.21)",
+            "Irregularidades en registros (37.9); no obtener la documentación personal o no denunciar su pérdida (37.10); **tercera y posteriores pérdidas en un año** (37.11); negarse a entregar la documentación retirada (37.12)"
+          ],
+          [
+            "Convivencia y otros",
+            "Sin tipo específico",
+            "Demanda de servicios sexuales retribuidos cerca de lugares de menores o con riesgo vial (36.11)",
+            "Actos contra la libertad e indemnidad sexual o **exhibición obscena** (37.5); **ocupación de inmuebles ajenos** o de la vía pública, incluida la venta ambulante (37.7); animales feroces sueltos o abandono de domésticos (37.16)"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Sanciones: cuantías, grados y accesorias (arts. 33, 39 y 42)",
+      "puntos": [
+        "Las multas graves y muy graves se dividen en **tres tramos de igual extensión** (art. 33.2). Toda infracción se sanciona en **grado mínimo**; pasa al **medio** si concurre una de cuatro circunstancias: **reincidencia** (más de una infracción de la misma naturaleza en dos años, declarada por resolución firme); violencia, amenaza o intimidación; **rostro cubierto**; utilización de menores, personas con discapacidad necesitadas de especial protección o vulnerables. El **máximo** exige especial gravedad justificada.",
+        "Criterios de individualización (siete), entre ellos el riesgo producido, el perjuicio causado, la culpabilidad, el beneficio económico y la **capacidad económica** del infractor.",
+        "**Accesorias** (art. 39.2): retirada de armas y licencias; **comiso**; **suspensión temporal** de licencias y **clausura** de establecimientos (materias del capítulo IV): **6 meses y 1 día a 2 años** (muy graves) y **hasta 6 meses** (graves); con reincidencia, 2 años y 1 día a 6 años (muy graves) y hasta 2 años (graves).",
+        "**Reparación** (art. 42): reposición o indemnización; responsabilidad civil **solidaria**; por menores de 18 años no emancipados responden solidariamente sus padres, tutores o guardadores."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Gravedad (art. 39.1)",
+          "Multa",
+          "Grado mínimo",
+          "Grado medio",
+          "Grado máximo"
+        ],
+        "filas": [
+          [
+            "Leves",
+            "**100 a 600 €**",
+            "Sin tramos",
+            "Sin tramos",
+            "Sin tramos"
+          ],
+          [
+            "Graves",
+            "**601 a 30.000 €**",
+            "601 a 10.400 €",
+            "10.401 a 20.200 €",
+            "20.201 a 30.000 €"
+          ],
+          [
+            "Muy graves",
+            "**30.001 a 600.000 €**",
+            "30.001 a 220.000 €",
+            "220.001 a 410.000 €",
+            "410.001 a 600.000 €"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Plazos de prescripción y cancelación (arts. 38, 40, 43 y 50)",
+      "puntos": [
+        "Prescripción de infracciones: desde la comisión (continuadas, desde la última; efectos permanentes, desde que cesó la situación ilícita). La interrumpen cualquier actuación administrativa dirigida a sancionar con conocimiento formal del interesado y la apertura de un procedimiento penal; las actuaciones previas **no** (art. 48.3).",
+        "Las sanciones prescriben desde el día siguiente a la firmeza en vía administrativa. El **Registro Central de Infracciones contra la Seguridad Ciudadana** sirve solo para apreciar la **reincidencia** (art. 43). El procedimiento **caduca al año** de su incoación (art. 50)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Plazo",
+          "Leves",
+          "Graves",
+          "Muy graves"
+        ],
+        "filas": [
+          [
+            "Prescripción de las infracciones (art. 38)",
+            "**6 meses**",
+            "**1 año**",
+            "**2 años**"
+          ],
+          [
+            "Prescripción de las sanciones (art. 40)",
+            "1 año",
+            "2 años",
+            "3 años"
+          ],
+          [
+            "Cancelación de asientos del Registro Central (art. 43.3)",
+            "1 año",
+            "2 años",
+            "3 años"
+          ],
+          [
+            "Procedimiento abreviado (art. 54)",
+            "Sí",
+            "Sí",
+            "No"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Quién sanciona (arts. 30 a 32 y 41)",
+      "puntos": [
+        "Responde el **autor**; los **menores de 14 años** están exentos y se comunica al Ministerio Fiscal (art. 30). Son organizadores de una reunión quienes suscribieron la comunicación y quienes de hecho la presidan o dirijan.",
+        "Concurso de infracciones (art. 31): prevalece el precepto especial, luego el más amplio o complejo y, en su defecto, el más grave. Las ordenanzas pueden graduar infracciones y sanciones sin crear otras (arts. 32.3 y 41)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Órgano (art. 32)",
+          "Infracciones que sanciona"
+        ],
+        "filas": [
+          [
+            "**Ministro del Interior**",
+            "Muy graves en **grado máximo**"
+          ],
+          [
+            "**Secretario de Estado de Seguridad**",
+            "Muy graves en **grado medio y en grado mínimo**"
+          ],
+          [
+            "**Delegados del Gobierno** en las CCAA y en Ceuta y Melilla",
+            "**Graves y leves**"
+          ],
+          [
+            "Autoridades de la CCAA con competencias y Cuerpo de policía propio",
+            "Las de su ámbito de competencias"
+          ],
+          [
+            "**Alcaldes**",
+            "Las cometidas en espacios públicos municipales o contra bienes de titularidad local, si tienen competencia según la legislación específica"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Procedimiento sancionador y medidas provisionales (arts. 44 a 54)",
+      "puntos": [
+        "**Non bis in idem** (art. 45): no se sanciona lo ya sancionado penal o administrativamente con identidad de sujeto, hecho y fundamento; si puede haber delito se pasa el tanto de culpa y se paraliza el procedimiento, y vinculan los hechos probados judicialmente.",
+        "**Medidas provisionales previas** (art. 47): los agentes intervienen cautelarmente instrumentos, dinero, frutos y productos de la infracción. En grave riesgo o peligro inminente pueden adoptar las medidas del art. 49.1 (salvo la suspensión de la actividad de autorizaciones), que se **ratifican, modifican o revocan en el acuerdo de incoación en un máximo de quince días**, o quedan sin efecto.",
+        "**Medidas provisionales tras la incoación** (art. 49): las adopta el órgano que resuelve, por acuerdo motivado y sin carácter sancionador (depósito de instrumentos, suspensión o clausura preventiva de locales, suspensión de actividades o de la venta de entradas de espectáculos de riesgo, entre otras). Duran como máximo la **mitad del plazo de la sanción** que pudiera corresponder, salvo acuerdo motivado.",
+        "**Valor probatorio** (art. 52): las denuncias, atestados o actas de agentes que **presenciaron los hechos**, ratificadas si son negadas, bastan salvo prueba en contrario.",
+        "**Procedimiento abreviado** (art. 54): solo graves y leves; en **15 días** desde la notificación de la incoación se puede pagar con **reducción del 50 %** (renuncia a alegaciones; termina sin resolución expresa; solo recurso contencioso-administrativo) o alegar. La multa se paga en 15 días desde la firmeza (art. 53)."
+      ]
+    }
+  ],
+  "trampas": [
+    "Plazo de identificación: **máximo 6 horas**, «en ningún caso podrá superar». Los distractores usan 8, 9 o 24 horas, o cambian «máximo» por «al menos», o lo presentan como una detención (es un requerimiento para acompañar a los agentes, no una detención).",
+    "Gravedad de conductas parecidas: haces de luz (pilotos o conductores, **muy grave**; miembros de las FCS, **leve**); armas y explosivos (**muy grave** con perjuicios muy graves, **grave** sin ellos); intrusión o sobrevuelo (**muy grave** con riesgo para la vida, **grave** con interferencia grave); consumo de drogas en público (**grave**) frente a consumo de alcohol (**leve**); faltas de respeto a un agente (**leve**) frente a desobediencia o negativa a identificarse (**grave**).",
+    "Series de números paralelas: infracciones 6 meses, 1 año, 2 años; sanciones y Registro Central 1, 2 y 3 años. No las mezcles: el «1, 2, 3» es de sanciones y registro; el «6 meses, 1, 2» es de infracciones.",
+    "Órganos sancionadores: el Ministro del Interior solo en las muy graves en grado máximo; el Secretario de Estado de Seguridad en las muy graves en grado medio y mínimo; los Delegados del Gobierno en graves y leves. Los Subdelegados no sancionan en el art. 32.",
+    "DG de la Policía frente a DG de la Guardia Civil: DNI y pasaporte los gestiona la **DG de la Policía**; la **intervención de armas** la ejerce el Ministerio del Interior a través de la **DG de la Guardia Civil**.",
+    "Tres «15» que se confunden: 15 días para ratificar las medidas provisionales previas al procedimiento (art. 47.2), 15 días para el pago voluntario con reducción del 50 % (art. 54) y 15 días para pagar la multa tras la firmeza (art. 53.3).",
+    "DNI: tras el RDL 14/2019 es el **único** documento con suficiente valor por sí solo. Obligatorio desde los 14 años. Pérdida del DNI: «tan pronto como sea posible»; pérdida del pasaporte: «de manera inmediata».",
+    "Registro corporal externo: no es «nunca contra la voluntad»; la Ley permite practicarlo contra la voluntad con la compulsión indispensable. Lo realiza un agente del mismo sexo salvo urgencia por riesgo grave e inminente para los agentes.",
+    "Menores: los de **menos de 14 años** están exentos; en hospedaje, firman el parte los **mayores de 14 años**. El procedimiento abreviado nunca se aplica a las infracciones muy graves."
+  ],
+  "caido": [
+    {
+      "examen": "23 abr 2023, 13 abr 2024, 1 mar 2025, 25 oct 2025",
+      "concepto": "Identificación en dependencias policiales (art. 16): máximo 6 horas; libro-registro con remisión mensual al Ministerio Fiscal y cancelación a los 3 años (en 2024, dos preguntas)"
+    },
+    {
+      "examen": "23 abr 2023, 1 mar 2025",
+      "concepto": "Registros corporales externos (art. 20): proporcionalidad, injerencia mínima, agente del mismo sexo y no contra la voluntad"
+    },
+    {
+      "examen": "23 abr 2023, 26 sep 2026",
+      "concepto": "Fines (art. 3) y principios rectores (art. 4)"
+    },
+    {
+      "examen": "13 abr 2024, 26 sep 2026",
+      "concepto": "Pasaporte (arts. 11 y 12): documento personal e intransferible; expedición por la DG de la Policía y por las representaciones diplomáticas y consulares"
+    },
+    {
+      "examen": "13 abr 2024, 25 oct 2025, 26 sep 2026",
+      "concepto": "Potestades especiales (cap. IV): registro documental de actividades (joyas, chatarra), intervención de armas por la DG de la Guardia Civil, seguridad de espectáculos, partes de hospedaje firmados por mayores de 14 años"
+    },
+    {
+      "examen": "23 abr 2023, 13 abr 2024, 1 mar 2025, 25 oct 2025, 26 sep 2026",
+      "concepto": "Clasificación de infracciones: muy graves (art. 35), graves (art. 36: perturbación en actos públicos, drogas en la vía pública, desobediencia, negativa a identificarse) y leves (art. 37: exhibición obscena)"
+    },
+    {
+      "examen": "1 mar 2025, 25 oct 2025",
+      "concepto": "Proyección de haces de luz: sobre conductores o pilotos (muy grave) y sobre agentes (leve)"
+    }
+  ],
+  "mnemotecnias": [
+    "Infracciones prescriben en 6 meses, 1 año y 2 años; sanciones y asientos del Registro Central, en 1, 2 y 3 años (siempre de leve a muy grave).",
+    "Cuanto más grave, más alto el órgano: Delegado del Gobierno (graves y leves), Secretario de Estado de Seguridad (muy graves, medio y mínimo), Ministro del Interior (muy graves, máximo).",
+    "Multas: 100-600 (leves), 601-30.000 (graves), 30.001-600.000 (muy graves). Los tramos de graves terminan en 10.400, 20.200 y 30.000; los de muy graves en 220.000, 410.000 y 600.000."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Cuál es el tiempo máximo que puede durar la permanencia en dependencias policiales a efectos de identificación?",
+      "r": "**Seis horas**, el tiempo estrictamente necesario y en ningún caso más (art. 16.2)."
+    },
+    {
+      "p": "¿Qué constará en el libro-registro de identificaciones y qué plazos tiene?",
+      "r": "Diligencias de identificación, motivos, circunstancias y duración; **extracto mensual** al Ministerio Fiscal; cancelación de oficio a los **3 años**; a la salida se entrega un volante (art. 16.3 y 16.4)."
+    },
+    {
+      "p": "¿En qué dos supuestos pueden los agentes requerir la identificación de una persona?",
+      "r": "Cuando existan **indicios de que ha podido participar en la comisión de una infracción** o cuando se considere **razonablemente necesario** para prevenir un delito (art. 16.1)."
+    },
+    {
+      "p": "¿Desde qué edad es obligatorio el DNI y qué valor tiene?",
+      "r": "Desde los **14 años**; es documento público y oficial y el **único** con suficiente valor por sí solo para acreditar la identidad a todos los efectos (arts. 8 y 9)."
+    },
+    {
+      "p": "¿Quién expide el pasaporte?",
+      "r": "En España, la **Dirección General de la Policía**; en el extranjero, las **Representaciones Diplomáticas y Consulares** (art. 12.1)."
+    },
+    {
+      "p": "¿Cómo debe practicarse el registro corporal externo?",
+      "r": "Con indicios racionales; por un agente del **mismo sexo**; en **lugar reservado** si se dejan partes del cuerpo a la vista; con **injerencia mínima**; puede hacerse **contra la voluntad** con la compulsión indispensable (art. 20)."
+    },
+    {
+      "p": "¿Qué multa corresponde a cada clase de infracción?",
+      "r": "**Leves**: 100 a 600 €. **Graves**: 601 a 30.000 €. **Muy graves**: 30.001 a 600.000 € (art. 39.1)."
+    },
+    {
+      "p": "¿Cuáles son los tramos de la multa por infracción grave?",
+      "r": "Mínimo, **601 a 10.400 €**; medio, **10.401 a 20.200 €**; máximo, **20.201 a 30.000 €** (art. 39.1)."
+    },
+    {
+      "p": "¿Cuáles son los tramos de la multa por infracción muy grave?",
+      "r": "Mínimo, **30.001 a 220.000 €**; medio, **220.001 a 410.000 €**; máximo, **410.001 a 600.000 €** (art. 39.1)."
+    },
+    {
+      "p": "¿Qué circunstancias llevan la multa al grado medio?",
+      "r": "**Reincidencia** (más de una infracción de la misma naturaleza en dos años, por resolución firme); violencia, amenaza o intimidación; **rostro cubierto**; utilización de menores, personas con discapacidad o vulnerables (art. 33.2)."
+    },
+    {
+      "p": "¿Qué órgano estatal sanciona cada tipo de infracción?",
+      "r": "**Ministro del Interior**: muy graves en grado máximo. **Secretario de Estado de Seguridad**: muy graves en grado medio y mínimo. **Delegados del Gobierno**: graves y leves (art. 32.1)."
+    },
+    {
+      "p": "¿Cuándo prescriben las infracciones?",
+      "r": "Leves a los **6 meses**, graves al **año** y muy graves a los **2 años** (art. 38.1)."
+    },
+    {
+      "p": "¿Cuándo prescriben las sanciones y cuándo se cancelan los asientos del Registro Central?",
+      "r": "Sanciones: leves **1 año**, graves **2 años**, muy graves **3 años**, desde el día siguiente a la firmeza (art. 40). Registro Central: cancelación de oficio a **1, 2 y 3 años** respectivamente (art. 43.3)."
+    },
+    {
+      "p": "¿Cuáles son las cuatro infracciones muy graves?",
+      "r": "Reuniones no comunicadas o prohibidas junto a infraestructuras de servicios básicos con riesgo para la vida; armas y explosivos con perjuicios muy graves; espectáculos celebrados pese a prohibición o suspensión; haces de luz sobre pilotos o conductores (art. 35)."
+    },
+    {
+      "p": "¿Qué plazo hay para ratificar las medidas provisionales adoptadas antes de iniciar el procedimiento?",
+      "r": "**Quince días**, en el acuerdo de incoación; si no se incoa o no hay pronunciamiento expreso, quedan sin efecto (art. 47.2)."
+    },
+    {
+      "p": "¿Cuánto pueden durar las medidas provisionales adoptadas tras la incoación?",
+      "r": "Como máximo la **mitad del plazo previsto para la sanción** que pudiera corresponder, salvo acuerdo debidamente motivado (art. 49.3)."
+    },
+    {
+      "p": "¿Cómo funciona el procedimiento abreviado?",
+      "r": "Solo graves y leves; **15 días** desde la notificación de la incoación para pagar con **reducción del 50 %**; el pago implica renuncia a alegaciones y termina el procedimiento (art. 54)."
+    },
+    {
+      "p": "¿A través de qué órgano ejerce el Ministerio del Interior la intervención de armas y explosivos?",
+      "r": "De la **Dirección General de la Guardia Civil** (art. 28.2)."
+    },
+    {
+      "p": "¿Qué firma el huésped en un hotel y qué plazos fija el RD 933/2021?",
+      "r": "El parte de entrada lo firma toda persona **mayor de 14 años**; registro conservado **3 años**; comunicaciones telemáticas en un máximo de **24 horas** (arts. 4 a 6 RD 933/2021)."
+    },
+    {
+      "p": "¿Quién está exento de responsabilidad por las infracciones?",
+      "r": "Los **menores de 14 años**; la autoridad lo pone en conocimiento del Ministerio Fiscal (art. 30.2)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Un agente solicita a un ciudadano en la vía pública que se identifique porque lo considera razonablemente necesario para prevenir un delito. La persona se niega y no es posible identificarla por ningún medio, incluidos el telefónico o el telemático. ¿Qué puede hacer el agente?",
+      "opciones": [
+        "Requerirle que le acompañe a las dependencias policiales más próximas con medios adecuados, solo para identificarle y por el tiempo estrictamente necesario, sin superar las seis horas",
+        "Detenerle por desobediencia y ponerle a disposición judicial en el plazo máximo de 72 horas",
+        "Retenerle en el lugar, sin límite de tiempo, hasta que acredite su identidad por cualquier medio"
+      ],
+      "correcta": 0,
+      "explicacion": "Si no es posible la identificación por cualquier medio, incluida la vía telemática o telefónica, o la persona se niega, el art. 16.2 permite requerirle que acompañe a los agentes a las dependencias policiales más próximas, a los solos efectos de su identificación y por el tiempo estrictamente necesario, que en ningún caso puede superar las seis horas. No es una detención ni autoriza una retención sin límite de tiempo.",
+      "ref": "art. 16.2 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Respecto al libro-registro que se lleva en las dependencias policiales donde se practican diligencias de identificación (art. 16 LO 4/2015), es correcto que:",
+      "opciones": [
+        "Se remite trimestralmente un extracto a la autoridad judicial y los asientos se cancelan a instancia del interesado",
+        "Se remite mensualmente al Ministerio Fiscal un extracto de las diligencias, con el tiempo utilizado en cada una, y los asientos se cancelan de oficio a los tres años",
+        "Sus datos pueden comunicarse a cualquier autoridad administrativa competente en seguridad ciudadana y se cancelan de oficio a los cinco años"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 16.3 dispone que el órgano competente remite mensualmente al Ministerio Fiscal un extracto de las diligencias con expresión del tiempo utilizado en cada una, y que los asientos se cancelan de oficio a los tres años. Los datos solo pueden comunicarse a la autoridad judicial competente y al Ministerio Fiscal, no a cualquier autoridad administrativa.",
+      "ref": "art. 16.3 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre los registros corporales externos regulados en el art. 20 de la LO 4/2015:",
+      "opciones": [
+        "Puede practicarse el registro corporal externo y superficial cuando existan indicios racionales de que puede conducir al hallazgo de objetos relevantes para la indagación y prevención",
+        "Salvo urgencia por riesgo grave e inminente para los agentes, lo realizará un agente del mismo sexo que la persona registrada",
+        "En ningún caso podrá practicarse contra la voluntad del afectado, ni siquiera con medidas de compulsión"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 20.4 permite practicar estos registros contra la voluntad del afectado, adoptando las medidas de compulsión indispensables conforme a los principios de idoneidad, necesidad y proporcionalidad. Las otras dos afirmaciones son correctas: indicios racionales (art. 20.1) y agente del mismo sexo salvo urgencia por riesgo grave e inminente para los agentes (art. 20.2).",
+      "ref": "art. 20 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según la LO 4/2015, el Documento Nacional de Identidad es obligatorio:",
+      "opciones": [
+        "A partir de los catorce años",
+        "A partir de los dieciséis años",
+        "A partir de los dieciocho años"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 9.1 establece que el DNI es obligatorio a partir de los catorce años y que es personal e intransferible, debiendo su titular mantenerlo en vigor y conservarlo y custodiarlo con la debida diligencia. Las edades de dieciséis y dieciocho años no figuran en el precepto.",
+      "ref": "art. 9.1 LO 4/2015",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Conforme al art. 8.1 de la LO 4/2015, en su redacción vigente, el Documento Nacional de Identidad:",
+      "opciones": [
+        "Es uno de los documentos con suficiente valor por sí solo para acreditar la identidad, junto con el pasaporte y el permiso de conducción",
+        "Es un documento público y oficial y el único con suficiente valor por sí solo para acreditar, a todos los efectos, la identidad y los datos personales de su titular",
+        "Acredita la identidad únicamente ante las Fuerzas y Cuerpos de Seguridad y las Administraciones Públicas"
+      ],
+      "correcta": 1,
+      "explicacion": "Tras la reforma del Real Decreto-ley 14/2019, el art. 8.1 dice que el DNI es el único documento con suficiente valor por sí solo para la acreditación, a todos los efectos, de la identidad y los datos personales de su titular. La redacción anterior no hablaba de «único». Ni el pasaporte ni el permiso de conducción tienen ese valor, y su eficacia no se limita a las FCS y las Administraciones.",
+      "ref": "art. 8.1 LO 4/2015 (RDL 14/2019)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿A quién corresponde expedir el pasaporte de los ciudadanos españoles en el territorio nacional?",
+      "opciones": [
+        "A la Dirección General de la Guardia Civil",
+        "A las Delegaciones y Subdelegaciones del Gobierno",
+        "A la Dirección General de la Policía"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 12.1 atribuye la expedición del pasaporte a la Dirección General de la Policía en el territorio nacional y a las Representaciones Diplomáticas y Consulares de España en el extranjero. La Guardia Civil, a través de su Dirección General, ejerce la intervención de armas y explosivos, no la documentación.",
+      "ref": "art. 12.1 LO 4/2015",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el art. 28.2 de la LO 4/2015, la intervención de armas, explosivos, cartuchería y artículos pirotécnicos corresponde al Ministerio del Interior, que la ejerce a través de:",
+      "opciones": [
+        "La Dirección General de la Guardia Civil",
+        "La Dirección General de la Policía",
+        "La Secretaría de Estado de Seguridad"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 28.2 dispone que la intervención corresponde al Ministerio del Interior, que la ejerce a través de la Dirección General de la Guardia Civil, cuyos servicios pueden realizar en cualquier momento las inspecciones y comprobaciones necesarias en los espacios destinados a fabricación, depósito, comercialización o utilización. La Dirección General de la Policía gestiona el DNI y el pasaporte.",
+      "ref": "art. 28.2 LO 4/2015",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes actividades NO figura entre las que el art. 25.1 de la LO 4/2015 sujeta a obligaciones de registro documental e información?",
+      "opciones": [
+        "Hospedaje y transporte de personas",
+        "El comercio al por menor de productos alimenticios",
+        "Compraventa de joyas y metales, ya sean preciosos o no"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 25.1 incluye hospedaje, transporte de personas, comercio o reparación de objetos usados, alquiler o desguace de vehículos de motor, compraventa de joyas y metales, cerrajería de seguridad, chatarra y venta de productos químicos peligrosos a particulares, entre otras. El comercio al por menor de productos alimenticios no figura en la lista.",
+      "ref": "art. 25.1 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una familia con dos adultos y un niño de 13 años se aloja en un hotel. Según el RD 933/2021, que desarrolla las obligaciones de registro del art. 25 de la LO 4/2015, ¿quién firma el parte de entrada?",
+      "opciones": [
+        "Todos los huéspedes, sin distinción de edad",
+        "Solo la persona que hizo la reserva, en nombre de todos",
+        "Cada persona mayor de catorce años; los datos del menor de catorce los aporta el adulto que le acompaña"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 4.2 del RD 933/2021 exige que el parte de entrada lo firme toda persona mayor de catorce años que haga uso del servicio, y que los datos de los menores de catorce años los proporcione la persona mayor de edad que les acompaña. No firman todos sin distinción de edad ni solo quien hizo la reserva.",
+      "ref": "art. 4.2 RD 933/2021; art. 25 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué cuantía comprende el grado medio de la multa por una infracción muy grave de la LO 4/2015?",
+      "opciones": [
+        "De 220.001 a 410.000 euros",
+        "De 30.001 a 220.000 euros",
+        "De 410.001 a 600.000 euros"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 39.1 divide la multa de 30.001 a 600.000 euros en tres tramos: el grado mínimo va de 30.001 a 220.000 euros, el medio de 220.001 a 410.000 y el máximo de 410.001 a 600.000. Las otras dos opciones corresponden al grado mínimo y al máximo, respectivamente.",
+      "ref": "art. 39.1 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Para imponer la multa en grado medio, el art. 33.2 de la LO 4/2015 exige que concurra al menos una circunstancia. ¿Cuál de las siguientes NO es una de ellas?",
+      "opciones": [
+        "La reincidencia: más de una infracción de la misma naturaleza en el plazo de dos años, declarada por resolución firme en vía administrativa",
+        "La capacidad económica del infractor",
+        "La ejecución de los hechos usando una prenda u objeto que cubra el rostro e impida o dificulte la identificación"
+      ],
+      "correcta": 1,
+      "explicacion": "La capacidad económica del infractor es uno de los criterios de individualización de la multa dentro de cada grado (último de la lista del art. 33.2), no una circunstancia que determine el grado medio. Esas circunstancias son cuatro: reincidencia, violencia, amenaza o intimidación, rostro cubierto y utilización de menores, personas con discapacidad o vulnerables.",
+      "ref": "art. 33.2 LO 4/2015",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Según el art. 32.1 de la LO 4/2015, en el ámbito de la Administración General del Estado, el Secretario de Estado de Seguridad es competente para sancionar:",
+      "opciones": [
+        "Las infracciones muy graves en grado máximo",
+        "Las infracciones graves y leves",
+        "Las infracciones muy graves en grado medio y en grado mínimo"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 32.1 reparte la competencia así: el Ministro del Interior sanciona las muy graves en grado máximo; el Secretario de Estado de Seguridad, las muy graves en grado medio y mínimo; y los Delegados del Gobierno en las Comunidades Autónomas y en Ceuta y Melilla, las graves y leves.",
+      "ref": "art. 32.1 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿En qué supuesto pueden los alcaldes imponer las sanciones y adoptar las medidas previstas en la LO 4/2015?",
+      "opciones": [
+        "Cuando las infracciones se cometan en espacios públicos municipales o afecten a bienes de titularidad local, siempre que ostenten competencia sobre la materia conforme a la legislación específica",
+        "En cualquier caso, respecto de todas las infracciones graves y leves cometidas en su término municipal",
+        "Solo cuando el Delegado del Gobierno les delegue la competencia sancionadora para cada expediente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 32.3 permite a los alcaldes sancionar y adoptar medidas cuando las infracciones se cometan en espacios públicos municipales o afecten a bienes de titularidad local, siempre que tengan competencia sobre la materia según la legislación específica. No es una competencia general sobre todo el término municipal ni exige delegación del Delegado del Gobierno.",
+      "ref": "art. 32.3 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Las infracciones leves, graves y muy graves tipificadas en la LO 4/2015 prescriben, respectivamente, a los:",
+      "opciones": [
+        "Tres meses, seis meses y un año",
+        "Seis meses, un año y dos años",
+        "Un año, dos años y tres años"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 38.1 fija la prescripción de las infracciones en seis meses (leves), un año (graves) y dos años (muy graves). La serie de uno, dos y tres años corresponde a la prescripción de las sanciones (art. 40.1) y a la cancelación de asientos en el Registro Central (art. 43.3), no a las infracciones.",
+      "ref": "art. 38.1 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Las sanciones impuestas por infracciones graves tipificadas en la LO 4/2015 prescriben:",
+      "opciones": [
+        "Al año",
+        "A los tres años",
+        "A los dos años, computados desde el día siguiente a aquel en que la resolución adquiera firmeza en vía administrativa"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 40.1 fija la prescripción de las sanciones en tres años (muy graves), dos años (graves) y un año (leves), computados desde el día siguiente a aquel en que adquiera firmeza en vía administrativa la resolución que impone la sanción. Un año corresponde a las leves y tres años a las muy graves.",
+      "ref": "art. 40.1 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En supuestos de grave riesgo o peligro inminente, los agentes de la autoridad pueden adoptar medidas provisionales antes de iniciarse el procedimiento sancionador. ¿En qué plazo máximo deben ser ratificadas, modificadas o revocadas en el acuerdo de incoación?",
+      "opciones": [
+        "Quince días",
+        "Cuarenta y ocho horas",
+        "Un mes"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 47.2 exige que las medidas adoptadas directamente por los agentes sean ratificadas, modificadas o revocadas en el acuerdo de incoación en el plazo máximo de quince días. Quedan sin efecto si transcurrido ese plazo no se incoa el procedimiento o el acuerdo de incoación no contiene un pronunciamiento expreso sobre ellas.",
+      "ref": "art. 47.2 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Salvo acuerdo debidamente motivado del órgano competente, la duración de las medidas de carácter provisional adoptadas una vez incoado el expediente no podrá exceder:",
+      "opciones": [
+        "De seis meses",
+        "De la mitad del plazo previsto en la Ley para la sanción que pudiera corresponder a la infracción cometida",
+        "Del plazo de caducidad del procedimiento, que es de un año"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 49.3 limita la duración de las medidas provisionales a la mitad del plazo previsto en la Ley para la sanción que pudiera corresponder a la infracción, salvo acuerdo debidamente motivado. No se fija un plazo único de seis meses y la caducidad del procedimiento (un año, art. 50) es una figura distinta.",
+      "ref": "art. 49.3 LO 4/2015",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Notificado el acuerdo de incoación de un procedimiento por infracción leve, el interesado paga voluntariamente la multa dentro del plazo de quince días. ¿Qué consecuencias prevé la LO 4/2015?",
+      "opciones": [
+        "Se reduce la multa un 20 % y el procedimiento continúa para resolver las alegaciones que formule",
+        "Se reduce la multa un 50 % y el interesado puede seguir formulando alegaciones hasta la resolución",
+        "Se reduce la multa un 50 %, se renuncia a formular alegaciones y el procedimiento termina sin necesidad de resolución expresa"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 54.3 establece que el pago voluntario en quince días reduce el 50 por ciento de la multa, implica la renuncia a formular alegaciones (si se formulan se tienen por no presentadas) y termina el procedimiento sin resolución expresa el día del pago, siendo recurrible la sanción solo ante el orden contencioso-administrativo. El procedimiento abreviado no se aplica a las infracciones muy graves.",
+      "ref": "art. 54 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Antes de adoptar medidas de intervención para el mantenimiento o restablecimiento de la seguridad ciudadana en una manifestación, las unidades actuantes de las Fuerzas y Cuerpos de Seguridad deben:",
+      "opciones": [
+        "Avisar a las personas afectadas, pudiendo hacerlo de forma verbal si la urgencia lo hace imprescindible, salvo si se ha alterado la seguridad ciudadana con armas, artefactos explosivos u objetos contundentes o peligrosos",
+        "Obtener siempre autorización escrita del Delegado del Gobierno",
+        "Disolver primero la manifestación y avisar después a los organizadores"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 23.3 impone avisar previamente a las personas afectadas, verbalmente si la urgencia lo exige, y permite disolver sin previo aviso cuando se altere la seguridad ciudadana con armas, artefactos explosivos u objetos contundentes o peligrosos. Además, según el art. 23.2, las medidas deben ser graduales y proporcionadas y la disolución es el último recurso.",
+      "ref": "art. 23.2 y 23.3 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la conducta que la LO 4/2015 califica como infracción MUY GRAVE:",
+      "opciones": [
+        "Proyectar haces de luz sobre miembros de las Fuerzas y Cuerpos de Seguridad para impedir o dificultar el ejercicio de sus funciones",
+        "Proyectar haces de luz sobre pilotos o conductores de medios de transporte que puedan deslumbrarles o distraer su atención y provocar accidentes",
+        "Las faltas de respeto y consideración cuyo destinatario sea un miembro de las Fuerzas y Cuerpos de Seguridad en el ejercicio de sus funciones"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 35.4 tipifica como muy grave la proyección de haces de luz sobre pilotos o conductores que puedan deslumbrarles o distraer su atención y provocar accidentes. Proyectarlos sobre miembros de las FCS es infracción leve (art. 37.6), y las faltas de respeto y consideración a un agente son también leves (art. 37.4).",
+      "ref": "arts. 35.4, 37.4 y 37.6 LO 4/2015",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes conductas es infracción GRAVE según la LO 4/2015?",
+      "opciones": [
+        "Las faltas de respeto y consideración cuyo destinatario sea un miembro de las Fuerzas y Cuerpos de Seguridad en el ejercicio de sus funciones",
+        "Ejecutar actos de exhibición obscena, cuando no constituya infracción penal",
+        "La negativa a identificarse a requerimiento de la autoridad o de sus agentes o la alegación de datos falsos o inexactos en los procesos de identificación"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 36.6 tipifica como grave la desobediencia o resistencia a la autoridad o sus agentes, la negativa a identificarse y la alegación de datos falsos o inexactos en la identificación. Las faltas de respeto y consideración a un agente (art. 37.4) y la exhibición obscena (art. 37.5) son infracciones leves.",
+      "ref": "arts. 36.6, 37.4 y 37.5 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La ocupación de cualquier inmueble, vivienda o edificio ajenos contra la voluntad de su propietario, cuando no sea constitutiva de infracción penal, es según la LO 4/2015:",
+      "opciones": [
+        "Infracción leve",
+        "Infracción grave",
+        "Infracción muy grave"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 37.7 incluye entre las infracciones leves la ocupación de cualquier inmueble, vivienda o edificio ajenos, o la permanencia en ellos, contra la voluntad de su propietario, arrendatario o titular de otro derecho, cuando no constituya infracción penal. También es leve la ocupación de la vía pública contra la Ley, incluida la venta ambulante no autorizada.",
+      "ref": "art. 37.7 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un grupo celebra, sin comunicación previa, una concentración junto a una central nuclear que genera riesgo para la vida o la integridad física de las personas. ¿Cómo se califica la conducta y quién responde según la LO 4/2015?",
+      "opciones": [
+        "Infracción grave; responden todos los asistentes",
+        "Infracción muy grave; responden los organizadores o promotores",
+        "Infracción leve; responden los organizadores o promotores"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 35.1 tipifica como muy grave las reuniones o manifestaciones no comunicadas o prohibidas en infraestructuras o instalaciones de servicios básicos, o en sus inmediaciones, cuando se genera un riesgo para la vida o integridad física de las personas, y añade que son responsables los organizadores o promotores. Las centrales nucleares figuran entre esas instalaciones (disposición adicional 6.ª).",
+      "ref": "art. 35.1 y disposición adicional 6.ª LO 4/2015",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Un menor de 13 años realiza una conducta tipificada como infracción en la LO 4/2015. ¿Qué consecuencia prevé la Ley?",
+      "opciones": [
+        "Se le impone una multa reducida y responden subsidiariamente sus padres",
+        "Se le aplica el procedimiento abreviado con la reducción del 50 %",
+        "Está exento de responsabilidad por la infracción y la autoridad lo pone en conocimiento del Ministerio Fiscal para que inicie, en su caso, las actuaciones oportunas"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 30.2 declara exentos de responsabilidad por las infracciones a los menores de catorce años y ordena a la autoridad competente ponerlo en conocimiento del Ministerio Fiscal. La responsabilidad solidaria de padres o tutores del art. 42.3 se refiere a menores de dieciocho años no emancipados declarados autores, y el procedimiento abreviado exige un responsable sancionado.",
+      "ref": "art. 30.2 y 42.3 LO 4/2015",
+      "dificultad": 2
+    }
+  ],
+  "dudas": [
+    "No he podido verificar el contenido exacto de las interpretaciones conformes fijadas por la STC 172/2020 y la STC 13/2021 sobre los arts. 36.22, 36.23, 37.3 y 37.7 (el texto consolidado solo remite a sus fundamentos jurídicos); por eso no se han redactado preguntas sobre ellas.",
+    "Una búsqueda web indica que hay proposiciones de ley en trámite para reformar la LO 4/2015 («Ley Mordaza», 2024). No he podido confirmar su estado ni contenido, y no son derecho vigente: el texto consolidado leído (actualización de 19/12/2025) no contiene ninguna reforma posterior a 2021.",
+    "Las citas del texto a la Ley 30/1992 y a la LO 15/1999 (ya derogadas) no se han contrastado con las normas que hoy las sustituyen, por lo que no se han formulado preguntas que dependan de ellas."
+  ]
+}

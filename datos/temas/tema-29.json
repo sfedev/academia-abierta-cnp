@@ -1,0 +1,479 @@
+{
+  "tema": 29,
+  "titulo": "Actitudes, estereotipos, prejuicios y grupos sociales",
+  "bloque": "B",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "Entre 0 y 2 preguntas por examen (media 1,0). Han caído las funciones de las actitudes de Katz (dos veces), estereotipo (Lippmann) frente a prejuicio, la escala F (Adorno), Maslow y la identidad social (Tajfel)."
+  },
+  "normas": [
+    {
+      "nombre": "Protocolo de actuación de las Fuerzas y Cuerpos de Seguridad para los delitos de odio y conductas que vulneran las normas legales sobre discriminación (edición revisada, julio de 2020), Anexo I: definiciones conceptuales",
+      "url": "https://www.policia.es/miscelanea/participacion_ciudadana/normativa/Protocolo_actuacion_delitos_odio_07-2020.pdf",
+      "verificado": "Anexo I (estereotipos, prejuicios, discriminar, racismo, xenofobia) leído el 16/10/2026"
+    },
+    {
+      "nombre": "Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación (art. 6: definiciones)",
+      "boe": "BOE-A-2022-11589",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-11589",
+      "verificado": "Texto consolidado, actualización de 27/07/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Diccionario de la lengua española (RAE): «prejuicio», «estereotipo» y «xenofobia»",
+      "url": "https://dle.rae.es/prejuicio",
+      "verificado": "Acepciones contrastadas el 16/10/2026 con extractos del DLE en línea obtenidos por buscador (el acceso directo devolvió error 403)"
+    },
+    {
+      "nombre": "Daniel Katz (1960), «The Functional Approach to the Study of Attitudes», Public Opinion Quarterly 24(2); Rosenberg y Hovland (1960), modelo tripartito de la actitud (obras citadas en «Attitude (psychology)»)",
+      "url": "https://en.wikipedia.org/wiki/Attitude_(psychology)",
+      "verificado": "Cuatro funciones de Katz y modelo tripartito contrastados el 16/10/2026 en fuente secundaria (el artículo original no estaba accesible)"
+    },
+    {
+      "nombre": "The Authoritarian Personality (Adorno, Frenkel-Brunswik, Levinson y Sanford, 1950); Milton Rokeach, The Open and Closed Mind (1960)",
+      "url": "https://en.wikipedia.org/wiki/Authoritarian_personality",
+      "verificado": "Autores, año y nueve rasgos de la escala F contrastados el 16/10/2026 en fuentes secundarias; definición de dogmatismo según extractos de tesis que citan a Rokeach"
+    },
+    {
+      "nombre": "Obras de referencia sobre estereotipo (Lippmann, 1922), prejuicio (Allport, 1954), identidad social (Tajfel y Turner), experimento de Robbers Cave (Sherif, 1954) y grupos sociales (Cooley, 1909; Sumner, 1906)",
+      "url": "https://en.wikipedia.org/wiki/Social_identity_theory",
+      "verificado": "Autores y fechas contrastados el 16/10/2026 en las entradas «Stereotype», «Prejudice», «Social identity theory», «Robbers Cave experiment», «Social group» y «Ethnocentrism»"
+    }
+  ],
+  "novedades": [],
+  "clave": [
+    "**Componentes de la actitud** (modelo tripartito, Rosenberg y Hovland, 1960): **cognitivo** (creencias), **afectivo** (sentimientos) y **conductual** (tendencia a actuar).",
+    "**Funciones de las actitudes (Katz, 1960)**: **instrumental** (adaptativa o utilitaria), de **defensa del yo**, de **expresión de valores** y de **conocimiento**. Cuidado con funciones inventadas («gestión del duelo»).",
+    "Estereotipo, prejuicio y discriminación forman una cadena: el **estereotipo** es la creencia compartida (cognitivo), el **prejuicio** la valoración, por lo general negativa (afectivo) y la **discriminación** el trato desfavorable (conductual).",
+    "**Walter Lippmann** («Public Opinion», 1922) introdujo «estereotipo» en su sentido psicológico moderno; **Gordon Allport** («The Nature of Prejudice», 1954) es la referencia sobre el prejuicio y la hipótesis del contacto.",
+    "**DLE**: «prejuicio» = opinión previa y tenaz, por lo general desfavorable, acerca de algo que se conoce mal; «estereotipo» = imagen o idea aceptada comúnmente por un grupo o sociedad con carácter inmutable.",
+    "**Personalidad autoritaria**: Adorno, Frenkel-Brunswik, Levinson y Sanford (1950); se mide con la **escala F** (potencial fascista), con **nueve rasgos**. **Dogmatismo**: Rokeach, «The Open and Closed Mind» (1960).",
+    "Protocolo de las FCSE: **racismo** = creencias que aseveran la superioridad natural de un grupo sobre otro; **xenofobia** = rechazo y exclusión de toda identidad cultural ajena, que proclama la segregación cultural y acepta al extranjero solo mediante su asimilación.",
+    "Teorías del prejuicio: **Sherif** (Robbers Cave, 1954: competencia por recursos entre grupos), **Tajfel y Turner** (identidad social: categorización, identificación y comparación) y **Allport** (hipótesis del contacto).",
+    "**Grupo primario** (Cooley, 1909): reducido, de relaciones cara a cara y gran cohesión (familia, grupo de juego, vecindad); **secundario**: más amplio e impersonal. **Maslow** (1943): pirámide de **cinco** necesidades, con las fisiológicas en la base y la autorrealización en la cima."
+  ],
+  "resumen": [
+    {
+      "titulo": "Actitud: concepto, componentes, formación y medida",
+      "puntos": [
+        "Una **actitud** es una predisposición aprendida, relativamente estable, a evaluar de forma favorable o desfavorable un objeto, persona, grupo, idea o situación y a actuar en consecuencia. No es innata: se aprende y se puede cambiar.",
+        "**Componentes** (modelo tripartito de **Rosenberg y Hovland, 1960**): **cognitivo** (lo que se piensa o cree sobre el objeto), **afectivo** (lo que se siente) y **conductual** (la tendencia o intención de actuar). La investigación posterior discute que los tres componentes se distingan con nitidez.",
+        "**Formación**: por aprendizaje (condicionamiento, observación e imitación de modelos), por experiencia directa con el objeto y por la influencia de la familia, el grupo de iguales, la escuela y los medios de comunicación. Interviene el proceso de socialización.",
+        "**Medida**: escala de **Thurstone** (1928), la primera técnica formal de medición de actitudes; escala de **distancia social de Bogardus** (primera aplicación en 1925), que mide la disposición a mantener contactos de distinta cercanía con otros grupos; escala **Likert**; **diferencial semántico** de Osgood.",
+        "**Cambio de actitudes**: la teoría de la **disonancia cognitiva** (Festinger, 1957) sostiene que las personas buscan coherencia interna y reducen la incomodidad cuando sus creencias y conductas chocan; en la persuasión influyen la fuente (credibilidad), el mensaje y el receptor."
+      ]
+    },
+    {
+      "titulo": "Funciones de las actitudes: Katz (1960)",
+      "puntos": [
+        "Daniel Katz (1960, «The Functional Approach to the Study of Attitudes», Public Opinion Quarterly) distingue cuatro funciones. No hay una quinta: cualquier otra (duelo, dominación, aprendizaje, relajación) es un distractor.",
+        "Truco para los casos prácticos: si la actitud busca **ventajas o aprobación**, es instrumental; si **protege la autoestima** o oculta inseguridades, defensa del yo; si **refleja lo que la persona considera importante** (sus valores, su identidad), expresión de valores; si **ordena y da sentido** a la información, conocimiento."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Función",
+          "Para qué sirve la actitud"
+        ],
+        "filas": [
+          [
+            "Instrumental (adaptativa o utilitaria)",
+            "Obtener recompensas y evitar castigos; adaptarse al entorno"
+          ],
+          [
+            "Defensa del yo",
+            "Proteger la autoestima frente a amenazas o conflictos internos"
+          ],
+          [
+            "Expresión de valores",
+            "Expresar los valores centrales y la autoimagen de la persona"
+          ],
+          [
+            "Conocimiento",
+            "Organizar e interpretar la información y dar sentido y estabilidad al mundo"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Estereotipos, prejuicios y discriminación",
+      "puntos": [
+        "El **Protocolo de actuación de las FCSE para los delitos de odio** (Anexo I) los define así. **Estereotipos**: «un conjunto de creencias compartidas y generalmente estructuradas acerca de los atributos personales que caracterizan a los miembros de un grupo»; pueden ser positivos o negativos y se originan en el aprendizaje de la cultura y las vivencias personales. **Prejuicios**: «tendencias evaluativas dirigidas hacia los grupos sociales y sus miembros», por lo general negativas hacia grupos étnicos y nacionales. **Discriminar**: tratar de forma diferente y desfavorable a una persona o grupo basándose en la creencia de que no todos somos iguales en derechos y dignidad.",
+        "**DLE**: «prejuicio» es la opinión previa y tenaz, por lo general desfavorable, acerca de algo que se conoce mal; «estereotipo», la imagen o idea aceptada comúnmente por un grupo o sociedad con carácter inmutable.",
+        "Origen del vocabulario: **Walter Lippmann** utilizó por primera vez «estereotipo» en el sentido psicológico moderno en «Public Opinion» (**1922**). **Gordon Allport**, en «The Nature of Prejudice» (**1954**), vinculó el prejuicio al pensamiento por categorías y propuso la **hipótesis del contacto**: el contacto intergrupal en condiciones adecuadas reduce el prejuicio.",
+        "**Discriminación** (Ley 15/2022, art. 6): **directa** (se trata a una persona o grupo de manera menos favorable que a otros en situación análoga por una causa protegida), **indirecta** (una disposición, criterio o práctica aparentemente neutros causa una desventaja particular), **por asociación**, **por error**, **múltiple e interseccional**, acoso, inducción u orden de discriminar y represalias. La Convención internacional sobre la eliminación de la discriminación racial (art. 1.1) define la discriminación racial como toda distinción, exclusión, restricción o preferencia basada en raza, color, linaje u origen nacional o étnico que anule o menoscabe derechos humanos en condiciones de igualdad."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Concepto",
+          "Componente",
+          "Qué es",
+          "Ejemplo"
+        ],
+        "filas": [
+          [
+            "Estereotipo",
+            "Cognitivo",
+            "Creencia compartida sobre los atributos de un grupo",
+            "«Los miembros de ese grupo son todos iguales»"
+          ],
+          [
+            "Prejuicio",
+            "Afectivo-evaluativo",
+            "Valoración o sentimiento, por lo general negativo, hacia un grupo y sus miembros",
+            "Antipatía hacia un colectivo sin conocerlo"
+          ],
+          [
+            "Discriminación",
+            "Conductual",
+            "Trato desfavorable a una persona por su pertenencia al grupo",
+            "Negar un empleo o un servicio por el origen"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Teorías sobre el prejuicio y el conflicto entre grupos",
+      "puntos": [
+        "**Sherif y Robbers Cave (1954)**: en un campamento de verano de Oklahoma, 22 niños de once y doce años formaron dos grupos y compitieron por premios; la hostilidad apareció sin que hiciera falta ninguna diferencia individual. Es la base de la teoría del **conflicto realista** entre grupos.",
+        "**Teoría de la identidad social** (Henri Tajfel y John Turner, años setenta y ochenta): la identidad social es la parte del autoconcepto que procede de la pertenencia percibida a grupos; las personas buscan una **distintividad positiva** del propio grupo. Tajfel desarrolló además el **paradigma del grupo mínimo**: basta una categorización trivial para generar favoritismo endogrupal.",
+        "**Disonancia cognitiva** (Festinger, 1957) y **conformidad** (experimentos de Asch, años cincuenta) explican por qué los individuos acomodan sus actitudes a las del grupo."
+      ]
+    },
+    {
+      "titulo": "Personalidad autoritaria, xenofobia y dogmatismo",
+      "puntos": [
+        "**La personalidad autoritaria** (Adorno, Frenkel-Brunswik, Levinson y Sanford, **1950**, estudios de Berkeley) describe al «individuo potencialmente fascista». Se evalúa con la **escala F** (de fascismo), formada por nueve rasgos: **convencionalismo**, **sumisión autoritaria**, **agresión autoritaria**, **anti-intracepción**, **superstición y estereotipia**, **poder y dureza**, **destructividad y cinismo**, **proyectividad** y **preocupación exagerada por el sexo**. Sitúa el origen en una educación familiar jerárquica, autoritaria y punitiva.",
+        "**Dogmatismo** (Milton Rokeach, «The Open and Closed Mind», 1960): organización cognitiva relativamente cerrada de creencias y de rechazos sobre la realidad, estructurada en torno a creencias sobre la **autoridad absoluta**, que da lugar a patrones de intolerancia y tolerancia cualificada hacia los demás. Rokeach lo distingue de la **rigidez**: esta es la resistencia al cambio de ideas aisladas; el dogmatismo, la de sistemas enteros de creencias. Se mide con la escala D de dogmatismo.",
+        "**Xenofobia** (Protocolo de las FCSE): actitud de rechazo y exclusión de toda identidad cultural ajena a la propia. Se diferencia del racismo por **proclamar la segregación cultural** y aceptar a las personas extranjeras e inmigrantes solo mediante su **asimilación sociocultural**. El DLE la define como fobia a lo extranjero o a los extranjeros.",
+        "**Racismo** (Protocolo): conjunto de creencias que aseveran la **superioridad natural** de un grupo sobre otro, a escala individual e institucional, con prácticas discriminatorias que mantienen la posición de ciertos grupos. El Protocolo precisa que «raza» es una construcción social que la comunidad internacional rechaza, aunque el término sigue apareciendo en los textos."
+      ]
+    },
+    {
+      "titulo": "Los grupos sociales",
+      "puntos": [
+        "**Grupo social**: dos o más personas que interactúan, comparten características y tienen un sentido de unidad. Los grupos primarios son pequeños, duraderos, de interacción cara a cara y alta cohesión e identificación; son la principal fuente de socialización.",
+        "**Cooley** («Social Organization», 1909) formuló el concepto de **grupo primario** (familia, grupos de juego y comunidad de mayores) como fuente de moral, sentimientos e ideales. **Tönnies** distinguió **comunidad** («Gemeinschaft») y **sociedad** («Gesellschaft»). **Sumner** («Folkways», 1906) acuñó **etnocentrismo**: ver el propio grupo como centro de todo y medir a los demás en relación con él. **Merton** desarrolló la teoría del **grupo de referencia**, al que el individuo se compara aunque no pertenezca.",
+        "**Maslow** (1943, «A Theory of Human Motivation»): cinco niveles de necesidades (fisiológicas, seguridad, afiliación, estima y autorrealización), que se representan en una pirámide aunque Maslow no la dibujó.",
+        "**Lewin** distinguió climas de liderazgo **autoritario**, **democrático** y «laissez-faire»."
+      ]
+    }
+  ],
+  "trampas": [
+    "Funciones de Katz con un intruso: las cuatro son instrumental, defensa del yo, expresión de valores y conocimiento. «Gestión del duelo», «dominación» o «aprendizaje» no figuran.",
+    "Estereotipo, prejuicio y discriminación se intercambian: el primero es creencia (cognitivo), el segundo valoración o sentimiento (afectivo) y el tercero conducta. El Protocolo define los estereotipos como creencias y los prejuicios como «tendencias evaluativas».",
+    "Autores: Lippmann (estereotipo, 1922), Allport (prejuicio, contacto, 1954), Adorno y otros (personalidad autoritaria, escala F, 1950), Rokeach (dogmatismo, 1960), Sherif (Robbers Cave, 1954), Tajfel y Turner (identidad social), Festinger (disonancia, 1957), Cooley (grupo primario, 1909), Sumner (etnocentrismo, 1906).",
+    "Escala F frente a escala D: la F mide potencial fascista (personalidad autoritaria, Adorno); la D, dogmatismo (Rokeach).",
+    "Xenofobia frente a racismo: según el Protocolo, la xenofobia rechaza la identidad cultural ajena y acepta al extranjero si se asimila; el racismo afirma la superioridad natural de un grupo sobre otro.",
+    "Maslow tiene **cinco** niveles y la base son las necesidades **fisiológicas**; no confundir con la jerarquía de cuatro niveles ni con la cima (autorrealización).",
+    "Los estereotipos pueden ser positivos o negativos; los prejuicios hacia grupos étnicos y nacionales son por lo general negativos. Un absoluto («siempre negativos») suele ser incorrecto."
+  ],
+  "caido": [
+    {
+      "examen": "1 mar 2025",
+      "concepto": "Estereotipo (Lippmann) frente a prejuicio"
+    },
+    {
+      "examen": "13 abr 2024",
+      "concepto": "Escala F de la personalidad autoritaria (Adorno)"
+    },
+    {
+      "examen": "25 oct 2025 y 26 sep 2026",
+      "concepto": "Funciones de las actitudes de Katz: conocimiento, instrumental o adaptativa, defensa del yo y expresión de valores (con una función inventada como distractor)"
+    },
+    {
+      "examen": "25 oct 2025 y 26 sep 2026",
+      "concepto": "Maslow y la pirámide de necesidades; teoría de la identidad social (Tajfel)"
+    }
+  ],
+  "mnemotecnias": [
+    "Tríada **P-S-C**: el estereotipo **piensa** (cognitivo), el prejuicio **siente** (afectivo) y la discriminación **actúa** (conductual).",
+    "Katz = **CIDE**: **C**onocimiento, **I**nstrumental, **D**efensa del yo y **E**xpresión de valores.",
+    "Escala **F** = **F**ascismo (Adorno); escala **D** = **D**ogmatismo (Rokeach)."
+  ],
+  "tarjetas": [
+    {
+      "p": "Componentes de una actitud (Rosenberg y Hovland, 1960).",
+      "r": "**Cognitivo** (creencias), **afectivo** (sentimientos) y **conductual** (tendencia a actuar)."
+    },
+    {
+      "p": "Cuatro funciones de las actitudes según Katz.",
+      "r": "**Instrumental** (adaptativa o utilitaria), **defensa del yo**, **expresión de valores** y **conocimiento**."
+    },
+    {
+      "p": "¿Qué es un estereotipo según el Protocolo de las FCSE?",
+      "r": "«Un conjunto de creencias compartidas y generalmente estructuradas acerca de los atributos personales que caracterizan a los miembros de un grupo». Pueden ser positivos o negativos."
+    },
+    {
+      "p": "¿Qué es un prejuicio según el Protocolo y según el DLE?",
+      "r": "Protocolo: «tendencias evaluativas dirigidas hacia los grupos sociales y sus miembros». DLE: opinión previa y tenaz, por lo general desfavorable, acerca de algo que se conoce mal."
+    },
+    {
+      "p": "¿Qué es discriminar según el Protocolo de las FCSE?",
+      "r": "Tratar de forma diferente y desfavorable a una persona o grupo basándose en la creencia de que no todos somos iguales en derechos y en dignidad."
+    },
+    {
+      "p": "Discriminación directa e indirecta (Ley 15/2022, art. 6).",
+      "r": "**Directa**: trato menos favorable que a otros en situación análoga por una causa protegida. **Indirecta**: disposición, criterio o práctica aparentemente neutros que causa una desventaja particular por esas causas."
+    },
+    {
+      "p": "¿Quién introdujo «estereotipo» en su sentido psicológico moderno y cuándo?",
+      "r": "**Walter Lippmann**, en «Public Opinion» (**1922**)."
+    },
+    {
+      "p": "¿Quién escribió «The Nature of Prejudice» y qué hipótesis propuso?",
+      "r": "**Gordon Allport** (**1954**); la **hipótesis del contacto**."
+    },
+    {
+      "p": "Autores y año de «La personalidad autoritaria»; escala asociada.",
+      "r": "Adorno, Frenkel-Brunswik, Levinson y Sanford (**1950**); **escala F**, con nueve rasgos."
+    },
+    {
+      "p": "¿Cómo define Rokeach el dogmatismo?",
+      "r": "Organización cognitiva relativamente cerrada de creencias, centrada en la **autoridad absoluta**, que genera patrones de intolerancia hacia los demás («The Open and Closed Mind», 1960)."
+    },
+    {
+      "p": "Diferencia entre xenofobia y racismo según el Protocolo.",
+      "r": "**Xenofobia**: rechazo de la identidad cultural ajena; acepta al extranjero solo si se asimila. **Racismo**: creencia en la superioridad natural de un grupo sobre otro."
+    },
+    {
+      "p": "¿Qué mostró el experimento de Robbers Cave (Sherif, 1954)?",
+      "r": "Que la **competencia entre grupos** por recursos valorados genera hostilidad intergrupal sin necesidad de diferencias individuales."
+    },
+    {
+      "p": "¿Qué sostiene la teoría de la identidad social?",
+      "r": "La identidad social es la parte del autoconcepto derivada de la pertenencia a grupos; se busca la **distintividad positiva** del grupo propio (**Tajfel y Turner**)."
+    },
+    {
+      "p": "Grupo primario y grupo secundario.",
+      "r": "**Primario** (Cooley, 1909): pequeño, cara a cara, cohesionado (familia). **Secundario**: más amplio, formal e impersonal."
+    },
+    {
+      "p": "Niveles de la pirámide de Maslow.",
+      "r": "Cinco: fisiológicas (base), seguridad, afiliación, estima y autorrealización (cima). Maslow, 1943."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Según el modelo tripartito clásico de Rosenberg y Hovland (1960), ¿qué tres componentes tiene una actitud?",
+      "opciones": [
+        "Cognitivo, afectivo y conductual",
+        "Instrumental, expresivo y defensivo",
+        "Perceptivo, motivacional y social"
+      ],
+      "correcta": 0,
+      "explicacion": "El modelo tripartito distingue el componente cognitivo (creencias), el afectivo (sentimientos) y el conductual (tendencia a actuar). Instrumental, expresivo y defensivo recuerdan a las funciones de Katz, y perceptivo, motivacional y social no forman ningún modelo clásico de la actitud.",
+      "ref": "Rosenberg y Hovland (1960), modelo tripartito",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes NO es una función de las actitudes según Daniel Katz?",
+      "opciones": [
+        "Función de conocimiento",
+        "Función de gestión del duelo",
+        "Función de expresión de valores"
+      ],
+      "correcta": 1,
+      "explicacion": "Katz (1960) distingue las funciones instrumental (adaptativa o utilitaria), de defensa del yo, de expresión de valores y de conocimiento. La gestión del duelo no es una de ellas.",
+      "ref": "Katz (1960), Public Opinion Quarterly 24(2)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una persona mantiene una actitud favorable hacia un partido político porque con ello obtiene reconocimiento y ventajas en su entorno laboral. Según Katz, ¿qué función de la actitud predomina?",
+      "opciones": [
+        "La función de conocimiento",
+        "La función de defensa del yo",
+        "La función instrumental, adaptativa o utilitaria"
+      ],
+      "correcta": 2,
+      "explicacion": "Las actitudes con función instrumental, adaptativa o utilitaria sirven para obtener recompensas y evitar castigos. La de conocimiento organiza la información y la de defensa del yo protege la autoestima frente a conflictos internos, rasgos que el caso no describe.",
+      "ref": "Katz (1960), función instrumental",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un joven defiende con vehemencia una opinión hostil hacia un colectivo para proteger su autoestima frente a sus propias inseguridades. Según Katz, esa actitud cumple principalmente la función de:",
+      "opciones": [
+        "Defensa del yo",
+        "Expresión de valores",
+        "Conocimiento"
+      ],
+      "correcta": 0,
+      "explicacion": "La función de defensa del yo protege la autoestima de las amenazas y los conflictos internos. La de expresión de valores manifiesta los valores centrales de la persona y la de conocimiento organiza la información sobre el mundo.",
+      "ref": "Katz (1960), función de defensa del yo",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Quién introdujo el término «estereotipo» en su sentido psicológico moderno en la obra Public Opinion (1922)?",
+      "opciones": [
+        "Gordon Allport",
+        "Walter Lippmann",
+        "Theodor Adorno"
+      ],
+      "correcta": 1,
+      "explicacion": "Walter Lippmann, periodista estadounidense, usó por primera vez «estereotipo» con el sentido psicológico moderno en Public Opinion (1922). Allport escribió The Nature of Prejudice (1954) y Adorno es uno de los autores de La personalidad autoritaria (1950).",
+      "ref": "Lippmann (1922)",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el Protocolo de actuación de las Fuerzas y Cuerpos de Seguridad para los delitos de odio, los estereotipos son:",
+      "opciones": [
+        "Tendencias evaluativas dirigidas hacia los grupos sociales y sus miembros",
+        "Formas de tratar de manera desfavorable a una persona por pertenecer a un grupo",
+        "Un conjunto de creencias compartidas y generalmente estructuradas acerca de los atributos personales que caracterizan a los miembros de un grupo"
+      ],
+      "correcta": 2,
+      "explicacion": "Esa es la definición del Anexo I del Protocolo. La primera opción define los prejuicios, también en el Anexo I, y la segunda describe la discriminación, que es el componente conductual.",
+      "ref": "Protocolo FCSE delitos de odio (2020), Anexo I",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En la secuencia estereotipo, prejuicio y discriminación, ¿qué componente corresponde al prejuicio?",
+      "opciones": [
+        "El componente afectivo-evaluativo: la valoración, por lo general negativa, hacia un grupo y sus miembros",
+        "El componente cognitivo: la creencia compartida sobre los atributos de un grupo",
+        "El componente conductual: el trato desfavorable hacia sus miembros"
+      ],
+      "correcta": 0,
+      "explicacion": "El prejuicio es una tendencia evaluativa, de carácter afectivo, hacia un grupo y sus miembros. La creencia compartida sobre los atributos del grupo es el estereotipo (cognitivo) y el trato desfavorable es la discriminación (conductual).",
+      "ref": "Protocolo FCSE delitos de odio (2020), Anexo I",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el Diccionario de la lengua española, el prejuicio es:",
+      "opciones": [
+        "Una imagen o idea aceptada comúnmente por un grupo o sociedad con carácter inmutable",
+        "Una opinión previa y tenaz, por lo general desfavorable, acerca de algo que se conoce mal",
+        "Un trato desigual a una persona por motivos de raza, religión o sexo"
+      ],
+      "correcta": 1,
+      "explicacion": "El DLE define el prejuicio como opinión previa y tenaz, por lo general desfavorable, acerca de algo que se conoce mal. La primera opción reproduce la definición de estereotipo y la tercera describe la discriminación.",
+      "ref": "DLE, «prejuicio» y «estereotipo»",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La obra La personalidad autoritaria (1950) y la escala F se atribuyen a:",
+      "opciones": [
+        "Milton Rokeach",
+        "Gordon Allport y Muzafer Sherif",
+        "Adorno, Frenkel-Brunswik, Levinson y Sanford"
+      ],
+      "correcta": 2,
+      "explicacion": "The Authoritarian Personality (1950) es obra de Theodor W. Adorno, Else Frenkel-Brunswik, Daniel Levinson y Nevitt Sanford. Rokeach es el autor del estudio del dogmatismo (1960) y Allport y Sherif trabajaron sobre el prejuicio y el conflicto intergrupal.",
+      "ref": "Adorno et al. (1950)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La escala F, elaborada en el estudio sobre la personalidad autoritaria, pretendía medir:",
+      "opciones": [
+        "El potencial fascista o predisposición antidemocrática de la persona",
+        "El grado de dogmatismo del sistema de creencias",
+        "La disposición a mantener contactos sociales con otros grupos étnicos"
+      ],
+      "correcta": 0,
+      "explicacion": "La F alude al fascismo: la escala medía el potencial fascista de la personalidad. El dogmatismo se mide con la escala D de Rokeach, y la disposición a mantener contactos con otros grupos corresponde a la escala de distancia social de Bogardus.",
+      "ref": "Adorno et al. (1950); Rokeach (1960); Bogardus (1925)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué autor definió el dogmatismo como una organización cognitiva relativamente cerrada de creencias, centrada en la autoridad absoluta, en The Open and Closed Mind (1960)?",
+      "opciones": [
+        "Theodor Adorno",
+        "Milton Rokeach",
+        "Henri Tajfel"
+      ],
+      "correcta": 1,
+      "explicacion": "Es la definición de Milton Rokeach en The Open and Closed Mind (1960). Adorno estudió la personalidad autoritaria y Tajfel desarrolló, con Turner, la teoría de la identidad social.",
+      "ref": "Rokeach (1960)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el Protocolo de actuación de las Fuerzas y Cuerpos de Seguridad para los delitos de odio, la xenofobia se diferencia del racismo en que:",
+      "opciones": [
+        "Presupone la superioridad biológica de un grupo sobre otro",
+        "Se dirige únicamente contra los nacionales de otros países de la Unión Europea",
+        "Proclama la segregación cultural y acepta a las personas extranjeras e inmigrantes solo mediante su asimilación sociocultural"
+      ],
+      "correcta": 2,
+      "explicacion": "El Anexo I define la xenofobia como actitud de rechazo y exclusión de toda identidad cultural ajena a la propia y la diferencia del racismo por proclamar la segregación cultural y aceptar al extranjero solo mediante su asimilación. La superioridad natural de un grupo es la nota del racismo.",
+      "ref": "Protocolo FCSE delitos de odio (2020), Anexo I",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "En el experimento de Robbers Cave (1954), Muzafer Sherif concluyó que la hostilidad entre los dos grupos de niños surgió sobre todo de:",
+      "opciones": [
+        "La competencia entre los grupos por premios y recursos valorados",
+        "Las diferencias de personalidad individuales entre los niños",
+        "La falta de contacto previo entre ellos"
+      ],
+      "correcta": 0,
+      "explicacion": "Los Sherif observaron hostilidad y agresividad cuando los grupos, creados con características equivalentes, competían por premios valorados; no hacían falta diferencias individuales. Esa es la base de la teoría del conflicto realista intergrupal.",
+      "ref": "Sherif y Sherif, Robbers Cave (1954)",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "La teoría de la identidad social se asocia a:",
+      "opciones": [
+        "Leon Festinger y Solomon Asch",
+        "Henri Tajfel y John Turner",
+        "Gordon Allport y Walter Lippmann"
+      ],
+      "correcta": 1,
+      "explicacion": "La teoría de la identidad social fue formulada por Henri Tajfel y John Turner, que entienden la identidad social como la parte del autoconcepto derivada de la pertenencia a grupos. Festinger se asocia a la disonancia cognitiva, Asch a la conformidad, Allport al prejuicio y Lippmann al estereotipo.",
+      "ref": "Tajfel y Turner (años setenta y ochenta)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según Cooley (Social Organization, 1909), ¿cuál es el ejemplo típico de grupo primario?",
+      "opciones": [
+        "Una empresa multinacional",
+        "Un partido político",
+        "La familia"
+      ],
+      "correcta": 2,
+      "explicacion": "Cooley consideró grupos primarios la familia, los grupos de juego y la comunidad de mayores, fuente de moral, sentimientos e ideales. Una empresa multinacional y un partido político son grupos secundarios, más amplios e impersonales.",
+      "ref": "Cooley (1909)",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "En la pirámide de necesidades de Maslow (1943), ¿qué necesidades ocupan la base?",
+      "opciones": [
+        "Las fisiológicas",
+        "Las de seguridad",
+        "Las de autorrealización"
+      ],
+      "correcta": 0,
+      "explicacion": "Maslow propuso cinco conjuntos de necesidades: la base la forman las fisiológicas, que son las más potentes, y la cima la autorrealización. La seguridad es el segundo nivel.",
+      "ref": "Maslow (1943)",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Conforme al art. 6 de la Ley 15/2022, existe discriminación indirecta cuando:",
+      "opciones": [
+        "Una persona es tratada de manera menos favorable que otra en situación análoga por una causa protegida",
+        "Una disposición, criterio o práctica aparentemente neutros ocasiona o puede ocasionar una desventaja particular a una o varias personas por esas causas",
+        "Una persona sufre un trato discriminatorio por su relación con otra en la que concurre una causa protegida"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 6.1 define como indirecta la discriminación ocasionada por una disposición, criterio o práctica aparentemente neutros. La primera opción describe la discriminación directa, también regulada en el art. 6.1, y la tercera la discriminación por asociación, del art. 6.2.",
+      "ref": "art. 6 Ley 15/2022",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "La hipótesis del contacto, según la cual el contacto intergrupal en condiciones adecuadas puede reducir el prejuicio, se atribuye a:",
+      "opciones": [
+        "Leon Festinger",
+        "Solomon Asch",
+        "Gordon Allport"
+      ],
+      "correcta": 2,
+      "explicacion": "La hipótesis del contacto la formuló Gordon Allport en The Nature of Prejudice (1954). Festinger se asocia a la disonancia cognitiva y Asch a los experimentos de conformidad.",
+      "ref": "Allport (1954)",
+      "dificultad": 2
+    }
+  ],
+  "dudas": [
+    "El artículo original de Katz (1960) no pudo leerse; las cuatro funciones y su nombre se contrastaron con fuentes secundarias («Attitude (psychology)»). La descripción de cada función es una síntesis habitual de manuales.",
+    "El concepto de actitud, los mecanismos de formación y las clasificaciones de grupos sociales proceden de manuales de psicología y sociología, no de una norma; no se ha podido verificar una definición literal única.",
+    "Los años de la teoría de la identidad social y del paradigma del grupo mínimo se dan de forma aproximada (años setenta y ochenta).",
+    "La definición de dogmatismo de Rokeach se contrastó en extractos de tesis que citan su libro; no se leyó el texto original de 1960."
+  ]
+}

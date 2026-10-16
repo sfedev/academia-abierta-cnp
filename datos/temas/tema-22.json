@@ -1,0 +1,448 @@
+{
+  "tema": 22,
+  "titulo": "Estatuto de la víctima del delito (Ley 4/2015)",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "Cae 1-2 veces por examen (4 en 2023); lo habitual es el concepto de víctima (art. 2), los derechos básicos y las medidas de protección (art. 25)."
+  },
+  "normas": [
+    {
+      "nombre": "Ley 4/2015, de 27 de abril, del Estatuto de la víctima del delito",
+      "boe": "BOE-A-2015-4606",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-4606",
+      "verificado": "Texto consolidado, actualización de 19/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto 1109/2015, de 11 de diciembre, por el que se desarrolla la Ley 4/2015 y se regulan las Oficinas de Asistencia a las Víctimas del Delito",
+      "boe": "BOE-A-2015-14263",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-14263",
+      "verificado": "Texto consolidado, actualización de 19/12/2025 (leído el 16/10/2026)"
+    }
+  ],
+  "novedades": [
+    "La LO 10/2022, de 6 de septiembre (garantía integral de la libertad sexual), en vigor desde el 7/10/2022, retocó los arts. 3, 5, 7, 10, 23, 25, 26 y 34: se vedan la mediación y la conciliación en violencia sexual y de género (art. 3.1); el art. 26 incluye a las víctimas de violencias sexuales entre las que reciben medidas reforzadas; los hijos menores de víctimas de violencia sexual también acceden a las medidas de los Títulos I y III (art. 10). No estudies con material anterior a esa fecha."
+  ],
+  "clave": [
+    "**Víctima directa** (art. 2.a): persona física con daño o perjuicio en su propia persona o patrimonio **directamente causado** por un delito.",
+    "**Víctima indirecta** (art. 2.b): solo en caso de **muerte o desaparición** causada directamente por un delito, y nunca si es responsable de los hechos. Los **terceros perjudicados** quedan fuera.",
+    "Ámbito (art. 1): delitos cometidos en España o perseguibles en España, **sin importar nacionalidad, edad ni residencia legal**.",
+    "Derechos de toda víctima (art. 3.1): protección, información, apoyo, asistencia, atención y reparación, participación activa y trato respetuoso, profesional, individualizado y no discriminatorio, **aunque no se conozca al infractor**. Mediación y conciliación **vedadas** en violencia sexual y de género.",
+    "Comunicaciones con una víctima **menor o con capacidad judicialmente modificada**: se dirigen a su **representante o a quien la asista** (art. 4.a). Puede ir acompañada de la persona que elija.",
+    "Como denunciante (art. 6): **copia de la denuncia debidamente certificada** y, si no entiende las lenguas oficiales, asistencia lingüística gratuita y traducción escrita de la copia.",
+    "Periodo de reflexión (art. 8): abogados y procuradores no pueden ofrecer sus servicios a víctimas de catástrofes hasta pasados **45 días**, salvo petición expresa de la víctima.",
+    "Recurso de la víctima en ejecución (art. 13): **anuncia en 5 días** e **interpone en 15 días** desde la notificación; debe haber pedido ser notificada (art. 5.1.m).",
+    "Medidas del art. 25: investigación (dependencias adaptadas, formación especial, misma persona, mismo sexo si lo pide) y enjuiciamiento (sin contacto visual, oída sin estar presente, sin preguntas sobre vida privada, vista sin público).",
+    "Evaluación individual (arts. 23-24): decide el **Juez de Instrucción o de Violencia sobre la Mujer** en la investigación y el **Juez o Tribunal** en el enjuiciamiento; Fiscal y policía solo valoran **provisionalmente** al inicio."
+  ],
+  "resumen": [
+    {
+      "titulo": "Ámbito y concepto de víctima (arts. 1-2)",
+      "puntos": [
+        "**Ámbito (art. 1)**: delitos **cometidos en España o perseguibles en España**, con independencia de la **nacionalidad**, de ser **mayor o menor** de edad y de tener o no **residencia legal** (sin perjuicio del art. 17).",
+        "**Víctima directa** (art. 2.a): **persona física** con daño o perjuicio en su propia persona o patrimonio (lesiones físicas o psíquicas, daños emocionales, perjuicios económicos) **directamente causado** por un delito.",
+        "**Víctima indirecta** (art. 2.b): solo si el delito causa directamente la **muerte o desaparición** de una persona, y nunca el responsable de los hechos. Los **terceros perjudicados** quedan fuera de la ley (art. 2, último párrafo)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Clase",
+          "Quiénes son (art. 2)"
+        ],
+        "filas": [
+          [
+            "Directa",
+            "Persona física con daño o perjuicio en su persona o patrimonio causado directamente por el delito"
+          ],
+          [
+            "Indirecta, 1.º grupo",
+            "Cónyuge no separado legalmente o de hecho y los hijos (suyos o del cónyuge) convivientes; pareja de análoga afectividad y sus hijos convivientes; progenitores y parientes en línea recta o colateral dentro del tercer grado que estuvieran bajo su guarda; personas sujetas a su tutela o curatela o en acogimiento familiar"
+          ],
+          [
+            "Indirecta, 2.º grupo",
+            "Solo si no hay nadie del grupo anterior: los demás parientes en línea recta y los hermanos, con preferencia del que ostentara la representación legal de la víctima"
+          ],
+          [
+            "Excluidos",
+            "Los responsables de los hechos y los terceros perjudicados"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Derechos básicos (Título I, arts. 3-10)",
+      "puntos": [
+        "**Derechos generales (art. 3.1)**: protección, información, apoyo, asistencia, atención y reparación, participación activa y trato **respetuoso, profesional, individualizado y no discriminatorio**, durante todo el proceso y un tiempo después, **se conozca o no al infractor**. **Vedadas** la mediación y la conciliación en violencia sexual y de género.",
+        "**Entender y ser entendida (art. 4)**: lenguaje claro, sencillo y accesible; si la víctima es **menor o tiene la capacidad judicialmente modificada**, las comunicaciones van a su **representante o a quien la asista**; puede ir **acompañada de la persona que elija**. **Información (art. 5)**: desde el primer contacto, incluso **antes de denunciar**; la víctima designa correo electrónico o dirección para las notificaciones (art. 5.1.m).",
+        "**Como denunciante (art. 6)**: **copia de la denuncia debidamente certificada**, asistencia lingüística gratuita y traducción escrita de la copia si no entiende las lenguas oficiales. Intérprete gratuito al declarar ante Juez, Fiscal o policía (art. 9); la negativa de la policía se recurre ante el **Juez de instrucción**.",
+        "**Causa penal (art. 7)**: fecha, hora y lugar del juicio, contenido de la acusación y notificación de la decisión de no iniciar el procedimiento, la sentencia, la prisión, libertad o fuga del infractor y las medidas cautelares de seguridad. En **violencia de género**, las de prisión, libertad, fuga y medidas cautelares se notifican **sin solicitud** (art. 7.3).",
+        "**Periodo de reflexión (art. 8)**: abogados y procuradores no pueden ofrecer sus servicios a víctimas de catástrofes o sucesos con elevado número de víctimas hasta pasados **45 días** desde el hecho, salvo petición expresa de la víctima; incumplirlo es infracción disciplinaria **muy grave**.",
+        "**Asistencia y apoyo (art. 10)**: acceso **gratuito y confidencial** a los servicios públicos y a las Oficinas de Asistencia a las Víctimas (OAV); derivación a la OAV si lo exige la gravedad del delito o lo pide la víctima."
+      ]
+    },
+    {
+      "titulo": "Participación en el proceso y ejecución (Título II, arts. 11-18)",
+      "puntos": [
+        "Derecho a **ejercer la acción penal y civil** (art. 11). El **sobreseimiento** se comunica a las víctimas y se puede recurrir **sin personación previa** (art. 12).",
+        "**Ejecución (art. 13)**: la víctima que pidió ser notificada puede recurrir, aunque no sea parte, los autos del Juez de Vigilancia Penitenciaria sobre **tercer grado antes de la mitad de la condena**, **límite de cumplimiento** y **libertad condicional**, en delitos graves (homicidio, aborto del art. 144 CP, lesiones, contra la libertad, torturas, libertad sexual, robo con violencia o intimidación, terrorismo y trata). Debe **anunciar** el recurso en **5 días** desde la notificación e **interponerlo** en **15 días**; el Juez le da traslado para alegaciones en **5 días**.",
+        "**Justicia restaurativa (art. 15)**: el infractor **reconoce los hechos esenciales**; **consentimiento** informado de víctima e infractor; sin riesgo para la víctima; la ley no lo prohíbe. Debates confidenciales y consentimiento revocable.",
+        "Reembolso de gastos (art. 14); justicia gratuita solicitable ante quien informa o en la OAV (art. 16); denuncias en España de delitos cometidos en otros Estados de la UE (art. 17); devolución de bienes (art. 18)."
+      ]
+    },
+    {
+      "titulo": "Protección de las víctimas (Título III, arts. 19-26)",
+      "puntos": [
+        "**Evaluación individual (art. 23)**: se valoran las circunstancias personales (discapacidad, minoría de edad), la naturaleza y gravedad del delito y el riesgo de reiteración; atención especial a terrorismo, organización criminal, violencia en pareja o familia, delitos sexuales, trata, desaparición forzada y delitos de odio. En delitos contra la libertad sexual se aplican siempre las medidas de las letras a a d del art. 25.1.",
+        "**Quién evalúa (art. 24)**: en la investigación, el **Juez de Instrucción o el de Violencia sobre la Mujer**, sin perjuicio de la evaluación y resolución **provisionales** del Fiscal o de la policía en la fase inicial; en el enjuiciamiento, el **Juez o Tribunal**. La víctima puede **renunciar** a las medidas.",
+        "**Menores, víctimas con discapacidad necesitadas de especial protección y víctimas de violencias sexuales (art. 26)**: declaraciones **grabadas**, declaración por **expertos**, **defensor judicial** a petición del Fiscal si hay conflicto de intereses y, ante la duda sobre la edad, se **presume menor**."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Fase",
+          "Medidas posibles (art. 25)"
+        ],
+        "filas": [
+          [
+            "Investigación (25.1)",
+            "Declaración en dependencias adaptadas; por profesionales con formación especial; todas las tomas por la misma persona; por persona del mismo sexo si la víctima lo pide (violencia en pareja o familia, delitos sexuales, trata con fines de explotación sexual)"
+          ],
+          [
+            "Enjuiciamiento (25.2)",
+            "Evitar el contacto visual con el supuesto autor; ser oída sin estar presente en la sala; evitar preguntas sobre la vida privada sin relevancia; vista oral sin público"
+          ],
+          [
+            "En ambas fases",
+            "Evitar el contacto visual y evitar preguntas sobre la vida privada irrelevante"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Oficinas de Asistencia a las Víctimas y disposiciones comunes (Título IV)",
+      "puntos": [
+        "**OAV (arts. 27-28)**: las organizan el Gobierno y las comunidades autónomas con competencias en Justicia. Funciones mínimas: información sobre derechos y sobre el sistema público de indemnización, **apoyo emocional**, asesoramiento económico (indemnización, justicia gratuita) y sobre victimización secundaria, y coordinación con órganos, Jueces, Tribunales y Fiscal. El acceso **no exige denuncia previa** (art. 28.3).",
+        "**Víctimas fraudulentas (art. 35)**: quien sea condenado por **denuncia falsa o simulación de delito** reembolsa ayudas y gastos con el interés legal del dinero **aumentado en un 50 %**.",
+        "**RD 1109/2015**: desarrolla la ley y regula las OAV; crea el **Consejo Asesor de Asistencia a las Víctimas** (órgano consultivo adscrito a la Dirección General de Relaciones con la Administración de Justicia, art. 10) y repite los **45 días** de reflexión (art. 4). Informe **anual** de evaluación del Ministerio de Justicia."
+      ]
+    }
+  ],
+  "trampas": [
+    "La víctima indirecta solo existe si el delito causa la **muerte o desaparición**; en un delito de lesiones con superviviente no hay víctima indirecta. El responsable del hecho nunca lo es, y los **terceros perjudicados** quedan excluidos.",
+    "Cifras: **45 días** (no 30 ni 60) y solo para **abogados y procuradores**; recurso en ejecución: **5 días** para anunciar y **15 días** para interponer, no al revés.",
+    "Fase de cada medida: «oída sin estar presente» y «vista sin público» son solo de **enjuiciamiento**; «misma persona» y «mismo sexo» son solo de **investigación**; evitar el contacto visual y las preguntas sobre vida privada valen en **ambas**.",
+    "Quién decide: el **Juez o Tribunal**; la policía y el Fiscal solo hacen una valoración y resolución **provisionales** en la fase inicial de la investigación.",
+    "Las notificaciones de resoluciones se hacen si la víctima las pide (art. 5.1.m), salvo en **violencia de género**, donde las de prisión, libertad y medidas cautelares son de oficio (art. 7.3).",
+    "Mediación: vedada en violencia sexual y de género aunque la víctima consienta; en el resto exige consentimiento de **ambas partes** y reconocimiento de los hechos esenciales por el infractor.",
+    "Con víctimas menores o con capacidad modificada, las comunicaciones van a su **representante o a quien las asista**, no a la autoridad judicial ni solo al Fiscal.",
+    "Nada de lo anterior depende de la nacionalidad o la residencia legal: «solo españoles» o «solo con residencia legal» es siempre un distractor."
+  ],
+  "caido": [
+    {
+      "examen": "13 abr 2024",
+      "concepto": "Ámbito de aplicación: nacionalidad, edad y residencia legal (art. 1)"
+    },
+    {
+      "examen": "23 abr 2023 y 26 sep 2026",
+      "concepto": "Concepto de víctima directa e indirecta; exclusión de terceros (art. 2)"
+    },
+    {
+      "examen": "23 abr 2023 (dos preguntas) y 25 oct 2025",
+      "concepto": "Derechos básicos: comunicaciones al representante en menores y capacidad modificada, acompañamiento, copia certificada de la denuncia (arts. 4 y 6)"
+    },
+    {
+      "examen": "13 abr 2024",
+      "concepto": "Abogados y procuradores no pueden ofrecerse a víctimas de catástrofes hasta 45 días (art. 8)"
+    },
+    {
+      "examen": "1 mar 2025",
+      "concepto": "Medida de evitar el contacto visual con el presunto autor (art. 25)"
+    },
+    {
+      "examen": "23 abr 2023",
+      "concepto": "Plazo de recurso de la víctima (art. 13)"
+    },
+    {
+      "examen": "25 oct 2025",
+      "concepto": "Orden de protección y su ámbito (el análisis la clasifica en este tema)"
+    }
+  ],
+  "mnemotecnias": [
+    "Recurso en ejecución: **5 para avisar, 15 para recurrir** (avisar es lo rápido, recurrir lleva más trabajo).",
+    "Indirecta = **M**uerte o **D**esaparición: sin una de las dos, no hay víctima indirecta."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Cómo se llama y de qué fecha es la ley del Estatuto de la víctima?",
+      "r": "**Ley 4/2015, de 27 de abril**, del Estatuto de la víctima del delito."
+    },
+    {
+      "p": "¿A quién se aplica la ley según su ámbito (art. 1)?",
+      "r": "A víctimas de delitos cometidos en España o perseguibles en España, **con independencia de nacionalidad, edad y residencia legal**."
+    },
+    {
+      "p": "¿Quién es víctima directa (art. 2.a)?",
+      "r": "La **persona física** con daño o perjuicio en su persona o patrimonio **directamente causado** por un delito."
+    },
+    {
+      "p": "¿Cuándo existe víctima indirecta?",
+      "r": "Solo en caso de **muerte o desaparición** causada directamente por un delito, salvo que sea responsable de los hechos (art. 2.b)."
+    },
+    {
+      "p": "¿Qué pasa con los terceros perjudicados por el delito?",
+      "r": "La ley **no** les es aplicable (art. 2, último párrafo)."
+    },
+    {
+      "p": "¿Qué derecho tiene la víctima al presentar la denuncia (art. 6)?",
+      "r": "**Copia de la denuncia debidamente certificada**; y asistencia lingüística gratuita y traducción de la copia si no entiende las lenguas oficiales."
+    },
+    {
+      "p": "¿A quién se dirigen las comunicaciones si la víctima es menor o tiene la capacidad judicialmente modificada (art. 4)?",
+      "r": "A su **representante o a la persona que le asista**."
+    },
+    {
+      "p": "¿Cuántos días de reflexión se imponen a abogados y procuradores tras una catástrofe (art. 8)?",
+      "r": "**45 días** desde el hecho, salvo que la víctima los solicite expresamente; infracción disciplinaria muy grave."
+    },
+    {
+      "p": "¿Qué ocurre con la mediación y la conciliación en violencia sexual y de género (art. 3.1)?",
+      "r": "Están **vedadas**."
+    },
+    {
+      "p": "¿Plazos para recurrir un auto de los previstos en el art. 13?",
+      "r": "**5 días** para anunciar el recurso y **15 días** para interponerlo, desde la notificación."
+    },
+    {
+      "p": "¿Medidas de protección en la fase de investigación (art. 25.1)?",
+      "r": "Dependencias adaptadas; profesionales con formación especial; la misma persona en todas las tomas; persona del mismo sexo si la víctima lo pide en los casos previstos."
+    },
+    {
+      "p": "¿Medidas de protección en la fase de enjuiciamiento (art. 25.2)?",
+      "r": "Evitar contacto visual; oída sin estar presente; evitar preguntas sobre vida privada irrelevante; **vista sin público**."
+    },
+    {
+      "p": "¿Quién valora y decide las medidas de protección en la investigación (art. 24)?",
+      "r": "El **Juez de Instrucción o el de Violencia sobre la Mujer**, con evaluación provisional del Fiscal o la policía en la fase inicial."
+    },
+    {
+      "p": "¿Qué se presume si hay dudas sobre la edad de la víctima (art. 26.3)?",
+      "r": "Que es **menor de edad**."
+    },
+    {
+      "p": "¿Con qué interés se reembolsan las ayudas si se condena a la víctima por denuncia falsa (art. 35)?",
+      "r": "Interés legal del dinero **incrementado en un 50 %**."
+    },
+    {
+      "p": "¿Qué órgano crea el RD 1109/2015 y de quién depende?",
+      "r": "El **Consejo Asesor de Asistencia a las Víctimas**, órgano consultivo adscrito a la Dirección General de Relaciones con la Administración de Justicia."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Según el ámbito de aplicación de la Ley 4/2015 del Estatuto de la víctima del delito, ¿a qué víctimas se aplica?",
+      "opciones": [
+        "Solo a las víctimas de nacionalidad española o con residencia legal en España",
+        "A las víctimas de delitos cometidos en España o perseguibles en España, con independencia de su nacionalidad, edad o residencia legal",
+        "A las víctimas mayores de edad de delitos cometidos en España, sea cual sea su nacionalidad"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 1 aplica la ley a las víctimas de delitos cometidos en España o que puedan ser perseguidos en España, sin distinguir por nacionalidad, edad (mayores o menores) ni residencia legal. Falla la opción que exige nacionalidad española o residencia legal, que la ley descarta expresamente, y falla la que limita la ley a los mayores de edad, porque excluye a los menores.",
+      "ref": "art. 1 Ley 4/2015",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Tras una catástrofe con elevado número de víctimas, ¿hasta cuándo no pueden abogados y procuradores dirigirse a las víctimas para ofrecerles sus servicios, salvo que ellas los soliciten expresamente?",
+      "opciones": [
+        "Hasta transcurridos 45 días desde el hecho",
+        "Hasta transcurridos 30 días desde el hecho",
+        "Hasta que se dicte el auto de apertura de juicio oral"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 8.1 fija un periodo de reflexión de 45 días desde el hecho, que queda sin efecto si la víctima solicita expresamente los servicios; el incumplimiento es infracción disciplinaria muy grave (art. 8.2). El plazo de 30 días es inventado y la ley no vincula la prohibición a ninguna fase del proceso.",
+      "ref": "art. 8 Ley 4/2015; art. 4 RD 1109/2015",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre el concepto de víctima en el art. 2 de la Ley 4/2015:",
+      "opciones": [
+        "Es víctima directa la persona física que sufre un daño o perjuicio en su persona o patrimonio directamente causado por un delito",
+        "Si un delito causa directamente la muerte de una persona, son víctimas indirectas su cónyuge no separado legalmente o de hecho y los hijos que convivieran con ellos",
+        "Los terceros que sufran perjuicios derivados del delito tienen la condición de víctimas indirectas"
+      ],
+      "correcta": 2,
+      "explicacion": "El último párrafo del art. 2 excluye a los terceros que hayan sufrido perjuicios derivados del delito: la ley no les es aplicable. Las otras dos afirmaciones reproducen el art. 2.a (víctima directa) y el art. 2.b, 1.º (cónyuge e hijos convivientes como víctimas indirectas en caso de muerte o desaparición).",
+      "ref": "art. 2 Ley 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Marta sufre lesiones graves causadas directamente por un delito, pero sobrevive. Sus padres piden ser reconocidos como víctimas indirectas conforme a la Ley 4/2015. ¿Qué es correcto?",
+      "opciones": [
+        "Procede, porque los progenitores de la víctima son siempre víctimas indirectas",
+        "No procede: la víctima indirecta solo existe en caso de muerte o desaparición causada directamente por el delito, y Marta es víctima directa",
+        "Procede únicamente si los padres conviven con Marta y la tienen a su cargo"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 2.b limita la víctima indirecta a los casos de muerte o desaparición de una persona causada directamente por un delito. Sin ellas no hay víctima indirecta, aunque el art. 10 permite extender los servicios de asistencia y apoyo a los familiares cuando el delito haya causado perjuicios de especial gravedad. Las otras opciones suponen una condición (siempre; convivencia) que la ley no establece para este caso.",
+      "ref": "art. 2.b y art. 10 Ley 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Si la víctima es menor de edad o tiene la capacidad judicialmente modificada, ¿a quién se dirigen, según el art. 4 de la Ley 4/2015, las comunicaciones con ella?",
+      "opciones": [
+        "Solo a la autoridad judicial, que las traslada a la víctima",
+        "A la propia víctima, con copia obligatoria al Ministerio Fiscal",
+        "A su representante o a la persona que le asista"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 4.a dispone que, si la víctima es menor o tiene la capacidad judicialmente modificada, las comunicaciones se harán a su representante o a la persona que le asista. La ley no prevé que pasen por la autoridad judicial ni la copia obligatoria al Fiscal.",
+      "ref": "art. 4.a Ley 4/2015",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Al presentar su denuncia, ¿qué derecho reconoce expresamente el art. 6 de la Ley 4/2015 a la víctima?",
+      "opciones": [
+        "A obtener una copia de la denuncia, debidamente certificada",
+        "A obtener copia íntegra del atestado policial en el mismo acto",
+        "A que se le designe abogado de oficio en todo caso, aunque no lo solicite"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 6.a reconoce la copia de la denuncia debidamente certificada y el art. 6.b la asistencia lingüística gratuita y la traducción escrita de esa copia cuando no se entienden las lenguas oficiales del lugar. Ni la copia íntegra del atestado ni el abogado de oficio automático figuran en ese artículo.",
+      "ref": "art. 6 Ley 4/2015",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el art. 25 de la Ley 4/2015, ¿cuál de estas medidas de protección está prevista para la fase de enjuiciamiento y no para la de investigación?",
+      "opciones": [
+        "Recibir declaración a la víctima en dependencias especialmente concebidas o adaptadas",
+        "Celebrar la vista oral sin presencia de público",
+        "Que todas las tomas de declaración a una misma víctima las realice la misma persona"
+      ],
+      "correcta": 1,
+      "explicacion": "La vista oral sin público es una medida del art. 25.2 (enjuiciamiento), y el último párrafo de ese apartado solo extiende a la investigación las de evitar el contacto visual y evitar preguntas sobre la vida privada. Las dependencias adaptadas y la misma persona para todas las tomas son medidas del art. 25.1, propias de la investigación.",
+      "ref": "art. 25.1 y 25.2 Ley 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Entre las medidas de protección previstas para la fase de enjuiciamiento (art. 25.2), ¿cuáles pueden adoptarse también durante la fase de investigación?",
+      "opciones": [
+        "Todas ellas, sin excepción",
+        "Ninguna: son exclusivas de la fase de enjuiciamiento",
+        "Las que evitan el contacto visual con el supuesto autor y las que evitan preguntas sobre la vida privada sin relevancia para el hecho"
+      ],
+      "correcta": 2,
+      "explicacion": "El último párrafo del art. 25.2 señala que las medidas de sus letras a (evitar el contacto visual) y c (evitar preguntas sobre la vida privada irrelevante) también podrán adoptarse en la fase de investigación. Quedan solo para el enjuiciamiento la audiencia sin estar presente en sala y la vista sin público, por lo que ni «todas» ni «ninguna» son correctas.",
+      "ref": "art. 25.2, último párrafo, Ley 4/2015",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Qué requisito debe cumplir la víctima para poder recurrir, aunque no se haya mostrado parte en la causa, el auto del Juez de Vigilancia Penitenciaria que autoriza la clasificación en tercer grado antes de cumplida la mitad de la condena?",
+      "opciones": [
+        "Haber solicitado que se le notifiquen esas resoluciones",
+        "Haberse personado previamente como acusación particular",
+        "Haber sufrido un delito castigado con pena superior a diez años de prisión"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 13.1 legitima a las víctimas que hubieran solicitado, conforme al art. 5.1.m, que les sean notificadas las resoluciones, y lo hace aunque no se hubieran mostrado parte en la causa. No exige personación previa ni una pena de diez años; exige que el delito sea de los enumerados en ese artículo.",
+      "ref": "art. 13.1 y art. 5.1.m Ley 4/2015",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Durante la fase de investigación, ¿a quién corresponde, según el art. 24 de la Ley 4/2015, valorar las necesidades de protección de la víctima y determinar las medidas?",
+      "opciones": [
+        "A los funcionarios de policía, con carácter definitivo, por ser quienes primero tienen contacto con la víctima",
+        "Al Juez de Instrucción o al de Violencia sobre la Mujer, sin perjuicio de la evaluación y resolución provisionales del Fiscal o de la policía en la fase inicial",
+        "Al Fiscal, cuya decisión vincula al Juez de Instrucción"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 24.1.a atribuye la valoración y la determinación de medidas al Juez de Instrucción o al de Violencia sobre la Mujer en la investigación, y reserva al Fiscal y a la policía solo la evaluación y resolución provisionales. En el enjuiciamiento corresponde al Juez o Tribunal. Ni la policía ni el Fiscal deciden con carácter definitivo.",
+      "ref": "art. 24.1 Ley 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La persona condenada por denuncia falsa o simulación de delito que se hubiera beneficiado de ayudas por su condición de víctima debe reembolsarlas. ¿Con qué interés, según el art. 35 de la Ley 4/2015?",
+      "opciones": [
+        "Con el interés legal del dinero, sin incremento",
+        "Con el interés legal del dinero aumentado en un 25 %",
+        "Con el interés legal del dinero aumentado en un 50 %"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 35.1 obliga a reembolsar las cantidades recibidas y los gastos causados a la Administración con el interés legal del dinero aumentado en un cincuenta por ciento. El RD 1109/2015 (art. 5.4) mantiene el mismo incremento del 50 %.",
+      "ref": "art. 35 Ley 4/2015; art. 5 RD 1109/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál NO es un requisito para que la víctima acceda a servicios de justicia restaurativa según el art. 15 de la Ley 4/2015?",
+      "opciones": [
+        "Que exista una sentencia condenatoria firme contra el infractor",
+        "Que el infractor haya reconocido los hechos esenciales de los que deriva su responsabilidad",
+        "Que la víctima haya prestado su consentimiento tras recibir información exhaustiva e imparcial"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 15.1 exige reconocimiento de los hechos esenciales por el infractor, consentimiento informado de la víctima, consentimiento del infractor, ausencia de riesgo para la seguridad de la víctima y que la ley no lo prohíba para ese delito. No exige una sentencia condenatoria firme previa.",
+      "ref": "art. 15.1 Ley 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Respecto a la mediación y la conciliación, el art. 3.1 de la Ley 4/2015 establece que:",
+      "opciones": [
+        "Son obligatorias para la víctima antes de iniciar el proceso penal en los delitos leves",
+        "Están vedadas en los supuestos de violencia sexual y de violencia de género",
+        "Solo están prohibidas cuando la víctima es menor de edad"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 3.1, redactado por la LO 10/2022, dispone que en todo caso estará vedada la mediación y la conciliación en supuestos de violencia sexual y de violencia de género. La ley no impone la mediación como obligatoria ni limita la prohibición a las víctimas menores.",
+      "ref": "art. 3.1 Ley 4/2015 (LO 10/2022)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una mujer extranjera, en situación administrativa irregular, denuncia en una comisaría una agresión sufrida en Sevilla y no entiende el castellano. Según la Ley 4/2015:",
+      "opciones": [
+        "No tiene los derechos de la ley por carecer de residencia legal, salvo el de denunciar",
+        "Solo tiene derecho a intérprete si se persona como acusación particular",
+        "Tiene derecho a asistencia lingüística gratuita y a la traducción escrita de la copia de su denuncia"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 1 aplica la ley con independencia de la nacionalidad y de la residencia legal, y el art. 6.b reconoce al denunciante que no entiende las lenguas oficiales la asistencia lingüística gratuita y la traducción escrita de la copia de la denuncia. El derecho no depende de personarse como acusación particular.",
+      "ref": "arts. 1 y 6.b Ley 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una víctima que solicitó ser notificada quiere recurrir un auto del Juez de Vigilancia Penitenciaria de los previstos en el art. 13 de la Ley 4/2015. ¿Qué plazos debe respetar?",
+      "opciones": [
+        "Anunciar su voluntad de recurrir en cinco días e interponer el recurso en quince días desde la notificación",
+        "Anunciar su voluntad de recurrir en quince días e interponer el recurso en cinco días desde la notificación",
+        "Anunciar e interponer el recurso en un único plazo de diez días desde la notificación"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 13.1 exige anunciar la voluntad de recurrir en el plazo máximo de cinco días desde la notificación (sin necesidad de abogado) e interponer el recurso en quince días desde esa notificación. Anunciar en quince días e interponer en cinco invierte los plazos, y un plazo único de diez días no existe.",
+      "ref": "art. 13.1 Ley 4/2015",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Según el art. 28.3 de la Ley 4/2015, el acceso a los servicios de apoyo a las víctimas de las Oficinas de Asistencia a las Víctimas:",
+      "opciones": [
+        "Exige la presentación previa de denuncia y su ratificación ante el Juez",
+        "No se condiciona a la presentación previa de una denuncia",
+        "Solo se permite una vez dictada sentencia firme"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 28.3 establece expresamente que el acceso a los servicios de apoyo a las víctimas no se condicionará a la presentación previa de una denuncia. Tampoco hay que esperar a sentencia firme: los servicios se prestan antes, durante y después del proceso.",
+      "ref": "art. 28.3 Ley 4/2015; art. 8 RD 1109/2015",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "En caso de muerte causada directamente por un delito, ¿quiénes son víctimas indirectas únicamente si no existe ninguno de los familiares del primer grupo del art. 2 de la Ley 4/2015?",
+      "opciones": [
+        "Los herederos testamentarios de la víctima",
+        "Las personas que convivieran con la víctima en su domicilio",
+        "Los demás parientes en línea recta y los hermanos, con preferencia del que ostentara la representación legal de la víctima"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 2.b, 2.º, dispone que, a falta de los del primer grupo, son víctimas indirectas los demás parientes en línea recta y los hermanos, con preferencia, entre ellos, del que ostentara la representación legal de la víctima. Los herederos testamentarios y los convivientes sin parentesco no figuran en el precepto.",
+      "ref": "art. 2.b, 2.º, Ley 4/2015",
+      "dificultad": 3
+    }
+  ],
+  "dudas": [
+    "El análisis de exámenes incluye en este tema una pregunta de P42 sobre la «orden de protección y su ámbito»; la orden de protección se regula en el art. 544 ter de la LECrim (no leído para esta ficha), así que no se ha desarrollado aquí."
+  ]
+}

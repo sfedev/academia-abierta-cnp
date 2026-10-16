@@ -1,0 +1,665 @@
+{
+  "tema": 36,
+  "titulo": "Gramática de la lengua española",
+  "bloque": "B",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "1-4 preguntas por examen (4 en P39, 1 en P43): frases con un solo error gramatical o de uso y definiciones sencillas (tiempos verbales, clases de palabras, funciones)."
+  },
+  "normas": [
+    {
+      "nombre": "RAE-ASALE, Nueva gramática básica de la lengua española (2011), versión en línea",
+      "url": "https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/",
+      "verificado": "Apartados de morfología, clases de palabras, verbo, sintaxis y oraciones consultados en línea el 16/10/2026"
+    },
+    {
+      "nombre": "RAE-ASALE, Glosario de términos gramaticales (versión 1.0 en línea)",
+      "url": "https://www.rae.es/gtg/",
+      "verificado": "Entradas «adverbio», «modo» y las de tiempos verbales consultadas el 16/10/2026"
+    },
+    {
+      "nombre": "RAE-ASALE, Diccionario panhispánico de dudas (2.ª ed., en línea)",
+      "url": "https://www.rae.es/dpd/",
+      "verificado": "Entradas «haber», «mayor», «mejor», «grosso modo» y «motu proprio» consultadas el 16/10/2026"
+    },
+    {
+      "nombre": "RAE-ASALE, Nueva gramática de la lengua española (2009-2011)",
+      "url": "https://www.rae.es/obras-academicas/gramatica",
+      "verificado": "Obra de referencia; el contenido se ha leído a través de la Nueva gramática básica y del Glosario"
+    },
+    {
+      "nombre": "RAE, Diccionario de la lengua española (DLE, en línea)",
+      "url": "https://dle.rae.es/",
+      "verificado": "Consultado el 16/10/2026"
+    }
+  ],
+  "novedades": [
+    "Terminología verbal: la gramática académica actual llama «pretérito perfecto simple» a canté (antes «pretérito indefinido») y «pretérito perfecto compuesto» a he cantado (antes «pretérito perfecto» o «antepresente»). Las preguntas pueden usar cualquiera de los nombres.",
+    "Inventario de preposiciones: la RAE lo fija hoy en 23 (a, ante, bajo, cabe, con, contra, de, desde, durante, en, entre, hacia, hasta, mediante, para, por, según, sin, so, sobre, tras, versus, vía); las listas antiguas de 19 o 21 no incluyen todas."
+  ],
+  "clave": [
+    "**Nueve clases de palabras**: sustantivo, adjetivo, determinante, pronombre, verbo, adverbio, preposición, conjunción e interjección. **Variables**: determinantes, adjetivos, pronombres, sustantivos y verbos; **invariables**: adverbios, preposiciones, conjunciones e interjecciones.",
+    "**Tres modos** verbales: **indicativo, subjuntivo e imperativo** (el condicional es un tiempo del indicativo). **Tres conjugaciones**: -ar, -er, -ir.",
+    "**haya cantado** = pretérito perfecto compuesto de subjuntivo; **había cantado** = pretérito pluscuamperfecto de indicativo; **hubiera o hubiese cantado** = pluscuamperfecto de subjuntivo; **cantara o cantase** = pretérito imperfecto de subjuntivo.",
+    "**Haber impersonal** va siempre en singular: «**Hubo** muchos problemas», «**Había** dos niñas» (nunca «hubieron» ni «habían»).",
+    "**Dequeísmo** = de más («Creo **de** que...»); **queísmo** = de menos («Estoy seguro **que**...»).",
+    "**Laísmo y loísmo** son incorrectos en todos los contextos; el **leísmo** de persona masculino singular (A Mario **le** premiaron) no se considera incorrecto.",
+    "**Comparativos sincréticos**: mejor, peor, mayor, menor; admiten «mucho» y rechazan «muy» («mucho mejor», nunca «más mejor»). Superlativos: óptimo, pésimo, máximo, mínimo.",
+    "**23 preposiciones**: a, ante, bajo, cabe, con, contra, de, desde, durante, en, entre, hacia, hasta, mediante, para, por, según, sin, so, sobre, tras, versus, vía.",
+    "**Conjunciones**: coordinantes (copulativas y, e, ni; disyuntivas o, u; adversativas pero, mas, sino) y subordinantes (que, si, como, porque, aunque, luego, conque...). **y → e** ante i-/hi- y **o → u** ante o-/ho-.",
+    "**Funciones**: sujeto (concuerda con el verbo), complemento directo (lo, la, los, las), complemento indirecto (le, les), complemento de régimen, complemento circunstancial (opcional), atributo (con ser, estar, parecer; se sustituye por «lo») y predicativo (con verbo pleno).",
+    "**Locuciones**: «**grosso modo**» (no «a grosso modo»), «**motu proprio**» (no «motu propio» ni «de motu proprio»), «**sobre todo**» (la prenda es «sobretodo»)."
+  ],
+  "resumen": [
+    {
+      "titulo": "Morfología: morfemas y clases de palabras",
+      "puntos": [
+        "La **morfología** estudia la estructura interna de las palabras, sus variantes y los segmentos que las componen. La **sintaxis** estudia cómo se combinan las palabras y los grupos de palabras y las oraciones que forman.",
+        "**Morfema**: unidad mínima aislable del análisis morfológico. En «habilidades»: **raíz** habil-, **sufijo derivativo** -idad y **sufijo flexivo** -es. Los **afijos** son el **sufijo** (pospuesto), el **prefijo** (antepuesto: im-posible) y el **interfijo** (intermedio: mujer-c-ita, polv-ar-eda).",
+        "La morfología **flexiva** estudia las variaciones de género, número, persona, tiempo, aspecto, modo y caso; la **léxica o derivativa** (formación de palabras) estudia la derivación y la composición. La **parasíntesis** deriva a la vez con prefijo y sufijo (a-blandar, en-loquecer).",
+        "Las **locuciones** son grupos de palabras que se comportan como una sola pieza léxica: nominales (cabeza de turco), adjetivas (de cuidado), verbales (meter la pata), adverbiales (a la fuerza), preposicionales (gracias a), conjuntivas (ya que) e interjectivas (¡A ver!).",
+        "**Compuestos**: univerbales (parabrisas, pelirrojo) y sintagmáticos o pluriverbales (cabeza rapada, teórico-práctico)."
+      ]
+    },
+    {
+      "titulo": "Sufijos y formación de palabras",
+      "puntos": [
+        "Los derivados pueden ser **deverbales** (compra), **deadjetivales** (justicia) y **denominales** (basurero). Los verbos derivados se forman sobre todo con **-ear, -ecer, -izar, -ificar** y con las pautas parasintéticas **a-...-ar** y **en-...-ar/-ecer**.",
+        "Los sufijos apreciativos (diminutivos, aumentativos y despectivos) expresan valoración afectiva o tamaño; el diminutivo -ito/-ita toma las variantes -cito y -ecito (camioncito, viejecito)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Valor",
+          "Sufijos",
+          "Ejemplos"
+        ],
+        "filas": [
+          [
+            "Acción y efecto",
+            "-ción, -miento, -(a)je, -dura, -ada, -ido",
+            "creación, casamiento, arbitraje, mordedura, cuchillada, ladrido"
+          ],
+          [
+            "Cualidad, estado, condición",
+            "-dad, -ez, -eza, -ura, -ía, -ería, -ismo",
+            "maldad, vejez, belleza, altura, valentía, tontería, budismo"
+          ],
+          [
+            "Agente, instrumento, lugar",
+            "-dor/-dora, -dero/-dera, -torio, -ero/-era, -ario, -ista, -nte",
+            "lavadora, regadera, laboratorio, cochero, millonario, taxista, cantante"
+          ],
+          [
+            "Diminutivos",
+            "-ito, -illo",
+            "mesita, jardincito"
+          ],
+          [
+            "Aumentativos",
+            "-ón, -azo, -ote",
+            "cochazo, muchachote"
+          ],
+          [
+            "Despectivos",
+            "-aco, -ucho",
+            "—"
+          ],
+          [
+            "Adjetivos",
+            "-oso, -ísimo, -érrimo, -udo",
+            "asombroso, bellísimo, celebérrimo, barrigudo"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Sustantivos: clases, género y número",
+      "puntos": [
+        "Clases: **comunes y propios**; **contables y no contables** (agua, amor: solo en singular; el plural las convierte en contables o les da valor expresivo); **individuales y colectivos** (colectivos léxicos: familia, rebaño; morfológicos: alumnado, arboleda, pinar); **abstractos y concretos**.",
+        "Género en seres sexuados: **heterónimos** (padre/madre, toro/vaca), de **terminación variable** (niño/niña), **comunes en cuanto al género** (el/la estudiante, el/la cónyuge, el/la artista) y **epicenos** (un solo género aunque designen seres sexuados: la persona, el tiburón; se precisa con «macho/hembra»).",
+        "Plural en **-s**: vocal átona o -á, -é, -ó tónicas (casas, sofás, cafés). En **-es**: -l, -n, -r, -d, -z, -j (relojes, jóvenes, caracteres); -y (leyes, reyes; jerséis); -í/-ú admiten -es o -s (ceutíes, tabús), con preferencia culta por -es en gentilicios.",
+        "Los esdrújulos desplazan el acento: régimen → **regímenes**, espécimen → **especímenes**. Las demás palabras terminadas en -s o -x (llanas y esdrújulas) son **invariables**: los lunes, las dosis, los **bíceps**, los clímax. Las agudas y monosílabas en -s/-x hacen -es: autobuses, boxes."
+      ]
+    },
+    {
+      "titulo": "Determinantes y pronombres",
+      "puntos": [
+        "**Determinantes**: artículo (el, la, los, las, lo; un, una, unos, unas), demostrativos (este, ese, aquel), posesivos (átonos mi, tu, su, nuestro, vuestro; tónicos mío, tuyo, suyo), cuantificadores (todo, cada, ambos, mucho, varios, numerales) y el relativo posesivo **cuyo**. El artículo es un determinante.",
+        "**Pronombres personales**: nominativo o recto (yo, tú ~ vos, él, ella, nosotros, vosotros, ellos), acusativo (me, te, lo, la, nos, os, los, las, se), dativo (me, te, le, nos, os, les, se) y preposicional (mí, ti, él..., conmigo, contigo). «Usted» concuerda en tercera persona.",
+        "**Leísmo**: le/les en lugar de lo(s)/la(s). Se admite el de persona masculino singular (A Mario **le** premiaron), no se recomienda en plural y es incorrecto el de persona femenino y el de cosa. **Laísmo** (La dije) y **loísmo** (Los dije que...) son **incorrectos** siempre.",
+        "**Relativos**: ocho unidades, **que, quien, cual, cuyo, cuanto, donde, cuando y como**. Solo cuyo y cuanto varían en género y número; quien y cual solo en número. Los interrogativos y exclamativos (qué, quién, cuál, cómo, cuánto, dónde, cuándo) llevan tilde."
+      ]
+    },
+    {
+      "titulo": "Adjetivos: tipos y grados",
+      "puntos": [
+        "**Calificativos** (cualidades que admiten grados: suerte aciaga, estudio interesante) y **relacionales** (clasifican: llamada telefónica, bomba atómica; admiten la paráfrasis «un tipo de»). Los gentilicios son relacionales. En usos **especificativos** (sin comas) restringen; en **explicativos** (entre comas) no.",
+        "**Grados**: **positivo** (alto), **comparativo** (superioridad «más... que», inferioridad «menos... que», igualdad «tan... como») y **superlativo**: absoluto (muy, -ísimo, -érrimo, prefijos como archi-, hiper-, super-) o relativo (el más... de).",
+        "Comparativos y superlativos **sincréticos**: bueno → mejor/óptimo; malo → peor/pésimo; grande → mayor/máximo; pequeño → menor/mínimo. Aceptan «mucho» y rechazan «muy»: «mucho mejor», pero no «más mejor». «Mayor» con sentido de edad (‘de no poca edad’, ‘de edad avanzada’) sí admite «más» o «muy» (muy mayor); con sentido de ‘adulto’ no.",
+        "**Apócope**: bueno, malo, primero, tercero y postrero → buen, mal, primer, tercer, postrer ante sustantivo masculino singular («buen comienzo», pero «buena vida»); grande → **gran** ante sustantivo singular (un gran hombre, una gran mujer); santo → san ante nombres propios masculinos, salvo Tomás y Domingo."
+      ]
+    },
+    {
+      "titulo": "Adverbios y sus tipos",
+      "puntos": [
+        "El adverbio es **invariable** y **tónico**; modifica a verbos, adjetivos, otros adverbios, grupos nominales o preposicionales y oraciones. Por su **estructura**: en **-mente** (rápidamente), adjetivales (hablar alto) y locuciones adverbiales (a gatas).",
+        "Por su **significado**, la gramática actual distingue: **cantidad** (muy, bastante, más), **lugar** (aquí, ahí, allí; delante, detrás, encima), **tiempo** (ayer, hoy; siempre; nunca), **aspectuales** (ya, todavía, otra vez) y **modo o manera** (bien, mal, así, despacio). La clasificación tradicional añadía **afirmación, negación y duda**; el Glosario advierte de que mezcla criterios (nunca es de negación, cantidad y tiempo a la vez).",
+        "Por su naturaleza, los adverbios son **léxicos** (clase abierta) o **gramaticales** (demostrativos, cuantificativos, relativos e interrogativos). Evitar «alante» (es «adelante»); es preferible «el día antes» a «el día de antes»."
+      ]
+    },
+    {
+      "titulo": "Verbos: modos, tiempos y conjugación",
+      "puntos": [
+        "Tres **modos**: **indicativo, subjuntivo e imperativo** (Glosario de términos gramaticales). El imperativo no forma oposiciones temporales. Tres **conjugaciones** por la vocal temática del infinitivo: **-ar** (amar), **-er** (temer) e **-ir** (partir).",
+        "**Formas no personales**: infinitivo (-r), gerundio (-ndo) y participio (-do); carecen de persona, tiempo y modo, y solo el participio varía en número. Infinitivo y gerundio tienen forma compuesta (haber cantado, habiendo cantado); el participio no.",
+        "**Irregularidades**: vocálicas (pedir > pido; contar > cuento), consonánticas (padecer > padezco; hacer > haga) y mixtas (decir > digo); más las supletivas (ir > voy; ser > somos ~ fuimos). **Defectivos**: los de fenómenos de la naturaleza (llover, amanecer), los terciopersonales (acaecer, acontecer, atañer, concernir, ocurrir, urgir) y, en parte, soler y acostumbrar.",
+        "**Perífrasis**: las de fase inicial o **incoativas** son «empezar a», «comenzar a» y «ponerse a + infinitivo»; «dejar de», «cesar de» y «parar de» son de interrupción.",
+        "**Haber impersonal**: el sintagma que lo acompaña es complemento directo, así que el verbo va en singular («Hubo varios accidentes», «Va a haber reuniones»). Son incorrectos «hubieron», «habían» ante plural y «van a haber».",
+        "**Dequeísmo** (Creo de que..., Es seguro de que...) y **queísmo** (Confío que..., Estoy seguro que...). Con algunos verbos valen las dos formas (advertir que ~ advertir de que). No hay dequeísmo en «antes de que», «después de que».",
+        "**Gerundio**: no es correcto como modificador restrictivo del nombre («Nueva ley reformando las tarifas»); se usa como circunstancial (Redactó el trabajo poniendo cuidado) o predicativo (Las vi alejándose)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Tiempo (cantar)",
+          "Indicativo",
+          "Subjuntivo",
+          "Otros nombres (Glosario)"
+        ],
+        "filas": [
+          [
+            "Presente",
+            "canto",
+            "cante",
+            "-"
+          ],
+          [
+            "Pretérito perfecto simple",
+            "canté",
+            "-",
+            "pretérito, pretérito indefinido"
+          ],
+          [
+            "Pretérito imperfecto",
+            "cantaba",
+            "cantara o cantase",
+            "copretérito (indicativo)"
+          ],
+          [
+            "Futuro simple",
+            "cantaré",
+            "cantare",
+            "futuro imperfecto (indicativo)"
+          ],
+          [
+            "Condicional simple",
+            "cantaría",
+            "-",
+            "pospretérito, potencial simple"
+          ],
+          [
+            "Pretérito perfecto compuesto",
+            "he cantado",
+            "haya cantado",
+            "antepresente, pretérito perfecto (indicativo)"
+          ],
+          [
+            "Pretérito anterior",
+            "hube cantado",
+            "-",
+            "antepretérito"
+          ],
+          [
+            "Pretérito pluscuamperfecto",
+            "había cantado",
+            "hubiera o hubiese cantado",
+            "antecopretérito (indicativo)"
+          ],
+          [
+            "Futuro compuesto",
+            "habré cantado",
+            "hubiere cantado",
+            "antefuturo, futuro perfecto (indicativo)"
+          ],
+          [
+            "Condicional compuesto",
+            "habría cantado",
+            "-",
+            "antepospretérito, condicional perfecto"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Preposiciones y conjunciones",
+      "puntos": [
+        "**Preposiciones** (23): a, ante, bajo, cabe, con, contra, de, desde, durante, en, entre, hacia, hasta, mediante, para, por, según, sin, so, sobre, tras, versus, vía. **Cabe** y **so** ya no se usan en el habla; **durante** y **mediante** fueron participios de presente; **según** es la única preposición tónica y rechaza el caso oblicuo («según tú»).",
+        "**Conjunciones**: palabras invariables y generalmente átonas que relacionan palabras, grupos u oraciones. **Coordinantes**: copulativas (**y**, **e**, **ni**), disyuntivas (**o**, **u**) y adversativas (**pero**, **mas**, **sino**). **Subordinantes**: completivas (que, si), condicionales (si, como), causales (porque, como), concesivas (aunque, si bien), temporales (luego que), consecutivas (que), ilativas (luego, conque) y comparativas (que, como).",
+        "**y → e** ante palabras que empiezan por i- o hi- (Fernando e Isabel; madre e hija), pero se mantiene «y» ante diptongo (matas y hierbas, agua y hielo). **o → u** ante o- o ho- (siete u ocho, mujeres u hombres).",
+        "**Sino** adversativo corrige una negación previa («No es azul, sino gris»); delante de verbo en forma personal se usa «sino que»."
+      ]
+    },
+    {
+      "titulo": "Sintaxis: la oración y sus funciones",
+      "puntos": [
+        "La **oración** une normalmente un **sujeto** y un **predicado**. Por la naturaleza del predicado: **copulativas** (El día está fresco), **transitivas** (llevan complemento directo) e **intransitivas**. Por su complejidad: **simples** (un predicado) y **compuestas** (varios), por **coordinación** (incluye las yuxtapuestas) o por **subordinación**.",
+        "Por la **modalidad**: declarativas, interrogativas, exclamativas, imperativas o exhortativas, **desiderativas** (¡Que tengas un feliz día!) y **dubitativas** (Tal vez tengas razón).",
+        "**Sujeto**: función que concuerda con el verbo en número y persona; puede ser tácito. **Complemento directo (CD)**: se asocia a los pronombres lo, la, los, las. **Complemento indirecto (CI)**: caso dativo (le, les) o grupo con «a». **Complemento de régimen**: grupo preposicional seleccionado por el verbo (depender **de**). **Complemento circunstancial (CC)**: adjunto opcional del verbo.",
+        "Tipos de CC: lugar, tiempo, manera o modo, cantidad o grado, compañía, instrumento, medio, materia, finalidad, beneficiario y causa.",
+        "**Atributo**: se predica del sujeto con verbos copulativos (**ser, estar, parecer**) y se sustituye por el pronombre **lo** («Lo es»). **Complemento predicativo**: atributo con verbo pleno («Julio llegó **radiante**»); no admite «lo». **Construcción absoluta**: atributo sin verbo flexionado, normalmente entre comas («Terminada la reunión, ...»).",
+        "**Voz pasiva perifrástica**: ser + participio (La habitación fue pintada); aparece el **complemento agente** (por María). **Pasiva refleja**: «Se alquilan habitaciones» (sujeto en plural, verbo concordado). **Impersonal con se**: «Se cura a los enfermos»; el verbo va en singular («Se premió a los alumnos», no «Se premiaron»).",
+        "**Subordinadas sustantivas**: declarativas (Quiere que vengas), interrogativas indirectas (No sabe si llegará) y exclamativas indirectas. **De relativo**: **especificativas** (sin comas, restringen el antecedente) y **explicativas** (entre comas, solo añaden información). **Circunstanciales**: causales, finales, condicionales, concesivas, consecutivas, comparativas, ilativas y temporales.",
+        "**Análisis sintáctico** (guía de estudio propia): un predicado por verbo conjugado; sujeto por concordancia; clasificar el predicado (copulativo, transitivo o intransitivo); identificar los complementos con pruebas de sustitución (lo/la, le, «lo» atributivo); distinguir coordinación y subordinación."
+      ]
+    }
+  ],
+  "trampas": [
+    "**Variable e invariable**: los adverbios, las preposiciones, las conjunciones y las interjecciones son invariables. El adverbio no se flexiona aunque admita diminutivo (cerquita).",
+    "**Modos**: el condicional no es un modo; es un tiempo del indicativo. Los modos son tres: indicativo, subjuntivo e imperativo.",
+    "Nombres de tiempos: **canté** es pretérito perfecto simple (o indefinido); **he cantado**, perfecto compuesto; **había cantado**, pluscuamperfecto; **haya cantado**, perfecto compuesto de subjuntivo.",
+    "**Haber impersonal** en singular: «hubieron muchos problemas» y «habían dos personas» son errores frecuentes en los distractores.",
+    "**Dequeísmo** (sobra de) frente a **queísmo** (falta de): se parecen y se invierten en los distractores.",
+    "**Laísmo y loísmo**: incorrectos siempre; el leísmo de persona masculino singular no se considera error. No generalizar.",
+    "«**Más mejor**» y «**muy mejor**» son incorrectos; «mucho mejor» es correcto. «Mayor» con sentido de edad sí admite «más» o «muy».",
+    "Preposiciones: son **23**; los distractores sustituyen una por una conjunción o adverbio (aunque, mientras, pero) o usan listas antiguas.",
+    "**Pasiva refleja** (concuerda: «Se venden pisos») frente a **impersonal con se** (singular: «Se vende a los clientes»). «Se venden pisos» no es impersonal.",
+    "**Atributo** (copulativo, admite «lo») frente a **predicativo** (verbo pleno, no admite «lo»): «La ciudad parece tranquila» / «Julio llegó radiante»."
+  ],
+  "caido": [
+    {
+      "examen": "P43 (26 sep 2026)",
+      "concepto": "Frase correctamente escrita: por qué / porqué / porqués."
+    },
+    {
+      "examen": "P39 (23 abr 2023, tres preguntas) y P40 (13 abr 2024)",
+      "concepto": "Verbo incoativo; pretérito perfecto de subjuntivo; «a grosso modo»; «mayor» frente a «más mayor»; régimen de «conminar»."
+    },
+    {
+      "examen": "P42 (25 oct 2025)",
+      "concepto": "Locución latina «motu proprio» y expresiones con «sobre todo»."
+    }
+  ],
+  "mnemotecnias": [
+    "Los tres modos: **I-S-I** = Indicativo, Subjuntivo, Imperativo.",
+    "Relativos (8): **QUE - QUIEN - CUAL - CUYO - CUANTO**, más los adverbiales **DONDE - CUANDO - COMO**.",
+    "Dequeísmo: **sobra** la preposición «de» (Creo **de** que); queísmo: **falta** (seguro **que**)."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Cuántas clases de palabras reconoce la RAE y cuáles son invariables?",
+      "r": "Nueve: sustantivo, adjetivo, determinante, pronombre, verbo, adverbio, preposición, conjunción e interjección. Invariables: **adverbio, preposición, conjunción e interjección**."
+    },
+    {
+      "p": "¿Qué es un morfema? Pon los morfemas de «habilidades».",
+      "r": "La unidad mínima aislable en el análisis morfológico: raíz **habil-**, sufijo derivativo **-idad**, sufijo flexivo **-es**."
+    },
+    {
+      "p": "¿Cuáles son los modos del verbo español?",
+      "r": "**Indicativo, subjuntivo e imperativo**."
+    },
+    {
+      "p": "¿Cómo se llama «haya cantado»?",
+      "r": "Pretérito **perfecto compuesto de subjuntivo**."
+    },
+    {
+      "p": "¿Cómo se llama «había cantado»?",
+      "r": "Pretérito **pluscuamperfecto de indicativo** (antecopretérito)."
+    },
+    {
+      "p": "¿Cómo se llama «canté» en la terminología actual?",
+      "r": "Pretérito **perfecto simple** (también pretérito indefinido)."
+    },
+    {
+      "p": "¿Qué tipo de irregularidad tiene decir > digo?",
+      "r": "**Mixta** (vocálica y consonántica a la vez)."
+    },
+    {
+      "p": "Preposiciones del español (inventario actual).",
+      "r": "**23**: a, ante, bajo, cabe, con, contra, de, desde, durante, en, entre, hacia, hasta, mediante, para, por, según, sin, so, sobre, tras, versus, vía."
+    },
+    {
+      "p": "¿Cuándo «y» se convierte en «e» y «o» en «u»?",
+      "r": "«y» → «e» ante i-/hi- (madre e hija), salvo diptongo (agua y hielo); «o» → «u» ante o-/ho- (siete u ocho)."
+    },
+    {
+      "p": "Relativos del español.",
+      "r": "**Que, quien, cual, cuyo, cuanto, donde, cuando, como** (ocho)."
+    },
+    {
+      "p": "¿Es correcto «Hubieron muchos problemas»?",
+      "r": "No: **haber impersonal** va en singular («Hubo muchos problemas»)."
+    },
+    {
+      "p": "¿Cuándo es correcto el leísmo?",
+      "r": "El de **persona masculino singular** («A Mario le premiaron») no se considera incorrecto; laísmo y loísmo son siempre incorrectos."
+    },
+    {
+      "p": "Comparativos sincréticos y sus superlativos.",
+      "r": "bueno → **mejor**/óptimo; malo → **peor**/pésimo; grande → **mayor**/máximo; pequeño → **menor**/mínimo."
+    },
+    {
+      "p": "Plural de «régimen», «bíceps» y «carácter».",
+      "r": "**regímenes**, **los bíceps** (invariable), **caracteres**."
+    },
+    {
+      "p": "Diferencia entre atributo y predicativo.",
+      "r": "Atributo: con ser, estar o parecer; admite «lo». Predicativo: con verbo pleno («Julio llegó radiante»); no admite «lo»."
+    },
+    {
+      "p": "Diferencia entre pasiva refleja e impersonal con se.",
+      "r": "Pasiva refleja: el verbo concuerda con el sujeto («Se alquilan habitaciones»). Impersonal: singular («Se cura a los enfermos»)."
+    },
+    {
+      "p": "Diferencia entre relativa especificativa y explicativa.",
+      "r": "Especificativa: sin comas, delimita el antecedente. Explicativa: entre comas, solo añade información."
+    },
+    {
+      "p": "¿Cómo se escribe: «grosso modo» o «a grosso modo»?",
+      "r": "«**Grosso modo**» (‘aproximadamente’); «a grosso modo» es incorrecto."
+    },
+    {
+      "p": "¿Cómo se escribe: «motu proprio» o «de motu propio»?",
+      "r": "«**Motu proprio**» (‘voluntariamente’), sin preposición antepuesta."
+    },
+    {
+      "p": "Perífrasis de fase inicial (incoativas).",
+      "r": "**Empezar a**, **comenzar a** y **ponerse a** + infinitivo."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "¿Cuál de las siguientes clases de palabras es invariable?",
+      "opciones": [
+        "El determinante",
+        "La preposición",
+        "El adjetivo"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la Nueva gramática básica son variables los determinantes, los adjetivos, los pronombres, los sustantivos y los verbos, e invariables los adverbios, las preposiciones, las conjunciones y las interjecciones. Determinante y adjetivo varían en género y número.",
+      "ref": "NGB 1.3.1.3",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "La forma verbal «haya cantado» es el:",
+      "opciones": [
+        "Pretérito perfecto compuesto del modo subjuntivo",
+        "Pretérito pluscuamperfecto del modo subjuntivo",
+        "Pretérito perfecto simple del modo indicativo"
+      ],
+      "correcta": 0,
+      "explicacion": "En la nomenclatura académica, «haya cantado» es el pretérito perfecto compuesto de subjuntivo. El pluscuamperfecto de subjuntivo es «hubiera o hubiese cantado», y el pretérito perfecto simple de indicativo es «canté».",
+      "ref": "NGB 15.3.1",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La forma verbal «había cantado» es el:",
+      "opciones": [
+        "Pretérito anterior de indicativo",
+        "Condicional compuesto",
+        "Pretérito pluscuamperfecto de indicativo"
+      ],
+      "correcta": 2,
+      "explicacion": "«Había cantado» es el pretérito pluscuamperfecto de indicativo. El pretérito anterior es «hube cantado» y el condicional compuesto, «habría cantado».",
+      "ref": "NGB 15.3.1",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Los modos verbales del español son:",
+      "opciones": [
+        "Indicativo, subjuntivo y condicional",
+        "Indicativo, imperativo y potencial",
+        "Indicativo, subjuntivo e imperativo"
+      ],
+      "correcta": 2,
+      "explicacion": "El Glosario de términos gramaticales establece tres modos: imperativo, indicativo y subjuntivo. El condicional (o potencial) es un tiempo del modo indicativo, no un modo aparte.",
+      "ref": "GTG, «modo»",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes secuencias contiene únicamente preposiciones del inventario actual de la RAE?",
+      "opciones": [
+        "Mientras, sobre y bajo",
+        "Mediante, durante y vía",
+        "Cabe, so y aunque"
+      ],
+      "correcta": 1,
+      "explicacion": "El inventario actual (23 preposiciones) incluye durante, mediante y vía, además de cabe y so. «Mientras» es adverbio o conjunción y «aunque» es conjunción subordinante, de modo que las otras secuencias mezclan una preposición con una palabra de otra clase.",
+      "ref": "NGB 16.1.4",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En la oración «No es azul, sino gris», la palabra «sino» es una conjunción:",
+      "opciones": [
+        "Adversativa",
+        "Copulativa",
+        "Disyuntiva"
+      ],
+      "correcta": 0,
+      "explicacion": "El «sino» adversativo corrige una opinión negada previamente: el primer segmento es negativo y el segundo introduce la corrección. Las copulativas suman (y, e, ni) y las disyuntivas ofrecen alternativa (o, u).",
+      "ref": "NGB 16.2.5.2",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la expresión correcta respecto al uso de la conjunción copulativa:",
+      "opciones": [
+        "Madre e hija",
+        "Madre y hija",
+        "Agua e hielo"
+      ],
+      "correcta": 0,
+      "explicacion": "La conjunción «y» se convierte en «e» ante palabras que empiezan por i- o hi- (madre e hija), pero se mantiene «y» cuando la palabra siguiente comienza por diptongo (agua y hielo).",
+      "ref": "NGB 16.2.3.1",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la expresión correcta respecto al uso de la conjunción disyuntiva:",
+      "opciones": [
+        "Siete o ocho",
+        "Ocho u siete",
+        "Siete u ocho"
+      ],
+      "correcta": 2,
+      "explicacion": "La conjunción disyuntiva «o» se convierte en «u» ante palabras que empiezan por o- u ho-: «siete u ocho». En «ocho o siete», la palabra siguiente comienza por s-, de modo que no procede el cambio.",
+      "ref": "NGB 16.2.4",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la oración que contiene un uso incorrecto del pronombre átono:",
+      "opciones": [
+        "Les dije que esperaran.",
+        "La dije que esperara.",
+        "A Mario le premiaron en el colegio."
+      ],
+      "correcta": 1,
+      "explicacion": "«La dije que esperara» es un caso de laísmo (acusativo la en lugar del dativo le), que es incorrecto en todos los contextos. «Les dije» emplea el dativo plural correcto y el leísmo de persona masculino singular de «A Mario le premiaron» no se considera incorrecto.",
+      "ref": "NGB 10.5",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la oración correcta respecto al uso del verbo haber:",
+      "opciones": [
+        "Hubieron muchos problemas en la reunión.",
+        "Hubo muchos problemas en la reunión.",
+        "Habían muchos problemas en la reunión."
+      ],
+      "correcta": 1,
+      "explicacion": "Haber, usado como impersonal, concierta en singular: el sintagma plural que lo acompaña es complemento directo, no sujeto. Según el DPD, «hubieron muchos factores» y «habían dos niñas» son errores, aunque estén extendidos.",
+      "ref": "DPD, «haber» 4",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale la oración sin dequeísmo ni queísmo:",
+      "opciones": [
+        "Creo que tienes razón.",
+        "Creo de que tienes razón.",
+        "Estoy seguro que lo sabes."
+      ],
+      "correcta": 0,
+      "explicacion": "«Creo de que...» es dequeísmo (preposición de sobrante) y «Estoy seguro que...» es queísmo (falta la preposición exigida: «seguro de que»). Con «creo» la subordinada sustantiva se introduce solo con «que».",
+      "ref": "NGB 25.2.3",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál es el comparativo sincrético del adjetivo «pequeño»?",
+      "opciones": [
+        "Pequeñísimo",
+        "Mínimo",
+        "Menor"
+      ],
+      "correcta": 2,
+      "explicacion": "Los comparativos sincréticos del español son mejor, peor, mayor y menor; el de «pequeño» es «menor». «Pequeñísimo» es un superlativo formado con -ísimo y «mínimo» es el superlativo sincrético.",
+      "ref": "NGB 7.8.2",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la expresión correcta con un comparativo:",
+      "opciones": [
+        "Hoy está muy mejor.",
+        "Hoy está más mejor.",
+        "Hoy está mucho mejor."
+      ],
+      "correcta": 2,
+      "explicacion": "Los comparativos sincréticos aceptan el adverbio «mucho» y rechazan «muy»; además, el DPD censura «más mejor» como incorrecto, porque «mejor» ya expresa comparación.",
+      "ref": "NGB 7.8.2; DPD, «mejor» 4",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la expresión correcta con la apócope del adjetivo:",
+      "opciones": [
+        "Es un bueno comienzo.",
+        "Es un buen comienzo.",
+        "Es un grande comienzo."
+      ],
+      "correcta": 1,
+      "explicacion": "Bueno se apocopa en «buen» ante sustantivo masculino singular, y grande se apocopa en «gran» ante cualquier sustantivo singular. Por eso son correctas «buen comienzo» y «gran comienzo», no «bueno comienzo» ni «grande comienzo».",
+      "ref": "NGB 7.7.3",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Los sufijos -dad, -ez, -eza y -ura forman principalmente sustantivos de:",
+      "opciones": [
+        "Cualidad (maldad, vejez, belleza, altura)",
+        "Acción y efecto (venta, traducción)",
+        "Agente, instrumento o lugar (lavandera, lavadora, lavadero)"
+      ],
+      "correcta": 0,
+      "explicacion": "En la derivación nominal, -dad, -ez, -eza y -ura forman nombres de cualidad, estado y condición a partir de adjetivos. Los nombres de acción y efecto usan, por ejemplo, -ción y -miento, y los de agente, instrumento o lugar, -dor, -dero o -ero.",
+      "ref": "NGB 5.2.2 a 5.2.4",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál es el plural correcto de «régimen»?",
+      "opciones": [
+        "Regímenes",
+        "Régimenes",
+        "Regimenes"
+      ],
+      "correcta": 0,
+      "explicacion": "Los sustantivos esdrújulos que se forman sobre una palabra llana terminada en -n desplazan el acento en el plural: régimen → regímenes, espécimen → especímenes. «Régimenes» mantiene un acento en la sílaba equivocada y «regimenes» pierde la tilde.",
+      "ref": "NGB 3.3.1.2",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes sustantivos mantiene la misma forma en singular y en plural?",
+      "opciones": [
+        "Lápiz",
+        "Carácter",
+        "Bíceps"
+      ],
+      "correcta": 2,
+      "explicacion": "Las palabras llanas terminadas en -s o -x son invariables: los bíceps, los lunes, las dosis. «Lápiz» hace «lápices» y «carácter» hace «caracteres» (con cambio de sílaba tónica).",
+      "ref": "NGB 3.3.1.2",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "En la oración «Se alquilan habitaciones», la construcción es:",
+      "opciones": [
+        "Una impersonal refleja, en la que «habitaciones» es complemento directo",
+        "Una pasiva refleja, en la que «habitaciones» es el sujeto",
+        "Una oración copulativa con atributo"
+      ],
+      "correcta": 1,
+      "explicacion": "En la pasiva refleja el complemento directo sin preposición pasa a ser sujeto y el verbo concuerda con él (se alquilan habitaciones). La impersonal con se mantiene el complemento directo con preposición y el verbo en singular (se cura a los enfermos). No hay verbo copulativo.",
+      "ref": "NGB 23.6",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En la oración «Julio llegó radiante», la palabra «radiante» desempeña la función de:",
+      "opciones": [
+        "Atributo con verbo copulativo",
+        "Complemento predicativo",
+        "Complemento indirecto"
+      ],
+      "correcta": 1,
+      "explicacion": "El predicativo es un atributo que se construye con un verbo pleno (llegó): añade una predicación secundaria sobre el sujeto y no admite sustitución por «lo». El atributo propiamente dicho exige verbos copulativos como ser, estar o parecer, y el complemento indirecto se sustituye por le o les.",
+      "ref": "NGB 22.1 y 22.4",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según la clasificación de las oraciones por su modalidad, «Tal vez tengas razón» es una oración:",
+      "opciones": [
+        "Dubitativa",
+        "Desiderativa",
+        "Exhortativa"
+      ],
+      "correcta": 0,
+      "explicacion": "La Nueva gramática básica pone «Tal vez tengas razón» como ejemplo de oración dubitativa. Las desiderativas expresan un deseo (¡Que tengas un feliz día!) y las exhortativas o imperativas, una orden o ruego (No te muevas).",
+      "ref": "NGB 1.3.4.1",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En la oración «Los documentos, que se salvaron del incendio, son fundamentales», la oración de relativo es:",
+      "opciones": [
+        "Especificativa, porque delimita cuáles son los documentos fundamentales",
+        "Sustantiva, porque ejerce la función de sujeto",
+        "Explicativa, porque no restringe el antecedente y solo añade información"
+      ],
+      "correcta": 2,
+      "explicacion": "Entre comas, la relativa es explicativa: se afirma que todos los documentos son fundamentales y se añade que se salvaron. La especificativa (sin comas) delimitaría que solo son fundamentales los que se salvaron. No es sustantiva: tiene antecedente expreso (los documentos).",
+      "ref": "NGB 26.3",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la oración con un uso incorrecto del gerundio:",
+      "opciones": [
+        "Redactó el trabajo poniendo todo el cuidado del mundo.",
+        "Las vi alejándose.",
+        "Nueva ley reformando las tarifas aduaneras."
+      ],
+      "correcta": 2,
+      "explicacion": "No se considera correcto el gerundio como modificador restrictivo del nombre, frecuente en el lenguaje periodístico y administrativo; se recomienda «Nueva ley que reforma...» o «para reformar...». Los otros dos usos son correctos: circunstancial del verbo y predicativo con verbo de percepción.",
+      "ref": "NGB 15.9.3",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "La irregularidad del verbo «decir» en la forma «digo» es:",
+      "opciones": [
+        "Vocálica, como la de «pedir > pido»",
+        "Mixta, porque afecta a la vez a una vocal y a una consonante",
+        "Consonántica, como la de «padecer > padezco»"
+      ],
+      "correcta": 1,
+      "explicacion": "Decir > digo cambia la vocal (e > i) y la consonante (c > g), por eso es irregularidad mixta. Pedir > pido solo alterna vocales y padecer > padezco solo añade un segmento consonántico.",
+      "ref": "NGB 4.4",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Señale la expresión correcta con una locución latina:",
+      "opciones": [
+        "Lo calculó grosso modo.",
+        "Lo calculó a grosso modo.",
+        "Lo calculó a groso modo."
+      ],
+      "correcta": 0,
+      "explicacion": "«Grosso modo» es una locución latina que significa ‘aproximadamente o a grandes rasgos’; el DPD declara incorrecto anteponerle la preposición a y también escribirla con una sola s.",
+      "ref": "DPD, «grosso modo»",
+      "dificultad": 1
+    }
+  ],
+  "dudas": [
+    "«Verbo incoativo» cayó en P39-P40, pero el DLE define incoativo solo como «que implica o denota el principio de una cosa o de una acción progresiva» y la Nueva gramática básica solo lo usa para las perífrasis de fase inicial. Si el examen se refería a los verbos en -ecer, no he podido confirmarlo; por eso no hay pregunta específica.",
+    "No he verificado el régimen de «conminar» (P39-P40) ni he redactado pregunta sobre él.",
+    "La clasificación tradicional de los adverbios (afirmación, negación, duda, lugar, tiempo, modo, cantidad) sigue en manuales y puede ser la del examen; el Glosario la considera poco precisa. Las preguntas no dependen de ella.",
+    "El apartado de análisis sintáctico práctico es una guía de estudio propia, no un procedimiento oficial de la RAE."
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "tema": 17,
+  "titulo": "Derecho Penal Especial: delitos contra las personas",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "medio",
+    "nota": "Media de 2,6 preguntas por examen, pero baja a 0 en el último (P43). Lo que ha caído: prisión permanente revisable del asesinato, lesiones, torturas, actos preparatorios y delitos contra la libertad."
+  },
+  "normas": [
+    {
+      "nombre": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (Libro II, Títulos I a IV, VI, VII y VIII)",
+      "boe": "BOE-A-1995-25444",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "verificado": "Texto consolidado, última actualización de la consolidación 09/04/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 10/2022, de 6 de septiembre, de garantía integral de la libertad sexual (reformas del Código Penal)",
+      "boe": "BOE-A-2022-14630",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-14630",
+      "verificado": "Texto consolidado, última actualización 01/09/2026; consultadas las modificaciones del Código Penal (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 4/2023, de 27 de abril, de modificación del Código Penal en los delitos contra la libertad sexual",
+      "boe": "BOE-A-2023-10213",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-10213",
+      "verificado": "Texto consolidado, última actualización 20/12/2025; consultadas la exposición y las disposiciones transitorias (leído el 16/10/2026)"
+    }
+  ],
+  "novedades": [
+    "LO 10/2022 (solo sí es sí), con efectos desde el 7 de octubre de 2022: el Título VIII pasa a llamarse «Delitos contra la libertad sexual», desaparece la distinción entre abuso y agresión (todo acto sexual sin consentimiento es agresión sexual) y el art. 178.1 define el consentimiento.",
+    "LO 4/2023, de 27 de abril: reajusta las penas de los arts. 178 a 181 (agresión sexual básica de 1 a 4 años; con violencia o intimidación, de 1 a 5; violación de 4 a 12 años, o de 6 a 12 si hay violencia, intimidación o voluntad anulada) y fija en 35 años de la víctima menor el inicio de la prescripción de los delitos sexuales (art. 132.1).",
+    "LO 3/2021 (eutanasia): el art. 143.4 limita la pena atenuada a quien causa o coopera a la muerte de una persona con padecimiento grave, crónico e imposibilitante o enfermedad grave e incurable, y el art. 143.5 declara exento a quien cumple la ley reguladora de la eutanasia.",
+    "LO 11/2022 retoca la imprudencia menos grave en homicidio (art. 142.2) y lesiones (art. 152.2) con vehículo; LO 2/2019 añadió los arts. 142 bis y 152 bis (pena superior en grado en imprudencias de notoria gravedad con varias víctimas).",
+    "LO 8/2021 (protección de la infancia frente a la violencia): añade el art. 143 bis (incitación al suicidio de menores) y los arts. 156 quater y 156 quinquies (libertad vigilada e inhabilitación en lesiones contra menores o familiares), y retoca los arts. 140 bis (privación de la patria potestad) y 156 ter.",
+    "LO 14/2022 añade al art. 173.1 el castigo de quien, conociendo el paradero del cadáver de una persona, oculta de modo reiterado esa información a sus familiares. LO 4/2022 introdujo el art. 172 quater (acoso a mujeres que acuden a interrumpir el embarazo y a profesionales sanitarios)."
+  ],
+  "clave": [
+    "**Homicidio**: prisión de **10 a 15 años** (art. 138.1). **Asesinato**: **15 a 25 años** con alevosía; precio, recompensa o promesa; ensañamiento; o para facilitar otro delito o evitar su descubrimiento (art. 139). Más de una circunstancia: **mitad superior**.",
+    "**Prisión permanente revisable** (art. 140): asesinato con víctima **menor de 16 años** o especialmente vulnerable; hecho subsiguiente a un delito contra la libertad sexual cometido sobre la víctima; autor perteneciente a grupo u organización criminal; y condena por la muerte de **más de dos personas**.",
+    "**Provocación, conspiración y proposición**: se castigan en homicidio y asesinato (art. 141), lesiones (art. 151) y detenciones ilegales y secuestros (art. 168), con pena inferior en uno o dos grados. **No** hay cláusula equivalente en los delitos contra la libertad sexual.",
+    "**Imprudencia**: homicidio por imprudencia grave, prisión de **1 a 4 años** (art. 142.1); imprudencia menos grave, multa de **3 a 18 meses**, solo con denuncia salvo vehículo a motor (art. 142.2).",
+    "**Suicidio** (art. 143): inducir, **4 a 8 años**; cooperar con actos necesarios, **2 a 5**; llegar a ejecutar la muerte, **6 a 10**. Está exento quien cumple la ley reguladora de la eutanasia.",
+    "**Lesiones**: con tratamiento médico o quirúrgico además de la primera asistencia, **3 meses a 3 años** o multa de 6 a 12 meses (art. 147.1); solo primera asistencia, delito leve de **multa de 1 a 3 meses** con denuncia (art. 147.2). Agravadas **2 a 5 años** (art. 148); pérdida de órgano o miembro principal **6 a 12 años** (art. 149); no principal **3 a 6 años** (art. 150).",
+    "**Detención ilegal por particular**: **4 a 6 años**; **5 a 8 años** si dura más de 15 días; secuestro, **6 a 10 años**. Autoridad o funcionario fuera de los casos legales: penas en mitad superior e inhabilitación absoluta de **8 a 12 años** (art. 167).",
+    "**Tortura** (art. 174): autoridad o funcionario que abusa de su cargo para obtener confesión o información o para castigar; **2 a 6 años** si el atentado es grave, **1 a 3 años** si no lo es, y siempre inhabilitación absoluta de **8 a 12 años**.",
+    "**Violencia habitual** en el ámbito familiar (art. 173.2): prisión de **6 meses a 3 años**; mitad superior si hay menores presentes, armas, domicilio común o de la víctima, o quebrantamiento.",
+    "**Delitos sexuales** (LO 10/2022 y LO 4/2023): agresión sexual básica **1 a 4 años**; con violencia o intimidación **1 a 5**; violación **4 a 12** (o **6 a 12**); actos sexuales con menor de **16 años**, **2 a 6 años**.",
+    "**Consentimiento sexual** (art. 178.1): solo existe si se manifiesta libremente mediante actos que, según las circunstancias, expresen de manera clara la voluntad de la persona.",
+    "En agresiones y acoso sexual, el **perdón** del ofendido no extingue la acción penal ni la responsabilidad (art. 191.2). Con víctima menor, la prescripción de los delitos sexuales corre desde que cumple **35 años** (art. 132.1)."
+  ],
+  "resumen": [
+    {
+      "titulo": "Homicidio, asesinato y prisión permanente revisable (arts. 138 a 141)",
+      "puntos": [
+        "El art. 140.1 impone **prisión permanente revisable** al asesinato cuando: 1.ª la víctima sea **menor de 16 años** o especialmente vulnerable por edad, enfermedad o discapacidad; 2.ª el hecho sea **subsiguiente a un delito contra la libertad sexual** que el autor cometió sobre la víctima; 3.ª el autor pertenezca a un **grupo u organización criminal**. El art. 140.2 la impone a quien sea condenado por la muerte de **más de dos personas**.",
+        "Se puede imponer además libertad vigilada, y si víctima y autor tienen un hijo en común se impone la privación de la patria potestad (art. 140 bis)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Delito",
+          "Pena",
+          "Art."
+        ],
+        "filas": [
+          [
+            "Homicidio",
+            "Prisión de **10 a 15 años**",
+            "138.1"
+          ],
+          [
+            "Homicidio con circunstancias del art. 140.1 o que además sea atentado del art. 550",
+            "Pena **superior en grado**",
+            "138.2"
+          ],
+          [
+            "Asesinato: alevosía; precio, recompensa o promesa; ensañamiento; facilitar otro delito o evitar su descubrimiento",
+            "Prisión de **15 a 25 años**; con más de una circunstancia, mitad superior",
+            "139"
+          ],
+          [
+            "Asesinato con las circunstancias del art. 140",
+            "**Prisión permanente revisable**",
+            "140"
+          ],
+          [
+            "Provocación, conspiración y proposición para homicidio o asesinato",
+            "Pena inferior en uno o dos grados",
+            "141"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Imprudencia, suicidio y eutanasia (arts. 142 y 143)",
+      "puntos": [
+        "**Imprudencia grave** (art. 142.1): prisión de **1 a 4 años**; con vehículo a motor, además privación de conducir (se reputa grave si concurre alguna circunstancia del art. 379). **Imprudencia menos grave** (art. 142.2): multa de **3 a 18 meses**, solo con **denuncia** del agraviado o su representante, salvo si se comete con vehículo a motor o ciclomotor.",
+        "**Suicidio** (art. 143): inducir, **4 a 8 años**; cooperar con actos necesarios, **2 a 5 años**; ejecutar la muerte, **6 a 10 años**. Si la persona lo pide de forma expresa, seria e inequívoca por padecimiento grave, crónico e imposibilitante o enfermedad grave e incurable, pena inferior en uno o dos grados. **Queda exento** quien cumple la ley orgánica reguladora de la eutanasia (art. 143.5)."
+      ]
+    },
+    {
+      "titulo": "Aborto y lesiones al feto (arts. 144 a 146 y 157 a 158)",
+      "puntos": [
+        "Las penas se imponen en su **mitad superior** si el aborto se produce a partir de la **semana 22** de gestación (arts. 145.3 y 145 bis.2). La **embarazada no es penada** por el aborto imprudente ni por los supuestos del art. 145 bis.",
+        "**Lesiones al feto**: dolosas (art. 157), prisión de 1 a 4 años e inhabilitación; por **imprudencia grave** (art. 158), prisión de 3 a 5 meses o multa de 6 a 10 meses."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Conducta",
+          "Pena",
+          "Art."
+        ],
+        "filas": [
+          [
+            "Aborto **sin consentimiento** de la mujer (o con consentimiento logrado por violencia, amenaza o engaño)",
+            "Prisión de **4 a 8 años** e inhabilitación de 3 a 10 años",
+            "144"
+          ],
+          [
+            "Aborto **con consentimiento**, fuera de los casos permitidos",
+            "Prisión de **1 a 3 años** e inhabilitación de 1 a 6 años",
+            "145.1"
+          ],
+          [
+            "La **mujer** que se provoca el aborto o consiente que otro se lo cause, fuera de los casos permitidos",
+            "Multa de **6 a 24 meses**",
+            "145.2"
+          ],
+          [
+            "Aborto dentro de los casos legales **sin dictámenes previos** o fuera de centro acreditado",
+            "Multa de 6 a 12 meses e inhabilitación de 6 meses a 2 años",
+            "145 bis"
+          ],
+          [
+            "Aborto por **imprudencia grave**",
+            "Prisión de 3 a 5 meses o multa de 6 a 10 meses",
+            "146"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Lesiones (arts. 147 a 156)",
+      "puntos": [
+        "La simple **vigilancia o seguimiento facultativo** no es tratamiento médico (art. 147.1). Los delitos de los arts. 147.2 y 147.3 solo se persiguen mediante **denuncia** de la persona agraviada (art. 147.4).",
+        "**Imprudencia grave** (art. 152): en las lesiones del art. 147.1, prisión de 3 a 6 meses o multa de 6 a 18 meses; en las del art. 149, prisión de 1 a 3 años; en las del art. 150, prisión de 6 meses a 2 años. La menos grave se castiga con multa y solo con denuncia.",
+        "**Consentimiento** (art. 155): pena inferior en uno o dos grados; no vale el del menor ni el de la persona con discapacidad necesitada de especial protección. Exime en trasplantes legales, esterilizaciones y cirugía transexual por facultativo (art. 156).",
+        "Actos de **maltrato ocasional** sobre pareja o persona vulnerable conviviente se castigan en el art. 153 (prisión de 6 meses a 1 año o trabajos en beneficio de la comunidad, y privación de armas); la **riña tumultuaria** con medios peligrosos, en el art. 154."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Lesión",
+          "Pena",
+          "Art."
+        ],
+        "filas": [
+          [
+            "Requiere, además de una primera asistencia, **tratamiento médico o quirúrgico**",
+            "Prisión de 3 meses a 3 años o multa de 6 a 12 meses",
+            "147.1"
+          ],
+          [
+            "Lesión no incluida en la anterior (solo primera asistencia)",
+            "Multa de **1 a 3 meses** (delito leve)",
+            "147.2"
+          ],
+          [
+            "Golpear o maltratar de obra **sin causar lesión**",
+            "Multa de **1 a 2 meses**",
+            "147.3"
+          ],
+          [
+            "Agravadas: armas o medios peligrosos, ensañamiento o alevosía, víctima menor de 14 años o con discapacidad necesitada de especial protección, mujer pareja o expareja, persona vulnerable conviviente",
+            "Prisión de **2 a 5 años**",
+            "148"
+          ],
+          [
+            "Pérdida o inutilidad de órgano o miembro **principal**, de un sentido, impotencia, esterilidad, grave deformidad o grave enfermedad; mutilación genital",
+            "Prisión de **6 a 12 años**",
+            "149"
+          ],
+          [
+            "Pérdida o inutilidad de órgano o miembro **no principal**, o deformidad",
+            "Prisión de **3 a 6 años**",
+            "150"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Delitos contra la libertad (arts. 163 a 172 ter)",
+      "puntos": [
+        "La provocación, conspiración y proposición se castigan en las detenciones ilegales y secuestros (art. 168), pero **no** en amenazas ni coacciones.",
+        "Las penas van en mitad superior si hay simulación de autoridad o función pública o la víctima es menor, persona con discapacidad necesitada de especial protección o funcionario en ejercicio (art. 165)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Delito",
+          "Pena",
+          "Art."
+        ],
+        "filas": [
+          [
+            "Detención ilegal por **particular**",
+            "Prisión de **4 a 6 años**; pena inferior en grado si libera en los **3 primeros días** sin lograr su propósito; **5 a 8 años** si dura más de **15 días**",
+            "163"
+          ],
+          [
+            "Secuestro (exigir una condición para la libertad)",
+            "Prisión de **6 a 10 años**",
+            "164"
+          ],
+          [
+            "**Autoridad o funcionario** que detiene fuera de los casos legales y sin causa por delito",
+            "Penas en mitad superior (hasta la superior en grado) e inhabilitación absoluta de **8 a 12 años**",
+            "167"
+          ],
+          [
+            "Amenaza de un mal constitutivo de delito, no condicional",
+            "Prisión de 6 meses a 2 años",
+            "169.2.º"
+          ],
+          [
+            "Amenaza condicional con ese mal",
+            "Si se consigue el propósito, **1 a 5 años**; si no, 6 meses a 3 años",
+            "169.1.º"
+          ],
+          [
+            "Coacciones",
+            "Prisión de 6 meses a 3 años o multa de 12 a 24 meses",
+            "172.1"
+          ],
+          [
+            "Acoso (conductas insistentes y reiteradas que alteran la vida cotidiana)",
+            "Prisión de 3 meses a 2 años o multa de 6 a 24 meses; solo con denuncia",
+            "172 ter"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Torturas y otros delitos contra la integridad moral (arts. 173 a 177)",
+      "puntos": [
+        "**Tortura** (art. 174): la comete la **autoridad o funcionario** que, **abusando de su cargo**, con el fin de obtener una confesión o información, de castigar por un hecho cometido o sospechado o por discriminación, somete a otra persona a condiciones o procedimientos que le causan sufrimientos físicos o mentales o atentan contra su integridad moral. Igual pena para funcionarios de instituciones penitenciarias o centros de menores respecto de internos (art. 174.2) y para quien permite que otros ejecuten esos hechos (art. 176).",
+        "Si además se lesionan la vida, la integridad física, la salud, la libertad sexual o los bienes, cada delito se castiga **por separado** (art. 177).",
+        "**Violencia habitual** (art. 173.2): se aprecia por el **número de actos** acreditados y su **proximidad temporal**, aunque afecten a distintas víctimas y no hayan sido enjuiciados antes (art. 173.3). Mitad superior si hay menores presentes, armas, domicilio común o de la víctima, o quebrantamiento de una pena del art. 48."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Delito",
+          "Pena",
+          "Art."
+        ],
+        "filas": [
+          [
+            "Trato degradante que menoscaba gravemente la integridad moral",
+            "Prisión de 6 meses a 2 años",
+            "173.1"
+          ],
+          [
+            "Violencia física o psíquica **habitual** sobre cónyuge, pareja, familiares, convivientes y personas vulnerables",
+            "Prisión de 6 meses a 3 años y privación de armas de 3 a 5 años",
+            "173.2"
+          ],
+          [
+            "**Tortura**",
+            "Grave: prisión de **2 a 6 años**; no grave: **1 a 3 años**; siempre inhabilitación absoluta de **8 a 12 años**",
+            "174"
+          ],
+          [
+            "Atentado contra la integridad moral por autoridad o funcionario fuera de la tortura",
+            "Grave: 2 a 4 años; no grave: 6 meses a 2 años; inhabilitación especial de 2 a 4 años",
+            "175"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Delitos contra la libertad sexual tras la LO 10/2022 y la LO 4/2023",
+      "puntos": [
+        "Todo acto contra la libertad sexual de otra persona **sin su consentimiento** es **agresión sexual**; ya no existe el abuso sexual. **Consentimiento** (art. 178.1): solo cuando se manifiesta **libremente** mediante actos que, según las circunstancias, expresen de manera clara la voluntad de la persona. Son agresión sexual en todo caso los actos con violencia, intimidación o abuso de superioridad o vulnerabilidad, sobre personas privadas de sentido o con voluntad anulada (art. 178.2).",
+        "Agravantes del art. 180.1: actuación conjunta de dos o más personas; violencia extrema o actos degradantes; víctima especialmente vulnerable; víctima esposa o pareja; prevalimiento de convivencia, parentesco o superioridad; armas; anulación de la voluntad con fármacos o drogas. Con dos o más, mitad superior. Si el culpable se prevale de su condición de **autoridad, agente o funcionario**: inhabilitación absoluta de **6 a 12 años**.",
+        "Con **menores de 16 años** (arts. 181 a 183 bis), el consentimiento libre excluye la responsabilidad si el autor es una persona próxima por edad y grado de desarrollo, salvo agresión del art. 178.2. En agresiones y acoso sexual se necesita denuncia de la persona agraviada, de su representante o querella del Fiscal; basta la denuncia del **Fiscal** si la víctima es menor o con discapacidad necesitada de especial protección; el **perdón** no extingue la acción penal (art. 191). Tras la prisión se impone **libertad vigilada** de 5 a 10 años si algún delito es grave (art. 192.1)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Delito",
+          "Pena",
+          "Art."
+        ],
+        "filas": [
+          [
+            "Agresión sexual básica (sin consentimiento)",
+            "Prisión de **1 a 4 años**",
+            "178.1"
+          ],
+          [
+            "Agresión sexual con violencia o intimidación, o con voluntad anulada",
+            "Prisión de **1 a 5 años**",
+            "178.3"
+          ],
+          [
+            "Violación (acceso carnal por vía vaginal, anal o bucal, o introducción de miembros u objetos por las dos primeras)",
+            "Prisión de **4 a 12 años**; con violencia, intimidación o voluntad anulada, **6 a 12 años**",
+            "179"
+          ],
+          [
+            "Agravadas por el art. 180.1",
+            "2 a 8 años (178.1); 5 a 10 (178.3); 7 a 15 (179.1); 12 a 15 (179.2)",
+            "180"
+          ],
+          [
+            "Actos de carácter sexual con menor de **16 años**",
+            "Prisión de **2 a 6 años**; con las modalidades del art. 178.2 y 3, 5 a 10 años; con acceso carnal, 8 a 12 o 12 a 15",
+            "181"
+          ],
+          [
+            "Contactar con menor de 16 años por internet u otra tecnología y proponer un encuentro con actos de acercamiento (child grooming)",
+            "Prisión de 1 a 3 años o multa de 12 a 24 meses",
+            "183.1"
+          ],
+          [
+            "Acoso sexual (solicitar favores sexuales en relación laboral, docente o de servicios, con situación gravemente intimidatoria, hostil o humillante)",
+            "Prisión de 6 a 12 meses o multa de 10 a 15 meses e inhabilitación especial",
+            "184.1"
+          ]
+        ]
+      }
+    }
+  ],
+  "trampas": [
+    "**Edad de la víctima**: el asesinato con prisión permanente revisable exige víctima menor de **16** años (no 14 ni 18); las lesiones agravadas del art. 148.3.º hablan de menores de **14**; la prescripción de delitos sexuales corre desde los **35** años de la víctima.",
+    "«Todos los delitos admiten provocación, conspiración y proposición»: falso. Se castigan en homicidio, lesiones y detenciones ilegales y secuestros, pero no en los delitos contra la libertad sexual, las amenazas ni las coacciones.",
+    "**Tortura o trato degradante**: la tortura exige autoridad o funcionario que abusa de su cargo y un fin (confesión, información, castigo, discriminación); el trato degradante del art. 173.1 puede cometerlo cualquiera.",
+    "**Tratamiento médico**: la simple vigilancia o seguimiento facultativo no lo es; sin tratamiento, la lesión es leve (art. 147.2), no el delito del art. 147.1. El maltrato de obra del art. 147.3 es el golpe **sin lesión**.",
+    "**Inhabilitación absoluta de funcionarios**: 8 a 12 años en detención ilegal y tortura; 6 a 12 años en delitos sexuales. No intercambiarlas.",
+    "**Perseguibilidad**: lesiones leves, amenazas y coacciones leves, acoso e imprudencia menos grave requieren denuncia de la persona agraviada; en agresión sexual y acoso sexual basta la denuncia del Fiscal si la víctima es menor, y el perdón no extingue.",
+    "Ya no existe el «abuso sexual» ni la distinción abuso/agresión: cualquier pregunta con esa terminología responde a la redacción anterior a la LO 10/2022.",
+    "**Aborto**: la mujer que aborta fuera de los casos permitidos tiene multa de 6 a 24 meses (art. 145.2); la embarazada no es penada en el aborto imprudente ni en el art. 145 bis.",
+    "**Eutanasia**: solo queda exento quien cumple lo establecido en la ley orgánica reguladora; fuera de ella, el art. 143.4 solo rebaja la pena en uno o dos grados."
+  ],
+  "caido": [
+    {
+      "examen": "25 oct 2025 (P42)",
+      "concepto": "Torturas e integridad moral: supuesto de agente de policía que maltrata a un detenido, en grado consumado o de tentativa"
+    },
+    {
+      "examen": "1 mar 2025 (P41)",
+      "concepto": "Prisión permanente revisable del asesinato (art. 140) y novedades de la LO 8/2021; lesiones al feto solo por imprudencia grave (art. 158)"
+    },
+    {
+      "examen": "13 abr 2024 (P40)",
+      "concepto": "Lesiones: tratamiento médico frente a primera asistencia (art. 147); actos preparatorios punibles en lesiones y detención ilegal pero no en agresiones sexuales; imprudencia grave en conducción; consentimiento inválido de menores; intimidad (art. 201, denuncia del agraviado)"
+    },
+    {
+      "examen": "23 abr 2023 (P39)",
+      "concepto": "Homicidio del art. 138; prisión permanente revisable en el asesinato (art. 140); torturas; detención ilegal y libertad de movimientos como bien jurídico; amenazas condicionales y chantaje"
+    }
+  ],
+  "mnemotecnias": [
+    "Escala del homicidio: **10-15** (homicidio) → **15-25** (asesinato) → **prisión permanente revisable** (asesinato agravado del art. 140).",
+    "Asesinato (art. 139): **A**levosía, **P**recio, **E**nsañamiento, **F**acilitar u ocultar otro delito: APEF.",
+    "Detención ilegal por particular: **4-6**; más de 15 días **5-8**; secuestro **6-10**; no dar razón del paradero **10-15** (detención) y **15-20** (secuestro).",
+    "Lesiones: **3 meses–3 años** (tratamiento médico), **2-5** (agravadas), **3-6** (miembro no principal), **6-12** (miembro principal)."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Pena del homicidio y del asesinato?",
+      "r": "Homicidio: prisión de **10 a 15 años** (art. 138). Asesinato: **15 a 25 años** (art. 139)."
+    },
+    {
+      "p": "¿Qué circunstancias convierten un homicidio en asesinato?",
+      "r": "Alevosía; precio, recompensa o promesa; ensañamiento; facilitar la comisión de otro delito o evitar que se descubra (art. 139.1)."
+    },
+    {
+      "p": "¿Cuándo se impone prisión permanente revisable al asesinato?",
+      "r": "Víctima menor de **16 años** o especialmente vulnerable; hecho subsiguiente a un delito contra la libertad sexual sobre la víctima; autor perteneciente a organización criminal; muerte de más de dos personas (art. 140)."
+    },
+    {
+      "p": "¿Qué pena tiene el homicidio imprudente grave y el menos grave?",
+      "r": "Grave: prisión de **1 a 4 años**. Menos grave: multa de **3 a 18 meses**, con denuncia salvo vehículo a motor (art. 142)."
+    },
+    {
+      "p": "¿Penas del art. 143 sobre suicidio?",
+      "r": "Inducir: **4 a 8 años**; cooperar con actos necesarios: **2 a 5**; ejecutar la muerte: **6 a 10**."
+    },
+    {
+      "p": "¿Cuándo no hay responsabilidad penal por eutanasia?",
+      "r": "Cuando se cumple lo establecido en la ley orgánica reguladora de la eutanasia (art. 143.5)."
+    },
+    {
+      "p": "¿Qué pena corresponde al aborto sin consentimiento de la mujer?",
+      "r": "Prisión de **4 a 8 años** e inhabilitación especial de 3 a 10 años (art. 144)."
+    },
+    {
+      "p": "¿Cuándo se aplican en su mitad superior las penas del aborto?",
+      "r": "Cuando se lleva a cabo a partir de la **semana 22** de gestación (art. 145.3)."
+    },
+    {
+      "p": "¿Qué diferencia hay entre el art. 147.1 y el art. 147.2?",
+      "r": "El 147.1 exige tratamiento médico o quirúrgico además de la primera asistencia; si solo hay primera asistencia, es el delito leve del 147.2 (multa de 1 a 3 meses)."
+    },
+    {
+      "p": "¿Penas de los arts. 148, 149 y 150?",
+      "r": "148: **2 a 5 años**; 149: **6 a 12 años**; 150: **3 a 6 años**."
+    },
+    {
+      "p": "¿Qué efecto tiene el consentimiento en las lesiones?",
+      "r": "Pena inferior en uno o dos grados; no es válido el del menor ni el de una persona con discapacidad necesitada de especial protección (art. 155)."
+    },
+    {
+      "p": "¿Pena de la detención ilegal por un particular?",
+      "r": "**4 a 6 años**; **5 a 8** si dura más de 15 días; pena inferior en grado si libera en los tres primeros días sin lograr su propósito (art. 163)."
+    },
+    {
+      "p": "¿Qué pena accesoria se impone a la autoridad o funcionario que comete detención ilegal?",
+      "r": "Inhabilitación absoluta de **8 a 12 años** (art. 167.3)."
+    },
+    {
+      "p": "Elementos del delito de tortura.",
+      "r": "Autoridad o funcionario, abuso de cargo, fin de obtener confesión o información o de castigar, y sufrimientos físicos o mentales o atentado contra la integridad moral (art. 174.1)."
+    },
+    {
+      "p": "¿Penas de la tortura?",
+      "r": "Grave: **2 a 6 años**; no grave: **1 a 3 años**; siempre inhabilitación absoluta de **8 a 12 años**."
+    },
+    {
+      "p": "¿Pena de la violencia habitual del art. 173.2?",
+      "r": "Prisión de **6 meses a 3 años** y privación de armas de 3 a 5 años; mitad superior en presencia de menores, con armas, en el domicilio común o de la víctima o con quebrantamiento."
+    },
+    {
+      "p": "¿Qué es consentimiento sexual según el Código Penal?",
+      "r": "El manifestado **libremente** mediante actos que, en atención a las circunstancias, expresen de manera clara la voluntad de la persona (art. 178.1)."
+    },
+    {
+      "p": "¿Penas de la agresión sexual y de la violación?",
+      "r": "Agresión sexual: **1 a 4 años**; con violencia o intimidación: **1 a 5**. Violación: **4 a 12**; con violencia o intimidación: **6 a 12** (arts. 178 y 179)."
+    },
+    {
+      "p": "¿Qué pena tienen los actos sexuales con un menor de 16 años?",
+      "r": "Prisión de **2 a 6 años** (art. 181.1); más grave con violencia, intimidación o acceso carnal."
+    },
+    {
+      "p": "¿Qué efecto tiene el perdón del ofendido en las agresiones y el acoso sexual?",
+      "r": "No extingue la acción penal ni la responsabilidad (art. 191.2)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Según el art. 138.1 del Código Penal, ¿con qué pena se castiga el homicidio doloso básico?",
+      "opciones": [
+        "Prisión de 15 a 25 años",
+        "Prisión de 8 a 12 años",
+        "Prisión de 10 a 15 años"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 138.1 castiga al que matare a otro con prisión de diez a quince años. La prisión de quince a veinticinco años es la pena del asesinato (art. 139), y no hay un homicidio básico castigado con prisión de ocho a doce años.",
+      "ref": "arts. 138 y 139 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes NO es una circunstancia cualificadora del asesinato en el art. 139.1 del Código Penal?",
+      "opciones": [
+        "Prevalerse del carácter público que tenga el culpable",
+        "Ejecutar el hecho con alevosía",
+        "Cometerlo con ensañamiento, aumentando deliberada e inhumanamente el dolor del ofendido"
+      ],
+      "correcta": 0,
+      "explicacion": "Las circunstancias del art. 139.1 son la alevosía, el precio, recompensa o promesa, el ensañamiento y matar para facilitar otro delito o evitar su descubrimiento. Prevalerse del carácter público del culpable es una agravante genérica (art. 22.7.ª), no una circunstancia del asesinato.",
+      "ref": "art. 139.1 CP; art. 22 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El asesinato se castiga con prisión permanente revisable, entre otros supuestos, cuando la víctima sea menor de:",
+      "opciones": [
+        "14 años",
+        "16 años",
+        "18 años"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 140.1.1.ª impone la prisión permanente revisable cuando la víctima sea menor de dieciséis años de edad o una persona especialmente vulnerable por razón de su edad, enfermedad o discapacidad. Los catorce años aparecen en otros preceptos (por ejemplo, en las lesiones agravadas del art. 148.3.º) y los dieciocho son el límite de la mayoría de edad penal, pero no el umbral de este precepto.",
+      "ref": "art. 140.1.1.ª CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Tras agredir sexualmente a una mujer, el agresor la mata para evitar que lo denuncie. ¿Qué calificación y pena corresponden?",
+      "opciones": [
+        "Homicidio del art. 138.1, con prisión de 10 a 15 años",
+        "Asesinato agravado del art. 140.1.2.ª, con prisión permanente revisable",
+        "Asesinato del art. 139, con prisión de 15 a 25 años, sin posible agravación"
+      ],
+      "correcta": 1,
+      "explicacion": "Matar para evitar que se descubra un delito es asesinato (art. 139.1.4.ª), y cuando el hecho es subsiguiente a un delito contra la libertad sexual que el autor cometió sobre la víctima, el asesinato se castiga con prisión permanente revisable (art. 140.1.2.ª). El homicidio básico no recoge esa circunstancia, y la pena de 15 a 25 años es la del asesinato sin las circunstancias del art. 140.",
+      "ref": "arts. 139.1.4.ª y 140.1.2.ª CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Al reo de asesinato que ha sido condenado por la muerte de más de dos personas, el art. 140.2 del Código Penal le impone:",
+      "opciones": [
+        "Prisión de 25 a 30 años",
+        "Prisión de 15 a 25 años en su mitad superior",
+        "Prisión permanente revisable"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 140.2 dispone que al reo de asesinato condenado por la muerte de más de dos personas se le impondrá una pena de prisión permanente revisable, con las reglas del art. 78 bis. La mitad superior de la pena de 15 a 25 años es la consecuencia de que en el asesinato concurra más de una circunstancia del art. 139 (art. 139.2).",
+      "ref": "arts. 139.2 y 140.2 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Respecto del homicidio por imprudencia menos grave (art. 142.2 del Código Penal), señale la afirmación correcta:",
+      "opciones": [
+        "Se castiga con multa de 3 a 18 meses y, salvo que se cometa con vehículo a motor o ciclomotor, solo es perseguible previa denuncia de la persona agraviada o de su representante legal",
+        "Se castiga con prisión de 1 a 4 años y es perseguible de oficio",
+        "No es delito desde la reforma de 2015 y solo da lugar a responsabilidad civil"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 142.2 castiga la imprudencia menos grave con multa de tres a dieciocho meses y la hace perseguible solo mediante denuncia de la persona agraviada o su representante legal, salvo que se produzca con vehículo a motor o ciclomotor. La prisión de uno a cuatro años es la pena de la imprudencia grave (art. 142.1). La imprudencia menos grave sí es delito.",
+      "ref": "art. 142 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El que coopera con actos necesarios al suicidio de una persona incurre, según el art. 143 del Código Penal, en la pena de:",
+      "opciones": [
+        "Prisión de 2 a 5 años",
+        "Prisión de 4 a 8 años",
+        "Prisión de 6 a 10 años"
+      ],
+      "correcta": 0,
+      "explicacion": "La cooperación con actos necesarios al suicidio se castiga con prisión de dos a cinco años (art. 143.2). Inducir al suicidio se castiga con prisión de cuatro a ocho años (art. 143.1) y la cooperación que llega hasta ejecutar la muerte, con prisión de seis a diez años (art. 143.3).",
+      "ref": "art. 143 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Tras una pelea, una persona sufre un hematoma que solo requiere una primera asistencia facultativa, sin tratamiento médico posterior. ¿Cómo se califica la lesión?",
+      "opciones": [
+        "Delito de lesiones del art. 147.1, con prisión de 3 meses a 3 años o multa",
+        "Delito leve de lesiones del art. 147.2, con multa de 1 a 3 meses, solo perseguible previa denuncia",
+        "Maltrato de obra del art. 147.3, porque no hay lesión"
+      ],
+      "correcta": 1,
+      "explicacion": "El tipo básico del art. 147.1 exige que la lesión requiera objetivamente, además de una primera asistencia facultativa, tratamiento médico o quirúrgico. Si solo hay primera asistencia, la lesión cae en el art. 147.2, delito leve castigado con multa de uno a tres meses y perseguible mediante denuncia (art. 147.4). El art. 147.3 se reserva para golpear o maltratar de obra sin causar lesión, y aquí sí la hay.",
+      "ref": "art. 147 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La pérdida o inutilidad de un órgano o miembro principal, o de un sentido, causada a otro se castiga en el art. 149.1 del Código Penal con:",
+      "opciones": [
+        "Prisión de 3 a 6 años",
+        "Prisión de 2 a 5 años",
+        "Prisión de 6 a 12 años"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 149.1 castiga con prisión de seis a doce años la pérdida o inutilidad de un órgano o miembro principal, de un sentido, la impotencia, la esterilidad, la grave deformidad o la grave enfermedad somática o psíquica. La prisión de tres a seis años corresponde a la pérdida de un órgano o miembro no principal o a la deformidad (art. 150) y la de dos a cinco años, a las lesiones agravadas del art. 148.",
+      "ref": "arts. 148, 149 y 150 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué efecto tiene el consentimiento válido del ofendido en los delitos de lesiones según el art. 155 del Código Penal?",
+      "opciones": [
+        "Excluye siempre la responsabilidad penal",
+        "Es irrelevante para la pena",
+        "Se impone la pena inferior en uno o dos grados, y no es válido el consentimiento de un menor de edad o de una persona con discapacidad necesitada de especial protección"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 155 prevé la pena inferior en uno o dos grados si ha mediado consentimiento válido, libre, espontáneo y expreso del ofendido, y declara inválido el otorgado por un menor o una persona con discapacidad necesitada de especial protección. Solo exime de responsabilidad en los supuestos del art. 156 (trasplantes legales, esterilizaciones y cirugía transexual por facultativo).",
+      "ref": "arts. 155 y 156 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿En cuál de los siguientes delitos NO se castigan la provocación, la conspiración y la proposición?",
+      "opciones": [
+        "Agresión sexual",
+        "Homicidio y asesinato",
+        "Detención ilegal y secuestro"
+      ],
+      "correcta": 0,
+      "explicacion": "El Código castiga los actos preparatorios en el homicidio y el asesinato (art. 141), en las lesiones (art. 151) y en las detenciones ilegales y secuestros (art. 168), con pena inferior en uno o dos grados. En el Título VIII no existe una cláusula equivalente, y los actos preparatorios solo son punibles donde la ley lo prevé (arts. 17.3 y 18.2).",
+      "ref": "arts. 141, 151, 168, 17.3 y 18.2 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El encierro o la detención ilegal de una persona por un particular que dura más de quince días se castiga con la pena de prisión de:",
+      "opciones": [
+        "4 a 6 años",
+        "5 a 8 años",
+        "6 a 10 años"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 163.3 impone prisión de cinco a ocho años si el encierro o detención ha durado más de quince días. La prisión de cuatro a seis años es la pena básica del art. 163.1, y la de seis a diez años es la del secuestro, que exige condicionar la libertad de la persona a una exigencia (art. 164).",
+      "ref": "arts. 163 y 164 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una autoridad o funcionario público que, fuera de los casos permitidos por la ley y sin mediar causa por delito, comete una detención ilegal incurre, además de en las penas del capítulo en su mitad superior, en la pena de inhabilitación absoluta de:",
+      "opciones": [
+        "6 a 12 años",
+        "8 a 12 años",
+        "2 a 4 años"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 167.3 impone en todo caso a la autoridad o funcionario público la inhabilitación absoluta de ocho a doce años. La de seis a doce años es la prevista para quien se prevale de su condición de autoridad, agente o funcionario en los delitos contra la libertad sexual (arts. 180.3 y 181.7), y la de dos a cuatro años es la inhabilitación especial del art. 175.",
+      "ref": "art. 167 CP",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Un agente de policía golpea a un detenido y le somete a asfixia simulada para obtener su confesión. ¿Qué delito comete?",
+      "opciones": [
+        "Lesiones agravadas del art. 148, con prisión de 2 a 5 años",
+        "Trato degradante del art. 173.1, como cualquier particular",
+        "Tortura del art. 174, con inhabilitación absoluta de 8 a 12 años"
+      ],
+      "correcta": 2,
+      "explicacion": "Comete tortura la autoridad o funcionario que, abusando de su cargo y con el fin de obtener una confesión o información, somete a una persona a procedimientos que le causan sufrimientos físicos o mentales (art. 174.1). La pena es de prisión (de 2 a 6 años si el atentado es grave, de 1 a 3 si no lo es) y siempre inhabilitación absoluta de ocho a doce años; además, si hay lesiones se castigan por separado (art. 177). El trato degradante del art. 173.1 es el delito común y no recoge el abuso del cargo ni el fin de la tortura.",
+      "ref": "arts. 173, 174 y 177 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Para apreciar la habitualidad en el delito de violencia habitual en el ámbito familiar (art. 173.2 y 173.3 del Código Penal), se atiende:",
+      "opciones": [
+        "Al número de actos de violencia acreditados y a su proximidad temporal, aunque no hayan sido enjuiciados antes y afecten a la misma o a distintas víctimas de las comprendidas en el precepto",
+        "Exclusivamente a que existan tres condenas firmes previas por violencia doméstica",
+        "Solo a que todos los actos se hayan dirigido contra la misma víctima"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 173.3 manda atender al número de actos de violencia acreditados y a su proximidad temporal, con independencia de que la violencia se haya ejercido sobre la misma o sobre diferentes víctimas del art. 173.2 y de que los actos hayan sido o no objeto de enjuiciamiento en procesos anteriores. No se exigen condenas previas ni identidad de víctima.",
+      "ref": "art. 173.2 y 173.3 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Conforme al art. 178.1 del Código Penal, tras la reforma de la LO 10/2022, ¿cuándo se entiende que hay consentimiento en materia sexual?",
+      "opciones": [
+        "Cuando la persona no ha manifestado oposición expresa ni ha opuesto resistencia",
+        "Cuando la persona ha permanecido en silencio y no se ha opuesto físicamente",
+        "Solo cuando se ha manifestado libremente mediante actos que, en atención a las circunstancias del caso, expresen de manera clara la voluntad de la persona"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 178.1 dispone que solo se entenderá que hay consentimiento cuando se haya manifestado libremente mediante actos que, en atención a las circunstancias del caso, expresen de manera clara la voluntad de la persona. La ausencia de oposición, el silencio o la falta de resistencia física no bastan para entender que hay consentimiento.",
+      "ref": "art. 178.1 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "El acceso carnal por vía vaginal, anal o bucal sin consentimiento, sin violencia ni intimidación y sin que la víctima tenga anulada su voluntad, se castiga como violación (art. 179.1 del Código Penal) con prisión de:",
+      "opciones": [
+        "1 a 4 años",
+        "4 a 12 años",
+        "6 a 12 años"
+      ],
+      "correcta": 1,
+      "explicacion": "La violación del art. 179.1 se castiga con prisión de cuatro a doce años. Si se comete empleando violencia o intimidación, o cuando la víctima tiene anulada su voluntad, la pena es de seis a doce años (art. 179.2). La prisión de uno a cuatro años es la pena de la agresión sexual básica sin acceso carnal (art. 178.1).",
+      "ref": "arts. 178 y 179 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Respecto de las víctimas menores de 18 años de delitos contra la libertad sexual, ¿desde cuándo se computa el plazo de prescripción según el art. 132.1 del Código Penal?",
+      "opciones": [
+        "Desde que cumplan 18 años",
+        "Desde que cumplan 35 años",
+        "Desde la fecha de comisión del delito, sin ninguna especialidad"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 132.1 (redacción de la LO 4/2023) computa los plazos desde que la víctima cumple treinta y cinco años en la tentativa de homicidio, en las lesiones de los arts. 149 y 150, en el maltrato habitual del art. 173.2, en los delitos contra la libertad sexual y en la trata. Los dieciocho años son el inicio del cómputo en otros delitos, como el aborto no consentido, las lesiones o las torturas.",
+      "ref": "art. 132.1 CP",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Según el art. 143.5 del Código Penal, ¿quién no incurre en responsabilidad penal por causar o cooperar activamente a la muerte de otra persona?",
+      "opciones": [
+        "Quien actúe por petición de un familiar de la persona que sufre una enfermedad grave",
+        "Quien actúe por compasión, aunque no haya petición expresa de la persona",
+        "Quien cumpla lo establecido en la ley orgánica reguladora de la eutanasia"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 143.5 declara que no incurre en responsabilidad penal quien cause o coopere activamente a la muerte de otra persona cumpliendo lo establecido en la ley orgánica reguladora de la eutanasia (LO 3/2021). Fuera de ese marco, el art. 143.4 solo prevé una pena inferior en uno o dos grados cuando hay petición expresa, seria e inequívoca de la persona que sufre un padecimiento grave, crónico e imposibilitante o una enfermedad grave e incurable; la petición de un familiar o la compasión no bastan.",
+      "ref": "art. 143.4 y 143.5 CP; LO 3/2021",
+      "dificultad": 1
+    }
+  ],
+  "dudas": [
+    "Los bloques 183 ter y 183 quater del texto consolidado descargado reproducen contenidos del grooming y del consentimiento del menor que coinciden con los de los arts. 183 y 183 bis; no los he citado y hago referencia solo a los arts. 183 y 183 bis, que recogen la numeración posterior a la LO 10/2022."
+  ]
+}

@@ -1,0 +1,548 @@
+{
+  "tema": 23,
+  "titulo": "Igualdad, violencia de género, discapacidad y LGTBI en la AGE",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "De 1 a 3 preguntas por examen (3 en 2023-2024, 1 en 2025-2026); cae sobre todo en definiciones: discriminación directa e indirecta, tipos de discriminación de la Ley 4/2023, grados de dependencia y acreditación de la violencia de género."
+  },
+  "normas": [
+    {
+      "nombre": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres",
+      "boe": "BOE-A-2007-6115",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115",
+      "verificado": "Texto consolidado, actualización de 19/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Resolución de 20 de octubre de 2025, de la Secretaría de Estado de Función Pública, por la que se publica el Acuerdo de Consejo de Ministros de 7 de octubre de 2025 que aprueba el IV Plan para la igualdad de género en la Administración General del Estado y en los Organismos Públicos vinculados o dependientes de ella",
+      "boe": "BOE-A-2025-22252",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-22252",
+      "verificado": "Texto consolidado, actualización de 20/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género",
+      "boe": "BOE-A-2004-21760",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760",
+      "verificado": "Texto consolidado, actualización de 10/07/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social",
+      "boe": "BOE-A-2013-12632",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632",
+      "verificado": "Texto consolidado, actualización de 06/10/2026 (leída la versión vigente a 16/10/2026 y la que entra en vigor el 23/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público (art. 59)",
+      "boe": "BOE-A-2015-11719",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "verificado": "Texto consolidado, actualización de 14/10/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia",
+      "boe": "BOE-A-2006-21990",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-21990",
+      "verificado": "Texto consolidado, actualización de 06/10/2026 (leída la versión vigente a 16/10/2026 y la que entra en vigor el 23/10/2026)"
+    },
+    {
+      "nombre": "Ley 4/2026, de 1 de octubre, por la que se modifican el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social y la Ley 39/2006",
+      "boe": "BOE-A-2026-20528",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528",
+      "verificado": "Texto consolidado, actualización de 05/10/2026; publicada el 03/10/2026 y en vigor el 23/10/2026 (leída el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI",
+      "boe": "BOE-A-2023-5366",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-5366",
+      "verificado": "Texto consolidado, actualización de 20/12/2025 (leído el 16/10/2026)"
+    }
+  ],
+  "novedades": [
+    "La Ley 4/2026, de 1 de octubre (publicada en el BOE de 3/10/2026), modifica el RDLeg 1/2013 y la Ley 39/2006 y entra en vigor el 23/10/2026 (a los veinte días de su publicación). Hasta el 22/10/2026 rige el texto anterior; esta ficha usa para las preguntas solo lo que no cambia.",
+    "Ley 39/2006 tras la reforma: «actividades básicas de la vida diaria» pasa a «actividades de la vida diaria»; los grados I, II y III y sus nombres no cambian; la protección de menores pasa de «menores de 3 años» a «menores de 6 años» (disp. adic. 13.ª); el reconocimiento de la dependencia deberá resolverse en un máximo de 3 meses (art. 28.1); los solicitantes y beneficiarios de asilo o protección subsidiaria y los beneficiarios de protección temporal quedan exentos de los requisitos de nacionalidad y de cinco años de residencia (art. 5); el Catálogo pasa a 9 servicios (prevención, promoción de la autonomía personal, teleasistencia, ayuda a domicilio, asistencia personal, centro de día y de noche, cuidados y apoyos en viviendas, atención residencial y productos de apoyo; art. 15); se crea la figura de la persona cuidadora principal (arts. 2 y 4 bis) y se impone una atención libre de sujeciones (art. 14.6).",
+    "RDLeg 1/2013 tras la reforma: se redefinen vida independiente, inclusión y ajustes razonables y se añaden capacitismo, desinstitucionalización, interseccionalidad, urgencia vital y sordoceguera (art. 2); la dependencia de grado I se asimila a un 33 % de discapacidad y la de grados II y III a un 65 %, solo donde la ley lo prevea y nunca en el ámbito tributario (art. 4.2).",
+    "El IV Plan para la igualdad de género en la AGE (Acuerdo del Consejo de Ministros de 7/10/2025) sustituye al III Plan: no estudies con material del III Plan.",
+    "La LO 10/2022 (en vigor desde el 7/10/2022) reforzó la referencia a la violencia sexual en la LO 3/2007 (arts. 48, 66 y 68) y amplió la LO 1/2004: servicios esenciales (art. 17.3), atención sanitaria (art. 19 bis) y derecho a la reparación (arts. 28 bis y 28 ter)."
+  ],
+  "clave": [
+    "**Discriminación directa** (LO 3/2007, art. 6.1): trato **menos favorable** por razón de sexo a quien es, ha sido o pudiera ser tratado así. **Indirecta** (art. 6.2): disposición, criterio o práctica **aparentemente neutros** que causan desventaja particular, salvo justificación objetiva. El trato desfavorable por **embarazo o maternidad** es discriminación **directa** (art. 8).",
+    "**Acoso sexual** (art. 7.1): conducta verbal o física **de naturaleza sexual**. **Acoso por razón de sexo** (art. 7.2): conducta **en función del sexo**. Ambos son siempre discriminatorios.",
+    "**Composición equilibrada**: ningún sexo supera el **60 %** ni baja del **40 %** (disp. adic. 1.ª LO 3/2007).",
+    "**Plan para la Igualdad en la AGE** (art. 64): lo aprueba el Gobierno **al inicio de cada legislatura**, se negocia con la representación del personal y lo **evalúa cada año el Consejo de Ministros**. El IV Plan (Acuerdo de 7/10/2025) tiene **6 ejes, 20 objetivos y 45 medidas**.",
+    "**LO 1/2004** (art. 1): violencia sobre la mujer por quien sea o haya sido su cónyuge o pareja **aun sin convivencia**. Se **acredita** (art. 23) con sentencia condenatoria, orden de protección u otra resolución judicial cautelar, o informe del Ministerio Fiscal con indicios (y también con informe de servicios sociales o especializados).",
+    "**Ayuda de pago único** (LO 1/2004, art. 27): rentas de hasta el **75 % del SMI**; **6** meses de subsidio de desempleo; **12** con discapacidad del 33 % o más; **18** con responsabilidades familiares; **24** si la víctima o un familiar conviviente tiene discapacidad del 33 % o más.",
+    "**VioGén** es el sistema de seguimiento integral de los casos de violencia de género del **Ministerio del Interior** (Secretaría de Estado de Seguridad).",
+    "**Ley 39/2006, de 14 de diciembre**: crea el **Sistema para la Autonomía y Atención a la Dependencia (SAAD)**. Grados: **I dependencia moderada, II dependencia severa, III gran dependencia** (art. 26).",
+    "El reconocimiento de la dependencia lo resuelve la **Administración autonómica** de residencia y vale en **todo el Estado**; la valoración no puede contratarse con entidades privadas (art. 28).",
+    "**Discapacidad** (RDLeg 1/2013, art. 4.2): grado reconocido **igual o superior al 33 %**. Empresas con **50 o más** trabajadores: al menos el **2 %** con discapacidad (art. 42); empleo público: cupo **no inferior al 7 %**, con al menos el **2 %** para discapacidad intelectual (art. 59 TREBEP).",
+    "**Ley 4/2023**: discriminación **por asociación** (por la relación con otra persona), **por error** (apreciación incorrecta), **múltiple** (dos o más causas) e **interseccional** (causas que interactúan y generan una forma específica).",
+    "Rectificación registral del sexo (Ley 4/2023): **16 años** o más, por sí mismo; **14 a 16**, asistido por sus representantes; **12 a 14**, autorización judicial. Segunda comparecencia en **3 meses**, resolución en **1 mes**, reversible a los **6 meses**.",
+    "Entra en vigor el **23/10/2026** la Ley 4/2026, que reforma la Ley 39/2006 y el RDLeg 1/2013."
+  ],
+  "resumen": [
+    {
+      "titulo": "Igualdad de mujeres y hombres: conceptos clave (LO 3/2007)",
+      "puntos": [
+        "**Igualdad de trato** (art. 3): ausencia de toda discriminación, directa o indirecta, por razón de sexo, en especial la derivada de la maternidad, las obligaciones familiares y el estado civil.",
+        "**Directa** (art. 6.1): persona que **es, ha sido o pudiera ser** tratada, por su sexo, de manera **menos favorable** que otra en situación comparable. **Indirecta** (art. 6.2): disposición, criterio o práctica **aparentemente neutros** que causan **desventaja particular** a un sexo, salvo justificación objetiva por una finalidad legítima con medios necesarios y adecuados. Toda **orden de discriminar** lo es (art. 6.3).",
+        "**Acoso sexual** (art. 7.1): comportamiento verbal o físico **de naturaleza sexual** que atenta contra la dignidad. **Acoso por razón de sexo** (art. 7.2): comportamiento realizado **en función del sexo**. Ambos son siempre discriminatorios (art. 7.3).",
+        "Todo trato desfavorable por **embarazo o maternidad** es discriminación **directa** (art. 8); las **represalias** por reclamar la igualdad también son discriminación (art. 9). **Acciones positivas** (art. 11): medidas **razonables y proporcionadas** mientras persista la desigualdad.",
+        "**Prueba** (art. 13): la persona demandada debe probar la ausencia de discriminación (no en procesos penales). **Composición equilibrada** (disp. adic. 1.ª): cada sexo entre el **40 % y el 60 %**. Plan de igualdad obligatorio en empresas con **50 o más trabajadores** (art. 45.2)."
+      ]
+    },
+    {
+      "titulo": "Igualdad en la AGE: Planes y medidas (LO 3/2007, Título V)",
+      "puntos": [
+        "**Plan para la Igualdad en la AGE y organismos públicos** (art. 64): lo aprueba el Gobierno **al inicio de cada legislatura**, se negocia con la representación legal de los empleados públicos y lo **evalúa anualmente el Consejo de Ministros**.",
+        "Planes: I (Acuerdo de 28/01/2011), II (20/11/2015), III (diciembre de 2020) y **IV Plan** (Acuerdo de **7/10/2025**, publicado por Resolución de 20/10/2025), con **6 ejes, 20 objetivos y 45 medidas**; insiste en la brecha salarial, la corresponsabilidad y la prevención del acoso.",
+        "**Presencia equilibrada** en órganos directivos (art. 52), órganos de selección y comisiones de valoración (art. 53) y representantes en órganos colegiados (art. 54). **Informe de impacto de género** en las convocatorias de pruebas selectivas (art. 55). En los cursos de formación para acceder a puestos directivos se reserva **al menos el 40 %** de las plazas a empleadas (art. 60.2).",
+        "**Protocolo contra el acoso sexual y por razón de sexo** (art. 62): negociado con la representación, con tratamiento **reservado** de las denuncias. Órganos: **Comisión Interministerial de Igualdad** (art. 76), **Unidades de Igualdad** en cada Ministerio (art. 77) y **Consejo de Participación de la Mujer** (art. 78). Las normas de igualdad del personal público rigen también para las **Fuerzas y Cuerpos de Seguridad**, con adaptaciones (arts. 67-68)."
+      ]
+    },
+    {
+      "titulo": "Violencia de género (LO 1/2004)",
+      "puntos": [
+        "**Objeto** (art. 1): violencia que, como manifestación de la discriminación y de las relaciones de poder de los hombres sobre las mujeres, se ejerce sobre éstas por quienes **sean o hayan sido** sus cónyuges o parejas, **aun sin convivencia**. Incluye violencia física y psicológica, agresiones a la libertad sexual, amenazas, coacciones y privación arbitraria de libertad, y la ejercida sobre **familiares o allegados menores de edad** para dañar a las mujeres (art. 1.4).",
+        "**Acreditación** (art. 23): **sentencia condenatoria**, **orden de protección** u otra resolución judicial cautelar a favor de la víctima, o **informe del Ministerio Fiscal** que indique indicios; también informe de servicios sociales, especializados o de acogida, o cualquier otro título si lo prevé la normativa sectorial. El art. 23 no cita la denuncia ni el atestado policial.",
+        "**Derechos**: información, asistencia social integral y **asistencia jurídica gratuita** previa a la denuncia (arts. 17-20); los servicios de atención y acogida son **servicios esenciales** (art. 17.3). Laborales (art. 21): reducción u ordenación del tiempo, movilidad, cambio de centro, suspensión con reserva de puesto y extinción del contrato; las funcionarias tienen derechos análogos (arts. 24-26).",
+        "**Instituciones**: **Delegación del Gobierno contra la Violencia de Género** (art. 29), **Observatorio Estatal de Violencia sobre la Mujer** (art. 30), **unidades especializadas** de las Fuerzas y Cuerpos de Seguridad del Estado con cooperación de las Policías Locales (art. 31). **VioGén** es el sistema de seguimiento integral del **Ministerio del Interior** (integra información policial, judicial y penitenciaria y valora el riesgo).",
+        "**Tutela judicial**: **Juzgados de Violencia sobre la Mujer** (arts. 43-44) y **Fiscal contra la Violencia sobre la Mujer**, con categoría de Fiscal de Sala (art. 70). Medidas (arts. 61-69): salida del domicilio, alejamiento, prohibición de comunicación, suspensión de patria potestad, custodia y **régimen de visitas**, y de tenencia, porte y uso de armas, por **auto motivado** con intervención del Fiscal."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Supuesto (art. 27)",
+          "Ayuda de pago único"
+        ],
+        "filas": [
+          [
+            "Rentas hasta el 75 % del SMI y especiales dificultades de empleo",
+            "6 meses de subsidio por desempleo"
+          ],
+          [
+            "Discapacidad reconocida del 33 % o más",
+            "12 meses de subsidio"
+          ],
+          [
+            "Responsabilidades familiares",
+            "Hasta 18 meses de subsidio"
+          ],
+          [
+            "Responsabilidades familiares y discapacidad del 33 % o más de la víctima o de un familiar conviviente",
+            "Hasta 24 meses de subsidio"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Discapacidad y empleo público (RDLeg 1/2013)",
+      "puntos": [
+        "**Objeto** (art. 1): garantizar la **igualdad de oportunidades y de trato** y el ejercicio real y efectivo de los derechos de las personas con discapacidad. **Discapacidad** (art. 2.a): situación que resulta de la **interacción** entre personas con deficiencias previsiblemente permanentes y barreras. Además, se consideran personas con discapacidad las que tengan reconocido un grado **igual o superior al 33 %** (art. 4.2).",
+        "Definiciones del art. 2: discriminación **directa**, **indirecta**, **por asociación**, **acoso**, **acción positiva**, **accesibilidad universal**, **diseño universal** y **ajustes razonables** (adaptaciones necesarias que no impongan una carga desproporcionada o indebida).",
+        "Empleo: empresas con **50 o más trabajadores**, al menos un **2 %** con discapacidad (art. 42.1). Empleo público: cupo **no inferior al 7 %** de las vacantes, con **al menos el 2 %** para discapacidad intelectual, más adaptaciones y ajustes razonables en el proceso selectivo y el puesto (art. 59 TREBEP)."
+      ]
+    },
+    {
+      "titulo": "Dependencia (Ley 39/2006)",
+      "puntos": [
+        "**Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia**. Regula las condiciones básicas que garantizan la igualdad en el **derecho subjetivo de ciudadanía** a la promoción de la autonomía y la atención a la dependencia mediante el **Sistema para la Autonomía y Atención a la Dependencia (SAAD)**, con colaboración de todas las Administraciones y un contenido mínimo común garantizado por la AGE (art. 1).",
+        "El SAAD es una **red de utilización pública** de centros y servicios **públicos y privados** (art. 6) con **tres niveles de protección**: el **mínimo** de la AGE, el de los **convenios AGE-comunidad** y el **adicional** de cada comunidad (art. 7). Su órgano de cooperación es el **Consejo Territorial de Servicios Sociales y del SAAD**, con mayoría autonómica (art. 8).",
+        "Titulares: españoles en situación de dependencia con **cinco años** de residencia en España, **dos** de ellos inmediatamente anteriores a la solicitud (art. 5). Valoración por los órganos de cada comunidad con un **baremo** acordado en el Consejo Territorial (art. 27). La resolución la dicta la **Administración autonómica** de residencia y vale en **todo el Estado**; valorar y gestionar las prestaciones económicas **no puede delegarse ni contratarse con entidades privadas** (art. 28)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Grado (art. 26)",
+          "Situación de la persona"
+        ],
+        "filas": [
+          [
+            "Grado I. Dependencia moderada",
+            "Ayuda para varias actividades de la vida diaria al menos una vez al día, o apoyo intermitente o limitado"
+          ],
+          [
+            "Grado II. Dependencia severa",
+            "Ayuda dos o tres veces al día, sin requerir apoyo permanente de un cuidador, o apoyo extenso"
+          ],
+          [
+            "Grado III. Gran dependencia",
+            "Ayuda varias veces al día y, por pérdida total de autonomía, apoyo indispensable y continuo de otra persona, o apoyo generalizado"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Personas trans y LGTBI (Ley 4/2023)",
+      "puntos": [
+        "**Finalidad** (art. 1): igualdad real y efectiva de las personas **lesbianas, gais, trans, bisexuales e intersexuales (LGTBI)** y sus familias; regula también la **rectificación registral** de la mención del sexo.",
+        "**Tipos de discriminación** (art. 3): **directa**; **indirecta**; **múltiple** (dos o más causas, simultánea o consecutiva); **interseccional** (diversas causas concurren o interactúan y generan una forma **específica**); **por asociación** (trato discriminatorio por la relación con otra persona protegida); **por error** (se funda en una apreciación incorrecta de las características de la persona); acoso discriminatorio.",
+        "**Conceptos** (art. 3): **identidad sexual** = vivencia interna e individual del sexo tal como cada persona la siente y autodefine, corresponda o no al sexo asignado al nacer; **expresión de género** = manifestación que cada persona hace de su identidad sexual; **persona trans** = la que tiene una identidad sexual que no se corresponde con el sexo asignado al nacer; **orientación sexual** = atracción física, sexual o afectiva hacia una persona.",
+        "**Rectificación registral** (arts. 43-47): mayores de **16 años**, por sí mismos; entre **14 y 16**, asistidos por sus representantes legales; entre **12 y 14**, con autorización judicial. Sin informe médico o psicológico (art. 44.3). Segunda comparecencia en un máximo de **3 meses**, resolución en **1 mes**, reversible a los **6 meses**.",
+        "Se **prohíben las terapias de conversión**, aunque medie consentimiento (art. 17). La Estrategia estatal para la igualdad de trato y no discriminación de las personas LGTBI es **cuatrienal** (art. 10). Multas (art. 80): leves, apercibimiento o 200 a 2.000 €; graves, 2.001 a 10.000 €; muy graves, 10.001 a 150.000 €."
+      ]
+    }
+  ],
+  "trampas": [
+    "La discriminación por **embarazo o maternidad** es **directa**, no indirecta; y la indirecta exige una práctica **aparentemente neutra**, mientras que la directa es un trato **menos favorable** expreso.",
+    "Acoso **sexual** (conducta de naturaleza sexual) frente a acoso **por razón de sexo** (conducta en función del sexo): no se intercambian.",
+    "Plan para la Igualdad en la AGE: se aprueba **al inicio de cada legislatura** (no cada año) y lo evalúa **anualmente el Consejo de Ministros** (no el Ministerio de Igualdad ni la Comisión Interministerial).",
+    "LO 1/2004: no exige convivencia ni vínculo actual; incluye a **exparejas**. La mera denuncia o el atestado no están entre los medios de acreditación que cita el art. 23.",
+    "Ayuda del art. 27: escalas **6, 12, 18 y 24** meses y umbral del **75 %** del SMI; es **pago único**, no una renta periódica.",
+    "Número y año: **Ley 39/2006** (dependencia), no 40/2006 ni 41/2006; **LO 3/2007** (igualdad); **LO 1/2004** (violencia de género); **Ley 4/2023** (trans y LGTBI).",
+    "Ley 4/2023: asociación (por la **relación** con otra persona), error (apreciación **incorrecta**), múltiple (**dos o más causas**) e interseccional (causas que **interactúan** y generan una forma específica) se confunden con facilidad.",
+    "Edades de la rectificación registral: **16** sin asistencia, **14-16** con representantes legales, **12-14** con autorización judicial.",
+    "Dependencia: la resolución es **autonómica** y vale en todo el Estado; la valoración no se puede contratar con entidades privadas.",
+    "Ley 4/2026: hasta el 22/10/2026 sigue el texto anterior de la Ley 39/2006 (menores de 3 años, Catálogo de 5 grupos de servicios); desde el 23/10/2026, el nuevo."
+  ],
+  "caido": [
+    {
+      "examen": "1 mar 2025",
+      "concepto": "Discriminación directa e indirecta (LO 3/2007, art. 6)"
+    },
+    {
+      "examen": "13 abr 2024 (tres preguntas)",
+      "concepto": "Ley 4/2023: definiciones (identidad sexual) y tipos de discriminación (por asociación, por error, interseccional)"
+    },
+    {
+      "examen": "1 mar 2025 y 26 sep 2026",
+      "concepto": "Ley 39/2006: denominación y objeto (creación del SAAD)"
+    },
+    {
+      "examen": "23 abr 2023 (tres preguntas)",
+      "concepto": "LO 1/2004: acreditación de la situación de violencia de género, ayudas económicas y responsable del sistema VioGén"
+    }
+  ],
+  "mnemotecnias": [
+    "Ayuda del art. 27 LO 1/2004: **6 - 12 - 18 - 24** meses (sube de seis en seis; la discapacidad del 33 % duplica a 12 o añade seis).",
+    "Rectificación del sexo: **16 solo, 14 con padres, 12 con juez**.",
+    "Grados de dependencia: **I moderada, II severa, III gran dependencia** (cuanto mayor el grado, más ayuda al día: una vez, dos o tres veces, varias veces)."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Qué es la discriminación directa por razón de sexo (LO 3/2007, art. 6.1)?",
+      "r": "La situación de quien **es, ha sido o pudiera ser** tratado, por su sexo, de manera **menos favorable** que otra persona en situación comparable."
+    },
+    {
+      "p": "¿Qué es la discriminación indirecta por razón de sexo (art. 6.2)?",
+      "r": "Una disposición, criterio o práctica **aparentemente neutros** que pone a personas de un sexo en desventaja particular, salvo justificación objetiva."
+    },
+    {
+      "p": "¿Qué diferencia hay entre acoso sexual y acoso por razón de sexo (art. 7)?",
+      "r": "El sexual es un comportamiento **de naturaleza sexual**; el de razón de sexo es un comportamiento realizado **en función del sexo**."
+    },
+    {
+      "p": "¿Qué es una composición equilibrada según la LO 3/2007?",
+      "r": "Cada sexo entre el **40 % y el 60 %** (disp. adic. 1.ª)."
+    },
+    {
+      "p": "¿Cuándo aprueba el Gobierno el Plan para la Igualdad en la AGE y quién evalúa su cumplimiento (art. 64)?",
+      "r": "**Al inicio de cada legislatura**; lo evalúa **anualmente el Consejo de Ministros**."
+    },
+    {
+      "p": "¿Cuántos ejes, objetivos y medidas tiene el IV Plan para la igualdad de género en la AGE?",
+      "r": "**6 ejes, 20 objetivos y 45 medidas** (Acuerdo del Consejo de Ministros de 7/10/2025)."
+    },
+    {
+      "p": "¿Qué reserva de plazas de formación prevé el art. 60.2 de la LO 3/2007 para empleadas públicas?",
+      "r": "Al menos el **40 %** de las plazas de los cursos que faciliten su acceso a puestos directivos de la AGE."
+    },
+    {
+      "p": "¿Cómo se acredita la violencia de género según la LO 1/2004 (art. 23)?",
+      "r": "Sentencia condenatoria, orden de protección u otra resolución judicial cautelar, o informe del Ministerio Fiscal con indicios (y también informes de servicios sociales o especializados)."
+    },
+    {
+      "p": "¿Qué requisitos y cuantías tiene la ayuda de pago único del art. 27 de la LO 1/2004?",
+      "r": "Rentas de hasta el **75 % del SMI**; **6** meses de subsidio; **12** con discapacidad del 33 % o más; hasta **18** con responsabilidades familiares; hasta **24** si hay discapacidad del 33 % o más en la víctima o un familiar conviviente."
+    },
+    {
+      "p": "¿De qué departamento es el sistema VioGén?",
+      "r": "Del **Ministerio del Interior** (Secretaría de Estado de Seguridad): sistema de seguimiento integral de los casos de violencia de género."
+    },
+    {
+      "p": "¿Qué crea la Ley 39/2006?",
+      "r": "El **Sistema para la Autonomía y Atención a la Dependencia (SAAD)**."
+    },
+    {
+      "p": "¿Cuáles son los grados de dependencia (Ley 39/2006, art. 26)?",
+      "r": "**Grado I** dependencia moderada; **grado II** dependencia severa; **grado III** gran dependencia."
+    },
+    {
+      "p": "¿Quién reconoce la situación de dependencia y con qué validez?",
+      "r": "La **Administración autonómica** de residencia, con validez en **todo el territorio del Estado** (art. 28.2)."
+    },
+    {
+      "p": "¿Qué grado de discapacidad da la consideración de persona con discapacidad (RDLeg 1/2013, art. 4.2)?",
+      "r": "Un grado reconocido **igual o superior al 33 %**."
+    },
+    {
+      "p": "¿Qué reserva de empleo público prevé el art. 59 del TREBEP para personas con discapacidad?",
+      "r": "Cupo **no inferior al 7 %** de las vacantes, con **al menos el 2 %** para discapacidad intelectual."
+    },
+    {
+      "p": "¿Qué es la discriminación por asociación y por error (Ley 4/2023, art. 3)?",
+      "r": "**Por asociación**: trato discriminatorio por la relación con otra persona protegida. **Por error**: se funda en una apreciación incorrecta de las características de la persona."
+    },
+    {
+      "p": "¿Qué es la discriminación interseccional (Ley 4/2023)?",
+      "r": "La que se produce cuando diversas causas **concurren o interactúan** y generan una forma **específica** de discriminación."
+    },
+    {
+      "p": "¿Qué es la expresión de género (Ley 4/2023)?",
+      "r": "La **manifestación que cada persona hace de su identidad sexual**."
+    },
+    {
+      "p": "¿Quién puede pedir por sí misma la rectificación registral del sexo (Ley 4/2023, art. 43)?",
+      "r": "Las personas de nacionalidad española **mayores de 16 años**; entre 14 y 16, asistidas por sus representantes legales; entre 12 y 14, con autorización judicial."
+    },
+    {
+      "p": "¿Cuándo entra en vigor la Ley 4/2026, que reforma la Ley 39/2006?",
+      "r": "El **23/10/2026** (veinte días después de su publicación en el BOE del 3/10/2026)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Según la LO 3/2007, ¿cómo se define la discriminación indirecta por razón de sexo?",
+      "opciones": [
+        "Todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad",
+        "Una disposición, criterio o práctica aparentemente neutros que pone a personas de un sexo en desventaja particular respecto a las del otro, salvo justificación objetiva",
+        "Cualquier comportamiento, verbal o físico, de naturaleza sexual que atente contra la dignidad de una persona"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 6.2 define la discriminación indirecta como la disposición, criterio o práctica aparentemente neutros que causa una desventaja particular a personas de un sexo, salvo que se justifique objetivamente por una finalidad legítima con medios necesarios y adecuados. El trato desfavorable por embarazo o maternidad es discriminación directa (art. 8) y el comportamiento de naturaleza sexual es acoso sexual (art. 7.1).",
+      "ref": "arts. 6.2, 7.1 y 8 LO 3/2007",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Una empresa concede un plus solo a quien trabaja a jornada completa; casi todas las personas con jornada parcial son mujeres y no existe justificación objetiva para el criterio. ¿Cómo se califica según la LO 3/2007?",
+      "opciones": [
+        "Discriminación directa por razón de sexo",
+        "Acoso por razón de sexo",
+        "Discriminación indirecta por razón de sexo"
+      ],
+      "correcta": 2,
+      "explicacion": "Se trata de un criterio aparentemente neutro (la jornada completa) que pone a las mujeres en desventaja particular sin justificación objetiva: discriminación indirecta (art. 6.2). No hay un trato menos favorable expreso por sexo (directa, art. 6.1) ni un comportamiento que atente contra la dignidad creando un entorno hostil (acoso, art. 7.2).",
+      "ref": "art. 6 y art. 7 LO 3/2007",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué distingue el acoso por razón de sexo del acoso sexual en la LO 3/2007?",
+      "opciones": [
+        "El acoso por razón de sexo es un comportamiento realizado en función del sexo de una persona, mientras que el sexual es un comportamiento de naturaleza sexual",
+        "El acoso sexual solo existe si hay una relación de jerarquía entre quien acosa y quien es acosado",
+        "El acoso por razón de sexo solo es discriminatorio cuando es habitual"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 7.2 define el acoso por razón de sexo como cualquier comportamiento realizado en función del sexo de una persona, y el art. 7.1 el acoso sexual como el comportamiento verbal o físico de naturaleza sexual. El art. 7.3 declara discriminatorios ambos en todo caso; la ley no exige jerarquía ni habitualidad.",
+      "ref": "art. 7 LO 3/2007",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "A efectos de la LO 3/2007, se entiende por composición equilibrada la presencia de mujeres y hombres de forma que, en el conjunto de que se trate, las personas de cada sexo:",
+      "opciones": [
+        "No superen el setenta por ciento ni sean menos del treinta por ciento",
+        "Representen exactamente el cincuenta por ciento cada una",
+        "No superen el sesenta por ciento ni sean menos del cuarenta por ciento"
+      ],
+      "correcta": 2,
+      "explicacion": "La disposición adicional primera define la composición equilibrada como aquella en que ninguno de los sexos supera el 60 % ni es inferior al 40 %. No exige paridad exacta ni admite la banda 70/30.",
+      "ref": "disp. adic. 1.ª LO 3/2007",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el art. 64 de la LO 3/2007, ¿quién evalúa anualmente el cumplimiento del Plan para la Igualdad entre mujeres y hombres en la AGE y en sus organismos públicos?",
+      "opciones": [
+        "El Consejo de Ministros",
+        "La Comisión Interministerial de Igualdad",
+        "El Consejo de Participación de la Mujer"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 64 establece que el Gobierno aprueba el Plan al inicio de cada legislatura, que se negocia con la representación legal de los empleados públicos y que su cumplimiento será evaluado anualmente por el Consejo de Ministros. La Comisión Interministerial (art. 76) coordina políticas y el Consejo de Participación de la Mujer (art. 78) es un órgano consultivo.",
+      "ref": "art. 64 LO 3/2007",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El IV Plan para la igualdad de género en la AGE y en los organismos públicos (Acuerdo del Consejo de Ministros de 7 de octubre de 2025) se estructura en:",
+      "opciones": [
+        "4 ejes, 12 objetivos y 30 medidas",
+        "6 ejes, 20 objetivos y 45 medidas",
+        "8 ejes, 25 objetivos y 60 medidas"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el texto publicado por Resolución de 20 de octubre de 2025, el IV Plan incluye 20 objetivos, con 45 medidas distribuidas en 6 ejes. Las otras cifras no figuran en el Plan.",
+      "ref": "IV Plan para la igualdad de género en la AGE (BOE-A-2025-22252)",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Para facilitar la promoción profesional de las empleadas públicas y su acceso a puestos directivos en la AGE, el art. 60.2 de la LO 3/2007 reserva en los cursos de formación, al menos:",
+      "opciones": [
+        "El 30 % de las plazas",
+        "El 50 % de las plazas",
+        "El 40 % de las plazas"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 60.2 reserva al menos un 40 % de las plazas de los cursos de formación para las empleadas públicas que reúnan los requisitos, con el fin de facilitar su promoción y su acceso a puestos directivos en la AGE y sus organismos públicos.",
+      "ref": "art. 60.2 LO 3/2007",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre el objeto de la LO 1/2004 de Medidas de Protección Integral contra la Violencia de Género:",
+      "opciones": [
+        "Comprende la violencia ejercida sobre la mujer por quienes sean o hayan sido sus cónyuges o estén o hayan estado ligados a ella por relaciones similares de afectividad, aun sin convivencia",
+        "Comprende los actos de violencia física y psicológica, incluidas las agresiones a la libertad sexual, las amenazas, las coacciones o la privación arbitraria de libertad",
+        "Solo comprende la violencia ejercida por quien conviva en ese momento con la víctima"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 1 incluye a quienes sean o hayan sido cónyuges o parejas, aun sin convivencia; por tanto es falso que se limite a quien conviva en ese momento. Las otras dos afirmaciones reproducen los apartados 1 y 3 del art. 1.",
+      "ref": "art. 1 LO 1/2004",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes NO figura entre los medios con los que el art. 23 de la LO 1/2004 acredita la situación de violencia de género?",
+      "opciones": [
+        "La orden de protección",
+        "El informe del Ministerio Fiscal que indique la existencia de indicios de violencia",
+        "El atestado policial por sí solo"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 23 cita la sentencia condenatoria, la orden de protección u otra resolución judicial cautelar, el informe del Ministerio Fiscal con indicios y los informes de servicios sociales, especializados o de acogida de la Administración. No menciona el atestado policial ni la denuncia.",
+      "ref": "art. 23 LO 1/2004",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Una víctima de violencia de género sin responsabilidades familiares tiene reconocida una discapacidad del 40 % y cumple los demás requisitos para la ayuda de pago único del art. 27 de la LO 1/2004. ¿A cuánto equivale la ayuda?",
+      "opciones": [
+        "A seis meses de subsidio por desempleo",
+        "A doce meses de subsidio por desempleo",
+        "A dieciocho meses de subsidio por desempleo"
+      ],
+      "correcta": 1,
+      "explicacion": "Con carácter general la ayuda equivale a seis meses de subsidio por desempleo, pero si la víctima tiene reconocida una discapacidad igual o superior al 33 % equivale a doce meses (art. 27.2). Los dieciocho meses son para quien tiene responsabilidades familiares (art. 27.4), que aquí no concurren.",
+      "ref": "art. 27 LO 1/2004",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Para tener derecho a la ayuda de pago único del art. 27 de la LO 1/2004, la víctima no puede tener rentas superiores, en cómputo mensual, al:",
+      "opciones": [
+        "50 % del salario mínimo interprofesional",
+        "75 % del salario mínimo interprofesional",
+        "100 % del salario mínimo interprofesional"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 27.1 exige carecer de rentas superiores, en cómputo mensual, al 75 % del salario mínimo interprofesional (excluida la parte proporcional de dos pagas extraordinarias), además de especiales dificultades para obtener empleo.",
+      "ref": "art. 27.1 LO 1/2004",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El Sistema de Seguimiento Integral en los casos de Violencia de Género (VioGén) es un sistema:",
+      "opciones": [
+        "Del Ministerio de Justicia, gestionado por los Juzgados de Violencia sobre la Mujer",
+        "Del Ministerio de Igualdad, gestionado por la Delegación del Gobierno contra la Violencia de Género",
+        "Del Ministerio del Interior, que integra información policial, judicial y penitenciaria y valora el riesgo de nuevas agresiones"
+      ],
+      "correcta": 2,
+      "explicacion": "El Ministerio del Interior ha desarrollado la aplicación que da soporte al Sistema de Seguimiento Integral (VioGén), según se recoge en los convenios publicados en el BOE con la Secretaría de Estado de Seguridad. Integra información policial, judicial y penitenciaria y valora el riesgo; no es un sistema del Ministerio de Justicia ni del de Igualdad.",
+      "ref": "arts. 31 y 32 LO 1/2004; convenio BOE-A-2026-19176",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, crea:",
+      "opciones": [
+        "El Sistema para la Autonomía y Atención a la Dependencia",
+        "El Sistema Nacional de Cuidados",
+        "El Sistema Público de Servicios Sociales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 1 de la Ley 39/2006 crea el Sistema para la Autonomía y Atención a la Dependencia (SAAD), con la colaboración y participación de todas las Administraciones Públicas. Los otros nombres no corresponden a esta ley.",
+      "ref": "art. 1 Ley 39/2006",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál es la correspondencia correcta entre grado y denominación de la situación de dependencia en la Ley 39/2006?",
+      "opciones": [
+        "Grado I: dependencia severa; grado II: dependencia moderada; grado III: gran dependencia",
+        "Grado I: gran dependencia; grado II: dependencia severa; grado III: dependencia moderada",
+        "Grado I: dependencia moderada; grado II: dependencia severa; grado III: gran dependencia"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 26.1 clasifica la dependencia en grado I (dependencia moderada), grado II (dependencia severa) y grado III (gran dependencia). Esta clasificación se mantiene con la reforma de la Ley 4/2026.",
+      "ref": "art. 26 Ley 39/2006",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según la Ley 39/2006, el reconocimiento de la situación de dependencia se efectúa mediante resolución de:",
+      "opciones": [
+        "La Administración autonómica correspondiente a la residencia del solicitante, con validez en todo el territorio del Estado",
+        "La Administración General del Estado, con validez solo en la comunidad autónoma de residencia",
+        "El Consejo Territorial del Sistema, con validez en todo el territorio del Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 28.2 atribuye la resolución a la Administración autonómica correspondiente a la residencia del solicitante y le da validez en todo el territorio del Estado. El Consejo Territorial acuerda criterios y baremo, pero no resuelve expedientes individuales.",
+      "ref": "art. 28.2 Ley 39/2006",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "A efectos del texto refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social (RDLeg 1/2013), tienen además la consideración de personas con discapacidad aquellas a quienes se haya reconocido un grado igual o superior al:",
+      "opciones": [
+        "25 por ciento",
+        "33 por ciento",
+        "50 por ciento"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 4.2 considera personas con discapacidad, además de las del apartado 1, a las que tengan reconocido un grado de discapacidad igual o superior al 33 por ciento.",
+      "ref": "art. 4.2 RDLeg 1/2013",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "En las ofertas de empleo público se reserva un cupo no inferior al 7 % de las vacantes para personas con discapacidad. De esa reserva, al menos el 2 % de las plazas ofertadas debe destinarse a personas con discapacidad:",
+      "opciones": [
+        "Física",
+        "Sensorial",
+        "Intelectual"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 59.1 del TREBEP dispone que la reserva del mínimo del siete por ciento se realice de manera que, al menos, el dos por ciento de las plazas ofertadas sea para personas que acrediten discapacidad intelectual y el resto para cualquier otro tipo de discapacidad.",
+      "ref": "art. 59.1 RDLeg 5/2015 (TREBEP)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el art. 3 de la Ley 4/2023, la discriminación por error es aquella que:",
+      "opciones": [
+        "Sufre una persona debido a su relación con otra sobre la que concurre alguna de las causas de discriminación",
+        "Se funda en una apreciación incorrecta acerca de las características de la persona o personas discriminadas",
+        "Se produce cuando diversas causas concurren o interactúan generando una forma específica de discriminación"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 3.e define la discriminación por error como la fundada en una apreciación incorrecta de las características de la persona discriminada. El trato discriminatorio por la relación con otra persona es la discriminación por asociación, y el que resulta de causas que concurren o interactúan es la discriminación interseccional, definida en el apartado c del art. 3.",
+      "ref": "art. 3 Ley 4/2023",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el art. 3 de la Ley 4/2023, ¿qué es la «expresión de género»?",
+      "opciones": [
+        "La vivencia interna e individual del sexo tal y como cada persona la siente y autodefine",
+        "La manifestación que cada persona hace de su identidad sexual",
+        "La atracción física, sexual o afectiva hacia una persona"
+      ],
+      "correcta": 1,
+      "explicacion": "La expresión de género es la manifestación que cada persona hace de su identidad sexual (art. 3.j). La vivencia interna del sexo es la identidad sexual (art. 3.i) y la atracción física, sexual o afectiva es la orientación sexual (art. 3.h).",
+      "ref": "art. 3 Ley 4/2023",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Lucas, de 15 años, de nacionalidad española, quiere rectificar en el Registro Civil la mención registral de su sexo conforme a la Ley 4/2023. ¿Cómo puede hacerlo?",
+      "opciones": [
+        "Solicitándolo por sí mismo, asistido por sus representantes legales",
+        "Únicamente mediante autorización judicial",
+        "Solicitándolo por sí mismo, sin asistencia alguna"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 43.2 permite a los mayores de catorce y menores de dieciséis presentar la solicitud por sí mismos, asistidos por sus representantes legales. La autorización judicial es la vía para los mayores de doce y menores de catorce (art. 43.4), y la solicitud sin asistencia corresponde a los mayores de dieciséis (art. 43.1).",
+      "ref": "art. 43 Ley 4/2023",
+      "dificultad": 2
+    }
+  ],
+  "dudas": [
+    "El responsable del sistema VioGén por la web del Ministerio del Interior (buscador: Dirección General de Coordinación y Estudios como responsable del tratamiento de datos) no pudo comprobarse porque la web oficial devolvió el error 403; la ficha solo afirma que es un sistema del Ministerio del Interior (Secretaría de Estado de Seguridad), según el convenio publicado en BOE-A-2026-19176. La LO 1/2004 no menciona VioGén por su nombre.",
+    "El art. 30 de la LO 1/2004 adscribe el Observatorio Estatal de Violencia sobre la Mujer al «Ministerio de Trabajo y Asuntos Sociales» (denominación histórica); no se ha comprobado su adscripción actual, por lo que no se desarrolla.",
+    "La fecha del Acuerdo del III Plan para la igualdad en la AGE difiere entre el BOE (9/12/2020 en el título de la Resolución) y el texto del IV Plan (7/12/2020); la ficha solo indica diciembre de 2020.",
+    "El texto de la Ley 39/2006 vigente hasta el 22/10/2026 sigue nombrando al «Ministerio de Sanidad, Servicios Sociales e Igualdad» como departamento del Consejo Territorial (art. 8); la ficha no se apoya en esa denominación."
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "tema": 20,
+  "titulo": "Delitos informáticos, intimidad y prueba digital",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "Media de 1,4 preguntas por examen (casi siempre 1, una vez 3). Lo habitual: art. 197 CP (intimidad y datos), daños informáticos (art. 264) y medidas de investigación tecnológica de la LECrim (arts. 588 bis y ss.)."
+  },
+  "normas": [
+    {
+      "nombre": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (arts. 172 ter, 183 ter, 197-201, 249, 264-264 quater y 270)",
+      "boe": "BOE-A-1995-25444",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "verificado": "Texto consolidado, última actualización de la consolidación 09/04/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto de 14 de septiembre de 1882 por el que se aprueba la Ley de Enjuiciamiento Criminal (arts. 282 bis, 579 y 588 bis a-588 octies, introducidos por la LO 13/2015)",
+      "boe": "BOE-A-1882-6036",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "verificado": "Texto consolidado, última actualización de la consolidación 09/04/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 1/1982, de 5 de mayo, de protección civil del derecho al honor, a la intimidad personal y familiar y a la propia imagen",
+      "boe": "BOE-A-1982-11196",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-11196",
+      "verificado": "Texto consolidado, última actualización de la consolidación 16/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial (art. 11.1)",
+      "boe": "BOE-A-1985-12666",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+      "verificado": "Texto consolidado, última actualización de la consolidación 09/10/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Constitución Española (arts. 18 y 55.2)",
+      "boe": "BOE-A-1978-31229",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "verificado": "Texto consolidado, última actualización de la consolidación 20/05/2026 (leído el 16/10/2026)"
+    }
+  ],
+  "novedades": [
+    "LO 13/2015 (en vigor desde el 06/12/2015): creó las medidas de investigación tecnológica de los arts. 588 bis a-588 octies LECrim. Hoy el art. 579 solo regula la correspondencia postal y telegráfica; las comunicaciones telefónicas y telemáticas se intervienen conforme a los arts. 588 ter a-m. El material anterior a 2015 está desfasado.",
+    "LO 1/2015 introdujo los arts. 197 bis, 197 ter, 197 quater y 197 quinquies y los arts. 264 bis, 264 ter y 264 quater, y reescribió el art. 264 (daños informáticos).",
+    "La LO 14/2022 (en vigor desde el 12/01/2023) reordenó la estafa: el art. 248 contiene hoy el tipo general y la pena, y la estafa por manipulación informática y por uso fraudulento de tarjetas está en el art. 249. Los materiales antiguos citan estas modalidades dentro del art. 248.",
+    "El art. 197.7 CP (difusión de imágenes obtenidas con anuencia de la víctima) fue modificado por la LO 10/2022 con efectos desde el 07/10/2022: estudia la redacción vigente que se resume aquí."
+  ],
+  "clave": [
+    "**Art. 197.1**: sin consentimiento, para descubrir secretos o vulnerar la intimidad, apoderarse de papeles, cartas o **correos electrónicos**, interceptar telecomunicaciones o usar artificios técnicos de escucha o grabación: prisión de **1 a 4 años** y multa de 12 a 24 meses.",
+    "**Art. 197.2**: acceder, apoderarse, utilizar o modificar sin autorización datos reservados de carácter personal o familiar en ficheros o soportes informáticos: mismas penas. Si se **difunden, revelan o ceden** (197.3): prisión de **2 a 5 años**.",
+    "Si lo cometen los **encargados o responsables de los ficheros** o se usan datos personales de la víctima sin autorización (197.4): prisión de **3 a 5 años**. Datos especialmente protegidos, menor o persona con discapacidad: mitad superior (197.5). Fin lucrativo: mitad superior; con datos especialmente protegidos, **4 a 7 años** (197.6).",
+    "**Art. 197.7**: difundir sin autorización imágenes o grabaciones obtenidas **con la anuencia** de la persona en un lugar fuera de la mirada de terceros cuando se menoscabe gravemente su intimidad: prisión de 3 meses a 1 año o multa de 6 a 12 meses. El consentimiento para grabar **no** autoriza a difundir.",
+    "**Art. 197 bis**: acceder o mantenerse en un sistema de información vulnerando sus medidas de seguridad: prisión de 6 meses a 2 años. Interceptar transmisiones no públicas de datos: 3 meses a 2 años o multa.",
+    "**Daños informáticos (art. 264)**: borrar, dañar, alterar o hacer inaccesibles datos, programas o documentos electrónicos ajenos de manera grave: prisión de 6 meses a 3 años; con servicios públicos esenciales, infraestructura crítica u organización criminal: **2 a 5 años** y multa.",
+    "**Estafa informática (art. 249.1.a)** y **uso fraudulento de tarjetas ajenas (art. 249.1.b)**: son estafa, con prisión de 6 meses a 3 años.",
+    "Toda medida de investigación tecnológica exige **autorización judicial** y los principios de **especialidad, idoneidad, excepcionalidad, necesidad y proporcionalidad** (art. 588 bis a). El juez resuelve en **24 horas** (art. 588 bis c).",
+    "Duraciones: interceptación de comunicaciones **3 meses**, prorrogable hasta **18**; seguimiento y localización, 3 meses hasta 18; registro remoto, **1 mes** hasta **3**; orden de conservación de datos, **90 días**, prorrogable una vez hasta 180.",
+    "El **registro remoto** solo procede en cinco grupos de delitos: organización criminal, terrorismo, contra menores o personas con capacidad modificada judicialmente, contra la Constitución, traición y defensa nacional, y cometidos con medios informáticos (art. 588 septies a).",
+    "Incautar un móvil u ordenador en un registro domiciliario **no legitima** el acceso a su contenido: la resolución judicial debe justificarlo o autorizarlo después (art. 588 sexies a.2).",
+    "**Prueba ilícita**: no surten efecto las pruebas obtenidas, directa o indirectamente, violentando derechos o libertades fundamentales (art. 11.1 LOPJ).",
+    "Para perseguir los delitos de los arts. 197-200 hace falta **denuncia** del agraviado o su representante legal (art. 201), salvo en el art. 198, intereses generales, pluralidad de personas, o víctima menor o con discapacidad necesitada de protección."
+  ],
+  "resumen": [
+    {
+      "titulo": "Base constitucional y civil de la intimidad",
+      "puntos": [
+        "CE art. 18: derecho al honor, a la intimidad personal y familiar y a la propia imagen (18.1); **secreto de las comunicaciones salvo resolución judicial** (18.3); la ley limitará el uso de la informática para proteger honor e intimidad (18.4). Solo para personas determinadas, con intervención judicial y control parlamentario, y en investigaciones por bandas armadas o terrorismo, pueden suspenderse el art. 18.2 y 18.3 (art. 55.2 CE).",
+        "LO 1/1982: protección **civil** de esos derechos, que son **irrenunciables, inalienables e imprescriptibles** (art. 1.3). No hay intromisión ilegítima si la ley la autoriza o hay consentimiento expreso, revocable con indemnización de daños (art. 2). Son intromisiones, entre otras (art. 7): colocar o usar aparatos de escucha o filmación, divulgar hechos de la vida privada, captar o publicar la imagen en la vida privada y usar nombre, voz o imagen con fines publicitarios."
+      ]
+    },
+    {
+      "titulo": "Descubrimiento y revelación de secretos (arts. 197-201 CP)",
+      "puntos": [
+        "Art. 197 ter: producir, adquirir o facilitar programas, contraseñas o códigos de acceso para cometer estos delitos, prisión de 6 meses a 2 años o multa de 3 a 18 meses. Organización o grupo criminal: pena superior en grado (197 quater). Persona jurídica: multa de 6 meses a 2 años (197 quinquies). El art. 200 extiende el capítulo a datos reservados de personas jurídicas.",
+        "Procedibilidad (art. 201): hace falta **denuncia** de la persona agraviada o de su representante legal; no hace falta para los hechos del art. 198, ni si afecta a intereses generales o a una pluralidad de personas, ni si la víctima es menor o persona con discapacidad necesitada de especial protección. El **perdón** del ofendido extingue la acción penal.",
+        "Haber consentido la grabación no excluye el delito del art. 197.7 si luego se difunde sin autorización y se menoscaba gravemente la intimidad."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Precepto",
+          "Conducta",
+          "Pena"
+        ],
+        "filas": [
+          [
+            "Art. 197.1",
+            "Sin consentimiento y para descubrir secretos o vulnerar la intimidad: apoderarse de cartas, correos electrónicos o documentos; interceptar telecomunicaciones; usar artificios de escucha o grabación",
+            "Prisión de **1 a 4 años** y multa de 12 a 24 meses"
+          ],
+          [
+            "Art. 197.2",
+            "Sin autorización, apoderarse, utilizar, modificar o acceder a datos reservados personales o familiares en ficheros o soportes informáticos",
+            "Las mismas penas"
+          ],
+          [
+            "Art. 197.3",
+            "Difundir, revelar o ceder a terceros lo descubierto (el receptor que conoce su origen ilícito: 1 a 3 años y multa)",
+            "Prisión de **2 a 5 años**"
+          ],
+          [
+            "Art. 197.4",
+            "Hechos de los apartados 1 y 2 cometidos por encargados o responsables de los ficheros, o con uso no autorizado de datos personales de la víctima",
+            "Prisión de **3 a 5 años**"
+          ],
+          [
+            "Art. 197.5 y 197.6",
+            "Datos especialmente protegidos (ideología, religión, creencias, salud, origen racial, vida sexual), víctima menor o con discapacidad necesitada de protección, o fin lucrativo",
+            "Mitad superior; lucro con datos protegidos: **4 a 7 años**"
+          ],
+          [
+            "Art. 197.7",
+            "Difundir sin autorización imágenes o grabaciones obtenidas con la anuencia de la persona en un lugar fuera de la mirada de terceros, menoscabando gravemente su intimidad",
+            "Prisión de **3 meses a 1 año** o multa de 6 a 12 meses; mitad superior si el autor es cónyuge o pareja, la víctima es menor o con discapacidad, o hay lucro"
+          ],
+          [
+            "Art. 197 bis",
+            "Acceder o mantenerse en un sistema de información vulnerando sus medidas de seguridad (197 bis.1); interceptar transmisiones no públicas de datos (197 bis.2)",
+            "6 meses a 2 años; 3 meses a 2 años o multa de 3 a 12 meses"
+          ],
+          [
+            "Art. 198",
+            "Autoridad o funcionario que, sin causa por delito y prevaliéndose del cargo, realiza esas conductas",
+            "Mitad superior e inhabilitación absoluta de 6 a 12 años"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Estafa informática y daños informáticos",
+      "puntos": [
+        "Los daños y las interrupciones de sistemas se castigan cuando son **graves**. Se aplica la mitad superior si se usan ilícitamente datos personales de otra persona para acceder al sistema o ganarse la confianza de un tercero (arts. 264.3 y 264 bis.3).",
+        "Art. 264 ter: producir o facilitar programas o contraseñas para cometer estos delitos, prisión de 6 meses a 2 años o multa de 3 a 18 meses. Art. 264 quater: multa para las personas jurídicas responsables."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Precepto",
+          "Conducta",
+          "Pena"
+        ],
+        "filas": [
+          [
+            "Art. 249.1.a",
+            "Estafa informática: con ánimo de lucro, interferir en un sistema de información o manipular datos informáticos y lograr una transferencia no consentida de un activo patrimonial",
+            "Prisión de 6 meses a 3 años"
+          ],
+          [
+            "Art. 249.1.b",
+            "Uso fraudulento de tarjetas de crédito o débito u otros instrumentos de pago, o sus datos, en perjuicio del titular o de un tercero",
+            "Prisión de 6 meses a 3 años (es estafa)"
+          ],
+          [
+            "Art. 264.1",
+            "Borrar, dañar, alterar, suprimir o hacer inaccesibles datos, programas o documentos electrónicos ajenos, de manera grave y con resultado grave",
+            "Prisión de 6 meses a 3 años"
+          ],
+          [
+            "Art. 264.2",
+            "Agravantes: organización criminal; especial gravedad o gran número de sistemas; perjuicio grave a servicios públicos esenciales o bienes de primera necesidad; infraestructura crítica o peligro grave para la seguridad del Estado; medios del art. 264 ter",
+            "Prisión de **2 a 5 años** y multa del tanto al décuplo del perjuicio"
+          ],
+          [
+            "Art. 264 bis",
+            "Obstaculizar o interrumpir de manera grave el funcionamiento de un sistema informático ajeno",
+            "6 meses a 3 años; con las agravantes del 264.2: **3 a 8 años** y multa del triplo al décuplo"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Prueba digital: medidas de investigación tecnológica (arts. 588 bis a-588 octies LECrim)",
+      "puntos": [
+        "Requisitos comunes: **autorización judicial** por auto motivado, oído el Ministerio Fiscal, y respeto de los principios de **especialidad** (delito concreto, nunca para despejar sospechas), **idoneidad, excepcionalidad, necesidad y proporcionalidad** (art. 588 bis a).",
+        "El juez actúa de oficio o a instancia del Fiscal o de la Policía Judicial (art. 588 bis b), resuelve en **24 horas** (588 bis c), en pieza separada y secreta (588 bis d). La prórroga se resuelve en **2 días** (588 bis f). Las copias de los registros se destruyen a los **5 años** de ejecutada la pena, o si prescriben el delito o la pena, hay sobreseimiento libre o absolución firme (588 bis k).",
+        "Los datos conservados por prestadores solo se incorporan al proceso con autorización judicial (art. 588 ter j). Para identificar a quien usa una **IP**, la Policía Judicial pide al juez que requiera la cesión (588 ter k). Para conocer **la titularidad** de un número o medio de comunicación, el Fiscal o la Policía Judicial pueden dirigirse directamente a los prestadores (588 ter m).",
+        "Agente encubierto informático (art. 282 bis.6): el **juez de instrucción** puede autorizar a policías judiciales a actuar bajo identidad supuesta en canales cerrados de comunicación."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Medida",
+          "Cuándo procede",
+          "Duración"
+        ],
+        "filas": [
+          [
+            "Interceptación de comunicaciones telefónicas y telemáticas (588 ter a-i)",
+            "Delitos dolosos con pena máxima de al menos 3 años, organización o grupo criminal, terrorismo, o delitos cometidos con medios informáticos o TIC",
+            "**3 meses**, prorrogables hasta **18 meses**"
+          ],
+          [
+            "Grabación de comunicaciones orales directas (588 quater a-e)",
+            "Encuentros concretos previsibles del investigado, por delitos dolosos con pena máxima de al menos 3 años, de grupo u organización criminal o de terrorismo",
+            "La del auto"
+          ],
+          [
+            "Seguimiento y localización (588 quinquies b-c)",
+            "Juez; en urgencia, la Policía Judicial coloca el dispositivo e informa en 24 horas",
+            "**3 meses**, prórrogas hasta **18 meses**"
+          ],
+          [
+            "Registro de dispositivos de almacenamiento masivo (588 sexies a-c)",
+            "Motivación individualizada del juez; urgencia con interés constitucional legítimo: examen directo, aviso en 24 horas y decisión del juez en **72 horas**",
+            "La del auto"
+          ],
+          [
+            "Registro remoto (588 septies a-c)",
+            "Organización criminal; terrorismo; delitos contra menores o personas con capacidad modificada judicialmente; contra la Constitución, traición y defensa nacional; delitos cometidos con medios informáticos o TIC",
+            "**1 mes**, prorrogable hasta **3 meses**"
+          ],
+          [
+            "Orden de conservación de datos (588 octies)",
+            "El Fiscal o la Policía Judicial pueden requerirla a cualquier persona hasta obtener autorización judicial de cesión",
+            "**90 días**, prorrogable una vez hasta **180 días**"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Validez e integridad de la prueba digital",
+      "puntos": [
+        "Prueba ilícita: no surten efecto las pruebas obtenidas, directa o indirectamente, violentando derechos o libertades fundamentales (art. 11.1 LOPJ). La simple incautación de un dispositivo no legitima el acceso a su contenido (art. 588 sexies a.2).",
+        "Integridad y autenticidad: el juez fija las condiciones para asegurar la integridad de los datos y su preservación para el dictamen pericial (art. 588 sexies c). Las grabaciones se entregan al juez con sellado o firma electrónica avanzada que asegure su autenticidad e integridad (art. 588 ter f).",
+        "Urgencia en terrorismo: el Ministro del Interior o, en su defecto, el Secretario de Estado de Seguridad puede ordenar la interceptación de comunicaciones; se comunica al juez en **24 horas** y este la confirma o revoca en **72 horas** (art. 588 ter d.3). Los prestadores de servicios deben colaborar y guardar secreto, bajo apercibimiento de desobediencia (art. 588 ter e)."
+      ]
+    }
+  ],
+  "trampas": [
+    "Consentimiento inicial: haber dado la anuencia para ser grabado o fotografiado no excluye el delito de difusión del art. 197.7; el delito se comete al difundir sin autorización.",
+    "La pena mayor del art. 197 aparece con la difusión (2 a 5 años) y cuando el autor es responsable de los ficheros (3 a 5 años); no los confundas con el tipo básico de 1 a 4 años.",
+    "Registro remoto: lista cerrada de cinco grupos de delitos. No vale «cualquier delito con pena de 3 años», que es el criterio de la interceptación de comunicaciones y de la grabación de comunicaciones orales.",
+    "Incautar un dispositivo no es acceder a su contenido: el acceso requiere habilitación judicial (salvo urgencia con interés constitucional legítimo, con control del juez en 24 y 72 horas).",
+    "Plazos: 3 meses con prórrogas a 18 (interceptación, localización); 1 mes a 3 (registro remoto); 90 días a 180 (conservación de datos). Los distractores los intercambian.",
+    "Autoridad para ordenar: el juez decide las medidas; el Fiscal y la Policía Judicial solo piden (salvo conservar datos, identificar titularidades y los casos de urgencia). El agente encubierto informático lo autoriza el juez de instrucción.",
+    "Estafa por tarjeta ajena: es estafa (art. 249.1.b), no hurto ni apropiación indebida. Las citas al art. 248.2 son anteriores a la LO 14/2022.",
+    "Procedibilidad: los delitos de los arts. 197-200 son perseguibles previa denuncia del agraviado, con excepciones (art. 198, intereses generales, pluralidad de personas, víctima menor o con discapacidad necesitada de protección)."
+  ],
+  "caido": [
+    {
+      "examen": "23 abr 2023, 1 mar 2025 y 25 oct 2025",
+      "concepto": "Art. 197 CP: acceso sin autorización al correo de otra persona, difusión de imágenes íntimas obtenidas con consentimiento (197.7), agravación para responsables de ficheros (3 a 5 años) y concepto de dato personal (matrícula, seudónimo)."
+    },
+    {
+      "examen": "13 abr 2024",
+      "concepto": "Daños informáticos (art. 264) y agravación por afectar a servicios públicos esenciales (caso del metro)."
+    },
+    {
+      "examen": "1 mar 2025",
+      "concepto": "LECrim art. 588 septies a: registro remoto de dispositivos y delitos que lo permiten (organización criminal, terrorismo, menores...)."
+    },
+    {
+      "examen": "13 abr 2024",
+      "concepto": "LECrim art. 588 sexies a: acceso a dispositivos hallados en un registro domiciliario."
+    },
+    {
+      "examen": "26 sep 2026",
+      "concepto": "LO 13/2015, de reforma de la LECrim sobre medidas de investigación tecnológica."
+    }
+  ],
+  "mnemotecnias": [
+    "Principios del art. 588 bis a: EIENP, «Especialidad, Idoneidad, Excepcionalidad, Necesidad, Proporcionalidad».",
+    "Plazos tecnológicos: 3-18 (comunicaciones y localización), 1-3 (registro remoto: un mes a tres), 90-180 (conservación)."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Pena básica del art. 197.1 CP (apoderarse de correos, interceptar telecomunicaciones, usar artificios de escucha)?",
+      "r": "Prisión de **1 a 4 años** y multa de 12 a 24 meses."
+    },
+    {
+      "p": "¿Pena si se difunden, revelan o ceden los datos descubiertos (art. 197.3)?",
+      "r": "Prisión de **2 a 5 años**."
+    },
+    {
+      "p": "¿Pena si el autor es el encargado o responsable de los ficheros (art. 197.4)?",
+      "r": "Prisión de **3 a 5 años**."
+    },
+    {
+      "p": "¿Qué castiga el art. 197.7 y con qué pena?",
+      "r": "Difundir sin autorización imágenes o grabaciones obtenidas con la anuencia de la persona en un lugar fuera de la mirada de terceros, si se menoscaba gravemente su intimidad: prisión de **3 meses a 1 año** o multa de 6 a 12 meses."
+    },
+    {
+      "p": "¿Qué conducta castiga el art. 197 bis.1?",
+      "r": "Acceder a un sistema de información o mantenerse en él vulnerando sus medidas de seguridad y sin autorización: prisión de **6 meses a 2 años**."
+    },
+    {
+      "p": "¿Cuándo procede perseguir los delitos del art. 197 sin denuncia (art. 201)?",
+      "r": "Cuando la comete autoridad o funcionario (art. 198), afecta a intereses generales o a una pluralidad de personas, o la víctima es menor o persona con discapacidad necesitada de especial protección."
+    },
+    {
+      "p": "¿Pena base de los daños informáticos del art. 264.1 y de su agravación del art. 264.2?",
+      "r": "Base: prisión de **6 meses a 3 años**. Agravada (organización criminal, servicios públicos esenciales, infraestructura crítica...): **2 a 5 años** y multa del tanto al décuplo del perjuicio."
+    },
+    {
+      "p": "¿Cómo se califica usar fraudulentamente una tarjeta ajena para operar en perjuicio de su titular?",
+      "r": "Como **estafa** del art. 249.1.b, con prisión de 6 meses a 3 años."
+    },
+    {
+      "p": "¿Cuáles son los principios rectores de las medidas de investigación tecnológica (art. 588 bis a)?",
+      "r": "**Especialidad, idoneidad, excepcionalidad, necesidad y proporcionalidad**."
+    },
+    {
+      "p": "¿En qué plazo resuelve el juez la solicitud de una medida de investigación tecnológica (art. 588 bis c)?",
+      "r": "En **24 horas** desde que se presenta la solicitud."
+    },
+    {
+      "p": "¿Duración de la interceptación de comunicaciones telefónicas y telemáticas (art. 588 ter g)?",
+      "r": "**3 meses**, prorrogables por períodos iguales hasta un máximo de **18 meses**."
+    },
+    {
+      "p": "¿Duración del registro remoto sobre equipos informáticos (art. 588 septies c)?",
+      "r": "**1 mes**, prorrogable por iguales períodos hasta un máximo de **3 meses**."
+    },
+    {
+      "p": "¿Cuánto dura la orden de conservación de datos del art. 588 octies?",
+      "r": "**90 días**, prorrogable una sola vez hasta un máximo de **180 días**."
+    },
+    {
+      "p": "¿Qué delitos permiten el registro remoto (art. 588 septies a)?",
+      "r": "Organización criminal; terrorismo; delitos contra menores o personas con capacidad modificada judicialmente; contra la Constitución, traición y defensa nacional; y delitos cometidos con instrumentos informáticos o TIC."
+    },
+    {
+      "p": "¿Legitima la simple incautación de un móvil en un registro domiciliario el acceso a su contenido?",
+      "r": "**No**. El acceso exige que la resolución judicial lo justifique o una autorización judicial posterior (art. 588 sexies a.2)."
+    },
+    {
+      "p": "¿Quién puede autorizar un agente encubierto informático en canales cerrados de comunicación (art. 282 bis.6)?",
+      "r": "El **juez de instrucción**."
+    },
+    {
+      "p": "¿Qué efecto tiene una prueba obtenida violentando derechos fundamentales (art. 11.1 LOPJ)?",
+      "r": "**No surte efecto**, ni la obtenida directa ni la obtenida indirectamente."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Según el art. 197.1 del Código Penal, quien, para descubrir los secretos o vulnerar la intimidad de otro y sin su consentimiento, se apodera de sus mensajes de correo electrónico, será castigado con:",
+      "opciones": [
+        "Prisión de 1 a 4 años y multa de 12 a 24 meses.",
+        "Prisión de 6 meses a 2 años.",
+        "Prisión de 3 a 5 años."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 197.1 castiga con prisión de 1 a 4 años y multa de 12 a 24 meses a quien se apodera de papeles, cartas, mensajes de correo electrónico u otros documentos o efectos personales para descubrir secretos o vulnerar la intimidad. La prisión de 6 meses a 2 años es la del acceso ilícito a un sistema (art. 197 bis.1) y la de 3 a 5 años, la del art. 197.4.",
+      "ref": "art. 197.1 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "El responsable de un fichero de datos personales que, sin estar autorizado, accede a datos reservados de un tercero comete el delito del art. 197 CP con la pena de:",
+      "opciones": [
+        "Prisión de 3 a 5 años.",
+        "Prisión de 2 a 5 años.",
+        "Prisión de 1 a 4 años y multa de 12 a 24 meses."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 197.4 eleva la pena a prisión de 3 a 5 años cuando los hechos de los apartados 1 y 2 los cometen las personas encargadas o responsables de los ficheros, soportes o archivos. La prisión de 2 a 5 años es la de la difusión o cesión a terceros (197.3) y la de 1 a 4 años es la del tipo básico.",
+      "ref": "art. 197.4 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una persona graba con su pareja, con el consentimiento de ambos, un vídeo íntimo en el domicilio. Tras la ruptura, lo envía a terceros sin autorización de su expareja, menoscabando gravemente su intimidad. ¿Cómo debe calificarse?",
+      "opciones": [
+        "Es atípico, porque la grabación se hizo con consentimiento.",
+        "Es delito del art. 197.7: la anuencia para obtener las imágenes no autoriza su difusión.",
+        "Es delito del art. 197.1, por apoderarse de sus documentos o efectos personales."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 197.7 castiga la difusión, revelación o cesión sin autorización de imágenes o grabaciones obtenidas con anuencia de la persona en un lugar fuera de la mirada de terceros, si menoscaba gravemente su intimidad. El consentimiento para grabar no cubre la difusión, por lo que no es atípico, y no hay apoderamiento ilícito de documentos que justifique el art. 197.1. Si el autor es o fue pareja, se aplica la mitad superior.",
+      "ref": "art. 197.7 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Quien, sin estar debidamente autorizado y vulnerando las medidas de seguridad establecidas, accede a un sistema de información o se mantiene en él en contra de la voluntad de quien tenga derecho a excluirlo, incurre en el delito del art. 197 bis.1 CP, castigado con:",
+      "opciones": [
+        "Prisión de 3 meses a 1 año.",
+        "Prisión de 1 a 4 años y multa de 12 a 24 meses.",
+        "Prisión de 6 meses a 2 años."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 197 bis.1 prevé prisión de 6 meses a 2 años para el acceso o mantenimiento ilícito en un sistema de información vulnerando sus medidas de seguridad. La prisión de 1 a 4 años con multa es la del art. 197.1 y la de 3 meses a 1 año o multa, la del art. 197.7.",
+      "ref": "art. 197 bis.1 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un atacante borra y deja inaccesibles datos del sistema informático de un operador de transporte urbano y perjudica gravemente el funcionamiento de un servicio público esencial. ¿Qué pena le corresponde en el Código Penal?",
+      "opciones": [
+        "La del tipo agravado del art. 264.2: prisión de 2 a 5 años y multa del tanto al décuplo del perjuicio.",
+        "La del tipo básico de daños informáticos: prisión de 6 meses a 3 años.",
+        "La de la estafa informática: prisión de 6 meses a 3 años."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 264.2.3.ª agrava los daños informáticos cuando el hecho perjudica gravemente el funcionamiento de servicios públicos esenciales o la provisión de bienes de primera necesidad: prisión de 2 a 5 años y multa del tanto al décuplo del perjuicio. No hay ánimo de lucro ni transferencia patrimonial que justifique la estafa del art. 249.",
+      "ref": "art. 264.2.3.ª CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El uso fraudulento de una tarjeta de crédito o débito ajena para realizar operaciones en perjuicio de su titular se tipifica en el Código Penal como:",
+      "opciones": [
+        "Hurto del art. 234.",
+        "Apropiación indebida del art. 253.",
+        "Estafa del art. 249.1.b."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 249.1.b considera reos de estafa a quienes utilizan de forma fraudulenta tarjetas de crédito o débito u otros instrumentos de pago, o sus datos, y realizan operaciones en perjuicio de su titular o de un tercero, con prisión de 6 meses a 3 años.",
+      "ref": "art. 249.1.b CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes NO es un principio rector de las medidas de investigación tecnológica según el art. 588 bis a LECrim?",
+      "opciones": [
+        "Idoneidad.",
+        "Oportunidad.",
+        "Necesidad."
+      ],
+      "correcta": 1,
+      "explicacion": "Los principios del art. 588 bis a son especialidad, idoneidad, excepcionalidad, necesidad y proporcionalidad. La oportunidad es uno de los principios de uso de la fuerza de la LO 2/1986 (congruencia, oportunidad y proporcionalidad), no de estas medidas.",
+      "ref": "art. 588 bis a LECrim",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Cuando el Ministerio Fiscal o la Policía Judicial solicitan una medida de investigación tecnológica, el juez de instrucción debe autorizarla o denegarla mediante auto motivado en el plazo máximo de:",
+      "opciones": [
+        "Veinticuatro horas desde que se presente la solicitud.",
+        "Cuarenta y ocho horas desde que se presente la solicitud.",
+        "Setenta y dos horas desde que se presente la solicitud."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 588 bis c.1 fija un plazo máximo de 24 horas desde la solicitud, tras oír al Ministerio Fiscal; si necesita aclaraciones, el plazo se interrumpe. Las 72 horas son el plazo del juez para confirmar o revocar medidas adoptadas con urgencia por la Policía Judicial.",
+      "ref": "art. 588 bis c LECrim",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué medida de investigación tecnológica tiene una duración máxima de un mes, prorrogable por iguales períodos hasta un máximo de tres meses?",
+      "opciones": [
+        "La interceptación de comunicaciones telefónicas y telemáticas.",
+        "Los dispositivos de seguimiento y localización.",
+        "El registro remoto sobre equipos informáticos."
+      ],
+      "correcta": 2,
+      "explicacion": "El registro remoto, regulado en el art. 588 septies c, dura un mes, prorrogable hasta tres. La interceptación de comunicaciones (art. 588 ter g, tres meses y prórrogas hasta dieciocho) y el seguimiento y localización (art. 588 quinquies c, igual duración) tienen un plazo inicial de tres meses y un máximo de dieciocho.",
+      "ref": "arts. 588 septies c, 588 ter g y 588 quinquies c LECrim",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Durante un registro domiciliario autorizado, la Policía Judicial incauta un teléfono móvil del investigado. ¿Qué regla rige el acceso a su contenido?",
+      "opciones": [
+        "La incautación ya legitima por sí sola el acceso a todo el contenido.",
+        "La mera incautación no legitima el acceso: la resolución judicial debe justificarlo o el juez debe autorizarlo después.",
+        "Basta la autorización del Ministerio Fiscal para acceder al contenido."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 588 sexies a.2 dispone que la simple incautación de dispositivos durante un registro domiciliario no legitima el acceso a su contenido, sin perjuicio de que el juez pueda autorizarlo después. Solo en urgencia con interés constitucional legítimo la Policía Judicial puede hacer un examen directo, comunicándolo al juez en 24 horas para que lo confirme o revoque en 72 horas.",
+      "ref": "arts. 588 sexies a.2 y 588 sexies c.4 LECrim",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes supuestos NO figura entre los delitos que permiten el registro remoto sobre equipos informáticos según el art. 588 septies a LECrim?",
+      "opciones": [
+        "Delitos de terrorismo.",
+        "Delitos cometidos contra menores o personas con capacidad modificada judicialmente.",
+        "Cualquier delito doloso con pena máxima de al menos tres años de prisión."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 588 septies a contiene una lista cerrada: organización criminal, terrorismo, delitos contra menores o personas con capacidad modificada judicialmente, delitos contra la Constitución, traición y defensa nacional y delitos cometidos con instrumentos informáticos o TIC. El criterio de pena máxima de al menos tres años pertenece a otras medidas, como la interceptación de comunicaciones del art. 579.1.",
+      "ref": "art. 588 septies a LECrim",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Respecto a la orden de conservación de datos del art. 588 octies LECrim, señale la afirmación correcta:",
+      "opciones": [
+        "Solo puede dictarla el juez y los datos se conservan 30 días.",
+        "El Ministerio Fiscal o la Policía Judicial pueden requerirla y los datos se conservan 90 días, prorrogables una sola vez hasta 180 días.",
+        "Solo la Policía Judicial puede dictarla y los datos se conservan 6 meses sin posibilidad de prórroga."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 588 octies permite al Fiscal o a la Policía Judicial requerir la conservación y protección de datos hasta obtener autorización judicial de cesión. El plazo máximo es de 90 días, prorrogable una sola vez hasta que se autorice la cesión o se cumplan 180 días.",
+      "ref": "art. 588 octies LECrim",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "La Policía Judicial detecta una dirección IP desde la que se está cometiendo un delito en internet, sin que consten los datos del usuario ni la ubicación del equipo. ¿Qué debe hacer para identificarlo?",
+      "opciones": [
+        "Dirigirse directamente a la operadora para que le facilite la identidad del titular, igual que para conocer la titularidad de un número de teléfono.",
+        "Solicitar al juez de instrucción que requiera a los sujetos obligados la cesión de los datos que permitan identificar y localizar el terminal y al sospechoso.",
+        "Esperar a que la víctima interponga querella, pues sin ella no puede investigar."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 588 ter k exige solicitar al juez de instrucción que requiera la cesión de los datos de identificación y localización. Solo para conocer la titularidad de un número de teléfono o medio de comunicación (o el número de un titular conocido) pueden el Fiscal o la Policía Judicial dirigirse directamente a los prestadores (art. 588 ter m).",
+      "ref": "arts. 588 ter k y 588 ter m LECrim",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "La autorización para que un policía judicial actúe bajo identidad supuesta en comunicaciones mantenidas en canales cerrados (agente encubierto informático) corresponde:",
+      "opciones": [
+        "Al Ministerio del Interior, que otorga la identidad supuesta.",
+        "Al juez de instrucción.",
+        "Al Ministerio Fiscal, dando cuenta posterior al juez."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 282 bis.6 atribuye al juez de instrucción la autorización para actuar bajo identidad supuesta en canales cerrados de comunicación. En el agente encubierto general (art. 282 bis.1) pueden autorizarlo el juez o el Fiscal con cuenta inmediata al juez, y el Ministerio del Interior solo otorga la identidad supuesta.",
+      "ref": "art. 282 bis.6 LECrim",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Según el art. 201 del Código Penal, ¿en cuál de los siguientes supuestos NO es necesaria la denuncia de la persona agraviada para perseguir un delito de descubrimiento y revelación de secretos?",
+      "opciones": [
+        "Cuando el hecho lo comete una autoridad o funcionario público prevaliéndose de su cargo (art. 198).",
+        "Cuando la víctima es mayor de edad y el autor un particular.",
+        "Cuando la víctima ha perdonado al autor."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 201.2 exime de denuncia los hechos del art. 198, los que afectan a intereses generales o a una pluralidad de personas y los cometidos contra menores o personas con discapacidad necesitadas de especial protección. Con víctima mayor y autor particular sí hace falta denuncia, y el perdón del ofendido extingue la acción penal, no la sustituye.",
+      "ref": "art. 201 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Conforme al art. 1.3 de la LO 1/1982, los derechos al honor, a la intimidad personal y familiar y a la propia imagen son:",
+      "opciones": [
+        "Irrenunciables, inalienables e imprescriptibles.",
+        "Renunciables y transmisibles, pero imprescriptibles.",
+        "Renunciables y prescriptibles a los cuatro años."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 1.3 de la LO 1/1982 declara irrenunciables, inalienables e imprescriptibles estos derechos. La renuncia a su protección es nula, sin perjuicio del consentimiento expreso del art. 2, que es revocable.",
+      "ref": "art. 1.3 LO 1/1982",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Las pruebas obtenidas, directa o indirectamente, violentando los derechos o libertades fundamentales, según el art. 11.1 de la LOPJ:",
+      "opciones": [
+        "Se valoran con menor peso probatorio.",
+        "Son válidas si el juez las confirma posteriormente.",
+        "No surtirán efecto."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 11.1 LOPJ establece que no surtirán efecto las pruebas obtenidas, directa o indirectamente, violentando los derechos o libertades fundamentales. No se trata de un menor valor probatorio ni cabe su convalidación posterior por el juez.",
+      "ref": "art. 11.1 LOPJ",
+      "dificultad": 1
+    }
+  ],
+  "dudas": []
+}

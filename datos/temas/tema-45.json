@@ -1,0 +1,559 @@
+{
+ "tema": 45,
+ "titulo": "PRL en seguridad vial y vehículos policiales",
+ "bloque": "C",
+ "actualizado": "2026-10-16",
+ "peso": {
+  "nivel": "bajo",
+  "nota": "Media de 0,8 preguntas (0-1 por examen, confianza alta). Salen el tiempo de reacción (0,75 s), la Estrategia de Seguridad Vial 2030 (factor humano, Sistema Seguro) y la tasa de alcohol de los conductores de servicios de urgencia."
+ },
+ "normas": [
+  {
+   "nombre": "INSST, «Seguridad Vial Laboral» (portal del Instituto Nacional de Seguridad y Salud en el Trabajo)",
+   "url": "https://www.insst.es/materias/transversales/seguridad-vial-laboral",
+   "verificado": "Consultado el 16/10/2026"
+  },
+  {
+   "nombre": "DGT, Manual II «Cuestiones de Seguridad Vial de la Circulación» (ed. 2020): temas 1, 4 y 8",
+   "url": "https://sede.dgt.gob.es/export/sites/dgt/.galleries/permisos-de-conducir/certificacion-aptitud-profesores-formacion-vial/2020/Manual-II-Cuestiones-de-Seguridad-Vial-2020.pdf",
+   "verificado": "Consultado el 16/10/2026"
+  },
+  {
+   "nombre": "DGT, Estrategia de Seguridad Vial 2030 (resumen), presentada el 14/02/2022",
+   "url": "https://seguridadvial2030.dgt.es/export/sites/sv2030/.galleries/descargas/Estrategia_de_Seguridad_Vial_2030_Resumen.pdf",
+   "verificado": "Consultado el 16/10/2026"
+  },
+  {
+   "nombre": "Instrucción Operativa de Prevención de Riesgos IOPR-003 «Utilización de vehículos de la D.G.P.», Dirección General de la Policía (ed. 1.ª, 26/11/2013)",
+   "url": "https://sup.es/wp-content/uploads/2014/03/IOPR-003-Utilizacion-de-vehiculo-26.11.2013-942.pdf",
+   "verificado": "Documento de 2013 consultado el 16/10/2026 (copia alojada por un sindicato)"
+  },
+  {
+   "nombre": "Real Decreto 2/2006, de 16 de enero, prevención de riesgos laborales en la actividad de los funcionarios del Cuerpo Nacional de Policía",
+   "boe": "BOE-A-2006-624",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-624",
+   "verificado": "Texto consolidado, actualización de 18/12/2025 (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Real Decreto 773/1997, de 30 de mayo, utilización por los trabajadores de equipos de protección individual",
+   "boe": "BOE-A-1997-12735",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-12735",
+   "verificado": "Texto consolidado, actualización de 18/12/2025 (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Real Decreto 1428/2003, Reglamento General de Circulación (arts. 20 y 118)",
+   "boe": "BOE-A-2003-23514",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+   "verificado": "Texto consolidado, actualización de 01/10/2026 (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Real Decreto 2822/1998, Reglamento General de Vehículos (anexos VII y XII)",
+   "boe": "BOE-A-1999-1826",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+   "verificado": "Texto consolidado, actualización de 01/10/2026 (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Real Decreto Legislativo 6/2015, texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial (art. 10.3)",
+   "boe": "BOE-A-2015-11722",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+   "verificado": "Texto consolidado, actualización de 01/10/2026 (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Real Decreto 518/2026, de 24 de junio, por el que se modifica el Reglamento General de Circulación en materia de protección a usuarios vulnerables de la vía",
+   "boe": "BOE-A-2026-13889",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-13889",
+   "verificado": "Texto original del BOE, en vigor desde el 01/10/2026 (leído el 16/10/2026)"
+  }
+ ],
+ "novedades": [
+  "**RD 518/2026** (en vigor desde el 1/10/2026): quienes conducen profesionalmente motocicletas, ciclomotores, bicicletas y vehículos de movilidad personal deben llevar chaleco reflectante de alta visibilidad **en todo tipo de vías** (art. 118.4 RGC); los motoristas, guantes en vías interurbanas y calzado cerrado en todas; y las motocicletas llevan chaleco en su dotación (anexo XII RGV).",
+  "La **Estrategia de Seguridad Vial 2030** (presentada el 14/2/2022) sustenta la política de la DGT en el enfoque **Sistema Seguro** y la Visión Cero; el material anterior a esa fecha puede seguir otras estrategias."
+ ],
+ "clave": [
+  "Factores del tráfico: **humano, vehículo y vía y su entorno** (ambiental). El INSST añade, en los accidentes laborales de tráfico, la **organización del trabajo**.",
+  "Peso orientativo (DGT): factor **humano 70-90 %**, vía 10-35 %, vehículo 4-13 %.",
+  "**Tiempo de reacción** normal: **0,75 s**; son unos **10 m a 50 km/h** y unos **25 m a 120 km/h** antes de frenar.",
+  "Alcohol (art. 20 RGC): general **0,5 g/l** en sangre y **0,25 mg/l** en aire; conductores de **servicios de urgencia** (y profesionales) y noveles, **0,3 g/l** y **0,15 mg/l**.",
+  "Accidente laboral de tráfico: **in itínere** (ida o vuelta al trabajo) o **en jornada** (en misión).",
+  "**Sistema Seguro** (ESV 2030): Visión Cero; cuatro principios (falibilidad, vulnerabilidad, responsabilidad compartida, enfoque integral o redundancia); objetivo 2030: **-50 %** de fallecidos y heridos graves respecto a 2019.",
+  "RD 2/2006: la **Administración** proporciona los EPI adecuados y vela por su uso (art. 6.2); el funcionario los usa correctamente (art. 12.2). El RD 773/1997 **excluye** de su definición de EPI los de los policías (art. 2.2.c).",
+  "**Chaleco reflectante**: EPI y dotación del vehículo; obligatorio al salir del vehículo y ocupar la calzada o el arcén de vías **interurbanas** (art. 118.4 RGC).",
+  "Mantenimiento: **preventivo** (programa del fabricante), **predictivo** (inspecciones técnicas) y **correctivo** (avería o accidente) (IOPR-003).",
+  "Verificación previa del vehículo policial: en cada cambio de turno en los vehículos Zs y, en el resto, **al menos cada quince días**.",
+  "No apto hasta repararlo: fallo en neumáticos, niveles, testigos (rojo), iluminación o documentación. Neumáticos: **1,6 mm** de dibujo mínimo (M1, N1, O1, O2)."
+ ],
+ "resumen": [
+  {
+   "titulo": "Factores del tráfico y siniestralidad",
+   "puntos": [
+    "El tráfico es un sistema en el que intervienen el **factor humano, el vehículo y la vía y su entorno** (DGT). El INSST, en los accidentes laborales de tráfico, añade el factor **organización del trabajo**.",
+    "Ningún factor actúa solo: un reventón apunta al vehículo, pero revisar los neumáticos antes del viaje podía haberlo evitado; con niebla, el conductor debía adaptar la velocidad. Por eso la DGT centra la atención en el conductor, el factor más flexible.",
+    "Estudios citados por la DGT atribuyen al **factor humano entre el 70 y el 90 %** de los accidentes, a la vía y su entorno entre el 10 y el 35 % y al vehículo entre el 4 y el 13 %.",
+    "La DGP parte de tres límites de la conducción: los **personales** del conductor (reflejos, anticipación, fatiga), los **del vehículo** (características, estabilidad, estado) y los del **medio externo** (calzada, meteorología, visibilidad)."
+   ],
+   "tabla": {
+    "cabecera": [
+     "Factor",
+     "Qué incluye (INSST)",
+     "Peso orientativo (DGT)"
+    ],
+    "filas": [
+     [
+      "Humano",
+      "Comportamiento y actitud ante la seguridad; uso de aparatos tecnológicos, alcohol, estupefacientes, psicofármacos, sueño, fatiga, distracciones",
+      "**70-90 %**"
+     ],
+     [
+      "Vía y entorno (ambiental)",
+      "Características de la vía y circunstancias que influyen en su seguridad (mantenimiento, señalización) y las climatológicas",
+      "10-35 %"
+     ],
+     [
+      "Vehículo",
+      "Seguridad activa (alumbrado, neumáticos, frenos, suspensión) y pasiva (cinturón, airbag, casco, chasis, reposacabezas), con su mantenimiento",
+      "4-13 %"
+     ],
+     [
+      "Organización del trabajo",
+      "Horarios, ritmo, tiempos de entrega, pausas, remuneración, alternancia con otras tareas, planificación de rutas, apoyo ante incidencias",
+      "—"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Tiempo de reacción, distancias y alcohol",
+   "puntos": [
+    "**Tiempo de reacción**: el que pasa desde que se percibe el peligro hasta que se acciona el pedal del freno. Se considera normal **0,75 s**; se compone de tiempo de decisión y tiempo motor. Aumenta con alcohol, fatiga, distracciones, calor y ciertos medicamentos y enfermedades.",
+    "En ese tiempo se recorre la **distancia de reacción**: unos **10,4 m a 50 km/h** y unos **25 m a 120 km/h**. La distancia de detención es la suma de la de reacción y la de frenado.",
+    "**Alcohol** (art. 20 RGC): tasa general máxima de **0,5 g/l** en sangre o **0,25 mg/l** en aire espirado. Para los conductores de vehículos de **servicio de urgencia** o transportes especiales, de mercancías de más de 3.500 kg, de viajeros de más de nueve plazas, de servicio público, escolar y de menores y de mercancías peligrosas: **0,3 g/l** o **0,15 mg/l**. Igual para cualquier conductor durante los **dos años** siguientes a obtener el permiso."
+   ]
+  },
+  {
+   "titulo": "Accidentes laborales de tráfico y riesgos de conducir un vehículo prioritario",
+   "puntos": [
+    "**Accidente laboral de tráfico (ALT)** según el INSST: ocurre en vías o terrenos objeto de la legislación de tráfico, implica al menos un vehículo en movimiento y el trabajador es conductor, pasajero o peatón. Por el momento: **in itínere** (camino de ida o vuelta entre el domicilio habitual y el trabajo, sin interrupciones y por el itinerario habitual) o **en jornada laboral** (también llamado accidente en misión).",
+    "Riesgos del vehículo policial que señala la DGP (IOPR-003): muchas horas al volante; la **velocidad en los servicios de urgencia**, que agrava los daños; la mala colocación al volante, que produce dolencias dorsolumbares; y una siniestralidad de la flota por encima de la media de otros servicios de urgencia comparables.",
+    "Otros riesgos: **fatiga** (el jefe del dispositivo debe tener en cuenta los descansos al planificar los servicios), el uso de radio y teléfono mientras se atiende la sirena, las luces y el tráfico, y, en **motocicleta**, el doble de probabilidad de accidente por su vulnerabilidad."
+   ]
+  },
+  {
+   "titulo": "Equipos de protección individual del conductor y de los pasajeros",
+   "puntos": [
+    "**RD 2/2006**: la Administración proporciona a los funcionarios del CNP EPI adecuados para sus funciones y vela por su uso efectivo y correcto (art. 6.2); ellos deben utilizar correctamente los medios y equipos de protección y no poner fuera de funcionamiento los dispositivos de seguridad (art. 12.2).",
+    "**RD 773/1997**: EPI es cualquier equipo destinado a ser llevado o sujetado por el trabajador para protegerle de riesgos para su seguridad o su salud (art. 2.1). Quedan **excluidos** de esa definición los EPI de los militares, de los **policías** y de las personas de los servicios de mantenimiento del orden, y los de los medios de transporte por carretera (art. 2.2).",
+    "El **chaleco reflectante de alta visibilidad** es EPI y dotación del vehículo: lo usa el conductor cuando salga y ocupe la calzada o el arcén de vías interurbanas (art. 118.4 RGC; anexo XII RGV; IOPR-003). La DGP aconseja usar el cinturón siempre, incluso en servicio urgente."
+   ],
+   "tabla": {
+    "cabecera": [
+     "Elemento",
+     "Norma",
+     "Cuándo se usa"
+    ],
+    "filas": [
+     [
+      "Casco UNECE R22",
+      "Art. 118.1 RGC",
+      "Conductor y pasajero de motocicletas y similares, en todo tipo de vías"
+     ],
+     [
+      "Guantes de protección",
+      "Art. 118.1 RGC",
+      "Vías interurbanas"
+     ],
+     [
+      "Calzado cerrado",
+      "Art. 118.1 RGC",
+      "Todo tipo de vías"
+     ],
+     [
+      "Chaleco reflectante de alta visibilidad",
+      "Art. 118.4 RGC; anexo XII RGV",
+      "Al salir del vehículo y ocupar calzada o arcén de vía interurbana; dotación de turismos y motocicletas"
+     ],
+     [
+      "Cinturón de seguridad",
+      "Arts. 117 a 119 RGC",
+      "Siempre; la exención de los servicios de urgencia vale solo en poblado"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Estrategias preventivas",
+   "puntos": [
+    "**Estrategia de Seguridad Vial 2030** (DGT): enfoque de **Sistema Seguro** con **Visión Cero**: eliminar las lesiones mortales y graves, no los siniestros. Cuatro principios: **falibilidad** (las personas se equivocan), **vulnerabilidad** (el cuerpo humano tolera de forma limitada un impacto), **responsabilidad compartida** y **enfoque integral o de redundancia**.",
+    "Objetivos de 2030: reducir un **50 %** los fallecidos (base de 2019: 1.755) y los heridos graves (8.613).",
+    "**Plan de seguridad vial laboral** (INSST): instrumento de planificación de la prevención que recoge las estrategias, acciones, mecanismos y medidas para evitar y controlar los riesgos de la movilidad por motivo de trabajo; se basa en la evaluación de riesgos y en el análisis de la movilidad. Norma técnica de referencia: **ISO 39001** (sistemas de gestión de la seguridad vial).",
+    "Evaluación de riesgos en la Policía: se revisa **cada cuatro años** y, además, ante daños para la salud, equipos nuevos o inadecuación de la protección (art. 5.2 RD 2/2006)."
+   ]
+  },
+  {
+   "titulo": "Mantenimiento preventivo del vehículo prioritario",
+   "puntos": [
+    "Todo vehículo policial requiere mantenimiento **preventivo** periódico (al menos el programado por el fabricante), **predictivo** (el establecido en las inspecciones técnicas) y **correctivo** (en caso de avería o accidente) (IOPR-003). El titular debe mantenerlo en las condiciones legales y reglamentarias y someterlo a las inspecciones correspondientes (art. 10.3 RDL 6/2015).",
+    "Verificación previa por el conductor y su acompañante: **en cada cambio de turno** en los vehículos Zs y, en el resto de vehículos policiales, **al menos una vez cada quince días**. Las incidencias se anotan en el Libro de Servicio de la Unidad y en el Libro de Control de Vehículos y Material de Dotación.",
+    "Si falla alguna comprobación de neumáticos, niveles, testigos, iluminación o documentación, el vehículo **no es apto** para el servicio hasta que se solucione. La falta de otros elementos se comunica de inmediato al responsable de la Unidad, que decide si es apto.",
+    "Neumáticos: ranuras principales con profundidad mínima de **1,6 mm** (M1, N1, O1 y O2) o **1,0 mm** (M2, M3, N2, N3, O3 y O4) (anexo VII RGV)."
+   ],
+   "tabla": {
+    "cabecera": [
+     "Comprobación",
+     "Qué se verifica (IOPR-003)"
+    ],
+    "filas": [
+     [
+      "Neumáticos",
+      "Presión según el fabricante; acanaladuras dentro del margen legal (indicadores de desgaste); sin deformaciones ni cortes"
+     ],
+     [
+      "Niveles",
+      "Aceite del motor, refrigerante, líquido de frenos y líquido de dirección, entre el mínimo y el máximo"
+     ],
+     [
+      "Testigos",
+      "Sin testigos de fallo mecánico o eléctrico tras arrancar; con color rojo no se puede circular"
+     ],
+     [
+      "Iluminación",
+      "Alumbrado y señalización convencional y puente de señalización policial"
+     ],
+     [
+      "Complementos",
+      "Existencia y estado de la dotación: material policial y auxiliar, linternas, extintor, rueda de repuesto o kit antipinchazos, triángulos, chalecos"
+     ],
+     [
+      "Documentación",
+      "Permiso de circulación, tarjeta ITV, certificado y recibo del seguro e informe ITV policial"
+     ],
+     [
+      "Higiene",
+      "Limpieza y desinfección según el uso (barro, vómitos, sangre en el traslado de detenidos)"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Otros principios de la prevención y de la conducción policial",
+   "ampliado": true,
+   "puntos": [
+    "Principios de la acción preventiva en la Policía (art. 4 RD 2/2006, diez): evitar los riesgos; evaluar los de imposible o muy difícil evitación; combatir los riesgos en su origen; adaptar el trabajo al funcionario; tener en cuenta la evolución de la técnica; priorizar la protección colectiva sobre la individual; estimular el interés de los funcionarios mediante formación e información; elegir los medios y equipos más adecuados; incorporar la prevención a los métodos y procedimientos; dar las debidas instrucciones.",
+    "Conducción policial (IOPR-003): el patrullaje cumple el RGC y se basa en una conducción eficiente y preventiva con tres principios, **visión, anticipación y espacio**; en servicio de urgencia se respetan los arts. 67 y 68 RGC. Con la radio se usa el tono bajo de la sirena. Los agentes están exentos de la prohibición de usar manos libres, pero es un riesgo crítico si el conductor va solo.",
+    "El vehículo policial es lugar de trabajo: está prohibido fumar en su interior. Al recoger y devolver el vehículo se comprueba y anota su estado; el control del mantenimiento corresponde, en general, a la División Económica y Técnica (Área de Automoción) y, en concreto, a los jefes de unidad.",
+    "Formación: los funcionarios reciben formación teórica y práctica en prevención de riesgos en el ingreso, la promoción y la especialización (art. 8 RD 2/2006); los conductores de la DGP reciben formación específica acorde con la actividad policial (IOPR-003)."
+   ]
+  }
+ ],
+ "trampas": [
+  "Alcohol: **0,5 g/l y 0,25 mg/l** para el conductor general; **0,3 g/l y 0,15 mg/l** para urgencias, otros profesionales y noveles. No mezclar sangre (g/l) con aire espirado (mg/l).",
+  "Tiempo de reacción **0,75 s** (no 0,25 ni 1,5); a 50 km/h son unos 10 m y a 120 km/h unos 25 m.",
+  "Los porcentajes de la DGT (humano 70-90 %, vía 10-35 %, vehículo 4-13 %) son rangos de estudios y no suman 100.",
+  "ALT **in itínere** (de casa al trabajo y vuelta) frente a ALT **en jornada o en misión**.",
+  "El RD 773/1997 **excluye** de su definición de EPI los de los policías; los EPI de los funcionarios del CNP se rigen por el RD 2/2006 (art. 6.2).",
+  "Chaleco reflectante: obligatorio **al salir del vehículo y ocupar calzada o arcén de vía interurbana**, no «siempre que se conduzca».",
+  "Mantenimiento: preventivo = programa del fabricante; **predictivo = inspecciones técnicas**; correctivo = avería o accidente.",
+  "Verificación previa: **cada cambio de turno** (vehículos Zs) o, en el resto, **cada quince días**, no cada mes ni antes de cada servicio.",
+  "El Sistema Seguro no pretende eliminar los siniestros, sino las **lesiones mortales y graves**."
+ ],
+ "caido": [
+  {
+   "examen": "26 sep 2026",
+   "concepto": "Tiempo de reacción normal (0,75 s)"
+  },
+  {
+   "examen": "25 oct 2025",
+   "concepto": "Estrategia de Seguridad Vial 2030: el factor humano en el Sistema Seguro"
+  },
+  {
+   "examen": "23 abr 2023",
+   "concepto": "Tasa de alcohol de los conductores de servicios de urgencia (0,3 g/l en sangre)"
+  }
+ ],
+ "mnemotecnias": [
+  "Alcohol: 5 y 25 para el conductor corriente; 3 y 15 para quien vive del volante (urgencias, transporte) y para el novel.",
+  "Reacción 0,75 s: unos 10 m a 50 km/h y unos 25 m a 120 km/h.",
+  "Mantenimiento: preventivo = fabricante, predictivo = ITV, correctivo = avería."
+ ],
+ "tarjetas": [
+  {
+   "p": "¿Cuáles son los factores del tráfico?",
+   "r": "El **factor humano, el vehículo y la vía y su entorno** (ambiental). El INSST añade la **organización del trabajo** en los accidentes laborales de tráfico."
+  },
+  {
+   "p": "¿Qué peso atribuye la DGT a cada factor?",
+   "r": "**Humano 70-90 %**; vía y entorno 10-35 %; vehículo 4-13 % (rangos de estudios, no suman 100)."
+  },
+  {
+   "p": "¿Cuál es el tiempo de reacción normal?",
+   "r": "Unos **0,75 s** entre percibir el peligro y accionar el freno. Aumenta con alcohol, fatiga, distracciones y calor."
+  },
+  {
+   "p": "¿Qué distancia se recorre durante el tiempo de reacción?",
+   "r": "Unos **10,4 m a 50 km/h** y unos **25 m a 120 km/h**. Distancia de detención = reacción + frenado."
+  },
+  {
+   "p": "¿Qué tasas de alcohol se aplican a los conductores de vehículos de urgencia?",
+   "r": "**0,3 g/l** en sangre o **0,15 mg/l** en aire espirado (art. 20 RGC); la general es 0,5 g/l o 0,25 mg/l. Los noveles (dos años), igual que urgencias."
+  },
+  {
+   "p": "¿Qué es un accidente laboral de tráfico in itínere?",
+   "r": "El que sufre el trabajador **yendo o volviendo del domicilio habitual al trabajo**, sin interrupciones y por el itinerario habitual. Si ocurre durante la jornada por motivos de trabajo es **en jornada o en misión**."
+  },
+  {
+   "p": "¿Qué principios sustentan el Sistema Seguro?",
+   "r": "**Falibilidad, vulnerabilidad, responsabilidad compartida y enfoque integral o de redundancia**. Visión Cero: eliminar las lesiones mortales y graves."
+  },
+  {
+   "p": "¿Qué objetivo fija la Estrategia de Seguridad Vial 2030?",
+   "r": "Reducir a la mitad (**-50 %**) los fallecidos (base 2019: 1.755) y los heridos graves (8.613) en 2030."
+  },
+  {
+   "p": "¿Qué dice el RD 2/2006 sobre los EPI de los funcionarios del CNP?",
+   "r": "La **Administración** los proporciona adecuados y vela por su uso efectivo y correcto (art. 6.2); el funcionario debe utilizarlos correctamente (art. 12.2)."
+  },
+  {
+   "p": "¿Qué EPI quedan fuera de la definición del RD 773/1997?",
+   "r": "Entre otros, los de **militares, policías y servicios de mantenimiento del orden** y los de los medios de transporte por carretera (art. 2.2)."
+  },
+  {
+   "p": "¿Cuándo debe usar el conductor el chaleco reflectante de alta visibilidad?",
+   "r": "Cuando **salga del vehículo y ocupe la calzada o el arcén de vías interurbanas** (art. 118.4 RGC). Es dotación del vehículo y EPI."
+  },
+  {
+   "p": "¿Qué protecciones llevan los motoristas?",
+   "r": "**Casco** UNECE R22 (todas las vías), **guantes** (vías interurbanas) y **calzado cerrado** (todas las vías) (art. 118.1 RGC, desde 1/10/2026)."
+  },
+  {
+   "p": "Tipos de mantenimiento del vehículo policial (IOPR-003).",
+   "r": "**Preventivo** (programa del fabricante), **predictivo** (inspecciones técnicas) y **correctivo** (avería o accidente)."
+  },
+  {
+   "p": "¿Cada cuánto se verifica el vehículo policial antes de usarlo?",
+   "r": "En **cada cambio de turno** en los vehículos Zs y, en el resto, **al menos cada quince días**."
+  },
+  {
+   "p": "¿Cuándo no es apto un vehículo policial para el servicio?",
+   "r": "Si falla alguna comprobación de **neumáticos, niveles, testigos (en rojo no se circula), iluminación o documentación**, hasta que se solucione."
+  },
+  {
+   "p": "¿Qué profundidad mínima de dibujo deben tener los neumáticos de un turismo?",
+   "r": "**1,6 mm** en las ranuras principales (M1, N1, O1, O2); **1,0 mm** en M2, M3, N2, N3, O3 y O4 (anexo VII RGV)."
+  },
+  {
+   "p": "¿Qué es un plan de seguridad vial laboral?",
+   "r": "Instrumento de planificación de la PRL con las **estrategias, acciones, mecanismos y medidas** para evitar y controlar los riesgos de la movilidad por motivo de trabajo, basado en la evaluación de riesgos y el análisis de la movilidad (INSST). Norma de referencia: ISO 39001."
+  }
+ ],
+ "preguntas": [
+  {
+   "enunciado": "¿Cuáles son los tres factores clásicos del tráfico que intervienen en la siniestralidad vial?",
+   "opciones": [
+    "El factor humano, el vehículo y la vía y su entorno.",
+    "El conductor, la velocidad y el alcohol.",
+    "El factor humano, el económico y el normativo."
+   ],
+   "correcta": 0,
+   "explicacion": "El tráfico es un sistema en el que intervienen el factor humano, el vehículo y la vía y su entorno (ambiental). El INSST añade, en los accidentes laborales de tráfico, el factor organización del trabajo.",
+   "ref": "Manual II DGT, tema 1; INSST",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "Según el Manual de la DGT, los estudios atribuyen al factor humano una implicación en los accidentes de tráfico de entre:",
+   "opciones": [
+    "El 40 y el 50 %.",
+    "El 70 y el 90 %.",
+    "El 4 y el 13 %."
+   ],
+   "correcta": 1,
+   "explicacion": "El Manual indica que el factor humano explica entre el 70 y el 90 % de los accidentes, seguido del factor vía (entre el 10 y el 35 %) y del vehículo (entre el 4 y el 13 %).",
+   "ref": "Manual II DGT, tema 1",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "En condiciones normales, el tiempo de reacción de un conductor se considera de unos:",
+   "opciones": [
+    "0,25 segundos.",
+    "1,50 segundos.",
+    "0,75 segundos."
+   ],
+   "correcta": 2,
+   "explicacion": "La DGT considera normal un tiempo de reacción de unos 0,75 segundos entre que se percibe el peligro y se acciona el pedal del freno; aumenta con el alcohol, la fatiga, las distracciones o el calor.",
+   "ref": "Manual II DGT, tema 4",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "Con un tiempo de reacción de 0,75 segundos, ¿qué distancia recorre aproximadamente un vehículo a 50 km/h antes de que el conductor accione el freno?",
+   "opciones": [
+    "Unos 10 metros.",
+    "Unos 25 metros.",
+    "Unos 40 metros."
+   ],
+   "correcta": 0,
+   "explicacion": "A 50 km/h (13,9 m/s) se recorren unos 10,4 m en 0,75 s. Los 25 metros corresponden a 120 km/h, según el ejemplo del Manual de la DGT.",
+   "ref": "Manual II DGT, tema 4",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Según el art. 20 del RGC, la tasa máxima de alcohol de los conductores de vehículos de servicio de urgencia es de:",
+   "opciones": [
+    "0,5 g/l en sangre o 0,25 mg/l en aire espirado.",
+    "0,3 g/l en sangre o 0,15 mg/l en aire espirado.",
+    "0,15 g/l en sangre o 0,075 mg/l en aire espirado."
+   ],
+   "correcta": 1,
+   "explicacion": "Los conductores de vehículos de servicio de urgencia o transportes especiales (como los de mercancías de más de 3.500 kg, viajeros de más de nueve plazas o servicio público) no pueden superar 0,3 g/l en sangre ni 0,15 mg/l en aire espirado. La tasa general es de 0,5 g/l y 0,25 mg/l.",
+   "ref": "art. 20 RGC",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Un agente sufre un accidente de tráfico conduciendo su turismo particular desde su domicilio hasta la comisaría, por su itinerario habitual y sin interrupciones. Según el INSST, es un accidente laboral de tráfico:",
+   "opciones": [
+    "En jornada laboral o en misión.",
+    "No laboral, porque no conducía un vehículo policial.",
+    "In itínere."
+   ],
+   "correcta": 2,
+   "explicacion": "El accidente in itínere es el que sufre el trabajador en los desplazamientos de ida o vuelta del domicilio habitual al centro de trabajo, siempre que ocurra en el camino, sin interrupciones y por el itinerario habitual. El accidente en jornada es el que se produce durante la jornada por motivos de trabajo.",
+   "ref": "INSST, Seguridad Vial Laboral",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Además de los factores humano, vehículo y vía y entorno, el INSST incluye entre los factores de riesgo de los accidentes laborales de tráfico:",
+   "opciones": [
+    "La organización del trabajo.",
+    "La situación económica de la empresa.",
+    "La edad del conductor."
+   ],
+   "correcta": 0,
+   "explicacion": "El INSST define el factor organización del trabajo como las condiciones en que se realiza el trabajo que pueden afectar a la conducción: horarios, ritmo, tiempos de entrega, pausas, remuneración, alternancia con otras tareas o planificación de rutas.",
+   "ref": "INSST, Seguridad Vial Laboral",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "¿Cuál NO es uno de los cuatro principios del Sistema Seguro de la Estrategia de Seguridad Vial 2030?",
+   "opciones": [
+    "Falibilidad.",
+    "Sanción proporcional.",
+    "Responsabilidad compartida."
+   ],
+   "correcta": 1,
+   "explicacion": "Los principios son la falibilidad, la vulnerabilidad, la responsabilidad compartida y el enfoque integral o de redundancia. La sanción proporcional no figura entre ellos.",
+   "ref": "Estrategia de Seguridad Vial 2030",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "La Estrategia de Seguridad Vial 2030 fija como objetivo para ese año, respecto a 2019:",
+   "opciones": [
+    "Reducir un 25 % los fallecidos y un 50 % los heridos graves.",
+    "Eliminar todos los siniestros viales.",
+    "Reducir a la mitad el número de fallecidos y de heridos graves."
+   ],
+   "correcta": 2,
+   "explicacion": "La Estrategia fija reducir un 50 % los fallecidos (base 2019: 1.755) y los heridos graves (8.613). La Visión Cero del Sistema Seguro apunta a eliminar las lesiones mortales y graves, no los siniestros.",
+   "ref": "Estrategia de Seguridad Vial 2030",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Según el art. 2 del RD 773/1997, quedan excluidos de la definición de equipo de protección individual:",
+   "opciones": [
+    "Los equipos de protección individual de los militares, de los policías y de las personas de los servicios de mantenimiento del orden.",
+    "Los cascos de protección y los guantes de seguridad que utilicen los trabajadores.",
+    "Los chalecos reflectantes de alta visibilidad que lleven los trabajadores."
+   ],
+   "correcta": 0,
+   "explicacion": "El art. 2.2.c excluye los EPI de militares, policías y servicios de mantenimiento del orden. Los cascos, guantes y chalecos reflectantes son equipos que encajan en la definición del art. 2.1.",
+   "ref": "art. 2 RD 773/1997",
+   "dificultad": 3
+  },
+  {
+   "enunciado": "Según el RD 2/2006, proporcionar a los funcionarios del CNP los equipos de protección individual adecuados y velar por su uso efectivo y correcto corresponde:",
+   "opciones": [
+    "Al propio funcionario.",
+    "A la Administración.",
+    "Al delegado de prevención."
+   ],
+   "correcta": 1,
+   "explicacion": "El art. 6.2 dispone que la Administración proporcionará a los funcionarios EPI adecuados y velará por su uso efectivo y correcto. El funcionario debe utilizarlos correctamente (art. 12.2), pero no costearlos.",
+   "ref": "arts. 6.2 y 12.2 RD 2/2006",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Según el art. 118.4 del RGC, el conductor de un turismo debe utilizar el chaleco reflectante de alta visibilidad:",
+   "opciones": [
+    "Siempre que conduzca por una vía interurbana.",
+    "Solo de noche o con poca visibilidad.",
+    "Cuando salga del vehículo y ocupe la calzada o el arcén de una vía interurbana."
+   ],
+   "correcta": 2,
+   "explicacion": "La obligación nace cuando el conductor sale del vehículo y ocupa la calzada o el arcén de vías interurbanas; el chaleco forma parte de la dotación obligatoria del vehículo. No depende de la hora ni de que se esté conduciendo.",
+   "ref": "art. 118.4 RGC; anexo XII RGV",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Según la IOPR-003 de la Dirección General de la Policía, el mantenimiento predictivo de los vehículos policiales es:",
+   "opciones": [
+    "El establecido en las inspecciones técnicas.",
+    "El que se realiza en caso de avería o accidente.",
+    "El programado y recomendado por el fabricante."
+   ],
+   "correcta": 0,
+   "explicacion": "La IOPR-003 distingue el mantenimiento preventivo (programado y recomendado por el fabricante), el predictivo (establecido en las inspecciones técnicas) y el correctivo (producido en caso de avería o accidente).",
+   "ref": "IOPR-003 DGP, 5.3.1",
+   "dificultad": 3
+  },
+  {
+   "enunciado": "La IOPR-003 exige verificar el vehículo policial antes de usarlo en cada cambio de turno, en los vehículos Zs, y en el resto de vehículos policiales como mínimo:",
+   "opciones": [
+    "Una vez al mes.",
+    "Una vez cada quince días.",
+    "Antes de cada servicio."
+   ],
+   "correcta": 1,
+   "explicacion": "La verificación previa la realiza el conductor y su acompañante siempre en los cambios de turno en los vehículos Zs y, en el resto, al menos una vez cada quince días.",
+   "ref": "IOPR-003 DGP, 5.3.1",
+   "dificultad": 3
+  },
+  {
+   "enunciado": "¿Qué profundidad mínima deben tener las ranuras principales de la banda de rodadura de los neumáticos de un turismo (categoría M1) según el anexo VII del Reglamento General de Vehículos?",
+   "opciones": [
+    "1,0 mm.",
+    "3,0 mm.",
+    "1,6 mm."
+   ],
+   "correcta": 2,
+   "explicacion": "El anexo VII exige 1,6 mm para las categorías M1, N1, O1 y O2 y 1,0 mm para M2, M3, N2, N3, O3 y O4, durante toda su utilización en vías públicas.",
+   "ref": "anexo VII RGV",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "En la revisión previa de un vehículo patrulla, ¿qué hallazgo lo hace no apto para el servicio hasta que se solucione, según la IOPR-003?",
+   "opciones": [
+    "Un testigo luminoso de color rojo encendido tras arrancar el motor.",
+    "La falta de limpieza del interior del vehículo tras el servicio anterior.",
+    "La ausencia de una linterna de dotación."
+   ],
+   "correcta": 0,
+   "explicacion": "Con un testigo en rojo no se puede circular y el vehículo no es apto hasta su reparación. La falta de limpieza no figura entre las comprobaciones que lo invalidan, y la ausencia de elementos complementarios se comunica al responsable de la Unidad, que decide si es apto.",
+   "ref": "IOPR-003 DGP, 5.3.1",
+   "dificultad": 3
+  },
+  {
+   "enunciado": "¿Qué es un plan de seguridad vial laboral según el INSST?",
+   "opciones": [
+    "Un programa de formación obligatorio para obtener el permiso de conducción profesional de los trabajadores.",
+    "Un instrumento de planificación de la prevención que recoge las estrategias, acciones y medidas para evitar y controlar los riesgos derivados de la movilidad por motivo de trabajo.",
+    "Un registro de las infracciones de tráfico cometidas por los trabajadores de la empresa con sus vehículos."
+   ],
+   "correcta": 1,
+   "explicacion": "El INSST lo define como un instrumento para la planificación de la prevención de riesgos laborales, basado en la evaluación de riesgos y en el análisis de la movilidad de las personas trabajadoras.",
+   "ref": "INSST, Seguridad Vial Laboral",
+   "dificultad": 2
+  }
+ ],
+ "dudas": [
+  "La IOPR-003 de la DGP es de 2013 y no he podido comprobar si existe una edición posterior ni si sigue vigente. Cita normas que se han derogado o modificado (Orden INT/161/2011, permiso BTP) y otras que no he leído (RD 711/2006 y Orden de 25/11/1997 sobre la ITV de los vehículos de la DGP). Es la única fuente oficial específica sobre riesgos de los vehículos policiales que he encontrado.",
+  "Los porcentajes de la DGT (70-90 %, 10-35 % y 4-13 %) son rangos de estudios que cita el Manual; el propio Manual da otras cifras (vehículo, causa exclusiva del 12 %; factor humano, 90 %). Se preguntan solo con el rango.",
+  "No he encontrado una norma o guía oficial más reciente que la IOPR-003 sobre los riesgos laborales de la conducción de vehículos prioritarios por la Policía Nacional.",
+  "El análisis de exámenes menciona la tasa de 0,3 g/l de 2023 como del tema 45: la tasa de alcohol de los servicios de urgencia figura en el art. 20 RGC, que he leído en su versión consolidada de 01/10/2026."
+ ]
+}

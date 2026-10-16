@@ -1,0 +1,550 @@
+{
+  "tema": 34,
+  "titulo": "Drogodependencias: conceptos, clasificación y tendencias",
+  "bloque": "B",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "1-2 preguntas por examen: definiciones (tolerancia, dependencia), clasificación por efectos (depresoras, estimulantes, alucinógenas) y sustancias concretas (GHB, mescalina, speedball)."
+  },
+  "normas": [
+    {
+      "nombre": "OMS (1994), Glosario de términos de alcohol y drogas (edición española del Ministerio de Sanidad y Consumo del «Lexicon of Alcohol and Drug Terms»)",
+      "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+      "verificado": "Documento leído íntegro en lo citado el 16/10/2026"
+    },
+    {
+      "nombre": "PNSD, Encuesta sobre alcohol y otras drogas en España (EDADES) 2024. Resumen ejecutivo",
+      "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/sistemaInformacion/pdf/2024_Informe_Ejecutivo_EDADES_es.pdf",
+      "verificado": "Documento leído el 16/10/2026 (resultados presentados en diciembre de 2024)"
+    },
+    {
+      "nombre": "OEDA, Informe 2025. Alcohol, tabaco y drogas ilegales en España (EDADES 1995-2024)",
+      "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/sistemaInformacion/pdf/2025/2025_Informe_EDADES.pdf",
+      "verificado": "Apartados de introducción y policonsumo leídos el 16/10/2026"
+    },
+    {
+      "nombre": "PNSD, ESTUDES 2025 (Encuesta sobre uso de drogas en enseñanzas secundarias). Nota de prensa de 5 de noviembre de 2025",
+      "url": "https://pnsd.sanidad.gob.es/gl/profesionales/sistemasInformacion/sistemaInformacion/pdf/2025/ESTUDES_2025_Nota_de_prensa_def.pdf",
+      "verificado": "Documento leído el 16/10/2026"
+    },
+    {
+      "nombre": "PNSD, «Nuevas sustancias psicoactivas asociadas a prácticas sexuales de riesgo: GHB» (julio de 2024)",
+      "url": "https://pnsd.sanidad.gob.es/ciudadanos/dosieresinformacion/pdf/20240802_Dosier_GHB2024.pdf",
+      "verificado": "Documento leído el 16/10/2026"
+    },
+    {
+      "nombre": "PNSD, «Catinonas sintéticas» (diciembre de 2025)",
+      "url": "https://pnsd.sanidad.gob.es/ciudadanos/dosieresinformacion/pdf/20260109_Dosier_catinonas2025.pdf",
+      "verificado": "Documento leído el 16/10/2026"
+    },
+    {
+      "nombre": "EUDA (Agencia de la Unión Europea sobre Drogas), European Drug Report 2026: Trends and Developments",
+      "url": "https://www.euda.europa.eu/publications/european-drug-report/2026_en",
+      "verificado": "Páginas de situación general, cannabis, cocaína, estimulantes sintéticos, MDMA, opioides, nuevas sustancias y muertes leídas el 16/10/2026 (publicación del 09/06/2026)"
+    },
+    {
+      "nombre": "Estrategia Nacional sobre Adicciones 2017-2024",
+      "url": "https://pnsd.sanidad.gob.es/pnsd/estrategiaNacional/docs/180209_ESTRATEGIA_N.ADICCIONES_2017-2024__aprobada_CM.pdf",
+      "verificado": "Documento descargado el 16/10/2026"
+    },
+    {
+      "nombre": "Ley Orgánica 10/1995, del Código Penal (arts. 368 y 369 bis)",
+      "boe": "BOE-A-1995-25444",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "verificado": "Texto consolidado, actualización de 09/04/2026 (leído el 16/10/2026)"
+    }
+  ],
+  "novedades": [
+    "El Observatorio Europeo de las Drogas y las Toxicomanías (OEDT/EMCDDA) es hoy la Agencia de la Unión Europea sobre Drogas (EUDA); su web distingue el archivo hasta el 2 de julio de 2024 (EMCDDA) y desde esa fecha (EUDA).",
+    "Cifras nuevas: EDADES 2024 (población de 15 a 64 años, publicada en diciembre de 2024), ESTUDES 2025 (14 a 18 años, presentada el 5 de noviembre de 2025) e Informe Europeo sobre Drogas 2026 (lanzado el 9 de junio de 2026). Si estudiaste con EDADES 2022 o ESTUDES 2023, las cifras han cambiado.",
+    "La Estrategia Nacional sobre Adicciones 2017-2024 ha agotado su periodo; la web del PNSD sigue enlazando esa estrategia y no he podido verificar la aprobación de una sucesora."
+  ],
+  "clave": [
+    "**Tolerancia**: disminución de la respuesta a una dosis concreta con el uso continuado; hacen falta **dosis más altas** para lograr los efectos iniciales (glosario OMS).",
+    "**Síndrome de dependencia** (CIE-10, F1x.2): se diagnostica con **tres o más criterios en el plazo de un año** (deseo poderoso, deterioro del control, consumo persistente pese al daño, prioridad del consumo, tolerancia, abstinencia física).",
+    "**Adicción** es un término antiguo; en los años 60 la OMS recomendó sustituirlo, y también «habituación», por **dependencia**, que admite grados.",
+    "**Politoxicomanía o policonsumo**: consumo de más de una droga o de más de un tipo de droga por una persona, a la vez o una detrás de otra.",
+    "**Speedball** = un **estimulante** más un **opiáceo** (cocaína y heroína, o anfetamina y heroína).",
+    "Clasificación por efectos sobre el SNC: **depresoras** (alcohol, opiáceos, barbitúricos, benzodiazepinas, GHB), **estimulantes** (cocaína, anfetaminas, cafeína, nicotina, catinonas) y **alucinógenas** (LSD, mescalina, psilocibina, DMT).",
+    "El **GHB** («éxtasis líquido») es un potente **depresor** del SNC; el **éxtasis** (MDMA) es estimulante (PNSD).",
+    "**Benzodiazepinas**: sedantes/hipnóticos que potencian el GABA; riesgo de dependencia y de **síndrome de abstinencia** si se interrumpen bruscamente.",
+    "Vías de administración: oral, inyección (intravenosa, subcutánea, intramuscular), inhalación, fumada y absorción por piel o mucosas.",
+    "**EDADES 2024** (15-64 años, bienal desde 1995, 26.878 entrevistas): prevalencia en 12 meses de **alcohol 76,5 %, tabaco 36,8 %, cannabis 12,6 %, hipnosedantes 12,0 % y cocaína 2,5 %**; el cannabis es la droga ilegal más consumida.",
+    "**ESTUDES 2025** (14-18 años, 35.256 entrevistas): descenso generalizado y **mínimos históricos** de tabaco (27,3 % alguna vez) y cannabis (21,0 % alguna vez).",
+    "Europa (EUDA, 2026): el **cannabis** es la droga ilícita más consumida (8,7 % de los adultos en el último año) y la **cocaína** la segunda; crecen las **catinonas sintéticas** y otras nuevas sustancias psicoactivas."
+  ],
+  "resumen": [
+    {
+      "titulo": "Conceptos básicos (glosario de la OMS)",
+      "puntos": [
+        "**Droga**: en medicina, sustancia con potencial para prevenir o curar una enfermedad o mejorar la salud física o mental; en farmacología, toda sustancia química que modifica los procesos fisiológicos y bioquímicos de tejidos u organismos; en el lenguaje coloquial, las sustancias psicoactivas y, a menudo, las **drogas ilegales**.",
+        "**Sustancia psicoactiva** (o psicotrópica): la que, al ingerirse, afecta a los procesos mentales (cognición, afectividad). Es el término más neutro; no implica necesariamente que produzca dependencia.",
+        "**Consumo**: autoadministración de una sustancia psicoactiva. Tipos: **experimental** (las primeras veces), **de riesgo** (eleva el riesgo de consecuencias nocivas aunque no haya trastorno actual), **perjudicial** (causa daño a la salud, físico o mental; F1x.1 de la CIE-10) y **problemático** (provoca problemas individuales o colectivos, de salud o sociales).",
+        "**Vías de administración**: oral; inyección intravenosa, subcutánea o intramuscular; inhalación; fumada; y absorción a través de la piel o de las mucosas (encías, recto, genitales).",
+        "**Tolerancia**: disminución de la respuesta a una dosis concreta con el uso continuado. Puede ser física, psicológica o conductual; la **aguda** es la adaptación rápida a una sola dosis y la **inversa** (sensibilización) aumenta la respuesta con el uso repetido. Es uno de los criterios del síndrome de dependencia.",
+        "**Dependencia**: necesidad de dosis repetidas para encontrarse bien o no sentirse mal. La **psicológica** es el deterioro del control sobre el consumo (ansia, compulsión); la **física** se refiere a la tolerancia y a los síntomas de abstinencia. En 1964 un Comité de Expertos de la OMS introdujo el término para sustituir a adicción y habituación.",
+        "**Síndrome de dependencia** (CIE-10, F1x.2): conjunto de fenómenos conductuales, cognitivos y fisiológicos tras el consumo repetido; se diagnostica si se han experimentado **tres o más** de los criterios en el plazo de **un año**.",
+        "**Adicción**: consumo repetido hasta la intoxicación periódica o continua, con deseo compulsivo, dificultad para interrumpir el consumo y determinación de obtener la sustancia por cualquier medio; suele haber tolerancia acusada y abstinencia. Es un término antiguo y de uso variable.",
+        "**Síndrome de abstinencia**: conjunto de síntomas, de intensidad variable, que aparece al suspender o reducir el consumo de una sustancia que se había consumido de forma repetida, habitualmente durante un periodo prolongado o en dosis altas.",
+        "**Politoxicomanía o policonsumo**: consumo de más de una droga o de más de un tipo de droga por la misma persona, normalmente al mismo tiempo o sucesivamente, para aumentar, potenciar o contrarrestar los efectos de otra droga. El alcohol, la nicotina y la cafeína son las sustancias más usadas en combinación. El PNSD lo mide como consumo de dos o más sustancias psicoactivas en un mismo periodo."
+      ]
+    },
+    {
+      "titulo": "Clasificación de las drogas",
+      "puntos": [
+        "La clasificación **más usada en examen** agrupa las sustancias según su efecto sobre el sistema nervioso central (SNC). Los ejemplos son los del glosario de la OMS y de los dosieres del PNSD; sustancias de efecto mixto (PCP) o de encaje discutido (cannabis, MDMA, ketamina) conviene no clasificarlas sin más.",
+        "Otros criterios: **legalidad** (drogas legales e ilegales; la ilegalidad afecta a la producción, venta o consumo, no a la sustancia en sí), **origen** (alcaloides naturales del opio, derivados semisintéticos como la heroína, opioides sintéticos como metadona o fentanilo) y **gravedad jurídica**: el art. 368 CP castiga con prisión de **tres a seis años** el tráfico de sustancias que causan **grave daño a la salud** y de **uno a tres años** las demás.",
+        "**Nuevas sustancias psicoactivas (NPS)**: compuestos creados para eludir los controles legales (cannabinoides sintéticos y semisintéticos, catinonas sintéticas, nuevos opioides sintéticos y nitacenos). **Droga de diseño**: sustancia nueva sintetizada para su venta ilegal y burlar las leyes."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Grupo",
+          "Efecto en el SNC",
+          "Ejemplos"
+        ],
+        "filas": [
+          [
+            "**Depresoras**",
+            "Suprimen, inhiben o reducen aspectos de la actividad del SNC",
+            "Alcohol, opiáceos y opioides (morfina, heroína, metadona), barbitúricos, benzodiazepinas, **GHB**"
+          ],
+          [
+            "**Estimulantes**",
+            "Activan, potencian o incrementan la actividad neuronal",
+            "Cocaína, anfetaminas y metanfetamina, cafeína, nicotina, catinonas sintéticas, metilfenidato"
+          ],
+          [
+            "**Alucinógenas** (perturbadoras)",
+            "Inducen alteraciones de la percepción y del pensamiento",
+            "LSD, DMT, psilocibina, **mescalina** (peyote), MDA"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Sustancias y mezclas que han caído",
+      "puntos": [
+        "**GHB** (ácido gammahidroxibutírico, «éxtasis líquido», «G», «biberón», «chorri», «pote»): potente **depresor** del SNC, hidrosoluble, desarrollado como anestésico; asociado al chemsex. Aunque lo llamen «éxtasis», el éxtasis es un estimulante.",
+        "**Mescalina**: sustancia **alucinógena** del peyote, un cactus del suroeste de EE. UU. y norte de México.",
+        "**Fenciclidina (PCP)**: tiene efectos depresores, estimulantes, analgésicos y alucinógenos; se introdujo como anestésico disociativo y se consume oral, intravenosa o, sobre todo, fumada.",
+        "**Speedball**: combinación de un estimulante y un opiáceo (cocaína y heroína, anfetamina y heroína). **Speed** es la anfetamina; **coca**, **nieve** o **polvo blanco**, la cocaína.",
+        "**Benzodiazepinas**: sedantes/hipnóticos, relajantes musculares y antiepilépticos; potencian el GABA. Con la interrupción brusca tras 6 meses o más de tratamiento aparece síndrome de abstinencia en el 50 % de los pacientes. Antes se llamaban «tranquilizantes menores».",
+        "**Catinonas sintéticas** (mefedrona, metilona, MDPV, 3-MMC): estimulantes químicamente relacionados con la catinona del khat; se vendieron como «sales de baño», «legal highs» o «research chemicals»."
+      ]
+    },
+    {
+      "titulo": "Tendencias de consumo en España",
+      "puntos": [
+        "**EDADES 2024**: decimoquinta edición de la serie bienal iniciada en 1995; población de **15 a 64 años** residente en hogares; **26.878 personas**; dirigida por la Delegación del Gobierno para el Plan Nacional sobre Drogas (DGPNSD) con el Observatorio Español de las Drogas y las Adicciones (OEDA).",
+        "El **alcohol** sigue siendo la sustancia psicoactiva más consumida y el **cannabis** la **droga ilegal** más consumida (43,7 % alguna vez en la vida; consumo diario 2,5 %, frente al 2,8 % de 2022; consumo problemático CAST ≥ 4 en el 1,4 % de la población).",
+        "**Policonsumo**: el 39,0 % consumió dos o más sustancias en los últimos 12 meses, el 44,3 % una sola y el 16,8 % ninguna; el alcohol está en al menos el 93,5 % de los policonsumos de dos sustancias.",
+        "Edad de inicio: **alcohol 16,4 años** y **tabaco 16,6**; los más tardíos, analgésicos opioides (33,9) e hipnosedantes (34,4). Cigarrillos electrónicos alguna vez: 19,0 % (12,1 % en 2022).",
+        "**ESTUDES 2025** (estudiantes de Enseñanzas Secundarias de **14 a 18 años**; 35.256 entrevistas; se compara con la edición de 2023): descenso de alcohol, tabaco, cannabis e hipnosedantes y **mínimos históricos** de tabaco (27,3 % alguna vez; 4,3 % a diario) y cannabis (21,0 % alguna vez; 15,5 % en los últimos 12 meses). Alcohol: 71,0 % en 12 meses; borracheras 17,2 % y atracón 24,7 % (mínimos desde 2000). Cigarrillos electrónicos: 49,5 % alguna vez."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Sustancia",
+          "Últimos 12 meses (15-64 años)",
+          "Dato añadido"
+        ],
+        "filas": [
+          [
+            "Alcohol",
+            "**76,5 %**",
+            "Borrachera en el último año: 14,7 %; atracón en los últimos 30 días: 16,0 %"
+          ],
+          [
+            "Tabaco",
+            "**36,8 %**",
+            "Consumo diario en el último mes: 25,8 %"
+          ],
+          [
+            "Cannabis",
+            "**12,6 %**",
+            "Droga ilegal más consumida; el 59,0 % cree que lo conseguiría fácilmente en 24 horas"
+          ],
+          [
+            "Hipnosedantes (con o sin receta)",
+            "**12,0 %**",
+            "Tendencia creciente desde 2018; el consumo sin receta es mucho menor (1,8 % en 12 meses)"
+          ],
+          [
+            "Cocaína en polvo y/o base",
+            "**2,5 %**",
+            "13,3 % alguna vez; el 40,6 % cree que la conseguiría fácilmente"
+          ],
+          [
+            "Éxtasis, alucinógenos, anfetaminas, inhalables y heroína",
+            "0,7 %, 0,6 %, 0,4 %, 0,2 % y 0,1 %",
+            "Consumos bajos"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Tendencias en Europa y mercado de nuevas sustancias",
+      "puntos": [
+        "El **Informe Europeo sobre Drogas 2026** de la EUDA (lanzado el 9 de junio de 2026) analiza datos de 29 países (UE, Noruega y Türkiye): la disponibilidad de drogas sigue siendo **alta** y crece la mezcla entre mercados de drogas clásicas y de nuevas sustancias.",
+        "El **cannabis** es la droga ilícita más consumida (8,7 % de los adultos de 15 a 64 años, unos 25 millones, en el último año) y supone en torno a un tercio de las admisiones a tratamiento; la **cocaína** es la segunda droga ilícita; el **MDMA**, el segundo estimulante ilícito.",
+        "Se estiman casi **7.600 muertes** por sobredosis en la UE en 2024 (los opioides son el grupo más implicado, casi siempre combinados con otras sustancias) y **España** fue el país que más cocaína incautó (124 toneladas).",
+        "Se notificaron **50 nuevas sustancias psicoactivas** por primera vez en 2025; 27 eran cannabinoides (16 de ellos semisintéticos), más de la mitad del total. Crecen la metanfetamina y, sobre todo, las **catinonas sintéticas**; el PNSD cita entre las NPS los cannabinoides sintéticos y semisintéticos, las catinonas, los nuevos opioides sintéticos y los nitacenos."
+      ]
+    }
+  ],
+  "trampas": [
+    "**Tolerancia**, **dependencia** y **adicción** no son sinónimos: tolerancia = necesitar más dosis; dependencia = síndrome con criterios (CIE-10: tres o más en un año); adicción = término antiguo que la OMS aconsejó sustituir.",
+    "«Éxtasis líquido» es el **GHB**, un **depresor**; el éxtasis (MDMA) es estimulante. El nombre confunde a propósito.",
+    "**Speedball** mezcla un estimulante con un opiáceo, no dos estimulantes ni dos depresores.",
+    "Las **benzodiazepinas** son depresoras (sedantes/hipnóticos), no estimulantes; su retirada brusca puede causar abstinencia grave.",
+    "La **mescalina** es alucinógena; el **PCP** reúne efectos depresores, estimulantes, analgésicos y alucinógenos, de modo que no suele preguntarse por un grupo único.",
+    "Distinguir **alcohol** (sustancia psicoactiva más consumida) y **cannabis** (droga ilegal más consumida); la cocaína es la segunda ilegal en España y en Europa.",
+    "Cuidado con los periodos: «alguna vez en la vida», «últimos 12 meses» y «últimos 30 días» dan cifras muy distintas para una misma sustancia.",
+    "**EDADES** = población de 15 a 64 años en hogares (serie bienal desde 1995); **ESTUDES** = estudiantes de Enseñanzas Secundarias de 14 a 18 años.",
+    "EMCDDA (OEDT) ya no existe con ese nombre: es la **EUDA**, Agencia de la Unión Europea sobre Drogas."
+  ],
+  "caido": [
+    {
+      "examen": "P41 (1 mar 2025)",
+      "concepto": "GHB (éxtasis líquido): depresor del sistema nervioso central y nuevas sustancias psicoactivas asociadas a prácticas sexuales de riesgo."
+    },
+    {
+      "examen": "P39 (23 abr 2023), P41 y P42",
+      "concepto": "Mescalina (alucinógeno), fenciclidina (PCP), karkubi (hachís y clonazepam) y speedball (heroína y cocaína)."
+    },
+    {
+      "examen": "P40 (13 abr 2024)",
+      "concepto": "Tolerancia (definición)."
+    },
+    {
+      "examen": "P43 (26 sep 2026)",
+      "concepto": "Efectos de las benzodiazepinas (sedación, ansiolisis)."
+    }
+  ],
+  "mnemotecnias": [
+    "Tres grupos por el SNC: **D**epresoras (frenan: alcohol, opiáceos, benzodiazepinas, GHB), **E**stimulantes (aceleran: cocaína, anfetaminas, nicotina), **A**lucinógenas (distorsionan: LSD, mescalina): **D-E-A**.",
+    "Speedball = «rápido» (estimulante) + «lento» (opiáceo): cocaína con heroína."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Qué es la tolerancia?",
+      "r": "Disminución de la respuesta a una dosis concreta de una droga con el uso continuado: se necesitan **dosis más altas** para obtener los efectos iniciales."
+    },
+    {
+      "p": "¿Cuándo se diagnostica un síndrome de dependencia según la CIE-10?",
+      "r": "Cuando se han experimentado **tres o más** de los criterios especificados en el plazo de **un año**."
+    },
+    {
+      "p": "¿Qué términos sustituyó «dependencia» según la OMS?",
+      "r": "**Adicción** y **habituación** (Comité de Expertos de la OMS, 1964; recomendación consolidada en los años 60)."
+    },
+    {
+      "p": "Diferencia entre dependencia psicológica y física.",
+      "r": "Psicológica: deterioro del control sobre el consumo (ansia, compulsión). Física: **tolerancia y síntomas de abstinencia**."
+    },
+    {
+      "p": "¿Qué es el síndrome de abstinencia?",
+      "r": "Conjunto de síntomas que aparece al suspender o reducir un consumo repetido, habitualmente prolongado o en dosis altas."
+    },
+    {
+      "p": "¿Qué es la politoxicomanía?",
+      "r": "Consumo de **más de una droga o de más de un tipo de droga** por la misma persona, a la vez o sucesivamente (policonsumo)."
+    },
+    {
+      "p": "¿Qué es un speedball?",
+      "r": "Mezcla de un **estimulante y un opiáceo**: cocaína y heroína, o anfetamina y heroína."
+    },
+    {
+      "p": "¿Cuáles son las vías de administración?",
+      "r": "Oral, inyección (intravenosa, subcutánea, intramuscular), inhalación, fumada y absorción por piel o mucosas."
+    },
+    {
+      "p": "¿Cómo se clasifican las drogas según su efecto en el SNC?",
+      "r": "**Depresoras**, **estimulantes** y **alucinógenas** (perturbadoras)."
+    },
+    {
+      "p": "¿Qué tipo de sustancia es el GHB?",
+      "r": "Un potente **depresor** del sistema nervioso central («éxtasis líquido», «G», «biberón»)."
+    },
+    {
+      "p": "¿Qué tipo de sustancia es la mescalina?",
+      "r": "**Alucinógena**; procede del peyote."
+    },
+    {
+      "p": "¿Qué efectos tienen las benzodiazepinas?",
+      "r": "Sedantes/hipnóticos, relajantes musculares y antiepilépticos (potencian el GABA); pueden dar dependencia y abstinencia."
+    },
+    {
+      "p": "¿Qué son las catinonas sintéticas?",
+      "r": "**Estimulantes** químicamente relacionados con la catinona del khat (mefedrona, metilona, MDPV)."
+    },
+    {
+      "p": "¿Qué pena prevé el art. 368 CP para el tráfico de sustancias que causan grave daño a la salud?",
+      "r": "Prisión de **tres a seis años** y multa; para las demás sustancias, de uno a tres años."
+    },
+    {
+      "p": "¿A quién se dirigen EDADES y ESTUDES?",
+      "r": "EDADES: población de **15 a 64 años** en hogares (serie bienal desde 1995). ESTUDES: estudiantes de **14 a 18 años** de Enseñanzas Secundarias."
+    },
+    {
+      "p": "Prevalencias de consumo en 12 meses en EDADES 2024.",
+      "r": "**Alcohol 76,5 %**, tabaco 36,8 %, cannabis 12,6 %, hipnosedantes 12,0 %, cocaína 2,5 %."
+    },
+    {
+      "p": "¿Qué mostró ESTUDES 2025 sobre tabaco y cannabis?",
+      "r": "**Mínimos históricos**: 27,3 % ha fumado alguna vez y 21,0 % ha probado cannabis."
+    },
+    {
+      "p": "¿Qué es la EUDA?",
+      "r": "La Agencia de la Unión Europea sobre Drogas, sucesora del antiguo OEDT/EMCDDA desde el 2 de julio de 2024."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "En el ámbito de las drogodependencias, la tolerancia consiste en:",
+      "opciones": [
+        "La aparición de síntomas físicos y psíquicos al suspender o reducir bruscamente el consumo de una sustancia",
+        "La disminución de la respuesta a una dosis concreta con el uso continuado, de modo que hacen falta dosis mayores para lograr el efecto inicial",
+        "El deseo compulsivo de consumir y la enorme dificultad para interrumpir voluntariamente el consumo"
+      ],
+      "correcta": 1,
+      "explicacion": "El glosario de la OMS define la tolerancia como la disminución de la respuesta frente a una dosis concreta con el uso continuado, que obliga a tomar dosis más altas. Los síntomas al suspender el consumo son el síndrome de abstinencia y el deseo compulsivo con dificultad para parar es la nota central de la adicción.",
+      "ref": "Glosario OMS (1994), «Tolerancia»",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según la CIE-10, recogida en el glosario de la OMS, un síndrome de dependencia debe diagnosticarse cuando se han experimentado:",
+      "opciones": [
+        "Tres o más de los criterios especificados en el plazo de un año",
+        "Cualquiera de los criterios, aunque sea una sola vez en la vida",
+        "Los seis criterios, simultáneamente y durante todo un año"
+      ],
+      "correcta": 0,
+      "explicacion": "El glosario indica que, conforme a la CIE-10, debe diagnosticarse el síndrome de dependencia si se han experimentado tres o más de los criterios especificados en el plazo de un año. No basta un episodio aislado ni se exige que concurran todos los criterios a la vez.",
+      "ref": "Glosario OMS (1994), «Síndrome de dependencia»",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En los años sesenta la OMS recomendó que dejaran de usarse los términos «adicción» y «habituación» en favor de:",
+      "opciones": [
+        "Politoxicomanía, que designa cualquier consumo de drogas",
+        "Consumo perjudicial, que se limita al daño físico",
+        "Dependencia, que puede tener varios grados de severidad"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el glosario, en 1964 un Comité de Expertos de la OMS introdujo el término dependencia para sustituir a adicción y habituación, porque admite distintos grados de severidad. La politoxicomanía es el consumo de varias drogas y el consumo perjudicial es otro concepto, el de un patrón que causa daño a la salud.",
+      "ref": "Glosario OMS (1994), «Adicción» y «Dependencia»",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el glosario de la OMS, el policonsumo o politoxicomanía es:",
+      "opciones": [
+        "El consumo de una sola droga por vía inyectada con dosis cada vez mayores",
+        "El consumo de una sustancia ilegal por primera vez en un contexto recreativo",
+        "El consumo de más de una droga o de más de un tipo de droga por la misma persona, normalmente al mismo tiempo o una detrás de otra"
+      ],
+      "correcta": 2,
+      "explicacion": "El glosario lo define como el consumo de más de una droga o de más de un tipo de droga por una persona, generalmente simultáneo o sucesivo y con intención de aumentar, potenciar o contrarrestar los efectos de otra. No exige vía inyectada ni se limita al consumo experimental de una sustancia ilegal.",
+      "ref": "Glosario OMS (1994), «Policonsumo de drogas»",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Qué es un speedball?",
+      "opciones": [
+        "La combinación de dos estimulantes, por ejemplo cocaína y anfetamina",
+        "La combinación de un estimulante y un opiáceo, por ejemplo cocaína y heroína",
+        "La combinación de un alucinógeno y un depresor, por ejemplo LSD y alcohol"
+      ],
+      "correcta": 1,
+      "explicacion": "El glosario de la OMS define el speedball como combinación de un estimulante y un opiáceo, como cocaína y heroína o anfetamina y heroína. Mezclar dos estimulantes o un alucinógeno con un depresor no recibe ese nombre.",
+      "ref": "Glosario OMS (1994), «Speedball»",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el Plan Nacional sobre Drogas, el GHB, llamado «éxtasis líquido», es:",
+      "opciones": [
+        "Un potente depresor del sistema nervioso central, que no debe confundirse con el éxtasis, que es un estimulante",
+        "Un estimulante derivado de la anfetamina, con los mismos efectos que el éxtasis",
+        "Un alucinógeno natural extraído de un cactus mexicano"
+      ],
+      "correcta": 0,
+      "explicacion": "El dosier del PNSD sobre GHB lo describe como un potente depresor del SNC y aclara que sus efectos tienen poco que ver con el éxtasis, que es un estimulante y no una droga depresora. El alucinógeno de un cactus mexicano es la mescalina.",
+      "ref": "PNSD, dosier GHB (2024)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La mescalina, sustancia presente en el peyote, es:",
+      "opciones": [
+        "Una sustancia alucinógena",
+        "Un depresor del sistema nervioso central de tipo opioide",
+        "Un estimulante de tipo anfetamínico"
+      ],
+      "correcta": 0,
+      "explicacion": "El glosario de la OMS define la mescalina como sustancia alucinógena que se encuentra en el peyote, cactus del suroeste de Estados Unidos y norte de México. No es un opioide ni un estimulante anfetamínico.",
+      "ref": "Glosario OMS (1994), «Mescalina»",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Las benzodiazepinas son fármacos que:",
+      "opciones": [
+        "Estimulan el sistema nervioso central y carecen de potencial de dependencia",
+        "Producen alucinaciones y son de origen vegetal, como el peyote",
+        "Se emplean sobre todo como sedantes e hipnóticos, relajantes musculares y antiepilépticos, y pueden generar dependencia y síndrome de abstinencia"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el glosario de la OMS son un grupo de fármacos usados sobre todo como sedantes/hipnóticos, relajantes musculares y antiepilépticos, que potencian el GABA y tienen un potencial importante de mal uso y de dependencia física y psicológica. Son depresores, no estimulantes, y no son alucinógenos vegetales.",
+      "ref": "Glosario OMS (1994), «Benzodiazepina»",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre la clasificación de las drogas por sus efectos en el sistema nervioso central:",
+      "opciones": [
+        "Los barbitúricos y las benzodiazepinas son depresores del sistema nervioso central",
+        "La heroína y los demás opiáceos son estimulantes del sistema nervioso central",
+        "La cocaína y las anfetaminas son estimulantes del sistema nervioso central"
+      ],
+      "correcta": 1,
+      "explicacion": "Los opiáceos, junto con los sedantes/hipnóticos, figuran entre los principales grupos de depresores del SNC en el glosario de la OMS, de modo que calificarlos de estimulantes es falso. Barbitúricos y benzodiazepinas son depresores, y cocaína y anfetaminas son estimulantes.",
+      "ref": "Glosario OMS (1994), «Depresor» y «Estimulante»",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes grupos contiene únicamente sustancias estimulantes del sistema nervioso central?",
+      "opciones": [
+        "Cocaína, heroína y nicotina",
+        "Cocaína, anfetaminas y nicotina",
+        "Anfetaminas, alcohol y cafeína"
+      ],
+      "correcta": 1,
+      "explicacion": "El glosario cita como ejemplos de estimulantes las anfetaminas, la cocaína, la cafeína y la nicotina. La heroína es un opioide depresor y el alcohol es un depresor, por lo que los otros dos grupos mezclan estimulantes con depresores.",
+      "ref": "Glosario OMS (1994), «Estimulante»",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el glosario de la OMS, la vía de administración de una sustancia es:",
+      "opciones": [
+        "El modo o forma de introducirla en el organismo: oral, inyección, inhalación, fumada o absorción por piel o mucosas",
+        "El método utilizado para obtener la sustancia en el mercado ilícito",
+        "La dosis máxima que puede tomarse sin producir intoxicación"
+      ],
+      "correcta": 0,
+      "explicacion": "El glosario define la vía de administración como el modo o forma en que se introduce una sustancia en el organismo: vía oral, inyección intravenosa, subcutánea o intramuscular, inhalación, fumada, o absorción por la piel o las mucosas. No se refiere ni a la obtención de la droga ni a la dosis.",
+      "ref": "Glosario OMS (1994), «Administración, vía de»",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "En el glosario de la OMS, el consumo perjudicial (F1x.1 de la CIE-10) es:",
+      "opciones": [
+        "Las primeras veces en que se consume una droga, a menudo de forma inconstante",
+        "Un patrón que eleva el riesgo de consecuencias nocivas aunque la persona no presente ningún trastorno actual",
+        "Un patrón de consumo de una sustancia psicoactiva que causa daño a la salud, físico o mental"
+      ],
+      "correcta": 2,
+      "explicacion": "El consumo perjudicial es el patrón que ya causa daño a la salud, físico (hepatitis por inyección) o mental (episodios depresivos). Las primeras veces es el consumo experimental, y el patrón que solo eleva el riesgo sin trastorno actual es el consumo de riesgo.",
+      "ref": "Glosario OMS (1994), «Consumo perjudicial», «Consumo de riesgo», «Consumo experimental»",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Según EDADES 2024, entre la población de 15 a 64 años, ¿cuál es la sustancia ilegal con mayor prevalencia de consumo?",
+      "opciones": [
+        "La cocaína en polvo y/o base",
+        "El éxtasis (MDMA)",
+        "El cannabis"
+      ],
+      "correcta": 2,
+      "explicacion": "El resumen ejecutivo de EDADES 2024 afirma que el cannabis es la sustancia ilegal con mayor prevalencia de consumo (12,6 % en los últimos 12 meses), muy por encima de la cocaína (2,5 %) y del éxtasis (0,7 %).",
+      "ref": "EDADES 2024, resumen ejecutivo, apdo. 2.6",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre las encuestas del Plan Nacional sobre Drogas es correcta?",
+      "opciones": [
+        "EDADES se dirige a estudiantes de 14 a 18 años y ESTUDES a la población de 15 a 64 años",
+        "EDADES se dirige a la población de 15 a 64 años y ESTUDES a estudiantes de 14 a 18 años de Enseñanzas Secundarias",
+        "Ambas se dirigen a personas mayores de edad ingresadas en centros de tratamiento"
+      ],
+      "correcta": 1,
+      "explicacion": "EDADES es la encuesta sobre alcohol y drogas en población general de 15 a 64 años residente en hogares, bienal desde 1995. ESTUDES encuesta a estudiantes de Enseñanzas Secundarias de 14 a 18 años. Ninguna se limita a pacientes en tratamiento.",
+      "ref": "EDADES 2024 y ESTUDES 2025",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según EDADES 2024, el consumo de hipnosedantes (con o sin receta) en los últimos 12 meses es:",
+      "opciones": [
+        "Más frecuente en mujeres (14,7 %) que en hombres (9,3 %)",
+        "Más frecuente en hombres (14,7 %) que en mujeres (9,3 %)",
+        "Idéntico en ambos sexos (12,0 %)"
+      ],
+      "correcta": 0,
+      "explicacion": "El resumen ejecutivo indica que el 12,0 % de la población de 15 a 64 años los consumió en los últimos 12 meses, con mayor proporción entre las mujeres (14,7 %) que entre los hombres (9,3 %). Las cifras y el sentido de la diferencia de las otras dos opciones no coinciden con los datos.",
+      "ref": "EDADES 2024, resumen ejecutivo, apdo. 2.4",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según EDADES 2024, ¿qué sustancia está presente al menos en el 93,5 % de los policonsumos de dos sustancias?",
+      "opciones": [
+        "El alcohol",
+        "El tabaco",
+        "El cannabis"
+      ],
+      "correcta": 0,
+      "explicacion": "El resumen ejecutivo señala que el alcohol está presente al menos en el 93,5 % de los policonsumos de dos sustancias, mientras que el cannabis figura en el 63,1 % de los que consumieron tres sustancias psicoactivas. El tabaco no es la sustancia citada para ese dato.",
+      "ref": "EDADES 2024, resumen ejecutivo, apdo. 2.11",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Los resultados de ESTUDES 2025 (estudiantes de 14 a 18 años) muestran, respecto a la edición anterior:",
+      "opciones": [
+        "Un aumento del consumo de cannabis y de cocaína",
+        "Una estabilidad sin cambios en alcohol, tabaco e hipnosedantes",
+        "Un descenso generalizado del consumo, con mínimos históricos de tabaco y cannabis"
+      ],
+      "correcta": 2,
+      "explicacion": "La nota de prensa del Ministerio de Sanidad destaca una disminución generalizada del consumo de sustancias psicoactivas: baja la prevalencia de alcohol, tabaco, cannabis e hipnosedantes y se registran mínimos históricos de tabaco y cannabis. No hubo aumento de cannabis ni de cocaína.",
+      "ref": "ESTUDES 2025, nota de prensa de 5/11/2025",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Las catinonas sintéticas, como la mefedrona o la metilona, son:",
+      "opciones": [
+        "Depresores derivados de los opiáceos",
+        "Estimulantes químicamente relacionados con la catinona, alcaloide de la planta khat",
+        "Alucinógenos derivados del peyote"
+      ],
+      "correcta": 1,
+      "explicacion": "El dosier del PNSD las describe como un grupo de sustancias estimulantes químicamente relacionadas con la catinona, el alcaloide activo del khat (Catha edulis); imitan los efectos de las anfetaminas y la cocaína. Ni son opioides ni proceden del peyote.",
+      "ref": "PNSD, dosier Catinonas sintéticas (2025)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Tras el cannabis, ¿cuál es la segunda droga ilícita más consumida en Europa según el Informe Europeo sobre Drogas 2026?",
+      "opciones": [
+        "La heroína",
+        "La cocaína",
+        "El MDMA"
+      ],
+      "correcta": 1,
+      "explicacion": "El informe de la EUDA señala que la cocaína es, después del cannabis, la segunda droga ilícita más consumida en Europa. El MDMA es el segundo estimulante ilícito tras la cocaína y la heroína es el opioide ilícito más usado, pero no ocupa ese lugar en prevalencia.",
+      "ref": "EUDA, European Drug Report 2026 (cocaína y cannabis)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una persona que tomaba una benzodiazepina a diario desde hacía más de seis meses la deja bruscamente y presenta temblor, ansiedad e insomnio. El cuadro es compatible con:",
+      "opciones": [
+        "Un síndrome de abstinencia",
+        "Una tolerancia inversa o sensibilización",
+        "Una intoxicación aguda por sobredosis"
+      ],
+      "correcta": 0,
+      "explicacion": "El glosario de la OMS indica que la interrupción brusca de las benzodiazepinas induce un síndrome de abstinencia en el 50 % de las personas tratadas durante seis meses o más. La tolerancia inversa es el aumento de respuesta con el uso repetido, y la intoxicación aguda se produce por exceso de sustancia, no por su retirada.",
+      "ref": "Glosario OMS (1994), «Benzodiazepina» y «Síndrome de abstinencia»",
+      "dificultad": 3
+    }
+  ],
+  "dudas": [
+    "El «karkubi» (hachís con clonazepam) cayó en examen, pero no he encontrado una fuente oficial que lo defina; no se incluye en el resumen.",
+    "La definición de «droga» que repiten los manuales («toda sustancia que, introducida en el organismo por cualquier vía de administración, produce una alteración del natural funcionamiento del sistema nervioso central y es susceptible de crear dependencia») se atribuye a la OMS, pero no figura así en el glosario de 1994 y no la he podido contrastar con una fuente primaria.",
+    "El encaje del cannabis, el MDMA, la ketamina y el PCP en los tres grupos por efecto depende de la fuente; el glosario de la OMS pone el MDMA entre los alucinógenos y el PNSD lo trata como estimulante. No se han redactado preguntas sobre esa clasificación.",
+    "El criterio de dependencia del DSM-5 (trastorno por consumo de sustancias) no se ha incluido porque no he leído la fuente primaria."
+  ]
+}

@@ -1,0 +1,586 @@
+{
+  "tema": 33,
+  "titulo": "La seguridad: concepto y teorías de la delincuencia",
+  "bloque": "B",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "0-1 preguntas por examen (cayó en P40 y P43): teoría de las actividades rutinarias, factores de la inseguridad subjetiva y qué pertenece a la seguridad colectiva."
+  },
+  "normas": [
+    {
+      "nombre": "Constitución Española (arts. 17, 104 y 149.1.29.ª)",
+      "boe": "BOE-A-1978-31229",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "verificado": "Texto consolidado, actualización de 20/05/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad (art. 1)",
+      "boe": "BOE-A-1986-6859",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859",
+      "verificado": "Texto consolidado, actualización de 17/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana (preámbulo y arts. 1 y 3)",
+      "boe": "BOE-A-2015-3442",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442",
+      "verificado": "Texto consolidado, actualización de 19/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 5/2014, de 4 de abril, de Seguridad Privada (arts. 1 a 5)",
+      "boe": "BOE-A-2014-3649",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-3649",
+      "verificado": "Texto consolidado, actualización de 26/01/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 36/2015, de 28 de septiembre, de Seguridad Nacional (arts. 3, 9 y 10)",
+      "boe": "BOE-A-2015-10389",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10389",
+      "verificado": "Texto consolidado, actualización de 14/10/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 10/1995, del Código Penal (arts. 19, 570 bis y 570 ter)",
+      "boe": "BOE-A-1995-25444",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "verificado": "Texto consolidado, actualización de 09/04/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Maldonado-Guzmán, Saldaña-Taboada y Miguel-Alvaro (2021), «Análisis espacial de la inseguridad percibida en Barcelona», Anuario de Psicología Jurídica 31, 63-73",
+      "url": "https://doi.org/10.5093/apj2021a7",
+      "verificado": "Artículo de acceso abierto leído el 16/10/2026"
+    },
+    {
+      "nombre": "Ministerio del Interior, Balance de Criminalidad. Cuarto trimestre de 2025 (enero a diciembre)",
+      "url": "https://estadisticasdecriminalidad.ses.mir.es/publico/portalestadistico/dam/jcr:7d3776cd-9ca4-4c02-8ca4-96b2571dbee4/Balance%20de%20Criminalidad%20Cuarto%20Trimestre%202025.pdf",
+      "verificado": "Datos provisionales leídos el 16/10/2026"
+    },
+    {
+      "nombre": "Cohen y Felson (1979), «Social Change and Crime Rate Trends: A Routine Activity Approach», American Sociological Review 44(4), 588-608",
+      "url": "https://doi.org/10.2307/2094589",
+      "verificado": "Referencia comprobada en Crossref el 16/10/2026"
+    },
+    {
+      "nombre": "Merton (1938), «Social Structure and Anomie», American Sociological Review 3(5), 672-682",
+      "url": "https://doi.org/10.2307/2084686",
+      "verificado": "Referencia comprobada en Crossref el 16/10/2026"
+    },
+    {
+      "nombre": "Sutherland (1940), «White-Collar Criminality», American Sociological Review 5(1), 1-12",
+      "url": "https://doi.org/10.2307/2083937",
+      "verificado": "Referencia comprobada en Crossref el 16/10/2026"
+    },
+    {
+      "nombre": "Sykes y Matza (1957), «Techniques of Neutralization», American Sociological Review 22(6), 664-670",
+      "url": "https://doi.org/10.2307/2089195",
+      "verificado": "Referencia comprobada en Crossref el 16/10/2026"
+    },
+    {
+      "nombre": "Becker (1968), «Crime and Punishment: An Economic Approach», Journal of Political Economy 76(2), 169-217",
+      "url": "https://doi.org/10.1086/259394",
+      "verificado": "Referencia comprobada en Crossref el 16/10/2026"
+    },
+    {
+      "nombre": "Wilson y Kelling (1982), «Broken Windows: The police and neighborhood safety», The Atlantic, marzo de 1982",
+      "url": "https://www.theatlantic.com/magazine/archive/1982/03/broken-windows/304465/",
+      "verificado": "Título y fecha comprobados en la web de la revista (texto de pago, no leído íntegro)"
+    }
+  ],
+  "novedades": [
+    "El Balance de Criminalidad del Ministerio del Interior separa desde hace años la criminalidad convencional de la cibercriminalidad; en el balance anual de 2025 esta última supone el 19,8 % de las infracciones penales registradas y crece un 5,3 %."
+  ],
+  "clave": [
+    "**Seguridad ciudadana y seguridad pública**: la doctrina y la jurisprudencia las interpretan, con matices, como **sinónimos** (preámbulo LO 4/2015): actividad dirigida a la **protección de personas y bienes** y al **mantenimiento de la tranquilidad ciudadana** (arts. 104.1 y 149.1.29.ª CE).",
+    "La seguridad pública es **competencia exclusiva del Estado**; su mantenimiento corresponde al **Gobierno de la Nación** y las CCAA y las Corporaciones Locales **participan** (art. 1 LO 2/1986).",
+    "La seguridad ciudadana es **requisito indispensable** para el pleno ejercicio de los derechos fundamentales y las libertades públicas y un **bien jurídico de carácter colectivo** (art. 1.1 LO 4/2015).",
+    "**Seguridad privada** = actividades **complementarias y subordinadas** respecto de la seguridad pública (art. 1.1 Ley 5/2014); complementa el monopolio de la seguridad del Estado (art. 4.c).",
+    "**Componentes fundamentales de la Seguridad Nacional**: Defensa Nacional, Seguridad Pública y Acción Exterior (art. 9.1 Ley 36/2015).",
+    "**Inseguridad objetiva** = delincuencia registrada + criminalidad oculta; **inseguridad subjetiva** = sentimiento de inseguridad y miedo al delito. La relación entre ambas es **escasa** («paradoja de la inseguridad»).",
+    "**Actividades rutinarias** (Cohen y Felson, 1979): convergen en espacio y tiempo un **delincuente motivado**, un **objetivo adecuado** (víctima accesible) y la **ausencia de un guardián capaz**.",
+    "**Ventanas rotas** (Wilson y Kelling, 1982): el desorden y el deterioro no atendidos favorecen más desorden, más delito y más sensación de inseguridad.",
+    "**Organización criminal** (art. 570 bis CP): más de dos personas, carácter estable o por tiempo indefinido y reparto concertado de tareas. **Grupo criminal** (art. 570 ter): más de dos personas, sin esas características, para perpetrar concertadamente delitos.",
+    "**Escuela clásica** (Beccaria, 1764): libre albedrío y pena proporcionada; **escuela positiva** (Lombroso, 1876): determinismo y «criminal nato»; las teorías **sociológicas** (anomia, asociación diferencial, control social, etiquetamiento) explican el delito por el contexto social."
+  ],
+  "resumen": [
+    {
+      "titulo": "Qué es la seguridad: conceptos legales",
+      "puntos": [
+        "La Constitución encomienda a las Fuerzas y Cuerpos de Seguridad «proteger el libre ejercicio de los derechos y libertades» y «garantizar la **seguridad ciudadana**» (art. 104.1) y reserva al Estado la competencia exclusiva sobre **seguridad pública**, sin perjuicio de las policías de las CCAA (art. 149.1.29.ª).",
+        "El preámbulo de la **LO 4/2015** recuerda que doctrina y jurisprudencia interpretan ambos conceptos, **con matices, como sinónimos**: la actividad dirigida a la protección de personas y bienes y al mantenimiento de la tranquilidad ciudadana.",
+        "Art. 1 LO 4/2015: la seguridad ciudadana es un **requisito indispensable** para el pleno ejercicio de los derechos fundamentales y las libertades públicas y su salvaguarda, como **bien jurídico de carácter colectivo**, es **función del Estado**; la ley regula un conjunto plural de actuaciones de tutela mediante la protección de personas y bienes y el mantenimiento de la tranquilidad de los ciudadanos.",
+        "**Seguridad Nacional** (art. 3 Ley 36/2015): acción del Estado dirigida a proteger la libertad, los derechos y el bienestar de los ciudadanos, garantizar la defensa de España y sus principios y valores constitucionales, y contribuir a la seguridad internacional. Sus **tres componentes fundamentales** son la **Defensa Nacional, la Seguridad Pública y la Acción Exterior** (art. 9.1); los servicios de inteligencia la apoyan de forma permanente (art. 9.2)."
+      ]
+    },
+    {
+      "titulo": "Seguridad individual y seguridad colectiva",
+      "puntos": [
+        "Es una distinción **doctrinal**, sin definición en las leyes: la seguridad **individual** atiende a la protección de la persona y de sus bienes (vida, integridad, libertad, patrimonio); la **colectiva** atiende a las condiciones de normalidad y tranquilidad de la comunidad en su conjunto (instituciones, servicios básicos, convivencia).",
+        "Apoyo normativo: la LO 4/2015 habla de **protección de personas y bienes** y de **mantenimiento de la tranquilidad** de los ciudadanos (art. 1.2), y fija como fines la garantía del normal funcionamiento de las instituciones y de la prestación de los servicios básicos para la comunidad (art. 3.b y 3.g); por eso la califica de **bien jurídico colectivo**."
+      ]
+    },
+    {
+      "titulo": "Seguridad pública frente a seguridad privada",
+      "puntos": [
+        "La seguridad privada nace como actividad **complementaria y subordinada** de la pública: no la sustituye ni compite con ella (art. 1.1 Ley 5/2014).",
+        "Fines de la seguridad privada (art. 4 Ley 5/2014): satisfacer las necesidades legítimas de seguridad o información de los usuarios; **contribuir a garantizar la seguridad pública**, prevenir infracciones y aportar información a los procedimientos; y **complementar el monopolio de la seguridad del Estado**, integrando funcionalmente sus medios como recurso externo de la seguridad pública.",
+        "Actividades de seguridad privada (art. 5.1, ocho): vigilancia y protección de bienes y lugares; acompañamiento y protección de personas; depósito, custodia y recuento de valores; depósito y custodia de explosivos y armas; transporte de ambos; instalación y mantenimiento de sistemas de alarma y videovigilancia; explotación de centrales de alarma; e **investigación privada** (solo delitos perseguibles a instancia de parte), exclusiva de los despachos de detectives (art. 5.2)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Aspecto",
+          "Seguridad pública",
+          "Seguridad privada"
+        ],
+        "filas": [
+          [
+            "Norma básica",
+            "Art. 149.1.29.ª CE y LO 2/1986",
+            "Ley 5/2014 de Seguridad Privada"
+          ],
+          [
+            "Titularidad",
+            "**Competencia exclusiva del Estado**; su mantenimiento corresponde al **Gobierno de la Nación** (art. 1.1 LO 2/1986)",
+            "Prestada por personas privadas: empresas de seguridad, despachos de detectives y personal de seguridad privada (arts. 1 y 2 Ley 5/2014)"
+          ],
+          [
+            "Ejercicio",
+            "Las distintas Administraciones a través de las **Fuerzas y Cuerpos de Seguridad** (art. 1.4); CCAA y Corporaciones Locales **participan** (art. 1.2 y 1.3)",
+            "Servicios contratados **voluntaria u obligatoriamente** por personas físicas o jurídicas, públicas o privadas, para proteger personas y bienes"
+          ],
+          [
+            "Naturaleza",
+            "Función del Estado",
+            "**Complementaria y subordinada** respecto de la pública"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "La inseguridad: objetiva y subjetiva",
+      "puntos": [
+        "**Inseguridad objetiva**: riesgo real de delito, medido por la **delincuencia registrada** (denuncias y estadísticas policiales) y la **criminalidad oculta** o cifra oculta, que se estima con encuestas de victimización y autoinformes.",
+        "**Inseguridad subjetiva** (seguridad subjetiva): percepción de desorden o problemas en el entorno, miedo y confianza en el sistema penal; incluye una dimensión **cognitiva**, una **emocional** y otra **conductual**. Se habla del **sentimiento de inseguridad** y del **miedo al delito**.",
+        "**Paradoja de la inseguridad**: la relación entre ambas es **escasa**; en Europa han bajado las tasas de delincuencia y, aun así, la población dice sentirse más insegura. Por eso mayor inseguridad subjetiva no implica necesariamente más delincuencia.",
+        "Teorías que explican la inseguridad percibida (no excluyentes): **incivilidad o ventanas rotas** (desorden social y deterioro físico), **victimización** (haber sido víctima o conocer a una), **vulnerabilidad física** (género, edad), **vulnerabilidad social** y **redes sociales** (el apoyo social reduce el temor).",
+        "Dato de contexto (Balance de Criminalidad 2025, Interior): **2.474.156 infracciones penales** (+0,8 %); **1.984.908 de criminalidad convencional** (80,2 %) y **489.248 de cibercriminalidad** (19,8 %; +5,3 %); tasas de **40,4** y **10,0** por mil habitantes."
+      ]
+    },
+    {
+      "titulo": "Teorías explicativas de la delincuencia: modelos",
+      "puntos": [
+        "Una teoría criminológica intenta explicar **por qué se delinque** y por qué se concentra el delito en ciertas personas, lugares o momentos. Los modelos se agrupan en clásicos, positivistas, sociológicos y de la oportunidad o criminología ambiental.",
+        "Para el examen conviene asociar cada nombre con su idea: **Lombroso** (criminal nato), **Merton** (anomia), **Sutherland** (aprendizaje), **Hirschi** (control social), **Becker** (etiquetamiento o, en 1968, elección racional), **Cohen y Felson** (actividades rutinarias) y **Wilson y Kelling** (ventanas rotas)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Modelo",
+          "Autores y fecha",
+          "Idea central"
+        ],
+        "filas": [
+          [
+            "Escuela clásica",
+            "Beccaria («De los delitos y de las penas», 1764), Bentham",
+            "El delito es una decisión libre y racional; la pena debe ser legal, proporcionada y útil (disuasión)"
+          ],
+          [
+            "Escuela positiva",
+            "Lombroso («L'uomo delinquente», 1876), Ferri, Garofalo",
+            "Determinismo: factores biológicos, psicológicos y sociales explican el delito; «criminal nato» de Lombroso"
+          ],
+          [
+            "Desorganización social (Escuela de Chicago)",
+            "Shaw y McKay (1942)",
+            "La delincuencia se concentra en zonas urbanas de transición con débil control comunitario"
+          ],
+          [
+            "Anomia o tensión",
+            "Merton (1938)",
+            "Desajuste entre metas culturales y medios legítimos; **cinco adaptaciones**: conformidad, innovación, ritualismo, retraimiento y rebelión"
+          ],
+          [
+            "Asociación diferencial",
+            "Sutherland",
+            "El comportamiento delictivo **se aprende** en la interacción con otras personas; creó el concepto de delito de **cuello blanco** (1939-1940)"
+          ],
+          [
+            "Subculturas delictivas",
+            "A. Cohen («Delinquent Boys», 1955)",
+            "Bandas juveniles con valores propios opuestos a los dominantes"
+          ],
+          [
+            "Técnicas de neutralización",
+            "Sykes y Matza (1957)",
+            "Justificaciones con las que el infractor neutraliza el reproche moral"
+          ],
+          [
+            "Control social",
+            "Hirschi (1969)",
+            "Se delinque cuando se debilita el vínculo con la sociedad: **apego, compromiso, implicación y creencia**"
+          ],
+          [
+            "Etiquetamiento",
+            "H. Becker («Outsiders», 1963)",
+            "La desviación depende de la reacción social: se «etiqueta» como desviado"
+          ],
+          [
+            "Elección racional",
+            "G. Becker (1968), Clarke y Cornish (1985)",
+            "El delincuente sopesa costes y beneficios"
+          ],
+          [
+            "Actividades rutinarias",
+            "Cohen y Felson (1979)",
+            "Delincuente motivado + objetivo adecuado + ausencia de guardián capaz"
+          ],
+          [
+            "Ventanas rotas",
+            "Wilson y Kelling (1982)",
+            "Desorden no atendido → más desorden, delito e inseguridad"
+          ],
+          [
+            "Prevención situacional",
+            "Newman («Defensible Space», 1972)",
+            "El diseño del espacio urbano condiciona la oportunidad delictiva"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Clases de delincuencia",
+      "puntos": [
+        "No hay una clasificación legal única: se usan varios criterios doctrinales. Por el **modo de comisión**: delincuencia individual, en grupo y organizada.",
+        "**Organización criminal** (art. 570 bis CP): agrupación formada por **más de dos personas**, con **carácter estable o por tiempo indefinido**, que de manera concertada y coordinada **se reparten tareas o funciones** para cometer delitos. **Grupo criminal** (art. 570 ter): unión de **más de dos personas** que, sin reunir alguna o algunas de esas características, tiene por finalidad la **perpetración concertada de delitos**.",
+        "Por el **ámbito**: criminalidad **convencional** y **cibercriminalidad**, que es la clasificación del Balance de Criminalidad de Interior.",
+        "Por el **perfil del autor**: delincuencia de **cuello blanco** (Sutherland: delitos de personas de alto estatus en el ejercicio de su profesión), habitual, ocasional, profesional y **juvenil**. Los menores de 18 años no responden con arreglo al Código Penal, sino a la ley que regula la responsabilidad penal del menor (art. 19 CP)."
+      ]
+    }
+  ],
+  "trampas": [
+    "La seguridad pública es **competencia exclusiva** del Estado; las CCAA y las Corporaciones Locales **participan**, no la ostentan en exclusiva.",
+    "La seguridad privada es **complementaria y subordinada**: los distractores hablan de «sustitutiva», «alternativa», «independiente» o «concurrente».",
+    "La seguridad ciudadana es un bien jurídico **colectivo** (art. 1.1 LO 4/2015), no individual.",
+    "La Seguridad Nacional tiene **tres** componentes fundamentales (Defensa Nacional, Seguridad Pública, Acción Exterior); la inteligencia **apoya**, no es componente fundamental.",
+    "Actividades rutinarias: el tercer elemento es la **ausencia** de guardián capaz; no confundir con ventanas rotas (desorden), asociación diferencial (aprendizaje) o anomia (tensión estructural).",
+    "Dos Cohen distintos: **Cohen y Felson** (actividades rutinarias, 1979) y **Albert Cohen** (subculturas delictivas, 1955).",
+    "Inseguridad objetiva (hechos delictivos) frente a subjetiva (percepción): más delitos registrados no implican necesariamente más miedo.",
+    "Organización criminal y grupo criminal exigen ambas **más de dos personas**; solo la organización añade estabilidad y reparto de tareas.",
+    "Escuela clásica = libre albedrío y pena proporcionada; escuela positiva = determinismo (Lombroso). No intercambiarlas."
+  ],
+  "caido": [
+    {
+      "examen": "P40 (13 abr 2024)",
+      "concepto": "Teoría de las actividades cotidianas o rutinarias (Cohen y Felson): delincuente motivado, víctima accesible y falta de control."
+    },
+    {
+      "examen": "P43 (26 sep 2026)",
+      "concepto": "Inseguridad subjetiva: el sensacionalismo mediático como factor."
+    },
+    {
+      "examen": "P43 (26 sep 2026)",
+      "concepto": "El Plan Estratégico Nacional de Protección de Infraestructuras Críticas, dentro de la seguridad colectiva."
+    }
+  ],
+  "mnemotecnias": [
+    "Actividades rutinarias: **M-O-G** = delincuente **M**otivado, **O**bjetivo adecuado, **G**uardián ausente.",
+    "Adaptaciones de Merton: **C-I-R-R-R** = Conformidad, Innovación, Ritualismo, Retraimiento, Rebelión.",
+    "Vínculos de Hirschi: **A-C-I-C** = Apego, Compromiso, Implicación, Creencia."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Cómo interpretan la doctrina y la jurisprudencia los conceptos de seguridad ciudadana y seguridad pública según el preámbulo de la LO 4/2015?",
+      "r": "Con matices, como **sinónimos**: la actividad dirigida a la **protección de personas y bienes** y al **mantenimiento de la tranquilidad ciudadana**."
+    },
+    {
+      "p": "¿De quién es la competencia en seguridad pública?",
+      "r": "**Exclusiva del Estado** (art. 149.1.29.ª CE; art. 1.1 LO 2/1986); su mantenimiento corresponde al **Gobierno de la Nación**. CCAA y Corporaciones Locales participan."
+    },
+    {
+      "p": "¿Cómo califica el art. 1.1 LO 4/2015 la seguridad ciudadana?",
+      "r": "**Requisito indispensable** para el pleno ejercicio de los derechos fundamentales y las libertades públicas y **bien jurídico de carácter colectivo**."
+    },
+    {
+      "p": "¿Qué relación guarda la seguridad privada con la pública?",
+      "r": "Sus actividades son **complementarias y subordinadas** respecto de la seguridad pública (art. 1.1 Ley 5/2014)."
+    },
+    {
+      "p": "¿Quiénes prestan seguridad privada?",
+      "r": "Empresas de seguridad privada, despachos de detectives privados y personal de seguridad privada habilitado (art. 2 Ley 5/2014)."
+    },
+    {
+      "p": "¿Cuáles son los componentes fundamentales de la Seguridad Nacional?",
+      "r": "**Defensa Nacional, Seguridad Pública y Acción Exterior** (art. 9.1 Ley 36/2015)."
+    },
+    {
+      "p": "¿Qué es la inseguridad objetiva?",
+      "r": "El riesgo real de delito: **delincuencia registrada** y **criminalidad oculta**."
+    },
+    {
+      "p": "¿Qué es la inseguridad subjetiva?",
+      "r": "El **sentimiento de inseguridad** y el **miedo al delito** de la población, con dimensión cognitiva, emocional y conductual."
+    },
+    {
+      "p": "¿Qué se entiende por paradoja de la inseguridad?",
+      "r": "Que la inseguridad subjetiva guarda **escasa relación** con el riesgo objetivo: la población puede sentirse más insegura aunque bajen las tasas de delincuencia."
+    },
+    {
+      "p": "¿Qué sostiene la teoría de las actividades rutinarias y quiénes la formularon?",
+      "r": "**Cohen y Felson (1979)**: el delito requiere la convergencia de un delincuente motivado, un objetivo adecuado y la ausencia de un guardián capaz."
+    },
+    {
+      "p": "¿Qué sostiene la teoría de las ventanas rotas?",
+      "r": "**Wilson y Kelling (1982)**: el desorden y el deterioro no atendidos favorecen más desorden, más delito y más inseguridad."
+    },
+    {
+      "p": "¿Qué sostiene la teoría de la asociación diferencial?",
+      "r": "**Sutherland**: el comportamiento delictivo **se aprende** en la interacción con otros."
+    },
+    {
+      "p": "¿Cuáles son las cinco adaptaciones individuales de Merton?",
+      "r": "Conformidad, innovación, ritualismo, retraimiento y rebelión."
+    },
+    {
+      "p": "¿Qué elementos del vínculo social señala Hirschi en su teoría del control?",
+      "r": "**Apego, compromiso, implicación y creencia**."
+    },
+    {
+      "p": "Diferencia entre escuela clásica y escuela positiva.",
+      "r": "Clásica (Beccaria, 1764): libre albedrío, pena proporcionada. Positiva (Lombroso, 1876): determinismo, criminal nato."
+    },
+    {
+      "p": "¿Qué es una organización criminal según el art. 570 bis CP?",
+      "r": "Agrupación de **más de dos personas**, de carácter **estable o por tiempo indefinido**, que de forma concertada **se reparten tareas** para cometer delitos."
+    },
+    {
+      "p": "¿Qué es un grupo criminal según el art. 570 ter CP?",
+      "r": "Unión de **más de dos personas** que, sin reunir alguna de las características de la organización, tiene por finalidad la **perpetración concertada de delitos**."
+    },
+    {
+      "p": "¿Qué dos grandes bloques distingue el Balance de Criminalidad de Interior?",
+      "r": "**Criminalidad convencional** y **cibercriminalidad** (en 2025: 80,2 % y 19,8 % de las infracciones registradas)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Según el art. 1 de la LO 2/1986, ¿a quién corresponde el mantenimiento de la seguridad pública?",
+      "opciones": [
+        "A las Comunidades Autónomas, que la ejercen con carácter exclusivo en su territorio",
+        "Al Gobierno de la Nación, por ser la seguridad pública competencia exclusiva del Estado",
+        "A las Corporaciones Locales, que la ejercen con carácter exclusivo en su término municipal"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 1.1 LO 2/1986 declara que la seguridad pública es competencia exclusiva del Estado y que su mantenimiento corresponde al Gobierno de la Nación. Las Comunidades Autónomas y las Corporaciones Locales solo participan en ese mantenimiento en los términos de sus Estatutos y de la legislación de régimen local (art. 1.2 y 1.3). Por eso fallan las dos opciones que les atribuyen un ejercicio exclusivo.",
+      "ref": "art. 1 LO 2/1986; art. 149.1.29.ª CE",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el art. 1.1 de la LO 4/2015, la seguridad ciudadana es:",
+      "opciones": [
+        "Un requisito indispensable para el pleno ejercicio de los derechos fundamentales y las libertades públicas, y un bien jurídico de carácter colectivo",
+        "Un derecho fundamental de carácter individual, cuya garantía corresponde a cada ciudadano",
+        "Una competencia compartida a partes iguales entre el Estado y las Comunidades Autónomas"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 1.1 LO 4/2015 la define como requisito indispensable para el ejercicio de los derechos fundamentales y las libertades públicas y añade que su salvaguarda, como bien jurídico de carácter colectivo, es función del Estado. No es un derecho fundamental individual ni una competencia compartida por mitades: la seguridad pública es competencia exclusiva del Estado (art. 149.1.29.ª CE).",
+      "ref": "art. 1.1 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según la Ley 5/2014, las actividades y servicios de seguridad privada tienen la consideración de:",
+      "opciones": [
+        "Alternativas y sustitutivas de la seguridad pública cuando esta resulta insuficiente",
+        "Autónomas e independientes de la seguridad pública, sin necesidad de coordinación",
+        "Complementarias y subordinadas respecto de la seguridad pública"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 1.1 Ley 5/2014 dice expresamente que todas estas actividades tienen la consideración de complementarias y subordinadas respecto de la seguridad pública, y el art. 4.c añade que complementan el monopolio de la seguridad del Estado. No son sustitutivas ni independientes: la ley regula además su coordinación con las Fuerzas y Cuerpos de Seguridad.",
+      "ref": "art. 1.1 y art. 4.c Ley 5/2014",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "De las siguientes actividades, ¿cuál NO es una actividad de seguridad privada según el art. 5.1 de la Ley 5/2014?",
+      "opciones": [
+        "La vigilancia y protección de bienes, establecimientos, lugares y eventos, públicos o privados",
+        "El depósito y custodia de explosivos, armas y cartuchería metálica que precisen vigilancia especial",
+        "La investigación privada de delitos perseguibles de oficio"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 5.1.h solo incluye la investigación privada en relación con personas, hechos o delitos sólo perseguibles a instancia de parte; los delitos perseguibles de oficio quedan fuera. La vigilancia y protección de bienes y lugares y el depósito y custodia de explosivos y armas sí figuran entre las actividades de seguridad privada del art. 5.1.",
+      "ref": "art. 5.1 Ley 5/2014",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuáles son los componentes fundamentales de la Seguridad Nacional según el art. 9.1 de la Ley 36/2015?",
+      "opciones": [
+        "La Defensa Nacional, la Inteligencia y la Protección Civil",
+        "La Defensa Nacional, la Seguridad Pública y la Acción Exterior",
+        "La Seguridad Pública, la Seguridad Privada y la Acción Exterior"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 9.1 enumera tres componentes fundamentales: Defensa Nacional, Seguridad Pública y Acción Exterior. Los servicios de inteligencia no son un componente fundamental, sino que apoyan de forma permanente al Sistema (art. 9.2). La seguridad privada no figura entre ellos; es complementaria de la pública.",
+      "ref": "art. 9 Ley 36/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El preámbulo de la LO 4/2015 afirma que la doctrina y la jurisprudencia han interpretado los conceptos de seguridad ciudadana (art. 104.1 CE) y seguridad pública (art. 149.1.29.ª CE) como:",
+      "opciones": [
+        "Sinónimos, con matices: actividad de protección de personas y bienes y de mantenimiento de la tranquilidad ciudadana",
+        "Conceptos opuestos: la ciudadana es autonómica y la pública es estatal",
+        "Conceptos independientes: la seguridad pública se limita a la defensa nacional"
+      ],
+      "correcta": 0,
+      "explicacion": "El preámbulo señala que la Constitución asumió ambos conceptos y que doctrina y jurisprudencia los han interpretado, con matices, como sinónimos, entendiendo por tales la actividad dirigida a la protección de personas y bienes y al mantenimiento de la tranquilidad ciudadana. No son conceptos opuestos ni se reducen a la defensa nacional, que se regula aparte.",
+      "ref": "preámbulo LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes descripciones corresponde a la inseguridad subjetiva?",
+      "opciones": [
+        "El sentimiento de inseguridad y el miedo al delito que experimenta la población",
+        "El número de delitos registrados por las Fuerzas y Cuerpos de Seguridad en un periodo",
+        "La criminalidad que no llega a conocimiento de la policía, la llamada cifra oculta"
+      ],
+      "correcta": 0,
+      "explicacion": "La inseguridad subjetiva es la percepción: el sentimiento de inseguridad y el miedo al delito. Los delitos registrados y la criminalidad oculta forman la dimensión objetiva, que es la que se mide con estadísticas policiales y con encuestas de victimización o autoinformes.",
+      "ref": "Maldonado-Guzmán et al. (2021); Instituto Vasco de Criminología",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Respecto a la relación entre la delincuencia real y el sentimiento de inseguridad, la literatura criminológica señala que:",
+      "opciones": [
+        "Es directa y proporcional: a más delitos registrados, siempre mayor miedo al delito",
+        "Es inversa: cuanto más delitos se registran, menor es la sensación de inseguridad",
+        "Es escasa: la población puede sentirse más insegura aunque disminuyan las tasas de delincuencia"
+      ],
+      "correcta": 2,
+      "explicacion": "Es la llamada paradoja de la inseguridad: los estudios muestran una relación escasa entre ambas dimensiones, y en Europa los habitantes informan sentirse más inseguros pese a la disminución de las tasas de delincuencia. Ni es proporcional ni inversa; influyen otros factores como la victimización previa, el desorden del entorno o la vulnerabilidad.",
+      "ref": "Maldonado-Guzmán et al. (2021)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según la teoría de las actividades rutinarias de Cohen y Felson, para que se produzca un delito de contacto directo deben converger en el espacio y en el tiempo:",
+      "opciones": [
+        "Un delincuente motivado, una subcultura delictiva y un nivel elevado de anomia",
+        "Un delincuente motivado, un objetivo adecuado y la ausencia de un guardián capaz",
+        "Un entorno desordenado, una víctima vulnerable y una pena poco proporcionada"
+      ],
+      "correcta": 1,
+      "explicacion": "Cohen y Felson (1979) identifican tres elementos mínimos: delincuente motivado, objetivo o víctima adecuada y ausencia de guardianes capaces de impedir el hecho. Anomia y subculturas pertenecen a otras teorías (Merton y A. Cohen), y el desorden del entorno remite a las ventanas rotas.",
+      "ref": "Cohen y Felson (1979)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un ayuntamiento repara de inmediato las pintadas y el mobiliario urbano roto para evitar que el deterioro acabe favoreciendo delitos. Esta política se inspira en la teoría de:",
+      "opciones": [
+        "La asociación diferencial de Sutherland",
+        "Las ventanas rotas de Wilson y Kelling",
+        "El etiquetamiento de Becker"
+      ],
+      "correcta": 1,
+      "explicacion": "La teoría de las ventanas rotas (Wilson y Kelling, 1982) sostiene que el desorden y el deterioro no atendidos envían la señal de que nadie cuida el espacio y favorecen más desorden, delito e inseguridad. La asociación diferencial explica el delito como conducta aprendida y el etiquetamiento se centra en la reacción social ante el desviado.",
+      "ref": "Wilson y Kelling (1982)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Para Merton, la presión que lleva a delinquir (anomia o tensión) surge del desajuste entre:",
+      "opciones": [
+        "Las metas culturalmente valoradas y los medios legítimos disponibles para alcanzarlas",
+        "La herencia biológica del individuo y las exigencias de su medio familiar",
+        "Los valores de la subcultura juvenil y los de la escuela"
+      ],
+      "correcta": 0,
+      "explicacion": "En «Social Structure and Anomie» (1938), Merton explica la conducta desviada por la discrepancia entre las metas que la sociedad propone y los medios legítimos para lograrlas; de ahí sus cinco adaptaciones (conformidad, innovación, ritualismo, retraimiento y rebelión). La herencia biológica remite al positivismo y las subculturas a A. Cohen.",
+      "ref": "Merton (1938)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La teoría de la asociación diferencial de Sutherland defiende que el comportamiento delictivo:",
+      "opciones": [
+        "Se explica por rasgos físicos hereditarios identificables en el delincuente",
+        "Se produce cuando se debilitan el apego y el compromiso con la sociedad",
+        "Se aprende en la interacción con otras personas"
+      ],
+      "correcta": 2,
+      "explicacion": "Para Sutherland el comportamiento criminal es una conducta aprendida en la comunicación e interacción con otros. Los rasgos físicos hereditarios son propios de Lombroso, y el debilitamiento de los vínculos de apego y compromiso es la explicación de Hirschi (control social).",
+      "ref": "Sutherland (1940)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Cesare Lombroso, autor de «L'uomo delinquente» (1876) y de la figura del «criminal nato», pertenece a la escuela:",
+      "opciones": [
+        "Clásica, basada en el libre albedrío",
+        "Del etiquetamiento, centrada en la reacción social",
+        "Positiva, de orientación determinista"
+      ],
+      "correcta": 2,
+      "explicacion": "Lombroso es el representante más conocido de la escuela positiva, que sustituye el libre albedrío por el determinismo: el delito se explica por factores biológicos, psicológicos y sociales. La escuela clásica es la de Beccaria (1764), con libre albedrío y pena proporcionada; el etiquetamiento es una teoría sociológica posterior (Becker, 1963).",
+      "ref": "Lombroso (1876); Beccaria (1764)",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el art. 570 bis del Código Penal, se entiende por organización criminal:",
+      "opciones": [
+        "La unión ocasional de dos o más personas para ejecutar un delito concreto",
+        "La agrupación de más de dos personas, con carácter estable o por tiempo indefinido, que de manera concertada y coordinada se reparten tareas o funciones para cometer delitos",
+        "La agrupación de al menos tres personas, sin estructura estable, que decide cometer delitos de forma puntual"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 570 bis define la organización criminal por tres notas: más de dos personas, carácter estable o por tiempo indefinido y reparto concertado de tareas o funciones. La unión ocasional de dos personas no alcanza ese umbral y la agrupación sin estabilidad ni reparto de funciones describe, en todo caso, un grupo criminal (art. 570 ter).",
+      "ref": "art. 570 bis CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Cuatro personas se conciertan para cometer varios robos, pero sin estabilidad ni reparto de funciones. La figura penal que mejor describe el supuesto es:",
+      "opciones": [
+        "Un grupo criminal (art. 570 ter CP)",
+        "Una organización criminal (art. 570 bis CP)",
+        "Una mera coincidencia de personas, que el Código Penal no regula"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 570 ter define el grupo criminal como la unión de más de dos personas que, sin reunir alguna o algunas de las características de la organización criminal, tiene por finalidad la perpetración concertada de delitos. Falta la estabilidad y el reparto de funciones propios de la organización (art. 570 bis), y el Código Penal sí regula estos grupos.",
+      "ref": "arts. 570 bis y 570 ter CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un comerciante contrata un vigilante y una alarma conectada para proteger su tienda. En la teoría de las actividades rutinarias, está actuando sobre el elemento de:",
+      "opciones": [
+        "La presencia de un guardián capaz que proteja el objetivo",
+        "La motivación del delincuente",
+        "La anomia de la comunidad"
+      ],
+      "correcta": 0,
+      "explicacion": "Vigilantes y alarmas son guardianes capaces de impedir el delito: refuerzan el tercer elemento de la teoría de Cohen y Felson. No modifican la motivación del delincuente ni tienen que ver con la anomia, concepto de Merton referido al desajuste entre metas y medios.",
+      "ref": "Cohen y Felson (1979)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El Balance de Criminalidad del Ministerio del Interior clasifica las infracciones penales registradas en:",
+      "opciones": [
+        "Delitos graves, menos graves y leves, exclusivamente",
+        "Delincuencia común y delincuencia organizada",
+        "Criminalidad convencional y cibercriminalidad"
+      ],
+      "correcta": 2,
+      "explicacion": "El balance distingue la criminalidad convencional (todas las formas no cometidas en el espacio ciber) de la cibercriminalidad (infracciones cometidas en o por medio de internet, como las estafas informáticas). La gravedad del delito es otro criterio del Código Penal y el balance no divide por delincuencia organizada.",
+      "ref": "Balance de Criminalidad 4T 2025",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según Hirschi, la delincuencia aparece cuando se debilita el vínculo del individuo con la sociedad, formado por:",
+      "opciones": [
+        "Conformidad, innovación, ritualismo, retraimiento y rebelión",
+        "Apego, compromiso, implicación y creencia",
+        "Delincuente motivado, objetivo adecuado y guardián ausente"
+      ],
+      "correcta": 1,
+      "explicacion": "La teoría del control social de Hirschi (1969) señala cuatro elementos del vínculo social: apego, compromiso, implicación y creencia. Las cinco adaptaciones son las de Merton y los tres elementos finales corresponden a la teoría de las actividades rutinarias.",
+      "ref": "Hirschi (1969)",
+      "dificultad": 3
+    }
+  ],
+  "dudas": [
+    "No he localizado una definición normativa de «seguridad individual» y «seguridad colectiva»: se presentan como distinción doctrinal y no se han redactado preguntas literales sobre ella.",
+    "La influencia del sensacionalismo mediático sobre la inseguridad subjetiva figura como factor en el examen P43, pero la literatura la discute y no he podido contrastar el manual de referencia.",
+    "Los datos del Balance de Criminalidad son provisionales (pendientes de consolidación). No he comprobado si existe ya un balance de 2026 posterior al leído.",
+    "Estrategia de Seguridad Nacional: la de 2021 estaba en revisión desde abril de 2025; no he podido confirmar si hay una nueva aprobada."
+  ]
+}

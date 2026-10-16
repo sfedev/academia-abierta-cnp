@@ -1,0 +1,641 @@
+{
+  "tema": 30,
+  "titulo": "Ética, contravalores y delitos de odio",
+  "bloque": "B",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "medio",
+    "nota": "De 0 a 4 preguntas por examen (media 2,0; 4 y 3 en los dos últimos). Es el tema social más variable: delitos de odio (ONDOD, Observatorio, planes de acción, art. 510 y 22.4 CP), tipos de fobias, sectas de Wilson y definición de valores."
+  },
+  "normas": [
+    {
+      "nombre": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (arts. 22.4.ª, 314, 510, 510 bis, 511, 512 y 515.4.º)",
+      "boe": "BOE-A-1995-25444",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "verificado": "Texto consolidado, actualización de 09/04/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 6/2022, de 12 de julio, complementaria de la Ley 15/2022, de modificación del Código Penal",
+      "boe": "BOE-A-2022-11588",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-11588",
+      "verificado": "Texto consolidado, actualización de 20/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Circular 7/2019, de 14 de mayo, de la Fiscalía General del Estado, sobre pautas para interpretar los delitos de odio tipificados en el artículo 510 del Código Penal",
+      "boe": "BOE-A-2019-7771",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2019-7771",
+      "verificado": "Texto original publicado en el BOE (24/05/2019, sin consolidar), leído el 16/10/2026; anterior a la LO 6/2022"
+    },
+    {
+      "nombre": "Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación",
+      "boe": "BOE-A-2022-11589",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-11589",
+      "verificado": "Texto consolidado, actualización de 27/07/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI (art. 3: definiciones)",
+      "boe": "BOE-A-2023-5366",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-5366",
+      "verificado": "Texto consolidado, actualización de 20/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 19/2007, de 11 de julio, contra la violencia, el racismo, la xenofobia y la intolerancia en el deporte",
+      "boe": "BOE-A-2007-13408",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-13408",
+      "verificado": "Texto consolidado, actualización de 19/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social (art. 71: Observatorio Español del Racismo y la Xenofobia)",
+      "boe": "BOE-A-2000-544",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544",
+      "verificado": "Texto consolidado, actualización de 03/07/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Protocolo de actuación de las Fuerzas y Cuerpos de Seguridad para los delitos de odio y conductas que vulneran las normas legales sobre discriminación (edición revisada, julio de 2020)",
+      "url": "https://www.policia.es/miscelanea/participacion_ciudadana/normativa/Protocolo_actuacion_delitos_odio_07-2020.pdf",
+      "verificado": "Texto completo, con el Anexo I de definiciones conceptuales, leído el 16/10/2026"
+    },
+    {
+      "nombre": "III Plan de Acción de Lucha contra los Delitos de Odio 2025-2028 (Ministerio del Interior, Secretaría de Estado de Seguridad)",
+      "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/Documents/2025/240325-III-Plan-Accion-Delitos-Odio.pdf",
+      "verificado": "Documento leído el 16/10/2026"
+    },
+    {
+      "nombre": "Declaración de Principios sobre la Tolerancia (UNESCO, 16 de noviembre de 1995)",
+      "url": "https://igualdadynodiscriminacion.igualdad.gob.es/wp-content/uploads/2024/06/decl_prps_tolerancia_UNESCO_1995.pdf",
+      "verificado": "Texto leído el 16/10/2026"
+    },
+    {
+      "nombre": "Observatorio Español del Racismo y la Xenofobia (OBERAXE): «Sobre Oberaxe» y Memorias 2023 y 2024",
+      "url": "https://www.inclusion.gob.es/web/oberaxe/sobre-oberaxe",
+      "verificado": "Páginas y memorias leídas el 16/10/2026"
+    },
+    {
+      "nombre": "Constitución Española (arts. 1.1, 9.2, 10.1 y 14)",
+      "boe": "BOE-A-1978-31229",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "verificado": "Texto consolidado, actualización de 20/05/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Diccionario de la lengua española (RAE): «fanatismo», «sectarismo», «fundamentalismo» y «racismo»",
+      "url": "https://dle.rae.es/fanatismo",
+      "verificado": "Acepciones contrastadas el 16/10/2026 con extractos del DLE en línea obtenidos por buscador (el acceso directo devolvió error 403)"
+    },
+    {
+      "nombre": "Bryan R. Wilson (tipología de las sectas); Rokeach Value Survey; etapas del desarrollo moral de Kohlberg",
+      "url": "https://en.wikipedia.org/wiki/Bryan_R._Wilson",
+      "verificado": "Siete tipos de Wilson, 18+18 valores de Rokeach y tres niveles de Kohlberg contrastados el 16/10/2026 en fuentes secundarias"
+    }
+  ],
+  "novedades": [
+    "**LO 6/2022, de 12 de julio**: añadió el **antigitanismo** y la **edad** a la agravante del art. 22.4.ª y el **antigitanismo** y la **aporofobia** a los motivos del art. 510. La Circular 7/2019 de la Fiscalía es anterior y afirma que no se incluían la aporofobia ni la gerontofobia: esa parte está superada.",
+    "**LO 8/2021, de 4 de junio** (disposición final sexta): modificó los arts. 22.4.ª, 314, 511, 512 y 515.4.º; hoy citan la edad, la aporofobia y la exclusión social.",
+    "**III Plan de Acción de Lucha contra los Delitos de Odio 2025-2028**: sustituye al II Plan (2022-2024). Prevé actualizar el Protocolo de actuación de las FCSE (segundo semestre de 2026) y sustituir la «diligencia de indicadores de polarización» por una «diligencia de indicadores por motivación discriminatoria».",
+    "**Ley 4/2023** modificó la Ley 19/2007 para incluir la LGTBIfobia entre los objetivos de la lucha contra la violencia y la intolerancia en el deporte."
+  ],
+  "clave": [
+    "**Delito de odio** (OSCE, recogida por el Protocolo de las FCSE): cualquier infracción penal en que el bien jurídico protegido se elige por su conexión, simpatía, filiación, apoyo o pertenencia, **real o percibida**, a un grupo. Lo decisivo es la **motivación discriminatoria**.",
+    "**Art. 22.4.ª CP** (agravante): motivos racistas, antisemitas, antigitanos u otra discriminación por ideología, religión o creencias, etnia, raza o nación, sexo, **edad**, orientación o identidad sexual o de género, razones de género, **aporofobia o exclusión social**, enfermedad o discapacidad, **con independencia de que concurran efectivamente en la víctima**.",
+    "**Art. 510.1 CP**: fomentar, promover o incitar públicamente al odio, hostilidad, discriminación o violencia contra un grupo o persona por su pertenencia a él: **prisión de 1 a 4 años y multa de 6 a 12 meses**. **Art. 510.2** (lesionar la dignidad o enaltecer o justificar delitos de odio): prisión de **6 meses a 2 años** y multa de 6 a 12 meses.",
+    "**Agravantes del art. 510**: **mitad superior** si se difunde por medio de comunicación social, internet o tecnologías de la información (apdo. 3) y si es idóneo para alterar la paz pública o crear un grave sentimiento de inseguridad (apdo. 4, que puede elevarse a la pena superior en grado). Inhabilitación especial educativa de 3 a 10 años (apdo. 5).",
+    "**Circular 7/2019 de la FGE**: delitos de **peligro abstracto** (salvo el resultado del 510.2.a primer inciso); basta el **dolo genérico** más la **motivación discriminatoria**; los motivos son «numerus clausus»; el bien jurídico es la dignidad y la igualdad (art. 14 CE).",
+    "**ONDOD** (Oficina Nacional de Lucha contra los Delitos de Odio): creada en **2018**, depende de la **Dirección General de Coordinación y Estudios** (Secretaría de Estado de Seguridad). Impulsa los **Planes de Acción**: I (2019-2021), II (2022-2024) y **III (2025-2028**: 6 líneas, 15 objetivos, 109 medidas). Equipos **EVO** (Policía Nacional) y **REDO** (Guardia Civil).",
+    "**OBERAXE** (Observatorio Español del Racismo y la Xenofobia): base legal en el **art. 71 de la LO 4/2000**; depende de la **Secretaría de Estado de Migraciones** (Ministerio de Inclusión, Seguridad Social y Migraciones). Sistema **FARO** = Filtrado y Análisis de Odio en las Redes Sociales.",
+    "Definiciones del Protocolo: **mesofobia** = rechazo a la mezcla y a la convivencia intercultural; **disfobia** = delito motivado por la discapacidad; **aporofobia** = odio al pobre; **gerontofobia** (discriminación generacional) = hostilidad hacia los ancianos; **antigitanismo o romafobia**; **islamofobia**.",
+    "**Tolerancia** (UNESCO, 1995): respeto, aceptación y aprecio de la rica diversidad de las culturas; no es concesión ni indulgencia sino una actitud activa de reconocimiento de los derechos humanos; **Día Internacional para la Tolerancia: 16 de noviembre**.",
+    "**Sectas** (Bryan Wilson): siete tipos: conversionista, revolucionista, introversionista, **gnóstico-manipulacionista**, **taumatúrgica**, reformista y utópica."
+  ],
+  "resumen": [
+    {
+      "titulo": "Qué es un delito de odio y dónde está en el Código Penal",
+      "puntos": [
+        "El **Protocolo de actuación de las FCSE** (edición de julio de 2020) adopta la definición de la OSCE: «toda infracción penal, incluidas las cometidas contra las personas o la propiedad, donde el bien jurídico protegido se elige por su, real o percibida, conexión, simpatía, filiación, apoyo o pertenencia a un grupo» (por raza, origen nacional o étnico, lengua, color, religión, edad, discapacidad, orientación sexual u otro factor similar).",
+        "El Código Penal no tiene una categoría única de delitos de odio: está la **agravante del art. 22.4.ª** y delitos concretos. La Circular 7/2019 cita las amenazas a colectivos (art. 170.1), la tortura por discriminación (art. 174.1), la **discriminación laboral** (art. 314), la **denegación discriminatoria de prestaciones** (arts. 511 y 512), la **asociación ilícita que promueve el odio** (art. 515.4.º) y los delitos contra los sentimientos religiosos (arts. 522 a 525).",
+        "**Discurso de odio** (Protocolo): todas las formas de expresión que fomentan, promueven, incitan o justifican el odio racial, la xenofobia, el antisemitismo u otra forma de odio basada en la intolerancia. La libertad de expresión no es absoluta y no ampara el discurso del odio (TEDH; SSTC 235/2007 y 112/2016).",
+        "La **LO 1/2015** (en vigor el 1/7/2015) rediseñó el art. 510 para recoger la doctrina de la STC 235/2007 y transponer la Decisión Marco 2008/913/JAI. Se ubica en el Título XXI (delitos contra la Constitución), capítulo IV (derechos fundamentales y libertades públicas)."
+      ]
+    },
+    {
+      "titulo": "Arts. 22.4.ª, 510 y siguientes: penas y motivos",
+      "puntos": [
+        "**Art. 22.4.ª** (agravante): motivos **racistas, antisemitas, antigitanos** u otra discriminación por ideología, religión o creencias, etnia, raza o nación, sexo, **edad**, orientación o identidad sexual o de género, razones de género, **aporofobia o exclusión social**, enfermedad o discapacidad, **con independencia de que concurran efectivamente en la víctima** (cubre el error sobre la pertenencia).",
+        "**Art. 510.1** (**prisión de 1 a 4 años y multa de 6 a 12 meses**): fomentar, promover o incitar pública, directa o indirectamente al odio, hostilidad, discriminación o violencia contra un grupo o persona por su pertenencia a él; producir, poseer para distribuir, distribuir o vender material idóneo para ello; negar públicamente, trivializar gravemente o enaltecer el genocidio y los crímenes de lesa humanidad o contra personas y bienes protegidos en conflicto armado, si se favorece un clima de violencia, hostilidad, odio o discriminación.",
+        "**Art. 510.2** (**prisión de 6 meses a 2 años y multa de 6 a 12 meses**): lesionar la dignidad mediante humillación, menosprecio o descrédito de los grupos protegidos y enaltecer o justificar delitos cometidos por esos motivos. Si se promueve un clima de violencia, hostilidad, odio o discriminación, la pena es de 1 a 4 años de prisión y multa de 6 a 12 meses.",
+        "**Art. 510.3 a 6**: mitad superior si se difunde por medios de comunicación, internet o tecnologías de la información accesibles a muchas personas (apdo. 3) o si es idóneo para alterar la paz pública o crear un grave sentimiento de inseguridad, con posible pena superior en grado (apdo. 4); **inhabilitación especial** educativa, docente, deportiva y de tiempo libre de 3 a 10 años más que la prisión (apdo. 5); destrucción de soportes, retirada de contenidos y bloqueo de portales (apdo. 6).",
+        "**Art. 510 bis**: persona jurídica, **multa de 2 a 5 años** y penas del art. 33.7, letras b a g. **Art. 511** (particular encargado de un servicio público): prisión de 6 meses a 2 años, multa de 12 a 24 meses e inhabilitación de 1 a 3 años (funcionarios: mitad superior e inhabilitación de 2 a 4 años). **Art. 512** (profesionales y empresarios): inhabilitación especial de 1 a 4 años. **Art. 314**: prisión de 6 meses a 2 años o multa de 12 a 24 meses."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Motivo",
+          "Art. 22.4.ª (agravante)",
+          "Art. 510 (delitos)"
+        ],
+        "filas": [
+          [
+            "Racista, antisemita, antigitano",
+            "Sí",
+            "Sí"
+          ],
+          [
+            "Ideología, religión o creencias; etnia, raza o nación; sexo; orientación o identidad sexual; razones de género; enfermedad; discapacidad",
+            "Sí",
+            "Sí"
+          ],
+          [
+            "Aporofobia",
+            "Sí (junto a la exclusión social)",
+            "Sí"
+          ],
+          [
+            "Edad",
+            "Sí",
+            "No"
+          ],
+          [
+            "Exclusión social",
+            "Sí",
+            "No"
+          ],
+          [
+            "Situación familiar",
+            "No",
+            "Sí"
+          ],
+          [
+            "Origen nacional",
+            "No",
+            "Sí"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Circular 7/2019 de la Fiscalía General del Estado",
+      "puntos": [
+        "**Bien jurídico**: la dignidad y la igualdad y no discriminación (art. 14 CE) y el ejercicio de las libertades de expresión, reunión y asociación. El delito de odio exige algo más que un trato desigual: que la conducta solo pueda entenderse desde el desprecio a la dignidad intrínseca de la persona (**intolerancia excluyente**).",
+        "**Naturaleza**: delitos de **peligro abstracto**, salvo el primer inciso del art. 510.2.a (resultado). No se requiere fomentar un acto concreto sino la idoneidad para generar un clima de odio o discriminación.",
+        "**Tipo subjetivo**: dolosos, basta el **dolo genérico**; sin ánimo específico. Lo característico es la **motivación discriminatoria** (elemento subjetivo tendencial). **Sujeto pasivo**: un grupo, una parte del mismo o una persona determinada por su pertenencia a él. Los motivos son **numerus clausus**; la vulnerabilidad del colectivo no hay que acreditarla.",
+        "El **Fiscal de Sala** delegado para la tutela penal de la igualdad y contra la discriminación se creó por decreto del Fiscal General del Estado de 10/10/2011; desde el 1/4/2015 se denomina **Fiscal de Sala para los delitos de odio y contra la discriminación**. Contexto institucional: Estrategia integral contra el racismo, la discriminación racial, la xenofobia y otras formas conexas de intolerancia (Consejo de Ministros de 4/11/2011) y Convenio interinstitucional de 21/9/2015, renovado el 19/9/2018."
+      ]
+    },
+    {
+      "titulo": "Actuación policial, ONDOD y planes de acción",
+      "puntos": [
+        "El **Protocolo de las FCSE** (edición de julio de 2020) manda incluir en el atestado los **indicadores de polarización**, que acreditan la motivación discriminatoria: la **percepción de la víctima**, su pertenencia a un colectivo minoritario, la discriminación por asociación, las expresiones, tatuajes o estética del autor, la propaganda extremista, los antecedentes, la cercanía a un lugar de culto, la relación con grupos ultras, la gratuidad de la violencia, las fechas significativas y la conducta del autor, también en redes.",
+        "El Sistema Estadístico de Criminalidad (SEC) recoge **once ámbitos**: racismo/xenofobia; ideología; orientación sexual o identidad de género; discriminación por sexo/género; creencias o prácticas religiosas; antisemitismo; persona con discapacidad; aporofobia; antigitanismo; discriminación por enfermedad; y discriminación generacional. En 2023 el más numeroso fue racismo y xenofobia (856 hechos, el 41,8 %), seguido de orientación sexual e identidad de género (522) e ideología (352).",
+        "**ONDOD**: creada en 2018, bajo la **Dirección General de Coordinación y Estudios**. Planes de Acción: **I (2019-2021)**; **II (2022-2024)**, aprobado por el Consejo de Ministros el 12/4/2022 e Instrucción 5/2022 de la SES (8 líneas, 15 objetivos, 86 medidas); **III (2025-2028)**: **6 líneas, 15 objetivos y 109 medidas**. Su Comisión de Seguimiento, presidida por el Director General de Coordinación y Estudios, se reúne ordinariamente una vez al semestre.",
+        "Equipos **EVO** (Extremismo Violento y Odio) de la **Policía Nacional** y **REDO** de la **Guardia Civil**; el III Plan prevé estructuras centrales operativas para perseguir estos delitos."
+      ]
+    },
+    {
+      "titulo": "Igualdad de trato y OBERAXE",
+      "puntos": [
+        "**Ley 15/2022**: toda persona, con independencia de su nacionalidad o residencia legal, tiene derecho a la igualdad de trato (art. 2); las causas incluyen origen racial o étnico, sexo, religión, convicción u opinión, edad, discapacidad, orientación o identidad sexual, expresión de género, enfermedad, lengua y situación socioeconómica. Crea la **Autoridad Independiente para la Igualdad de Trato y la No Discriminación** (art. 40): asistencia, mediación o conciliación vinculante, investigación y acciones judiciales.",
+        "**OBERAXE**: el art. 71 LO 4/2000 (añadido por la LO 14/2003) dispone su constitución con funciones de estudio y análisis y capacidad de elevar propuestas contra el racismo y la xenofobia. Depende de la **Secretaría de Estado de Migraciones**. Funciones: recopilar y analizar información (red de información), promover la igualdad de trato, colaborar con agentes públicos y privados nacionales e internacionales y elaborar planes, estudios y estrategias de inclusión de las personas migrantes.",
+        "Monitoriza a diario el discurso de odio en Facebook, X, Instagram, YouTube y TikTok. El sistema **FARO** (Filtrado y Análisis de Odio en las Redes Sociales), fruto de un convenio con LALIGA, usa IA entrenada en el MOOD (Monitor para la Observación del Odio en el Deporte) y más de 100.000 reglas semánticas.",
+        "Proyectos europeos (2023): participó en **LEARN, IMMERSE, HELCI, CISDO, REAL UP y SCORE** y lideró LEARN, CISDO, REAL UP y SCORE. **CLARA** (Comunidades Locales de Aprendizaje contra el Racismo, la Xenofobia y los Discursos de Odio) formó a 165 policías locales en siete ciudades hasta febrero de 2022."
+      ]
+    },
+    {
+      "titulo": "Tipologías de odio y discriminación (definiciones oficiales)",
+      "puntos": [
+        "Definiciones del Anexo I del Protocolo de las FCSE (2020) y, para bifobia, homofobia y transfobia, del art. 3 de la Ley 4/2023.",
+        "Contrastes frecuentes: la **xenofobia** rechaza la identidad cultural ajena y acepta al extranjero si se asimila; el **racismo** afirma la superioridad natural de un grupo. La Ley 15/2022 (art. 6.2) protege también frente a la discriminación **por asociación** y **por error**."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Término",
+          "Definición"
+        ],
+        "filas": [
+          [
+            "Antigitanismo o romafobia",
+            "Todas las formas de odio, discriminación, hostilidad y violencia contra el pueblo gitano, con arraigo histórico en prejuicios y estereotipos"
+          ],
+          [
+            "Antisemitismo",
+            "Percepción sobre el pueblo judío que puede expresarse como odio, violencia, hostilidad, desprecio o animadversión"
+          ],
+          [
+            "Aporofobia",
+            "Odio o rechazo al pobre, al sin recursos, al desamparado"
+          ],
+          [
+            "Disfobia",
+            "Cualquier delito motivado en la situación de discapacidad, por rechazo, desprecio u odio"
+          ],
+          [
+            "Discriminación generacional y gerontofobia",
+            "Trato desigual o vejatorio por la edad; la gerontofobia es la hostilidad hacia los ancianos"
+          ],
+          [
+            "Mesofobia",
+            "Rechazo a la mezcla y a la convivencia intercultural; defiende sociedades «limpias»"
+          ],
+          [
+            "Islamofobia",
+            "Aversión, rechazo y hostilidad hacia el Islam y los musulmanes"
+          ],
+          [
+            "Intolerancia",
+            "Todo comportamiento, actitud o expresión que niega la diversidad humana y viola o denigra la dignidad y los derechos del diferente"
+          ],
+          [
+            "Ciberodio",
+            "Uso de las comunicaciones electrónicas para difundir mensajes antisemitas, xenófobos, homófobos, racistas, intolerantes o extremistas"
+          ],
+          [
+            "LGTBIfobia, homofobia, bifobia y transfobia (Ley 4/2023)",
+            "Rechazo, repudio, prejuicio, discriminación o intolerancia hacia las personas LGTBI, homosexuales, bisexuales o trans, respectivamente, por serlo o ser percibidas como tales"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Valores, tolerancia y socialización",
+      "puntos": [
+        "**Valores constitucionales**: libertad, justicia, igualdad y pluralismo político (art. 1.1 CE); los poderes públicos promueven que libertad e igualdad sean reales y efectivas (art. 9.2); la dignidad, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás fundamentan el orden político y la paz social (art. 10.1). La libertad conlleva responsabilidad: se ejerce con respeto a la ley y a los derechos ajenos.",
+        "**Rokeach** define el valor como una creencia duradera de que un modo de conducta o un estado final de existencia es preferible a su opuesto. Su «Rokeach Value Survey» tiene **36 valores**: **18 terminales** (fines, p. ej. felicidad, libertad) y **18 instrumentales** (modos de conducta, p. ej. honestidad, responsabilidad).",
+        "**Tolerancia** (UNESCO, 16/11/1995): respeto, aceptación y aprecio de la rica diversidad de las culturas (art. 1.1); no es concesión, condescendencia ni indulgencia sino una actitud activa de reconocimiento de los derechos humanos universales (art. 1.2); no significa tolerar la injusticia social ni renunciar a las convicciones (art. 1.4); la educación es el medio más eficaz de prevenir la intolerancia (art. 4.1). **Día Internacional para la Tolerancia: 16 de noviembre** (art. 6).",
+        "**Socialización**: la **primaria** (infancia: familia y primeros amigos) y la **secundaria** (escuela, trabajo, otras instituciones); agentes: familia, escuela, grupo de iguales y medios de comunicación. Para **Mead**, el yo se desarrolla con la experiencia social. **Kohlberg**, siguiendo a Piaget, describió el desarrollo moral en **tres niveles de dos estadios** (preconvencional, convencional y posconvencional)."
+      ]
+    },
+    {
+      "titulo": "Contravalores: racismo, fanatismo, fundamentalismo, sectarismo y hooliganismo",
+      "puntos": [
+        "**Racismo**: creencia en la superioridad natural de un grupo sobre otro (Protocolo); para el DLE, creencia en la superioridad de un grupo étnico que conduce a la discriminación o persecución social. **Fanatismo** (DLE): apasionamiento y tenacidad desmedida en la defensa de creencias u opiniones, especialmente religiosas o políticas. **Sectarismo**: fanatismo e intransigencia en la defensa de una idea o ideología. **Fundamentalismo** (sentido general): exigencia intransigente de sometimiento a una doctrina o práctica establecida.",
+        "**Sectas de Bryan Wilson** (siete): conversionista (cambio sobrenatural personal), revolucionista (destruir el orden social), introversionista (retirarse del mundo), gnóstico-manipulacionista (salvación por técnicas o medios adecuados), **taumatúrgica** (dispensaciones mágicas locales para escapar de los problemas), reformista (cambiar el mundo con revelaciones sobrenaturales) y utópica (crear un nuevo orden social sin intervención divina).",
+        "**Hooliganismo**: la **Ley 19/2007** considera violentas la participación activa en altercados, los cánticos o pancartas que inciten a la violencia y la irrupción no autorizada en el terreno de juego, y racistas, xenófobos o intolerantes las declaraciones, gestos, cánticos o símbolos vejatorios por origen racial, étnico, religión, discapacidad, edad u orientación sexual. Crea la **Comisión Estatal contra la Violencia, el Racismo, la Xenofobia y la Intolerancia en el Deporte** (art. 20)."
+      ]
+    }
+  ],
+  "trampas": [
+    "**Oficina frente a Observatorio**: la **ONDOD** es una oficina del **Ministerio del Interior** (Secretaría de Estado de Seguridad, DG de Coordinación y Estudios); el **OBERAXE** es un observatorio del Ministerio de Inclusión, Seguridad Social y Migraciones (Secretaría de Estado de Migraciones).",
+    "Motivos del art. 22.4.ª frente a los del art. 510: la **edad** y la **exclusión social** solo figuran en el 22.4.ª; la **situación familiar** y el **origen nacional** solo en el 510. Un distractor intercambia ambas listas.",
+    "Planes de Acción: I (2019-2021), II (2022-2024; 8 líneas, 15 objetivos, 86 medidas) y III (2025-2028; **6 líneas**, 15 objetivos, **109 medidas**). Cambian el periodo, las líneas o las medidas.",
+    "Términos casi idénticos: **mesofobia** (rechazo a la mezcla), **disfobia** (discapacidad), **aporofobia** (pobreza), **gerontofobia** (ancianos), **homofobia**, **bifobia** y **transfobia**. Piden asociar el prefijo con el colectivo.",
+    "Proyectos del OBERAXE: LEARN, IMMERSE, HELCI, CISDO, REAL UP y SCORE (2023), además de CLARA. Un distractor típico es un nombre inventado que «no figura» en la lista (por ejemplo, PANDORA).",
+    "Sistema FARO: pertenece al **OBERAXE** y analiza el discurso de odio en redes; no es una base de datos policial ni la herramienta de riesgo de reincidencia del II Plan.",
+    "Autores de definiciones de valor: la definición de Rokeach alude a creencia duradera (modo de conducta o estado final); no la confundan con las de otros autores citados en los exámenes.",
+    "La Circular 7/2019 es anterior a la LO 6/2022: lo que dice sobre aporofobia o antigitanismo (no incluidos) ya no es válido, aunque sus criterios generales siguen vigentes.",
+    "Tipos de sectas de Wilson: son **siete**; confundir «taumatúrgica» (dispensaciones mágicas locales) con «revolucionista» (destruir el orden existente) o «introversionista» (retirarse del mundo)."
+  ],
+  "caido": [
+    {
+      "examen": "13 abr 2024 y 26 sep 2026 (x2)",
+      "concepto": "Delitos de odio: ONDOD (Oficina Nacional de Lucha contra los Delitos de Odio, dentro de la DG de Coordinación y Estudios) y comisión de seguimiento del III Plan de Acción"
+    },
+    {
+      "examen": "1 mar 2025 y 25 oct 2025",
+      "concepto": "Observatorio Español del Racismo y la Xenofobia: proyectos (PROXIMITY, FIRIR, CLARA) y sistema FARO de monitorización del discurso de odio; un distractor «no figura» (PANDORA)"
+    },
+    {
+      "examen": "23 abr 2023 (x2) y 1 mar 2025",
+      "concepto": "Tipologías: mesofobia, disfobia, bifobia; discurso de odio (hate speech); racismo simbólico"
+    },
+    {
+      "examen": "25 oct 2025 (x2)",
+      "concepto": "Bryan Wilson y las sectas taumatúrgicas; definición de valores (Rokeach, Fichter, Rocher)"
+    }
+  ],
+  "mnemotecnias": [
+    "Motivos que **solo** tiene el art. 22.4.ª: **E**dad y **E**xclusión social (22.4 = «**E-E**»). Solo el 510: **F**amilia (situación familiar) y **O**rigen nacional.",
+    "Planes de Acción: **19-21**, **22-24**, **25-28** (cada uno empieza donde acaba el anterior más uno); el III tiene **6-15-109**.",
+    "Wilson, siete sectas: **C**onversionista, **R**evolucionista, **I**ntroversionista, **G**nóstico-manipulacionista, **T**aumatúrgica, **R**eformista y **U**tópica (CRIGTRU)."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Qué es un delito de odio según el Protocolo de las FCSE (definición de la OSCE)?",
+      "r": "Toda infracción penal en la que el bien jurídico protegido se elige por su conexión, simpatía, filiación, apoyo o pertenencia, **real o percibida**, a un grupo."
+    },
+    {
+      "p": "¿Qué recoge el art. 22.4.ª CP?",
+      "r": "La **agravante** de cometer el delito por motivos racistas, antisemitas, antigitanos u otra discriminación (incluidas **edad** y **aporofobia o exclusión social**), con independencia de que concurran realmente en la víctima."
+    },
+    {
+      "p": "Penas básicas del art. 510.1 y 510.2 CP.",
+      "r": "510.1: **prisión de 1 a 4 años y multa de 6 a 12 meses**. 510.2: **prisión de 6 meses a 2 años** y multa de 6 a 12 meses."
+    },
+    {
+      "p": "¿Cuándo se impone la pena del art. 510 en su mitad superior (apdos. 3 y 4)?",
+      "r": "Si se difunde por medio de comunicación social, internet o TIC accesibles a muchas personas, o si es idóneo para alterar la paz pública o crear un grave sentimiento de inseguridad (en este caso, hasta la pena superior en grado)."
+    },
+    {
+      "p": "Naturaleza de los delitos del art. 510 según la Circular 7/2019.",
+      "r": "Delitos de **peligro abstracto** (salvo el primer inciso del 510.2.a, de resultado); **dolo genérico** y **motivación discriminatoria**."
+    },
+    {
+      "p": "¿Cómo se llaman los indicios que acreditan la motivación discriminatoria en el atestado?",
+      "r": "**Indicadores de polarización** (Protocolo de 2020); el III Plan prevé sustituirlos por una diligencia de indicadores por motivación discriminatoria."
+    },
+    {
+      "p": "¿Qué es la ONDOD y de qué depende?",
+      "r": "Oficina Nacional de Lucha contra los Delitos de Odio, creada en **2018**; depende de la **Dirección General de Coordinación y Estudios** (Secretaría de Estado de Seguridad, Ministerio del Interior)."
+    },
+    {
+      "p": "Estructura del III Plan de Acción contra los Delitos de Odio.",
+      "r": "**2025-2028**: **6 líneas de acción, 15 objetivos y 109 medidas**. El II Plan (2022-2024): 8 líneas, 15 objetivos, 86 medidas."
+    },
+    {
+      "p": "¿Qué son los equipos EVO y REDO?",
+      "r": "**EVO**: Equipos de Extremismo Violento y Odio de la **Policía Nacional**. **REDO**: Equipos de Respuesta a los Delitos de Odio de la **Guardia Civil**."
+    },
+    {
+      "p": "Base legal y dependencia del OBERAXE.",
+      "r": "**Art. 71 LO 4/2000** (añadido por la LO 14/2003). Depende de la **Secretaría de Estado de Migraciones** (Ministerio de Inclusión, Seguridad Social y Migraciones)."
+    },
+    {
+      "p": "¿Qué es el sistema FARO?",
+      "r": "**Filtrado y Análisis de Odio en las Redes Sociales** del OBERAXE: usa IA para identificar y analizar discursos de odio racistas y xenófobos en redes sociales en tiempo real."
+    },
+    {
+      "p": "Definición de mesofobia y de disfobia (Protocolo).",
+      "r": "**Mesofobia**: rechazo a la mezcla y a la convivencia intercultural (sociedades «limpias»). **Disfobia**: delito motivado por la discapacidad de la persona."
+    },
+    {
+      "p": "Definición de aporofobia y de gerontofobia.",
+      "r": "**Aporofobia**: odio o rechazo al pobre. **Gerontofobia**: hostilidad y discriminación hacia los ancianos (discriminación generacional)."
+    },
+    {
+      "p": "Definición de bifobia (Ley 4/2023, art. 3).",
+      "r": "Toda actitud, conducta o discurso de rechazo, repudio, prejuicio, discriminación o intolerancia hacia las **personas bisexuales** por serlo o ser percibidas como tales."
+    },
+    {
+      "p": "¿Cuándo se celebra el Día Internacional para la Tolerancia y quién lo proclamó?",
+      "r": "El **16 de noviembre**, proclamado en la Declaración de Principios sobre la Tolerancia de la **UNESCO** (1995, art. 6)."
+    },
+    {
+      "p": "Valores terminales e instrumentales de Rokeach.",
+      "r": "Rokeach Value Survey: **18 terminales** (fines, p. ej. felicidad) y **18 instrumentales** (medios, p. ej. honestidad); 36 en total."
+    },
+    {
+      "p": "Tipos de sectas de Bryan Wilson.",
+      "r": "Siete: conversionista, revolucionista, introversionista, gnóstico-manipulacionista, **taumatúrgica**, reformista y utópica."
+    },
+    {
+      "p": "¿Qué ley crea la Comisión Estatal contra la Violencia, el Racismo, la Xenofobia y la Intolerancia en el Deporte?",
+      "r": "La **Ley 19/2007, de 11 de julio** (art. 20)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "¿Qué precepto del Código Penal recoge la circunstancia agravante de cometer el delito por motivos racistas, antisemitas, antigitanos u otra clase de discriminación?",
+      "opciones": [
+        "El art. 22.4.ª",
+        "El art. 22.1.ª",
+        "El art. 510.1"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 22.4.ª regula la agravante genérica por motivos discriminatorios. El art. 22.1.ª es la alevosía y el art. 510.1 tipifica un delito autónomo: el fomento o incitación pública al odio, no una circunstancia agravante.",
+      "ref": "art. 22.4.ª CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "El art. 510.1 del Código Penal castiga el fomento, la promoción o la incitación pública al odio, hostilidad, discriminación o violencia contra un grupo por motivos discriminatorios con:",
+      "opciones": [
+        "Prisión de seis meses a dos años y multa de seis a doce meses",
+        "Prisión de uno a cuatro años y multa de seis a doce meses",
+        "Prisión de dos a cuatro años y multa de doce a veinticuatro meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 510.1 impone prisión de uno a cuatro años y multa de seis a doce meses. La primera opción es la pena básica del art. 510.2 (lesión de la dignidad) y la tercera no corresponde a ninguno de los tipos básicos del art. 510.",
+      "ref": "art. 510.1 y 510.2 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes motivos figura en el art. 22.4.ª del Código Penal pero NO en la enumeración de motivos del art. 510.1?",
+      "opciones": [
+        "La aporofobia",
+        "El antigitanismo",
+        "La edad"
+      ],
+      "correcta": 2,
+      "explicacion": "La agravante del art. 22.4.ª incluye la edad (y la exclusión social), mientras que el art. 510.1 no la incluye. La aporofobia y el antigitanismo figuran en ambos tras la LO 6/2022. A la inversa, el art. 510 menciona la situación familiar y el origen nacional, que no están en el art. 22.4.ª.",
+      "ref": "arts. 22.4.ª y 510.1 CP (LO 6/2022)",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Según el art. 510.3 del Código Penal, las penas de los apartados anteriores se imponen en su mitad superior cuando los hechos se lleven a cabo:",
+      "opciones": [
+        "A través de un medio de comunicación social, de internet o de tecnologías de la información, de modo que sea accesible a un elevado número de personas",
+        "En el seno de una asociación legalmente constituida",
+        "Contra más de una persona determinada"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 510.3 agrava la pena (mitad superior) cuando el hecho se difunde por un medio de comunicación social, por internet o mediante tecnologías de la información, de modo que alcance a un elevado número de personas. Las otras dos circunstancias no figuran en ese apartado.",
+      "ref": "art. 510.3 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Cuando una persona jurídica sea responsable de los delitos de odio del art. 510 del Código Penal, el art. 510 bis prevé para ella:",
+      "opciones": [
+        "Multa de seis meses a dos años",
+        "Multa de dos a cinco años, y podrán imponerse además las penas de las letras b a g del art. 33.7",
+        "La disolución de la persona jurídica en todo caso"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 510 bis impone multa de dos a cinco años y permite imponer además las penas del art. 33.7, letras b a g, atendiendo al art. 66 bis. No prevé una disolución automática ni la multa de seis meses a dos años.",
+      "ref": "art. 510 bis CP",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Según la Circular 7/2019 de la Fiscalía General del Estado, los delitos de odio del art. 510 del Código Penal, salvo el supuesto de resultado del primer inciso del art. 510.2.a, son:",
+      "opciones": [
+        "Delitos de lesión que exigen un daño efectivo y concreto a la víctima",
+        "Delitos de peligro concreto que requieren un riesgo inminente de violencia",
+        "Delitos de peligro abstracto, que no requieren fomentar un acto concreto sino la idoneidad para generar un clima de odio o discriminación"
+      ],
+      "correcta": 2,
+      "explicacion": "La Circular los configura como delitos de peligro abstracto: anticipan la barrera punitiva y no exigen un acto concreto, sino la aptitud para generar un clima de odio o discriminación. La excepción es la infracción de resultado del primer inciso del art. 510.2.a, que exige lesionar la dignidad.",
+      "ref": "Circular 7/2019 FGE, apartado 2.3",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "El Protocolo de actuación de las Fuerzas y Cuerpos de Seguridad, siguiendo a la OSCE, define los «delitos de odio» como:",
+      "opciones": [
+        "Cualquier infracción penal, incluidas las cometidas contra personas o propiedad, en que el bien jurídico protegido se elige por su conexión, filiación o pertenencia, real o percibida, a un grupo",
+        "Únicamente los delitos tipificados en el art. 510 del Código Penal",
+        "Los delitos cometidos contra personas de origen extranjero por motivos racistas"
+      ],
+      "correcta": 0,
+      "explicacion": "El Protocolo adopta la definición amplia de la OSCE: toda infracción penal cuyo objeto se elige por su conexión, simpatía, filiación, apoyo o pertenencia, real o percibida, a un grupo. No se limita al art. 510 ni a los delitos racistas.",
+      "ref": "Protocolo FCSE delitos de odio (2020), introducción y Anexo I",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En el atestado por un posible delito de odio, ¿cómo se denominan los indicios que ayudan a acreditar la motivación discriminatoria?",
+      "opciones": [
+        "Indicadores de vulnerabilidad",
+        "Indicadores de polarización",
+        "Indicadores de reincidencia"
+      ],
+      "correcta": 1,
+      "explicacion": "El Protocolo de las FCSE habla de indicadores de polarización: la percepción de la víctima, símbolos, tatuajes, propaganda, antecedentes y otros indicios que acreditan la motivación discriminatoria. El III Plan prevé sustituir esa diligencia por una de indicadores por motivación discriminatoria.",
+      "ref": "Protocolo FCSE (2020), apartado 3; III Plan, medida 12.4",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La Oficina Nacional de Lucha contra los Delitos de Odio (ONDOD) depende de:",
+      "opciones": [
+        "La Dirección General de la Policía",
+        "La Dirección General de la Guardia Civil",
+        "La Dirección General de Coordinación y Estudios de la Secretaría de Estado de Seguridad"
+      ],
+      "correcta": 2,
+      "explicacion": "El III Plan de Acción sitúa la ONDOD, creada en 2018, bajo la Dirección General de Coordinación y Estudios de la Secretaría de Estado de Seguridad, que impulsa, coordina y supervisa los Planes de Acción. No pertenece a la Policía Nacional ni a la Guardia Civil, que cuentan con los equipos EVO y REDO.",
+      "ref": "III Plan de Acción de Lucha contra los Delitos de Odio, apartado 2",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El III Plan de Acción de Lucha contra los Delitos de Odio del Ministerio del Interior tiene:",
+      "opciones": [
+        "Vigencia 2025-2028, seis líneas de acción, quince objetivos y 109 medidas",
+        "Vigencia 2022-2024, ocho líneas estratégicas, quince objetivos y 86 medidas",
+        "Vigencia 2019-2021, seis líneas de acción y 109 medidas"
+      ],
+      "correcta": 0,
+      "explicacion": "El III Plan abarca 2025-2028 y se articula en seis líneas de acción, quince objetivos y ciento nueve medidas. La segunda opción describe el II Plan (2022-2024: ocho líneas, quince objetivos, 86 medidas) y el I Plan fue el de 2019-2021.",
+      "ref": "III Plan de Acción 2025-2028, apartado 2",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Los Equipos EVO y REDO, especializados en la investigación de los delitos de odio, pertenecen respectivamente a:",
+      "opciones": [
+        "La Guardia Civil y la Policía Nacional",
+        "La Policía Nacional y la Guardia Civil",
+        "La Policía Nacional y las policías locales"
+      ],
+      "correcta": 1,
+      "explicacion": "Los EVO (extremismo violento y odio) son equipos de la Policía Nacional y los REDO, de la Guardia Civil. La primera opción invierte las pertenencias y las policías locales no cuentan con estos equipos en el Plan.",
+      "ref": "III Plan de Acción 2025-2028, línea de acción 6",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En el Sistema Estadístico de Criminalidad, ¿cuál de los siguientes NO es un ámbito de los delitos de odio?",
+      "opciones": [
+        "Aporofobia",
+        "Antigitanismo",
+        "Discriminación por razón de profesión"
+      ],
+      "correcta": 2,
+      "explicacion": "El SEC recoge once ámbitos: racismo/xenofobia, ideología, orientación sexual o identidad de género, discriminación por sexo/género, creencias o prácticas religiosas, antisemitismo, persona con discapacidad, aporofobia, antigitanismo, discriminación por enfermedad y discriminación generacional. La profesión no figura.",
+      "ref": "Protocolo FCSE (2020), apartado de estadística (SEC)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el Protocolo de actuación de las Fuerzas y Cuerpos de Seguridad, la mesofobia es:",
+      "opciones": [
+        "El rechazo a la mezcla y a la convivencia intercultural, que defiende sociedades «limpias»",
+        "El odio o rechazo al pobre",
+        "Cualquier delito motivado en la situación de discapacidad de la persona"
+      ],
+      "correcta": 0,
+      "explicacion": "El Anexo I define la mesofobia como el rechazo a la mezcla y a la convivencia intercultural. El odio o rechazo al pobre es la aporofobia y la motivación por la discapacidad es la disfobia.",
+      "ref": "Protocolo FCSE (2020), Anexo I",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el Protocolo de las Fuerzas y Cuerpos de Seguridad, la disfobia es:",
+      "opciones": [
+        "La hostilidad y los actos discriminatorios hacia los ancianos",
+        "Cualquier delito motivado en la situación de discapacidad de la persona, por rechazo, desprecio u odio",
+        "La aversión y el rechazo hacia el Islam y los musulmanes"
+      ],
+      "correcta": 1,
+      "explicacion": "El Anexo I define la disfobia como cualquier delito motivado por la situación de discapacidad de la persona. La hostilidad hacia los ancianos es la gerontofobia (discriminación generacional) y la aversión hacia el Islam es la islamofobia.",
+      "ref": "Protocolo FCSE (2020), Anexo I",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Conforme al art. 3 de la Ley 4/2023, la bifobia es:",
+      "opciones": [
+        "Toda actitud, conducta o discurso de rechazo, prejuicio, discriminación o intolerancia hacia las personas homosexuales por el hecho de serlo",
+        "Toda actitud, conducta o discurso de rechazo, prejuicio, discriminación o intolerancia hacia las personas trans por el hecho de serlo",
+        "Toda actitud, conducta o discurso de rechazo, repudio, prejuicio, discriminación o intolerancia hacia las personas bisexuales por el hecho de serlo o ser percibidas como tales"
+      ],
+      "correcta": 2,
+      "explicacion": "La Ley 4/2023 define la bifobia respecto de las personas bisexuales. La primera opción es la definición de homofobia (personas homosexuales) y la segunda la de transfobia (personas trans).",
+      "ref": "art. 3 Ley 4/2023",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según la Declaración de Principios sobre la Tolerancia de la UNESCO (1995), el Día Internacional para la Tolerancia se celebra el:",
+      "opciones": [
+        "16 de noviembre",
+        "10 de diciembre",
+        "21 de marzo"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 6 de la Declaración proclama el 16 de noviembre de cada año como Día Internacional para la Tolerancia. El 10 de diciembre se conmemora el Día de los Derechos Humanos y el 21 de marzo, el Día Internacional contra la Discriminación Racial.",
+      "ref": "art. 6 Declaración de Principios sobre la Tolerancia",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según la Declaración de Principios sobre la Tolerancia de la UNESCO, la tolerancia:",
+      "opciones": [
+        "Equivale a concesión, condescendencia o indulgencia ante cualquier conducta",
+        "Es ante todo una actitud activa de reconocimiento de los derechos humanos universales y de las libertades fundamentales de los demás",
+        "Obliga a renunciar a las convicciones personales o a atemperarlas"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 1.2 dice que tolerancia no es lo mismo que concesión, condescendencia o indulgencia, sino una actitud activa de reconocimiento de los derechos humanos universales. El art. 1.4 aclara que practicarla no significa renunciar a las convicciones personales ni atemperarlas.",
+      "ref": "art. 1.2 y 1.4 Declaración de Principios sobre la Tolerancia",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En la tipología de las sectas de Bryan Wilson, ¿qué tipo busca dispensaciones mágicas locales que permitan escapar de los problemas del mundo?",
+      "opciones": [
+        "Revolucionista",
+        "Introversionista",
+        "Taumatúrgica"
+      ],
+      "correcta": 2,
+      "explicacion": "La secta taumatúrgica busca dispensaciones locales y mágicas para escapar de los problemas. La revolucionista sostiene que hay que destruir el orden social existente y la introversionista propone retirarse del mundo todo lo posible.",
+      "ref": "Bryan Wilson, tipología de movimientos religiosos",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "El Observatorio Español del Racismo y la Xenofobia (OBERAXE) tiene su base legal en:",
+      "opciones": [
+        "El art. 71 de la Ley Orgánica 4/2000, de derechos y libertades de los extranjeros en España y su integración social",
+        "El art. 510 del Código Penal",
+        "La Ley 19/2007, contra la violencia, el racismo, la xenofobia y la intolerancia en el deporte"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 71 de la LO 4/2000, añadido por la LO 14/2003, establece la constitución del Observatorio con funciones de estudio y análisis y capacidad de elevar propuestas. El art. 510 CP tipifica los delitos de odio y la Ley 19/2007 crea la Comisión Estatal contra la violencia en el deporte, no el Observatorio.",
+      "ref": "art. 71 LO 4/2000",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El sistema FARO, utilizado por el OBERAXE, sirve para:",
+      "opciones": [
+        "Registrar los incidentes de odio denunciados en comisaría",
+        "Filtrar y analizar en tiempo real, con inteligencia artificial, el discurso de odio racista y xenófobo en redes sociales",
+        "Evaluar el riesgo de reincidencia de los autores de delitos de odio"
+      ],
+      "correcta": 1,
+      "explicacion": "FARO (Filtrado y Análisis de Odio en las Redes Sociales) es un sistema del OBERAXE que aplica inteligencia artificial, entrenada con el MOOD de LALIGA, para identificar y analizar discursos de odio en redes. No es un registro policial ni una herramienta de riesgo de reincidencia.",
+      "ref": "Memoria OBERAXE 2024",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué ley crea la Comisión Estatal contra la Violencia, el Racismo, la Xenofobia y la Intolerancia en el Deporte?",
+      "opciones": [
+        "La Ley 15/2022, de 12 de julio",
+        "La Ley 4/2015, de 27 de abril",
+        "La Ley 19/2007, de 11 de julio"
+      ],
+      "correcta": 2,
+      "explicacion": "La Ley 19/2007, de 11 de julio, contra la violencia, el racismo, la xenofobia y la intolerancia en el deporte regula la Comisión Estatal en su art. 20. La Ley 15/2022 es la ley integral de igualdad de trato y la Ley 4/2015 el Estatuto de la víctima del delito.",
+      "ref": "art. 20 Ley 19/2007",
+      "dificultad": 2
+    }
+  ],
+  "dudas": [
+    "Definiciones de valor de **Fichter** y **Rocher** (citadas en exámenes) y **racismo simbólico (ACNUR)**: no se han podido verificar en fuentes primarias, por lo que no se incluyen. Sí se recoge la definición de Rokeach contrastada en fuentes secundarias.",
+    "Proyectos del OBERAXE: PROXIMITY (liderado por OBERAXE entre abril de 2017 y marzo de 2019, según un extracto del buscador) y FIRIR no pudieron contrastarse en documentos leídos; solo se confirman LEARN, IMMERSE, HELCI, CISDO, REAL UP, SCORE (Memoria 2023) y CLARA. Esos dos nombres figuran entre los preguntados en los exámenes.",
+    "Estadísticas de delitos de odio: solo se citan los datos de 2023 (nota de prensa de Interior de 1/7/2024). No se pudo leer la web del Ministerio del Interior (error 403), por lo que no se incluyen las cifras del informe de 2025.",
+    "Las definiciones de fanatismo, sectarismo, fundamentalismo y racismo del DLE se contrastaron con extractos del buscador; la RAE puede revisarlas.",
+    "No se ha identificado el número de la Instrucción de la Secretaría de Estado de Seguridad que aprobó el Protocolo de 2020; solo consta su edición revisada de julio de 2020."
+  ]
+}

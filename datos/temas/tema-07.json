@@ -1,0 +1,518 @@
+{
+  "tema": 7,
+  "titulo": "Ministerio del Interior y Secretaría de Estado de Seguridad",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "medio",
+    "nota": "Unas 3 preguntas por examen (entre 0 y 6), casi todas del RD 207/2024: DG de Coordinación y Estudios, DG de Relaciones Internacionales y Extranjería, Gabinete y CITCO de la Secretaría de Estado."
+  },
+  "normas": [
+    {
+      "nombre": "Real Decreto 207/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio del Interior",
+      "boe": "BOE-A-2024-3793",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-3793",
+      "verificado": "Texto consolidado, actualización de 15/06/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto 328/2026, de 22 de abril, por el que se modifican el Real Decreto 1009/2023 y el Real Decreto 207/2024 (Secretaría General de Protección Civil y Emergencias)",
+      "boe": "BOE-A-2026-9079",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-9079",
+      "verificado": "Texto original publicado en el BOE de 27/04/2026, sin consolidar (sus cambios ya figuran en la consolidación del RD 207/2024); leído el 16/10/2026"
+    },
+    {
+      "nombre": "Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales (art. 5, Ministerio del Interior)",
+      "boe": "BOE-A-2023-24842",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-24842",
+      "verificado": "Texto consolidado, actualización de 29/07/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto 353/2025, de 30 de abril, por el que se modifica el Real Decreto 207/2024 (Dirección General de la Guardia Civil)",
+      "boe": "BOE-A-2025-8650",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-8650",
+      "verificado": "Texto original publicado en el BOE de 01/05/2025, sin consolidar; leído el 16/10/2026"
+    }
+  ],
+  "novedades": [
+    "El RD 207/2024 derogó el RD 734/2020. Cualquier material anterior a febrero de 2024 que cite el RD 734/2020 o el RD 94/2022 como estructura vigente está desfasado.",
+    "RD 353/2025 (BOE 01/05/2025): reforma el art. 4 del RD 207/2024 (Dirección General de la Guardia Civil): incardina en la Jefatura de Personal la coordinación y ejecución de las evaluaciones, recoge funciones de desarrollo del deporte en las Jefaturas de Enseñanza y de Asistencia al Personal, y retoca las Jefaturas del Mando de Fronteras y Policía Marítima (aclaradas después por el RD 328/2026).",
+    "RD 328/2026 (BOE 27/04/2026, en vigor el mismo día): crea la Secretaría General de Protección Civil y Emergencias, que depende del Ministro, y de la que depende la Dirección General de Protección Civil y Emergencias. Esta Dirección General deja de depender de la Subsecretaría del Interior (el antiguo art. 13 queda suprimido, y los arts. 8 bis y 8 ter regulan el nuevo esquema).",
+    "El RD 328/2026 suprime las Subdirecciones Generales de Prevención, Planificación y Emergencias, de Gestión de Recursos y Subvenciones y de Formación y Relaciones Institucionales. La Dirección General se estructura ahora en tres: Anticipación y Preparación, Planificación y Gestión de Emergencias, y Resiliencia y Recuperación."
+  ],
+  "clave": [
+    "La norma de referencia es el **RD 207/2024** (estructura hasta **subdirección general**), modificado por el **RD 353/2025** (Guardia Civil) y el **RD 328/2026** (Protección Civil). El RD 1009/2023, art. 5, fija la estructura hasta el nivel de **dirección general**.",
+    "De la **Secretaría de Estado de Seguridad (SES)** dependen **cuatro** Direcciones Generales, por este orden: **Policía, Guardia Civil, Relaciones Internacionales y Extranjería, Coordinación y Estudios** (art. 1.5.a). Ese mismo orden es el de suplencia del Secretario de Estado (DA 5.ª).",
+    "Los titulares de las DG de la **Policía** y de la **Guardia Civil** tienen **rango de subsecretario** y ejercen el mando directo de su Cuerpo, bajo la dependencia del Secretario de Estado (arts. 3 y 4).",
+    "**Dirección General de Coordinación y Estudios**: órgano de apoyo de la SES para coordinar y supervisar a las FCSE y colaborar con las policías autonómicas y locales. Es la **Unidad Nacional de CEPOL**, dirige el **CNPIC**, el **Servicio Central de Violencia de Género**, la **Oficina Nacional contra los delitos de odio**, el **Centro Nacional de Desaparecidos** y el **CEPIC** (art. 6).",
+    "De la DG de Coordinación y Estudios depende la **Inspección de Personal y Servicios de Seguridad** (nivel de subdirección general), que dirige la **ONGADH** (art. 6.2).",
+    "**DG de Relaciones Internacionales y Extranjería** (acción exterior del Ministerio): tres SG, **Cooperación Policial Internacional**, **Relaciones Internacionales, Inmigración y Extranjería** y **Asuntos Europeos**. Gestiona el **NFPOC** (Frontex) y el **NCC** de Eurosur (art. 5).",
+    "**CITCO** (Centro de Inteligencia contra el Terrorismo y el Crimen Organizado): nivel de subdirección general, depende de la SES. De él dependen la **UNECI**, la **ONIP** y la **TEPOL** (art. 2.3).",
+    "Otros órganos de la SES: **Gabinete** (nivel de SG, su titular ejerce la **Relatoría Nacional contra la Trata**), **SG de Planificación y Gestión de Infraestructuras y Medios para la Seguridad**, **SG de Sistemas de Información y Comunicaciones para la Seguridad** (dirige el **CETSE**) y la **Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado**, organismo autónomo adscrito.",
+    "**Comité Ejecutivo de Coordinación**: lo **preside** el Secretario de Estado y la **secretaría** la ejerce la DG de Coordinación y Estudios (art. 2.4).",
+    "**Subsecretaría del Interior**: de ella dependen **cinco** órganos directivos: Secretaría General Técnica, DG de Política Interior, DG de Tráfico, DG de Apoyo a Víctimas del Terrorismo y DG de Protección Internacional (art. 9.5).",
+    "Desde el **RD 328/2026** la DG de Protección Civil y Emergencias ya **no** depende de la Subsecretaría, sino de la **Secretaría General de Protección Civil y Emergencias**.",
+    "El **cierre temporal de puestos fronterizos** por razones de seguridad del Estado o de los ciudadanos es competencia desconcentrada del **Secretario de Estado de Seguridad** (DA 3.ª)."
+  ],
+  "resumen": [
+    {
+      "titulo": "Mapa del Ministerio: quién depende de quién",
+      "puntos": [
+        "El **RD 207/2024, de 27 de febrero**, desarrolla la estructura del Ministerio hasta el nivel de **subdirección general** y deroga el RD 734/2020. El **RD 1009/2023** (art. 5) fija los órganos superiores y directivos hasta el nivel de **dirección general**.",
+        "Competencias del Departamento (art. 1.1): política del Gobierno en seguridad ciudadana, mando superior, dirección y coordinación de las Fuerzas y Cuerpos de Seguridad del Estado (FCSE), seguridad privada, extranjería, protección internacional, apatridia y personas desplazadas, instituciones penitenciarias, procesos electorales, protección civil y tráfico y seguridad vial.",
+        "Apoyo directo al Ministro (art. 1.3 y 1.4): un **Gabinete** con nivel orgánico de **dirección general** y una **Oficina de Comunicación** con nivel de **subdirección general**, que depende directamente del Ministro.",
+        "Estructura del art. 1.5 tras el RD 328/2026: la **SES** (único órgano de este esquema calificado como «órgano superior»), la **Secretaría General de Instituciones Penitenciarias**, la **Secretaría General de Protección Civil y Emergencias** y la **Subsecretaría del Interior**.",
+        "Las competencias del RD 207/2024 se entienden en coordinación y sin perjuicio de las de otros Departamentos (art. 1.6)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Rama",
+          "Órganos directivos que dependen de ella"
+        ],
+        "filas": [
+          [
+            "Secretaría de Estado de Seguridad",
+            "DG de la Policía; DG de la Guardia Civil; DG de Relaciones Internacionales y Extranjería; DG de Coordinación y Estudios"
+          ],
+          [
+            "Secretaría General de Instituciones Penitenciarias",
+            "DG de Ejecución Penal y Reinserción Social"
+          ],
+          [
+            "Secretaría General de Protección Civil y Emergencias (nueva en 2026)",
+            "DG de Protección Civil y Emergencias"
+          ],
+          [
+            "Subsecretaría del Interior",
+            "Secretaría General Técnica; DG de Política Interior; DG de Tráfico; DG de Apoyo a Víctimas del Terrorismo; DG de Protección Internacional"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Secretaría de Estado de Seguridad: funciones (art. 2.1)",
+      "puntos": [
+        "La SES actúa bajo la inmediata autoridad del Ministro: ejerce las funciones del art. 62 de la Ley 40/2015 y dirige, coordina y supervisa los cuatro órganos directivos que dependen de ella. El art. 2.1 enumera **16 funciones** (letras a a o, con la ñ intercalada).",
+        "Mando y derechos: promoción de las condiciones para el ejercicio de los derechos fundamentales (libertad y seguridad personales, inviolabilidad del domicilio y de las comunicaciones, libertad de residencia y circulación); **mando de las FCSE** y coordinación de sus servicios y misiones; competencias sobre **seguridad privada** (letras a, b y c).",
+        "Cooperación policial internacional: dirección y coordinación con **EUROPOL, INTERPOL, SIRENE, los Sistemas de Información de Schengen y los Centros de Cooperación Policial y Aduanera** (letra d).",
+        "Criminalidad grave: dirección, impulso y coordinación de las actuaciones en materia de **crimen organizado, terrorismo, trata de seres humanos, tráfico de drogas, blanqueo de capitales relacionado con ese tráfico y delitos conexos** (letra f).",
+        "Infraestructuras y material de seguridad: **planificación y coordinación** de las políticas y **aprobación** de los planes y programas (letras g y h).",
+        "Otras funciones: relaciones con el **Comité Europeo para la Prevención de la Tortura** (i); derechos de **reunión y manifestación** (j); coordinación de las Delegaciones y Subdelegaciones del Gobierno en seguridad ciudadana (k); **precursores de drogas y de explosivos y datos PNR** (l); dirección del **Sistema Nacional de Protección de Infraestructuras Críticas** (m); **ciberseguridad** (n); coordinación de operaciones transnacionales a través de la DG de Relaciones Internacionales y Extranjería (ñ); **gestión integrada de fronteras** y mando de la participación española en la Guardia Europea de Fronteras y Costas (o).",
+        "Competencia desconcentrada: el **cierre temporal de puestos fronterizos** por razones de seguridad del Estado o de los ciudadanos corresponde al Secretario de Estado, que debe comunicarlo a los departamentos afectados y, vía Exteriores, a los países e instituciones con los que España esté obligada (DA 3.ª).",
+        "Suplencia: en caso de vacante, ausencia o enfermedad del Secretario de Estado, le sustituyen las personas titulares de sus Direcciones Generales por el orden de la estructura (DA 5.ª.1)."
+      ]
+    },
+    {
+      "titulo": "Órganos que dependen directamente de la Secretaría de Estado",
+      "puntos": [
+        "El **Comité Ejecutivo de Coordinación** (art. 2.4) lo preside el Secretario de Estado, bajo la dirección del Ministro. Lo integran el Subsecretario, los Directores Generales de la Policía y de la Guardia Civil, el Secretario General de Instituciones Penitenciarias, el Gabinete del Ministro, el DG de Relaciones Internacionales y Extranjería, el DG de Coordinación y Estudios (que ejerce la **secretaría**) y las Direcciones Adjuntas Operativas de Policía y Guardia Civil. Las referencias al antiguo Comité Ejecutivo para el Mando Unificado se entienden hechas a este Comité (DT 2.ª).",
+        "En la tabla, el Gabinete, el CITCO y las dos subdirecciones generales dependen de la SES; la Gerencia es un organismo autónomo adscrito, no un órgano dependiente. El Comité Ejecutivo de Coordinación es un órgano de coordinación que ella preside."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Órgano",
+          "Nivel y datos clave"
+        ],
+        "filas": [
+          [
+            "Gabinete de la SES",
+            "Nivel de subdirección general. Su titular ejerce la **Relatoría Nacional contra la Trata de Seres Humanos** y coordina las dos subdirecciones de infraestructuras y de sistemas (art. 2.2)"
+          ],
+          [
+            "CITCO",
+            "Subdirección general. Recibe, integra y analiza información estratégica sobre delincuencia organizada o grave, terrorismo y radicalismo violento, y planifica y ejecuta la destrucción de alijos de droga. De él dependen la **UNECI** (retirada de contenidos ilícitos en internet), la **ONIP** (PIU nacional de pasajeros) y la **TEPOL** (policía judicial en terrorismo). Es punto focal de la Relatoría contra la Trata (art. 2.3)"
+          ],
+          [
+            "SG de Planificación y Gestión de Infraestructuras y Medios para la Seguridad",
+            "Planifica inversiones en infraestructuras de seguridad, propone planes y programas y gestiona el patrimonio inmobiliario de la seguridad (art. 2.5.a)"
+          ],
+          [
+            "SG de Sistemas de Información y Comunicaciones para la Seguridad",
+            "Estandariza sistemas, coordina bases de datos compartidas por las FCSE (eu-LISA, Schengen, SIRDEE) y dirige el **CETSE**, Centro Tecnológico de Seguridad (art. 2.5.b)"
+          ],
+          [
+            "Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado",
+            "**Organismo autónomo adscrito** a la SES (Estatuto: RD 904/2021). Hasta que se adapte su Estatuto, el Secretario de Estado ejerce transitoriamente su dirección (art. 2.6 y DT 3.ª)"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Dirección General de Coordinación y Estudios (art. 6)",
+      "puntos": [
+        "Es el **órgano de apoyo y asesoramiento** a través del cual el Secretario de Estado coordina y supervisa la actuación de las FCSE y colabora con las **policías autonómicas y locales**. Inspecciona, comprueba y evalúa los servicios, centros y unidades, centrales y periféricos, de las DG de la Policía y de la Guardia Civil (art. 6.1).",
+        "Elabora las instrucciones y los planes directores y operativos de la SES en seguridad ciudadana, y desarrolla y gestiona la **Estadística Nacional de Criminalidad**, que integra datos de las FCSE, las policías autonómicas y las locales.",
+        "Formación: promueve acciones formativas conjuntas y es la **Unidad Nacional de CEPOL** (Agencia de la UE para la Formación Policial).",
+        "Dirige o integra: el **CNPIC** (infraestructuras críticas y servicios esenciales), el **Servicio Central de Violencia de Género** (seguimiento integral), la **Oficina Nacional de lucha contra los delitos de odio**, el **Centro Nacional de Desaparecidos**, el **CEPIC** (Centro Permanente de Información y Coordinación), el subregistro principal OTAN/UE/ESA y el **Delegado de Protección de Datos** de la SES.",
+        "Ciberseguridad: la **Oficina de Coordinación de Ciberseguridad (OCC)** es punto de contacto nacional (Directiva 2013/40/UE), canal con los CSIRT y **CSIRT-MIR-PJ** de apoyo a la policía judicial, además del Observatorio de la Cibercriminalidad del Ministerio.",
+        "Coordina los **Centros de Cooperación Policial y de Cooperación Policial y Aduanera** (art. 6.1.17.º). Dentro de la DGP, la coordinación funcional de las comisarías conjuntas y esos centros la ejerce la Oficina Sirene.",
+        "De ella depende la **Inspección de Personal y Servicios de Seguridad**, con nivel de subdirección general, que dirige la **Oficina Nacional de Garantías de los Derechos Humanos (ONGADH)**, vela por la integridad deontológica y ejerce competencias de prevención de riesgos laborales (RD 179/2005 y RD 2/2006)."
+      ]
+    },
+    {
+      "titulo": "Direcciones Generales de Policía, Guardia Civil y Relaciones Internacionales",
+      "puntos": [
+        "**DG de la Policía** (art. 3): mando directo de la Policía Nacional bajo la dependencia de la SES. De ella dependen la Dirección Adjunta Operativa, la Subdirección General de Recursos Humanos y Formación, la Subdirección General de Logística e Innovación, el Gabinete Técnico y la División de Cooperación Internacional (se desarrolla en el tema 8).",
+        "**DG de la Guardia Civil** (art. 4): titular con rango de subsecretario; tiene adscritos el Consejo Superior de la Guardia Civil y el Consejo de la Guardia Civil. De ella dependen la Dirección Adjunta Operativa (a cargo de un Teniente General), el Mando de Personal y el Mando de Apoyo; el Gabinete Técnico lo dirige un Oficial General.",
+        "**DG de Relaciones Internacionales y Extranjería** (art. 5): coordina la acción exterior del Ministerio, el seguimiento de las políticas de la UE (Espacio de Libertad, Seguridad y Justicia) y la gestión de ayudas de cooperación policial internacional (RD 732/2007). Gestiona el **NFPOC** (punto nacional de contacto con la Guardia Europea de Fronteras y Costas) y el **NCC** de Eurosur."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Subdirección General de la DG de RIE",
+          "Funciones clave"
+        ],
+        "filas": [
+          [
+            "Cooperación Policial Internacional",
+            "Cooperación policial internacional, órganos técnicos del Ministerio en las Misiones Diplomáticas y negociación de convenios (art. 5.1.d, e y f)"
+          ],
+          [
+            "Relaciones Internacionales, Inmigración y Extranjería",
+            "Líneas estratégicas en materia migratoria, de fronteras y de extranjería con dimensión internacional; relaciones con la Agencia Europea de la Guardia de Fronteras y Costas; derechos humanos (art. 5.1.g, h, i y n)"
+          ],
+          [
+            "Asuntos Europeos",
+            "Seguimiento de las actuaciones de la UE y coordinación de la posición del Ministerio y de su representación en los grupos y comités europeos (art. 5.1.b y c)"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Subsecretaría, Instituciones Penitenciarias y Protección Civil",
+      "puntos": [
+        "**Subsecretaría del Interior** (art. 9): representación ordinaria del Departamento y dirección de los servicios comunes. Gestiona procesos electorales, registro de partidos y de asociaciones de ámbito estatal, relaciones con Delegaciones y Subdelegaciones del Gobierno en lo no atribuido a otros órganos, política de tráfico, víctimas del terrorismo y protección internacional. De ella dependen **cinco** órganos directivos (art. 9.5); directamente tiene un **Gabinete Técnico** y una **Oficina Presupuestaria** (nivel de subdirección general), y están adscritas la Abogacía del Estado y la Intervención Delegada.",
+        "Dentro de la Subsecretaría: la **Secretaría General Técnica** (Vicesecretaría General Técnica; SG de Recursos, Reclamaciones y Relaciones con los Tribunales; SG de Asociaciones, Archivos y Documentación); la **DG de Política Interior** (procesos electorales, partidos y servicios comunes); la **DG de Tráfico** (vía para las competencias sobre el organismo autónomo Jefatura Central de Tráfico); y la **DG de Apoyo a Víctimas del Terrorismo** (dos SG, de Apoyo y de Ayudas).",
+        "**DG de Protección Internacional** (art. 15): ejerce las funciones de la **Oficina de Asilo y Refugio**, preside y ejerce la secretaría de la CIAR (Comisión Interministerial de Asilo y Refugio) y lleva las relaciones con las Delegaciones y Subdelegaciones del Gobierno en cuestiones de protección internacional. Tiene tres SG: Relaciones Institucionales e Información; Asuntos Generales y Jurídicos; e Instrucción de Protección Internacional y Apatridia.",
+        "**Secretaría General de Instituciones Penitenciarias** (art. 7): de ella dependen la DG de Ejecución Penal y Reinserción Social (SG de Medio Abierto y de Penas y Medidas Alternativas, y de Sanidad Penitenciaria) y cuatro SG propias: Relaciones Institucionales y Coordinación Territorial, Recursos Humanos, Planificación y Gestión Económica, y Análisis e Inspección.",
+        "**Secretaría General de Protección Civil y Emergencias** (arts. 8 bis y 8 ter, RD 328/2026): gestiona las competencias en protección civil (Ley 17/2015) y emergencias; su titular es vicepresidente del Consejo Nacional de Protección Civil. La DG de Protección Civil y Emergencias tiene tres SG: Anticipación y Preparación (con la Escuela Nacional de Protección Civil), Planificación y Gestión de Emergencias (con el CEISE) y Resiliencia y Recuperación."
+      ]
+    }
+  ],
+  "trampas": [
+    "Dependencias que se intercambian: la DG de Coordinación y Estudios cuelga de la SES; la DG de Protección Internacional cuelga de la **Subsecretaría**; la DG de Protección Civil y Emergencias cuelga desde 2026 de su **propia Secretaría General**, no de la Subsecretaría.",
+    "Nombres casi idénticos: DG de **Coordinación y Estudios** (coordina FCSE, CEPOL, CNPIC), DG de **Relaciones Internacionales y Extranjería** (acción exterior, Frontex) y SG de **Cooperación Policial Internacional**, que es una subdirección dentro de la segunda.",
+    "CEPOL (formación policial de la UE) es una unidad nacional de la DG de Coordinación y Estudios; EUROPOL (cooperación policial) lo es de la División de Cooperación Internacional de la DGP. No confundir.",
+    "Niveles orgánicos: el Gabinete del Ministro tiene nivel de **dirección general**; el Gabinete de la SES, el Gabinete Técnico de la Subsecretaría, la Oficina de Comunicación, el CITCO y la Inspección de Personal y Servicios de Seguridad tienen nivel de **subdirección general**. Las DG de Policía y Guardia Civil tienen rango de **subsecretario**.",
+    "Relatoría Nacional contra la Trata: la ejerce el titular del **Gabinete de la SES**; el CITCO solo es su **punto focal** de apoyo técnico.",
+    "Relaciones con Delegaciones y Subdelegaciones del Gobierno: regla general en la **Subsecretaría** (art. 9.2.e); en protección internacional, la **DG de Protección Internacional** (art. 15.2.b); la SES coordina sus competencias en seguridad ciudadana (art. 2.1.k).",
+    "La Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado es un **organismo autónomo adscrito** a la SES, no una subdirección; mientras no se adapte su Estatuto la dirige transitoriamente el Secretario de Estado.",
+    "Preguntas con base en normas derogadas (RD 734/2020, RD 94/2022) o con el esquema anterior a 2026, en el que la DG de Protección Civil dependía de la Subsecretaría (que entonces tenía seis órganos directivos y ahora tiene cinco)."
+  ],
+  "caido": [
+    {
+      "examen": "P40 (13 abr 2024) y P41 (1 mar 2025)",
+      "concepto": "DG de Coordinación y Estudios: órgano de apoyo de la SES, coordinación de las FCSE y colaboración con policías autonómicas y locales, Centros de Cooperación Policial y Aduanera, Unidad Nacional de CEPOL (RD 207/2024, art. 6; varias preguntas)"
+    },
+    {
+      "examen": "P40 (13 abr 2024), P42 (25 oct 2025) y P43 (26 sep 2026)",
+      "concepto": "SES: precursores de drogas y de explosivos y datos PNR (art. 2.1.l), Gabinete con nivel de subdirección general, Gerencia de Infraestructuras y Equipamiento adscrita"
+    },
+    {
+      "examen": "P40 (13 abr 2024) y P43 (26 sep 2026)",
+      "concepto": "Subdirección General de Asuntos Europeos dentro de la DG de Relaciones Internacionales y Extranjería, y Subdirección General de Cooperación Policial Internacional (art. 5)"
+    },
+    {
+      "examen": "P40 (13 abr 2024)",
+      "concepto": "Relaciones con Delegaciones y Subdelegaciones del Gobierno: Subsecretaría del Interior (art. 9.2.e); pregunta con base en el RD 94/2022 cuya respuesta se mantiene en el RD 207/2024"
+    },
+    {
+      "examen": "P42 (25 oct 2025)",
+      "concepto": "Inspección de Personal y Servicios de Seguridad: dependencia (DG de Coordinación y Estudios) y nivel orgánico (subdirección general)"
+    }
+  ],
+  "mnemotecnias": [
+    "Las cuatro DG de la SES, en el orden de la estructura y de la suplencia: **P**olicía, **G**uardia Civil, **R**elaciones Internacionales y Extranjería, **C**oordinación y Estudios (P-G-R-C).",
+    "Cinco órganos directivos de la Subsecretaría: Técnica (SGT), Política Interior, Tráfico, Víctimas del Terrorismo y Protección Internacional («los cinco de la Subse»).",
+    "CEPOL = formación, se queda en Coordinación y **Estudios** (estudiar y formar); EUROPOL = cooperación policial, va a la DGP (Cooperación Internacional)."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Qué norma desarrolla la estructura orgánica básica del Ministerio del Interior?",
+      "r": "El **RD 207/2024, de 27 de febrero** (deroga el RD 734/2020), modificado por el RD 353/2025 y el RD 328/2026."
+    },
+    {
+      "p": "¿De qué órgano dependen las DG de la Policía, de la Guardia Civil, de RIE y de Coordinación y Estudios?",
+      "r": "De la **Secretaría de Estado de Seguridad** (art. 1.5.a)."
+    },
+    {
+      "p": "¿Qué rango tienen los titulares de las DG de la Policía y de la Guardia Civil?",
+      "r": "Rango de **subsecretario** (arts. 3.1 y 4.1)."
+    },
+    {
+      "p": "¿Qué es el CITCO y qué cuelga de él?",
+      "r": "**Centro de Inteligencia contra el Terrorismo y el Crimen Organizado**, nivel de subdirección general, depende de la SES. De él dependen la **UNECI**, la **ONIP** y la **TEPOL** (art. 2.3)."
+    },
+    {
+      "p": "¿Quién ejerce la Relatoría Nacional contra la Trata de Seres Humanos?",
+      "r": "El titular del **Gabinete de la Secretaría de Estado de Seguridad** (art. 2.2)."
+    },
+    {
+      "p": "¿Qué órgano es la Unidad Nacional de CEPOL?",
+      "r": "La **DG de Coordinación y Estudios** (art. 6.1.9.º)."
+    },
+    {
+      "p": "¿Qué órgano gestiona el NFPOC con Frontex y el NCC de Eurosur?",
+      "r": "La **DG de Relaciones Internacionales y Extranjería** (art. 5.1.i)."
+    },
+    {
+      "p": "¿Cuántas y cuáles son las SG de la DG de Relaciones Internacionales y Extranjería?",
+      "r": "**Tres**: Cooperación Policial Internacional; Relaciones Internacionales, Inmigración y Extranjería; y Asuntos Europeos (art. 5.2)."
+    },
+    {
+      "p": "¿De quién depende la Inspección de Personal y Servicios de Seguridad y qué nivel tiene?",
+      "r": "De la **DG de Coordinación y Estudios**; nivel de **subdirección general** (art. 6.2). Dirige la ONGADH."
+    },
+    {
+      "p": "¿Quién preside el Comité Ejecutivo de Coordinación y quién ejerce su secretaría?",
+      "r": "Lo preside el **Secretario de Estado de Seguridad**; la secretaría es de la **DG de Coordinación y Estudios** (art. 2.4)."
+    },
+    {
+      "p": "¿Qué órgano dirige el CETSE?",
+      "r": "La **SG de Sistemas de Información y Comunicaciones para la Seguridad**, órgano dependiente de la SES (art. 2.5.b)."
+    },
+    {
+      "p": "¿Qué es la Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado?",
+      "r": "Un **organismo autónomo adscrito a la SES** (Estatuto: RD 904/2021). Su dirección la ejerce transitoriamente el Secretario de Estado (DT 3.ª)."
+    },
+    {
+      "p": "¿Qué órganos directivos dependen de la Subsecretaría del Interior?",
+      "r": "**Cinco**: Secretaría General Técnica, DG de Política Interior, DG de Tráfico, DG de Apoyo a Víctimas del Terrorismo y DG de Protección Internacional (art. 9.5)."
+    },
+    {
+      "p": "¿Qué órgano ejerce las funciones de la Oficina de Asilo y Refugio?",
+      "r": "La **DG de Protección Internacional** (art. 15), a través de sus SG de Relaciones Institucionales e Información y de Instrucción y Apatridia (art. 15.4)."
+    },
+    {
+      "p": "¿De quién depende la DG de Protección Civil y Emergencias desde el RD 328/2026?",
+      "r": "De la **Secretaría General de Protección Civil y Emergencias**, que depende del Ministro (arts. 8 bis y 8 ter)."
+    },
+    {
+      "p": "¿Quién puede acordar el cierre temporal de un puesto fronterizo por razones de seguridad del Estado?",
+      "r": "El **Secretario de Estado de Seguridad** (DA 3.ª RD 207/2024)."
+    },
+    {
+      "p": "¿Qué nivel orgánico tienen el Gabinete del Ministro y la Oficina de Comunicación?",
+      "r": "Gabinete: **dirección general**. Oficina de Comunicación: **subdirección general**, dependiente directamente del Ministro (art. 1.3 y 1.4)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Según el RD 207/2024, ¿de qué órgano dependen las Direcciones Generales de la Policía, de la Guardia Civil, de Relaciones Internacionales y Extranjería y de Coordinación y Estudios?",
+      "opciones": [
+        "De la Subsecretaría del Interior.",
+        "De la Secretaría de Estado de Seguridad.",
+        "Directamente de la persona titular del Ministerio."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 1.5, letra a, del RD 207/2024 (en la redacción del RD 328/2026) sitúa esas cuatro Direcciones Generales bajo la Secretaría de Estado de Seguridad. La Subsecretaría tiene otras cinco unidades directivas (Secretaría General Técnica, Política Interior, Tráfico, Apoyo a Víctimas del Terrorismo y Protección Internacional) y ninguna de las cuatro depende directamente del Ministro.",
+      "ref": "art. 1.5.a) RD 207/2024",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Qué órgano del Ministerio del Interior actúa como Unidad Nacional de CEPOL, la Agencia de la Unión Europea para la Formación Policial?",
+      "opciones": [
+        "La Dirección General de Coordinación y Estudios.",
+        "La División de Cooperación Internacional de la Dirección General de la Policía.",
+        "La Dirección General de Relaciones Internacionales y Extranjería."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 6.1.9.º del RD 207/2024 atribuye a la DG de Coordinación y Estudios actuar como Unidad Nacional de CEPOL. La División de Cooperación Internacional de la DGP gestiona la Oficina Central Nacional de INTERPOL, la Unidad Nacional de EUROPOL y la Oficina SIRENE, que son otras agencias. La DG de Relaciones Internacionales y Extranjería coordina la acción exterior pero no es esa unidad nacional.",
+      "ref": "art. 6.1.9.º RD 207/2024; art. 3.2 Orden INT/859/2023",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale cuál de las siguientes unidades NO depende del Centro de Inteligencia contra el Terrorismo y el Crimen Organizado (CITCO):",
+      "opciones": [
+        "La Unidad Nacional de Retirada de Contenidos Ilícitos en Internet (UNECI).",
+        "La Oficina Nacional de Información sobre Pasajeros (ONIP).",
+        "El Centro Permanente de Información y Coordinación (CEPIC)."
+      ],
+      "correcta": 2,
+      "explicacion": "Del CITCO dependen la UNECI, la ONIP y la Unidad de Policía Judicial para delitos de terrorismo (TEPOL) (art. 2.3 RD 207/2024). El CEPIC, que centraliza sucesos e informaciones de las FCSE, se integra en la DG de Coordinación y Estudios (art. 6.1.18.º).",
+      "ref": "arts. 2.3 y 6.1.18.º RD 207/2024",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Las funciones de Relatoría Nacional contra la Trata de Seres Humanos, conforme a la normativa internacional y europea, las ejerce según el RD 207/2024:",
+      "opciones": [
+        "La persona titular de la Dirección General de Relaciones Internacionales y Extranjería.",
+        "La persona titular del CITCO, que la ejerce directamente.",
+        "La persona titular del Gabinete de la Secretaría de Estado de Seguridad."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 2.2 del RD 207/2024 dispone que la persona titular de la dirección del Gabinete de la Secretaría de Estado ejerce las funciones de Relatoría Nacional contra la Trata. El CITCO solo desarrolla las funciones de punto focal de la Relatoría para su apoyo y asistencia técnica (art. 2.3), y la DG de Relaciones Internacionales y Extranjería no tiene esa función.",
+      "ref": "arts. 2.2 y 2.3 RD 207/2024",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Tras el Real Decreto 328/2026, ¿cuál de las siguientes afirmaciones sobre la estructura del Ministerio del Interior es correcta?",
+      "opciones": [
+        "La Dirección General de Protección Civil y Emergencias depende de la Subsecretaría del Interior.",
+        "La Dirección General de Protección Internacional depende de la Secretaría de Estado de Seguridad.",
+        "La Dirección General de Protección Civil y Emergencias depende de la Secretaría General de Protección Civil y Emergencias."
+      ],
+      "correcta": 2,
+      "explicacion": "El RD 328/2026 crea la Secretaría General de Protección Civil y Emergencias (art. 8 bis) y hace depender de ella a la DG de Protección Civil y Emergencias (art. 8 ter); suprime el antiguo art. 13, que la situaba en la Subsecretaría. La DG de Protección Internacional sigue dependiendo de la Subsecretaría (art. 9.5.e), no de la Secretaría de Estado.",
+      "ref": "art. 1.5 y arts. 8 bis y 8 ter RD 207/2024 (RD 328/2026)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué rango tienen las personas titulares de las Direcciones Generales de la Policía y de la Guardia Civil según el RD 207/2024?",
+      "opciones": [
+        "Rango de subsecretario.",
+        "Rango de secretario de Estado.",
+        "El de cualquier otro director general, sin rango especial."
+      ],
+      "correcta": 0,
+      "explicacion": "Los arts. 3.1 y 4.1 del RD 207/2024 establecen que el titular de cada una de esas Direcciones Generales tiene rango de subsecretario y ejerce el mando directo de su Cuerpo bajo la dependencia del Secretario de Estado de Seguridad. No tienen rango de secretario de Estado ni se equiparan a un director general ordinario.",
+      "ref": "arts. 3.1 y 4.1 RD 207/2024; art. 5 RD 1009/2023",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el art. 2.1 del RD 207/2024, ¿a quién corresponde la dirección del Sistema Nacional de Protección de Infraestructuras Críticas?",
+      "opciones": [
+        "Al Director General de Coordinación y Estudios.",
+        "Al titular de la Secretaría de Estado de Seguridad.",
+        "Al Subsecretario del Interior."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 2.1.m) atribuye al Secretario de Estado de Seguridad la dirección del Sistema Nacional de Protección de Infraestructuras Críticas. La DG de Coordinación y Estudios le auxilia en su condición de responsable superior del Sistema y actúa a través del CNPIC (art. 6.1 y 6.1.11.º), pero no lo dirige. La Subsecretaría no tiene esa competencia.",
+      "ref": "arts. 2.1.m) y 6.1 RD 207/2024",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes funciones corresponde a la Dirección General de Coordinación y Estudios?",
+      "opciones": [
+        "Dirigir el Centro Tecnológico de Seguridad (CETSE).",
+        "Desarrollar, implantar y gestionar la Estadística Nacional de Criminalidad.",
+        "Ejercer las funciones de la Oficina de Asilo y Refugio."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 6.1.2.º atribuye a la DG de Coordinación y Estudios la Estadística Nacional de Criminalidad. El CETSE lo dirige la SG de Sistemas de Información y Comunicaciones para la Seguridad (art. 2.5, apartado b, dependiente de la SES), y las funciones de la Oficina de Asilo y Refugio las ejerce la DG de Protección Internacional (art. 15.2).",
+      "ref": "arts. 6.1.2.º, 2.5.b) y 15.2 RD 207/2024",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale cuál de las siguientes NO es una subdirección general de la Dirección General de Relaciones Internacionales y Extranjería:",
+      "opciones": [
+        "La Subdirección General de Cooperación Policial Internacional.",
+        "La Subdirección General de Asuntos Europeos.",
+        "La Subdirección General de Protección Internacional."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 5.2 del RD 207/2024 enumera tres subdirecciones: Cooperación Policial Internacional; Relaciones Internacionales, Inmigración y Extranjería; y Asuntos Europeos. La antigua Subdirección General de Protección Internacional fue suprimida por la DA 2.ª y sus funciones pasaron a la nueva DG de Protección Internacional, dependiente de la Subsecretaría.",
+      "ref": "art. 5.2 y DA 2.ª RD 207/2024",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Qué afirmación sobre la Inspección de Personal y Servicios de Seguridad es correcta?",
+      "opciones": [
+        "Depende directamente del Secretario de Estado de Seguridad y tiene nivel de dirección general.",
+        "Depende de la Subsecretaría del Interior y tiene nivel de subdirección general.",
+        "Depende de la Dirección General de Coordinación y Estudios y tiene nivel de subdirección general."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 6.2 del RD 207/2024 sitúa la Inspección de Personal y Servicios de Seguridad bajo la DG de Coordinación y Estudios, con nivel orgánico de subdirección general. Dirige la ONGADH. Quien depende directamente del Secretario de Estado, con nivel de subdirección general, son el Gabinete, el CITCO y las dos subdirecciones de infraestructuras y sistemas.",
+      "ref": "art. 6.2 RD 207/2024",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En el Comité Ejecutivo de Coordinación, presidido por el Secretario de Estado de Seguridad, ¿quién ejerce las funciones de secretaría?",
+      "opciones": [
+        "La persona titular de la Dirección General de Coordinación y Estudios.",
+        "La persona titular del Gabinete del Ministro.",
+        "La persona titular de la Subsecretaría del Interior."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 2.4 del RD 207/2024 precisa que el Comité está integrado, entre otros, por el titular de la DG de Coordinación y Estudios, que ejerce las funciones de secretaría. El Gabinete del Ministro y la Subsecretaría son vocales, no secretarios.",
+      "ref": "art. 2.4 RD 207/2024",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Por razones de seguridad del Estado se hace necesario cerrar temporalmente un puesto fronterizo habilitado para el paso de personas. Según el RD 207/2024, ¿quién tiene desconcentrada la competencia para acordarlo?",
+      "opciones": [
+        "El Secretario de Estado de Seguridad.",
+        "El Director General de la Policía.",
+        "El Director General de Relaciones Internacionales y Extranjería."
+      ],
+      "correcta": 0,
+      "explicacion": "La DA 3.ª.1 del RD 207/2024 desconcentra en el Secretario de Estado de Seguridad la competencia de acordar el cierre temporal de puestos fronterizos cuando lo requiera la seguridad del Estado o de los ciudadanos. No corresponde a la DGP ni a la DG de Relaciones Internacionales y Extranjería, aunque ambas intervengan en materia de fronteras.",
+      "ref": "DA 3.ª.1 RD 207/2024",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes parejas órgano-nivel orgánico es correcta?",
+      "opciones": [
+        "Gabinete de la Secretaría de Estado de Seguridad: dirección general.",
+        "Oficina de Comunicación del Ministerio: dirección general.",
+        "Gabinete del Ministro: dirección general."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 1.3 del RD 207/2024 da al Gabinete del Ministro nivel de dirección general. El Gabinete de la Secretaría de Estado (art. 2.2) y la Oficina de Comunicación (art. 1.4) tienen nivel de subdirección general.",
+      "ref": "arts. 1.3, 1.4 y 2.2 RD 207/2024",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuántos órganos directivos dependen de la Subsecretaría del Interior según la redacción vigente del RD 207/2024?",
+      "opciones": [
+        "Seis.",
+        "Cinco.",
+        "Cuatro."
+      ],
+      "correcta": 1,
+      "explicacion": "Tras el RD 328/2026 dependen de la Subsecretaría cinco: Secretaría General Técnica, DG de Política Interior, DG de Tráfico, DG de Apoyo a Víctimas del Terrorismo y DG de Protección Internacional (art. 9.5). Antes de 2026 eran seis, porque también dependía la DG de Protección Civil y Emergencias, que ahora cuelga de su propia Secretaría General.",
+      "ref": "art. 9.5 RD 207/2024",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué órgano directivo del Ministerio del Interior ejerce las funciones que el ordenamiento jurídico atribuye a la Oficina de Asilo y Refugio?",
+      "opciones": [
+        "La Dirección General de Relaciones Internacionales y Extranjería.",
+        "La Dirección General de Protección Internacional.",
+        "La Dirección General de Política Interior."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 15.2 del RD 207/2024 atribuye a la DG de Protección Internacional, entre otras, las funciones de la Oficina de Asilo y Refugio. Antes del RD 207/2024 esas materias estaban en la DG de Política Interior; la DG de Relaciones Internacionales y Extranjería solo coordina la acción exterior y la dimensión internacional de la extranjería.",
+      "ref": "art. 15.2 y 15.4 RD 207/2024",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un expediente exige las relaciones del Ministerio con una Subdelegación del Gobierno en una cuestión de protección internacional. Según el RD 207/2024, ¿qué órgano tiene atribuida esa función de forma específica?",
+      "opciones": [
+        "La Dirección General de Protección Internacional.",
+        "La Secretaría de Estado de Seguridad.",
+        "La Dirección General de Coordinación y Estudios."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 15.2, letra b, otorga a la DG de Protección Internacional las relaciones del Ministerio con las Delegaciones y Subdelegaciones del Gobierno en cuestiones de protección internacional, apatridia y protección temporal. La regla general de relaciones con Delegaciones y Subdelegaciones es de la Subsecretaría (art. 9.2.e) solo en lo no atribuido a otros órganos, y la SES coordina sus competencias en seguridad ciudadana (art. 2.1.k).",
+      "ref": "art. 15.2.b), art. 9.2.e) y art. 2.1.k) RD 207/2024",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Respecto de la Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado, indique la afirmación correcta:",
+      "opciones": [
+        "Es una subdirección general integrada en el CITCO.",
+        "Es un organismo autónomo adscrito a la Secretaría de Estado de Seguridad, cuya dirección ejerce transitoriamente el Secretario de Estado mientras no se adapte su Estatuto.",
+        "Es un organismo autónomo adscrito a la Subsecretaría del Interior."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 2.6 adscribe el organismo autónomo a la SES (Estatuto aprobado por RD 904/2021) y la DT 3.ª dispone que, hasta la adaptación de su Estatuto, el Secretario de Estado ejerce transitoriamente las funciones de dirección. No es una subdirección, ni forma parte del CITCO, ni está adscrita a la Subsecretaría.",
+      "ref": "art. 2.6 y DT 3.ª RD 207/2024",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué subdirección general, dependiente de la Secretaría de Estado de Seguridad, dirige el Centro Tecnológico de Seguridad (CETSE)?",
+      "opciones": [
+        "La Subdirección General de Planificación y Gestión de Infraestructuras y Medios para la Seguridad.",
+        "La Subdirección General de Logística e Innovación de la Dirección General de la Policía.",
+        "La Subdirección General de Sistemas de Información y Comunicaciones para la Seguridad."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 2.5, letra b, apartado 9.º, atribuye a la SG de Sistemas de Información y Comunicaciones para la Seguridad dirigir el CETSE, como órgano de implementación de sus funciones y de las políticas de I+D+i. La SG de Planificación y Gestión de Infraestructuras y Medios se ocupa de inversiones y patrimonio inmobiliario de seguridad, y la de Logística e Innovación pertenece a la DGP y no depende de la SES.",
+      "ref": "art. 2.5 RD 207/2024",
+      "dificultad": 3
+    }
+  ],
+  "dudas": [
+    "El análisis de exámenes anota una pregunta sobre la presidencia del Consejo Superior de Tráfico, Seguridad Vial y Movilidad Sostenible (P40, respuesta: Ministro del Interior). No figura en el RD 207/2024 y no se ha verificado en esta ficha."
+  ]
+}

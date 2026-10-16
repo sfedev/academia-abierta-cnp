@@ -1,0 +1,18 @@
+# Se regeneran con herramientas/build.py y herramientas/empaquetar.py
+dist/
+sitio/
+
+# Textos de normas descargados por los redactores (169 MB, se vuelven a bajar con boe.py)
+trabajo/
+
+# Notas de trabajo con detalle de análisis de academias: solo en local
+fuentes/analisis-examenes.md
+
+# Temporales
+novedades-resumen.md
+cuerpo-issue.md
+.repro/
+.tmp*
+__pycache__/
+*.pyc
+.claude/

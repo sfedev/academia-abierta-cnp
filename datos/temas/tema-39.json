@@ -1,0 +1,964 @@
+{
+  "tema": 39,
+  "titulo": "Redes informáticas: OSI, TCP/IP y direccionamiento IP",
+  "bloque": "C",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "Media de 1,2 preguntas por examen (rango 0-3; 3 en 2024). Han caído el proceso DORA de DHCP, la función de la capa de red de OSI, los tipos de servidor DNS y la IANA. Los exámenes recientes endurecen las preguntas con siglas, puertos y tamaños de dirección."
+  },
+  "normas": [
+    {
+      "nombre": "ITU-T X.200 | ISO/IEC 7498-1: modelo de referencia de interconexión de sistemas abiertos (OSI)",
+      "url": "https://www.itu.int/rec/T-REC-X.200-199407-I/en",
+      "verificado": "Recomendación aprobada el 01/07/1994, en vigor; índice con las siete capas (sección 7) leído el 16/10/2026"
+    },
+    {
+      "nombre": "RFC 1122: Requirements for Internet Hosts, Communication Layers (modelo TCP/IP, direcciones especiales)",
+      "url": "https://www.rfc-editor.org/rfc/rfc1122",
+      "verificado": "Texto leído el 16/10/2026 (apartados 1.1.3 y 3.2.1.3)"
+    },
+    {
+      "nombre": "RFC 791: Internet Protocol (IPv4)",
+      "url": "https://www.rfc-editor.org/rfc/rfc791",
+      "verificado": "Texto leído el 16/10/2026 (direcciones, clases y cabecera)"
+    },
+    {
+      "nombre": "RFC 1112: Host Extensions for IP Multicasting (direcciones de clase D)",
+      "url": "https://www.rfc-editor.org/rfc/rfc1112",
+      "verificado": "Apartado 4 leído el 16/10/2026 (224.0.0.0 a 239.255.255.255)"
+    },
+    {
+      "nombre": "RFC 768: User Datagram Protocol (UDP)",
+      "url": "https://www.rfc-editor.org/rfc/rfc768",
+      "verificado": "Texto leído el 16/10/2026"
+    },
+    {
+      "nombre": "RFC 9293: Transmission Control Protocol (TCP), que sustituye al RFC 793",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293",
+      "verificado": "Texto de agosto de 2022 leído el 16/10/2026"
+    },
+    {
+      "nombre": "RFC 4632: Classless Inter-domain Routing (CIDR)",
+      "url": "https://www.rfc-editor.org/rfc/rfc4632",
+      "verificado": "Texto leído el 16/10/2026"
+    },
+    {
+      "nombre": "RFC 1918: Address Allocation for Private Internets",
+      "url": "https://www.rfc-editor.org/rfc/rfc1918",
+      "verificado": "Texto leído el 16/10/2026"
+    },
+    {
+      "nombre": "RFC 3927: Dynamic Configuration of IPv4 Link-Local Addresses",
+      "url": "https://www.rfc-editor.org/rfc/rfc3927",
+      "verificado": "Texto leído el 16/10/2026"
+    },
+    {
+      "nombre": "RFC 6598: IANA-Reserved IPv4 Prefix for Shared Address Space",
+      "url": "https://www.rfc-editor.org/rfc/rfc6598",
+      "verificado": "Texto leído el 16/10/2026 (100.64.0.0/10)"
+    },
+    {
+      "nombre": "RFC 4291: IP Version 6 Addressing Architecture",
+      "url": "https://www.rfc-editor.org/rfc/rfc4291",
+      "verificado": "Texto leído el 16/10/2026"
+    },
+    {
+      "nombre": "RFC 8200: Internet Protocol, Version 6 (IPv6) Specification, que sustituye al RFC 2460",
+      "url": "https://www.rfc-editor.org/rfc/rfc8200",
+      "verificado": "Texto de julio de 2017 leído el 16/10/2026"
+    },
+    {
+      "nombre": "IANA: IPv6 Address Space",
+      "url": "https://www.iana.org/assignments/ipv6-address-space/ipv6-address-space.xhtml",
+      "verificado": "Registro consultado el 16/10/2026 (2000::/3, fc00::/7, fe80::/10)"
+    },
+    {
+      "nombre": "RFC 3849: IPv6 Address Prefix Reserved for Documentation",
+      "url": "https://www.rfc-editor.org/rfc/rfc3849",
+      "verificado": "Texto leído el 16/10/2026 (2001:db8::/32)"
+    },
+    {
+      "nombre": "RFC 4861 y RFC 4862: Neighbor Discovery y Stateless Address Autoconfiguration para IPv6",
+      "url": "https://www.rfc-editor.org/rfc/rfc4861",
+      "verificado": "Resúmenes (abstract) de ambos RFC leídos el 16/10/2026"
+    },
+    {
+      "nombre": "RFC 2131: Dynamic Host Configuration Protocol (DHCP)",
+      "url": "https://www.rfc-editor.org/rfc/rfc2131",
+      "verificado": "Texto leído el 16/10/2026 (mensajes, puertos 67 y 68, temporizadores T1 y T2)"
+    },
+    {
+      "nombre": "Microsoft Learn: cómo usar el direccionamiento TCP/IP automático sin servidor DHCP (APIPA)",
+      "url": "https://learn.microsoft.com/en-us/windows-server/troubleshoot/how-to-use-automatic-tcpip-addressing-without-a-dh",
+      "verificado": "Consultado a través de buscador el 16/10/2026"
+    },
+    {
+      "nombre": "RFC 1034 (Domain Names, Concepts and Facilities) y RFC 1035 (Domain Names, Implementation and Specification)",
+      "url": "https://www.rfc-editor.org/rfc/rfc1035",
+      "verificado": "RFC 1035 leído el 16/10/2026 (puerto 53, tipos de registro, SOA)"
+    },
+    {
+      "nombre": "RFC 3596: DNS Extensions to Support IP Version 6 (registro AAAA)",
+      "url": "https://www.rfc-editor.org/rfc/rfc3596",
+      "verificado": "Texto leído el 16/10/2026"
+    },
+    {
+      "nombre": "RFC 5936: DNS Zone Transfer Protocol (AXFR)",
+      "url": "https://www.rfc-editor.org/rfc/rfc5936",
+      "verificado": "Resumen leído el 16/10/2026"
+    },
+    {
+      "nombre": "Root Server Technical Operations Association: servidores raíz",
+      "url": "https://root-servers.org/",
+      "verificado": "Página consultada el 16/10/2026 (13 servidores raíz, A a M, 12 operadores)"
+    },
+    {
+      "nombre": "IANA: acerca de la Internet Assigned Numbers Authority",
+      "url": "https://www.iana.org/about",
+      "verificado": "Página consultada el 16/10/2026"
+    },
+    {
+      "nombre": "RFC 9110: HTTP Semantics (intermediarios: proxy, gateway y túnel)",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110",
+      "verificado": "Texto de junio de 2022 leído el 16/10/2026 (apartado 3.7)"
+    },
+    {
+      "nombre": "RFC 3022: Traditional IP Network Address Translator (NAT)",
+      "url": "https://www.rfc-editor.org/rfc/rfc3022",
+      "verificado": "Título comprobado el 16/10/2026"
+    },
+    {
+      "nombre": "NIST SP 800-41 Rev. 1: Guidelines on Firewalls and Firewall Policy",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-41r1.pdf",
+      "verificado": "Texto de septiembre de 2009 leído el 16/10/2026 (apartados 2.1 y 3)"
+    },
+    {
+      "nombre": "Cisco: Catalyst 2960 Software Configuration Guide, Administering the Switch (tabla de direcciones MAC)",
+      "url": "https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960/software/release/15-2_1_e/configuration/guide/2960_scg/swadmin.html",
+      "verificado": "Apartado de direcciones MAC leído el 16/10/2026"
+    },
+    {
+      "nombre": "INCIBE: Glosario de términos de ciberseguridad (router, cortafuegos, proxy, DNS, dirección IP)",
+      "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_metad.pdf",
+      "verificado": "Edición de 2017 leída el 16/10/2026"
+    },
+    {
+      "nombre": "RFC 6335: IANA Procedures for the Management of the Service Name and Transport Protocol Port Number Registry",
+      "url": "https://www.rfc-editor.org/rfc/rfc6335",
+      "verificado": "Texto leído el 16/10/2026 (rangos de puertos)"
+    },
+    {
+      "nombre": "IANA: Service Name and Transport Protocol Port Number Registry",
+      "url": "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml",
+      "verificado": "Registro en CSV consultado el 16/10/2026 (puertos de la tabla)"
+    },
+    {
+      "nombre": "RFC 826: Address Resolution Protocol (ARP) y RFC 792: Internet Control Message Protocol (ICMP)",
+      "url": "https://www.rfc-editor.org/rfc/rfc826",
+      "verificado": "Títulos comprobados el 16/10/2026"
+    }
+  ],
+  "novedades": [
+    "El **RFC 9293** (agosto de 2022) sustituye al RFC 793 como especificación de TCP; el **RFC 8200** (julio de 2017) sustituye al RFC 2460 para IPv6; y el **RFC 9110** (junio de 2022) sustituye, entre otros, al RFC 2818 sobre HTTP sobre TLS. Los contenidos básicos que se preguntan no cambian."
+  ],
+  "clave": [
+    "**OSI tiene 7 capas** (de la 7 a la 1): Aplicación, Presentación, Sesión, Transporte, Red, Enlace de datos y Física. **TCP/IP (RFC 1122) tiene 4**: Aplicación, Transporte, Internet y Enlace.",
+    "**Red (3)**: IP, paquetes, encaminamiento y router. **Enlace (2)**: tramas, direcciones MAC y switch. **Transporte (4)**: TCP, UDP y puertos. **Física (1)**: señales y hub.",
+    "**TCP** es fiable y orientado a conexión (3 pasos: **SYN, SYN-ACK, ACK**); **UDP** no tiene conexión y su cabecera mide **8 bytes**.",
+    "**Hub** = capa 1, repite por todos los puertos. **Switch** = capa 2, reenvía por MAC. **Router** = capa 3, decide por IP. El **cortafuegos** filtra el tráfico con reglas; el **proxy** es un intermediario.",
+    "**DHCP**: UDP **67** (servidor) y **68** (cliente); proceso **DORA** = Discover, Offer, Request, Acknowledge.",
+    "**DNS**: traduce nombres a IP, puerto **53** en UDP y TCP. Servidores **primario/maestro**, **secundario/esclavo** y de **caché/local**. **13** identidades de servidor raíz (A-M). La **IANA** gestiona los identificadores de Internet.",
+    "**IPv4 = 32 bits**. Clases: **A 1-126**, **B 128-191**, **C 192-223**, **D 224-239** (multicast), **E 240-255**. Hosts utilizables = **2^n − 2**.",
+    "Privadas (RFC 1918): **10.0.0.0/8**, **172.16.0.0/12** (hasta 172.31.255.255) y **192.168.0.0/16**. Loopback **127.0.0.0/8**. Enlace local **169.254.0.0/16**.",
+    "**IPv6 = 128 bits**, 8 grupos de 16 bits en hexadecimal; «::» solo una vez; **sin broadcast**; cabecera fija de **40 bytes**; los routers no fragmentan.",
+    "Puertos: **HTTP 80, HTTPS 443, FTP 21 (y 20), SSH 22, Telnet 23, SMTP 25, DNS 53, POP3 110, IMAP 143, NTP 123, SNMP 161, LDAP 389, RDP 3389**. Rangos: 0-1023, 1024-49151 y 49152-65535."
+  ],
+  "resumen": [
+    {
+      "titulo": "Modelo OSI y modelo TCP/IP",
+      "puntos": [
+        "El **modelo OSI** (ISO/IEC 7498-1; ITU-T X.200) organiza la comunicación en **7 capas**. De la 7 a la 1: **Aplicación, Presentación, Sesión, Transporte, Red, Enlace de datos y Física**.",
+        "El **modelo TCP/IP** (RFC 1122) tiene **4 capas**: **Aplicación, Transporte, Internet y Enlace**. Según el RFC, su capa de aplicación reúne las funciones de las capas de presentación y aplicación de OSI; los manuales le suman la de sesión.",
+        "**Red (3)**: direccionamiento lógico (IP) y **encaminamiento de paquetes** entre redes. **Enlace (2)**: direccionamiento físico (**MAC**, 48 bits) y entrega de tramas en la red local. **Transporte (4)**: comunicación entre procesos mediante **puertos**.",
+        "Unidad de datos habitual: **bits** (física), **trama** (enlace), **paquete** (red), **segmento** TCP o **datagrama** UDP (transporte). **ARP** asocia direcciones IP con MAC y suele ubicarse entre las capas 2 y 3."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Capa OSI",
+          "Capa TCP/IP",
+          "Función (X.200) y ejemplos"
+        ],
+        "filas": [
+          [
+            "7 Aplicación",
+            "Aplicación",
+            "Servicios de red para las aplicaciones; HTTP, HTTPS, FTP, SMTP, DNS, DHCP"
+          ],
+          [
+            "6 Presentación",
+            "Aplicación",
+            "Representación común de los datos (sintaxis de transferencia); por ejemplo, compresión"
+          ],
+          [
+            "5 Sesión",
+            "Aplicación",
+            "Organiza y sincroniza el diálogo y gestiona el intercambio de datos"
+          ],
+          [
+            "4 Transporte",
+            "Transporte",
+            "Transferencia transparente de datos entre entidades de sesión; TCP y UDP (puertos)"
+          ],
+          [
+            "3 Red",
+            "Internet",
+            "Transmisión entre entidades de transporte con independencia del encaminamiento; IP, ICMP, IGMP; router"
+          ],
+          [
+            "2 Enlace de datos",
+            "Enlace",
+            "Detecta y, si es posible, corrige errores de la capa física; Ethernet, Wi-Fi; direcciones MAC; switch"
+          ],
+          [
+            "1 Física",
+            "Enlace",
+            "Medios mecánicos, eléctricos y de procedimiento para transmitir bits; cables y señales; hub"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "TCP, UDP e IP",
+      "puntos": [
+        "**TCP** (RFC 9293) es un servicio de transporte **fiable y orientado a conexión**, con reordenación y control de flujo. La conexión se abre en **3 pasos** (three-way handshake): **SYN, SYN-ACK, ACK**. Su cabecera mide **20 bytes** sin opciones.",
+        "**UDP** (RFC 768) es un servicio **sin conexión** que no garantiza la entrega. Su cabecera mide **8 bytes**: puerto de origen, puerto de destino, longitud y suma de comprobación.",
+        "**IP** (RFC 791) es un servicio **sin conexión** y sin garantías de entrega; la cabecera IPv4 mínima mide **20 bytes**. **ICMP** informa de errores y forma parte de IP; **IGMP** gestiona grupos multicast (RFC 1122)."
+      ]
+    },
+    {
+      "titulo": "Dispositivos de red",
+      "puntos": [
+        "Regla rápida: **hub = capa 1; switch = capa 2 (direcciones MAC); router = capa 3 (direcciones IP)**.",
+        "Un **cortafuegos** controla el flujo de tráfico entre redes o equipos con distinto nivel de seguridad (NIST SP 800-41). Tipos: **filtrado de paquetes**, **inspección con estado** (guarda una tabla de conexiones) y **proxy de aplicación**.",
+        "**NAT** (traducción de direcciones de red, RFC 3022) conecta una red con direcciones privadas con una red externa con direcciones públicas únicas; es una función habitual de los routers."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Dispositivo",
+          "Capa",
+          "Función",
+          "Rasgo que se pregunta"
+        ],
+        "filas": [
+          [
+            "Concentrador (hub)",
+            "1 (Física)",
+            "Repite la señal que recibe por todos los demás puertos",
+            "No distingue destinatarios: todos los equipos reciben todo el tráfico"
+          ],
+          [
+            "Conmutador (switch)",
+            "2 (Enlace)",
+            "Aprende en una tabla las direcciones MAC de origen y reenvía cada trama solo por el puerto del destino",
+            "Si no conoce el destino, la envía por todos los puertos de la VLAN; las entradas caducan por defecto a los 300 s (Cisco)"
+          ],
+          [
+            "Encaminador (router)",
+            "3 (Red)",
+            "Interconecta redes distintas y decide la ruta de cada paquete según su dirección IP de destino",
+            "Hace de puerta de enlace de la red local"
+          ],
+          [
+            "Cortafuegos (firewall)",
+            "3 a 7 según el tipo",
+            "Permite o bloquea tráfico según reglas de seguridad",
+            "Se sitúa en el límite entre redes"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Servidores DHCP, DNS y proxy",
+      "puntos": [
+        "**DHCP** (Dynamic Host Configuration Protocol, RFC 2131) asigna de forma dinámica la dirección IP y otros parámetros (máscara, puerta de enlace, servidores DNS). Va sobre **UDP**: servidor **67** y cliente **68**.",
+        "Proceso **DORA**: el cliente difunde un **D**iscover; los servidores responden con un **O**ffer; el cliente solicita la oferta elegida con un **R**equest y el servidor la confirma con un **A**cknowledge (DHCPACK). Un DHCPNAK indica que la configuración del cliente no es correcta.",
+        "**DNS** (Domain Name System, RFC 1034 y 1035) traduce nombres de dominio a direcciones IP. Usa el puerto **53** con **UDP y TCP**.",
+        "Tipos de servidor: **primario o maestro** (fuente original de los datos de la zona), **secundario o esclavo** (obtiene una copia de la zona del primario mediante transferencia de zona) y de **caché o local** (resuelve las consultas de los clientes y guarda las respuestas).",
+        "Hay **13 identidades de servidor raíz (A a M)**, operadas por 12 organizaciones independientes. La **IANA** (Internet Assigned Numbers Authority) mantiene los registros de identificadores de Internet (zona raíz del DNS, direcciones y parámetros de protocolos) y la opera PTI, filial de ICANN.",
+        "Un **proxy** es un agente intermedio elegido por el cliente que recibe sus peticiones y las cursa; sirve para seguridad, anotación y **caché compartida** (RFC 9110, 3.7). Centraliza el tráfico de la red local hacia Internet, de modo que cada equipo no necesita una IP pública (INCIBE). Un **proxy inverso** (gateway) actúa de cara al cliente como servidor de origen y reenvía las peticiones a otros servidores; sirve para equilibrar la carga y acelerar con caché."
+      ]
+    },
+    {
+      "titulo": "Direccionamiento IPv4: clases, rangos especiales y máscaras",
+      "puntos": [
+        "Una dirección **IPv4** tiene **32 bits**: 4 octetos de 0 a 255 en notación decimal con puntos. Hay **2^32 = 4.294.967.296** direcciones.",
+        "Las clases (RFC 791 y 1122) fueron sustituidas por el direccionamiento sin clases **CIDR** (RFC 4632), que indica la red con un prefijo (por ejemplo, /24).",
+        "En cada red, la dirección con todos los bits de host a 0 identifica la red y la de todos a 1 es la de **broadcast**. **Hosts utilizables = 2^n − 2** (n = bits de host).",
+        "**Privadas** (RFC 1918): **10.0.0.0/8**, **172.16.0.0/12** (de 172.16.0.0 a 172.31.255.255) y **192.168.0.0/16**. **Loopback**: **127.0.0.0/8**. **Enlace local**: **169.254.0.0/16**. **Espacio compartido (CGNAT)**: **100.64.0.0/10**. **Broadcast limitado**: 255.255.255.255."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Clase",
+          "Bits iniciales",
+          "Primer octeto",
+          "Máscara por defecto",
+          "Redes",
+          "Hosts por red"
+        ],
+        "filas": [
+          [
+            "A",
+            "0",
+            "1-126 (127 es loopback)",
+            "255.0.0.0 (/8)",
+            "128 (126 utilizables)",
+            "16.777.214"
+          ],
+          [
+            "B",
+            "10",
+            "128-191",
+            "255.255.0.0 (/16)",
+            "16.384",
+            "65.534"
+          ],
+          [
+            "C",
+            "110",
+            "192-223",
+            "255.255.255.0 (/24)",
+            "2.097.152",
+            "254"
+          ],
+          [
+            "D",
+            "1110",
+            "224-239",
+            "No aplica",
+            "Multicast",
+            "No aplica"
+          ],
+          [
+            "E",
+            "1111",
+            "240-255",
+            "No aplica",
+            "Reservada (experimental)",
+            "No aplica"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "IPv6",
+      "puntos": [
+        "Una dirección **IPv6** tiene **128 bits**, escritos como **8 grupos de 16 bits** en hexadecimal separados por «:» (RFC 4291). Hay unas **3,4 × 10^38** direcciones.",
+        "Abreviaturas: se omiten los ceros a la izquierda de cada grupo y una secuencia de grupos a cero se sustituye por «::», que solo puede aparecer **una vez** en la dirección.",
+        "**No existe broadcast**: lo sustituye el **multicast**. Los tipos de dirección son unicast, multicast y anycast.",
+        "Prefijos: **::1/128** loopback; **::/128** no especificada; **fe80::/10** enlace local; **fc00::/7** local única (equivale a privada); **ff00::/8** multicast; **2000::/3** unicast global; **2001:db8::/32** documentación.",
+        "**Cabecera fija de 40 bytes**; MTU mínima de **1280 bytes**; la **fragmentación** la hace solo el origen, no los routers (RFC 8200). La resolución de direcciones la hace **NDP** (RFC 4861) y la autoconfiguración sin estado **SLAAC** (RFC 4862)."
+      ]
+    },
+    {
+      "titulo": "Puertos y protocolos habituales",
+      "puntos": [
+        "Un **puerto** es un número de **16 bits** (0-65535) que identifica el servicio en la capa de transporte. **0-1023**: bien conocidos o del sistema; **1024-49151**: registrados o de usuario; **49152-65535**: dinámicos, privados o efímeros (RFC 6335). La IANA mantiene el registro.",
+        "Pares que se intercambian en los distractores: **SMTP 25, POP3 110, IMAP 143**; **HTTP 80, HTTPS 443**; **FTP 21 (control) y 20 (datos)**; **DHCP 67 (servidor) y 68 (cliente)**; **DNS 53** en UDP y TCP."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Protocolo (siglas)",
+          "Puerto",
+          "Transporte habitual"
+        ],
+        "filas": [
+          [
+            "FTP (File Transfer Protocol)",
+            "21 control y 20 datos",
+            "TCP"
+          ],
+          [
+            "SSH (Secure Shell)",
+            "22",
+            "TCP"
+          ],
+          [
+            "Telnet",
+            "23",
+            "TCP"
+          ],
+          [
+            "SMTP (Simple Mail Transfer Protocol)",
+            "25; envío de clientes 587; con TLS 465",
+            "TCP"
+          ],
+          [
+            "DNS (Domain Name System)",
+            "53",
+            "UDP y TCP"
+          ],
+          [
+            "DHCP (Dynamic Host Configuration Protocol)",
+            "67 servidor y 68 cliente",
+            "UDP"
+          ],
+          [
+            "TFTP (Trivial File Transfer Protocol)",
+            "69",
+            "UDP"
+          ],
+          [
+            "HTTP (Hypertext Transfer Protocol)",
+            "80",
+            "TCP"
+          ],
+          [
+            "POP3 (Post Office Protocol, versión 3)",
+            "110; con TLS 995",
+            "TCP"
+          ],
+          [
+            "NTP (Network Time Protocol)",
+            "123",
+            "UDP"
+          ],
+          [
+            "IMAP (Internet Message Access Protocol)",
+            "143; con TLS 993",
+            "TCP"
+          ],
+          [
+            "SNMP (Simple Network Management Protocol)",
+            "161 consultas y 162 alertas (traps)",
+            "UDP"
+          ],
+          [
+            "LDAP (Lightweight Directory Access Protocol)",
+            "389; con TLS 636",
+            "TCP"
+          ],
+          [
+            "HTTPS (HTTP sobre TLS)",
+            "443",
+            "TCP"
+          ],
+          [
+            "SMB (Microsoft-DS)",
+            "445",
+            "TCP"
+          ],
+          [
+            "RDP (escritorio remoto)",
+            "3389",
+            "TCP"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "DHCP y DNS: concesión temporal, APIPA y tipos de registro",
+      "ampliado": true,
+      "puntos": [
+        "La asignación es temporal (lease). Por defecto el cliente intenta renovarla a la mitad de la duración (**T1 = 0,5**) y recurre a cualquier servidor al **87,5 %** (**T2 = 0,875**). Sin servidor DHCP, el equipo puede autoasignarse una dirección **169.254.0.0/16** (RFC 3927; en Windows, APIPA), sin puerta de enlace.",
+        "Registros habituales: **A** (IPv4), **AAAA** (IPv6), **NS** (servidor de nombres autoritativo), **CNAME** (alias), **MX** (correo), **PTR** (resolución inversa), **SOA** (inicio de autoridad de la zona) y **TXT**."
+      ]
+    },
+    {
+      "titulo": "IPv4 frente a IPv6",
+      "ampliado": true,
+      "puntos": [
+        "La cabecera IPv4 mide como mínimo **20 bytes** (IHL mínimo de 5 palabras de 32 bits); la de IPv6 es **fija de 40 bytes**.",
+        "IPv6 sustituye a ARP por **NDP** y añade la autoconfiguración sin estado (**SLAAC**); los routers no fragmentan los paquetes IPv6."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Rasgo",
+          "IPv4",
+          "IPv6"
+        ],
+        "filas": [
+          [
+            "Tamaño de dirección",
+            "32 bits",
+            "128 bits"
+          ],
+          [
+            "Notación",
+            "Decimal con puntos (4 octetos)",
+            "Hexadecimal, 8 grupos de 16 bits"
+          ],
+          [
+            "Broadcast",
+            "Sí",
+            "No (usa multicast)"
+          ],
+          [
+            "Cabecera",
+            "20 bytes como mínimo",
+            "40 bytes fijos"
+          ],
+          [
+            "Fragmentación",
+            "Origen y routers",
+            "Solo el origen"
+          ],
+          [
+            "Resolución de direcciones",
+            "ARP",
+            "NDP"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Subredes: máscaras y cálculo rápido",
+      "ampliado": true,
+      "puntos": [
+        "Tamaño del bloque = 256 − último octeto de la máscara (en /27: 256 − 224 = 32). Las subredes empiezan en múltiplos del bloque y el broadcast es la última dirección del bloque.",
+        "Ejemplo: 192.168.10.77/27 pertenece a la subred 192.168.10.64 (bloque 64-95); su broadcast es 192.168.10.95 y sus hosts van de .65 a .94."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Prefijo",
+          "Máscara",
+          "Hosts utilizables"
+        ],
+        "filas": [
+          [
+            "/8",
+            "255.0.0.0",
+            "16.777.214"
+          ],
+          [
+            "/16",
+            "255.255.0.0",
+            "65.534"
+          ],
+          [
+            "/24",
+            "255.255.255.0",
+            "254"
+          ],
+          [
+            "/25",
+            "255.255.255.128",
+            "126"
+          ],
+          [
+            "/26",
+            "255.255.255.192",
+            "62"
+          ],
+          [
+            "/27",
+            "255.255.255.224",
+            "30"
+          ],
+          [
+            "/28",
+            "255.255.255.240",
+            "14"
+          ],
+          [
+            "/29",
+            "255.255.255.248",
+            "6"
+          ],
+          [
+            "/30",
+            "255.255.255.252",
+            "2"
+          ]
+        ]
+      }
+    }
+  ],
+  "trampas": [
+    "**Capas OSI intercambiadas**: Red (3) = IP, paquetes y router; Enlace (2) = MAC, tramas y switch; Transporte (4) = TCP, UDP y puertos. En TCP/IP la capa de red se llama **Internet**.",
+    "TCP/IP tiene **4 capas** en el RFC 1122 (algunos manuales separan la física y hablan de 5). Su capa de aplicación absorbe presentación y aplicación (y, según los manuales, la sesión).",
+    "**Puertos permutados**: SMTP 25, POP3 110, IMAP 143; HTTP 80, HTTPS 443; FTP 21 de control y 20 de datos; DHCP 67 del servidor y 68 del cliente; DNS 53 en UDP **y** TCP.",
+    "**172.16.0.0/12 llega solo hasta 172.31.255.255**: 172.32.x.x es pública. **169.254.0.0/16** no es privada según el RFC 1918, sino de **enlace local**.",
+    "Clase A: primer octeto **1-126** (el 127 es loopback); clase B **128-191**; clase C **192-223**; D es multicast y E está reservada. Los hosts son **2^n − 2**, no 2^n.",
+    "**IPv6**: 128 bits, sin broadcast, cabecera fija de **40 bytes** (no 20), «::» una sola vez y los routers no fragmentan.",
+    "**Proxy directo** (lo elige el cliente) frente a **proxy inverso o gateway** (de cara al cliente actúa como servidor de origen). El proxy no traduce nombres: eso lo hace el DNS.",
+    "Servidores DNS: **primario/maestro** (datos originales) y **secundario/esclavo** (copia por transferencia de zona); no confundir con el servidor de caché. Los servidores raíz son **13 identidades (A-M)**.",
+    "Siglas: DHCP = Dynamic Host Configuration Protocol; DNS = Domain Name System; IANA = Internet Assigned Numbers Authority; ARP = Address Resolution Protocol; ICMP = Internet Control Message Protocol."
+  ],
+  "caido": [
+    {
+      "examen": "26 sep 2026",
+      "concepto": "DHCP: proceso DORA (Discover, Offer, Request, Acknowledge)"
+    },
+    {
+      "examen": "13 abr 2024",
+      "concepto": "Modelo OSI: función de la capa de red (encaminar paquetes); examen con tres preguntas de redes"
+    },
+    {
+      "examen": "23 abr 2023, 13 abr 2024 y 25 oct 2025",
+      "concepto": "DNS: función y tipos de servidor (maestro, esclavo, local); IANA"
+    }
+  ],
+  "mnemotecnias": [
+    "Capas OSI de abajo arriba: **F**elipe **E**ncontró **R**ápido **T**odas **S**us **P**rendas **A**zules = Física, Enlace, Red, Transporte, Sesión, Presentación, Aplicación.",
+    "DORA: el cliente pregunta (Discover), el servidor ofrece (Offer), el cliente pide (Request) y el servidor confirma (Acknowledge).",
+    "Correo: se **envía** por SMTP (**25**) y se **recibe** por POP3 (**110**) o IMAP (**143**): el orden de los números sigue el de los protocolos más antiguos a los más recientes."
+  ],
+  "tarjetas": [
+    {
+      "p": "Capas del modelo OSI de la 7 a la 1.",
+      "r": "**Aplicación, Presentación, Sesión, Transporte, Red, Enlace de datos y Física** (7 capas)."
+    },
+    {
+      "p": "Capas del modelo TCP/IP según el RFC 1122.",
+      "r": "**4**: Aplicación, Transporte, Internet y Enlace."
+    },
+    {
+      "p": "¿Qué capa OSI encamina paquetes y qué dispositivo trabaja en ella?",
+      "r": "La **capa de red (3)**, con direcciones IP; el **router**. En TCP/IP es la capa de **Internet**."
+    },
+    {
+      "p": "¿Qué capa OSI usa tramas y direcciones MAC y qué dispositivo trabaja en ella?",
+      "r": "La **capa de enlace de datos (2)**; el **switch**."
+    },
+    {
+      "p": "Diferencias entre TCP y UDP.",
+      "r": "**TCP**: orientado a conexión, fiable, 3 pasos (SYN, SYN-ACK, ACK), cabecera de 20 bytes sin opciones. **UDP**: sin conexión, sin garantías, cabecera de 8 bytes."
+    },
+    {
+      "p": "Hub, switch y router: capa y función.",
+      "r": "**Hub**: capa 1, repite por todos los puertos. **Switch**: capa 2, reenvía por MAC. **Router**: capa 3, decide la ruta por IP."
+    },
+    {
+      "p": "¿Qué hace un servidor DHCP y qué puertos usa?",
+      "r": "Asigna dinámicamente IP, máscara, puerta de enlace y DNS. **UDP 67** (servidor) y **UDP 68** (cliente)."
+    },
+    {
+      "p": "¿Qué es el proceso DORA?",
+      "r": "**D**iscover, **O**ffer, **R**equest, **A**cknowledge: los cuatro mensajes con que un cliente obtiene su dirección por DHCP."
+    },
+    {
+      "p": "¿Qué hace el DNS y en qué puerto trabaja?",
+      "r": "Traduce nombres de dominio a direcciones IP. Puerto **53**, con **UDP y TCP**."
+    },
+    {
+      "p": "Tipos de servidor DNS que se preguntan.",
+      "r": "**Primario/maestro**, **secundario/esclavo** (copia la zona del primario) y **caché/local**."
+    },
+    {
+      "p": "¿Qué es la IANA?",
+      "r": "Internet Assigned Numbers Authority: mantiene los registros de identificadores de Internet (zona raíz, direcciones IP y parámetros de protocolos); la opera PTI, filial de ICANN."
+    },
+    {
+      "p": "Proxy directo frente a proxy inverso.",
+      "r": "**Directo**: intermediario que elige el cliente para sus peticiones. **Inverso (gateway)**: de cara al cliente actúa como servidor de origen y reenvía a servidores internos."
+    },
+    {
+      "p": "Clases de direcciones IPv4 y sus rangos del primer octeto.",
+      "r": "**A** 1-126, **B** 128-191, **C** 192-223, **D** 224-239 (multicast), **E** 240-255 (reservada)."
+    },
+    {
+      "p": "Rangos privados del RFC 1918.",
+      "r": "**10.0.0.0/8**, **172.16.0.0/12** (172.16.0.0 a 172.31.255.255) y **192.168.0.0/16**."
+    },
+    {
+      "p": "¿Cuántos hosts utilizables hay en una subred con n bits de host?",
+      "r": "**2^n − 2** (se restan la dirección de red y la de broadcast). Ejemplos: /24 → 254; /26 → 62; /30 → 2."
+    },
+    {
+      "p": "¿Qué significa recibir una dirección 169.254.x.x?",
+      "r": "No se obtuvo configuración por DHCP y el equipo se autoasignó una dirección de **enlace local** (RFC 3927); en Windows, APIPA."
+    },
+    {
+      "p": "¿Cómo es una dirección IPv6?",
+      "r": "**128 bits**, **8 grupos de 16 bits** en hexadecimal separados por «:»; «::» solo una vez. Sin broadcast; cabecera fija de 40 bytes."
+    },
+    {
+      "p": "Prefijos IPv6 que conviene conocer.",
+      "r": "**::1/128** loopback; **fe80::/10** enlace local; **fc00::/7** local única; **ff00::/8** multicast; **2000::/3** unicast global."
+    },
+    {
+      "p": "Puertos de los protocolos de correo.",
+      "r": "**SMTP 25**, **POP3 110**, **IMAP 143**. Con TLS: IMAP 993, POP3 995 y envío de clientes 465 o 587."
+    },
+    {
+      "p": "Rangos de números de puerto.",
+      "r": "**0-1023** bien conocidos; **1024-49151** registrados; **49152-65535** dinámicos o privados (16 bits en total)."
+    },
+    {
+      "p": "¿Qué diferencias tiene IPv6 frente a IPv4 en fragmentación y resolución de direcciones?",
+      "r": "IPv6: solo fragmenta el nodo origen (no los routers) y la resolución la hace **NDP** en lugar de ARP."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "En el modelo OSI, ¿qué capa se encarga del direccionamiento lógico y del encaminamiento de los paquetes entre redes?",
+      "opciones": [
+        "Enlace de datos",
+        "Red",
+        "Transporte"
+      ],
+      "correcta": 1,
+      "explicacion": "La capa de red (capa 3) trabaja con direcciones lógicas (IP) y decide la ruta de los paquetes entre redes; en TCP/IP equivale a la capa de internet. La capa de enlace entrega tramas dentro de la red local mediante direcciones MAC y la de transporte comunica procesos mediante puertos.",
+      "ref": "ITU-T X.200 (capa 3); RFC 1122, apartado 1.1.3",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre el modelo TCP/IP tal como lo describe el RFC 1122:",
+      "opciones": [
+        "Consta de cuatro capas: aplicación, transporte, internet y enlace.",
+        "Su capa de aplicación reúne las funciones de las capas de aplicación y presentación de OSI.",
+        "Su capa de transporte se encarga del encaminamiento de los paquetes entre redes."
+      ],
+      "correcta": 2,
+      "explicacion": "En TCP/IP el encaminamiento corresponde a la capa de internet (IP, ICMP, IGMP), no a la de transporte, que ofrece comunicación extremo a extremo con TCP y UDP. Las otras dos afirmaciones son correctas: son cuatro capas y la de aplicación reúne las funciones de presentación y aplicación de OSI.",
+      "ref": "RFC 1122, apartado 1.1.3",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué puertos utiliza el protocolo DHCP?",
+      "opciones": [
+        "UDP 67 (servidor) y UDP 68 (cliente).",
+        "TCP 80 y TCP 443.",
+        "UDP 53 y UDP 123."
+      ],
+      "correcta": 0,
+      "explicacion": "DHCP funciona sobre UDP: los mensajes del cliente al servidor van al puerto 67 y los del servidor al cliente al puerto 68. Los puertos 80 y 443 son los de HTTP y HTTPS; el 53 es el de DNS y el 123, el de NTP.",
+      "ref": "RFC 2131, apartado 4.1; IANA, registro de puertos",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿En qué orden se intercambian los mensajes cuando un cliente obtiene una dirección mediante DHCP (proceso DORA)?",
+      "opciones": [
+        "Request, Offer, Discover, Acknowledge.",
+        "Offer, Discover, Acknowledge, Request.",
+        "Discover, Offer, Request, Acknowledge."
+      ],
+      "correcta": 2,
+      "explicacion": "El cliente difunde un DHCPDISCOVER, los servidores responden con un DHCPOFFER, el cliente solicita la oferta elegida con un DHCPREQUEST y el servidor la confirma con un DHCPACK. Los otros órdenes invierten pasos: no se puede pedir una oferta que todavía no existe ni confirmar antes de que se solicite.",
+      "ref": "RFC 2131, apartado 3.1",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes parejas de protocolo y puerto por defecto es correcta?",
+      "opciones": [
+        "SSH: puerto 22.",
+        "SMTP: puerto 110.",
+        "POP3: puerto 143."
+      ],
+      "correcta": 0,
+      "explicacion": "SSH usa el puerto 22. El puerto 110 corresponde a POP3 (SMTP usa el 25) y el 143 a IMAP (POP3 usa el 110). El registro de la IANA es la fuente oficial de estas asignaciones.",
+      "ref": "IANA, Service Name and Transport Protocol Port Number Registry",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una dirección IPv6 se compone de…",
+      "opciones": [
+        "128 bits, escritos como 4 octetos decimales separados por puntos.",
+        "128 bits, escritos como 8 grupos de 16 bits en hexadecimal separados por dos puntos.",
+        "64 bits, escritos como 4 grupos de 16 bits en hexadecimal."
+      ],
+      "correcta": 1,
+      "explicacion": "El RFC 4291 establece la forma preferida x:x:x:x:x:x:x:x, con ocho grupos de 16 bits en hexadecimal, es decir, 128 bits. Los cuatro octetos decimales son la notación de IPv4, que tiene 32 bits.",
+      "ref": "RFC 4291, apartado 2.2",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes formas de escribir una dirección IPv6 es INVÁLIDA?",
+      "opciones": [
+        "2001:db8::1",
+        "fe80::1:0:0:2",
+        "2001::db8::1"
+      ],
+      "correcta": 2,
+      "explicacion": "El símbolo «::» solo puede aparecer una vez en una dirección (RFC 4291); 2001::db8::1 lo usa dos veces y no se podría saber cuántos grupos de ceros sustituye cada uno. Las otras dos son abreviaturas válidas.",
+      "ref": "RFC 4291, apartado 2.2",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes direcciones IPv4 pertenece a un rango privado según el RFC 1918?",
+      "opciones": [
+        "172.20.4.7",
+        "172.32.0.1",
+        "192.169.1.1"
+      ],
+      "correcta": 0,
+      "explicacion": "El bloque privado 172.16.0.0/12 va de 172.16.0.0 a 172.31.255.255, de modo que 172.20.4.7 es privada. La 172.32.0.1 queda fuera de ese bloque y la 192.169.1.1 fuera de 192.168.0.0/16; ambas son públicas.",
+      "ref": "RFC 1918, apartado 3",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Cuántos equipos (hosts) utilizables admite una subred con la máscara 255.255.255.192 (/26)?",
+      "opciones": [
+        "64",
+        "62",
+        "126"
+      ],
+      "correcta": 1,
+      "explicacion": "Con /26 quedan 6 bits de host: 2^6 = 64 direcciones, de las que hay que restar la de red y la de broadcast, así que son 62 utilizables. La cifra 64 olvida esa resta y 126 corresponde a una máscara /25.",
+      "ref": "RFC 1122, apartado 3.2.1.3; RFC 4632",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un equipo recién conectado a la red muestra la dirección 169.254.23.8 sin que nadie la haya configurado. ¿Qué indica esa dirección?",
+      "opciones": [
+        "Ha obtenido una dirección pública de su proveedor de acceso.",
+        "Está usando la dirección de loopback de su propio equipo.",
+        "Se ha autoasignado una dirección de enlace local porque no obtuvo respuesta de ningún servidor DHCP."
+      ],
+      "correcta": 2,
+      "explicacion": "El rango 169.254.0.0/16 es el de direcciones de enlace local (RFC 3927), que el equipo se autoasigna cuando no hay respuesta de un servidor DHCP; en Windows se llama APIPA y no incluye puerta de enlace. No es una dirección pública del proveedor ni la de loopback, que pertenece a 127.0.0.0/8.",
+      "ref": "RFC 3927; RFC 1122, apartado 3.2.1.3",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En el direccionamiento IPv4 con clases, una dirección con primer octeto 150 (por ejemplo, 150.20.5.1) pertenece a la…",
+      "opciones": [
+        "Clase B, con máscara por defecto 255.255.0.0.",
+        "Clase A, con máscara por defecto 255.0.0.0.",
+        "Clase C, con máscara por defecto 255.255.255.0."
+      ],
+      "correcta": 0,
+      "explicacion": "La clase B abarca los primeros octetos de 128 a 191 y su máscara por defecto es 255.255.0.0 (/16). La clase A llega hasta el 126 y la clase C va del 192 al 223.",
+      "ref": "RFC 791, apartado 3.2; RFC 4632, introducción",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Qué rango de direcciones IPv4 corresponde a la clase D, reservada para multicast?",
+      "opciones": [
+        "De 192.0.0.0 a 223.255.255.255.",
+        "De 224.0.0.0 a 239.255.255.255.",
+        "De 240.0.0.0 a 255.255.255.255."
+      ],
+      "correcta": 1,
+      "explicacion": "La clase D empieza por los bits 1110, es decir, va de 224.0.0.0 a 239.255.255.255. El primer rango es el de la clase C y el tercero el de la clase E, reservada para uso experimental.",
+      "ref": "RFC 1122, apartado 3.2.1.3; RFC 1112",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre dispositivos de red:",
+      "opciones": [
+        "Un concentrador (hub) opera en la capa física y repite la señal que recibe por todos sus demás puertos.",
+        "Un conmutador (switch) aprende las direcciones MAC de origen y reenvía cada trama por el puerto del destinatario.",
+        "Un encaminador (router) decide por qué puerto reenvía cada trama en función de su dirección MAC de destino."
+      ],
+      "correcta": 2,
+      "explicacion": "El router trabaja en la capa de red y decide la ruta de cada paquete según la dirección IP de destino; reenviar tramas según la MAC es función del switch. Las dos primeras afirmaciones describen bien al hub y al switch.",
+      "ref": "Cisco, Catalyst 2960 SCG (direcciones MAC); INCIBE, Glosario (router)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el RFC 9110, ¿qué es un proxy inverso (gateway)?",
+      "opciones": [
+        "Un intermediario que, de cara al cliente, actúa como servidor de origen y reenvía las peticiones a otros servidores.",
+        "Un intermediario que el propio cliente configura para canalizar sus peticiones hacia Internet.",
+        "Un servidor que traduce nombres de dominio en direcciones IP."
+      ],
+      "correcta": 0,
+      "explicacion": "El RFC 9110 define el gateway (proxy inverso) como el intermediario que actúa como servidor de origen para la conexión con el cliente y reenvía las peticiones traducidas a otros servidores. El intermediario elegido por el cliente es el proxy directo y la traducción de nombres es función del DNS.",
+      "ref": "RFC 9110, apartado 3.7",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Qué tipo de registro DNS asocia un nombre de dominio con una dirección IPv6?",
+      "opciones": [
+        "A",
+        "AAAA",
+        "MX"
+      ],
+      "correcta": 1,
+      "explicacion": "El registro AAAA (tipo 28) almacena una dirección IPv6 de 128 bits. El registro A guarda una dirección IPv4 y el MX indica el servidor de correo del dominio.",
+      "ref": "RFC 3596; RFC 1035, apartado 3.2.2",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "El servicio DNS escucha por defecto en el puerto 53. ¿Con qué protocolos de transporte?",
+      "opciones": [
+        "Solo con UDP.",
+        "Solo con TCP.",
+        "Con UDP y con TCP."
+      ],
+      "correcta": 2,
+      "explicacion": "El RFC 1035 establece el puerto 53 tanto para UDP, que se usa en las consultas habituales, como para TCP, por ejemplo en respuestas grandes y transferencias de zona. Por eso la IANA registra ambos transportes.",
+      "ref": "RFC 1035, apartado 4.2; IANA, registro de puertos",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En DNS, ¿qué caracteriza al servidor secundario (esclavo) de una zona?",
+      "opciones": [
+        "Obtiene una copia de la zona del servidor primario (maestro) mediante transferencia de zona.",
+        "Es el único servidor autorizado a modificar los registros de la zona.",
+        "Resuelve las consultas de los clientes sin guardar nunca las respuestas."
+      ],
+      "correcta": 0,
+      "explicacion": "El secundario recibe la zona del primario por transferencia de zona (AXFR) y responde con esa copia; el primario es la fuente original de los datos de la zona. Las otras opciones atribuyen al secundario la función del primario o describen mal a un servidor de consulta.",
+      "ref": "RFC 1035 (registro SOA); RFC 5936",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La dirección 192.168.10.77/27 pertenece a una subred cuya dirección de broadcast es…",
+      "opciones": [
+        "192.168.10.127",
+        "192.168.10.95",
+        "192.168.10.79"
+      ],
+      "correcta": 1,
+      "explicacion": "Con /27 los bloques son de 32 direcciones: 0-31, 32-63, 64-95, etc. El 77 cae en el bloque 64-95, cuya dirección de red es 192.168.10.64 y cuyo broadcast es la última, 192.168.10.95. La 127 sería el broadcast del bloque 96-127 y la 79 es una dirección de host.",
+      "ref": "RFC 4632 (notación de prefijo); RFC 1122, apartado 3.2.1.3",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Qué secuencia de segmentos establece una conexión TCP?",
+      "opciones": [
+        "SYN, ACK, FIN.",
+        "ACK, SYN, SYN-ACK.",
+        "SYN, SYN-ACK, ACK."
+      ],
+      "correcta": 2,
+      "explicacion": "El establecimiento de una conexión TCP es un acuerdo en tres pasos: el cliente envía SYN, el servidor responde con SYN-ACK y el cliente confirma con ACK. El FIN pertenece al cierre de la conexión.",
+      "ref": "RFC 9293, apartado 3.5",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "La cabecera del protocolo UDP tiene un tamaño fijo de…",
+      "opciones": [
+        "8 bytes.",
+        "20 bytes.",
+        "40 bytes."
+      ],
+      "correcta": 0,
+      "explicacion": "La cabecera UDP contiene puerto de origen, puerto de destino, longitud y suma de comprobación, de 2 bytes cada uno: 8 bytes en total. Los 20 bytes son el mínimo de la cabecera de TCP o de IPv4 y los 40 bytes la cabecera fija de IPv6.",
+      "ref": "RFC 768",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación correcta sobre IPv6:",
+      "opciones": [
+        "Mantiene las direcciones de broadcast para comunicarse con todos los equipos de la red.",
+        "La fragmentación de los paquetes la realiza solo el nodo de origen, no los routers intermedios.",
+        "Su cabecera tiene un tamaño de 20 bytes, igual que la de IPv4."
+      ],
+      "correcta": 1,
+      "explicacion": "El RFC 8200 establece que en IPv6 solo fragmentan los nodos de origen, no los routers del trayecto. IPv6 carece de broadcast, que sustituye el multicast (RFC 4291), y su cabecera es fija de 40 bytes.",
+      "ref": "RFC 8200; RFC 4291, apartado 2",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Qué capa del modelo OSI proporciona comunicación extremo a extremo entre procesos de aplicación mediante números de puerto?",
+      "opciones": [
+        "Sesión",
+        "Red",
+        "Transporte"
+      ],
+      "correcta": 2,
+      "explicacion": "La capa de transporte (capa 4) comunica los procesos del equipo de origen y del de destino y los identifica con puertos; en ella trabajan TCP y UDP. La capa de red solo encamina paquetes y la de sesión gestiona el diálogo entre aplicaciones.",
+      "ref": "ITU-T X.200 (capa 4); RFC 1122, apartado 1.1.3",
+      "dificultad": 1
+    }
+  ],
+  "dudas": [
+    "Los nombres de las unidades de datos (bits, trama, paquete, segmento) y la ubicación de ARP entre las capas 2 y 3 siguen la convención de los manuales; la Recomendación X.200 no usa esos nombres.",
+    "La inclusión de la capa de sesión dentro de la capa de aplicación de TCP/IP y la división de TCP/IP en 5 capas son convenciones de manuales; el RFC 1122 solo habla de 4 capas y menciona presentación y aplicación.",
+    "Las características de hub (repetidor que envía por todos los puertos) y las de las clases de dispositivos son hechos de manual: no encontré una fuente web oficial que los recoja con esas palabras."
+  ]
+}

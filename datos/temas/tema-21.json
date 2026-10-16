@@ -1,0 +1,824 @@
+{
+  "tema": 21,
+  "titulo": "Derecho Procesal Penal: detención, habeas corpus, Fiscal y Policía Judicial",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "alto",
+    "nota": "Media de 4,2 preguntas por examen (entre 3 y 5), muy estable. Caen plazos de la detención, derechos del detenido (art. 520 LECrim), habeas corpus de un menor, denuncia, Ministerio Fiscal, Policía Judicial, órganos penales y la Instrucción 1/2024 sobre la detención policial."
+  },
+  "normas": [
+    {
+      "nombre": "Real Decreto de 14 de septiembre de 1882 por el que se aprueba la Ley de Enjuiciamiento Criminal",
+      "boe": "BOE-A-1882-6036",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "verificado": "Texto consolidado, última actualización de la consolidación 09/04/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 6/1984, de 24 de mayo, reguladora del procedimiento de «Habeas Corpus»",
+      "boe": "BOE-A-1984-11620",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1984-11620",
+      "verificado": "Texto consolidado, última actualización de la consolidación 16/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 5/2000, de 12 de enero, reguladora de la responsabilidad penal de los menores (art. 17)",
+      "boe": "BOE-A-2000-641",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-641",
+      "verificado": "Texto consolidado, última actualización de la consolidación 05/03/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Instrucción 1/2024 de la Secretaría de Estado de Seguridad por la que se aprueba el «Procedimiento integral de la detención policial» (actualizada por la Instrucción 10/2025)",
+      "url": "https://www.interior.gob.es/opencms/es/detalle/articulo/Interior-actualiza-el-protocolo-de-actuacion-policial-en-la-detencion-de-personas/",
+      "verificado": "Texto íntegro de la Instrucción 1/2024 leído (documento firmado electrónicamente el 16/01/2024) y nota de prensa del Ministerio del Interior de 18/01/2024. El texto de la Instrucción 10/2025 no se ha podido consultar en fuente oficial (ver dudas)."
+    },
+    {
+      "nombre": "Ley 50/1981, de 30 de diciembre, por la que se regula el Estatuto Orgánico del Ministerio Fiscal",
+      "boe": "BOE-A-1982-837",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-837",
+      "verificado": "Texto consolidado, última actualización de la consolidación 09/07/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto 305/2022, de 3 de mayo, por el que se aprueba el Reglamento del Ministerio Fiscal (Inspección Fiscal)",
+      "boe": "BOE-A-2022-7184",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7184",
+      "verificado": "Texto consolidado, última actualización de la consolidación 20/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto 769/1987, de 19 de junio, sobre regulación de la Policía Judicial",
+      "boe": "BOE-A-1987-14578",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1987-14578",
+      "verificado": "Texto consolidado, última actualización de la consolidación 17/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad (arts. 5 y 29-35)",
+      "boe": "BOE-A-1986-6859",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859",
+      "verificado": "Texto consolidado, última actualización de la consolidación 17/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial",
+      "boe": "BOE-A-1985-12666",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+      "verificado": "Texto consolidado, última actualización de la consolidación 09/10/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 5/1995, de 22 de mayo, del Tribunal del Jurado",
+      "boe": "BOE-A-1995-12095",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-12095",
+      "verificado": "Texto consolidado, última actualización de la consolidación 18/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Constitución Española (arts. 17, 55.2, 117, 124 y 126)",
+      "boe": "BOE-A-1978-31229",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "verificado": "Texto consolidado, última actualización de la consolidación 20/05/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (arts. 530-531 y delitos citados en el art. 282 bis.4 LECrim)",
+      "boe": "BOE-A-1995-25444",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "verificado": "Texto consolidado, última actualización de la consolidación 09/04/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 4/2015, de 27 de abril, del Estatuto de la víctima del delito (art. 6)",
+      "boe": "BOE-A-2015-4606",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-4606",
+      "verificado": "Texto consolidado, última actualización de la consolidación 19/12/2025 (leído el 16/10/2026)"
+    }
+  ],
+  "novedades": [
+    "Instrucción 1/2024 de la Secretaría de Estado de Seguridad (enero de 2024): aprobó el Procedimiento integral de la detención policial, que refundió y dejó sin efecto trece instrucciones anteriores. Después la Instrucción 10/2025 la actualizó: así consta en las visitas del Mecanismo Nacional de Prevención de la Tortura publicadas por el Defensor del Pueblo, y un comentario jurídico indica que entró en vigor el 16/09/2025 con un contenido casi idéntico. Esta ficha se basa en el texto de la 1/2024.",
+    "LO 1/2025, de 2 de enero (eficiencia del Servicio Público de Justicia): los Juzgados se transformaron en Secciones de los Tribunales de Instancia (a más tardar el 31/12/2025) y los Juzgados Centrales en el Tribunal Central de Instancia. La LECrim, la LO 6/1984 y la LO 5/2000 siguen diciendo «Juez de Instrucción», «Juez de lo Penal», «Juez de Menores» o «Juez Central de Instrucción»: pueden aparecer ambas denominaciones.",
+    "LO 5/2024, de 11 de noviembre: modificó el art. 3 de la LO 6/1984 (legitimados para el habeas corpus, que incluye ahora a quien preste apoyo con facultad de representación a personas con discapacidad con medidas de apoyo judiciales) y el art. 495 LECrim (no se detiene por delitos leves salvo falta de domicilio y de fianza).",
+    "Denuncia: el Real Decreto-ley 6/2023 (desde el 20/03/2024) exige identificar al denunciante en el art. 265 LECrim, y la LO 1/2025 (art. 266) impide la denuncia telemática si hay violencia o intimidación, autor conocido, testigos, denunciante menor, delito flagrante o hechos de naturaleza violenta o sexual.",
+    "Policía Judicial: el RD 1280/2024, de 17 de diciembre, incorporó al Secretario Coordinador Provincial a las Comisiones Provinciales de Coordinación (art. 34 RD 769/1987). Fiscal General del Estado: la LO 3/2024 retocó los requisitos para ser propuesto (art. 29.1 EOMF)."
+  ],
+  "clave": [
+    "**Detención preventiva: máximo 72 horas** para poner al detenido en libertad o a disposición judicial, y solo el tiempo estrictamente necesario (art. 17.2 CE; art. 520.1 LECrim). Se cuenta desde el momento de la detención.",
+    "**Terrorismo y bandas armadas** (arts. 520 bis y 384 bis): 72 horas más una prórroga de hasta **48 horas** (solicitud motivada dentro de las primeras 48 horas; el juez la autoriza en 24 horas).",
+    "Quien detiene (particular, autoridad o agente de Policía Judicial) debe liberar o entregar al juez más próximo en **24 horas** (art. 496). El juez de la causa eleva la detención a prisión o la deja sin efecto en **72 horas** desde la entrega (art. 497).",
+    "**Menor de 14 a 17 años**: libertad o puesta a disposición de la **Sección de Menores de la Fiscalía en 24 horas**; el Fiscal resuelve en **48 horas** desde la detención (LO 5/2000, art. 17.4 y 17.5).",
+    "**Cualquier persona puede detener** (art. 490, siete supuestos); la **Autoridad o agente de Policía Judicial tiene obligación de detener** (art. 492). No se detiene por delitos leves salvo falta de domicilio conocido y de fianza (art. 495).",
+    "Derechos del detenido (art. 520.2): información inmediata, por escrito y comprensible; silencio; no declarar contra sí ni confesarse culpable; abogado (acude en máximo **3 horas**); comunicar la detención; llamada; consulado; intérprete; médico forense; justicia gratuita; acceso a los elementos esenciales.",
+    "**Incomunicación** (art. 509): excepcional, por el juez, hasta **5 días** más **5** de prórroga en terrorismo o delincuencia organizada; **nunca a menores de 16 años**; dos reconocimientos médicos cada 24 horas.",
+    "**Habeas corpus**: lo resuelve el **juez de instrucción** del lugar donde está el detenido en **24 horas desde el auto de incoación**; no requiere abogado ni procurador. Si el detenido es **menor**, también el juez de instrucción (no el de menores ni el Fiscal).",
+    "**Denuncia**: obligación de quien presencia un delito público (art. 259) y de quien lo conoce por su cargo, profesión u oficio (art. 262); exentos impúberes, sin uso de razón, familiares cercanos del art. 261, abogados, procuradores y ministros de culto en lo que conocen por su función (art. 263).",
+    "**Instrucción 1/2024 (actualizada por la 10/2025)**: el uso de la fuerza se rige por **oportunidad, congruencia y proporcionalidad**; el arma de fuego es el último recurso; la detención exige valorar su oportunidad y necesidad y existe la figura de la persona investigada no detenida.",
+    "**Policía Judicial**: dependencia **orgánica** del Ministerio del Interior y **funcional** de jueces, tribunales y Ministerio Fiscal (art. 31.1 LO 2/1986). Debe informar a la autoridad judicial o fiscal en un máximo de **24 horas** (art. 295 LECrim).",
+    "**Ministerio Fiscal**: unidad de actuación y dependencia jerárquica, legalidad e imparcialidad (art. 124.2 CE). El Fiscal General del Estado lo nombra el Rey a propuesta del Gobierno, oído el CGPJ, por **4 años** no renovables (salvo que haya ejercido menos de 2).",
+    "**Jurado**: 9 jurados y un magistrado presidente (más 2 suplentes); **7 votos** para hechos desfavorables y culpabilidad, **5** para favorables e inculpabilidad."
+  ],
+  "resumen": [
+    {
+      "titulo": "Quién puede y quién debe detener",
+      "puntos": [
+        "La detención solo cabe en los casos y la forma que fijan las leyes (art. 17.1 CE; art. 489 LECrim) y debe practicarse del modo que menos perjudique al detenido en su persona, reputación y patrimonio (art. 520.1).",
+        "**Cualquier persona puede detener** (art. 490, siete supuestos): al que intenta cometer un delito en el momento de ir a cometerlo; al delincuente in fraganti; al fugado de un establecimiento penal; al fugado de la cárcel esperando su traslado; al fugado durante la conducción; al fugado estando detenido o preso por causa pendiente; y al procesado o condenado en rebeldía.",
+        "**La Autoridad o agente de Policía Judicial tiene obligación de detener** (art. 492) en los casos del art. 490, al procesado por delito con pena superior a prisión correccional y al procesado (o, con motivos racionalmente bastantes, a quien aún no lo está) por delito de pena inferior si hay presunción de que no comparecerá, salvo fianza bastante. Si no detiene, anota la identidad y la entrega al juez (art. 493). Por **delitos leves** no se detiene, salvo falta de domicilio conocido y de fianza (art. 495).",
+        "Quien prolongue una privación de libertad violando plazos o garantías comete delito: inhabilitación especial de **4 a 8 años** (art. 530 CP), y de 2 a 6 años si es en la incomunicación (art. 531 CP)."
+      ]
+    },
+    {
+      "titulo": "Plazos de la detención (lo que más se pregunta)",
+      "puntos": [
+        "El máximo de **72 horas** es constitucional (art. 17.2 CE) y se cuenta desde el momento de la detención. Las **24 horas** del art. 496 son el plazo de quien detiene para liberar o entregar al juez más próximo.",
+        "En el atestado constan el lugar y la hora de la detención y de la puesta a disposición judicial o en libertad (art. 520.1)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Supuesto",
+          "Plazo",
+          "Norma"
+        ],
+        "filas": [
+          [
+            "Detención preventiva (regla general)",
+            "Tiempo estrictamente necesario; máximo **72 horas**",
+            "Art. 17.2 CE; art. 520.1 LECrim"
+          ],
+          [
+            "Particular, autoridad o agente de Policía Judicial que detiene",
+            "Libertad o entrega al juez más próximo en **24 horas**",
+            "Art. 496 LECrim"
+          ],
+          [
+            "Juez que recibe al detenido",
+            "Elevar a prisión o dejar sin efecto en **72 horas** desde la entrega",
+            "Art. 497 LECrim"
+          ],
+          [
+            "Delitos del art. 384 bis (bandas armadas, terrorismo)",
+            "**72 horas** más prórroga de hasta **48** (pedida en las primeras 48 horas; el juez resuelve en 24)",
+            "Art. 520 bis LECrim; art. 55.2 CE"
+          ],
+          [
+            "Menor de 14 a 17 años",
+            "**24 horas** para libertad o Sección de Menores de la Fiscalía; el Fiscal resuelve en **48 horas** desde la detención",
+            "Art. 17.4 y 17.5 LO 5/2000"
+          ],
+          [
+            "Incomunicación",
+            "Hasta **5 días**, más **5** en el art. 384 bis o delincuencia organizada; no a menores de 16 años",
+            "Art. 509 LECrim"
+          ],
+          [
+            "Habeas corpus",
+            "**24 horas** desde el auto de incoación",
+            "Art. 7 LO 6/1984"
+          ],
+          [
+            "Identificación en dependencias policiales",
+            "Máximo **6 horas** desde el requerimiento",
+            "Art. 16 LO 4/2015; Instrucción 1/2024, ap. 13.1"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Derechos del detenido (art. 520 LECrim) e incomunicación",
+      "puntos": [
+        "Información (art. 520.2): **inmediata**, por escrito, en lenguaje sencillo y accesible y en una lengua que comprenda; incluye los hechos, las razones de la detención, los derechos, el plazo máximo de detención y cómo impugnarla.",
+        "Abogado: se designa libremente o es de oficio, sin recomendación de los agentes, y debe acudir en un máximo de **3 horas** (si no, se designa otro). La renuncia solo cabe si la detención lo es **exclusivamente** por delitos contra la seguridad del tráfico, con información clara y de forma revocable (art. 520.5 y 520.8).",
+        "**Incomunicación** (arts. 509 y 527): auto motivado del juez; permite privar de designar abogado de confianza, comunicarse con terceros (salvo autoridad judicial, Fiscal y médico forense), entrevista reservada con el abogado y acceso a las actuaciones (salvo elementos esenciales). Si la piden la Policía Judicial o el Fiscal, se entiende acordada **24 horas** mientras el juez resuelve. Al menos **dos reconocimientos médicos cada 24 horas**."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Letra (art. 520.2)",
+          "Derecho"
+        ],
+        "filas": [
+          [
+            "a",
+            "Guardar silencio, no contestar a alguna pregunta o declarar solo ante el juez"
+          ],
+          [
+            "b",
+            "No declarar contra sí mismo y no confesarse culpable"
+          ],
+          [
+            "c",
+            "Designar abogado y ser asistido sin demora injustificada (si hay lejanía, comunicación telefónica o videoconferencia)"
+          ],
+          [
+            "d",
+            "Acceder a los elementos de las actuaciones esenciales para impugnar la detención"
+          ],
+          [
+            "e",
+            "Que se comunique a un familiar o persona que desee la detención y el lugar de custodia (extranjeros: también al consulado)"
+          ],
+          [
+            "f",
+            "Comunicarse telefónicamente con un tercero, en presencia de un funcionario de policía"
+          ],
+          [
+            "g",
+            "Ser visitado por las autoridades consulares de su país y comunicarse con ellas"
+          ],
+          [
+            "h",
+            "Intérprete gratuito: extranjero que no comprenda el castellano, personas sordas o con dificultades del lenguaje"
+          ],
+          [
+            "i",
+            "Ser reconocido por el médico forense o su sustituto legal"
+          ],
+          [
+            "j",
+            "Solicitar asistencia jurídica gratuita"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Habeas corpus (LO 6/1984; art. 17.4 CE)",
+      "puntos": [
+        "Procedimiento sumario para obtener la **inmediata puesta a disposición de la autoridad judicial** de cualquier persona detenida ilegalmente (art. 1). El custodio debe comunicar **inmediatamente** la solicitud al juez (art. 5).",
+        "El auto de incoación o de denegación se notifica al Fiscal y **no admite recurso** (art. 6). Si hay temeridad o mala fe, el solicitante paga las costas (art. 9)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Aspecto",
+          "Regla"
+        ],
+        "filas": [
+          [
+            "Detención ilegal (art. 1)",
+            "Sin los supuestos o formalidades legales; internamiento ilícito; plazo superior al legal sin liberar o entregar al juez; derechos del detenido no respetados"
+          ],
+          [
+            "Juez competente (art. 2)",
+            "**Juez de Instrucción** del lugar donde está la persona privada de libertad; si no consta, el del lugar de la detención; y si no, el de las últimas noticias. Detención por terrorismo (art. 55.2 CE): **Juez Central de Instrucción**"
+          ],
+          [
+            "Quién puede instarlo (art. 3)",
+            "El privado de libertad, su cónyuge o pareja, descendientes, ascendientes y hermanos, los representantes legales de menores, el **Ministerio Fiscal**, el **Defensor del Pueblo**, el **abogado defensor** y, de oficio, el juez"
+          ],
+          [
+            "Forma (art. 4)",
+            "Escrito o comparecencia; **no es preceptiva la intervención de abogado ni procurador**"
+          ],
+          [
+            "Plazo (art. 7)",
+            "El juez oye al detenido, abogado, Fiscal y autoridad custodia y resuelve en **24 horas desde el auto de incoación**"
+          ],
+          [
+            "Resolución (art. 8)",
+            "Archivo (detención conforme a Derecho); libertad; continuación de la privación de libertad, quizá en otro lugar o con otros custodios; o puesta inmediata a disposición judicial"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Menores detenidos",
+      "puntos": [
+        "La LO 5/2000 se aplica a mayores de 14 y menores de 18 años (art. 1.1). Los menores de 14 no responden penalmente: la actuación policial es siempre **protectora** (art. 3; Instrucción 1/2024, ap. 10.2).",
+        "Se notifica de inmediato la detención y el lugar de custodia a los representantes legales y al **Ministerio Fiscal** (art. 17.1 LO 5/2000; art. 520.4 LECrim). Se custodian separados de los mayores y declaran con su letrado y con quienes ejerzan patria potestad, tutela o guarda (art. 17.2 y 17.3).",
+        "Plazos: **24 horas** para libertad o puesta a disposición del Fiscal, que resuelve en **48 horas** desde la detención (art. 17.4 y 17.5). En los delitos del art. 384 bis se aplica el art. 520 bis, con las resoluciones judiciales a cargo del Juez de Menores. **No cabe incomunicación de menores de 16 años** (art. 509.4 LECrim).",
+        "**Habeas corpus de un menor**: es competente el **Juez de Instrucción** del lugar donde esté privado de libertad (no el Juez de Menores ni el Fiscal). Si lo insta el propio menor, la fuerza pública lo notifica de inmediato también al Ministerio Fiscal (art. 17.6 LO 5/2000)."
+      ]
+    },
+    {
+      "titulo": "Procedimiento integral de la detención policial (Instrucción 1/2024, actualizada por la 10/2025)",
+      "puntos": [
+        "Aprobada por el Secretario de Estado de Seguridad en enero de 2024 para la Policía Nacional y la Guardia Civil, regula la actuación desde el inicio de la privación de libertad hasta el cese de la custodia. **Compila y deja sin efecto trece instrucciones anteriores**. Su seguimiento corresponde a la SES a través de la **Dirección General de Coordinación y Estudios**. Consta de un anexo con **15 epígrafes** y **4 apéndices**.",
+        "Antes de detener se valora la **oportunidad** (momento, lugar y modo) y la **necesidad**, sin vulnerar innecesariamente honor, intimidad, imagen ni datos personales; la **persona investigada no detenida** es la alternativa a la detención.",
+        "Empleo de la fuerza: **oportunidad, congruencia y proporcionalidad** (como el art. 5.2.c LO 2/1986). Solo medios de dotación autorizados, de menos a más lesivos, y el **arma de fuego como último recurso**, con riesgo racionalmente grave para la vida o integridad de agentes o terceros. El desnudo integral es excepcional y solo en dependencias; los grilletes se modulan con gestantes y menores.",
+        "Duración: **72 horas** desde el momento de la detención. Custodia en las **ACUDE** (áreas de custodia de detenidos) con libros de registro. Fallecimientos, lesiones graves, intentos de suicidio, fugas y disparos con arma de fuego se comunican en **24 horas** a la **ONGADH** (Oficina Nacional de Garantía de los Derechos Humanos)."
+      ]
+    },
+    {
+      "titulo": "Denuncia y obligación de denunciar (arts. 259-269 LECrim)",
+      "puntos": [
+        "Forma (art. 265): **por escrito o de palabra**, personalmente o por mandatario con poder especial; debe identificar al denunciante (art. 268) y narrar el hecho. La verbal se recoge en acta (art. 267). La LECrim no regula la denuncia anónima. La víctima tiene derecho a **copia certificada** de su denuncia (art. 6 Ley 4/2015).",
+        "Efectos: se comprueba el hecho salvo que no sea delito o la denuncia sea manifiestamente falsa (art. 269). Los atestados de la Policía Judicial se consideran denuncias (art. 297). El denunciante no está obligado a probar los hechos ni a formalizar querella (art. 264)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Quién",
+          "Regla"
+        ],
+        "filas": [
+          [
+            "Quien presencia un delito público (art. 259)",
+            "Debe ponerlo **inmediatamente** en conocimiento del juez de instrucción, de paz, comarcal o municipal o funcionario fiscal más próximo"
+          ],
+          [
+            "Quien lo conoce por su cargo, profesión u oficio (art. 262)",
+            "Debe denunciarlo inmediatamente al Fiscal, al tribunal competente o al juez de instrucción"
+          ],
+          [
+            "Exentos (arts. 260 y 261)",
+            "Impúberes y quienes no gozan de pleno uso de razón; cónyuge no separado o pareja, ascendientes, descendientes y colaterales hasta el segundo grado (con excepciones en delitos graves contra víctimas menores o con discapacidad necesitadas de protección)"
+          ],
+          [
+            "Exentos por secreto (art. 263)",
+            "Abogados y procuradores respecto de lo que reciban de sus clientes; eclesiásticos y ministros de cultos disidentes respecto de lo revelado en su ministerio"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Ministerio Fiscal",
+      "puntos": [
+        "Misión (art. 124.1 CE; art. 1 EOMF): promover la acción de la justicia en defensa de la legalidad, los derechos de los ciudadanos y el interés público, y velar por la independencia de los tribunales. Actúa con **unidad de actuación y dependencia jerárquica**, sujeto a **legalidad e imparcialidad** (art. 124.2 CE; art. 2 EOMF). Sus miembros son **autoridad** (art. 23 EOMF).",
+        "Funciones (art. 3): ejercitar las acciones penales y civiles dimanantes de delitos, instar medidas cautelares y diligencias en el proceso penal, instruir en el proceso de menores y proteger a víctimas, testigos y peritos. Puede visitar centros de detención y dar órdenes a la Policía Judicial (art. 4).",
+        "Diligencias de investigación (art. 5): sin medidas cautelares ni limitativas de derechos, pero **puede ordenar la detención preventiva**. Duran **6 meses** como máximo (12 en los delitos del art. 19.4), prorrogables por decreto motivado del Fiscal General.",
+        "Órganos (art. 12, catorce): Fiscal General del Estado, Consejo Fiscal, Junta de Fiscales de Sala, Junta de Fiscales Superiores, Fiscalías del Tribunal Supremo, del Constitucional, de la Audiencia Nacional, Especiales, del Tribunal de Cuentas, Jurídico Militar, de las CCAA, Provinciales y de Área, y Unidad de Protección de Datos. Hay **dos Fiscalías Especiales**: **Antidroga** y **contra la Corrupción y la Criminalidad Organizada** (art. 19). La **Inspección Fiscal** actúa por delegación del Fiscal General (art. 13.2 EOMF).",
+        "Fiscal General del Estado (arts. 29 y 31): nombrado por el Rey a propuesta del Gobierno, oído el CGPJ; mandato de **4 años**, no renovable salvo que haya ejercido menos de 2; cesa también con el Gobierno que lo propuso. Lo sustituye el Teniente Fiscal del Tribunal Supremo."
+      ]
+    },
+    {
+      "titulo": "Policía Judicial",
+      "puntos": [
+        "Función (art. 126 CE; art. 547 LOPJ): auxiliar a juzgados, tribunales y Ministerio Fiscal en la averiguación del delito y el aseguramiento del delincuente. La ejercen **todos** los miembros de las FCS cuando son requeridos (RD 769/1987, art. 1). En **sentido estricto** son las Unidades Orgánicas del art. 30.1 LO 2/1986, formadas por funcionarios del CNP y de la Guardia Civil (RD 769/1987, art. 7).",
+        "Dependencia: **orgánica del Ministerio del Interior** y **funcional de los jueces, tribunales y Ministerio Fiscal** que conocen del asunto (art. 31.1 LO 2/1986; art. 548 LOPJ). No pueden ser removidos de una investigación concreta sin autorización del juez o Fiscal (art. 550.2 LOPJ).",
+        "LECrim: averigua los delitos públicos y recoge efectos y pruebas (art. 282), da cuenta a la autoridad judicial o fiscal inmediatamente y en máximo **24 horas** (arts. 284 y 295) y extiende el atestado (art. 292). Si no hay autor conocido, conserva el atestado salvo en delitos graves contra la vida, integridad o libertad sexual, o corrupción, o si pasan 72 horas con diligencias (art. 284.2).",
+        "Agente encubierto (art. 282 bis): lo autoriza el **juez de instrucción o el Fiscal dando cuenta inmediata al juez**; la identidad supuesta la da el Ministerio del Interior por **6 meses** prorrogables. Delincuencia organizada: asociación de **tres o más** personas para cometer delitos de una lista de 15 grupos (secuestro, trata, **derechos de los trabajadores**, tráfico y depósito de armas, terrorismo...). El hurto no está.",
+        "Coordinación (RD 769/1987): la **Comisión Nacional** (art. 32) la preside el Presidente del Tribunal Supremo y del CGPJ, con los Ministros de Justicia e Interior, el Fiscal General y el Secretario de Estado de Seguridad, entre otros; en las **Comisiones Provinciales** (art. 34) están el Presidente de la Audiencia Provincial, el Fiscal Jefe, el Juez Decano y los jefes de las Unidades Orgánicas. Se reúnen al menos cada trimestre y cada mes (art. 38)."
+      ]
+    },
+    {
+      "titulo": "Jurisdicción, competencia y órganos de la jurisdicción penal",
+      "puntos": [
+        "Jurisdicción: potestad de **juzgar y hacer ejecutar lo juzgado**, exclusiva de Juzgados y Tribunales (art. 117.3 CE); unidad jurisdiccional (art. 117.5) y prohibición de tribunales de excepción (art. 117.6). El orden penal conoce las causas criminales, salvo la jurisdicción militar (art. 9.3 LOPJ). Competencia: reparto de asuntos entre órganos, según la gravedad de la pena y el lugar del delito (arts. 14 y 15 LECrim).",
+        "**Jurado** (LO 5/1995): 9 jurados, 2 suplentes y un magistrado presidente, en la Audiencia Provincial; **7 votos** para hechos desfavorables y culpabilidad y **5** para hechos favorables e inculpabilidad (arts. 2, 59 y 60). Enjuicia 11 grupos de delitos (homicidio, omisión del deber de socorro, allanamiento de morada, cohecho, malversación...); quedan fuera los de la Audiencia Nacional."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Órgano",
+          "Competencia penal"
+        ],
+        "filas": [
+          [
+            "Tribunal Supremo, Sala de lo Penal (una de las **cinco** Salas: Civil, Penal, Contencioso-Administrativa, Social y Militar)",
+            "Casación; causas contra el Presidente del Gobierno, ministros, **diputados y senadores**, vocales del CGPJ, magistrados del TC y del TS, Fiscal General, Defensor del Pueblo y otros (art. 57 LOPJ)"
+          ],
+          [
+            "Audiencia Nacional, Sala de lo Penal",
+            "Delitos contra altos organismos y forma de Gobierno; falsificación de moneda y tarjetas por organizaciones; defraudaciones de grave repercusión; **delitos cometidos fuera del territorio nacional** cuando corresponda a tribunales españoles (art. 65 LOPJ)"
+          ],
+          [
+            "Tribunal Superior de Justicia, Sala de lo Civil y Penal",
+            "Causas reservadas por los Estatutos; jueces, magistrados y fiscales por delitos en el ejercicio del cargo; apelación contra Audiencias Provinciales (art. 73.3 LOPJ)"
+          ],
+          [
+            "Audiencia Provincial",
+            "Delitos más graves no atribuidos a las Secciones de lo Penal y los del Jurado; recursos contra Secciones de Instrucción y de lo Penal (art. 82 LOPJ; art. 14.4 LECrim)"
+          ],
+          [
+            "Sección de lo Penal del Tribunal de Instancia (antes Juzgado de lo Penal)",
+            "Pena privativa de libertad de hasta **5 años** o multa de cualquier cuantía, u otras penas de hasta 10 años (art. 14.3 LECrim)"
+          ],
+          [
+            "Sección de Instrucción (antes Juzgado de Instrucción)",
+            "Instrucción de las causas, delitos leves, **habeas corpus** y sentencias de conformidad (art. 88 LOPJ)"
+          ]
+        ]
+      }
+    }
+  ],
+  "trampas": [
+    "72 horas es el máximo de la detención preventiva (art. 17.2 CE y 520.1 LECrim). Las 24 horas son otros plazos: entrega al juez de quien detiene (art. 496), detenido menor, habeas corpus, comunicación de la Policía Judicial, resolución judicial de la incomunicación o de la prórroga. No los mezcles.",
+    "Menores: 24 horas (no 72) para libertad o disposición de la Fiscalía de Menores, y el Fiscal resuelve en 48 horas. Solo en el art. 520 bis (terrorismo) se aplica 72 horas más 48 también al menor.",
+    "Habeas corpus de un menor: Juez de Instrucción del lugar donde esté privado de libertad; no el Juez de Menores ni la Fiscalía de Menores. La Fiscalía solo debe ser notificada de inmediato si lo insta el propio menor.",
+    "Habeas corpus: las 24 horas se cuentan desde el auto de incoación, no desde la solicitud. No exige abogado ni procurador, y el auto de incoación o denegación no tiene recurso.",
+    "Incomunicación: máximo 5 días (más 5 en terrorismo o delincuencia organizada), la acuerda el juez y nunca afecta a menores de 16 años. Cuando la pide la Policía Judicial o el Fiscal se entiende acordada solo 24 horas mientras el juez resuelve.",
+    "Obligación frente a facultad: cualquier persona puede detener (art. 490); solo la Autoridad o agente de Policía Judicial tiene obligación de detener (art. 492). Por delitos leves no se detiene, salvo sin domicilio ni fianza.",
+    "Renuncia a abogado: solo en detenciones por hechos tipificables exclusivamente como delitos contra la seguridad del tráfico; nunca en el menor. El abogado debe acudir en 3 horas, no «de inmediato» ni en 6.",
+    "Policía Judicial: dependencia orgánica (Ministerio del Interior) frente a funcional (jueces, tribunales y Ministerio Fiscal). Quien invierta los términos falla la pregunta.",
+    "Listas cerradas con intruso: delincuencia organizada del art. 282 bis.4 (el hurto no está; los delitos contra los derechos de los trabajadores sí), delitos del Jurado (no están los delitos contra la salud pública) y registro remoto (art. 588 septies a).",
+    "Votos del Jurado: 7 para hechos desfavorables y culpabilidad y 5 para favorables e inculpabilidad; el tribunal tiene 9 jurados, no 7 ni 12. En la Instrucción 1/2024, los principios de la fuerza son oportunidad, congruencia y proporcionalidad, no «necesidad» ni «legalidad»."
+  ],
+  "caido": [
+    {
+      "examen": "23 abr 2023 y 25 oct 2025",
+      "concepto": "Detención: obligación de detener (LECrim arts. 490 y 492), información inmediata y comprensible de derechos (incumplimiento penado en el CP) e incomunicación de un menor detenido (caso de un joven de 15 años y terrorismo)."
+    },
+    {
+      "examen": "23 abr 2023 y 25 oct 2025",
+      "concepto": "Habeas corpus: plazo de 24 horas desde el auto de incoación y autoridad judicial competente cuando lo pide un menor detenido (juez de instrucción frente a juez de menores y Fiscalía de Menores); la pregunta de la autoridad competente salió en los dos exámenes."
+    },
+    {
+      "examen": "13 abr 2024 y 25 oct 2025",
+      "concepto": "Domicilio a efectos de entrada y registro (LECrim art. 554) y registro de dispositivos (art. 588 sexies)."
+    },
+    {
+      "examen": "23 abr 2023 y 13 abr 2024",
+      "concepto": "Denuncia: formas (escrita o verbal, personal o por mandatario), no regulación de la denuncia anónima, obligación de denunciar y exentos, copia certificada para la víctima (dos preguntas en 2024)."
+    },
+    {
+      "examen": "26 sep 2026",
+      "concepto": "Delincuencia organizada (LECrim art. 282 bis.4): lista de delitos (secuestro y derechos de los trabajadores sí; el hurto no)."
+    },
+    {
+      "examen": "1 mar 2025",
+      "concepto": "Procedimiento integral de la detención (Instrucción 1/2024): principios en el empleo de la fuerza (oportunidad, congruencia, proporcionalidad)."
+    },
+    {
+      "examen": "23 abr 2023, 1 mar 2025 y 26 sep 2026",
+      "concepto": "LOPJ: Salas del Tribunal Supremo (5), aforamiento de diputados y senadores ante la Sala de lo Penal (art. 57) y delitos cometidos fuera de España ante la Audiencia Nacional."
+    },
+    {
+      "examen": "13 abr 2024, 1 mar 2025 y 26 sep 2026",
+      "concepto": "Jurado (competencia y 7 votos), Ministerio Fiscal (áreas especializadas, Inspección Fiscal, Reglamento aprobado por RD 305/2022) y Policía Judicial (dependencia orgánica y funcional)."
+    }
+  ],
+  "mnemotecnias": [
+    "Plazos de la detención: «72 a la calle o al juez; 24 para el menor, para el particular y para el habeas»; prórroga de terrorismo, 48.",
+    "Dependencia de la Policía Judicial: Orgánica = Interior (de la casa); Funcional = Jueces, Tribunales y Fiscal (de la tarea).",
+    "Jurado: 9 jurados; 7 para condenar, 5 para absolver (y 5 para los hechos favorables)."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Plazo máximo de la detención preventiva?",
+      "r": "**72 horas** para libertad o puesta a disposición judicial, y el tiempo estrictamente necesario (art. 17.2 CE; art. 520.1 LECrim)."
+    },
+    {
+      "p": "¿En cuánto tiempo debe el particular, la autoridad o el agente de Policía Judicial que detiene liberar o entregar al juez más próximo (art. 496)?",
+      "r": "En **24 horas** desde la detención."
+    },
+    {
+      "p": "¿Qué plazo tiene el juez para elevar la detención a prisión o dejarla sin efecto (art. 497)?",
+      "r": "**72 horas** desde que se le entregó al detenido."
+    },
+    {
+      "p": "¿Plazos de la detención por delitos del art. 384 bis (bandas armadas, terrorismo)?",
+      "r": "**72 horas** más una prórroga de hasta **48 horas**: se pide dentro de las primeras 48 horas y el juez resuelve en 24 horas (art. 520 bis)."
+    },
+    {
+      "p": "¿Plazos del menor de 14 a 17 años detenido por la policía (LO 5/2000, art. 17)?",
+      "r": "**24 horas** para libertad o puesta a disposición de la Sección de Menores de la Fiscalía; el Fiscal resuelve en **48 horas** desde la detención."
+    },
+    {
+      "p": "¿Quién puede detener y quién debe detener?",
+      "r": "**Cualquier persona puede** detener en los siete casos del art. 490; la **Autoridad o agente de Policía Judicial tiene obligación** de detener (art. 492)."
+    },
+    {
+      "p": "¿Se puede detener por delitos leves?",
+      "r": "No, salvo que el presunto autor no tenga domicilio conocido ni dé fianza bastante (art. 495)."
+    },
+    {
+      "p": "¿Cuántos derechos enumera el art. 520.2 LECrim y cuáles son los primeros?",
+      "r": "Diez (letras a a j). Los primeros: guardar silencio y no declarar contra sí mismo ni confesarse culpable."
+    },
+    {
+      "p": "¿En qué plazo debe acudir al centro de detención el abogado designado (art. 520.5)?",
+      "r": "En un máximo de **3 horas** desde que recibe el encargo; si no, el Colegio designa otro de oficio."
+    },
+    {
+      "p": "¿Cuándo puede renunciar el detenido a la asistencia de abogado (art. 520.8)?",
+      "r": "Solo si la detención lo es por hechos susceptibles de tipificarse **exclusivamente** como delitos contra la seguridad del tráfico, con información clara; la renuncia es revocable. En menores no cabe."
+    },
+    {
+      "p": "¿Cuánto puede durar la incomunicación del art. 509 y a quién no se puede aplicar?",
+      "r": "Hasta **5 días**, con otros **5** de prórroga en el art. 384 bis o delincuencia organizada; **nunca a menores de 16 años**."
+    },
+    {
+      "p": "¿Qué juez es competente para el habeas corpus?",
+      "r": "El **Juez de Instrucción** del lugar donde está el detenido; si no consta, el del lugar de la detención; y después el de las últimas noticias. Si es por terrorismo (art. 55.2 CE), el Juez Central de Instrucción."
+    },
+    {
+      "p": "¿Plazo del habeas corpus?",
+      "r": "**24 horas** desde el auto de incoación (art. 7 LO 6/1984). No se necesita abogado ni procurador (art. 4)."
+    },
+    {
+      "p": "¿Quién conoce del habeas corpus de un menor detenido?",
+      "r": "El **Juez de Instrucción** del lugar donde esté privado de libertad (art. 17.6 LO 5/2000), no el Juez de Menores ni el Fiscal; si lo insta el propio menor se avisa también al Fiscal."
+    },
+    {
+      "p": "¿Quiénes pueden instar el habeas corpus (art. 3 LO 6/1984)?",
+      "r": "El privado de libertad, su cónyuge o pareja, descendientes, ascendientes y hermanos, los representantes legales de menores, el Ministerio Fiscal, el Defensor del Pueblo y el abogado defensor; el juez puede iniciarlo de oficio."
+    },
+    {
+      "p": "¿Por qué principios se rige el empleo de la fuerza en la detención según la Instrucción 1/2024?",
+      "r": "**Oportunidad, congruencia y proporcionalidad**; el arma de fuego es el último recurso."
+    },
+    {
+      "p": "¿Cuál es la alternativa a la detención que recoge la Instrucción 1/2024?",
+      "r": "La figura de la **persona investigada no detenida**, tras valorar la oportunidad y necesidad de la detención."
+    },
+    {
+      "p": "¿De quién depende la Policía Judicial?",
+      "r": "**Orgánicamente** del Ministerio del Interior y **funcionalmente** de jueces, tribunales y Ministerio Fiscal (art. 31.1 LO 2/1986)."
+    },
+    {
+      "p": "¿Cuánto tiempo puede pasar sin informar a la autoridad judicial o fiscal de las diligencias practicadas la Policía Judicial (art. 295)?",
+      "r": "Como máximo **24 horas**, salvo fuerza mayor y el atestado sin autor conocido (art. 284.2)."
+    },
+    {
+      "p": "¿Qué principios rigen la actuación del Ministerio Fiscal (art. 124.2 CE)?",
+      "r": "**Unidad de actuación y dependencia jerárquica**, con sujeción a **legalidad e imparcialidad**."
+    },
+    {
+      "p": "¿Cuántas Fiscalías Especiales hay (art. 19 EOMF)?",
+      "r": "**Dos**: la Fiscalía Antidroga y la Fiscalía contra la Corrupción y la Criminalidad Organizada."
+    },
+    {
+      "p": "¿Duración del mandato del Fiscal General del Estado?",
+      "r": "**4 años**, no renovable salvo que haya ejercido el cargo menos de 2 años (art. 31 EOMF)."
+    },
+    {
+      "p": "¿Puede el Fiscal ordenar la detención en sus diligencias de investigación?",
+      "r": "**Sí**: las diligencias no pueden suponer medidas cautelares ni limitativas de derechos, pero el Fiscal puede ordenar la detención preventiva (art. 5 EOMF)."
+    },
+    {
+      "p": "¿Composición y votos del Tribunal del Jurado?",
+      "r": "**9 jurados** y un magistrado presidente (más 2 suplentes). **7 votos** para hechos desfavorables y culpabilidad; **5** para hechos favorables e inculpabilidad."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Según el art. 17.2 de la Constitución, la detención preventiva no puede durar más del tiempo estrictamente necesario y, en todo caso, el detenido debe ser puesto en libertad o a disposición de la autoridad judicial en un máximo de:",
+      "opciones": [
+        "Veinticuatro horas.",
+        "Cuarenta y ocho horas.",
+        "Setenta y dos horas."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 17.2 CE, reproducido en el art. 520.1 LECrim, fija el máximo de setenta y dos horas. Las veinticuatro horas son otros plazos, como el del art. 496 LECrim para quien detiene o el del menor, y las cuarenta y ocho horas son la prórroga posible en los delitos del art. 384 bis o el plazo del Fiscal de Menores.",
+      "ref": "art. 17.2 CE; art. 520.1 LECrim",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el art. 496 de la LECrim, el particular, la autoridad o el agente de Policía Judicial que detiene a una persona en virtud de los arts. 490 y 492 debe ponerla en libertad o entregarla al juez más próximo al lugar de la detención dentro de las:",
+      "opciones": [
+        "Veinticuatro horas siguientes al acto de la detención.",
+        "Cuarenta y ocho horas siguientes al acto de la detención.",
+        "Setenta y dos horas siguientes al acto de la detención."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 496 fija veinticuatro horas desde el acto de la detención y añade que, si se demora la entrega más de ese tiempo, se incurre en la responsabilidad del Código Penal. Las setenta y dos horas son el máximo constitucional de la detención preventiva (art. 17.2 CE) y también el plazo del juez para elevar la detención a prisión o dejarla sin efecto (art. 497).",
+      "ref": "art. 496 LECrim",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Un joven de 16 años es detenido por la Policía Nacional a las 12:00 horas de un lunes por un delito de robo, que no es de terrorismo. ¿Cuándo, como máximo, debe ser puesto en libertad o a disposición de la Sección de Menores de la Fiscalía?",
+      "opciones": [
+        "El martes a las 12:00 horas (24 horas).",
+        "El miércoles a las 12:00 horas (48 horas).",
+        "El jueves a las 12:00 horas (72 horas)."
+      ],
+      "correcta": 0,
+      "explicacion": "La detención de un menor por funcionarios de policía no puede durar más de veinticuatro horas (art. 17.4 LO 5/2000). Las cuarenta y ocho horas son el plazo posterior del Fiscal para resolver sobre la libertad, el desistimiento o la incoación del expediente, contado desde la detención. Las setenta y dos horas solo serían posibles en los delitos del art. 520 bis (terrorismo).",
+      "ref": "art. 17.4 y 17.5 LO 5/2000",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En el procedimiento de habeas corpus, el juez debe practicar las actuaciones y dictar la resolución que proceda en el plazo de veinticuatro horas, contadas desde:",
+      "opciones": [
+        "La presentación de la solicitud.",
+        "El auto de incoación del procedimiento.",
+        "La puesta a disposición del detenido ante el juez."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 7 de la LO 6/1984 establece que el plazo de veinticuatro horas se cuenta desde que se dicta el auto de incoación. No se cuenta desde la solicitud ni desde la comparecencia del privado de libertad.",
+      "ref": "art. 7 LO 6/1984",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un menor de 16 años detenido por la policía solicita que se tramite un procedimiento de habeas corpus. ¿Qué autoridad judicial es la competente para conocer de la solicitud?",
+      "opciones": [
+        "El Juez de Menores.",
+        "El Juez de Instrucción del lugar en el que se encuentre el menor privado de libertad.",
+        "La Sección de Menores de la Fiscalía."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 17.6 de la LO 5/2000 atribuye el habeas corpus de un menor al Juez de Instrucción del lugar en que se encuentre privado de libertad (si no consta, el de la detención y, en su defecto, el de las últimas noticias). El Juez de Menores no es competente y la Fiscalía no es un órgano judicial; cuando lo insta el propio menor, la fuerza pública solo debe además notificarlo de inmediato al Ministerio Fiscal.",
+      "ref": "art. 17.6 LO 5/2000; art. 2 LO 6/1984",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Señale quién NO está entre los legitimados para instar el procedimiento de habeas corpus según el art. 3 de la LO 6/1984:",
+      "opciones": [
+        "El Defensor del Pueblo.",
+        "El abogado defensor del privado de libertad.",
+        "El policía que instruye el atestado en el que se encuentra el detenido."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 3 legitima al privado de libertad, su cónyuge o pareja, descendientes, ascendientes y hermanos, los representantes legales de menores, el Ministerio Fiscal, el Defensor del Pueblo y el abogado defensor, y permite al juez iniciarlo de oficio. El instructor del atestado no figura; su deber es poner la solicitud inmediatamente en conocimiento del juez (art. 5).",
+      "ref": "arts. 3 y 5 LO 6/1984",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Respecto a la detención en la Ley de Enjuiciamiento Criminal, señale la afirmación correcta:",
+      "opciones": [
+        "Los particulares tienen la obligación de detener a todo delincuente in fraganti.",
+        "La Autoridad o agente de Policía Judicial tiene obligación de detener a quien se halle en alguno de los casos del art. 490.",
+        "El particular que detiene nunca debe justificar sus motivos ante el detenido."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 492.1.º impone a la Autoridad o agente de Policía Judicial la obligación de detener a quien se halle en alguno de los casos del art. 490. Los particulares solo pueden detener (art. 490: «puede detener»), y deben justificar, si el detenido lo exige, motivos racionalmente suficientes (art. 491).",
+      "ref": "arts. 490, 491 y 492 LECrim",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale cuál de los siguientes NO es un derecho del detenido recogido en el art. 520.2 de la LECrim:",
+      "opciones": [
+        "Guardar silencio y no declarar contra sí mismo.",
+        "Ser reconocido por el médico forense o su sustituto legal.",
+        "Elegir al funcionario de policía que tome su declaración."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 520.2 reconoce, entre otros, el derecho a guardar silencio, a no declarar contra sí mismo, a designar abogado, a comunicar la detención, a intérprete, a ser reconocido por el médico forense y a asistencia jurídica gratuita. No existe un derecho a elegir al funcionario que le tome declaración.",
+      "ref": "art. 520.2 LECrim",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "El abogado designado por la persona detenida, o el nombrado de oficio, debe acudir al centro de detención con la máxima premura y siempre dentro del plazo máximo de:",
+      "opciones": [
+        "Una hora desde la recepción del encargo.",
+        "Tres horas desde la recepción del encargo.",
+        "Seis horas desde la detención."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 520.5 LECrim fija un máximo de tres horas desde la recepción del encargo; si no comparece, el Colegio de Abogados designa a otro del turno de oficio, que debe acudir dentro del mismo plazo, sin perjuicio de la responsabilidad disciplinaria del incompareciente.",
+      "ref": "art. 520.5 LECrim",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La persona detenida puede renunciar a la preceptiva asistencia de abogado:",
+      "opciones": [
+        "Siempre que lo haga por escrito y ante el instructor del atestado.",
+        "Solo en las detenciones por delitos leves.",
+        "Solo si la detención lo es por hechos susceptibles de ser tipificados exclusivamente como delitos contra la seguridad del tráfico, tras recibir información clara y suficiente."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 520.8 permite la renuncia solo en esos casos, con información clara sobre el derecho y las consecuencias de renunciar, y el detenido puede revocarla en cualquier momento. No basta con una renuncia escrita ni existe una regla específica para los delitos leves.",
+      "ref": "art. 520.8 LECrim",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La incomunicación del detenido acordada por el juez según el art. 509 LECrim no puede extenderse más allá de cinco días. Si se acuerda en una causa por delitos del art. 384 bis u otros cometidos concertadamente y de forma organizada por dos o más personas, puede prorrogarse por un plazo no superior a:",
+      "opciones": [
+        "Otros cinco días.",
+        "Tres días.",
+        "Quince días."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 509.2 permite una prórroga de otro plazo no superior a cinco días en esos delitos, por lo que el máximo total es de diez. Es el juez quien la acuerda mediante auto motivado y nunca puede aplicarse a menores de dieciséis años (art. 509.4).",
+      "ref": "art. 509 LECrim",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un joven de 15 años es detenido por su presunta pertenencia a una organización terrorista y la Policía Judicial solicita su incomunicación. ¿Qué es correcto?",
+      "opciones": [
+        "No procede: en ningún caso pueden ser objeto de detención incomunicada los menores de dieciséis años.",
+        "Procede si lo autoriza el Fiscal de Menores, por un máximo de cinco días.",
+        "Procede sin autorización judicial, durante las primeras veinticuatro horas."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 509.4 LECrim prohíbe la detención incomunicada de los menores de dieciséis años en cualquier caso. Solo a los mayores de dieciséis años puede solicitarse la incomunicación a través de la Fiscalía de Menores, y siempre la acuerda el juez; la solicitud de la policía no equivale a una autorización.",
+      "ref": "art. 509.4 LECrim; Instrucción 1/2024, ap. 10.2",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "En la detención de una persona presunta partícipe de alguno de los delitos del art. 384 bis LECrim, el art. 520 bis permite que, con autorización judicial, la detención se prolongue, como máximo:",
+      "opciones": [
+        "Otras veinticuatro horas.",
+        "Otras cuarenta y ocho horas.",
+        "Otras setenta y dos horas."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 520 bis.1 permite prolongar la detención hasta otras cuarenta y ocho horas sobre las setenta y dos iniciales, si la prórroga se solicita mediante comunicación motivada dentro de las primeras cuarenta y ocho horas y el juez la autoriza en las veinticuatro siguientes.",
+      "ref": "art. 520 bis.1 LECrim",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Los funcionarios adscritos a las Unidades de Policía Judicial dependen:",
+      "opciones": [
+        "Orgánicamente del Ministerio del Interior y funcionalmente de los jueces, tribunales o Ministerio Fiscal que conozcan del asunto.",
+        "Orgánica y funcionalmente del Consejo General del Poder Judicial.",
+        "Orgánicamente de los jueces y funcionalmente del Ministerio del Interior."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 31.1 de la LO 2/1986 establece la dependencia orgánica del Ministerio del Interior y funcional de los jueces, tribunales o Ministerio Fiscal que estén conociendo del asunto objeto de su investigación, de acuerdo con el art. 126 CE. El CGPJ solo es oído en las adscripciones y no ejerce dependencia sobre ellos.",
+      "ref": "art. 31.1 LO 2/1986; art. 126 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el art. 295 de la LECrim, salvo fuerza mayor y el supuesto de atestado sin autor conocido, los funcionarios de Policía Judicial no pueden dejar transcurrir más de un cierto tiempo sin dar conocimiento a la autoridad judicial o al Ministerio Fiscal de las diligencias que hubieran practicado. Ese tiempo es de:",
+      "opciones": [
+        "Setenta y dos horas.",
+        "Doce horas.",
+        "Veinticuatro horas."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 295 fija un máximo de veinticuatro horas. Las setenta y dos horas aparecen en el atestado sin autor conocido (art. 284.2), que se conserva a disposición del Fiscal y del juez, y como máximo de la detención preventiva.",
+      "ref": "art. 295 LECrim",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Conforme al art. 124.2 de la Constitución, el Ministerio Fiscal ejerce sus funciones por medio de órganos propios conforme a los principios de:",
+      "opciones": [
+        "Unidad de actuación y dependencia jerárquica, y con sujeción a los de legalidad e imparcialidad.",
+        "Independencia e inamovilidad, y con sujeción a los de legalidad y responsabilidad.",
+        "Autonomía territorial y colegialidad, y con sujeción a los de oportunidad y legalidad."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 124.2 CE, reproducido en el art. 2 del Estatuto Orgánico, establece unidad de actuación y dependencia jerárquica, con sujeción a legalidad e imparcialidad. La independencia e inamovilidad son garantías de los jueces (art. 117 CE).",
+      "ref": "art. 124.2 CE; art. 2 EOMF",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "El mandato del Fiscal General del Estado, según el Estatuto Orgánico del Ministerio Fiscal, tiene una duración de:",
+      "opciones": [
+        "Cinco años, renovable por un único período igual.",
+        "Cuatro años, no renovable, salvo que haya ostentado el cargo durante un período inferior a dos años.",
+        "Seis años, no renovable en ningún caso."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 31 EOMF fija un mandato de cuatro años, no renovable salvo que el titular lo hubiera ejercido menos de dos años. Antes de concluir puede cesar solo por las causas del precepto, entre ellas cuando cese el Gobierno que lo propuso.",
+      "ref": "art. 31 EOMF",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Las diligencias de investigación que practica el Ministerio Fiscal conforme al art. 5 del Estatuto Orgánico no pueden suponer la adopción de medidas cautelares o limitativas de derechos. ¿Qué puede, no obstante, ordenar el Fiscal?",
+      "opciones": [
+        "La prisión provisional del investigado.",
+        "La entrada y registro en un domicilio.",
+        "La detención preventiva."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 5.Dos EOMF admite expresamente que el Fiscal ordene la detención preventiva, aunque sus diligencias no pueden suponer medidas cautelares o limitativas de derechos. La prisión provisional y la entrada y registro en domicilio son medidas que corresponden al juez.",
+      "ref": "art. 5 EOMF",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "En el Tribunal del Jurado, para declarar probado un hecho desfavorable al acusado y para declarar su culpabilidad se requieren, como mínimo:",
+      "opciones": [
+        "Cinco votos de los nueve jurados.",
+        "Siete votos de los nueve jurados.",
+        "Nueve votos, es decir, unanimidad."
+      ],
+      "correcta": 1,
+      "explicacion": "Los arts. 59 y 60 de la LO 5/1995 exigen siete votos como mínimo para los hechos desfavorables al acusado y para la culpabilidad. Bastan cinco votos para los hechos favorables y para la inculpabilidad.",
+      "ref": "arts. 59 y 60 LO 5/1995",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale qué delito NO está incluido entre los de delincuencia organizada del art. 282 bis.4 de la LECrim, a efectos del agente encubierto:",
+      "opciones": [
+        "El secuestro de personas (arts. 164 a 166 CP).",
+        "Los delitos contra los derechos de los trabajadores (arts. 312 y 313 CP).",
+        "El hurto (art. 234 CP)."
+      ],
+      "correcta": 2,
+      "explicacion": "La lista del art. 282 bis.4 incluye el secuestro, los delitos contra los derechos de los trabajadores de los arts. 312 y 313 y, entre los patrimoniales, solo los arts. 237, 243, 244, 248 y 301 CP. El hurto del art. 234 no figura.",
+      "ref": "art. 282 bis.4 LECrim",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Corresponde a la Sala de lo Penal del Tribunal Supremo la instrucción y el enjuiciamiento de las causas penales contra:",
+      "opciones": [
+        "Los diputados y senadores.",
+        "Los alcaldes de las capitales de provincia.",
+        "Los jueces de las Secciones de Instrucción de los Tribunales de Instancia."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 57.1.2.º LOPJ atribuye a la Sala de lo Penal del Tribunal Supremo las causas contra el Presidente del Gobierno, los presidentes de las Cámaras, los ministros, los diputados y senadores, los vocales del CGPJ, los magistrados del TC y del TS y otros altos cargos. Los jueces y magistrados por delitos cometidos en el ejercicio de su cargo en la comunidad dependen, en general, de la Sala de lo Civil y Penal del Tribunal Superior de Justicia (art. 73.3), y los alcaldes no figuran.",
+      "ref": "art. 57.1.2.º LOPJ",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según la Instrucción 1/2024 de la Secretaría de Estado de Seguridad (Procedimiento integral de la detención policial), cuando para efectuar una detención se requiera el empleo de la fuerza, los agentes deben actuar conforme a los principios de:",
+      "opciones": [
+        "Oportunidad, congruencia y proporcionalidad.",
+        "Legalidad, necesidad y subsidiariedad.",
+        "Jerarquía, subordinación y obediencia debida."
+      ],
+      "correcta": 0,
+      "explicacion": "El apartado 3.4 de la Instrucción, en línea con el art. 5.2.c de la LO 2/1986, exige oportunidad, congruencia y proporcionalidad en el uso de la fuerza. Jerarquía y subordinación son principios de actuación profesional, pero no los que regulan el uso de la fuerza, y legalidad, necesidad y subsidiariedad no son los fijados.",
+      "ref": "Instrucción 1/2024 SES, ap. 3.4; art. 5.2.c LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre la denuncia en la Ley de Enjuiciamiento Criminal:",
+      "opciones": [
+        "Puede hacerse por escrito o de palabra, personalmente o por medio de mandatario con poder especial.",
+        "Quien presencia la perpetración de un delito público está obligado a ponerlo inmediatamente en conocimiento del juez o funcionario fiscal más próximo.",
+        "El denunciante está obligado a probar los hechos denunciados y a formalizar querella."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 264 dispone que quien denuncia no se entiende obligado a probar los hechos ni a formalizar querella, y solo responde de los delitos que cometa con ocasión de la denuncia. Las otras dos afirmaciones son correctas (arts. 265 y 259).",
+      "ref": "arts. 259, 264 y 265 LECrim",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una persona es detenida por la Policía Nacional a las 10:00 horas de un lunes por un delito de robo con violencia, que no está relacionado con bandas armadas ni con terrorismo. ¿Hasta qué hora, como máximo, puede permanecer detenida en dependencias policiales antes de ser puesta en libertad o a disposición judicial?",
+      "opciones": [
+        "Hasta las 10:00 horas del martes.",
+        "Hasta las 10:00 horas del jueves.",
+        "Hasta las 10:00 horas del sábado."
+      ],
+      "correcta": 1,
+      "explicacion": "El máximo es de setenta y dos horas (arts. 17.2 CE y 520.1 LECrim), contadas desde el momento de la detención, lo que lleva al jueves a las 10:00 horas. El sábado solo sería posible con la prórroga de cuarenta y ocho horas del art. 520 bis, que no procede aquí, y el martes corresponde a veinticuatro horas.",
+      "ref": "art. 17.2 CE; art. 520.1 LECrim; Instrucción 1/2024, ap. 5.1",
+      "dificultad": 2
+    }
+  ],
+  "dudas": [
+    "No he podido localizar el texto de la Instrucción 10/2025 de la Secretaría de Estado de Seguridad ni en la web del Ministerio del Interior ni en el BOE. Consta su existencia y que actualiza el «Procedimiento integral de la detención policial» por las visitas del MNP publicadas por el Defensor del Pueblo; un comentario jurídico indica que entró en vigor el 16/09/2025 con contenido casi idéntico. Los datos de la Instrucción de esta ficha proceden del texto de la 1/2024 (leído completo): conviene comprobar si la 10/2025 modifica algún apartado concreto.",
+    "El art. 496 LECrim (24 horas para que quien detiene libere o entregue al juez más próximo) coexiste con el máximo de 72 horas de los arts. 17.2 CE y 520.1; la ficha los distingue, pero el examen puede preguntar por cualquiera de los dos."
+  ]
+}

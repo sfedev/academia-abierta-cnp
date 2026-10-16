@@ -1,0 +1,592 @@
+{
+ "tema": 12,
+ "titulo": "Protección internacional, apátridas y desplazados",
+ "bloque": "A",
+ "actualizado": "2026-10-16",
+ "peso": {
+  "nivel": "medio",
+  "nota": "Media de 2,6 preguntas por examen (0 en P40; 3 o 4 en los demás). Se repiten la Oficina de Asilo y Refugio, los plazos de frontera, el contenido de la protección (no devolución ni expulsión) y el sistema de acogida del RD 220/2022."
+ },
+ "normas": [
+  {
+   "nombre": "Ley 12/2009, de 30 de octubre, reguladora del derecho de asilo y de la protección subsidiaria",
+   "boe": "BOE-A-2009-17242",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-17242",
+   "verificado": "Texto consolidado, actualización de 15/06/2026 (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Real Decreto 220/2022, de 29 de marzo, por el que se aprueba el Reglamento por el que se regula el sistema de acogida en materia de protección internacional",
+   "boe": "BOE-A-2022-4978",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-4978",
+   "verificado": "Texto consolidado, actualización de 20/12/2025 (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Real Decreto 865/2001, de 20 de julio, por el que se aprueba el Reglamento de reconocimiento del estatuto de apátrida",
+   "boe": "BOE-A-2001-14166",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2001-14166",
+   "verificado": "Texto consolidado, actualización de 18/12/2025 (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Real Decreto 1325/2003, de 24 de octubre, por el que se aprueba el Reglamento sobre régimen de protección temporal en caso de afluencia masiva de personas desplazadas",
+   "boe": "BOE-A-2003-19714",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-19714",
+   "verificado": "Texto consolidado, actualización de 18/12/2025 (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Real Decreto 207/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio del Interior (arts. 1.5 y 15)",
+   "boe": "BOE-A-2024-3793",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-3793",
+   "verificado": "Texto consolidado, actualización de 15/06/2026 (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Real Decreto 1155/2024, Reglamento de la LO 4/2000 (disposiciones adicionales 14.ª y 20.ª)",
+   "boe": "BOE-A-2024-24099",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099",
+   "verificado": "Texto consolidado, actualización de 22/09/2026 (leído el 16/10/2026)"
+  }
+ ],
+ "novedades": [
+  "**RD 207/2024** (art. 15): la **Dirección General de Protección Internacional**, dependiente de la Subsecretaría del Interior, ejerce las funciones que el ordenamiento atribuye a la **Oficina de Asilo y Refugio** (OAR). El art. 23.1 de la Ley 12/2009 sigue hablando de la OAR «dependiente del Ministerio del Interior».",
+  "El **Pacto Europeo de Migración y Asilo** es aplicable desde el **12/06/2026**. Según las notas oficiales de Interior y La Moncloa, el Consejo de Ministros aprobó el 25/08/2026 anteproyectos de una **nueva ley de asilo** y de reforma parcial de la LO 4/2000. **No son derecho vigente**: la Ley 12/2009 consolidada es la que se estudia.",
+  "**RD 316/2026** (disposición adicional 20.ª del Reglamento de extranjería): los solicitantes de protección internacional anteriores al 01/01/2026 pudieron pedir, hasta el **30/06/2026**, una autorización de residencia por arraigo (5 meses de permanencia ininterrumpida; la concesión exige desistir de la solicitud de asilo). El plazo está cerrado.",
+  "El art. 3 de la Ley 12/2009 incluye entre los motivos de persecución el **género, la orientación sexual y la identidad sexual** (redacción de la Ley 4/2023, DF 10.ª). El art. 31.1 (acogida) tiene la redacción dada por la Ley 22/2021 (DF 17.ª) y el RDL 10/2022 (DF 7.ª), que introdujeron la **acción concertada**."
+ ],
+ "clave": [
+  "**Asilo** = condición de refugiado: fundados temores de persecución por **raza, religión, nacionalidad, opiniones políticas, pertenencia a determinado grupo social, género, orientación sexual o identidad sexual** (art. 3). **Protección subsidiaria** = riesgo real de **daños graves** (arts. 4 y 10).",
+  "La protección consiste en la **no devolución ni expulsión** y en las medidas del art. 36 (art. 5 Ley 12/2009).",
+  "**Tramita la Oficina de Asilo y Refugio** (art. 23.1); la **Comisión Interministerial de Asilo y Refugio** (CIAR) formula la propuesta; **resuelve el Ministro del Interior** (art. 24.2). Hoy ejerce las funciones de la OAR la **Dirección General de Protección Internacional** (RD 207/2024).",
+  "Solicitud por **comparecencia personal**, sin demora y como máximo en **1 mes** desde la entrada en España (art. 17.2).",
+  "Frontera: inadmisión o denegación en **4 días**; petición de reexamen en **2 días** (suspende los efectos) y resolución en **2 días**; el plazo puede ampliarse hasta **10 días** si el ACNUR lo pide razonadamente (art. 21).",
+  "Procedimiento ordinario: **6 meses**, con silencio **desestimatorio** (art. 24.3). Tramitación de urgencia: plazos **a la mitad** (art. 25.4).",
+  "Presentada la solicitud no cabe **retorno, devolución ni expulsión** hasta que se resuelva o se inadmita (art. 19.1).",
+  "Menores no acompañados: a los **servicios de protección de menores** y se informa al **Ministerio Fiscal**, que dispone la determinación de la edad si hay duda (art. 48).",
+  "Sistema de acogida (RD 220/2022): **3 fases** (valoración inicial y derivación, acogida, autonomía); duración total máxima de **18 meses**; la autonomía dura **6 meses** (otros 6 para reasentados y vulnerables).",
+  "Los solicitantes pueden **trabajar a los 6 meses** de la solicitud, si está admitida a trámite y sin resolver por causa no imputable a ellos (DA 14.ª RD 1155/2024).",
+  "**Apátridas** (RD 865/2001): reconoce el **Ministro del Interior**; la solicitud se dirige a la OAR (1 mes desde la entrada) y se resuelve en **3 meses**.",
+  "**Desplazados** (RD 1325/2003): protección temporal declarada por el Consejo de la UE o por el Consejo de Ministros; dura **1 año**, prorrogable automáticamente 1 año y, como máximo, otro más."
+ ],
+ "resumen": [
+  {
+   "titulo": "Asilo y protección subsidiaria: qué son y qué protegen",
+   "puntos": [
+    "Pueden pedir protección internacional los **nacionales no comunitarios y los apátridas** presentes en España (art. 16.1). El **derecho de asilo** reconoce la condición de refugiado (Convención de Ginebra de 1951); la **protección subsidiaria** se da a quien, sin reunir esos requisitos, se enfrentaría a un riesgo real de daños graves si regresara (arts. 2-4). El procedimiento es **único** para las dos.",
+    "Contenido (arts. 5 y 36): **no devolución ni expulsión** y, entre otros, residencia y trabajo **permanentes**, documentos de identidad y de viaje, acceso al empleo, educación, sanidad, vivienda, servicios sociales y Seguridad Social como los españoles, libertad de circulación y mantenimiento de la unidad familiar. Se **deniega en todo caso** (arts. 9 y 12) a quien sea, por razones fundadas, un peligro para la seguridad de España o haya sido condenado por sentencia firme por delito grave y suponga una amenaza para la comunidad."
+   ],
+   "tabla": {
+    "cabecera": [
+     "Aspecto",
+     "Asilo (condición de refugiado)",
+     "Protección subsidiaria"
+    ],
+    "filas": [
+     [
+      "Supuesto",
+      "Fundado temor de persecución por **raza, religión, nacionalidad, opiniones políticas, pertenencia a determinado grupo social, género, orientación sexual o identidad sexual** (art. 3)",
+      "Riesgo real de **daños graves** si se regresa al país de origen o de residencia habitual (art. 4)"
+     ],
+     [
+      "Hecho que lo causa",
+      "Actos de persecución graves por su naturaleza o reiteración (art. 6)",
+      "**Pena de muerte** o riesgo de su ejecución; **tortura** y tratos inhumanos o degradantes; **amenazas graves** a civiles por violencia indiscriminada en un conflicto (art. 10)"
+     ],
+     [
+      "Exclusión",
+      "Art. 8: protegidos por otro organismo de la ONU distinto del ACNUR o con derechos de nacional en el país de residencia; delitos contra la paz, de guerra o contra la humanidad; delito grave previo; actos contrarios a la ONU",
+      "Art. 11: las del art. 8.2 y, además, **peligro para la seguridad interior o exterior de España o para el orden público**"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Órganos y reglas procedimentales",
+   "puntos": [
+    "La **Oficina de Asilo y Refugio** (OAR), dependiente del Ministerio del Interior, **tramita** las solicitudes (art. 23.1). La **Comisión Interministerial de Asilo y Refugio** (CIAR), órgano colegiado adscrito al Ministerio del Interior, tiene un representante de los departamentos con competencia en política exterior, interior, justicia, inmigración, acogida de solicitantes de asilo e igualdad (art. 23.2). Instruido el expediente, la CIAR formula la propuesta y el **Ministro del Interior** resuelve (art. 24.2). Desde el RD 207/2024, la **Dirección General de Protección Internacional** (Subsecretaría del Interior) ejerce las funciones de la OAR y de la presidencia y secretaría de la CIAR, tramita las solicitudes de frontera y gestiona las relaciones con las Delegaciones y Subdelegaciones del Gobierno (art. 15).",
+    "Presentación (arts. 16-17): comparecencia personal, sin demora y como máximo en **1 mes** desde la entrada; la entrada ilegal no se sanciona si cumple los requisitos. Derecho a asistencia sanitaria, **asistencia jurídica gratuita** e intérprete, y confidencialidad. Derechos del solicitante (art. 18.1, siete): ser documentado; asistencia jurídica gratuita e intérprete; comunicación al ACNUR; suspensión de devolución, expulsión o extradición; conocer el expediente; atención sanitaria; prestaciones sociales.",
+    "Efectos (art. 19): no hay retorno, devolución ni expulsión hasta que se resuelva o no se admita la solicitud (salvo medidas cautelares por salud o seguridad públicas); se suspende la extradición pendiente; derecho a entrevistarse con abogado en puestos fronterizos y CIE.",
+    "Inadmisión en territorio (art. 20): el Ministro del Interior, a propuesta de la OAR, por **seis causas**: examen que no corresponde a España según el Reglamento de Dublín o los convenios; refugiado con protección en un tercer Estado; tercer país seguro; reiteración sin novedades; nacional de un Estado miembro de la UE. Se notifica en **1 mes**, o se admite a trámite. Las solicitudes en CIE siguen las reglas de frontera (art. 25.2).",
+    "Recursos (art. 29): ponen fin a la vía administrativa (en frontera, la resolución del reexamen); cabe reposición potestativa y recurso contencioso-administrativo, con suspensión de especial urgencia. Efectos de la denegación (art. 37): retorno, devolución, expulsión, salida obligatoria o traslado al Estado responsable, salvo que pueda permanecer por extranjería o razones humanitarias."
+   ],
+   "tabla": {
+    "cabecera": [
+     "Trámite",
+     "Plazo",
+     "Artículo"
+    ],
+    "filas": [
+     [
+      "Comparecencia para solicitar protección",
+      "**1 mes** desde la entrada (o desde los hechos)",
+      "17.2"
+     ],
+     [
+      "No admisión a trámite en territorio: notificación",
+      "**1 mes** desde la presentación; si no, se admite",
+      "20.2"
+     ],
+     [
+      "Inadmisión o denegación en puesto fronterizo",
+      "**4 días** desde la presentación; hasta **10** si el ACNUR lo pide razonadamente en casos de exclusión o denegación",
+      "21.1-3"
+     ],
+     [
+      "Reexamen en frontera: petición y resolución",
+      "**2 días** desde la notificación (suspende los efectos) y **2 días** para resolver; si no se resuelve, procedimiento ordinario con entrada y permanencia provisional",
+      "21.4-5"
+     ],
+     [
+      "Resolución en el procedimiento ordinario",
+      "**6 meses**; vencido, puede entenderse desestimada",
+      "24.3"
+     ],
+     [
+      "Tramitación de urgencia",
+      "Plazos **reducidos a la mitad**",
+      "25.4"
+     ],
+     [
+      "Informe del ACNUR sobre una propuesta desfavorable (urgencia o art. 20)",
+      "**10 días**",
+      "35.3"
+     ],
+     [
+      "Cese o revocación: notificación",
+      "**6 meses**; vencido, caduca el expediente",
+      "45.7"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Menores y otras personas vulnerables (título V)",
+   "puntos": [
+    "Se atiende de forma diferenciada a los solicitantes vulnerables (art. 46.1): **menores, menores no acompañados, personas con discapacidad, de edad avanzada, mujeres embarazadas, familias monoparentales con menores, personas que han sufrido torturas, violaciones u otras formas graves de violencia psicológica, física o sexual, y víctimas de trata**. Pueden obtener la permanencia por razones humanitarias (46.3) y sus solicitudes, sobre todo las de menores no acompañados, se tramitan de urgencia (art. 25.1.b).",
+    "**Menores no acompañados** (art. 48): se remiten a los servicios de protección de menores y se informa al **Ministerio Fiscal**. Si no puede establecerse con seguridad su minoría de edad, el Fiscal dispone las pruebas de determinación de la edad y **la negativa a someterse no impide resolver** la solicitud. Un representante legal actúa en su nombre. No se ingresa a menores en CIE (art. 62.4 LO 4/2000)."
+   ]
+  },
+  {
+   "titulo": "Acogida: condiciones, itinerario y centros",
+   "puntos": [
+    "Ley 12/2009 (arts. 30-33): servicios sociales y de acogida para los solicitantes sin recursos, prestados por el Ministerio competente de forma directa, indirecta, mediante **acción concertada** (autorización de hasta 4 años prorrogables) o con centros subvencionados (art. 31.1). Puede reducirse o retirarse por abandono del lugar asignado, acceso a recursos, notificación de la resolución, vulneración de derechos de otros residentes o fin del programa (art. 33.1).",
+    "RD 220/2022: planifica y gestiona el sistema la **Secretaría de Estado de Migraciones** (art. 5). Acceden los solicitantes y beneficiarios de protección internacional y los solicitantes y beneficiarios del estatuto de apátrida o de protección temporal, que **carezcan de recursos** (ingresos mensuales que no superan la renta garantizada del Ingreso Mínimo Vital; arts. 2.b y 3). Hay dos tipos de centros: de **valoración inicial y derivación** (alojamiento colectivo y estancia provisional) y de **acogida de protección internacional** (centros abiertos, para solicitudes admitidas a trámite) (arts. 28-29).",
+    "Trabajo: los solicitantes pueden trabajar a los **6 meses** de la solicitud, si está admitida a trámite y sin resolver por causa no imputable (DA 14.ª RD 1155/2024; art. 32 Ley 12/2009)."
+   ],
+   "tabla": {
+    "cabecera": [
+     "Fase del itinerario (RD 220/2022)",
+     "Contenido",
+     "Duración"
+    ],
+    "filas": [
+     [
+      "1. Valoración inicial y derivación (arts. 15-17)",
+      "Evaluar perfil y vulnerabilidad, atender necesidades urgentes y derivar; alojamiento provisional",
+      "**1 mes** como máximo, ampliable en casos excepcionales"
+     ],
+     [
+      "2. Acogida (arts. 18-20)",
+      "Alojamiento, manutención e itinerario individualizado; menores escolarizados en 3 meses",
+      "Hasta la resolución (**6 meses**, art. 24 de la Ley); **6 meses** más para beneficiarios vulnerables; reasentados, **6 meses**"
+     ],
+     [
+      "3. Autonomía (arts. 21-23)",
+      "Tras salir del recurso: ayudas económicas, apoyo social, idioma y formación",
+      "**6 meses**, más **6 meses** para reasentados y vulnerables"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Apátridas y desplazados",
+   "puntos": [
+    "**Apátrida** (RD 865/2001; art. 34 LO 4/2000): quien ningún Estado considera nacional y manifiesta carecer de nacionalidad; estatuto según la Convención de Nueva York de 1954 (art. 1). Lo reconoce el **Ministro del Interior**, que resuelve en **3 meses** (art. 11). La solicitud se dirige a la **OAR** y puede presentarse en **Oficinas de Extranjeros, Comisarías de Policía o la propia OAR** (art. 2), en **1 mes** desde la entrada (art. 4); instruye la OAR, con audiencia de 15 días (art. 9).",
+    "Efectos: residir y trabajar, tarjeta y **documento de viaje de 2 años** (art. 13) y reagrupación familiar (art. 14). Cesa al obtener la nacionalidad española, ser considerado nacional por otro Estado o ser documentado como apátrida por otro (art. 16); la revocación la decide el **Consejo de Ministros** (art. 15.3).",
+    "**Desplazados** (RD 1325/2003): nacionales de terceros países o apátridas que han debido abandonar su país o región, por ejemplo por conflicto armado o violación sistemática de derechos humanos (art. 2). La protección temporal exige una **declaración general** del Consejo de la UE (decisión a propuesta de la Comisión) o del Consejo de Ministros (arts. 3-6). La del Gobierno dura **1 año**, prorrogable automáticamente por otro y, si persisten los motivos, un año más como máximo (art. 7.1).",
+    "El **Ministro del Interior**, a propuesta de la CIAR y por solicitud tramitada por la OAR, resuelve de forma individual (art. 11). Permiso de residencia con renovación **anual** (art. 16); no se acumula con el beneficio de solicitante de asilo (art. 22)."
+   ]
+  },
+  {
+   "titulo": "Unidad familiar, cese, revocación y reasentamiento",
+   "puntos": [
+    "Extensión familiar (art. 40): ascendientes en primer grado dependientes, descendientes menores, cónyuge o persona con análoga relación, otro adulto responsable de un menor no casado y otros familiares dependientes. La reagrupación familiar solo puede ejercerse **una vez** (art. 41).",
+    "**Cese** (art. 42): petición expresa, acogerse de nuevo a la protección del país de nacionalidad, recobrar o adquirir nacionalidad, restablecerse en el país, abandonar España y residir en otro país, o desaparición de las circunstancias. **Revocación** (art. 44): exclusión o denegación sobrevenidas, tergiversación u omisión de hechos decisivos o documentos falsos, y peligro para la seguridad de España. Procedimiento (art. 45): la OAR lo inicia, la CIAR propone y el Ministro del Interior resuelve.",
+    "Reasentamiento (DA 1.ª): el Consejo de Ministros acuerda cada año el número de personas, en colaboración con el ACNUR, y tienen el mismo estatuto que los refugiados reconocidos."
+   ]
+  }
+ ],
+ "trampas": [
+  "Los plazos de frontera: **4 días** para resolver, **2 días** para pedir el reexamen y **2 días** para resolverlo. El **10** solo aparece como ampliación a petición razonada del ACNUR; el 8 no figura.",
+  "«No devolución» no basta: la protección consiste en la **no devolución ni expulsión** (art. 5). El contenido incluye residencia y trabajo **permanentes** (art. 36.1.c).",
+  "Órgano competente: **tramita** la Oficina de Asilo y Refugio, **propone** la CIAR y **resuelve** el Ministro del Interior. No es una Oficina de Extranjería ni el Consejo de Ministros. El estatuto de apátrida también lo reconoce el Ministro del Interior, pero su revocación corresponde al Consejo de Ministros.",
+  "El plazo de resolución es de **6 meses** (no 3): el silencio es desestimatorio. En el estatuto de apátrida es de **3 meses**.",
+  "Asilo y protección subsidiaria son dos modalidades de **protección internacional** con procedimiento único; la persecución por pertenencia a grupo social es motivo de **asilo** (art. 3), no de protección subsidiaria, cuyos daños graves son tres (art. 10).",
+  "Las fases del itinerario de acogida son **valoración inicial y derivación, acogida y autonomía**; la autonomía dura **6 meses** y puede ampliarse **otros 6** solo para reasentados y personas vulnerables.",
+  "No confundir **exclusión** (arts. 8 y 11, causas de la condición de refugiado o beneficiario) con **denegación** (arts. 9 y 12, siempre: peligro para la seguridad de España y condena firme por delito grave) ni con **cese** y **revocación** (arts. 42-44).",
+  "Presentar la solicitud pasado el plazo de **1 mes** no es causa de inadmisión (art. 20); si se hace sin motivo justificado, conlleva la tramitación de urgencia (art. 25.1.e).",
+  "Las relaciones del Ministerio con las Delegaciones y Subdelegaciones del Gobierno en materia de protección internacional las gestiona la **Dirección General de Protección Internacional** (art. 15.2.b RD 207/2024); la Subsecretaría tiene la competencia general sobre esas relaciones solo en las materias no atribuidas a otro órgano (art. 9.2.e).",
+  "Protección temporal: **1 año** más prórroga automática de otro y hasta uno más; el permiso de residencia se renueva cada año. No se acumula con ser solicitante de asilo."
+ ],
+ "caido": [
+  {
+   "examen": "23 abr 2023",
+   "concepto": "Definición de desplazados (RD 1325/2003) y sede del ACNUR."
+  },
+  {
+   "examen": "1 mar 2025",
+   "concepto": "Oficina de Asilo y Refugio como órgano que tramita (art. 23 Ley 12/2009); solicitud en puesto fronterizo, inadmisión por el Ministro del Interior y notificación en 4 días (art. 21); contenido de la protección: no devolución ni expulsión (art. 5); itinerario de acogida en tres fases y fase de autonomía de 6 meses ampliable otros 6 (RD 220/2022); apátridas: la solicitud se dirige a la OAR y puede presentarse en oficinas de extranjeros, comisarías o la propia OAR (RD 865/2001)."
+  },
+  {
+   "examen": "25 oct 2025",
+   "concepto": "Frontera y art. 5 de la Ley 12/2009; propuesta de resolución de la OAR al Ministro del Interior y órgano intermedio que la eleva (CIAR)."
+  },
+  {
+   "examen": "26 sep 2026",
+   "concepto": "Oficina de Asilo y Refugio como órgano que tramita (art. 23); plazos de frontera y no devolución ni expulsión (arts. 5 y 21); fases del itinerario de acogida y duración de la fase de autonomía (RD 220/2022)."
+  }
+ ],
+ "mnemotecnias": [
+  "Frontera, **4-2-2**: 4 días para resolver, 2 para pedir el reexamen y 2 para resolverlo. La ampliación llega a 10 si lo pide el ACNUR.",
+  "Cadena del procedimiento: **OAR tramita, CIAR propone, Ministro resuelve**."
+ ],
+ "tarjetas": [
+  {
+   "p": "¿Qué es el derecho de asilo y qué es la protección subsidiaria?",
+   "r": "Asilo: protección a quien se reconoce la **condición de refugiado** (art. 2). Protección subsidiaria: a quien, sin reunir esos requisitos, se enfrentaría a un **riesgo real de daños graves** si regresara (art. 4)."
+  },
+  {
+   "p": "¿En qué consiste la protección según el art. 5 de la Ley 12/2009?",
+   "r": "En la **no devolución ni expulsión** de las personas a quienes se haya reconocido y en las medidas del art. 36 y de la normativa de la UE y los convenios internacionales."
+  },
+  {
+   "p": "¿Cuáles son los daños graves de la protección subsidiaria?",
+   "r": "Tres (art. 10): **pena de muerte** o riesgo de su ejecución; **tortura** y tratos inhumanos o degradantes; **amenazas graves** contra la vida o la integridad de civiles por violencia indiscriminada en conflicto."
+  },
+  {
+   "p": "¿Qué órgano tramita las solicitudes de protección internacional?",
+   "r": "La **Oficina de Asilo y Refugio**, dependiente del Ministerio del Interior (art. 23.1). Hoy sus funciones las ejerce la Dirección General de Protección Internacional (art. 15 RD 207/2024)."
+  },
+  {
+   "p": "¿Quién es la CIAR y cuál es su papel?",
+   "r": "La **Comisión Interministerial de Asilo y Refugio**: órgano colegiado adscrito al Ministerio del Interior (representantes de los departamentos con competencia en política exterior, interior, justicia, inmigración, acogida e igualdad). Formula la propuesta de resolución (art. 24.2)."
+  },
+  {
+   "p": "¿Plazo para solicitar protección internacional desde la entrada?",
+   "r": "Sin demora y como máximo **1 mes** (art. 17.2); si se presenta pasado ese plazo sin motivo justificado, puede aplicarse la tramitación de urgencia (art. 25.1.e)."
+  },
+  {
+   "p": "Solicitudes en puestos fronterizos: ¿qué plazos hay?",
+   "r": "Resolución de inadmisión o denegación en **4 días**; reexamen: petición en **2 días** y resolución en **2 días**. Ampliación hasta **10 días** si el ACNUR lo pide razonadamente (art. 21)."
+  },
+  {
+   "p": "¿Qué ocurre si no se resuelve en frontera en plazo?",
+   "r": "Se tramita por el procedimiento ordinario y se autoriza la entrada y la permanencia provisional del solicitante (art. 21.5)."
+  },
+  {
+   "p": "¿Qué plazo tiene la resolución ordinaria y qué efecto tiene el silencio?",
+   "r": "**6 meses**; transcurridos, la solicitud puede entenderse **desestimada**, sin perjuicio de resolver expresamente (art. 24.3)."
+  },
+  {
+   "p": "¿Cómo cambian los plazos en la tramitación de urgencia?",
+   "r": "Se **reducen a la mitad** (art. 25.4). Procede, por ejemplo, con solicitudes manifiestamente fundadas, con necesidades específicas (menores no acompañados), de país de origen seguro o con causas de exclusión o denegación (art. 25.1)."
+  },
+  {
+   "p": "¿Qué efecto tiene presentar la solicitud sobre una expulsión o devolución?",
+   "r": "Impide el retorno, la devolución o la expulsión hasta que se resuelva o no se admita la solicitud (art. 19.1); el solicitante tiene derecho a la suspensión de esos procesos (art. 18.1.d)."
+  },
+  {
+   "p": "¿Cuándo pueden trabajar los solicitantes de protección internacional?",
+   "r": "Pasados **6 meses** desde la solicitud, si está admitida a trámite y no resuelta por causa no imputable a ellos (DA 14.ª RD 1155/2024)."
+  },
+  {
+   "p": "¿Cómo se trata a un menor no acompañado solicitante?",
+   "r": "Se remite a los servicios de protección de menores y se informa al **Ministerio Fiscal**; si hay dudas sobre la edad, el Fiscal dispone las pruebas y la negativa a someterse no impide resolver (art. 48)."
+  },
+  {
+   "p": "¿Cuáles son las fases del itinerario de acogida y su duración?",
+   "r": "Valoración inicial y derivación (**1 mes**), acogida (hasta la resolución, 6 meses, más 6 para vulnerables) y autonomía (**6 meses**, más 6 para reasentados y vulnerables). Duración total máxima **18 meses** (RD 220/2022, art. 11.7)."
+  },
+  {
+   "p": "¿Dónde se solicita el estatuto de apátrida y en cuánto se resuelve?",
+   "r": "Se dirige a la OAR y se presenta en **Oficinas de Extranjeros, Comisarías de Policía o la OAR**; lo resuelve el Ministro del Interior en **3 meses** (arts. 2 y 11 RD 865/2001)."
+  },
+  {
+   "p": "¿Quién declara la protección temporal y cuánto dura?",
+   "r": "El **Consejo de la UE** (decisión a propuesta de la Comisión) o el **Consejo de Ministros**. Declarada por el Gobierno: **1 año**, prorrogable automáticamente 1 año más y otro año como máximo (arts. 4 y 7 RD 1325/2003)."
+  },
+  {
+   "p": "¿Cuándo cesa y cuándo se revoca la protección internacional?",
+   "r": "**Cese** (art. 42): petición expresa, nueva protección o nacionalidad, residencia en otro país, desaparición de circunstancias, etc. **Revocación** (art. 44): exclusión o denegación, falsedad u omisión de hechos decisivos, peligro para la seguridad de España."
+  }
+ ],
+ "preguntas": [
+  {
+   "enunciado": "Según el art. 23 de la Ley 12/2009, ¿qué órgano es competente para la tramitación de las solicitudes de protección internacional?",
+   "opciones": [
+    "La Oficina de Asilo y Refugio, dependiente del Ministerio del Interior",
+    "La Oficina de Extranjería de la provincia en que se presenta la solicitud",
+    "La Comisión Interministerial de Asilo y Refugio"
+   ],
+   "correcta": 0,
+   "explicacion": "Art. 23.1: la tramita la Oficina de Asilo y Refugio. La Comisión Interministerial es un órgano colegiado que estudia los expedientes y formula la propuesta al Ministro del Interior (art. 24.2), y las Oficinas de Extranjería gestionan las autorizaciones del régimen general de extranjería. Hoy ejerce las funciones de la Oficina la Dirección General de Protección Internacional (art. 15 RD 207/2024).",
+   "ref": "art. 23.1 Ley 12/2009",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "En el procedimiento ordinario de protección internacional, una vez finalizada la instrucción, ¿quién resuelve concediendo o denegando el asilo o la protección subsidiaria?",
+   "opciones": [
+    "El Consejo de Ministros, a propuesta de la Oficina de Asilo y Refugio",
+    "El Director General de la Policía, previo informe del ACNUR",
+    "El Ministro del Interior, a propuesta de la Comisión Interministerial de Asilo y Refugio"
+   ],
+   "correcta": 2,
+   "explicacion": "Art. 24.2 Ley 12/2009: finalizada la instrucción, los expedientes se elevan a estudio de la Comisión Interministerial de Asilo y Refugio, que formula propuesta al Ministro del Interior, competente para dictar la resolución. El ACNUR solo informa o es oído en ciertos trámites (arts. 34 y 35).",
+   "ref": "art. 24.2 Ley 12/2009",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "La persona que desea solicitar protección internacional debe comparecer, sin demora y como máximo, en el plazo de:",
+   "opciones": [
+    "quince días desde su entrada en territorio español",
+    "un mes desde su entrada en territorio español",
+    "tres meses desde su entrada en territorio español"
+   ],
+   "correcta": 1,
+   "explicacion": "Art. 17.2 Ley 12/2009: sin demora y en todo caso en un mes desde la entrada en territorio español o desde que se produzcan los acontecimientos que justifican el temor fundado. La entrada ilegal no puede sancionarse si la hace quien reúna los requisitos de la protección.",
+   "ref": "art. 17.2 Ley 12/2009",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "Una solicitud de protección internacional presentada en un puesto fronterizo puede ser inadmitida o denegada por el Ministro del Interior mediante resolución motivada que debe notificarse en el plazo máximo de:",
+   "opciones": [
+    "dos días desde su presentación",
+    "ocho días desde su presentación",
+    "cuatro días desde su presentación"
+   ],
+   "correcta": 2,
+   "explicacion": "Art. 21.1 y 21.2 Ley 12/2009: cuatro días desde la presentación. El plazo puede ampliarse hasta diez días si el ACNUR lo pide de forma razonada en los casos de exclusión o denegación (art. 21.3). Dos días es el plazo de la petición de reexamen y de su resolución (art. 21.4); ocho días no figura.",
+   "ref": "art. 21 Ley 12/2009",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Contra la resolución de inadmisión a trámite de una solicitud presentada en frontera cabe una petición de reexamen, que suspende los efectos de la resolución, en el plazo de:",
+   "opciones": [
+    "dos días desde su notificación",
+    "cuatro días desde su notificación",
+    "un mes desde su notificación"
+   ],
+   "correcta": 0,
+   "explicacion": "Art. 21.4 Ley 12/2009: dos días desde la notificación; la resolución del reexamen corresponde al Ministro del Interior y debe notificarse en dos días. Si no se resuelve en plazo, se tramita por el procedimiento ordinario y se autoriza la entrada y la permanencia provisional (art. 21.5).",
+   "ref": "art. 21.4 Ley 12/2009",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "En el procedimiento de frontera, el plazo de cuatro días para denegar la solicitud puede ampliarse hasta un máximo de diez días cuando:",
+   "opciones": [
+    "lo pida el solicitante para preparar su defensa jurídica",
+    "el ACNUR, de manera razonada, lo solicite en los casos en que concurren causas de exclusión o denegación del asilo",
+    "lo autorice el Juez de Instrucción competente sobre el puesto fronterizo"
+   ],
+   "correcta": 1,
+   "explicacion": "Art. 21.3 Ley 12/2009, en relación con el art. 25.1 letra f: la ampliación se acuerda por resolución del Ministro del Interior cuando concurran las circunstancias de exclusión o denegación de los arts. 8, 9, 11 y 12 y el ACNUR lo solicite razonadamente. Ni el solicitante ni el juez la determinan.",
+   "ref": "art. 21.3 Ley 12/2009",
+   "dificultad": 3
+  },
+  {
+   "enunciado": "Transcurridos seis meses desde la presentación de la solicitud en el procedimiento ordinario sin que se haya notificado resolución, la solicitud:",
+   "opciones": [
+    "se entiende concedida por silencio positivo",
+    "podrá entenderse desestimada, sin perjuicio de la obligación de resolver expresamente",
+    "caduca y debe presentarse de nuevo"
+   ],
+   "correcta": 1,
+   "explicacion": "Art. 24.3 Ley 12/2009: transcurridos seis meses sin notificar la resolución, la solicitud podrá entenderse desestimada, sin perjuicio de la obligación de la Administración de resolver y de informar del motivo de la demora si la tramitación excede de seis meses (art. 19.7).",
+   "ref": "art. 24.3 Ley 12/2009",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Una persona en situación irregular, contra la que ya se ha incoado un expediente de expulsión, presenta una solicitud de protección internacional. Respecto a la expulsión:",
+   "opciones": [
+    "puede ejecutarse porque el expediente es anterior a la solicitud",
+    "queda anulada definitivamente la orden de expulsión",
+    "no puede ejecutarse hasta que se resuelva la solicitud o ésta no sea admitida a trámite"
+   ],
+   "correcta": 2,
+   "explicacion": "Art. 19.1 Ley 12/2009 y art. 64.5 LO 4/2000: solicitada la protección, no cabe retorno, devolución ni expulsión hasta que se resuelva o no se admita; el solicitante tiene derecho a la suspensión de esos procesos (art. 18.1.d). La suspensión no equivale a anular la expulsión, y solo por motivos de salud o seguridad públicas pueden adoptarse medidas cautelares.",
+   "ref": "arts. 18 y 19 Ley 12/2009",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Conforme al art. 5 de la Ley 12/2009, la protección concedida con el derecho de asilo y la protección subsidiaria consiste en:",
+   "opciones": [
+    "la no devolución ni expulsión de las personas a quienes se les haya reconocido, y en las medidas previstas en el art. 36",
+    "únicamente la no devolución al país de origen",
+    "una autorización de residencia temporal de un año, renovable"
+   ],
+   "correcta": 0,
+   "explicacion": "Art. 5: no devolución ni expulsión y las medidas del art. 36. Este incluye la autorización de residencia y trabajo permanente, según el art. 36.1 letra c, no una residencia temporal anual. Decir solo «no devolución» omite la expulsión y es la trampa habitual.",
+   "ref": "arts. 5 y 36 Ley 12/2009",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "¿Cuál de los siguientes NO es un daño grave que da lugar a la protección subsidiaria según el art. 10 de la Ley 12/2009?",
+   "opciones": [
+    "La condena a pena de muerte o el riesgo de su ejecución material",
+    "La persecución por motivos de pertenencia a determinado grupo social",
+    "La tortura y los tratos inhumanos o degradantes en el país de origen"
+   ],
+   "correcta": 1,
+   "explicacion": "La persecución por pertenencia a determinado grupo social es un motivo de persecución del art. 3 (condición de refugiado). Los daños graves del art. 10 son tres: pena de muerte o riesgo de su ejecución; tortura y tratos inhumanos o degradantes; y amenazas graves contra la vida o integridad de civiles por violencia indiscriminada en conflicto.",
+   "ref": "arts. 3 y 10 Ley 12/2009",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "¿Cuál de los siguientes motivos NO figura en el art. 3 de la Ley 12/2009 entre los motivos de persecución que fundamentan la condición de refugiado?",
+   "opciones": [
+    "La orientación sexual",
+    "Las opiniones políticas",
+    "La situación económica precaria"
+   ],
+   "correcta": 2,
+   "explicacion": "El art. 3 enumera raza, religión, nacionalidad, opiniones políticas, pertenencia a determinado grupo social, género, orientación sexual o identidad sexual. La situación económica no es motivo de persecución. Las referencias a género, orientación sexual e identidad sexual provienen de la Ley 4/2023.",
+   "ref": "art. 3 Ley 12/2009",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "Los menores no acompañados solicitantes de protección internacional serán, según la Ley 12/2009:",
+   "opciones": [
+    "remitidos a los servicios competentes en materia de protección de menores, poniéndolo en conocimiento del Ministerio Fiscal",
+    "ingresados en un centro de internamiento de extranjeros hasta que se resuelva su solicitud",
+    "tramitados exclusivamente por el procedimiento de frontera"
+   ],
+   "correcta": 0,
+   "explicacion": "Art. 48.1 Ley 12/2009: se remiten a los servicios de protección de menores y se informa al Ministerio Fiscal. Los menores no pueden ser ingresados en CIE (art. 62.4 LO 4/2000) y sus solicitudes se tramitan con carácter de urgencia, según el art. 25.1 letra b, sin quedar limitadas al procedimiento de frontera.",
+   "ref": "arts. 25 y 48 Ley 12/2009",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "Si no puede establecerse con seguridad la minoría de edad de un solicitante de protección internacional y éste se niega a someterse al reconocimiento médico de determinación de la edad:",
+   "opciones": [
+    "no puede dictarse resolución sobre su solicitud hasta que se someta a las pruebas",
+    "la negativa no impide que se dicte resolución sobre la solicitud de protección internacional",
+    "se archiva la solicitud por desistimiento tácito"
+   ],
+   "correcta": 1,
+   "explicacion": "Art. 48.2 Ley 12/2009: el Ministerio Fiscal dispone la determinación de la edad con la colaboración de las instituciones sanitarias, con carácter prioritario y urgente, pero la negativa a someterse al reconocimiento médico no impide que se dicte resolución.",
+   "ref": "art. 48.2 Ley 12/2009",
+   "dificultad": 3
+  },
+  {
+   "enunciado": "¿Cuál de los siguientes colectivos NO aparece citado expresamente entre las personas en situación de vulnerabilidad del art. 46.1 de la Ley 12/2009?",
+   "opciones": [
+    "Las mujeres embarazadas",
+    "Las familias monoparentales con menores de edad",
+    "Las personas con antecedentes penales en el país de origen"
+   ],
+   "correcta": 2,
+   "explicacion": "El art. 46.1 cita menores, menores no acompañados, personas con discapacidad, de edad avanzada, mujeres embarazadas, familias monoparentales con menores de edad, personas que hayan padecido torturas, violaciones u otras formas graves de violencia psicológica, física o sexual y víctimas de trata. Los antecedentes penales no son un factor de vulnerabilidad.",
+   "ref": "art. 46.1 Ley 12/2009",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Según el Reglamento del sistema de acogida de protección internacional (RD 220/2022), el itinerario de acogida se desarrolla en tres fases:",
+   "opciones": [
+    "admisión, instrucción y resolución",
+    "valoración inicial y derivación, acogida y autonomía",
+    "identificación, integración y retorno"
+   ],
+   "correcta": 1,
+   "explicacion": "Art. 11.1 RD 220/2022: valoración inicial y derivación, acogida y autonomía. Admisión, instrucción y resolución serían fases del procedimiento, no del itinerario de acogida.",
+   "ref": "art. 11 RD 220/2022",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "La fase de autonomía del itinerario del sistema de acogida de protección internacional tiene, con carácter general, una duración máxima de:",
+   "opciones": [
+    "seis meses",
+    "tres meses",
+    "doce meses"
+   ],
+   "correcta": 0,
+   "explicacion": "Art. 23 RD 220/2022: seis meses, con una duración adicional máxima de otros seis meses para personas reasentadas y personas en situación de vulnerabilidad. Doce meses solo se alcanza sumando esa ampliación.",
+   "ref": "art. 23 RD 220/2022",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "La duración total del itinerario de acogida de protección internacional no debe superar, salvo autorización excepcional por razones de vulnerabilidad:",
+   "opciones": [
+    "seis meses",
+    "doce meses",
+    "dieciocho meses"
+   ],
+   "correcta": 2,
+   "explicacion": "Art. 11.7 RD 220/2022: dieciocho meses, con la salvedad de los casos de vulnerabilidad que se autoricen excepcionalmente.",
+   "ref": "art. 11.7 RD 220/2022",
+   "dificultad": 3
+  },
+  {
+   "enunciado": "La solicitud de reconocimiento del estatuto de apátrida se dirige a la Oficina de Asilo y Refugio y, según el RD 865/2001, puede presentarse en:",
+   "opciones": [
+    "únicamente las representaciones consulares de España",
+    "las Oficinas de Extranjeros, las Comisarías de Policía o la propia Oficina de Asilo y Refugio",
+    "los Juzgados de Primera Instancia del domicilio del solicitante"
+   ],
+   "correcta": 1,
+   "explicacion": "Art. 2.3 RD 865/2001: Oficinas de Extranjeros, Comisarías de Policía u Oficina de Asilo y Refugio. El estatuto lo reconoce el Ministro del Interior en un plazo no superior a tres meses (art. 11).",
+   "ref": "arts. 2 y 11 RD 865/2001",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "La protección temporal declarada por el Consejo de Ministros en caso de afluencia masiva de personas desplazadas tiene, según el RD 1325/2003, una duración de:",
+   "opciones": [
+    "un año, automáticamente prorrogable por otro, y un año más como máximo si persisten los motivos",
+    "seis meses, prorrogables hasta un máximo de tres años",
+    "dos años, sin posibilidad de prórroga"
+   ],
+   "correcta": 0,
+   "explicacion": "Art. 7.1 RD 1325/2003: un año, automáticamente prorrogable por otro periodo anual, y, si persisten los motivos, el Consejo de Ministros, a propuesta del Ministro del Interior, puede prorrogarla un año más como máximo. El permiso de residencia se renueva anualmente (art. 16).",
+   "ref": "art. 7 RD 1325/2003",
+   "dificultad": 3
+  },
+  {
+   "enunciado": "Conforme a la disposición adicional 14.ª del RD 1155/2024, los solicitantes de protección internacional quedan autorizados para trabajar una vez transcurridos, desde la fecha de la solicitud, siempre que esté admitida a trámite y no resuelta por causa no imputable al interesado:",
+   "opciones": [
+    "tres meses",
+    "un año",
+    "seis meses"
+   ],
+   "correcta": 2,
+   "explicacion": "DA 14.ª RD 1155/2024: seis meses desde la solicitud, con la condición de que esté admitida a trámite y no resuelta por causa no imputable al interesado. La autorización consta con la inscripción «autoriza a trabajar» en el documento de solicitante. El art. 32 de la Ley 12/2009 remite a ese desarrollo.",
+   "ref": "DA 14.ª RD 1155/2024; art. 32 Ley 12/2009",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Según el RD 207/2024, ¿qué órgano directivo del Ministerio del Interior ejerce las funciones que el ordenamiento jurídico atribuye a la Oficina de Asilo y Refugio?",
+   "opciones": [
+    "La Dirección General de Protección Internacional, dependiente de la Subsecretaría del Interior",
+    "La Dirección General de Relaciones Internacionales y Extranjería, dependiente de la Secretaría de Estado de Seguridad",
+    "La Comisaría General de Extranjería y Fronteras, de la Dirección General de la Policía"
+   ],
+   "correcta": 0,
+   "explicacion": "Art. 15.2 RD 207/2024: la Dirección General de Protección Internacional (que depende de la Subsecretaría según el art. 1.5) ejerce esas funciones, además de las de la Comisión Interministerial de Asilo y Refugio, las relaciones con las Delegaciones y Subdelegaciones del Gobierno y la tramitación de las solicitudes de frontera. Las otras dos tienen competencias de relaciones internacionales y de control policial de fronteras, respectivamente.",
+   "ref": "arts. 1.5 y 15 RD 207/2024",
+   "dificultad": 3
+  },
+  {
+   "enunciado": "Procede la revocación del estatuto de refugiado o de la protección subsidiaria cuando:",
+   "opciones": [
+    "la persona beneficiaria haya adquirido una nueva nacionalidad y disfrute de la protección de ese país",
+    "la persona beneficiaria haya tergiversado u omitido hechos decisivos para la concesión, incluido el uso de documentos falsos",
+    "la persona beneficiaria haya abandonado el territorio español y fijado su residencia en otro país"
+   ],
+   "correcta": 1,
+   "explicacion": "Art. 44.1.b Ley 12/2009: tergiversar u omitir hechos decisivos, incluido el uso de documentos falsos, es causa de revocación. Adquirir una nueva nacionalidad y abandonar España para residir en otro país son causas de cese (art. 42.1.d y 42.1.f, y art. 43 para la protección subsidiaria).",
+   "ref": "arts. 42-44 Ley 12/2009",
+   "dificultad": 3
+  }
+ ],
+ "dudas": [
+  "La Ley 12/2009 ordenó aprobar su reglamento en seis meses (DF 3.ª) y en las fuentes leídas no consta un reglamento general de desarrollo; fuentes secundarias indican que se sigue aplicando de forma complementaria el RD 203/1995 (reglamento de la Ley 5/1984, derogada). No se ha podido contrastar con el texto de ese reglamento.",
+  "Los anteproyectos de nueva ley de asilo y de reforma de la LO 4/2000 (Consejo de Ministros, 25/08/2026) se conocen por notas oficiales y de prensa; no se ha leído su texto íntegro y no están en vigor. El Pacto Europeo de Migración y Asilo (Reglamentos de la UE) no se ha leído en texto.",
+  "El RD 865/2001 y el RD 1325/2003 conservan en su texto consolidado referencias a normas ya derogadas (Ley 5/1984, Ley 30/1992, RD 864/2001): no se formulan preguntas que dependan de esas remisiones.",
+  "La sede del ACNUR (dato que cayó en P39) no figura en las normas leídas y no se desarrolla en la ficha."
+ ]
+}

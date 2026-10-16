@@ -1,0 +1,501 @@
+{
+  "tema": 19,
+  "titulo": "Delitos contra el orden público",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "Media de 1,4 preguntas por examen (entre 1 y 2). Lo habitual: atentado y equiparados (arts. 550-554), armas (arts. 563-564), desórdenes públicos y falsa alarma (art. 561)."
+  },
+  "normas": [
+    {
+      "nombre": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (arts. 24 y 550-570)",
+      "boe": "BOE-A-1995-25444",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "verificado": "Texto consolidado, última actualización de la consolidación 09/04/2026 (leído el 16/10/2026)"
+    }
+  ],
+  "novedades": [
+    "La LO 14/2022, de 22 de diciembre (en vigor desde el 12/01/2023) suprimió el delito de sedición (arts. 544-549), reescribió los arts. 557 y 557 bis y suprimió los antiguos arts. 557 ter y 559. El material anterior a 2023 que hable de agravantes del antiguo art. 557 bis o de la incitación a los desórdenes (art. 559) está desfasado.",
+    "La LO 1/2026, de 8 de abril, añadió un apartado 2 al art. 568 CP (explosivos e inflamables): si la sustancia inflamable es un combustible líquido, la pena es de 3 a 5 años de prisión, con posible rebaja en un grado en conductas de menor entidad. El texto anterior pasó a ser el apartado 1.",
+    "Desde la LO 1/2015 el atentado se regula en los arts. 550, 551 y 553-554 (los antiguos arts. 552 y 555 están suprimidos); de ahí vienen los actos contra docentes y sanitarios (art. 550.1) y el apartado 3 del art. 554."
+  ],
+  "clave": [
+    "**Atentado (art. 550)**: agredir, acometer o, con intimidación grave o violencia, oponer resistencia grave a autoridad, agentes o funcionarios públicos en ejercicio de sus funciones **o con ocasión de ellas**.",
+    "Pena del atentado: **prisión de 1 a 4 años y multa de 3 a 6 meses** si es contra autoridad; **prisión de 6 meses a 3 años** en los demás casos (art. 550.2). Contra jueces, magistrados, fiscales, miembros del Gobierno y otros cargos del art. 550.3: **1 a 6 años** y multa de 6 a 12 meses.",
+    "Agravación (art. 551): pena **superior en grado** si hay armas u objetos peligrosos, violencia potencialmente peligrosa para la vida, acometimiento con **vehículo de motor** o motín en un centro penitenciario.",
+    "Equiparados (art. 554): militar uniformado en servicio, quienes acuden en auxilio de la autoridad, bomberos y sanitarios en emergencia (con la finalidad de impedirles sus funciones) y **seguridad privada** identificada que actúa en cooperación y bajo el mando de las FCS.",
+    "**Resistencia o desobediencia grave** a la autoridad o sus agentes sin llegar al atentado (art. 556.1): prisión de 3 meses a 1 año o multa de 6 a 18 meses. Faltar al respeto a la autoridad: multa de 1 a 3 meses (art. 556.2).",
+    "**Desórdenes públicos (art. 557)**: en grupo, con el fin de atentar contra la paz pública, actos de violencia o intimidación: prisión de **6 meses a 3 años**; si es una multitud idónea para afectar gravemente el orden público: **3 a 5 años** e inhabilitación especial.",
+    "**Falsa alarma (art. 561)**: afirmar falsamente o simular un peligro para la comunidad o un siniestro que exija auxilio y provocar la movilización de policía, asistencia o salvamento: prisión de 3 meses y un día a 1 año o multa de 3 a 18 meses.",
+    "**Armas**: prohibidas (art. 563) **1 a 3 años**; reglamentadas sin licencia (art. 564): **cortas 1 a 2 años, largas 6 meses a 1 año**; con marcas alteradas, introducidas ilegalmente o transformadas: 2 a 3 años y 1 a 2 años.",
+    "**Depósito de armas de fuego reglamentadas**: reunión, fabricación o comercialización de **cinco o más** armas (art. 567.3).",
+    "**Disposición común (art. 562)**: si el autor es **autoridad**, la inhabilitación prevista se sustituye por **inhabilitación absoluta de 10 a 15 años**, salvo que el tipo ya lo prevea.",
+    "La **sedición está suprimida** y la **rebelión** no pertenece a este título (Título XXI, delitos contra la Constitución)."
+  ],
+  "resumen": [
+    {
+      "titulo": "Atentado contra la autoridad, sus agentes y los funcionarios (arts. 550-554)",
+      "puntos": [
+        "Conducta (art. 550.1): **agredir**, **acometer** o, con **intimidación grave o violencia**, oponer **resistencia grave** a la autoridad, a sus agentes o a funcionarios públicos que estén en el ejercicio de sus funciones **o con ocasión de ellas**.",
+        "Contra **funcionarios docentes o sanitarios** en el ejercicio de sus funciones (o con ocasión de ellas) hay atentado **en todo caso** (art. 550.1, párrafo segundo).",
+        "Concepto penal de autoridad (art. 24.1): quien tiene mando o ejerce jurisdicción propia, solo o en un órgano colegiado. Lo son siempre diputados, senadores, miembros de asambleas autonómicas y del Parlamento Europeo y **los funcionarios del Ministerio Fiscal**. Funcionario público (art. 24.2): quien participa en funciones públicas por ley, elección o nombramiento.",
+        "Agravación (art. 551): pena **superior en grado** si el atentado se comete con armas u otros objetos peligrosos; con un acto de violencia potencialmente peligroso para la vida o que pueda causar lesiones graves (lanzar objetos contundentes o líquidos inflamables, incendio, explosivos); acometiendo con un **vehículo de motor**; o con ocasión de un motín, plante o incidente colectivo en un centro penitenciario.",
+        "Equiparados (art. 554): militar **uniformado** que presta un servicio legalmente encomendado; quienes acometen, usan violencia o intimidan a las personas que **acuden en auxilio** de la autoridad, sus agentes o funcionarios; y quienes acometen, usan violencia o intimidan **gravemente** a bomberos, sanitarios o equipos de socorro que intervienen en una emergencia **con la finalidad de impedirles el ejercicio de sus funciones**, o al **personal de seguridad privada** identificado que actúa en cooperación y **bajo el mando de las FCS**.",
+        "La provocación, la conspiración y la proposición para estos delitos se castigan con la pena **inferior en uno o dos grados** (art. 553)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Víctima del atentado",
+          "Pena"
+        ],
+        "filas": [
+          [
+            "Autoridad (art. 550.2)",
+            "Prisión de **1 a 4 años** y multa de 3 a 6 meses"
+          ],
+          [
+            "Agente de la autoridad o funcionario público (art. 550.2)",
+            "Prisión de **6 meses a 3 años**"
+          ],
+          [
+            "Miembro del Gobierno, de consejos de gobierno autonómicos, del Congreso, Senado, asambleas legislativas autonómicas, corporaciones locales o CGPJ; magistrado del TC; juez, magistrado o miembro del Ministerio Fiscal (art. 550.3)",
+            "Prisión de **1 a 6 años** y multa de 6 a 12 meses"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Resistencia, desobediencia y falta de respeto (art. 556)",
+      "puntos": [
+        "Resistencia o desobediencia **grave** a la autoridad o a sus agentes en el ejercicio de sus funciones (o al personal de seguridad privada identificado que actúa en cooperación y bajo el mando de las FCS), **sin estar comprendida en el art. 550**: prisión de **3 meses a 1 año** o multa de **6 a 18 meses** (art. 556.1).",
+        "Faltar al respeto y consideración debida a la autoridad en el ejercicio de sus funciones: multa de **1 a 3 meses** (art. 556.2).",
+        "Frontera con el atentado: este exige agredir, acometer o resistir con violencia o intimidación grave; si solo hay resistencia o desobediencia graves sin eso, se aplica el art. 556."
+      ]
+    },
+    {
+      "titulo": "Desórdenes públicos y delitos próximos (arts. 557-562)",
+      "puntos": [
+        "Los desórdenes se rehicieron con la LO 14/2022: ya no existe la incitación a los desórdenes (art. 559) ni la sedición.",
+        "Las penas del art. 557 se imponen **sin perjuicio** de las que correspondan a los actos concretos de lesiones, amenazas, coacciones o daños (art. 557.6). Se agravan (mitad superior) si se portan instrumentos peligrosos o hay pillaje, y en un grado si se portan armas de fuego (art. 557.3). Provocar en lugar concurrido una avalancha o estampida que ponga en peligro vidas es delito de prisión de 6 meses a 2 años (art. 557.5).",
+        "Disposición común (art. 562): si quien comete cualquiera de los delitos de los capítulos anteriores es **autoridad**, la inhabilitación prevista se sustituye por **inhabilitación absoluta de 10 a 15 años**, salvo que el propio tipo ya lo contemple (como el art. 557.2).",
+        "Estructura del Título XXII: sedición (suprimida), atentados y resistencia, desórdenes, disposición común, armas y explosivos, organizaciones y grupos criminales y terrorismo. La **rebelión** está en el Título XXI y no es delito contra el orden público."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Precepto",
+          "Conducta",
+          "Pena"
+        ],
+        "filas": [
+          [
+            "Art. 557.1",
+            "Actuando en grupo y con el fin de atentar contra la paz pública: violencia o intimidación sobre personas o cosas; obstaculizar vías públicas con peligro para la vida o salud; invadir instalaciones o edificios alterando gravemente servicios esenciales",
+            "Prisión de **6 meses a 3 años**"
+          ],
+          [
+            "Art. 557.2",
+            "Los mismos hechos por una multitud cuyo número, organización y propósito sean idóneos para afectar gravemente el orden público",
+            "Prisión de **3 a 5 años** e inhabilitación especial para empleo o cargo público (absoluta de 6 a 8 años si son autoridad)"
+          ],
+          [
+            "Art. 557 bis",
+            "En grupo, invadir u ocupar contra la voluntad de su titular el domicilio de una persona jurídica, despacho, oficina, establecimiento o local, causando perturbación relevante de la paz pública y de su actividad normal",
+            "Prisión de 3 a 6 meses o multa de 6 a 12 meses"
+          ],
+          [
+            "Art. 558",
+            "Perturbar gravemente el orden en la audiencia de un tribunal, actos públicos de autoridades, colegio electoral, oficina o establecimiento público, centro docente o espectáculos deportivos o culturales",
+            "Prisión de 3 a 6 meses o multa de 6 a 12 meses (puede añadirse la privación de acudir a esos lugares o eventos)"
+          ],
+          [
+            "Art. 561",
+            "Afirmar falsamente o simular un peligro para la comunidad o un siniestro que exija auxilio, provocando la movilización de policía, asistencia o salvamento (falsa alarma)",
+            "Prisión de 3 meses y un día a 1 año o multa de 3 a 18 meses"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Tenencia, tráfico y depósito de armas, municiones o explosivos (arts. 563-570)",
+      "puntos": [
+        "Atenuación (art. 565): el juez o tribunal **puede** rebajar la pena en un grado si por las circunstancias del hecho y del culpable se evidencia la falta de intención de usar las armas con fines ilícitos.",
+        "Concepto de depósito (art. 567): armas de guerra, la fabricación, comercialización o tenencia de cualquiera, aun desmontada; armas de fuego reglamentadas, la fabricación, comercialización o reunión de **cinco o más**; en las municiones decide el tribunal según cantidad y clase. La comercialización incluye adquirir y enajenar.",
+        "Los depósitos establecidos en nombre o por cuenta de una asociación con propósito delictivo determinan la **declaración judicial de ilicitud y su disolución** (art. 569).",
+        "Penas accesorias (art. 570): privación del derecho a la tenencia y porte de armas por tiempo **superior en tres años** a la prisión impuesta; y, si el autor está autorizado a fabricar o traficar con esas sustancias, armas o municiones, inhabilitación especial para su industria o comercio de **12 a 20 años**."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Precepto",
+          "Conducta",
+          "Pena"
+        ],
+        "filas": [
+          [
+            "Art. 563",
+            "Tenencia de armas prohibidas y de las que resultan de la modificación sustancial de armas reglamentadas",
+            "Prisión de **1 a 3 años**"
+          ],
+          [
+            "Art. 564.1.1.º",
+            "Tenencia de armas de fuego reglamentadas **cortas** sin licencia o permiso",
+            "Prisión de **1 a 2 años**"
+          ],
+          [
+            "Art. 564.1.2.º",
+            "Tenencia de armas de fuego reglamentadas **largas** sin licencia o permiso",
+            "Prisión de **6 meses a 1 año**"
+          ],
+          [
+            "Art. 564.2",
+            "Los supuestos anteriores si el arma carece de marcas de fábrica o número (o están alterados o borrados), fue introducida ilegalmente en España o fue transformada",
+            "Cortas: **2 a 3 años**; largas: **1 a 2 años**"
+          ],
+          [
+            "Art. 566.1.1.º",
+            "Fabricar, comercializar o establecer depósitos no autorizados de armas o municiones de guerra, armas químicas, biológicas, nucleares o radiológicas, minas antipersona o municiones en racimo",
+            "Promotores y organizadores: 5 a 10 años; cooperadores: 3 a 5 años"
+          ],
+          [
+            "Art. 566.1.2.º",
+            "Lo mismo con armas de fuego reglamentadas o sus municiones",
+            "Promotores y organizadores: 2 a 4 años; cooperadores: 6 meses a 2 años"
+          ],
+          [
+            "Art. 568.1",
+            "Tenencia o depósito de sustancias o aparatos explosivos, inflamables, incendiarios o asfixiantes (o sus componentes), fabricación, tráfico, transporte o suministro no autorizados",
+            "Promotores y organizadores: 4 a 8 años; cooperadores: 3 a 5 años"
+          ],
+          [
+            "Art. 568.2",
+            "Si la sustancia inflamable es un combustible líquido",
+            "Prisión de 3 a 5 años; rebaja en grado posible en conductas de menor entidad"
+          ]
+        ]
+      }
+    }
+  ],
+  "trampas": [
+    "Atentado frente a resistencia o desobediencia: el atentado exige agredir, acometer o resistir con intimidación grave o violencia; la resistencia o desobediencia graves sin eso son del art. 556.",
+    "La pena del atentado depende de quién es la víctima: autoridad (1 a 4 años y multa), agente o funcionario (6 meses a 3 años) o cargos del art. 550.3 (1 a 6 años y multa). No la confundas con la agravación del art. 551, que sube la pena un grado.",
+    "Docentes y sanitarios (art. 550.1) son atentado «en todo caso»; en cambio, bomberos y sanitarios de equipos de socorro (art. 554.3) exigen emergencia y la finalidad de impedirles sus funciones.",
+    "La seguridad privada solo queda equiparada si está debidamente identificada y actúa en cooperación y bajo el mando de las FCS; no cualquier vigilante.",
+    "Armas: las cortas se castigan más que las largas (1 a 2 años frente a 6 meses a 1 año). El distractor típico invierte los datos o usa los 1 a 3 años de las armas prohibidas (art. 563).",
+    "Depósito de armas de fuego reglamentadas: cinco o más armas, no tres ni cuatro; en las armas de guerra basta cualquiera, y en las municiones decide el tribunal.",
+    "Sedición suprimida desde 2023 y rebelión fuera del título: las preguntas de ubicación sistemática juegan con ello. Tampoco existe ya la incitación del art. 559.",
+    "Disposición común (art. 562): inhabilitación absoluta de 10 a 15 años para la autoridad; no la mezcles con los 6 a 8 años del art. 557.2 ni con los 12 a 20 años del art. 570.2.",
+    "Concurso de delitos: las penas de los desórdenes se imponen sin perjuicio de las de lesiones, amenazas, coacciones o daños (art. 557.6); no hay absorción automática."
+  ],
+  "caido": [
+    {
+      "examen": "23 abr 2023 y 1 mar 2025",
+      "concepto": "Tenencia de armas de fuego reglamentadas sin licencia (art. 564) y armas prohibidas, p. ej. escopeta de cañones recortados (art. 563)."
+    },
+    {
+      "examen": "23 abr 2023, 1 mar 2025 y 25 oct 2025",
+      "concepto": "Atentado y equiparados (art. 554.3): bomberos, sanitarios y seguridad privada en cooperación con las FCS; agresión a funcionario público o personal sanitario."
+    },
+    {
+      "examen": "26 sep 2026",
+      "concepto": "Caso de disturbios con desórdenes públicos y atentado: calificación conjunta de los hechos."
+    },
+    {
+      "examen": "26 sep 2026",
+      "concepto": "Falsa alarma por aviso falso de bomba (art. 561)."
+    },
+    {
+      "examen": "13 abr 2024",
+      "concepto": "Ubicación sistemática: la rebelión no es un delito contra el orden público."
+    }
+  ],
+  "mnemotecnias": [
+    "Atentado: «Autoridad 1 a 4 (y multa), Agente 6 meses a 3»; los cargos del art. 550.3, de 1 a 6.",
+    "Armas: la corta es la cara (1 a 2 años), la larga la barata (6 meses a 1 año). Las prohibidas, 1 a 3.",
+    "Depósito de armas de fuego reglamentadas = «una mano»: cinco o más."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Qué pena tiene el atentado contra autoridad (art. 550.2)?",
+      "r": "Prisión de **1 a 4 años** y multa de 3 a 6 meses."
+    },
+    {
+      "p": "¿Qué pena tiene el atentado contra agentes de la autoridad o funcionarios públicos (art. 550.2)?",
+      "r": "Prisión de **6 meses a 3 años**."
+    },
+    {
+      "p": "¿Qué efecto tiene cometer el atentado con armas, con vehículo de motor o con violencia peligrosa para la vida (art. 551)?",
+      "r": "Pena **superior en grado** a la del art. 550."
+    },
+    {
+      "p": "¿Qué actos son atentado «en todo caso» según el art. 550.1?",
+      "r": "Los cometidos contra **funcionarios docentes o sanitarios** en el ejercicio de sus funciones o con ocasión de ellas."
+    },
+    {
+      "p": "¿Qué exige el art. 554.3 para equiparar al atentado la violencia contra bomberos o sanitarios?",
+      "r": "Que intervengan en un siniestro, calamidad o emergencia y que se actúe **con la finalidad de impedirles el ejercicio de sus funciones**."
+    },
+    {
+      "p": "¿Cuándo se equipara al atentado la agresión a personal de seguridad privada?",
+      "r": "Si está **debidamente identificado** y actúa **en cooperación y bajo el mando de las FCS** (arts. 554.3 y 556.1)."
+    },
+    {
+      "p": "¿Pena de la resistencia o desobediencia grave a la autoridad o sus agentes (art. 556.1)?",
+      "r": "Prisión de **3 meses a 1 año** o multa de **6 a 18 meses**."
+    },
+    {
+      "p": "¿Pena de faltar al respeto y consideración debida a la autoridad en el ejercicio de sus funciones (art. 556.2)?",
+      "r": "Multa de **1 a 3 meses**."
+    },
+    {
+      "p": "¿Pena del tipo básico de desórdenes públicos (art. 557.1)?",
+      "r": "Prisión de **6 meses a 3 años**."
+    },
+    {
+      "p": "¿Y si los desórdenes los comete una multitud idónea para afectar gravemente el orden público (art. 557.2)?",
+      "r": "Prisión de **3 a 5 años** e inhabilitación especial para empleo o cargo público por el mismo tiempo."
+    },
+    {
+      "p": "¿Pena de la falsa alarma (art. 561)?",
+      "r": "Prisión de **3 meses y un día a 1 año** o multa de 3 a 18 meses."
+    },
+    {
+      "p": "¿Qué dice la disposición común del art. 562 si el autor es autoridad?",
+      "r": "La inhabilitación prevista se sustituye por **inhabilitación absoluta de 10 a 15 años**, salvo que el tipo ya lo contemple."
+    },
+    {
+      "p": "¿Pena de la tenencia de armas prohibidas (art. 563)?",
+      "r": "Prisión de **1 a 3 años**."
+    },
+    {
+      "p": "¿Penas de la tenencia sin licencia de armas de fuego reglamentadas (art. 564.1)?",
+      "r": "Cortas: **1 a 2 años**; largas: **6 meses a 1 año**."
+    },
+    {
+      "p": "¿A partir de cuántas armas de fuego reglamentadas hay depósito de armas (art. 567.3)?",
+      "r": "A partir de **cinco** (fabricación, comercialización o reunión)."
+    },
+    {
+      "p": "¿Qué ocurrió con el delito de sedición?",
+      "r": "Fue **suprimido** (arts. 544-549) por la LO 14/2022, en vigor desde el 12/01/2023."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Según el Código Penal, el atentado cometido contra una autoridad (supuesto básico del art. 550.2) se castiga con:",
+      "opciones": [
+        "Prisión de 6 meses a 3 años.",
+        "Prisión de 1 a 4 años y multa de 3 a 6 meses.",
+        "Prisión de 3 meses a 1 año o multa de 6 a 18 meses."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 550.2 prevé prisión de 1 a 4 años y multa de 3 a 6 meses si el atentado es contra autoridad. La prisión de 6 meses a 3 años es la pena del atentado contra agentes de la autoridad o funcionarios públicos, y la de 3 meses a 1 año o multa de 6 a 18 meses corresponde a la resistencia o desobediencia grave del art. 556.1.",
+      "ref": "art. 550.2 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "La tenencia de armas de fuego cortas reglamentadas, careciendo de las licencias o permisos necesarios, se castiga según el art. 564.1 CP con:",
+      "opciones": [
+        "Prisión de 1 a 2 años.",
+        "Prisión de 6 meses a 1 año.",
+        "Prisión de 1 a 3 años."
+      ],
+      "correcta": 0,
+      "explicacion": "Las armas cortas llevan prisión de 1 a 2 años (art. 564.1.1.º). La de 6 meses a 1 año corresponde a las armas largas (564.1.2.º) y la de 1 a 3 años a la tenencia de armas prohibidas o resultantes de modificación sustancial de armas reglamentadas (art. 563).",
+      "ref": "art. 564.1 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el art. 567.3 del Código Penal, se considera depósito de armas de fuego reglamentadas la fabricación, comercialización o reunión de un número mínimo de:",
+      "opciones": [
+        "Tres armas.",
+        "Cuatro armas.",
+        "Cinco o más armas."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 567.3 exige cinco o más armas de fuego reglamentadas, aunque estén en piezas desmontadas. En las armas de guerra basta la fabricación, comercialización o tenencia de cualquiera (567.1) y en las municiones decide el tribunal según cantidad y clase (567.4).",
+      "ref": "art. 567.3 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale cuál de los siguientes supuestos NO figura entre los que llevan la pena superior en grado en el atentado según el art. 551 CP:",
+      "opciones": [
+        "Hacer uso de armas u otros objetos peligrosos.",
+        "Acometer a la autoridad, a su agente o al funcionario haciendo uso de un vehículo de motor.",
+        "Que la víctima sea un funcionario docente o sanitario en el ejercicio de sus funciones."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 551 agrava el uso de armas u objetos peligrosos, la violencia potencialmente peligrosa para la vida, el acometimiento con vehículo de motor y el hecho con ocasión de un motín en un centro penitenciario. Que la víctima sea docente o sanitario no agrava la pena: hace que el hecho sea atentado en todo caso (art. 550.1, párrafo segundo).",
+      "ref": "arts. 550.1 y 551 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una persona desobedece gravemente las órdenes de un agente de la autoridad en el ejercicio de sus funciones, pero no le agrede ni emplea violencia o intimidación grave. En principio, el hecho se califica como:",
+      "opciones": [
+        "Atentado del art. 550.",
+        "Resistencia o desobediencia grave del art. 556.1.",
+        "Desórdenes públicos del art. 557."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 556.1 castiga la resistencia o desobediencia graves a la autoridad o sus agentes «sin estar comprendidos en el artículo 550». El atentado exige agredir, acometer o resistir con intimidación grave o violencia, y los desórdenes públicos exigen actuar en grupo con el fin de atentar contra la paz pública.",
+      "ref": "arts. 550.1, 556.1 y 557 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre las conductas equiparadas al atentado en el art. 554.3 CP:",
+      "opciones": [
+        "Alcanza a bomberos y personal sanitario que intervienen en una emergencia, cuando se actúa con la finalidad de impedirles el ejercicio de sus funciones.",
+        "Alcanza al personal de seguridad privada debidamente identificado que actúa en cooperación y bajo el mando de las Fuerzas y Cuerpos de Seguridad.",
+        "Alcanza a cualquier vigilante de seguridad privada, aunque no preste servicio en cooperación con las Fuerzas y Cuerpos de Seguridad."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 554.3 solo protege al personal de seguridad privada debidamente identificado que desarrolla su actividad en cooperación y bajo el mando de las FCS. Las otras dos afirmaciones son correctas: bomberos y sanitarios quedan equiparados cuando intervienen en un siniestro o emergencia y se actúa con la finalidad de impedirles ejercer sus funciones.",
+      "ref": "art. 554.3 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Los desórdenes públicos cometidos por una multitud cuyo número, organización y propósito sean idóneos para afectar gravemente el orden público (art. 557.2 CP) se castigan con:",
+      "opciones": [
+        "Prisión de 6 meses a 3 años.",
+        "Prisión de 3 a 5 años e inhabilitación especial para empleo o cargo público por el mismo tiempo.",
+        "Prisión de 1 a 4 años y multa de 3 a 6 meses."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 557.2 prevé prisión de 3 a 5 años e inhabilitación especial para empleo o cargo público por el mismo tiempo (absoluta de 6 a 8 años si los autores son autoridad). Los 6 meses a 3 años son la pena del tipo básico (art. 557.1), y la prisión de 1 a 4 años con multa es la del atentado contra autoridad (art. 550.2).",
+      "ref": "art. 557.2 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una persona llama a emergencias y afirma falsamente que hay una bomba en un edificio público, lo que provoca la movilización de la policía y de los servicios de salvamento. El hecho constituye:",
+      "opciones": [
+        "Un delito del art. 561 (falsa alarma): prisión de 3 meses y un día a 1 año o multa de 3 a 18 meses.",
+        "Un delito de desórdenes públicos del art. 557.1: prisión de 6 meses a 3 años.",
+        "Un delito de atentado del art. 550: prisión de 6 meses a 3 años."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 561 castiga a quien afirma falsamente o simula una situación de peligro para la comunidad y provoca la movilización de servicios de policía, asistencia o salvamento. No hay grupo ni violencia (desórdenes) ni agresión a un agente (atentado).",
+      "ref": "art. 561 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Tras la LO 14/2022, de 22 de diciembre, ¿cuál es la situación del delito de sedición en el Código Penal?",
+      "opciones": [
+        "Fue suprimido: los arts. 544 a 549 quedaron sin contenido.",
+        "Se mantiene en el capítulo I del Título XXII con prisión de 8 a 10 años para los promotores.",
+        "Se trasladó al Título XXI como delito contra la Constitución, junto a la rebelión."
+      ],
+      "correcta": 0,
+      "explicacion": "La LO 14/2022 suprimió la sedición (arts. 544-549), con efectos desde el 12/01/2023. El capítulo I del Título XXII figura hoy como suprimido, y la rebelión, que sigue vigente, está en el Título XXI.",
+      "ref": "arts. 544-549 CP; LO 14/2022",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes delitos NO está comprendido en el Título XXII del Libro II del Código Penal (delitos contra el orden público)?",
+      "opciones": [
+        "El atentado contra la autoridad.",
+        "La rebelión.",
+        "La tenencia ilícita de armas."
+      ],
+      "correcta": 1,
+      "explicacion": "La rebelión se regula en el Título XXI (delitos contra la Constitución, capítulo I). El atentado (art. 550) y la tenencia de armas (arts. 563-564) pertenecen al Título XXII.",
+      "ref": "Título XXI y Título XXII, Libro II CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Si el autor de cualquiera de los delitos de los capítulos I a III del Título XXII del Código Penal se halla constituido en autoridad, el art. 562 sustituye la inhabilitación prevista en cada caso por:",
+      "opciones": [
+        "Inhabilitación absoluta de 6 a 8 años.",
+        "Inhabilitación especial de 12 a 20 años.",
+        "Inhabilitación absoluta de 10 a 15 años."
+      ],
+      "correcta": 2,
+      "explicacion": "La disposición común del art. 562 prevé inhabilitación absoluta de 10 a 15 años, salvo que la circunstancia esté ya contemplada en el tipo. Los 6 a 8 años son la inhabilitación absoluta específica del art. 557.2 y los 12 a 20 años corresponden a la inhabilitación especial para industria o comercio del art. 570.2.",
+      "ref": "art. 562 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La privación del derecho a la tenencia y porte de armas que el art. 570.1 CP permite imponer en los delitos de tenencia, tráfico y depósito de armas se fija por un tiempo:",
+      "opciones": [
+        "Superior en tres años a la pena de prisión impuesta.",
+        "Igual a la pena de prisión impuesta.",
+        "De 12 a 20 años."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 570.1 permite privar del derecho a la tenencia y porte de armas por tiempo superior en tres años a la prisión impuesta. Los 12 a 20 años son la inhabilitación especial para su industria o comercio cuando el autor estaba autorizado a fabricar o traficar (art. 570.2).",
+      "ref": "art. 570 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un individuo es sorprendido con una pistola reglamentada sin licencia ni permiso, sin que concurra ninguna circunstancia del art. 564.2. Se acredita que no tenía intención de usarla con fines ilícitos. ¿Qué es correcto?",
+      "opciones": [
+        "Se castiga con prisión de 6 meses a 1 año y la rebaja de pena es obligatoria.",
+        "Se castiga con prisión de 1 a 2 años y el tribunal puede rebajar la pena en un grado.",
+        "Se castiga con prisión de 1 a 3 años y no cabe ninguna rebaja."
+      ],
+      "correcta": 1,
+      "explicacion": "La pistola es un arma corta: prisión de 1 a 2 años (art. 564.1.1.º). Según el art. 565, los jueces o tribunales pueden (facultad, no obligación) rebajar la pena en un grado si las circunstancias del hecho y del culpable evidencian la falta de intención de usarla con fines ilícitos. Los 6 meses a 1 año son de las armas largas y los 1 a 3 años de las armas prohibidas.",
+      "ref": "arts. 564.1 y 565 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Durante unos disturbios, un manifestante lanza una botella con líquido inflamable contra una dotación policial en servicio y alcanza a un agente. ¿Cómo se castiga el atentado?",
+      "opciones": [
+        "Con la pena superior en grado a la del art. 550, por el art. 551.2.º.",
+        "Con la pena básica del art. 550.2, pues el art. 551 solo se aplica si se usan armas de fuego.",
+        "Como resistencia grave del art. 556.1, al no haber intimidación."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 551.2.º agrava el acto de violencia potencialmente peligroso para la vida o que pueda causar lesiones graves y cita expresamente el lanzamiento de objetos contundentes o líquidos inflamables, el incendio y los explosivos. No exige armas de fuego, y hay violencia contra el agente, por lo que no se trata del art. 556.1.",
+      "ref": "arts. 550 y 551.2.º CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Las penas señaladas en el art. 557 CP para los desórdenes públicos se imponen:",
+      "opciones": [
+        "En lugar de las que correspondan a los actos concretos de lesiones, amenazas, coacciones o daños cometidos.",
+        "Solo si no se han causado lesiones, amenazas, coacciones ni daños.",
+        "Sin perjuicio de las que puedan corresponder a los actos concretos de lesiones, amenazas, coacciones o daños que se hubieran llevado a cabo."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 557.6 dispone que las penas del artículo se imponen sin perjuicio de las que correspondan a los actos concretos de lesiones, amenazas, coacciones o daños. Por tanto, no se sustituyen ni quedan condicionadas a que esos hechos no se hayan producido.",
+      "ref": "art. 557.6 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "A efectos penales (art. 24 CP), tienen siempre la consideración de autoridad, entre otros:",
+      "opciones": [
+        "Los funcionarios del Ministerio Fiscal.",
+        "Todos los funcionarios públicos.",
+        "Los agentes de las Fuerzas y Cuerpos de Seguridad en el ejercicio de sus funciones."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 24.1 considera autoridad a quien tiene mando o ejerce jurisdicción propia y, en todo caso, a diputados, senadores, miembros de asambleas autonómicas y del Parlamento Europeo y a los funcionarios del Ministerio Fiscal. El funcionario público (art. 24.2) es un concepto más amplio, y los agentes de la autoridad no son autoridad.",
+      "ref": "art. 24 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué pena corresponde al atentado cometido contra un juez o magistrado según el art. 550.3 CP?",
+      "opciones": [
+        "Prisión de 6 meses a 3 años.",
+        "Prisión de 1 a 4 años y multa de 3 a 6 meses.",
+        "Prisión de 1 a 6 años y multa de 6 a 12 meses."
+      ],
+      "correcta": 2,
+      "explicacion": "Cuando la autoridad atacada es, entre otros, juez, magistrado, miembro del Ministerio Fiscal, del Gobierno o magistrado del Tribunal Constitucional, el art. 550.3 impone prisión de 1 a 6 años y multa de 6 a 12 meses. La prisión de 1 a 4 años con multa es la pena general contra autoridad, y la de 6 meses a 3 años la del atentado contra agentes o funcionarios.",
+      "ref": "art. 550.3 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Los depósitos de armas, municiones o explosivos establecidos en nombre o por cuenta de una asociación con propósito delictivo determinan, según el art. 569 CP:",
+      "opciones": [
+        "Una agravante de reincidencia para sus miembros.",
+        "La declaración judicial de ilicitud de la asociación y su consiguiente disolución.",
+        "La inhabilitación absoluta de sus directivos por tiempo de 10 a 15 años."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 569 prevé la declaración judicial de ilicitud de la asociación y su disolución. La inhabilitación absoluta de 10 a 15 años es la de la disposición común del art. 562 cuando el autor es autoridad, y no se contempla agravante de reincidencia en este precepto.",
+      "ref": "art. 569 CP",
+      "dificultad": 2
+    }
+  ],
+  "dudas": []
+}

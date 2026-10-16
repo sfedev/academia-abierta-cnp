@@ -1,0 +1,719 @@
+{
+  "tema": 37,
+  "titulo": "Ortografía de la lengua española",
+  "bloque": "B",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "0-2 preguntas por examen: elegir la frase correctamente escrita (tildes, h, b/v, g/j, palabras juntas o separadas) y alguna regla concreta de escritura."
+  },
+  "normas": [
+    {
+      "nombre": "RAE-ASALE, Ortografía básica de la lengua española (2012), versión en línea",
+      "url": "https://www.rae.es/ortograf%C3%ADa-b%C3%A1sica/",
+      "verificado": "Capítulos 1 a 7 consultados en línea en lo citado, el 16/10/2026"
+    },
+    {
+      "nombre": "RAE-ASALE, Ortografía de la lengua española (2010)",
+      "url": "https://www.rae.es/obras-academicas/ortografia/ortografia-2010",
+      "verificado": "Obra mayor; su contenido normativo se ha leído a través de la Ortografía básica, que es fiel a ella"
+    },
+    {
+      "nombre": "RAE-ASALE, Diccionario panhispánico de dudas (2.ª ed., en línea)",
+      "url": "https://www.rae.es/dpd/",
+      "verificado": "Entradas «guion», «cliché», «deshecho», «desecho» y «grosso modo» consultadas el 16/10/2026"
+    },
+    {
+      "nombre": "RAE, Diccionario de la lengua española (DLE, en línea)",
+      "url": "https://dle.rae.es/",
+      "verificado": "Entradas de palabras concretas consultadas el 16/10/2026"
+    }
+  ],
+  "novedades": [
+    "Desde la Ortografía de 2010 no llevan tilde diacrítica «solo» (adverbio o adjetivo) ni los demostrativos «este, ese, aquel» (pronombres o determinantes), ni siquiera en caso de ambigüedad; «guion», «truhan», «ion» o «hui» se escriben sin tilde por ser monosílabos a efectos ortográficos.",
+    "«ch» y «ll» no son letras sino dígrafos: el abecedario tiene 27 letras. El nombre recomendado de «y» es «ye» y el de «v» es «uve»; «ere» y «ceda» no son válidos (solo «erre» y «zeta»)."
+  ],
+  "clave": [
+    "**Agudas** llevan tilde si acaban en **-n, -s o vocal**; **llanas**, si acaban en consonante distinta de **n o s** (o en más de una consonante o en -y); **esdrújulas y sobresdrújulas**, siempre.",
+    "**Hiato** de vocal cerrada tónica y abierta: **siempre tilde** (María, país, reír, oír, laúd). **Monosílabos a efectos ortográficos** sin tilde: guion, truhan, ion, hui, dio, fue, vio.",
+    "**Diacrítica**: tú, él, mí, sí, té, dé, sé, más (tónicos). **Sin tilde**: ti, o, solo y los demostrativos. **aún** = todavía; **aun** = hasta, incluso o aunque.",
+    "**Interrogativos y exclamativos con tilde**: qué, cuál(es), quién(es), cómo, cuán, cuánto, cuándo, dónde, adónde (en preguntas directas e indirectas y sustantivados).",
+    "**porque** (causa o finalidad) / **por que** (preposición + que) / **porqué** (sustantivo: «el porqué», «los porqués») / **por qué** (preposición + interrogativo). **sino** (adversativa o destino) / **si no**.",
+    "**asimismo** (‘también’) / **así mismo** (‘de ese mismo modo’); **aparte** / **a parte**; **sobre todo** (‘especialmente’) / **sobretodo** (prenda); **demás** / **de más**; **conque** (‘así que’) / **con que**.",
+    "**Excepciones de h**: «ermita» y «ogro» (herm-, hog-); «exuberante» sin h. **desecho** (residuo) sin h; **deshecho** (participio de deshacer) con h. **encallar**, **a bordo**, **a gusto**.",
+    "**Comas**: nunca entre sujeto y verbo; sí antes de pero, mas, sino (que) y aunque; no antes de y, e, o, u, ni cuando cierran una enumeración. **Vocativo** separado por coma: «Pedro, ¿cuántos años tienes?».",
+    "**Mayúscula**: nombres propios, instituciones (el Gobierno, el Estado) y títulos de leyes completos. **Minúscula**: cargos (el presidente del Gobierno, la ministra de Defensa), días, meses, estaciones, lenguas y gentilicios.",
+    "**Siglas** en mayúsculas, sin puntos, sin tilde e invariables en plural (las ONG, no «ONGs»). **Abreviaturas** con punto (pág., Sr.; EE. UU. con espacio). **Símbolos** sin punto (km, %).",
+    "**Extranjerismos crudos y locuciones latinas**: cursiva y, las latinas, sin tilde (ad libitum, post mortem, grosso modo, motu proprio). **Adaptados**: se acentúan como español (máster, referéndum, currículum, bádminton).",
+    "**Números**: romanos con mayúsculas, sin repetir más de tres veces el mismo signo y sin restar V, L ni D (45 = XLV); siglos en romanos pospuestos (siglo XXI). Miles con **espacio** (27 315 857), no punto ni coma; no se separan los números de cuatro cifras ni los años."
+  ],
+  "resumen": [
+    {
+      "titulo": "Tilde: reglas generales y secuencias vocálicas",
+      "puntos": [
+        "**Monosílabos** sin tilde (fe, ve, ya, mes, sol, bien, dio, fue, vio, guion), salvo la tilde diacrítica. Son monosílabos a efectos ortográficos los que llevan diptongo ortográfico: guion, truhan, ion, muon, hui.",
+        "**Agudas** (acento en la última sílaba): tilde si terminan en **n, s** (no precedidas de otra consonante) **o vocal** (razón, compás, acá, comité). No la llevan si acaban en otra consonante (actriz, amistad, reloj), en más de una consonante (compost, mamuts) ni en -y (convoy, virrey).",
+        "**Llanas o graves**: tilde si terminan en **consonante distinta de n o s** (dólar, lápiz, referéndum), en **más de una consonante** (bíceps, récords, wéstern) o en **-y** (yérsey). No la llevan si acaban en n, s o vocal (margen, crisis, lata). **Esdrújulas y sobresdrújulas**: siempre (rápido, cómaselo). Por eso examen → exámenes, joven → jóvenes.",
+        "**Diptongo** = vocal abierta con cerrada átona, o dos cerradas distintas (ciudad, cuidar, estadounidense); **triptongo** = abierta entre dos cerradas (buey, estudiáis); siguen las reglas generales. La tilde va en la vocal abierta (acción, después, camináis) y, si son dos cerradas, en la **segunda** (cuídate, acuífero, veintiún).",
+        "**Hiato**: cerrada tónica con abierta, **siempre con tilde** (María, país, reír, oír, laúd, caída, actúe, búho); dos abiertas (caer, héroe, aéreo, línea) y dos vocales iguales (azahar, chiita) siguen las reglas generales. La **h intercalada** no cambia nada (prohíbo, tahúr).",
+        "**Adverbios en -mente** conservan la tilde del adjetivo (fácilmente). **Verbo con pronombres enclíticos** se acentúa como palabra simple (dímelo, cómpraselo). **Compuestos** en una palabra se acentúan como simples (decimoséptimo, arcoíris); con guion, cada elemento conserva su tilde (histórico-crítico); en varias palabras, cada una la suya (vigésimo quinto).",
+        "Las **mayúsculas** llevan tilde (ÁFRICA, Álvaro); las **siglas** escritas en mayúsculas no (CIA)."
+      ]
+    },
+    {
+      "titulo": "Tilde diacrítica",
+      "puntos": [
+        "Distingue palabras tónicas de átonas iguales. El **pronombre «ti»** no lleva tilde, ni la conjunción **«o»**; tampoco las notas musicales mi y si ni los nombres de las letras te y de.",
+        "«**solo**» y los **demostrativos** (este, ese, aquel y sus formas) se escriben **sin tilde** siempre, incluso si hay ambigüedad.",
+        "«**aún**» lleva tilde cuando equivale a **todavía** (No ha llegado aún); «**aun**» sin tilde cuando equivale a **hasta, incluso** (aun los que no estudian) o es **concesivo** (aun cuando, aun así, aun siendo).",
+        "Los **interrogativos y exclamativos** son tónicos y llevan tilde (¿Qué quieres? No sé dónde vive. El cuándo y el dónde); **sin tilde** los relativos y las conjunciones (la casa donde vivo; Lo hizo como pudo)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Con tilde (tónico)",
+          "Sin tilde (átono)"
+        ],
+        "filas": [
+          [
+            "**tú** (pronombre): Tú no digas nada",
+            "tu (posesivo): tu casa"
+          ],
+          [
+            "**él** (pronombre)",
+            "el (artículo)"
+          ],
+          [
+            "**mí** (pronombre): por mí",
+            "mi (posesivo; nota musical)"
+          ],
+          [
+            "**sí** (pronombre, adverbio o sustantivo)",
+            "si (conjunción; nota musical)"
+          ],
+          [
+            "**té** (infusión)",
+            "te (pronombre; letra)"
+          ],
+          [
+            "**dé** (verbo dar)",
+            "de (preposición; letra)"
+          ],
+          [
+            "**sé** (verbos ser y saber)",
+            "se (pronombre)"
+          ],
+          [
+            "**más** (cuantificador; suma)",
+            "mas (conjunción adversativa, ‘pero’)"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Uso de las letras",
+      "puntos": [
+        "El abecedario tiene **27 letras**; **ch, ll, gu, qu y rr** son **dígrafos** (ch y ll ya no son letras). La **h** es la única letra que no representa ningún fonema. Nombres: be, uve, uve doble, ye (i griega), erre, zeta.",
+        "Las listas siguientes son orientadoras: en caso de duda, la palabra concreta se consulta en el diccionario."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Letra",
+          "Se escribe cuando...",
+          "Ejemplos y excepciones"
+        ],
+        "filas": [
+          [
+            "**b**",
+            "ante consonante o a final de palabra; bu-, bur-, bus-; imperfecto en -aba e iba; verbos en -bir y -buir; -bilidad, -bundo; bi-, bis-, biz-, bio-, biblio-, sub-; bien-, bene-; -fobia; beber, caber, deber, haber, saber, sorber y su familia",
+            "abdicar, club, burla, amaba, iba, escribir, atribuir, amabilidad. Excepciones: hervir, servir, vivir, civilidad, movilidad"
+          ],
+          [
+            "**v**",
+            "tras b, d, ol; eva-, eve-, evi-, evo-; di- inicial; lla-, lle-, llo-, llu-; vice-, viz-; adjetivos llanos en -ave, -eve, -ivo; -ívoro; formas de andar, estar, tener e ir (salvo imperfecto); mover, valer, venir, ver, volar",
+            "adverbio, olvidar, evitar, divagar, llave, grave, decisivo, anduvo, tuvo, vaya. Excepciones: ébano, dibujo, víbora"
+          ],
+          [
+            "**g** ante e, i",
+            "inge-, gen, gest, gia, gio, gene-, geni-, legi-, -gésimo; verbos en -ger y -gir; geo-, giga-, gine-, -logía, -algia",
+            "ingeniero, agencia, gestión, alergia, coger, dirigir. Excepciones: injerir, injerto, ajenjo, jengibre, majestad, bujía, lejía, herejía, tejer, crujir"
+          ],
+          [
+            "**j** ante e, i",
+            "eje-; -aje, -eje; -jería; -jero (llanas); -jear; formas de decir, traer y -ducir",
+            "ejército, coraje, cerrajería, extranjero, cojear, dijo, trajeron, produjeron. Excepción: ligero"
+          ],
+          [
+            "**h**",
+            "ante ua, ue, ui; hia-, hie- iniciales; herm-, histo-, hog-, holg-, horm-, horr-, hosp-, hum- + vocal; haber, hacer, hablar, hallar, helar, herir, hervir, hundir; exhalar, exhausto, exhibir, exhortar, exhumar; hecto-, helio-, hemi-, hetero-, hidro-, hiper-, hipo-, homo-",
+            "huevo, hielo, hermético, historia, humano. Excepciones: **ermita**, **ogro**; exuberante sin h"
+          ],
+          [
+            "**ll / y**",
+            "ll: -illa, -illo, -ello, -ella, fa-, fo-, fu- + ll, verbos en -illar, -ullar; y: tras ad-, des-, dis-, sub-; yec, yer; plurales de nombres en -y; formas de caer, leer, oír, ir, haber sin y en el infinitivo",
+            "cigarrillo, camello, fallar, atropellar; abyecto, reyerta, leyes, leyeron, cayó, haya, vaya. Excepciones: leguleyo, plebeyo"
+          ],
+          [
+            "**c / z / s**",
+            "-ción (acusación; perdición si conserva t/d), -cción si la familia tiene -ct- (acción, adicción); -sión (comprensión); -anza, -azgo, -ez, -eza, -izar, -triz; cerc-, circ-, -ancia, -encia, -cial; s: des-, dis-, -oso, -sis, -sivo, -sor, -ísimo, -ista",
+            "acusación, acción, comprensión, enseñanza, hallazgo, destino, análisis. Con c: décimo, undécimo, duodécimo, decimoséptimo; con s: vigésimo"
+          ],
+          [
+            "**x**",
+            "ex- + pl-/pr-; prefijos ex-, exo-, extra-, hexa-, maxi-, xeno-, xero-, xilo-; flex-, lex-, oxi-, sex-, tax-, tox-",
+            "explicar, exprimir, xenofobia, flexible, léxico, sintaxis, tóxico. Excepciones: esplendor, espliego, espray, esprínter"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Signos de puntuación",
+      "puntos": [
+        "**Punto**: siempre **después** del paréntesis, la raya, el corchete o las comillas de cierre; nunca tras los signos de cierre de interrogación o exclamación ni tras los puntos suspensivos. Tras punto, mayúscula.",
+        "**Coma**: **nunca entre sujeto y verbo** («Mis padres, mis tíos, mis abuelos me felicitaron»), ni entre el verbo y su complemento directo, indirecto, atributo, predicativo o de régimen. Se escribe en: enumeraciones (sin coma ante y, e, o, u, ni al final de la serie); incisos (aposiciones y relativas **explicativas**, no las especificativas); **vocativos** (Javier, ven); interjecciones; conectores (sin embargo, es decir, por tanto); delante de **pero, mas, sino que y aunque**; y delante de las causales «ya que, pues, puesto que».",
+        "**Punto y coma**: separa oraciones relacionadas o miembros de enumeraciones complejas; tras él, **minúscula**. **Dos puntos**: anuncian enumeraciones, citas o explicaciones; se escriben **antes de una enumeración** solo si hay un elemento anticipador («Mis aficiones son: ...» es incorrecto sin él); tras ellos, minúscula, salvo **tras el saludo de una carta** (Estimado Sr. Lizcano: En respuesta...) o ante una **cita textual**.",
+        "**Comillas**: de primer nivel las **angulares « »**; después las inglesas “ ” y, en último lugar, las simples ‘ ’. **Raya** (—) para incisos y diálogos; no se confunde con el guion (-) ni con el signo menos (–).",
+        "**Interrogación y exclamación**: son signos **dobles** y es incorrecto omitir el de apertura (¿ ¡). Se abren donde empieza la pregunta, no el enunciado: «**Pedro, ¿cuántos años tienes?**»; el vocativo inicial queda fuera, el final queda dentro.",
+        "**Puntos suspensivos**: son **tres**; si cierran el enunciado, la palabra siguiente va con mayúscula; si el enunciado continúa, con minúscula."
+      ]
+    },
+    {
+      "titulo": "Mayúsculas y minúsculas",
+      "puntos": [
+        "La mayúscula es la forma **marcada**; ante la duda, se recomienda la **minúscula**. Se usa además tras punto, al comienzo del escrito, tras los puntos suspensivos que cierran el enunciado y tras interrogación o exclamación que completan un enunciado.",
+        "Los sustantivos comunes que designan **entidades institucionales** se escriben con mayúscula (el Gobierno, el Estado, la Iglesia, el Ejército, la Armada, la Policía, el Parlamento); en sus usos comunes, con minúscula (un policía; la policía detuvo a varios sospechosos).",
+        "**Títulos**: las obras de creación solo llevan mayúscula en la primera palabra (Cien años de soledad); los **documentos oficiales y leyes** en todas las palabras significativas (Código Civil, Carta de las Naciones Unidas); los nombres abreviados de leyes, en minúscula (ley de extranjería)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Con mayúscula inicial",
+          "Con minúscula inicial"
+        ],
+        "filas": [
+          [
+            "Nombres de persona, animales y objetos; apodos y seudónimos (el Greco, Azorín)",
+            "Tratamientos (don, doña, señor, doctor, usted) y sus usos con cargos"
+          ],
+          [
+            "Topónimos y accidentes geográficos propios, no el genérico (el océano Pacífico, la calle Alcalá)",
+            "Cargos, títulos y dignidades (el rey, el papa, el presidente del Gobierno, la ministra de Defensa)"
+          ],
+          [
+            "Entidades, instituciones y organismos (Ministerio de Asuntos Exteriores, Policía Nacional)",
+            "Profesiones; pueblos, nacionalidades y lenguas (los aztecas, español)"
+          ],
+          [
+            "Festividades (Navidad, Semana Santa), asignaturas y planes con nombre propio",
+            "Días de la semana, meses y estaciones; puntos cardinales (norte, sur)"
+          ],
+          [
+            "Acontecimientos históricos que dan nombre a un periodo (la Reconquista, la Primera Guerra Mundial)",
+            "Nombres de monedas, unidades, principios activos, leyes científicas (euros, newton, ibuprofeno)"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Unión y separación de palabras",
+      "puntos": [
+        "También son correctas en una o varias palabras (se prefiere la primera): deprisa / de prisa, aprisa, enseguida / en seguida, aposta, alrededor, arcoíris, bocabajo, medioambiente, altamar. «Adónde» y «a dónde» valen igual; «tal vez» (talvez, en América).",
+        "**Prefijos**: unidos a la base si es una palabra (antirrobo, exjugador, vicepresidente); con **guion** si la base es una sigla, un nombre propio o una cifra (anti-OTAN, pro-Obama, pre-1945); **separados** si la base son varias palabras (ex alto cargo, vice primer ministro).",
+        "**Adverbios en -mente** y **formas verbales con pronombre** (dímelo) se escriben en una palabra. **Numerales**: dieciséis a diecinueve, veintiuno a veintinueve y las centenas, en una palabra; desde treinta, en varias (treinta y uno, aunque treintaiuno también vale)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Una palabra",
+          "Varias palabras"
+        ],
+        "filas": [
+          [
+            "**porque**: causa o finalidad (Me acosté pronto porque estaba cansado)",
+            "**por que**: preposición + que (Estaba ansiosa por que vinieras); **por qué**: preposición + interrogativo (¿Por qué lo hizo?)"
+          ],
+          [
+            "**porqué**: sustantivo ‘causa’ (El porqué de su silencio; sus porqués)",
+            "—"
+          ],
+          [
+            "**sino**: adversativa (No bebe agua, sino leche) o sustantivo ‘destino’",
+            "**si no**: condición + negación (Si no lo encuentras, dímelo)"
+          ],
+          [
+            "**conque**: ‘así que’ (Es tarde, conque apúrate)",
+            "**con que** (Basta con que haya sillas); **con qué** (¿Con qué lo abres?)"
+          ],
+          [
+            "**asimismo**: ‘también’",
+            "**así mismo**: ‘de ese mismo modo’"
+          ],
+          [
+            "**aparte**: ‘distinto’ o ‘en otro lugar’ (un caso aparte)",
+            "**a parte**: preposición + sustantivo (afectó a parte del equipo)"
+          ],
+          [
+            "**demás**: ‘lo otro, lo restante’",
+            "**de más**: ‘demasiado, de sobra’ (he comido de más)"
+          ],
+          [
+            "**sobretodo**: prenda de vestir",
+            "**sobre todo**: ‘especialmente’"
+          ],
+          [
+            "**sinfín, sinrazón, sinsabor, sinsentido, sinvergüenza**: sustantivos",
+            "**sin fin, sin razón, sin sabor, sin sentido, sin vergüenza**: preposición + sustantivo"
+          ],
+          [
+            "**pormenor, quehacer, porvenir, entorno, maleducado, malentendido**",
+            "**por menor / al por menor, qué hacer, por venir, en torno a, mal educado, mal entendido**"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Abreviaturas, siglas y símbolos",
+      "puntos": [
+        "**Abreviaturas**: llevan siempre signo abreviativo (punto o barra): pág., Sr., c/. Plural: -s si terminan en consonante (caps., vols.); duplicando la letra si son de truncamiento extremo (vv., **FF. AA.**, **EE. UU.**, con espacio y punto); Sres., Uds. Mantienen la tilde de la palabra completa (pág., cód.). Si cierran el enunciado, solo un punto.",
+        "**Siglas**: en mayúsculas, **sin puntos ni espacios**, sin tilde (CIA); **invariables en plural** (las ONG, varios CD; no «ONGs» ni «CD's»). Los **acrónimos** que ya son nombres comunes van en minúscula y sí pluralizan (ovni, ovnis; radar, uci); los que son nombres propios, con mayúscula inicial (Unesco, Unicef).",
+        "**Símbolos**: sin punto ni tilde, con forma fija (km, m, g, N, %, a, no «á»), pospuestos a la cifra y **con espacio** (33 dB, 20 %); excepto los símbolos volados como el de grado (12°); la temperatura sin escala se pega (27°) y con escala se separa (27 °C)."
+      ]
+    },
+    {
+      "titulo": "Otras lenguas, nombres propios y expresiones numéricas",
+      "puntos": [
+        "**Extranjerismos crudos** (ballet, jazz, pizza, pendrive, piercing): en **cursiva** (o entre comillas si se escribe a mano) y sin adaptar. **Adaptados** (máster, bádminton, currículum, referéndum, tóner, cruasán, espagueti, yogur, mitin, pádel): se escriben y acentúan como el resto de palabras españolas. Los latinismos se tratan hoy como el resto de extranjerismos.",
+        "**Locuciones y citas en otra lengua** (incluidas las latinas: ad libitum, grosso modo, post mortem, vox populi, numerus clausus): en **cursiva** (o comillas) y **sin tildes**, porque el latín no las lleva. DPD: «grosso modo» es ‘aproximadamente’, no «a grosso modo»; «motu proprio», no «motu propio» ni «de motu proprio».",
+        "**Nombres propios**: los topónimos extranjeros con forma tradicional asentada se mantienen (Pekín, Bombay, Esmirna, Costa de Marfil) salvo cambio oficial de nombre (Sri Lanka, Burkina Faso); México y Méjico valen, y se prefiere México. Nombre de pila compuesto sin guion (José Antonio); apellido compuesto con guion (Juan Pérez-Gómez).",
+        "**Números romanos**: siempre en mayúscula; no se repite un signo más de tres veces consecutivas (444 = CDXLIV) ni cuando hay otro signo de ese valor (10 = X, no VV); **V, L y D no restan** (45 = XLV). Se usan para siglos (siempre pospuestos: siglo XXI), reyes y papas (Juan XXIII), congresos y capítulos o tomos.",
+        "**Cifras**: los miles se separan con un **pequeño espacio** (27 315 857), nunca con punto ni coma; no se separan los números de cuatro cifras ni los años, páginas, números de ley, códigos postales o identificadores (el año 2010; artículo 1566). Separador decimal: coma o punto, ambos válidos.",
+        "**Numerales**: «doscientos, trescientos, seiscientos» (no «docientos»), «setecientos, novecientos» (no «setescientos»); «veintiún mil». Ordinales 11.º y 12.º: undécimo y duodécimo, o decimoprimero y decimosegundo; vigésimo primero o vigesimoprimero. **Fraccionarios** en una palabra: onceavo (1/11), doceavo, veinteavo, centésimo; **onceavo no es ordinal**."
+      ]
+    }
+  ],
+  "trampas": [
+    "**Monosílabos a efectos ortográficos**: guion, truhan, ion, hui, dio, fue, vio, fui no llevan tilde, aunque se pronuncien con hiato. Es la trampa de «guión».",
+    "**Diacrítica**: el pronombre «ti» y la conjunción «o» no llevan tilde; «solo» y los demostrativos tampoco aunque se pueda confundir su sentido.",
+    "«**aún**» (todavía) frente a «**aun**» (incluso, hasta, aunque): «aun cuando» y «aun así» sin tilde.",
+    "**porque / por que / porqué / por qué**: en la misma frase se cambian las cuatro formas. El plural de «porqué» es «porqués».",
+    "**Excepciones de h**: ermita (sin h), pero hermético, historia, humano. **desechos** (basura) se escribe sin h y **deshecho**, con h, como participio de deshacer.",
+    "**onceavo** es un fraccionario (1/11); el ordinal 11.º es undécimo, decimoprimero o décimo primero.",
+    "**Coma** entre sujeto y verbo: es siempre un error. En cambio la coma ante «pero», «mas», «sino que» y «aunque» es obligatoria.",
+    "**Cargos, días, meses y lenguas** van en minúscula; los distractores los ponen con mayúscula por respeto o por costumbre.",
+    "**Siglas**: sin tilde, sin puntos y sin «s» en plural. **EE. UU.** y **FF. AA.** llevan puntos y un espacio entre bloques.",
+    "**Locuciones latinas** en cursiva y sin tilde; «grosso modo» sin «a» y «motu proprio» sin preposición."
+  ],
+  "caido": [
+    {
+      "examen": "P43 (26 sep 2026)",
+      "concepto": "Sustitución de grafías: encallar, a bordo, clisé y guion."
+    },
+    {
+      "examen": "P41 (1 mar 2025)",
+      "concepto": "h en ermita y en endotérmicas; onceavo / undécimo; deshechos / desechos; a gusto; aparte."
+    },
+    {
+      "examen": "P40 (13 abr 2024)",
+      "concepto": "hecho / echo; había impersonal."
+    },
+    {
+      "examen": "P39 (23 abr 2023)",
+      "concepto": "Tilde de bíceps; ortografía de idiosincrasia, vicisitud y beneficencia."
+    }
+  ],
+  "mnemotecnias": [
+    "Agudas: tilde con **N-S-vocal** («razoN, compáS, comitÉ»). Llanas: tilde con todo lo demás: lo que **no** es N-S-vocal.",
+    "Hiato con tilde: la vocal **cerrada** es la **tónica** (María, raíz); si lo es la abierta, no hay tilde por ser hiato.",
+    "Coma delante de **P-M-S-A**: **P**ero, **M**as, **S**ino que, **A**unque."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Cuántas letras tiene el abecedario español y qué son ch y ll?",
+      "r": "**27 letras**; ch y ll son **dígrafos** (junto a gu, qu y rr), no letras."
+    },
+    {
+      "p": "¿Cómo se escribe «guion» y por qué?",
+      "r": "**Sin tilde**: es monosílabo a efectos ortográficos (también truhan, ion, muon)."
+    },
+    {
+      "p": "¿Cuándo llevan tilde las palabras agudas?",
+      "r": "Cuando terminan en **n, s (no precedida de otra consonante) o vocal**."
+    },
+    {
+      "p": "¿Cuándo llevan tilde las palabras llanas?",
+      "r": "Cuando terminan en consonante distinta de **n o s**, en **más de una consonante** (bíceps) o en **y**."
+    },
+    {
+      "p": "¿Cuándo llevan tilde las esdrújulas y sobresdrújulas?",
+      "r": "**Siempre** (rápido, cómaselo)."
+    },
+    {
+      "p": "¿Cuándo lleva tilde un hiato?",
+      "r": "Siempre que sea de **vocal cerrada tónica con abierta** (María, país, reír)."
+    },
+    {
+      "p": "Tilde diacrítica en monosílabos: ¿cuáles son los tónicos?",
+      "r": "**tú, él, mí, sí, té, dé, sé, más** (y aún)."
+    },
+    {
+      "p": "¿Llevan tilde «solo», «este», «ese», «aquel»?",
+      "r": "**No**, ni siquiera en caso de ambigüedad (Ortografía de 2010)."
+    },
+    {
+      "p": "¿Cuándo se escribe «aún» y cuándo «aun»?",
+      "r": "«**aún**» = todavía; «**aun**» = incluso, hasta, aunque (aun cuando)."
+    },
+    {
+      "p": "¿Cuál es la diferencia entre porque, por que, porqué y por qué?",
+      "r": "porque: causa; por que: preposición + que; porqué: sustantivo (los porqués); por qué: interrogativo (¿Por qué?)."
+    },
+    {
+      "p": "¿Cuándo se escribe «sino» y cuándo «si no»?",
+      "r": "«sino»: adversativa o ‘destino’; «si no»: condicional + negación."
+    },
+    {
+      "p": "¿Cuál es la excepción de herm- con h?",
+      "r": "**ermita** (sin h); también ogro (hog-)."
+    },
+    {
+      "p": "¿Desecho o deshecho?",
+      "r": "**Desecho** (residuo) sin h; **deshecho** (participio de deshacer) con h."
+    },
+    {
+      "p": "¿Cuál es el plural de una sigla como ONG?",
+      "r": "**Las ONG**: invariable; no «ONGs» ni «ONG's»."
+    },
+    {
+      "p": "¿Cómo se escribe la abreviatura de Estados Unidos?",
+      "r": "**EE. UU.** (con puntos y espacio entre los bloques)."
+    },
+    {
+      "p": "¿Cuál es el orden de las comillas?",
+      "r": "Primero las angulares « », luego las inglesas “ ” y después las simples ‘ ’."
+    },
+    {
+      "p": "¿Cuándo se escribe mayúscula tras dos puntos?",
+      "r": "Tras el **saludo de una carta** y ante una **cita textual**; en los demás casos, minúscula."
+    },
+    {
+      "p": "¿Cómo se escribe la locución latina grosso modo y cómo se resalta?",
+      "r": "«grosso modo» en **cursiva** y sin tilde; no «a grosso modo»."
+    },
+    {
+      "p": "¿Cómo se escribe 444 en números romanos?",
+      "r": "**CDXLIV**; no se repite un signo más de tres veces."
+    },
+    {
+      "p": "¿Cómo se separan los miles en cifras?",
+      "r": "Con un **pequeño espacio** (27 315 857), nunca con punto ni coma; los números de cuatro cifras y los años no se separan."
+    },
+    {
+      "p": "¿Cómo se escribe un porcentaje?",
+      "r": "«**el 13 %**» (con espacio) o «el trece por ciento»; «por ciento» siempre en dos palabras."
+    },
+    {
+      "p": "¿Cómo se escribe la hora en los modelos de 24 y de 12 horas?",
+      "r": "24 horas: números del 0 al 23 (17:48 h). 12 horas: con a. m. o p. m. (4 p. m.); las 12 de la mañana, 12 m."
+    },
+    {
+      "p": "¿Cómo se escribe una fecha?",
+      "r": "Orden ascendente: «27 de julio de 2011» o 27.07.2011; el nombre del mes, siempre con minúscula."
+    },
+    {
+      "p": "¿Qué ordinal corresponde al 11.º y qué es onceavo?",
+      "r": "Undécimo, decimoprimero o décimo primero; **onceavo** es el fraccionario (1/11)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Señale la oración correctamente escrita en cuanto a la tilde diacrítica:",
+      "opciones": [
+        "Sí tú no vienes, iré yo sola.",
+        "Si tú no vienes, iré yo sola.",
+        "Si tu no vienes, iré yo sola."
+      ],
+      "correcta": 1,
+      "explicacion": "«Si» condicional es conjunción átona y se escribe sin tilde; «tú» pronombre personal es tónico y lleva tilde diacrítica. La primera frase cumple ambas reglas y las otras fallan una cada una: la tilde en «sí» condicional o la ausencia de tilde en «tú».",
+      "ref": "OB 2.4.3.1",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale la oración correctamente escrita en cuanto a aún y aun:",
+      "opciones": [
+        "Aún no ha llegado el paquete.",
+        "Aun no ha llegado el paquete.",
+        "Aún cuando llegue tarde, lo esperaremos."
+      ],
+      "correcta": 0,
+      "explicacion": "«Aún» lleva tilde cuando equivale a «todavía», como en la primera frase. «Aun» sin tilde se usa con valor inclusivo (hasta, incluso) o concesivo, como en «aun cuando»; por eso falla la segunda frase, que lleva «aún cuando» con tilde, y la tercera, que escribe sin tilde un «aún» temporal.",
+      "ref": "OB 2.4.4",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la opción correctamente escrita en cuanto a por qué, porqué y por que:",
+      "opciones": [
+        "¿Porqué no viniste? Quería saber porqué.",
+        "¿Por que no viniste? Quería saber por que.",
+        "¿Por qué no viniste? Quería saber por qué."
+      ],
+      "correcta": 2,
+      "explicacion": "Cuando se introduce una pregunta directa o indirecta se escribe «por qué», en dos palabras y con tilde, porque «qué» es interrogativo. «Porqué» es un sustantivo (el porqué) y «por que» es preposición más conjunción o relativo, sin valor interrogativo.",
+      "ref": "OB 5.5.2",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la oración correctamente escrita en cuanto al sustantivo «porqué»:",
+      "opciones": [
+        "Nadie respondió a sus por qués.",
+        "Nadie respondió a sus porques.",
+        "Nadie respondió a sus porqués."
+      ],
+      "correcta": 2,
+      "explicacion": "«Porqué» es un sustantivo masculino que significa ‘causa, razón o motivo’ y también ‘pregunta que comienza con por qué’; se escribe en una palabra, con tilde, y su plural es «porqués». Las otras dos formas no existen como plural de ese sustantivo.",
+      "ref": "OB 5.5.2",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la oración correctamente escrita en cuanto a sino y si no:",
+      "opciones": [
+        "No quiere café, si no té.",
+        "No quiere café, sino té.",
+        "Sino quiere café, que lo diga."
+      ],
+      "correcta": 1,
+      "explicacion": "«Sino» es la conjunción adversativa que corrige un elemento negado antes (no café, sino té). «Si no» se escribe en dos palabras cuando es la conjunción condicional seguida del adverbio de negación («Si no quiere café, que lo diga»).",
+      "ref": "OB 5.5.2",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale la oración correctamente escrita en cuanto a sobre todo y sobretodo:",
+      "opciones": [
+        "Me gusta sobre todo su sinceridad.",
+        "Me gusta sobretodo su sinceridad.",
+        "Me gusta sobre-todo su sinceridad."
+      ],
+      "correcta": 0,
+      "explicacion": "«Sobre todo» es una locución que significa ‘especialmente, principalmente’ y se escribe en dos palabras. «Sobretodo» es un sustantivo que designa una prenda de vestir que se lleva encima de las demás, y el guion no tiene cabida en esta locución.",
+      "ref": "OB 5.5.2",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale la oración correctamente escrita en cuanto a aparte y a parte:",
+      "opciones": [
+        "El virus ha afectado a parte del equipo.",
+        "El virus ha afectado aparte del equipo.",
+        "Esta cuestión es un caso a parte."
+      ],
+      "correcta": 0,
+      "explicacion": "En «afectar a parte del equipo» se combinan la preposición «a» y el sustantivo «parte». «Aparte» en una sola palabra es adjetivo (‘distinto’), sustantivo (‘conversación privada’) o adverbio (‘en otro lugar’): la segunda frase la usa donde hace falta la preposición «a» más «parte», y la tercera separa «a parte» donde corresponde el adjetivo («un caso aparte»).",
+      "ref": "OB 5.5.2",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la oración correctamente escrita en cuanto a la locución «a gusto»:",
+      "opciones": [
+        "Se encontraba agusto en su nuevo puesto.",
+        "Se encontraba a-gusto en su nuevo puesto.",
+        "Se encontraba a gusto en su nuevo puesto."
+      ],
+      "correcta": 2,
+      "explicacion": "«A gusto» es una locución adverbial que el Diccionario de la lengua española recoge en dos palabras y significa ‘según conviene, agrada o es necesario’. No existe la grafía «agusto» ni la forma con guion.",
+      "ref": "DLE, «gusto», loc. adv. a gusto",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale la oración correctamente escrita en cuanto a «encallar» y «a bordo»:",
+      "opciones": [
+        "La embarcación encayó en la costa con todos los pasajeros a bordo.",
+        "La embarcación encalló en la costa con todos los pasajeros a bordo.",
+        "La embarcación encalló en la costa con todos los pasajeros abordo."
+      ],
+      "correcta": 1,
+      "explicacion": "«Encallar» se escribe con ll (‘asentarse en arena, piedras o rocas y quedar inmovilizada’) y «a bordo» es una locución adverbial en dos palabras. «Abordo» en una palabra es un sustantivo poco usado equivalente a «abordaje» y «encayar» no existe.",
+      "ref": "DLE, «encallar» y «bordo»",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la palabra correctamente escrita:",
+      "opciones": [
+        "Hermita",
+        "Ermita",
+        "Ermético"
+      ],
+      "correcta": 1,
+      "explicacion": "Las palabras que empiezan por herm- llevan h (hermético, hermano), con la excepción de uso frecuente de «ermita», que se escribe sin ella. Por eso «hermita» es incorrecta y «ermético» también, porque lo correcto es «hermético».",
+      "ref": "OB 1.4.3.1 (letra h)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes formas NO es válida como ordinal correspondiente al número 11?",
+      "opciones": [
+        "Onceavo",
+        "Undécimo",
+        "Decimoprimero"
+      ],
+      "correcta": 0,
+      "explicacion": "«Onceavo» es un numeral fraccionario: designa una de las once partes iguales en que se divide un todo. Para el orden se usan «undécimo», «decimoprimero» o «décimo primero», que son válidas.",
+      "ref": "OB 7.3.3.2 y 7.3.3.3; DLE, «onceavo»",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Señale la oración correctamente escrita en cuanto a desecho y deshecho:",
+      "opciones": [
+        "Tiró a la basura los deshechos de la obra.",
+        "Encontró la cama desecha.",
+        "Tiró a la basura los desechos de la obra."
+      ],
+      "correcta": 2,
+      "explicacion": "«Desecho» es el sustantivo de «desechar» y significa ‘residuo’, y se escribe sin h. «Deshecho» es el participio de «deshacer» y lleva h, por lo que la cama debería estar «deshecha», no «desecha». El DPD considera incorrectas las grafías cruzadas.",
+      "ref": "DPD, «desecho» y «deshecho»",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la palabra correctamente acentuada:",
+      "opciones": [
+        "Biceps",
+        "Bicéps",
+        "Bíceps"
+      ],
+      "correcta": 2,
+      "explicacion": "«Bíceps» es llana y termina en más de una consonante (-ps), por lo que lleva tilde. «Biceps» omite la tilde y «bicéps» la coloca sobre la sílaba equivocada, ya que la sílaba tónica es la primera.",
+      "ref": "OB 2.4.1.2b",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale la forma correcta:",
+      "opciones": [
+        "Guión",
+        "Guion",
+        "Guíon"
+      ],
+      "correcta": 1,
+      "explicacion": "«Guion» se escribe sin tilde por ser un monosílabo a efectos ortográficos, aunque se articule con hiato; la secuencia de vocal cerrada seguida de abierta tónica se considera siempre diptongo al acentuar. Pasa lo mismo con ion, muon o truhan.",
+      "ref": "DPD, «guion»; OB 2.4.2.1",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Respecto al galicismo «cliché», según el Diccionario panhispánico de dudas:",
+      "opciones": [
+        "Son válidas tanto «cliché» como la adaptación «clisé»",
+        "Solo es válida «cliché»; «clisé» es incorrecta",
+        "Solo es válida «clisé»; «cliché» es incorrecta"
+      ],
+      "correcta": 0,
+      "explicacion": "El DPD indica que «cliché» se pronuncia como se escribe [kliché] y que también es válida, aunque menos usada, la adaptación «clisé», más cercana a la pronunciación francesa. Ninguna de las dos formas se considera incorrecta.",
+      "ref": "DPD, «cliché»",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la oración con un uso correcto de mayúsculas y minúsculas:",
+      "opciones": [
+        "El presidente del Gobierno llegó con la ministra de Defensa.",
+        "El Presidente del Gobierno llegó con la Ministra de Defensa.",
+        "El presidente del gobierno llegó con la ministra de defensa."
+      ],
+      "correcta": 0,
+      "explicacion": "Los cargos (presidente, ministra) se escriben con minúscula incluso cuando se refieren a una persona concreta. «Gobierno» lleva mayúscula porque designa una entidad institucional y «Defensa» forma parte del nombre del departamento ministerial.",
+      "ref": "OB 4.6.1 s) y 4.6.2 b)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale el plural correcto de la sigla ONG (organización no gubernamental):",
+      "opciones": [
+        "Las ONGs",
+        "Las ONG's",
+        "Las ONG"
+      ],
+      "correcta": 2,
+      "explicacion": "Las siglas se mantienen invariables en la escritura y el plural se evidencia con el determinante (las ONG, varios CD). Añadir una «s» minúscula, con o sin apóstrofo, es un calco del inglés que la ortografía académica desaconseja.",
+      "ref": "OB 6.3.3",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cómo se escribe correctamente el número 45 en cifras romanas?",
+      "opciones": [
+        "VL",
+        "XLV",
+        "XXXXV"
+      ],
+      "correcta": 1,
+      "explicacion": "Los signos V, L y D nunca se usan con valor sustractivo, así que 45 es XL + V = XLV. «VL» resta con un signo que no puede restar y «XXXXV» repite cuatro veces la X, cuando no deben repetirse más de tres veces seguidas.",
+      "ref": "OB 7.3.1.1",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál es la escritura correcta de la cantidad 27 315 857 en cifras?",
+      "opciones": [
+        "27.315.857, con puntos entre los grupos de tres cifras",
+        "27 315 857, con espacios entre los grupos de tres cifras",
+        "27,315,857, con comas entre los grupos de tres cifras"
+      ],
+      "correcta": 1,
+      "explicacion": "Para separar los grupos de tres dígitos de la parte entera solo se admite hoy un pequeño espacio en blanco, y no el punto ni la coma, que se reservan para el separador decimal. Los bloques no deben partirse en líneas distintas.",
+      "ref": "OB 7.3.2.1",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cómo deben escribirse las locuciones latinas (ad libitum, post mortem) en un texto español?",
+      "opciones": [
+        "En cursiva, o entre comillas si se escribe a mano, y sin tildes",
+        "En letra redonda y con tilde según las reglas del español",
+        "En letra redonda, sin tilde y con mayúscula inicial"
+      ],
+      "correcta": 0,
+      "explicacion": "La ortografía vigente las trata como el resto de las locuciones en otras lenguas: se resaltan con cursiva (comillas en textos manuscritos) y carecen de tilde, porque la escritura latina no la utiliza.",
+      "ref": "OB 7.1.3",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la oración correctamente puntuada en cuanto al vocativo:",
+      "opciones": [
+        "¿Pedro, cuántos años tienes?",
+        "Pedro ¿cuántos años tienes?",
+        "Pedro, ¿cuántos años tienes?"
+      ],
+      "correcta": 2,
+      "explicacion": "El vocativo inicial queda fuera de la pregunta y se separa con coma; el signo de apertura se coloca donde empieza la pregunta y la secuencia interrogativa comienza con minúscula. Si el vocativo fuera al final, entraría dentro de la pregunta.",
+      "ref": "OB 3.2.9.2 y 3.2.2.4",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la oración correctamente puntuada en cuanto a la coma entre sujeto y verbo:",
+      "opciones": [
+        "Mis padres, mis tíos, mis abuelos, me felicitaron ayer.",
+        "Mis padres mis tíos mis abuelos me felicitaron ayer.",
+        "Mis padres, mis tíos, mis abuelos me felicitaron ayer."
+      ],
+      "correcta": 2,
+      "explicacion": "El sujeto no puede separarse del verbo con coma, sea cual sea su longitud o su naturaleza; por eso la coma tras la enumeración del sujeto es un error. En cambio, los miembros de la enumeración sí se separan con comas, de modo que tampoco es correcto omitirlas.",
+      "ref": "OB 3.2.2.7 y 3.2.2.8",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Las palabras llanas llevan tilde cuando terminan en:",
+      "opciones": [
+        "N, s o vocal",
+        "Consonante distinta de n o s, o en más de una consonante",
+        "Cualquier consonante, sin excepción, y nunca en vocal"
+      ],
+      "correcta": 1,
+      "explicacion": "La regla de las llanas es la inversa de la de las agudas: llevan tilde si acaban en consonante distinta de n o s (dólar, lápiz), en más de una consonante (bíceps) o en -y. Si terminan en n, s o vocal no se tildan (margen, crisis, lata).",
+      "ref": "OB 2.4.1.2b",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes palabras se escribe con tilde por contener un hiato de vocal cerrada tónica y vocal abierta?",
+      "opciones": [
+        "Día",
+        "Pie",
+        "Guion"
+      ],
+      "correcta": 0,
+      "explicacion": "En «día» la i es cerrada y tónica y va seguida de la abierta a, formando un hiato que se tilda siempre. «Pie» y «guion» son monosílabos a efectos ortográficos (diptongo) y no se tildan.",
+      "ref": "OB 2.4.2.3",
+      "dificultad": 1
+    }
+  ],
+  "dudas": [
+    "El separador decimal: la Ortografía recomienda el punto pero admite coma y punto; en España se usa la coma. No he redactado preguntas sobre ello.",
+    "He leído la Ortografía básica (2012), que la RAE declara fiel a la Ortografía de 2010; no he podido abrir el texto íntegro de 2010, por lo que los números de apartado citados son los de la versión básica.",
+    "«Idiosincrasia», «vicisitud» y «beneficencia» (P39) se han comprobado en el DLE, pero no hay regla específica en el resumen; «hecho / echo» y «había» impersonal se tratan solo como tarjetas o en el tema 36."
+  ]
+}

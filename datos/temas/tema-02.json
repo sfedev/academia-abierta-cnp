@@ -1,0 +1,735 @@
+{
+  "tema": 2,
+  "titulo": "Constitución I: valores, derechos, garantías y Defensor del Pueblo",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "alto",
+    "nota": "Media de 4,4 preguntas por examen (entre 3 y 7; 7 en el último, P43). Se repiten el Defensor del Pueblo, la suspensión de derechos (art. 55), los valores superiores, el derecho de reunión y la estructura de la CE. Sumando el Tema 3, la Constitución da unas 7 preguntas por examen."
+  },
+  "normas": [
+    {
+      "nombre": "Constitución Española",
+      "boe": "BOE-A-1978-31229",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "verificado": "Texto consolidado, actualización de 20/05/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo",
+      "boe": "BOE-A-1981-10325",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325",
+      "verificado": "Texto consolidado, actualización de 16/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Reglamento de Organización y Funcionamiento del Defensor del Pueblo (reunión conjunta de las Mesas del Congreso y del Senado de 6 de abril de 1983)",
+      "boe": "BOE-A-1983-10613",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1983-10613",
+      "verificado": "Texto consolidado, actualización de 16/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 4/1981, de 1 de junio, de los estados de alarma, excepción y sitio",
+      "boe": "BOE-A-1981-12774",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-12774",
+      "verificado": "Texto consolidado, actualización de 01/06/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 2/1979, de 3 de octubre, del Tribunal Constitucional (arts. 41 a 50, recurso de amparo)",
+      "boe": "BOE-A-1979-23709",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709",
+      "verificado": "Texto consolidado, actualización de 12/06/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Reforma del artículo 49 de la Constitución Española, de 15 de febrero de 2024",
+      "boe": "BOE-A-2024-3099",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-3099",
+      "verificado": "Texto original publicado en el BOE (la reforma consta ya incorporada en la versión consolidada de la CE leída el 16/10/2026)"
+    }
+  ],
+  "novedades": [
+    "Reforma del art. 49 CE (15 de febrero de 2024, en vigor desde su publicación): actualiza el lenguaje y el contenido del precepto. Hoy habla de «personas con discapacidad», que ejercen los derechos del Título I en condiciones de libertad e igualdad reales y efectivas, con políticas de autonomía personal e inclusión social en entornos universalmente accesibles y atención a las mujeres y los menores con discapacidad.",
+    "La CE se ha reformado cuatro veces: art. 13.2 (1992, sufragio activo y pasivo en elecciones municipales por reciprocidad), art. 135 (2011, estabilidad presupuestaria), art. 49 (2024) y art. 69.3 (2026, circunscripciones del Senado en Ibiza y Formentera: véase el Tema 3)."
+  ],
+  "clave": [
+    "**Valores superiores** (art. 1.1): **libertad, justicia, igualdad y pluralismo político**. La solidaridad y la dignidad no son valores superiores.",
+    "**Estructura**: Preámbulo, Título Preliminar (arts. 1-9), **10 Títulos**, **169 artículos**, 4 disposiciones adicionales, 9 transitorias, 1 derogatoria y 1 final.",
+    "**Derechos fundamentales y libertades públicas** = Sección 1.ª del Capítulo II del Título I (**arts. 15-29**). El **amparo** protege el art. 14, los arts. 15-29 y la objeción de conciencia (art. 30.2) (art. 53.2).",
+    "**Detención preventiva**: máximo **72 horas** (art. 17.2); información inmediata de derechos y razones, no ser obligado a declarar y asistencia de abogado (art. 17.3); habeas corpus (art. 17.4).",
+    "**Domicilio inviolable** (art. 18.2): entrada o registro solo con **consentimiento del titular, resolución judicial o flagrante delito**. Comunicaciones: secreto salvo resolución judicial (art. 18.3).",
+    "**Reunión** (art. 21): sin autorización previa; **comunicación previa** en lugares de tránsito público y manifestaciones; solo se prohíben por razones fundadas de alteración del orden público con peligro para personas o bienes.",
+    "**Suspensión** (art. 55.1), solo en estado de **excepción o sitio**: arts. 17, 18.2, 18.3, 19, 20.1.a), 20.1.d), 20.5, 21, 28.2 y 37.2. En excepción nunca el art. 17.3.",
+    "**Alarma**: Gobierno, decreto en Consejo de Ministros, **15 días**, prórroga con autorización del Congreso. **Excepción**: autorización previa del Congreso, **30 días** prorrogables por otros 30. **Sitio**: **mayoría absoluta del Congreso**, a propuesta **exclusiva** del Gobierno.",
+    "**Defensor del Pueblo**: alto comisionado de las **Cortes Generales** (art. 54); mandato de **5 años**; elegido por **3/5 del Congreso** y ratificado por 3/5 del Senado en **20 días**.",
+    "**Queja ante el Defensor**: plazo máximo de **1 año** desde el conocimiento de los hechos; gratuita y sin letrado ni procurador (art. 15 LO 3/1981).",
+    "**Vacante del Defensor**: la declara el **Presidente del Congreso** en caso de muerte, renuncia o expiración del plazo; en los demás casos, 3/5 de cada Cámara (art. 5 LO 3/1981).",
+    "**Garantías** (art. 53): los derechos del Capítulo II vinculan a todos los poderes públicos y solo por ley que respete su **contenido esencial** puede regularse su ejercicio; los principios rectores se alegan según lo que digan las leyes que los desarrollen.",
+    "**Extranjeros** (art. 13): solo los españoles son titulares de los derechos del art. 23, salvo reciprocidad en el sufragio activo y pasivo municipal; la extradición solo por tratado o ley, con reciprocidad, y el terrorismo no es delito político."
+  ],
+  "resumen": [
+    {
+      "titulo": "Estructura, valores y principios de la Constitución",
+      "puntos": [
+        "La CE se sancionó el **27 de diciembre de 1978**. Consta de **Preámbulo, Título Preliminar (arts. 1-9) y 10 Títulos (I a X)**, con **169 artículos**, más **4 disposiciones adicionales, 9 transitorias, 1 derogatoria y 1 final**. Entra en vigor el día de la publicación de su texto oficial en el BOE.",
+        "**Caracteres** (doctrina): escrita, codificada, rígida (reforma agravada, arts. 166-169) y norma suprema: ciudadanos y poderes públicos están sujetos a ella (art. 9.1).",
+        "**Valores superiores** (art. 1.1): **libertad, justicia, igualdad y pluralismo político** (cuatro). La solidaridad (arts. 2 y 138) y la dignidad (art. 10.1) aparecen en otros preceptos, pero no son valores superiores.",
+        "Art. 1: **Estado social y democrático de Derecho** (1.1); la **soberanía nacional reside en el pueblo español**, del que emanan los poderes del Estado (1.2); forma política: **Monarquía parlamentaria** (1.3).",
+        "**Estado de Derecho** (art. 9.3): legalidad, jerarquía normativa, publicidad de las normas, irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales, seguridad jurídica, responsabilidad e interdicción de la arbitrariedad. **Estado social**: los poderes públicos promueven que libertad e igualdad sean reales y efectivas, remueven obstáculos y facilitan la participación (art. 9.2). **Estado autonomista**: indisoluble unidad de la Nación y derecho a la autonomía de nacionalidades y regiones, con solidaridad (art. 2); municipios, provincias y Comunidades Autónomas (art. 137).",
+        "Título Preliminar: castellano, lengua oficial del Estado (art. 3); bandera roja, amarilla y roja, con la amarilla de doble anchura (art. 4); capital, Madrid (art. 5); Fuerzas Armadas: Ejército de Tierra, Armada y Ejército del Aire (art. 8)."
+      ]
+    },
+    {
+      "titulo": "Mapa del Título I: derechos, deberes y extranjería",
+      "puntos": [
+        "**Nacionalidad y edad**: ningún español de origen puede ser privado de su nacionalidad (art. 11.2); mayoría de edad a los **18 años** (art. 12).",
+        "**Extranjeros** (art. 13): libertades públicas del Título I «en los términos que establezcan los tratados y la ley»; solo los **españoles** son titulares de los derechos del art. 23, salvo reciprocidad para el **sufragio activo y pasivo en elecciones municipales**. **Extradición**: solo por tratado o ley, con reciprocidad; se excluyen los delitos políticos, sin considerar como tales los actos de terrorismo. La ley regula el asilo.",
+        "**Deberes**: defender España (30.1), contribuir a los gastos públicos según la capacidad económica (31.1), trabajar (35.1) y conservar el medio ambiente (45.1). La ley regula las obligaciones militares, la objeción de conciencia con prestación social sustitutoria (30.2) y los deberes en grave riesgo, catástrofe o calamidad pública (30.4).",
+        "**Principios rectores** (arts. 39-52): familia e hijos (39), progreso social y pleno empleo (40), Seguridad Social (41), trabajadores españoles en el extranjero (42), salud (43), cultura y ciencia (44), medio ambiente (45), patrimonio histórico (46), vivienda (47), juventud (48), personas con discapacidad (49), tercera edad (50), consumidores y usuarios (51), organizaciones profesionales (52)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Parte del Título I",
+          "Artículos",
+          "Protección"
+        ],
+        "filas": [
+          [
+            "Cap. I. Españoles y extranjeros",
+            "11-13",
+            "Nacionalidad, mayoría de edad, extranjería"
+          ],
+          [
+            "Igualdad ante la ley",
+            "14",
+            "Tutela preferente y sumaria y amparo (art. 53.2)"
+          ],
+          [
+            "Cap. II, Sección 1.ª. Derechos fundamentales y libertades públicas",
+            "15-29",
+            "Ley orgánica (81.1), reforma agravada (168), tutela preferente y sumaria y amparo"
+          ],
+          [
+            "Cap. II, Sección 2.ª. Derechos y deberes de los ciudadanos",
+            "30-38",
+            "Ley que respete el contenido esencial; amparo solo para la objeción de conciencia (30.2)"
+          ],
+          [
+            "Cap. III. Principios rectores de la política social y económica",
+            "39-52",
+            "Solo alegables según las leyes que los desarrollen (53.3)"
+          ],
+          [
+            "Cap. IV. Garantías",
+            "53-54",
+            "Garantías generales y Defensor del Pueblo"
+          ],
+          [
+            "Cap. V. Suspensión de derechos y libertades",
+            "55",
+            "Excepción, sitio y terrorismo"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Derechos fundamentales y libertades públicas (arts. 14-29)",
+      "puntos": [
+        "Son **derechos fundamentales y libertades públicas** los de la **Sección 1.ª (arts. 15-29)**: **15 artículos**. El art. 14 queda fuera de la Sección, pero con la misma tutela.",
+        "**Art. 17**: la detención preventiva dura lo estrictamente necesario y **como máximo 72 horas**, tras las cuales el detenido es puesto en libertad o a disposición judicial. Debe ser informado de forma inmediata y comprensible de sus derechos y de las razones de su detención, sin obligación de declarar, con asistencia de abogado en las diligencias policiales y judiciales (17.3). La ley regula el habeas corpus y fija el plazo máximo de la prisión provisional (17.4).",
+        "**Art. 18.2**: ninguna entrada o registro en el domicilio sin **consentimiento del titular, resolución judicial o flagrante delito**. **Art. 18.3**: secreto de las comunicaciones, salvo resolución judicial.",
+        "**Art. 21**: la reunión pacífica y sin armas no necesita autorización previa. En lugares de tránsito público y manifestaciones se da **comunicación previa** a la autoridad, que solo puede prohibirlas por **razones fundadas de alteración del orden público, con peligro para personas o bienes**."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Art.",
+          "Contenido que se pregunta"
+        ],
+        "filas": [
+          [
+            "14",
+            "Igualdad ante la ley de los españoles; sin discriminación por nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social"
+          ],
+          [
+            "15",
+            "Vida e integridad física y moral; prohibidas la tortura y las penas o tratos inhumanos o degradantes; pena de muerte abolida, salvo lo que dispongan las leyes penales militares en tiempos de guerra"
+          ],
+          [
+            "16",
+            "Libertad ideológica, religiosa y de culto; nadie está obligado a declarar sobre su ideología, religión o creencias; ninguna confesión tiene carácter estatal"
+          ],
+          [
+            "17",
+            "Libertad y seguridad; detención preventiva de 72 horas como máximo"
+          ],
+          [
+            "18",
+            "Honor, intimidad y propia imagen; domicilio inviolable; secreto de las comunicaciones; límites a la informática"
+          ],
+          [
+            "19",
+            "Elegir residencia y circular por el territorio nacional; entrar y salir de España, sin limitación por motivos políticos o ideológicos"
+          ],
+          [
+            "20",
+            "Expresión; producción y creación literaria, artística, científica y técnica; libertad de cátedra; información veraz. Sin censura previa; secuestro de publicaciones solo por resolución judicial"
+          ],
+          [
+            "21",
+            "Reunión pacífica y sin armas, sin autorización previa"
+          ],
+          [
+            "22",
+            "Asociación. Ilegales las que persigan fines o usen medios delictivos; registro a solos efectos de publicidad; disolución o suspensión solo por resolución judicial motivada; prohibidas las secretas y las paramilitares"
+          ],
+          [
+            "23",
+            "Participar en los asuntos públicos por sufragio universal; acceder en condiciones de igualdad a funciones y cargos públicos"
+          ],
+          [
+            "24",
+            "Tutela judicial efectiva sin indefensión; juez ordinario predeterminado por la ley; defensa y asistencia de letrado; proceso público sin dilaciones indebidas; no declarar contra sí mismo ni confesarse culpable; presunción de inocencia"
+          ],
+          [
+            "25",
+            "Legalidad penal y sancionadora; penas orientadas a la reeducación y reinserción social, sin trabajos forzados; la Administración civil no puede imponer sanciones privativas de libertad"
+          ],
+          [
+            "26",
+            "Prohibidos los Tribunales de Honor en la Administración civil y en las organizaciones profesionales"
+          ],
+          [
+            "27",
+            "Educación y libertad de enseñanza; enseñanza básica obligatoria y gratuita; autonomía universitaria"
+          ],
+          [
+            "28",
+            "Libertad sindical (la ley puede limitarla o exceptuarla para Fuerzas o Institutos armados y Cuerpos sometidos a disciplina militar) y huelga"
+          ],
+          [
+            "29",
+            "Petición individual y colectiva, por escrito; Fuerzas o Institutos armados y Cuerpos sometidos a disciplina militar, solo individualmente"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Garantías de los derechos (arts. 53 y 54)",
+      "puntos": [
+        "**Amparo ante el Tribunal Constitucional** (arts. 53.2 y 161.1.b): protege el **art. 14, los arts. 15-29 y la objeción de conciencia (30.2)**. Legitimados: toda persona natural o jurídica con interés legítimo, el Defensor del Pueblo y el Ministerio Fiscal (art. 162.1.b). Debe justificarse la **especial trascendencia constitucional** (LOTC, arts. 49.1 y 50.1.b).",
+        "**Plazos del amparo** (LOTC): **20 días** desde la notificación de la resolución judicial previa si la violación procede del Gobierno o la Administración (art. 43.2); **30 días** si procede de un órgano judicial (art. 44.2); **3 meses** si procede de actos sin valor de ley de las Cortes o de las Asambleas autonómicas (art. 42).",
+        "Otras garantías: el **Defensor del Pueblo** (art. 54); el **decreto-ley** no puede afectar a los derechos del Título I (art. 86.1); la reforma de la Sección 1.ª exige el procedimiento agravado (art. 168)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Garantía",
+          "A qué se aplica",
+          "Base"
+        ],
+        "filas": [
+          [
+            "Vinculan a todos los poderes públicos; solo por ley que respete su contenido esencial puede regularse su ejercicio",
+            "Derechos y libertades del Capítulo II (arts. 14-38)",
+            "Art. 53.1"
+          ],
+          [
+            "Tutela ante los tribunales ordinarios por un procedimiento preferente y sumario y, en su caso, amparo",
+            "Art. 14 y Sección 1.ª; el amparo, también la objeción de conciencia (30.2)",
+            "Art. 53.2"
+          ],
+          [
+            "Informan la legislación, la práctica judicial y la actuación de los poderes públicos; alegables solo según las leyes que los desarrollen",
+            "Principios rectores (Capítulo III)",
+            "Art. 53.3"
+          ],
+          [
+            "Reserva de ley orgánica",
+            "Desarrollo de los derechos fundamentales y libertades públicas",
+            "Art. 81.1"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Suspensión de derechos y estados de alarma, excepción y sitio",
+      "puntos": [
+        "**Art. 55.1**: solo pueden suspenderse, al declararse el estado de **excepción o de sitio**, los arts. **17, 18.2, 18.3, 19, 20.1.a), 20.1.d), 20.5, 21, 28.2 y 37.2**: libertad y seguridad, domicilio, comunicaciones, residencia y circulación, expresión, información, secuestro de publicaciones, reunión, huelga y conflicto colectivo. Es una lista cerrada. En el estado de excepción se exceptúa el **apartado 3 del art. 17**.",
+        "**Art. 55.2**: una ley orgánica puede determinar la forma y los casos en que, individualmente, con intervención judicial y control parlamentario, se suspendan los arts. **17.2, 18.2 y 18.3** para personas determinadas, en investigaciones sobre bandas armadas o elementos terroristas. El uso injustificado o abusivo produce responsabilidad penal.",
+        "**Reglas comunes** (art. 116 CE y art. 1 LO 4/1981): medidas estrictamente indispensables y proporcionadas; no se interrumpe el funcionamiento de los poderes constitucionales; no puede disolverse el Congreso (las Cámaras quedan automáticamente convocadas); no puede iniciarse la reforma constitucional (art. 169)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Aspecto",
+          "Alarma",
+          "Excepción",
+          "Sitio"
+        ],
+        "filas": [
+          [
+            "Quién lo declara",
+            "Gobierno, por decreto en Consejo de Ministros, dando cuenta al Congreso",
+            "Gobierno, por decreto en Consejo de Ministros, **previa autorización del Congreso**",
+            "**Mayoría absoluta del Congreso**, a **propuesta exclusiva del Gobierno**"
+          ],
+          [
+            "Duración",
+            "Máximo **15 días**; prórroga solo con autorización expresa del Congreso",
+            "Máximo **30 días**, prorrogables por otro plazo igual con los mismos requisitos",
+            "La fija el Congreso, que determina también ámbito y condiciones"
+          ],
+          [
+            "Supuestos (LO 4/1981)",
+            "Catástrofes, crisis sanitarias, paralización de servicios esenciales, desabastecimiento (art. 4)",
+            "Alteración tan grave del ejercicio de derechos y libertades, de las instituciones, de servicios esenciales o del orden público que las potestades ordinarias no bastan (art. 13)",
+            "Insurrección o acto de fuerza contra la soberanía, la independencia, la integridad territorial o el ordenamiento constitucional (art. 32)"
+          ],
+          [
+            "Derechos",
+            "Sin suspensión: solo medidas limitativas (art. 11 LO)",
+            "Suspensión de los del art. 55.1 salvo el **17.3**. Detención gubernativa de hasta **10 días**, comunicada al juez en 24 horas (art. 16 LO)",
+            "Los mismos y **también el 17.3** (art. 32.3 LO)"
+          ],
+          [
+            "Autoridad",
+            "Gobierno o, por delegación, el Presidente de la CA si afecta solo a su territorio (art. 7)",
+            "Autoridad gubernativa",
+            "Autoridad militar designada por el Gobierno (art. 33)"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "El Defensor del Pueblo (art. 54 CE y LO 3/1981)",
+      "puntos": [
+        "**Qué es**: alto comisionado de las **Cortes Generales**, designado por éstas para defender los derechos del Título I; supervisa la actividad de la Administración y da cuenta a las Cortes. Puede serlo cualquier español mayor de edad en pleno disfrute de sus derechos civiles y políticos (art. 3). Mandato de **5 años** (art. 2.1).",
+        "**Cese** (art. 5): renuncia, expiración del plazo, muerte o incapacidad sobrevenida, notoria negligencia o condena firme por delito doloso. La **vacante** la declara el **Presidente del Congreso** si hay muerte, renuncia o expiración; en los demás casos decide la mayoría de **3/5 de cada Cámara**, con debate y audiencia del interesado. El nuevo procedimiento se inicia en un mes como máximo y, entretanto, lo sustituyen los Adjuntos.",
+        "**Estatuto**: no recibe instrucciones; **inviolabilidad**; solo puede ser detenido en caso de flagrante delito y su inculpación, prisión, procesamiento y juicio corresponden a la **Sala de lo Penal del Tribunal Supremo** (art. 6). Incompatible con todo mandato representativo, cargo político, afiliación a partido, carreras judicial y fiscal y cualquier actividad profesional, mercantil o laboral (art. 7). Auxilian al Defensor un Adjunto Primero y un Adjunto Segundo, con conformidad previa de la Comisión Mixta (arts. 2.6 y 8).",
+        "**Quién puede quejarse**: toda persona natural o jurídica con interés legítimo, sin restricción: no impiden la queja la nacionalidad, la residencia, el sexo, la minoría de edad, la incapacidad legal ni el internamiento penitenciario (art. 10.1). También diputados, senadores y comisiones parlamentarias (art. 10.2). **No pueden** las autoridades administrativas en asuntos de su competencia (art. 10.3).",
+        "**Queja** (art. 15): escrito razonado y firmado, en papel común, en el plazo máximo de **1 año** desde que se conocieron los hechos; gratuita y sin letrado ni procurador. Rechaza las quejas anónimas y no examina las que tengan resolución judicial pendiente (art. 17). El organismo afectado informa en **15 días** (art. 18.1) y responde por escrito en **un mes** a sus recomendaciones (art. 30.1). Las quejas sobre la Administración de Justicia van al Ministerio Fiscal o al CGPJ (art. 13).",
+        "No puede anular ni modificar actos administrativos, solo sugerir (art. 28). Está **legitimado para interponer recursos de inconstitucionalidad y de amparo** (art. 29). Su actividad no se interrumpe por la disolución de las Cortes ni por los estados de excepción o sitio (art. 11). Informe **anual** a las Cortes y extraordinarios a las Diputaciones Permanentes (art. 32).",
+        "**Mecanismo Nacional de Prevención de la Tortura** (disp. final única LO 3/1981): el Defensor ejerce sus funciones conforme al Protocolo facultativo de la Convención contra la tortura. Su Consejo Asesor lo preside el **Adjunto en quien delegue** el Defensor, que designa a ese presidente entre sus Adjuntos y a los vocales (art. 8.h del Reglamento); lo integran los Adjuntos y un máximo de 10 vocales con mandato de 4 años (arts. 19 y 20 del Reglamento)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Fase de la elección",
+          "Regla (LO 3/1981)"
+        ],
+        "filas": [
+          [
+            "Propuesta",
+            "La Comisión Mixta Congreso-Senado propone candidato o candidatos por mayoría simple (art. 2.3)"
+          ],
+          [
+            "Votación",
+            "Pleno del Congreso, convocado con no menos de 10 días: **3/5** de sus miembros; ratificación por la misma mayoría del Senado en un máximo de **20 días** (art. 2.4)"
+          ],
+          [
+            "Si no se alcanzan",
+            "Nuevas propuestas en un máximo de un mes: 3/5 en el Congreso y mayoría absoluta del Senado (art. 2.5)"
+          ],
+          [
+            "Nombramiento y posesión",
+            "Lo acreditan con su firma los Presidentes del Congreso y del Senado y se publica en el BOE; toma posesión ante las **Mesas de ambas Cámaras reunidas conjuntamente** (art. 4)"
+          ]
+        ]
+      }
+    }
+  ],
+  "trampas": [
+    "**Valores superiores**: libertad, justicia, igualdad y pluralismo político. Cuelan la solidaridad, la dignidad, la paz o la propiedad como «valores superiores».",
+    "**Plazos que se confunden**: 72 horas (detención preventiva, art. 17.2 CE), 24 horas (comunicación al juez de la detención gubernativa en excepción, art. 16.2 LO 4/1981), 10 días (duración de esa detención gubernativa) y 30 días (duración del estado de excepción).",
+    "**Quién declara cada estado**: el sitio lo declara el **Congreso** por mayoría absoluta a propuesta **exclusiva** del Gobierno (no el Gobierno, no las Cortes Generales, no el Senado). Para la excepción basta autorización del Congreso, sin exigirse mayoría absoluta.",
+    "**Duraciones**: alarma 15 días; excepción 30 más 30; el sitio no tiene plazo fijo en la CE, lo determina el Congreso. En alarma no se suspenden derechos (solo limitaciones).",
+    "**Lista del art. 55.1**: es cerrada. No se suspenden la vida (15), la libertad ideológica (16), la asociación (22), la participación política (23), la tutela judicial (24), la legalidad penal (25) ni la educación (27), aunque se ofrezcan como opciones. Sí se suspenden reunión (21), huelga (28.2) y circulación (19).",
+    "**Defensor del Pueblo**: queja en **1 año** (no 6 meses ni 2 años); lo eligen las **Cortes Generales** (3/5 de cada Cámara; no el Gobierno ni solo el Congreso); la vacante por muerte, renuncia o expiración la declara el Presidente del **Congreso**; toma posesión ante las **Mesas de ambas Cámaras** reunidas conjuntamente.",
+    "**Amparo**: protege el art. 14, los arts. 15-29 y la objeción de conciencia (30.2), no los arts. 31-38 ni los principios rectores. No confundir los plazos: 20 días (Gobierno o Administración), 30 días (órgano judicial) y 3 meses (Cortes o Asambleas).",
+    "**Reunión**: no hay autorización previa; la comunicación previa solo se exige en lugares de tránsito público y manifestaciones; la prohibición exige razones fundadas de alteración del orden público con peligro para personas o bienes.",
+    "**Extranjeros**: tienen libertades públicas «en los términos que establezcan los tratados y la ley» (art. 13.1), pero el art. 23 es solo de españoles, salvo el sufragio municipal por reciprocidad. En la extradición, el terrorismo no es delito político."
+  ],
+  "caido": [
+    {
+      "examen": "P39 (23 abr 2023), P40 (13 abr 2024, 2 preguntas), P41 (1 mar 2025), P43 (26 sep 2026)",
+      "concepto": "Defensor del Pueblo: designación por las Cortes Generales (art. 54), informe anual, toma de posesión, declaración de vacante y plazo de 1 año para la queja."
+    },
+    {
+      "examen": "P43 (26 sep 2026)",
+      "concepto": "Mecanismo Nacional de Prevención de la Tortura: designación del presidente del Consejo Asesor por el Defensor del Pueblo (art. 8 del Reglamento)."
+    },
+    {
+      "examen": "P40 (13 abr 2024), P41 (1 mar 2025)",
+      "concepto": "Suspensión de derechos (art. 55): reunión y manifestación solo en excepción o sitio; el sitio lo declara el Congreso por mayoría absoluta a propuesta exclusiva del Gobierno (art. 116.4)."
+    },
+    {
+      "examen": "P41 (1 mar 2025)",
+      "concepto": "Derecho de reunión (art. 21): sin autorización previa; comunicación previa en lugares de tránsito público."
+    },
+    {
+      "examen": "P40 (13 abr 2024), P42 (25 oct 2025)",
+      "concepto": "Valores superiores (la solidaridad no figura) y sufragio universal del art. 23."
+    },
+    {
+      "examen": "P42 (25 oct 2025)",
+      "concepto": "Estructura formal de la Constitución: Título Preliminar, 10 Títulos, 169 artículos y disposiciones adicionales, transitorias, derogatoria y final."
+    },
+    {
+      "examen": "P43 (26 sep 2026)",
+      "concepto": "Extradición (art. 13.3): tratado o ley y reciprocidad; el terrorismo no es delito político."
+    }
+  ],
+  "mnemotecnias": [
+    "Valores superiores: «L-J-I-P»: Libertad, Justicia, Igualdad, Pluralismo político (cuatro).",
+    "Suspensión (art. 55.1): «del 17 al 21 salvo lo del 18.1, 20.1.b) y c), más 28.2 y 37.2». Se suspenden libertad y seguridad, casa y cartas, circulación, expresión e información, reunión, huelga y conflicto colectivo.",
+    "Estados: «15 – 30 – lo que diga el Congreso». Alarma 15 días; excepción 30 días (+30); sitio sin plazo fijo, lo decide el Congreso.",
+    "Defensor del Pueblo: «5 años, 3/5, 20 días, 1 año»: mandato, mayoría, ratificación del Senado y plazo de queja.",
+    "Plazos del amparo: «20 Gobierno, 30 jueces, 3 meses Cortes»."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Cuáles son los valores superiores del ordenamiento jurídico según el art. 1.1 CE?",
+      "r": "**Libertad, justicia, igualdad y pluralismo político.**"
+    },
+    {
+      "p": "¿Qué estructura tiene la Constitución de 1978?",
+      "r": "Preámbulo, Título Preliminar, **10 Títulos** (I a X), **169 artículos**, 4 disposiciones adicionales, 9 transitorias, 1 derogatoria y 1 final."
+    },
+    {
+      "p": "¿Cuál es el plazo máximo de la detención preventiva?",
+      "r": "**72 horas**, y siempre el tiempo estrictamente necesario para las averiguaciones (art. 17.2 CE)."
+    },
+    {
+      "p": "¿Qué artículos forman la Sección 1.ª «De los derechos fundamentales y de las libertades públicas»?",
+      "r": "Los **arts. 15 a 29**. El art. 14 (igualdad) la precede y tiene su misma tutela."
+    },
+    {
+      "p": "¿Qué derechos protege el recurso de amparo según el art. 53.2 CE?",
+      "r": "El **art. 14**, los derechos de la **Sección 1.ª (arts. 15-29)** y la **objeción de conciencia** del art. 30."
+    },
+    {
+      "p": "¿Qué derechos pueden suspenderse en los estados de excepción y de sitio (art. 55.1 CE)?",
+      "r": "Los arts. **17, 18.2, 18.3, 19, 20.1.a), 20.1.d), 20.5, 21, 28.2 y 37.2**. En excepción se exceptúa el art. 17.3."
+    },
+    {
+      "p": "¿Quién declara cada uno de los estados excepcionales?",
+      "r": "**Alarma**: el Gobierno (decreto en Consejo de Ministros). **Excepción**: el Gobierno con autorización previa del Congreso. **Sitio**: mayoría absoluta del Congreso a propuesta exclusiva del Gobierno (art. 116 CE)."
+    },
+    {
+      "p": "¿Cuánto dura el estado de alarma y cuánto el de excepción?",
+      "r": "Alarma: máximo **15 días**, prórroga con autorización del Congreso. Excepción: máximo **30 días**, prorrogables por otro plazo igual con los mismos requisitos."
+    },
+    {
+      "p": "¿Cuánto puede durar la detención gubernativa en el estado de excepción?",
+      "r": "Hasta **10 días**, con fundadas sospechas de alteración del orden público; se comunica al juez en **24 horas** (art. 16 LO 4/1981)."
+    },
+    {
+      "p": "¿Cuándo se puede entrar en un domicilio sin el consentimiento del titular (art. 18.2 CE)?",
+      "r": "Con **resolución judicial** o en caso de **flagrante delito**."
+    },
+    {
+      "p": "¿Qué exige el derecho de reunión (art. 21 CE)?",
+      "r": "No necesita autorización previa. En lugares de tránsito público y manifestaciones, **comunicación previa**; solo se prohíben por razones fundadas de alteración del orden público con peligro para personas o bienes."
+    },
+    {
+      "p": "¿Qué dice el art. 22 CE sobre las asociaciones?",
+      "r": "Son ilegales las que persigan fines o utilicen medios delictivos; se inscriben a solos efectos de publicidad; solo se disuelven o suspenden por **resolución judicial motivada**; se prohíben las **secretas** y las **paramilitares**."
+    },
+    {
+      "p": "¿Qué es el Defensor del Pueblo y quién lo elige?",
+      "r": "**Alto comisionado de las Cortes Generales** para defender los derechos del Título I (art. 54 CE). Mandato de 5 años; 3/5 del Congreso y ratificación por 3/5 del Senado en 20 días."
+    },
+    {
+      "p": "¿Cuál es el plazo para presentar una queja al Defensor del Pueblo?",
+      "r": "**1 año** desde que se tuvo conocimiento de los hechos. Es gratuita y no exige letrado ni procurador (art. 15 LO 3/1981)."
+    },
+    {
+      "p": "¿Quién declara la vacante del Defensor del Pueblo?",
+      "r": "El **Presidente del Congreso** si hay muerte, renuncia o expiración del plazo; en los demás casos, 3/5 de cada Cámara (art. 5 LO 3/1981)."
+    },
+    {
+      "p": "¿Ante quién toma posesión el Defensor del Pueblo?",
+      "r": "Ante las **Mesas del Congreso y del Senado reunidas conjuntamente**, con juramento o promesa (art. 4 LO 3/1981)."
+    },
+    {
+      "p": "¿Qué recursos puede interponer el Defensor del Pueblo?",
+      "r": "El **recurso de inconstitucionalidad** y el **recurso de amparo** (art. 162 CE; art. 29 LO 3/1981)."
+    },
+    {
+      "p": "¿Qué principios garantiza el art. 9.3 CE?",
+      "r": "Legalidad, jerarquía normativa, publicidad de las normas, irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales, seguridad jurídica, responsabilidad e interdicción de la arbitrariedad."
+    },
+    {
+      "p": "¿Qué condiciones fija el art. 13.3 CE para la extradición?",
+      "r": "Solo en cumplimiento de un **tratado o de la ley**, con **reciprocidad**; quedan excluidos los delitos políticos, **sin considerar como tales los actos de terrorismo**."
+    },
+    {
+      "p": "¿Quién preside el Consejo Asesor del Mecanismo Nacional de Prevención de la Tortura?",
+      "r": "El **Adjunto en quien el Defensor del Pueblo delegue** las funciones del Mecanismo (disp. final única LO 3/1981; art. 8.h y 19.3 del Reglamento)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "¿Cuál de los siguientes NO es un valor superior del ordenamiento jurídico según el artículo 1.1 de la Constitución?",
+      "opciones": [
+        "Pluralismo político",
+        "Igualdad",
+        "Solidaridad"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 1.1 CE: los valores superiores son la libertad, la justicia, la igualdad y el pluralismo político. La solidaridad aparece en otros preceptos (arts. 2 y 138, solidaridad entre las nacionalidades y regiones), pero no figura entre los valores superiores.",
+      "ref": "art. 1.1 CE",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "La Constitución Española de 1978 consta de un Preámbulo, un Título Preliminar y:",
+      "opciones": [
+        "Diez Títulos numerados, con 169 artículos en total",
+        "Nueve Títulos numerados, con 169 artículos en total",
+        "Diez Títulos numerados, con 180 artículos en total"
+      ],
+      "correcta": 0,
+      "explicacion": "La CE se estructura en Preámbulo, Título Preliminar (arts. 1 a 9) y diez Títulos (I a X), con 169 artículos, cuatro disposiciones adicionales, nueve transitorias, una derogatoria y una final. El último artículo es el 169, sobre el límite temporal de la reforma.",
+      "ref": "Estructura de la CE (Preámbulo, arts. 1 a 169 y disposiciones)",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el artículo 17.2 de la Constitución, la detención preventiva no podrá durar más del tiempo estrictamente necesario para las averiguaciones y, en todo caso, el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial en el plazo máximo de:",
+      "opciones": [
+        "Veinticuatro horas",
+        "Setenta y dos horas",
+        "Cinco días"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 17.2 CE: setenta y dos horas. No debe confundirse con la comunicación al juez en 24 horas de la detención gubernativa en el estado de excepción (art. 16.2 LO 4/1981) ni con los diez días que puede durar esa detención (art. 16.1).",
+      "ref": "art. 17.2 CE",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "La Sección 1.ª del Capítulo segundo del Título I de la Constitución («De los derechos fundamentales y de las libertades públicas») comprende los artículos:",
+      "opciones": [
+        "14 a 29",
+        "14 a 38",
+        "15 a 29"
+      ],
+      "correcta": 2,
+      "explicacion": "La Sección 1.ª va del art. 15 al art. 29. El art. 14 (igualdad) la precede, aunque goza de la misma tutela (art. 53.2); los arts. 30 a 38 forman la Sección 2.ª (derechos y deberes de los ciudadanos).",
+      "ref": "arts. 14 a 38 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el artículo 53.2 de la Constitución, el recurso de amparo ante el Tribunal Constitucional protege:",
+      "opciones": [
+        "Todos los derechos reconocidos en el Título I, incluidos los principios rectores de la política social y económica",
+        "El art. 14, los derechos de la Sección 1.ª del Capítulo segundo y la objeción de conciencia del art. 30",
+        "Únicamente los derechos fundamentales de la Sección 1.ª, con exclusión del principio de igualdad"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 53.2 CE (y art. 41.1 LOTC): igualdad (art. 14), derechos y libertades de la Sección 1.ª (arts. 15 a 29) y objeción de conciencia (art. 30). Los principios rectores solo pueden alegarse ante la jurisdicción ordinaria según lo que dispongan las leyes que los desarrollen (art. 53.3).",
+      "ref": "art. 53.2 y 53.3 CE; art. 41 LOTC",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale cuál de los siguientes derechos NO puede ser suspendido al declararse el estado de excepción o de sitio, según el artículo 55.1 de la Constitución:",
+      "opciones": [
+        "La libertad ideológica, religiosa y de culto (art. 16)",
+        "El derecho de reunión (art. 21)",
+        "El derecho de huelga de los trabajadores (art. 28.2)"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 55.1 CE: pueden suspenderse los arts. 17, 18.2 y 18.3, 19, 20.1 (en sus letras a y d), 20.5, 21, 28.2 y 37.2. La libertad ideológica, religiosa y de culto (art. 16) no figura en esa lista cerrada, por lo que no puede suspenderse; la reunión y la huelga sí.",
+      "ref": "art. 55.1 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Quién declara el estado de sitio, según el artículo 116 de la Constitución?",
+      "opciones": [
+        "El Gobierno, mediante decreto acordado en Consejo de Ministros, previa autorización del Congreso de los Diputados",
+        "La mayoría absoluta del Congreso de los Diputados, a propuesta exclusiva del Gobierno",
+        "El Rey, a propuesta del Presidente del Gobierno y con autorización del Senado"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 116.4 CE (y art. 32 LO 4/1981). La primera opción describe el estado de excepción (art. 116.3). El Rey no declara los estados excepcionales y el Senado no interviene.",
+      "ref": "art. 116.3 y 116.4 CE",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "El Gobierno declara el estado de alarma mediante decreto acordado en Consejo de Ministros. ¿Cuál es su duración máxima inicial y qué requisito se exige para prorrogarlo?",
+      "opciones": [
+        "Quince días; la prórroga requiere autorización expresa del Congreso de los Diputados",
+        "Treinta días; la prórroga la acuerda el propio Gobierno",
+        "Quince días; la prórroga requiere la mayoría absoluta del Senado"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 116.2 CE y art. 6.2 LO 4/1981: quince días como máximo, y solo puede prorrogarse con autorización expresa del Congreso, que puede fijar el alcance y las condiciones de la prórroga. Los treinta días corresponden al estado de excepción y el Senado no interviene.",
+      "ref": "art. 116.2 CE; art. 6 LO 4/1981",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Durante el estado de excepción, la autoridad gubernativa puede detener a una persona cuando existan fundadas sospechas de que va a provocar alteraciones del orden público. ¿Cuánto puede durar como máximo esa detención?",
+      "opciones": [
+        "Setenta y dos horas",
+        "Treinta días",
+        "Diez días"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 16.1 LO 4/1981: la detención no podrá exceder de diez días y los detenidos disfrutan de los derechos del art. 17.3 CE; debe comunicarse al juez competente en 24 horas (art. 16.2). Las 72 horas son el máximo general del art. 17.2 CE y los 30 días, la duración máxima inicial del estado de excepción.",
+      "ref": "art. 16 LO 4/1981",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "En relación con el derecho de reunión del artículo 21 de la Constitución, señale la afirmación correcta:",
+      "opciones": [
+        "Toda reunión en un lugar de tránsito público requiere autorización previa de la autoridad gubernativa",
+        "Las reuniones en lugares de tránsito público y las manifestaciones requieren comunicación previa a la autoridad, que solo podrá prohibirlas por razones fundadas de alteración del orden público, con peligro para personas o bienes",
+        "La autoridad puede prohibir una manifestación siempre que considere que puede alterar la normalidad ciudadana"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 21 CE: el derecho de reunión pacífica y sin armas no necesita autorización previa (21.1); en lugares de tránsito público y manifestaciones basta la comunicación previa, y la prohibición exige razones fundadas de alteración del orden público con peligro para personas o bienes (21.2). La mera posibilidad de alterar la normalidad no basta.",
+      "ref": "art. 21 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una patrulla de la Policía Nacional accede sin consentimiento y sin resolución judicial al domicilio de una persona porque, desde la puerta, observa que en su interior se está cometiendo un delito. Según el artículo 18.2 de la Constitución, esa entrada:",
+      "opciones": [
+        "Es conforme a la Constitución porque se trata de un caso de flagrante delito",
+        "No es conforme a la Constitución porque siempre se requiere resolución judicial",
+        "No es conforme a la Constitución salvo que lo autorice el Ministerio Fiscal"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 18.2 CE: el domicilio es inviolable y ninguna entrada o registro puede hacerse en él sin consentimiento del titular o resolución judicial, salvo en caso de flagrante delito. La autorización del Ministerio Fiscal no es una excepción prevista en la Constitución.",
+      "ref": "art. 18.2 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el artículo 54 de la Constitución, el Defensor del Pueblo es el alto comisionado de:",
+      "opciones": [
+        "El Gobierno",
+        "El Congreso de los Diputados",
+        "Las Cortes Generales"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 54 CE y art. 1 LO 3/1981: es el alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos del Título I, para lo cual puede supervisar la actividad de la Administración y dar cuenta a las Cortes Generales.",
+      "ref": "art. 54 CE; art. 1 LO 3/1981",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál es el plazo máximo para presentar una queja ante el Defensor del Pueblo, contado desde que el interesado tuvo conocimiento de los hechos?",
+      "opciones": [
+        "Seis meses",
+        "Un año",
+        "Dos años"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 15.1 LO 3/1981: la queja se presenta firmada, en escrito razonado y en papel común, en el plazo máximo de un año desde que el interesado tuvo conocimiento de los hechos. Las actuaciones son gratuitas y no es preceptiva la asistencia de letrado ni de procurador (art. 15.2).",
+      "ref": "art. 15 LO 3/1981",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Para ser elegido Defensor del Pueblo, el candidato debe obtener una votación favorable en el Congreso y ser ratificado por el Senado en un plazo máximo de veinte días. ¿Qué mayoría se exige en cada caso?",
+      "opciones": [
+        "Dos tercios de los miembros del Congreso, ratificados por mayoría simple del Senado",
+        "Mayoría absoluta de cada Cámara",
+        "Tres quintos de los miembros del Congreso, ratificados por la misma mayoría del Senado"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 2.4 LO 3/1981: tres quintos del Congreso y, en un plazo máximo de veinte días, ratificación por la misma mayoría del Senado. Si no se alcanzan esas mayorías, se formulan nuevas propuestas en un plazo máximo de un mes y, una vez lograda la mayoría de tres quintos en el Congreso, basta la mayoría absoluta del Senado (art. 2.5).",
+      "ref": "art. 2.4 y 2.5 LO 3/1981",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En caso de muerte, renuncia o expiración del plazo del mandato del Defensor del Pueblo, la vacante en el cargo la declara:",
+      "opciones": [
+        "El Presidente del Congreso de los Diputados",
+        "El Presidente del Senado",
+        "La Comisión Mixta Congreso-Senado, por mayoría simple"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 5.2 LO 3/1981: la declara el Presidente del Congreso en esos tres supuestos. En los demás casos (notoria negligencia, condena firme por delito doloso, incapacidad...) se decide por mayoría de tres quintos de cada Cámara, mediante debate y previa audiencia del interesado.",
+      "ref": "art. 5.2 LO 3/1981",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre el Defensor del Pueblo:",
+      "opciones": [
+        "Está legitimado para interponer recursos de inconstitucionalidad y de amparo",
+        "Su mandato es de cinco años",
+        "Para presentarle una queja es preceptiva la asistencia de letrado y procurador"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 15.2 LO 3/1981: todas las actuaciones del Defensor son gratuitas y no es preceptiva la asistencia de letrado ni de procurador. Las otras dos afirmaciones son ciertas: legitimación en los arts. 162 CE y 29 LO 3/1981, y mandato de cinco años en el art. 2.1.",
+      "ref": "art. 15.2, 2.1 y 29 LO 3/1981; art. 162 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Respecto al artículo 13 de la Constitución, señale la afirmación correcta:",
+      "opciones": [
+        "Los extranjeros no gozan en España de ninguna de las libertades públicas garantizadas en el Título I",
+        "La extradición solo se concederá en cumplimiento de un tratado o de la ley, atendiendo al principio de reciprocidad, y quedan excluidos los delitos políticos, sin considerar como tales los actos de terrorismo",
+        "Los extranjeros son titulares de los derechos del art. 23 en las mismas condiciones que los españoles"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 13.3 CE. Los extranjeros gozan de las libertades públicas del Título I en los términos que establezcan los tratados y la ley (art. 13.1), y solo los españoles son titulares de los derechos del art. 23, salvo reciprocidad para el sufragio activo y pasivo en elecciones municipales (art. 13.2).",
+      "ref": "art. 13 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes garantías del artículo 53 de la Constitución se reserva al art. 14 y a la Sección 1.ª del Capítulo segundo (y, para el amparo, a la objeción de conciencia), sin alcanzar al resto de los derechos del Capítulo segundo?",
+      "opciones": [
+        "La tutela ante los tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, el recurso de amparo",
+        "La vinculación de todos los poderes públicos",
+        "La regulación de su ejercicio solo por ley que respete su contenido esencial"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 53.2 CE: la tutela preferente y sumaria y el amparo se reservan al art. 14, a la Sección 1.ª y a la objeción de conciencia. La vinculación a todos los poderes públicos y la reserva de ley con respeto al contenido esencial (art. 53.1) rigen para todos los derechos y libertades del Capítulo segundo.",
+      "ref": "art. 53.1 y 53.2 CE",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Según el artículo 53.3 de la Constitución, los principios rectores de la política social y económica (Capítulo tercero) pueden ser alegados ante la jurisdicción ordinaria:",
+      "opciones": [
+        "Directamente, igual que los derechos fundamentales",
+        "Solo de acuerdo con lo que dispongan las leyes que los desarrollen",
+        "Nunca, porque carecen de valor jurídico"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 53.3 CE: el reconocimiento, el respeto y la protección de esos principios informan la legislación positiva, la práctica judicial y la actuación de los poderes públicos, y solo podrán alegarse ante la jurisdicción ordinaria de acuerdo con lo que dispongan las leyes que los desarrollen. Por tanto sí tienen valor jurídico, pero no una tutela directa.",
+      "ref": "art. 53.3 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes NO es un principio garantizado por el artículo 9.3 de la Constitución?",
+      "opciones": [
+        "La interdicción de la arbitrariedad de los poderes públicos",
+        "La irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales",
+        "La inamovilidad de los funcionarios públicos"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 9.3 CE garantiza la legalidad, la jerarquía normativa, la publicidad de las normas, la irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales, la seguridad jurídica, la responsabilidad y la interdicción de la arbitrariedad. La inamovilidad es una garantía de Jueces y Magistrados (art. 117.1), no de los funcionarios en general.",
+      "ref": "art. 9.3 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El artículo 55.2 de la Constitución permite que una ley orgánica determine los casos en que, de forma individual y con intervención judicial y control parlamentario, se suspendan ciertos derechos para personas determinadas en investigaciones sobre bandas armadas o elementos terroristas. ¿Qué derechos son?",
+      "opciones": [
+        "Los reconocidos en el art. 17, apartado 2, y en el art. 18, apartados 2 y 3",
+        "Los reconocidos en los arts. 15, 16 y 17.1",
+        "Los reconocidos en los arts. 19, 20 y 21"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 55.2 CE: el plazo máximo de la detención preventiva (art. 17.2), la inviolabilidad del domicilio (art. 18.2) y el secreto de las comunicaciones (art. 18.3). La utilización injustificada o abusiva de esas facultades produce responsabilidad penal.",
+      "ref": "art. 55.2 CE",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "En el estado de excepción, de entre los apartados del artículo 17 de la Constitución, el que queda expresamente exceptuado de la suspensión de derechos es:",
+      "opciones": [
+        "El apartado 4, sobre el habeas corpus y el plazo máximo de la prisión provisional",
+        "El apartado 2, sobre el plazo máximo de 72 horas de la detención preventiva",
+        "El apartado 3, sobre la información de derechos, la no obligación de declarar y la asistencia de abogado al detenido"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 55.1 CE: «Se exceptúa de lo establecido anteriormente el apartado 3 del artículo 17 para el supuesto de declaración de estado de excepción». En el estado de sitio, en cambio, la declaración puede autorizar la suspensión temporal de esas garantías jurídicas del detenido (art. 32.3 LO 4/1981). El art. 55.1 no exceptúa los demás apartados del art. 17.",
+      "ref": "art. 55.1 CE; art. 32.3 LO 4/1981",
+      "dificultad": 3
+    }
+  ],
+  "dudas": [
+    "Los caracteres de la CE (escrita, codificada, rígida) son una clasificación doctrinal, no un texto del BOE.",
+    "No se incluye la jurisprudencia del Tribunal Constitucional sobre la frontera entre limitación y suspensión de derechos en el estado de alarma, porque no se ha contrastado con una fuente primaria: el texto de la CE (art. 55.1) y de la LO 4/1981 (art. 11) es el que se ha leído."
+  ]
+}

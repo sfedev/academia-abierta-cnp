@@ -1,0 +1,508 @@
+{
+  "tema": 5,
+  "titulo": "La Administración General del Estado y el Gobierno",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "medio",
+    "nota": "Entre 1 y 3 preguntas por examen, casi siempre de literalidad: órganos superiores y directivos (Ley 40/2015) y Consejo de Ministros y Gobierno en funciones (Ley 50/1997)."
+  },
+  "normas": [
+    {
+      "nombre": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público",
+      "boe": "BOE-A-2015-10566",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "verificado": "Texto consolidado, última actualización de la consolidación: 15/10/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "boe": "BOE-A-1997-25336",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336",
+      "verificado": "Texto consolidado, última actualización de la consolidación: 14/10/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (arts. 12 a 14 y 53)",
+      "boe": "BOE-A-2015-10565",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "verificado": "Texto consolidado, última actualización de la consolidación: 25/09/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Constitución Española (arts. 97 a 102 y 116)",
+      "boe": "BOE-A-1978-31229",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "verificado": "Texto consolidado, última actualización de la consolidación: 20/05/2026 (leído el 16/10/2026)"
+    }
+  ],
+  "novedades": [
+    "Ley Orgánica 2/2024, de 1 de agosto (paridad): añade un párrafo al art. 54.1 de la Ley 40/2015, crea su art. 55 bis (cada sexo entre el 40 % y el 60 % en las Secretarías de Estado y órganos directivos de cada ministerio) y el art. 12.2 bis de la Ley 50/1997 (mínimo del 40 % de cada sexo en Vicepresidencias y Ministerios).",
+    "Real Decreto-ley 6/2023, de 19 de diciembre: los arts. 63.3 y 66.2 de la Ley 40/2015 permiten nombrar Subsecretarios y Directores generales entre funcionarios A1 «o entre personas que hubieran perdido tal condición como consecuencia de su jubilación»; el Director general puede no ser funcionario si el real decreto de estructura lo permite, con memoria razonada.",
+    "Ley Orgánica 1/2025, de 2 de enero: modifica el art. 5.2 de la Ley 50/1997 (asistencia de Secretarios de Estado al Consejo de Ministros «sin perjuicio» de los tratados internacionales), con efectos desde el 3/4/2025."
+  ],
+  "clave": [
+    "**Órganos superiores** de la organización central (art. 55.3 Ley 40/2015): **Ministros y Secretarios de Estado**. **Órganos directivos**: Subsecretarios y Secretarios generales; Secretarios generales técnicos y Directores generales; Subdirectores generales.",
+    "**Delegados del Gobierno** en las CCAA: órganos directivos con **rango de Subsecretario**. **Subdelegados** en las provincias: **nivel de Subdirector general** (art. 55.4). Son alto cargo todos salvo los Subdirectores generales y asimilados (art. 55.6).",
+    "Principios del art. 3.1: eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la Constitución, a la Ley y al Derecho. La AGE añade **descentralización funcional y desconcentración funcional y territorial** (art. 54.1). Cada Administración tiene **personalidad jurídica única** (art. 3.4).",
+    "El **Gobierno** se compone del **Presidente, los Vicepresidentes (en su caso) y los Ministros** y se reúne en **Consejo de Ministros** y **Comisiones Delegadas** (art. 1 Ley 50/1997).",
+    "El Presidente convoca, preside y fija el orden del día del Consejo de Ministros; actúa como **secretario el Ministro de la Presidencia**. Sus deliberaciones son **secretas** (arts. 5.3 y 18). Las de la Comisión General de Secretarios de Estado y Subsecretarios son **reservadas** (art. 8.4).",
+    "Número, denominación y competencias de los **Ministerios** y **Secretarías de Estado**: **Real Decreto del Presidente del Gobierno** (art. 57.3 Ley 40/2015; art. 2.2.j Ley 50/1997). Subsecretarías, Direcciones Generales y Subdirecciones: **Real Decreto del Consejo de Ministros** (art. 59).",
+    "**Gobierno en funciones** (art. 21 Ley 50/1997): se limita al **despacho ordinario** salvo urgencia acreditada o interés general expresamente acreditado. El Presidente no puede proponer la disolución de las Cámaras, plantear la cuestión de confianza ni proponer un referéndum consultivo; el Gobierno no puede aprobar el proyecto de Presupuestos ni presentar proyectos de ley.",
+    "El Gobierno **cesa** tras elecciones generales, por pérdida de la confianza parlamentaria, o por dimisión o fallecimiento de su Presidente, y continúa en funciones hasta la toma de posesión del nuevo (art. 101 CE; art. 21 Ley 50/1997).",
+    "**Control** (art. 29 Ley 50/1997): actos, inactividad y vía de hecho, ante la jurisdicción **contencioso-administrativa**; la actuación del Gobierno, también ante el **Tribunal Constitucional**; control político de las Cortes Generales.",
+    "Los Delegados del Gobierno ejercen la **jefatura de las Fuerzas y Cuerpos de Seguridad del Estado** en su territorio, bajo la dependencia funcional del Ministerio del Interior (art. 73.3); el Subdelegado las dirige en la provincia (art. 75)."
+  ],
+  "resumen": [
+    {
+      "titulo": "Órganos superiores y directivos: quién es quién",
+      "puntos": [
+        "La AGE se organiza en **Presidencia del Gobierno y Ministerios** (art. 57.1 Ley 40/2015) y comprende la Organización Central, la Territorial y la Administración en el exterior (art. 55.2).",
+        "**Órganos superiores**: Ministros y Secretarios de Estado. **Órganos directivos**: Subsecretarios y Secretarios generales; Secretarios generales técnicos y Directores generales; Subdirectores generales (art. 55.3). Los superiores fijan los planes de actuación y los directivos los desarrollan y ejecutan (art. 55.9).",
+        "Orden jerárquico de los directivos (art. 60): **Subsecretario, Director general, Subdirector general**. Los Secretarios generales tienen categoría de Subsecretario y los Secretarios generales técnicos, de Director general. Todo Ministerio tiene **Subsecretaría** y, bajo ella, una **Secretaría General Técnica** (art. 58.2).",
+        "Los **Ministerios y las Secretarías de Estado** se crean por Real Decreto del **Presidente** (art. 57.3). Subsecretarías, Secretarías Generales, Secretarías Generales Técnicas, Direcciones y Subdirecciones Generales, por **Real Decreto del Consejo de Ministros**; los órganos de nivel inferior, por **orden del Ministro** con autorización previa de Hacienda (art. 59).",
+        "Paridad (art. 55 bis): en las Secretarías de Estado y los órganos directivos de cada ministerio, las personas de cada sexo **no superan el 60 % ni son menos del 40 %**.",
+        "Territorial: el Delegado del Gobierno en cada Comunidad Autónoma se nombra por Real Decreto del Consejo de Ministros a propuesta del Presidente y depende orgánicamente del Presidente del Gobierno y funcionalmente del ministerio competente (art. 72). Al Subdelegado lo nombra el Delegado por libre designación entre funcionarios A1 (art. 74)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Órgano",
+          "Condición",
+          "Nombramiento",
+          "Rasgo clave"
+        ],
+        "filas": [
+          [
+            "Ministro",
+            "Superior",
+            "El Rey, a propuesta del Presidente",
+            "Jefe superior del departamento"
+          ],
+          [
+            "Secretario de Estado",
+            "Superior",
+            "Real Decreto del Consejo de Ministros, a propuesta del Presidente o del Ministro",
+            "Responsable de la ejecución de la acción del Gobierno en un sector"
+          ],
+          [
+            "Subsecretario",
+            "Directivo",
+            "Real Decreto del Consejo de Ministros, a propuesta del Ministro; funcionario A1 (o jubilado)",
+            "Representación ordinaria del Ministerio; servicios comunes; jefatura superior del personal"
+          ],
+          [
+            "Secretario general",
+            "Directivo, categoría de Subsecretario",
+            "Real Decreto del Consejo de Ministros, a propuesta del Ministro o del Presidente",
+            "Sector de actividad que fija el real decreto de estructura"
+          ],
+          [
+            "Secretario general técnico",
+            "Directivo, categoría de Director general",
+            "Real Decreto del Consejo de Ministros, a propuesta del Ministro",
+            "Producción normativa, asistencia jurídica y publicaciones"
+          ],
+          [
+            "Director general",
+            "Directivo",
+            "Real Decreto del Consejo de Ministros, a propuesta del Ministro o del Presidente",
+            "Gestión de áreas funcionalmente homogéneas"
+          ],
+          [
+            "Subdirector general",
+            "Directivo (no alto cargo)",
+            "Lo nombra y cesa el Ministro, el Secretario de Estado o el Subsecretario",
+            "Ejecución de proyectos y gestión ordinaria"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Principios de organización y funcionamiento",
+      "puntos": [
+        "Las Administraciones sirven con objetividad los intereses generales y actúan según los principios de **eficacia, jerarquía, descentralización, desconcentración y coordinación**, con sometimiento pleno a la Constitución, a la Ley y al Derecho (art. 3.1 Ley 40/2015).",
+        "Deben respetar **11 principios** en su actuación y relaciones: servicio efectivo a los ciudadanos; simplicidad, claridad y proximidad; participación, objetividad y transparencia; racionalización y agilidad; buena fe, confianza legítima y lealtad institucional; responsabilidad por la gestión pública; planificación y dirección por objetivos, control y evaluación de resultados; eficacia; economía, suficiencia y adecuación de los medios a los fines; eficiencia en el uso de los recursos; y cooperación, colaboración y coordinación.",
+        "Se relacionan entre sí por **medios electrónicos** (art. 3.2). Cada Administración tiene **personalidad jurídica única** (art. 3.4). La AGE añade la **descentralización funcional y la desconcentración funcional y territorial** (art. 54.1).",
+        "La **competencia es irrenunciable** (art. 8); delegación, encomienda de gestión, delegación de firma y suplencia no alteran su titularidad. No pueden delegarse (art. 9.2) las relaciones con la Jefatura del Estado, la Presidencia del Gobierno y las Cortes, las disposiciones de carácter general, la resolución de recursos contra actos del propio órgano ni lo que la ley prohíba. **Avocación** (art. 10): acuerdo motivado y sin recurso autónomo. **Delegación de firma** (art. 12): no necesita publicarse."
+      ]
+    },
+    {
+      "titulo": "Relaciones con los ciudadanos",
+      "puntos": [
+        "Art. 13 de la Ley 39/2015, **nueve derechos**: comunicarse por un **Punto de Acceso General electrónico**; ser asistido en el uso de medios electrónicos; usar las lenguas oficiales de su Comunidad; acceder a la información pública, archivos y registros; ser **tratado con respeto y deferencia**; exigir responsabilidades; obtener medios de identificación y firma electrónica; protección de datos personales; y los demás reconocidos por la Constitución y las leyes.",
+        "Las personas físicas **eligen** si se relacionan electrónicamente, salvo las obligadas: personas jurídicas, entidades sin personalidad, profesionales de colegiación obligatoria, representantes de obligados y empleados públicos en trámites por su condición (art. 14).",
+        "Derechos del interesado (art. 53): conocer el estado de tramitación; identificar a autoridades y personal; **no presentar originales** ni **datos que ya estén en poder de la Administración**; alegar; recibir información y orientación; actuar asistido de asesor; pagar electrónicamente. En los sancionadores, ser notificado de los hechos imputados y gozar de **presunción de no responsabilidad**."
+      ]
+    },
+    {
+      "titulo": "El Gobierno: composición, organización y funciones",
+      "puntos": [
+        "El Gobierno **dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado** y ejerce la función ejecutiva y la potestad reglamentaria (art. 97 CE; art. 1 Ley 50/1997). Se compone del Presidente, los Vicepresidentes (en su caso) y los Ministros, que se reúnen en Consejo de Ministros y Comisiones Delegadas. Puede haber Ministros sin cartera (art. 4.2).",
+        "**Presidente** (art. 2): dirige la acción del Gobierno; propone al Rey, previa deliberación del Consejo de Ministros, la **disolución** de las Cámaras; plantea la **cuestión de confianza**; propone el **referéndum consultivo** con autorización del Congreso; convoca, preside y fija el orden del día del Consejo; interpone el recurso de inconstitucionalidad; **crea, modifica y suprime los departamentos y Secretarías de Estado por Real Decreto**; propone el nombramiento y cese de Vicepresidentes y Ministros; y resuelve los conflictos de atribuciones entre Ministerios.",
+        "Para ser miembro del Gobierno: español, mayor de edad, con sufragio activo y pasivo y no inhabilitado por sentencia firme (art. 11). Vicepresidentes y Ministros los nombra y separa el **Rey a propuesta del Presidente**, con un mínimo del 40 % de cada sexo (art. 12). Incompatibilidades: no otras funciones representativas que las del mandato parlamentario, ni otra función pública ni actividad profesional o mercantil (art. 14). Al Presidente lo suplen los Vicepresidentes por orden de prelación y, en su defecto, los Ministros por precedencia (art. 13).",
+        "**Consejo de Ministros** (art. 5): aprueba proyectos de ley y de Presupuestos, Reales Decretos-leyes y Legislativos y los reglamentos de desarrollo de las leyes (previo dictamen del Consejo de Estado); acuerda la firma de tratados; **declara los estados de alarma y de excepción** (este con autorización previa del Congreso, art. 116.3 CE) y propone al Congreso el de sitio; y crea los órganos directivos de los departamentos. Pueden asistir los Secretarios de Estado y, excepcionalmente, otros altos cargos convocados.",
+        "Funcionamiento (art. 18): el Presidente convoca, preside y fija el orden del día; es **secretario el Ministro de la Presidencia**; el acta recoge solo tiempo y lugar, asistentes, acuerdos e informes. Las **Comisiones Delegadas** se crean por Real Decreto del Consejo a propuesta del Presidente (art. 6).",
+        "Apoyo: los **Secretarios de Estado** son órganos superiores bajo la dirección del titular del departamento (art. 7). La **Comisión General de Secretarios de Estado y Subsecretarios** (art. 8) la preside un Vicepresidente o, en su defecto, el Ministro de la Presidencia; examina los asuntos que irán al Consejo; nunca decide por delegación del Gobierno. El Secretariado del Gobierno (art. 9) y los Gabinetes (art. 10) completan el apoyo político y técnico. El **Consejo de Estado** es el supremo órgano consultivo (disposición adicional segunda).",
+        "Delegación (art. 20): **no son delegables** las competencias atribuidas por la Constitución, el nombramiento y separación de altos cargos del Consejo de Ministros, las de los órganos colegiados del Gobierno (salvo las funciones administrativas del Consejo en Comisiones Delegadas) y las que una ley prohíba delegar.",
+        "Control (art. 29): sujeción a la Constitución y al ordenamiento; **control político de las Cortes**; actos, inactividad y vía de hecho, ante la jurisdicción **contencioso-administrativa**; la actuación del Gobierno, también ante el **Tribunal Constitucional**. La responsabilidad criminal de sus miembros se exige ante la Sala de lo Penal del Tribunal Supremo (art. 102 CE)."
+      ]
+    },
+    {
+      "titulo": "Gobierno en funciones: qué no puede hacer",
+      "puntos": [
+        "El Gobierno **cesa** tras elecciones generales, por pérdida de confianza parlamentaria o por dimisión o fallecimiento de su Presidente, y **continúa en funciones** hasta la toma de posesión del nuevo (art. 21.1 y 21.2 Ley 50/1997; art. 101 CE).",
+        "Facilita la formación del nuevo Gobierno y el traspaso de poderes y **limita su gestión al despacho ordinario de los asuntos públicos**, salvo urgencia debidamente acreditada o interés general expresamente acreditado (art. 21.3). Las delegaciones legislativas de las Cortes quedan en suspenso si está en funciones por elecciones generales (art. 21.6)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Sujeto en funciones",
+          "Facultades que no puede ejercer (art. 21.4 y 21.5)"
+        ],
+        "filas": [
+          [
+            "Presidente del Gobierno",
+            "Proponer al Rey la disolución de alguna de las Cámaras o de las Cortes Generales; plantear la cuestión de confianza; proponer la convocatoria de un referéndum consultivo"
+          ],
+          [
+            "Gobierno",
+            "Aprobar el Proyecto de Ley de Presupuestos Generales del Estado; presentar proyectos de ley al Congreso o, en su caso, al Senado"
+          ]
+        ]
+      }
+    }
+  ],
+  "trampas": [
+    "**Superior frente a directivo**: los Secretarios de Estado son órganos superiores, pero los Subsecretarios son órganos **directivos**. Los distractores mezclan ambas listas.",
+    "**Rango y nivel**: el Delegado del Gobierno tiene rango de Subsecretario y el Subdelegado nivel de Subdirector general, no al revés. Tampoco son alto cargo los Subdirectores generales.",
+    "**Deliberaciones**: Consejo de Ministros y Comisiones Delegadas, **secretas**; Comisión General de Secretarios de Estado y Subsecretarios, **reservadas**.",
+    "**Secretario del Consejo de Ministros**: el Ministro de la Presidencia, no el Presidente del Gobierno ni el Subsecretario de la Presidencia (este es secretario de la Comisión General).",
+    "**Quién fija qué**: ministerios y Secretarías de Estado, por Real Decreto del **Presidente**; Subsecretarías a Subdirecciones, por Real Decreto del **Consejo de Ministros**; niveles inferiores, por orden ministerial.",
+    "**Gobierno en funciones**: no confundir lo que no puede hacer el Presidente (disolución, cuestión de confianza, referéndum) con lo que no puede hacer el Gobierno (Presupuestos y proyectos de ley). Sí despacha el ordinario y, en caso de urgencia acreditada, puede ir más allá.",
+    "**Control**: la vía de hecho va a la jurisdicción contencioso-administrativa; no la lleves al Tribunal Constitucional. El control político es de las Cortes Generales, no del Consejo de Estado.",
+    "**Cese del Gobierno**: elecciones generales, pérdida de confianza, dimisión o fallecimiento del **Presidente**. La dimisión de un Ministro no cesa al Gobierno.",
+    "**Personalidad jurídica**: la tiene cada Administración (una sola), no cada órgano ni cada Ministerio."
+  ],
+  "caido": [
+    {
+      "examen": "13 abr 2024, 1 mar 2025 y 26 sep 2026",
+      "concepto": "Ley 40/2015: órganos superiores y directivos de la AGE central, rango de Delegados y Subdelegados y personalidad jurídica única (art. 3.4)"
+    },
+    {
+      "examen": "1 mar 2025",
+      "concepto": "Control de los actos del Gobierno (art. 29 Ley 50/1997): vía de hecho ante la jurisdicción contencioso-administrativa y actuación del Gobierno ante el Tribunal Constitucional"
+    },
+    {
+      "examen": "23 abr 2023, 25 oct 2025 y 26 sep 2026",
+      "concepto": "Consejo de Ministros: secretario (Ministro de la Presidencia, art. 18), deliberaciones secretas y funciones que le corresponden y que no (por ejemplo, el estado de sitio)"
+    },
+    {
+      "examen": "13 abr 2024 y 25 oct 2025",
+      "concepto": "Gobierno en funciones: facultades que no puede ejercer (proponer la disolución de las Cámaras, plantear la cuestión de confianza)"
+    },
+    {
+      "examen": "25 oct 2025",
+      "concepto": "Consejo de Estado como supremo órgano consultivo del Gobierno"
+    }
+  ],
+  "mnemotecnias": [
+    "Órganos **superiores** = los que **mandan políticamente**: Ministros y Secretarios de Estado. Todos los demás (Subsecretario, Secretario general, SGT, Director general, Subdirector general) son **directivos**.",
+    "En funciones, el Presidente no puede proponer la **disolución**, plantear la **confianza** ni proponer **referéndum** (tres cosas de poder político); el Gobierno no puede aprobar los **Presupuestos** ni presentar **proyectos de ley** (dos cosas de iniciativa legislativa).",
+    "Secretas: Consejo de Ministros y Comisiones Delegadas (los que deciden). Reservadas: la Comisión General de Secretarios de Estado y Subsecretarios (la que solo prepara y no decide)."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Qué órganos son superiores en la organización central de la AGE?",
+      "r": "Los **Ministros** y los **Secretarios de Estado** (art. 55.3 Ley 40/2015)."
+    },
+    {
+      "p": "¿Qué órganos directivos hay en la organización central?",
+      "r": "Subsecretarios y Secretarios generales; Secretarios generales técnicos y Directores generales; Subdirectores generales."
+    },
+    {
+      "p": "¿Qué rango tienen el Delegado y el Subdelegado del Gobierno?",
+      "r": "Delegado: **rango de Subsecretario**. Subdelegado: **nivel de Subdirector general** (art. 55.4)."
+    },
+    {
+      "p": "¿Quiénes tienen la condición de alto cargo?",
+      "r": "Los órganos superiores y directivos, **excepto los Subdirectores generales y asimilados** (art. 55.6)."
+    },
+    {
+      "p": "¿Cómo se compone el Gobierno?",
+      "r": "**Presidente, Vicepresidentes (en su caso) y Ministros** (art. 1.2 Ley 50/1997)."
+    },
+    {
+      "p": "¿Quién es el secretario del Consejo de Ministros?",
+      "r": "El **Ministro de la Presidencia** (art. 18.1 Ley 50/1997)."
+    },
+    {
+      "p": "¿Qué carácter tienen las deliberaciones del Consejo de Ministros y de la Comisión General de Secretarios de Estado y Subsecretarios?",
+      "r": "Consejo de Ministros: **secretas**. Comisión General: **reservadas**."
+    },
+    {
+      "p": "¿Cómo se determina el número y la denominación de los Ministerios?",
+      "r": "Por **Real Decreto del Presidente del Gobierno** (art. 57.3 Ley 40/2015)."
+    },
+    {
+      "p": "¿Cómo se crean Subsecretarías, Direcciones Generales y Subdirecciones Generales?",
+      "r": "Por **Real Decreto del Consejo de Ministros**, a iniciativa del Ministro y propuesta de Hacienda (art. 59 Ley 40/2015)."
+    },
+    {
+      "p": "¿Cuándo cesa el Gobierno?",
+      "r": "Tras **elecciones generales**, por **pérdida de confianza** parlamentaria, o por **dimisión o fallecimiento del Presidente**; sigue en funciones hasta la toma de posesión del nuevo."
+    },
+    {
+      "p": "¿A qué se limita el Gobierno en funciones?",
+      "r": "Al **despacho ordinario de los asuntos públicos**, salvo urgencia acreditada o interés general expresamente acreditado (art. 21.3 Ley 50/1997)."
+    },
+    {
+      "p": "¿Qué no puede hacer el Presidente del Gobierno en funciones?",
+      "r": "Proponer la **disolución** de las Cámaras, plantear la **cuestión de confianza** y proponer un **referéndum consultivo** (art. 21.4)."
+    },
+    {
+      "p": "¿Qué no puede hacer el Gobierno en funciones?",
+      "r": "Aprobar el **proyecto de Presupuestos** y **presentar proyectos de ley** al Congreso o al Senado (art. 21.5)."
+    },
+    {
+      "p": "¿Ante qué jurisdicción se impugna la vía de hecho del Gobierno?",
+      "r": "Ante la jurisdicción **contencioso-administrativa** (art. 29.3 Ley 50/1997). Su actuación también es impugnable ante el Tribunal Constitucional."
+    },
+    {
+      "p": "¿Qué porcentaje de cada sexo exige el art. 55 bis de la Ley 40/2015?",
+      "r": "Ni más del **60 %** ni menos del **40 %** en las Secretarías de Estado y órganos directivos de cada departamento."
+    },
+    {
+      "p": "¿Quién ejerce la jefatura de las Fuerzas y Cuerpos de Seguridad del Estado en una Comunidad Autónoma?",
+      "r": "El **Delegado del Gobierno**, bajo la dependencia funcional del Ministerio del Interior (art. 73.3 Ley 40/2015)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Según el art. 55.3 de la Ley 40/2015, ¿cuáles son los órganos superiores de la Administración General del Estado en la organización central?",
+      "opciones": [
+        "Los Ministros y los Secretarios de Estado",
+        "Los Ministros y los Subsecretarios",
+        "Los Secretarios de Estado y los Subsecretarios"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 55.3 distingue como órganos superiores a los Ministros y a los Secretarios de Estado. Los Subsecretarios, los Secretarios generales, los Secretarios generales técnicos, los Directores generales y los Subdirectores generales son órganos directivos.",
+      "ref": "art. 55.3 Ley 40/2015",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Qué rango o nivel tienen, respectivamente, los Delegados del Gobierno en las Comunidades Autónomas y los Subdelegados del Gobierno en las provincias según la Ley 40/2015?",
+      "opciones": [
+        "Delegados con rango de Director general y Subdelegados con nivel de Subdirector general",
+        "Delegados con rango de Subsecretario y Subdelegados con nivel de Subdirector general",
+        "Delegados con rango de Secretario de Estado y Subdelegados con rango de Director general"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 55.4 declara órganos directivos a los Delegados del Gobierno, con rango de Subsecretario, y a los Subdelegados, con nivel de Subdirector general. Los demás pares de rangos no figuran en la ley.",
+      "ref": "art. 55.4 Ley 40/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre los principios generales de las Administraciones Públicas del art. 3 de la Ley 40/2015.",
+      "opciones": [
+        "Sirven con objetividad los intereses generales y actúan de acuerdo con los principios de eficacia, jerarquía, descentralización, desconcentración y coordinación",
+        "Cada una de las Administraciones Públicas del art. 2 actúa para el cumplimiento de sus fines con personalidad jurídica única",
+        "Cada órgano administrativo actúa con personalidad jurídica propia e independiente de la Administración a la que pertenece"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 3.4 atribuye la personalidad jurídica única a cada Administración Pública, no a sus órganos. Las otras dos afirmaciones reproducen el art. 3.1 (principios de actuación) y el art. 3.4.",
+      "ref": "art. 3.1 y 3.4 Ley 40/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el art. 1 de la Ley 50/1997, del Gobierno, ¿cómo se compone el Gobierno?",
+      "opciones": [
+        "Del Presidente, los Vicepresidentes, los Ministros y los Secretarios de Estado",
+        "Del Presidente, del Vicepresidente o Vicepresidentes, en su caso, y de los Ministros",
+        "Del Presidente, los Ministros y los Subsecretarios"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 1.2 dispone que el Gobierno se compone del Presidente, del Vicepresidente o Vicepresidentes, en su caso, y de los Ministros. Los Secretarios de Estado y los Subsecretarios no son miembros del Gobierno; los primeros son órganos de colaboración y apoyo (art. 7).",
+      "ref": "art. 1.2 Ley 50/1997",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Quién actúa como secretario en las reuniones del Consejo de Ministros?",
+      "opciones": [
+        "El Presidente del Gobierno",
+        "El Subsecretario de la Presidencia",
+        "El Ministro de la Presidencia"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 18.1 de la Ley 50/1997 establece que el Presidente convoca y preside el Consejo de Ministros y actúa como secretario el Ministro de la Presidencia. El Subsecretario de la Presidencia es el secretario de la Comisión General de Secretarios de Estado y Subsecretarios (art. 8.3).",
+      "ref": "art. 18.1 Ley 50/1997",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Qué carácter tienen las deliberaciones de la Comisión General de Secretarios de Estado y Subsecretarios?",
+      "opciones": [
+        "Secretas, como las del Consejo de Ministros",
+        "Reservadas",
+        "Públicas, salvo que el Presidente las declare reservadas"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 8.4 de la Ley 50/1997 dispone que las deliberaciones de la Comisión General de Secretarios de Estado y Subsecretarios serán reservadas, y que nunca puede adoptar decisiones por delegación del Gobierno. Las del Consejo de Ministros y las de las Comisiones Delegadas son secretas (arts. 5.3 y 6.5).",
+      "ref": "art. 8.4 Ley 50/1997",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Entre las funciones que el art. 5 de la Ley 50/1997 atribuye al Consejo de Ministros se encuentra:",
+      "opciones": [
+        "Declarar los estados de alarma y de excepción y proponer al Congreso de los Diputados la declaración del estado de sitio",
+        "Declarar los estados de alarma, de excepción y de sitio sin intervención del Congreso de los Diputados",
+        "Proponer al Rey la disolución del Congreso de los Diputados, sin deliberación previa"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.1 atribuye al Consejo de Ministros declarar los estados de alarma y de excepción y proponer al Congreso la declaración del de sitio. El art. 116 CE exige además autorización previa del Congreso para el de excepción y la mayoría absoluta del Congreso, a propuesta exclusiva del Gobierno, para el de sitio. La disolución la propone el Presidente, previa deliberación del Consejo de Ministros (art. 2.2).",
+      "ref": "art. 5.1 Ley 50/1997; art. 116 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes facultades NO puede ejercer el Presidente del Gobierno en funciones?",
+      "opciones": [
+        "Presidir el Consejo de Ministros",
+        "Refrendar los actos del Rey",
+        "Plantear ante el Congreso de los Diputados la cuestión de confianza"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 21.4 de la Ley 50/1997 impide al Presidente en funciones proponer la disolución de las Cámaras, plantear la cuestión de confianza y proponer un referéndum consultivo. Presidir el Consejo de Ministros y refrendar actos del Rey no figuran entre las facultades vedadas, ya que el Gobierno en funciones sigue despachando los asuntos ordinarios.",
+      "ref": "art. 21.4 Ley 50/1997",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el art. 21.5 de la Ley 50/1997, ¿qué NO puede hacer el Gobierno en funciones?",
+      "opciones": [
+        "Despachar los asuntos públicos de carácter ordinario",
+        "Aprobar el Proyecto de Ley de Presupuestos Generales del Estado",
+        "Adoptar medidas urgentes debidamente acreditadas para facilitar el traspaso de poderes"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 21.5 prohíbe al Gobierno en funciones aprobar el Proyecto de Ley de Presupuestos Generales del Estado y presentar proyectos de ley al Congreso o al Senado. El despacho ordinario y las medidas urgentes debidamente acreditadas o de interés general expresamente justificado son compatibles con el art. 21.3.",
+      "ref": "art. 21.3 y 21.5 Ley 50/1997",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Tras unas elecciones generales, el Gobierno cesante continúa en funciones. El Consejo de Ministros se plantea aprobar y remitir a las Cortes un proyecto de ley ordinario sobre una materia sectorial. ¿Es posible?",
+      "opciones": [
+        "No, el Gobierno en funciones no puede presentar proyectos de ley al Congreso ni al Senado",
+        "Sí, siempre que no se trate del proyecto de Presupuestos Generales del Estado",
+        "Sí, si lo propone el Presidente del Gobierno mediante Real Decreto"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 21.5 contiene dos prohibiciones distintas: aprobar el proyecto de Presupuestos y presentar proyectos de ley al Congreso o al Senado, sea cual sea su materia. Por eso no basta con excluir los Presupuestos. Un Real Decreto del Presidente no puede alterar esa limitación legal.",
+      "ref": "art. 21.5 Ley 50/1997",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Según el art. 73.3 de la Ley 40/2015, ¿a quién corresponde la jefatura de las Fuerzas y Cuerpos de Seguridad del Estado en el territorio de una Comunidad Autónoma?",
+      "opciones": [
+        "Al Director General de la Policía",
+        "Al Subdelegado del Gobierno de la capital de la Comunidad",
+        "Al Delegado del Gobierno, bajo la dependencia funcional del Ministerio del Interior"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 73.3 encomienda a los Delegados del Gobierno proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana a través de los Subdelegados y de las Fuerzas y Cuerpos de Seguridad del Estado, cuya jefatura les corresponde, bajo la dependencia funcional del Ministerio del Interior. El Subdelegado dirige esas fuerzas en la provincia (art. 75).",
+      "ref": "art. 73.3 y 75 Ley 40/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Quién nombra a los Subdelegados del Gobierno en las provincias y mediante qué procedimiento?",
+      "opciones": [
+        "El Delegado del Gobierno, mediante libre designación entre funcionarios de carrera del subgrupo A1",
+        "El Consejo de Ministros, mediante Real Decreto a propuesta del Ministro del Interior",
+        "El Ministro de Hacienda y Administraciones Públicas, mediante concurso de méritos"
+      ],
+      "correcta": 0,
+      "explicacion": "Los arts. 73.1 y 74 de la Ley 40/2015 señalan que el Subdelegado, con nivel de Subdirector general, es nombrado por el Delegado mediante libre designación entre funcionarios de carrera del Estado, de las Comunidades Autónomas o de las Entidades Locales del subgrupo A1. El Real Decreto del Consejo de Ministros es la forma de nombrar al Delegado.",
+      "ref": "arts. 73.1 y 74 Ley 40/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué órgano directivo del Ministerio ostenta la representación ordinaria del departamento y dirige los servicios comunes, según el art. 63 de la Ley 40/2015?",
+      "opciones": [
+        "El Secretario de Estado",
+        "El Subsecretario",
+        "El Secretario general técnico"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 63.1 atribuye al Subsecretario la representación ordinaria del Ministerio, la dirección de los servicios comunes y la jefatura superior del personal del departamento. El Secretario de Estado es responsable de la ejecución de la acción del Gobierno en un sector de actividad específica (art. 62), y el Secretario general técnico depende del Subsecretario (art. 65).",
+      "ref": "art. 63.1 Ley 40/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el art. 59 de la Ley 40/2015, ¿cómo se crean, modifican y suprimen las Direcciones Generales?",
+      "opciones": [
+        "Por orden del Ministro respectivo, previa autorización del Ministro de Hacienda y Administraciones Públicas",
+        "Por Real Decreto del Presidente del Gobierno",
+        "Por Real Decreto del Consejo de Ministros, a iniciativa del Ministro interesado y a propuesta del Ministro de Hacienda y Administraciones Públicas"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 59.1 prevé que Subsecretarías, Secretarías Generales, Secretarías Generales Técnicas, Direcciones Generales, Subdirecciones Generales y órganos similares se creen por Real Decreto del Consejo de Ministros. La orden ministerial con autorización de Hacienda corresponde a los órganos de nivel inferior a Subdirección General (art. 59.2), y el Real Decreto del Presidente, a los Ministerios y Secretarías de Estado (art. 57.3).",
+      "ref": "art. 59 y art. 57.3 Ley 40/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Mediante qué norma se determinan el número, la denominación y el ámbito de competencia de los Ministerios y de las Secretarías de Estado?",
+      "opciones": [
+        "Mediante Real Decreto del Presidente del Gobierno",
+        "Mediante Real Decreto acordado en Consejo de Ministros",
+        "Mediante ley ordinaria de las Cortes Generales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 57.3 de la Ley 40/2015 y el art. 2.2.j de la Ley 50/1997 atribuyen al Presidente del Gobierno la creación, modificación y supresión de los departamentos ministeriales y de las Secretarías de Estado por Real Decreto. El Consejo de Ministros crea los órganos directivos de los departamentos, no los propios departamentos.",
+      "ref": "art. 57.3 Ley 40/2015; art. 2.2.j Ley 50/1997",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale cuál de las siguientes NO es un derecho de las personas en sus relaciones con las Administraciones Públicas conforme al art. 13 de la Ley 39/2015.",
+      "opciones": [
+        "A comunicarse con las Administraciones Públicas a través de un Punto de Acceso General electrónico",
+        "A ser tratadas con respeto y deferencia por las autoridades y empleados públicos",
+        "A que la Administración resuelva siempre en sentido favorable a sus pretensiones"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 13 reconoce el acceso a través del Punto de Acceso General electrónico y el trato con respeto y deferencia, entre otros derechos, pero no un derecho a una resolución siempre favorable. La Administración debe resolver conforme al ordenamiento jurídico.",
+      "ref": "art. 13 Ley 39/2015",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Los actos, la inactividad y las actuaciones materiales constitutivas de vía de hecho del Gobierno, según el art. 29 de la Ley 50/1997, son impugnables ante:",
+      "opciones": [
+        "El Tribunal Constitucional en todo caso",
+        "La jurisdicción contencioso-administrativa",
+        "El Consejo de Estado, como supremo órgano consultivo del Gobierno"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 29.3 somete esos actos, inactividad y vías de hecho a la jurisdicción contencioso-administrativa. El art. 29.4 añade que la actuación del Gobierno es impugnable ante el Tribunal Constitucional en los términos de su ley orgánica, pero no «en todo caso». El Consejo de Estado es un órgano consultivo, no jurisdiccional.",
+      "ref": "art. 29.3 y 29.4 Ley 50/1997",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Respecto a la delegación de firma regulada en el art. 12 de la Ley 40/2015, señale la afirmación correcta.",
+      "opciones": [
+        "No altera la competencia del órgano delegante y para su validez no es necesaria su publicación",
+        "Supone la cesión de la titularidad de la competencia al órgano que firma",
+        "Debe publicarse siempre en el Boletín Oficial del Estado para su validez"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 12.2 dispone que la delegación de firma no altera la competencia del órgano delegante y que su validez no exige publicación, a diferencia de la delegación de competencias, que debe publicarse (art. 9.3). Tampoco supone cesión de titularidad (art. 8.1).",
+      "ref": "art. 12 y art. 8.1 Ley 40/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el art. 55 bis de la Ley 40/2015, en el nombramiento de las Secretarías de Estado y de los órganos directivos de cada departamento ministerial debe respetarse que:",
+      "opciones": [
+        "Las mujeres supongan al menos el 50 % del total",
+        "Las personas de cada sexo no superen el 60 % ni sean menos del 40 %",
+        "Las personas de cada sexo no superen el 70 % ni sean menos del 30 %"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 55 bis, introducido por la Ley Orgánica 2/2024, exige que las personas de cada sexo no superen el sesenta por ciento ni sean menos del cuarenta por ciento en el ámbito de cada departamento ministerial. En el nombramiento de Vicepresidencias y Ministerios la Ley 50/1997 (art. 12.2 bis) exige como mínimo el cuarenta por ciento de cada sexo.",
+      "ref": "art. 55 bis Ley 40/2015; art. 12.2 bis Ley 50/1997",
+      "dificultad": 2
+    }
+  ],
+  "dudas": [
+    "La Ley 40/2015 mantiene la denominación «Ministerio de Hacienda y Administraciones Públicas» (arts. 54.2, 59, 69.3) aunque la estructura ministerial actual es distinta; la ficha reproduce la denominación literal de la ley y no se pregunta por qué ministerio ejerce hoy esas competencias."
+  ]
+}

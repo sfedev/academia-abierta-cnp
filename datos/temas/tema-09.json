@@ -1,0 +1,665 @@
+{
+  "tema": 9,
+  "titulo": "LO 2/1986 de Fuerzas y Cuerpos de Seguridad",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "alto",
+    "nota": "Pasó de 2-3 a 6-7 preguntas por examen desde 2025 (media 5,0). Lo que más cae: principios de actuación (art. 5), unidades del CNP adscritas a CCAA (art. 47), Policía Judicial, Consejo de Política de Seguridad y Policías Locales."
+  },
+  "normas": [
+    {
+      "nombre": "Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad",
+      "boe": "BOE-A-1986-6859",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859",
+      "verificado": "Texto consolidado, actualización de 17/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 9/2015, de 28 de julio, de Régimen de Personal de la Policía Nacional (arts. 2, 8 y 88 a 95: representación colectiva y Consejo de Policía)",
+      "boe": "BOE-A-2015-8468",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-8468",
+      "verificado": "Texto consolidado, actualización de 30/04/2026 (leído el 16/10/2026)"
+    }
+  ],
+  "novedades": [
+    "Los arts. 16 a 26 de la LO 2/1986 (escalas, derechos de representación colectiva y Consejo de Policía) y las disposiciones adicionales 1.ª, 2.ª, 6.ª y 7.ª están DEROGADOS por la LO 9/2015 (en vigor desde el 18/08/2015). Los arts. 27 y 28 (régimen disciplinario) los derogó la LO 4/2010. Hoy los derechos de representación colectiva y el Consejo de Policía se regulan en los arts. 8 y 88 a 95 de la LO 9/2015: desconfía de apuntes antiguos que citen los arts. 18 a 26.",
+    "La LO 9/2015 usa la denominación «Policía Nacional» y su disposición adicional 5.ª manda entender hechas a ella las referencias al Cuerpo Nacional de Policía. La LO 2/1986 conserva «Cuerpo Nacional de Policía» en sus arts. 9, 11, 12 y 47: ambas denominaciones son válidas.",
+    "El articulado de la LO 2/1986 no ha cambiado desde la LO 9/2015: la actualización de la consolidación de 17/12/2025 no modifica ningún artículo (historial de versiones del BOE comprobado el 16/10/2026).",
+    "El texto vigente sigue citando figuras que ya no existen (Director de la Seguridad del Estado y Gobernador civil, en los arts. 10, 11, 50, 52 y 54) sin haberlas actualizado. Para el mando actual de la Policía Nacional, la LO 9/2015 (art. 2.4) dice: mando superior del Ministro del Interior a través del Secretario de Estado de Seguridad; mando directo del Director General de la Policía."
+  ],
+  "clave": [
+    "La **Seguridad Pública** es competencia **exclusiva del Estado** y su mantenimiento corresponde al **Gobierno de la Nación**; CCAA y Corporaciones Locales participan (art. 1).",
+    "Son Fuerzas y Cuerpos de Seguridad **tres grupos**: las del Estado, las Policías de las CCAA y las Policías Locales (art. 2). Las del Estado son el **Cuerpo Nacional de Policía** (instituto armado de naturaleza **civil**) y la **Guardia Civil** (naturaleza **militar**) (art. 9).",
+    "**Seis bloques** de principios básicos de actuación (art. 5): adecuación al ordenamiento jurídico, relaciones con la comunidad, tratamiento de detenidos, dedicación profesional, secreto profesional y responsabilidad.",
+    "Los miembros de las FCS son **agentes de la autoridad** en el ejercicio de sus funciones; solo tienen consideración de **autoridad** a efectos de protección penal en el atentado con armas de fuego, explosivos u otros medios de análoga peligrosidad (art. 7).",
+    "**Mando superior** de las FCSE: Ministro del Interior (art. 10). El CNP actúa en **capitales de provincia** y en los términos y núcleos que determine el Gobierno; la Guardia Civil, en el **resto del territorio y el mar territorial** (art. 11.2).",
+    "La **Policía Judicial** la ejercen las FCSE; las policías autonómicas y locales solo **colaboran** (art. 29). Sus funcionarios dependen **orgánicamente del Ministerio del Interior** y **funcionalmente de Jueces, Tribunales o Ministerio Fiscal** (art. 31).",
+    "Unidades del CNP **adscritas a una CCAA** (art. 47): unidades **completas**; dependen **funcionalmente de la Comunidad** y **orgánicamente del Ministerio del Interior**; bajo el mando de sus **jefes naturales**; sustituibles en cualquier momento por iniciativa estatal.",
+    "**Consejo de Política de Seguridad** (art. 48): preside el **Ministro del Interior**; Consejeros de Interior de las CCAA e **igual número** de representantes del Estado. **Comité de Expertos** (art. 49): **8**, cuatro del Estado y cuatro de las CCAA.",
+    "**Junta de Seguridad** (art. 50): CCAA con Policía propia, igual número de representantes del Estado y de la Comunidad. **Junta Local de Seguridad** (art. 54): municipios con Cuerpo propio, presidida por el **Alcalde**.",
+    "**Consejo de Policía** (hoy LO 9/2015, art. 94): preside el Ministro del Interior o persona delegada; composición **paritaria**; un representante por cada **6.000** funcionarios o fracción de cada una de las **4 escalas**; mandato de **4 años** (art. 95).",
+    "Los miembros de las FCS **no pueden ejercer en ningún caso el derecho de huelga** ni acciones sustitutivas (art. 6.8). Los de la Guardia Civil tampoco pueden pertenecer a partidos políticos o sindicatos (art. 15.2).",
+    "Las Policías Locales son **institutos armados de naturaleza civil**, actúan en su **término municipal** salvo emergencia con requerimiento, y no ejercen la Policía Judicial sino que colaboran en ella (arts. 51 a 53)."
+  ],
+  "resumen": [
+    {
+      "titulo": "Qué es la seguridad pública y quién la ejerce (arts. 1 a 4)",
+      "puntos": [
+        "La Seguridad Pública es **competencia exclusiva del Estado** y su mantenimiento corresponde al **Gobierno de la Nación** (art. 1.1). Las CCAA participan según sus Estatutos (art. 1.2) y las Corporaciones Locales según la Ley de Bases de Régimen Local (art. 1.3); todas actúan a través de las Fuerzas y Cuerpos de Seguridad (FCS) (art. 1.4).",
+        "Son FCS (art. 2): las **del Estado** (dependientes del Gobierno de la Nación), los **Cuerpos de Policía de las CCAA** y los **Cuerpos de Policía de las Corporaciones Locales**.",
+        "Principio común: **cooperación recíproca**; la coordinación se efectúa a través de los órganos que crea la Ley (art. 3).",
+        "Deber de auxilio (art. 4): **todos** deben auxiliar a las FCS en la investigación y persecución de delitos en los términos legales; quienes ejerzan funciones de **vigilancia, seguridad o custodia** de personas y bienes o servicios públicos o privados tienen **especial obligación** de colaborar en todo momento.",
+        "Tienen carácter orgánico los Títulos I, III, IV y V y el Título II **salvo** los arts. 10, 11.2 a 11.6 y 12.1 (disposición final 6.ª)."
+      ]
+    },
+    {
+      "titulo": "Principios básicos de actuación: los seis bloques del art. 5",
+      "puntos": [
+        "Son comunes a **todas** las FCS (estatales, autonómicas y locales) y se aplican también, junto con los arts. 6 a 8, a la Policía Autónoma del País Vasco y a la de Cataluña (disposiciones finales 1.ª y 2.ª). Se pregunta mucho **en qué bloque** va cada deber.",
+        "La LO 4/2015 (art. 4.2) somete a estos mismos principios la actuación de los agentes en materia de seguridad ciudadana."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Bloque (art. 5)",
+          "Contenido que se pregunta"
+        ],
+        "filas": [
+          [
+            "1. Adecuación al ordenamiento jurídico",
+            "Respeto absoluto a la Constitución y al ordenamiento; **neutralidad política e imparcialidad**, sin discriminación por raza, religión u opinión; integridad y dignidad, rechazando la corrupción; **jerarquía y subordinación** (la obediencia debida no ampara órdenes que manifiestamente constituyan delito o sean contrarias a la Constitución o a las Leyes); colaborar con la Administración de Justicia."
+          ],
+          [
+            "2. Relaciones con la comunidad",
+            "Impedir prácticas abusivas, arbitrarias o discriminatorias que entrañen violencia física o moral; trato **correcto y esmerado** e información cumplida sobre causas y finalidad; actuar con decisión y sin demora si de ello depende evitar un daño grave, inmediato e irreparable, con **congruencia, oportunidad y proporcionalidad**; armas solo ante riesgo racionalmente grave para la vida o integridad física propia o de terceros, o grave riesgo para la seguridad ciudadana."
+          ],
+          [
+            "3. Tratamiento de detenidos",
+            "**Identificarse debidamente** como agentes al detener; velar por la vida e integridad física y respetar honor y dignidad; cumplir con diligencia trámites, plazos y requisitos legales."
+          ],
+          [
+            "4. Dedicación profesional",
+            "Total dedicación; intervenir **siempre, en cualquier tiempo y lugar, se hallen o no de servicio**, en defensa de la Ley y de la seguridad ciudadana."
+          ],
+          [
+            "5. Secreto profesional",
+            "Riguroso secreto sobre lo conocido por razón o con ocasión de sus funciones; no están obligados a revelar las fuentes de información salvo que sus funciones o la Ley impongan otra cosa."
+          ],
+          [
+            "6. Responsabilidad",
+            "Responden **personal y directamente** de sus actos contrarios a las normas legales, reglamentarias y a estos principios, sin perjuicio de la responsabilidad patrimonial de las Administraciones."
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Estatuto común: formación, huelga, agentes de la autoridad y fuero (arts. 6 a 8)",
+      "puntos": [
+        "Art. 6: promoción según objetividad, igualdad de oportunidades, mérito y capacidad; formación **profesional y permanente**; deben **jurar o prometer acatamiento a la Constitución**; puestos por mérito, capacidad y antigüedad; **incompatibilidad** con cualquier otra actividad pública o privada (salvo las exceptuadas); **no podrán ejercer en ningún caso el derecho de huelga** ni acciones sustitutivas.",
+        "Art. 7: en el ejercicio de sus funciones son **agentes de la autoridad** a todos los efectos legales. Solo en el delito de **atentado con armas de fuego, explosivos u otros medios de agresión de análoga peligrosidad** que pongan en peligro grave su integridad física tienen, a efectos de protección penal, la consideración de **autoridad**. La Guardia Civil solo es **fuerza armada** en misiones militares.",
+        "Art. 8: la **jurisdicción ordinaria** conoce de los delitos contra miembros de las FCS y de los cometidos por ellos en sus funciones (salvo jurisdicción militar); prisión preventiva y penas privativas de libertad, en establecimientos ordinarios y separados de otros presos. El proceso penal no impide el expediente disciplinario, pero su resolución definitiva exige sentencia penal firme y los hechos probados vinculan a la Administración."
+      ]
+    },
+    {
+      "titulo": "FCS del Estado: dependencia, mando y reparto de competencias (arts. 9 a 15)",
+      "puntos": [
+        "Art. 9: ejercen sus funciones en **todo el territorio nacional**. El **CNP** es instituto armado de naturaleza **civil**, dependiente del Ministro del Interior. La **Guardia Civil** es instituto armado de naturaleza **militar**: depende del Ministro del Interior en las funciones de esta Ley y del **Ministro de Defensa** en las misiones militares; en tiempo de guerra y estado de sitio, **exclusivamente** de Defensa.",
+        "Art. 10: al **Ministro del Interior** corresponde la administración general de la seguridad ciudadana y el **mando superior** de las FCSE, y la responsabilidad de la colaboración con autoridades policiales de otros países.",
+        "Art. 11.1: misión de **proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana**, con **nueve funciones comunes**: velar por el cumplimiento de las Leyes y ejecutar las órdenes de las Autoridades; auxiliar y proteger personas y bienes en peligro; vigilar edificios públicos; proteger a altas personalidades; mantener y restablecer el orden y la seguridad ciudadana; prevenir delitos; investigar delitos y detener a los presuntos culpables; captar y analizar datos de interés para la seguridad pública; colaborar con protección civil.",
+        "Art. 11.2 a 11.6: el CNP actúa en las **capitales de provincia** y en los términos municipales y núcleos urbanos que determine el Gobierno; la Guardia Civil, en **el resto del territorio y su mar territorial**. El CNP puede investigar y coordinar datos en todo el territorio; la Guardia Civil, investigar fuera de su ámbito para sus competencias propias; ambos deben **dar cuenta** al otro. Fuera del ámbito se actúa por mandato judicial o fiscal o en casos excepcionales, con comunicación inmediata. En un **conflicto de competencias** se hace cargo el Cuerpo que realizó las **primeras actuaciones**."
+      ],
+      "tabla": {
+        "cabecera": [
+          "CNP (art. 12.1, apartado A)",
+          "Guardia Civil (art. 12.1, apartado B)"
+        ],
+        "filas": [
+          [
+            "Expedición del **DNI y de los pasaportes**",
+            "Legislación sobre **armas y explosivos**"
+          ],
+          [
+            "Control de **entrada y salida** del territorio nacional de españoles y extranjeros",
+            "**Resguardo fiscal** del Estado y lucha contra el **contrabando**"
+          ],
+          [
+            "Extranjería, refugio y asilo, extradición, expulsión, emigración e inmigración",
+            "Vigilancia del **tráfico**, tránsito y transporte en **vías públicas interurbanas**"
+          ],
+          [
+            "Vigilancia e inspección de la normativa de **juego**",
+            "Custodia de vías de comunicación terrestre, costas, fronteras, puertos, aeropuertos e instalaciones que por su interés lo requieran"
+          ],
+          [
+            "Investigación y persecución de los delitos relacionados con la **droga**",
+            "Conservación de la **naturaleza y el medio ambiente**, recursos hidráulicos, riqueza cinegética, piscícola y forestal"
+          ],
+          [
+            "Colaboración con **policías de otros países** (Tratados), bajo la superior dirección del Ministro del Interior",
+            "**Conducción interurbana** de presos y detenidos"
+          ],
+          [
+            "Control de **entidades y servicios privados de seguridad**, vigilancia e investigación, su personal, medios y actuaciones",
+            "Las demás que le atribuya la legislación vigente"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Guardia Civil: quién decide qué (arts. 13 a 15)",
+      "puntos": [
+        "**Interior** dispone servicios de seguridad ciudadana, retribuciones, destinos, acuartelamientos y material (art. 14.1). **Defensa e Interior conjuntamente**: selección, formación, perfeccionamiento, armamento y despliegue territorial, y proponen el nombramiento del Director General de la Guardia Civil (art. 14.2). **Defensa**: ascensos, situaciones del personal y misiones militares (art. 14.3).",
+        "La separación del servicio la impone el **Ministro de Defensa**, a propuesta del de Interior (art. 15.1). No pueden pertenecer a partidos políticos ni sindicatos ni hacer peticiones colectivas (art. 15.2)."
+      ]
+    },
+    {
+      "titulo": "Policía Judicial (arts. 29 a 36)",
+      "puntos": [
+        "Las funciones de Policía Judicial del art. 126 CE las ejercen las **FCS del Estado** mediante Unidades específicas; el personal de las Policías de las CCAA y de las Corporaciones Locales tiene **carácter colaborador** (art. 29).",
+        "El **Ministerio del Interior** organiza las Unidades con funcionarios de las FCSE de formación especializada, por criterios territoriales y de especialización delictual, con función **permanente y especial**. Se adscriben a Juzgados y Tribunales por Interior **oído el Consejo General del Poder Judicial**, y al Ministerio Fiscal **oído el Fiscal General del Estado** (art. 30).",
+        "Dependencia: **orgánica del Ministerio del Interior** y **funcional de los Jueces, Tribunales o Ministerio Fiscal** que conozcan del asunto (art. 31.1). La intervención de funcionarios o medios de Unidades orgánicas se pide por conducto del Presidente del Tribunal Supremo, de los Presidentes de los TSJ o del Fiscal General del Estado (art. 31.2).",
+        "La especialización se cursa en los centros de formación de las FCSE con participación de la Judicatura y el Fiscal, o en el Centro de Estudios Judiciales; el **diploma** es requisito necesario (art. 32). La función es de carácter **exclusivo** (art. 33).",
+        "No pueden ser removidos de la investigación concreta hasta que finalice ella o la fase del procedimiento, salvo decisión o autorización del Juez o Fiscal; actúan como **comisionados** de Jueces, Tribunales y Fiscales (art. 34). Estos les dan órdenes, controlan su ejecución y pueden instar la potestad disciplinaria (art. 35)."
+      ]
+    },
+    {
+      "titulo": "Policías de las Comunidades Autónomas (arts. 37 a 44)",
+      "puntos": [
+        "Tres situaciones (art. 37): CCAA con Estatuto que lo prevé **pueden crear** Cuerpo de Policía; las que no lo creen ejercen las funciones del art. 148.1.22 CE conforme a los arts. 39 y 47 (**adscripción de unidades del CNP**); las que no lo prevén en el Estatuto pueden ejercerlas mediante **acuerdos de cooperación específica** con el Estado.",
+        "Coordinan las **Policías Locales** (art. 39): normas-marco para sus reglamentos, homogeneización de medios, uniformes y retribuciones, criterios de selección, formación, promoción y movilidad (nunca por debajo de graduado escolar) y escuelas de formación.",
+        "Los Cuerpos son **institutos armados de naturaleza civil**; creación por la CCAA **previo informe del Consejo de Política de Seguridad**; uniforme reglamentario salvo excepciones autorizadas por las Juntas de Seguridad; pueden portar armas de fuego y la **licencia** la otorga el **Gobierno de la Nación** (art. 41).",
+        "Solo actúan en el **territorio de su Comunidad**, salvo emergencia con requerimiento de las autoridades estatales; para proteger a autoridades de la Comunidad pueden actuar fuera con autorización del Ministerio del Interior (art. 42). Los mandos se designan entre jefes y oficiales de las Fuerzas Armadas y mandos de las FCSE, con curso de especialización homologado por Interior (art. 43). Selección, ingreso, promoción y formación son de la CCAA (art. 44)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Funciones propias (art. 38.1)",
+          "En colaboración con las FCSE (art. 38.2)",
+          "Prestación simultánea e indiferenciada (art. 38.3)"
+        ],
+        "filas": [
+          [
+            "Velar por el cumplimiento de las disposiciones y órdenes singulares de la CCAA; vigilar y proteger personas, edificios y dependencias de la CCAA y sus entes; inspeccionar actividades sometidas a su disciplina; **coacción** para la ejecución forzosa de sus actos",
+            "Velar por el cumplimiento de las Leyes del Estado y garantizar servicios públicos esenciales; participar en la Policía Judicial (art. 29.2); **vigilar espacios públicos, proteger manifestaciones y mantener el orden en grandes concentraciones** (prioritariamente las policías autonómicas)",
+            "Cooperar en la resolución amistosa de conflictos privados; auxilio en accidentes, catástrofes o calamidades (protección civil); velar por la conservación de la naturaleza y el medio ambiente"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Colaboración y coordinación Estado-CCAA: órganos (arts. 45 a 50)",
+      "puntos": [
+        "Las FCSE y las Policías de las CCAA se prestan **mutuo auxilio e información recíproca** (art. 45). Si una CCAA carece de medios suficientes puede recabar el auxilio de las FCSE, que actúan bajo el mando de sus jefes naturales; si concurren en un mismo servicio, **dirigen la operación los Mandos de las FCSE** (art. 46).",
+        "**Adscripción de unidades del CNP** (art. 47): la solicitan, a través del Ministerio del Interior, las CCAA que no crean Policía propia, mediante **acuerdos administrativos de colaboración** que respetan cuatro principios: unidades **completas**; dependencia **funcional de la Comunidad** y **orgánica del Ministerio del Interior**; mando de sus **jefes naturales**; **sustitución** en cualquier momento a iniciativa estatal, oídas las autoridades de la Comunidad."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Órgano",
+          "Composición",
+          "Misión"
+        ],
+        "filas": [
+          [
+            "**Consejo de Política de Seguridad** (art. 48)",
+            "Preside el **Ministro del Interior**; Consejeros de Interior o Gobernación de las CCAA y **igual número** de representantes del Estado designados por el Gobierno",
+            "Aprobar planes de coordinación e infraestructura policial, directivas y recomendaciones; informar las plantillas de las Policías autonómicas, sus disposiciones y creación, y los convenios de seguridad Estado-CCAA; aprobar su reglamento interno"
+          ],
+          [
+            "**Comité de Expertos** (art. 49)",
+            "**8** representantes: **4** del Estado y **4** de las CCAA, designados estos últimos anualmente por los Consejeros",
+            "Asesorar técnicamente al Consejo y preparar sus asuntos: fórmulas de coordinación, acuerdos de cooperación, programas de formación y planes de actuación conjunta"
+          ],
+          [
+            "**Junta de Seguridad** (art. 50)",
+            "En CCAA con Cuerpos de Policía propios, **igual número** de representantes del Estado y de la Comunidad",
+            "Coordinar a las FCSE y a la Policía autonómica y resolver las incidencias de su colaboración"
+          ],
+          [
+            "**Junta Local de Seguridad** (art. 54)",
+            "Municipios con Cuerpo propio; presidida por el **Alcalde** (compartida con el Gobernador civil si asiste a sus sesiones)",
+            "Establecer las formas y procedimientos de colaboración entre las FCS en su ámbito territorial"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Policías Locales (arts. 51 a 54)",
+      "puntos": [
+        "Los municipios **pueden** crear Cuerpos propios. Donde no exista Policía municipal, sus cometidos los ejerce el personal de custodia y vigilancia, con la denominación de **guardas, vigilantes, agentes, alguaciles o análogos** (art. 51.1 y 51.2).",
+        "Solo actúan en el **término municipal**, salvo emergencia con requerimiento de las autoridades competentes (art. 51.3). Son **institutos armados de naturaleza civil**, con estructura jerarquizada (art. 52.1).",
+        "Funciones (art. 53.1), nueve: proteger a las autoridades locales y vigilar sus edificios; **ordenar, señalizar y dirigir el tráfico en el casco urbano**; **atestados de accidentes de circulación** en el casco urbano; policía administrativa (ordenanzas y bandos); **participar en la Policía Judicial** (art. 29.2); auxilio en accidentes y catástrofes; diligencias de prevención en el marco de las Juntas de Seguridad; vigilar espacios públicos y colaborar en manifestaciones si se les requiere; cooperar en conflictos privados si se les requiere. Los atestados y las diligencias de prevención se **comunican** a las FCSE (art. 53.2).",
+        "En municipios de gran población y Ciudades con Estatuto de Autonomía pueden asignarse funcionarios a la **función exclusiva de tráfico urbano**, como **agentes de la autoridad** pero sin integrarse en las FCS (art. 53.3)."
+      ]
+    },
+    {
+      "titulo": "Derechos de representación colectiva y Consejo de Policía (hoy LO 9/2015)",
+      "puntos": [
+        "Figura en el Anexo I, pero los arts. 18 a 26 de la LO 2/1986 están **derogados**: se estudia en la LO 9/2015. Los Policías Nacionales pueden **constituir sindicatos de ámbito nacional**, pero solo afiliarse a los formados **exclusivamente por Policías Nacionales**, que no pueden federarse con otros no integrados solo por policías (sí con organizaciones internacionales de su carácter). No pueden ejercer la huelga (art. 8). Los estatutos y el acta fundacional se depositan en el registro especial de la Dirección General de la Policía (art. 88).",
+        "Es **representativo** el sindicato que en las últimas elecciones obtuvo **al menos un representante** en el Consejo de Policía, o en **dos escalas** al menos el **10 %** de los votos de cada una (art. 89.1). Los no representativos pueden formular propuestas, elevar informes, dirigir peticiones y representar a sus afiliados (art. 90).",
+        "**Consejo de Policía** (art. 94): órgano colegiado de participación, bajo la presidencia del **Ministro del Interior** o persona en quien delegue, con representación **paritaria** de la Administración y de los Policías Nacionales. Los representantes de la Administración los designa el Ministro. La representación policial se estructura **por escalas** (Superior, Ejecutiva, Subinspección y Básica), con **un representante por cada 6.000 funcionarios o fracción** de cada escala.",
+        "Funciones principales: mediación y conciliación en **conflictos colectivos**; estudio de propuestas sobre derechos sindicales; participación en las condiciones de prestación del servicio (evaluación del desempeño, calendario, horarios, jornadas, vacaciones, permisos y licencias); criterios de residencia; mociones y consultas sobre el estatuto profesional; criterios de formación, promoción y acción social; **informe en los expedientes disciplinarios por faltas muy graves** y en los instruidos a representantes sindicales; informe previo de las disposiciones generales sobre estas materias.",
+        "Elecciones (art. 95): por escalas, con sufragio personal, libre, directo y secreto; listas nacionales por escala presentadas por sindicatos o agrupaciones de electores; **representación proporcional**; mandato de **cuatro años**, reelegibles; las vacantes las cubre el siguiente de la lista."
+      ]
+    }
+  ],
+  "trampas": [
+    "Orgánica frente a funcional: en la Policía Judicial es **orgánica del Ministerio del Interior y funcional de Jueces, Tribunales y Fiscales**; en las unidades del CNP adscritas a una CCAA es **funcional de la Comunidad y orgánica del Ministerio del Interior**. La orgánica siempre es de Interior; lo que cambia es quién manda funcionalmente.",
+    "Autoridad frente a agente de la autoridad (art. 7): la regla general es **agente de la autoridad**; la consideración de **autoridad** es una excepción penal limitada al atentado con armas de fuego, explosivos u otros medios de análoga peligrosidad. Cuidado con «en ningún caso» y «siempre».",
+    "Principios bajo el epígrafe equivocado: la neutralidad política va en **adecuación al ordenamiento**; intervenir fuera de servicio, en **dedicación profesional**; el uso de armas, en **relaciones con la comunidad**; identificarse al detener, en **tratamiento de detenidos**.",
+    "Composición paritaria: Consejo de Política de Seguridad (Consejeros de las CCAA e igual número del Estado), Comité de Expertos (**4 + 4**), Junta de Seguridad (igual número) y Consejo de Policía (paritario). No cambies el 8 del Comité por 6 o 10.",
+    "La Policía Judicial la **ejercen las FCSE**; las Policías autonómicas y locales **colaboran** (art. 29.2). Un distractor frecuente las pone en pie de igualdad.",
+    "Consejo de Policía: ya no está en la LO 2/1986 (arts. 18 a 26 derogados) sino en la LO 9/2015; **un representante por cada 6.000** funcionarios o fracción de **cada escala** (4 escalas); mandato de **4 años**, no de 5 ni 6, y reelegibles.",
+    "Reparto territorial: el CNP, en **capitales de provincia** y los núcleos que fije el Gobierno; la Guardia Civil, en el **resto y el mar territorial**. DNI, pasaporte, extranjería, juego y seguridad privada son del CNP; armas y explosivos, tráfico interurbano y medio ambiente, de la Guardia Civil.",
+    "Ámbitos de actuación: las Policías autonómicas solo en **su Comunidad** y las locales solo en **su municipio**, salvo emergencia con **requerimiento** de las autoridades estatales o competentes. La licencia de armas de la Policía autonómica la da el **Gobierno de la Nación**.",
+    "Adscripción a Juzgados y Fiscalía: se oye al **Consejo General del Poder Judicial** para los Juzgados y Tribunales y al **Fiscal General del Estado** para el Ministerio Fiscal; no los intercambies."
+  ],
+  "caido": [
+    {
+      "examen": "13 abr 2024, 1 mar 2025, 25 oct 2025",
+      "concepto": "Principios básicos de actuación (art. 5) y su encuadre en los seis bloques"
+    },
+    {
+      "examen": "1 mar 2025",
+      "concepto": "Art. 7: agentes de la autoridad frente a autoridad en el atentado con medios peligrosos"
+    },
+    {
+      "examen": "23 abr 2023, 25 oct 2025, 26 sep 2026",
+      "concepto": "Mando superior de las FCSE (Ministro del Interior, art. 10) y competencias exclusivas del CNP como DNI y pasaporte (art. 12)"
+    },
+    {
+      "examen": "13 abr 2024, 25 oct 2025",
+      "concepto": "Consejo de Política de Seguridad y Comité de Expertos (composición 4 + 4); Junta de Seguridad"
+    },
+    {
+      "examen": "1 mar 2025, 26 sep 2026",
+      "concepto": "Policía Judicial: ejercida por las FCSE (art. 29) y dependencia orgánica y funcional (art. 31)"
+    },
+    {
+      "examen": "13 abr 2024 (dos preguntas), 25 oct 2025",
+      "concepto": "Unidades del CNP adscritas a CCAA (art. 47): unidades completas, dependencia funcional de la Comunidad y orgánica del Ministerio, jefes naturales"
+    },
+    {
+      "examen": "1 mar 2025, 25 oct 2025, 26 sep 2026",
+      "concepto": "Policías Locales (art. 51, municipios sin policía local) y Consejo de Policía con representación sindical"
+    }
+  ],
+  "mnemotecnias": [
+    "Seis principios de actuación en orden: Adecuación, Relaciones con la comunidad, Trato a detenidos, Dedicación, Secreto, Responsabilidad (A-R-T-D-S-R).",
+    "Orgánica siempre es de Interior (Policía Judicial y unidades adscritas); la funcional va con quien las usa: Jueces y Fiscales en la Policía Judicial, la Comunidad Autónoma en las unidades adscritas.",
+    "Comité de Expertos: 8 = 4 + 4. Consejo de Policía: 6.000 funcionarios por representante y 4 años de mandato."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿A quién corresponde el mantenimiento de la Seguridad Pública?",
+      "r": "La Seguridad Pública es competencia **exclusiva del Estado** y su mantenimiento corresponde al **Gobierno de la Nación**; CCAA y Corporaciones Locales participan (art. 1)."
+    },
+    {
+      "p": "¿Cuáles son los seis bloques de principios básicos de actuación?",
+      "r": "**Adecuación al ordenamiento jurídico, relaciones con la comunidad, tratamiento de detenidos, dedicación profesional, secreto profesional y responsabilidad** (art. 5)."
+    },
+    {
+      "p": "¿Cuándo solo deben usar las armas los miembros de las FCS?",
+      "r": "Cuando exista **riesgo racionalmente grave** para su vida, su integridad física o las de terceras personas, o circunstancias de grave riesgo para la seguridad ciudadana, con congruencia, oportunidad y proporcionalidad (art. 5.2)."
+    },
+    {
+      "p": "¿Qué dice el art. 5 sobre la obediencia debida?",
+      "r": "En ningún caso puede amparar órdenes que entrañen actos que **manifiestamente constituyan delito** o sean contrarios a la Constitución o a las Leyes (art. 5.1)."
+    },
+    {
+      "p": "¿Qué consideración tienen los miembros de las FCS en el ejercicio de sus funciones y cuándo son «autoridad»?",
+      "r": "**Agentes de la autoridad** a todos los efectos legales; **autoridad** solo a efectos de protección penal en el atentado con armas de fuego, explosivos u otros medios de análoga peligrosidad que pongan en peligro grave su integridad física (art. 7)."
+    },
+    {
+      "p": "¿Quién ejerce el mando superior de las FCSE?",
+      "r": "El **Ministro del Interior** (art. 10.1). En la Policía Nacional lo ejerce a través del Secretario de Estado de Seguridad; el mando directo es del Director General de la Policía (LO 9/2015, art. 2.4)."
+    },
+    {
+      "p": "¿Cómo se reparten el territorio el CNP y la Guardia Civil?",
+      "r": "El CNP, en **capitales de provincia** y en los términos municipales y núcleos urbanos que determine el Gobierno; la Guardia Civil, en **el resto del territorio nacional y su mar territorial** (art. 11.2)."
+    },
+    {
+      "p": "¿Quién expide el DNI y el pasaporte y quién ejerce la competencia sobre armas y explosivos?",
+      "r": "DNI y pasaportes: **Cuerpo Nacional de Policía** (art. 12.1, apartado A). Legislación sobre armas y explosivos: **Guardia Civil** (art. 12.1, apartado B)."
+    },
+    {
+      "p": "¿Quién ejerce las funciones de Policía Judicial?",
+      "r": "Las **FCS del Estado**, mediante Unidades específicas; el personal de las Policías autonómicas y locales tiene carácter **colaborador** (art. 29)."
+    },
+    {
+      "p": "¿De quién dependen los funcionarios de las Unidades de Policía Judicial?",
+      "r": "**Orgánicamente del Ministerio del Interior** y **funcionalmente de los Jueces, Tribunales o Ministerio Fiscal** que conozcan del asunto (art. 31.1)."
+    },
+    {
+      "p": "¿A quién se oye para adscribir Unidades de Policía Judicial a Juzgados y a la Fiscalía?",
+      "r": "A Juzgados y Tribunales: el Ministerio del Interior, **oído el Consejo General del Poder Judicial**. Al Ministerio Fiscal: **oído el Fiscal General del Estado** (art. 30.2)."
+    },
+    {
+      "p": "¿Qué principios rigen la adscripción de unidades del CNP a una CCAA (art. 47)?",
+      "r": "Unidades **operativas completas**; dependencia **funcional de la Comunidad** y **orgánica del Ministerio del Interior**; mando de sus **jefes naturales**; reemplazo en cualquier momento a iniciativa estatal, oídas las autoridades autonómicas."
+    },
+    {
+      "p": "¿Qué tipos de funciones pueden ejercer las Policías de las CCAA (art. 38)?",
+      "r": "**Propias**, **en colaboración** con las FCSE (incluida la vigilancia de espacios públicos y manifestaciones) y de **prestación simultánea e indiferenciada** con ellas."
+    },
+    {
+      "p": "¿Cómo se compone el Consejo de Política de Seguridad y su Comité de Expertos?",
+      "r": "Consejo: preside el **Ministro del Interior**; Consejeros de Interior de las CCAA e **igual número** de representantes del Estado (art. 48). Comité: **8**, 4 del Estado y 4 de las CCAA (art. 49)."
+    },
+    {
+      "p": "¿En qué se diferencian la Junta de Seguridad y la Junta Local de Seguridad?",
+      "r": "La **Junta de Seguridad** es autonómica (CCAA con Policía propia, igual número de representantes, art. 50); la **Junta Local de Seguridad** es municipal (municipios con Cuerpo propio, la preside el Alcalde, art. 54)."
+    },
+    {
+      "p": "¿Cómo se compone el Consejo de Policía y cuánto dura el mandato de sus Consejeros?",
+      "r": "Preside el Ministro del Interior o persona delegada; **paritario**; representación policial por escalas: **1 por cada 6.000 funcionarios o fracción** de cada una de las 4 escalas. Mandato de **4 años**, reelegibles (LO 9/2015, arts. 94 y 95)."
+    },
+    {
+      "p": "¿Qué artículos de la LO 2/1986 han sido derogados por la LO 9/2015?",
+      "r": "Los **arts. 16 a 26** (escalas, representación colectiva y Consejo de Policía) y las disposiciones adicionales 1.ª, 2.ª, 6.ª y 7.ª. Los arts. 27 y 28 (disciplinario) los derogó la LO 4/2010."
+    },
+    {
+      "p": "¿Cuándo se considera representativa una organización sindical de la Policía Nacional?",
+      "r": "Cuando en las últimas elecciones al Consejo de Policía obtuvo **al menos un representante**, o en **dos escalas** al menos el **10 %** de los votos de cada una (LO 9/2015, art. 89.1)."
+    },
+    {
+      "p": "¿Dónde pueden actuar las Policías autonómicas y las Policías Locales?",
+      "r": "Las autonómicas, solo en el **territorio de su Comunidad**; las locales, solo en su **término municipal**; ambas pueden salir en situaciones de **emergencia** previo requerimiento de las autoridades competentes (arts. 42 y 51.3)."
+    },
+    {
+      "p": "¿Pueden los miembros de las FCS ejercer el derecho de huelga?",
+      "r": "**No, en ningún caso**, ni acciones sustitutivas o concertadas para alterar el normal funcionamiento de los servicios (art. 6.8). Los guardias civiles tampoco pueden pertenecer a partidos ni sindicatos (art. 15.2)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Según la LO 2/1986, ¿a quién corresponde el mantenimiento de la Seguridad Pública?",
+      "opciones": [
+        "Al Gobierno de la Nación, por ser la Seguridad Pública competencia exclusiva del Estado",
+        "A las Comunidades Autónomas con Cuerpo de Policía propio, en su territorio y con carácter exclusivo",
+        "Al Ministerio del Interior y a las Corporaciones Locales, de forma compartida e indistinta"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 1.1 declara la Seguridad Pública competencia exclusiva del Estado y atribuye su mantenimiento al Gobierno de la Nación. Las Comunidades Autónomas solo participan en los términos de sus Estatutos y de la Ley (art. 1.2), y las Corporaciones Locales según la Ley de Bases de Régimen Local (art. 1.3); ninguna la ejerce en exclusiva ni de forma indistinta.",
+      "ref": "art. 1 LO 2/1986",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿En cuál de los seis bloques de principios básicos de actuación del art. 5 de la LO 2/1986 se encuadra el deber de actuar con absoluta neutralidad política e imparcialidad?",
+      "opciones": [
+        "Relaciones con la comunidad",
+        "Adecuación al ordenamiento jurídico",
+        "Dedicación profesional"
+      ],
+      "correcta": 1,
+      "explicacion": "La neutralidad política e imparcialidad, sin discriminación por raza, religión u opinión, figura en el art. 5.1 (segundo deber de su lista), dentro de la adecuación al ordenamiento jurídico. Las relaciones con la comunidad (art. 5.2) recogen el trato correcto, la proporcionalidad y el uso de armas, y la dedicación profesional (art. 5.4) el deber de intervenir siempre, en servicio o fuera de él.",
+      "ref": "art. 5.1 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Conforme al art. 5 de la LO 2/1986, los miembros de las Fuerzas y Cuerpos de Seguridad solo deberán utilizar las armas:",
+      "opciones": [
+        "Cuando una persona se resista a su detención o desobedezca una orden legítima",
+        "Únicamente cuando estén de servicio y exista riesgo para la vida de otro agente",
+        "En situaciones de riesgo racionalmente grave para su vida, su integridad física o las de terceras personas, o de grave riesgo para la seguridad ciudadana, con congruencia, oportunidad y proporcionalidad"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 5.2 limita el uso de armas a los casos de riesgo racionalmente grave para la vida o integridad física propias o de terceros, o a circunstancias que supongan un grave riesgo para la seguridad ciudadana, siempre con los principios de congruencia, oportunidad y proporcionalidad. La mera resistencia o desobediencia no basta, y la norma no exige estar de servicio ni limita el riesgo a otro agente.",
+      "ref": "art. 5.2 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre los principios básicos de actuación del art. 5 de la LO 2/1986:",
+      "opciones": [
+        "Están obligados a revelar en todo caso las fuentes de información cuando lo solicite un ciudadano afectado",
+        "Deben intervenir siempre, en cualquier tiempo y lugar, se hallen o no de servicio, en defensa de la Ley y de la seguridad ciudadana",
+        "La obediencia debida no puede amparar órdenes que entrañen actos que manifiestamente constituyan delito"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.5 impone riguroso secreto profesional y dice que no están obligados a revelar las fuentes de información salvo que el ejercicio de sus funciones o la Ley impongan otra cosa; no existe una obligación general de revelarlas a petición de un ciudadano. Las otras dos afirmaciones son correctas: dedicación profesional (art. 5.4) y límite de la obediencia debida (art. 5.1).",
+      "ref": "art. 5.1, 5.4 y 5.5 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En materia de tratamiento de detenidos, el art. 5.3 de la LO 2/1986 obliga expresamente a los miembros de las Fuerzas y Cuerpos de Seguridad a:",
+      "opciones": [
+        "Informar al detenido por escrito de sus derechos en presencia de dos testigos",
+        "Identificarse debidamente como tales en el momento de efectuar una detención",
+        "Comunicar la detención al Ministerio Fiscal en las seis horas siguientes"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 5.3 exige identificarse debidamente en el momento de la detención, velar por la vida e integridad física del detenido y respetar su honor y dignidad, y cumplir con diligencia los trámites, plazos y requisitos legales. La información de derechos y las comunicaciones se regulan en la Ley de Enjuiciamiento Criminal, no en este precepto, y las seis horas no figuran en él.",
+      "ref": "art. 5.3 LO 2/1986",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Respecto al estatuto de los miembros de las Fuerzas y Cuerpos de Seguridad (art. 6 LO 2/1986), es correcto que:",
+      "opciones": [
+        "Pueden ejercer el derecho de huelga en los servicios que no tengan carácter esencial",
+        "Su pertenencia al Cuerpo es compatible con cualquier otra actividad pública o privada",
+        "No podrán ejercer en ningún caso el derecho de huelga ni acciones sustitutivas o concertadas para alterar el normal funcionamiento de los servicios"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 6.8 prohíbe el derecho de huelga y las acciones sustitutivas, sin excepciones. El art. 6.7 establece que la pertenencia a las FCS es causa de incompatibilidad para cualquier otra actividad pública o privada, salvo las exceptuadas por la legislación de incompatibilidades, por lo que tampoco es cierto que sea compatible con cualquiera.",
+      "ref": "art. 6.7 y 6.8 LO 2/1986",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Un guardia civil que presta servicio de seguridad ciudadana resulta agredido con un arma de fuego, con peligro grave para su integridad física. A efectos de su protección penal, ¿qué consideración le atribuye la LO 2/1986?",
+      "opciones": [
+        "La de autoridad, porque el delito de atentado se ha cometido empleando armas de fuego u otros medios de agresión de análoga peligrosidad",
+        "La de agente de la autoridad exclusivamente, ya que la Ley nunca atribuye a los miembros de las FCS la consideración de autoridad",
+        "La de funcionario público con protección reforzada, solo si iba de uniforme"
+      ],
+      "correcta": 0,
+      "explicacion": "La regla general es que son agentes de la autoridad a todos los efectos legales en el ejercicio de sus funciones (art. 7.1). La excepción del art. 7.2 les da la consideración de autoridad, a efectos de su protección penal, cuando se comete atentado con armas de fuego, explosivos u otros medios de agresión de análoga peligrosidad que puedan poner en peligro grave su integridad física. La referencia al uniforme no figura en la Ley.",
+      "ref": "art. 7.1 y 7.2 LO 2/1986",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "En tiempo de guerra y durante el estado de sitio, la Guardia Civil depende:",
+      "opciones": [
+        "Del Ministro del Interior y del Ministro de Defensa, de forma conjunta",
+        "Exclusivamente del Ministro de Defensa",
+        "Exclusivamente del Ministro del Interior, como el resto de las FCSE"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 9 establece que la Guardia Civil depende del Ministro del Interior en las funciones que le atribuye la Ley y del Ministro de Defensa en las misiones de carácter militar, pero en tiempo de guerra y durante el estado de sitio depende exclusivamente del Ministro de Defensa. Ni la dependencia conjunta ni la exclusiva de Interior son ciertas en esa situación.",
+      "ref": "art. 9 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En un núcleo urbano que no es capital de provincia ni ha sido determinado por el Gobierno como zona de actuación del Cuerpo Nacional de Policía, las funciones comunes de las Fuerzas y Cuerpos de Seguridad del Estado corresponden con carácter general a:",
+      "opciones": [
+        "Al Cuerpo Nacional de Policía, por ser un instituto armado de naturaleza civil",
+        "A la Policía Local, que asume en exclusiva las funciones de seguridad ciudadana",
+        "A la Guardia Civil, que las ejerce en el resto del territorio nacional y su mar territorial"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 11.2 asigna al CNP las capitales de provincia y los términos municipales y núcleos urbanos que determine el Gobierno, y a la Guardia Civil el resto del territorio nacional y su mar territorial. La Policía Local no asume en exclusiva la seguridad ciudadana, y la naturaleza civil del CNP no altera el reparto territorial.",
+      "ref": "art. 11.2 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En caso de conflicto de competencias, positivo o negativo, entre el Cuerpo Nacional de Policía y la Guardia Civil, hasta que se resuelva lo procedente se hará cargo del servicio:",
+      "opciones": [
+        "El Cuerpo que haya realizado las primeras actuaciones",
+        "El Cuerpo Nacional de Policía, por su carácter civil",
+        "El Cuerpo cuyo ámbito territorial coincida con el lugar de los hechos, aunque no haya intervenido antes"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 11.5 dispone que se hace cargo del servicio el Cuerpo que haya realizado las primeras actuaciones, hasta que el Gobernador civil o las instancias superiores del Ministerio del Interior resuelvan, sin perjuicio de lo previsto para la Policía Judicial. No se prefiere al CNP por ser civil ni al Cuerpo territorialmente competente si no intervino primero.",
+      "ref": "art. 11.5 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes funciones corresponde al Cuerpo Nacional de Policía y no a la Guardia Civil, según el art. 12.1 de la LO 2/1986?",
+      "opciones": [
+        "El resguardo fiscal del Estado y la persecución del contrabando",
+        "El control de las entidades y servicios privados de seguridad, vigilancia e investigación, de su personal, medios y actuaciones",
+        "La conducción interurbana de presos y detenidos"
+      ],
+      "correcta": 1,
+      "explicacion": "El control de las entidades y servicios privados de seguridad, vigilancia e investigación es competencia del CNP, según el apartado primero del art. 12.1. El resguardo fiscal y el contrabando, y la conducción interurbana de presos y detenidos, son competencias de la Guardia Civil, según el apartado segundo del mismo artículo.",
+      "ref": "art. 12.1 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el art. 31.1 de la LO 2/1986, los funcionarios adscritos a Unidades de Policía Judicial dependen, en el cumplimiento de sus funciones:",
+      "opciones": [
+        "Orgánicamente de los Jueces y Tribunales, y funcionalmente del Ministerio del Interior",
+        "Orgánica y funcionalmente del Consejo General del Poder Judicial",
+        "Orgánicamente del Ministerio del Interior y funcionalmente de los Jueces, Tribunales o Ministerio Fiscal que conozcan del asunto objeto de su investigación"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 31.1 establece la dependencia orgánica del Ministerio del Interior y la dependencia funcional de los Jueces, Tribunales o Ministerio Fiscal que estén conociendo del asunto. Las otras opciones invierten los términos o atribuyen la dependencia completa al Poder Judicial, lo que la Ley no contempla.",
+      "ref": "art. 31.1 LO 2/1986",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "En una investigación judicial participan agentes de la Policía Local junto con agentes de la Policía Nacional. ¿Qué papel atribuye la LO 2/1986 al personal de la Policía Local en la función de Policía Judicial?",
+      "opciones": [
+        "Carácter colaborador de las Fuerzas y Cuerpos de Seguridad del Estado, que son quienes ejercen la función de Policía Judicial",
+        "Ejercen la Policía Judicial en pie de igualdad con las Fuerzas y Cuerpos de Seguridad del Estado",
+        "Ninguno: la Ley les prohíbe cualquier intervención en funciones de Policía Judicial"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 29.1 atribuye la Policía Judicial a las FCS del Estado y el art. 29.2 da carácter colaborador al personal de las Policías de las CCAA y de las Corporaciones Locales. Por eso el art. 53.1 incluye entre las funciones de la Policía Local participar en la Policía Judicial en la forma del art. 29.2, sin que esté prohibido ni en pie de igualdad.",
+      "ref": "arts. 29 y 53.1 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre las Unidades de Policía Judicial reguladas en la LO 2/1986:",
+      "opciones": [
+        "Sus funcionarios no pueden ser apartados de la investigación concreta hasta que finalice ella o la fase del procedimiento que la originó, salvo decisión o autorización del Juez o Fiscal",
+        "Las Unidades orgánicas pueden adscribirse al Ministerio Fiscal por el Ministerio del Interior, oído el Consejo General del Poder Judicial",
+        "La posesión del diploma correspondiente es requisito necesario para ocupar puestos en las Unidades de Policía Judicial"
+      ],
+      "correcta": 1,
+      "explicacion": "La adscripción al Ministerio Fiscal se hace oído el Fiscal General del Estado, no el Consejo General del Poder Judicial, que se oye para la adscripción a Juzgados y Tribunales (art. 30.2). Las otras dos son correctas: inamovilidad de la investigación concreta (art. 34.1) y diploma como requisito (art. 32).",
+      "ref": "arts. 30.2, 32 y 34.1 LO 2/1986",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Las Unidades del Cuerpo Nacional de Policía adscritas a una Comunidad Autónoma, conforme al art. 47 de la LO 2/1986, dependen:",
+      "opciones": [
+        "Funcionalmente del Ministerio del Interior y orgánicamente de las autoridades de la Comunidad Autónoma",
+        "Orgánica y funcionalmente de las autoridades de la Comunidad Autónoma",
+        "Funcionalmente de las autoridades de la Comunidad Autónoma y orgánicamente del Ministerio del Interior"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 47 dispone que las unidades adscritas dependen funcionalmente de las autoridades de la Comunidad Autónoma y orgánicamente del Ministerio del Interior. La primera opción invierte los términos y la segunda traslada toda la dependencia a la Comunidad, lo que contradice la Ley.",
+      "ref": "art. 47 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En los acuerdos de colaboración para adscribir unidades del Cuerpo Nacional de Policía a una Comunidad Autónoma (art. 47 LO 2/1986), NO es uno de los principios que deben respetarse:",
+      "opciones": [
+        "Que las unidades adscritas no puedan ser reemplazadas sin la conformidad de la Comunidad Autónoma",
+        "Que la adscripción afecte a unidades operativas completas y no a miembros individuales del Cuerpo",
+        "Que las unidades actúen siempre bajo el mando de sus jefes naturales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 47 dice lo contrario: las unidades pueden ser reemplazadas en cualquier momento por otras a iniciativa de las autoridades estatales, oídas las de la Comunidad Autónoma, sin que se exija su conformidad. Los otros dos son principios expresos del precepto: unidades completas y mando de los jefes naturales.",
+      "ref": "art. 47 LO 2/1986",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Cómo se compone el Consejo de Política de Seguridad regulado en el art. 48 de la LO 2/1986?",
+      "opciones": [
+        "Lo preside el Presidente del Gobierno e integran los presidentes de las Comunidades Autónomas y los Delegados del Gobierno",
+        "Lo preside el Ministro del Interior e integran los Consejeros de Interior o Gobernación de las Comunidades Autónomas y un número igual de representantes del Estado designados por el Gobierno",
+        "Lo preside el Secretario de Estado de Seguridad e integran solo los Consejeros de las Comunidades Autónomas con Cuerpo de Policía propio"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 48.1 crea el Consejo bajo la presidencia del Ministro del Interior, con los Consejeros de Interior o Gobernación de las Comunidades Autónomas y un número igual de representantes del Estado designados por el Gobierno, lo que le da composición paritaria. No lo preside el Presidente del Gobierno ni el Secretario de Estado, y participan todas las Comunidades, no solo las que tienen Policía propia.",
+      "ref": "art. 48.1 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El Comité de Expertos que funciona dentro del Consejo de Política de Seguridad está integrado por:",
+      "opciones": [
+        "Seis representantes: tres del Estado y tres de las Comunidades Autónomas",
+        "Diez representantes: cinco del Estado y cinco de las Comunidades Autónomas",
+        "Ocho representantes: cuatro del Estado y cuatro de las Comunidades Autónomas, designados estos últimos anualmente por los miembros del Consejo que representan a las Comunidades"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 49.1 fija el Comité en ocho representantes, cuatro del Estado y cuatro de las Comunidades Autónomas, designados estos últimos anualmente por los miembros del Consejo que representen a las Comunidades. Su misión es asesorar técnicamente al Consejo y preparar los asuntos del Pleno.",
+      "ref": "art. 49.1 LO 2/1986",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Conforme al art. 50 de la LO 2/1986, la Junta de Seguridad podrá constituirse:",
+      "opciones": [
+        "En las Comunidades Autónomas que dispongan de Cuerpos de Policía propios, integrada por igual número de representantes del Estado y de la Comunidad",
+        "En todas las provincias, presidida por el Delegado del Gobierno y con mayoría de representantes del Estado",
+        "En los municipios con Cuerpo de Policía Local, presidida por el Alcalde"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 50.1 prevé la Junta de Seguridad en las Comunidades Autónomas con Cuerpos de Policía propios, con igual número de representantes del Estado y de la Comunidad, para coordinar la actuación de ambos y resolver las incidencias de su colaboración. La que se constituye en municipios con Cuerpo propio y preside el Alcalde es la Junta Local de Seguridad (art. 54).",
+      "ref": "arts. 50 y 54 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según la LO 9/2015, que regula hoy el Consejo de Policía, la representación de los miembros de la Policía Nacional en el Consejo se estructura:",
+      "opciones": [
+        "Por Jefaturas Superiores de Policía, con un representante por cada una",
+        "Por escalas, sobre la base de un representante por cada 6.000 funcionarios o fracción de cada una de las cuatro escalas",
+        "Por organizaciones sindicales, con un representante por cada sindicato legalmente constituido"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 94.4 de la LO 9/2015 estructura la representación por escalas, con un representante por cada 6.000 funcionarios o fracción de cada una de las cuatro escalas del Cuerpo. Las elecciones se celebran por escalas (art. 95), no por Jefaturas, y los sindicatos presentan candidaturas pero no tienen un representante garantizado por el hecho de existir.",
+      "ref": "art. 94.4 LO 9/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre el Consejo de Policía regulado en la LO 9/2015:",
+      "opciones": [
+        "Funciona bajo la presidencia del Ministro del Interior o persona en quien delegue, con representación paritaria de la Administración y de los representantes de los Policías Nacionales",
+        "Los representantes de la Administración en el Consejo son designados por el Ministro del Interior",
+        "Los Consejeros representantes de los funcionarios son elegidos por un mandato de seis años sin posibilidad de reelección"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 95.4 fija el mandato de los Consejeros en cuatro años, con posibilidad de reelección en sucesivos procesos electorales; no son seis años ni sin reelección. Las otras dos afirmaciones coinciden con los apartados 1 y 3 del art. 94.",
+      "ref": "arts. 94 y 95.4 LO 9/2015",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Los arts. 18 a 26 de la LO 2/1986, que regulaban los derechos de representación colectiva y el Consejo de Policía, se encuentran actualmente:",
+      "opciones": [
+        "Derogados por la LO 9/2015, de Régimen de Personal de la Policía Nacional, que regula hoy esa materia",
+        "Derogados por la LO 4/2010, de Régimen Disciplinario del Cuerpo Nacional de Policía",
+        "En vigor, sin modificación alguna desde 1986"
+      ],
+      "correcta": 0,
+      "explicacion": "La disposición derogatoria de la LO 9/2015 derogó los arts. 16 a 26 de la LO 2/1986, y esa ley regula ahora los derechos de ejercicio colectivo (art. 8) y el Consejo de Policía (arts. 94 y 95). La LO 4/2010 derogó otros artículos, los 27 y 28, relativos al régimen disciplinario, no los de representación colectiva.",
+      "ref": "disposición derogatoria única LO 9/2015; arts. 16 a 28 LO 2/1986",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Según el art. 42 de la LO 2/1986, los Cuerpos de Policía de las Comunidades Autónomas solo podrán actuar fuera del ámbito territorial de su Comunidad, con carácter general:",
+      "opciones": [
+        "Cuando lo ordene el Consejero de Interior de la Comunidad, comunicándolo después al Gobierno",
+        "En situaciones de emergencia, previo requerimiento de las autoridades estatales",
+        "Siempre que la Junta de Seguridad lo autorice por mayoría"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 42 limita su actuación al ámbito territorial de la Comunidad, salvo en situaciones de emergencia y previo requerimiento de las autoridades estatales. Además, cuando protegen a autoridades públicas de la Comunidad, pueden actuar fuera con autorización del Ministerio del Interior. Ni la orden del Consejero ni la autorización de la Junta de Seguridad bastan por sí solas.",
+      "ref": "art. 42 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En los municipios donde no exista Policía municipal, según el art. 51 de la LO 2/1986, sus cometidos serán ejercidos por:",
+      "opciones": [
+        "La Guardia Civil, que los asume con carácter exclusivo",
+        "Las empresas de seguridad privada contratadas por el Ayuntamiento",
+        "El personal que desempeñe funciones de custodia y vigilancia de bienes, servicios e instalaciones, con la denominación de guardas, vigilantes, agentes, alguaciles o análogos"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 51.2 atribuye los cometidos de la Policía municipal, donde no exista, al personal de custodia y vigilancia de bienes, servicios e instalaciones con las denominaciones de guardas, vigilantes, agentes, alguaciles o análogos. La Ley no encomienda esa función a la Guardia Civil en exclusiva ni a empresas de seguridad privada.",
+      "ref": "art. 51.2 LO 2/1986",
+      "dificultad": 1
+    }
+  ],
+  "dudas": [
+    "El art. 25 de la LO 2/1986 fue declarado parcialmente inconstitucional (STC 120/2010) antes de su derogación; no se ha estudiado porque ya no está en vigor.",
+    "Una búsqueda web indica que hay proposiciones de ley en trámite parlamentario para reformar la LO 2/1986 (por ejemplo, del Grupo Popular, publicada en el BOCG el 26/06/2026). No se ha podido confirmar su contenido ni su estado, y no son derecho vigente: no figura ninguna reforma posterior a 2015 en el texto consolidado leído."
+  ]
+}

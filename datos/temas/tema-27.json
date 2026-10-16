@@ -1,0 +1,439 @@
+{
+  "tema": 27,
+  "titulo": "Derechos Humanos: DUDH, CEDH, tortura y MNP",
+  "bloque": "B",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "Entre 1 y 2 preguntas por examen (media 1,4). Han caído la DUDH (París, 10/12/1948; art. 16), el OPCAT (Subcomité: 10 miembros, 25 tras la 50ª ratificación), la Convención contra la Tortura (sin justificación ni orden superior) y el Consejo Asesor del MNP (al menos 2 reuniones al año)."
+  },
+  "normas": [
+    {
+      "nombre": "Declaración Universal de Derechos Humanos (Asamblea General de la ONU, Resolución 217 A (III), 10 de diciembre de 1948)",
+      "url": "https://www.un.org/es/about-us/universal-declaration-of-human-rights",
+      "verificado": "Texto íntegro leído en la web de la ONU el 16/10/2026; historia de la Declaración leída en https://www.un.org/en/about-us/udhr/history-of-the-declaration"
+    },
+    {
+      "nombre": "Convenio Europeo de Derechos Humanos (Roma, 4/11/1950), texto modificado por los Protocolos 11, 14 y 15 y completado por los Protocolos 1, 4, 6, 7, 12, 13 y 16 (traducción no oficial del Consejo de Europa)",
+      "url": "https://www.echr.coe.int/documents/d/echr/convention_spa",
+      "verificado": "PDF del TEDH leído el 16/10/2026 (arts. 1-59 y Protocolos). Ratificación española: BOE-A-1979-24010 (BOE 10/10/1979; texto original sin consolidar): ratificación 26/09/1979, en vigor para España el 04/10/1979"
+    },
+    {
+      "nombre": "Instrumento de ratificación de la Convención contra la tortura y otros tratos o penas crueles, inhumanos o degradantes (Nueva York, 10/12/1984)",
+      "boe": "BOE-A-1987-25053",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1987-25053",
+      "verificado": "Texto original (BOE 09/11/1987, no consolidado) leído el 16/10/2026; adopción por la Res. 39/46 y entrada en vigor (26/06/1987) contrastadas en la UN Treaty Collection"
+    },
+    {
+      "nombre": "Instrumento de ratificación del Protocolo facultativo a la Convención contra la tortura (OPCAT, Nueva York, 18/12/2002)",
+      "boe": "BOE-A-2006-11128",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2006-11128",
+      "verificado": "Texto original (BOE 22/06/2006, no consolidado) leído el 16/10/2026; adopción por la Res. A/RES/57/199 contrastada en la UN Treaty Collection"
+    },
+    {
+      "nombre": "Instrumento de ratificación del Convenio Europeo para la prevención de la tortura y de las penas o tratos inhumanos o degradantes (Estrasburgo, 26/11/1987)",
+      "boe": "BOE-A-1989-15618",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1989-15618",
+      "verificado": "Texto original (BOE 05/07/1989) leído el 16/10/2026; en vigor de forma general el 01/02/1989 y para España el 01/09/1989"
+    },
+    {
+      "nombre": "Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo (disposición final única, Mecanismo Nacional de Prevención de la Tortura, añadida por la LO 1/2009)",
+      "boe": "BOE-A-1981-10325",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325",
+      "verificado": "Texto consolidado, actualización de 16/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Resolución de 25 de enero de 2012, de las Mesas del Congreso y del Senado, por la que se modifica el Reglamento de Organización y Funcionamiento del Defensor del Pueblo (capítulo V, arts. 19 a 22: Consejo Asesor del MNP)",
+      "boe": "BOE-A-2012-2881",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2012-2881",
+      "verificado": "Texto original leído el 16/10/2026"
+    },
+    {
+      "nombre": "Pactos Internacionales de Derechos Civiles y Políticos y de Derechos Económicos, Sociales y Culturales (UN Treaty Collection)",
+      "url": "https://treaties.un.org/pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4&clang=_en",
+      "verificado": "Fechas de adopción, entrada en vigor y ratificación española leídas el 16/10/2026"
+    }
+  ],
+  "novedades": [
+    "Protocolo n.º 15 al CEDH (en vigor desde el 1/8/2021): el plazo para demandar ante el TEDH es de **cuatro meses** desde la decisión interna definitiva (art. 35.1), aplicable desde el 1/2/2022. Los materiales antiguos dicen «seis meses».",
+    "Desde el Protocolo n.º 14 (1/6/2010) los jueces del TEDH son elegidos por **nueve años sin reelección** (art. 23.1); antes eran seis años reelegibles.",
+    "El TEDH cuenta con un juez por cada Estado parte (art. 20); según el propio Tribunal, son 46 los Estados miembros del Consejo de Europa que han ratificado el Convenio."
+  ],
+  "clave": [
+    "**DUDH**: proclamada por la Asamblea General de la ONU en **París, el 10 de diciembre de 1948** (Res. 217 A (III)); preámbulo y **30 artículos**; es una declaración, no un tratado sujeto a ratificación. Se aprobó con 8 abstenciones y ningún voto en contra.",
+    "DUDH art. 16.3: la **familia** es el elemento natural y fundamental de la sociedad y tiene derecho a la protección de la sociedad y del Estado. Art. 5: nadie será sometido a torturas ni a penas o tratos crueles, inhumanos o degradantes.",
+    "**Art. 10.2 CE**: los derechos fundamentales se interpretan de conformidad con la DUDH y los tratados ratificados por España.",
+    "**CEDH**: firmado en **Roma el 4/11/1950**, en vigor el **3/9/1953**; para España, ratificación de 26/9/1979 y entrada en vigor el **4/10/1979**. Lo aplica el **TEDH de Estrasburgo** (46 jueces, mandato de **9 años no reelegibles**).",
+    "Demanda ante el TEDH: agotar las vías internas y presentarla en **4 meses** desde la decisión interna definitiva (art. 35.1). Remisión a la Gran Sala: **3 meses** (art. 43). El **Comité de Ministros** supervisa la ejecución de las sentencias (art. 46).",
+    "Art. 3 CEDH (tortura): **no admite derogación**. En estado de excepción (art. 15.2) tampoco se deroga el art. 2 (vida, salvo actos lícitos de guerra), el art. 4.1 (esclavitud) ni el art. 7 (legalidad penal).",
+    "**Convención contra la Tortura (CAT)**: Nueva York, **10/12/1984**; en vigor el **26/6/1987** y para España el **20/11/1987**. Art. 2: **ninguna circunstancia excepcional ni orden de un superior** justifica la tortura. Su Comité tiene **10 expertos**.",
+    "**OPCAT**: Nueva York, **18/12/2002**; en vigor el **22/6/2006** (también para España). **Subcomité para la Prevención de la Tortura (SPT)**: **10 miembros**, que pasan a **25** al registrarse la **50ª ratificación**; mandato de 4 años, reelegibles **una vez**. Su función es **visitar los lugares de privación de libertad** y recomendar.",
+    "**MNP en España** = el **Defensor del Pueblo** (disposición final única de la LO 3/1981, añadida por la **LO 1/2009**). Su **Consejo Asesor** (los 2 Adjuntos y hasta **10 vocales**) se reúne **al menos dos veces al año** (art. 21 del Reglamento del Defensor del Pueblo)."
+  ],
+  "resumen": [
+    {
+      "titulo": "DUDH: fecha, naturaleza y artículos que se preguntan",
+      "puntos": [
+        "La **Declaración Universal de Derechos Humanos** fue proclamada por la Asamblea General de la ONU en **París, el 10 de diciembre de 1948** (Resolución 217 A (III)), «como un ideal común para todos los pueblos y naciones». Se aprobó con **ocho abstenciones y ningún voto en contra**.",
+        "Es una **declaración**, no un tratado sujeto a ratificación. Consta de preámbulo y **30 artículos**. Inspiró más de setenta tratados posteriores. En España los derechos fundamentales de la Constitución se interpretan de conformidad con ella (**art. 10.2 CE**).",
+        "Elaboración: la Comisión de Derechos Humanos (18 miembros) estuvo presidida por **Eleanor Roosevelt**; **René Cassin** (Francia) redactó el primer borrador; **Charles Malik** (Líbano) fue relator; **Peng Chun Chang** (China), vicepresidente; **John Humphrey** (Canadá), director de la División de Derechos Humanos de la ONU, preparó el anteproyecto. A **Hansa Mehta** (India) se le atribuye el cambio de «todos los hombres» por «todos los seres humanos» en el art. 1."
+      ],
+      "tabla": {
+        "cabecera": ["Artículo DUDH", "Contenido"],
+        "filas": [
+          ["1", "Todos los seres humanos nacen libres e iguales en dignidad y derechos; deben comportarse fraternalmente"],
+          ["2", "Igualdad de derechos sin distinción de raza, color, sexo, idioma, religión, opinión política, origen nacional o social, posición económica, nacimiento u otra condición"],
+          ["3", "Derecho a la vida, a la libertad y a la seguridad de la persona"],
+          ["4 y 5", "Prohibición de la esclavitud (art. 4) y de la tortura y de los tratos crueles, inhumanos o degradantes (art. 5)"],
+          ["7 y 9", "Igualdad ante la ley (art. 7); nadie será arbitrariamente detenido, preso ni desterrado (art. 9)"],
+          ["11", "Presunción de inocencia y no retroactividad de la ley penal"],
+          ["13 y 14", "Libre circulación y residencia, salir de cualquier país y regresar (art. 13); derecho a buscar asilo (art. 14)"],
+          ["16", "Matrimonio y familia; el art. 16.3 declara a la familia elemento natural y fundamental de la sociedad"],
+          ["18, 19 y 20", "Libertad de pensamiento, conciencia y religión; de opinión y expresión; de reunión y asociación pacíficas"],
+          ["25 y 26", "Nivel de vida adecuado (art. 25); derecho a la educación, gratuita al menos en la instrucción elemental y fundamental (art. 26)"],
+          ["29 y 30", "Deberes respecto a la comunidad y límites legales de los derechos (art. 29); nada autoriza a suprimir los derechos proclamados (art. 30)"]
+        ]
+      }
+    },
+    {
+      "titulo": "Otros textos de la ONU y generaciones de derechos",
+      "puntos": [
+        "El **Pacto Internacional de Derechos Civiles y Políticos (PIDCP)** y el **Pacto Internacional de Derechos Económicos, Sociales y Culturales (PIDESC)** se adoptaron en Nueva York el **16 de diciembre de 1966**. El PIDESC entró en vigor el **3/1/1976** y el PIDCP el **23/3/1976**. España los firmó el 28/9/1976 y los ratificó el **27/4/1977**. Junto con la DUDH forman la llamada Carta Internacional de Derechos Humanos.",
+        "El **Consejo de Derechos Humanos** sustituyó a la antigua Comisión de Derechos Humanos por la Resolución 60/251 de la Asamblea General, de **15 de marzo de 2006**.",
+        "Clasificación doctrinal por generaciones (Karel Vasak, 1979): **primera** generación, derechos civiles y políticos (libertad); **segunda**, derechos económicos, sociales y culturales (igualdad); **tercera**, derechos de solidaridad (paz, desarrollo, medio ambiente)."
+      ]
+    },
+    {
+      "titulo": "Convenio Europeo de Derechos Humanos (CEDH)",
+      "puntos": [
+        "Es un tratado del **Consejo de Europa** (organización creada el 5/5/1949), **firmado en Roma el 4 de noviembre de 1950**, en vigor desde el **3 de septiembre de 1953**. España lo ratificó el 26/9/1979 y entró en vigor para ella el **4/10/1979** (BOE 10/10/1979).",
+        "Título I (arts. 2 a 18): **2** vida; **3** prohibición de la tortura; **4** esclavitud y trabajo forzado; **5** libertad y seguridad; **6** proceso equitativo; **7** no hay pena sin ley; **8** vida privada y familiar; **9** pensamiento, conciencia y religión; **10** expresión; **11** reunión y asociación; **12** matrimonio; **13** recurso efectivo; **14** prohibición de discriminación; **15** derogación en estado de excepción; **16** actividad política de extranjeros; **17** abuso de derecho; **18** limitación de las restricciones.",
+        "**Art. 15.2**: ni siquiera en guerra o peligro público pueden derogarse el art. 2 (salvo muertes por actos lícitos de guerra), el art. 3, el art. 4.1 y el art. 7. El art. 14 solo protege contra la discriminación en el goce de los derechos del propio Convenio; la prohibición general la contiene el Protocolo n.º 12."
+      ],
+      "tabla": {
+        "cabecera": ["Protocolo", "Contenido principal"],
+        "filas": [
+          ["Adicional (París, 20/3/1952)", "Protección de la propiedad, derecho a la educación, elecciones libres"],
+          ["N.º 4", "Prohibición de prisión por deudas, libertad de circulación, prohibición de expulsar a nacionales y de las expulsiones colectivas de extranjeros"],
+          ["N.º 6", "Abolición de la pena de muerte (admite la prevista para tiempo de guerra)"],
+          ["N.º 7", "Garantías en la expulsión de extranjeros, doble grado de jurisdicción penal, indemnización por error judicial, non bis in idem, igualdad entre esposos"],
+          ["N.º 11 (en vigor 1/11/1998)", "Instituye el nuevo Tribunal permanente único"],
+          ["N.º 12", "Prohibición general de la discriminación"],
+          ["N.º 13", "Abolición de la pena de muerte en cualquier circunstancia"],
+          ["N.º 14 (en vigor 1/6/2010)", "Eficacia a largo plazo del Tribunal; jueces de 9 años sin reelección"],
+          ["N.º 15 (en vigor 1/8/2021)", "Subsidiariedad y margen de apreciación en el preámbulo; plazo de 4 meses"],
+          ["N.º 16 (en vigor 1/8/2018)", "Opiniones consultivas del Tribunal a petición de los órganos jurisdiccionales superiores, no vinculantes"]
+        ]
+      }
+    },
+    {
+      "titulo": "Tribunal Europeo de Derechos Humanos: composición y procedimiento",
+      "puntos": [
+        "El TEDH se creó en **1959**, tiene su sede en **Estrasburgo** y es permanente desde el **1/11/1998** (Protocolo n.º 11). Tiene **tantos jueces como Estados parte** (art. 20; hoy 46). Los elige la **Asamblea Parlamentaria** del Consejo de Europa de una lista de **tres candidatos** presentada por cada Estado (art. 22); deben tener menos de 65 años al solicitarse la lista (art. 21.2); mandato de **nueve años no reelegibles** (art. 23.1).",
+        "Formaciones (art. 26.1): **juez único**, **comités de tres jueces**, **Salas de siete** y **Gran Sala de diecisiete**. Un colegio de cinco jueces de la Gran Sala decide si acepta la remisión.",
+        "Puede conocer de demandas **interestatales** (art. 33) e **individuales** de personas, ONG o grupos (art. 34). Requisitos: agotar las vías internas y **cuatro meses** desde la decisión definitiva (art. 35.1). Es inadmisible la demanda anónima, la ya examinada, la manifiestamente mal fundada o abusiva y la de quien no ha sufrido un perjuicio importante (art. 35.2-3).",
+        "Las sentencias de Sala son definitivas si no se pide la remisión a la Gran Sala en **tres meses** (arts. 43-44). Los Estados deben acatar las sentencias (art. 46.1) y el **Comité de Ministros** vela por su ejecución (art. 46.2). Puede conceder una **satisfacción equitativa** (art. 41). No confundir con el Tribunal de Justicia de la UE (Luxemburgo)."
+      ]
+    },
+    {
+      "titulo": "Convención contra la Tortura de la ONU (1984)",
+      "puntos": [
+        "Adoptada en **Nueva York el 10/12/1984** (Res. 39/46); entró en vigor el **26/6/1987**. España la firmó el 4/2/1985, el instrumento de ratificación es del 19/10/1987 (BOE 9/11/1987) y entró en vigor para España el **20/11/1987**. España hizo las declaraciones de los arts. 21 y 22 (comunicaciones interestatales e individuales).",
+        "**Art. 1**: tortura es todo acto por el que se inflijan **intencionadamente dolores o sufrimientos graves, físicos o mentales**, con el fin de obtener información o una confesión, castigar, intimidar o coaccionar, o por cualquier razón basada en discriminación, cuando los inflija un **funcionario público u otra persona en ejercicio de funciones públicas**, a instigación suya o con su consentimiento o aquiescencia. No incluye los dolores derivados únicamente de sanciones legítimas.",
+        "**Art. 2**: medidas eficaces para impedir la tortura; **no puede invocarse ninguna circunstancia excepcional** (guerra, inestabilidad política, emergencia) ni la **orden de un superior**. **Art. 3**: prohibición de expulsar, devolver o extraditar si hay razones fundadas de riesgo de tortura. **Art. 4**: la tortura debe ser delito. **Art. 15**: las declaraciones obtenidas bajo tortura no pueden invocarse como prueba (salvo contra el torturador). **Art. 16**: se extiende a los tratos o penas crueles, inhumanos o degradantes.",
+        "**Comité contra la Tortura** (arts. 17-24): **diez expertos** elegidos por los Estados partes por **cuatro años**, reelegibles. Examina los informes de los Estados (cada cuatro años, art. 19), puede abrir investigaciones confidenciales (art. 20) y examinar comunicaciones interestatales (art. 21) e individuales (art. 22)."
+      ]
+    },
+    {
+      "titulo": "OPCAT, Subcomité para la Prevención y Mecanismos Nacionales",
+      "puntos": [
+        "El **Protocolo facultativo (OPCAT)** se adoptó el **18/12/2002** (Res. 57/199) y entró en vigor el **22/6/2006**, el trigésimo día tras el vigésimo instrumento de ratificación (art. 28). España lo firmó el 13/4/2005 y lo ratificó el 4/4/2006; entró en vigor para España en la misma fecha general. **Objetivo (art. 1)**: sistema de **visitas periódicas** a lugares de privación de libertad por órganos **internacionales y nacionales independientes**. No admite reservas (art. 30).",
+        "**Subcomité para la Prevención de la Tortura (SPT)**: **10 miembros**, que pasan a **25** una vez registrada la **quincuagésima ratificación o adhesión** (art. 5.1); elegidos en reuniones bienales de los Estados partes; mandato de **4 años**, reelegibles **una vez** (art. 9); Mesa de 2 años (art. 10). Las visitas las hacen al menos dos miembros (art. 13.3). Sus recomendaciones son **confidenciales** salvo que el Estado pida su publicación (art. 16). Presenta un informe público anual al Comité contra la Tortura.",
+        "**Mandato del SPT (art. 11)**: visitar los lugares de detención y recomendar a los Estados; asesorar y asistir a los **mecanismos nacionales de prevención (MNP)** y mantener contacto con ellos; cooperar con otros órganos. Los Estados deben darle acceso sin restricciones a información, lugares y personas (art. 14).",
+        "**MNP (arts. 3 y 17-23)**: cada Estado mantendrá, designará o creará uno o varios mecanismos nacionales **independientes** a más tardar **un año** después de la entrada en vigor del Protocolo o de su ratificación. Facultades mínimas: examinar periódicamente el trato a los privados de libertad, hacer recomendaciones y propuestas sobre la legislación (art. 19)."
+      ],
+      "tabla": {
+        "cabecera": ["Órgano", "Tratado", "Composición", "Mandato"],
+        "filas": [
+          ["Comité contra la Tortura (ONU)", "Convención de 1984", "10 expertos", "4 años, reelegibles"],
+          ["Subcomité para la Prevención de la Tortura (ONU)", "OPCAT (2002)", "10, luego 25 tras la 50ª ratificación", "4 años, reelegibles una vez"],
+          ["Comité Europeo para la Prevención de la Tortura (CPT, Consejo de Europa)", "Convenio de 26/11/1987 (en vigor para España el 1/9/1989)", "Tantos miembros como Partes", "4 años; visitas por al menos dos miembros"],
+          ["Tribunal Europeo de Derechos Humanos", "CEDH (1950)", "Un juez por Estado parte", "9 años, sin reelección"]
+        ]
+      }
+    },
+    {
+      "titulo": "El MNP en España: Defensor del Pueblo y Consejo Asesor",
+      "puntos": [
+        "La **disposición final única** de la LO 3/1981, añadida por el art. 3 de la **LO 1/2009, de 3 de noviembre**, atribuye al **Defensor del Pueblo** las funciones del Mecanismo Nacional de Prevención de la Tortura y crea un **Consejo Asesor** como órgano de cooperación técnica y jurídica, presidido por el **Adjunto** en quien el Defensor delegue estas funciones.",
+        "El Reglamento de Organización y Funcionamiento del Defensor del Pueblo (reforma de 2012, capítulo V, **arts. 19 a 22**) fija su estructura: lo integran los **Adjuntos** como miembros natos y **un máximo de 10 vocales**. Actúa como secretario el Secretario General de la institución.",
+        "Reparto de vocales (art. 19.5): uno a propuesta del **Consejo General de la Abogacía**, uno de la **Organización Médica Colegial**, uno del **Consejo General de Colegios Oficiales de Psicólogos**, hasta **dos** a propuesta conjunta de las instituciones con convenio con el Defensor y **cinco** elegidos entre las candidaturas presentadas a convocatoria pública (a título personal o por organizaciones de la sociedad civil).",
+        "Los vocales se designan por **cuatro años** y se **renuevan por mitades cada dos**; los designa el Defensor del Pueblo (art. 20). El Consejo se reúne **al menos dos veces al año** (art. 21). Funciones (art. 22): proponer visitas a lugares de privación de libertad, proponer mejoras de los protocolos de visita, informar sobre normativa, proponer formación y seguir los informes del MNP y del SPT.",
+        "El Defensor da cuenta de su actividad como MNP a las **Cortes Generales** y al **Subcomité para la Prevención de la Tortura** de la ONU (art. 1.2 del Reglamento) mediante informes específicos."
+      ]
+    }
+  ],
+  "trampas": [
+    "Confundir el **TEDH** (Estrasburgo, Consejo de Europa, aplica el CEDH) con el Tribunal de Justicia de la UE (Luxemburgo) o con la Corte Internacional de Justicia (La Haya, ONU).",
+    "Cifras de miembros: Comité contra la Tortura, **10**; SPT, **10 y luego 25** (50ª ratificación; la 20ª solo sirve para la entrada en vigor del Protocolo); Consejo Asesor del MNP, **2 Adjuntos más hasta 10 vocales**; TEDH, un juez por Estado.",
+    "Plazos del TEDH: la demanda, **4 meses** (antes 6) desde la decisión interna definitiva; la remisión a la Gran Sala, **3 meses**. No confundir con el plazo de **un año** para quejarse ante el Defensor del Pueblo.",
+    "Justificaciones de la tortura: la CAT no admite **ninguna** (ni guerra, ni inestabilidad política, ni emergencia pública, ni orden superior). Un distractor típico añade «salvo que lo declare el Estado».",
+    "Atribuir el mandato de visitar lugares de detención al **Defensor del Pueblo** en lugar del SPT, o al revés: el SPT es el órgano internacional de la ONU; el MNP es el órgano nacional (en España, el Defensor del Pueblo).",
+    "Quién hace qué en el Consejo de Europa: la **Asamblea Parlamentaria elige** a los jueces; el **Comité de Ministros supervisa** la ejecución de las sentencias; el Tribunal juzga.",
+    "Fechas y lugares: DUDH, **París 1948**; CEDH, **Roma 1950**; CAT, **Nueva York 1984**; OPCAT, **Nueva York 2002**; CPT, **Estrasburgo 1987**. Un distractor cambia la ciudad o el año.",
+    "Declaración frente a tratado: la DUDH es una declaración de la Asamblea General (ideal común) y no se ratifica; el CEDH, la CAT y el OPCAT son tratados que sí se ratifican."
+  ],
+  "caido": [
+    { "examen": "23 abr 2023 y 26 sep 2026", "concepto": "DUDH: lugar y fecha de proclamación (París, 10/12/1948) y la familia como elemento natural y fundamental de la sociedad (art. 16)" },
+    { "examen": "1 mar 2025 (x2) y 25 oct 2025", "concepto": "OPCAT: Subcomité para la Prevención, mandato de visitar lugares de privación de libertad y composición (10 miembros; 25 tras la 50ª ratificación)" },
+    { "examen": "25 oct 2025", "concepto": "Convención contra la Tortura: no cabe justificación ni orden superior (art. 2)" },
+    { "examen": "13 abr 2024", "concepto": "MNP del Defensor del Pueblo: el Consejo Asesor se reúne al menos dos veces al año (art. 21 del Reglamento)" },
+    { "examen": "25 oct 2025", "concepto": "TEDH: sede en Estrasburgo" }
+  ],
+  "mnemotecnias": [
+    "Número 10 en la tortura: la DUDH es del **10**/12/1948; el Comité contra la Tortura tiene **10** expertos; el SPT empieza con **10** miembros (y salta a 25 con la 50ª ratificación).",
+    "Mandatos: **TEDH 9 años y adiós**; **Comité CAT y SPT 4 años**, el SPT solo reelegible una vez.",
+    "Orden de organismos europeos de tortura: **CEDH art. 3** (derecho), **TEDH** (juzga), **CPT** (visita, Consejo de Europa); en la ONU: **CAT** (derecho), **Comité** (informes y quejas), **SPT** (visita)."
+  ],
+  "tarjetas": [
+    { "p": "¿Dónde y cuándo se proclamó la DUDH?", "r": "En **París, el 10 de diciembre de 1948**, por la Asamblea General de la ONU (Res. 217 A (III)). Preámbulo y **30 artículos**." },
+    { "p": "¿Qué dice el art. 16.3 de la DUDH?", "r": "La **familia** es el elemento natural y fundamental de la sociedad y tiene derecho a la protección de la sociedad y del Estado." },
+    { "p": "¿Qué artículo de la CE manda interpretar los derechos fundamentales conforme a la DUDH?", "r": "El **art. 10.2 CE**, también conforme a los tratados y acuerdos internacionales ratificados por España." },
+    { "p": "CEDH: fecha y lugar de firma, entrada en vigor y fecha para España.", "r": "Firmado en **Roma el 4/11/1950**; en vigor el **3/9/1953**; para España, el **4/10/1979** (ratificación de 26/9/1979)." },
+    { "p": "TEDH: número de jueces, elección y mandato.", "r": "**Un juez por Estado parte** (art. 20), elegido por la **Asamblea Parlamentaria** de una lista de tres candidatos (art. 22), por **9 años sin reelección** (art. 23)." },
+    { "p": "¿Qué plazo hay para demandar ante el TEDH?", "r": "**Cuatro meses** desde la decisión interna definitiva, tras agotar las vías internas (art. 35.1; antes eran seis meses)." },
+    { "p": "Formaciones del TEDH y número de jueces.", "r": "Juez único, **comités de 3**, **Salas de 7** y **Gran Sala de 17** (art. 26.1)." },
+    { "p": "¿Qué derechos del CEDH no se pueden derogar en estado de excepción?", "r": "Art. **2** (salvo muertes por actos lícitos de guerra), art. **3**, art. **4.1** y art. **7** (art. 15.2)." },
+    { "p": "Definición de tortura en la Convención de 1984 (art. 1).", "r": "Dolores o sufrimientos graves, físicos o mentales, infligidos **intencionadamente** para obtener información o confesión, castigar, intimidar o coaccionar, o por discriminación, por un **funcionario público** o con su consentimiento o aquiescencia. Excluye las sanciones legítimas." },
+    { "p": "¿Qué prohíbe el art. 3 de la Convención contra la Tortura?", "r": "**Expulsar, devolver o extraditar** a una persona a un Estado donde haya razones fundadas para creer que estaría en peligro de ser sometida a tortura." },
+    { "p": "¿Cuántos expertos tiene el Comité contra la Tortura y por cuánto tiempo?", "r": "**Diez** expertos, elegidos por **cuatro años** (art. 17 CAT)." },
+    { "p": "OPCAT: fecha de adopción, entrada en vigor y objetivo.", "r": "Adoptado el **18/12/2002**; en vigor el **22/6/2006**. Objetivo: **sistema de visitas periódicas** de órganos internacionales y nacionales independientes a los lugares de privación de libertad." },
+    { "p": "Composición y mandato del SPT.", "r": "**10 miembros**, **25** tras la **50ª ratificación** (art. 5.1); **4 años**, reelegibles **una vez** (art. 9). Visita lugares de detención, recomienda y asesora a los MNP." },
+    { "p": "¿Quién es el Mecanismo Nacional de Prevención de la Tortura en España?", "r": "El **Defensor del Pueblo** (disposición final única de la LO 3/1981, añadida por la **LO 1/2009**)." },
+    { "p": "Consejo Asesor del MNP: composición, mandato y reuniones.", "r": "**Adjuntos** (natos) y hasta **10 vocales**; vocales por **4 años**, renovados por mitades cada 2; reunión **al menos dos veces al año** (arts. 19-21 del Reglamento del Defensor del Pueblo)." }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "¿Dónde y en qué fecha proclamó la Asamblea General de las Naciones Unidas la Declaración Universal de Derechos Humanos?",
+      "opciones": [
+        "En París, el 10 de diciembre de 1948",
+        "En Nueva York, el 10 de diciembre de 1948",
+        "En París, el 4 de noviembre de 1950"
+      ],
+      "correcta": 0,
+      "explicacion": "La DUDH se proclamó en París el 10 de diciembre de 1948 mediante la Resolución 217 A (III). Nueva York es la sede de otros instrumentos posteriores, como la Convención contra la Tortura y su Protocolo facultativo, y el 4 de noviembre de 1950 es la fecha de firma del Convenio Europeo de Derechos Humanos en Roma.",
+      "ref": "DUDH, Res. 217 A (III) de la Asamblea General de la ONU",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según la Declaración Universal de Derechos Humanos, ¿qué es el elemento natural y fundamental de la sociedad, con derecho a la protección de la sociedad y del Estado?",
+      "opciones": [
+        "La persona humana",
+        "La nación",
+        "La familia"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 16.3 DUDH declara que la familia es el elemento natural y fundamental de la sociedad y tiene derecho a la protección de la sociedad y del Estado. La persona y la nación son referencias que el artículo no utiliza con ese sentido.",
+      "ref": "art. 16.3 DUDH",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre la Declaración Universal de Derechos Humanos:",
+      "opciones": [
+        "Fue proclamada por la Asamblea General de las Naciones Unidas en París en 1948",
+        "Es un tratado internacional que los Estados deben ratificar para quedar vinculados",
+        "Consta de un preámbulo y treinta artículos"
+      ],
+      "correcta": 1,
+      "explicacion": "La DUDH es una declaración proclamada como ideal común de los pueblos y naciones; no es un tratado sujeto a ratificación. Las otras dos opciones son correctas: se proclamó en París en 1948 y tiene preámbulo y 30 artículos. En España sirve de criterio de interpretación de los derechos fundamentales (art. 10.2 CE).",
+      "ref": "DUDH (preámbulo y arts. 1-30); art. 10.2 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué órgano elige a los jueces del Tribunal Europeo de Derechos Humanos?",
+      "opciones": [
+        "El Comité de Ministros del Consejo de Europa",
+        "El Parlamento Europeo",
+        "La Asamblea Parlamentaria del Consejo de Europa"
+      ],
+      "correcta": 2,
+      "explicacion": "Los jueces son elegidos por la Asamblea Parlamentaria del Consejo de Europa, de una lista de tres candidatos presentada por cada Estado (art. 22 CEDH). El Comité de Ministros no los elige: supervisa la ejecución de las sentencias (art. 46). El Parlamento Europeo pertenece a la Unión Europea, no al Consejo de Europa.",
+      "ref": "art. 22 CEDH",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el Convenio Europeo de Derechos Humanos vigente, los jueces del Tribunal Europeo de Derechos Humanos son elegidos por un período de:",
+      "opciones": [
+        "Nueve años, sin posibilidad de reelección",
+        "Seis años, renovables una vez",
+        "Cuatro años, renovables"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 23.1 CEDH, tras el Protocolo n.º 14, fija nueve años y la imposibilidad de reelección. Los seis años renovables eran el régimen anterior. Los cuatro años corresponden a miembros de comités de prevención de la tortura, no a los jueces del TEDH.",
+      "ref": "art. 23.1 CEDH",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Tras agotar las vías internas, ¿en qué plazo debe presentarse una demanda individual ante el Tribunal Europeo de Derechos Humanos?",
+      "opciones": [
+        "Seis meses desde la decisión interna definitiva",
+        "Cuatro meses desde la decisión interna definitiva",
+        "Un año desde la decisión interna definitiva"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 35.1 CEDH, con la redacción del Protocolo n.º 15, exige presentar la demanda en el plazo de cuatro meses desde la decisión interna definitiva (aplicable desde el 1/2/2022). Los seis meses eran el plazo anterior; el año es el plazo para quejarse ante el Defensor del Pueblo, que no tiene relación con el TEDH.",
+      "ref": "art. 35.1 CEDH (Protocolo n.º 15)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un Estado parte del Convenio Europeo de Derechos Humanos declara el estado de excepción por un peligro público que amenaza la vida de la nación. ¿Qué derecho no puede derogar en ningún caso conforme al art. 15.2 del Convenio?",
+      "opciones": [
+        "La libertad de reunión y de asociación",
+        "El derecho al respeto de la vida privada y familiar",
+        "La prohibición de la tortura y de las penas o tratos inhumanos o degradantes"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 15.2 prohíbe derogar el art. 2 (salvo muertes por actos lícitos de guerra), el art. 3 (prohibición de la tortura), el art. 4.1 (esclavitud) y el art. 7 (legalidad penal). La libertad de reunión (art. 11) y la vida privada y familiar (art. 8) sí admiten derogación en esas circunstancias.",
+      "ref": "art. 15.2 CEDH",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el art. 26 del Convenio Europeo de Derechos Humanos, ¿cuántos jueces integran la Gran Sala del Tribunal?",
+      "opciones": [
+        "Diecisiete",
+        "Siete",
+        "Cinco"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 26.1 establece juez único, comités de tres jueces, Salas de siete y Gran Sala de diecisiete. Los cinco jueces son el colegio de la Gran Sala que decide si acepta la remisión de un asunto (art. 43.2), no la Gran Sala misma.",
+      "ref": "art. 26.1 y 43.2 CEDH",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un funcionario sostiene que torturó a un detenido por orden de su superior jerárquico, en un contexto de inestabilidad política interna. Conforme a la Convención de la ONU contra la Tortura:",
+      "opciones": [
+        "La orden del superior puede eximirle de responsabilidad si constaba por escrito",
+        "Ni la orden del superior ni la inestabilidad política interna pueden invocarse como justificación de la tortura",
+        "La inestabilidad política interna sí justifica la tortura si el Estado declara la emergencia pública"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 2.2 CAT dice que en ningún caso pueden invocarse circunstancias excepcionales, como la guerra, la inestabilidad política interna o cualquier otra emergencia pública, como justificación de la tortura, y el art. 2.3 que no puede invocarse la orden de un funcionario superior o de una autoridad pública. Por eso fallan las otras dos opciones.",
+      "ref": "art. 2.2 y 2.3 Convención contra la Tortura",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes elementos NO es necesario para que exista «tortura» según el art. 1 de la Convención de la ONU contra la Tortura?",
+      "opciones": [
+        "Que se inflijan intencionadamente dolores o sufrimientos graves, físicos o mentales",
+        "Que los inflija un funcionario público u otra persona en ejercicio de funciones públicas, o lo haga a su instigación o con su consentimiento o aquiescencia",
+        "Que la víctima se encuentre cumpliendo una pena en un centro penitenciario"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 1 exige dolores o sufrimientos graves infligidos intencionadamente, con una finalidad (información, castigo, intimidación o discriminación) y por un funcionario público o con su aquiescencia. No exige que la víctima esté privada de libertad ni cumpliendo condena.",
+      "ref": "art. 1 Convención contra la Tortura",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Cuántos expertos componen el Comité contra la Tortura creado por la Convención de la ONU de 1984?",
+      "opciones": [
+        "Diez",
+        "Veinticinco",
+        "Cuarenta y seis"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 17 CAT establece un Comité de diez expertos elegidos por cuatro años. Veinticinco es el número de miembros del Subcomité para la Prevención de la Tortura tras la 50ª ratificación del Protocolo facultativo, y cuarenta y seis son los jueces del TEDH, uno por Estado parte.",
+      "ref": "art. 17 Convención contra la Tortura",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el art. 5.1 del Protocolo facultativo de la Convención contra la Tortura, el Subcomité para la Prevención de la Tortura pasa de diez a veinticinco miembros cuando se registre:",
+      "opciones": [
+        "La vigésima ratificación o adhesión",
+        "La quincuagésima ratificación o adhesión",
+        "La entrada en vigor del Protocolo para España"
+      ],
+      "correcta": 1,
+      "explicacion": "El aumento a veinticinco miembros se produce con la quincuagésima ratificación o adhesión (art. 5.1). La vigésima ratificación es la que determina la entrada en vigor del Protocolo, el trigésimo día después de su depósito (art. 28.1). La situación de España no influye en la composición del Subcomité.",
+      "ref": "art. 5.1 y 28.1 OPCAT",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál es la función esencial del Subcomité para la Prevención de la Tortura creado por el Protocolo facultativo de la Convención contra la Tortura?",
+      "opciones": [
+        "Resolver las demandas individuales de las víctimas de tortura contra los Estados partes",
+        "Supervisar la ejecución de las sentencias del Tribunal Europeo de Derechos Humanos",
+        "Visitar los lugares de privación de libertad, formular recomendaciones a los Estados y asesorar a los mecanismos nacionales de prevención"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 11 OPCAT atribuye al Subcomité visitar los lugares de detención, hacer recomendaciones y asistir a los mecanismos nacionales de prevención. Las comunicaciones individuales se tramitan ante el Comité contra la Tortura (art. 22 de la Convención) y la ejecución de las sentencias del TEDH la supervisa el Comité de Ministros del Consejo de Europa.",
+      "ref": "art. 11 OPCAT",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Qué institución ejerce en España las funciones de Mecanismo Nacional de Prevención de la Tortura?",
+      "opciones": [
+        "El Defensor del Pueblo",
+        "El Consejo General del Poder Judicial",
+        "La Fiscalía General del Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "La disposición final única de la LO 3/1981, añadida por la LO 1/2009, atribuye al Defensor del Pueblo las funciones del Mecanismo Nacional de Prevención de la Tortura. Ni el Consejo General del Poder Judicial ni la Fiscalía tienen asignado ese mandato.",
+      "ref": "disposición final única LO 3/1981 (LO 1/2009)",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el Reglamento de Organización y Funcionamiento del Defensor del Pueblo, el Consejo Asesor del Mecanismo Nacional de Prevención de la Tortura se reunirá, al menos:",
+      "opciones": [
+        "Una vez al año",
+        "Dos veces al año",
+        "Una vez al mes"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 21.1 del Reglamento establece que el Consejo Asesor se reunirá, al menos, dos veces al año. Una vez al año o al mes son periodicidades que el Reglamento no recoge.",
+      "ref": "art. 21.1 Reglamento de Organización y Funcionamiento del Defensor del Pueblo",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre el Consejo Asesor del Mecanismo Nacional de Prevención de la Tortura es correcta?",
+      "opciones": [
+        "Lo integran únicamente los dos Adjuntos del Defensor del Pueblo",
+        "Sus vocales son designados por las Cortes Generales por mayoría de tres quintos",
+        "Lo integran los Adjuntos como miembros natos y un máximo de diez vocales, designados por cuatro años por el Defensor del Pueblo"
+      ],
+      "correcta": 2,
+      "explicacion": "Según los arts. 19 y 20 del Reglamento, el Consejo lo forman los Adjuntos, como miembros natos, y un máximo de 10 vocales; estos se designan por cuatro años y los designa el Defensor del Pueblo, no las Cortes Generales. Por eso no basta con los Adjuntos y no interviene mayoría parlamentaria alguna.",
+      "ref": "arts. 19 y 20 Reglamento del Defensor del Pueblo",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuándo entró en vigor para España el Protocolo facultativo de la Convención de la ONU contra la Tortura (OPCAT)?",
+      "opciones": [
+        "El 22 de junio de 2006",
+        "El 20 de noviembre de 1987",
+        "El 3 de noviembre de 2009"
+      ],
+      "correcta": 0,
+      "explicacion": "El Protocolo entró en vigor de forma general y para España el 22 de junio de 2006 (art. 28.1 OPCAT, BOE 22/6/2006). El 20 de noviembre de 1987 es la fecha de entrada en vigor para España de la Convención contra la Tortura, y el 3 de noviembre de 2009 es la fecha de la LO 1/2009, que designó al Defensor del Pueblo como MNP.",
+      "ref": "BOE 22/6/2006; art. 28.1 OPCAT",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Qué Protocolo al Convenio Europeo de Derechos Humanos establece la prohibición general de la discriminación en el goce de cualquier derecho reconocido por la ley?",
+      "opciones": [
+        "El Protocolo n.º 4",
+        "El Protocolo n.º 12",
+        "El Protocolo n.º 16"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 1 del Protocolo n.º 12 prohíbe la discriminación en el goce de todos los derechos reconocidos por la ley, mientras que el art. 14 del Convenio solo la prohíbe respecto de los derechos del propio Convenio. El Protocolo n.º 4 trata de la prisión por deudas, la circulación y las expulsiones, y el n.º 16 de las opiniones consultivas.",
+      "ref": "art. 1 Protocolo n.º 12 CEDH; art. 14 CEDH",
+      "dificultad": 3
+    }
+  ],
+  "dudas": [
+    "Protocolo n.º 2 (1993) al Convenio Europeo para la Prevención de la Tortura: no se pudo leer su texto, por lo que no se indica si los miembros del CPT son reelegibles una o más veces (el texto original de 1987 decía una sola vez, pero el BOE consigna que el Protocolo de 1993 modificó el art. 5).",
+    "La composición de la «Carta Internacional de Derechos Humanos» (DUDH y los dos Pactos) y la creación del Consejo de Derechos Humanos por la Res. 60/251 se han dado como conocimiento general; la web de OHCHR no permitió la lectura directa desde el entorno de trabajo.",
+    "Los textos de la Convención contra la Tortura, el OPCAT y el Convenio del CPT se leyeron en la versión original publicada en el BOE (no consolidada); no se comprobaron modificaciones posteriores de la ONU o del Consejo de Europa distintas de las citadas.",
+    "El Reglamento del Defensor del Pueblo se leyó en la Resolución de reforma de 25/01/2012; no se comprobó si ha habido modificaciones posteriores de los arts. 19-22."
+  ]
+}

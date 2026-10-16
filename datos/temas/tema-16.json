@@ -1,0 +1,843 @@
+{
+  "tema": 16,
+  "titulo": "Derecho Penal. Parte General",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "alto",
+    "nota": "Media de 3,8 preguntas por examen y 7 en el último (P43): supuestos prácticos de teoría del delito (acción, tentativa, error, omisión, eximentes), circunstancias modificativas y actos preparatorios."
+  },
+  "normas": [
+    {
+      "nombre": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal",
+      "boe": "BOE-A-1995-25444",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "verificado": "Texto consolidado, última actualización de la consolidación 09/04/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 1/2026, de 8 de abril, en materia de multirreincidencia (modifica el Código Penal y la LECrim)",
+      "boe": "BOE-A-2026-7966",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7966",
+      "verificado": "Texto consolidado, última actualización 18/05/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 5/2000, de 12 de enero, reguladora de la responsabilidad penal de los menores",
+      "boe": "BOE-A-2000-641",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-641",
+      "verificado": "Texto consolidado, última actualización 05/03/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial (art. 23, jurisdicción penal española)",
+      "boe": "BOE-A-1985-12666",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+      "verificado": "Texto consolidado, última actualización 09/10/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Constitución Española (arts. 9.3 y 25)",
+      "boe": "BOE-A-1978-31229",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "verificado": "Texto consolidado, última actualización 20/05/2026 (leído el 16/10/2026)"
+    }
+  ],
+  "novedades": [
+    "LO 1/2026, de 8 de abril (multirreincidencia; en vigor al día siguiente de su publicación): modifica la agravante de reincidencia (art. 22.8: no cuentan los antecedentes por delitos leves, salvo los tipos agravados por multirreincidencia de delitos leves), el art. 66.2 (delitos leves e imprudentes: prudente arbitrio, salvo multirreincidencia de leves) y el art. 80.2.1.ª (suspensión de la pena: tampoco cuentan las condenas por delitos leves, salvo multirreincidencia). Los cambios sobre hurto y estafa están en el tema 18.",
+    "LO 1/2024 (amnistía): el art. 130.1.4.º recoge ahora como causa de extinción de la responsabilidad criminal la amnistía junto al indulto.",
+    "LO 4/2023 (modifica los delitos contra la libertad sexual): el art. 132.1 fija que, si la víctima es menor de 18 años, la prescripción de la tentativa de homicidio, de las lesiones de los arts. 149 y 150, del maltrato habitual (art. 173.2), de los delitos contra la libertad sexual y de la trata se computa desde que la víctima cumpla 35 años.",
+    "LO 10/2022 (solo sí es sí, efectos desde el 7 de octubre de 2022): reforma el art. 36 (clasificación en tercer grado y permisos en la prisión permanente revisable y en penas largas) y el art. 83 (prohibiciones y deberes como condición de la suspensión en delitos contra la libertad sexual).",
+    "Ley 8/2021 (apoyos a personas con discapacidad): los arts. 118 y 120 hablan ahora de quienes ejerzan el apoyo legal o de hecho y de los curadores con facultades de representación plena, no de los padres o tutores.",
+    "Las faltas desaparecieron con la LO 1/2015: hoy hay delitos graves, menos graves y leves (art. 13). Con material antiguo, no confundir «falta» con «delito leve».",
+    "El art. 22.4 (agravante discriminatoria) ha sido retocado por la LO 8/2021 y la LO 6/2022; el texto vigente incluye antigitanismo, aporofobia, edad y razones de género."
+  ],
+  "clave": [
+    "**Edad penal**: menor de **14** años, sin responsabilidad penal (art. 3 LO 5/2000, protección de menores); de **14 a 17**, LO 5/2000; **18 o más**, Código Penal (art. 19 CP).",
+    "**Tentativa** (art. 16.1): se inicia la ejecución por hechos exteriores y no hay resultado por causas ajenas a la voluntad; pena inferior en **uno o dos grados** (art. 62). **Desistimiento voluntario** (art. 16.2): exención. **Cómplice**: inferior en **un grado** (art. 63).",
+    "**Conspiración** (dos o más concertados que resuelven ejecutar), **proposición** (quien ya resolvió invita a otros) y **provocación** (incitación pública directa): solo se castigan **si la ley lo prevé** (arts. 17 y 18); pena habitual inferior en uno o dos grados.",
+    "**Error** (art. 14): de tipo invencible excluye la responsabilidad; vencible, castigo como imprudente. De prohibición invencible excluye; vencible, pena **inferior en uno o dos grados**.",
+    "**Comisión por omisión** (art. 11): exige especial deber jurídico: **obligación legal o contractual** de actuar, o haber creado el riesgo con una acción u omisión precedente.",
+    "**Eximentes** (art. 20): siete; solo las **tres primeras** (psique, intoxicación, percepción) admiten medidas de seguridad. **Atenuantes** (art. 21): siete. **Agravantes** (art. 22): ocho. **Parentesco** (art. 23): mixta.",
+    "**Estado de necesidad**: mal causado no mayor, situación no provocada intencionadamente y sin obligación de sacrificarse por oficio o cargo. **Legítima defensa**: agresión ilegítima, necesidad racional del medio, falta de provocación suficiente.",
+    "**Personas jurídicas** (art. 31 bis): responden solo en los casos previstos, por delitos cometidos en su beneficio directo o indirecto; quedan exentas con un modelo de prevención adoptado **antes** del delito. No responden el Estado ni las Administraciones públicas (art. 31 quinquies).",
+    "**Prisión**: de **3 meses a 20 años**; prisión permanente revisable, revisable tras **25 años** (art. 92). **Multa**: 10 días a 2 años, cuota de 2 a 400 euros. La **responsabilidad personal subsidiaria** por impago de multa es pena privativa de libertad: 1 día por cada 2 cuotas.",
+    "**Prescripción de los delitos** (art. 131): **20 / 15 / 10 / 5** años según la pena máxima; **1 año** para delitos leves, injurias y calumnias. No prescriben lesa humanidad, genocidio ni el terrorismo con muerte.",
+    "**Retroactividad**: solo la ley penal **favorable al reo**, incluso con sentencia firme y condena en cumplimiento (art. 2.2). El delito se entiende cometido cuando se ejecuta la acción u omite el acto debido (art. 7).",
+    "**Concursos**: real (art. 73, límite de cumplimiento del triple de la pena más grave y máximo 20 años), ideal y medial (art. 77), delito continuado (art. 74)."
+  ],
+  "resumen": [
+    {
+      "titulo": "Principios y vigencia temporal",
+      "puntos": [
+        "**Legalidad**: no hay delito ni pena sin **ley anterior** a la perpetración (arts. 1.1 y 2.1 CP; art. 25.1 CE); lo mismo para las medidas de seguridad (art. 1.2).",
+        "**Retroactividad solo de la ley favorable al reo**, **aunque haya sentencia firme** y esté cumpliendo condena; si hay duda se **oye al reo**. La ley temporal rige los hechos cometidos durante su vigencia (arts. 2.2 CP y 9.3 CE). El delito se comete cuando se **ejecuta la acción u omite el acto debido** (art. 7).",
+        "**Culpabilidad**: **no hay pena sin dolo o imprudencia** (art. 5); la imprudencia solo se castiga si la ley lo dispone expresamente (art. 12). Las penas buscan la reeducación y reinserción social (art. 25.2 CE).",
+        "Doctrina: **intervención mínima** (último recurso), **proporcionalidad**, **non bis in idem**. Una **ley penal en blanco** remite a otra norma para completar el tipo.",
+        "**Concurso de normas** (art. 8): especialidad, subsidiariedad, consunción y, en defecto de los anteriores, el precepto más grave."
+      ]
+    },
+    {
+      "titulo": "Delito, omisión, ausencia de acción y error",
+      "puntos": [
+        "Delitos son las acciones y omisiones **dolosas o imprudentes** penadas por la ley (art. 10). Doctrina: conducta **típica, antijurídica y culpable**; el concepto material gira en torno a la lesión o puesta en peligro de un **bien jurídico**.",
+        "Por la pena (arts. 13 y 33): **graves** (prisión permanente revisable, prisión de más de 5 años), **menos graves** (prisión de 3 meses a 5 años, multa de más de 3 meses) y **leves** (multa de hasta 3 meses, localización permanente). Si la pena puede ser grave y menos grave, el delito es **grave**; si menos grave y leve, **leve** (art. 13.4).",
+        "**Comisión por omisión** (art. 11): en delitos de resultado, no evitarlo equivale a causarlo si se infringe un **especial deber jurídico**: **obligación legal o contractual** de actuar, o haber **creado el riesgo** con una acción u omisión precedente.",
+        "**Ausencia de acción** (doctrina): no hay conducta relevante en el mero **pensamiento**, los **movimientos reflejos**, la **fuerza irresistible** o la inconsciencia; son casos **atípicos**, no eximentes."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Error (art. 14)",
+          "Efecto"
+        ],
+        "filas": [
+          [
+            "De tipo invencible (hecho constitutivo de la infracción)",
+            "Excluye la responsabilidad criminal"
+          ],
+          [
+            "De tipo vencible",
+            "Se castiga, en su caso, como **imprudente**"
+          ],
+          [
+            "Sobre un hecho cualificante o una agravante",
+            "Impide su apreciación"
+          ],
+          [
+            "De prohibición invencible (ilicitud del hecho)",
+            "Excluye la responsabilidad criminal"
+          ],
+          [
+            "De prohibición vencible",
+            "Pena **inferior en uno o dos grados**"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Tentativa, desistimiento y actos preparatorios",
+      "puntos": [
+        "Son punibles el delito **consumado** y la **tentativa** (art. 15). Hay tentativa si se da principio a la ejecución **directamente por hechos exteriores**, con todos o parte de los actos que objetivamente producirían el resultado, y este no se produce **por causas independientes de la voluntad** del autor (art. 16.1). Pena: **inferior en uno o dos grados** (art. 62); cómplice: **inferior en un grado** (art. 63).",
+        "**Desistimiento** (art. 16.2): queda **exento** del delito intentado quien **evita voluntariamente** la consumación (desistiendo o impidiendo el resultado), sin perjuicio de responder por lo ya ejecutado si es otro delito. Con varios sujetos, quedan exentos quienes desistan e impidan o intenten impedir **seria, firme y decididamente** la consumación (art. 16.3).",
+        "Conspiración y proposición se castigan **solo en los casos especialmente previstos** (art. 17.3), y la provocación **exclusivamente** donde la ley lo prevea (art. 18.2); la pena suele ser **inferior en uno o dos grados**. Si tras la provocación se comete el delito, se castiga como **inducción**.",
+        "Se castigan, entre otros, en homicidio y asesinato (art. 141), lesiones (art. 151), detenciones ilegales y secuestros (art. 168), robo, extorsión, estafa y apropiación indebida (art. 269) y trata (art. 177 bis.8). **No** hay cláusula equivalente en delitos contra la libertad sexual, amenazas, coacciones ni hurto."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Figura",
+          "Concepto",
+          "Art."
+        ],
+        "filas": [
+          [
+            "Conspiración",
+            "**Dos o más personas** se conciertan para ejecutar un delito y **resuelven ejecutarlo**",
+            "17.1"
+          ],
+          [
+            "Proposición",
+            "Quien **ya ha resuelto** cometer un delito **invita** a otros a participar",
+            "17.2"
+          ],
+          [
+            "Provocación",
+            "Incitar **directamente** a cometer un delito por un medio que facilite la publicidad o **ante una concurrencia de personas**",
+            "18.1"
+          ],
+          [
+            "Apología",
+            "Exponer ideas que ensalcen el crimen o enaltezcan a su autor; solo es delito si es **provocación** (incitación directa)",
+            "18.1"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Autores, cómplices y personas jurídicas",
+      "puntos": [
+        "Responden los **autores y cómplices** (art. 27). **Autores** (art. 28): quienes realizan el hecho por sí solos, **conjuntamente** o por medio de otro como instrumento; los que **inducen directamente** y los **cooperadores necesarios** (acto sin el cual no se habría efectuado). **Cómplices** (art. 29): cooperan con actos anteriores o simultáneos no imprescindibles. El encubrimiento no figura en el art. 27.",
+        "**Actuar en nombre de otro** (art. 31): el administrador de hecho o de derecho o el representante responde personalmente aunque no reúna las cualidades del tipo, si se dan en la entidad representada.",
+        "**Personas jurídicas** (art. 31 bis): responden **solo en los supuestos previstos en el Código**, por delitos cometidos en su nombre o por su cuenta y **en su beneficio directo o indirecto** (1) por representantes legales o personas con facultades de decisión, organización y control, o (2) por **sometidos a su autoridad**, si se incumplieron **gravemente** los deberes de supervisión, vigilancia y control.",
+        "**Exención** en el caso (1): modelo de organización y gestión eficaz **adoptado antes del delito**, supervisión confiada a un órgano autónomo, elusión fraudulenta por el autor y ausencia de omisión en la supervisión; si solo se acredita en parte, **atenuante**. La responsabilidad subsiste aunque no se individualice a la persona física (art. 31 ter).",
+        "**Atenuantes de la persona jurídica** (art. 31 quater, lista cerrada y posteriores al delito): confesar, colaborar con pruebas nuevas y decisivas, reparar el daño y establecer medidas eficaces de prevención, siempre **antes del juicio oral**.",
+        "**No responden** el Estado, las Administraciones públicas territoriales e institucionales, los organismos reguladores, las agencias y entidades públicas empresariales, las organizaciones internacionales de derecho público ni quienes ejerzan potestades públicas (art. 31 quinquies.1). Las sociedades mercantiles públicas de servicios de interés general solo pueden recibir multa e intervención judicial.",
+        "**Penas** (art. 33.7, todas graves): multa por cuotas o proporcional (hasta 5 años, cuota de 30 a 5.000 euros); disolución; suspensión de actividades hasta **5 años**; clausura de locales hasta **5 años**; prohibición de actividades futuras (temporal hasta **15 años** o definitiva); inhabilitación para subvenciones, contratos públicos y beneficios fiscales hasta **15 años**; intervención judicial hasta **5 años**."
+      ]
+    },
+    {
+      "titulo": "Eximentes (art. 20)",
+      "puntos": [
+        "Solo en los **tres primeros números** se aplican, en su caso, **medidas de seguridad**. La exención de responsabilidad criminal no comprende la **civil** en los números 1.º, 2.º, 3.º, 5.º y 6.º (art. 118).",
+        "Si faltan requisitos hay **eximente incompleta**: atenuante del art. 21.1.ª, con pena **inferior en uno o dos grados** (art. 68)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Nº",
+          "Eximente",
+          "Claves"
+        ],
+        "filas": [
+          [
+            "1.º",
+            "Anomalía o alteración psíquica",
+            "No poder comprender la ilicitud o actuar conforme a esa comprensión; el trastorno transitorio provocado para delinquir no exime"
+          ],
+          [
+            "2.º",
+            "Intoxicación plena o síndrome de abstinencia",
+            "No buscada para delinquir ni prevista o previsible"
+          ],
+          [
+            "3.º",
+            "Alteraciones en la percepción desde el nacimiento o la infancia",
+            "Conciencia de la realidad gravemente alterada"
+          ],
+          [
+            "4.º",
+            "Legítima defensa",
+            "Agresión ilegítima; necesidad racional del medio; falta de provocación suficiente"
+          ],
+          [
+            "5.º",
+            "Estado de necesidad",
+            "Mal causado **no mayor**; no provocado intencionadamente; sin **obligación de sacrificarse** por oficio o cargo"
+          ],
+          [
+            "6.º",
+            "Miedo insuperable",
+            "El sujeto obra impulsado por el miedo"
+          ],
+          [
+            "7.º",
+            "Cumplimiento de un deber o ejercicio legítimo de un derecho, oficio o cargo",
+            "La conducta se ajusta a ese deber o derecho"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Atenuantes, agravantes y reglas de aplicación",
+      "puntos": [
+        "**Parentesco** (art. 23): circunstancia **mixta**, atenúa o agrava según la naturaleza, motivos y efectos del delito; alcanza al cónyuge o pareja análoga y a ascendientes, descendientes y hermanos del ofensor o de su cónyuge o conviviente.",
+        "**Reincidencia** (art. 22.8): condena ejecutoria por delito del **mismo título** y **misma naturaleza**; no cuentan antecedentes cancelados ni **delitos leves**, salvo tipos agravados por multirreincidencia de delitos leves (LO 1/2026). Sí cuentan las condenas firmes de otros Estados de la UE.",
+        "**Reglas del art. 66.1** (delitos dolosos): una atenuante, **mitad inferior**; dos o más (o una muy cualificada) sin agravantes, **inferior en uno o dos grados**; una o dos agravantes, **mitad superior**; más de dos sin atenuantes o reincidencia cualificada (tres condenas), **podrán** aplicar la superior en grado; si concurren ambas clases, se compensan. En delitos **leves e imprudentes**, prudente arbitrio (art. 66.2).",
+        "Las circunstancias **personales** afectan solo a quien concurren; las **materiales**, solo a quienes las conocían (art. 65)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Atenuantes (art. 21): siete",
+          "Agravantes (art. 22): ocho"
+        ],
+        "filas": [
+          [
+            "1.ª Eximentes incompletas",
+            "1.ª Alevosía"
+          ],
+          [
+            "2.ª Grave adicción",
+            "2.ª Disfraz, abuso de superioridad, aprovechar lugar, tiempo o auxilio de otros"
+          ],
+          [
+            "3.ª Arrebato, obcecación u otro estado pasional",
+            "3.ª Precio, recompensa o promesa"
+          ],
+          [
+            "4.ª Confesión antes de conocer que el procedimiento se dirige contra el culpable",
+            "4.ª Motivos racistas, antisemitas, antigitanos u otra discriminación"
+          ],
+          [
+            "5.ª Reparación del daño antes del juicio oral",
+            "5.ª Ensañamiento: aumentar deliberada e inhumanamente el sufrimiento"
+          ],
+          [
+            "6.ª Dilaciones extraordinarias e indebidas",
+            "6.ª Abuso de confianza"
+          ],
+          [
+            "7.ª Analógica",
+            "7.ª Prevalerse del carácter público"
+          ],
+          [
+            "Sin más atenuantes",
+            "8.ª Reincidencia"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Penas: extensión, accesorias y prisión permanente revisable",
+      "puntos": [
+        "**Responsabilidad personal subsidiaria** por impago de multa: pena **privativa de libertad** (art. 35), **un día por cada dos cuotas** no satisfechas (art. 53.1); no se impone a condenados a prisión de más de 5 años.",
+        "**Accesorias**: la prisión de **10 años o más** lleva inhabilitación absoluta durante la condena (art. 55); en las inferiores, suspensión de empleo o cargo, inhabilitación de sufragio pasivo o inhabilitación especial vinculada al delito (art. 56).",
+        "**Prisión permanente revisable** (arts. 36 y 92): tercer grado tras **15 años** de prisión efectiva (**20** en terrorismo) y permisos desde los **8 años** (**12** en terrorismo). Suspensión tras **25 años**, en tercer grado y con pronóstico favorable; dura de **5 a 10 años**; el tribunal revisa **al menos cada dos años**. La pena inferior en grado es prisión de 20 a 30 años (art. 70.4)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Pena",
+          "Extensión"
+        ],
+        "filas": [
+          [
+            "Prisión",
+            "**3 meses a 20 años** (art. 36.2)"
+          ],
+          [
+            "Localización permanente",
+            "Hasta **6 meses** (art. 37.1)"
+          ],
+          [
+            "Trabajos en beneficio de la comunidad",
+            "1 día a 1 año, con **consentimiento** del penado y hasta **8 horas** diarias (arts. 40.4 y 49)"
+          ],
+          [
+            "Multa por días-multa",
+            "**10 días a 2 años**, cuota de **2 a 400 euros** (art. 50)"
+          ],
+          [
+            "Inhabilitación absoluta",
+            "6 a 20 años"
+          ],
+          [
+            "Inhabilitación especial",
+            "3 meses a 20 años"
+          ],
+          [
+            "Suspensión de empleo o cargo público",
+            "3 meses a 6 años"
+          ],
+          [
+            "Privación de conducir o de armas",
+            "3 meses a 10 años (pérdida de vigencia del permiso si supera 2 años, art. 47)"
+          ],
+          [
+            "Prohibición de aproximarse o comunicarse",
+            "1 mes a 10 años"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Concursos de delitos",
+      "puntos": [
+        "**Concurso real** (arts. 73 a 75): a quien comete varios delitos se le imponen **todas** las penas, simultáneas si es posible o sucesivas.",
+        "**Límite de cumplimiento** (art. 76.1): **triple** de la pena más grave, sin pasar de **20 años**; excepciones de **25, 30 y 40 años** según la gravedad de los delitos."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Supuesto",
+          "Regla"
+        ],
+        "filas": [
+          [
+            "Ideal (art. 77.2)",
+            "Un hecho, varios delitos: pena de la **más grave en su mitad superior**, sin exceder de la suma de las separadas"
+          ],
+          [
+            "Medial (art. 77.3)",
+            "Un delito es **medio necesario** para otro: pena superior a la de la más grave, sin exceder de la suma"
+          ],
+          [
+            "Continuado (art. 74)",
+            "**Plan preconcebido** o idéntica ocasión: pena de la más grave en su **mitad superior**; en delitos patrimoniales, **perjuicio total**; no en bienes eminentemente personales"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Suspensión, libertad condicional, medidas de seguridad y responsabilidad civil",
+      "puntos": [
+        "**Suspensión** (arts. 80 a 87): penas privativas de libertad **no superiores a 2 años**, si el penado delinque **por primera vez** (no cuentan imprudentes, delitos leves salvo multirreincidencia ni cancelados) y satisface la responsabilidad civil. Plazo de **2 a 5 años**. **Libertad condicional** (art. 90): tercer grado, **tres cuartas partes** de la pena y buena conducta (dos terceras partes con actividades; la mitad en primera condena de hasta 3 años).",
+        "**Medidas de seguridad** (arts. 6 y 95): se fundan en la **peligrosidad criminal** exteriorizada en un **hecho previsto como delito**; no pueden ser más gravosas ni de mayor duración que la pena aplicable. **Privativas** (3): internamiento psiquiátrico, de deshabituación y en centro educativo especial. **No privativas** (6): inhabilitación profesional, expulsión de extranjeros no residentes, libertad vigilada, custodia familiar, privación de conducir y de armas.",
+        "**Responsabilidad civil** (art. 110): **restitución, reparación del daño e indemnización de perjuicios materiales y morales**; el perjudicado puede acudir a la vía civil. Los aseguradores son responsables civiles **directos** (art. 117). **Decomiso** (art. 127): toda pena por delito doloso conlleva la pérdida de efectos, instrumentos y ganancias."
+      ]
+    },
+    {
+      "titulo": "Extinción de la responsabilidad y prescripción",
+      "puntos": [
+        "**Causas de extinción** (art. 130.1, siete): muerte del reo; cumplimiento de la condena; remisión definitiva; **amnistía o indulto**; **perdón del ofendido** (solo en delitos leves perseguibles a instancia de parte o si la ley lo prevé, expreso y antes de sentencia); prescripción del delito; prescripción de la pena o medida.",
+        "**No prescriben** lesa humanidad, genocidio, delitos contra personas y bienes protegidos en conflicto armado (salvo art. 614) y terrorismo con muerte (art. 131.3). En concurso rige el plazo del delito **más grave**.",
+        "**Cómputo** (art. 132): desde que se comete la infracción; la prescripción se **interrumpe** al dirigirse el procedimiento contra el presunto responsable, y la querella o denuncia **suspende** el cómputo hasta 6 meses. Con víctima menor de edad, el plazo corre desde los **18 años** (aborto no consentido, lesiones, libertad, torturas, intimidad) o desde los **35 años** (tentativa de homicidio, lesiones de los arts. 149 y 150, maltrato habitual, delitos sexuales y trata).",
+        "**Penas** (art. 133): prescriben a los 30, 25, 20, 15 y 10 años las graves según su extensión, a los **5** las menos graves y a **1** las leves. **Medidas de seguridad**: 10 años (privativas de libertad de más de 3 años) o 5 años (art. 135). **Antecedentes** (art. 136): cancelación a los 6 meses (leves) y hasta los 10 años (graves)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Pena máxima señalada al delito (art. 131)",
+          "Prescribe a los"
+        ],
+        "filas": [
+          [
+            "Prisión de 15 o más años",
+            "**20 años**"
+          ],
+          [
+            "Inhabilitación por más de 10 años, o prisión de más de 10 y menos de 15",
+            "**15 años**"
+          ],
+          [
+            "Prisión o inhabilitación por más de 5 y hasta 10 años",
+            "**10 años**"
+          ],
+          [
+            "Los demás delitos",
+            "**5 años**"
+          ],
+          [
+            "Delitos leves, injurias y calumnias",
+            "**1 año**"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Vigencia espacial y edad penal",
+      "puntos": [
+        "**Territorial** (art. 23.1 LOPJ): delitos cometidos en territorio español o a bordo de buques o aeronaves españoles. **Personalidad** (art. 23.2): delitos cometidos fuera por **españoles** si el hecho es **punible en el lugar de ejecución**, hay **querella** del agraviado o del Fiscal y el autor no fue absuelto, indultado o penado en el extranjero. **Real o de protección** (art. 23.3): delitos contra intereses del Estado (traición, falsificación de moneda española, atentado contra autoridades españolas). **Universal limitada** (art. 23.4): genocidio, terrorismo, trata y otros.",
+        "Las edades de la LO 5/2000 se refieren al **momento de comisión** (art. 5.3). El **internamiento en régimen cerrado** solo procede por **delito grave**; por delito menos grave con violencia, intimidación o grave riesgo; o si se actúa en grupo o al servicio de una banda (art. 9.2); no en acciones imprudentes. Duración general **2 años** (art. 9.3); **3 años** (14-15) o **6 años** (16-17) en esos casos (art. 10.1); en homicidio, asesinato, agresiones sexuales cualificadas, terrorismo o penas de 15 años o más, internamiento cerrado de **1 a 5 años** (14-15) o **1 a 8 años** (16-17) más libertad vigilada (art. 10.2)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Edad al cometer el hecho",
+          "Régimen"
+        ],
+        "filas": [
+          [
+            "Menos de 14 años",
+            "**Sin responsabilidad penal**; normas de protección de menores (art. 3 LO 5/2000)"
+          ],
+          [
+            "14 a 17 años",
+            "**LO 5/2000**: Jueces de Menores y medidas educativas (arts. 1 y 7 LO 5/2000)"
+          ],
+          [
+            "18 años o más",
+            "**Código Penal** (art. 19). A los de 18 a 20 años puede aplicarse la ley del menor en los casos que esta disponga (art. 69)"
+          ]
+        ]
+      }
+    }
+  ],
+  "trampas": [
+    "Cambian las **edades**: menos de 14 no responde penalmente; de 14 a 17 se aplica la LO 5/2000; desde 18, el Código Penal. No confundir con el 16 de otros preceptos (consentimiento sexual, art. 140).",
+    "**Tentativa o desistimiento**: si el resultado no se produce por causas ajenas a la voluntad, es tentativa; si el sujeto evita voluntariamente la consumación, queda exento del delito intentado (aunque responde por lo ya ejecutado si es otro delito).",
+    "**Error vencible**: en el error de tipo se castiga como imprudente; en el error de prohibición la pena baja uno o dos grados. No se intercambian.",
+    "Invertir los requisitos de las eximentes: en el estado de necesidad el mal causado **no** puede ser mayor; la legítima defensa pide **necesidad racional** del medio, no un mal menor.",
+    "«Todos los delitos admiten conspiración, proposición y provocación»: falso, solo los previstos por la ley (arts. 17.3 y 18.2). Conspiración exige dos o más personas concertadas; en la proposición, quien ya ha resuelto invita.",
+    "La **responsabilidad personal subsidiaria** por impago de multa es privativa de libertad, no una pena privativa de derechos ni una medida de seguridad.",
+    "Las medidas de seguridad **no** pueden ser más gravosas ni de mayor duración que la pena abstractamente aplicable, y solo se aplican a las tres primeras eximentes (más eximentes incompletas).",
+    "**Reincidencia**: mismo título y misma naturaleza, condena ejecutoria; no cuentan antecedentes cancelados ni delitos leves (salvo multirreincidencia de leves tras la LO 1/2026). No confundir con reiteración.",
+    "Modelos de prevención de la persona jurídica: para eximir deben estar adoptados **antes** del delito; adoptar medidas **antes del juicio oral** es solo atenuante.",
+    "Plazos de prescripción: se calculan con la pena **máxima** señalada al delito y el tramo es por **más de** (p. ej. prisión de 12 años prescribe a los 15, no a los 10)."
+  ],
+  "caido": [
+    {
+      "examen": "26 sep 2026 (P43)",
+      "concepto": "Siete preguntas de teoría del delito: pensamiento delictivo sin acción, movimiento reflejo, estado de necesidad, anomalía psíquica, tentativa frente a desistimiento, error de prohibición (art. 14.3), comisión por omisión (art. 11)"
+    },
+    {
+      "examen": "25 oct 2025 (P42)",
+      "concepto": "Conspiración, proposición y provocación; atenuante de arrebato u obcecación frente a eximentes; principio de legalidad y fuentes; menores y medida de internamiento cerrado"
+    },
+    {
+      "examen": "1 mar 2025 (P41)",
+      "concepto": "Agravantes del art. 22; principio de legalidad y leyes penales en blanco"
+    },
+    {
+      "examen": "13 abr 2024 (P40)",
+      "concepto": "Responsabilidad personal subsidiaria por impago de multa como pena privativa de libertad; agravantes del art. 22; legalidad; prevaricación como delito especial propio; menores (LO 5/2000)"
+    },
+    {
+      "examen": "23 abr 2023 (P39)",
+      "concepto": "Conspiración, proposición y provocación (dos preguntas); sujeto activo, objeto material y bien jurídico; extinción de la responsabilidad (indulto); menores"
+    }
+  ],
+  "mnemotecnias": [
+    "Escalones de pena: **tentativa 1 o 2 grados, cómplice 1 grado**, error de prohibición vencible 1 o 2 grados, eximente incompleta 1 o 2 grados.",
+    "Prescripción de delitos: **20 – 15 – 10 – 5** años (prisión de 15 o más; de más de 10; de más de 5; resto) y **1 año** para leves, injurias y calumnias.",
+    "Las tres primeras eximentes (psique, tóxicos, percepción) son las únicas con medidas de seguridad: **mente, tóxico y mundo percibido**.",
+    "Personas jurídicas: **5** años en suspensión, clausura e intervención; **15** años en prohibición temporal de actividades e inhabilitación para subvenciones."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Qué edades fija la responsabilidad penal?",
+      "r": "Menor de **14**: sin responsabilidad penal (normas de protección de menores). De **14 a 17**: LO 5/2000. **18 o más**: Código Penal (art. 19 CP)."
+    },
+    {
+      "p": "¿Cuándo hay tentativa?",
+      "r": "Cuando se da principio a la ejecución directamente por hechos exteriores y el resultado no se produce **por causas independientes de la voluntad** del autor (art. 16.1)."
+    },
+    {
+      "p": "¿Qué efecto tiene el desistimiento voluntario?",
+      "r": "Exención de responsabilidad por el delito intentado, sin perjuicio de responder por los actos ya ejecutados si son otro delito (art. 16.2)."
+    },
+    {
+      "p": "¿Qué pena corresponde a la tentativa y a la complicidad?",
+      "r": "Tentativa: **inferior en uno o dos grados** (art. 62). Complicidad: **inferior en un grado** (art. 63)."
+    },
+    {
+      "p": "Define la conspiración.",
+      "r": "**Dos o más personas** se conciertan para ejecutar un delito y resuelven ejecutarlo (art. 17.1)."
+    },
+    {
+      "p": "Define la proposición.",
+      "r": "Quien **ha resuelto** cometer un delito **invita** a otra u otras personas a participar en él (art. 17.2)."
+    },
+    {
+      "p": "¿Cuándo se castigan conspiración, proposición y provocación?",
+      "r": "Solo **en los casos especialmente previstos** por la ley (arts. 17.3 y 18.2)."
+    },
+    {
+      "p": "¿Qué efecto tiene el error de prohibición vencible?",
+      "r": "Pena **inferior en uno o dos grados**. Si es invencible, excluye la responsabilidad (art. 14.3)."
+    },
+    {
+      "p": "¿Cuándo se equipara la omisión a la acción en un delito de resultado?",
+      "r": "Cuando se infringe un especial deber jurídico: **obligación legal o contractual** de actuar, o creación previa del riesgo (art. 11)."
+    },
+    {
+      "p": "¿Quiénes son autores según el art. 28?",
+      "r": "Quienes realizan el hecho por sí, conjuntamente o por medio de otro; y los **inductores** y los **cooperadores necesarios**."
+    },
+    {
+      "p": "¿Cuándo responde penalmente una persona jurídica?",
+      "r": "Solo en los supuestos previstos en el Código, por delitos cometidos en su **beneficio directo o indirecto** por sus directivos o por sometidos a su autoridad si hubo grave falta de control (art. 31 bis)."
+    },
+    {
+      "p": "¿Quién no puede ser penalmente responsable como persona jurídica?",
+      "r": "El Estado, las Administraciones públicas territoriales e institucionales, los organismos reguladores, las agencias, las entidades públicas empresariales y quienes ejerzan potestades públicas (art. 31 quinquies)."
+    },
+    {
+      "p": "Requisitos del estado de necesidad.",
+      "r": "Mal causado **no mayor**; situación **no provocada intencionadamente**; el necesitado **sin obligación de sacrificarse** por oficio o cargo (art. 20.5)."
+    },
+    {
+      "p": "Requisitos de la legítima defensa.",
+      "r": "**Agresión ilegítima**, **necesidad racional** del medio empleado y **falta de provocación suficiente** del defensor (art. 20.4)."
+    },
+    {
+      "p": "¿En qué eximentes se aplican medidas de seguridad?",
+      "r": "En las tres primeras del art. 20: anomalía psíquica, intoxicación plena o síndrome de abstinencia, y alteraciones en la percepción."
+    },
+    {
+      "p": "¿Cuántas atenuantes y agravantes hay?",
+      "r": "**Siete** atenuantes (art. 21), **ocho** agravantes (art. 22) y una circunstancia mixta, el parentesco (art. 23)."
+    },
+    {
+      "p": "¿Cuándo hay reincidencia?",
+      "r": "Al delinquir, condena ejecutoria por un delito del **mismo título** y de la **misma naturaleza**; no cuentan antecedentes cancelados ni delitos leves, salvo multirreincidencia de leves (art. 22.8)."
+    },
+    {
+      "p": "¿Cuál es la extensión de la prisión y de la multa?",
+      "r": "Prisión: **3 meses a 20 años** (art. 36.2). Multa: **10 días a 2 años**, con cuota de **2 a 400 euros** (art. 50)."
+    },
+    {
+      "p": "¿Cómo se cumple la responsabilidad personal subsidiaria por impago de multa?",
+      "r": "Con privación de libertad de **un día por cada dos cuotas** no satisfechas; es pena privativa de libertad (arts. 35 y 53)."
+    },
+    {
+      "p": "¿En cuánto prescriben los delitos?",
+      "r": "**20, 15, 10 y 5 años** según la pena máxima; **1 año** los leves, las injurias y las calumnias (art. 131)."
+    },
+    {
+      "p": "¿Qué ley penal tiene efecto retroactivo?",
+      "r": "La que **favorece al reo**, aunque haya sentencia firme y esté cumpliendo condena (art. 2.2)."
+    },
+    {
+      "p": "Pena del concurso ideal.",
+      "r": "La de la infracción **más grave en su mitad superior**, sin exceder de la suma de las penas por separado (art. 77.2)."
+    },
+    {
+      "p": "¿Cuándo procede el internamiento cerrado de un menor?",
+      "r": "Delito grave; o menos grave con violencia, intimidación o grave riesgo; o delito cometido en grupo o al servicio de una banda u organización (art. 9.2 LO 5/2000)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Un menor de 13 años comete unas lesiones graves a un compañero de clase. ¿Qué régimen se le aplica?",
+      "opciones": [
+        "Se le aplica la Ley Orgánica 5/2000 con una medida de internamiento educativo",
+        "No se le exige responsabilidad penal y se aplican las normas de protección de menores",
+        "Se le aplica el Código Penal con la pena inferior en un grado"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 3 de la LO 5/2000 dispone que, si el autor es menor de catorce años, no se le exige responsabilidad con arreglo a esa ley y se aplican las normas de protección de menores. La LO 5/2000 solo alcanza a mayores de catorce y menores de dieciocho (art. 1), por lo que no cabe el internamiento educativo, y el Código Penal solo se aplica a los mayores de dieciocho (art. 19 CP), por lo que tampoco procede la pena inferior en grado.",
+      "ref": "art. 3 LO 5/2000; art. 19 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "María, que ya ha resuelto atracar una joyería, invita a Luis a participar y este se niega. ¿Qué figura concurre en María?",
+      "opciones": [
+        "Conspiración",
+        "Provocación",
+        "Proposición"
+      ],
+      "correcta": 2,
+      "explicacion": "Hay proposición cuando quien ha resuelto cometer un delito invita a otra u otras personas a participar en él (art. 17.2). La conspiración exige que dos o más personas se concierten y resuelvan ejecutar el delito, algo que aquí no ocurre porque Luis no acepta. La provocación es la incitación directa por un medio de difusión o ante una concurrencia de personas (art. 18.1). La proposición del robo es punible porque el art. 269 lo prevé.",
+      "ref": "arts. 17.2, 18.1 y 269 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Pedro empieza a forzar la cerradura de un local para robar, rompiendo parte de la puerta, pero antes de entrar decide voluntariamente marcharse. ¿Cuál es su situación penal?",
+      "opciones": [
+        "Queda exento de responsabilidad por el robo intentado, sin perjuicio de responder por los actos ya ejecutados si constituyen otro delito",
+        "Responde por tentativa de robo con la pena inferior en uno o dos grados",
+        "Queda exento de toda responsabilidad, incluso por los daños ya producidos"
+      ],
+      "correcta": 0,
+      "explicacion": "El desistimiento voluntario de la ejecución ya iniciada exime de responsabilidad por el delito intentado, sin perjuicio de la responsabilidad por los actos ya ejecutados si son constitutivos de otro delito (art. 16.2). No es tentativa punible porque el resultado no deja de producirse por causas ajenas a su voluntad, sino por su decisión. Tampoco queda exento de todo: los daños ya causados pueden ser delito por sí mismos.",
+      "ref": "art. 16.2 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el art. 14.3 del Código Penal, ¿qué efecto tiene el error vencible sobre la ilicitud del hecho constitutivo de la infracción penal?",
+      "opciones": [
+        "Excluye la responsabilidad criminal",
+        "Se aplica la pena inferior en uno o dos grados",
+        "La infracción se castiga como imprudente"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 14.3 distingue: el error invencible sobre la ilicitud excluye la responsabilidad criminal, y si es vencible se aplica la pena inferior en uno o dos grados. Castigar como imprudente es el efecto del error vencible sobre un hecho constitutivo de la infracción, es decir, el error de tipo (art. 14.1).",
+      "ref": "art. 14 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un socorrista contratado para vigilar una piscina ve cómo un niño se ahoga y no hace nada; el niño muere. ¿Qué fundamenta, según el art. 11 CP, que su omisión se equipare a la acción de causar la muerte?",
+      "opciones": [
+        "Una específica obligación contractual de actuar",
+        "Haber creado él mismo el riesgo mediante una acción precedente",
+        "La mera condición de ciudadano, que obliga a todos a socorrer"
+      ],
+      "correcta": 0,
+      "explicacion": "En los delitos de resultado, la omisión se equipara a la acción cuando existe una específica obligación legal o contractual de actuar, o cuando el omitente creó el riesgo con una acción u omisión precedente (art. 11). El socorrista tiene una obligación contractual. No consta que creara el riesgo, y la mera condición de ciudadano no basta para la equiparación: el art. 11 exige un especial deber jurídico del autor.",
+      "ref": "art. 11 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "En un robo planeado entre varios, Ana no entra en el local, pero consigue los códigos de la alarma, sin los cuales el hecho no se habría podido ejecutar. ¿Cómo responde según el art. 28 CP?",
+      "opciones": [
+        "Como cómplice, con la pena inferior en un grado",
+        "No responde, porque no ejecutó materialmente el hecho",
+        "Como autora, por cooperar con un acto sin el cual no se habría efectuado el hecho"
+      ],
+      "correcta": 2,
+      "explicacion": "Son considerados autores quienes cooperan a la ejecución con un acto sin el cual no se habría efectuado (art. 28.b, cooperación necesaria). El cómplice (art. 29) coopera con actos anteriores o simultáneos que no son imprescindibles. No ejecutar materialmente el hecho no excluye la responsabilidad, porque el art. 27 solo distingue entre autores y cómplices.",
+      "ref": "arts. 27, 28 y 29 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué pena corresponde, respectivamente, a la tentativa y a la complicidad, en relación con la señalada por la ley para el delito consumado o para los autores?",
+      "opciones": [
+        "Tentativa: inferior en un grado; complicidad: inferior en uno o dos grados",
+        "Tentativa: inferior en uno o dos grados; complicidad: inferior en un grado",
+        "Ambas: inferior en dos grados"
+      ],
+      "correcta": 1,
+      "explicacion": "A los autores de tentativa se les impone la pena inferior en uno o dos grados (art. 62); a los cómplices, la inferior en un grado (art. 63). Las otras opciones invierten los escalones o los igualan, y ninguna aparece en el texto legal.",
+      "ref": "arts. 62 y 63 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes sujetos NO puede ser penalmente responsable conforme al art. 31 quinquies del Código Penal?",
+      "opciones": [
+        "Una Administración pública territorial, como un ayuntamiento",
+        "Una sociedad mercantil privada",
+        "Una fundación privada"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 31 quinquies.1 excluye de la responsabilidad penal de las personas jurídicas al Estado, a las Administraciones públicas territoriales e institucionales, a los organismos reguladores, agencias y entidades públicas empresariales, a las organizaciones internacionales de derecho público y a quienes ejerzan potestades públicas de soberanía o administrativas. Una sociedad mercantil privada y una fundación privada pueden responder en los supuestos previstos por el Código (art. 31 bis).",
+      "ref": "arts. 31 bis y 31 quinquies CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Cuando el delito lo ha cometido un administrador de la sociedad, ¿en qué momento debe haber adoptado y ejecutado con eficacia el órgano de administración el modelo de organización y gestión para que la persona jurídica quede exenta de responsabilidad?",
+      "opciones": [
+        "En cualquier momento antes de dictarse sentencia",
+        "Antes del comienzo del juicio oral",
+        "Antes de la comisión del delito"
+      ],
+      "correcta": 2,
+      "explicacion": "La exención del art. 31 bis.2 exige que el órgano de administración haya adoptado y ejecutado con eficacia, antes de la comisión del delito, modelos de organización y gestión con medidas de vigilancia y control idóneas. Establecer medidas eficaces de prevención antes del comienzo del juicio oral solo funciona como atenuante (art. 31 quater), no como exención.",
+      "ref": "arts. 31 bis.2 y 31 quater CP",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Cuál NO es un requisito de la legítima defensa del art. 20.4.º del Código Penal?",
+      "opciones": [
+        "Agresión ilegítima",
+        "Que el mal causado no sea mayor que el que se trate de evitar",
+        "Falta de provocación suficiente por parte del defensor"
+      ],
+      "correcta": 1,
+      "explicacion": "Los requisitos de la legítima defensa son la agresión ilegítima, la necesidad racional del medio empleado para impedirla o repelerla y la falta de provocación suficiente del defensor. Que el mal causado no sea mayor que el que se trata de evitar es el primer requisito del estado de necesidad (art. 20.5.º).",
+      "ref": "art. 20.4.º y 20.5.º CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un montañero, para no morir de frío durante una tormenta, rompe la ventana de un refugio cerrado y entra en él, causando un pequeño daño. ¿Qué eximente cabe apreciar?",
+      "opciones": [
+        "Estado de necesidad (art. 20.5.º)",
+        "Legítima defensa (art. 20.4.º)",
+        "Cumplimiento de un deber (art. 20.7.º)"
+      ],
+      "correcta": 0,
+      "explicacion": "Hay estado de necesidad: se lesiona un bien jurídico ajeno (la propiedad del refugio) para evitar un mal propio mayor, sin que la situación haya sido provocada y sin obligación de sacrificarse por oficio o cargo. No hay legítima defensa porque falta una agresión ilegítima, ni cumplimiento de un deber o ejercicio legítimo de un derecho que ampare romper la ventana.",
+      "ref": "art. 20.5.º CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Una persona con un trastorno psicótico grave, que en el momento de los hechos no podía comprender la ilicitud de su conducta, causa lesiones a otra. ¿Qué consecuencia penal procede?",
+      "opciones": [
+        "Condena con la atenuante de anomalía psíquica y pena en la mitad inferior",
+        "Exención de responsabilidad criminal sin posibilidad de imponer ninguna medida",
+        "Exención de responsabilidad criminal, pudiendo imponerse una medida de seguridad como el internamiento en centro psiquiátrico"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 20.1.º exime de responsabilidad criminal a quien, por anomalía o alteración psíquica, no puede comprender la ilicitud del hecho o actuar conforme a esa comprensión, y en los tres primeros números del art. 20 se aplican, en su caso, medidas de seguridad. El internamiento no puede exceder del tiempo de la pena que habría correspondido (art. 101). La atenuante solo procede si no concurren todos los requisitos de la eximente (eximente incompleta, art. 21.1.ª).",
+      "ref": "arts. 20.1.º y 101 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes circunstancias es una atenuante del art. 21 y no una eximente del art. 20?",
+      "opciones": [
+        "Haber confesado la infracción a las autoridades antes de conocer que el procedimiento judicial se dirige contra el culpable",
+        "Obrar impulsado por miedo insuperable",
+        "Actuar en cumplimiento de un deber"
+      ],
+      "correcta": 0,
+      "explicacion": "La confesión previa a conocer que el procedimiento se dirige contra el culpable es la atenuante 4.ª del art. 21. El miedo insuperable (art. 20.6.º) y el cumplimiento de un deber (art. 20.7.º) son eximentes que excluyen la responsabilidad criminal.",
+      "ref": "arts. 20 y 21 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale la circunstancia que NO figura entre las agravantes del art. 22 del Código Penal:",
+      "opciones": [
+        "Obrar con abuso de confianza",
+        "Obrar por causas o estímulos tan poderosos que hayan producido arrebato u obcecación",
+        "Prevalerse del carácter público que tenga el culpable"
+      ],
+      "correcta": 1,
+      "explicacion": "El arrebato, la obcecación u otro estado pasional de entidad semejante es la atenuante 3.ª del art. 21. El abuso de confianza (art. 22.6.ª) y el prevalerse del carácter público del culpable (art. 22.7.ª) son agravantes.",
+      "ref": "arts. 21.3.ª y 22 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "A efectos de la agravante de reincidencia (art. 22.8.ª CP), ¿qué antecedentes NO se computan?",
+      "opciones": [
+        "Los correspondientes a delitos del mismo título y de la misma naturaleza",
+        "Las condenas firmes impuestas por tribunales de otros Estados de la Unión Europea",
+        "Los cancelados o que debieran serlo y los de delitos leves, salvo los tipos agravados por multirreincidencia de delitos leves"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 22.8.ª excluye del cómputo los antecedentes cancelados o que debieran serlo y los de delitos leves, salvo lo dispuesto para los tipos agravados por multirreincidencia de delitos leves (redacción de la LO 1/2026). Los delitos del mismo título y naturaleza sí cuentan, y las condenas firmes de otros Estados de la Unión Europea producen efectos de reincidencia salvo que el antecedente esté cancelado o pudiera estarlo con arreglo al Derecho español.",
+      "ref": "art. 22.8.ª CP; LO 1/2026",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Qué naturaleza tiene la responsabilidad personal subsidiaria por impago de multa?",
+      "opciones": [
+        "Es una pena privativa de libertad",
+        "Es una pena privativa de derechos",
+        "Es una medida de seguridad no privativa de libertad"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 35 incluye entre las penas privativas de libertad la prisión permanente revisable, la prisión, la localización permanente y la responsabilidad personal subsidiaria por impago de multa. Se cumple con un día de privación de libertad por cada dos cuotas diarias no satisfechas (art. 53.1). No es pena privativa de derechos ni medida de seguridad.",
+      "ref": "arts. 35 y 53 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un delito tiene señalada una pena máxima de prisión de 12 años. ¿En qué plazo prescribe, según el art. 131 del Código Penal?",
+      "opciones": [
+        "10 años",
+        "15 años",
+        "20 años"
+      ],
+      "correcta": 1,
+      "explicacion": "Los delitos prescriben a los quince años cuando la pena máxima es inhabilitación por más de diez años o prisión por más de diez y menos de quince años. Diez años es el plazo para prisión o inhabilitación por más de cinco años y hasta diez, y veinte años corresponde a la pena máxima de prisión de quince o más años.",
+      "ref": "art. 131.1 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una reforma penal posterior reduce la pena del delito por el que Rosa cumple condena en virtud de sentencia firme. ¿Qué ocurre con la nueva ley?",
+      "opciones": [
+        "No le es aplicable, porque la sentencia ya es firme",
+        "Solo se le aplica si todavía no ha empezado a cumplir la condena",
+        "Tiene efecto retroactivo por favorecerla, aunque haya sentencia firme y esté cumpliendo la condena"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 2.2 CP establece que tienen efecto retroactivo las leyes penales que favorezcan al reo, aunque al entrar en vigor hubiera recaído sentencia firme y el sujeto estuviese cumpliendo condena. Si hay duda sobre cuál es la ley más favorable, se oye al reo.",
+      "ref": "art. 2.2 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Un solo hecho constituye dos delitos (concurso ideal). ¿Cómo se determina la pena según el art. 77.2 del Código Penal?",
+      "opciones": [
+        "Se suman las penas de ambos delitos",
+        "Se aplica en su mitad superior la pena de la infracción más grave, sin exceder de la suma de las que corresponderían por separado",
+        "Se aplica en su mitad inferior la pena de la infracción más leve"
+      ],
+      "correcta": 1,
+      "explicacion": "En el concurso ideal se aplica en su mitad superior la pena prevista para la infracción más grave, sin que pueda exceder de la suma de las que correspondería aplicar si se penaran separadamente; si la supera, se sancionan por separado. La suma de todas las penas es la regla del concurso real (art. 73), que no se aplica cuando un solo hecho constituye varios delitos (art. 77.1).",
+      "ref": "arts. 73 y 77 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un empleado, ejecutando un plan preconcebido, sustrae cada semana pequeñas cantidades de la caja de su empresa durante varios meses. ¿Qué regla concursal prevé el art. 74 CP para este supuesto?",
+      "opciones": [
+        "Concurso real de delitos, con suma de todas las penas",
+        "Concurso ideal, con la pena del delito más grave en su mitad superior",
+        "Delito continuado, con la pena de la infracción más grave en su mitad superior y atención al perjuicio total causado"
+      ],
+      "correcta": 2,
+      "explicacion": "Quien, en ejecución de un plan preconcebido o aprovechando idéntica ocasión, realiza una pluralidad de acciones que infringen el mismo precepto penal o preceptos de igual o semejante naturaleza, es castigado como autor de un delito continuado con la pena de la infracción más grave en su mitad superior (art. 74.1). En infracciones contra el patrimonio se atiende al perjuicio total causado (art. 74.2). No es concurso ideal porque no hay un solo hecho (art. 77) ni concurso real con suma de penas.",
+      "ref": "art. 74 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Para que la jurisdicción española conozca de un delito cometido en el extranjero por un español, ¿cuál es uno de los requisitos que exige con carácter general el art. 23.2 de la Ley Orgánica del Poder Judicial?",
+      "opciones": [
+        "Que el hecho sea punible en el lugar de ejecución, salvo que un tratado internacional lo excuse",
+        "Que la víctima sea también de nacionalidad española",
+        "Que el autor resida habitualmente en España"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 23.2 LOPJ exige que el hecho sea punible en el lugar de ejecución (salvo tratado o acto de una organización internacional que lo excuse), que el agraviado o el Ministerio Fiscal interpongan querella y que el delincuente no haya sido absuelto, indultado o penado en el extranjero. No se exige que la víctima sea española ni que el autor resida en España.",
+      "ref": "art. 23.2 LOPJ",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cómo clasifica el art. 33 del Código Penal la pena de prisión de tres meses hasta cinco años?",
+      "opciones": [
+        "Pena leve",
+        "Pena menos grave",
+        "Pena grave"
+      ],
+      "correcta": 1,
+      "explicacion": "La prisión de tres meses hasta cinco años es pena menos grave (art. 33.3, primera letra). Es grave la prisión superior a cinco años y la prisión permanente revisable (art. 33.2). La pena leve es otra categoría que no incluye la prisión.",
+      "ref": "art. 33 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Juan planea mentalmente con todo detalle cómo matar a su vecino, pero no se lo cuenta a nadie ni realiza acto alguno. ¿Cómo se califica penalmente su conducta?",
+      "opciones": [
+        "Conducta atípica por falta de una acción u omisión penalmente relevante",
+        "Conspiración para el homicidio",
+        "Tentativa de homicidio"
+      ],
+      "correcta": 0,
+      "explicacion": "El Derecho penal sanciona acciones u omisiones previstas como delito (art. 1.1 CP) y no los meros pensamientos. La conspiración exige que dos o más personas se concierten y resuelvan ejecutar el delito (art. 17.1), y la tentativa requiere el principio de ejecución por hechos exteriores (art. 16.1). Ninguno de esos elementos concurre.",
+      "ref": "arts. 1.1, 16.1 y 17.1 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el art. 6 del Código Penal, ¿en qué se fundamentan las medidas de seguridad?",
+      "opciones": [
+        "En la culpabilidad del sujeto por el hecho cometido",
+        "En la sospecha de que una persona pueda delinquir en el futuro, aunque no haya cometido ningún hecho",
+        "En la peligrosidad criminal del sujeto, exteriorizada en la comisión de un hecho previsto como delito"
+      ],
+      "correcta": 2,
+      "explicacion": "Las medidas de seguridad se fundamentan en la peligrosidad criminal del sujeto, exteriorizada en la comisión de un hecho previsto como delito (art. 6.1), y no pueden ser más gravosas ni de mayor duración que la pena abstractamente aplicable (art. 6.2). La culpabilidad es el fundamento de la pena, y no cabe aplicar medidas sin un hecho delictivo previo (art. 95.1).",
+      "ref": "arts. 6 y 95 CP",
+      "dificultad": 1
+    }
+  ],
+  "dudas": [
+    "El art. 69 CP permite aplicar la ley del menor a mayores de 18 y menores de 21 'en los casos y con los requisitos que esta disponga'; no he comprobado si la LO 5/2000 vigente contiene hoy ese régimen específico, por lo que no hay pregunta sobre su aplicación práctica.",
+    "La clasificación de ausencia de acción (pensamiento, movimiento reflejo, fuerza irresistible) y los principios de intervención mínima o proporcionalidad son doctrina, no texto literal del Código; están marcados como tales en el resumen."
+  ]
+}

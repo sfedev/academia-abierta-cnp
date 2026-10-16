@@ -1,0 +1,566 @@
+{
+  "tema": 13,
+  "titulo": "Seguridad privada (Ley 5/2014)",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "medio",
+    "nota": "Media de 2,4 preguntas por examen (4 en P40, 1 en P43, a la baja). Salen competencias autonómicas, jefes de seguridad, despachos de detectives, plazos de conservación y calificación de infracciones del personal."
+  },
+  "normas": [
+    {
+      "nombre": "Ley 5/2014, de 4 de abril, de Seguridad Privada",
+      "boe": "BOE-A-2014-3649",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-3649",
+      "verificado": "Texto consolidado, actualización de 26/01/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto 2364/1994, de 9 de diciembre, por el que se aprueba el Reglamento de Seguridad Privada (vigente solo en lo que no contravenga la Ley 5/2014)",
+      "boe": "BOE-A-1995-608",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-608",
+      "verificado": "Texto consolidado, actualización de 26/01/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Orden INT/859/2023, de 21 de julio, por la que se desarrolla la estructura orgánica y funciones de los servicios centrales y territoriales de la Dirección General de la Policía (art. 7: Unidad Central de Seguridad Privada)",
+      "boe": "BOE-A-2023-17072",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-17072",
+      "verificado": "Texto consolidado, actualización de 20/12/2025 (leído el 16/10/2026 en la copia de trabajo del proyecto)"
+    }
+  ],
+  "novedades": [
+    "La Ley Orgánica 7/2021 (disposición final séptima) dio nueva redacción al art. 69 de la Ley 5/2014: las medidas cautelares de retirada preventiva de autorizaciones o habilitaciones y de suspensión de la habilitación del personal no pueden durar más de un año (art. 69.5).",
+    "No hay un reglamento nuevo de desarrollo de la Ley 5/2014 en el texto consolidado: el Reglamento de 1994 y el resto de la normativa de desarrollo de la ley anterior mantienen su vigencia en lo que no contravenga la ley (disposición derogatoria única, apartado 2). Sus referencias a los Gobernadores Civiles son históricas.",
+    "En la Policía Nacional, la Unidad Central de Seguridad Privada (Comisaría General de Seguridad Ciudadana) es la Autoridad Nacional de Control del sector (Orden INT/859/2023, art. 7.2.e). La Secretaría de Estado de Seguridad conserva las competencias de la legislación de seguridad privada (RD 207/2024, art. 2.1.c)."
+  ],
+  "clave": [
+    "La seguridad privada es **complementaria y subordinada** a la seguridad pública (art. 1.1).",
+    "**Ocho actividades** (art. 5.1): las de las letras a a g solo las prestan empresas de seguridad; la **investigación privada (h)** es exclusiva y excluyente de los **despachos de detectives**; unos no pueden hacer lo de los otros (art. 10.3).",
+    "Las empresas necesitan **autorización administrativa de validez indefinida** (art. 18); solo si se dedican exclusivamente a la instalación y mantenimiento de sistemas conectados a centrales o centros de control basta una **declaración responsable** (art. 18.2). Despachos y centros de formación también presentan declaración responsable.",
+    "**Habilita al personal la Dirección General de la Policía**; a los guardas rurales y sus especialidades, la **Dirección General de la Guardia Civil** (art. 27.3). Las comunidades autónomas no habilitan.",
+    "Las CCAA con competencia estatutaria **ejecutan** la legislación estatal: autorizan empresas y reciben declaraciones de despachos con domicilio y ámbito limitados a su territorio, e inspeccionan y sancionan (art. 13).",
+    "Los **informes de investigación se conservan al menos 3 años** y las imágenes y sonidos grabados se destruyen 3 años después de acabar la investigación (art. 49.4).",
+    "Los detectives **no pueden investigar delitos perseguibles de oficio**: deben denunciarlos de inmediato (arts. 10.2 y 37.4). Exigen interés legítimo acreditado y nunca investigan la vida íntima en domicilios (art. 48).",
+    "**Jefe de seguridad obligatorio** en las empresas que desarrollen las actividades a a e del art. 5.1 (art. 35.2); el **director de seguridad** se exige por la normativa, por decisión gubernativa o por disposición especial (art. 36.2).",
+    "Infracciones: leves **6 meses**, graves **1 año**, muy graves **2 años** (art. 56.2). Sanciones: **1, 2 y 4 años** (art. 68.1).",
+    "Medidas provisionales previas al procedimiento: se **ratifican en 15 días** y duran **como máximo 6 meses** (art. 55.2 y 55.3).",
+    "Sanciona la Administración del Estado: **Ministro del Interior** (extinciones), **Secretario de Estado de Seguridad** (resto de muy graves), **Director General de la Policía** (graves), **Delegados y Subdelegados del Gobierno** (leves) (art. 66.1).",
+    "El personal uniformado lleva medios de defensa que **no incluyen armas de fuego**; solo se usan armas en los servicios del art. 40 y estando de servicio (arts. 39.2, 39.3 y 40.3)."
+  ],
+  "resumen": [
+    {
+      "titulo": "Qué actividades reserva la ley y a quién",
+      "puntos": [
+        "La seguridad privada (actividades, servicios, funciones y medidas de empresas, despachos de detectives y personal habilitado) es **complementaria y subordinada** a la seguridad pública (arts. 1.1 y 2.1). Complementa el monopolio estatal de la seguridad (art. 4).",
+        "Las actividades a a g del art. 5.1 solo las prestan **empresas de seguridad**; la investigación privada (h) es **exclusiva y excluyente** de los **despachos de detectives**, y unos no pueden hacer lo de los otros (arts. 5.2 y 10.3).",
+        "Son actividades **compatibles** (art. 6.1; también las pueden hacer las empresas de seguridad): venta e instalación de equipos no conectados a centrales o centros de control, y planificación, consultoría y asesoramiento. La **autoprotección** queda fuera de la ley (art. 7).",
+        "Prohibido (art. 8.4): intervenir en reuniones, manifestaciones o conflictos políticos o laborales, controlar opiniones políticas, sindicales o religiosas y comunicar a terceros información de clientes, salvo a autoridades judiciales y policiales. Los contratos son escritos y se comunican **antes** de iniciar el servicio (art. 9.2)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Letra (art. 5.1)",
+          "Actividad"
+        ],
+        "filas": [
+          [
+            "a",
+            "Vigilancia y protección de bienes, lugares, eventos y personas"
+          ],
+          [
+            "b",
+            "Acompañamiento, defensa y protección de personas (escolta)"
+          ],
+          [
+            "c",
+            "Depósito y custodia de dinero, valores y objetos valiosos"
+          ],
+          [
+            "d",
+            "Depósito y custodia de armas, explosivos y objetos peligrosos"
+          ],
+          [
+            "e",
+            "Transporte y distribución de lo anterior"
+          ],
+          [
+            "f",
+            "Instalación y mantenimiento de sistemas conectados a centrales de alarmas o centros de control o videovigilancia"
+          ],
+          [
+            "g",
+            "Explotación de centrales de alarmas"
+          ],
+          [
+            "h",
+            "Investigación privada (solo despachos de detectives)"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Personal de seguridad privada: habilitación y funciones",
+      "puntos": [
+        "Ejercen funciones de seguridad privada solo: **vigilantes de seguridad** (y **vigilantes de explosivos**), **escoltas privados**, **guardas rurales** (y **guardas de caza** y **guardapescas marítimos**), **jefes de seguridad**, **directores de seguridad** y **detectives privados** (art. 26.1). Habilitación previa: vigilante de seguridad para ser de explosivos; guarda rural para ser de caza o guardapesca marítimo (art. 26.2).",
+        "Habilita el Ministerio del Interior: la **Dirección General de la Policía** a todo el personal, salvo guardas rurales y especialidades, que habilita la **Dirección General de la Guardia Civil** (art. 27.3). La **tarjeta de identidad profesional** es el documento público de acreditación (art. 27.2).",
+        "Requisitos (art. 28.1): nacionalidad UE o EEE, mayoría de edad, aptitud física y psicológica, formación, **sin antecedentes por delitos dolosos**, sin sanción en los **2 o 4 años** anteriores (grave o muy grave), sin separación de FCS o Fuerzas Armadas en los **2 años** anteriores y sin condena por intromisión ilegítima en derechos fundamentales en los **5 años** anteriores. Los funcionarios en activo pueden habilitarse pero **no ejercer** (art. 28.4).",
+        "Ocho principios de actuación (art. 30): legalidad, integridad, dignidad, corrección en el trato, congruencia, proporcionalidad, reserva profesional y colaboración con las FCS. Agredir o desobedecer a personal **identificado** que actúe **en cooperación y bajo el mando de las FCS** se equipara a hacerlo a agentes de la autoridad (art. 31)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Figura",
+          "Funciones y límites que se preguntan",
+          "Art."
+        ],
+        "filas": [
+          [
+            "Vigilante de seguridad",
+            "Vigila y protege, controla identidad y objetos en accesos, detiene y entrega a las FCS. No retiene la documentación personal ni interroga. Actúa en el interior salvo supuestos del art. 41",
+            "32, 39.4"
+          ],
+          [
+            "Escolta privado",
+            "Protege personas. No identifica ni detiene ni restringe la circulación, salvo agresión o intento manifiesto de agresión",
+            "33"
+          ],
+          [
+            "Guarda rural y especialidades",
+            "Fincas rústicas, caza y pesca, acuicultura. No protegen dinero ni valores; pueden trabajar sin integrarse en una empresa de seguridad",
+            "34, 38.6"
+          ],
+          [
+            "Jefe de seguridad",
+            "Análisis de riesgos, dirección del personal, supervisión de la normativa, custodia de armas de la empresa. Integrado en la empresa de seguridad; obligatorio si hace las actividades a a e",
+            "35, 38.4"
+          ],
+          [
+            "Director de seguridad",
+            "Dirige la seguridad integral de la entidad o empresa y es enlace con la Administración. Se exige por normativa, decisión gubernativa o disposición especial",
+            "36, 38.5"
+          ],
+          [
+            "Detective privado",
+            "Investiga y emite informes. Incompatible con otro personal de seguridad y con funciones públicas; ejerce a través de despachos",
+            "37, 38.7"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Despachos de detectives e investigación privada",
+      "puntos": [
+        "Abren despacho los detectives habilitados o las personas jurídicas formadas **exclusivamente por detectives habilitados**, con **declaración responsable** de validez indefinida (art. 24). Requisitos: domicilio con libro-registro y archivo, relación de detectives, seguro de responsabilidad civil, aval o seguro de caución.",
+        "Obligaciones (art. 25): **contrato escrito por cada servicio** (también si se subcontrata), **libro-registro**, informar al cliente, dar a jueces y FCS la información sobre hechos delictivos y memoria anual. Si cierra, **deposita la documentación en dependencias del Cuerpo Nacional de Policía** o de la policía autonómica.",
+        "Solo se acepta el encargo con **interés legítimo** acreditado (art. 48.2). Se investigan conductas privadas (excepto en domicilios o lugares reservados), el desarrollo de ferias, hoteles y similares y **delitos solo perseguibles a instancia de parte** (art. 48.1). Los **delitos de oficio no se investigan**: se denuncian de inmediato (arts. 10.2 y 37.4).",
+        "**Un único informe por servicio**, conservado **al menos 3 años**; imágenes y sonidos se destruyen a los **3 años** de acabar el servicio, salvo procedimiento judicial, policial o sancionador (art. 49). Es reservado: solo accede el cliente y, en investigación policial o sancionadora, los órganos judiciales y policiales (arts. 49.5 y 50)."
+      ]
+    },
+    {
+      "titulo": "Empresas de seguridad privada",
+      "puntos": [
+        "Solo prestan las actividades a a g del art. 5.1, con objeto social exclusivo (más las compatibles y la formación del personal). Necesitan **autorización administrativa de validez indefinida**; si se dedican solo a la actividad f basta **declaración responsable** (art. 18). El incumplimiento sobrevenido de requisitos extingue la autorización o cierra la empresa (art. 19.8).",
+        "Requisitos (art. 19.1): inscripción mercantil, nacionalidad UE o EEE, medios adecuados, medidas de seguridad, seguro de responsabilidad civil, **aval o seguro de caución** y sin condenas por insolvencia, contra la Hacienda Pública, la Seguridad Social o los trabajadores, ni por intromisión ilegítima en derechos fundamentales.",
+        "Para servir en los **sectores estratégicos de infraestructuras críticas** se exige **certificación de entidad acreditada** sobre cumplimiento administrativo, laboral, de Seguridad Social y tributario (art. 19.4).",
+        "Representantes legales (art. 22): residentes UE o EEE, sin antecedentes por delitos dolosos y sin sanción en los **2 o 4 años** anteriores (grave o muy grave); responden de las obligaciones generales de la empresa (art. 21): comunicar cambios y altas y bajas de personal, formar al personal, informe anual y cuentas."
+      ]
+    },
+    {
+      "titulo": "Quién controla y cómo se coordina con la Policía",
+      "puntos": [
+        "**Administración del Estado**: autoriza, inspecciona y sanciona lo no asumido por las comunidades autónomas, **habilita al personal** y fija armamento, uniformidad y homologaciones (art. 12.1). La **Policía** controla empresas, servicios, personal y medios; la **Guardia Civil**, las armas de empresas y personal y los guardas rurales (art. 12.2).",
+        "**Comunidades autónomas** con competencia estatutaria en protección de personas y bienes y orden público: **ejecutan** la legislación estatal. Autorizan empresas y reciben declaraciones de despachos con domicilio y ámbito limitados a su territorio, inspeccionan y sancionan los servicios en él y controlan los centros de formación con sede en la comunidad (art. 13).",
+        "**Registro Nacional de Seguridad Privada** y registros autonómicos, con inscripción de oficio; solo son públicos denominación o razón social, domicilio, NIF y actividades (art. 11.6).",
+        "Coordinación (Título I): colaboración con las FCS basada en el **principio de legalidad** (art. 14.1); comunicación a las FCS, tan pronto como sea posible, de la información relevante y de los hechos delictivos (art. 14.2); **comisiones mixtas** nacionales, autonómicas o provinciales como órganos consultivos (art. 16.2). La inspección la hacen la Policía, la Guardia Civil (guardas rurales) o la policía autonómica (art. 54); en la Policía Nacional, la **Unidad Central de Seguridad Privada** es la Autoridad Nacional de Control."
+      ]
+    },
+    {
+      "titulo": "Servicios y medidas de seguridad",
+      "puntos": [
+        "Personal uniformado: medios de defensa **sin armas de fuego**; las armas se usan **solo de servicio**, con licencia y en los servicios del art. 40 (arts. 39.2 y 39.3). Con armas (art. 40.1): dinero y valores; fábricas, depósitos y transporte de armas, cartuchería y explosivos; buques mercantes y pesqueros de bandera española en aguas de grave riesgo; vigilancia perimetral de prisiones, centros de internamiento de extranjeros y otras instalaciones públicas.",
+        "Vigilancia (art. 41): en el **interior** como regla. **Sin autorización previa** pueden salir en supuestos tasados (cajeros, rondas, transporte, **persecución en flagrante delito**, razones humanitarias). **Con autorización previa**: polígonos y urbanizaciones, parques comerciales y de ocio, eventos en vías públicas y recintos abiertos delimitados.",
+        "Videovigilancia (art. 42): si busca prevenir infracciones, evitar daños o impedir accesos, la prestan **vigilantes de seguridad** o guardas rurales; no se captan vías públicas sin normativa y autorización; en domicilios, solo con consentimiento.",
+        "Otros servicios (arts. 43 a 47): protección personal por escoltas con autorización previa; depósito y transporte por vigilantes de seguridad o de explosivos; instalación y mantenimiento por técnicos e ingenieros acreditados; gestión de alarmas por **operadores de seguridad**.",
+        "Medidas (art. 52), cinco tipos: **física, electrónica, informática, organizativa y personal**. El Reglamento de 1994 sigue vigente en lo que no contradiga la ley: las farmacias tienen dispositivo de túnel o bandeja, **obligatorio solo con servicio nocturno o de urgencia** (art. 131), y las gasolineras, caja fuerte (art. 130)."
+      ]
+    },
+    {
+      "titulo": "Infracciones, sanciones y medidas provisionales",
+      "puntos": [
+        "Las infracciones prescriben a los **6 meses, 1 año y 2 años** (leves, graves, muy graves; art. 56.2); las sanciones, al **año, 2 y 4 años** (art. 68.1). El procedimiento caduca a los 6 meses (art. 69.2).",
+        "Sanciona (art. 66.1): **Ministro del Interior**, extinciones; **Secretario de Estado de Seguridad**, resto de muy graves; **Director General de la Policía**, graves; **Director General de la Guardia Civil**, graves de guardas rurales; **Delegados y Subdelegados del Gobierno**, leves.",
+        "Además de la multa: en las muy graves, **extinción de la autorización o habilitación** (o cierre) con prohibición de volver a obtenerla de 1 a 2 años; en las graves, **suspensión de 6 meses a 1 año** (arts. 61 a 63).",
+        "Medidas provisionales de los agentes antes del procedimiento (art. 55): se **ratifican en 15 días** y duran **como máximo 6 meses**.",
+        "Calificación del personal (art. 58): **muy grave**, ejercicio abusivo de funciones y abandono injustificado del servicio; **grave**, falta de respeto al honor o la dignidad y retención de documentación personal; **leve**, trato incorrecto o desconsiderado."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Gravedad",
+          "Empresas y despachos (art. 61)",
+          "Personal (art. 62)",
+          "Usuarios y centros de formación (art. 63)"
+        ],
+        "filas": [
+          [
+            "Leve",
+            "300 a 3.000 €",
+            "300 a 1.000 €",
+            "300 a 3.000 €"
+          ],
+          [
+            "Grave",
+            "3.001 a 30.000 €",
+            "1.001 a 6.000 €",
+            "3.001 a 20.000 €"
+          ],
+          [
+            "Muy grave",
+            "30.001 a 600.000 €",
+            "6.001 a 30.000 €",
+            "20.001 a 100.000 €"
+          ]
+        ]
+      }
+    }
+  ],
+  "trampas": [
+    "Validez de la autorización: es **indefinida**, no tiene plazo de caducidad ni de renovación (arts. 18.3 y 24.3).",
+    "Autorización frente a declaración responsable: la declaración responsable sirve para despachos de detectives, centros de formación y empresas dedicadas **solo** a instalación y mantenimiento; las demás empresas necesitan autorización.",
+    "Quién habilita: la Policía habilita a todo el personal **salvo** guardas rurales y sus especialidades (Guardia Civil). Las comunidades autónomas no habilitan, aunque autoricen empresas y sancionen.",
+    "Plazos que se confunden: informes de investigación **3 años** (no 5); medidas provisionales: ratificación en **15 días** y duración máxima **6 meses**; prescripción de infracciones 6 meses, 1 año y 2 años frente a la de sanciones 1, 2 y 4 años.",
+    "Jefe frente a director de seguridad: el jefe está integrado en la empresa de seguridad y supervisa el cumplimiento normativo y dirige al personal; el director dirige la seguridad integral de la entidad usuaria (o de la empresa de seguridad) y hace de enlace con la Administración. No intercambies sus funciones.",
+    "Límites de las funciones: el vigilante puede impedir el acceso pero no retener la documentación ni interrogar; el escolta no identifica ni detiene salvo agresión; el guarda rural no protege dinero ni valores.",
+    "Detectives: solo investigan delitos **perseguibles a instancia de parte**; si conocen un delito de oficio, deben denunciar de inmediato. Una empresa de seguridad no puede hacer investigación privada ni un despacho vigilancia.",
+    "Habilitaciones encadenadas: vigilante de seguridad antes que vigilante de explosivos; guarda rural antes que guarda de caza o guardapesca marítimo (art. 26.2).",
+    "Calificación de las infracciones del personal: falta de respeto al honor o la dignidad es **grave**; el trato incorrecto o desconsiderado es leve; el ejercicio abusivo de funciones es muy grave.",
+    "Armas: los vigilantes uniformados no llevan armas de fuego salvo en los servicios del art. 40 y con licencia; las armas solo se portan estando de servicio."
+  ],
+  "caido": [
+    {
+      "examen": "1 mar 2025 y 26 sep 2026",
+      "concepto": "Competencias de las comunidades autónomas en inspección y sanción (art. 13), principio de legalidad en la colaboración con las FCS (art. 14) y autorización de validez indefinida (art. 18)"
+    },
+    {
+      "examen": "23 abr 2023, 13 abr 2024 y 1 mar 2025",
+      "concepto": "Despachos de detectives: contrato escrito por servicio y libro-registro (art. 25) y conservación de informes durante al menos 3 años (art. 49)"
+    },
+    {
+      "examen": "23 abr 2023 y 13 abr 2024",
+      "concepto": "Funciones del jefe de seguridad frente a las del director de seguridad y los vigilantes (art. 35)"
+    },
+    {
+      "examen": "25 oct 2025",
+      "concepto": "Calificación de la infracción del personal que falta al respeto al honor o la dignidad (art. 58) y habilitación previa que exige el guardapesca marítimo (art. 26.2)"
+    },
+    {
+      "examen": "13 abr 2024",
+      "concepto": "Establecimientos obligados a tener medidas de seguridad: farmacias y gasolineras (Reglamento de 1994, arts. 130 y 131)"
+    }
+  ],
+  "mnemotecnias": [
+    "Actividades del art. 5.1 en orden de letra (a a h): Vigilancia, Acompañamiento (escolta), Depósito de valores, Depósito de armas y explosivos, Transporte, Instalación y mantenimiento, Central de alarmas, Investigación. Las siete primeras, empresas; la última, detectives.",
+    "Prescripción de infracciones: 6 meses, 1 año, 2 años (leve, grave, muy grave). Prescripción de sanciones: 1, 2 y 4 años."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Cuántas actividades de seguridad privada enumera el art. 5.1 y cuál es exclusiva de los despachos de detectives?",
+      "r": "**Ocho** (letras a a h). La **h, investigación privada**, es exclusiva y excluyente de los despachos de detectives (art. 5.2)."
+    },
+    {
+      "p": "¿Qué validez tiene la autorización administrativa de una empresa de seguridad privada?",
+      "r": "**Indefinida** (art. 18.3). La declaración responsable de despachos de detectives también es indefinida (art. 24.3)."
+    },
+    {
+      "p": "¿Qué empresas de seguridad pueden presentar declaración responsable en lugar de pedir autorización?",
+      "r": "Las que se dediquen **exclusivamente a la instalación y mantenimiento** de sistemas conectados a centrales de alarmas o centros de control o videovigilancia (art. 18.2)."
+    },
+    {
+      "p": "¿Quién habilita al personal de seguridad privada?",
+      "r": "El Ministerio del Interior: la **Dirección General de la Policía** a todo el personal, excepto guardas rurales y sus especialidades, que habilita la **Dirección General de la Guardia Civil** (art. 27.3)."
+    },
+    {
+      "p": "¿Cuánto tiempo se conservan los informes de investigación de un despacho de detectives?",
+      "r": "**Al menos 3 años**. Imágenes y sonidos, destruidos 3 años después de finalizar la investigación, salvo procedimiento judicial, policial o sancionador (art. 49.4)."
+    },
+    {
+      "p": "¿Cuándo es obligatorio que exista jefe de seguridad en una empresa de seguridad?",
+      "r": "Siempre que se dedique a alguna de las actividades **a, b, c, d y e** del art. 5.1 (art. 35.2)."
+    },
+    {
+      "p": "¿En qué casos el usuario debe poner al frente de su seguridad a un director de seguridad?",
+      "r": "Cuando lo exija la normativa de desarrollo por la dimensión de su servicio, por **decisión gubernativa** o por **disposición especial** (art. 36.2)."
+    },
+    {
+      "p": "¿Cuáles son los plazos de prescripción de las infracciones y de las sanciones?",
+      "r": "Infracciones: **6 meses, 1 año y 2 años** (leves, graves, muy graves; art. 56.2). Sanciones: **1, 2 y 4 años** (art. 68.1)."
+    },
+    {
+      "p": "¿En qué plazo se ratifican las medidas provisionales previas al procedimiento y cuánto pueden durar?",
+      "r": "Se ratifican, modifican o revocan en **15 días**; duran **como máximo 6 meses** (art. 55.2 y 55.3)."
+    },
+    {
+      "p": "¿Quién impone las sanciones en el ámbito de la Administración del Estado?",
+      "r": "Ministro del Interior (extinciones); Secretario de Estado de Seguridad (resto de muy graves); Director General de la Policía (graves); Delegados y Subdelegados del Gobierno (leves) (art. 66.1)."
+    },
+    {
+      "p": "¿Cuántos tipos de medidas de seguridad distingue el art. 52?",
+      "r": "**Cinco**: física, electrónica, informática, organizativa y personal."
+    },
+    {
+      "p": "Servicios que se prestan con armas de fuego (art. 40.1)",
+      "r": "Dinero, valores y objetos valiosos; fábricas, depósitos y transporte de armas, cartuchería y explosivos; buques mercantes y pesqueros de bandera española en aguas de grave riesgo; vigilancia perimetral de prisiones, CIE y otras instalaciones públicas."
+    },
+    {
+      "p": "¿Qué servicios de vigilancia requieren autorización previa fuera del interior de los inmuebles?",
+      "r": "Polígonos industriales y urbanizaciones delimitados; parques comerciales y de ocio; eventos relevantes en vías públicas; recintos abiertos delimitados (art. 41.2)."
+    },
+    {
+      "p": "¿Qué son las comisiones mixtas de seguridad privada?",
+      "r": "Órganos **consultivos y de colaboración** entre las administraciones y el sector, nacionales, autonómicas o provinciales (art. 16.2)."
+    },
+    {
+      "p": "¿Qué unidad de la Policía Nacional es la Autoridad Nacional de Control de la seguridad privada?",
+      "r": "La **Unidad Central de Seguridad Privada**, dentro de la Comisaría General de Seguridad Ciudadana (Orden INT/859/2023, art. 7.2.e)."
+    },
+    {
+      "p": "¿Cuándo es obligatoria la bandeja o dispositivo de túnel en una farmacia según el Reglamento de 1994?",
+      "r": "Solo cuando la farmacia preste **servicio nocturno o de urgencia** (art. 131 del Reglamento, vigente en lo que no contradiga la Ley 5/2014)."
+    },
+    {
+      "p": "¿Qué deben hacer los detectives ante un delito perseguible de oficio que conocen?",
+      "r": "No investigarlo y **denunciarlo inmediatamente** ante la autoridad competente, aportando la información e instrumentos que tengan (arts. 10.2 y 37.4)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Según la Ley 5/2014 de Seguridad Privada, ¿en qué plazo prescriben las infracciones graves?",
+      "opciones": [
+        "A los seis meses.",
+        "Al año.",
+        "A los dos años."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 56.2 fija seis meses para las leves, un año para las graves y dos años para las muy graves. Seis meses es el plazo de las leves y dos años el de las muy graves; no hay que confundirlos con la prescripción de las sanciones, que es de uno, dos y cuatro años (art. 68.1).",
+      "ref": "art. 56.2 Ley 5/2014",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Cuando los miembros de las Fuerzas y Cuerpos de Seguridad adoptan medidas provisionales anteriores al procedimiento sancionador en materia de seguridad privada, ¿en qué plazo máximo deben ser ratificadas, modificadas o revocadas?",
+      "opciones": [
+        "Quince días.",
+        "Un mes.",
+        "Seis meses."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 55.2 exige ratificarlas, modificarlas o revocarlas en un plazo máximo de quince días; si no se incoa el procedimiento o el acuerdo de incoación no se pronuncia sobre ellas, quedan sin efecto. Los seis meses son la duración máxima de las medidas (art. 55.3), no el plazo para ratificarlas, y el plazo de un mes no aparece en este artículo.",
+      "ref": "art. 55.2 y 55.3 Ley 5/2014",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Durante cuánto tiempo, como mínimo, deben conservarse archivados los informes de investigación elaborados por los despachos de detectives privados?",
+      "opciones": [
+        "Un año.",
+        "Cinco años.",
+        "Tres años."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 49.4 dispone que los informes de investigación se conservan archivados, al menos, durante tres años, y que las imágenes y sonidos grabados se destruyen tres años después de finalizar la investigación, salvo vinculación con un procedimiento judicial, una investigación policial o un procedimiento sancionador. Uno y cinco años no figuran en la ley.",
+      "ref": "art. 49.4 Ley 5/2014",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Qué órgano habilita a los guardas rurales y a sus especialidades?",
+      "opciones": [
+        "La Dirección General de la Policía.",
+        "La Dirección General de la Guardia Civil.",
+        "La Secretaría de Estado de Seguridad."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 27.3 atribuye la habilitación de todo el personal de seguridad privada a la Dirección General de la Policía, con la excepción de los guardas rurales y sus especialidades, que corresponde a la Dirección General de la Guardia Civil. La Secretaría de Estado de Seguridad no habilita; interviene en materia sancionadora (art. 66).",
+      "ref": "art. 27.3 Ley 5/2014",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre las actividades de seguridad privada.",
+      "opciones": [
+        "La investigación privada solo puede prestarse por los despachos de detectives privados, con carácter exclusivo y excluyente.",
+        "La vigilancia y protección de bienes, establecimientos, lugares y eventos solo puede prestarse por empresas de seguridad privada, sin perjuicio de las competencias de las Fuerzas y Cuerpos de Seguridad.",
+        "Las empresas de seguridad privada pueden prestar servicios de investigación privada cuando el cliente los contrate voluntariamente."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 10.3 prohíbe que las empresas de seguridad realicen los servicios de investigación privada propios de los despachos de detectives, y que estos presten servicios propios de las empresas de seguridad. Las otras dos afirmaciones reproducen el art. 5.2, que reserva la vigilancia a las empresas y la investigación privada, en exclusiva, a los despachos.",
+      "ref": "arts. 5.2 y 10.3 Ley 5/2014",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué empresas de seguridad privada pueden sustituir la autorización administrativa por una declaración responsable?",
+      "opciones": [
+        "Las que se dediquen exclusivamente a la instalación y mantenimiento de sistemas de seguridad conectados a centrales receptoras de alarmas o a centros de control o videovigilancia.",
+        "Las que se dediquen exclusivamente al transporte y distribución de dinero y objetos valiosos.",
+        "Las que se dediquen exclusivamente a la vigilancia y protección de bienes y personas."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 18.2 permite suplir la autorización por una declaración responsable cuando la empresa pretenda dedicarse exclusivamente a la actividad de instalación y mantenimiento del art. 5.1.f. El transporte y la vigilancia exigen autorización administrativa, cuya validez es indefinida (art. 18.3).",
+      "ref": "art. 18.1 y 18.2 Ley 5/2014",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes funciones corresponde a los jefes de seguridad?",
+      "opciones": [
+        "La interlocución y enlace con la Administración y las Fuerzas y Cuerpos de Seguridad sobre la seguridad integral de la entidad o grupo empresarial.",
+        "La supervisión de la observancia de la normativa de seguridad privada aplicable.",
+        "La comprobación de que las empresas de seguridad contratadas por la entidad cumplen las exigencias de homologación."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 35.1.g atribuye al jefe de seguridad la supervisión de la observancia de la normativa de seguridad privada. La interlocución con la Administración (art. 36.1.h) y la comprobación de la homologación de los sistemas y de las empresas contratadas (art. 36.1.f) son funciones del director de seguridad.",
+      "ref": "arts. 35.1 y 36.1 Ley 5/2014",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Un vigilante de seguridad controla el acceso a una nave industrial y un visitante se niega a que revise el contenido de su paquetería. ¿Qué puede hacer el vigilante?",
+      "opciones": [
+        "Retener el documento de identidad del visitante hasta que acepte el control.",
+        "Registrar la paquetería por la fuerza, al tratarse de una resistencia al control.",
+        "Impedirle el acceso o ordenarle que abandone el inmueble."
+      ],
+      "correcta": 2,
+      "explicacion": "Según el art. 32.1.b, los vigilantes pueden controlar identidad y objetos personales en los accesos, pero nunca retener la documentación personal. La negativa a exhibir la identificación o a permitir el control faculta para impedir el acceso o para ordenar el abandono del inmueble. La ley no autoriza el registro forzoso.",
+      "ref": "art. 32.1.b Ley 5/2014",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿En qué supuesto pueden los escoltas privados realizar identificaciones o detenciones, o restringir la libre circulación?",
+      "opciones": [
+        "Solo cuando resulte imprescindible por una agresión o un intento manifiesto de agresión a la persona protegida o a los propios escoltas, poniendo de inmediato al detenido a disposición de las Fuerzas y Cuerpos de Seguridad sin interrogarlo.",
+        "Siempre que lo estimen necesario para la protección de la persona escoltada.",
+        "En ningún caso, ni siquiera ante una agresión, porque se trata de una función reservada a las Fuerzas y Cuerpos de Seguridad."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 33.2 prohíbe a los escoltas identificar, detener o restringir la libre circulación, salvo que resulte imprescindible por una agresión o intento manifiesto de agresión; en ese caso deben poner de inmediato al detenido a disposición de las Fuerzas y Cuerpos de Seguridad sin interrogarlo. No es una facultad general ni una prohibición absoluta.",
+      "ref": "art. 33.2 Ley 5/2014",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un cliente propone a un despacho de detectives investigar un robo con violencia cometido contra su local, delito perseguible de oficio. ¿Cómo debe actuar el despacho?",
+      "opciones": [
+        "Aceptar el encargo si el cliente acredita un interés legítimo, ya que el hecho le afecta directamente.",
+        "No contratar la investigación y denunciar inmediatamente el hecho ante la autoridad competente, poniendo a su disposición la información e instrumentos de que disponga.",
+        "Aceptar el encargo y comunicarlo a la Policía en las setenta y dos horas siguientes."
+      ],
+      "correcta": 1,
+      "explicacion": "Los arts. 10.2 y 37.4 prohíben a los detectives contratar o realizar investigaciones de delitos perseguibles de oficio y les obligan a denunciar de inmediato cualquier hecho de esa naturaleza que conozcan. El interés legítimo (art. 48.2) es necesario para los encargos admisibles, pero no habilita este; solo cabe investigar delitos perseguibles a instancia de parte. El plazo de setenta y dos horas no figura en la ley.",
+      "ref": "arts. 10.2, 37.4 y 48 Ley 5/2014",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Para habilitarse como guardapesca marítimo es necesario haberlo hecho previamente como:",
+      "opciones": [
+        "Vigilante de seguridad.",
+        "Vigilante de explosivos.",
+        "Guarda rural."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 26.2 exige haberse habilitado antes como guarda rural para ser guarda de caza o guardapesca marítimo. La habilitación previa como vigilante de seguridad se exige solo para ser vigilante de explosivos, y esta figura no es presupuesto de ninguna de las dos especialidades rurales.",
+      "ref": "art. 26.2 Ley 5/2014",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "La falta de respeto al honor o a la dignidad de las personas cometida por el personal que desempeña funciones de seguridad privada es una infracción:",
+      "opciones": [
+        "Grave.",
+        "Leve.",
+        "Muy grave."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 58.2.c tipifica como grave la falta de respeto al honor o a la dignidad de las personas. El trato incorrecto o desconsiderado con los ciudadanos es leve (art. 58.3.b, no 58.2) y el ejercicio abusivo de las funciones en relación con los ciudadanos es muy grave (art. 58.1.h).",
+      "ref": "art. 58.2.c Ley 5/2014",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "En el ámbito de la Administración General del Estado, ¿a quién corresponde, con carácter general, imponer las sanciones por infracciones graves en materia de seguridad privada?",
+      "opciones": [
+        "Al Secretario de Estado de Seguridad.",
+        "Al Director General de la Policía.",
+        "A los Delegados y Subdelegados del Gobierno."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 66.1 atribuye al Director General de la Policía las sanciones por infracciones graves, con la excepción de las relativas a guardas rurales y a centros y cursos exclusivos para ellos, que corresponden al Director General de la Guardia Civil. El Secretario de Estado de Seguridad sanciona las muy graves distintas de las extinciones y los Delegados y Subdelegados del Gobierno, las leves.",
+      "ref": "art. 66.1 Ley 5/2014",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes servicios de seguridad privada se presta con armas de fuego, en los términos que reglamentariamente se determinen, según el art. 40.1 de la Ley 5/2014?",
+      "opciones": [
+        "La vigilancia en polígonos industriales y urbanizaciones delimitados.",
+        "La vigilancia en acontecimientos deportivos celebrados en vías públicas.",
+        "La vigilancia y protección del almacenamiento, recuento, clasificación y transporte de dinero, valores y objetos valiosos."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 40.1.a incluye entre los servicios con armas de fuego la vigilancia y protección del almacenamiento, recuento, clasificación y transporte de dinero, valores y objetos valiosos. La vigilancia en polígonos y en eventos en vía pública es un servicio de vigilancia del art. 41.2 que requiere autorización previa, pero no figura entre los servicios con armas del art. 40.1.",
+      "ref": "arts. 40.1 y 41.2 Ley 5/2014",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En relación con los servicios de videovigilancia regulados en la Ley 5/2014, señale la afirmación correcta.",
+      "opciones": [
+        "Cuando su finalidad sea prevenir infracciones, evitar daños a personas o bienes o impedir accesos no autorizados, han de ser prestados por vigilantes de seguridad o, en su caso, por guardas rurales.",
+        "Pueden captar imágenes y sonidos de vías y espacios públicos con fines de seguridad privada sin necesidad de autorización alguna.",
+        "Las grabaciones pueden destinarse a un uso distinto de su finalidad si el titular de las instalaciones lo autoriza."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 42.1 exige que sean prestados necesariamente por vigilantes de seguridad o guardas rurales los servicios de videovigilancia cuya finalidad sea prevenir infracciones, evitar daños o impedir accesos no autorizados. Captar vías públicas solo es posible en los supuestos previstos en su normativa y con autorización (art. 42.2), y las grabaciones no pueden destinarse a un fin distinto del suyo (art. 42.4).",
+      "ref": "art. 42 Ley 5/2014",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el Reglamento de Seguridad Privada de 1994, vigente en lo que no contravenga la Ley 5/2014, ¿cuándo es obligatorio utilizar en las oficinas de farmacia el dispositivo de túnel, bandeja de vaivén o bandeja giratoria con seguro?",
+      "opciones": [
+        "Siempre, durante toda la jornada de apertura.",
+        "Únicamente cuando presten servicio nocturno o de urgencia.",
+        "Solo en las farmacias situadas en polígonos industriales o zonas aisladas."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 131 del Reglamento exige que todas las oficinas de farmacia cuenten con el dispositivo, pero su utilización es obligatoria únicamente cuando presten servicio nocturno o de urgencia. El Reglamento sigue vigente en lo que no contravenga la ley (disposición derogatoria única, apartado 2, de la Ley 5/2014). No hay distinción por ubicación.",
+      "ref": "art. 131 RD 2364/1994; disp. derog. única.2 Ley 5/2014",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Un vigilante de seguridad de un centro comercial persigue fuera del local a una persona sorprendida en flagrante delito de hurto contra los bienes que él protege. ¿Es legal su actuación?",
+      "opciones": [
+        "No: los vigilantes solo pueden actuar en el interior de las propiedades, sin excepción alguna.",
+        "Sí, pero únicamente si el órgano competente le había concedido autorización previa para actuar en la vía pública.",
+        "Sí: la persecución de quienes sean sorprendidos en flagrante delito en relación con los bienes o personas protegidas es uno de los supuestos que permiten salir sin autorización previa."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 41.1 establece que los vigilantes actúan, con carácter general, en el interior, pero pueden hacerlo fuera sin autorización previa en supuestos como la persecución de quienes sean sorprendidos en flagrante delito en relación con las personas o bienes protegidos (letra f). Por eso no hay prohibición absoluta, ni se necesita la autorización previa reservada a otros servicios del apartado 2.",
+      "ref": "art. 41.1 Ley 5/2014",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuándo se consideran agresiones y desobediencias a agentes de la autoridad las cometidas contra el personal de seguridad privada?",
+      "opciones": [
+        "Cuando, debidamente identificado, desarrolle actividades de seguridad privada en cooperación y bajo el mando de las Fuerzas y Cuerpos de Seguridad.",
+        "Siempre que esté de servicio y vista el uniforme, con independencia de quién dirija la actuación.",
+        "Solo cuando porte el arma de fuego reglamentaria en un servicio de los que se prestan con armas."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 31 equipara a agentes de la autoridad al personal de seguridad privada debidamente identificado cuando desarrolla actividades en cooperación y bajo el mando de las Fuerzas y Cuerpos de Seguridad. No basta estar de servicio o uniformado, y tampoco depende de llevar arma de fuego.",
+      "ref": "art. 31 Ley 5/2014",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Para contratar servicios de seguridad privada en los sectores estratégicos definidos en la legislación de protección de infraestructuras críticas, las empresas de seguridad deben contar previamente con:",
+      "opciones": [
+        "Una autorización especial del Consejo de Ministros.",
+        "Una certificación emitida por una entidad de certificación acreditada que garantice, como mínimo, el cumplimiento de la normativa administrativa, laboral, de Seguridad Social y tributaria.",
+        "Un informe favorable del Centro Nacional para la Protección de las Infraestructuras Críticas."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 19.4 exige, con carácter previo a la prestación, una certificación de entidad de certificación acreditada que garantice como mínimo el cumplimiento de la normativa administrativa, laboral, de Seguridad Social y tributaria. La ley no prevé una autorización del Consejo de Ministros ni un informe del CNPIC para este caso.",
+      "ref": "art. 19.4 Ley 5/2014",
+      "dificultad": 3
+    }
+  ],
+  "dudas": [
+    "No he localizado un nuevo Reglamento de Seguridad Privada aprobado a 16/10/2026: una fuente secundaria de abril de 2026 lo describe como pendiente. Conviene comprobar en el BOE antes del examen.",
+    "No he leído las Órdenes INT/314/2011 a INT/318/2011 (empresas, personal, medidas de seguridad y otras materias); quedan fuera de este tema salvo que el temario las desarrolle.",
+    "La Orden INT/859/2023 la he leído en la copia consolidada que otro redactor descargó en trabajo/g3 (cabecera: actualización de 20/12/2025), no en una descarga propia."
+  ]
+}

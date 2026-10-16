@@ -1,0 +1,681 @@
+{
+  "tema": 40,
+  "titulo": "Inteligencia, OSINT y capas de Internet",
+  "bloque": "C",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "medio",
+    "nota": "Sube a 3 preguntas por examen desde 2025 (1, 1, 3, 3 y 3 en los cinco últimos). Caen el ciclo de inteligencia del CNI (la primera fase es la dirección), las fuentes HUMINT, SIGINT y GEOINT, las herramientas OSINT (Maltego, Shodan, GooScan), el sesgo de anclaje y la huella digital."
+  },
+  "normas": [
+    {
+      "nombre": "Ley 11/2002, de 6 de mayo, reguladora del Centro Nacional de Inteligencia (arts. 1, 3, 4 y 5)",
+      "boe": "BOE-A-2002-8628",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+      "verificado": "Texto consolidado, actualización de 18/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Centro Nacional de Inteligencia: La Inteligencia (el ciclo de Inteligencia)",
+      "url": "https://www.cni.es/la-inteligencia",
+      "verificado": "Página leída el 16/10/2026 (© 2026 CNI)"
+    },
+    {
+      "nombre": "UNODC: Criminal Intelligence Manual for Analysts (2011)",
+      "url": "https://www.unodc.org/documents/organized-crime/Law-Enforcement/Criminal_Intelligence_for_Analysts.pdf",
+      "verificado": "Capítulos 1, 2 y 4 leídos el 16/10/2026"
+    },
+    {
+      "nombre": "Pub. L. 109-163, art. 931 (definición de inteligencia de fuentes abiertas), recogida en las notas al 50 U.S.C. 3039",
+      "url": "https://www.govinfo.gov/link/uscode/50/3039",
+      "verificado": "Texto oficial de la GPO leído el 16/10/2026"
+    },
+    {
+      "nombre": "OTAN: NATO Open Source Intelligence Handbook, v1.2 (copia en Internet Archive)",
+      "url": "https://archive.org/details/NATOOSINTHandbookV1.2",
+      "verificado": "Apartado de definiciones leído el 16/10/2026"
+    },
+    {
+      "nombre": "intelligence.gov: How the IC Works (disciplinas de recogida y ciclo de inteligencia)",
+      "url": "https://www.intelligence.gov/how-the-ic-works",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "R. J. Heuer Jr., Psychology of Intelligence Analysis (CIA, Center for the Study of Intelligence, 1999)",
+      "url": "https://www.cia.gov/resources/csi/books-monographs/psychology-of-intelligence-analysis-2/",
+      "verificado": "Capítulos sobre anclaje, disponibilidad e imagen en espejo leídos el 16/10/2026"
+    },
+    {
+      "nombre": "INCIBE: Deep web y Dark web, descubre qué son y en qué se diferencian",
+      "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "Europol: Internet Organised Crime Threat Assessment (IOCTA) 2019 (definición de darknet y dark web)",
+      "url": "https://www.europol.europa.eu/sites/default/files/documents/iocta_2019.pdf",
+      "verificado": "Apartado 'The criminal abuse of the dark web' leído el 16/10/2026"
+    },
+    {
+      "nombre": "Tor Project: Onion Services",
+      "url": "https://community.torproject.org/onion-services/",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "INCIBE-CERT: Estudio de herramientas para la actividad de reconocimiento (2023, v1.1)",
+      "url": "https://www.incibe.es/sites/default/files/2023-11/INCIBE-CERT_ESTUDIO_DE_HERRAMIENTAS_DE_RECONOCIMIENTO_2023_v1.1.pdf",
+      "verificado": "Apartados 5.2 y 5.3 leídos el 16/10/2026"
+    },
+    {
+      "nombre": "Shodan: página principal",
+      "url": "https://www.shodan.io",
+      "verificado": "Descripción oficial leída el 16/10/2026"
+    },
+    {
+      "nombre": "INCIBE (OSI): Privacidad, identidad digital y reputación online",
+      "url": "https://www.incibe.es/ciudadania/tematicas/privacidad",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "AEPD e INCIBE: Guía Privacidad y seguridad en Internet (ficha 10, navegación privada)",
+      "url": "https://www.aepd.es/guias/guia-privacidad-y-seguridad-en-internet.pdf",
+      "verificado": "Ficha leída el 16/10/2026"
+    },
+    {
+      "nombre": "Google Chrome Help: Navegar de forma privada (modo incógnito)",
+      "url": "https://support.google.com/chrome/answer/95464",
+      "verificado": "Página leída el 16/10/2026"
+    }
+  ],
+  "novedades": [
+    "La página oficial del CNI (© 2026) describe el ciclo en **cuatro fases** y señala que apoya con inteligencia artificial la obtención y el tratamiento de la información; el fondo del ciclo no cambia."
+  ],
+  "clave": [
+    "**Información + evaluación = inteligencia** (UNODC): la inteligencia es información evaluada según su fuente y su fiabilidad y pensada para decidir. El CNI entrega **Inteligencia** a las autoridades.",
+    "**Ciclo del CNI = 4 fases**: **dirección, obtención, elaboración y difusión**. La primera es la **dirección** (Directiva de Inteligencia secreta y planificación).",
+    "La **Directiva de Inteligencia** la aprueba el Gobierno cada año y es **secreta** (art. 3 Ley 11/2002).",
+    "Disciplinas: **HUMINT** (fuentes humanas), **SIGINT** (señales), **GEOINT** (imágenes e información geográfica), **OSINT** (fuentes abiertas); EE. UU. añade **IMINT** y **MASINT** (seis en total).",
+    "**OSINT** = inteligencia a partir de información públicamente disponible, recogida y difundida para un requerimiento concreto. OTAN: **OSD, OSIF, OSINT y OSINT-V** (validada).",
+    "Fuentes (UNODC): **abiertas**, **cerradas** (bases de datos de acceso limitado) y **clasificadas** (medios encubiertos).",
+    "Herramientas OSINT: **Maltego** (grafos de relaciones), **Shodan** y Censys (dispositivos conectados), **FOCA** y ExifTool (metadatos), **theHarvester** (correos), **dorks** de Google (operadores de búsqueda).",
+    "**Surface Web**: indexada por buscadores. **Deep Web**: no indexada, la mayor parte de Internet y legal. **Dark Web**: parte reducida de la Deep Web, accesible por redes como **Tor** (.onion).",
+    "Europol: la **darknet** es la parte cifrada de Internet accesible con software específico (Tor); la **dark web** son los sitios y servicios alojados en ella.",
+    "Acceder a la Dark Web **no es ilegal en sí mismo**; participar en actividades delictivas dentro de ella sí puede serlo (INCIBE).",
+    "**Sesgo de anclaje**: ajustar de forma insuficiente una estimación inicial. No confundir con confirmación, imagen en espejo ni disponibilidad.",
+    "El **modo incógnito** no guarda historial ni cookies en el equipo, pero **no impide** que sitios web, red o proveedor vean la actividad."
+  ],
+  "resumen": [
+    {
+      "titulo": "Dato, información e inteligencia",
+      "puntos": [
+        "**Dato**: elemento aislado y sin contexto (una cifra, un nombre, una matrícula). **Información**: datos organizados o contextualizados que tienen significado; la UNODC la define como «conocimiento en bruto». **Inteligencia**: información que se ha **evaluado** (según su fuente y su fiabilidad), analizado e interpretado para apoyar una decisión. UNODC: **información + evaluación = inteligencia**.",
+        "El CNI lo expresa así: el resultado final de su trabajo es la **Inteligencia**, que entrega a las autoridades para facilitar la toma de decisiones. La Ley 11/2002 (art. 4.a) le encomienda **obtener, evaluar e interpretar información y difundir la inteligencia** necesaria para proteger y promover los intereses de España.",
+        "La UNODC resume la inteligencia como «conocimiento (información procesada) diseñado para la acción»; implica siempre cierta interpretación y, por tanto, un margen de especulación y riesgo que depende de la calidad y la cantidad de información.",
+        "La inteligencia **no es prueba** por sí misma: recoger inteligencia en una investigación suele ser previo a la fase de obtención de pruebas, y la legislación nacional determina cómo puede usarse y si queda protegida de su revelación en el proceso penal (UNODC)."
+      ]
+    },
+    {
+      "titulo": "Ciclo de la inteligencia",
+      "puntos": [
+        "El **ciclo de inteligencia del CNI** tiene **4 fases**: **dirección, obtención, elaboración y difusión**. La primera es la **dirección**, no la obtención.",
+        "**Dirección**: el ciclo se inicia con la **Directiva de Inteligencia**, documento **secreto** que recoge los objetivos de inteligencia del Gobierno y se aprueba cada año (art. 3 Ley 11/2002). Después el CNI **planifica y organiza** los recursos disponibles.",
+        "**Obtención**: se reúne información por distintas vías: **HUMINT** (fuentes humanas), **OSINT** (fuentes abiertas), **SIGINT** (fuentes técnicas) y **GEOINT** (imágenes e información geográfica).",
+        "**Elaboración**: se **valora** la calidad y el origen de la información, se **examina** la disponible, se **integra** la de distintas fuentes, se **redacta** el producto final y se **interpreta** según los contextos.",
+        "**Difusión**: es el final del ciclo; la inteligencia se distribuye a las autoridades responsables de adoptar decisiones."
+      ]
+    },
+    {
+      "titulo": "Tipologías de inteligencia",
+      "puntos": [
+        "**Según la fuente (disciplinas «INT»)**: el CNI cita HUMINT, OSINT, SIGINT y GEOINT; la comunidad de inteligencia de EE. UU. cuenta **seis**: HUMINT, SIGINT, GEOINT, IMINT, MASINT y OSINT.",
+        "**Según el uso (UNODC)**: **estratégica** (objetivos a largo plazo: tendencias de la delincuencia, amenazas y cambios de políticas) y **operativa** (apoya a un equipo de investigación con hipótesis sobre redes, personas o métodos concretos). Conocer bien la operativa es requisito para desarrollar la estratégica.",
+        "**Según el acceso a la fuente (UNODC)**: **abiertas** (información públicamente disponible), **cerradas** (bases de datos estructuradas de acceso limitado: antecedentes, matrículas, licencias de armas) y **clasificadas** (obtenidas por medios encubiertos humanos y técnicos)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Sigla",
+          "Significado",
+          "Procedencia de la información"
+        ],
+        "filas": [
+          [
+            "HUMINT",
+            "Human Intelligence",
+            "Fuentes humanas"
+          ],
+          [
+            "SIGINT",
+            "Signals Intelligence",
+            "Interceptación de señales entre personas, entre máquinas o entre ambas (el CNI habla de fuentes técnicas)"
+          ],
+          [
+            "IMINT",
+            "Imagery Intelligence",
+            "Representaciones de objetos reproducidas por medios electrónicos u ópticos"
+          ],
+          [
+            "GEOINT",
+            "Geospatial Intelligence",
+            "Explotación y análisis de imágenes e información geográfica"
+          ],
+          [
+            "MASINT",
+            "Measurement and Signature Intelligence",
+            "Información científica y técnica para localizar, identificar o describir"
+          ],
+          [
+            "OSINT",
+            "Open Source Intelligence",
+            "Información públicamente disponible, impresa o electrónica"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "OSINT: concepto, categorías y herramientas",
+      "puntos": [
+        "**OSINT** (inteligencia de fuentes abiertas) es la inteligencia producida a partir de **información públicamente disponible** que se recoge, explota y difunde a tiempo a la audiencia adecuada para responder a un requerimiento de inteligencia concreto (Pub. L. 109-163, art. 931).",
+        "La **OTAN** distingue 4 categorías: **OSD** (datos abiertos en bruto: prensa, emisiones, imágenes comerciales de satélite, cartas), **OSIF** (información abierta: datos reunidos mediante un proceso editorial con cierto filtrado, como periódicos y libros), **OSINT** (información descubierta, discriminada, destilada y difundida a una audiencia selecta para responder a una pregunta concreta) y **OSINT-V** (OSINT **validada**, con un grado de certeza muy alto).",
+        "La dificultad principal de las fuentes abiertas es su **evaluación**: la información pública puede estar sesgada, ser inexacta o sensacionalista (UNODC).",
+        "INCIBE-CERT: el reconocimiento se basa sobre todo en OSINT y puede ser **pasivo** (sin interactuar con los sistemas del objetivo; por ejemplo, consultar Shodan) o **activo** (enviando tráfico al objetivo, con más riesgo de detección)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Herramienta o técnica",
+          "Para qué sirve"
+        ],
+        "filas": [
+          [
+            "Maltego",
+            "Minería de datos y análisis de grafos: relaciones entre entidades o personas (dominios, correos, teléfonos)"
+          ],
+          [
+            "Shodan y Censys",
+            "Indexadores: información sobre direcciones IP y dispositivos conectados a Internet (servicios, puertos abiertos, posibles vulnerabilidades)"
+          ],
+          [
+            "Google hacking o dorking (por ejemplo, GooScan)",
+            "Operadores avanzados de búsqueda para filtrar información expuesta en los buscadores"
+          ],
+          [
+            "theHarvester y Hunter",
+            "Recopilan correos electrónicos y datos de empleados de un dominio"
+          ],
+          [
+            "FOCA y ExifTool",
+            "Extracción de metadatos de documentos"
+          ],
+          [
+            "Have I Been Pwned e Intelligence X",
+            "Búsqueda de datos en filtraciones"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Surface Web, Deep Web, Dark Web y Dark Net",
+      "puntos": [
+        "La **Surface Web** (web superficial) es el contenido indexado por los buscadores (Google, Bing…). La **Deep Web** es el contenido que los buscadores no indexan y constituye la mayor parte de Internet; la **Dark Web** es una sección más reducida dentro de la Deep Web (INCIBE).",
+        "**Darknet** y **dark web** se usan a menudo como sinónimos. Europol (IOCTA 2019) los distingue: la **darknet** es la parte cifrada de Internet a la que se accede con software específico que no es criminal en sí mismo, como el navegador **Tor**; la **dark web** son los sitios y servicios, muchos criminales, alojados en esas redes.",
+        "**Tor** (The Onion Router) dificulta la identificación del usuario y cifra la comunicación en varias capas. Sus direcciones terminan en **.onion** y no se abren con navegadores tradicionales; los onion services solo son accesibles a través de Tor.",
+        "**Legalidad** (INCIBE): acceder a la Deep Web es legal en la mayoría de los casos y acceder a la Dark Web **no es ilegal en sí mismo**; participar en actividades delictivas dentro de ella sí puede tener consecuencias legales graves. En la Dark Web hay también foros usados por activistas y periodistas."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Término",
+          "Qué es",
+          "Cómo se accede"
+        ],
+        "filas": [
+          [
+            "Surface Web",
+            "Contenido indexado por los buscadores convencionales",
+            "Navegador y buscador corrientes"
+          ],
+          [
+            "Deep Web",
+            "Contenido no indexado y, en gran parte, protegido por credenciales (cuentas bancarias, intranets, foros cerrados); la mayor parte de Internet; legítima",
+            "Navegador, con usuario y contraseña o enlace directo"
+          ],
+          [
+            "Dark Web",
+            "Sección reducida de la Deep Web con servicios diseñados para accederse por redes específicas; alberga usos lícitos e ilícitos",
+            "Software específico, como Tor, y direcciones .onion"
+          ],
+          [
+            "Darknet",
+            "Parte cifrada de Internet a la que se accede con software específico (Europol)",
+            "Tor, por ejemplo"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Sesgos del analista",
+      "puntos": [
+        "**Sesgo de anclaje** (anchoring): se toma un punto de partida (una estimación previa o un cálculo parcial) como primera aproximación y se ajusta **insuficientemente** al recibir nueva información, de modo que la estimación final queda más cerca del ancla de lo debido (Heuer, cap. 12).",
+        "Otros sesgos que se confunden con él: **confirmación** (centrarse en las pruebas que confirman la hipótesis y no en las que la refutan), **imagen en espejo** (mirror-imaging: rellenar lagunas suponiendo que el adversario actuaría como lo haría el propio analista) y **disponibilidad** (juzgar la probabilidad de un suceso por la facilidad con que se recuerdan o imaginan ejemplos)."
+      ]
+    },
+    {
+      "titulo": "Huella digital y navegación privada",
+      "puntos": [
+        "La **huella digital** es el rastro que dejamos en Internet: según INCIBE, cada clic y cada dato que compartimos forman una huella que puede ser rastreada y que conforma nuestra identidad digital.",
+        "La **navegación privada (modo incógnito)** evita que el navegador conserve el historial y las cookies de la sesión y protege frente a otras personas que usen el dispositivo (AEPD e INCIBE). **No hace invisible** la actividad: los sitios web visitados y quienes gestionan la red (empleador, centro educativo o proveedor de acceso) pueden seguir viéndola (Google Chrome).",
+        "Para reducir la huella: limitar la información personal que se comparte, revisar la configuración de privacidad de los servicios y usar extensiones que bloqueen anuncios y rastreadores (INCIBE)."
+      ]
+    },
+    {
+      "titulo": "Otros modelos del ciclo de inteligencia (UNODC y EE. UU.)",
+      "ampliado": true,
+      "puntos": [
+        "La UNODC (inteligencia criminal) describe el ciclo con más fases y lo cierra con la **reevaluación** continua de todo el proceso, que no debe dejarse solo para el final.",
+        "La comunidad de inteligencia de EE. UU. lo resume en **seis pasos**, y su primer paso es la planificación, como la dirección del CNI."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Modelo",
+          "Fases"
+        ],
+        "filas": [
+          [
+            "CNI (4 fases)",
+            "Dirección, obtención, elaboración y difusión"
+          ],
+          [
+            "UNODC, inteligencia criminal",
+            "Dirección o encargo (tasking), recogida, evaluación, colación (organización de los datos), análisis (integración de datos e inferencias), difusión y reevaluación"
+          ],
+          [
+            "Comunidad de inteligencia de EE. UU. (6 pasos)",
+            "Planificación, recogida, procesamiento, análisis, difusión y evaluación"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Evaluación de fuentes y de información: sistemas 4x4 y 6x6",
+      "ampliado": true,
+      "puntos": [
+        "La UNODC exige evaluar la **fuente** y la **información** por **separado**, con criterio profesional (no con sentimientos personales) y lo más cerca posible de la fuente.",
+        "Sistema **4x4** (lo usan, por ejemplo, los analistas de Europol): la fuente se califica con **A, B, C o X** y la información con **1 a 4**. Sistema **6x6**: la fuente con **A a F** y la información con **1 a 6**. En ambos, la **A** y el **1** son la mejor valoración, y la **X** (en el 4x4) y la **F** (en el 6x6) indican que la fiabilidad de la fuente no puede juzgarse."
+      ]
+    }
+  ],
+  "trampas": [
+    "La **primera fase del ciclo es la dirección**, no la obtención; la elaboración (valoración, examen, integración, redacción, interpretación) va después de la obtención y antes de la difusión.",
+    "No intercambiar las disciplinas: **OSINT** = fuentes abiertas; **HUMINT** = fuentes humanas; **SIGINT** = señales o fuentes técnicas; **GEOINT** = imágenes e información geográfica.",
+    "**Deep Web no es lo mismo que Dark Web**: la primera es legítima en su mayor parte y la segunda es una parte reducida de ella accesible por redes como Tor.",
+    "Europol distingue **darknet** (la red cifrada accesible con software como Tor) de **dark web** (los sitios y servicios alojados en ella); muchas fuentes los usan como sinónimos, pero el Anexo I los lista por separado.",
+    "Acceder a la Dark Web **no es ilegal en sí mismo**; lo ilegal es participar en actividades delictivas. Y la Deep Web tampoco es ilegal por sí misma.",
+    "El **modo incógnito** no impide que los sitios web, la red de trabajo o el proveedor vean la actividad: solo evita guardar historial y cookies en el equipo.",
+    "Herramientas con nombres parecidos: **Maltego** = grafos de relaciones; **Shodan** = dispositivos conectados; **FOCA** = metadatos; **theHarvester** = correos de un dominio; **dorks** = operadores de búsqueda.",
+    "Sesgos: **anclaje** (ajuste insuficiente de la primera estimación), **confirmación** (solo pruebas favorables), **imagen en espejo** (suponer que el otro piensa como yo) y **disponibilidad** (probabilidad por facilidad de recordar).",
+    "La inteligencia **no es prueba**: suele preceder a la obtención de pruebas y la legislación nacional determina cómo puede usarse en el proceso.",
+    "La fuente y la información se evalúan **por separado**: una fuente fiable no garantiza que cada dato lo sea."
+  ],
+  "caido": [
+    {
+      "examen": "1 mar 2025 y 26 sep 2026",
+      "concepto": "Ciclo de inteligencia (CNI): dirección, obtención, elaboración y difusión; la primera fase es la dirección; fuentes SIGINT, HUMINT y GEOINT"
+    },
+    {
+      "examen": "23 abr 2023, 1 mar 2025, 25 oct 2025 y 26 sep 2026",
+      "concepto": "Herramientas OSINT: Maltego (relaciones), Shodan (dispositivos), GooScan (Google hacking) y buscadores generales"
+    },
+    {
+      "examen": "13 abr 2024, 1 mar 2025 y 25 oct 2025",
+      "concepto": "Sesgo de anclaje en el análisis de inteligencia; inteligencia criminal (UNODC); huella digital y modo incógnito"
+    },
+    {
+      "examen": "26 sep 2026",
+      "concepto": "Spear phishing (una academia lo clasificó en este tema, aunque el Anexo I lo incluye en el tema 41)"
+    }
+  ],
+  "mnemotecnias": [
+    "Ciclo del CNI: **D-O-E-D** = **D**irección, **O**btención, **E**laboración, **D**ifusión; la primera D es la que abre el ciclo.",
+    "**Información + evaluación = inteligencia** (UNODC).",
+    "Capas de Internet: **Surface** = la que encuentras con Google; **Deep** = la que exige credenciales o no está indexada; **Dark** = la que exige Tor (.onion)."
+  ],
+  "tarjetas": [
+    {
+      "p": "Diferencia entre dato, información e inteligencia.",
+      "r": "**Dato**: elemento aislado sin contexto. **Información**: conocimiento en bruto, datos con significado. **Inteligencia**: información evaluada (fuente y fiabilidad) y analizada para decidir (UNODC: información + evaluación)."
+    },
+    {
+      "p": "¿Cuántas fases tiene el ciclo de inteligencia del CNI y cuál es la primera?",
+      "r": "**4**: dirección, obtención, elaboración y difusión. La primera es la **dirección**."
+    },
+    {
+      "p": "¿Qué es la Directiva de Inteligencia?",
+      "r": "Documento **secreto** que recoge los objetivos de inteligencia del Gobierno, aprobado cada año; con ella se inicia el ciclo (art. 3 Ley 11/2002)."
+    },
+    {
+      "p": "¿Qué se hace en la fase de elaboración del ciclo del CNI?",
+      "r": "**Valoración** de calidad y origen, **examen**, **integración**, **redacción** del producto final e **interpretación**."
+    },
+    {
+      "p": "HUMINT, OSINT, SIGINT y GEOINT: ¿de dónde procede la información?",
+      "r": "**HUMINT**: fuentes humanas. **OSINT**: fuentes abiertas. **SIGINT**: fuentes técnicas (señales). **GEOINT**: imágenes e información geográfica."
+    },
+    {
+      "p": "¿Cuántas disciplinas de recogida cuenta la comunidad de inteligencia de EE. UU.?",
+      "r": "**Seis**: HUMINT, SIGINT, GEOINT, IMINT, MASINT y OSINT."
+    },
+    {
+      "p": "Tipos de inteligencia según la UNODC.",
+      "r": "**Estratégica** (largo plazo, tendencias y amenazas) y **operativa** (apoyo a investigaciones concretas)."
+    },
+    {
+      "p": "Fuentes abiertas, cerradas y clasificadas según la UNODC.",
+      "r": "**Abiertas**: públicas. **Cerradas**: bases de datos de acceso limitado (antecedentes, matrículas, armas). **Clasificadas**: medios encubiertos humanos y técnicos."
+    },
+    {
+      "p": "¿Qué es OSINT?",
+      "r": "Inteligencia producida a partir de **información públicamente disponible**, recogida, explotada y difundida a tiempo para un requerimiento concreto."
+    },
+    {
+      "p": "Categorías OTAN de la información abierta.",
+      "r": "**OSD** (datos en bruto), **OSIF** (información editada), **OSINT** (inteligencia para una pregunta concreta) y **OSINT-V** (validada, certeza muy alta)."
+    },
+    {
+      "p": "¿Para qué sirve Maltego?",
+      "r": "Minería de datos y **análisis de grafos** de relaciones entre entidades o personas."
+    },
+    {
+      "p": "¿Para qué sirve Shodan?",
+      "r": "Buscador de **dispositivos conectados a Internet**: servicios, puertos abiertos y posibles vulnerabilidades por IP o dominio."
+    },
+    {
+      "p": "¿Qué es el Google hacking o dorking?",
+      "r": "Uso de **operadores avanzados de búsqueda** para localizar información expuesta; herramientas como GooScan lo automatizan."
+    },
+    {
+      "p": "¿Qué herramientas extraen metadatos de documentos?",
+      "r": "**FOCA** y **ExifTool**."
+    },
+    {
+      "p": "¿Qué es la Surface Web?",
+      "r": "El contenido **indexado por los buscadores** convencionales (Google, Bing)."
+    },
+    {
+      "p": "¿Qué es la Deep Web?",
+      "r": "Contenido **no indexado** por los buscadores (cuentas bancarias, intranets, foros cerrados); es la **mayor parte** de Internet y no es ilegal por sí misma."
+    },
+    {
+      "p": "¿Qué es la Dark Web?",
+      "r": "Sección **reducida de la Deep Web** accesible por redes específicas como Tor (.onion); alberga usos lícitos e ilícitos."
+    },
+    {
+      "p": "Darknet frente a dark web según Europol.",
+      "r": "**Darknet**: la parte cifrada de Internet accesible con software específico (Tor). **Dark web**: los sitios y servicios alojados en esas redes."
+    },
+    {
+      "p": "¿Es ilegal acceder a la Dark Web?",
+      "r": "El simple acceso **no es ilegal en sí mismo** (INCIBE); participar en actividades delictivas dentro de ella sí puede tener consecuencias legales graves."
+    },
+    {
+      "p": "¿Qué es el sesgo de anclaje?",
+      "r": "Tomar un punto de partida como primera estimación y **ajustarlo de forma insuficiente** al recibir nueva información (Heuer)."
+    },
+    {
+      "p": "¿Qué es la imagen en espejo (mirror-imaging)?",
+      "r": "Rellenar lagunas suponiendo que el adversario actuará como lo haría el propio analista."
+    },
+    {
+      "p": "¿Qué no hace el modo incógnito?",
+      "r": "No oculta la actividad a los **sitios web visitados**, a la **red** (empleador, centro) ni al **proveedor de acceso**; solo evita guardar historial y cookies en el equipo."
+    },
+    {
+      "p": "¿Cómo se evalúan fuente e información?",
+      "r": "**Por separado**. Sistemas **4x4** (fuente A, B, C, X; información 1-4) y **6x6** (fuente A-F; información 1-6)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "¿Cuál es la secuencia correcta de las fases del ciclo de inteligencia que describe el CNI?",
+      "opciones": [
+        "Dirección, obtención, elaboración y difusión.",
+        "Obtención, dirección, elaboración y difusión.",
+        "Dirección, elaboración, obtención y difusión."
+      ],
+      "correcta": 0,
+      "explicacion": "Según el CNI, el ciclo comienza con la dirección (la Directiva de Inteligencia y la planificación), sigue con la obtención de información, continúa con la elaboración y termina con la difusión a las autoridades. La obtención no es la primera fase y la elaboración no puede preceder a la obtención.",
+      "ref": "CNI, La Inteligencia (ciclo de Inteligencia)",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "En el ciclo de inteligencia del CNI, ¿en qué fase se valora la calidad y el origen de la información recibida?",
+      "opciones": [
+        "Dirección",
+        "Elaboración",
+        "Difusión"
+      ],
+      "correcta": 1,
+      "explicacion": "En la elaboración se valora la calidad y el origen de la información, se examina toda la disponible, se integra la de distintas fuentes, se redacta el producto final y se interpreta según los contextos. La dirección fija objetivos y planifica, y la difusión entrega la inteligencia a quienes deciden.",
+      "ref": "CNI, La Inteligencia (fase de elaboración)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cómo se denomina el documento secreto, aprobado cada año, que recoge los objetivos de inteligencia del Gobierno y da inicio al ciclo de inteligencia?",
+      "opciones": [
+        "Estrategia de Seguridad Nacional.",
+        "Catálogo Nacional de Infraestructuras Estratégicas.",
+        "Directiva de Inteligencia."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 3 de la Ley 11/2002 dispone que el Gobierno determina y aprueba anualmente los objetivos del CNI mediante la Directiva de Inteligencia, de carácter secreto. La Estrategia de Seguridad Nacional y el Catálogo de Infraestructuras Estratégicas son instrumentos distintos.",
+      "ref": "art. 3 Ley 11/2002; CNI, La Inteligencia",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la pareja INCORRECTA entre disciplina de inteligencia y tipo de fuente:",
+      "opciones": [
+        "HUMINT: información procedente de fuentes humanas.",
+        "SIGINT: interceptación de señales.",
+        "GEOINT: información procedente de fuentes abiertas."
+      ],
+      "correcta": 2,
+      "explicacion": "La información de fuentes abiertas es OSINT. GEOINT procede de la explotación y el análisis de imágenes e información geográfica. HUMINT (fuentes humanas) y SIGINT (señales) están bien asociadas.",
+      "ref": "CNI, La Inteligencia (obtención); intelligence.gov, How the IC Works",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una analista combina imágenes de satélite e información geográfica para localizar un campamento. ¿Qué disciplina de inteligencia aplica?",
+      "opciones": [
+        "HUMINT",
+        "GEOINT",
+        "SIGINT"
+      ],
+      "correcta": 1,
+      "explicacion": "La inteligencia geoespacial (GEOINT) se obtiene de la explotación y el análisis de imágenes e información geográfica. HUMINT procede de fuentes humanas y SIGINT de la interceptación de señales.",
+      "ref": "CNI, La Inteligencia (obtención); intelligence.gov",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes definiciones corresponde a la inteligencia de fuentes abiertas (OSINT)?",
+      "opciones": [
+        "Inteligencia producida a partir de información públicamente disponible, recogida, explotada y difundida a tiempo a la audiencia adecuada para responder a un requerimiento concreto.",
+        "Inteligencia obtenida mediante la interceptación de comunicaciones y señales electrónicas.",
+        "Inteligencia procedente de fuentes humanas que el servicio capta de forma encubierta."
+      ],
+      "correcta": 0,
+      "explicacion": "Es la definición recogida en la ley estadounidense Pub. L. 109-163 (art. 931). La interceptación de señales es SIGINT y la procedente de fuentes humanas es HUMINT.",
+      "ref": "Pub. L. 109-163, art. 931 (50 U.S.C. 3039, notas)",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el manual de la OTAN sobre OSINT, ¿cómo se denomina la información abierta a la que puede atribuirse un grado de certeza muy alto?",
+      "opciones": [
+        "Datos abiertos (OSD).",
+        "Información abierta (OSIF).",
+        "OSINT validada (OSINT-V)."
+      ],
+      "correcta": 2,
+      "explicacion": "El manual de la OTAN define cuatro categorías: OSD (datos en bruto), OSIF (información que pasa por un proceso editorial), OSINT (información descubierta, destilada y difundida para responder a una pregunta) y OSINT-V, la validada, a la que se atribuye un grado de certeza muy alto.",
+      "ref": "NATO OSINT Handbook v1.2, definiciones",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Qué pareja de herramienta OSINT y finalidad es correcta?",
+      "opciones": [
+        "Maltego: búsqueda de dispositivos conectados a Internet; Shodan: extracción de metadatos de documentos; FOCA: análisis de relaciones mediante grafos.",
+        "Maltego: análisis de relaciones entre entidades mediante grafos; Shodan: búsqueda de dispositivos conectados a Internet; FOCA: extracción de metadatos de documentos.",
+        "Maltego: extracción de metadatos de documentos; Shodan: análisis de relaciones mediante grafos; FOCA: búsqueda de dispositivos conectados a Internet."
+      ],
+      "correcta": 1,
+      "explicacion": "INCIBE-CERT asigna Maltego a la minería de datos y el análisis de grafos de entidades, Shodan (junto con Censys) a la búsqueda de información sobre IP y dispositivos, y FOCA (junto con ExifTool) a los metadatos de documentos. Las otras opciones permutan las funciones.",
+      "ref": "INCIBE-CERT, Estudio de herramientas de reconocimiento 2023, apartados 5.2 y 5.3",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El «Google hacking» o dorking, técnica habitual en OSINT, consiste en…",
+      "opciones": [
+        "usar operadores avanzados de búsqueda para filtrar y localizar información expuesta en los buscadores.",
+        "interceptar el tráfico de red que un usuario envía a un buscador.",
+        "atacar los servidores de un buscador para acceder a sus bases de datos."
+      ],
+      "correcta": 0,
+      "explicacion": "INCIBE-CERT describe el dorking como el uso de operadores de búsqueda para filtrar información en los buscadores, lo que permite obtener datos como correos, nombres de empleados o credenciales expuestas. No implica interceptar tráfico ni atacar al buscador.",
+      "ref": "INCIBE-CERT, Estudio de herramientas de reconocimiento 2023, apartado 5.3",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "En el análisis de inteligencia, el sesgo de anclaje consiste en…",
+      "opciones": [
+        "buscar únicamente las pruebas que confirman la hipótesis de partida.",
+        "suponer que el adversario actuará como lo haría el propio analista en su lugar.",
+        "tomar un punto de partida como primera aproximación y ajustarlo de forma insuficiente al recibir nueva información."
+      ],
+      "correcta": 2,
+      "explicacion": "Heuer describe el anclaje como la estrategia de usar un punto de partida como primera estimación y ajustarlo después, pero con tan poca amplitud que el resultado queda más cerca del ancla de lo debido. Buscar solo pruebas confirmatorias es el sesgo de confirmación y proyectar la propia lógica en el adversario es la imagen en espejo.",
+      "ref": "Heuer, Psychology of Intelligence Analysis, cap. 12 (Anchoring)",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Cómo se llama el sesgo que consiste en rellenar lagunas de conocimiento suponiendo que el adversario actuaría como lo haría el propio analista?",
+      "opciones": [
+        "Sesgo de disponibilidad.",
+        "Imagen en espejo (mirror-imaging).",
+        "Sesgo de anclaje."
+      ],
+      "correcta": 1,
+      "explicacion": "Heuer llama imagen en espejo a rellenar los huecos del propio conocimiento asumiendo que la otra parte actuará como lo haría el analista; conduce a suposiciones peligrosas porque otras culturas no piensan igual. La disponibilidad estima probabilidades por la facilidad para recordar casos y el anclaje ajusta poco una estimación inicial.",
+      "ref": "Heuer, Psychology of Intelligence Analysis (Be Wary of Mirror Images)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según la UNODC, ¿cómo deben evaluarse la fuente y la información recibida?",
+      "opciones": [
+        "De forma independiente: por un lado la fiabilidad de la fuente y por otro la validez de la información.",
+        "De forma conjunta, con una única valoración que resuma ambas.",
+        "Solo la fuente, porque una fuente fiable garantiza que la información sea cierta."
+      ],
+      "correcta": 0,
+      "explicacion": "La UNODC establece que la evaluación de la fuente debe hacerse por separado de la de la información, lo más cerca posible de la fuente y con juicio profesional. Los sistemas 4x4 y 6x6 usan letras para la fuente y números para la información.",
+      "ref": "UNODC, Criminal Intelligence Manual for Analysts, cap. 4",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Las bases de datos estructuradas de acceso limitado (antecedentes penales, matrículas, licencias de armas) son, según la UNODC, fuentes…",
+      "opciones": [
+        "abiertas.",
+        "clasificadas.",
+        "cerradas."
+      ],
+      "correcta": 2,
+      "explicacion": "La UNODC distingue fuentes abiertas (públicas), cerradas (información reunida con un fin concreto y de acceso limitado, normalmente en bases de datos estructuradas) y clasificadas (obtenidas por medios encubiertos humanos y técnicos). Las bases de datos de acceso restringido son fuentes cerradas.",
+      "ref": "UNODC, Criminal Intelligence Manual for Analysts, cap. 2",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cómo se denomina la parte de Internet cuyo contenido está indexado por los buscadores convencionales, como Google o Bing?",
+      "opciones": [
+        "Deep Web",
+        "Surface Web (web superficial)",
+        "Dark Web"
+      ],
+      "correcta": 1,
+      "explicacion": "INCIBE llama Internet superficial al contenido indexado que se encuentra con los motores de búsqueda. La Deep Web es el contenido que los buscadores no indexan y la Dark Web es una sección reducida de ella.",
+      "ref": "INCIBE, Deep web y Dark web: qué son y en qué se diferencian",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale la afirmación correcta sobre la Deep Web:",
+      "opciones": [
+        "Es la mayor parte del contenido de Internet y no está indexada por los buscadores; incluye servicios legítimos como la banca en línea o las intranets.",
+        "Solo se puede acceder a ella mediante el navegador Tor y direcciones .onion.",
+        "Está formada exclusivamente por contenido ilícito."
+      ],
+      "correcta": 0,
+      "explicacion": "Según INCIBE, la Deep Web constituye la mayor parte de Internet, permanece oculta para los buscadores tradicionales e incluye información protegida por credenciales, como cuentas bancarias o intranets; no es ilegal en sí. Tor y .onion corresponden a la Dark Web.",
+      "ref": "INCIBE, Deep web y Dark web: qué son y en qué se diferencian",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según Europol (IOCTA 2019), ¿cómo se distinguen los términos darknet y dark web?",
+      "opciones": [
+        "La darknet es el contenido ilícito y la dark web es la red cifrada a la que se accede con Tor.",
+        "Son exactamente lo mismo y Europol no los distingue en ningún caso.",
+        "La darknet es la parte cifrada de Internet a la que se accede con software específico como Tor; la dark web son los sitios y servicios criminales alojados en esas redes."
+      ],
+      "correcta": 2,
+      "explicacion": "Europol aclara que a menudo se usan indistintamente, pero a efectos de su informe define la darknet como la parte cifrada de Internet accesible con software específico no criminal en sí mismo, como Tor, y la dark web como los numerosos sitios y servicios criminales alojados en esas redes. La primera opción invierte los términos.",
+      "ref": "Europol, IOCTA 2019, 'The criminal abuse of the dark web'",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Las direcciones web que terminan en «.onion»…",
+      "opciones": [
+        "se indexan en Google como cualquier otra página.",
+        "no pueden abrirse con navegadores tradicionales y corresponden a servicios accesibles a través de la red Tor.",
+        "identifican las páginas de la Deep Web a las que se accede con usuario y contraseña."
+      ],
+      "correcta": 1,
+      "explicacion": "INCIBE indica que las direcciones .onion no pueden abrirse con navegadores tradicionales, y el Tor Project define los onion services como servicios accesibles solo a través de Tor. Las páginas protegidas por credenciales son Deep Web, pero no tienen por qué usar .onion.",
+      "ref": "INCIBE, Deep web y Dark web; Tor Project, Onion Services",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una persona accede con el navegador Tor a una web .onion de un foro de debate, sin realizar ninguna actividad ilícita. Según INCIBE, el simple acceso a la Dark Web…",
+      "opciones": [
+        "no es ilegal en sí mismo, aunque participar en actividades delictivas dentro de ella puede tener consecuencias legales graves.",
+        "es siempre un delito por el mero hecho de utilizar Tor.",
+        "solo es legal si el usuario es funcionario público o periodista."
+      ],
+      "correcta": 0,
+      "explicacion": "INCIBE afirma que el simple acceso a la Dark Web no es ilegal en sí mismo, pero que participar en actividades delictivas o ilegales dentro de esta red sí puede tener consecuencias legales graves. Usar Tor no es un delito ni exige una condición profesional.",
+      "ref": "INCIBE, Deep web y Dark web: qué son y en qué se diferencian",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué ocurre cuando se navega en modo incógnito (navegación privada)?",
+      "opciones": [
+        "Se cifra todo el tráfico y se oculta la actividad a los sitios web y al proveedor de acceso.",
+        "La dirección IP del usuario queda oculta para todas las páginas que visita.",
+        "El navegador no conserva el historial ni las cookies de la sesión, pero los sitios visitados y quien gestiona la red pueden seguir viendo la actividad."
+      ],
+      "correcta": 2,
+      "explicacion": "Chrome indica que al terminar la sesión no conserva los datos de los sitios ni el registro de las páginas visitadas, pero los sitios web, el empleador, el centro educativo o el proveedor de acceso pueden seguir observando la actividad. Por eso el modo incógnito no impide la recopilación de información por terceros.",
+      "ref": "Google Chrome Help, Navegar de forma privada; AEPD e INCIBE, Guía Privacidad y seguridad en Internet",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según la UNODC, ¿qué transforma la información en inteligencia?",
+      "opciones": [
+        "Su clasificación con un grado de secreto.",
+        "Su evaluación en contexto, según la fuente y su fiabilidad.",
+        "Su almacenamiento en una base de datos estructurada."
+      ],
+      "correcta": 1,
+      "explicacion": "La UNODC resume que información más evaluación es igual a inteligencia: la inteligencia es información evaluada en el contexto de su fuente y su fiabilidad. Clasificar o almacenar la información no le añade ese valor analítico.",
+      "ref": "UNODC, Criminal Intelligence Manual for Analysts, cap. 1",
+      "dificultad": 2
+    }
+  ],
+  "dudas": [
+    "El encargo citaba un «Esquema Nacional de Inteligencia»: no he localizado ningún documento oficial con ese nombre (existe el Esquema Nacional de Seguridad). El ciclo se ha tomado de la página oficial del CNI y de la Ley 11/2002.",
+    "La distinción entre «dato» e «información» no está definida en las fuentes oficiales consultadas (CNI, UNODC): la UNODC llama a la información «conocimiento en bruto». La ficha sigue la doctrina habitual y lo indica.",
+    "La UNODC solo distingue inteligencia estratégica y operativa; algunas academias añaden el nivel táctico y no lo he podido contrastar con una fuente oficial.",
+    "GooScan: no he podido confirmar la herramienta en una fuente primaria (INCIBE-CERT solo habla de dorking); aparece en el análisis de exámenes anteriores como herramienta de Google hacking.",
+    "La definición de MASINT procede de intelligence.gov, cuyo texto aparece truncado en la página consultada."
+  ]
+}

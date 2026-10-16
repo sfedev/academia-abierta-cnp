@@ -1,0 +1,809 @@
+{
+  "tema": 41,
+  "titulo": "Ciberdelincuencia, malware y agentes de la amenaza",
+  "bloque": "C",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "Media de 2,0 preguntas por examen (rango 1-4; 4 en 2023). Se preguntan nombres de ataques y sus diferencias: phishing, vishing, spear phishing y whaling, spoofing, tipos de malware, botnets P2P, inyección SQL, insider threat y APT."
+  },
+  "normas": [
+    {
+      "nombre": "INCIBE: Glosario de términos de ciberseguridad, una guía de aproximación para el empresario (botnet, cartas nigerianas, DoS, pharming, phishing, ransomware, spoofing, spyware, troyano, virus, gusano, XSS, zero-day)",
+      "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_metad.pdf",
+      "verificado": "Edición de 2017 leída el 16/10/2026"
+    },
+    {
+      "nombre": "NIST CSRC Glossary (malware, spyware, troyano, gusano, virus, rootkit, spoofing, phishing, botnet, DoS, zero-day, APT, insider threat, ingeniería social)",
+      "url": "https://csrc.nist.gov/glossary",
+      "verificado": "Entradas consultadas el 16/10/2026"
+    },
+    {
+      "nombre": "MITRE ATT&CK: T1566 Phishing (y subtécnicas de spearphishing)",
+      "url": "https://attack.mitre.org/techniques/T1566/",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "MITRE ATT&CK: T1496.001 Compute Hijacking (criptominado)",
+      "url": "https://attack.mitre.org/techniques/T1496/001/",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "OWASP: SQL Injection",
+      "url": "https://community.owasp.org/attacks/SQL_Injection",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "OWASP: Cross Site Scripting (XSS)",
+      "url": "https://community.owasp.org/attacks/xss",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "Lockheed Martin: The Cyber Kill Chain (web oficial)",
+      "url": "https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "E. M. Hutchins, M. J. Cloppert y R. M. Amin (Lockheed Martin): Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains",
+      "url": "https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf",
+      "verificado": "Texto completo leído el 16/10/2026 (las siete fases y las seis acciones defensivas)"
+    },
+    {
+      "nombre": "ENISA: Threat Landscape 2025 (julio de 2024 a junio de 2025)",
+      "url": "https://www.enisa.europa.eu/publications/enisa-threat-landscape-2025",
+      "verificado": "Versión 1.3 (septiembre de 2026) leída el 16/10/2026"
+    },
+    {
+      "nombre": "Europol: IOCTA 2025, Steal, deal and repeat (junio de 2025)",
+      "url": "https://www.europol.europa.eu/publication-events/main-reports/steal-deal-and-repeat-how-cybercriminals-trade-and-exploit-your-data",
+      "verificado": "Texto del informe leído en una copia alojada por la FIAU de Malta el 16/10/2026; la web de Europol no se pudo leer sin JavaScript"
+    },
+    {
+      "nombre": "Europol: Cyber-attacks, the apex of crime-as-a-service (IOCTA 2023 Spotlight Report)",
+      "url": "https://www.europol.europa.eu/publication-events/main-reports/cyber-attacks-apex-of-crime-service-iocta-2023",
+      "verificado": "Informe PDF leído el 16/10/2026"
+    },
+    {
+      "nombre": "Europol: IOCTA 2019 (skimming)",
+      "url": "https://www.europol.europa.eu/sites/default/files/documents/iocta_2019.pdf",
+      "verificado": "Apartado 6.3 leído el 16/10/2026"
+    },
+    {
+      "nombre": "Europol: IOCTA 2018 (tipos de ransomware, WannaCry y NotPetya)",
+      "url": "https://www.europol.europa.eu/sites/default/files/documents/iocta_2018_0.pdf",
+      "verificado": "Apartado de ransomware leído el 16/10/2026"
+    },
+    {
+      "nombre": "FBI IC3: Business Email Compromise, alerta I-082715a-PSA (27/08/2015)",
+      "url": "https://www.ic3.gov/PSA/2015/PSA150827_1.pdf",
+      "verificado": "Definición leída el 16/10/2026"
+    },
+    {
+      "nombre": "FBI IC3: Business Email Compromise, alerta I-091124-PSA (11/09/2024)",
+      "url": "https://www.ic3.gov/PSA/2024/PSA240911",
+      "verificado": "Definición leída el 16/10/2026"
+    },
+    {
+      "nombre": "CISA: Defining Insider Threats",
+      "url": "https://www.cisa.gov/topics/physical-security/insider-threat-mitigation/defining-insider-threats",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "CISA: Ransomware 101",
+      "url": "https://www.cisa.gov/stopransomware/ransomware-101",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "NCSC (Reino Unido): Phishing attacks, defending your organisation",
+      "url": "https://www.ncsc.gov.uk/guidance/phishing",
+      "verificado": "Página leída el 16/10/2026"
+    }
+  ],
+  "novedades": [
+    "El informe **ENISA Threat Landscape 2025** (revisado en septiembre de 2026) y el **IOCTA 2025** de Europol (junio de 2025) son las referencias europeas más recientes: el phishing sigue siendo el principal vector de intrusión y el ransomware como servicio y los intermediarios de acceso inicial sostienen el crimen como servicio."
+  ],
+  "clave": [
+    "**Phishing** suplanta a una entidad de confianza (normalmente por correo). **Smishing** = por SMS; **vishing** = por voz; **spear phishing** = dirigido a una víctima concreta; **whaling** = spear phishing contra altos directivos.",
+    "**Pharming** manipula la resolución **DNS** para llevar a una web falsa aunque se escriba bien la dirección. **Spoofing** = suplantación: IP, ARP, DNS, web y correo.",
+    "**Virus** (se adjunta a programas y necesita acción humana; los más comunes infectan ejecutables), **gusano** (se propaga solo por la red) y **troyano** (no se autorreplica y engaña).",
+    "**Botnet**: bots controlados por un atacante a través de un servidor de mando y control (**C&C**); las botnets **P2P** carecen de un servidor C&C único.",
+    "**Ransomware** cifra y pide rescate; **spyware** espía y envía información; **cryptojacking** usa tus recursos para minar criptomonedas.",
+    "**DoS/DDoS** afectan a la **disponibilidad**; el DDoS lo lanzan muchos equipos de forma coordinada, a menudo una botnet.",
+    "**Inyección SQL**: ataca la base de datos a través de entradas no validadas (se previene con consultas parametrizadas). **XSS**: inyecta scripts que se ejecutan en el navegador de otros usuarios (almacenado, reflejado o basado en DOM).",
+    "**Zero-day**: vulnerabilidad desconocida por el fabricante y sin parche.",
+    "**BEC**: compromiso o suplantación de cuentas de correo de empresa para ordenar transferencias (FBI). **Cartas nigerianas**: promesa de negocio rentable a cambio de adelantar gastos. **Skimming**: copia de la banda magnética de tarjetas.",
+    "**Insider threat**: persona con acceso autorizado, actual o pasada, que daña a la organización de forma intencionada o no. **APT**: adversario muy dotado, a menudo estatal, con campañas largas.",
+    "**Hacktivistas**: motivación ideológica (sobre todo DDoS). **Cibercriminales**: lucro. **Crimen como servicio (CaaS)**: herramientas y accesos delictivos que se alquilan o se venden.",
+    "**Cyber Kill Chain** (Lockheed Martin) = **7 fases**: reconocimiento, armamento, entrega, explotación, instalación, mando y control (C2) y acciones sobre los objetivos."
+  ],
+  "resumen": [
+    {
+      "titulo": "Ingeniería social y fraudes: phishing, pharming, BEC, cartas nigerianas y skimming",
+      "puntos": [
+        "La **ingeniería social** es el intento de engañar a una persona para que revele información (por ejemplo, una contraseña) o realice una acción que beneficia al atacante (NIST). Es la base del phishing, del BEC y de las cartas nigerianas; el pharming y el skimming son ataques técnicos.",
+        "Se distinguen por el **canal** y por el **objetivo**: correo masivo (phishing), SMS (smishing), voz (vishing), víctima concreta (spear phishing) y directivos (whaling)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Término",
+          "Qué es",
+          "Rasgo distintivo"
+        ],
+        "filas": [
+          [
+            "Phishing",
+            "Estafa telemática en la que el atacante suplanta a una persona o entidad de confianza para obtener información confidencial (contraseñas, datos bancarios) (INCIBE)",
+            "Canal habitual: correo electrónico. INCIBE lo considera un tipo de web spoofing"
+          ],
+          [
+            "Spear phishing",
+            "Phishing dirigido a un individuo, empresa o sector concretos, con información sobre la víctima para parecer más creíble (MITRE ATT&CK, NCSC)",
+            "Mensaje personalizado; INCIBE lo describe como un correo que aparenta ser de un amigo o de una empresa conocida"
+          ],
+          [
+            "Whaling",
+            "Spear phishing contra un «pez gordo», como un directivo o consejero con acceso a activos valiosos (NCSC)",
+            "El objetivo es el alto cargo"
+          ],
+          [
+            "Smishing y vishing",
+            "Smishing: phishing por mensajes SMS. Vishing: phishing por voz, con llamadas o mensajes de voz que fingen ser de empresas conocidas (NCSC); INCIBE lo asocia a voz sobre IP",
+            "Canal: SMS (smishing) o voz (vishing)"
+          ],
+          [
+            "Pharming",
+            "Ataque que modifica la resolución DNS para que el nombre legítimo conduzca a una IP con una web falsa (INCIBE)",
+            "Redirige aunque el usuario escriba bien la dirección"
+          ],
+          [
+            "Business E-mail Compromise (BEC)",
+            "Estafa dirigida a empresas que trabajan con proveedores o hacen transferencias con frecuencia: se comprometen cuentas de correo legítimas, por ingeniería social o intrusión, para ordenar transferencias no autorizadas (FBI IC3)",
+            "Una variante, el «fraude del CEO», suplanta a un directivo. En su alerta de 2024 el FBI incluye también a particulares"
+          ],
+          [
+            "Cartas nigerianas",
+            "Comunicación inesperada (correo, carta o mensajería) en la que el remitente promete negocios muy rentables y acaba pidiendo transferir dinero o pagar gastos por adelantado (INCIBE)",
+            "La transferencia prometida nunca llega"
+          ],
+          [
+            "Skimming",
+            "Copia ilícita de los datos de la banda magnética de las tarjetas de pago, con dispositivos en cajeros y terminales de venta y una cámara que capta el PIN (Europol)",
+            "El chip EMV dificulta usar en la UE la banda clonada"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Malware: tipos y diferencias",
+      "puntos": [
+        "**Malware** (software malicioso) es el software, firmware o hardware incluido o insertado deliberadamente en un sistema con un propósito dañino (NIST). Los demás términos de la tabla son tipos o usos de malware.",
+        "La confusión típica es entre **virus**, **gusano** y **troyano**: el virus necesita un programa anfitrión y acción humana, el gusano se propaga solo y el troyano no se replica."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Tipo",
+          "Definición",
+          "Rasgo distintivo"
+        ],
+        "filas": [
+          [
+            "Virus",
+            "Programa que se copia adjuntándose a aplicaciones existentes; necesita acción humana para propagarse; los más comunes infectan ficheros ejecutables (INCIBE)",
+            "Necesita un anfitrión"
+          ],
+          [
+            "Gusano (worm)",
+            "Malware con alto grado de «dispersabilidad»: se copia y se propaga automáticamente por la red, con independencia de la acción humana (INCIBE)",
+            "Se propaga solo"
+          ],
+          [
+            "Troyano",
+            "Malware sin capacidad de autorreplicación que suele requerir ingeniería social; parece tener una función útil, pero oculta una maliciosa (INCIBE, NIST)",
+            "Permite el control remoto del sistema"
+          ],
+          [
+            "Spyware",
+            "Malware que recopila información de un ordenador y la envía a una entidad remota sin el conocimiento ni el consentimiento del propietario (INCIBE)",
+            "También llamado programa espía"
+          ],
+          [
+            "Ransomware",
+            "El atacante «secuestra» la información del usuario cifrándola y pide un rescate a cambio de la clave de descifrado (INCIBE)",
+            "Existe una variante que solo bloquea el equipo sin cifrar (Europol la llama ransomware policial). Hoy se suma la extorsión por filtración de datos (CISA)"
+          ],
+          [
+            "Botnet",
+            "Conjunto de ordenadores (bots) controlados remotamente por un atacante para enviar spam, lanzar ataques DDoS, etc. (INCIBE)",
+            "Los bots se conectan a un servidor central de mando y control (C&C) para enviar información y recibir comandos. Las botnets P2P carecen de un servidor C&C único"
+          ],
+          [
+            "Cryptojacking",
+            "Uso no autorizado de los recursos de un equipo para minar criptomonedas (MITRE ATT&CK, T1496.001)",
+            "No cifra datos ni pide rescate: aprovecha la capacidad de cómputo"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Ataques técnicos: DoS, inyección SQL, XSS, zero-day y spoofing",
+      "puntos": [
+        "**Spoofing** es la suplantación de identidad en la red (INCIBE). Tipos: **IP spoofing** (falsea la IP de origen de un paquete), **ARP spoofing** (falsea la tabla ARP para desviar el tráfico al atacante), **DNS spoofing** (relación falsa entre IP y nombre de dominio), **web spoofing** (web falsa; el phishing es un tipo) y **mail spoofing** (suplantación de correo, para spam).",
+        "**Inyección SQL** y **XSS** son ataques por falta de validación de la entrada: la primera apunta a la **base de datos** y la segunda al **navegador** de los usuarios."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Ataque",
+          "Qué es",
+          "Rasgo distintivo"
+        ],
+        "filas": [
+          [
+            "Denegación de servicio (DoS)",
+            "Conjunto de técnicas para dejar un servidor inoperativo saturándolo con peticiones, de modo que los usuarios legítimos no puedan usarlo (INCIBE)",
+            "Afecta a la **disponibilidad**. En el DDoS las peticiones se envían coordinadas desde muchos equipos, a menudo una botnet"
+          ],
+          [
+            "Inyección SQL",
+            "El atacante introduce código SQL en un dato que la aplicación usa para construir una consulta; permite acceder a datos, modificarlos, borrarlos o saltarse la autenticación (OWASP)",
+            "Se previene con consultas parametrizadas y validación de la entrada con listas de valores permitidos"
+          ],
+          [
+            "XSS (Cross-Site Scripting)",
+            "Inyección de scripts maliciosos en sitios web de confianza que se ejecutan en el navegador de otros usuarios (OWASP, INCIBE)",
+            "Tipos: almacenado (stored, permanente en el servidor), reflejado (reflected) y basado en DOM"
+          ],
+          [
+            "Zero-day (0-day)",
+            "Vulnerabilidad conocida solo por ciertos atacantes y desconocida para fabricantes y usuarios, por lo que no existe parche (INCIBE)",
+            "Ataque que explota una vulnerabilidad previamente desconocida (NIST)"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Agentes de la amenaza",
+      "puntos": [
+        "Se distinguen por su **motivación**: los **cibercriminales** buscan lucro, los **hacktivistas** actúan por ideología y las **APT** suelen ser actores estatales que persiguen espionaje o disrupción. El **insider** no se define por la motivación, sino por tener acceso legítimo.",
+        "ENISA (periodo 2024-2025): las operaciones con motivación económica las llevaron a cabo sobre todo operadores cibercriminales, y los incidentes por ideología los hacktivistas, exclusivamente mediante DDoS."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Agente",
+          "Quién es y qué busca",
+          "Rasgos y datos"
+        ],
+        "filas": [
+          [
+            "Cibercriminales",
+            "Operadores con motivación económica: ransomware, fraude y compraventa de datos robados",
+            "Europol: los datos son la mercancía central de la economía cibercriminal. ENISA: el ransomware está en el centro de la actividad de intrusión"
+          ],
+          [
+            "Crimen como servicio (CaaS)",
+            "Modelo en que los delincuentes ofrecen herramientas, accesos e infraestructura como servicio, lo que permite atacar a actores con pocos conocimientos",
+            "Ransomware como servicio con programas de afiliados, intermediarios de acceso inicial (IAB), droppers y crypters como servicio, alojamiento a prueba de balas, booters (DDoS de alquiler) y kits de phishing (Europol)"
+          ],
+          [
+            "Hacktivistas",
+            "Actores con motivación ideológica o política",
+            "Sobre todo ataques DDoS de bajo impacto. ENISA 2025: casi el 80 % de los incidentes registrados. Ejemplo: el grupo prorruso NoName057(16)"
+          ],
+          [
+            "Insider threat (amenaza interna)",
+            "Persona que tiene o tuvo acceso autorizado o conocimiento de los recursos de la organización y puede dañarla de forma intencionada o no (CISA)",
+            "Manifestaciones: violencia, espionaje, sabotaje, robo y actos cibernéticos. No intencionadas: negligencia (conoce las políticas y las ignora) o accidente"
+          ],
+          [
+            "APT (Advanced Persistent Threat)",
+            "Adversario con un nivel sofisticado de experiencia y recursos significativos que usa varios vectores de ataque: cibernético, físico y engaño (NIST SP 800-39)",
+            "Europol: grupos a menudo patrocinados u operados por Estados; objetivos de espionaje, robo de datos, interrupción o destrucción. Lockheed Martin: campañas de intrusión de varios años. Ejemplos: APT28 y APT29 (Rusia, según ENISA)"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Cyber Kill Chain: las 7 fases",
+      "puntos": [
+        "La **Cyber Kill Chain** la desarrolló **Lockheed Martin** (Hutchins, Cloppert y Amin) como parte de su modelo Intelligence Driven Defense. Describe las **7 fases** de una intrusión: el atacante solo triunfa si avanza por todas, de modo que **detenerlo en cualquiera de ellas rompe la cadena**.",
+        "Las acciones defensivas que se alinean con cada fase son **6**: **detectar, denegar, interrumpir, degradar, engañar y destruir**. Las traducciones al español de los nombres de las fases varían entre manuales; lo estable es el orden."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Fase",
+          "Qué hace el atacante",
+          "Ejemplos"
+        ],
+        "filas": [
+          [
+            "1 Reconocimiento (Reconnaissance)",
+            "Investiga, identifica y selecciona objetivos",
+            "Rastreo de webs y listas de correo para obtener correos, relaciones sociales o tecnologías (OSINT)"
+          ],
+          [
+            "2 Armamento (Weaponization)",
+            "Acopla un troyano de acceso remoto con un exploit en una carga entregable, normalmente con una herramienta automatizada",
+            "Documentos PDF u ofimáticos con el exploit"
+          ],
+          [
+            "3 Entrega (Delivery)",
+            "Transmite el arma al entorno objetivo",
+            "Vectores más frecuentes en APT (2004-2010): adjuntos de correo, sitios web y memorias USB"
+          ],
+          [
+            "4 Explotación (Exploitation)",
+            "El arma entregada activa el código del intruso",
+            "Suele aprovechar una vulnerabilidad de una aplicación o del sistema operativo, o al propio usuario"
+          ],
+          [
+            "5 Instalación (Installation)",
+            "Instala un troyano de acceso remoto o una puerta trasera",
+            "Mantiene la persistencia en el entorno"
+          ],
+          [
+            "6 Mando y control (Command and Control, C2)",
+            "El equipo comprometido contacta con un servidor controlador en Internet",
+            "El intruso obtiene acceso «con las manos en el teclado»"
+          ],
+          [
+            "7 Acciones sobre los objetivos (Actions on Objectives)",
+            "Cumple su objetivo original",
+            "Exfiltración de datos, violación de la integridad o disponibilidad, o uso del equipo como salto para el movimiento lateral"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Otros tipos de malware: rootkit, puerta trasera, bomba lógica y adware",
+      "ampliado": true,
+      "puntos": [
+        "Son tipos menos preguntados que virus, gusano, troyano, spyware, ransomware y botnet, pero aparecen en las definiciones de INCIBE y NIST.",
+        "Un **rootkit** y una **puerta trasera** buscan mantener un acceso encubierto; la **bomba lógica** se activa al cumplirse una condición; el **adware** solo es malware si recopila información."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Tipo",
+          "Definición",
+          "Rasgo distintivo"
+        ],
+        "filas": [
+          [
+            "Rootkit",
+            "Conjunto de herramientas que ocultan la actividad del atacante y le permiten mantener acceso de administrador por medios encubiertos (NIST)",
+            "Ocultación y persistencia"
+          ],
+          [
+            "Puerta trasera (backdoor)",
+            "Cualquier punto débil de un programa o sistema por el que una persona no autorizada puede acceder; también los programas que dan control remoto del equipo (INCIBE)",
+            "Acceso no autorizado"
+          ],
+          [
+            "Bomba lógica",
+            "Código insertado intencionadamente que permanece oculto hasta cumplirse condiciones preprogramadas (INCIBE)",
+            "Se activa por una condición"
+          ],
+          [
+            "Adware",
+            "Programa que muestra publicidad automáticamente; se convierte en malware si recopila información del equipo (INCIBE)",
+            "Publicidad"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Panorama actual: ENISA 2025, Europol 2025 y MITRE ATT&CK",
+      "ampliado": true,
+      "puntos": [
+        "ENISA Threat Landscape 2025 (julio de 2024 a junio de 2025, unos 4.900 incidentes): el **phishing** es el principal vector de intrusión (**≈60 %**), seguido de la explotación de vulnerabilidades (21,3 %), las botnets (9,9 %), las aplicaciones maliciosas (8 %) y los accesos no autorizados por amenazas internas (0,8 %).",
+        "Según ENISA, los grupos hacktivistas fueron la amenaza más activa contra los Estados miembros de la UE (≈79 % de los incidentes registrados), casi siempre con DDoS de bajo impacto; el ransomware, apoyado en el ransomware como servicio y en los intermediarios de acceso, sigue en el centro de la actividad cibercriminal.",
+        "Europol IOCTA 2025 (Steal, deal and repeat): los datos son la mercancía central de la economía cibercriminal y los kits de phishing y otras herramientas se comercializan en el mercado de crimen como servicio. IOCTA 2018: WannaCry y NotPetya (mediados de 2017) fueron ataques de ransomware de escala mundial sin precedentes.",
+        "**MITRE ATT&CK** es un catálogo de tácticas y técnicas observadas en ataques reales (por ejemplo, T1566 phishing y T1496 secuestro de recursos); complementa a la Kill Chain, que es un modelo lineal de 7 fases."
+      ]
+    }
+  ],
+  "trampas": [
+    "**Familia del phishing**: phishing = correo masivo; **smishing** = SMS; **vishing** = voz; **spear phishing** = dirigido a una víctima o empresa concreta; **whaling** = directivos. No son sinónimos.",
+    "**Pharming no es phishing**: el pharming manipula el DNS para redirigir; el phishing engaña a la persona con un mensaje. **Spoofing** es la técnica general de suplantación (IP, ARP, DNS, web, correo).",
+    "**Virus, gusano y troyano**: el virus necesita anfitrión y acción humana (los más comunes infectan ejecutables); el gusano se propaga solo; el troyano no se autorreplica.",
+    "**Botnet**: servidor de mando y control (C&C) al que los bots envían información y del que reciben comandos; las botnets **P2P** no tienen un C&C único.",
+    "**Ransomware** cifra y pide rescate; **spyware** espía; **cryptojacking** mina criptomonedas con tus recursos; **rootkit** oculta. No mezclar las definiciones.",
+    "**Inyección SQL** ataca a la base de datos con sentencias SQL; **XSS** inyecta scripts que se ejecutan en el navegador de otras personas. **DoS** afecta a la disponibilidad.",
+    "**Zero-day**: vulnerabilidad sin parche y desconocida para el fabricante; si ya hay parche, deja de serlo.",
+    "**BEC** suplanta o compromete cuentas de correo de empresa para ordenar transferencias; las **cartas nigerianas** prometen un negocio y piden gastos por adelantado; el **skimming** copia la banda magnética de tarjetas.",
+    "**Insider threat** no es solo intencionado: también cabe la negligencia o el accidente. **APT** = actor muy dotado y persistente, a menudo estatal; **hacktivistas** = ideología; **cibercriminales** = lucro.",
+    "**Kill Chain**: 7 fases en este orden; el armamento va antes de la entrega y el mando y control (C2) es la fase 6, no la última. La última son las acciones sobre los objetivos."
+  ],
+  "caido": [
+    {
+      "examen": "23 abr 2023, 13 abr 2024, 1 mar 2025, 25 oct 2025 y 26 sep 2026",
+      "concepto": "Nombres de ataques y malware (vishing, DNS spoofing, spear phishing, whaling), virus que infectan ejecutables, botnets P2P sin C&C único, bot (envío de información y spam), inyección SQL e insider threat; entre uno y cuatro por examen (cuatro en 2023)"
+    },
+    {
+      "examen": "13 abr 2024",
+      "concepto": "Ransomware «blocker» (pregunta muy específica, fuera del literal del Anexo I)"
+    },
+    {
+      "examen": "13 abr 2024 y 26 sep 2026",
+      "concepto": "Spear phishing"
+    }
+  ],
+  "mnemotecnias": [
+    "Kill Chain: **R**ápido **A**rmamos, **E**ntregamos, **E**xplotamos, **I**nstalamos, **C**ontrolamos y **A**ctuamos = Reconocimiento, Armamento, Entrega, Explotación, Instalación, C2, Acciones sobre los objetivos.",
+    "Familia del phishing: **SMI**shing = **SM**S; **VI**shing = **VO**z; **spear** = arpón (víctima concreta); **whale** = ballena (alto directivo).",
+    "Malware: el **virus** necesita huésped, el **gusano** viaja solo y el **troyano** engaña."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Qué es el phishing?",
+      "r": "Estafa telemática en la que el atacante suplanta a una persona o entidad de confianza para que la víctima le facilite información confidencial (INCIBE)."
+    },
+    {
+      "p": "Smishing, vishing, spear phishing y whaling.",
+      "r": "**Smishing**: por SMS. **Vishing**: por voz. **Spear phishing**: dirigido a una víctima concreta. **Whaling**: spear phishing contra altos directivos."
+    },
+    {
+      "p": "¿Qué es el pharming?",
+      "r": "Ataque que manipula la resolución **DNS** para llevar a la víctima a una web falsa aunque escriba bien la dirección."
+    },
+    {
+      "p": "Tipos de spoofing que cita INCIBE.",
+      "r": "**IP**, **ARP**, **DNS**, **web** y **mail** spoofing."
+    },
+    {
+      "p": "¿Qué es el BEC?",
+      "r": "Business E-mail Compromise: estafa dirigida a empresas mediante cuentas de correo legítimas comprometidas para ordenar transferencias no autorizadas (FBI)."
+    },
+    {
+      "p": "¿Qué son las cartas nigerianas?",
+      "r": "Comunicaciones inesperadas que prometen negocios muy rentables y acaban pidiendo transferencias o el pago adelantado de gastos (INCIBE)."
+    },
+    {
+      "p": "¿Qué es el skimming?",
+      "r": "Copia ilícita de los datos de la banda magnética de tarjetas de pago, por ejemplo con un dispositivo en la ranura de un cajero y una cámara para el PIN (Europol)."
+    },
+    {
+      "p": "Virus, gusano y troyano.",
+      "r": "**Virus**: se adjunta a programas y necesita acción humana. **Gusano**: se propaga solo por la red. **Troyano**: no se autorreplica y suele requerir ingeniería social."
+    },
+    {
+      "p": "¿Qué es el spyware?",
+      "r": "Malware que recopila información de un ordenador y la envía a una entidad remota sin el conocimiento ni el consentimiento del propietario."
+    },
+    {
+      "p": "¿Qué es el ransomware?",
+      "r": "Malware que cifra («secuestra») la información de la víctima y pide un rescate a cambio de la clave de descifrado."
+    },
+    {
+      "p": "¿Qué es el cryptojacking?",
+      "r": "Uso no autorizado de los recursos de un equipo para minar criptomonedas."
+    },
+    {
+      "p": "¿Qué es una botnet y qué es una botnet P2P?",
+      "r": "Conjunto de bots controlados remotamente, normalmente mediante un servidor de mando y control (**C&C**). La **P2P** carece de un servidor C&C único."
+    },
+    {
+      "p": "¿Qué es una denegación de servicio y qué añade el DDoS?",
+      "r": "Saturar un servidor con peticiones para que los usuarios legítimos no puedan usarlo (disponibilidad). El **DDoS** lo hace desde muchos equipos coordinados, a menudo una botnet."
+    },
+    {
+      "p": "¿Qué es la inyección SQL y cómo se previene?",
+      "r": "Introducir código SQL en una entrada no validada para alterar una consulta. Se previene con **consultas parametrizadas** y validación con listas de valores permitidos."
+    },
+    {
+      "p": "¿Qué es el XSS y qué tipos hay?",
+      "r": "Inyección de scripts maliciosos en un sitio de confianza que se ejecutan en el navegador de otros usuarios. Tipos: **almacenado**, **reflejado** y **basado en DOM**."
+    },
+    {
+      "p": "¿Qué es una vulnerabilidad zero-day?",
+      "r": "Vulnerabilidad desconocida por el fabricante y los usuarios, conocida solo por ciertos atacantes y sin parche."
+    },
+    {
+      "p": "¿Qué es una amenaza interna (insider threat)?",
+      "r": "Riesgo de que una persona con acceso autorizado, actual o pasado, dañe a la organización de forma intencionada o no (CISA)."
+    },
+    {
+      "p": "¿Qué es una APT?",
+      "r": "Advanced Persistent Threat: adversario con experiencia sofisticada y recursos significativos, a menudo vinculado a un Estado, con campañas de larga duración."
+    },
+    {
+      "p": "¿Qué mueve a los hacktivistas y a los cibercriminales?",
+      "r": "Hacktivistas: **ideología** o política (sobre todo DDoS). Cibercriminales: **lucro**."
+    },
+    {
+      "p": "¿Qué es el crimen como servicio (CaaS)?",
+      "r": "Modelo en que los delincuentes ofrecen herramientas, accesos e infraestructura como servicio: ransomware como servicio, intermediarios de acceso inicial, booters, kits de phishing."
+    },
+    {
+      "p": "Fases de la Cyber Kill Chain.",
+      "r": "**7**: reconocimiento, armamento, entrega, explotación, instalación, mando y control (C2) y acciones sobre los objetivos."
+    },
+    {
+      "p": "Acciones defensivas asociadas a la Kill Chain.",
+      "r": "**6**: detectar, denegar, interrumpir, degradar, engañar y destruir."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Un atacante llama por teléfono a un empleado y, haciéndose pasar por el servicio de seguridad de su banco, le pide las claves de acceso. ¿Cómo se denomina esta modalidad de fraude?",
+      "opciones": [
+        "Vishing",
+        "Smishing",
+        "Pharming"
+      ],
+      "correcta": 0,
+      "explicacion": "El vishing es el phishing por voz: llamadas o mensajes de voz que simulan proceder de una entidad de confianza para obtener datos sensibles. El smishing usa mensajes SMS y el pharming redirige a una web falsa mediante la manipulación del DNS.",
+      "ref": "INCIBE, Glosario (phishing); NCSC, Phishing attacks",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Qué caracteriza al spear phishing frente al phishing masivo?",
+      "opciones": [
+        "Se realiza siempre mediante mensajes SMS.",
+        "Va dirigido a una persona, empresa o sector concretos y utiliza información sobre la víctima para resultar más creíble.",
+        "Consiste en modificar la resolución DNS para llevar a la víctima a una web falsa."
+      ],
+      "correcta": 1,
+      "explicacion": "En el spear phishing el atacante apunta a un individuo, empresa o sector concretos y aprovecha información sobre ellos para que el mensaje resulte más persuasivo. El SMS es el canal del smishing y la manipulación del DNS es el pharming.",
+      "ref": "MITRE ATT&CK T1566; NCSC, Phishing attacks",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El whaling es una modalidad de spear phishing dirigida a…",
+      "opciones": [
+        "clientes de entidades bancarias elegidos al azar.",
+        "administradores de redes sociales.",
+        "altos directivos o consejeros con acceso a activos valiosos."
+      ],
+      "correcta": 2,
+      "explicacion": "El NCSC define el whaling como un tipo de spear phishing que tiene por objetivo un «pez gordo», como un miembro del consejo con acceso a activos valiosos. Los otros colectivos no son su objetivo característico.",
+      "ref": "NCSC, Phishing attacks: defending your organisation",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué diferencia al pharming del phishing?",
+      "opciones": [
+        "En el pharming se manipula la resolución de nombres de dominio para que la dirección legítima lleve a una web falsa; en el phishing se engaña a la persona, por ejemplo con un mensaje, para que facilite datos.",
+        "El pharming solo se realiza por teléfono y el phishing solo por correo electrónico.",
+        "El pharming cifra los archivos de la víctima y el phishing no."
+      ],
+      "correcta": 0,
+      "explicacion": "Según INCIBE, el pharming aprovecha el DNS para sustituir la IP legítima de una entidad por la de una web falsa, de modo que el usuario llega a ella aunque escriba bien la dirección. El phishing suplanta a una entidad de confianza para obtener datos. Ninguno de los dos cifra archivos ni se limita a un canal.",
+      "ref": "INCIBE, Glosario (pharming y phishing)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El DNS spoofing consiste en…",
+      "opciones": [
+        "falsificar la dirección IP de origen de un paquete.",
+        "crear una relación falsa entre una dirección IP y un nombre de dominio.",
+        "falsear la tabla ARP de la víctima para desviar su tráfico al atacante."
+      ],
+      "correcta": 1,
+      "explicacion": "INCIBE define el DNS spoofing como la suplantación de identidad por nombre de dominio, que consiste en una relación falsa entre IP y nombre de dominio. Falsificar la IP de origen es IP spoofing y falsear la tabla ARP, ARP spoofing.",
+      "ref": "INCIBE, Glosario (spoofing)",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Qué tipo de malware se propaga automáticamente por la red, sin necesidad de acción humana?",
+      "opciones": [
+        "Virus",
+        "Troyano",
+        "Gusano (worm)"
+      ],
+      "correcta": 2,
+      "explicacion": "Según INCIBE, los gusanos hacen copias de sí mismos, infectan otros equipos y se propagan automáticamente en una red con independencia de la acción humana. El virus necesita acción humana para propagarse adjuntándose a programas, y el troyano no se autorreplica.",
+      "ref": "INCIBE, Glosario (gusano y virus)",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale la característica propia de un troyano:",
+      "opciones": [
+        "No tiene capacidad de autorreplicación y suele requerir ingeniería social para propagarse.",
+        "Se replica por sí mismo por la red sin intervención del usuario.",
+        "Cifra los archivos de la víctima y exige un rescate para descifrarlos."
+      ],
+      "correcta": 0,
+      "explicacion": "INCIBE describe el troyano como malware sin capacidad de autorreplicación que suele apoyarse en la ingeniería social y que abre canales de comunicación con un equipo remoto. La autorreplicación automática es propia del gusano y el cifrado con rescate, del ransomware.",
+      "ref": "INCIBE, Glosario (troyano); NIST, Trojan horse",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué rasgo caracteriza a las botnets P2P (peer to peer)?",
+      "opciones": [
+        "Dependen de un servidor de mando y control (C&C) central único.",
+        "Carecen de un servidor C&C único.",
+        "Solo infectan equipos que comparten ficheros mediante redes P2P."
+      ],
+      "correcta": 1,
+      "explicacion": "Según INCIBE, las botnets suelen tener un servidor central de mando y control al que se conectan los bots para enviar información y recibir comandos, pero las botnets P2P se caracterizan por carecer de un servidor C&C único. La tercera opción confunde la arquitectura de la botnet con el medio de infección.",
+      "ref": "INCIBE, Glosario (botnet)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la descripción correcta del ransomware:",
+      "opciones": [
+        "Recopila información del ordenador y la envía a una entidad remota sin consentimiento del propietario.",
+        "Oculta la actividad del atacante y le permite mantener acceso de administrador por medios encubiertos.",
+        "Cifra la información de la víctima y exige un rescate a cambio de la clave de descifrado."
+      ],
+      "correcta": 2,
+      "explicacion": "INCIBE define el ransomware como el malware que «secuestra» la información cifrándola y pide un rescate económico a cambio de la clave. La primera descripción corresponde al spyware y la segunda a un rootkit.",
+      "ref": "INCIBE, Glosario (ransomware, spyware); NIST, rootkit",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "El cryptojacking consiste en…",
+      "opciones": [
+        "usar sin autorización los recursos de un equipo para minar criptomonedas.",
+        "cifrar los archivos de la víctima y exigir un rescate en criptomonedas.",
+        "robar la cartera de criptomonedas de la víctima mediante un correo fraudulento."
+      ],
+      "correcta": 0,
+      "explicacion": "MITRE ATT&CK recoge el secuestro de recursos de cómputo como el uso de los recursos de sistemas comprometidos para validar transacciones de criptomonedas y obtener moneda virtual. El cifrado con rescate es ransomware y el robo mediante un correo fraudulento es una forma de phishing.",
+      "ref": "MITRE ATT&CK T1496.001, Compute Hijacking",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un ataque de denegación de servicio afecta principalmente a la…",
+      "opciones": [
+        "confidencialidad de la información.",
+        "disponibilidad del servicio.",
+        "autenticidad del remitente."
+      ],
+      "correcta": 1,
+      "explicacion": "La denegación de servicio busca impedir que los usuarios legítimos accedan a un servicio, saturando los recursos del servidor; afecta por tanto a la disponibilidad. NIST la define como la prevención del acceso autorizado a recursos o el retraso de operaciones críticas.",
+      "ref": "INCIBE, Glosario (denegación de servicio); NIST, denial of service",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La inyección SQL se produce cuando…",
+      "opciones": [
+        "un script malicioso se almacena en el servidor y se ejecuta en el navegador de otros usuarios.",
+        "se satura el servidor de base de datos con un gran número de peticiones.",
+        "datos de entrada no validados se incorporan a una consulta SQL y alteran su significado."
+      ],
+      "correcta": 2,
+      "explicacion": "OWASP describe la inyección SQL como el caso en que datos no confiables se usan para construir dinámicamente una consulta SQL, lo que permite acceder a datos, modificarlos o saltarse la autenticación. El primer enunciado describe un XSS almacenado y el segundo, una denegación de servicio.",
+      "ref": "OWASP, SQL Injection",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué medida es la más adecuada para prevenir la inyección SQL?",
+      "opciones": [
+        "Utilizar consultas parametrizadas (sentencias preparadas) y validar la entrada con listas de valores permitidos.",
+        "Instalar un antivirus en el puesto de trabajo de cada usuario.",
+        "Cifrar el disco duro del servidor de base de datos."
+      ],
+      "correcta": 0,
+      "explicacion": "OWASP recomienda las consultas parametrizadas, que ofrecen más garantías de seguridad, junto con la validación de la entrada mediante listas de valores permitidos. Un antivirus en los puestos o el cifrado del disco no impiden que la aplicación construya consultas manipulables.",
+      "ref": "OWASP, SQL Injection (prevención)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En un ataque XSS almacenado (stored)…",
+      "opciones": [
+        "el script se incluye en la petición y se refleja en la respuesta sin guardarse en el servidor.",
+        "el script inyectado queda guardado de forma permanente en el servidor de destino y se ejecuta cuando otros usuarios visitan la página.",
+        "el atacante falsea la tabla ARP de la víctima para desviar su tráfico."
+      ],
+      "correcta": 1,
+      "explicacion": "Según OWASP, en los ataques almacenados el script inyectado se guarda de forma permanente en los servidores de destino. El primer enunciado describe el XSS reflejado y el tercero, el ARP spoofing.",
+      "ref": "OWASP, Cross Site Scripting; INCIBE, Glosario (XSS)",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Una vulnerabilidad zero-day es aquella que…",
+      "opciones": [
+        "ya tiene parche publicado, pero el usuario aún no lo ha aplicado.",
+        "los fabricantes han descubierto y documentado en su boletín de seguridad.",
+        "es desconocida para el fabricante y para la que no existe parche de seguridad."
+      ],
+      "correcta": 2,
+      "explicacion": "INCIBE define las zero-day como vulnerabilidades solo conocidas por determinados atacantes y desconocidas por fabricantes y usuarios, por lo que no existe parche. Si el parche ya está publicado o el fabricante la ha documentado, deja de ser zero-day.",
+      "ref": "INCIBE, Glosario (zero-day); NIST, zero-day attack",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "En el fraude conocido como BEC (Business E-mail Compromise)…",
+      "opciones": [
+        "se compromete o suplanta la cuenta de correo legítima de una empresa para ordenar transferencias de fondos no autorizadas.",
+        "se promete un negocio muy rentable a la víctima a cambio de que adelante unos gastos.",
+        "se copian los datos de la banda magnética de las tarjetas con un dispositivo instalado en un cajero."
+      ],
+      "correcta": 0,
+      "explicacion": "El FBI define el BEC como una estafa sofisticada dirigida a empresas que trabajan con proveedores extranjeros o hacen transferencias con frecuencia, mediante cuentas de correo legítimas comprometidas por ingeniería social o intrusión para realizar transferencias no autorizadas. El segundo enunciado describe las cartas nigerianas y el tercero, el skimming.",
+      "ref": "FBI IC3, PSA I-082715a-PSA e I-091124-PSA",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El skimming consiste en…",
+      "opciones": [
+        "redirigir al usuario a una web falsa de su banco mediante el DNS.",
+        "copiar de forma ilícita los datos de la banda magnética de tarjetas de pago, por ejemplo con un dispositivo en la ranura de un cajero.",
+        "enviar mensajes SMS fraudulentos que simulan proceder de una entidad financiera."
+      ],
+      "correcta": 1,
+      "explicacion": "Europol describe el skimming como la copia de los datos de la banda magnética en terminales de venta y cajeros, normalmente con un dispositivo en la ranura o de inserción profunda y una cámara para captar el PIN. La redirección por DNS es pharming y los SMS fraudulentos, smishing.",
+      "ref": "Europol, IOCTA 2019, apartado 6.3",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según CISA, una amenaza interna (insider threat)…",
+      "opciones": [
+        "solo la causan empleados en activo que actúan con intención maliciosa.",
+        "necesita siempre la colaboración de un grupo APT externo.",
+        "puede provenir de una persona con acceso autorizado, actual o pasado, y ser intencionada o no intencionada (por negligencia o accidente)."
+      ],
+      "correcta": 2,
+      "explicacion": "CISA define como insider a cualquier persona que tiene o tuvo acceso autorizado o conocimiento de los recursos de una organización, y la amenaza como el uso de ese acceso para causar daño de forma intencionada o no; entre los casos no intencionados distingue la negligencia y el accidente.",
+      "ref": "CISA, Defining Insider Threats",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué caracteriza a una APT (Advanced Persistent Threat)?",
+      "opciones": [
+        "Un adversario con alto nivel de experiencia y recursos significativos, a menudo vinculado a un Estado, que lleva a cabo campañas de intrusión prolongadas.",
+        "Un virus que se replica adjuntándose a ficheros ejecutables.",
+        "Un empleado con acceso legítimo que filtra información por descuido."
+      ],
+      "correcta": 0,
+      "explicacion": "NIST define el APT como un adversario con un nivel sofisticado de experiencia y recursos significativos que usa varios vectores de ataque, y Europol señala que suelen ser grupos patrocinados u operados por Estados. Las otras opciones describen un virus y una amenaza interna accidental.",
+      "ref": "NIST SP 800-39 (vía CSRC); Europol, IOCTA 2025; Lockheed Martin",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuántas fases tiene la Cyber Kill Chain de Lockheed Martin y cuál es la última?",
+      "opciones": [
+        "Siete; la última es el mando y control (C2).",
+        "Siete; la última son las acciones sobre los objetivos.",
+        "Cinco; la última es la exfiltración de datos."
+      ],
+      "correcta": 1,
+      "explicacion": "El modelo de Lockheed Martin define siete fases: reconocimiento, armamento, entrega, explotación, instalación, mando y control y acciones sobre los objetivos. El mando y control es la sexta, no la última.",
+      "ref": "Hutchins, Cloppert y Amin (Lockheed Martin), apartado 3.2",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale el orden correcto de las primeras fases de la Cyber Kill Chain:",
+      "opciones": [
+        "Reconocimiento, entrega, armamento, explotación.",
+        "Armamento, reconocimiento, entrega, instalación.",
+        "Reconocimiento, armamento, entrega, explotación."
+      ],
+      "correcta": 2,
+      "explicacion": "El orden es reconocimiento, armamento (preparar la carga), entrega, explotación, instalación, mando y control y acciones sobre los objetivos. No se puede entregar un arma antes de prepararla ni armar antes de reconocer el objetivo.",
+      "ref": "Hutchins, Cloppert y Amin (Lockheed Martin), apartado 3.2",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En una intrusión, el atacante acopla un troyano de acceso remoto con un exploit dentro de un documento PDF. ¿En qué fase de la Cyber Kill Chain se encuentra?",
+      "opciones": [
+        "Armamento (weaponization).",
+        "Entrega (delivery).",
+        "Explotación (exploitation)."
+      ],
+      "correcta": 0,
+      "explicacion": "El armamento consiste en acoplar un troyano de acceso remoto con un exploit en una carga entregable, normalmente con una herramienta automatizada y usando archivos como PDF u ofimáticos. La entrega llega después, al transmitir el arma al objetivo, y la explotación cuando el código se activa en la víctima.",
+      "ref": "Hutchins, Cloppert y Amin (Lockheed Martin), apartado 3.2",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación correcta sobre los hacktivistas:",
+      "opciones": [
+        "Son siempre empleados de la organización atacada.",
+        "Actúan por motivación ideológica o política y su método más habitual es el DDoS de bajo impacto.",
+        "Actúan exclusivamente por lucro, ofreciendo sus servicios como crimen como servicio."
+      ],
+      "correcta": 1,
+      "explicacion": "ENISA señala que los incidentes impulsados por la ideología los llevan a cabo los hacktivistas mediante DDoS, y que su actividad supuso casi el 80 % de los incidentes registrados en el periodo analizado. Los empleados con acceso legítimo son una amenaza interna y el lucro caracteriza a los cibercriminales.",
+      "ref": "ENISA Threat Landscape 2025, resumen ejecutivo y capítulo 9",
+      "dificultad": 2
+    }
+  ],
+  "dudas": [
+    "Las traducciones al español de las fases de la Kill Chain (armamento, preparación, militarización) varían entre manuales; la ficha usa «armamento».",
+    "La variante «fraude del CEO» del BEC se apoya en cobertura técnica de casos de Europol, no en una definición oficial de Europol que haya podido leer.",
+    "Los informes públicos de CCN-CERT bloquean el acceso automatizado y no he podido leerlos; las definiciones de hacktivismo, insider y APT se apoyan en ENISA, Europol, NIST y CISA.",
+    "Ransomware «blocker»: la terminología no está normalizada. Europol (IOCTA 2018) distingue el «police ransomware» sin cifrado del cryptoware; la ficha lo describe como variante que solo bloquea el equipo.",
+    "El IOCTA 2025 de Europol se leyó en una copia PDF alojada por la FIAU de Malta porque la web de Europol exige JavaScript."
+  ]
+}

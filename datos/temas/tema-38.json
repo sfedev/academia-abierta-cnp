@@ -1,0 +1,717 @@
+{
+  "tema": 38,
+  "titulo": "Fundamentos de sistemas operativos",
+  "bloque": "C",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "Media de 1,0 preguntas por examen (rango 0-2). Han caído la definición de sistema operativo, Android sobre Linux, el interbloqueo (deadlock), IBM AIX, los atajos de teclado de Windows y Mac y las herramientas de cifrado de disco."
+  },
+  "normas": [
+    {
+      "nombre": "R. Arpaci-Dusseau y A. Arpaci-Dusseau, Operating Systems: Three Easy Pieces (caps. «Introduction» y «Common Concurrency Problems»)",
+      "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+      "verificado": "Capítulos leídos el 16/10/2026 (funciones del SO y condiciones del interbloqueo)"
+    },
+    {
+      "nombre": "Microsoft Learn: File System Functionality Comparison (NTFS, exFAT, UDF y FAT32)",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/fileio/filesystem-functionality-comparison",
+      "verificado": "Página actualizada el 15/04/2025 (leída el 16/10/2026)"
+    },
+    {
+      "nombre": "Microsoft Learn: Overview of FAT, HPFS, and NTFS File Systems",
+      "url": "https://learn.microsoft.com/en-us/troubleshoot/windows-client/backup-and-storage/fat-hpfs-and-ntfs-file-systems",
+      "verificado": "Página actualizada el 12/02/2026 (leída el 16/10/2026)"
+    },
+    {
+      "nombre": "Microsoft Learn: Windows and GPT FAQ (MBR frente a GPT)",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-and-gpt-faq",
+      "verificado": "Página actualizada el 18/03/2022 (leída el 16/10/2026)"
+    },
+    {
+      "nombre": "Microsoft Lifecycle: Windows 10 Home and Pro",
+      "url": "https://learn.microsoft.com/en-us/lifecycle/products/windows-10-home-and-pro",
+      "verificado": "Inicio 29/07/2015 y fin de soporte 14/10/2025 (leída el 16/10/2026)"
+    },
+    {
+      "nombre": "Microsoft Learn: Windows 11 requirements",
+      "url": "https://learn.microsoft.com/en-us/windows/whats-new/windows-11-requirements",
+      "verificado": "Página actualizada el 21/07/2026 (leída el 16/10/2026)"
+    },
+    {
+      "nombre": "Microsoft Learn: BitLocker overview",
+      "url": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/",
+      "verificado": "Página actualizada el 08/10/2026 (leída el 16/10/2026)"
+    },
+    {
+      "nombre": "Microsoft Support: Keyboard shortcuts in Windows",
+      "url": "https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec",
+      "verificado": "Pestaña de Windows 11 leída el 16/10/2026"
+    },
+    {
+      "nombre": "Apple Support: Mac keyboard shortcuts",
+      "url": "https://support.apple.com/en-us/102650",
+      "verificado": "Leída el 16/10/2026"
+    },
+    {
+      "nombre": "Apple Platform Security: Role of Apple File System",
+      "url": "https://support.apple.com/guide/security/role-of-apple-file-system-seca6147599e/web",
+      "verificado": "Leída el 16/10/2026"
+    },
+    {
+      "nombre": "Apple Support: File system formats available in Disk Utility on Mac",
+      "url": "https://support.apple.com/guide/disk-utility/file-system-formats-dsku19ed921c/mac",
+      "verificado": "Leída el 16/10/2026"
+    },
+    {
+      "nombre": "Apple (GitHub): XNU kernel, README",
+      "url": "https://github.com/apple-oss-distributions/xnu",
+      "verificado": "Leído el 16/10/2026"
+    },
+    {
+      "nombre": "Android Developers: Platform architecture",
+      "url": "https://developer.android.com/guide/platform",
+      "verificado": "Leída el 16/10/2026"
+    },
+    {
+      "nombre": "Android Open Source Project: Licencias",
+      "url": "https://source.android.com/docs/setup/about/licenses",
+      "verificado": "Leída el 16/10/2026"
+    },
+    {
+      "nombre": "Android Open Source Project: Android kernel file system support",
+      "url": "https://source.android.com/docs/core/architecture/android-kernel-file-system-support",
+      "verificado": "Lista de sistemas de archivos admitidos leída el 16/10/2026"
+    },
+    {
+      "nombre": "Documentación del kernel Linux: README (qué es Linux)",
+      "url": "https://docs.kernel.org/admin-guide/README.html",
+      "verificado": "Leída el 16/10/2026"
+    },
+    {
+      "nombre": "Documentación del kernel Linux: reglas de licencia",
+      "url": "https://docs.kernel.org/process/license-rules.html",
+      "verificado": "Leída el 16/10/2026"
+    },
+    {
+      "nombre": "Documentación del kernel Linux: ext4, bloques y límites",
+      "url": "https://docs.kernel.org/filesystems/ext4/blocks.html",
+      "verificado": "Tabla de límites leída el 16/10/2026"
+    },
+    {
+      "nombre": "Documentación del kernel Linux: F2FS",
+      "url": "https://docs.kernel.org/filesystems/f2fs.html",
+      "verificado": "Introducción leída el 16/10/2026"
+    },
+    {
+      "nombre": "The Open Group: UNIX Certification Program",
+      "url": "https://www.opengroup.org/unix",
+      "verificado": "Leída el 16/10/2026"
+    },
+    {
+      "nombre": "The Open Group: registro de productos UNIX 03 de Apple (macOS)",
+      "url": "https://www.opengroup.org/openbrand/register/apple.htm",
+      "verificado": "Registro leído el 16/10/2026: macOS 26.0 Tahoe y 15.0 Sequoia, producto UNIX 03"
+    },
+    {
+      "nombre": "D. M. Ritchie y K. Thompson, The UNIX Time-Sharing System (Communications of the ACM, julio de 1974)",
+      "url": "https://dsf.berkeley.edu/cs262/unix.pdf",
+      "verificado": "Texto leído el 16/10/2026"
+    },
+    {
+      "nombre": "Computer History Museum: Microsoft MS-DOS early source code",
+      "url": "https://computerhistory.org/blog/microsoft-ms-dos-early-source-code/",
+      "verificado": "Leída el 16/10/2026"
+    },
+    {
+      "nombre": "Red Hat Enterprise Linux 9: Managing RAID",
+      "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/managing_storage_devices/managing-raid_managing-storage-devices",
+      "verificado": "Leída el 16/10/2026"
+    },
+    {
+      "nombre": "Red Hat Enterprise Linux 9: Encrypting block devices using LUKS",
+      "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/encrypting-block-devices-using-luks_security-hardening",
+      "verificado": "Leída el 16/10/2026"
+    },
+    {
+      "nombre": "VeraCrypt: página oficial",
+      "url": "https://veracrypt.io/en/Home.html",
+      "verificado": "Leída el 16/10/2026"
+    },
+    {
+      "nombre": "SNIA Dictionary (edición del 28/04/2026): DAS, NAS, SAN, HDD y SSD",
+      "url": "https://www.snia.org/sites/default/files/dictionary/SNIADictionary.pdf",
+      "verificado": "Entradas leídas el 16/10/2026"
+    },
+    {
+      "nombre": "NVM Express: About",
+      "url": "https://nvmexpress.org/about/",
+      "verificado": "Leída el 16/10/2026"
+    }
+  ],
+  "novedades": [
+    "Windows 10 dejó de recibir soporte el **14 de octubre de 2025** (la versión 22H2 fue la última; las ediciones LTSC siguen su propio ciclo). Los materiales anteriores a esa fecha pueden presentarlo todavía como sistema en soporte.",
+    "Los requisitos de Windows 11 que publica Microsoft (revisión de julio de 2026) son: UEFI con arranque seguro, **TPM 2.0**, procesador de 64 bits de 2 o más núcleos a 1 GHz, 4 GB de memoria y 64 GB de almacenamiento."
+  ],
+  "clave": [
+    "Un **sistema operativo (SO)** gestiona los recursos del equipo (procesador, memoria, almacenamiento y dispositivos) y presta servicios a las aplicaciones mediante **llamadas al sistema**; es el intermediario entre el hardware y los programas.",
+    "Funciones: gestión de **procesos**, de **memoria**, de **archivos**, de **dispositivos de entrada/salida**, **seguridad y protección** e **interfaz de usuario**.",
+    "El **interbloqueo (deadlock, «abrazo mortal»)** exige cumplir a la vez **4 condiciones**: exclusión mutua, retención y espera, **no apropiación** y espera circular.",
+    "**Android** es una pila de software de código abierto **basada en el núcleo Linux**; **iOS y macOS** comparten el núcleo híbrido **XNU** de Darwin; **Linux** es un clon de Unix escrito desde cero por Linus Torvalds y su núcleo va bajo licencia **GPL-2.0**.",
+    "**FAT32**: archivo de hasta **4 GiB**, sin ACL ni cifrado. **NTFS**: journaling de metadatos, ACL, cifrado, compresión y cuotas. **ext4** (Linux): hasta **16 TiB** por archivo con bloques de 4 KiB. **APFS** (Apple): cifrado, instantáneas, clonado y espacio compartido.",
+    "**MBR** solo admite **4 entradas de partición**; **GPT** (parte de UEFI) permite hasta **128 particiones** en Windows. Windows solo arranca desde GPT en equipos **UEFI de 64 bits**.",
+    "**Windows 10** terminó su soporte el **14/10/2025**. **Windows 11** exige **TPM 2.0**, UEFI con arranque seguro, 4 GB de RAM y 64 GB de disco.",
+    "Cifrado de disco: **BitLocker** (Windows), **FileVault** (macOS), **LUKS** (Linux) y **VeraCrypt** (multiplataforma, basado en TrueCrypt).",
+    "**RAID 0** reparte sin redundancia; **RAID 1** es espejo; **RAID 5** usa paridad distribuida y tolera 1 fallo; **RAID 6** usa doble paridad y tolera 2 fallos.",
+    "Atajos: Windows usa **Ctrl** y macOS usa **Comando (⌘)**. **Windows+L** bloquea el equipo y **Ctrl+Mayús+Esc** abre el Administrador de tareas; en macOS, **Opción+Comando+Esc** fuerza la salida de una aplicación.",
+    "UNIX comerciales: **AIX** (IBM), **HP-UX** (HPE) y **Solaris** (Oracle). **macOS** está registrado como producto UNIX 03 por The Open Group."
+  ],
+  "resumen": [
+    {
+      "titulo": "Qué es un sistema operativo y qué funciones cumple",
+      "puntos": [
+        "Un **sistema operativo (SO)** toma recursos físicos (procesador, memoria, disco) y los gestiona y presenta de forma más sencilla y segura; por eso se le llama también **gestor de recursos**. Ofrece a las aplicaciones unos cientos de **llamadas al sistema**, que hacen de biblioteca estándar.",
+        "Funciones básicas: **procesos** (planificar el uso del procesador y permitir ejecutar varios programas a la vez), **memoria** (asignarla y aislar a cada proceso mediante memoria virtual), **archivos** (almacenamiento persistente mediante un sistema de archivos), **dispositivos de entrada/salida** (a través de controladores o drivers), **seguridad y protección** (usuarios y permisos) e **interfaz** (línea de comandos o gráfica).",
+        "El **núcleo (kernel)** es el componente central del SO. Según el número de usuarios, un SO es **monousuario** o **multiusuario**; según las tareas, **monotarea** o **multitarea**.",
+        "**Interbloqueo (deadlock)**: los procesos quedan bloqueados indefinidamente esperando recursos que retienen otros. Se produce solo si se cumplen **a la vez** las **4 condiciones**: **exclusión mutua** (uso exclusivo del recurso), **retención y espera** (se retiene un recurso mientras se espera otro), **no apropiación** (no se puede quitar el recurso a la fuerza) y **espera circular** (cadena cerrada de procesos que esperan al siguiente). Basta impedir una de ellas para evitar el interbloqueo."
+      ]
+    },
+    {
+      "titulo": "Familias de sistemas operativos que hay que distinguir",
+      "puntos": [
+        "El Anexo I pide MS-DOS, UNIX, Linux, Windows y macOS entre los de escritorio y servidor, y iOS y Android entre los móviles. Lo que se pregunta son sus rasgos distintivos y las confusiones entre ellos.",
+        "Parentescos que conviene recordar: **Linux**, **UNIX** y **macOS** pertenecen a la familia de sistemas de tipo UNIX; **Android** se apoya en Linux; **iOS** y **macOS** se apoyan en Darwin; **MS-DOS** y **Windows** son de Microsoft."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Sistema",
+          "Qué es",
+          "Datos que se preguntan"
+        ],
+        "filas": [
+          [
+            "MS-DOS",
+            "Sistema de Microsoft derivado de 86-DOS (Seattle Computer Products); PC DOS 1.0 salió con el IBM PC en agosto de **1981**",
+            "Interfaz de **línea de comandos**; solo se ejecuta **un programa de usuario a la vez**; la versión 2.0 (1983) añadió directorios jerárquicos y soporte de disco duro; sistema de archivos **FAT**"
+          ],
+          [
+            "UNIX",
+            "Creado en Bell Labs (primera versión hacia **1969-70** en un PDP-7); el núcleo se reescribió en **C** en el verano de **1973**",
+            "**Multiusuario** e interactivo, con sistema de archivos jerárquico. Derivados comerciales: **IBM AIX**, **HP-UX** (HPE) y **Solaris** (Oracle). UNIX es un estándar gestionado por **The Open Group**"
+          ],
+          [
+            "Linux",
+            "Núcleo libre de tipo Unix escrito desde cero por **Linus Torvalds** (primera versión pública en 1991), con licencia **GPL-2.0**",
+            "Linux es solo el **núcleo**: las distribuciones (por ejemplo, Debian o Ubuntu) lo combinan con otro software. Aspira a cumplir **POSIX** y la Single UNIX Specification"
+          ],
+          [
+            "Windows",
+            "Familia de sistemas de Microsoft con interfaz gráfica. Windows 10: desde el 29/07/2015 hasta el **14/10/2025**. Windows 11: desde octubre de 2021",
+            "Windows 11 exige **TPM 2.0**, UEFI con arranque seguro, CPU de 64 bits (2 o más núcleos, 1 GHz), 4 GB de RAM y 64 GB de disco"
+          ],
+          [
+            "macOS",
+            "Sistema de Apple para Mac, basado en **Darwin** y su núcleo híbrido **XNU** (Mach más componentes de FreeBSD); registrado como **UNIX 03**",
+            "Sistema de archivos **APFS** por defecto desde macOS 10.13. Los atajos usan la tecla **Comando**"
+          ],
+          [
+            "iOS",
+            "Sistema móvil de Apple para iPhone, con el mismo núcleo **XNU** de Darwin que macOS",
+            "Usa **APFS**, como el resto de plataformas de Apple"
+          ],
+          [
+            "Android",
+            "Pila de software de código abierto **basada en el núcleo Linux**, de Google",
+            "Las aplicaciones se ejecutan en **ART** (Android Runtime, desde Android 5.0; antes **Dalvik**) con código **DEX**. AOSP va mayoritariamente bajo **Apache 2.0** y el kernel bajo **GPLv2**. Sistemas de archivos **ext4** y **F2FS**"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Sistemas de archivos y tablas de particiones",
+      "puntos": [
+        "**FAT32** apareció con Windows 95 OSR2 y Windows 98. Un único archivo no puede superar **4 GiB**; para llevar archivos mayores entre Windows y macOS se recurre a **exFAT**.",
+        "**MBR**: solo **4 entradas** de partición (más unidades lógicas en una partición extendida) y límite de 2 TB en la tabla de particiones. **GPT**: nació con **UEFI**, identifica cada partición con un GUID, guarda tabla primaria y copia de seguridad, incluye un MBR de protección y en Windows admite hasta **128 particiones**.",
+        "Windows arranca desde un disco GPT solo en sistemas **UEFI de 64 bits**; en un sistema UEFI la partición de arranque de Windows debe estar en un disco GPT (Windows no arranca en UEFI desde MBR)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Sistema de archivos",
+          "Uso habitual",
+          "Características y límites"
+        ],
+        "filas": [
+          [
+            "FAT32",
+            "Memorias USB y tarjetas; compatibilidad universal",
+            "Archivo máximo **4 GiB**; sin journaling, sin ACL y sin cifrado del sistema de archivos"
+          ],
+          [
+            "exFAT",
+            "Memorias USB y tarjetas grandes; Windows y macOS",
+            "Archivos de hasta 2^64 − 1 bytes; sin ACL, sin journaling y sin cifrado propio"
+          ],
+          [
+            "NTFS",
+            "Windows",
+            "Journaling de metadatos, **ACL**, cifrado, compresión, cuotas de usuario, enlaces duros y simbólicos; archivos de hasta 2^64 − 1 bytes; volumen de 16 TB (clúster de 4 KB) a 256 TB (clúster de 64 KB)"
+          ],
+          [
+            "ext4",
+            "Linux y Android",
+            "Journaling y extents; hasta **16 TiB** por archivo con bloques de 4 KiB; el sistema de archivos llega a 16 TiB en modo de 32 bits y mucho más en 64 bits"
+          ],
+          [
+            "APFS",
+            "macOS, iOS, iPadOS y resto de plataformas de Apple",
+            "Cifrado robusto, metadatos con copia en escritura, espacio compartido entre volúmenes, clonado e instantáneas (snapshots)"
+          ],
+          [
+            "F2FS",
+            "Android y otros dispositivos con memoria flash",
+            "Sistema de archivos pensado para almacenamiento basado en memoria flash NAND (SSD, eMMC y tarjetas SD). El núcleo de Android admite **ext4** y **F2FS**"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Atajos de teclado y cifrado de disco",
+      "puntos": [
+        "En Windows el modificador habitual es **Ctrl**; en macOS es **Comando (⌘)**, con las mismas letras (C, V, X, Z, A). Las preguntas suelen intercambiar los dos sistemas.",
+        "Windows: **Windows+L** bloquea el equipo; **Ctrl+Mayús+Esc** abre el Administrador de tareas; **Alt+F4** cierra la ventana activa; **Windows+D** muestra el escritorio; **Mayús+Supr** elimina sin pasar por la Papelera. macOS: **Opción+Comando+Esc** fuerza la salida; **Comando+Q** sale de la aplicación; **Control+Comando+Q** bloquea la pantalla.",
+        "**BitLocker** cifra volúmenes completos en Windows (ediciones Pro y superiores) y da la máxima protección con un **TPM**. **FileVault** es la opción de macOS y **LUKS** el formato de cifrado de disco de Linux. **VeraCrypt** es software libre para Windows, macOS y Linux basado en **TrueCrypt 7.1a**."
+      ]
+    },
+    {
+      "titulo": "Discos, NAS/SAN y RAID",
+      "puntos": [
+        "**HDD**: unidad de disco magnético rotatoria, con partes mecánicas. **SSD**: unidad cuyo almacenamiento lo proporciona memoria de estado sólido, sin partes móviles. **NVMe**: interfaz y conjunto de comandos para SSD conectados por **PCI Express**.",
+        "**DAS**: almacenamiento conectado localmente a un servidor y dedicado a él. **NAS**: dispositivo conectado a una red que presta servicios de acceso a **archivos** con protocolos como NFS y SMB. **SAN** (Storage Area Network): red cuyo fin principal es transferir datos entre sistemas informáticos y dispositivos de almacenamiento; se asocia normalmente a acceso por **bloques**.",
+        "**RAID 0** (reparto o striping): mejora el rendimiento y **no tiene redundancia**; si falla un dispositivo hay pérdida de datos. **RAID 1** (espejo): cada dato se guarda en más de un dispositivo y sobrevive al fallo de uno. **RAID 5**: paridad distribuida, mínimo **3 discos**, tolera el fallo de **1**. **RAID 6**: doble paridad, tolera el fallo de **2**."
+      ],
+      "ampliado": true
+    },
+    {
+      "titulo": "Tabla completa de atajos: Windows frente a macOS",
+      "ampliado": true,
+      "puntos": [
+        "En Windows el modificador habitual es **Ctrl**; en macOS es **Comando (⌘)**. Cambia la tecla, no la letra.",
+        "**Ctrl+Alt+Supr** abre en Windows una pantalla de seguridad desde la que se puede bloquear el equipo, cambiar de usuario, cerrar sesión, cambiar la contraseña o abrir el Administrador de tareas."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Acción",
+          "Windows",
+          "macOS"
+        ],
+        "filas": [
+          [
+            "Copiar, pegar y cortar",
+            "Ctrl+C, Ctrl+V y Ctrl+X",
+            "Comando+C, Comando+V y Comando+X"
+          ],
+          [
+            "Deshacer y rehacer",
+            "Ctrl+Z y Ctrl+Y",
+            "Comando+Z y Mayús+Comando+Z"
+          ],
+          [
+            "Seleccionar todo",
+            "Ctrl+A",
+            "Comando+A"
+          ],
+          [
+            "Cambiar de ventana o aplicación",
+            "Alt+Tab",
+            "Comando+Tab"
+          ],
+          [
+            "Cerrar",
+            "Alt+F4 cierra la ventana activa",
+            "Comando+W cierra la ventana; Comando+Q sale de la aplicación"
+          ],
+          [
+            "Bloquear",
+            "Windows+L",
+            "Control+Comando+Q"
+          ],
+          [
+            "Administrador de tareas o forzar salida",
+            "Ctrl+Mayús+Esc abre el Administrador de tareas; Ctrl+Alt+Supr abre la pantalla de seguridad",
+            "Opción+Comando+Esc fuerza la salida de una aplicación"
+          ],
+          [
+            "Captura de pantalla",
+            "Windows+Mayús+S (recorte)",
+            "Mayús+Comando+3, 4 o 5"
+          ],
+          [
+            "Mostrar el escritorio",
+            "Windows+D",
+            "No aplica"
+          ],
+          [
+            "Borrar",
+            "Mayús+Supr elimina sin pasar por la Papelera",
+            "Comando+Supr mueve a la Papelera; Mayús+Comando+Supr la vacía"
+          ]
+        ]
+      }
+    }
+  ],
+  "trampas": [
+    "**Android no es iOS**: Android se apoya en el núcleo **Linux**; iOS comparte el núcleo **XNU** de Darwin con macOS. No confundir con «Android es una distribución de Linux».",
+    "Licencias: el **núcleo Linux** va bajo **GPL-2.0**; la mayor parte del software de **AOSP** (Android) va bajo **Apache 2.0**, y solo los parches del kernel bajo GPLv2.",
+    "Interbloqueo: la condición es **no apropiación**; si el sistema pudiera retirar el recurso a la fuerza, no habría interbloqueo. Hay **4 condiciones**, no 3 ni 5.",
+    "**Windows 11 exige TPM 2.0**, no 1.2 (el TPM 1.2 solo sirve para BitLocker). Y el fin de soporte de Windows 10 es el **14 de octubre de 2025**.",
+    "Límites de archivo: **FAT32 = 4 GiB**; **NTFS y exFAT = 2^64 − 1 bytes**; **ext4 = 16 TiB** (con bloques de 4 KiB). ACL y cifrado del sistema de archivos solo en NTFS dentro de los sistemas de Windows.",
+    "**MBR** tiene **4** entradas de partición; **GPT** admite **128** en Windows. Windows no arranca desde GPT con BIOS heredada.",
+    "Atajos intercambiados: **Windows+D** muestra el escritorio (no cierra ventanas); **Alt+F4** cierra la ventana en Windows; **Comando+Q** sale de la app en macOS; **Control+Comando+Q** bloquea la pantalla y no fuerza la salida.",
+    "Parejas sistema-herramienta de cifrado: BitLocker-Windows, FileVault-macOS, LUKS-Linux; solo **VeraCrypt** es multiplataforma.",
+    "**RAID 0 no es redundante** pese a llamarse RAID; **RAID 1** copia los datos; **RAID 5** tolera 1 fallo y **RAID 6**, 2."
+  ],
+  "caido": [
+    {
+      "examen": "26 sep 2026",
+      "concepto": "Definición de sistema operativo"
+    },
+    {
+      "examen": "1 mar 2025",
+      "concepto": "Android basado en el núcleo Linux"
+    },
+    {
+      "examen": "25 oct 2025",
+      "concepto": "Deadlock (abrazo mortal) e IBM AIX como sistema para servidores"
+    },
+    {
+      "examen": "23 abr 2023",
+      "concepto": "Atajos de teclado de Windows y Mac; herramientas de cifrado de disco (BitLocker, VeraCrypt) — dos preguntas"
+    }
+  ],
+  "mnemotecnias": [
+    "Windows = **Ctrl**; Mac = **⌘ Comando**: mismas letras (C, V, X, Z, A), distinta tecla. Para bloquear, Windows usa una tecla de letra propia (**Win+L**) y Mac un trío (**Control+Comando+Q**).",
+    "Sistema de archivos por plataforma: **N**TFS-**W**indows, **e**xt4-**L**inux, **A**PFS-**A**pple; FAT32 y exFAT son los formatos de intercambio."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Qué es un sistema operativo?",
+      "r": "Software de sistema que gestiona los recursos del equipo (procesador, memoria, almacenamiento, dispositivos) y presta servicios a las aplicaciones y al usuario."
+    },
+    {
+      "p": "¿Cuáles son las cuatro condiciones del interbloqueo (deadlock)?",
+      "r": "**Exclusión mutua**, **retención y espera**, **no apropiación** y **espera circular**; han de darse a la vez."
+    },
+    {
+      "p": "¿Sobre qué núcleo se basa Android?",
+      "r": "Sobre el núcleo **Linux** (pila de software de código abierto). Sus aplicaciones se ejecutan en **ART**."
+    },
+    {
+      "p": "¿Qué núcleo comparten macOS e iOS?",
+      "r": "**XNU**, núcleo híbrido de **Darwin** que combina Mach con componentes de FreeBSD."
+    },
+    {
+      "p": "¿Tamaño máximo de un archivo en FAT32?",
+      "r": "**4 GiB**."
+    },
+    {
+      "p": "¿Qué sistema de archivos de Windows admite ACL, cifrado y compresión?",
+      "r": "**NTFS** (también journaling de metadatos y cuotas). FAT32 y exFAT no."
+    },
+    {
+      "p": "¿Archivo máximo en ext4 con bloques de 4 KiB y extents?",
+      "r": "**16 TiB**."
+    },
+    {
+      "p": "¿Sistema de archivos predeterminado de macOS desde la versión 10.13?",
+      "r": "**APFS**, con cifrado, instantáneas, clonado y espacio compartido."
+    },
+    {
+      "p": "¿Cuántas particiones admite GPT en Windows y cuántas entradas tiene MBR?",
+      "r": "GPT: hasta **128** particiones. MBR: **4** entradas de partición."
+    },
+    {
+      "p": "¿Requisitos clave de hardware de Windows 11?",
+      "r": "UEFI con arranque seguro, **TPM 2.0**, CPU de 64 bits (2 o más núcleos, 1 GHz), 4 GB de RAM y 64 GB de almacenamiento."
+    },
+    {
+      "p": "¿Cuándo terminó el soporte de Windows 10?",
+      "r": "El **14 de octubre de 2025** (última versión: 22H2)."
+    },
+    {
+      "p": "Herramientas de cifrado de disco por sistema.",
+      "r": "**BitLocker**: Windows. **FileVault**: macOS. **LUKS**: Linux. **VeraCrypt**: multiplataforma, basado en TrueCrypt."
+    },
+    {
+      "p": "¿Qué hacen RAID 0, 1, 5 y 6?",
+      "r": "**0**: reparto sin redundancia. **1**: espejo. **5**: paridad distribuida (mínimo 3 discos, tolera 1 fallo). **6**: doble paridad (tolera 2 fallos)."
+    },
+    {
+      "p": "¿Qué atajos bloquean la sesión en Windows y en macOS?",
+      "r": "Windows: **Windows+L**. macOS: **Control+Comando+Q**."
+    },
+    {
+      "p": "¿Qué atajo fuerza la salida de una aplicación en macOS y cuál abre el Administrador de tareas en Windows?",
+      "r": "macOS: **Opción+Comando+Esc**. Windows: **Ctrl+Mayús+Esc**."
+    },
+    {
+      "p": "¿Qué sistemas de tipo UNIX comerciales conviene conocer?",
+      "r": "**AIX** (IBM), **HP-UX** (HPE) y **Solaris** (Oracle). **macOS** es un producto registrado como UNIX 03."
+    },
+    {
+      "p": "¿Bajo qué licencias van el núcleo Linux y el grueso de Android?",
+      "r": "Núcleo Linux: **GPL-2.0**. La mayor parte de AOSP: **Apache 2.0**; los parches del kernel de Android: GPLv2."
+    },
+    {
+      "p": "¿Cómo se diferencian MS-DOS y UNIX en cuanto a usuarios y tareas?",
+      "r": "MS-DOS ejecuta **un programa de usuario a la vez** desde una línea de comandos; UNIX es un sistema **multiusuario** e interactivo."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Según Microsoft, ¿cuál es el tamaño máximo de un archivo individual en un volumen FAT32?",
+      "opciones": [
+        "2 GiB",
+        "4 GiB",
+        "16 TiB"
+      ],
+      "correcta": 1,
+      "explicacion": "La tabla de límites de Microsoft Learn fija en 4 GiB el archivo máximo de FAT32, mientras que NTFS y exFAT admiten hasta 2^64 − 1 bytes. Los 2 GiB corresponden al límite de las particiones FAT en MS-DOS y los 16 TiB al archivo máximo de ext4 con bloques de 4 KiB.",
+      "ref": "Microsoft Learn, File System Functionality Comparison (Limits)",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre las condiciones necesarias para que se produzca un interbloqueo (deadlock):",
+      "opciones": [
+        "Exclusión mutua: los procesos reclaman el uso exclusivo de los recursos que necesitan.",
+        "Espera circular: existe una cadena cerrada de procesos en la que cada uno espera un recurso que retiene el siguiente.",
+        "Apropiación: el sistema puede retirar por la fuerza a un proceso los recursos que está reteniendo."
+      ],
+      "correcta": 2,
+      "explicacion": "Una de las cuatro condiciones es la no apropiación: los recursos no pueden quitarse a la fuerza a quien los retiene. Si el sistema pudiera retirarlos no habría interbloqueo. La exclusión mutua y la espera circular están bien descritas; la cuarta condición es retención y espera.",
+      "ref": "OSTEP, cap. «Common Concurrency Problems» (condiciones del deadlock)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La documentación para desarrolladores de Android describe la plataforma como una pila de software de código abierto basada en…",
+      "opciones": [
+        "el núcleo Linux.",
+        "el núcleo XNU de Darwin, el mismo que usa Apple.",
+        "el núcleo Windows NT de Microsoft."
+      ],
+      "correcta": 0,
+      "explicacion": "Android Developers describe Android como una pila de software de código abierto basada en Linux, y su fundamento es el núcleo Linux; ART se apoya en él para hilos y gestión de memoria de bajo nivel. XNU es el núcleo de macOS e iOS y Windows NT es el de Windows.",
+      "ref": "Android Developers, Platform architecture",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes sistemas operativos NO utiliza el núcleo Linux?",
+      "opciones": [
+        "Android",
+        "Ubuntu",
+        "iOS"
+      ],
+      "correcta": 2,
+      "explicacion": "iOS comparte con macOS el núcleo híbrido XNU de Darwin, que combina Mach con componentes de FreeBSD. Android se apoya en el núcleo Linux y Ubuntu es una distribución basada en Linux.",
+      "ref": "Apple, repositorio XNU; Android Developers, Platform architecture",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Qué programa de cifrado de disco es de código abierto, funciona en Windows, macOS y Linux y está basado en TrueCrypt 7.1a?",
+      "opciones": [
+        "BitLocker",
+        "VeraCrypt",
+        "FileVault"
+      ],
+      "correcta": 1,
+      "explicacion": "VeraCrypt se presenta como software libre de cifrado de disco para Windows, macOS y Linux basado en TrueCrypt 7.1a. BitLocker es la función de cifrado de volúmenes de Windows y FileVault la de macOS; ambas son propias de su sistema.",
+      "ref": "VeraCrypt, página oficial",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué versión del módulo TPM exige Windows 11 como requisito mínimo de hardware?",
+      "opciones": [
+        "TPM 2.0.",
+        "TPM 1.2.",
+        "No exige TPM si el equipo dispone de arranque seguro."
+      ],
+      "correcta": 0,
+      "explicacion": "Los requisitos de Microsoft para Windows 11 incluyen UEFI con arranque seguro y TPM versión 2.0. El TPM 1.2 sirve para BitLocker, pero no cumple el requisito de Windows 11, y el arranque seguro es un requisito adicional que no sustituye al TPM.",
+      "ref": "Microsoft Learn, Windows 11 requirements; BitLocker overview",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿En qué fecha finalizó el soporte de Windows 10 en sus ediciones Home y Pro?",
+      "opciones": [
+        "El 29 de julio de 2025.",
+        "El 31 de diciembre de 2024.",
+        "El 14 de octubre de 2025."
+      ],
+      "correcta": 2,
+      "explicacion": "Microsoft fijó el fin de soporte de Windows 10 el 14 de octubre de 2025, con la versión 22H2 como última; las ediciones LTSC siguen sus propios ciclos. El 29 de julio es la fecha de lanzamiento de Windows 10 (en 2015) y el 31 de diciembre de 2024 no figura en su ciclo de vida oficial.",
+      "ref": "Microsoft Lifecycle, Windows 10 Home and Pro",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Respecto a las tablas de particiones MBR y GPT, señale la afirmación correcta:",
+      "opciones": [
+        "MBR admite hasta 128 particiones primarias.",
+        "GPT forma parte de la iniciativa UEFI y Windows admite en ella hasta 128 particiones.",
+        "Para arrancar Windows desde un disco GPT basta con una BIOS heredada (legacy)."
+      ],
+      "correcta": 1,
+      "explicacion": "GPT se introdujo con UEFI y la implementación de Windows limita sus particiones a 128; MBR solo admite cuatro entradas de partición. Windows arranca desde GPT únicamente en sistemas UEFI de 64 bits, no con BIOS heredada.",
+      "ref": "Microsoft Learn, Windows and GPT FAQ",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes sistemas de archivos de Windows incorpora listas de control de acceso (ACL), cifrado a nivel de sistema de archivos y compresión integrada?",
+      "opciones": [
+        "NTFS",
+        "FAT32",
+        "exFAT"
+      ],
+      "correcta": 0,
+      "explicacion": "En la comparación de Microsoft Learn, NTFS es el único de los tres que ofrece ACL, cifrado del sistema de archivos y compresión (además de journaling de metadatos y cuotas). FAT32 y exFAT no los incluyen.",
+      "ref": "Microsoft Learn, File System Functionality Comparison",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Un agente debe trasladar un único archivo de vídeo de 6 GiB, mediante un pendrive, entre un ordenador con Windows y otro con macOS. ¿Qué sistema de archivos conviene en el pendrive?",
+      "opciones": [
+        "FAT32",
+        "ext4",
+        "exFAT"
+      ],
+      "correcta": 2,
+      "explicacion": "FAT32 no admite archivos de más de 4 GiB. exFAT admite archivos de hasta 2^64 − 1 bytes y es el formato que Apple propone para volúmenes compartidos con Windows. ext4 es el sistema de archivos propio de Linux, no un formato de intercambio entre Windows y macOS.",
+      "ref": "Microsoft Learn, File System Functionality Comparison; Apple Support, Disk Utility",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según la documentación del kernel de Linux, ¿cuál es el tamaño máximo de un archivo en ext4 con bloques de 4 KiB y extents?",
+      "opciones": [
+        "4 GiB",
+        "16 TiB",
+        "64 ZiB"
+      ],
+      "correcta": 1,
+      "explicacion": "La tabla de límites de ext4 indica 16 TiB por archivo con extents (y 4 TiB con mapas de bloques). Los 64 ZiB son el tamaño del sistema de archivos en modo de 64 bits con bloques de 4 KiB, no del archivo, y los 4 GiB son el límite de FAT32.",
+      "ref": "docs.kernel.org, ext4: Blocks (tabla de límites)",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Qué núcleo comparten los sistemas operativos macOS e iOS?",
+      "opciones": [
+        "XNU, un núcleo híbrido de Darwin que combina Mach con componentes de FreeBSD.",
+        "El núcleo Linux con extensiones propias de Apple.",
+        "Windows NT adaptado por Apple."
+      ],
+      "correcta": 0,
+      "explicacion": "El repositorio de Apple describe XNU como parte de Darwin para macOS e iOS y como un núcleo híbrido que combina Mach con componentes de FreeBSD. Ni Linux ni Windows NT forman parte de los sistemas de Apple.",
+      "ref": "Apple, repositorio XNU (README)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Bajo qué licencia se distribuye el núcleo Linux?",
+      "opciones": [
+        "Apache License 2.0.",
+        "Licencia MIT.",
+        "GNU GPL versión 2 (GPL-2.0)."
+      ],
+      "correcta": 2,
+      "explicacion": "Las reglas de licencia del kernel establecen la GPL-2.0 (versión 2 únicamente). La Apache 2.0 es la licencia preferida por AOSP para la mayor parte del software de Android; solo los parches del kernel Linux de Android van bajo GPLv2.",
+      "ref": "docs.kernel.org, License rules; AOSP, Licencias",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué sistema operativo de tipo UNIX para servidores desarrolla la empresa IBM?",
+      "opciones": [
+        "HP-UX",
+        "AIX",
+        "Solaris"
+      ],
+      "correcta": 1,
+      "explicacion": "AIX es el UNIX de IBM. HP-UX pertenece a HPE y Solaris a Oracle, según los ejemplos de sistemas basados en UNIX que cita The Open Group.",
+      "ref": "The Open Group, UNIX Certification Program",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale la combinación de teclas INCORRECTAMENTE asociada a su función en Windows:",
+      "opciones": [
+        "Windows + L: bloquear el equipo.",
+        "Ctrl + Mayús + Esc: abrir el Administrador de tareas.",
+        "Windows + D: cerrar la ventana activa."
+      ],
+      "correcta": 2,
+      "explicacion": "Windows+D muestra u oculta el escritorio; la ventana activa se cierra con Alt+F4. Windows+L bloquea el equipo y Ctrl+Mayús+Esc abre directamente el Administrador de tareas.",
+      "ref": "Microsoft Support, Keyboard shortcuts in Windows",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En macOS, ¿qué combinación de teclas permite forzar la salida de una aplicación que no responde?",
+      "opciones": [
+        "Opción + Comando + Esc.",
+        "Comando + Q.",
+        "Control + Comando + Q."
+      ],
+      "correcta": 0,
+      "explicacion": "Apple asigna Opción-Comando-Esc a «Forzar salida». Comando+Q cierra de forma normal la aplicación activa y Control-Comando-Q bloquea la pantalla.",
+      "ref": "Apple Support, Mac keyboard shortcuts",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Se quiere un almacenamiento en el que los datos se guarden idénticos en dos discos para seguir funcionando si falla uno. ¿Qué nivel de RAID es el adecuado?",
+      "opciones": [
+        "RAID 0",
+        "RAID 1",
+        "RAID 5"
+      ],
+      "correcta": 1,
+      "explicacion": "RAID 1 escribe datos idénticos en cada disco miembro (espejo) y el conjunto funciona aunque solo quede uno. RAID 0 reparte datos sin redundancia y RAID 5 usa paridad distribuida y exige al menos tres discos.",
+      "ref": "SNIA Dictionary (RAID 1); Red Hat, Managing RAID",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Qué es un NAS?",
+      "opciones": [
+        "Un dispositivo de almacenamiento conectado a la red que ofrece acceso a archivos mediante protocolos como NFS o SMB.",
+        "Un disco conectado localmente a un servidor y dedicado a él.",
+        "Un sistema de archivos con cifrado pensado para memorias flash."
+      ],
+      "correcta": 0,
+      "explicacion": "El diccionario de SNIA define NAS como un dispositivo de almacenamiento que se conecta a una red y presta servicios de acceso a archivos a los clientes, con protocolos como NFS y SMB. El almacenamiento conectado localmente a un servidor es DAS, y el tercer enunciado no describe ningún tipo de almacenamiento en red.",
+      "ref": "SNIA Dictionary, Network Attached Storage",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una usuaria de Windows selecciona un archivo y pulsa Mayús + Supr (Shift + Delete). ¿Qué ocurre?",
+      "opciones": [
+        "El archivo se mueve a la Papelera de reciclaje.",
+        "El archivo se oculta, pero sigue en la carpeta.",
+        "El archivo se elimina de forma permanente sin pasar por la Papelera."
+      ],
+      "correcta": 2,
+      "explicacion": "Según Microsoft, Mayús+Supr elimina el elemento seleccionado sin moverlo a la Papelera. En macOS, en cambio, Comando+Supr mueve el elemento a la Papelera y Mayús+Comando+Supr la vacía.",
+      "ref": "Microsoft Support, Keyboard shortcuts in Windows; Apple Support, Mac keyboard shortcuts",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la función que NO corresponde a un sistema operativo:",
+      "opciones": [
+        "Asignar memoria a los procesos y aislarlos entre sí.",
+        "Redactar y maquetar documentos de texto.",
+        "Planificar el uso del procesador entre los programas en ejecución."
+      ],
+      "correcta": 1,
+      "explicacion": "El sistema operativo gestiona procesos, memoria, archivos y dispositivos. Redactar documentos es tarea de una aplicación, como un procesador de textos, que se ejecuta sobre el sistema operativo.",
+      "ref": "OSTEP, cap. «Introduction to Operating Systems»",
+      "dificultad": 1
+    }
+  ],
+  "dudas": [
+    "El año de nacimiento de Linux (1991) lo recogen fuentes secundarias (el mensaje de Linus Torvalds en comp.os.minix de agosto de 1991); la ficha no da día ni cita de fuente primaria.",
+    "«Monotarea» y «línea de comandos» de MS-DOS se apoyan en el Computer History Museum («solo un programa de usuario a la vez»); no he encontrado una definición oficial de Microsoft con esas palabras.",
+    "El límite de 2 TB de MBR aparece en un artículo antiguo de Microsoft sobre Windows NT; el FAQ de GPT actual no lo repite.",
+    "No se incluyen fechas de lanzamiento de iOS ni de Android porque no localicé una fuente oficial que las confirme."
+  ]
+}

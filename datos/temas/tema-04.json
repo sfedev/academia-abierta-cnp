@@ -1,0 +1,806 @@
+{
+  "tema": 4,
+  "titulo": "La Unión Europea y la cooperación policial internacional",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "medio",
+    "nota": "Entre 2 y 3 preguntas por examen: sedes, composición y mandatos del TJUE, tipos de actos del art. 288 TFUE, historia de los tratados y cooperación policial (Prüm, CEPOL)."
+  },
+  "normas": [
+    {
+      "nombre": "Versiones consolidadas del Tratado de la Unión Europea (TUE) y del Tratado de Funcionamiento de la Unión Europea (TFUE), con el Protocolo nº 6 sobre las sedes (DO C 202, 7.6.2016)",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:12016M/TXT",
+      "verificado": "Arts. 14, 17 y 19 TUE y 238, 252 y 253 TFUE leídos en EUR-Lex (versión de 2016, «In force»). Resto de artículos citados (TUE 1-6, 13-16, 18, 49-50; TFUE 85-89, 228, 234, 251-267, 282-297; Protocolo nº 6) leídos en la edición oficial consolidada de 2010 (DO C 83) publicada por el Gobierno de España; cotejo de su texto con la versión de 2016 solo en los artículos citados antes. Leído el 16/10/2026"
+    },
+    {
+      "nombre": "Convenio Europeo para la protección de los derechos humanos y de las libertades fundamentales (texto refundido de la Resolución de 5 de abril de 1999, con los Protocolos nº 11, 14 y 15)",
+      "boe": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "verificado": "Texto consolidado, actualización de 16/07/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Reglamento (UE) 2016/794 del Parlamento Europeo y del Consejo, de 11 de mayo de 2016, sobre la Agencia de la Unión Europea para la Cooperación Policial (Europol)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/794/oj/spa",
+      "verificado": "Texto original publicado en el DO L 135 de 24.5.2016, leído el 16/10/2026. Modificado por el Reglamento (UE) 2022/991, de 8 de junio de 2022 (verificados título y entrada en vigor)"
+    },
+    {
+      "nombre": "Reglamento (UE) 2024/982 del Parlamento Europeo y del Consejo, de 13 de marzo de 2024, relativo a la búsqueda y al intercambio automatizados de datos para la cooperación policial (Prüm II)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/982/oj/spa",
+      "verificado": "Texto publicado en el DO L de 5.4.2024, leído el 16/10/2026"
+    },
+    {
+      "nombre": "Decisión (UE) 2023/2061 del Consejo Europeo, de 22 de septiembre de 2023, por la que se fija la composición del Parlamento Europeo",
+      "url": "https://eur-lex.europa.eu/eli/dec/2023/2061/oj/spa",
+      "verificado": "Texto publicado en el DO L 238 de 27.9.2023, leído el 16/10/2026"
+    },
+    {
+      "nombre": "Decisión 2013/272/UE del Consejo Europeo, de 22 de mayo de 2013, relativa al número de miembros de la Comisión Europea",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32013D0272",
+      "verificado": "Texto publicado en el DO L 165 de 18.6.2013, leído el 16/10/2026"
+    },
+    {
+      "nombre": "Reglamento (UE) 2018/1727 (Eurojust), Reglamento (UE) 2019/1896 (Guardia Europea de Fronteras y Costas), Reglamento (UE) 2015/2219 (CEPOL) y Reglamento (UE) 2018/1862 (Sistema de Información de Schengen en el ámbito policial y judicial penal)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2018/1862/oj/spa",
+      "verificado": "Títulos, sedes (Eurojust art. 79; Frontex art. 93.5; CEPOL considerando 19) y art. 7 del Reglamento 2018/1862 leídos en EUR-Lex el 16/10/2026"
+    },
+    {
+      "nombre": "Tratado de Prüm, de 27 de mayo de 2005 (Instrumento de ratificación de España)",
+      "boe": "BOE-A-2006-22583",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-22583",
+      "verificado": "Texto original publicado en el BOE de 25/12/2006 (no consolidado), leído el 16/10/2026"
+    },
+    {
+      "nombre": "Acuerdo de Adhesión de España al Convenio de aplicación del Acuerdo de Schengen (Bonn, 25 de junio de 1991), con el texto del Convenio de 1990",
+      "boe": "BOE-A-1994-7586",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-7586",
+      "verificado": "Texto original publicado en el BOE de 5/4/1994 (no consolidado), arts. 39 a 41 leídos el 16/10/2026"
+    },
+    {
+      "nombre": "Páginas oficiales del Tribunal de Justicia de la Unión Europea (Tribunal de Justicia y Tribunal General), del Consejo de la UE (Presidencia), de la Comisión Europea (Colegio de Comisarios), de europa.eu (historia, países y euro), del Consejo de Europa (Estados miembros) y de INTERPOL",
+      "url": "https://curia.europa.eu/site/jcms/d2_5093/es/",
+      "verificado": "Consultadas el 16/10/2026: Curia (27 jueces y 11 abogados generales; 54 jueces del Tribunal General), Consilium (Presidencia rotatoria, revisión de 7/8/2026), Comisión (27 comisarios), european-union.europa.eu (historia, 27 Estados, 21 con euro; actualización de 12/1/2026), coe.int (46 Estados) e interpol.int (196 países miembros)"
+    }
+  ],
+  "novedades": [
+    "Parlamento Europeo: en la legislatura 2024-2029 tiene 720 escaños (España, 61) según la Decisión (UE) 2023/2061. El TUE (art. 14.2) solo fija el techo de 750 más el Presidente, por lo que no hay que confundir el máximo con la cifra real.",
+    "Prüm II: el Reglamento (UE) 2024/982 (publicado el 5/4/2024 y en vigor a los veinte días) sustituye parte de las Decisiones 2008/615/JAI y 2008/616/JAI y añade dos categorías de datos, imágenes faciales y antecedentes policiales, con un enrutador central gestionado por eu-LISA; sus funciones se activan por fases mediante actos de ejecución de la Comisión.",
+    "Tribunal Europeo de Derechos Humanos: el Protocolo nº 15 (en vigor desde el 1/8/2021) redujo de seis a cuatro meses el plazo para presentar la demanda (aplicable desde el 1/2/2022) y sustituyó el límite de los 70 años de los jueces por la exigencia de que los candidatos tengan menos de 65 años cuando se presenta la lista.",
+    "Tribunal de Justicia: el art. 252 TFUE prevé ocho abogados generales, pero el Consejo ha ampliado el número y hoy son 11. El Tribunal General tiene 54 jueces (dos por Estado).",
+    "Zona del euro: Bulgaria se incorporó en 2026; son 21 de los 27 Estados miembros.",
+    "Europol: el Reglamento (UE) 2022/991 reformó el Reglamento 2016/794 (cooperación con entidades privadas, tratamiento de datos personales en apoyo de investigaciones penales e investigación e innovación)."
+  ],
+  "clave": [
+    "**CECA (Tratado de París, 18/4/1951)**: seis Estados fundadores (Alemania, Francia, Italia, Países Bajos, Bélgica y Luxemburgo). Portugal no. España ingresó el **1/1/1986**, junto con Portugal.",
+    "**Maastricht** (firmado el 7/2/1992) creó oficialmente la UE y entró en vigor el **1/11/1993**. **Lisboa** (firmado el 13/12/2007) entró en vigor el **1/12/2009**: TUE y TFUE con el mismo valor jurídico y Carta de Derechos Fundamentales con valor de Tratado (arts. 1 y 6.1 TUE).",
+    "Tras la salida del Reino Unido (**31/1/2020**) la UE tiene **27 Estados miembros**; **21** usan el euro.",
+    "**Art. 288 TFUE**: reglamento (alcance general, obligatorio, directamente aplicable); directiva (obliga en cuanto al resultado); decisión (obligatoria, solo para los destinatarios si los designa); recomendaciones y dictámenes **no vinculan**.",
+    "**Siete instituciones** (art. 13 TUE): Parlamento Europeo, Consejo Europeo, Consejo, Comisión, Tribunal de Justicia de la UE, Banco Central Europeo y Tribunal de Cuentas.",
+    "**Parlamento**: 720 escaños (2024-2029), mínimo 6 y máximo 96 por Estado, mandato de **5 años**. **Comisión**: 27 miembros, **5 años**. **Consejo**: mayoría cualificada = 55 % de los Estados (mínimo 15) y 65 % de la población.",
+    "**TJUE**: sede en **Luxemburgo**. Tribunal de Justicia: **27 jueces y 11 abogados generales**; mandato de **6 años** renovable, con renovación parcial cada **3**. Tribunal General: 54 jueces.",
+    "**TEDH**: pertenece al Consejo de Europa (**46** Estados), no a la UE; sede en Estrasburgo; tantos jueces como Estados parte, **9 años no reelegibles**; demanda en **4 meses** tras agotar la vía interna (art. 35).",
+    "**Sedes**: Parlamento (plenos: Estrasburgo; comisiones: Bruselas; Secretaría General: Luxemburgo); Consejo y Comisión: Bruselas; TJUE y Tribunal de Cuentas: Luxemburgo; BCE: Frankfurt; **Europol y Eurojust: La Haya**; CEPOL: Budapest; Frontex: Varsovia; INTERPOL: Lyon.",
+    "**Eurosistema** = BCE + bancos centrales de los Estados cuya moneda es el euro; **SEBC** = BCE + bancos centrales de todos los Estados miembros (art. 282 TFUE).",
+    "**Cooperación policial**: INTERPOL (196 países), Europol (art. 88 TFUE; sin medidas coercitivas), Prüm (ADN, huellas dactilares, matrículas; Prüm II añade imágenes faciales y antecedentes policiales), SIS y oficinas Sirene, Convenio de Schengen (arts. 39 a 41)."
+  ],
+  "resumen": [
+    {
+      "titulo": "Historia: tratados, fechas y ampliaciones",
+      "puntos": [
+        "El **Consejo de Europa** (5/5/1949) no es la UE: de él depende el Convenio Europeo de Derechos Humanos (en vigor desde el 3/9/1953; para España, desde el 4/10/1979).",
+        "El Plan Schuman (9/5/1950, origen del Día de Europa) lleva al **Tratado de París** (18/4/1951) y a la **CECA** (1952), con **seis** Estados: Alemania, Francia, Italia, Países Bajos, Bélgica y Luxemburgo.",
+        "**Maastricht** crea oficialmente la «Unión Europea». Con **Lisboa**, la Unión se funda en el TUE y el TFUE (mismo valor jurídico) y **sustituye y sucede a la Comunidad Europea** (art. 1 TUE).",
+        "Ampliaciones: **1973** Dinamarca, Irlanda y Reino Unido (9); **1981** Grecia; **1/1/1986** España y Portugal (12); **1995** Austria, Finlandia y Suecia (15); **2004** diez Estados (25); **2007** Bulgaria y Rumanía (27); **2013** Croacia (28). El Reino Unido sale el **31/1/2020**: **27 Estados**. Noruega, Islandia, Suiza, Reino Unido y Turquía no son miembros.",
+        "Otros hitos: primeras elecciones directas al Parlamento Europeo en **1979**; mercado único el 1/1/1993; Schengen en vigor el **26/3/1995** en siete países; euro el 1/1/1999 en once países (billetes y monedas en 2002). Hoy usan el euro **21 de los 27** Estados.",
+        "Símbolos: himno (Oda a la alegría, de Beethoven, oficial desde 1985), lema **«Unida en la diversidad»** (2000) y Día de Europa el 9 de mayo.",
+        "**Adhesión** (art. 49 TUE): el Consejo decide **por unanimidad**, tras consultar a la Comisión y con la aprobación del Parlamento por mayoría de sus miembros. **Retirada** (art. 50): los Tratados dejan de aplicarse al entrar en vigor el acuerdo o, en su defecto, a los **dos años** de la notificación, salvo prórroga unánime del Consejo Europeo."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Tratado",
+          "Firma",
+          "Entrada en vigor",
+          "Contenido básico"
+        ],
+        "filas": [
+          [
+            "París (CECA)",
+            "18/4/1951",
+            "1952",
+            "Carbón y acero; seis Estados"
+          ],
+          [
+            "Roma (CEE y Euratom)",
+            "25/3/1957",
+            "1/1/1958",
+            "Comunidad Económica Europea y energía atómica"
+          ],
+          [
+            "Fusión (Bruselas)",
+            "8/4/1965",
+            "1/7/1967",
+            "Un solo Consejo y una sola Comisión para las tres Comunidades"
+          ],
+          [
+            "Acta Única Europea",
+            "Febrero de 1986",
+            "1/7/1987",
+            "Programa del mercado único; más poder para el Parlamento"
+          ],
+          [
+            "Maastricht (TUE)",
+            "7/2/1992",
+            "1/11/1993",
+            "Crea la Unión Europea; moneda única, política exterior, justicia e interior"
+          ],
+          [
+            "Ámsterdam",
+            "2/10/1997",
+            "1/5/1999",
+            "Reforma de las instituciones; empleo y derechos de los ciudadanos"
+          ],
+          [
+            "Niza",
+            "26/2/2001",
+            "1/2/2003",
+            "Reforma institucional para la ampliación"
+          ],
+          [
+            "Lisboa",
+            "13/12/2007",
+            "1/12/2009",
+            "TUE y TFUE; Carta con valor de Tratado"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Derecho de la Unión: primario, derivado y cómo se aprueba",
+      "puntos": [
+        "**Derecho primario**: TUE, TFUE, Protocolos y Anexos (art. 51 TUE), tratados de modificación y de adhesión y la Carta de los Derechos Fundamentales (art. 6.1 TUE). **Derecho derivado**: los actos que adoptan las instituciones (art. 288 TFUE).",
+        "Principios del art. 5 TUE: **atribución** (las competencias no atribuidas son de los Estados), **subsidiariedad** (fuera de sus competencias exclusivas, la Unión actúa solo si los Estados no pueden lograr suficientemente el objetivo) y **proporcionalidad**.",
+        "**Procedimiento legislativo ordinario** (arts. 289 y 294 TFUE): la **Comisión propone** y el **Parlamento y el Consejo adoptan conjuntamente**; lo así adoptado es un **acto legislativo**. Un acto legislativo puede delegar en la Comisión **actos delegados** sobre elementos no esenciales (art. 290), y la Comisión adopta **actos de ejecución** (art. 291).",
+        "Los actos legislativos, los reglamentos, las directivas dirigidas a todos los Estados y las decisiones sin destinatario se publican en el Diario Oficial y entran en vigor en la fecha que fijen o, a falta de ella, a los **veinte días** (art. 297)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Acto (art. 288 TFUE)",
+          "Efecto"
+        ],
+        "filas": [
+          [
+            "Reglamento",
+            "Alcance general; obligatorio en todos sus elementos; directamente aplicable en cada Estado miembro"
+          ],
+          [
+            "Directiva",
+            "Obliga al Estado destinatario en cuanto al resultado; las autoridades nacionales eligen forma y medios"
+          ],
+          [
+            "Decisión",
+            "Obligatoria en todos sus elementos; si designa destinatarios, solo obliga a estos"
+          ],
+          [
+            "Recomendación y dictamen",
+            "No son vinculantes"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Instituciones: composición, mandatos y sedes",
+      "puntos": [
+        "El art. 13 TUE enumera **siete instituciones**. El Comité Económico y Social y el Comité de las Regiones (sede en Bruselas) asisten al Parlamento, al Consejo y a la Comisión con funciones **consultivas**.",
+        "**Comisión**: el art. 17.5 TUE preveía reducirla a dos tercios de los Estados, pero la Decisión 2013/272/UE mantuvo **un miembro por Estado** (27). Su Presidente lo propone el Consejo Europeo (mayoría cualificada) y lo elige el Parlamento por mayoría de sus miembros. Una moción de censura exige dos tercios de los votos emitidos que sean mayoría de los diputados (art. 234 TFUE).",
+        "**Consejo Europeo**: fija orientaciones y prioridades y **no ejerce función legislativa**; decide por consenso salvo previsión en contrario; su Presidente se elige por mayoría cualificada por **dos años y medio**, renovable una vez (art. 15 TUE).",
+        "**Consejo**: mayoría cualificada = 55 % de los miembros (al menos 15) que representen el 65 % de la población; minoría de bloqueo de al menos cuatro miembros (art. 16.4 TUE). Si no actúa a propuesta de la Comisión o del Alto Representante, el 72 % (art. 238.2 TFUE). Su Presidencia rota cada **seis meses** (tríos de 18 meses): segundo semestre de 2026, Irlanda.",
+        "**Alto Representante** (art. 18 TUE): lo nombra el Consejo Europeo por mayoría cualificada con la aprobación del Presidente de la Comisión, es uno de sus vicepresidentes y preside el Consejo de Asuntos Exteriores. **Defensor del Pueblo Europeo** (art. 228 TFUE): lo elige el Parlamento para toda la legislatura, con mandato renovable."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Institución",
+          "Composición y mandato",
+          "Sede"
+        ],
+        "filas": [
+          [
+            "Parlamento Europeo",
+            "720 diputados (2024-2029); mínimo 6 y máximo 96 por Estado; sufragio universal directo; 5 años",
+            "Estrasburgo (12 plenos mensuales); Bruselas (comisiones y plenos adicionales); Luxemburgo (Secretaría General)"
+          ],
+          [
+            "Consejo Europeo",
+            "Jefes de Estado o de Gobierno, su Presidente y el Presidente de la Comisión",
+            "No figura en el Protocolo nº 6"
+          ],
+          [
+            "Consejo",
+            "Un representante de rango ministerial por Estado",
+            "Bruselas (abril, junio y octubre en Luxemburgo)"
+          ],
+          [
+            "Comisión Europea",
+            "27 miembros, uno por Estado; 5 años",
+            "Bruselas"
+          ],
+          [
+            "Tribunal de Justicia de la UE",
+            "Tribunal de Justicia: 27 jueces y 11 abogados generales; Tribunal General: 54 jueces; 6 años renovables, renovación parcial cada 3",
+            "Luxemburgo"
+          ],
+          [
+            "Banco Central Europeo",
+            "Comité Ejecutivo: presidente, vicepresidente y cuatro miembros, 8 años no renovables",
+            "Frankfurt"
+          ],
+          [
+            "Tribunal de Cuentas",
+            "Un nacional por Estado; 6 años renovables",
+            "Luxemburgo"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Tribunal de Justicia de la UE: qué recurso es cada uno",
+      "puntos": [
+        "El TJUE comprende el **Tribunal de Justicia, el Tribunal General** y los tribunales especializados (art. 19.1 TUE). El Tribunal de Justicia actúa en Salas de 3 y 5 jueces, en **Gran Sala (15)** y, excepcionalmente, en Pleno (27). Los **abogados generales** presentan conclusiones independientes (art. 252 TFUE); España, Alemania, Francia, Italia y Polonia tienen uno permanente.",
+        "El **Tribunal General** conoce en primera instancia de la mayoría de los recursos directos (arts. 263, 265, 268, 270 y 272); cabe casación ante el Tribunal de Justicia, limitada a cuestiones de Derecho (art. 256)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Procedimiento",
+          "Quién lo promueve",
+          "Dato clave"
+        ],
+        "filas": [
+          [
+            "Incumplimiento (arts. 258 a 260 TFUE)",
+            "La Comisión, o un Estado tras acudir a la Comisión, contra un Estado",
+            "Dictamen motivado previo; puede imponerse suma a tanto alzado o multa coercitiva"
+          ],
+          [
+            "Nulidad (art. 263)",
+            "Estados, Parlamento, Consejo, Comisión y personas afectadas directa e individualmente",
+            "Plazo de **dos meses**"
+          ],
+          [
+            "Omisión (art. 265)",
+            "Estados e instituciones; también personas",
+            "Requerimiento previo; dos meses para definir posición y otros dos para recurrir"
+          ],
+          [
+            "Cuestión prejudicial (art. 267)",
+            "Órganos jurisdiccionales nacionales",
+            "Interpretación de los Tratados y validez e interpretación de actos; **obligatoria** si sus decisiones no admiten recurso interno"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Tribunal Europeo de Derechos Humanos (Consejo de Europa)",
+      "puntos": [
+        "El TEDH vela por el Convenio Europeo de Derechos Humanos y sus protocolos (art. 19). Tiene **un juez por Estado parte** (art. 20), elegido por la **Asamblea Parlamentaria** por mayoría absoluta de una lista de tres candidatos (art. 22), para **nueve años sin reelección** (art. 23); los candidatos deben tener menos de 65 años (art. 21).",
+        "Formaciones (art. 26): **juez único**, **Comités de tres**, **Salas de siete** y **Gran Sala de diecisiete**. La sentencia de Sala es definitiva a los tres meses salvo petición de remisión a la Gran Sala (arts. 43 y 44).",
+        "Pueden acudir los Estados (art. 33) y cualquier persona física, ONG o grupo que se considere víctima (art. 34), tras agotar las vías internas y **en cuatro meses** desde la resolución interna definitiva (art. 35.1).",
+        "Las sentencias definitivas obligan a los Estados y su ejecución la supervisa el **Comité de Ministros** (art. 46). El art. 6.2 TUE obliga a la UE a adherirse al Convenio, pero hoy el TEDH no es una institución de la Unión."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Aspecto",
+          "TJUE (Unión Europea)",
+          "TEDH (Consejo de Europa)"
+        ],
+        "filas": [
+          [
+            "Estados",
+            "27",
+            "46"
+          ],
+          [
+            "Sede",
+            "Luxemburgo",
+            "Estrasburgo"
+          ],
+          [
+            "Jueces",
+            "Tribunal de Justicia: 27 y 11 abogados generales",
+            "Uno por cada Estado parte"
+          ],
+          [
+            "Mandato",
+            "6 años, renovable; renovación parcial cada 3",
+            "9 años, no reelegibles"
+          ],
+          [
+            "Designación",
+            "De común acuerdo por los Gobiernos",
+            "Asamblea Parlamentaria del Consejo de Europa"
+          ],
+          [
+            "Gran Sala",
+            "15 jueces",
+            "17 jueces"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Cooperación policial internacional",
+      "puntos": [
+        "**INTERPOL**: organización intergubernamental de **196** países, que nace del congreso de Viena de 1923 y adopta en 1956 su constitución (ICPO-INTERPOL). Su Secretaría General está en **Lyon** (desde 1989); cada país tiene una **Oficina Central Nacional**, la Asamblea General se reúne una vez al año y la red de comunicación es **I-24/7**. Prohíbe actuar en cuestiones de carácter político, militar, religioso o racial (art. 3).",
+        "Notificaciones: **roja** (localizar y detener a un reclamado), **amarilla** (desaparecidos), **azul** (información sobre identidad, paradero o actividades), **negra** (cadáveres sin identificar), **verde** (advertencia sobre actividades delictivas), **naranja** (amenaza grave e inminente), **púrpura** (modus operandi) y **plata** (activos, en fase piloto).",
+        "**Europol** (art. 88 TFUE; Reglamento 2016/794): apoya a las policías nacionales contra la delincuencia grave que afecta a dos o más Estados y el terrorismo; **no aplica medidas coercitivas** (art. 4.5); se comunica con los Estados mediante **unidades nacionales**; su director ejecutivo tiene mandato de cuatro años, prorrogable una vez. Controlan su actividad el Parlamento Europeo y los parlamentos nacionales.",
+        "**Eurojust** (art. 85 TFUE) coordina a las autoridades judiciales penales; **CEPOL** forma a los funcionarios policiales; **Frontex** es la Guardia Europea de Fronteras y Costas, con un cuerpo permanente de 10 000 efectivos.",
+        "**Schengen**: Acuerdo de 14/6/1985 y Convenio de aplicación de 19/6/1990; España se adhirió el 25/6/1991. En el **SIS** (Reglamento 2018/1862) cada Estado designa una oficina N.SIS y una **oficina Sirene**, operativa 24 horas al día y 7 días a la semana, que es el punto único de contacto para la información complementaria.",
+        "Convenio de Schengen, art. 40 (**vigilancia transfronteriza**: si no hay autorización previa por urgencia, cesa a las cinco horas de cruzar la frontera sin obtenerla) y art. 41 (**persecución transfronteriza**: solo por fronteras terrestres, sin entrar en domicilios, con arma de servicio solo para legítima defensa; el no nacional detenido se libera como máximo a las seis horas, sin contar de medianoche a las nueve de la mañana).",
+        "**Prüm**: Tratado de 27/5/2005 (Bélgica, Alemania, España, Francia, Luxemburgo, Países Bajos y Austria; en vigor para España el 1/11/2006), para consultar ficheros de ADN, huellas dactilares y matrículas. Las Decisiones 2008/615/JAI y 2008/616/JAI lo llevaron al Derecho de la UE y el **Reglamento (UE) 2024/982 (Prüm II)** añade imágenes faciales y antecedentes policiales.",
+        "El art. 87 TFUE prevé la cooperación entre todas las autoridades policiales, de aduanas y otros servicios coercitivos; el art. 89 deja al Consejo, por unanimidad y previa consulta al Parlamento, fijar las condiciones en que pueden actuar en el territorio de otro Estado."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Organismo",
+          "Base jurídica",
+          "Sede"
+        ],
+        "filas": [
+          [
+            "INTERPOL",
+            "Constitución de 1956 (no es de la UE)",
+            "Lyon"
+          ],
+          [
+            "Europol",
+            "Reglamento (UE) 2016/794",
+            "La Haya"
+          ],
+          [
+            "Eurojust",
+            "Reglamento (UE) 2018/1727",
+            "La Haya"
+          ],
+          [
+            "CEPOL",
+            "Reglamento (UE) 2015/2219",
+            "Budapest"
+          ],
+          [
+            "Frontex",
+            "Reglamento (UE) 2019/1896",
+            "Varsovia"
+          ]
+        ]
+      }
+    }
+  ],
+  "trampas": [
+    "**Tres «consejos» distintos**: el Consejo Europeo (jefes de Estado o de Gobierno), el Consejo de la UE (ministros) y el Consejo de Europa (46 Estados; al que pertenece el TEDH). Los distractores los intercambian.",
+    "**Mandatos**: TJUE y Tribunal de Cuentas, 6 años renovables; TEDH, 9 años no reelegibles; Comité Ejecutivo del BCE, 8 años no renovables; Parlamento y Comisión, 5 años; Presidente del Consejo Europeo, 2,5 años renovable una vez.",
+    "**Sedes**: el TJUE está en Luxemburgo (no en Bruselas ni en La Haya); Europol y Eurojust, en La Haya; el BCE, en Frankfurt; los plenos del Parlamento, en Estrasburgo; el TEDH, también en Estrasburgo pero fuera de la UE.",
+    "**Cifras del TJUE**: 27 jueces y 11 abogados generales (el Tratado dice ocho como base); el Tribunal General tiene 54 jueces, no 27. La Gran Sala del TJUE tiene 15 jueces y la del TEDH, 17.",
+    "**Eurosistema frente a SEBC**: el primero solo incluye a los bancos centrales de los Estados que usan el euro; el segundo, a los de todos los Estados miembros.",
+    "**Actos jurídicos**: la directiva no es «directamente aplicable» como el reglamento; la decisión con destinatarios solo obliga a estos; las recomendaciones y los dictámenes no vinculan. Una lista que incluya «sentencias» u «órdenes» como actos del art. 288 es falsa.",
+    "**Plazos**: demanda ante el TEDH, 4 meses (antes 6); recurso de anulación ante el TJUE, 2 meses; remisión a la Gran Sala del TEDH, 3 meses; retirada de la UE, 2 años desde la notificación.",
+    "**Comisión y Parlamento**: la Comisión no tiene dos tercios de los Estados, sino uno por Estado (27); los 750 escaños son el techo del Tratado, no el número real (720).",
+    "**Europol no detiene**: no aplica medidas coercitivas; las ejecutan las autoridades nacionales. Y no es un órgano del Consejo de Europa ni de INTERPOL.",
+    "**Países no miembros** que aparecen como miembros: Noruega, Islandia, Suiza, Reino Unido y Turquía. Irlanda sí lo es (desde 1973) y Portugal no fue fundador."
+  ],
+  "caido": [
+    {
+      "examen": "13 abr 2024 (dos preguntas), 1 mar 2025 y 25 oct 2025",
+      "concepto": "Sedes (TJUE en Luxemburgo, TEDH en Estrasburgo) y composición del TJUE: un juez por Estado, 11 abogados generales, mandato de 6 años con renovación parcial cada 3"
+    },
+    {
+      "examen": "1 mar 2025 y 25 oct 2025",
+      "concepto": "Estados miembros y no miembros de la UE (Irlanda sí; Turquía, Escocia y Noruega no)"
+    },
+    {
+      "examen": "1 mar 2025 y 26 sep 2026",
+      "concepto": "Actos jurídicos del art. 288 TFUE y Derecho primario (tratados constitutivos, de modificación y de adhesión)"
+    },
+    {
+      "examen": "23 abr 2023 y 25 oct 2025",
+      "concepto": "Historia: origen de la UE en la CECA de 1951 con seis Estados (Portugal no) y lema «Unida en la diversidad»"
+    },
+    {
+      "examen": "26 sep 2026",
+      "concepto": "Eurosistema (BCE y bancos centrales de la zona del euro) como autoridad monetaria, frente al SEBC"
+    },
+    {
+      "examen": "23 abr 2023 y 1 mar 2025",
+      "concepto": "Cooperación policial: Tratado de Prüm y Reglamento Prüm II (ADN, huellas, matrículas) y CEPOL como agencia de formación policial"
+    }
+  ],
+  "mnemotecnias": [
+    "Seis fundadores de la CECA: el **Benelux** (Bélgica, Países Bajos, Luxemburgo) más **Francia, Alemania e Italia**. España y Portugal entran juntos en 1986.",
+    "Mandatos por orden creciente: **5** (Parlamento y Comisión), **6** (TJUE y Tribunal de Cuentas), **8** (BCE, no renovable), **9** (TEDH, no reelegible).",
+    "Sedes de justicia: el TJUE está en **Luxemburgo** y el TEDH en **Estrasburgo**; Europol y Eurojust, en **La Haya**.",
+    "Actos: **R**eglamento = se aplica tal cual; **D**irectiva = marca el **D**estino (resultado) y cada Estado elige el camino; **D**ecisión = vincula al **D**estinatario."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Qué seis Estados firmaron en 1951 el tratado de la CECA?",
+      "r": "**Alemania, Francia, Italia, Países Bajos, Bélgica y Luxemburgo** (Tratado de París, 18/4/1951). Portugal no."
+    },
+    {
+      "p": "¿Cuándo entró en vigor el Tratado de Maastricht y qué creó?",
+      "r": "El **1/11/1993** (firmado el 7/2/1992). Creó oficialmente la **Unión Europea**."
+    },
+    {
+      "p": "¿Cuándo entró en vigor el Tratado de Lisboa?",
+      "r": "El **1/12/2009** (firmado el 13/12/2007). La UE se funda en el TUE y el TFUE y sucede a la Comunidad Europea."
+    },
+    {
+      "p": "¿Cuándo ingresó España en las Comunidades Europeas?",
+      "r": "El **1/1/1986**, junto con Portugal (pasaron a ser 12 Estados)."
+    },
+    {
+      "p": "¿Cuántos Estados miembros tiene la UE y cuándo salió el Reino Unido?",
+      "r": "**27**. El Reino Unido salió el **31/1/2020**."
+    },
+    {
+      "p": "¿Qué instituciones enumera el art. 13 TUE?",
+      "r": "**Siete**: Parlamento Europeo, Consejo Europeo, Consejo, Comisión, Tribunal de Justicia de la UE, Banco Central Europeo y Tribunal de Cuentas."
+    },
+    {
+      "p": "¿Qué efecto tiene cada acto del art. 288 TFUE?",
+      "r": "Reglamento: obligatorio y directamente aplicable. Directiva: obliga en cuanto al resultado. Decisión: obligatoria (solo para los destinatarios si los designa). Recomendación y dictamen: **no vinculantes**."
+    },
+    {
+      "p": "¿Quién propone y quién adopta los actos legislativos en el procedimiento ordinario?",
+      "r": "La **Comisión propone**; el **Parlamento Europeo y el Consejo adoptan conjuntamente** (arts. 289 y 294 TFUE)."
+    },
+    {
+      "p": "¿Cuántos escaños tiene el Parlamento Europeo en 2024-2029 y qué límites hay por Estado?",
+      "r": "**720** escaños; mínimo **6** y máximo **96** por Estado. A España le corresponden 61."
+    },
+    {
+      "p": "¿Cómo se define la mayoría cualificada en el Consejo?",
+      "r": "**55 %** de los miembros (al menos **15**) que representen el **65 %** de la población; la minoría de bloqueo exige al menos cuatro miembros (art. 16.4 TUE)."
+    },
+    {
+      "p": "¿Cuántos miembros tiene la Comisión Europea y cuánto dura su mandato?",
+      "r": "**27** (uno por Estado, según la Decisión 2013/272/UE) y **5 años** (art. 17 TUE)."
+    },
+    {
+      "p": "¿Cómo se compone el Tribunal de Justicia de la UE y dónde tiene su sede?",
+      "r": "**27 jueces y 11 abogados generales**, mandato de **6 años** renovable con renovación parcial cada 3. Sede en **Luxemburgo**. El Tribunal General tiene 54 jueces."
+    },
+    {
+      "p": "¿Qué plazo hay para el recurso de anulación del art. 263 TFUE?",
+      "r": "**Dos meses** desde la publicación, la notificación o el conocimiento del acto."
+    },
+    {
+      "p": "¿Cuándo está obligado un tribunal nacional a plantear una cuestión prejudicial?",
+      "r": "Cuando sus decisiones **no sean susceptibles de ulterior recurso judicial de Derecho interno** (art. 267 TFUE)."
+    },
+    {
+      "p": "¿Qué es el TEDH, cuántos jueces tiene y qué mandato?",
+      "r": "Tribunal del **Consejo de Europa** (46 Estados), en Estrasburgo. **Un juez por Estado parte**, mandato de **9 años no reelegibles**."
+    },
+    {
+      "p": "¿Qué formaciones tiene el TEDH y qué plazo hay para demandar?",
+      "r": "Juez único, Comités de 3, Salas de 7 y **Gran Sala de 17**. Demanda en **4 meses** desde la resolución interna definitiva."
+    },
+    {
+      "p": "¿Qué diferencia hay entre Eurosistema y SEBC?",
+      "r": "**Eurosistema**: BCE + bancos centrales de los Estados con euro. **SEBC**: BCE + bancos centrales de **todos** los Estados miembros (art. 282 TFUE)."
+    },
+    {
+      "p": "¿Dónde están las sedes de Europol, Eurojust, CEPOL, Frontex e INTERPOL?",
+      "r": "Europol y Eurojust: **La Haya**. CEPOL: **Budapest**. Frontex: **Varsovia**. INTERPOL: **Lyon**."
+    },
+    {
+      "p": "¿Puede Europol practicar detenciones?",
+      "r": "**No**. Europol no aplica medidas coercitivas (art. 4.5 Reglamento 2016/794); las aplican las autoridades nacionales."
+    },
+    {
+      "p": "¿Para qué sirve una notificación roja de INTERPOL?",
+      "r": "Para **localizar y detener** a una persona reclamada para ser enjuiciada o cumplir condena."
+    },
+    {
+      "p": "¿Qué categorías de datos regula Prüm II (Reglamento 2024/982)?",
+      "r": "Perfiles de **ADN**, datos **dactiloscópicos**, determinados datos de **matriculación de vehículos**, **imágenes faciales** y **antecedentes policiales**."
+    },
+    {
+      "p": "¿Cada cuánto rota la Presidencia del Consejo de la UE?",
+      "r": "Cada **seis meses** (en tríos de 18 meses). En el segundo semestre de 2026 la ejerce Irlanda."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "¿Dónde tiene su sede el Tribunal de Justicia de la Unión Europea?",
+      "opciones": [
+        "Bruselas",
+        "Luxemburgo",
+        "Estrasburgo"
+      ],
+      "correcta": 1,
+      "explicacion": "El Protocolo nº 6 sobre las sedes, anejo a los Tratados, fija la sede del TJUE en Luxemburgo. Bruselas es sede del Consejo y de la Comisión, y Estrasburgo acoge los plenos del Parlamento Europeo y también al Tribunal Europeo de Derechos Humanos, que no es una institución de la UE.",
+      "ref": "Protocolo nº 6 sobre las sedes, artículo único, letra d)",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "En la actualidad, ¿cuántos jueces y abogados generales forman el Tribunal de Justicia de la UE (sin contar el Tribunal General)?",
+      "opciones": [
+        "27 jueces y 8 abogados generales",
+        "54 jueces y 11 abogados generales",
+        "27 jueces y 11 abogados generales"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 19.2 TUE prevé un juez por Estado miembro (27). El art. 252 TFUE fija ocho abogados generales, pero el Consejo, por unanimidad y a petición del Tribunal, puede aumentarlos; según la web oficial del TJUE son hoy 11. Los 54 jueces, dos por Estado, son los del Tribunal General.",
+      "ref": "art. 19.2 TUE; art. 252 TFUE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación correcta sobre el mandato de los jueces del Tribunal de Justicia de la Unión Europea.",
+      "opciones": [
+        "Son nombrados por seis años, con renovación parcial cada tres, y pueden ser designados de nuevo",
+        "Son nombrados por nueve años y no pueden ser reelegidos",
+        "Son nombrados por seis años y no pueden ser designados de nuevo"
+      ],
+      "correcta": 0,
+      "explicacion": "Los arts. 19.2 TUE y 253 TFUE establecen seis años, renovación parcial cada tres años y posibilidad de nuevo nombramiento. Los nueve años sin reelección son el mandato de los jueces del Tribunal Europeo de Derechos Humanos (art. 23 del Convenio), y la prohibición de repetir no existe en el TJUE.",
+      "ref": "art. 253 TFUE; art. 19.2 TUE",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre el Tribunal Europeo de Derechos Humanos es correcta?",
+      "opciones": [
+        "Es una institución de la Unión Europea con sede en Luxemburgo",
+        "Tiene tantos jueces como Estados parte en el Convenio, elegidos por la Asamblea Parlamentaria del Consejo de Europa",
+        "Sus jueces son designados de común acuerdo por los Gobiernos de los Estados por un período de seis años"
+      ],
+      "correcta": 1,
+      "explicacion": "Los arts. 20 y 22 del Convenio fijan un número de jueces igual al de Altas Partes Contratantes y su elección por la Asamblea Parlamentaria. El TEDH pertenece al sistema del Consejo de Europa (Estrasburgo), no a la UE, y el nombramiento de común acuerdo por los Gobiernos durante seis años describe a los jueces del TJUE (art. 253 TFUE).",
+      "ref": "arts. 19, 20 y 22 del Convenio Europeo de Derechos Humanos",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre los actos jurídicos de la Unión del art. 288 TFUE.",
+      "opciones": [
+        "El reglamento tiene alcance general, es obligatorio en todos sus elementos y directamente aplicable en cada Estado miembro",
+        "La directiva obliga al Estado destinatario en cuanto al resultado, dejando a las autoridades nacionales la elección de la forma y de los medios",
+        "La decisión que designa destinatarios es obligatoria para todos los Estados miembros aunque no figuren como destinatarios"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el art. 288 TFUE la decisión es obligatoria en todos sus elementos y, cuando designa destinatarios, solo es obligatoria para estos. Las descripciones del reglamento y de la directiva reproducen el texto del artículo. Las recomendaciones y los dictámenes no son vinculantes.",
+      "ref": "art. 288 TFUE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La Comisión Europea considera que un Estado miembro ha incumplido el Derecho de la Unión. Tras darle la posibilidad de presentar observaciones emite un dictamen motivado, pero el Estado no se atiene a él en el plazo fijado. ¿Qué puede hacer la Comisión?",
+      "opciones": [
+        "Recurrir al Tribunal de Justicia de la Unión Europea mediante el recurso por incumplimiento",
+        "Solicitar al Tribunal General que anule la norma nacional",
+        "Pedir al Consejo Europeo que suspenda de inmediato los derechos de voto del Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 258 TFUE faculta a la Comisión a recurrir al TJUE si el Estado no se atiene al dictamen motivado en el plazo señalado. El TJUE no anula normas nacionales en este procedimiento, y la suspensión de derechos de voto responde al mecanismo del art. 7 TUE, que exige una violación grave y persistente de los valores del art. 2 y es distinto.",
+      "ref": "art. 258 TFUE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En un litigio ante el Tribunal Supremo español, cuyas sentencias no admiten ulterior recurso judicial de Derecho interno, surge una duda sobre la interpretación de un reglamento de la UE necesaria para fallar. Según el art. 267 TFUE:",
+      "opciones": [
+        "El Tribunal Supremo puede plantear la cuestión al TJUE, pero nunca está obligado a hacerlo",
+        "El Tribunal Supremo está obligado a someter la cuestión prejudicial al TJUE",
+        "Solo el Tribunal Constitucional puede plantear la cuestión al TJUE"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 267 TFUE dispone que, cuando la cuestión se plantea ante un órgano jurisdiccional nacional cuyas decisiones no sean susceptibles de ulterior recurso judicial de Derecho interno, este está obligado a someterla al Tribunal. Los demás órganos jurisdiccionales pueden plantearla si la estiman necesaria para fallar. El precepto no reserva la facultad al Tribunal Constitucional.",
+      "ref": "art. 267 TFUE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿En qué plazo debe interponerse un recurso de anulación ante el TJUE según el art. 263 TFUE?",
+      "opciones": [
+        "Un mes, contado desde la adopción del acto por la institución",
+        "Seis meses, contados desde la entrada en vigor del acto",
+        "Dos meses, contados desde la publicación, la notificación o el conocimiento del acto"
+      ],
+      "correcta": 2,
+      "explicacion": "El último párrafo del art. 263 TFUE fija un plazo de dos meses a partir, según los casos, de la publicación del acto, de su notificación al recurrente o, a falta de ello, del día en que este tuvo conocimiento. El plazo de cuatro meses del art. 35 del Convenio Europeo es el de las demandas ante el TEDH.",
+      "ref": "art. 263 TFUE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Desde el 1 de noviembre de 2014, ¿cómo define la mayoría cualificada en el Consejo la regla general del art. 16.4 TUE?",
+      "opciones": [
+        "Al menos el 55 % de los miembros del Consejo, incluidos al menos quince, que representen como mínimo al 65 % de la población de la Unión",
+        "Al menos el 65 % de los miembros del Consejo, incluidos al menos veinte, que representen como mínimo al 55 % de la población de la Unión",
+        "Al menos el 72 % de los miembros del Consejo que representen como mínimo al 65 % de la población, en todos los casos"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 16.4 TUE exige el 55 % de los miembros del Consejo (al menos quince) y el 65 % de la población, con minoría de bloqueo de al menos cuatro miembros. El 72 % solo se exige cuando el Consejo no actúa a propuesta de la Comisión o del Alto Representante (art. 238.2 TFUE). La segunda opción invierte los porcentajes.",
+      "ref": "art. 16.4 TUE; art. 238.2 TFUE",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Cuántos miembros componen actualmente la Comisión Europea y cuál es la duración de su mandato?",
+      "opciones": [
+        "18 miembros, correspondientes a dos tercios de los Estados, con mandato de cinco años",
+        "27 miembros, uno por cada Estado miembro, con mandato de cinco años",
+        "27 miembros, uno por cada Estado miembro, con mandato de seis años"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 17.3 TUE fija un mandato de cinco años. El art. 17.5 TUE preveía una Comisión de dos tercios de los Estados salvo que el Consejo Europeo decidiera por unanimidad otro número; la Decisión 2013/272/UE mantuvo un nacional por Estado, hoy 27. Los seis años son el mandato de los jueces del TJUE y de los miembros del Tribunal de Cuentas.",
+      "ref": "art. 17.3 y 17.5 TUE; Decisión 2013/272/UE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según la Decisión (UE) 2023/2061 del Consejo Europeo, ¿cuántos escaños tiene el Parlamento Europeo en la legislatura 2024-2029 y qué límites por Estado recoge el art. 14.2 TUE?",
+      "opciones": [
+        "750 escaños, con un mínimo de seis y un máximo de 96 por Estado",
+        "720 escaños, con un mínimo de tres y un máximo de 96 por Estado",
+        "720 escaños, con un mínimo de seis y un máximo de 96 por Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "La Decisión 2023/2061 reparte 720 escaños para 2024-2029 (a España le corresponden 61). El art. 14.2 TUE fija un techo de 750 más el Presidente, que no es el número real, un mínimo de seis diputados por Estado y un máximo de 96.",
+      "ref": "art. 14.2 TUE; Decisión (UE) 2023/2061, art. 3",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el art. 282 TFUE, ¿qué es el Eurosistema?",
+      "opciones": [
+        "El conjunto formado por el Banco Central Europeo y los bancos centrales nacionales de los Estados miembros cuya moneda es el euro",
+        "El conjunto formado por el Banco Central Europeo y los bancos centrales nacionales de todos los Estados miembros",
+        "El órgano rector del BCE, formado por el Comité Ejecutivo y los gobernadores de los bancos centrales de la zona del euro"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 282.1 TFUE define el Eurosistema como el BCE más los bancos centrales de los Estados cuya moneda es el euro, que dirigen la política monetaria de la Unión. El conjunto con los bancos centrales de todos los Estados miembros es el Sistema Europeo de Bancos Centrales (SEBC). La tercera descripción corresponde al Consejo de Gobierno del BCE (art. 283.1).",
+      "ref": "art. 282.1 TFUE; art. 283.1 TFUE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de los siguientes Estados fue uno de los seis países que firmaron en 1951 el tratado constitutivo de la Comunidad Europea del Carbón y del Acero?",
+      "opciones": [
+        "Portugal",
+        "Países Bajos",
+        "Irlanda"
+      ],
+      "correcta": 1,
+      "explicacion": "El Tratado de París (18/4/1951) fue firmado por Alemania, Francia, Italia, Países Bajos, Bélgica y Luxemburgo. Irlanda ingresó en 1973 y Portugal, junto con España, en 1986.",
+      "ref": "Tratado de París (1951); historia de la UE",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Qué tratado creó oficialmente la «Unión Europea» y cuándo entró en vigor?",
+      "opciones": [
+        "El Tratado de Roma de 1957, que entró en vigor el 1 de enero de 1958",
+        "El Tratado de Lisboa, firmado en 2007, que entró en vigor el 1 de diciembre de 2009",
+        "El Tratado de Maastricht, firmado el 7 de febrero de 1992, que entró en vigor el 1 de noviembre de 1993"
+      ],
+      "correcta": 2,
+      "explicacion": "El Tratado de Maastricht (Tratado de la Unión Europea) creó oficialmente la UE y entró en vigor el 1/11/1993. Los Tratados de Roma crearon la CEE y Euratom. Lisboa, en vigor desde el 1/12/2009, reformó el sistema, dio origen al TFUE y estableció que la Unión sustituye y sucede a la Comunidad Europea (art. 1 TUE).",
+      "ref": "Tratado de Maastricht (1992); art. 1 TUE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el art. 6.1 TUE, ¿qué valor jurídico tiene la Carta de los Derechos Fundamentales de la Unión Europea?",
+      "opciones": [
+        "El mismo valor jurídico que los Tratados",
+        "Un valor meramente declarativo, sin fuerza vinculante",
+        "Un valor inferior al de los Tratados y superior al del Derecho derivado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 6.1 TUE reconoce los derechos, libertades y principios de la Carta y le atribuye el mismo valor jurídico que los Tratados, sin que sus disposiciones amplíen las competencias de la Unión. Además, el art. 6.2 TUE obliga a la Unión a adherirse al Convenio Europeo de Derechos Humanos.",
+      "ref": "art. 6.1 TUE",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "El art. 1 del Reglamento (UE) 2024/982 (Prüm II) regula la búsqueda automatizada de datos entre autoridades policiales. ¿Cuál de las siguientes categorías de datos NO figura en ese artículo?",
+      "opciones": [
+        "Imágenes faciales",
+        "Datos de los registros de nombres de pasajeros aéreos (PNR)",
+        "Perfiles de ADN"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 1 menciona perfiles de ADN, datos dactiloscópicos, determinados datos de matriculación de vehículos, imágenes faciales y antecedentes policiales. Las dos últimas categorías son la novedad respecto al marco de las Decisiones 2008/615/JAI y 2008/616/JAI. Los datos PNR no están entre ellas.",
+      "ref": "art. 1 Reglamento (UE) 2024/982",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Respecto de Europol, según el Reglamento (UE) 2016/794, señale la afirmación correcta.",
+      "opciones": [
+        "Tiene su sede en Bruselas y sus agentes pueden practicar detenciones en cualquier Estado miembro",
+        "Es un órgano del Consejo de Europa dedicado a la cooperación policial",
+        "Tiene su sede en La Haya y no aplica medidas coercitivas en la realización de sus tareas"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 62.3 sitúa la sede de Europol en La Haya (Protocolo nº 6) y el art. 4.5 dispone que no aplicará medidas coercitivas, que corresponden en exclusiva a las autoridades nacionales (art. 88.3 TFUE). Es una agencia de la Unión (art. 62.1), no un órgano del Consejo de Europa.",
+      "ref": "arts. 4.5 y 62 Reglamento (UE) 2016/794; art. 88.3 TFUE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Dónde tiene su sede la Secretaría General de INTERPOL?",
+      "opciones": [
+        "Viena",
+        "Lyon",
+        "La Haya"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la web oficial de INTERPOL, la Secretaría General se trasladó en 1989 a Lyon (Francia). Viena es la ciudad del congreso de 1923 que dio origen a la organización, y La Haya es la sede de Europol y de Eurojust. INTERPOL cuenta con 196 países miembros y no es un organismo de la UE.",
+      "ref": "INTERPOL, «Our history» y «What is INTERPOL?»",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un país miembro de INTERPOL quiere que se localice y detenga a un fugitivo contra el que existe una orden de detención para su enjuiciamiento. ¿Qué notificación debe solicitar a través de su Oficina Central Nacional?",
+      "opciones": [
+        "Notificación roja",
+        "Notificación amarilla",
+        "Notificación azul"
+      ],
+      "correcta": 0,
+      "explicacion": "La notificación roja sirve para localizar y detener a personas reclamadas para ser enjuiciadas o cumplir condena. La amarilla ayuda a localizar personas desaparecidas o a identificar a quienes no pueden hacerlo, y la azul recaba información sobre la identidad, el paradero o las actividades de una persona en relación con una investigación penal.",
+      "ref": "INTERPOL, «About Notices»",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el Reglamento (UE) 2018/1862, ¿qué es la oficina Sirene que designa cada Estado miembro?",
+      "opciones": [
+        "La agencia de la Unión dedicada a la formación de los funcionarios de policía de los Estados miembros",
+        "La unidad de Europol que coordina a escala europea la lucha contra el cibercrimen",
+        "El punto de contacto único nacional, operativo las 24 horas, para el intercambio de información complementaria del SIS"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 7.2 del Reglamento 2018/1862 describe la oficina Sirene como autoridad nacional operativa las 24 horas del día y los 7 días de la semana, punto único de contacto para el intercambio de información complementaria sobre las descripciones del SIS. La formación policial corresponde a CEPOL, y la lucha contra la ciberdelincuencia, al Centro Europeo de Ciberdelincuencia de Europol.",
+      "ref": "art. 7.2 Reglamento (UE) 2018/1862",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Agentes de policía de un Estado Schengen persiguen sin autorización previa, por una frontera terrestre, a una persona hallada en flagrante delito de una de las infracciones del art. 41 del Convenio de aplicación del Acuerdo de Schengen. Durante la persecución en el otro Estado, según ese artículo:",
+      "opciones": [
+        "pueden entrar en domicilios si la persona perseguida se refugia en ellos",
+        "pueden llevar su arma de servicio, pero su uso está prohibido salvo en caso de legítima defensa",
+        "pueden interrogar siempre a la persona aprehendida y retenerla sin límite de tiempo"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 41.5 permite llevar el arma de servicio, aunque prohíbe usarla salvo legítima defensa, y prohíbe entrar en domicilios y lugares no accesibles al público. La facultad de interrogar o retener depende de la modalidad declarada por cada Estado (art. 41.2), y el no nacional detenido debe ser liberado como máximo seis horas después de la detención, salvo solicitud previa de arresto provisional a efectos de extradición (art. 41.6).",
+      "ref": "art. 41 Convenio de aplicación del Acuerdo de Schengen",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Tras el Protocolo nº 15, ¿en qué plazo debe presentarse una demanda ante el Tribunal Europeo de Derechos Humanos una vez agotadas las vías internas?",
+      "opciones": [
+        "Seis meses desde la resolución interna definitiva",
+        "Tres meses desde la resolución interna definitiva",
+        "Cuatro meses desde la resolución interna definitiva"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 35.1 del Convenio, modificado por el Protocolo nº 15 (aplicable al plazo desde el 1/2/2022), exige presentar la demanda en cuatro meses desde la resolución interna definitiva; antes eran seis. Los tres meses son el plazo para pedir la remisión de una sentencia de Sala a la Gran Sala (art. 43).",
+      "ref": "art. 35.1 Convenio Europeo de Derechos Humanos",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿De cuántos jueces se compone la Gran Sala del Tribunal Europeo de Derechos Humanos?",
+      "opciones": [
+        "Diecisiete",
+        "Quince",
+        "Siete"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 26.1 del Convenio establece juez único, Comités de tres jueces, Salas de siete y una Gran Sala de diecisiete. Los quince jueces son los de la Gran Sala del Tribunal de Justicia de la UE, y siete es la composición de una Sala del TEDH.",
+      "ref": "art. 26.1 Convenio Europeo de Derechos Humanos",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre el Consejo Europeo es correcta según el art. 15 TUE?",
+      "opciones": [
+        "Ejerce, junto con el Parlamento Europeo, la función legislativa",
+        "Define las orientaciones y prioridades políticas generales de la Unión y no ejerce función legislativa alguna",
+        "Está compuesto por un ministro de cada Estado miembro y decide siempre por mayoría cualificada"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 15.1 TUE le atribuye dar los impulsos necesarios y definir las orientaciones y prioridades políticas generales, sin función legislativa. Lo integran los jefes de Estado o de Gobierno, su Presidente y el Presidente de la Comisión (art. 15.2), y se pronuncia por consenso salvo disposición en contrario (art. 15.4). La función legislativa la ejercen el Parlamento y el Consejo, compuesto por un ministro por Estado.",
+      "ref": "art. 15 TUE; art. 16 TUE",
+      "dificultad": 1
+    }
+  ],
+  "dudas": [
+    "No se ha podido verificar en fuente oficial el estado actual (2026) de la adhesión de la UE al Convenio Europeo de Derechos Humanos que exige el art. 6.2 TUE; la ficha solo afirma que el TEDH no es hoy una institución de la UE.",
+    "Las declaraciones españolas sobre la persecución transfronteriza (10 km con Francia; 50 km o dos horas con Portugal) son de 1994 (BOE-A-1994-7586) y no se ha comprobado su vigencia; no se han incluido.",
+    "Los arts. 39 a 41 del Convenio de Schengen se han leído en el texto original publicado en el BOE (no consolidado); no se ha contrastado si algún instrumento posterior de la UE los ha modificado.",
+    "El Reglamento (UE) 2016/794 se ha leído en su redacción original; de la reforma del Reglamento (UE) 2022/991 solo se han verificado el título y la entrada en vigor."
+  ]
+}

@@ -1,0 +1,565 @@
+{
+  "tema": 1,
+  "titulo": "Derecho, normas jurídicas, persona y nacionalidad",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "medio",
+    "nota": "Media de 2,2 preguntas por examen (entre 0 y 4). Casi todo es nacionalidad (arts. 17-26 del Código Civil, sobre todo los plazos del art. 22) y vecindad civil (art. 14); la teoría del Derecho se pregunta muy poco."
+  },
+  "normas": [
+    {
+      "nombre": "Real Decreto de 24 de julio de 1889 por el que se publica el Código Civil",
+      "boe": "BOE-A-1889-4763",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "verificado": "Texto consolidado, actualización de 07/09/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Constitución Española (arts. 9, 11, 12 y 13)",
+      "boe": "BOE-A-1978-31229",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "verificado": "Texto consolidado, actualización de 20/05/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 20/2011, de 21 de julio, del Registro Civil (art. 4)",
+      "boe": "BOE-A-2011-12628",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-12628",
+      "verificado": "Texto consolidado, actualización de 24/02/2026 (leído el 16/10/2026)"
+    }
+  ],
+  "novedades": [
+    "Ley 8/2021 (en vigor desde el 3 de septiembre de 2021): ya no existe la incapacitación judicial; las personas con discapacidad ejercen su capacidad jurídica con medidas de apoyo (arts. 249-250 CC). Con material anterior, la mayoría de edad y la emancipación figuraban en los arts. 314-324 CC: hoy están derogados y la materia está en los arts. 239-248 (la mayoría de edad, en el art. 240).",
+    "Art. 30 CC (Ley 20/2011): la personalidad se adquiere con el nacimiento con vida y el entero desprendimiento del seno materno. Ya no se exige figura humana ni 24 horas de vida: es un distractor típico de redacción antigua.",
+    "Art. 23.b CC (Ley 12/2015): los sefardíes originarios de España quedan exentos de renunciar a su anterior nacionalidad al adquirir la española. El art. 22.1 sigue incluyendo a los sefardíes entre quienes necesitan 2 años de residencia."
+  ],
+  "clave": [
+    "**Fuentes del ordenamiento** (art. 1.1 CC): la **ley, la costumbre y los principios generales del derecho**. La jurisprudencia solo complementa (art. 1.6).",
+    "**Entrada en vigor**: a los **20 días** de la completa publicación en el BOE, si la ley no dispone otra cosa (art. 2.1 CC). Los tratados solo se aplican directamente tras su publicación íntegra en el BOE (art. 1.5).",
+    "**Jerarquía**: carecen de validez las disposiciones que contradigan otra de rango superior (art. 1.2 CC); la CE garantiza la jerarquía normativa (art. 9.3).",
+    "**Personalidad**: se adquiere con el **nacimiento con vida** y entero desprendimiento del seno materno (art. 30 CC) y se extingue por la **muerte** (art. 32).",
+    "**Mayoría de edad: 18 años** (art. 12 CE; art. 240 CC). **Emancipación** por concesión de quienes ejerzan la patria potestad: **16 años** cumplidos y consentimiento del menor (art. 241).",
+    "**Nacionalidad por residencia** (art. 22 CC): **10 años** regla general; **5** refugiados; **2** nacionales de origen de países iberoamericanos, Andorra, Filipinas, Guinea Ecuatorial o Portugal, y sefardíes; **1 año** en los supuestos del art. 22.2. Residencia **legal, continuada e inmediatamente anterior** a la petición.",
+    "**Españoles de origen** (art. 17.1): hijos de padre o madre españoles; nacidos en España de padres extranjeros si uno nació también en España; apátridas o cuya ley no atribuye nacionalidad al hijo; filiación no determinada.",
+    "**Ningún español de origen** puede ser privado de su nacionalidad (art. 11.2 CE).",
+    "**Opción**: 2 años para el adoptado mayor de 18 años (art. 19.2) y para quien determina su filiación o nacimiento en España después de los 18 (art. 17.2); la opción por patria potestad caduca a los **20 años** de edad (art. 20.2.c).",
+    "**Pérdida** del emancipado que reside en el extranjero y adquiere voluntariamente otra nacionalidad: a los **3 años**, salvo que declare querer conservar la española (art. 24.1).",
+    "**Vecindad civil** (art. 14 CC): **2 años** de residencia continuada con declaración de voluntad, o **10 años** sin declaración en contrario; el matrimonio no la altera; en caso de duda prevalece el **lugar de nacimiento**.",
+    "**Domicilio** de las personas naturales: el lugar de su **residencia habitual** (art. 40 CC)."
+  ],
+  "resumen": [
+    {
+      "titulo": "Derecho, norma jurídica y jerarquía normativa",
+      "puntos": [
+        "**Derecho objetivo**: conjunto de normas que ordenan la convivencia y se imponen de forma coactiva. **Derecho subjetivo**: facultad que esas normas reconocen a una persona. **Derecho positivo**: el vigente en una sociedad, frente al natural (ideal de justicia anterior a la ley). Son acepciones doctrinales; el Código Civil no las define.",
+        "**Norma jurídica positiva**: regla de conducta **general**, dictada por autoridad competente para ordenar la convivencia, **obligatoria** y exigible **coactivamente**; la norma moral no es exigible coactivamente por los poderes públicos. Su **estructura** es un **supuesto de hecho** y una **consecuencia jurídica**.",
+        "Las normas **imperativas y prohibitivas** no pueden eludirse: los actos contrarios son nulos de pleno derecho, salvo que la norma fije otro efecto (art. 6.3 CC). La CE garantiza la **publicidad de las normas** y la **jerarquía normativa** (art. 9.3).",
+        "**Jerarquía**: carecen de validez las disposiciones que contradigan otra de rango superior (art. 1.2 CC). Los reglamentos no pueden vulnerar las leyes y los Tribunales controlan la potestad reglamentaria (art. 106.1 CE)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Norma",
+          "Quién la dicta",
+          "Rasgo clave"
+        ],
+        "filas": [
+          [
+            "Constitución",
+            "Poder constituyente; reforma por el Título X",
+            "Norma suprema (art. 9.1 CE)"
+          ],
+          [
+            "Tratados internacionales",
+            "El Estado; autorización de las Cortes en los casos del art. 94 CE",
+            "Forman parte del ordenamiento interno tras su publicación oficial (art. 96.1 CE)"
+          ],
+          [
+            "Ley orgánica",
+            "Cortes Generales",
+            "Materias del art. 81.1 CE; mayoría absoluta del Congreso en votación final sobre el conjunto"
+          ],
+          [
+            "Ley ordinaria",
+            "Cortes Generales",
+            "Mayoría de los miembros presentes (art. 79.2 CE)"
+          ],
+          [
+            "Decreto-ley y decreto legislativo",
+            "Gobierno",
+            "Rango de ley: urgencia (art. 86 CE) o delegación (art. 82 CE)"
+          ],
+          [
+            "Reglamentos",
+            "Gobierno y Administración (art. 97 CE)",
+            "No pueden contradecir la ley"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Fuentes, vigencia y aplicación (Título Preliminar del Código Civil)",
+      "puntos": [
+        "**Orden de fuentes** (art. 1 CC): ley; costumbre, que solo rige en defecto de ley aplicable, si no es contraria a la moral o al orden público y **resulta probada**; principios generales del derecho, en defecto de ley o costumbre. La **jurisprudencia** del Tribunal Supremo **complementa** el ordenamiento, pero no figura entre las fuentes del art. 1.1.",
+        "**Vigencia** (art. 2 CC): las leyes entran en vigor a los **20 días** de su completa publicación en el BOE, salvo que dispongan otra cosa; solo se derogan por otras posteriores; no son retroactivas si no lo disponen. Los tratados solo se aplican directamente tras su **publicación íntegra en el BOE** (art. 1.5).",
+        "**Interpretación** (art. 3): sentido propio de las palabras, contexto, antecedentes históricos y legislativos y realidad social, atendiendo al espíritu y finalidad de la norma. **Analogía** (art. 4): exige **identidad de razón** y no cabe en leyes penales, excepcionales ni temporales.",
+        "**Eficacia** (arts. 5 a 7): en el cómputo civil no se excluyen los días inhábiles; la ignorancia de las leyes no excusa de su cumplimiento; los actos que persiguen un resultado prohibido al amparo de una norma son **fraude de ley**; los derechos se ejercen conforme a la buena fe.",
+        "Las leyes penales, de policía y de seguridad pública **obligan a todos los que se hallen en territorio español** (art. 8.1 CC). La ley personal se determina por la nacionalidad (art. 9.1)."
+      ]
+    },
+    {
+      "titulo": "La persona: personalidad, capacidad y extinción",
+      "puntos": [
+        "Hay **personas naturales** y **personas jurídicas** (corporaciones, asociaciones y fundaciones reconocidas por la ley, art. 35). La personalidad civil se adquiere en el **nacimiento con vida**, una vez producido el **entero desprendimiento del seno materno** (art. 30 CC). El concebido se tiene por nacido para los efectos que le sean favorables, si nace en esas condiciones (art. 29).",
+        "La personalidad se **extingue por la muerte** (art. 32). Si hay duda sobre quién murió primero entre personas llamadas a sucederse y no hay prueba, se presumen muertas **al mismo tiempo** (art. 33). **Declaración de fallecimiento** (art. 193): 10 años desde las últimas noticias; 5 años si el ausente había cumplido 75; 1 año tras un riesgo inminente de muerte por violencia (3 meses en caso de siniestro).",
+        "**Capacidad jurídica** (doctrina): aptitud para ser titular de derechos y obligaciones, que tiene toda persona. **Capacidad de obrar**: aptitud para ejercerlos por sí; se alcanza plenamente con la **mayoría de edad: 18 años** (art. 12 CE; art. 240 CC).",
+        "**Emancipación** (art. 239): por mayoría de edad, por concesión de quienes ejerzan la patria potestad (**16 años** cumplidos y consentimiento del menor, art. 241) o por concesión judicial (mayores de 16, art. 244). El emancipado necesita el consentimiento de sus progenitores (o defensor judicial) para pedir dinero a préstamo, gravar o enajenar inmuebles, establecimientos mercantiles o industriales y objetos de extraordinario valor (art. 247).",
+        "**Discapacidad** (Ley 8/2021): ya no hay incapacitación; la capacidad jurídica se ejerce con **medidas de apoyo**: voluntarias, guarda de hecho, curatela y defensor judicial (art. 250 CC). Son inscribibles en el **Registro Civil** el nacimiento, la nacionalidad y la vecindad civil, la emancipación y la defunción (art. 4 Ley 20/2011)."
+      ]
+    },
+    {
+      "titulo": "Nacionalidad española: cómo se adquiere",
+      "puntos": [
+        "La CE remite a la ley: la nacionalidad «se adquiere, se conserva y se pierde de acuerdo con lo establecido por la ley» (art. 11.1). Se regula en los arts. 17-28 CC y es competencia exclusiva del Estado (art. 149.1.2.ª CE).",
+        "**Origen** (art. 17.1 CC): nacidos de padre o madre españoles; nacidos en España de padres extranjeros si uno de ellos nació también en España (salvo hijos de funcionario diplomático o consular acreditado en España); nacidos en España de padres sin nacionalidad o cuya ley no la atribuye al hijo; nacidos en España con filiación no determinada. Si la filiación o el nacimiento se determinan después de los 18 años, el interesado puede **optar** por la nacionalidad de origen en **2 años** (art. 17.2).",
+        "**Adopción** (art. 19): el adoptado menor de 18 años adquiere la nacionalidad de origen desde la adopción; si es mayor de 18, puede optar en **2 años** desde la constitución de la adopción.",
+        "**Opción** (art. 20): pueden optar quienes estén o hayan estado sujetos a la patria potestad de un español, quienes tengan padre o madre originariamente español y nacido en España (sin límite de edad) y los casos de los arts. 17.2 y 19.2. Formula la declaración el representante legal si el optante es menor de 14 años; el interesado asistido por su representante si es mayor de 14; y él solo si está emancipado o es mayor de 18, con **caducidad a los 20 años** de edad.",
+        "**Carta de naturaleza** (art. 21.1): **Real Decreto** discrecional, por circunstancias excepcionales. **Residencia** (art. 21.2): la concede el **Ministro de Justicia**, que puede denegarla por motivos razonados de orden público o interés nacional. Se exige residencia **legal, continuada e inmediatamente anterior** a la petición, buena conducta cívica y suficiente grado de integración (art. 22.3 y 22.4).",
+        "Las concesiones por carta de naturaleza o residencia **caducan a los 180 días** de su notificación si el interesado no comparece para cumplir los requisitos del art. 23 (art. 21.4). **Requisitos comunes** (art. 23): jurar o prometer fidelidad al Rey y obediencia a la CE y a las leyes (mayor de 14 años y capaz); renunciar a la anterior nacionalidad (salvo países iberoamericanos, Andorra, Filipinas, Guinea Ecuatorial, Portugal y sefardíes originarios de España); inscribir la adquisición en el Registro Civil.",
+        "**Consolidación** (art. 18): posesión y utilización continuada de la nacionalidad durante **10 años**, de buena fe y con título inscrito, aunque se anule el título."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Residencia legal exigida (art. 22 CC)",
+          "Quién"
+        ],
+        "filas": [
+          [
+            "10 años",
+            "Regla general"
+          ],
+          [
+            "5 años",
+            "Quienes hayan obtenido la condición de refugiado"
+          ],
+          [
+            "2 años",
+            "Nacionales de origen de países iberoamericanos, Andorra, Filipinas, Guinea Ecuatorial o Portugal, y sefardíes"
+          ],
+          [
+            "1 año",
+            "Nacido en territorio español; quien no ejercitó oportunamente la opción; sujeto durante 2 años consecutivos a tutela, curatela con facultades de representación plena, guarda o acogimiento de ciudadano o institución españoles; casado desde hace un año con español o española no separados; viudo o viuda de español o española; nacido fuera de España de padre, madre, abuelo o abuela originariamente españoles"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Conservar y perder la nacionalidad",
+      "puntos": [
+        "**Ningún español de origen** puede ser privado de su nacionalidad (art. 11.2 CE). Se admiten tratados de **doble nacionalidad** con países iberoamericanos o con vinculación especial con España (art. 11.3 CE); si hay doble nacionalidad no prevista en leyes o tratados, prevalece la española (art. 9.9 CC).",
+        "**Pérdida** (art. 24 CC): los **emancipados** que, residiendo habitualmente en el extranjero, **adquieran voluntariamente otra nacionalidad** (o usen exclusivamente la extranjera atribuida antes de la emancipación) la pierden a los **3 años**, salvo que declaren su voluntad de conservarla ante el encargado del Registro Civil. La adquisición de la nacionalidad de países iberoamericanos, Andorra, Filipinas, Guinea Ecuatorial o Portugal **no hace perder** la española de origen. También la pierden los emancipados residentes en el extranjero que **renuncien expresamente** si tienen otra nacionalidad. No se pierde si España está en guerra.",
+        "**Españoles no de origen** (art. 25.1): la pierden si durante **3 años** usan exclusivamente la nacionalidad a la que declararon renunciar, o si entran voluntariamente al servicio de las armas o ejercen cargo político en un Estado extranjero contra la prohibición expresa del Gobierno. La sentencia firme que declare **falsedad, ocultación o fraude** anula la adquisición; la acción del Ministerio Fiscal prescribe a los **15 años** (art. 25.2).",
+        "**Recuperación** (art. 26): residencia legal en España (no exigible a emigrantes ni a hijos de emigrantes; dispensable por el Ministro de Justicia), declaración ante el encargado del Registro Civil e inscripción. Quienes incurrieron en los supuestos del art. 25 necesitan **habilitación discrecional del Gobierno**."
+      ]
+    },
+    {
+      "titulo": "Domicilio y vecindad civil",
+      "puntos": [
+        "**Domicilio de las personas naturales**: el lugar de su **residencia habitual** y, en su caso, el que determine la Ley de Enjuiciamiento Civil (art. 40 CC). **Personas jurídicas** (art. 41): el que fijen la ley o sus estatutos; en su defecto, donde esté su representación legal o ejerzan sus principales funciones. No es el domicilio inviolable del art. 18.2 CE.",
+        "**Vecindad civil** (art. 14 CC): determina si a la persona se le aplica el derecho civil común o el especial o foral, y es su ley personal en los conflictos internos (art. 16.1)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Supuesto",
+          "Regla (art. 14 CC salvo indicación)"
+        ],
+        "filas": [
+          [
+            "Hijos",
+            "Tienen la vecindad de sus padres. Si difieren: la del progenitor cuya filiación se determinó antes; en su defecto, la del lugar de nacimiento; en último término, la de derecho común (14.2 y 14.3)"
+          ],
+          [
+            "Atribución por los padres",
+            "Pueden atribuir al hijo la vecindad de cualquiera de ellos hasta 6 meses después del nacimiento o adopción (14.3)"
+          ],
+          [
+            "Opción del hijo",
+            "Desde los 14 años y hasta un año después de su emancipación: lugar de nacimiento o última vecindad de cualquiera de sus padres (14.3)"
+          ],
+          [
+            "Adopción",
+            "El adoptado no emancipado adquiere la vecindad de los adoptantes (14.2)"
+          ],
+          [
+            "Matrimonio",
+            "No altera la vecindad; cualquiera de los cónyuges no separados puede optar por la del otro (14.4)"
+          ],
+          [
+            "Residencia",
+            "2 años continuados y manifestación de voluntad, o 10 años continuados sin declaración en contrario; constan en el Registro Civil (14.5)"
+          ],
+          [
+            "Duda",
+            "Prevalece la vecindad del lugar de nacimiento (14.6)"
+          ],
+          [
+            "Extranjero que adquiere la nacionalidad",
+            "Opta al inscribirla entre residencia, nacimiento, última vecindad de progenitores o adoptantes, o la del cónyuge (15.1); por carta de naturaleza, la que fije el Real Decreto (15.2); si la recupera, la que tenía al perderla (15.3)"
+          ]
+        ]
+      }
+    }
+  ],
+  "trampas": [
+    "**Plazos de residencia** (art. 22 CC): 10, 5, 2 y 1 años. Cambian el plazo o meten un país que no está en la lista de los 2 años (Marruecos, Francia, Mónaco...). Iberoamérica, Andorra, Filipinas, Guinea Ecuatorial, Portugal y los sefardíes sí.",
+    "**Vecindad civil**: en caso de duda prevalece el **lugar de nacimiento**, no el de residencia ni el del padre. Y son 2 años **con** declaración de voluntad o 10 años **sin** declaración en contrario (no al revés).",
+    "**Edades que se confunden**: 18 (mayoría de edad), 16 (emancipación por concesión; emancipación judicial) y 14 (juramento, opción asistida, opción del hijo sobre su vecindad).",
+    "**Plazos de dos años frente a tres**: 2 años para optar (adoptado mayor de 18, art. 19.2; filiación determinada después de los 18, art. 17.2); 3 años para la pérdida (arts. 24 y 25); 15 años para la acción de nulidad (art. 25.2); 10 años para la consolidación (art. 18).",
+    "**Redacción antigua de la personalidad**: ya no se exige figura humana ni 24 horas de vida (art. 30 CC).",
+    "**La jurisprudencia no es fuente** del art. 1.1; solo complementa (art. 1.6). La costumbre solo rige en defecto de ley y si se prueba.",
+    "**Pérdida de la nacionalidad**: solo la pierden los emancipados que residen habitualmente en el extranjero y adquieren voluntariamente otra; la adquisición de la de un país iberoamericano, Andorra, Filipinas, Guinea Ecuatorial o Portugal no hace perder la de origen. Los españoles de origen no pueden ser privados de ella.",
+    "**Entrada en vigor**: 20 días desde la **completa publicación** en el BOE (no desde la aprobación ni la sanción), pero la propia ley puede fijar otro plazo; no confundir con los 15 días de sanción del Rey (art. 91 CE).",
+    "**Domicilio civil** (residencia habitual) frente a **domicilio inviolable** (art. 18.2 CE): no son el mismo concepto."
+  ],
+  "caido": [
+    {
+      "examen": "P40 (13 abr 2024), P41 (1 mar 2025, 2 preguntas)",
+      "concepto": "Nacionalidad por residencia (art. 22 CC): plazos de 10, 5, 2 y 1 años y países de la lista de 2 años."
+    },
+    {
+      "examen": "P39 (23 abr 2023), P40 (13 abr 2024), P42 (25 oct 2025)",
+      "concepto": "Españoles de origen (art. 17), adoptado mayor de 18 años y plazo de opción de 2 años (art. 19), y quién puede optar (art. 20)."
+    },
+    {
+      "examen": "P39 (23 abr 2023)",
+      "concepto": "Normas que regulan la nacionalidad: Constitución, Código Civil y Ley del Registro Civil."
+    },
+    {
+      "examen": "P40 (13 abr 2024), P41 (1 mar 2025)",
+      "concepto": "Vecindad civil (art. 14 CC): adquisición por residencia, efecto del matrimonio y criterio en caso de duda."
+    },
+    {
+      "examen": "P41 (1 mar 2025)",
+      "concepto": "Personalidad civil: nacimiento con vida y entero desprendimiento del seno materno (art. 30 CC)."
+    },
+    {
+      "examen": "P42 (25 oct 2025)",
+      "concepto": "Concepto de norma jurídica positiva (general, ordena la convivencia, exigible coactivamente) frente a la norma moral."
+    },
+    {
+      "examen": "P43 (26 sep 2026)",
+      "concepto": "Jerarquía normativa en la Constitución (art. 9.3)."
+    }
+  ],
+  "mnemotecnias": [
+    "Plazos del art. 22 CC: «10 la regla, 5 el refugiado, 2 los de casa (Iberoamérica, Andorra, Filipinas, Guinea Ecuatorial, Portugal y sefardíes) y 1 los vinculados (nacido en España, cónyuge, viudo, tutela, abuelos españoles)».",
+    "Vecindad civil: «2 con voz, 10 en silencio». A los 2 años hay que declarar; a los 10 se adquiere salvo que se declare lo contrario.",
+    "Edades: «14 asistido, 16 emancipado, 18 mayor».",
+    "Tres años para perder, dos para optar, quince para anular y diez para consolidar la nacionalidad."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Cuáles son las fuentes del ordenamiento jurídico español?",
+      "r": "La **ley, la costumbre y los principios generales del derecho** (art. 1.1 CC). La jurisprudencia complementa (art. 1.6)."
+    },
+    {
+      "p": "¿Cuándo entran en vigor las leyes si no disponen otra cosa?",
+      "r": "A los **20 días** de su completa publicación en el BOE (art. 2.1 CC)."
+    },
+    {
+      "p": "¿Cuándo se adquiere la personalidad civil?",
+      "r": "En el **nacimiento con vida**, una vez producido el **entero desprendimiento del seno materno** (art. 30 CC). Se extingue por la muerte (art. 32)."
+    },
+    {
+      "p": "¿Qué edad marca la mayoría de edad y cuál la emancipación por concesión de los padres?",
+      "r": "Mayoría de edad a los **18 años** (art. 12 CE; art. 240 CC). Emancipación por concesión: **16 años** cumplidos y consentimiento del menor (art. 241 CC)."
+    },
+    {
+      "p": "¿Cuántos años de residencia exige el art. 22 CC para la nacionalidad?",
+      "r": "**10** (general); **5** refugiados; **2** nacionales de origen de países iberoamericanos, Andorra, Filipinas, Guinea Ecuatorial o Portugal, y sefardíes; **1** en los supuestos del art. 22.2."
+    },
+    {
+      "p": "¿Qué requisitos debe cumplir la residencia para la nacionalidad?",
+      "r": "Debe ser **legal, continuada e inmediatamente anterior** a la petición (art. 22.3), con buena conducta cívica y suficiente grado de integración (art. 22.4)."
+    },
+    {
+      "p": "¿Quién concede la nacionalidad por residencia y quién la carta de naturaleza?",
+      "r": "Residencia: el **Ministro de Justicia**, que puede denegarla por orden público o interés nacional. Carta de naturaleza: **Real Decreto**, discrecional, por circunstancias excepcionales (art. 21)."
+    },
+    {
+      "p": "¿En qué plazo caducan las concesiones de nacionalidad por carta de naturaleza o residencia?",
+      "r": "A los **180 días** de su notificación si el interesado no comparece para cumplir los requisitos del art. 23 (art. 21.4 CC)."
+    },
+    {
+      "p": "Requisitos comunes de la adquisición por opción, carta de naturaleza o residencia (art. 23 CC).",
+      "r": "Jurar o prometer **fidelidad al Rey y obediencia a la CE y las leyes** (mayor de 14 años); **renunciar** a la anterior nacionalidad (con excepciones); **inscribir** la adquisición en el Registro Civil."
+    },
+    {
+      "p": "¿Quiénes son españoles de origen según el art. 17.1 CC?",
+      "r": "Nacidos de padre o madre españoles; nacidos en España de padres extranjeros si uno nació también en España; nacidos en España de padres sin nacionalidad o cuya ley no la atribuye al hijo; nacidos en España con filiación no determinada."
+    },
+    {
+      "p": "¿En qué plazo puede optar a la nacionalidad el adoptado extranjero mayor de 18 años?",
+      "r": "En **2 años** desde la constitución de la adopción (art. 19.2 CC)."
+    },
+    {
+      "p": "¿Cuándo caduca la opción de quien estuvo sujeto a la patria potestad de un español?",
+      "r": "A los **20 años** de edad (se prolonga hasta 2 años desde la emancipación si a los 18 no estaba emancipado) (art. 20.2.c CC)."
+    },
+    {
+      "p": "¿Cuándo pierde la nacionalidad el emancipado residente en el extranjero que adquiere voluntariamente otra?",
+      "r": "A los **3 años**, salvo que declare su voluntad de conservarla (art. 24.1 CC). No la pierde por adquirir la de un país iberoamericano, Andorra, Filipinas, Guinea Ecuatorial o Portugal."
+    },
+    {
+      "p": "¿Puede privarse de su nacionalidad a un español de origen?",
+      "r": "**No**: «Ningún español de origen podrá ser privado de su nacionalidad» (art. 11.2 CE)."
+    },
+    {
+      "p": "¿Cómo se adquiere la vecindad civil por residencia?",
+      "r": "Por residencia continuada de **2 años** si el interesado manifiesta su voluntad, o de **10 años** sin declaración en contrario (art. 14.5 CC). El matrimonio no la altera y, en caso de duda, prevalece el **lugar de nacimiento**."
+    },
+    {
+      "p": "¿Cuál es el domicilio de las personas naturales y de las jurídicas?",
+      "r": "Personas naturales: el lugar de su **residencia habitual** (art. 40 CC). Personas jurídicas: el que fijen la ley o los estatutos y, si no, donde esté su representación legal o ejerzan sus principales funciones (art. 41)."
+    },
+    {
+      "p": "¿Qué consecuencia tiene que una disposición contradiga otra de rango superior?",
+      "r": "Carece de validez (art. 1.2 CC); la CE garantiza la jerarquía normativa (art. 9.3)."
+    },
+    {
+      "p": "¿Cuándo procede la declaración de fallecimiento del ausente?",
+      "r": "A los **10 años** desde las últimas noticias; a los **5 años** si el ausente había cumplido 75 años; **1 año** tras un riesgo inminente de muerte por violencia (3 meses en caso de siniestro) (art. 193 CC)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Según el Código Civil, ¿cuántos años de residencia legal, continuada e inmediatamente anterior a la petición se exigen con carácter general para adquirir la nacionalidad española por residencia?",
+      "opciones": [
+        "Cinco años",
+        "Diez años",
+        "Quince años"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 22.1 CC: la regla general es de diez años de residencia. Bastan cinco para quienes hayan obtenido la condición de refugiado, dos para nacionales de origen de países iberoamericanos, Andorra, Filipinas, Guinea Ecuatorial o Portugal y para sefardíes, y uno en los supuestos del art. 22.2. Quince años no es un plazo previsto por el Código.",
+      "ref": "art. 22.1 CC",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿En cuál de los siguientes supuestos basta un año de residencia legal para adquirir la nacionalidad española por residencia?",
+      "opciones": [
+        "El que haya nacido en territorio español",
+        "El nacional de origen de un país iberoamericano",
+        "El que haya obtenido la condición de refugiado"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 22.2.a CC: basta un año para el nacido en territorio español (también para quien no ejercitó oportunamente la opción, el casado desde hace un año con español o el viudo, entre otros). El nacional de origen de un país iberoamericano necesita dos años y el refugiado cinco (art. 22.1).",
+      "ref": "art. 22.1 y 22.2 CC",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Karim, nacional marroquí, reside legalmente en España de forma continuada desde hace seis años. No es refugiado, no nació en España, no está casado con española ni se halla en ningún otro supuesto especial de reducción. ¿Puede solicitar ya la nacionalidad española por residencia?",
+      "opciones": [
+        "Sí, porque bastan cinco años de residencia legal",
+        "Sí, porque bastan dos años de residencia legal",
+        "No, porque debe acreditar diez años de residencia legal"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 22.1 CC: la regla general exige diez años. Los cinco años se reservan a los refugiados y los dos años a nacionales de origen de países iberoamericanos, Andorra, Filipinas, Guinea Ecuatorial o Portugal y a sefardíes; Marruecos no figura en esa lista. Tampoco concurre ninguno de los supuestos de un año del art. 22.2.",
+      "ref": "art. 22.1 y 22.2 CC",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Respecto a la vecindad civil, señale la afirmación INCORRECTA:",
+      "opciones": [
+        "El matrimonio no altera la vecindad civil, aunque cualquiera de los cónyuges no separados puede optar por la del otro",
+        "Se adquiere por residencia continuada de dos años si el interesado manifiesta esa voluntad, o de diez años sin declaración en contrario",
+        "En caso de duda prevalecerá la vecindad civil que corresponda al lugar de residencia habitual"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 14.6 CC: en caso de duda prevalece la vecindad civil correspondiente al lugar de nacimiento, no al de residencia. Las otras dos opciones reproducen el art. 14.4 (el matrimonio no la altera; opción del cónyuge no separado) y el art. 14.5 (dos años con manifestación de voluntad o diez años sin declaración en contrario).",
+      "ref": "art. 14.4 a 14.6 CC",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Cuando nació Lucía, su padre tenía vecindad civil aragonesa y su madre vecindad civil común. La filiación materna quedó determinada antes que la paterna y los padres no han atribuido al hijo la vecindad de ninguno de ellos. ¿Qué vecindad civil tiene Lucía?",
+      "opciones": [
+        "La común, que es la del progenitor respecto del cual la filiación se determinó antes",
+        "La aragonesa, porque prevalece la vecindad del padre",
+        "La del lugar de nacimiento en todo caso, con independencia de la filiación"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 14.3 CC: si los padres tienen distinta vecindad civil, el hijo tiene la del progenitor respecto del cual la filiación haya sido determinada antes; en su defecto, la del lugar de nacimiento y, en último término, la de derecho común. No hay preferencia por el padre. Los padres podrían atribuirle la de cualquiera de ellos hasta seis meses después del nacimiento.",
+      "ref": "art. 14.3 CC",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Según el artículo 17 del Código Civil, ¿cuál de los siguientes es español de origen?",
+      "opciones": [
+        "El nacido en España de padres extranjeros que llevan cinco años residiendo legalmente en ella",
+        "El nacido en España de padres extranjeros si al menos uno de ellos hubiera nacido también en España, salvo que sean funcionarios diplomáticos o consulares acreditados en España",
+        "El nacido en el extranjero de abuelos españoles cuando sus padres son extranjeros"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 17.1.b CC. El nacimiento en España de padres extranjeros solo atribuye la nacionalidad de origen en los casos del art. 17.1 (uno de los padres nacido en España, padres sin nacionalidad o cuya ley no se la atribuye al hijo, o filiación no determinada). La residencia legal de los padres no basta, y el nacido fuera de España de abuelo o abuela españoles no es español de origen: le correspondería la vía de residencia de un año (art. 22.2.f).",
+      "ref": "art. 17.1 CC",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En relación con la pérdida de la nacionalidad española, ¿cuál de las siguientes afirmaciones es correcta?",
+      "opciones": [
+        "Un español de origen condenado por traición puede ser privado de su nacionalidad por sentencia firme",
+        "Ningún español de origen podrá ser privado de su nacionalidad",
+        "Los españoles de origen que utilicen exclusivamente durante tres años la nacionalidad a la que renunciaron pierden la española"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 11.2 CE: ningún español de origen podrá ser privado de su nacionalidad, y la Constitución no prevé la privación como sanción. La pérdida por uso exclusivo durante tres años de la nacionalidad a la que se declaró renunciar (art. 25.1.a CC) solo afecta a los españoles que no lo son de origen.",
+      "ref": "art. 11.2 CE; art. 25.1 CC",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El artículo 24 del Código Civil establece que pierden la nacionalidad española los emancipados que, residiendo habitualmente en el extranjero, adquieran voluntariamente otra nacionalidad, una vez transcurrido el plazo de:",
+      "opciones": [
+        "Un año desde la adquisición",
+        "Seis meses desde la adquisición",
+        "Tres años desde la adquisición, salvo que declaren su voluntad de conservarla"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 24.1 CC: la pérdida se produce una vez transcurridos tres años desde la adquisición de la nacionalidad extranjera, y se evita declarando la voluntad de conservar la nacionalidad española ante el encargado del Registro Civil dentro de ese plazo. No existen plazos de uno o seis meses para este supuesto.",
+      "ref": "art. 24.1 CC",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Elena, española de origen, emancipada y residente habitual en Lisboa, adquiere voluntariamente la nacionalidad portuguesa. ¿Pierde la nacionalidad española?",
+      "opciones": [
+        "No: la adquisición de la nacionalidad portuguesa no produce la pérdida de la nacionalidad española de origen",
+        "Sí, a los tres años, si no declara su voluntad de conservarla",
+        "Sí, de forma inmediata, porque el ordenamiento español no admite la doble nacionalidad"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 24.1, párrafo segundo, CC: la adquisición de la nacionalidad de países iberoamericanos, Andorra, Filipinas, Guinea Ecuatorial o Portugal no es bastante para producir la pérdida de la nacionalidad española de origen. La segunda opción describe la regla general del párrafo primero, que no se aplica a Portugal. La doble nacionalidad sí se admite en nuestro ordenamiento (art. 11.3 CE y art. 9.9 CC).",
+      "ref": "art. 24.1 CC",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Según el artículo 1 del Código Civil, ¿cuáles son las fuentes del ordenamiento jurídico español?",
+      "opciones": [
+        "La ley, la costumbre y los principios generales del derecho",
+        "La ley, la jurisprudencia y los principios generales del derecho",
+        "La Constitución, la ley y los tratados internacionales"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 1.1 CC. La jurisprudencia no se enumera como fuente: complementa el ordenamiento con la doctrina reiterada del Tribunal Supremo (art. 1.6). Los tratados internacionales no son de aplicación directa hasta su publicación íntegra en el BOE (art. 1.5).",
+      "ref": "art. 1.1, 1.5 y 1.6 CC",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Una ley dispone en su propio texto que entrará en vigor al día siguiente de su publicación en el BOE. ¿Es conforme con el Código Civil?",
+      "opciones": [
+        "No, porque las leyes siempre entran en vigor a los veinte días de su publicación",
+        "Sí, porque el plazo de veinte días desde la completa publicación solo rige si la propia ley no dispone otra cosa",
+        "Sí, pero únicamente si se trata de una ley orgánica"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 2.1 CC: las leyes entran en vigor a los veinte días de su completa publicación en el BOE si en ellas no se dispone otra cosa. La propia ley puede fijar un momento distinto, sin que importe su carácter orgánico u ordinario.",
+      "ref": "art. 2.1 CC",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre la aplicación de las normas jurídicas según el Título Preliminar del Código Civil:",
+      "opciones": [
+        "La ignorancia de las leyes no excusa de su cumplimiento",
+        "Las leyes penales, las excepcionales y las de ámbito temporal no se aplicarán a supuestos ni en momentos distintos de los comprendidos expresamente en ellas",
+        "La costumbre prevalece sobre la ley aplicable cuando esté suficientemente arraigada"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 1.3 CC: la costumbre solo rige en defecto de ley aplicable, siempre que no sea contraria a la moral o al orden público y resulte probada. Las otras dos opciones reproducen el art. 6.1 (la ignorancia de las leyes no excusa de su cumplimiento) y el art. 4.2 (las leyes penales, excepcionales y temporales no se aplican a supuestos ni momentos distintos de los previstos).",
+      "ref": "art. 1.3, 4.2 y 6.1 CC",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Conforme al Código Civil, la personalidad civil de la persona física se adquiere:",
+      "opciones": [
+        "En el momento de la concepción, a todos los efectos",
+        "En el momento del nacimiento con vida, una vez producido el entero desprendimiento del seno materno",
+        "Cuando el recién nacido ha sobrevivido al menos veinticuatro horas desprendido del seno materno"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 30 CC, en su redacción actual (Ley 20/2011). El concebido solo se tiene por nacido para los efectos que le sean favorables, y siempre que nazca en esas condiciones (art. 29). El requisito de veinticuatro horas de vida pertenece a la redacción antigua, ya no vigente.",
+      "ref": "art. 29 y 30 CC",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La declaración de opción a la nacionalidad española de quien estuvo sujeto a la patria potestad de un español puede formularla por sí solo el interesado emancipado o mayor de dieciocho años. ¿Cuándo caduca esa opción?",
+      "opciones": [
+        "A los veinte años de edad, con la prolongación prevista si a los dieciocho no estuviera emancipado según su ley personal",
+        "A los dieciocho años de edad, sin excepción alguna",
+        "A los veinticinco años de edad"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 20.2.c CC: la opción caduca a los veinte años de edad, pero si el optante no estuviera emancipado según su ley personal al llegar a los dieciocho años, el plazo se prolonga hasta que transcurran dos años desde la emancipación. Solo la opción del art. 20.1.b (padre o madre originariamente español y nacido en España) no está sujeta a límite de edad (art. 20.3).",
+      "ref": "art. 20.2.c y 20.3 CC",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Para el ejercicio de los derechos y el cumplimiento de las obligaciones civiles, el domicilio de las personas naturales es:",
+      "opciones": [
+        "El lugar de su nacimiento",
+        "El lugar donde tengan su centro de trabajo",
+        "El lugar de su residencia habitual"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 40 CC: el domicilio civil de las personas naturales es el lugar de su residencia habitual y, en su caso, el que determine la Ley de Enjuiciamiento Civil. No debe confundirse con el domicilio inviolable del art. 18.2 CE.",
+      "ref": "art. 40 CC",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Para que un menor sea emancipado por concesión de quienes ejercen la patria potestad, el Código Civil exige que tenga cumplidos:",
+      "opciones": [
+        "Catorce años y que lo consientan sus progenitores",
+        "Dieciséis años y que él mismo lo consienta",
+        "Diecisiete años, sin necesidad de su consentimiento"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 241 CC: se requiere que el menor tenga dieciséis años cumplidos y que la consienta; se otorga por escritura pública o por comparecencia ante el encargado del Registro Civil. La mayoría de edad se alcanza a los dieciocho años (art. 12 CE y art. 240 CC).",
+      "ref": "art. 239 y 241 CC; art. 12 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre la jerarquía normativa es correcta?",
+      "opciones": [
+        "Carecerán de validez las disposiciones que contradigan otra de rango superior",
+        "Un reglamento posterior puede derogar una ley anterior si regula la misma materia",
+        "Una ley ordinaria puede modificar la Constitución si se aprueba por mayoría absoluta"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 1.2 CC, reforzado por el art. 9.3 CE, que garantiza la jerarquía normativa. Los reglamentos no pueden vulnerar las leyes y los Tribunales controlan la potestad reglamentaria (art. 106.1 CE). La Constitución solo se reforma por el procedimiento del Título X.",
+      "ref": "art. 1.2 CC; art. 9.3 CE",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el Código Civil, ¿cuándo son de aplicación directa en España las normas contenidas en un tratado internacional?",
+      "opciones": [
+        "Desde que el Rey manifiesta el consentimiento del Estado para obligarse",
+        "Desde que las Cortes Generales lo autorizan",
+        "Cuando han pasado a formar parte del ordenamiento interno mediante su publicación íntegra en el BOE"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 1.5 CC. En el mismo sentido, el art. 96.1 CE: los tratados válidamente celebrados forman parte del ordenamiento interno una vez publicados oficialmente en España. La autorización de las Cortes (art. 94 CE) y el consentimiento manifestado por el Rey (art. 63.2 CE) son trámites previos, no suficientes por sí solos.",
+      "ref": "art. 1.5 CC; art. 96.1 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Respecto de la vecindad civil, el hijo puede optar por la del lugar de su nacimiento o por la última vecindad de cualquiera de sus padres:",
+      "opciones": [
+        "Desde los dieciséis años y hasta un año después de su emancipación",
+        "Desde los doce años y hasta un año después de su emancipación",
+        "Desde que cumpla catorce años y hasta que transcurra un año después de su emancipación"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 14.3, último párrafo, CC: el hijo, desde que cumpla catorce años y hasta que transcurra un año después de su emancipación, podrá optar entre la vecindad civil del lugar de su nacimiento y la última vecindad de cualquiera de sus padres. Si no estuviera emancipado, habrá de ser asistido en la opción por su representante legal.",
+      "ref": "art. 14.3 CC",
+      "dificultad": 2
+    }
+  ],
+  "dudas": [
+    "La parte conceptual (acepciones del Derecho, estructura y caracteres de la norma jurídica, capacidad jurídica y de obrar) es doctrina estándar de Teoría del Derecho y no consta en un texto del BOE. Se ha redactado de forma conservadora y las preguntas de test se apoyan solo en el Código Civil y la Constitución."
+  ]
+}

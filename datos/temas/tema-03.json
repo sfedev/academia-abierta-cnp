@@ -1,0 +1,716 @@
+{
+  "tema": 3,
+  "titulo": "Constitución II: Corona, Cortes, Gobierno, Justicia, TC y reforma",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "medio",
+    "nota": "Media de 2,6 preguntas por examen (entre 1 y 4; 4 en P41 y P43 y 3 en P42), con confianza baja porque el reparto con el Tema 2 depende del criterio de clasificación. Pesan las cifras y las mayorías: senadores, 21 miembros de la Diputación Permanente, arts. 81-82, 112, 160 y 167. Sumando el Tema 2, la Constitución da unas 7 preguntas por examen."
+  },
+  "normas": [
+    {
+      "nombre": "Constitución Española",
+      "boe": "BOE-A-1978-31229",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "verificado": "Texto consolidado, actualización de 20/05/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 2/1979, de 3 de octubre, del Tribunal Constitucional",
+      "boe": "BOE-A-1979-23709",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709",
+      "verificado": "Texto consolidado, actualización de 12/06/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial (arts. 26, 55 y 566-567)",
+      "boe": "BOE-A-1985-12666",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+      "verificado": "Texto consolidado, actualización de 09/10/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (arts. 162 y 165)",
+      "boe": "BOE-A-1985-11672",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "verificado": "Texto consolidado, actualización de 09/10/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Reforma del apartado 3 del artículo 69 de la Constitución Española, a los efectos de que la isla de Formentera elija un senador propio, de 19 de mayo de 2026",
+      "boe": "BOE-A-2026-10881",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881",
+      "verificado": "Texto original publicado en el BOE de 20/05/2026 (la reforma consta ya incorporada en la versión consolidada de la CE leída el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 2/2026, de 30 de junio, de modificación de la Ley Orgánica 5/1985, para adaptarla a la reforma del apartado 3 del artículo 69 de la Constitución",
+      "boe": "BOE-A-2026-14329",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14329",
+      "verificado": "Texto original publicado en el BOE de 02/07/2026, en vigor desde el 03/07/2026 (leído el 16/10/2026)"
+    }
+  ],
+  "novedades": [
+    "Reforma de la Constitución de 19 de mayo de 2026 (BOE de 20/05/2026): el art. 69.3 pasa a decir que, en las provincias insulares, cada isla con Cabildo o Consejo Insular es una circunscripción para elegir Senadores, con tres Senadores en cada una de las islas mayores (Gran Canaria, Mallorca y Tenerife) y uno en cada una de Ibiza, Formentera, Menorca, Fuerteventura, La Gomera, El Hierro, Lanzarote y La Palma. Antes, Ibiza y Formentera elegían un único Senador conjunto. La eficacia de las circunscripciones de Ibiza y Formentera queda pospuesta hasta las primeras elecciones al Senado que se celebren tras la entrada en vigor de la reforma. La LO 2/2026, de 30 de junio (en vigor desde el 3 de julio de 2026), adaptó los arts. 161.2 y 165.2 de la LOREG.",
+    "LOPJ, art. 26 (LO 1/2025, de 2 de enero): los órganos con potestad jurisdiccional son los jueces de paz, los Tribunales de Instancia, las Audiencias Provinciales, los Tribunales Superiores de Justicia, el Tribunal Central de Instancia, la Audiencia Nacional y el Tribunal Supremo. Con material anterior a esa reforma, la lista no incluía los Tribunales de Instancia ni el Tribunal Central de Instancia.",
+    "CGPJ: la LOPJ vigente (arts. 566-567, tras las LO 4/2013, LO 2/2024 y LO 3/2024) dispone que las Cortes Generales eligen los veinte vocales por mayoría de 3/5, diez cada Cámara (cuatro juristas y seis del turno judicial). El art. 122.3 CE no ha cambiado."
+  ],
+  "clave": [
+    "**Congreso**: mínimo 300 y máximo 400 Diputados (la LOREG fija 350); circunscripción provincial; **4 años**. **Senado**: Cámara de representación territorial; 4 por provincia, **2 por Ceuta y por Melilla**, 3 en las islas mayores y 1 en las demás islas, y 1 + 1 por millón de habitantes por Comunidad Autónoma.",
+    "**Diputación Permanente**: **mínimo 21 miembros** (art. 78). Periodos de sesiones: septiembre a diciembre y febrero a junio (art. 73).",
+    "**Ley orgánica**: **mayoría absoluta del Congreso** en votación final sobre el conjunto (art. 81.2). **Delegación legislativa**: ley de bases para textos articulados; ley ordinaria para refundir (art. 82.2).",
+    "**Decreto-ley**: extraordinaria y urgente necesidad; el Congreso debe convalidarlo o derogarlo en **30 días** (art. 86). **Iniciativa popular**: 500.000 firmas (art. 87.3). El Rey **sanciona en 15 días** (art. 91).",
+    "**Investidura** (art. 99): mayoría absoluta en primera votación; mayoría simple 48 horas después; a los **2 meses** sin investidura, disolución. **Cuestión de confianza**: mayoría simple (art. 112). **Moción de censura**: mayoría absoluta, 1/10 de Diputados, candidato alternativo (art. 113).",
+    "**Disolución**: propone el Presidente; no con moción de censura en trámite; no antes de **un año** desde la anterior (art. 115).",
+    "**CGPJ** (art. 122.3): Presidente del Tribunal Supremo y **20 miembros** nombrados por el Rey por **5 años**: 12 jueces y magistrados, 4 propuestos por el Congreso y 4 por el Senado (3/5).",
+    "**Tribunal Constitucional** (art. 159): **12 miembros**: 4 Congreso (3/5), 4 Senado (3/5), 2 Gobierno, 2 CGPJ; **9 años**, renovación por **terceras partes cada 3**. Presidente: 3 años (art. 160). Dos Salas de seis Magistrados.",
+    "**Recurso de inconstitucionalidad**: Presidente del Gobierno, Defensor del Pueblo, **50 Diputados**, **50 Senadores**, órganos ejecutivos y Asambleas de las CCAA (art. 162.1.a); plazo de **3 meses** (art. 33 LOTC).",
+    "**Reforma ordinaria** (art. 167): **3/5** de cada Cámara; referéndum si lo piden 1/10 de los miembros de cualquiera de ellas en 15 días. **Agravada** (art. 168): **2/3** de cada Cámara, disolución, **2/3** de las nuevas Cámaras y **referéndum obligatorio**.",
+    "**Art. 155**: requerimiento previo al Presidente de la CA y aprobación por **mayoría absoluta del Senado**. No hay federación de CCAA (art. 145.1).",
+    "**Refrendo** (art. 64): Presidente del Gobierno y Ministros competentes; el **Presidente del Congreso** refrenda la propuesta y nombramiento del Presidente del Gobierno y la disolución del art. 99. El Rey declara la guerra y hace la paz **previa autorización de las Cortes** (art. 63.3).",
+    "**Fiscal General del Estado**: nombrado por el Rey, a propuesta del Gobierno, oído el CGPJ (art. 124.4). **Policía judicial**: depende de Jueces, Tribunales y Ministerio Fiscal (art. 126)."
+  ],
+  "resumen": [
+    {
+      "titulo": "La Corona (arts. 56-65)",
+      "puntos": [
+        "El Rey es el **Jefe del Estado**, símbolo de su unidad y permanencia; arbitra y modera el funcionamiento regular de las instituciones (art. 56.1). Su persona es **inviolable y no está sujeta a responsabilidad**; sus actos están siempre **refrendados** y sin refrendo carecen de validez (art. 56.3), salvo el nombramiento libre de los miembros de su Casa (art. 65.2).",
+        "**Refrendo** (art. 64): el **Presidente del Gobierno** y, en su caso, los **Ministros competentes**; el **Presidente del Congreso** refrenda la propuesta y el nombramiento del Presidente del Gobierno y la disolución del art. 99. Responden de los actos del Rey quienes los refrendan.",
+        "**Sucesión** (art. 57): la Corona es hereditaria en los sucesores de Juan Carlos I, por primogenitura y representación; el heredero es el **Príncipe de Asturias**. Abdicaciones, renuncias y dudas de hecho o de derecho se resuelven por **ley orgánica**. **Regencia** (art. 59): si el Rey es menor, su padre o madre y, en su defecto, el pariente mayor de edad más próximo a suceder; si se inhabilita y lo reconocen las **Cortes Generales**, el Príncipe heredero mayor de edad; si nadie corresponde, la nombran las Cortes (una, tres o cinco personas). El Regente ha de ser español y mayor de edad.",
+        "**Funciones** (art. 62), diez letras: sancionar y promulgar las leyes; convocar y disolver las Cortes y convocar elecciones; convocar referéndum; proponer candidato a Presidente del Gobierno y nombrarlo; nombrar y separar ministros a propuesta del Presidente; expedir decretos del Consejo de Ministros, conferir empleos civiles y militares y conceder honores; ser informado de los asuntos de Estado y presidir el Consejo de Ministros cuando lo estime oportuno, a petición del Presidente del Gobierno; **mando supremo de las Fuerzas Armadas**; derecho de gracia (**sin indultos generales**); Alto Patronazgo de las Reales Academias.",
+        "**Art. 63**: acredita embajadores, manifiesta el consentimiento del Estado para obligarse por tratados y **declara la guerra y hace la paz, previa autorización de las Cortes Generales**."
+      ]
+    },
+    {
+      "titulo": "Las Cortes Generales: Congreso y Senado (arts. 66-80)",
+      "puntos": [
+        "Las Cortes Generales representan al pueblo español, ejercen la potestad legislativa, aprueban los Presupuestos y controlan al Gobierno; son **inviolables** (art. 66). No hay mandato imperativo ni se puede ser miembro de las dos Cámaras (art. 67).",
+        "Elecciones entre **30 y 60 días** desde la terminación del mandato; el Congreso electo se convoca en **25 días** (art. 68.6).",
+        "**Inelegibles e incompatibles** (art. 70): miembros del Tribunal Constitucional, Defensor del Pueblo, Jueces, Magistrados y Fiscales en activo, militares profesionales y miembros de las Fuerzas y Cuerpos de Seguridad y Policía en activo, miembros de las Juntas Electorales y los altos cargos que fije la ley (salvo los miembros del Gobierno).",
+        "**Inviolabilidad** por las opiniones en el ejercicio de sus funciones. **Inmunidad**: solo pueden ser detenidos en caso de flagrante delito y no pueden ser inculpados ni procesados sin autorización de la Cámara; es competente la **Sala de lo Penal del Tribunal Supremo** (art. 71).",
+        "**Funcionamiento**: dos periodos ordinarios, de septiembre a diciembre y de febrero a junio (art. 73.1); sesiones extraordinarias a petición del Gobierno, de la Diputación Permanente o de la mayoría absoluta de los miembros de cualquiera de las Cámaras (art. 73.2); **sesiones conjuntas** para las competencias no legislativas del Título II, presididas por el Presidente del Congreso (arts. 74.1 y 72.2); Reglamentos aprobados por mayoría absoluta (art. 72.1). Acuerdos válidos con asistencia de la mayoría de los miembros y aprobación por mayoría de los presentes (art. 79).",
+        "**Diputación Permanente** (art. 78): en cada Cámara, **mínimo de 21 miembros** en proporción a los grupos; la preside el Presidente de la Cámara; asume las facultades de las Cámaras disueltas o con mandato expirado y vela por sus poderes."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Aspecto",
+          "Congreso de los Diputados",
+          "Senado"
+        ],
+        "filas": [
+          [
+            "Naturaleza",
+            "Representa al pueblo español (art. 66.1)",
+            "Cámara de representación territorial (art. 69.1)"
+          ],
+          [
+            "Composición",
+            "Mínimo 300 y máximo 400 Diputados (la LOREG fija 350, art. 162)",
+            "4 por provincia; islas: 3 en Gran Canaria, Mallorca y Tenerife y 1 en Ibiza, Formentera, Menorca, Fuerteventura, La Gomera, El Hierro, Lanzarote y La Palma; 2 por Ceuta y por Melilla; por cada CA, 1 más 1 por millón de habitantes"
+          ],
+          [
+            "Elección",
+            "Sufragio universal, libre, igual, directo y secreto; la provincia es la circunscripción; representación proporcional; Ceuta y Melilla, 1 Diputado cada una",
+            "Los provinciales, insulares y de Ceuta y Melilla, por sufragio universal; los de las CCAA, designados por su Asamblea legislativa"
+          ],
+          [
+            "Mandato",
+            "4 años",
+            "4 años"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Leyes, decretos-leyes y tratados (arts. 81-96)",
+      "puntos": [
+        "**Iniciativa legislativa** (art. 87): Gobierno, Congreso y Senado; las Asambleas de las CCAA pueden pedir al Gobierno un proyecto o enviar una proposición al Congreso (máximo **3** miembros para defenderla); la iniciativa popular exige **500.000 firmas** y no cabe en materias de ley orgánica, tributarias, internacionales ni prerrogativa de gracia.",
+        "**Tramitación**: el Consejo de Ministros aprueba los proyectos y los somete al Congreso (art. 88). El Senado tiene **2 meses** para vetar (mayoría absoluta) o enmendar, y **20 días naturales** si el proyecto es urgente (art. 90). El Rey **sanciona en 15 días** (art. 91).",
+        "**Tratados** (arts. 94-96): requieren autorización previa de las Cortes los de carácter político o militar, los que afecten a la integridad territorial o a los derechos del Título I, los que impliquen obligaciones financieras para la Hacienda y los que modifiquen o deroguen leyes. Publicados oficialmente, forman parte del ordenamiento interno."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Instrumento",
+          "Órgano y mayoría",
+          "Reglas clave"
+        ],
+        "filas": [
+          [
+            "Ley orgánica (art. 81)",
+            "Cortes; **mayoría absoluta del Congreso** en votación final sobre el conjunto",
+            "Derechos fundamentales y libertades públicas, Estatutos de Autonomía, régimen electoral general y las demás previstas en la CE"
+          ],
+          [
+            "Decreto legislativo (arts. 82-85)",
+            "Gobierno, por delegación de las Cortes",
+            "**Ley de bases** para textos articulados; **ley ordinaria** para refundir; delegación expresa, de materia concreta y con plazo; no se subdelega; excluidas las materias de ley orgánica"
+          ],
+          [
+            "Decreto-ley (art. 86)",
+            "Gobierno",
+            "Extraordinaria y urgente necesidad; no afecta a instituciones básicas, derechos del Título I, régimen de las CCAA ni Derecho electoral general; el Congreso lo convalida o deroga en **30 días**"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Gobierno, Administración y relaciones con las Cortes (arts. 97-116)",
+      "puntos": [
+        "El Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado, y ejerce la **función ejecutiva y la potestad reglamentaria** (art. 97). Se compone del Presidente, los Vicepresidentes en su caso, los Ministros y los demás miembros que establezca la ley (art. 98); el Rey nombra y separa a los demás miembros a propuesta del Presidente (art. 100).",
+        "El Gobierno **cesa** tras elecciones generales, por pérdida de confianza parlamentaria o por dimisión o fallecimiento del Presidente, y sigue **en funciones** hasta la toma de posesión del nuevo (art. 101). Su responsabilidad criminal se exige ante la **Sala de lo Penal del Tribunal Supremo** (art. 102).",
+        "**Administración Pública** (art. 103): objetividad, eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la ley y al Derecho; acceso a la función pública por mérito y capacidad. **Fuerzas y Cuerpos de Seguridad** (art. 104): bajo la dependencia del Gobierno, protegen el libre ejercicio de derechos y libertades y garantizan la seguridad ciudadana; una **ley orgánica** fija sus funciones, principios básicos de actuación y estatutos. El **Consejo de Estado** es el supremo órgano consultivo del Gobierno (art. 107).",
+        "El Gobierno responde **solidariamente** ante el Congreso (art. 108); las Cámaras pueden reclamar a sus miembros e interpelarlos (arts. 110-111). Los estados de alarma, excepción y sitio (art. 116) se explican en el Tema 2."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Mecanismo",
+          "Mayoría y plazos clave",
+          "Art."
+        ],
+        "filas": [
+          [
+            "Investidura",
+            "Mayoría absoluta en primera votación; si no, nueva votación **48 horas** después con mayoría simple; a los **2 meses** de la primera votación sin investidura, el Rey disuelve las Cámaras",
+            "99"
+          ],
+          [
+            "Cuestión de confianza",
+            "La plantea el Presidente, previa deliberación del Consejo de Ministros; se otorga por **mayoría simple**",
+            "112"
+          ],
+          [
+            "Moción de censura",
+            "Propuesta de al menos **1/10 de los Diputados**, con candidato alternativo; no se vota hasta pasados **5 días**; aprobación por **mayoría absoluta**",
+            "113"
+          ],
+          [
+            "Disolución anticipada",
+            "La propone el Presidente, bajo su exclusiva responsabilidad, y la decreta el Rey; no con moción de censura en trámite; no antes de **un año** desde la anterior (salvo art. 99.5)",
+            "115"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Poder Judicial y Ministerio Fiscal (arts. 117-127)",
+      "puntos": [
+        "La justicia emana del pueblo y se administra en nombre del Rey por **Jueces y Magistrados** independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley. La potestad jurisdiccional es **exclusiva** de Juzgados y Tribunales; **unidad jurisdiccional**; prohibidos los Tribunales de excepción (art. 117). Actuaciones públicas, procedimiento predominantemente **oral** en materia criminal y sentencias siempre motivadas y en audiencia pública (art. 120).",
+        "**CGPJ** (art. 122): órgano de gobierno del Poder Judicial; lo integran el Presidente del Tribunal Supremo, que lo preside, y **20 miembros** nombrados por el Rey por **5 años**: **12** jueces y magistrados, **4** a propuesta del Congreso y **4** a propuesta del Senado (3/5), entre abogados y otros juristas con más de 15 años de ejercicio.",
+        "**Tribunal Supremo** (art. 123): órgano jurisdiccional superior en todos los órdenes, salvo en garantías constitucionales; su Presidente lo nombra el Rey a propuesta del CGPJ. Tiene cinco Salas: Civil, Penal, Contencioso-Administrativo, Social y Militar (art. 55 LOPJ).",
+        "**Ministerio Fiscal** (art. 124): promueve la acción de la justicia en defensa de la legalidad, los derechos de los ciudadanos y el interés público; actúa con **unidad de actuación y dependencia jerárquica**, sujeto a legalidad e imparcialidad. El **Fiscal General del Estado** lo nombra el Rey a propuesta del Gobierno, oído el CGPJ.",
+        "La **policía judicial** depende de los Jueces, los Tribunales y el Ministerio Fiscal en las funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente (art. 126). Jueces, Magistrados y Fiscales en activo no pueden pertenecer a partidos políticos ni sindicatos (art. 127)."
+      ]
+    },
+    {
+      "titulo": "Organización territorial del Estado (arts. 137-158)",
+      "puntos": [
+        "El Estado se organiza en **municipios, provincias y Comunidades Autónomas**, con autonomía para gestionar sus intereses (art. 137). **En ningún caso** se admite la federación de CCAA (art. 145.1). Los **Estatutos** son la norma institucional básica de cada Comunidad y su reforma requiere aprobación de las Cortes mediante ley orgánica (art. 147).",
+        "**Competencias**: las CCAA pueden asumir las del art. 148; el Estado tiene las exclusivas del art. 149.1; las no atribuidas al Estado pueden corresponder a las CCAA según sus Estatutos y el derecho estatal es supletorio (art. 149.3). De interés policial, **exclusivas del Estado**: nacionalidad, inmigración, extranjería y asilo (2.ª); Administración de Justicia (5.ª); legislación penal y procesal (6.ª); tráfico y circulación de vehículos a motor (21.ª); armas y explosivos (26.ª); **seguridad pública**, sin perjuicio de las policías autonómicas conforme a los Estatutos y a una ley orgánica (29.ª). La coordinación de las policías locales puede asumirse por las CCAA en los términos de una ley orgánica (art. 148.1.22.ª).",
+        "**Art. 150**: leyes marco; transferencia o delegación de competencias estatales mediante ley orgánica; **leyes de armonización**, cuya necesidad aprecian las Cortes Generales por **mayoría absoluta de cada Cámara** (150.3).",
+        "**Organización autonómica** (art. 152): Asamblea Legislativa, Consejo de Gobierno y Presidente elegido por la Asamblea y nombrado por el Rey. Un **Tribunal Superior de Justicia** culmina la organización judicial en la Comunidad. **Control** (art. 153): Tribunal Constitucional (normas con fuerza de ley), Gobierno con dictamen del Consejo de Estado (funciones delegadas), jurisdicción contencioso-administrativa y Tribunal de Cuentas. Un **Delegado del Gobierno** dirige la Administración del Estado en la Comunidad (art. 154).",
+        "**Art. 155**: si una CA no cumple sus obligaciones o atenta gravemente al interés general, el Gobierno, **previo requerimiento al Presidente de la CA** y con la **aprobación por mayoría absoluta del Senado**, adopta las medidas necesarias y puede dar instrucciones a todas las autoridades autonómicas."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Vía de acceso",
+          "Iniciativa y requisitos",
+          "Art."
+        ],
+        "filas": [
+          [
+            "General",
+            "Todas las Diputaciones interesadas y **2/3 de los municipios** que representen al menos la mayoría del censo electoral de cada provincia o isla, en **6 meses**; si no prospera, solo se reitera pasados **5 años**",
+            "143"
+          ],
+          [
+            "Rápida",
+            "Además, **3/4 de los municipios** de cada provincia que representen la mayoría del censo y ratificación por referéndum por la mayoría absoluta de los electores de cada provincia; sin esperar los 5 años",
+            "151"
+          ],
+          [
+            "Por las Cortes",
+            "Ley orgánica, por motivos de interés nacional",
+            "144"
+          ],
+          [
+            "Ceuta y Melilla",
+            "Acuerdo por mayoría absoluta de sus Ayuntamientos y autorización de las Cortes mediante ley orgánica",
+            "DT 5.ª"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Tribunal Constitucional (arts. 159-165 y LOTC)",
+      "puntos": [
+        "El TC se compone de **12 miembros** nombrados por el Rey, juristas de reconocida competencia con **más de 15 años** de ejercicio (Magistrados y Fiscales, Profesores de Universidad, funcionarios públicos y Abogados). Mandato de **9 años**, con renovación por **terceras partes cada 3 años**; independientes e inamovibles (art. 159).",
+        "El **Presidente** lo nombra el Rey, entre sus miembros, a propuesta del Pleno, por **3 años** (art. 160); puede ser reelegido una sola vez y el Vicepresidente preside la Sala Segunda (art. 9 LOTC). El Tribunal actúa en **Pleno, en dos Salas de seis Magistrados y en Secciones** (arts. 6 a 8 LOTC).",
+        "**Competencias** (art. 161.1): recurso de inconstitucionalidad contra leyes y disposiciones con fuerza de ley; recurso de amparo; conflictos de competencia entre el Estado y las CCAA o de éstas entre sí; las demás materias que le atribuyan la Constitución o las leyes orgánicas. Si el Gobierno impugna una disposición o resolución autonómica, se produce la **suspensión**, que el Tribunal ratifica o levanta en un plazo no superior a **5 meses** (art. 161.2).",
+        "**Legitimación**: recurso de inconstitucionalidad, el Presidente del Gobierno, el Defensor del Pueblo, **50 Diputados**, **50 Senadores**, los órganos ejecutivos de las CCAA y, en su caso, sus Asambleas (art. 162.1.a); amparo, toda persona con interés legítimo, el Defensor del Pueblo y el Ministerio Fiscal. La **cuestión de inconstitucionalidad** la plantea un órgano judicial cuando una norma con rango de ley, aplicable al caso y de cuya validez dependa el fallo, pueda ser contraria a la Constitución (art. 163).",
+        "Las **sentencias** se publican en el BOE con los votos particulares, tienen valor de cosa juzgada desde el día siguiente a su publicación y no admiten recurso; las que declaran inconstitucional una ley tienen plenos efectos frente a todos (art. 164)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Proceso",
+          "Plazo",
+          "Base"
+        ],
+        "filas": [
+          [
+            "Recurso de inconstitucionalidad",
+            "3 meses desde la publicación de la norma",
+            "LOTC art. 33"
+          ],
+          [
+            "Amparo: Cortes o Asambleas, actos sin valor de ley",
+            "3 meses desde que sean firmes",
+            "LOTC art. 42"
+          ],
+          [
+            "Amparo: Gobierno o Administración, agotada la vía judicial",
+            "20 días desde la notificación de la resolución judicial",
+            "LOTC art. 43.2"
+          ],
+          [
+            "Amparo: órgano judicial",
+            "30 días desde la notificación",
+            "LOTC art. 44.2"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Reforma constitucional (arts. 166-169)",
+      "puntos": [
+        "La iniciativa se ejerce como en los apartados 1 y 2 del art. 87 (Gobierno, Congreso, Senado y Asambleas de las CCAA); **no hay iniciativa popular** (art. 166).",
+        "No puede iniciarse la reforma en tiempo de guerra ni durante la vigencia de los estados de alarma, excepción o sitio (art. 169)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Aspecto",
+          "Ordinaria (art. 167)",
+          "Agravada (art. 168)"
+        ],
+        "filas": [
+          [
+            "Cuándo",
+            "Cualquier reforma no incluida en el art. 168",
+            "Revisión total, o parcial que afecte al Título Preliminar, a la Sección 1.ª del Capítulo II del Título I o al Título II"
+          ],
+          [
+            "Mayoría",
+            "**3/5** de cada Cámara. Sin acuerdo: Comisión paritaria de Diputados y Senadores; si aún no, mayoría absoluta del Senado y **2/3** del Congreso",
+            "Principio aprobado por **2/3** de cada Cámara y **disolución inmediata** de las Cortes; las nuevas Cámaras ratifican y aprueban el texto por **2/3** de ambas"
+          ],
+          [
+            "Referéndum",
+            "Solo si lo solicita **1/10** de los miembros de cualquiera de las Cámaras en los **15 días** siguientes a la aprobación",
+            "**Obligatorio**"
+          ]
+        ]
+      }
+    }
+  ],
+  "trampas": [
+    "**Cifras del Senado**: 4 por provincia, 2 por Ceuta y 2 por Melilla (en el Congreso, 1 Diputado cada una), 3 en las tres islas mayores y 1 en las demás islas, y 1 + 1 por millón de habitantes por CA. Cambian el 2 por 1 o el 4 por 3.",
+    "**Diputación Permanente**: «mínimo de 21», no «máximo» ni «exactamente 21».",
+    "**Mayorías**: ley orgánica = mayoría absoluta **del Congreso** (no de cada Cámara); cuestión de confianza = mayoría **simple**; moción de censura = mayoría **absoluta**; reforma ordinaria = **3/5**; agravada = **2/3**; art. 150.3 = mayoría absoluta de **cada** Cámara; art. 155 = mayoría absoluta del **Senado**.",
+    "**Delegación legislativa**: ley de bases para textos articulados y ley ordinaria para refundir; cambian el orden o ponen ley orgánica. No se puede delegar en materias de ley orgánica.",
+    "**Plazos del amparo**: 20 días (Gobierno o Administración), 30 días (órgano judicial) y 3 meses (Cortes o Asambleas). El recurso de inconstitucionalidad tiene 3 meses desde la publicación.",
+    "**Composición del TC y del CGPJ**: TC 4 + 4 + 2 + 2 con 12 miembros y 9 años; CGPJ 12 + 4 + 4 más el Presidente del Supremo, 5 años. El Presidente del TC dura 3 años. No confundir los números.",
+    "**Quién refrenda**: el Presidente del Congreso (no el del Gobierno) refrenda la propuesta y el nombramiento del Presidente del Gobierno y la disolución del art. 99.5.",
+    "**Vías autonómicas**: 2/3 de municipios (art. 143) frente a 3/4 más referéndum (art. 151); plazos de 6 meses y 5 años; Ceuta y Melilla requieren ley orgánica de las Cortes.",
+    "**Proceso de reforma agravada** (art. 168): incluye la Sección 1.ª del Capítulo II del Título I (arts. 15-29), no los arts. 30 a 38 ni los principios rectores; esos se reforman por el procedimiento del art. 167.",
+    "**Reforma de 2026**: el art. 69.3 ya no agrupa Ibiza y Formentera; cada una tiene un Senador, pero la eficacia está pospuesta hasta las primeras elecciones al Senado posteriores."
+  ],
+  "caido": [
+    {
+      "examen": "P40 (13 abr 2024), P41 (1 mar 2025), P43 (26 sep 2026)",
+      "concepto": "Cortes: Ceuta y Melilla eligen 2 Senadores cada una (art. 69.4), Diputación Permanente con un mínimo de 21 miembros (art. 78) y sesiones conjuntas para las competencias no legislativas (art. 74.1)."
+    },
+    {
+      "examen": "P39 (23 abr 2023), P43 (26 sep 2026)",
+      "concepto": "Ley orgánica y mayoría absoluta del Congreso (art. 81.2); delegación legislativa (art. 82); leyes de armonización apreciadas por mayoría absoluta de cada Cámara (art. 150.3)."
+    },
+    {
+      "examen": "P42 (25 oct 2025)",
+      "concepto": "Cuestión de confianza por mayoría simple (art. 112) y nombramiento del Fiscal General del Estado por el Rey a propuesta del Gobierno."
+    },
+    {
+      "examen": "P43 (26 sep 2026)",
+      "concepto": "Disposición transitoria 5.ª: Ceuta y Melilla pueden constituirse en Comunidades Autónomas por acuerdo de sus Ayuntamientos y autorización de las Cortes mediante ley orgánica."
+    },
+    {
+      "examen": "P40 (13 abr 2024), P41 (1 mar 2025), P42 (25 oct 2025)",
+      "concepto": "Tribunal Constitucional: dos Salas, Presidente por 3 años (art. 160), plazo del recurso de amparo y legitimados del recurso de inconstitucionalidad (art. 162)."
+    },
+    {
+      "examen": "P41 (1 mar 2025)",
+      "concepto": "Reforma constitucional ordinaria: 3/5 de cada Cámara (art. 167)."
+    },
+    {
+      "examen": "P39 (23 abr 2023)",
+      "concepto": "Título VIII: principios de autonomía, solidaridad e igualdad."
+    },
+    {
+      "examen": "P39 (23 abr 2023), P42 (25 oct 2025)",
+      "concepto": "Tribunal Superior de Justicia como culminación de la organización judicial en la Comunidad Autónoma y funciones del Ayuntamiento."
+    }
+  ],
+  "mnemotecnias": [
+    "Senado: «4-3-2-1»: 4 por provincia, 3 en las islas mayores, 2 en Ceuta y Melilla (cada una) y 1 en las demás islas; más 1 + 1 por millón por cada CA.",
+    "TC: «4-4-2-2» (Congreso, Senado, Gobierno, CGPJ); 9 años y tercios cada 3. CGPJ: «12-4-4» más el Presidente del Supremo.",
+    "Mayorías: «Censura = absoluta; confianza = simple». «3/5 para reformar de ordinario; 2/3, dos veces, más referéndum, para lo esencial».",
+    "Plazos: 15 (sanción) – 20 (Senado urgente, días naturales) – 30 (decreto-ley) – 48 horas (segunda votación de investidura) – 2 meses (veto del Senado e investidura)."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Cuántos Diputados puede tener el Congreso según la CE y cuántos fija la LOREG?",
+      "r": "Mínimo **300** y máximo **400** (art. 68.1 CE); la LOREG fija **350** (art. 162)."
+    },
+    {
+      "p": "¿Cuántos Senadores corresponden a provincias, islas, Ceuta y Melilla y Comunidades Autónomas?",
+      "r": "**4** por provincia; islas: **3** en Gran Canaria, Mallorca y Tenerife y **1** en Ibiza, Formentera, Menorca, Fuerteventura, La Gomera, El Hierro, Lanzarote y La Palma; **2** por Ceuta y por Melilla; por cada CA, **1 + 1 por millón de habitantes** (art. 69)."
+    },
+    {
+      "p": "¿Cuántos miembros tiene como mínimo la Diputación Permanente?",
+      "r": "**21** (art. 78.1 CE)."
+    },
+    {
+      "p": "¿Cuáles son los periodos ordinarios de sesiones?",
+      "r": "Septiembre a diciembre y **febrero a junio** (art. 73.1 CE)."
+    },
+    {
+      "p": "¿Qué mayoría exige la ley orgánica?",
+      "r": "**Mayoría absoluta del Congreso**, en una votación final sobre el conjunto del proyecto (art. 81.2 CE)."
+    },
+    {
+      "p": "¿Cómo se otorga la delegación legislativa?",
+      "r": "**Ley de bases** para formar textos articulados; **ley ordinaria** para refundir textos legales (art. 82.2 CE). Se llaman Decretos Legislativos (art. 85)."
+    },
+    {
+      "p": "¿En qué plazo debe convalidar el Congreso un decreto-ley?",
+      "r": "En los **30 días** siguientes a su promulgación (art. 86.2 CE)."
+    },
+    {
+      "p": "¿Cuántas firmas exige la iniciativa legislativa popular?",
+      "r": "No menos de **500.000** (art. 87.3 CE)."
+    },
+    {
+      "p": "¿Cuánto tiempo tiene el Senado para vetar o enmendar un proyecto y cuánto el Rey para sancionar?",
+      "r": "Senado: **2 meses** (20 días naturales si es urgente) (art. 90). Rey: **15 días** (art. 91)."
+    },
+    {
+      "p": "¿Cómo se desarrolla la investidura del Presidente del Gobierno?",
+      "r": "Mayoría absoluta del Congreso en primera votación; si no, nueva votación **48 horas** después con mayoría simple; si pasan **2 meses** desde la primera votación sin investidura, el Rey disuelve las Cámaras (art. 99 CE)."
+    },
+    {
+      "p": "¿Qué mayoría exigen la cuestión de confianza y la moción de censura?",
+      "r": "Cuestión de confianza: **mayoría simple** (art. 112). Moción de censura: **mayoría absoluta**, propuesta por 1/10 de los Diputados con candidato alternativo (art. 113)."
+    },
+    {
+      "p": "¿Cuándo puede disolverse de nuevo el Congreso tras una disolución?",
+      "r": "No antes de **un año** desde la anterior, salvo el art. 99.5; tampoco con una moción de censura en trámite (art. 115)."
+    },
+    {
+      "p": "¿Cómo se compone el Consejo General del Poder Judicial?",
+      "r": "Presidente del Tribunal Supremo y **20 miembros** nombrados por el Rey por **5 años**: 12 jueces y magistrados, 4 a propuesta del Congreso y 4 a propuesta del Senado (3/5) (art. 122.3 CE)."
+    },
+    {
+      "p": "¿Cómo se compone el Tribunal Constitucional y cuánto dura el mandato?",
+      "r": "**12 miembros**: 4 Congreso (3/5), 4 Senado (3/5), 2 Gobierno y 2 CGPJ. **9 años**, renovación por **terceras partes cada 3**; el Presidente, 3 años (arts. 159 y 160 CE)."
+    },
+    {
+      "p": "¿Quién puede interponer el recurso de inconstitucionalidad y en qué plazo?",
+      "r": "Presidente del Gobierno, Defensor del Pueblo, **50 Diputados**, **50 Senadores**, órganos ejecutivos y Asambleas de las CCAA (art. 162.1.a CE). Plazo: **3 meses** desde la publicación (art. 33 LOTC)."
+    },
+    {
+      "p": "¿Qué dos procedimientos de reforma constitucional existen y qué mayorías exigen?",
+      "r": "Ordinario (art. 167): **3/5** de cada Cámara. Agravado (art. 168): **2/3** de cada Cámara, disolución, **2/3** de las nuevas Cámaras y referéndum obligatorio."
+    },
+    {
+      "p": "¿Qué se exige para aplicar el art. 155 CE?",
+      "r": "Requerimiento previo al Presidente de la CA y, si no es atendido, **aprobación por mayoría absoluta del Senado**."
+    },
+    {
+      "p": "¿Qué requisitos tiene la vía del art. 151 CE frente a la del art. 143?",
+      "r": "Art. 151: **3/4 de los municipios** de cada provincia, que representen la mayoría del censo, y **referéndum** por mayoría absoluta de los electores de cada provincia. Art. 143: **2/3 de los municipios** en 6 meses; si fracasa, 5 años para reiterar."
+    },
+    {
+      "p": "¿Quién refrenda los actos del Rey?",
+      "r": "El **Presidente del Gobierno** y, en su caso, los Ministros competentes; el **Presidente del Congreso** refrenda la propuesta y el nombramiento del Presidente del Gobierno y la disolución del art. 99 (art. 64 CE)."
+    },
+    {
+      "p": "¿Qué competencias de interés policial son exclusivas del Estado (art. 149.1 CE)?",
+      "r": "Nacionalidad, inmigración, extranjería y asilo (2.ª); Administración de Justicia (5.ª); legislación penal y procesal (6.ª); tráfico y circulación de vehículos a motor (21.ª); armas y explosivos (26.ª); **seguridad pública** (29.ª), sin perjuicio de las policías autonómicas."
+    },
+    {
+      "p": "¿Quién nombra al Fiscal General del Estado?",
+      "r": "El **Rey**, a propuesta del **Gobierno**, oído el Consejo General del Poder Judicial (art. 124.4 CE)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "¿Cuántos Senadores elige cada una de las poblaciones de Ceuta y Melilla según el artículo 69 de la Constitución?",
+      "opciones": [
+        "Uno",
+        "Dos",
+        "Cuatro"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 69.4 CE: Ceuta y Melilla eligen cada una dos Senadores. En el Congreso, en cambio, cada una está representada por un Diputado (art. 68.2). Cuatro es el número de Senadores por provincia (art. 69.2).",
+      "ref": "art. 69.4 CE",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el artículo 78 de la Constitución, la Diputación Permanente de cada Cámara está compuesta por un mínimo de:",
+      "opciones": [
+        "Quince miembros",
+        "Veinticinco miembros",
+        "Veintiún miembros"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 78.1 CE: un mínimo de veintiún miembros, que representan a los grupos parlamentarios en proporción a su importancia numérica. Es una cifra mínima, no máxima ni fija.",
+      "ref": "art. 78.1 CE",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "La reforma de la Constitución de 19 de mayo de 2026 modificó el apartado 3 del artículo 69. ¿Cuál es su efecto?",
+      "opciones": [
+        "Ibiza y Formentera pasan a constituir cada una su propia circunscripción para la elección de Senadores, con un Senador cada isla",
+        "Se suprime la designación de Senadores por las Comunidades Autónomas",
+        "Menorca pasa a elegir tres Senadores, como las islas mayores"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 69.3 reformado fija tres Senadores en cada una de las islas mayores (Gran Canaria, Mallorca y Tenerife) y uno en cada una de Ibiza, Formentera, Menorca, Fuerteventura, La Gomera, El Hierro, Lanzarote y La Palma. Antes, Ibiza y Formentera elegían un único Senador conjunto. La eficacia queda pospuesta hasta las primeras elecciones al Senado posteriores a la entrada en vigor, y la LO 2/2026 adaptó la LOREG. Los Senadores autonómicos del art. 69.5 no se tocan.",
+      "ref": "art. 69.3 CE (reforma de 19 de mayo de 2026)",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Según el artículo 81 de la Constitución, la aprobación, modificación o derogación de las leyes orgánicas exigirá:",
+      "opciones": [
+        "Mayoría absoluta del Congreso, en una votación final sobre el conjunto del proyecto",
+        "Mayoría de tres quintos de cada una de las Cámaras",
+        "Mayoría absoluta de cada una de las Cámaras"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 81.2 CE. No se exige mayoría absoluta del Senado. La mayoría absoluta de cada Cámara se requiere, por ejemplo, para apreciar la necesidad de una ley de armonización (art. 150.3), y los tres quintos de cada Cámara, para la reforma constitucional ordinaria (art. 167).",
+      "ref": "art. 81.2 CE",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Mediante qué tipo de ley se otorga la delegación legislativa cuando su objeto es la formación de textos articulados y cuál cuando se trata de refundir varios textos legales en uno solo?",
+      "opciones": [
+        "Ley orgánica en ambos casos",
+        "Ley ordinaria para los textos articulados y ley de bases para refundir",
+        "Ley de bases para los textos articulados y ley ordinaria para refundir"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 82.2 CE. Además, la delegación ha de otorgarse de forma expresa, para materia concreta y con plazo, no puede subdelegarse y no cabe en materias de ley orgánica (art. 82.1 y 82.3). Las disposiciones del Gobierno que contienen legislación delegada se llaman Decretos Legislativos (art. 85).",
+      "ref": "art. 82.2 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Los Decretos-leyes deben ser sometidos a debate y votación de totalidad en el Congreso de los Diputados en el plazo de:",
+      "opciones": [
+        "Quince días siguientes a su promulgación",
+        "Treinta días siguientes a su promulgación",
+        "Dos meses desde su publicación"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 86.2 CE: el Congreso debe pronunciarse expresamente sobre su convalidación o derogación dentro de los treinta días siguientes a su promulgación. Los quince días son el plazo de sanción de las leyes por el Rey (art. 91) y los dos meses, el plazo del Senado para vetar o enmendar (art. 90).",
+      "ref": "art. 86.2 CE",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "En una votación de investidura, el candidato propuesto por el Rey no obtiene la mayoría absoluta del Congreso de los Diputados. ¿Qué ocurre?",
+      "opciones": [
+        "Se somete la misma propuesta a nueva votación cuarenta y ocho horas después y la confianza se entiende otorgada si obtiene la mayoría simple",
+        "El Rey disuelve de inmediato ambas Cámaras y convoca nuevas elecciones",
+        "El Rey nombra Presidente al candidato, porque la mayoría absoluta solo se exige en la moción de censura"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 99.3 CE. La disolución de las Cámaras solo procede si, transcurrido el plazo de dos meses desde la primera votación de investidura, ningún candidato ha obtenido la confianza del Congreso (art. 99.5).",
+      "ref": "art. 99.3 y 99.5 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el artículo 112 de la Constitución, la confianza solicitada por el Presidente del Gobierno mediante la cuestión de confianza se entiende otorgada cuando vote a favor:",
+      "opciones": [
+        "La mayoría absoluta de los Diputados",
+        "Las tres quintas partes de los Diputados",
+        "La mayoría simple de los Diputados"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 112 CE: mayoría simple de los Diputados. En cambio, la moción de censura exige mayoría absoluta (art. 113.1) y la investidura en primera votación también (art. 99.3).",
+      "ref": "art. 112 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre la moción de censura (art. 113 de la Constitución):",
+      "opciones": [
+        "Debe incluir un candidato a la Presidencia del Gobierno",
+        "Se aprueba por mayoría simple de los Diputados",
+        "No puede ser votada hasta que transcurran cinco días desde su presentación"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 113.1 CE: la moción de censura se adopta por mayoría absoluta del Congreso. Las otras dos son ciertas: ha de incluir un candidato (113.2) y no puede votarse hasta pasados cinco días desde su presentación, durante los dos primeros de los cuales pueden presentarse mociones alternativas (113.3).",
+      "ref": "art. 113 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el artículo 115 de la Constitución, tras una disolución de las Cortes no procederá nueva disolución, como regla general, antes de que transcurra:",
+      "opciones": [
+        "Seis meses desde la anterior",
+        "Dos años desde la anterior",
+        "Un año desde la anterior"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 115.3 CE: un año desde la anterior, salvo lo dispuesto en el art. 99.5 (falta de investidura en dos meses). Además, la propuesta de disolución no puede presentarse con una moción de censura en trámite (art. 115.2).",
+      "ref": "art. 115 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el artículo 122.3 de la Constitución, el Consejo General del Poder Judicial está integrado por el Presidente del Tribunal Supremo y por veinte miembros nombrados por el Rey por cinco años. ¿Cuántos de ellos se nombran a propuesta del Congreso y cuántos a propuesta del Senado, y con qué mayoría?",
+      "opciones": [
+        "Seis de cada Cámara, por mayoría absoluta",
+        "Cuatro de cada Cámara, por mayoría de tres quintos, entre abogados y otros juristas de reconocida competencia con más de quince años de ejercicio",
+        "Doce a propuesta del Congreso y ocho a propuesta del Senado, por mayoría absoluta"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 122.3 CE: doce entre Jueces y Magistrados de todas las categorías judiciales, en los términos de la ley orgánica; cuatro a propuesta del Congreso y cuatro a propuesta del Senado, por mayoría de tres quintos, entre abogados y otros juristas con más de quince años de ejercicio. La LOPJ vigente (arts. 566-567) desarrolla que las Cortes eligen los veinte vocales por tres quintos, diez cada Cámara.",
+      "ref": "art. 122.3 CE; arts. 566-567 LOPJ",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Cómo se distribuyen los doce miembros del Tribunal Constitucional según el artículo 159 de la Constitución?",
+      "opciones": [
+        "Cuatro a propuesta del Congreso, cuatro a propuesta del Senado, dos a propuesta del Gobierno y dos a propuesta del Consejo General del Poder Judicial",
+        "Cuatro a propuesta del Congreso, dos a propuesta del Senado, cuatro a propuesta del Gobierno y dos a propuesta del Consejo General del Poder Judicial",
+        "Cuatro a propuesta del Congreso, cuatro a propuesta del Senado y cuatro a propuesta del Consejo General del Poder Judicial"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 159.1 CE: los cuatro del Congreso y los cuatro del Senado se proponen por mayoría de tres quintos de sus miembros; el Gobierno propone dos y el Consejo General del Poder Judicial otros dos. Todos los nombra el Rey.",
+      "ref": "art. 159.1 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Los miembros del Tribunal Constitucional son designados por un período de:",
+      "opciones": [
+        "Cinco años, renovándose por mitades cada dos años y medio",
+        "Nueve años, renovándose por mitades cada cuatro años y medio",
+        "Nueve años, renovándose por terceras partes cada tres"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 159.3 CE: nueve años, con renovación por terceras partes cada tres. El Presidente del Tribunal es nombrado por el Rey entre sus miembros, a propuesta del Pleno, por un período de tres años (art. 160).",
+      "ref": "art. 159.3 y 160 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según la Ley Orgánica del Tribunal Constitucional, el plazo para interponer recurso de amparo cuando la violación del derecho tenga su origen inmediato y directo en una acción u omisión de un órgano judicial es de:",
+      "opciones": [
+        "Veinte días desde la notificación de la resolución recaída en el proceso judicial",
+        "Treinta días desde la notificación de la resolución recaída en el proceso judicial",
+        "Tres meses desde que la resolución sea firme"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 44.2 LOTC: treinta días a partir de la notificación de la resolución recaída en el proceso judicial. Veinte días es el plazo del art. 43.2 (violaciones originadas por el Gobierno o la Administración, tras agotar la vía judicial) y tres meses, el del art. 42 (actos sin valor de ley de las Cortes o de las Asambleas autonómicas).",
+      "ref": "art. 44.2 LOTC (también arts. 42 y 43.2)",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Según el artículo 162 de la Constitución, entre los legitimados para interponer el recurso de inconstitucionalidad se encuentran:",
+      "opciones": [
+        "Cincuenta Diputados o cincuenta Senadores",
+        "Treinta Diputados o veinte Senadores",
+        "Cualquier ciudadano que invoque un interés legítimo"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 162.1, apartado a, CE: el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas. La legitimación de toda persona con interés legítimo corresponde al recurso de amparo, no al de inconstitucionalidad.",
+      "ref": "art. 162.1 CE; art. 32 LOTC",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Los proyectos de reforma constitucional tramitados por el procedimiento ordinario del artículo 167 de la Constitución deben ser aprobados por:",
+      "opciones": [
+        "Mayoría absoluta del Congreso y del Senado",
+        "Dos tercios de cada una de las Cámaras",
+        "Una mayoría de tres quintos de cada una de las Cámaras"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 167.1 CE. Si no hay acuerdo, se intenta mediante una Comisión paritaria de Diputados y Senadores y, en último término, basta la mayoría absoluta del Senado y los dos tercios del Congreso (167.2). El referéndum solo procede si lo solicita una décima parte de los miembros de cualquiera de las Cámaras en los quince días siguientes (167.3). Los dos tercios caracterizan el procedimiento agravado (art. 168).",
+      "ref": "art. 167 CE",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Se propone reformar el artículo 15 de la Constitución (derecho a la vida y a la integridad). ¿Qué procedimiento debe seguirse?",
+      "opciones": [
+        "El ordinario del art. 167, con mayoría de tres quintos de cada Cámara y referéndum solo si lo solicita una décima parte de los miembros de cualquiera de ellas",
+        "El agravado del art. 168: aprobación del principio por dos tercios de cada Cámara, disolución inmediata de las Cortes, nuevo texto aprobado por dos tercios de las Cámaras elegidas y referéndum obligatorio",
+        "El que decida el Tribunal Constitucional según la importancia de la reforma"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 168.1 CE: la revisión parcial que afecte al Capítulo segundo, Sección primera del Título I (arts. 15 a 29) sigue el procedimiento agravado, igual que la revisión total y la que afecte al Título preliminar o al Título II. El Tribunal Constitucional no interviene en elegir el procedimiento.",
+      "ref": "art. 168 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Para que el Gobierno adopte las medidas necesarias frente a una Comunidad Autónoma que atente gravemente al interés general de España, el artículo 155 de la Constitución exige, tras el requerimiento previo al Presidente de la Comunidad:",
+      "opciones": [
+        "La aprobación por mayoría absoluta del Senado",
+        "La aprobación por mayoría absoluta del Congreso de los Diputados",
+        "La autorización previa del Tribunal Constitucional"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 155.1 CE: previo requerimiento al Presidente de la Comunidad Autónoma y, en el caso de no ser atendido, con la aprobación por mayoría absoluta del Senado. El Congreso y el Tribunal Constitucional no intervienen en este procedimiento.",
+      "ref": "art. 155 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En la vía general de acceso a la autonomía (art. 143 de la Constitución), la iniciativa corresponde a todas las Diputaciones interesadas y a las dos terceras partes de los municipios cuya población represente, al menos:",
+      "opciones": [
+        "Dos tercios del censo electoral de cada provincia",
+        "La mayoría del censo electoral de cada provincia o isla",
+        "Una cuarta parte del censo electoral de la futura Comunidad"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 143.2 CE: dos terceras partes de los municipios cuya población represente, al menos, la mayoría del censo electoral de cada provincia o isla, en el plazo de seis meses desde el primer acuerdo. Si la iniciativa no prospera, solo puede reiterarse pasados cinco años (143.3). En la vía del art. 151 se exigen tres cuartas partes de los municipios y referéndum.",
+      "ref": "art. 143.2 y 143.3 CE",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Respecto a las leyes de armonización del artículo 150.3 de la Constitución, la apreciación de la necesidad de armonizar corresponde:",
+      "opciones": [
+        "A las Cortes Generales, por mayoría absoluta de cada Cámara",
+        "Al Congreso de los Diputados, por mayoría simple",
+        "Al Tribunal Constitucional, a petición del Gobierno"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 150.3 CE: el Estado puede dictar leyes que establezcan los principios necesarios para armonizar las disposiciones normativas de las Comunidades Autónomas cuando lo exija el interés general, y corresponde a las Cortes Generales, por mayoría absoluta de cada Cámara, apreciar esa necesidad.",
+      "ref": "art. 150.3 CE",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Los actos del Rey son refrendados por el Presidente del Gobierno y, en su caso, por los Ministros competentes. ¿Quién refrenda la propuesta y el nombramiento del Presidente del Gobierno y la disolución prevista en el artículo 99?",
+      "opciones": [
+        "El Presidente del Gobierno en funciones",
+        "El Presidente del Senado",
+        "El Presidente del Congreso"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 64.1 CE: esos actos los refrenda el Presidente del Congreso. De los actos del Rey son responsables las personas que los refrenden (art. 64.2). La persona del Rey es inviolable y no está sujeta a responsabilidad (art. 56.3).",
+      "ref": "art. 64 CE",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El Fiscal General del Estado es nombrado por:",
+      "opciones": [
+        "El Rey, a propuesta del Consejo General del Poder Judicial",
+        "El Congreso de los Diputados, por mayoría de tres quintos",
+        "El Rey, a propuesta del Gobierno, oído el Consejo General del Poder Judicial"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 124.4 CE: nombrado por el Rey, a propuesta del Gobierno, oído el Consejo General del Poder Judicial. El Consejo propone, en cambio, al Presidente del Tribunal Supremo (art. 123.2) y dos Magistrados del Tribunal Constitucional (art. 159.1).",
+      "ref": "art. 124.4 CE",
+      "dificultad": 1
+    }
+  ],
+  "dudas": [
+    "No se detallan las competencias del CGPJ ni el procedimiento de elección de los vocales del turno judicial (LOPJ arts. 568 y siguientes), porque el Anexo I solo remite a la Constitución (Título VI)."
+  ]
+}

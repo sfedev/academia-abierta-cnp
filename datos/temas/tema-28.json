@@ -1,0 +1,569 @@
+{
+  "tema": 28,
+  "titulo": "Globalización, antiglobalización y Foro Social Mundial",
+  "bloque": "B",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "Entre 1 y 2 preguntas por examen (media 1,6; 2 en los tres últimos). Han caído el Foro Social Mundial (origen, Porto Alegre 2001, edición de 2026), Seattle, Naomi Klein y «No Logo», Saskia Sassen y Fukuyama."
+  },
+  "normas": [
+    {
+      "nombre": "Diccionario de la lengua española (RAE), entrada «globalización»",
+      "url": "https://dle.rae.es/globalizaci%C3%B3n",
+      "verificado": "Acepciones contrastadas el 16/10/2026 con extractos del DLE en línea obtenidos por buscador (el acceso directo a dle.rae.es devolvió error 403)"
+    },
+    {
+      "nombre": "Fondo Monetario Internacional, «Globalization: Threat or Opportunity?» (IMF Issues Brief, 12 de abril de 2000, corregido en enero de 2002)",
+      "url": "https://www.imf.org/external/np/exr/ib/2000/041200to.htm",
+      "verificado": "Definición y cuatro aspectos de la globalización leídos el 16/10/2026 (extracto de la web del FMI)"
+    },
+    {
+      "nombre": "Foro Social Mundial 2024 (Katmandú): historia del Foro y ediciones",
+      "url": "https://wsf2024nepal.org/history",
+      "verificado": "Página leída el 16/10/2026"
+    },
+    {
+      "nombre": "CADTM, «Au Bénin, un Forum social mondial entravé» (6 de agosto de 2026) y página del FSM 2026",
+      "url": "https://www.cadtm.org/Au-Benin-un-Forum-social-mondial-entrave",
+      "verificado": "17.ª edición en Cotonú (Benín), prevista del 4 al 8 de agosto de 2026; extractos obtenidos por buscador el 16/10/2026 (la web exigía comprobación anti-bots)"
+    },
+    {
+      "nombre": "World Social Forum (obra de referencia, edición del 26/09/2026)",
+      "url": "https://en.wikipedia.org/wiki/World_Social_Forum",
+      "verificado": "Fuente secundaria leída el 16/10/2026: origen, Davos, ediciones 2003-2024"
+    },
+    {
+      "nombre": "Multilateral Agreement on Investment; ATTAC; Battle of Seattle; No Logo; Naomi Klein (obras de referencia)",
+      "url": "https://en.wikipedia.org/wiki/Multilateral_Agreement_on_Investment",
+      "verificado": "Fuentes secundarias leídas el 16/10/2026: AMI 1995-1998 (retirada de Francia), ATTAC (3/6/1998), Seattle (30/11-3/12/1999), No Logo (diciembre de 1999)"
+    }
+  ],
+  "novedades": [
+    "La **17.ª edición del Foro Social Mundial** se convocó en **Cotonú (Benín)** en agosto de 2026 (prevista del 4 al 8). Las fuentes consultadas difieren sobre su desarrollo: se informó de restricciones de las autoridades beninesas y de una autorización posterior del 6 al 9 de agosto. La sede y el número de edición son lo que se ha preguntado."
+  ],
+  "clave": [
+    "El **Foro Social Mundial (FSM)** nace como contrapunto al **Foro Económico Mundial de Davos**; su primera edición fue en **Porto Alegre (Brasil), enero de 2001**. Lema: «**Otro mundo es posible**». Lo impulsaron los brasileños **Oded Grajew** y **Chico Whitaker**.",
+    "Ediciones del FSM: Porto Alegre 2001-2003 y 2005; **Bombay 2004** (primera fuera de Brasil); 2006 **policéntrica** (Caracas, Bamako y Karachi); Nairobi 2007; Belém 2009; Dakar 2011; Túnez 2013 y 2015; Montreal 2016; Salvador de Bahía 2018; virtual 2021; México 2022; Katmandú 2024; **Cotonú (Benín) 2026, 17.ª edición**.",
+    "**Seattle**, **30 de noviembre a 3 de diciembre de 1999**: protestas masivas («batalla de Seattle», N30) contra la conferencia ministerial de la **Organización Mundial del Comercio**; la reunión terminó sin acuerdos. Es el hito fundacional del movimiento antiglobalización.",
+    "**AMI (Acuerdo Multilateral de Inversiones)**: negociado en secreto en la **OCDE entre 1995 y 1998**; fracasó en 1998 por la presión de ONG y la retirada de **Francia** (octubre de 1998).",
+    "**ATTAC**: constituida en Francia el **3 de junio de 1998**, tras el editorial de **Ignacio Ramonet** «Desarmar los mercados» («Le Monde diplomatique», diciembre de 1997). Nació para promover la **tasa Tobin** sobre las transacciones de divisas.",
+    "**Naomi Klein**: «No Logo» (publicado en diciembre de 1999; cuatro partes: No Space, No Choice, No Jobs y No Logo), libro de referencia del movimiento sobre marcas, deslocalización y condiciones laborales. Después, «La doctrina del shock» (2007).",
+    "**Saskia Sassen**: «La ciudad global» (1991; Nueva York, Londres y Tokio). **Joseph Stiglitz**: «El malestar en la globalización» (2002; Nobel de Economía 2001; crítico con el FMI). **Francis Fukuyama**: «El fin de la historia y el último hombre» (1992).",
+    "**DLE** (acepción económica): proceso por el que las economías y los mercados, con el desarrollo de las tecnologías de la comunicación, adquieren una dimensión mundial, de modo que dependen cada vez más de los mercados externos y menos de la acción reguladora de los Gobiernos.",
+    "**FMI (2000)**: la globalización económica es un proceso histórico, resultado de la innovación y el progreso tecnológico; cuatro aspectos: **comercio**, **movimientos de capital**, **movimiento de personas** y **difusión del conocimiento** (y la tecnología)."
+  ],
+  "resumen": [
+    {
+      "titulo": "Concepto y características de la globalización",
+      "puntos": [
+        "**DLE**: la globalización tiene cuatro acepciones: acción de globalizar; extensión del ámbito de instituciones sociales, políticas y jurídicas a un plano internacional; difusión mundial de modos, valores o tendencias que fomenta la **uniformidad de gustos y costumbres**; y, en economía, el proceso por el que economías y mercados adquieren dimensión mundial gracias a las tecnologías de la comunicación y **dependen más de los mercados externos y menos de la acción reguladora de los Gobiernos**.",
+        "**FMI (informe de 12/4/2000)**: la globalización económica es un proceso histórico, fruto de la innovación humana y el progreso tecnológico; supone la creciente **integración de las economías**, sobre todo mediante flujos comerciales y financieros. Distingue cuatro aspectos: **comercio, movimientos de capital, movimiento de personas y difusión del conocimiento y la tecnología**.",
+        "El término se difundió en el mundo empresarial con el artículo de **Theodore Levitt**, «The Globalization of Markets» («Harvard Business Review», mayo-junio de 1983), aunque no lo inventó. La expresión «**aldea global**» la popularizó **Marshall McLuhan** en «La galaxia Gutenberg» (1962).",
+        "Marco institucional: los acuerdos de **Bretton Woods (1944)** dieron lugar al FMI y al Banco Mundial; la **OMC** funciona desde el **1 de enero de 1995** (Acuerdo de Marrakech de 1994) como sucesora del GATT.",
+        "Rasgos que se citan en los manuales: interdependencia económica, expansión de las empresas transnacionales, liberalización del comercio y de los flujos de capital, revolución de las tecnologías de la información, mayor movilidad de personas e ideas, y problemas de alcance mundial (clima, pandemias, finanzas)."
+      ]
+    },
+    {
+      "titulo": "Consecuencias de la globalización (esquema doctrinal)",
+      "puntos": [
+        "Las consecuencias se suelen clasificar por ámbitos, con efectos positivos y negativos. No proceden de una norma jurídica, sino de la literatura académica y de los organismos internacionales.",
+        "Dos ideas que repiten los textos: la globalización cultural tiende a la **uniformidad de gustos y costumbres** (así la recoge el DLE) y la económica reduce la capacidad reguladora de los Gobiernos nacionales. De ahí nacen las reacciones críticas del movimiento altermundialista."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Ámbito",
+          "Efectos positivos",
+          "Efectos negativos"
+        ],
+        "filas": [
+          [
+            "Económico",
+            "Más comercio e inversión, difusión de tecnología, acceso a mercados",
+            "Deslocalización, desigualdad, dependencia de los mercados financieros, poder de las transnacionales"
+          ],
+          [
+            "Político",
+            "Cooperación internacional y organismos multilaterales",
+            "Pérdida de capacidad reguladora de los Estados; déficit democrático de las instituciones globales"
+          ],
+          [
+            "Cultural",
+            "Intercambio y acceso a la información",
+            "Uniformidad de gustos y costumbres; pérdida de culturas locales"
+          ],
+          [
+            "Social y laboral",
+            "Movilidad y migraciones",
+            "Precariedad laboral, brecha digital, tensiones y xenofobia"
+          ],
+          [
+            "Medioambiental",
+            "Acuerdos globales (Kioto, París)",
+            "Mayor consumo de recursos y emisiones; contaminación trasladada"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Reacciones: el movimiento antiglobalización o altermundialista",
+      "puntos": [
+        "El movimiento rechaza la etiqueta «antiglobalización»: apoya la cooperación y la interacción globales y se opone a los efectos negativos de la globalización neoliberal (justicia económica, protección laboral y medioambiental, culturas indígenas, paz y libertades). Prefiere **altermundialismo** o alterglobalización; su lema, «**otro mundo es posible**», surgió en el Foro Social Mundial.",
+        "Antecedente latinoamericano: el Primer Encuentro Intercontinental por la Humanidad y contra el Neoliberalismo (1996), del que procedían algunos fundadores del FSM.",
+        "Hitos: **AMI** (OCDE, 1995-1998), primera gran campaña de ONG organizada en Internet; **ATTAC** (3/6/1998); **Seattle** (30/11-3/12/1999); «No Logo» (diciembre de 1999); **primer FSM** (enero de 2001).",
+        "**Seattle**: la conferencia ministerial de la OMC (30 de noviembre de 1999) quedó desbordada por manifestaciones de al menos 40.000 personas (marcha sindical, según la policía) y por acciones de desobediencia civil coordinadas por la **Direct Action Network**; terminó el 3 de diciembre sin acuerdos.",
+        "**ATTAC** (Asociación por la Tasación de las Transacciones financieras y por la Acción Ciudadana): surgió del editorial de Ramonet de diciembre de 1997; defiende la **tasa Tobin**. El propio economista James Tobin se desmarcó del movimiento."
+      ]
+    },
+    {
+      "titulo": "Foro Social Mundial: origen y ediciones",
+      "puntos": [
+        "El FSM se concibe como espacio abierto de encuentro de movimientos sociales y suele reunirse en enero, **a la vez que el Foro Económico Mundial de Davos (Suiza)**, para ofrecer alternativas a los problemas económicos del mundo. Entre sus impulsores figura **Oded Grajew**, que quiso crear un Foro «social» frente al «económico»; con él, **Chico Whitaker**. La Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO) está presente desde 2001.",
+        "No representa a todos los asistentes: según el art. 6 de su Carta de Principios no emite declaraciones formales en nombre de los participantes (por eso el Manifiesto de Porto Alegre de 2005 lo firmó un «Grupo de 19»).",
+        "**Cotonú 2026**: 17.ª edición, convocada del 4 al 8 de agosto de 2026 en Benín, con restricciones de las autoridades según las fuentes militantes. **Katmandú 2024**: 15 a 19 de febrero de 2024. **México 2022**: formato híbrido, mayo de 2022. **2021**: virtual, 23 a 31 de enero."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Año",
+          "Sede"
+        ],
+        "filas": [
+          [
+            "2001, 2002, 2003",
+            "Porto Alegre (Brasil); la primera edición, en enero de 2001"
+          ],
+          [
+            "2004",
+            "Bombay/Mumbai (India), 16 a 21 de enero: primera fuera de Brasil"
+          ],
+          [
+            "2005",
+            "Porto Alegre (26 a 31 de enero)"
+          ],
+          [
+            "2006",
+            "Policéntrica: Caracas (Venezuela), Bamako (Malí) y Karachi (Pakistán)"
+          ],
+          [
+            "2007",
+            "Nairobi (Kenia)"
+          ],
+          [
+            "2009",
+            "Belém (Brasil), 27 de enero a 1 de febrero"
+          ],
+          [
+            "2010 y 2012",
+            "Porto Alegre (2010, edición descentralizada «FSM 10 años»)"
+          ],
+          [
+            "2011",
+            "Dakar (Senegal)"
+          ],
+          [
+            "2013 y 2015",
+            "Túnez"
+          ],
+          [
+            "2016",
+            "Montreal (Canadá), agosto"
+          ],
+          [
+            "2018",
+            "Salvador de Bahía (Brasil), 13 a 17 de marzo"
+          ],
+          [
+            "2021 y 2022",
+            "Virtual (2021); México, formato híbrido (2022)"
+          ],
+          [
+            "2024",
+            "Katmandú (Nepal)"
+          ],
+          [
+            "2026",
+            "Cotonú (Benín), 17.ª edición"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Autores y obras que se preguntan",
+      "puntos": [
+        "Los exámenes intercambian autores y obras: hay que asociar cada nombre con su idea. Naomi Klein es canadiense (nacida en Montreal en 1970); su obra más citada es «No Logo: el poder de las marcas», publicada en diciembre de 1999 poco después de Seattle.",
+        "Distinga las tesis opuestas: **Fukuyama** (1992) anuncia el triunfo final de la democracia liberal y el mercado; **Huntington** (1996) prevé conflictos entre civilizaciones; **Stiglitz**, **Klein** y **George** critican el modelo de globalización dominado por el FMI, las marcas transnacionales o el capital financiero."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Autor",
+          "Obra o idea",
+          "Año"
+        ],
+        "filas": [
+          [
+            "Naomi Klein",
+            "«No Logo» (marcas, deslocalización); «La doctrina del shock»; «Esto lo cambia todo» (2014)",
+            "1999; 2007"
+          ],
+          [
+            "Saskia Sassen",
+            "«La ciudad global: Nueva York, Londres, Tokio»; popularizó el término «ciudad global»",
+            "1991"
+          ],
+          [
+            "Joseph Stiglitz",
+            "«El malestar en la globalización»; premio Nobel de Economía 2001; ex economista jefe del Banco Mundial",
+            "2002"
+          ],
+          [
+            "Francis Fukuyama",
+            "«El fin de la historia y el último hombre» (triunfo de la democracia liberal); artículo previo en «The National Interest»",
+            "1992; 1989"
+          ],
+          [
+            "Samuel Huntington",
+            "«El choque de civilizaciones»: conflictos culturales y religiosos tras la Guerra Fría; respuesta a Fukuyama",
+            "1996"
+          ],
+          [
+            "Susan George",
+            "«Informe Lugano» (ficción sobre cómo preservar el capitalismo); vicepresidenta de ATTAC Francia",
+            "1999"
+          ],
+          [
+            "Anthony Giddens",
+            "«Un mundo desbocado», a partir de las Conferencias Reith de la BBC",
+            "1999"
+          ],
+          [
+            "Ignacio Ramonet",
+            "Editorial «Desarmar los mercados» en «Le Monde diplomatique»; origen de ATTAC",
+            "dic. 1997"
+          ],
+          [
+            "Marshall McLuhan",
+            "«Aldea global» («La galaxia Gutenberg»)",
+            "1962"
+          ],
+          [
+            "Theodore Levitt",
+            "«The Globalization of Markets» («Harvard Business Review»)",
+            "1983"
+          ]
+        ]
+      }
+    }
+  ],
+  "trampas": [
+    "**Davos no es el FSM**: Davos es la reunión anual del Foro Económico Mundial (Suiza, élites económicas y políticas); el FSM nació en Porto Alegre en 2001 como alternativa de los movimientos sociales.",
+    "Autores y obras intercambiados: Klein («No Logo», marcas), Sassen (ciudad global), Stiglitz (malestar, FMI), Fukuyama (fin de la historia), Huntington (choque de civilizaciones), George («Informe Lugano»). Cambian el autor, no la obra.",
+    "Primera edición fuera de Brasil: **Bombay 2004**. Nairobi (2007) y Belém (2009) son posteriores; Dakar es 2011. La edición de 2026 es la **17.ª y en Cotonú (Benín)**; Katmandú es la de 2024.",
+    "Seattle (1999) fue contra la **OMC**; el AMI se negoció en la **OCDE** (no en la OMC) entre 1995 y 1998 y fracasó por la retirada de Francia.",
+    "El movimiento no es «contra» la globalización sin matices: sus integrantes rechazan la etiqueta «antiglobalización» y prefieren altermundialismo. Un distractor puede decir que defiende el aislamiento económico.",
+    "El FSM **no** emite declaraciones en nombre de todos los participantes (Carta de Principios, art. 6); no es una organización con portavoz único.",
+    "Fechas cercanas: AMI (1995-1998), ATTAC (**junio de 1998**), Seattle (**noviembre-diciembre de 1999**), «No Logo» (**diciembre de 1999**), primer FSM (**enero de 2001**). Piden el orden cronológico."
+  ],
+  "caido": [
+    {
+      "examen": "1 mar 2025 (x2) y 26 sep 2026",
+      "concepto": "Foro Social Mundial: origen, primera edición en Porto Alegre (2001) y edición de 2026 en Cotonú (Benín). El análisis de exámenes asocia además el origen del movimiento con el rechazo al AMI de la OCDE (1998)"
+    },
+    {
+      "examen": "23 abr 2023 y 26 sep 2026",
+      "concepto": "Naomi Klein y su libro «No Logo»"
+    },
+    {
+      "examen": "13 abr 2024 y 25 oct 2025",
+      "concepto": "Seattle como acto fundacional del movimiento antiglobalización; Saskia Sassen y la ciudad global; Fukuyama y las condiciones del capitalismo"
+    }
+  ],
+  "mnemotecnias": [
+    "Cronología en cinco pasos: **AMI** (1995-98) → **ATTAC** (junio 1998) → **Seattle** (nov.-dic. 1999) → **No Logo** (dic. 1999) → **FSM** (ene. 2001).",
+    "**Davos = dinero, Porto Alegre = pueblo**: el FSM suele reunirse en enero, a la vez que Davos, con el lema «otro mundo es posible».",
+    "**KSSF**: Klein (No Logo), Sassen (ciudad global), Stiglitz (malestar), Fukuyama (fin de la historia)."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Cuándo y dónde se celebró la primera edición del Foro Social Mundial?",
+      "r": "En **Porto Alegre (Brasil), enero de 2001**. Se concibió como contrapunto al Foro Económico Mundial de **Davos**."
+    },
+    {
+      "p": "Lema del Foro Social Mundial.",
+      "r": "«**Otro mundo es posible**»."
+    },
+    {
+      "p": "¿Cuál fue la primera edición del FSM fuera de Brasil?",
+      "r": "**Bombay (Mumbai, India), enero de 2004**."
+    },
+    {
+      "p": "¿Dónde se celebró la edición policéntrica de 2006?",
+      "r": "En **Caracas, Bamako y Karachi**."
+    },
+    {
+      "p": "¿Dónde se convocó el FSM de 2026 y qué número de edición era?",
+      "r": "**Cotonú (Benín)**, **17.ª edición**, en agosto de 2026."
+    },
+    {
+      "p": "¿Qué ocurrió en Seattle entre el 30/11 y el 3/12 de 1999?",
+      "r": "Protestas masivas contra la conferencia ministerial de la **OMC** (la «batalla de Seattle»); la reunión acabó sin acuerdos."
+    },
+    {
+      "p": "¿Qué fue el AMI y cómo acabó?",
+      "r": "Acuerdo Multilateral de Inversiones negociado en secreto en la **OCDE (1995-1998)**; fracasó en 1998 tras la retirada de **Francia** y la oposición de ONG."
+    },
+    {
+      "p": "¿Cuándo se creó ATTAC y para qué?",
+      "r": "El **3 de junio de 1998**, en Francia, tras el editorial de Ramonet de 1997; para promover la **tasa Tobin** sobre las transacciones de divisas."
+    },
+    {
+      "p": "¿Quién escribió «No Logo» y cuándo se publicó?",
+      "r": "**Naomi Klein**, en diciembre de 1999; estudia el poder de las marcas, la deslocalización y las condiciones laborales."
+    },
+    {
+      "p": "¿Quién es Saskia Sassen y qué obra se le pregunta?",
+      "r": "Socióloga que popularizó el concepto de «**ciudad global**» en «The Global City» (**1991**), sobre Nueva York, Londres y Tokio."
+    },
+    {
+      "p": "¿Qué sostiene «El malestar en la globalización» y quién lo escribió?",
+      "r": "Obra de **Joseph Stiglitz** (2002; Nobel de Economía 2001), crítica con el papel del **FMI** en los países en desarrollo."
+    },
+    {
+      "p": "Tesis de Fukuyama y de Huntington.",
+      "r": "**Fukuyama** (1992): la democracia liberal puede ser el final de la evolución ideológica. **Huntington** (1996): el conflicto será entre civilizaciones y culturas."
+    },
+    {
+      "p": "Cuatro aspectos de la globalización según el FMI (2000).",
+      "r": "**Comercio**, **movimientos de capital**, **movimiento de personas** y **difusión del conocimiento (y la tecnología)**."
+    },
+    {
+      "p": "¿Quién popularizó la expresión «aldea global» y en qué obra?",
+      "r": "**Marshall McLuhan**, en «La galaxia Gutenberg» (**1962**)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "El Foro Social Mundial nació como contrapunto al Foro Económico Mundial que se reúne cada año en:",
+      "opciones": [
+        "Davos",
+        "Seattle",
+        "Bretton Woods"
+      ],
+      "correcta": 0,
+      "explicacion": "El Foro Social Mundial se concibió como alternativa social al Foro Económico Mundial de Davos (Suiza), y suele reunirse en enero, en las mismas fechas. Seattle fue escenario de las protestas contra la OMC de 1999, y Bretton Woods dio nombre a los acuerdos de 1944 que crearon el FMI y el Banco Mundial.",
+      "ref": "Foro Social Mundial (origen); Foro Económico Mundial",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Dónde se celebró la primera edición del Foro Social Mundial, en 2001?",
+      "opciones": [
+        "Bombay",
+        "Porto Alegre",
+        "Nairobi"
+      ],
+      "correcta": 1,
+      "explicacion": "La primera edición tuvo lugar en Porto Alegre (Brasil) en enero de 2001. Bombay acogió la de 2004, la primera fuera de Brasil, y Nairobi la de 2007.",
+      "ref": "Foro Social Mundial 2001",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Qué edición del Foro Social Mundial fue la primera celebrada fuera de Brasil?",
+      "opciones": [
+        "Nairobi, 2007",
+        "Belém, 2009",
+        "Bombay, 2004"
+      ],
+      "correcta": 2,
+      "explicacion": "El Foro de Bombay (India), celebrado del 16 al 21 de enero de 2004, fue la primera reunión fuera de Brasil. Las ediciones de Nairobi (2007) y Belém (2009) son posteriores.",
+      "ref": "Foro Social Mundial 2004",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Las protestas conocidas como «batalla de Seattle» (30 de noviembre a 3 de diciembre de 1999) se dirigieron contra la conferencia ministerial de:",
+      "opciones": [
+        "La Organización Mundial del Comercio",
+        "La Organización para la Cooperación y el Desarrollo Económicos",
+        "El Banco Mundial"
+      ],
+      "correcta": 0,
+      "explicacion": "Seattle acogió la conferencia ministerial de la OMC y las manifestaciones masivas la desbordaron; terminó el 3 de diciembre sin acuerdos. La OCDE fue el foro del Acuerdo Multilateral de Inversiones, que fracasó en 1998.",
+      "ref": "Conferencia ministerial de la OMC, Seattle 1999",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El Acuerdo Multilateral de Inversiones (AMI), cuya negociación fracasó en 1998 tras la retirada de Francia, se negociaba en el seno de:",
+      "opciones": [
+        "La Organización Mundial del Comercio",
+        "El Fondo Monetario Internacional",
+        "La Organización para la Cooperación y el Desarrollo Económicos (OCDE)"
+      ],
+      "correcta": 2,
+      "explicacion": "El AMI se negoció en secreto en la OCDE entre 1995 y 1998 y se hundió cuando Francia se retiró, tras una campaña global de ONG. No fue obra de la OMC ni del FMI.",
+      "ref": "Acuerdo Multilateral de Inversiones (OCDE, 1995-1998)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Qué obra de Naomi Klein, publicada en diciembre de 1999, se convirtió en libro de referencia del movimiento antiglobalización?",
+      "opciones": [
+        "La doctrina del shock",
+        "No Logo",
+        "Esto lo cambia todo"
+      ],
+      "correcta": 1,
+      "explicacion": "No Logo analiza el poder de las marcas, la deslocalización y la explotación laboral, y apareció poco después de Seattle. La doctrina del shock es de 2007 y Esto lo cambia todo (sobre el cambio climático) de 2014.",
+      "ref": "Naomi Klein, No Logo (1999)",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "¿Qué autora popularizó el concepto de «ciudad global» en su obra de 1991 sobre Nueva York, Londres y Tokio?",
+      "opciones": [
+        "Naomi Klein",
+        "Susan George",
+        "Saskia Sassen"
+      ],
+      "correcta": 2,
+      "explicacion": "Saskia Sassen acuñó y popularizó el término «ciudad global» en La ciudad global (1991). Klein escribió No Logo y George, el Informe Lugano.",
+      "ref": "Saskia Sassen, The Global City (1991)",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "La organización ATTAC, constituida en Francia el 3 de junio de 1998, nació para promover:",
+      "opciones": [
+        "Una tasa sobre las transacciones financieras internacionales, conocida como tasa Tobin",
+        "La supresión de la Organización Mundial del Comercio",
+        "Un impuesto mundial sobre las marcas comerciales"
+      ],
+      "correcta": 0,
+      "explicacion": "ATTAC surgió tras el editorial «Desarmar los mercados» de Ignacio Ramonet (Le Monde diplomatique, diciembre de 1997) y se creó para impulsar la tasa Tobin sobre las transacciones de divisas. Ni propone suprimir la OMC ni un impuesto sobre las marcas.",
+      "ref": "ATTAC (3/6/1998)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El libro «El malestar en la globalización» (2002), crítico con el papel del FMI en los países en desarrollo, es obra de:",
+      "opciones": [
+        "Francis Fukuyama",
+        "Joseph Stiglitz",
+        "Samuel Huntington"
+      ],
+      "correcta": 1,
+      "explicacion": "Es obra de Joseph Stiglitz, premio Nobel de Economía en 2001 y antiguo economista jefe del Banco Mundial. Fukuyama escribió El fin de la historia y el último hombre (1992) y Huntington, El choque de civilizaciones (1996).",
+      "ref": "Joseph Stiglitz, Globalization and Its Discontents (2002)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Señale la afirmación INCORRECTA sobre el movimiento antiglobalización o altermundialista:",
+      "opciones": [
+        "Muchos de sus integrantes rechazan la etiqueta «antiglobalización» porque defienden la cooperación global y critican su modelo neoliberal",
+        "El lema «otro mundo es posible» surgió en el Foro Social Mundial",
+        "Las protestas de Seattle de 1999 se dirigieron contra una cumbre del G7"
+      ],
+      "correcta": 2,
+      "explicacion": "Seattle fue la conferencia ministerial de la OMC, no una cumbre del G7. Las otras dos opciones son correctas: el movimiento prefiere el término altermundialismo y el lema «otro mundo es posible» nació en el Foro Social Mundial.",
+      "ref": "Movimiento antiglobalización; Seattle 1999",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el Diccionario de la lengua española, en su acepción económica, la globalización es el proceso por el que las economías y los mercados, con el desarrollo de las tecnologías de la comunicación, adquieren una dimensión mundial, de modo que:",
+      "opciones": [
+        "Dependen cada vez más de los mercados externos y menos de la acción reguladora de los Gobiernos",
+        "Dependen cada vez menos de los mercados externos y más de la acción reguladora de los Gobiernos",
+        "Quedan sometidos a la regulación de un único organismo supranacional"
+      ],
+      "correcta": 0,
+      "explicacion": "Esa es la formulación de la acepción económica del DLE: más dependencia de los mercados externos y menos de la acción reguladora de los Gobiernos. La segunda opción invierte los términos y la tercera atribuye una regulación única que la definición no menciona.",
+      "ref": "DLE, «globalización», acepción económica",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "El informe del FMI «Globalization: Threat or Opportunity?» (2000) distingue cuatro aspectos de la globalización. ¿Cuál de los siguientes NO figura entre ellos?",
+      "opciones": [
+        "Los movimientos de capital",
+        "La armonización de las legislaciones penales de los Estados",
+        "El movimiento de personas"
+      ],
+      "correcta": 1,
+      "explicacion": "El FMI distingue comercio, movimientos de capital, movimiento de personas y difusión del conocimiento y la tecnología. La armonización de las legislaciones penales no es uno de esos cuatro aspectos.",
+      "ref": "IMF Issues Brief, 12/4/2000",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿En qué ciudad se convocó en 2026 la 17.ª edición del Foro Social Mundial?",
+      "opciones": [
+        "Katmandú",
+        "Dakar",
+        "Cotonú"
+      ],
+      "correcta": 2,
+      "explicacion": "La 17.ª edición se convocó en Cotonú (Benín), prevista del 4 al 8 de agosto de 2026. Katmandú (Nepal) acogió la de 2024 y Dakar (Senegal) la de 2011.",
+      "ref": "Foro Social Mundial 2026 (Cotonú)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Quién defendió en «El fin de la historia y el último hombre» (1992) que la democracia liberal podía representar el punto final de la evolución ideológica de la humanidad?",
+      "opciones": [
+        "Francis Fukuyama",
+        "Samuel Huntington",
+        "Anthony Giddens"
+      ],
+      "correcta": 0,
+      "explicacion": "Es la tesis de Francis Fukuyama, avanzada antes en un artículo de 1989. Huntington le respondió con El choque de civilizaciones (1996), que sostiene que los conflictos futuros serán culturales, y Giddens es autor de Un mundo desbocado.",
+      "ref": "Fukuyama (1992); Huntington (1996)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La expresión «aldea global», popularizada en La galaxia Gutenberg (1962), se asocia a:",
+      "opciones": [
+        "Theodore Levitt",
+        "Marshall McLuhan",
+        "Ignacio Ramonet"
+      ],
+      "correcta": 1,
+      "explicacion": "La expresión «aldea global» se asocia a Marshall McLuhan. Theodore Levitt es el autor del artículo «The Globalization of Markets» (1983), que difundió el término globalización entre las empresas, e Ignacio Ramonet es el autor del editorial que dio origen a ATTAC.",
+      "ref": "McLuhan (1962); Levitt (1983)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Ordene cronológicamente tres hechos: la constitución de ATTAC, la «batalla de Seattle» y la primera edición del Foro Social Mundial.",
+      "opciones": [
+        "Primero ATTAC (1998), después el Foro Social Mundial (2001) y por último Seattle (1999)",
+        "Primero Seattle (1999), después ATTAC (1998) y por último el Foro Social Mundial (2001)",
+        "Primero ATTAC (1998), después Seattle (1999) y por último el Foro Social Mundial (2001)"
+      ],
+      "correcta": 2,
+      "explicacion": "ATTAC se constituyó el 3 de junio de 1998, Seattle fue entre el 30 de noviembre y el 3 de diciembre de 1999, y el primer Foro Social Mundial se celebró en enero de 2001 en Porto Alegre. Las otras dos secuencias alteran ese orden.",
+      "ref": "ATTAC 1998; Seattle 1999; FSM 2001",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La Organización Mundial del Comercio, sucesora del GATT, comenzó a funcionar el:",
+      "opciones": [
+        "1 de enero de 1995",
+        "1 de julio de 1944",
+        "1 de enero de 1948"
+      ],
+      "correcta": 0,
+      "explicacion": "La OMC funciona desde el 1 de enero de 1995, en virtud del Acuerdo de Marrakech de 1994. En 1944 se alcanzaron los acuerdos de Bretton Woods, que dieron origen al FMI y al Banco Mundial, y el GATT es anterior a la OMC.",
+      "ref": "Acuerdo de Marrakech (1994); OMC",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El Foro Social Mundial de 2006 fue «policéntrico». ¿En qué ciudades se celebró?",
+      "opciones": [
+        "Bombay, Nairobi y Dakar",
+        "Caracas, Bamako y Karachi",
+        "Porto Alegre, Túnez y Montreal"
+      ],
+      "correcta": 1,
+      "explicacion": "La edición de 2006 se desarrolló en Caracas (Venezuela) y Bamako (Malí) en enero y en Karachi (Pakistán) en marzo, retrasada por el terremoto de Cachemira. Bombay, Nairobi y Dakar acogieron ediciones de 2004, 2007 y 2011; las demás ciudades fueron sedes de otros años.",
+      "ref": "Foro Social Mundial 2006",
+      "dificultad": 3
+    }
+  ],
+  "dudas": [
+    "FSM 2026 (Cotonú): las fuentes consultadas (CADTM, prensa) difieren sobre fechas finales y alcance de las restricciones de las autoridades beninesas; no se ha podido contrastar con la web oficial del Foro. La sede y el número 17 de edición coinciden en todas.",
+    "La numeración de las ediciones del FSM varía según el recuento (algunas fuentes cuentan 2010 y 2012). Solo se da el número de la primera (2001) y el de la de 2026 (17.ª).",
+    "No se ha verificado la fecha exacta ni el órgano que aprobó la Carta de Principios del FSM (2001); solo se cita su art. 6 sobre la ausencia de declaraciones en nombre de los participantes.",
+    "El análisis de exámenes asocia el origen del movimiento con el AMI; en las fuentes el AMI aparece como antecedente de la movilización global, no como origen del FSM. Los distractores pueden jugar con ello.",
+    "No se incluyen datos de Bauman, Beck, Friedman ni Hardt y Negri porque no se pudieron verificar títulos y años.",
+    "Las definiciones del DLE se contrastaron con extractos obtenidos por buscador porque la web de la RAE rechazó la descarga directa; pueden cambiar con nuevas ediciones."
+  ]
+}

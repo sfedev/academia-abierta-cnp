@@ -1,0 +1,752 @@
+{
+  "tema": 18,
+  "titulo": "Delitos contra el patrimonio y el orden socioeconómico",
+  "bloque": "A",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "alto",
+    "nota": "Muy estable: de 3 a 4 preguntas por examen. Casos prácticos para calificar hurto, robo, estafa y apropiación indebida; cuantías (400 y 50.000 euros) y la novedad de la LO 1/2026."
+  },
+  "normas": [
+    {
+      "nombre": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (Libro II, Título XIII, Capítulos I a VI y X)",
+      "boe": "BOE-A-1995-25444",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "verificado": "Texto consolidado, última actualización de la consolidación 09/04/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley Orgánica 1/2026, de 8 de abril, en materia de multirreincidencia (modifica el Código Penal y la LECrim)",
+      "boe": "BOE-A-2026-7966",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7966",
+      "verificado": "Texto consolidado, última actualización 18/05/2026 (leído íntegro el 16/10/2026)"
+    }
+  ],
+  "novedades": [
+    "LO 1/2026, de 8 de abril, de multirreincidencia (en vigor al día siguiente de su publicación en el BOE; se aplica a hechos anteriores si es más favorable al reo): añade al hurto agravado la sustracción de teléfonos móviles y otros dispositivos móviles de comunicación o de almacenamiento masivo de información digital (art. 235.1.10.º), salvo los que estén a la venta, en almacén o en exposición en establecimientos comerciales.",
+    "LO 1/2026: el hurto agravado de productos agrarios o ganaderos en explotaciones agrícolas o ganaderas (art. 235.1.4.º) exige solo que el valor de lo sustraído exceda de 400 euros; la reincidencia cualificada del art. 235.1.7.º pasa a requerir tres condenas por delitos menos graves o graves del Título de la misma naturaleza.",
+    "LO 1/2026: multirreincidencia en delitos leves. En el hurto (art. 234.2) y en la estafa (art. 248), el culpable condenado ejecutoriamente al menos por tres delitos de la misma naturaleza del Título (hurto) o del Capítulo (estafa), siendo al menos uno leve, recibe la pena del tipo básico aunque lo sustraído o defraudado no exceda de 400 euros. El art. 250.1.8.º se corrige en el mismo sentido (tres delitos menos graves o graves). También se retocan los arts. 22.8, 66.2 y 80.2.1.ª.",
+    "LO 1/2026 añade el art. 255.3: defraudación de energía eléctrica, cualquiera que sea su cuantía, para abastecer instalaciones utilizadas en las conductas del art. 368 (tráfico de drogas), con prisión de 6 a 18 meses o multa de 12 a 24 meses. Añade además un apartado 2 al art. 568 (combustible líquido, «petaqueo»), que corresponde al tema 19.",
+    "LO 1/2026 modifica la LECrim: los arts. 13 y 544 bis (medidas cautelares, incluida la prohibición de residir o acudir a lugares para evitar la reiteración delictiva) y el nuevo art. 105.3, que permite a las entidades locales ejercer la acción penal por los delitos de hurto.",
+    "LO 14/2022: reordena las defraudaciones (nuevo art. 249 con la estafa informática y por instrumentos de pago distintos del efectivo; las penas de la administración desleal y de la apropiación indebida remiten ahora al art. 248). Con manuales anteriores a 2023, los preceptos tienen otra numeración (la estafa informática y la de tarjetas estaban en el art. 248.2).",
+    "LO 9/2022 (efectos desde el 29 de agosto de 2022) introdujo en el art. 234.2 la agravación del hurto leve multirreincidente, que la LO 1/2026 ha reformulado."
+  ],
+  "clave": [
+    "**Hurto** (art. 234): tomar con ánimo de lucro cosas muebles ajenas sin la voluntad del dueño. Si lo sustraído **excede de 400 euros**, prisión de **6 a 18 meses**; si no, delito leve, **multa de 1 a 3 meses**, salvo circunstancias del art. 235.",
+    "**Hurto agravado** (art. 235.1): prisión de **1 a 3 años** en diez supuestos. Novedad LO 1/2026: **móviles** y dispositivos móviles de comunicación o almacenamiento de datos, aunque valgan menos de 400 euros, salvo los expuestos a la venta en establecimientos comerciales.",
+    "**Multirreincidencia** (LO 1/2026): tres condenas por delitos de la misma naturaleza del Título XIII, al menos una por delito leve, y el hurto de hasta 400 euros se castiga con la pena de 6 a 18 meses (art. 234.2); lo mismo en la estafa (art. 248).",
+    "**Robo con fuerza** (art. 238): escalamiento; rompimiento de pared, techo o suelo o fractura de puerta o ventana; fractura de muebles cerrados, **en el lugar o fuera**; **llaves falsas** (incluidas las perdidas por el dueño y las tarjetas); inutilización de alarmas. Prisión de **1 a 3 años**; en casa habitada, edificio o local abiertos al público, **2 a 5 años**.",
+    "**Robo con violencia o intimidación**: prisión de **2 a 5 años** (art. 242.1); **mitad superior** si usa armas u otros medios igualmente peligrosos (art. 242.3).",
+    "**Extorsión** (art. 243): obligar a otro con violencia o intimidación a realizar u omitir un acto o negocio jurídico en perjuicio de su patrimonio; prisión de **1 a 5 años**.",
+    "**Hurto y robo de uso de vehículos** (art. 244): vehículo a motor o ciclomotor, sin ánimo de apropiárselo, restituido en **no más de 48 horas**; si no se restituye en plazo, hurto o robo.",
+    "**Estafa** (art. 248): ánimo de lucro, **engaño bastante**, error y acto de disposición en perjuicio propio o ajeno; prisión de **6 meses a 3 años**. Agravada de **1 a 6 años** si supera los **50.000 euros**, y de **4 a 8 años** si supera los **250.000 euros** (art. 250).",
+    "**Uso fraudulento de tarjeta ajena** y manipulación informática que logran una transferencia no consentida: **estafa** (art. 249.1).",
+    "**Apropiación indebida** (art. 253): se recibió legítimamente (depósito, comisión, custodia u otro título que obliga a entregar o devolver) y se incumple; penas de la estafa. Apropiarse de una cosa ajena fuera de esos supuestos (por ejemplo, perdida): **multa de 3 a 6 meses** (art. 254).",
+    "**Usurpación**: ocupar con violencia o intimidación un inmueble, prisión de 1 a 2 años; ocupar un inmueble que no es morada, **multa de 3 a 6 meses** (art. 245); distraer aguas, multa de **3 a 6 meses** (art. 247).",
+    "**Fluido eléctrico y análogos** (art. 255): multa de **3 a 12 meses**. **Excusa absolutoria** (art. 268): cónyuges no separados y parientes próximos quedan exentos de responsabilidad criminal, solo civil, si no hay violencia, intimidación ni abuso de vulnerabilidad. **Actos preparatorios** (art. 269): se castigan en robo, extorsión, estafa y apropiación indebida; no en hurto."
+  ],
+  "resumen": [
+    {
+      "titulo": "Cómo se distingue cada figura: sustraer, forzar, engañar, retener",
+      "puntos": [
+        "Casi todas las preguntas piden **calificar un caso**. Fíjate en cómo llega la cosa al sujeto y en el medio empleado: tomarla sin voluntad del dueño (hurto), forzar cosas o personas (robo), engañar para que la víctima entregue (estafa), obligarla a actuar con violencia (extorsión) o quedarse con lo recibido legítimamente (apropiación indebida).",
+        "La **cuantía** marca el escalón: hasta **400 euros**, delito leve en hurto, estafa y apropiación indebida; más de **50.000 euros**, agravante de estafa; más de **250.000 euros**, estafa agravada de 4 a 8 años."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Figura",
+          "Cómo se obtiene la cosa",
+          "Rasgo decisivo"
+        ],
+        "filas": [
+          [
+            "Hurto (art. 234)",
+            "Se **toma** una cosa mueble ajena sin la voluntad de su dueño",
+            "Sin fuerza en las cosas ni violencia o intimidación"
+          ],
+          [
+            "Robo con fuerza (art. 238)",
+            "Se **apodera** de cosas empleando fuerza para acceder al lugar o abandonarlo",
+            "Escalamiento, rompimiento, fractura, llaves falsas, alarmas"
+          ],
+          [
+            "Robo con violencia o intimidación (arts. 237 y 242)",
+            "Violencia o intimidación en las personas al cometer el delito, para proteger la huida o contra quien auxilie o persiga",
+            "Ataque a la persona; el autor se apodera"
+          ],
+          [
+            "Extorsión (art. 243)",
+            "Se **obliga** a otro con violencia o intimidación a realizar u omitir un acto o negocio jurídico en su perjuicio",
+            "La víctima actúa; no se le quita la cosa"
+          ],
+          [
+            "Estafa (art. 248)",
+            "**Engaño bastante** que produce error y lleva a un acto de disposición",
+            "La víctima entrega engañada"
+          ],
+          [
+            "Apropiación indebida (art. 253)",
+            "La cosa se **recibió legítimamente** con obligación de entregarla o devolverla y se apropia de ella o niega haberla recibido",
+            "Incumple una obligación de devolver"
+          ],
+          [
+            "Apropiación de cosa ajena (art. 254)",
+            "Se apropia de una cosa mueble ajena fuera de esos títulos (por ejemplo, perdida)",
+            "Pena de multa"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Hurto (arts. 234 a 236)",
+      "puntos": [
+        "**Tipo básico** (art. 234.1): prisión de **6 a 18 meses** si lo sustraído excede de **400 euros**. **Delito leve** (art. 234.2): multa de **1 a 3 meses** si no excede de 400 euros, salvo que concurra alguna circunstancia del art. 235.",
+        "**Multirreincidencia** (art. 234.2, redacción de la LO 1/2026): si el culpable ha sido condenado ejecutoriamente al menos por **tres delitos de la misma naturaleza** del Título XIII, siendo **al menos uno leve**, se impone la pena del apartado 1 (prisión de 6 a 18 meses). No se tienen en cuenta antecedentes cancelados o que debieran serlo. La pena se impone en su **mitad superior** si se neutralizan dispositivos de alarma o seguridad (art. 234.3).",
+        "**Hurto impropio** (art. 236): el dueño de la cosa mueble que la sustrae a quien la tiene legítimamente, con perjuicio de este o de un tercero, incurre en multa de 3 a 12 meses (1 a 3 meses si no excede de 400 euros).",
+        "**Hurto agravado** (art. 235): prisión de **1 a 3 años** en los diez supuestos siguientes; con dos o más circunstancias, **mitad superior** (art. 235.2). Los arts. 240.2 y 241.4 remiten a este artículo para agravar el robo con fuerza."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Nº",
+          "Supuesto del hurto agravado (art. 235.1)"
+        ],
+        "filas": [
+          [
+            "1.º",
+            "Cosas de valor artístico, histórico, cultural o científico"
+          ],
+          [
+            "2.º",
+            "Cosas de primera necesidad, causando una situación de desabastecimiento"
+          ],
+          [
+            "3.º",
+            "Conducciones, cableado, equipos o componentes de infraestructuras de suministro eléctrico, de hidrocarburos o de telecomunicaciones, u otras cosas destinadas a servicios de interés general, con quebranto grave"
+          ],
+          [
+            "4.º",
+            "Productos agrarios o ganaderos, o medios para obtenerlos, en explotaciones agrícolas o ganaderas, si el valor **excede de 400 euros** (LO 1/2026)"
+          ],
+          [
+            "5.º",
+            "Especial gravedad por el valor de lo sustraído, o perjuicios de especial consideración"
+          ],
+          [
+            "6.º",
+            "Grave situación económica de la víctima o su familia; abuso de sus circunstancias personales o desamparo; aprovechar un accidente o un riesgo general"
+          ],
+          [
+            "7.º",
+            "Condena ejecutoria por al menos **tres delitos menos graves o graves** del Título de la misma naturaleza (LO 1/2026)"
+          ],
+          [
+            "8.º",
+            "Utilizar a **menores de dieciséis años**"
+          ],
+          [
+            "9.º",
+            "Ser miembro de una organización o grupo criminal dedicado a delitos del Título"
+          ],
+          [
+            "10.º",
+            "**Teléfonos móviles** y otros dispositivos móviles de comunicación o de almacenamiento masivo de información digital con datos personales, salvo los que estén **a la venta, en almacén o en exposición en establecimientos comerciales** (LO 1/2026)"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Robo (arts. 237 a 242)",
+      "puntos": [
+        "**Robo** (art. 237): apoderarse con ánimo de lucro de cosas muebles ajenas empleando **fuerza en las cosas** para acceder al lugar o abandonarlo, o **violencia o intimidación en las personas**, al cometer el delito, para proteger la huida o contra quienes auxilien o persigan.",
+        "**Robo con fuerza** (art. 238), cinco medios: 1.º escalamiento; 2.º rompimiento de pared, techo o suelo, o fractura de puerta o ventana; 3.º fractura de armarios, arcas u otros muebles u objetos cerrados o sellados, o forzamiento de sus cerraduras o descubrimiento de sus claves, **en el lugar o fuera del mismo**; 4.º uso de **llaves falsas**; 5.º inutilización de sistemas específicos de alarma o guarda.",
+        "**Llaves falsas** (art. 239): ganzúas e instrumentos análogos; llaves legítimas **perdidas por el propietario** u obtenidas por un medio constitutivo de infracción penal; cualesquiera otras no destinadas por el propietario a abrir esa cerradura. Se consideran llaves las **tarjetas magnéticas o perforadas**, los mandos de apertura a distancia y otros instrumentos tecnológicos similares.",
+        "**Casa habitada** (art. 241.2): todo albergue que constituya morada de una o más personas, aunque estén **accidentalmente ausentes**. **Dependencias** (art. 241.3): patios, garajes y demás sitios cercados y contiguos, en comunicación interior con el edificio, que formen con él una unidad física.",
+        "Si la violencia o intimidación es de **menor entidad**, el juez puede imponer la pena inferior en grado (art. 242.4). Las lesiones se castigan además, sin perjuicio de la pena del robo (art. 242.1)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Supuesto",
+          "Pena",
+          "Art."
+        ],
+        "filas": [
+          [
+            "Robo con fuerza en las cosas",
+            "Prisión de **1 a 3 años**",
+            "240.1"
+          ],
+          [
+            "Robo con fuerza con alguna circunstancia del art. 235",
+            "Prisión de **2 a 5 años**",
+            "240.2"
+          ],
+          [
+            "Robo con fuerza en casa habitada, edificio o local abiertos al público, o en sus dependencias",
+            "Prisión de **2 a 5 años**; en establecimiento abierto al público fuera de horas de apertura, **1 a 5 años**",
+            "241.1"
+          ],
+          [
+            "Lo anterior con especial gravedad o con circunstancias del art. 235",
+            "Prisión de **2 a 6 años**",
+            "241.4"
+          ],
+          [
+            "Robo con violencia o intimidación en las personas",
+            "Prisión de **2 a 5 años**",
+            "242.1"
+          ],
+          [
+            "Robo con violencia o intimidación en casa habitada, edificio o local abiertos al público, o en sus dependencias",
+            "Prisión de **3 años y 6 meses a 5 años**",
+            "242.2"
+          ],
+          [
+            "Con armas u otros medios igualmente peligrosos, o atacando a quien auxilie o persiga",
+            "Penas en su **mitad superior**",
+            "242.3"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Extorsión y hurto y robo de uso de vehículos (arts. 243 y 244)",
+      "puntos": [
+        "**Extorsión** (art. 243): con ánimo de lucro, **obligar** a otro, con violencia o intimidación, a **realizar u omitir un acto o negocio jurídico** en perjuicio de su patrimonio o del de un tercero. Prisión de **1 a 5 años**, sin perjuicio de las penas por los actos de violencia física.",
+        "**Uso de vehículos** (art. 244.1): sustraer o utilizar sin autorización un **vehículo a motor o ciclomotor** ajeno, **sin ánimo de apropiárselo**, y restituirlo, directa o indirectamente, en un plazo **no superior a 48 horas**: trabajos en beneficio de la comunidad de 31 a 90 días o multa de 2 a 12 meses. Si se emplea fuerza en las cosas, la pena va en su mitad superior (art. 244.2); si no se restituye en plazo, se castiga como **hurto o robo** (art. 244.3); con violencia o intimidación, las penas del art. 242 (art. 244.4)."
+      ]
+    },
+    {
+      "titulo": "Usurpación (arts. 245 a 247)",
+      "puntos": [
+        "La usurpación protege la posesión de inmuebles, los derechos reales inmobiliarios, las lindes y las aguas.",
+        "Los hechos de menor utilidad (hasta 400 euros) reciben multa de 1 a 3 meses en las lindes y en las aguas (arts. 246.2 y 247.2)."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Conducta",
+          "Pena",
+          "Art."
+        ],
+        "filas": [
+          [
+            "Ocupar con **violencia o intimidación** un inmueble o usurpar un derecho real inmobiliario ajeno",
+            "Prisión de **1 a 2 años**, además de las penas por la violencia",
+            "245.1"
+          ],
+          [
+            "Ocupar sin autorización un inmueble, vivienda o edificio ajenos que **no constituyan morada**, o mantenerse en ellos contra la voluntad del titular",
+            "Multa de **3 a 6 meses**",
+            "245.2"
+          ],
+          [
+            "Alterar términos o lindes de pueblos o heredades, o señales o mojones",
+            "Multa de 3 a 18 meses",
+            "246"
+          ],
+          [
+            "**Distraer aguas** de uso público o privativo de su curso o embalse sin estar autorizado",
+            "Multa de **3 a 6 meses**",
+            "247"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Estafa (arts. 248 a 251 bis)",
+      "puntos": [
+        "**Concepto** (art. 248): con ánimo de lucro, **engaño bastante** que produce **error** en otro y lo induce a un **acto de disposición** en perjuicio propio o ajeno. Pena de **6 meses a 3 años**, atendiendo al importe, al quebranto económico, a las relaciones entre víctima y defraudador y a los medios empleados. Si no excede de **400 euros**, multa de 1 a 3 meses, salvo el art. 250, y salvo multirreincidencia (tres condenas por delitos del Capítulo, al menos una por delito leve): entonces, la pena de 6 meses a 3 años.",
+        "**Estafas equiparadas** (art. 249.1, prisión de 6 meses a 3 años): obstaculizar o interferir indebidamente en un sistema de información, o introducir, alterar, borrar, transmitir o suprimir datos informáticos, logrando una **transferencia no consentida** de un activo patrimonial; y **utilizar fraudulentamente tarjetas de crédito o débito**, cheques de viaje o cualquier otro instrumento de pago distinto del efectivo, o sus datos, realizando operaciones de cualquier clase en perjuicio de su titular o de un tercero. Es el encaje que dan los exámenes al **uso de tarjeta ajena**, también en cajero.",
+        "Misma pena (art. 249.2) para quien fabrique, obtenga, posea o facilite dispositivos o programas diseñados para esas estafas, y para quien **sustraiga, se apropie o adquiera ilícitamente** instrumentos de pago para usarlos fraudulentamente; mitad inferior para quien los posea o distribuya sabiendo que se obtuvieron ilícitamente (art. 249.3).",
+        "**Estafa agravada** (art. 250.1): prisión de **1 a 6 años** y multa de 6 a 12 meses en los ocho supuestos de la tabla. Prisión de **4 a 8 años** y multa de 12 a 24 meses si concurren los numerales 4.º, 5.º, 6.º o 7.º con el 1.º, o cuando el valor **supere los 250.000 euros** (art. 250.2).",
+        "**Otras estafas** (art. 251, prisión de 1 a 4 años): enajenar, gravar o arrendar una cosa atribuyéndose una facultad de disposición que no se tiene; disponer de una cosa ocultando cargas o volviéndola a enajenar; otorgar un contrato simulado. **Administración desleal** (art. 252): infringir las facultades de administración de un patrimonio ajeno causando perjuicio; penas de la estafa."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Nº",
+          "Supuesto de estafa agravada (art. 250.1)"
+        ],
+        "filas": [
+          [
+            "1.º",
+            "Recae sobre cosas de primera necesidad, viviendas u otros bienes de reconocida utilidad social"
+          ],
+          [
+            "2.º",
+            "Abusando de firma de otro, o sustrayendo, ocultando o inutilizando un proceso, expediente, protocolo o documento público u oficial"
+          ],
+          [
+            "3.º",
+            "Recae sobre bienes del patrimonio artístico, histórico, cultural o científico"
+          ],
+          [
+            "4.º",
+            "Especial gravedad por la entidad del perjuicio y la situación en que deja a la víctima o a su familia"
+          ],
+          [
+            "5.º",
+            "El valor de la defraudación **supera los 50.000 euros** o afecta a un elevado número de personas"
+          ],
+          [
+            "6.º",
+            "Abuso de relaciones personales entre víctima y defraudador, o aprovechamiento de credibilidad empresarial o profesional"
+          ],
+          [
+            "7.º",
+            "Estafa procesal: manipular pruebas o emplear otro fraude procesal para provocar error en el juez"
+          ],
+          [
+            "8.º",
+            "Condena ejecutoria por al menos tres delitos menos graves o graves del Capítulo, de la misma naturaleza (LO 1/2026)"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Apropiación indebida (arts. 253 y 254)",
+      "puntos": [
+        "**Art. 253**: en perjuicio de otro, apropiarse para sí o para un tercero de dinero, efectos, valores o cualquier cosa mueble recibidos en **depósito, comisión o custodia**, o por cualquier otro título que produzca la **obligación de entregarlos o devolverlos**, o **negar haberlos recibido**. Penas de la estafa (arts. 248 o 250), salvo pena más grave en otro precepto; hasta 400 euros, multa de 1 a 3 meses.",
+        "**Art. 254**: quien, fuera de los supuestos del art. 253, se apropie de una cosa mueble ajena (por ejemplo, un objeto perdido), multa de **3 a 6 meses**; si es de valor artístico, histórico, cultural o científico, prisión de 6 meses a 2 años; hasta 400 euros, multa de 1 a 2 meses.",
+        "Criterio práctico: se obtiene la cosa **engañando** (estafa), **sin la voluntad del dueño** (hurto) o **legítimamente con obligación de devolverla** (apropiación indebida)."
+      ]
+    },
+    {
+      "titulo": "Defraudaciones de fluido eléctrico y análogas (arts. 255 y 256)",
+      "puntos": [
+        "**Art. 255.1**: defraudar utilizando energía eléctrica, gas, agua, telecomunicaciones u otro elemento, energía o fluido ajenos, mediante mecanismos instalados para ello, alterando maliciosamente las indicaciones o los contadores, o por otros medios clandestinos. Multa de **3 a 12 meses**; hasta 400 euros, multa de 1 a 3 meses. Es un delito **doloso**.",
+        "**Art. 255.3** (LO 1/2026): si la defraudación, sea cual sea su cuantía, abastece de energía eléctrica instalaciones utilizadas para las conductas del art. 368, prisión de 6 a 18 meses o multa de 12 a 24 meses.",
+        "**Art. 256**: usar un equipo terminal de telecomunicación sin consentimiento de su titular y causándole perjuicio económico: multa de 3 a 12 meses (1 a 3 si no excede de 400 euros)."
+      ]
+    },
+    {
+      "titulo": "Disposiciones comunes",
+      "puntos": [
+        "**Excusa absolutoria** (art. 268): están **exentos de responsabilidad criminal**, y sujetos solo a la civil, los **cónyuges** no separados, los **ascendientes, descendientes y hermanos** por naturaleza o adopción y los **afines en primer grado** si viven juntos, por los delitos patrimoniales que se causen entre sí, siempre que **no concurra violencia o intimidación ni abuso de la vulnerabilidad** de la víctima (edad o discapacidad). No alcanza a los **extraños que participen** en el delito.",
+        "**Actos preparatorios** (art. 269): la provocación, conspiración y proposición se castigan, con pena inferior en uno o dos grados, en el **robo, la extorsión, la estafa y la apropiación indebida**; **no** en el hurto ni en la usurpación.",
+        "**Delito continuado** (art. 74.2): en infracciones patrimoniales se impone la pena atendiendo al **perjuicio total causado**; si el hecho es de notoria gravedad y perjudica a una generalidad de personas, puede imponerse la pena superior en uno o dos grados."
+      ]
+    }
+  ],
+  "trampas": [
+    "**Hurto o estafa**: si la víctima entrega la cosa engañada es estafa; si se la quitan sin su voluntad, hurto. No se deja llevar por la palabra «engaño» cuando solo se aprovecha un descuido.",
+    "**Cuantías**: 400 euros separa el delito leve del tipo básico en hurto, estafa y apropiación indebida; 50.000 euros agrava la estafa (1 a 6 años); 250.000 euros la eleva a 4 a 8 años.",
+    "**Móviles** (LO 1/2026): el hurto de un móvil es agravado aunque su valor no llegue a 400 euros, pero no si el móvil está a la venta, en almacén o en exposición en un establecimiento comercial.",
+    "**Multirreincidencia**: en hurto y estafa leves bastan tres condenas por delitos de la misma naturaleza, al menos una leve; para las agravantes de los arts. 235.1.7.º y 250.1.8.º se exigen tres delitos menos graves o graves.",
+    "**Llaves falsas**: incluyen las llaves legítimas perdidas por el propietario y las tarjetas magnéticas, perforadas y mandos de apertura a distancia. La fractura de un mueble o caja cerrada es robo con fuerza aunque se abra fuera del lugar del robo.",
+    "**Plazo de 48 horas** en el hurto y robo de uso de vehículos (no 24 ni 72); solo vehículos a motor y ciclomotores. Si no se restituye en plazo, se castiga como hurto o robo.",
+    "**Casa habitada**: lo es aunque los moradores estén ausentes accidentalmente. El robo con fuerza en casa habitada se castiga con 2 a 5 años (art. 241.1), no con 1 a 3 años (art. 240.1).",
+    "**Robo o extorsión**: en el robo el autor se apodera de la cosa; en la extorsión obliga a la víctima, con violencia o intimidación, a realizar un acto o negocio jurídico en su perjuicio.",
+    "**Excusa absolutoria del art. 268**: no vale si hay violencia, intimidación o abuso de vulnerabilidad, ni para los extraños que participan, y los afines en primer grado solo si viven juntos.",
+    "**Actos preparatorios**: se castigan en robo, extorsión, estafa y apropiación indebida (art. 269), pero no en el hurto."
+  ],
+  "caido": [
+    {
+      "examen": "26 sep 2026 (P43)",
+      "concepto": "Hurto agravado de teléfonos móviles y dispositivos de almacenamiento (art. 235.1.10.º tras la LO 1/2026); uso de tarjeta ajena en cajero como estafa del art. 249; estafa agravada por defraudación superior a 50.000 euros; apropiación de cosa perdida (art. 254); calificación de casos de hurto, robo, estafa y apropiación indebida"
+    },
+    {
+      "examen": "25 oct 2025 (P42)",
+      "concepto": "Calificar casos según se sustrae, se engaña o se retiene; robo con fuerza: llaves falsas (incluidas las perdidas por el dueño) y fractura de muebles cerrados para llevárselos y abrirlos fuera"
+    },
+    {
+      "examen": "1 mar 2025 (P41)",
+      "concepto": "Robo con fuerza (rotura de caja fuerte, fractura de mueble cerrado); estafa agravada por defraudación superior a 50.000 euros (art. 250); usurpación y defraudación de fluido eléctrico, que exige dolo"
+    },
+    {
+      "examen": "13 abr 2024 (P40)",
+      "concepto": "Hurto con prisión de 1 a 3 años (cosas de valor artístico, histórico, cultural o científico; uso de menores de 16 años); usurpación: distracción de aguas con multa de 3 a 6 meses y ocupación de inmueble que no es morada (art. 245.2)"
+    },
+    {
+      "examen": "23 abr 2023 (P39)",
+      "concepto": "Estafa por uso de tarjeta ajena en cajero (art. 249); estafa superior a 50.000 euros; calificación de casos de hurto, robo, estafa y apropiación indebida; robo y hurto de uso de vehículo (límite de 48 horas); robo con violencia o intimidación en concurso con detención ilegal y allanamiento"
+    }
+  ],
+  "mnemotecnias": [
+    "Hurto: **400** euros (leve) → **1-3 años** (agravado). Estafa: **400** → **50.000** → **250.000** euros.",
+    "Los tres verbos clave: **hurto = tomar**, **estafa = engañar**, **apropiación indebida = quedarse con lo recibido**, **robo = forzar o violentar**, **extorsión = obligar**.",
+    "Vehículo de uso: **48 horas** y vehículo **a motor** (no bicicletas ni embarcaciones).",
+    "Multas de usurpación y defraudación: **3-6 meses** (inmueble que no es morada, aguas, cosa perdida del art. 254) y **3-12 meses** (fluido eléctrico y terminal de telecomunicación)."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Pena del hurto básico y del hurto leve?",
+      "r": "Más de 400 euros: prisión de **6 a 18 meses**. Hasta 400 euros: multa de **1 a 3 meses** (art. 234)."
+    },
+    {
+      "p": "¿Cuándo se castiga el hurto de hasta 400 euros con la pena del tipo básico?",
+      "r": "Si el culpable tiene tres condenas ejecutorias por delitos de la misma naturaleza del Título XIII, al menos una leve (art. 234.2, LO 1/2026)."
+    },
+    {
+      "p": "¿Pena del hurto agravado?",
+      "r": "Prisión de **1 a 3 años**, en mitad superior si concurren dos o más circunstancias (art. 235)."
+    },
+    {
+      "p": "¿Qué novedad introdujo la LO 1/2026 en el hurto agravado?",
+      "r": "Los **teléfonos móviles** y otros dispositivos móviles de comunicación o de almacenamiento masivo de datos (art. 235.1.10.º), salvo los expuestos o almacenados en establecimientos comerciales."
+    },
+    {
+      "p": "¿Qué cuantía exige el hurto agravado de productos agrarios o ganaderos?",
+      "r": "Que el valor de lo sustraído **exceda de 400 euros**, en explotaciones agrícolas o ganaderas (art. 235.1.4.º)."
+    },
+    {
+      "p": "Medios del robo con fuerza en las cosas.",
+      "r": "Escalamiento; rompimiento de pared, techo o suelo o fractura de puerta o ventana; fractura de muebles cerrados (en el lugar o fuera); llaves falsas; inutilización de alarmas (art. 238)."
+    },
+    {
+      "p": "¿Qué son llaves falsas?",
+      "r": "Ganzúas, llaves legítimas perdidas por el propietario u obtenidas por infracción penal, y cualesquiera no destinadas a esa cerradura; también tarjetas magnéticas o perforadas y mandos a distancia (art. 239)."
+    },
+    {
+      "p": "¿Pena del robo con fuerza y del robo con fuerza en casa habitada?",
+      "r": "Robo con fuerza: **1 a 3 años** (art. 240.1). En casa habitada, edificio o local abiertos al público: **2 a 5 años** (art. 241.1)."
+    },
+    {
+      "p": "¿Pena del robo con violencia o intimidación?",
+      "r": "Prisión de **2 a 5 años**; **3 años y 6 meses a 5** en casa habitada; mitad superior si usa armas (art. 242)."
+    },
+    {
+      "p": "¿Qué es casa habitada?",
+      "r": "Todo albergue que constituya morada de una o más personas, aunque accidentalmente estén ausentes (art. 241.2)."
+    },
+    {
+      "p": "Define la extorsión.",
+      "r": "Con ánimo de lucro, obligar a otro con violencia o intimidación a realizar u omitir un acto o negocio jurídico en perjuicio de su patrimonio o el de un tercero; prisión de **1 a 5 años** (art. 243)."
+    },
+    {
+      "p": "Requisitos del hurto y robo de uso de vehículos.",
+      "r": "Vehículo a motor o ciclomotor ajeno, sin ánimo de apropiárselo, restituido en **48 horas**; si no, hurto o robo (art. 244)."
+    },
+    {
+      "p": "¿Penas de la usurpación del art. 245?",
+      "r": "Con violencia o intimidación: **1 a 2 años**. Inmueble que no es morada, sin violencia: multa de **3 a 6 meses**."
+    },
+    {
+      "p": "¿Pena de la distracción de aguas?",
+      "r": "Multa de **3 a 6 meses** (art. 247); 1 a 3 meses si la utilidad no excede de 400 euros."
+    },
+    {
+      "p": "Define la estafa.",
+      "r": "Con ánimo de lucro, engaño bastante que produce error y lleva a un acto de disposición en perjuicio propio o ajeno; prisión de **6 meses a 3 años** (art. 248)."
+    },
+    {
+      "p": "¿Qué conductas se consideran también estafa en el art. 249?",
+      "r": "La manipulación informática que logra una transferencia no consentida de un activo y el uso fraudulento de tarjetas u otros instrumentos de pago distintos del efectivo."
+    },
+    {
+      "p": "¿Cuándo se agrava la estafa por la cuantía?",
+      "r": "Más de **50.000 euros**: 1 a 6 años y multa de 6 a 12 meses (art. 250.1.5.º). Más de **250.000 euros**: 4 a 8 años (art. 250.2)."
+    },
+    {
+      "p": "¿Qué distingue la apropiación indebida?",
+      "r": "La cosa se recibió legítimamente (depósito, comisión, custodia u otro título con obligación de devolver) y se apropia o niega haberla recibido; penas de la estafa (art. 253)."
+    },
+    {
+      "p": "¿Pena de apropiarse de una cosa mueble ajena fuera del art. 253?",
+      "r": "Multa de **3 a 6 meses** (art. 254.1); hasta 400 euros, multa de 1 a 2 meses."
+    },
+    {
+      "p": "¿Pena de la defraudación de fluido eléctrico?",
+      "r": "Multa de **3 a 12 meses** (art. 255.1); hasta 400 euros, multa de 1 a 3 meses; exige dolo."
+    },
+    {
+      "p": "¿Qué parientes quedan exentos de responsabilidad criminal en delitos patrimoniales?",
+      "r": "Cónyuges no separados, ascendientes, descendientes y hermanos, y afines en primer grado si viven juntos, sin violencia, intimidación ni abuso de vulnerabilidad (art. 268)."
+    },
+    {
+      "p": "¿En qué delitos patrimoniales se castigan provocación, conspiración y proposición?",
+      "r": "Robo, extorsión, estafa y apropiación indebida, con pena inferior en uno o dos grados (art. 269)."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "El hurto de cosas muebles ajenas cuya cuantía excede de 400 euros, sin circunstancias agravantes, se castiga con:",
+      "opciones": [
+        "Prisión de 6 a 18 meses",
+        "Multa de 1 a 3 meses",
+        "Prisión de 1 a 3 años"
+      ],
+      "correcta": 0,
+      "explicacion": "El tipo básico del art. 234.1 castiga el hurto de cuantía superior a 400 euros con prisión de seis a dieciocho meses. La multa de uno a tres meses es la pena del hurto que no excede de 400 euros (art. 234.2) y la prisión de uno a tres años corresponde al hurto agravado del art. 235.",
+      "ref": "art. 234 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Una persona sustrae del bolso de otra, sin violencia, un teléfono móvil valorado en 200 euros. ¿Cuál es el encaje y la pena?",
+      "opciones": [
+        "Delito leve de hurto, con multa de 1 a 3 meses, porque no supera los 400 euros",
+        "Hurto agravado del art. 235.1.10.º, con prisión de 1 a 3 años, aunque no supere los 400 euros",
+        "Robo con fuerza en las cosas, con prisión de 1 a 3 años"
+      ],
+      "correcta": 1,
+      "explicacion": "Desde la LO 1/2026 la sustracción de teléfonos móviles es un supuesto de hurto agravado (art. 235.1.10.º), castigado con prisión de uno a tres años. El art. 234.2 solo aplica la multa de uno a tres meses a los hurtos de hasta 400 euros cuando no concurre ninguna circunstancia del art. 235, de modo que la cuantía del móvil no importa. No hay fuerza en las cosas ni violencia, por lo que no es robo.",
+      "ref": "arts. 234.2 y 235.1.10.º CP; LO 1/2026",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Un cliente sustrae, sin fuerza ni violencia, un teléfono móvil de 700 euros que estaba en exposición en el expositor de una tienda de telefonía. ¿Qué pena corresponde?",
+      "opciones": [
+        "Prisión de 1 a 3 años, por hurto agravado de teléfono móvil",
+        "Multa de 1 a 3 meses, por delito leve de hurto",
+        "Prisión de 6 a 18 meses, por hurto básico"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 235.1.10.º excluye de la agravación los móviles que se encuentren a la venta, en almacén o en exposición en establecimientos comerciales. Como el valor (700 euros) excede de 400 euros, se aplica el tipo básico del art. 234.1, prisión de seis a dieciocho meses. No es delito leve porque supera los 400 euros, y no es hurto agravado por la excepción del apartado 10.º.",
+      "ref": "arts. 234.1 y 235.1.10.º CP",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Tras la LO 1/2026, ¿qué pena corresponde al hurto de 150 euros cometido por quien ha sido condenado ejecutoriamente (sin antecedentes cancelados) por tres delitos de la misma naturaleza comprendidos en el Título XIII, siendo al menos uno de ellos leve?",
+      "opciones": [
+        "Multa de 1 a 3 meses",
+        "Prisión de 1 a 3 años",
+        "Prisión de 6 a 18 meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 234.2 dispone que, si el culpable ha sido condenado ejecutoriamente al menos por tres delitos de la misma naturaleza del Título XIII, siendo al menos uno leve, se impone la pena del apartado 1, es decir, prisión de seis a dieciocho meses, aunque lo sustraído no exceda de 400 euros. La multa es la pena del hurto leve sin multirreincidencia. La prisión de uno a tres años exigiría una circunstancia del art. 235, como tres condenas por delitos menos graves o graves (art. 235.1.7.º).",
+      "ref": "arts. 234.2 y 235.1.7.º CP; LO 1/2026",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Cuál de las siguientes NO figura entre los supuestos de hurto agravado del art. 235.1 del Código Penal?",
+      "opciones": [
+        "Que el hurto se cometa empleando violencia o intimidación sobre las personas",
+        "Que se utilice a menores de dieciséis años para cometer el delito",
+        "Que se sustraigan cosas de valor artístico, histórico, cultural o científico"
+      ],
+      "correcta": 0,
+      "explicacion": "Emplear violencia o intimidación en las personas convierte el hecho en robo (arts. 237 y 242), no en hurto agravado. Utilizar a menores de dieciséis años (art. 235.1.8.º) y sustraer cosas de valor artístico, histórico, cultural o científico (art. 235.1.1.º) sí son supuestos de hurto agravado, castigados con prisión de uno a tres años.",
+      "ref": "arts. 235, 237 y 242 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "En un vagón del metro, aprovechando un descuido, A saca la cartera del bolsillo abierto de B sin forzar nada ni emplear violencia. ¿Qué delito comete?",
+      "opciones": [
+        "Robo con violencia en las personas",
+        "Hurto",
+        "Estafa"
+      ],
+      "correcta": 1,
+      "explicacion": "A toma una cosa mueble ajena con ánimo de lucro sin la voluntad de su dueño y sin fuerza en las cosas ni violencia o intimidación: es hurto (art. 234). No es robo porque no hay violencia ni intimidación (art. 237), ni estafa porque no hay engaño que lleve a B a realizar un acto de disposición.",
+      "ref": "arts. 234 y 237 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Un sujeto encuentra unas llaves que su dueño había perdido, las utiliza para abrir el taller de este (que no es casa habitada ni local abierto al público) y se lleva herramientas. ¿Qué delito comete?",
+      "opciones": [
+        "Hurto, porque las llaves eran legítimas",
+        "Robo con fuerza en las cosas por uso de llaves falsas, con prisión de 1 a 3 años",
+        "Apropiación indebida de las llaves perdidas"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 239.2 considera llaves falsas las llaves legítimas perdidas por el propietario. El uso de llaves falsas es una modalidad de robo con fuerza en las cosas (art. 238.4.º), castigada con prisión de uno a tres años (art. 240.1). No es hurto, porque se emplea ese medio, ni apropiación indebida, porque las llaves no se recibieron con obligación de devolverlas.",
+      "ref": "arts. 238.4.º, 239 y 240 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un sujeto entra en un trastero que estaba abierto, se lleva un baúl cerrado con candado y, ya en su casa, rompe el candado para sacar el contenido. ¿Cómo se califica?",
+      "opciones": [
+        "Robo con fuerza en las cosas, por fractura de un objeto cerrado fuera del lugar del robo",
+        "Hurto, porque la fuerza se empleó después y fuera del lugar",
+        "Estafa, porque se obtuvo el contenido mediante artificio"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 238.3.º incluye en el robo con fuerza la fractura de armarios, arcas u otra clase de muebles u objetos cerrados o sellados, o el forzamiento de sus cerraduras, para sustraer su contenido, sea en el lugar del robo o fuera del mismo. El hecho de forzar el baúl en otro lugar no lo convierte en hurto. No hay engaño ni acto de disposición de la víctima, de modo que no es estafa.",
+      "ref": "art. 238.3.º CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "El robo con fuerza en las cosas cometido en casa habitada, edificio o local abiertos al público, o en cualquiera de sus dependencias, se castiga (art. 241.1 del Código Penal) con prisión de:",
+      "opciones": [
+        "1 a 3 años",
+        "3 años y 6 meses a 5 años",
+        "2 a 5 años"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 241.1 impone prisión de dos a cinco años al robo con fuerza en casa habitada, edificio o local abiertos al público o sus dependencias. La prisión de uno a tres años es la pena del robo con fuerza ordinario (art. 240.1) y la de tres años y seis meses a cinco años corresponde al robo con violencia o intimidación en esos lugares (art. 242.2).",
+      "ref": "arts. 240, 241 y 242 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En el robo con violencia o intimidación en las personas, si el delincuente hace uso de armas u otros medios igualmente peligrosos, las penas (art. 242.3 del Código Penal) se imponen:",
+      "opciones": [
+        "En su mitad superior",
+        "En su mitad inferior",
+        "Siempre con la pena superior en grado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 242.3 manda imponer las penas del robo con violencia o intimidación en su mitad superior cuando el delincuente haga uso de armas u otros medios igualmente peligrosos, sea al cometer el delito o para proteger la huida, y cuando ataque a los que acudan en auxilio de la víctima o le persigan. No procede la mitad inferior ni la pena superior en grado.",
+      "ref": "art. 242.3 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un individuo, apuntando con una pistola a un empresario, le obliga a firmar un contrato de venta de su finca por un precio irrisorio. ¿Qué delito comete?",
+      "opciones": [
+        "Robo con intimidación",
+        "Extorsión",
+        "Estafa"
+      ],
+      "correcta": 1,
+      "explicacion": "La extorsión consiste en obligar a otro, con violencia o intimidación, a realizar u omitir un acto o negocio jurídico en perjuicio de su patrimonio (art. 243). Aquí la víctima firma el contrato bajo intimidación. En el robo el autor se apodera de la cosa, y en la estafa la víctima actúa por error causado por engaño, no por coacción.",
+      "ref": "art. 243 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En el hurto de uso de vehículos (art. 244 del Código Penal), quien sustrae sin ánimo de apropiárselo un vehículo a motor ajeno recibe la pena atenuada propia de esa figura si lo restituye en un plazo no superior a:",
+      "opciones": [
+        "24 horas",
+        "72 horas",
+        "48 horas"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 244.1 exige restituir el vehículo, directa o indirectamente, en un plazo no superior a cuarenta y ocho horas. Superado ese plazo, el hecho se castiga como hurto o robo en sus respectivos casos (art. 244.3). Ni veinticuatro ni setenta y dos horas son plazos legales.",
+      "ref": "art. 244 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Pedro toma sin permiso el coche de un vecino para dar una vuelta, sin ánimo de quedarse con él, y lo devuelve tres días después. ¿Cómo se castiga?",
+      "opciones": [
+        "Como hurto y robo de uso, con trabajos en beneficio de la comunidad o multa",
+        "Queda impune, porque no tuvo ánimo de apropiación",
+        "Como hurto o robo, según los medios empleados, al no restituirlo en 48 horas"
+      ],
+      "correcta": 2,
+      "explicacion": "La figura atenuada del art. 244.1 exige restituir el vehículo en un plazo no superior a cuarenta y ocho horas. Si no se hace así, el art. 244.3 dispone que se castiga el hecho como hurto o robo, en sus respectivos casos. No queda impune, y la pena de trabajos en beneficio de la comunidad o multa solo se aplica a la restitución en plazo.",
+      "ref": "art. 244.1 y 244.3 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un sujeto ocupa, sin violencia ni intimidación, una casa ajena deshabitada que no constituye morada de nadie. ¿Qué pena prevé el art. 245.2 del Código Penal?",
+      "opciones": [
+        "Prisión de 1 a 2 años",
+        "Multa de 3 a 6 meses",
+        "Multa de 1 a 3 meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 245.2 castiga con multa de tres a seis meses al que ocupe sin autorización un inmueble, vivienda o edificio ajenos que no constituyan morada, o se mantenga en ellos contra la voluntad de su titular. La prisión de uno a dos años exige violencia o intimidación en las personas (art. 245.1), y la multa de uno a tres meses corresponde a hechos de utilidad inferior a 400 euros en lindes o aguas (arts. 246.2 y 247.2).",
+      "ref": "art. 245 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Quien, sin estar autorizado, distrae las aguas de uso público de su curso o de su embalse natural o artificial, comete un delito castigado (art. 247.1 del Código Penal) con:",
+      "opciones": [
+        "Multa de 3 a 6 meses",
+        "Prisión de 6 meses a 1 año",
+        "Multa de 6 a 12 meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 247.1 castiga la distracción de aguas con multa de tres a seis meses; si la utilidad reportada no excede de 400 euros, la multa es de uno a tres meses (art. 247.2). No hay pena de prisión ni multa de seis a doce meses en este precepto.",
+      "ref": "art. 247 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Una persona, simulando ser gestor de una inversión inexistente, convence a otra para que le entregue 5.000 euros. ¿Qué delito comete?",
+      "opciones": [
+        "Apropiación indebida",
+        "Estafa",
+        "Hurto"
+      ],
+      "correcta": 1,
+      "explicacion": "Hay engaño bastante que produce error en la víctima y la induce a un acto de disposición en su perjuicio, con ánimo de lucro: estafa (art. 248). No es apropiación indebida porque el dinero no se recibió legítimamente con obligación de devolverlo, sino que se obtuvo por el engaño. No es hurto porque la entrega es voluntaria, aunque viciada.",
+      "ref": "arts. 248 y 253 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Quien, sin autorización de su titular, utiliza de forma fraudulenta una tarjeta de débito ajena para realizar operaciones en perjuicio de este comete, según el art. 249.1 del Código Penal:",
+      "opciones": [
+        "Estafa",
+        "Hurto",
+        "Apropiación indebida"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 249.1 considera reos de estafa, con prisión de seis meses a tres años, a quienes, utilizando de forma fraudulenta tarjetas de crédito o débito u otros instrumentos de pago distintos del efectivo, o sus datos, realizan operaciones de cualquier clase en perjuicio de su titular o de un tercero. Es la calificación que dan por buena los análisis de exámenes anteriores para el uso de tarjeta ajena en un cajero. La sustracción de la tarjeta para usarla fraudulentamente se castiga además en el art. 249.2. No es hurto ni apropiación indebida del dinero.",
+      "ref": "art. 249.1 y 249.2 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La estafa se castiga con prisión de 1 a 6 años y multa de 6 a 12 meses, entre otros supuestos, cuando el valor de la defraudación supere:",
+      "opciones": [
+        "30.000 euros",
+        "100.000 euros",
+        "50.000 euros"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 250.1.5.º agrava la estafa cuando el valor de la defraudación supere los 50.000 euros o afecte a un elevado número de personas. Si el valor supera los 250.000 euros, la pena sube a prisión de cuatro a ocho años y multa de doce a veinticuatro meses (art. 250.2). Ni 30.000 ni 100.000 euros son umbrales legales.",
+      "ref": "art. 250 CP",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Marcos presta su coche a un amigo para el fin de semana y este, al llegar el lunes, se niega a devolverlo y lo vende. ¿Qué delito comete el amigo?",
+      "opciones": [
+        "Apropiación indebida",
+        "Hurto",
+        "Robo con fuerza en las cosas"
+      ],
+      "correcta": 0,
+      "explicacion": "El amigo recibió el coche legítimamente por un título que le obligaba a devolverlo y se lo apropia: apropiación indebida (art. 253), castigada con las penas de la estafa. No es hurto porque la posesión se entregó voluntariamente y no se tomó la cosa sin la voluntad del dueño, ni robo con fuerza porque no se emplea ninguno de los medios del art. 238.",
+      "ref": "arts. 253, 234 y 238 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Laura encuentra un reloj perdido en la calle y se lo queda. Fuera de los supuestos de apropiación indebida del art. 253, ¿qué pena prevé el art. 254.1 del Código Penal para quien se apropia de una cosa mueble ajena?",
+      "opciones": [
+        "Prisión de 6 meses a 3 años",
+        "Multa de 1 a 3 meses",
+        "Multa de 3 a 6 meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 254.1 castiga con multa de tres a seis meses a quien, fuera de los supuestos del art. 253, se apropie de una cosa mueble ajena (por ejemplo, una cosa perdida); si la cuantía no excede de 400 euros, la multa es de uno a dos meses (art. 254.2), y si la cosa es de valor artístico, histórico, cultural o científico, la prisión es de seis meses a dos años. La prisión de seis meses a tres años es la pena de la estafa y de la apropiación indebida del art. 253.",
+      "ref": "art. 254 CP",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Quien altera maliciosamente el contador de electricidad para consumir energía sin pagarla comete defraudación de fluido eléctrico (art. 255 del Código Penal), castigada con:",
+      "opciones": [
+        "Prisión de 6 a 18 meses",
+        "Multa de 3 a 12 meses",
+        "Multa de 1 a 3 meses en todo caso"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 255.1 castiga con multa de tres a doce meses la defraudación de energía eléctrica, entre otros medios, alterando maliciosamente las indicaciones o aparatos contadores; si la cuantía no excede de 400 euros, la multa es de uno a tres meses (art. 255.2). La prisión de seis a dieciocho meses solo se prevé, desde la LO 1/2026, cuando la defraudación sirve para abastecer instalaciones utilizadas para delitos del art. 368 (art. 255.3).",
+      "ref": "art. 255 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Un hijo mayor de edad sustrae sin violencia ni intimidación 2.000 euros de la cartera de su madre. ¿Cuál es la consecuencia penal según el art. 268 del Código Penal?",
+      "opciones": [
+        "Hurto con la atenuante mixta de parentesco, en la mitad inferior de la pena",
+        "Delito de hurto castigado con prisión de 6 a 18 meses",
+        "Exención de responsabilidad criminal, con sujeción únicamente a la responsabilidad civil"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 268.1 exime de responsabilidad criminal, dejando solo la civil, a los ascendientes, descendientes y hermanos, y a los cónyuges no separados, por los delitos patrimoniales que se causen entre sí, siempre que no concurra violencia, intimidación o abuso de la vulnerabilidad de la víctima. No se aplica a los extraños que participen en el delito (art. 268.2). Por eso no cabe la condena por hurto ni la simple atenuante de parentesco.",
+      "ref": "art. 268 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el art. 269 del Código Penal, la provocación, la conspiración y la proposición se castigan, entre otros, en los delitos de:",
+      "opciones": [
+        "Hurto y usurpación",
+        "Robo, extorsión, estafa y apropiación indebida",
+        "Hurto, robo y daños"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 269 castiga la provocación, la conspiración y la proposición para cometer los delitos de robo, extorsión, estafa o apropiación indebida, con pena inferior en uno o dos grados a la del delito correspondiente. El hurto y la usurpación no figuran en la lista, y los daños tienen su propio régimen.",
+      "ref": "art. 269 CP",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Tras la LO 1/2026, el hurto de productos agrarios o ganaderos, o de los instrumentos para obtenerlos, cometido en explotaciones agrícolas o ganaderas se agrava (art. 235.1.4.º del Código Penal) cuando el valor de lo sustraído:",
+      "opciones": [
+        "Excede de 400 euros",
+        "Excede de 1.000 euros y causa un perjuicio grave a la explotación",
+        "Excede de 50.000 euros"
+      ],
+      "correcta": 0,
+      "explicacion": "La LO 1/2026 simplificó este subtipo: basta con que el valor de lo sustraído exceda de 400 euros, sin necesidad de acreditar un perjuicio grave para la explotación. Los 1.000 euros y el perjuicio grave no figuran en el texto vigente, y los 50.000 euros son el umbral de la estafa agravada, no del hurto.",
+      "ref": "art. 235.1.4.º CP; LO 1/2026",
+      "dificultad": 3
+    }
+  ],
+  "dudas": [
+    "El análisis de exámenes recoge que P39 y P43 dieron por buena la calificación de estafa del art. 249 para el uso de tarjeta ajena en un cajero. El texto del Código también considera llaves las tarjetas magnéticas (arts. 238.4.º y 239), por lo que cabe plantear el robo con fuerza en las cosas. No he podido contrastar la jurisprudencia del Tribunal Supremo con fuente primaria; por eso la ficha mantiene la calificación de los exámenes y ninguna pregunta opone la estafa al robo con fuerza en cajero.",
+    "No he verificado la fecha exacta de publicación de la LO 1/2026 en el BOE; consta que se firmó el 8 de abril de 2026 y que entró en vigor al día siguiente de su publicación (su corrección de errores es del BOE núm. 88, de 10 de abril de 2026)."
+  ]
+}

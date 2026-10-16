@@ -1,0 +1,544 @@
+{
+  "tema": 32,
+  "titulo": "Geografía humana, demografía y medio ambiente",
+  "bloque": "B",
+  "actualizado": "2026-10-16",
+  "peso": {
+    "nivel": "bajo",
+    "nota": "Entre 0 y 1 pregunta por examen (media 0,8). Han caído el crecimiento vegetativo negativo (natalidad inferior a mortalidad; dos veces seguidas), la densidad como población relativa y las pirámides (crecimiento lento o nulo = estacionaria)."
+  },
+  "normas": [
+    {
+      "nombre": "INE, Indicadores Demográficos Básicos: informe metodológico estandarizado (definiciones de tasas, saldo vegetativo, dependencia y envejecimiento)",
+      "url": "https://www.ine.es/dynt3/metadatos/RespuestaPrint.htm?oper=33",
+      "verificado": "Definiciones leídas el 16/10/2026"
+    },
+    {
+      "nombre": "INE, Movimiento Natural de la Población / Indicadores Demográficos Básicos, año 2024 (nota de prensa de 19/11/2025) y Estimación Mensual de Nacimientos y Defunciones, año 2025 (nota de 18/2/2026)",
+      "url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177003&menu=ultiDatos&idp=1254735573002",
+      "verificado": "Datos de 2024 y estimación de 2025 leídos el 16/10/2026 (estimación: https://www.ine.es/dyngs/Prensa/EDES_EMN2025.htm)"
+    },
+    {
+      "nombre": "INE, España en cifras 2026 (superficie, población y densidad) y Estadística Continua de Población a 1/7/2026",
+      "url": "https://www.ine.es/prodyser/espa_cifras/EEC_2026_PUBLICACION_COMPLETA.pdf",
+      "verificado": "Datos leídos el 16/10/2026; población a 1/7/2026: https://www.ine.es/dyngs/Prensa/ECP2T26.htm"
+    },
+    {
+      "nombre": "Constitución Española, art. 45",
+      "boe": "BOE-A-1978-31229",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "verificado": "Texto consolidado, actualización de 20/05/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 34/2007, de 15 de noviembre, de calidad del aire y protección de la atmósfera (art. 3: definiciones)",
+      "boe": "BOE-A-2007-19744",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-19744",
+      "verificado": "Texto consolidado, actualización de 19/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 37/2003, de 17 de noviembre, del Ruido (art. 3)",
+      "boe": "BOE-A-2003-20976",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-20976",
+      "verificado": "Texto consolidado, actualización de 18/12/2025 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 7/2022, de 8 de abril, de residuos y suelos contaminados para una economía circular (art. 2: «suelo contaminado»)",
+      "boe": "BOE-A-2022-5809",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-5809",
+      "verificado": "Texto consolidado, actualización de 05/10/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Ley 7/2021, de 20 de mayo, de cambio climático y transición energética (art. 3: objetivos)",
+      "boe": "BOE-A-2021-8447",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8447",
+      "verificado": "Texto consolidado, actualización de 23/07/2026 (leído el 16/10/2026)"
+    },
+    {
+      "nombre": "Naciones Unidas: Conferencia sobre el Medio Humano (Estocolmo, 1972) y Cumbre de la Tierra (Río de Janeiro, 1992); UN Treaty Collection: Protocolo de Montreal, Protocolo de Kioto y Acuerdo de París",
+      "url": "https://www.un.org/en/conferences/environment/stockholm1972",
+      "verificado": "Fechas y contenidos leídos el 16/10/2026 (Río: https://www.un.org/en/conferences/environment/rio1992; tratados: https://treaties.un.org, capítulo XXVII)"
+    },
+    {
+      "nombre": "Obras de referencia sobre modelos urbanos (Burgess, Hoyt, Harris y Ullman, Christaller, Wirth, Sassen), transición demográfica y sociedad de masas",
+      "url": "https://en.wikipedia.org/wiki/Concentric_zone_model",
+      "verificado": "Autores y fechas contrastados el 16/10/2026 en fuentes secundarias (entradas de modelos urbanos, Demographic transition, Mass society, The Revolt of the Masses)"
+    }
+  ],
+  "novedades": [
+    "Los datos demográficos del INE para **2025** son todavía **provisionales**: la estimación del INE de 18/2/2026 da un crecimiento vegetativo negativo de **122.167 personas** (nacimientos +1,0 %, defunciones +2,5 %). Los datos definitivos más recientes son los de **2024**.",
+    "Población de España según el INE: **49.801.559** habitantes a 1/7/2026 (provisional, máximo de la serie histórica)."
+  ],
+  "clave": [
+    "**Crecimiento (saldo) vegetativo** = nacimientos − defunciones (INE). Es **negativo** cuando la natalidad es inferior a la mortalidad. En 2024 en España: 318.005 nacimientos y 436.118 defunciones, es decir, un saldo de **−118.113**. Estimación INE para 2025: **−122.167**.",
+    "**Crecimiento de la población** = saldo vegetativo + saldo migratorio (inmigraciones − emigraciones).",
+    "**Densidad de población** (población relativa) = habitantes por km². España: **97,1 hab./km²** (1/1/2025; 49.128.297 habitantes sobre 506.050 km²); UE-27: 109,7 (2024). **Población absoluta** = número total de habitantes.",
+    "**Tasa bruta de natalidad** = nacimientos por 1.000 habitantes (España 2024: **6,49‰**); **tasa bruta de mortalidad** = defunciones por 1.000 habitantes (**8,87‰**). Indicador coyuntural de fecundidad: **1,10** hijos por mujer.",
+    "**Tasa de dependencia** = (población menor de 16 + mayor de 64) / población de 16 a 64 años, en %. **Índice de envejecimiento** = población mayor de 64 / población menor de 16, en %.",
+    "**Pirámides**: crecimiento lento o nulo = **estacionaria**; base ancha y alto crecimiento = expansiva; base estrecha y envejecimiento = regresiva. **Transición demográfica**: cuatro etapas, de natalidad y mortalidad altas a bajas.",
+    "**Modelos urbanos**: Burgess, **zonas concéntricas** (1925); Hoyt, **sectores** (1939); Harris y Ullman, **núcleos múltiples** (1945); Christaller, **lugares centrales** (1933); Wirth, «El urbanismo como forma de vida» (1938); Sassen, **ciudad global** (1991).",
+    "**Sociedad de masas**: Ortega y Gasset, «La rebelión de las masas» (artículos de 1929, libro de 1930); Escuela de Frankfurt, **industria cultural**; Riesman, «La muchedumbre solitaria» (1950); C. Wright Mills, «La élite del poder» (1956); Marcuse, «El hombre unidimensional» (1964).",
+    "**Art. 45 CE**: derecho a disfrutar de un medio ambiente adecuado y deber de conservarlo; los poderes públicos velan por la utilización racional de los recursos naturales; sanciones penales o administrativas y obligación de reparar el daño.",
+    "**Hitos ambientales**: Estocolmo **5-16/6/1972** (PNUMA; 26 principios); Montreal **1987** (en vigor 1/1/1989); Río **3-14/6/1992** (Agenda 21, Convención Marco sobre Cambio Climático, Convenio de Diversidad Biológica); Kioto **11/12/1997** (en vigor 16/2/2005); París **12/12/2015** (en vigor 4/11/2016). **Ley 7/2021**: −23 % de emisiones en 2030 (respecto a 1990) y neutralidad climática antes de 2050."
+  ],
+  "resumen": [
+    {
+      "titulo": "Geografía humana y la ciudad",
+      "puntos": [
+        "La **geografía humana** estudia la relación entre las sociedades y el espacio (distribución de la población, actividades, ciudades y paisajes), frente a la geografía física. Entre sus enfoques clásicos están el **determinismo ambiental** (siglo XIX: el medio condiciona a la sociedad) y el **posibilismo** (el medio impone límites, pero la cultura y las condiciones sociales determinan lo demás).",
+        "**Qué es una ciudad** depende del criterio: en los censos del INE se agrupaban los núcleos en zona **rural** (hasta 2.000 habitantes), **intermedia** (de 2.001 a 10.000) y **urbana** (más de 10.000). Para la calidad del aire, la Ley 34/2007 llama **aglomeración** a la conurbación de más de 250.000 habitantes (art. 3.b).",
+        "**Escuela de Chicago** (Park, Burgess y McKenzie, «The City», 1925): enfoque de **ecología humana** que ve la ciudad como un sistema en el que los grupos compiten por el suelo. Sus modelos de estructura urbana son los de **Burgess** (zonas concéntricas, 1925), **Hoyt** (sectores, 1939) y **Harris y Ullman** (núcleos múltiples, 1945, «The Nature of Cities»). **Wirth** («Urbanism as a Way of Life», 1938) estudia el modo de vida urbano. **Christaller** formuló la teoría de los **lugares centrales** (1933). **Sassen** popularizó el concepto de **ciudad global** («The Global City», 1991: Nueva York, Londres y Tokio)."
+      ]
+    },
+    {
+      "titulo": "Indicadores demográficos (definiciones del INE)",
+      "puntos": [
+        "El INE mide los fenómenos demográficos con tasas por 1.000 habitantes y con indicadores sintéticos. La **población absoluta** es el número de habitantes; la **población relativa** o densidad, los habitantes por km².",
+        "Datos de España (INE, 2024 definitivos): 318.005 nacimientos (−0,8 % respecto a 2023), 436.118 defunciones, 33,3 % de nacimientos de madre nacida en el extranjero, edad media a la maternidad de 32,61 años y esperanza de vida al nacimiento de 84,01 años. Tasa de mortalidad infantil: 3,04 por mil nacidos vivos."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Indicador",
+          "Definición (INE)",
+          "España 2024"
+        ],
+        "filas": [
+          [
+            "Tasa bruta de natalidad",
+            "Nacimientos de madre de un ámbito en un año por cada 1.000 habitantes",
+            "6,49‰"
+          ],
+          [
+            "Tasa bruta de mortalidad",
+            "Defunciones en un año por cada 1.000 habitantes",
+            "8,87‰"
+          ],
+          [
+            "Saldo vegetativo (crecimiento vegetativo)",
+            "Diferencia entre nacimientos y defunciones",
+            "−118.113"
+          ],
+          [
+            "Saldo migratorio",
+            "Diferencia entre inmigraciones y emigraciones",
+            "—"
+          ],
+          [
+            "Crecimiento de la población",
+            "Suma del saldo vegetativo y el saldo migratorio (por 1.000 habitantes)",
+            "—"
+          ],
+          [
+            "Indicador coyuntural de fecundidad",
+            "Número medio de hijos por mujer a lo largo de su vida fértil con la fecundidad por edad de ese año",
+            "1,10"
+          ],
+          [
+            "Tasa global de fecundidad",
+            "Nacimientos por cada 1.000 mujeres de 15 a 49 años",
+            "—"
+          ],
+          [
+            "Tasa de dependencia",
+            "(Menores de 16 + mayores de 64) / población de 16 a 64 años, en %",
+            "—"
+          ],
+          [
+            "Índice de envejecimiento",
+            "Mayores de 64 / menores de 16, en %",
+            "—"
+          ],
+          [
+            "Esperanza de vida al nacimiento",
+            "Años que se espera que viva un individuo desde su nacimiento con el patrón de mortalidad del período",
+            "84,01 años"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Crecimiento vegetativo, estructura y transición demográfica",
+      "puntos": [
+        "**Crecimiento vegetativo positivo**: nacimientos superiores a defunciones; **negativo**: natalidad inferior a mortalidad (España: −118.113 en 2024 y −122.167 estimado en 2025). No incluye las migraciones: el **crecimiento real** suma el saldo migratorio, por eso la población española crece pese al saldo vegetativo negativo.",
+        "**Pirámide de población** (por sexo y edad): la base refleja la natalidad y la cima, el envejecimiento. Clasificación habitual: **expansiva o progresiva** (base ancha, natalidad alta, crecimiento rápido), **estacionaria** (crecimiento lento o nulo; base y centro de anchura parecida) y **regresiva** (base más estrecha que el centro, natalidad baja y población envejecida).",
+        "**Transición demográfica** (interpretación de Warren Thompson en la década de 1930; formalizada por Frank Notestein en las décadas de 1940 y 1950): cuatro etapas, o cinco según autores. En la primera, preindustrial, natalidad y mortalidad son **altas y están equilibradas**; en la segunda cae la mortalidad (mejor alimentación y sanidad) y la población crece deprisa; en la tercera desciende la natalidad; en la última natalidad y mortalidad son bajas y el crecimiento es lento o incluso negativo.",
+        "**Malthus** («Ensayo sobre el principio de la población», 1798) es la referencia clásica sobre la relación entre población y recursos."
+      ]
+    },
+    {
+      "titulo": "Densidad y población en España",
+      "puntos": [
+        "El INE (España en cifras 2026) calcula la densidad con el Padrón: **97,1 hab./km²** en 2025 (49.128.297 habitantes sobre una superficie de 506.050 km², según el Instituto Geográfico Nacional); la media de la UE-27 es de 109,7 hab./km² (2024). Con los 49.801.559 habitantes del 1/7/2026 y la misma superficie, la densidad es de unos 98 hab./km² (cálculo propio).",
+        "El crecimiento de la población española procede de las migraciones: en el cuarto trimestre de 2025 la población creció en 81.520 personas, y en el segundo de 2026, en 104.178. El crecimiento anual estimado a 1/7/2026 fue de 444.205 personas."
+      ]
+    },
+    {
+      "titulo": "Sociedad de masas",
+      "puntos": [
+        "Es el tipo de sociedad que surge con la industrialización, la urbanización y los medios de comunicación de masas: predominan el anonimato, la uniformidad de gustos y comportamientos y el consumo, y se debilitan los vínculos comunitarios. Los autores la valoran de forma crítica.",
+        "**Ortega y Gasset**, «La rebelión de las masas» (aparecida como artículos en «El Sol» en 1929 y como libro en 1930), lamenta el declive de la alta cultura ante el «hombre-masa». **Escuela de Frankfurt** (Horkheimer y Adorno, «Dialéctica de la Ilustración», 1947, circulada en 1944): la **industria cultural** sirve a los intereses del capitalismo. **Riesman**, «La muchedumbre solitaria» (1950). **C. Wright Mills**, «La élite del poder» (1956): distingue entre sociedad de masas y sociedad de públicos. **Marcuse**, «El hombre unidimensional» (1964). **Le Bon** estudió la psicología de las multitudes."
+      ]
+    },
+    {
+      "titulo": "Contaminación y protección del medio ambiente",
+      "puntos": [
+        "**Art. 45 CE**: todos tienen derecho a disfrutar de un medio ambiente adecuado para el desarrollo de la persona y el deber de conservarlo; los poderes públicos velarán por la utilización racional de los recursos naturales, apoyándose en la solidaridad colectiva; para quienes lo violen se establecerán sanciones penales o administrativas y la obligación de reparar el daño.",
+        "Definiciones legales: **contaminación atmosférica** (Ley 34/2007, art. 3.e): presencia en la atmósfera de materias, sustancias o formas de energía que impliquen molestia grave, riesgo o daño para la seguridad o la salud de las personas, el medio ambiente y demás bienes. **Contaminación lumínica** (art. 3.f): resplandor luminoso nocturno que altera las condiciones naturales de las horas nocturnas. **Contaminación acústica** (Ley 37/2003, art. 3.d): presencia en el ambiente de ruidos o vibraciones que impliquen molestia, riesgo o daño para las personas, sus actividades o los bienes, o que causen efectos significativos sobre el medio ambiente. **Suelo contaminado** (Ley 7/2022, art. 2): el alterado por componentes químicos peligrosos de origen humano en concentración que comporte un riesgo inaceptable para la salud o el medio ambiente.",
+        "**Ley 7/2021 de cambio climático y transición energética** (art. 3), para 2030: reducir al menos un **23 %** las emisiones de gases de efecto invernadero respecto a 1990; al menos un **42 %** de renovables en el consumo de energía final; al menos un **74 %** de generación eléctrica renovable; mejorar la eficiencia energética (consumo de energía primaria al menos un 39,5 % menor). **Neutralidad climática antes de 2050**."
+      ],
+      "tabla": {
+        "cabecera": [
+          "Hito internacional",
+          "Fecha",
+          "Qué es"
+        ],
+        "filas": [
+          [
+            "Conferencia de Estocolmo",
+            "5-16 de junio de 1972",
+            "Primera conferencia mundial que hizo del medio ambiente una cuestión mayor; Declaración de 26 principios; crea el PNUMA"
+          ],
+          [
+            "Protocolo de Montreal",
+            "16/9/1987 (en vigor 1/1/1989)",
+            "Sustancias que agotan la capa de ozono"
+          ],
+          [
+            "Cumbre de la Tierra (Río de Janeiro)",
+            "3-14 de junio de 1992",
+            "Agenda 21; Declaración de Río (27 principios); Convención Marco sobre el Cambio Climático; Convenio sobre la Diversidad Biológica; principios sobre bosques"
+          ],
+          [
+            "Protocolo de Kioto",
+            "11/12/1997 (en vigor 16/2/2005)",
+            "Compromisos de reducción de emisiones; entra en vigor con 55 Partes y el 55 % de las emisiones de 1990 de las Partes del anexo I"
+          ],
+          [
+            "Acuerdo de París",
+            "12/12/2015 (en vigor 4/11/2016)",
+            "Mantener el aumento de la temperatura media mundial por debajo de 2 ºC y, si es posible, de 1,5 ºC"
+          ]
+        ]
+      }
+    }
+  ],
+  "trampas": [
+    "Signo del crecimiento vegetativo: es **negativo** si la natalidad es inferior a la mortalidad. No confundirlo con el crecimiento real, que suma el saldo migratorio.",
+    "Población absoluta (número de habitantes) frente a **población relativa** (densidad, habitantes por km²). Un distractor invierte los términos.",
+    "Tasas distintas: la **tasa bruta de natalidad** va por 1.000 habitantes, la **tasa global de fecundidad** por 1.000 mujeres de 15 a 49 años y el **indicador coyuntural de fecundidad** es un número medio de hijos por mujer.",
+    "**Índice de envejecimiento** (mayores de 64 entre menores de 16) frente a **tasa de dependencia** ((menores de 16 + mayores de 64) entre los de 16 a 64) y a la **proporción de mayores de 64** (sobre la población total).",
+    "Modelos urbanos: **Burgess** 1925 (zonas concéntricas), **Hoyt** 1939 (sectores), **Harris y Ullman** 1945 (núcleos múltiples), **Christaller** 1933 (lugares centrales). Los exámenes cambian el autor o el año.",
+    "Hitos ambientales: Estocolmo (1972, PNUMA), Río (1992, Agenda 21 y Convención sobre el Cambio Climático), Kioto (1997, en vigor 2005), París (2015, en vigor 2016). No confundir firma y entrada en vigor.",
+    "Pirámide **estacionaria** = crecimiento lento o nulo; **expansiva** = base ancha y crecimiento rápido; **regresiva** = base estrecha y envejecimiento.",
+    "La **Ley 7/2021** fija una reducción del **23 %** de emisiones en 2030 respecto a 1990, no del 55 % (objetivo de la Unión Europea)."
+  ],
+  "caido": [
+    {
+      "examen": "25 oct 2025 y 26 sep 2026",
+      "concepto": "Crecimiento vegetativo negativo (natalidad inferior a mortalidad)"
+    },
+    {
+      "examen": "13 abr 2024",
+      "concepto": "Densidad de población = población relativa"
+    },
+    {
+      "examen": "23 abr 2023",
+      "concepto": "Pirámides de población: tasa de crecimiento lenta o nula = estacionaria"
+    }
+  ],
+  "mnemotecnias": [
+    "**Vegetativo = Nacidos − Muertos (N − D)**; **migratorio = Entradas − Salidas (I − E)**; **real = vegetativo + migratorio**.",
+    "Modelos urbanos por orden de fecha: **Burgess 1925** (círculos), **Hoyt 1939** (sectores), **Harris-Ullman 1945** (núcleos).",
+    "Río 92 trae **tres**: Agenda 21, clima (CMNUCC) y biodiversidad (CDB)."
+  ],
+  "tarjetas": [
+    {
+      "p": "¿Qué es el crecimiento (saldo) vegetativo?",
+      "r": "La diferencia entre **nacimientos y defunciones** (INE). Es negativo cuando la natalidad es inferior a la mortalidad."
+    },
+    {
+      "p": "¿Qué es el crecimiento de la población?",
+      "r": "La suma del **saldo vegetativo** y el **saldo migratorio** (inmigraciones − emigraciones)."
+    },
+    {
+      "p": "¿Qué es la densidad de población?",
+      "r": "La **población relativa**: habitantes por km². España: 97,1 hab./km² en 2025 (INE)."
+    },
+    {
+      "p": "Tasa bruta de natalidad y de mortalidad (INE).",
+      "r": "**Natalidad**: nacimientos por 1.000 habitantes. **Mortalidad**: defunciones por 1.000 habitantes. España 2024: 6,49‰ y 8,87‰."
+    },
+    {
+      "p": "Indicador coyuntural de fecundidad.",
+      "r": "Número medio de **hijos por mujer** a lo largo de su vida fértil con la fecundidad por edad de un año. España 2024: **1,10**."
+    },
+    {
+      "p": "Tasa de dependencia y de envejecimiento.",
+      "r": "**Dependencia**: (menores de 16 + mayores de 64) / población de 16 a 64 años. **Envejecimiento**: mayores de 64 / menores de 16."
+    },
+    {
+      "p": "Tipos de pirámide de población.",
+      "r": "**Expansiva** (base ancha), **estacionaria** (crecimiento lento o nulo) y **regresiva** (base estrecha, envejecida)."
+    },
+    {
+      "p": "Etapas de la transición demográfica.",
+      "r": "Cuatro (o cinco): natalidad y mortalidad altas y equilibradas; cae la mortalidad; cae la natalidad; ambas bajas con crecimiento lento o negativo."
+    },
+    {
+      "p": "Modelos de Burgess, Hoyt y Harris-Ullman.",
+      "r": "**Burgess** (1925): zonas concéntricas. **Hoyt** (1939): sectores. **Harris y Ullman** (1945): núcleos múltiples."
+    },
+    {
+      "p": "¿Quién formuló la teoría de los lugares centrales y cuándo?",
+      "r": "**Walter Christaller**, en **1933**."
+    },
+    {
+      "p": "¿Quién escribió «El urbanismo como forma de vida» y cuándo?",
+      "r": "**Louis Wirth**, en **1938** (Escuela de Chicago)."
+    },
+    {
+      "p": "¿Qué aportó Saskia Sassen a los estudios urbanos?",
+      "r": "El concepto de **ciudad global** («The Global City», 1991: Nueva York, Londres, Tokio)."
+    },
+    {
+      "p": "¿Qué dice el art. 45 de la Constitución?",
+      "r": "Derecho a un **medio ambiente adecuado** para el desarrollo de la persona y deber de conservarlo; utilización racional de los recursos; sanciones y obligación de reparar el daño."
+    },
+    {
+      "p": "Objetivo de reducción de emisiones de la Ley 7/2021 para 2030.",
+      "r": "Al menos un **23 %** menos que en 1990; neutralidad climática **antes de 2050**."
+    },
+    {
+      "p": "Conferencia de Estocolmo (1972): fecha y resultado.",
+      "r": "**5-16 de junio de 1972**; primera conferencia mundial sobre el medio ambiente; Declaración con 26 principios; creación del **PNUMA**."
+    },
+    {
+      "p": "Cumbre de Río (1992): fecha y resultados.",
+      "r": "**3-14 de junio de 1992**: Agenda 21, Declaración de Río (27 principios), Convención Marco sobre el Cambio Climático, Convenio sobre la Diversidad Biológica."
+    }
+  ],
+  "preguntas": [
+    {
+      "enunciado": "Si la natalidad de un país es inferior a su mortalidad, su crecimiento vegetativo es:",
+      "opciones": [
+        "Negativo",
+        "Positivo",
+        "Nulo en todo caso"
+      ],
+      "correcta": 0,
+      "explicacion": "El crecimiento vegetativo es la diferencia entre nacimientos y defunciones; si hay menos nacimientos que defunciones, el saldo es negativo. No es nulo salvo que ambos coincidan exactamente, ni positivo.",
+      "ref": "INE, saldo vegetativo",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el INE, el saldo vegetativo es:",
+      "opciones": [
+        "La diferencia entre inmigraciones y emigraciones",
+        "La diferencia entre nacimientos y defunciones",
+        "La suma de la tasa bruta de natalidad y la tasa bruta de mortalidad"
+      ],
+      "correcta": 1,
+      "explicacion": "El INE define el saldo vegetativo como la diferencia entre nacimientos y defunciones. La diferencia entre inmigraciones y emigraciones es el saldo migratorio; sumar ambas tasas no tiene significado demográfico.",
+      "ref": "INE, Indicadores Demográficos Básicos",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "La densidad de población, entendida como población relativa, expresa:",
+      "opciones": [
+        "El número total de habitantes de un territorio",
+        "El porcentaje de población urbana sobre la población total",
+        "El número de habitantes por kilómetro cuadrado"
+      ],
+      "correcta": 2,
+      "explicacion": "La densidad o población relativa relaciona los habitantes con la superficie (habitantes por kilómetro cuadrado). El número total de habitantes es la población absoluta.",
+      "ref": "Concepto de densidad de población (INE, España en cifras 2026)",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según el INE, la tasa bruta de natalidad es:",
+      "opciones": [
+        "El total de nacimientos de madres de un ámbito en un año por cada 1.000 habitantes",
+        "El total de nacimientos por cada 1.000 mujeres de 15 a 49 años",
+        "El número medio de hijos que tendría una mujer a lo largo de su vida fértil"
+      ],
+      "correcta": 0,
+      "explicacion": "La tasa bruta de natalidad se calcula por cada 1.000 habitantes. La segunda opción es la tasa global de fecundidad y la tercera, el indicador coyuntural de fecundidad (número medio de hijos por mujer).",
+      "ref": "INE, Indicadores Demográficos Básicos",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el INE, el índice de envejecimiento es el porcentaje que representa:",
+      "opciones": [
+        "La población mayor de 64 años sobre la población total",
+        "La población mayor de 64 años sobre la población menor de 16 años",
+        "La población menor de 16 años y mayor de 64 sobre la población de 16 a 64 años"
+      ],
+      "correcta": 1,
+      "explicacion": "El índice de envejecimiento relaciona los mayores de 64 años con los menores de 16. La primera opción es la proporción de personas mayores de 64 años y la tercera, la tasa de dependencia.",
+      "ref": "INE, Indicadores Demográficos Básicos",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "Una población con tasa de crecimiento lenta o nula, con una pirámide cuya base y cuerpo tienen anchura similar, se denomina:",
+      "opciones": [
+        "Expansiva",
+        "Regresiva",
+        "Estacionaria"
+      ],
+      "correcta": 2,
+      "explicacion": "En la clasificación habitual de pirámides, la estacionaria corresponde a un crecimiento lento o nulo. La expansiva tiene base ancha y alto crecimiento y la regresiva presenta una base más estrecha que el centro y envejecimiento.",
+      "ref": "Clasificación de pirámides de población",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según los datos definitivos del INE para 2024, ¿cuál fue en España el número medio de hijos por mujer (indicador coyuntural de fecundidad)?",
+      "opciones": [
+        "1,10",
+        "1,45",
+        "2,10"
+      ],
+      "correcta": 0,
+      "explicacion": "El INE sitúa el indicador coyuntural de fecundidad de 2024 en 1,10 hijos por mujer, por debajo del año anterior. Las otras cifras no corresponden a la fecundidad española de 2024.",
+      "ref": "INE, Indicadores Demográficos Básicos 2024",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En 2024 se registraron en España 318.005 nacimientos y 436.118 defunciones. ¿Cómo fue el crecimiento vegetativo?",
+      "opciones": [
+        "Positivo, de 118.113 personas",
+        "Negativo, de 118.113 personas",
+        "Nulo, porque la diferencia la compensa la inmigración"
+      ],
+      "correcta": 1,
+      "explicacion": "El crecimiento vegetativo es nacimientos menos defunciones: 318.005 − 436.118 = −118.113, es decir, negativo. La inmigración forma parte del saldo migratorio, que se suma después para obtener el crecimiento total de la población, pero no altera el saldo vegetativo.",
+      "ref": "INE, MNP 2024",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "En la primera etapa (preindustrial) de la transición demográfica, la natalidad y la mortalidad son:",
+      "opciones": [
+        "Bajas y estables",
+        "La natalidad alta y la mortalidad baja",
+        "Ambas altas y aproximadamente equilibradas"
+      ],
+      "correcta": 2,
+      "explicacion": "En la etapa preindustrial natalidad y mortalidad son altas y se compensan, por lo que el crecimiento es muy lento. La natalidad alta con mortalidad baja es la etapa siguiente, en la que cae la mortalidad.",
+      "ref": "Modelo de transición demográfica",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "¿Quién es el autor del «Ensayo sobre el principio de la población» (1798)?",
+      "opciones": [
+        "Thomas Robert Malthus",
+        "Warren Thompson",
+        "Frank Notestein"
+      ],
+      "correcta": 0,
+      "explicacion": "El Ensayo sobre el principio de la población es de Thomas Robert Malthus. Warren Thompson y Frank Notestein se asocian al modelo de la transición demográfica.",
+      "ref": "Malthus (1798)",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Los modelos de estructura urbana de zonas concéntricas (1925), sectores (1939) y núcleos múltiples (1945) se atribuyen, respectivamente, a:",
+      "opciones": [
+        "Hoyt, Burgess, y Harris y Ullman",
+        "Burgess, Hoyt, y Harris y Ullman",
+        "Harris y Ullman, Hoyt, y Burgess"
+      ],
+      "correcta": 1,
+      "explicacion": "Ernest Burgess propuso las zonas concéntricas (1925), Homer Hoyt el modelo de sectores (1939) y Chauncy Harris y Edward Ullman los núcleos múltiples en su artículo «The Nature of Cities» (1945). Las otras opciones alteran el orden de los autores.",
+      "ref": "Burgess (1925); Hoyt (1939); Harris y Ullman (1945)",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿Qué sociólogo urbano publicó en 1938 el ensayo «El urbanismo como forma de vida»?",
+      "opciones": [
+        "Ernest Burgess",
+        "Homer Hoyt",
+        "Louis Wirth"
+      ],
+      "correcta": 2,
+      "explicacion": "«Urbanism as a Way of Life» (1938) es de Louis Wirth, de la Escuela de Chicago. Burgess es autor del modelo de zonas concéntricas y Hoyt, del de sectores.",
+      "ref": "Wirth (1938)",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "La teoría de los lugares centrales, introducida en 1933, se atribuye a:",
+      "opciones": [
+        "Walter Christaller",
+        "Saskia Sassen",
+        "Robert Park"
+      ],
+      "correcta": 0,
+      "explicacion": "La teoría de los lugares centrales la formuló el geógrafo alemán Walter Christaller. Sassen popularizó el concepto de ciudad global (1991) y Park es una figura de la Escuela de Chicago.",
+      "ref": "Christaller (1933)",
+      "dificultad": 3
+    },
+    {
+      "enunciado": "¿En qué artículo de la Constitución Española se reconoce el derecho a disfrutar de un medio ambiente adecuado para el desarrollo de la persona?",
+      "opciones": [
+        "En el art. 43",
+        "En el art. 45",
+        "En el art. 47"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 45.1 CE reconoce el derecho a disfrutar de un medio ambiente adecuado y el deber de conservarlo. El art. 43 se refiere a la protección de la salud y el art. 47, al derecho a una vivienda digna.",
+      "ref": "art. 45 CE",
+      "dificultad": 1
+    },
+    {
+      "enunciado": "Según la Ley 37/2003 del Ruido, la contaminación acústica es la presencia en el ambiente de ruidos o vibraciones que impliquen:",
+      "opciones": [
+        "Únicamente daño para la salud de las personas",
+        "Solo molestia para las personas, sin que sea relevante el riesgo o el daño",
+        "Molestia, riesgo o daño para las personas, sus actividades o los bienes, o efectos significativos sobre el medio ambiente"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 3.d de la Ley del Ruido define la contaminación acústica por la molestia, el riesgo o el daño para las personas, el desarrollo de sus actividades o los bienes de cualquier naturaleza, o por los efectos significativos sobre el medio ambiente. Las otras dos opciones la restringen.",
+      "ref": "art. 3.d Ley 37/2003",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La Conferencia de las Naciones Unidas sobre el Medio Humano (Estocolmo, 1972) dio lugar, entre otros resultados, a la creación de:",
+      "opciones": [
+        "El Programa de las Naciones Unidas para el Medio Ambiente (PNUMA)",
+        "La Organización Mundial del Comercio",
+        "El Protocolo de Kioto"
+      ],
+      "correcta": 0,
+      "explicacion": "Uno de los principales resultados de la Conferencia de Estocolmo (5 a 16 de junio de 1972) fue la creación del PNUMA. La OMC funciona desde 1995 y el Protocolo de Kioto se adoptó en 1997.",
+      "ref": "Conferencia de Estocolmo (1972)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "La Cumbre de la Tierra de Río de Janeiro (3 a 14 de junio de 1992) dio como resultados, entre otros:",
+      "opciones": [
+        "El Protocolo de Kioto y el Acuerdo de París",
+        "La Agenda 21, la Convención Marco sobre el Cambio Climático y el Convenio sobre la Diversidad Biológica",
+        "El Protocolo de Montreal y la creación del PNUMA"
+      ],
+      "correcta": 1,
+      "explicacion": "Río 1992 produjo la Agenda 21, la Declaración de Río, la Convención Marco de la ONU sobre el Cambio Climático, el Convenio sobre la Diversidad Biológica y los principios sobre bosques. Kioto es de 1997, París de 2015 y Montreal de 1987.",
+      "ref": "Cumbre de la Tierra (Río, 1992)",
+      "dificultad": 2
+    },
+    {
+      "enunciado": "Según el art. 3 de la Ley 7/2021 de cambio climático y transición energética, España debe reducir en 2030 las emisiones de gases de efecto invernadero, como mínimo, en:",
+      "opciones": [
+        "Un 10 % respecto a 1990",
+        "Un 55 % respecto a 1990",
+        "Un 23 % respecto a 1990"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 3.1.a de la Ley 7/2021 fija una reducción de al menos el 23 % respecto a 1990 en 2030. El 55 % es el objetivo de reducción de la Unión Europea citado en la exposición de motivos, no el mínimo nacional de la ley.",
+      "ref": "art. 3 Ley 7/2021",
+      "dificultad": 3
+    }
+  ],
+  "dudas": [
+    "La clasificación de las pirámides (expansiva, estacionaria, regresiva), la fases de la transición demográfica y las características de la sociedad de masas son síntesis de manuales; no proceden de una norma. Warren Thompson y Frank Notestein se citan por décadas porque las fuentes consultadas difieren en el año.",
+    "Los datos de 2025 son estimaciones provisionales del INE (nota de 18/2/2026) y la población a 1/7/2026 también; se revisan con nuevas publicaciones. Los datos definitivos más recientes son los de 2024.",
+    "La clasificación rural-intermedia-urbana (2.000 y 10.000 habitantes) es la clásica de los censos del INE (según extractos del buscador); el INE y Eurostat usan hoy otros criterios (grado de urbanización).",
+    "El art. 3 de la Ley 7/2021 prevé una primera revisión de los objetivos desde 2023; el texto consolidado leído (23/07/2026) mantiene el 23 %.",
+    "No se incluyen datos de Le Bon (año de su obra) ni de Kornhauser porque no se pudieron verificar."
+  ]
+}

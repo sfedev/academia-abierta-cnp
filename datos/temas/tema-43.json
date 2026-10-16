@@ -1,0 +1,483 @@
+{
+ "tema": 43,
+ "titulo": "El vehículo prioritario",
+ "bloque": "C",
+ "actualizado": "2026-10-16",
+ "peso": {
+  "nivel": "bajo",
+  "nota": "Media de 1,0 preguntas (rango 0-3, 3 en 2023). Arts. 67 a 69 del Reglamento General de Circulación y señales V-1 y V-3; la reforma del RGC de 2025 y 2026 cambia los arts. 32 y 69."
+ },
+ "normas": [
+  {
+   "nombre": "Real Decreto Legislativo 6/2015, de 30 de octubre, texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial (arts. 27 y 44)",
+   "boe": "BOE-A-2015-11722",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+   "verificado": "Texto consolidado, actualización de 01/10/2026 (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Real Decreto 1428/2003, de 21 de noviembre, Reglamento General de Circulación",
+   "boe": "BOE-A-2003-23514",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+   "verificado": "Texto consolidado, actualización de 01/10/2026 (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Real Decreto 2822/1998, de 23 de diciembre, Reglamento General de Vehículos (art. 11.7 y anexo XI)",
+   "boe": "BOE-A-1999-1826",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+   "verificado": "Texto consolidado, actualización de 01/10/2026 (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Real Decreto 465/2025, de 10 de junio, por el que se modifica el Reglamento General de Circulación en materia de señalización de tráfico",
+   "boe": "BOE-A-2025-12199",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-12199",
+   "verificado": "Texto original del BOE, en vigor desde el 01/07/2025 (leído el 16/10/2026); ya incorporado al consolidado del RGC"
+  },
+  {
+   "nombre": "Real Decreto 518/2026, de 24 de junio, por el que se modifica el Reglamento General de Circulación en materia de protección a usuarios vulnerables de la vía",
+   "boe": "BOE-A-2026-13889",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-13889",
+   "verificado": "Texto original del BOE, en vigor desde el 01/10/2026 (leído el 16/10/2026); ya incorporado al consolidado del RGC"
+  },
+  {
+   "nombre": "Orden INT/1518/2021, de 28 de diciembre, permisos de conducción de vehículos policiales de la Dirección General de la Policía",
+   "boe": "BOE-A-2022-287",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2022-287",
+   "verificado": "Texto original del BOE (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Instrucción Operativa de Prevención de Riesgos IOPR-003 «Utilización de vehículos de la D.G.P.», Dirección General de la Policía (ed. 1.ª, 26/11/2013)",
+   "url": "https://sup.es/wp-content/uploads/2014/03/IOPR-003-Utilizacion-de-vehiculo-26.11.2013-942.pdf",
+   "verificado": "Documento de 2013 consultado el 16/10/2026 (copia alojada por un sindicato)"
+  }
+ ],
+ "novedades": [
+  "**RD 465/2025** (en vigor desde el 1/7/2025): el art. 68.2 remite al anexo XI del Reglamento General de Vehículos para la señal luminosa y la acústica; el art. 69 incorpora la **luz roja delantera** de los vehículos de policía (el conductor al que se le indica debe detenerse a la derecha, delante del vehículo policial, y permanecer en su interior); el art. 141, modificado, permite en su apartado 3 que los usuarios de vehículos de policía den órdenes por megafonía mientras usan la V-1.",
+  "**RD 518/2026** (en vigor desde el 1/10/2026): el art. 32 pasa a llamarse **«Carriles de emergencia»** (su contenido anterior, sobre calzadas de tres o más carriles, se integra en el art. 31.2); el art. 69 añade «o actuando conforme a lo dispuesto en el artículo 32»; el art. 119.2 deja la exención del cinturón para los vehículos en servicios de urgencia (en poblado), sin taxistas ni distribuidores.",
+  "La señal luminosa V-1 es de color **azul** para todos los vehículos prioritarios (Orden PCI/810/2018); los matriculados antes del 1/8/2018 tuvieron dos años para adaptarse.",
+  "El permiso **BTP**, antes necesario para conducir vehículos prioritarios en servicio de urgencia, desapareció del Reglamento General de Conductores (RD 1055/2015). El permiso de conducción de vehículos policiales se rige hoy por la Orden INT/1518/2021, que derogó la Orden INT/161/2011."
+ ],
+ "clave": [
+  "Son **prioritarios** los vehículos de **policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria (pública o privada)** que circulan en **servicio urgente** y avisan con la **señal luminosa y la acústica a la vez** (art. 68.2 RGC).",
+  "Excepción: la **señal luminosa sola** cuando omitir la acústica no entrañe peligro alguno para los demás usuarios (art. 68.2).",
+  "Prioridad de paso; pueden superar los límites de velocidad y quedar exentos de otras normas o señales en los términos del reglamento (art. 27 Ley de Tráfico; art. 67.1 RGC).",
+  "**Uso ponderado** del régimen especial, solo en servicio urgente, y **extremadas precauciones** en intersecciones y semáforos hasta cerciorarse de que no hay riesgo (art. 67.2).",
+  "Con la condición de no poner en peligro a ningún usuario, pueden dejar de cumplir, **bajo su exclusiva responsabilidad**, las normas de los **títulos II, III y IV** del RGC, **salvo las órdenes y señales de los agentes** (art. 68.1).",
+  "En autopista o autovía, en servicio urgente y con carácter excepcional: media vuelta, marcha atrás, sentido contrario **solo por el arcén**, entrar en la mediana o en sus pasos transversales (art. 68.1).",
+  "Las infracciones al art. 68 son **graves** (art. 68.3).",
+  "Los demás conductores facilitan el paso: **a la derecha** o deteniéndose si es preciso, o conforme al art. 32 (carril de emergencia) (art. 69). Los peatones despejan la calzada (art. 122.5).",
+  "Carril de emergencia (art. 32): **dos carriles** por sentido, en el centro; **tres o más**, entre el carril de la izquierda y el contiguo.",
+  "**V-1** vehículo prioritario (luz **azul**, junto con la sirena); **V-3** vehículo de policía en servicio **no urgente** (rotulación); **V-2** (luz amarilla) es vehículo-obstáculo.",
+  "Luz roja delantera intermitente del vehículo de policía que va detrás: parar **a la derecha, delante del vehículo policial**, y **permanecer dentro** (art. 69).",
+  "Un vehículo no prioritario que realiza un servicio urgente por circunstancias especialmente graves avisa con el **avisador acústico intermitente y la luz de emergencia** (o un pañuelo) y **respeta las normas**, sobre todo en intersecciones (art. 70)."
+ ],
+ "resumen": [
+  {
+   "titulo": "Qué es un vehículo prioritario",
+   "puntos": [
+    "La Ley de Tráfico (art. 27) da **preferencia de paso** sobre los demás vehículos y usuarios a los vehículos de **servicio de urgencia** en servicio de tal carácter, a los **equipos de mantenimiento** de las instalaciones y de la infraestructura de la vía y a los **vehículos de auxilio en carretera** que acudan a un servicio. Pueden circular por encima de los límites de velocidad y están exentos de otras normas o señales «en los términos que reglamentariamente se determine».",
+    "El RGC (art. 67.1) reconoce la prioridad de paso a los vehículos de servicios de urgencia, **públicos o privados**, cuando se hallen en servicio de tal carácter.",
+    "**Tienen carácter de prioritarios** (art. 68.2) los vehículos de **policía, extinción de incendios, protección civil y salvamento, y asistencia sanitaria, pública o privada**, que circulen en **servicio urgente** y cuyos conductores adviertan su presencia con la utilización **simultánea** de la señal luminosa y del aparato emisor de señales acústicas especiales del anexo XI del Reglamento General de Vehículos.",
+    "Por excepción, usarán la señal luminosa **aisladamente** cuando omitir la acústica no entrañe peligro alguno para los demás usuarios (art. 68.2).",
+    "Los equipos de mantenimiento y los vehículos de auxilio en carretera tienen preferencia (Ley, art. 27), pero **no figuran** en la lista de prioritarios del art. 68.2."
+   ]
+  },
+  {
+   "titulo": "Cómo se conduce en servicio urgente (arts. 67 y 68 RGC)",
+   "puntos": [
+    "El conductor debe cerciorarse de que no pone en peligro a ningún usuario. Las **órdenes y señales de los agentes** son siempre de obligado cumplimiento (art. 68.1). Las infracciones al art. 68 son **graves** (art. 68.3).",
+    "El régimen especial solo se usa cuando se circula en prestación de un servicio urgente y con **uso ponderado** (art. 67.2). La responsabilidad es **exclusiva del conductor**."
+   ],
+   "tabla": {
+    "cabecera": [
+     "Pueden (bajo su exclusiva responsabilidad)",
+     "Límite"
+    ],
+    "filas": [
+     [
+      "Superar los límites de velocidad y quedar exentos de otras normas o señales (art. 67.1)",
+      "Uso **ponderado**, solo en servicio urgente (art. 67.2)"
+     ],
+     [
+      "No cumplir las normas de los **títulos II, III y IV** del RGC (art. 68.1)",
+      "Salvo las **órdenes y señales de los agentes**; sin poner en peligro a nadie"
+     ],
+     [
+      "Pasar con semáforo en rojo o sin respetar la prioridad (art. 67.2)",
+      "Solo tras **extremar las precauciones**, hasta cerciorarse de que no hay riesgo de atropello y de que los demás han detenido su marcha o se disponen a facilitar la suya"
+     ],
+     [
+      "En autopista o autovía: dar media vuelta o marcha atrás, circular en sentido contrario por el arcén, entrar en la mediana o en sus pasos transversales (art. 68.1)",
+      "Con carácter **excepcional**, en servicio urgente y sin comprometer la seguridad de ningún usuario"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Otras facultades y datos de apoyo para el conductor policial",
+   "ampliado": true,
+   "puntos": [
+    "La DGP recuerda que existen sentencias que condenan al conductor policial por el accidente que provoca aunque llevara activada la señalización de emergencia (IOPR-003).",
+    "Los agentes de la autoridad responsables del tráfico pueden situar sus vehículos en la parte de la vía necesaria para auxiliar o por necesidades del servicio, y determinan dónde se sitúan los de urgencia (art. 68.1, párrafo 3.º). Están exentos de la prohibición de usar móvil u otros medios de comunicación al conducir los agentes en el ejercicio de sus funciones (art. 18.2 RGC).",
+    "Base legal de las señales: el art. 44.4 de la Ley de Tráfico permite a los vehículos de servicios de urgencia usar otras señales ópticas y acústicas en los casos y condiciones que reglamentariamente se determinen; los arts. 111 y 112 RGC lo desarrollan.",
+    "Están exentos de la prohibición de usar móvil u otros medios de comunicación al conducir los agentes de la autoridad en el ejercicio de sus funciones (art. 18.2 RGC).",
+    "Para conducir vehículos de la Policía Nacional se exige el permiso de conducción de vehículos policiales, cuya aptitud declara y que expide la **DG de la Policía** a través del Área de Automoción (arts. 1 y 3 Orden INT/1518/2021)."
+   ],
+   "tabla": {
+    "cabecera": [
+     "Pueden (bajo su exclusiva responsabilidad)",
+     "Límite"
+    ],
+    "filas": [
+     [
+      "Usar los carriles reservados, como el VAO (art. 35.2), y el arcén para acceder al servicio (art. 36.4)",
+      "En el arcén, los demás vehículos del art. 36.4 no pasan de **30 km/h**; los prioritarios en servicio de urgencia, sí"
+     ],
+     [
+      "Pasar por un tramo de obras si es posible sin peligro ni daño (art. 60.3); entrar en un túnel con semáforo cerrado (art. 96.3)",
+      "Advirtiendo con la señalización correspondiente"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Comportamiento de los demás usuarios",
+   "puntos": [
+    "**Conductores** (art. 69): al percibir las señales especiales, adoptan las medidas adecuadas para facilitar el paso, apartándose normalmente **a su derecha** o deteniéndose si es preciso, o actuando conforme al art. 32.",
+    "**Carril de emergencia** (art. 32, desde el 1/10/2026): en autopistas y autovías, si la retención hace que los vehículos circulen a paso de peatón o se detengan, se orillan para dejar un espacio libre. Con **dos carriles** por sentido, se forma en el **centro**; con **tres o más**, entre el carril situado más a la izquierda y el contiguo (los del carril izquierdo se mueven lo más a la izquierda posible y los demás, lo más a la derecha posible).",
+    "**Nieve** (art. 32.2): en autopistas y autovías con la circulación dificultada, está prohibido adelantar y es obligatorio circular por el carril de la derecha (o su contiguo en tramos de tres o más), dejando expeditos los demás para los vehículos de emergencia y quitanieves.",
+    "**Luz roja delantera** (art. 69, párrafo 2.º): si un vehículo de policía que manifiesta su presencia con las señales del art. 68.2 se sitúa detrás del suyo y activa una luz roja hacia delante, intermitente o destellante, deténgase con precaución a la derecha, delante del vehículo policial, en un lugar sin mayores riesgos, y permanezca en el interior, atendiendo a las instrucciones del agente por megafonía.",
+    "**Peatones** (art. 122.5): al apercibirse de las señales ópticas o acústicas, despejan la calzada y permanecen en refugios o zonas peatonales o se alejan de la zona de circulación.",
+    "**Vehículos no prioritarios en servicio urgente** (art. 70): si circunstancias especialmente graves los fuerzan a realizar un servicio reservado a los prioritarios sin poder recurrir a otro medio, usan el avisador acústico intermitente y la luz de emergencia (o agitan un pañuelo), respetan las normas, sobre todo en intersecciones, y los agentes pueden exigir justificación. Infracción grave."
+   ]
+  },
+  {
+   "titulo": "Señales de emergencia: V-1, V-2, V-3 y sirena",
+   "puntos": [
+    "La **V-1** no requiere autorización administrativa según el anexo XI del Reglamento General de Vehículos, pero el art. 67.3 RGC dice que la instalación de aparatos emisores de luces y señales acústicas especiales requiere autorización de la **Jefatura Provincial de Tráfico**. Ante una pregunta literal del RGC, la respuesta es la Jefatura Provincial.",
+    "Solo los vehículos prioritarios instalan aparatos emisores de **señales acústicas especiales**, autorizados por el órgano competente en materia de industria (art. 11.7 RGV). Prohibido montar y usar la V-1 en vehículos no prioritarios (anexo XI, V-1.5).",
+    "La V-1 se instala en la parte delantera del plano superior del vehículo, por encima de la luz más alta, o en el perímetro de la zona más alta delantera y trasera. En **motocicletas**, en la parte trasera sobre un cabezal telescópico que permita elevarla, o incrustada en la parte delantera y trasera sin sobresalir del carenado. Los vehículos de policía pueden añadir dos fuentes luminosas azules (intermitentes o estroboscópicas) en el frontal, a la altura de las luces de cruce."
+   ],
+   "tabla": {
+    "cabecera": [
+     "Señal",
+     "Significado",
+     "Datos clave"
+    ],
+    "filas": [
+     [
+      "V-1",
+      "Vehículo prioritario: policía, extinción de incendios, protección civil y salvamento o asistencia sanitaria, en servicio urgente",
+      "Luz **azul** (Reglamento CEPE/ONU 65); visible a **50 m** en todas las direcciones; se usa con el aparato de señales acústicas especiales"
+     ],
+     [
+      "V-2",
+      "Vehículo-obstáculo en la vía (obras, servicios, transportes especiales)",
+      "Luz **amarillo auto**; visible a **100 m**; vehículo parado o a no más de 40 km/h"
+     ],
+     [
+      "V-3",
+      "Vehículo de policía en servicio **no urgente**",
+      "Rotulación en los costados con la denominación del cuerpo y su imagen corporativa; puede llevar línea de contorno reflectante y alumbrado de posición del color de la V-1"
+     ],
+     [
+      "V-4",
+      "Limitación de velocidad",
+      "Obligatoria en la parte posterior para determinados conductores, vehículos especiales y vehículos con autorización especial"
+     ]
+    ]
+   }
+  }
+ ],
+ "trampas": [
+  "Los **títulos** que pueden saltarse son el **II, III y IV** (no el I, II y III), y nunca las órdenes y señales de los agentes.",
+  "Señal luminosa **y** acústica a la vez; solo la luz cuando omitir la sirena no entraña peligro (no al revés).",
+  "Lista cerrada de prioritarios: policía, extinción de incendios, protección civil y salvamento, asistencia sanitaria (pública **o** privada). Grúas de auxilio y equipos de mantenimiento tienen preferencia (Ley, art. 27), pero no son «prioritarios» del art. 68.2.",
+  "**V-1** azul y prioritario; **V-2** amarilla (vehículo-obstáculo); **V-3** policía en servicio **no urgente**.",
+  "Sentido contrario en autopista o autovía: **solo por el arcén**, con carácter excepcional.",
+  "Arcén (art. 36.4): el límite de **30 km/h** no se aplica a los prioritarios en servicio de urgencia.",
+  "Autorización de la instalación: art. 67.3 RGC (**Jefatura Provincial de Tráfico**) frente a anexo XI RGV (V-1 sin autorización administrativa) y art. 11.7 RGV (sirena autorizada por Industria).",
+  "El art. 32 RGC ya no trata las calzadas de tres o más carriles (ahora en el art. 31.2): desde el 1/10/2026 regula los **carriles de emergencia**.",
+  "Las infracciones al art. 68 son **graves**, no leves ni muy graves."
+ ],
+ "caido": [
+  {
+   "examen": "23 abr 2023 (tres preguntas) y 25 oct 2025",
+   "concepto": "Conducción en autovía en servicio urgente; señales V-1 y V-4 y su colocación en motocicleta; autorización para instalar las señales especiales"
+  },
+  {
+   "examen": "1 mar 2025 (dos) y 25 oct 2025",
+   "concepto": "Orden INT/2573/2015 (vehículos de conducción de detenidos): extintor de polvo de 6 kg, climatización entre 18 y 28 grados, categoría M1 hasta nueve plazas (se desarrolla en el tema 44)"
+  },
+  {
+   "examen": "26 sep 2026",
+   "concepto": "Art. 68.2 RGC: qué vehículos son prioritarios y requisitos (señal luminosa y acústica simultáneas)"
+  }
+ ],
+ "mnemotecnias": [
+  "Prioritarios, PIPA: Policía, Incendios, Protección civil y salvamento, Asistencia sanitaria.",
+  "Se pueden saltar los títulos II (circular), III (otras normas) y IV (señalización); el I y las órdenes de los agentes, no.",
+  "Colores: V-1 azul (urgencia), V-2 amarillo (obstáculo), V-3 rotulación (policía sin urgencia)."
+ ],
+ "tarjetas": [
+  {
+   "p": "¿Qué vehículos tienen carácter de prioritarios según el art. 68.2 del RGC?",
+   "r": "Los de **policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria (pública o privada)** que circulan en **servicio urgente** y avisan con señal luminosa y acústica simultáneas."
+  },
+  {
+   "p": "¿Cuándo basta la señal luminosa sin la acústica?",
+   "r": "Cuando la omisión de las señales acústicas especiales **no entrañe peligro alguno** para los demás usuarios (art. 68.2)."
+  },
+  {
+   "p": "¿Qué normas pueden dejar de cumplir los conductores de vehículos prioritarios?",
+   "r": "Las de los **títulos II, III y IV** del RGC, bajo su exclusiva responsabilidad y sin poner en peligro a nadie, **salvo las órdenes y señales de los agentes** (art. 68.1)."
+  },
+  {
+   "p": "¿Qué maniobras excepcionales pueden hacer en autopista o autovía en servicio urgente?",
+   "r": "**Media vuelta, marcha atrás, circular en sentido contrario por el arcén** y penetrar en la mediana o en sus pasos transversales, sin comprometer la seguridad de nadie (art. 68.1)."
+  },
+  {
+   "p": "¿Cómo se califican las infracciones al art. 68 del RGC?",
+   "r": "Como **graves** (art. 68.3)."
+  },
+  {
+   "p": "¿Qué exige el art. 67.2 en intersecciones y semáforos?",
+   "r": "**Uso ponderado** del régimen especial y **extremadas precauciones** hasta cerciorarse de que no hay riesgo de atropello y de que los demás han detenido su marcha o se disponen a facilitarla."
+  },
+  {
+   "p": "¿Qué deben hacer los demás conductores ante un vehículo prioritario (art. 69)?",
+   "r": "Facilitar el paso **apartándose normalmente a la derecha o deteniéndose si es preciso**, o actuar conforme al art. 32 (carril de emergencia)."
+  },
+  {
+   "p": "¿Cómo se forma el carril de emergencia (art. 32, desde 1/10/2026)?",
+   "r": "Con **dos carriles** por sentido, en el **centro**; con **tres o más**, entre el carril **de la izquierda y el contiguo**. Solo en autopistas y autovías con retención."
+  },
+  {
+   "p": "Si un vehículo de policía situado detrás activa una luz roja delantera intermitente, ¿qué hay que hacer?",
+   "r": "Detenerse con precaución **a la derecha, delante del vehículo policial**, en un lugar sin mayores riesgos, y **permanecer en el interior** atendiendo al agente (art. 69)."
+  },
+  {
+   "p": "Diferencia entre las señales V-1, V-2 y V-3.",
+   "r": "**V-1**: vehículo prioritario en servicio urgente (luz azul). **V-2**: vehículo-obstáculo (luz amarillo auto). **V-3**: vehículo de policía en servicio **no urgente** (rotulación)."
+  },
+  {
+   "p": "¿Dónde se instala la V-1 en una motocicleta?",
+   "r": "En la parte trasera sobre un **cabezal telescópico** que permita elevarla, o **incrustada** en la parte delantera y trasera sin sobresalir del carenado (anexo XI RGV)."
+  },
+  {
+   "p": "¿Quién autoriza la instalación de luces y señales acústicas especiales según el art. 67.3 RGC?",
+   "r": "La **Jefatura Provincial de Tráfico**. El anexo XI RGV añade que usar la V-1 no requiere autorización administrativa y el art. 11.7 RGV exige la autorización del órgano de industria para la sirena."
+  },
+  {
+   "p": "¿Qué hace un particular que debe realizar un servicio urgente sin ser vehículo prioritario?",
+   "r": "Avisa con el **avisador acústico intermitente y la luz de emergencia** (o un pañuelo) y **respeta las normas**, sobre todo en intersecciones; los agentes pueden exigir justificación (art. 70)."
+  },
+  {
+   "p": "¿A qué velocidad pueden circular por el arcén los vehículos que acceden a un servicio de urgencia?",
+   "r": "A no más de **30 km/h**, **excepto los vehículos prioritarios en servicio de urgencia** (art. 36.4)."
+  },
+  {
+   "p": "Además de los de urgencia, ¿quién tiene preferencia de paso según el art. 27 de la Ley de Tráfico?",
+   "r": "Los **equipos de mantenimiento** de las instalaciones y de la infraestructura de la vía y los vehículos que acudan a un **servicio de auxilio en carretera**."
+  }
+ ],
+ "preguntas": [
+  {
+   "enunciado": "Según el art. 68.2 del Reglamento General de Circulación, ¿cuál de los siguientes vehículos NO tiene el carácter de prioritario?",
+   "opciones": [
+    "Una ambulancia de una empresa privada que circula en servicio urgente.",
+    "Un vehículo de protección civil y salvamento que circula en servicio urgente.",
+    "Una grúa de auxilio en carretera que acude a realizar un servicio."
+   ],
+   "correcta": 2,
+   "explicacion": "El art. 68.2 enumera los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria, pública o privada, en servicio urgente. La grúa de auxilio tiene preferencia de paso por el art. 27 de la Ley de Tráfico, pero no figura en esa lista de prioritarios.",
+   "ref": "art. 68.2 RGC; art. 27 RDL 6/2015",
+   "dificultad": 3
+  },
+  {
+   "enunciado": "¿Cómo deben advertir su presencia los conductores de vehículos de policía que circulan en servicio urgente para tener el carácter de prioritarios?",
+   "opciones": [
+    "Mediante la utilización simultánea de la señal luminosa y del aparato emisor de señales acústicas especiales.",
+    "Mediante la señal V-3 en todos los casos.",
+    "Mediante el aparato emisor de señales acústicas exclusivamente."
+   ],
+   "correcta": 0,
+   "explicacion": "El art. 68.2 exige la utilización simultánea de la señal luminosa y del aparato emisor de señales acústicas especiales previstos en el anexo XI del Reglamento General de Vehículos. La V-3 identifica a un vehículo de policía en servicio no urgente y la sirena sola no basta.",
+   "ref": "art. 68.2 RGC",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "Según el art. 68.2 del RGC, los conductores de vehículos prioritarios deben utilizar la señal luminosa aisladamente cuando:",
+   "opciones": [
+    "Circulen en poblado y de noche.",
+    "La omisión de las señales acústicas especiales no entrañe peligro alguno para los demás usuarios.",
+    "Circulen por vías con más de un carril por sentido."
+   ],
+   "correcta": 1,
+   "explicacion": "La excepción del párrafo segundo del art. 68.2 depende del peligro para los demás usuarios, no de la hora ni del tipo de vía: si omitir la sirena no entraña peligro alguno, se usa solo la luz.",
+   "ref": "art. 68.2 RGC",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "El art. 68.1 del RGC permite a los conductores de vehículos prioritarios, bajo su exclusiva responsabilidad, dejar de cumplir las normas de los títulos:",
+   "opciones": [
+    "I, II y III, incluidas las órdenes y señales de los agentes.",
+    "II y III únicamente, y también las señales de circulación.",
+    "II, III y IV, salvo las órdenes y señales de los agentes, que son siempre de obligado cumplimiento."
+   ],
+   "correcta": 2,
+   "explicacion": "Los títulos que pueden dejar de cumplirse son el II (circulación de vehículos), el III (otras normas de circulación) y el IV (señalización), a condición de haberse cerciorado de que no se pone en peligro a ningún usuario. Las órdenes y señales de los agentes son siempre de obligado cumplimiento.",
+   "ref": "art. 68.1 RGC",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "En una autovía, un vehículo prioritario que circula en servicio urgente puede, con carácter excepcional y sin comprometer la seguridad de ningún usuario:",
+   "opciones": [
+    "Dar media vuelta o marcha atrás, circular en sentido contrario por el arcén o penetrar en la mediana o en sus pasos transversales.",
+    "Circular en sentido contrario por cualquier carril de la calzada si está libre.",
+    "Únicamente superar el límite de velocidad, sin invertir el sentido ni entrar en la mediana."
+   ],
+   "correcta": 0,
+   "explicacion": "El párrafo segundo del art. 68.1 permite esas maniobras y limita la circulación en sentido contrario al arcén. No autoriza hacerlo por la calzada y va más allá de la mera superación del límite de velocidad.",
+   "ref": "art. 68.1 RGC",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Las infracciones a lo dispuesto en el art. 68 del RGC sobre las facultades de los conductores de vehículos prioritarios tienen la consideración de:",
+   "opciones": [
+    "Leves.",
+    "Graves.",
+    "Muy graves."
+   ],
+   "correcta": 1,
+   "explicacion": "El art. 68.3 califica de graves las infracciones a las normas de ese precepto.",
+   "ref": "art. 68.3 RGC",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "Una patrulla del CNP se aproxima en servicio urgente, con luces y sirena, a un semáforo en rojo. Según el art. 67.2 del RGC, su conductor debe:",
+   "opciones": [
+    "Cruzar sin reducir la velocidad, porque los vehículos prioritarios están exentos de cumplir las señales de los semáforos.",
+    "Detenerse siempre y esperar a que el semáforo se ponga en verde, porque la señal luminosa de la intersección no admite excepciones.",
+    "Adoptar extremadas precauciones y no cruzar hasta cerciorarse de que no hay riesgo de atropello y de que los demás conductores han detenido su marcha o se disponen a facilitar la suya."
+   ],
+   "correcta": 2,
+   "explicacion": "El art. 67.2 impone el uso ponderado del régimen especial y prohíbe vulnerar la prioridad de paso o las señales de los semáforos sin antes adoptar extremadas precauciones. La exención no autoriza a cruzar sin más, ni obliga a esperar siempre al verde.",
+   "ref": "art. 67.2 RGC",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "En una autopista con tres carriles por sentido y la circulación retenida, ¿dónde debe formarse el carril de emergencia para el paso de vehículos prioritarios según el art. 32 del RGC?",
+   "opciones": [
+    "Entre el carril situado más a la izquierda y el carril contiguo a él.",
+    "Entre el carril situado más a la derecha y el contiguo a él.",
+    "En el arcén de la derecha."
+   ],
+   "correcta": 0,
+   "explicacion": "Con tres o más carriles en el mismo sentido, el carril de emergencia se forma entre el carril más a la izquierda y el contiguo: los vehículos del carril izquierdo se mueven lo más a la izquierda posible y los de los demás carriles, lo más a la derecha posible. Con dos carriles, se forma en el centro.",
+   "ref": "art. 32.1 RGC (RD 518/2026)",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Un vehículo de policía que ha manifestado su presencia con las señales de prioritario se sitúa detrás del suyo y activa una luz roja intermitente dirigida hacia delante. Según el art. 69 del RGC, usted debe:",
+   "opciones": [
+    "Continuar hasta la siguiente salida y detenerse allí, descendiendo del vehículo para identificarse ante el agente.",
+    "Detener el vehículo con las debidas precauciones en el lado derecho, delante del vehículo policial, y permanecer en su interior, atendiendo a las instrucciones del agente.",
+    "Detenerse de inmediato en el carril por el que circula y salir del vehículo con las manos visibles."
+   ],
+   "correcta": 1,
+   "explicacion": "El párrafo segundo del art. 69 (RD 465/2025) ordena parar en el lado derecho, delante del vehículo policial, en un lugar sin mayores riesgos, y permanecer en el interior ajustándose a las instrucciones que el agente imparta por megafonía u otro medio.",
+   "ref": "art. 69 RGC",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "¿De qué color es la señal luminosa V-1 de vehículo prioritario?",
+   "opciones": [
+    "Amarillo auto.",
+    "Rojo.",
+    "Azul."
+   ],
+   "correcta": 2,
+   "explicacion": "El anexo XI del Reglamento General de Vehículos dispone que la V-1 es un dispositivo luminoso de color azul, homologado conforme al Reglamento CEPE/ONU 65. El amarillo auto es el color de la V-2, vehículo-obstáculo en la vía.",
+   "ref": "anexo XI RGV, V-1.3",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "Un vehículo de la Policía Nacional circula en servicio no urgente. ¿Qué señal de vehículo lo identifica según el art. 173 del RGC y el anexo XI del Reglamento General de Vehículos?",
+   "opciones": [
+    "La V-3, vehículo de policía, con la rotulación del cuerpo policial en sus costados.",
+    "La V-1, vehículo prioritario, sin utilizar la sirena.",
+    "La V-2, vehículo-obstáculo en la vía."
+   ],
+   "correcta": 0,
+   "explicacion": "La V-3 señaliza un vehículo de policía en servicio no urgente mediante la rotulación con la denominación del cuerpo y su imagen corporativa. La V-1 indica servicio urgente y la V-2 un vehículo que desempeña un trabajo en la vía.",
+   "ref": "art. 173 RGC; anexo XI RGV, V-3",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Un particular debe trasladar a un herido grave en su turismo porque no puede recurrir a otro medio. Según el art. 70 del RGC, debe:",
+   "opciones": [
+    "Instalar provisionalmente una señal luminosa V-1 y circular como vehículo prioritario.",
+    "Advertir su situación con el avisador acústico en forma intermitente y la luz de emergencia, o agitando un pañuelo, y respetar las normas de circulación, sobre todo en las intersecciones.",
+    "Circular sin respetar los semáforos, porque actúa en una situación de emergencia."
+   ],
+   "correcta": 1,
+   "explicacion": "El art. 70 no convierte en prioritario al vehículo: solo exige avisar de la especial situación y respetar las normas, sobre todo en las intersecciones. Además, los agentes pueden exigir justificación de las circunstancias, y la V-1 está prohibida en vehículos que no sean prioritarios.",
+   "ref": "art. 70 RGC; anexo XI RGV, V-1.5",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Según el art. 36.4 del RGC, los vehículos que acceden por el arcén a realizar un servicio de urgencia no pueden superar los 30 km/h, salvo:",
+   "opciones": [
+    "Los vehículos de auxilio en vías públicas.",
+    "Los equipos de mantenimiento de la infraestructura de la vía.",
+    "Los vehículos prioritarios en servicio de urgencia."
+   ],
+   "correcta": 2,
+   "explicacion": "El art. 36.4.b exceptúa del límite de 30 km/h a los vehículos prioritarios en servicio de urgencia. Los vehículos de auxilio en vías públicas y los equipos de mantenimiento sí están sujetos a ese límite.",
+   "ref": "art. 36.4 RGC",
+   "dificultad": 3
+  },
+  {
+   "enunciado": "Al apercibirse de las señales ópticas o acústicas de un vehículo prioritario, los peatones deben, según el RGC:",
+   "opciones": [
+    "Despejar la calzada y permanecer en los refugios o zonas peatonales, si existen, o alejarse de la zona de circulación de los vehículos.",
+    "Detenerse donde se encuentren, aunque sea en la calzada, y esperar a que pase.",
+    "Cruzar la calzada con rapidez para dejar libre el sentido de circulación."
+   ],
+   "correcta": 0,
+   "explicacion": "El art. 122.5 ordena a los peatones despejar la calzada y permanecer en refugios o zonas peatonales o, en su defecto, alejarse de la zona de circulación.",
+   "ref": "art. 122.5 RGC",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "Según el art. 27 de la Ley de Tráfico (RDL 6/2015), además de los vehículos de servicio de urgencia, tienen preferencia de paso sobre los demás vehículos y usuarios de la vía:",
+   "opciones": [
+    "Los vehículos de transporte colectivo de viajeros en servicio regular de líneas.",
+    "Los equipos de mantenimiento de las instalaciones y de la infraestructura de la vía y los vehículos que acudan a realizar un servicio de auxilio en carretera.",
+    "Los vehículos de las Fuerzas Armadas cuando circulen en convoy por vías de uso público."
+   ],
+   "correcta": 1,
+   "explicacion": "El art. 27 extiende la preferencia de paso a los equipos de mantenimiento de la infraestructura de la vía y a los vehículos que acuden a un servicio de auxilio en carretera. No la reconoce a los autobuses de línea ni a los convoyes militares.",
+   "ref": "art. 27 RDL 6/2015",
+   "dificultad": 3
+  },
+  {
+   "enunciado": "En las motocicletas, el dispositivo luminoso V-1 de vehículo prioritario se instala, según el anexo XI del Reglamento General de Vehículos:",
+   "opciones": [
+    "Únicamente en el casco del conductor, mediante un dispositivo luminoso azul.",
+    "Únicamente en el frontal, a la altura de las luces de cruce, sin elemento trasero.",
+    "En la parte trasera sobre un cabezal telescópico que permita elevarlo, o incrustado en la parte delantera y trasera sin sobresalir del carenado."
+   ],
+   "correcta": 2,
+   "explicacion": "El anexo XI (V-1.3) prevé para las motocicletas la parte trasera sobre un cabezal telescópico o la incrustación en la parte delantera y trasera sin sobresalir del carenado. El sistema auxiliar azul del frontal es solo un complemento voluntario de los vehículos de policía.",
+   "ref": "anexo XI RGV, V-1.3 y V-1.4",
+   "dificultad": 3
+  }
+ ],
+ "dudas": [
+  "Autorización de las luces y sirenas: el art. 67.3 RGC (Jefatura Provincial de Tráfico), el anexo XI RGV (la V-1 no requiere autorización administrativa) y el art. 11.7 RGV (órgano de industria para la sirena) no concuerdan del todo. No hay pregunta de test sobre ello porque la respuesta depende de qué texto se cite.",
+  "La IOPR-003 de la DGP es de 2013; no he podido comprobar si existe una edición posterior. Cita normas luego derogadas (Orden INT/161/2011), por lo que solo se usa para el comportamiento del conductor policial.",
+  "El art. 68.3 RGC remite al art. 65.4.c del antiguo texto articulado de 1990; hoy esa calificación corresponde al art. 76.c del RDL 6/2015 (preferencia de paso y utilización de carriles y arcenes). Es mi correspondencia, no una remisión actualizada del BOE.",
+  "Los contenidos de la Orden INT/2573/2015 (vehículos de conducción de detenidos), que el análisis de exámenes asigna a este tema, se desarrollan en el tema 44."
+ ]
+}

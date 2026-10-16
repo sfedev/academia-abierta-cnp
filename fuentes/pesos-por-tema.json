@@ -1,0 +1,317 @@
+[
+  {
+    "tema": 1,
+    "peso": "medio",
+    "preguntasMedia": 2.2,
+    "confianza": "media",
+    "nota": "Entre 0 y 4 por examen; centrado en nacionalidad (CC arts. 17-22) y vecindad civil; P43 no tuvo ninguna según Acopol."
+  },
+  {
+    "tema": 2,
+    "peso": "alto",
+    "preguntasMedia": 4.4,
+    "confianza": "alta",
+    "nota": "Nunca por debajo de 3 y con 7 en P43; Defensor del Pueblo (y MNP) y suspensión de derechos son recurrentes; Acopol cuenta aquí también arts. 141-153 y el Título VII."
+  },
+  {
+    "tema": 3,
+    "peso": "medio",
+    "preguntasMedia": 2.6,
+    "confianza": "baja",
+    "nota": "Sube a 3-4 en los tres últimos exámenes; mayorías, plazos y composición de órganos constitucionales (arts. 69, 78, 81-82, 112, 160, 167)."
+  },
+  {
+    "tema": 4,
+    "peso": "medio",
+    "preguntasMedia": 2.4,
+    "confianza": "alta",
+    "nota": "Estable entre 2 y 3; sedes, composición del TJUE, lista de Estados miembros y tipos de actos jurídicos."
+  },
+  {
+    "tema": 5,
+    "peso": "medio",
+    "preguntasMedia": 2.0,
+    "confianza": "alta",
+    "nota": "Entre 1 y 3; literalidad de la Ley 40/2015 y de la Ley 50/1997 (Consejo de Ministros, Gobierno en funciones)."
+  },
+  {
+    "tema": 6,
+    "peso": "medio",
+    "preguntasMedia": 2.2,
+    "confianza": "baja",
+    "nota": "Tendencia a la baja (4 en P40, 1 en P43); EBEP: adquisición/pérdida de la condición de funcionario y clases de empleados."
+  },
+  {
+    "tema": 7,
+    "peso": "medio",
+    "preguntasMedia": 3.0,
+    "confianza": "media",
+    "nota": "Irregular (0-6), unas 3 desde P41; estructura del RD 207/2024: DG Coordinación y Estudios, SG Asuntos Europeos, Gabinete de la SES."
+  },
+  {
+    "tema": 8,
+    "peso": "alto",
+    "preguntasMedia": 8.8,
+    "confianza": "alta",
+    "nota": "Tema dominante: entre 7 y 13 por examen (13 en P43), casi todo Orden INT/859/2023 más LO 4/2010 y LO 9/2015; preguntas de mucho detalle."
+  },
+  {
+    "tema": 9,
+    "peso": "alto",
+    "preguntasMedia": 5.0,
+    "confianza": "baja",
+    "nota": "Pasa de 2-3 a 6-7 desde P41; principios de actuación, Policía Judicial, unidades adscritas a CCAA (orgánico/funcional)."
+  },
+  {
+    "tema": 10,
+    "peso": "medio",
+    "preguntasMedia": 2.8,
+    "confianza": "media",
+    "nota": "A la baja (6 en P40, 1 en P43); RD 629/2022 y RD 1155/2024, familiares de ciudadano UE, estancia por estudios."
+  },
+  {
+    "tema": 11,
+    "peso": "bajo",
+    "preguntasMedia": 1.6,
+    "confianza": "alta",
+    "nota": "Entre 1 y 3; calificación y prescripción de infracciones y sanciones de la LO 4/2000."
+  },
+  {
+    "tema": 12,
+    "peso": "medio",
+    "preguntasMedia": 2.6,
+    "confianza": "media",
+    "nota": "3 o 4 salvo en P40 (0); Ley 12/2009 (OAR, frontera) y RD 220/2022 (sistema de acogida)."
+  },
+  {
+    "tema": 13,
+    "peso": "medio",
+    "preguntasMedia": 2.4,
+    "confianza": "media",
+    "nota": "A la baja (4 en P40, 1 en P43); Ley 5/2014: jefes de seguridad, detectives, competencias autonómicas, plazos de conservación."
+  },
+  {
+    "tema": 14,
+    "peso": "alto",
+    "preguntasMedia": 4.6,
+    "confianza": "alta",
+    "nota": "El más estable de los grandes (4-6 siempre); identificación (6 h), registros, infracciones, pasaporte y potestades especiales."
+  },
+  {
+    "tema": 15,
+    "peso": "bajo",
+    "preguntasMedia": 1.6,
+    "confianza": "alta",
+    "nota": "1-2 por examen; Catálogo Nacional con calificación de secreto (repetida en P41 y P43) y planes del sistema PIC."
+  },
+  {
+    "tema": 16,
+    "peso": "alto",
+    "preguntasMedia": 3.8,
+    "confianza": "baja",
+    "nota": "Salto de 2-3 a 7 en P43 con supuestos prácticos de teoría del delito; OPN contó 6 en P40."
+  },
+  {
+    "tema": 17,
+    "peso": "medio",
+    "preguntasMedia": 2.6,
+    "confianza": "baja",
+    "nota": "Cae de 5 a 0 en P43; lesiones, prisión permanente revisable, actos preparatorios, torturas e intimidad."
+  },
+  {
+    "tema": 18,
+    "peso": "alto",
+    "preguntasMedia": 3.4,
+    "confianza": "alta",
+    "nota": "Muy estable (3-4); calificar casos de hurto/robo/estafa/apropiación; novedad LO 1/2026 sobre hurto de móviles en P43."
+  },
+  {
+    "tema": 19,
+    "peso": "bajo",
+    "preguntasMedia": 1.4,
+    "confianza": "alta",
+    "nota": "1-2 por examen; atentado y equiparados, desórdenes públicos, armas (arts. 563-564) y falsa alarma."
+  },
+  {
+    "tema": 20,
+    "peso": "bajo",
+    "preguntasMedia": 1.4,
+    "confianza": "alta",
+    "nota": "Casi siempre 1; art. 197 CP y LECrim 588 (investigación tecnológica)."
+  },
+  {
+    "tema": 21,
+    "peso": "alto",
+    "preguntasMedia": 4.2,
+    "confianza": "alta",
+    "nota": "Estable 3-5; detención, habeas corpus, LECrim, LOPJ, jurado y Ministerio Fiscal."
+  },
+  {
+    "tema": 22,
+    "peso": "bajo",
+    "preguntasMedia": 1.8,
+    "confianza": "alta",
+    "nota": "A la baja (4 en P39, 1 desde P41); concepto de víctima, plazos y medidas del Estatuto."
+  },
+  {
+    "tema": 23,
+    "peso": "bajo",
+    "preguntasMedia": 2.0,
+    "confianza": "media",
+    "nota": "A la baja (3 en P39-P40, 1 en P42-P43); LO 3/2007, LO 1/2004, Ley 39/2006 y Ley 4/2023, sobre todo definiciones."
+  },
+  {
+    "tema": 24,
+    "peso": "bajo",
+    "preguntasMedia": 1.4,
+    "confianza": "alta",
+    "nota": "Entre 0 y 3; principios de la acción preventiva y definiciones de la Ley 31/1995."
+  },
+  {
+    "tema": 25,
+    "peso": "medio",
+    "preguntasMedia": 2.2,
+    "confianza": "alta",
+    "nota": "Sube de 1 a 3; RD 2/2006 (vigilancia de la salud, evaluación, delegados), RD 39/1997 y RD 67/2010."
+  },
+  {
+    "tema": 26,
+    "peso": "medio",
+    "preguntasMedia": 2.6,
+    "confianza": "baja",
+    "nota": "0-4 (2 en P43); el plazo de supresión de 20 años de la LO 7/2021 cayó en tres exámenes; LOPDGDD (14 años, derechos)."
+  },
+  {
+    "tema": 27,
+    "peso": "bajo",
+    "preguntasMedia": 1.4,
+    "confianza": "alta",
+    "nota": "1-2; OPCAT/Subcomité, Convención contra la Tortura, MNP y DUDH."
+  },
+  {
+    "tema": 28,
+    "peso": "bajo",
+    "preguntasMedia": 1.6,
+    "confianza": "alta",
+    "nota": "1-2; Foro Social Mundial (origen, primera edición y edición 2026), Seattle y autores (Klein, Sassen)."
+  },
+  {
+    "tema": 29,
+    "peso": "bajo",
+    "preguntasMedia": 1.0,
+    "confianza": "alta",
+    "nota": "0-2; Katz, estereotipo/prejuicio, escala F, Maslow."
+  },
+  {
+    "tema": 30,
+    "peso": "medio",
+    "preguntasMedia": 2.0,
+    "confianza": "baja",
+    "nota": "0-4, creciente en P42-P43 (4 y 3); delitos de odio (ONDOD, Observatorio, FARO) y teorías de psicología social."
+  },
+  {
+    "tema": 31,
+    "peso": "bajo",
+    "preguntasMedia": 0.8,
+    "confianza": "alta",
+    "nota": "Siempre 0-1; OIM, CETI, síndrome de Ulises, causas migratorias y procesos de cooperación."
+  },
+  {
+    "tema": 32,
+    "peso": "bajo",
+    "preguntasMedia": 0.8,
+    "confianza": "alta",
+    "nota": "Siempre 0-1; crecimiento vegetativo (repetida en P42 y P43), densidad y pirámides."
+  },
+  {
+    "tema": 33,
+    "peso": "bajo",
+    "preguntasMedia": 0.4,
+    "confianza": "alta",
+    "nota": "0-1 por examen; teoría de las actividades rutinarias e inseguridad subjetiva."
+  },
+  {
+    "tema": 34,
+    "peso": "bajo",
+    "preguntasMedia": 1.2,
+    "confianza": "alta",
+    "nota": "1-2; efectos por tipo de sustancia, tolerancia y nombres de calle."
+  },
+  {
+    "tema": 35,
+    "peso": "bajo",
+    "preguntasMedia": 1.0,
+    "confianza": "alta",
+    "nota": "0-2; ODS (17), definición de desarrollo sostenible, estrategias de la UE y cambio climático."
+  },
+  {
+    "tema": 36,
+    "peso": "bajo",
+    "preguntasMedia": 2.0,
+    "confianza": "alta",
+    "nota": "A la baja (4 en P39, 1 en P43); formato de frase correcta y definiciones gramaticales."
+  },
+  {
+    "tema": 37,
+    "peso": "bajo",
+    "preguntasMedia": 1.0,
+    "confianza": "alta",
+    "nota": "0-2; elegir la frase correctamente escrita (tildes, h, b/v, juntas/separadas)."
+  },
+  {
+    "tema": 38,
+    "peso": "bajo",
+    "preguntasMedia": 1.0,
+    "confianza": "alta",
+    "nota": "0-2; definición de sistema operativo, Android/Linux, deadlock, AIX."
+  },
+  {
+    "tema": 39,
+    "peso": "bajo",
+    "preguntasMedia": 1.2,
+    "confianza": "alta",
+    "nota": "0-3 (3 en P40); DHCP-DORA, capa de red OSI, tipos de servidores DNS, IANA."
+  },
+  {
+    "tema": 40,
+    "peso": "medio",
+    "preguntasMedia": 2.2,
+    "confianza": "media",
+    "nota": "Sube a 3 en P41-P43; herramientas OSINT, ciclo de inteligencia (CNI) y sesgos."
+  },
+  {
+    "tema": 41,
+    "peso": "bajo",
+    "preguntasMedia": 2.0,
+    "confianza": "alta",
+    "nota": "1-4 (4 en P39); nombres de ataques y malware (vishing, whaling, spoofing, ransomware, botnets, SQL)."
+  },
+  {
+    "tema": 42,
+    "peso": "medio",
+    "preguntasMedia": 2.2,
+    "confianza": "media",
+    "nota": "1-4; Reglamento de Armas: categorías, armas prohibidas y definiciones (repetición, semiautomática, piezas esenciales)."
+  },
+  {
+    "tema": 43,
+    "peso": "bajo",
+    "preguntasMedia": 1.0,
+    "confianza": "media",
+    "nota": "3 en P39 y como mucho 1 desde P40; Orden INT/2573/2015 (vehículos de detenidos) y RGC art. 68."
+  },
+  {
+    "tema": 44,
+    "peso": "bajo",
+    "preguntasMedia": 1.2,
+    "confianza": "media",
+    "nota": "0-3 (3 en P41); seguridad activa vs pasiva (ABS, eCall) y EDR."
+  },
+  {
+    "tema": 45,
+    "peso": "bajo",
+    "preguntasMedia": 0.8,
+    "confianza": "alta",
+    "nota": "Siempre 0-1; tiempo de reacción, Estrategia de Seguridad Vial 2030, tasas de alcohol."
+  }
+]

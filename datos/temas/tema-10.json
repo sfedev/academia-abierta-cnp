@@ -1,0 +1,599 @@
+{
+ "tema": 10,
+ "titulo": "Extranjería I: entrada, residencia y derechos",
+ "bloque": "A",
+ "actualizado": "2026-10-16",
+ "peso": {
+  "nivel": "medio",
+  "nota": "Media de 2,8 preguntas por examen (6 en P40, 1 en P43). Caen el RD 240/2007, la estancia por estudios, el arraigo, los visados y las novedades del nuevo Reglamento de extranjería (RD 1155/2024)."
+ },
+ "normas": [
+  {
+   "nombre": "Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social",
+   "boe": "BOE-A-2000-544",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544",
+   "verificado": "Texto consolidado, actualización de 03/07/2026 (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Real Decreto 1155/2024, de 19 de noviembre, por el que se aprueba el Reglamento de la Ley Orgánica 4/2000",
+   "boe": "BOE-A-2024-24099",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099",
+   "verificado": "Texto consolidado, actualización de 22/09/2026 (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Real Decreto 240/2007, de 16 de febrero, sobre entrada, libre circulación y residencia en España de ciudadanos de los Estados miembros de la Unión Europea y de otros Estados parte en el Acuerdo sobre el Espacio Económico Europeo",
+   "boe": "BOE-A-2007-4184",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-4184",
+   "verificado": "Texto consolidado, actualización de 19/12/2025 (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Real Decreto 316/2026, de 14 de abril, por el que se modifica el Real Decreto 1155/2024",
+   "boe": "BOE-A-2026-8284",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-8284",
+   "verificado": "Texto original publicado el 15/04/2026, sin consolidar (leído el 16/10/2026)"
+  },
+  {
+   "nombre": "Sentencias del Tribunal Supremo de 8 de julio de 2026 (recurso 19/2025) y de 29 de julio de 2026 (recurso 21/2025) que anulan preceptos del Reglamento",
+   "boe": "BOE-A-2026-19632",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-19632",
+   "verificado": "Fallos publicados en el BOE de 22/09/2026 (BOE-A-2026-19632 y BOE-A-2026-19633; leídos el 16/10/2026)"
+  }
+ ],
+ "novedades": [
+  "**RD 1155/2024** (BOE de 20/11/2024; en vigor a los 6 meses, el 20/05/2025): nuevo Reglamento de la LO 4/2000. **Deroga el RD 557/2011** (el reglamento anterior, que había sido modificado por el RD 629/2022). Cambios que se preguntan: «paso fronterizo» en lugar de «puesto», visados de tránsito aeroportuario, estancia de corta duración y larga duración, estancia por estudios con límite de 30 horas semanales, cinco tipos de arraigo, autorización de residencia para familiares de españoles (capítulo VII del título IV) y residencia de temporada de 4 años.",
+  "**RD 316/2026** (BOE de 15/04/2026) modifica el Reglamento: deroga la disposición transitoria 5.ª, añade las disposiciones adicionales 20.ª y 21.ª (arraigo para solicitantes de protección internacional anteriores al 01/01/2026 y arraigo extraordinario para quienes estaban en España antes de esa fecha; plazo de solicitud hasta el 30/06/2026, ya cerrado), añade el requisito de no ser titular ni interesado en procedimientos de estancia o residencia (art. 126.h) y amplía a los hijos mayores de 18 años y a los ascendientes directos la posibilidad de pedir en España la autorización de familiar de español (art. 97.1.c).",
+  "**Sentencias del Tribunal Supremo de 8 y 29 de julio de 2026** (BOE de 22/09/2026): anulan el párrafo tercero del art. 101.1 (las empresas de trabajo temporal no pueden ser titulares de autorizaciones de temporada), el art. 197.2 (obligación de relación electrónica) y varios incisos de los arts. 94.1.f, 97.4, 98.1, 159.1, 160.1 y 2, 166.1 y 196.b. No estudies esos preceptos en su redacción original.",
+  "**RDL 2/2025, de 18 de marzo,** añadió a la LO 4/2000 los arts. 35 bis a 35 quinquies (contingencia migratoria extraordinaria para menores extranjeros no acompañados) y las disposiciones adicionales 11.ª y 12.ª.",
+  "El Consejo de Ministros aprobó el 25/08/2026, según las notas oficiales de Interior y La Moncloa, anteproyectos de nueva ley de asilo y de reforma parcial de la LO 4/2000 para adaptarla al Pacto Europeo de Migración y Asilo (aplicable desde el 12/06/2026). **No son derecho vigente**: el texto consolidado leído no los incorpora."
+ ],
+ "clave": [
+  "**Estancia**: hasta **90 días** (art. 30.1 LO 4/2000). **Residencia temporal**: más de 90 días y menos de **5 años** (art. 31.1). **Larga duración**: tras **5 años** de residencia temporal continuada, indefinida (art. 32).",
+  "Reglamento vigente: **RD 1155/2024** (en vigor desde el 20/05/2025), que **derogó el RD 557/2011**. Ciudadanos UE/EEE: **RD 240/2007**.",
+  "**TIE** (tarjeta de identidad de extranjero): obligatoria si el visado o la autorización es de **más de 6 meses**; se solicita **personalmente en 1 mes** (art. 4.2 LO; art. 209 RD 1155/2024).",
+  "Entrada: por **pasos fronterizos habilitados**, con documento de viaje válido, visado si es exigible, justificación del objeto y **medios de vida** (art. 25 LO; arts. 1 y 4 R). Estancias cortas: **90 días en cualquier período de 180**.",
+  "Visados (Reglamento): **tránsito aeroportuario, estancia de corta duración y larga duración**. La LO (art. 25 bis) enumera **7 clases**; el de temporada habilita hasta **9 meses en 12 consecutivos**. Resolución de visados: **1 mes**, no prorrogable. Búsqueda de empleo: **12 meses**.",
+  "Trabajo: autorización de residencia y trabajo desde los **16 años** (art. 36 LO); por cuenta propia, **18 años** (art. 82 R). La eficacia de la inicial depende del **alta en la Seguridad Social** (3 meses desde la entrada legal).",
+  "Estudiantes extranjeros: pueden trabajar, con carácter general, hasta **30 horas semanales** (art. 57.2 R).",
+  "**Arraigo**: 5 tipos (segunda oportunidad, sociolaboral, social, socioformativo y familiar); **2 años** de permanencia continuada (no se exige en el familiar); duración **1 año** (familiar: **5 años**) (arts. 125-126 R).",
+  "Silencio: regla general **desestimatorio a los 3 meses**; **estimatorio** en prórrogas, renovaciones y larga duración (DA 1.ª LO).",
+  "UE/EEE: estancia de **menos de 3 meses** con pasaporte o documento de identidad; residencia superior: inscripción en **3 meses** y certificado de registro; familiar no UE: tarjeta de **5 años**; residencia permanente a los **5 años**, se pierde con **más de 2 años** de ausencia.",
+  "Familiares del régimen UE: cónyuge, pareja **registrada**, descendientes **menores de 21 años** (o mayores a cargo) y ascendientes **a cargo** (art. 2 RD 240/2007).",
+  "Reagrupación: reagrupante con **1 año** de residencia y autorización para otro año más; ingresos del **150 % del IPREM** (+50 % por miembro adicional); cónyuge o pareja **mayores de 18 años**; ascendientes **mayores de 65** (art. 17 LO; arts. 66-68 R).",
+  "Mujer extranjera en situación irregular que denuncia violencia de género o sexual: **no se incoa** (o se suspende) el expediente por estancia irregular (art. 31 bis LO)."
+ ],
+ "resumen": [
+  {
+   "titulo": "Qué norma manda",
+   "puntos": [
+    "Norma base: la **LO 4/2000**. Su desarrollo es el **RD 1155/2024**, en vigor desde el **20/05/2025** (a los 6 meses de su publicación), que **derogó el RD 557/2011**.",
+    "Los **ciudadanos UE/EEE** y sus familiares se rigen por el **RD 240/2007** (también los suizos, DA 3.ª); la LO 4/2000 y su Reglamento solo se aplican de forma supletoria o en lo que les sea más favorable (art. 1.3 LO; art. único.2 RD 1155/2024).",
+    "La política de inmigración la define el **Gobierno** (art. 2 bis LO). La integración se articula con la **Conferencia Sectorial de Inmigración** (coordina a las Administraciones, art. 68), el **Foro para la Integración Social de los Inmigrantes** (consulta, información y asesoramiento, art. 70), el **Observatorio Español del Racismo y la Xenofobia** (art. 71) y la **Comisión Laboral Tripartita de Inmigración** (art. 72)."
+   ]
+  },
+  {
+   "titulo": "Ciudadanos de la UE/EEE y sus familiares (RD 240/2007)",
+   "puntos": [
+    "Regula entrada, salida, circulación, estancia, residencia (también la permanente) y trabajo de los ciudadanos UE/EEE y de sus familiares, y las limitaciones por orden público, seguridad o salud públicas (art. 1).",
+    "Familiares (art. 2), de cualquier nacionalidad, si acompañan o se reúnen con el ciudadano: **cónyuge**; **pareja registrada**; **descendientes** (y los del cónyuge o pareja) **menores de 21 años**, mayores a cargo o incapaces; **ascendientes a cargo**. Otros familiares y la pareja estable (**1 año** de convivencia, salvo hijos comunes) solo tienen **facilitación** (art. 2 bis).",
+    "Entrada (art. 4): el ciudadano, con pasaporte o documento de identidad válido; el familiar no UE, con pasaporte y **visado solo si se exige** (gratuito y preferente). La tarjeta de residencia de familiar de otro Estado exime del visado y del sello. Estancia de **menos de 3 meses**: basta pasaporte o documento de identidad (art. 6).",
+    "Residencia de **más de 3 meses** (art. 7): trabajador; **recursos suficientes y seguro de enfermedad** (sin importe fijo; no se supera el nivel de la asistencia social ni la pensión mínima); estudiante con seguro y recursos; o familiar. Trámite: **inscripción** en el Registro Central de Extranjeros en **3 meses** y certificado de registro inmediato. El familiar no UE pide la **tarjeta de residencia de familiar** en 3 meses, se expide en otros 3 y vale **5 años** (art. 8).",
+    "Residencia permanente: **5 años** continuados; la tarjeta permanente de los familiares no UE se renueva automáticamente cada **10 años**; se pierde tras ausencia de **más de 2 años consecutivos** (arts. 10-11). La tarjeta de familiar caduca por ausencias de más de 6 meses en un año, con excepciones (art. 14.3).",
+    "Limitaciones (art. 15): solo por la **conducta personal** (amenaza real, actual y suficientemente grave) y nunca con fines económicos; la caducidad del pasaporte o de la tarjeta **no es causa de expulsión**. Para residentes permanentes hacen falta motivos graves, y con **10 años** de residencia o siendo menor, motivos imperiosos de seguridad pública. Resuelve el Subdelegado, con informe previo de la Abogacía del Estado, y la salida no puede fijarse en menos de **1 mes** salvo urgencia (arts. 16 y 18)."
+   ]
+  },
+  {
+   "titulo": "Derechos y libertades de los extranjeros e integración (LO 4/2000, arts. 2 ter-24)",
+   "puntos": [
+    "Criterio general (art. 3): ejercen los derechos de la ley **en condiciones de igualdad con los españoles**. Tienen el derecho y el deber de conservar su documentación (art. 4) y pagan los mismos impuestos (art. 15).",
+    "Integración (art. 2 ter): los poderes públicos la promueven de forma transversal, con atención a los valores constitucionales y de la UE, la escolarización obligatoria, las lenguas oficiales y el empleo. El informe de integración de la comunidad autónoma se valora en las renovaciones y es previo al arraigo (arts. 31.7 y 68.3)."
+   ],
+   "tabla": {
+    "cabecera": [
+     "Derecho",
+     "Régimen"
+    ],
+    "filas": [
+     [
+      "Circulación (art. 5)",
+      "Libre para quienes están legalmente en España; el **Ministro del Interior** puede imponer excepcionalmente, por seguridad pública, presentación periódica y alejamiento de fronteras o núcleos de población"
+     ],
+     [
+      "Participación (art. 6)",
+      "Residentes: **sufragio en elecciones municipales**; los Ayuntamientos empadronan a quien tenga domicilio habitual"
+     ],
+     [
+      "Reunión, asociación, sindicación y huelga (arts. 7, 8 y 11)",
+      "En las **mismas condiciones que los españoles**"
+     ],
+     [
+      "Educación (art. 9)",
+      "Menores de **16**: derecho y deber (básica, gratuita, obligatoria); menores de **18**: también posobligatoria"
+     ],
+     [
+      "Seguridad Social y servicios sociales (arts. 10 y 14)",
+      "Residentes, como los españoles. **Servicios y prestaciones sociales básicas: todos, cualquiera que sea su situación administrativa** (14.3)"
+     ],
+     [
+      "Garantías (arts. 20-22)",
+      "Tutela judicial, **asistencia jurídica gratuita** y letrado e intérprete en denegación de entrada, devolución, expulsión y protección internacional"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Entrada y salida del territorio español",
+   "puntos": [
+    "Requisitos (art. 25 LO; arts. 1 y 4 R): entrar por **pasos fronterizos habilitados** (la LO dice «puestos»), con documento de viaje válido (vigente **3 meses** tras la partida y expedido en los **10 años** anteriores), **visado** si es exigible, justificación del objeto y **medios de subsistencia**, sin prohibición de entrada. Estancias cortas: hasta **90 días en cualquier período de 180**. Por razones humanitarias, de interés público o compromisos de España puede autorizarse la entrada sin cumplirlos (art. 25.4 LO), por la **Comisaría General de Extranjería y Fronteras** (art. 4.3 R).",
+    "Visados: el Reglamento distingue **tránsito aeroportuario, estancia de corta duración y larga duración** (art. 25); la LO (art. 25 bis) enumera siete clases: tránsito, estancia, residencia, residencia y trabajo, residencia y trabajo de temporada, estudios e investigación. Se piden en las **oficinas consulares** y se resuelven en **1 mes** no prorrogable (DA 7.ª R). El visado de **búsqueda de empleo** da **12 meses** de residencia (art. 43 R).",
+    "Prohibición de entrada (art. 26 LO; art. 11 R): expulsados mientras dure la prohibición, devueltos dentro de su plazo, reclamados por delitos comunes graves, quienes tengan prohibición expresa del Ministro del Interior y los afectados por convenios internacionales o el Derecho de la UE.",
+    "Otros trámites: **declaración de entrada** ante la Policía en **3 días** si llega desde un Estado sin controles fronterizos y no tiene residencia (art. 13 R); **autorización de regreso** de hasta **90 días** (art. 5 R). El pasaporte con sello de entrada acredita la identidad y, sin visado de corta duración, la estancia (art. 207 R).",
+    "Salida (art. 28 LO; arts. 19-24 R): libre, salvo prohibición individual del **Ministro del Interior** por seguridad nacional o salud pública. Es **obligatoria** en caso de expulsión judicial, expulsión o devolución, denegación de solicitudes para seguir en España y fin del retorno voluntario; tras una denegación, el plazo es el de la resolución o **15 días**, prorrogable hasta **90** (art. 24 R)."
+   ]
+  },
+  {
+   "titulo": "Estancia y residencia: tipos, duración y plazos",
+   "puntos": [
+    "La estancia es la permanencia de hasta 90 días; pasado ese tiempo hace falta prórroga o autorización de residencia (art. 30 LO). Son residentes los titulares de una autorización para residir, temporal o de larga duración (art. 30 bis).",
+    "Para autorizar la residencia temporal se exige carecer de antecedentes penales en España y en los países de residencia anteriores (art. 31.5 LO). La residencia por circunstancias excepcionales (arraigo, razones humanitarias, colaboración con la justicia) **no requiere visado** (art. 31.3 LO; art. 130.1 R)."
+   ],
+   "tabla": {
+    "cabecera": [
+     "Autorización",
+     "Duración",
+     "Datos que se preguntan"
+    ],
+    "filas": [
+     [
+      "Estancia de corta duración (art. 30 LO; art. 48 R)",
+      "Hasta **90 días** en cualquier período de 180",
+      "Prórroga de estancia sin visado: hasta **3 meses** más (art. 49 R)"
+     ],
+     [
+      "Estancia de larga duración por estudios, movilidad de alumnos, voluntariado o actividades formativas (art. 33 LO; arts. 52-57 R)",
+      "La del programa, máximo **1 año** (estudios superiores: duración oficial)",
+      "Trabajo hasta **30 horas semanales**; solicitud con **2 meses** de antelación"
+     ],
+     [
+      "Residencia temporal no lucrativa (arts. 61-64 R)",
+      "**1 año**; renovada, **2 años**",
+      "Medios: **400 %** del IPREM (+100 % por familiar) y seguro de enfermedad"
+     ],
+     [
+      "Reagrupación familiar (arts. 16-19 LO; 65-71 R)",
+      "La del reagrupante (mínimo 1 año); renovada, **4 años**",
+      "Resolución en **2 meses**, silencio desestimatorio"
+     ],
+     [
+      "Residencia y trabajo por cuenta ajena (arts. 72-81 R)",
+      "Inicial: la de la actividad, máximo **1 año**; renovada, **4 años**",
+      "Ámbito autonómico y ocupación; alta en la Seguridad Social en **3 meses**; resolución en **3 meses**, silencio desestimatorio"
+     ],
+     [
+      "Residencia y trabajo por cuenta propia (arts. 82-87 R)",
+      "Inicial **1 año**; renovada **4 años**",
+      "Mayor de **18 años**"
+     ],
+     [
+      "Familiar de persona con nacionalidad española (arts. 93-99 R)",
+      "**5 años**",
+      "Hijos **menores de 26 años**; resolución en **2 meses**"
+     ],
+     [
+      "Residencia y trabajo de temporada (arts. 100-112 R)",
+      "**4 años** (máximo 9 meses de actividad por año natural)",
+      "Mayor de 16 años; contrato fijo-discontinuo"
+     ],
+     [
+      "Circunstancias excepcionales: arraigo (arts. 124-132 R)",
+      "**1 año**; arraigo familiar **5 años**",
+      "**2 años** de permanencia (salvo el familiar)"
+     ],
+     [
+      "Larga duración (art. 32 LO; arts. 175-185 R)",
+      "**Indefinida**; la TIE se renueva a los 5 años, luego cada 5 hasta los 30 años y cada 10 después",
+      "**5 años** de residencia legal continuada; silencio **estimatorio**; se extingue por ausencia de la UE durante **12 meses** consecutivos"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Reglas transversales: silencio, trabajo y reagrupación",
+   "puntos": [
+    "Plazo general de resolución: **3 meses**; el silencio es **desestimatorio** en las solicitudes iniciales y **estimatorio** en prórrogas de residencia, renovaciones de trabajo y larga duración (DA 1.ª LO). Las renovaciones se piden en los **2 meses previos** o hasta **3 meses después** (retrasarse hasta 3 meses es infracción leve, art. 52.b LO); pedirlas en plazo prorroga la autorización anterior.",
+    "Trabajo: autorización de residencia y trabajo desde los **16 años** (art. 36.1 LO). La falta de autorización **no invalida el contrato** respecto a los derechos del trabajador, pero no da derecho a prestación por desempleo (art. 36.5). Se valora la **situación nacional de empleo** con el Catálogo de ocupaciones de difícil cobertura, trimestral, del Servicio Público de Empleo Estatal (art. 38 LO; art. 75 R), salvo las excepciones del art. 40 LO.",
+    "Reagrupación (art. 17 LO; arts. 66-68 R): **cónyuge o pareja** mayores de 18 años (pareja estable: 12 meses de convivencia), hijos menores de 18 o con discapacidad, representados y **ascendientes** a cargo mayores de **65 años** (solo si el reagrupante es residente de larga duración). El reagrupante necesita **1 año** de residencia y autorización para otro año más, ingresos del **150 % del IPREM** (+50 % por miembro adicional), vivienda adecuada y seguro de enfermedad.",
+    "Víctimas: la mujer extranjera víctima de violencia de género o sexual puede obtener residencia y trabajo por circunstancias excepcionales desde la orden de protección o el informe del Ministerio Fiscal (art. 31 bis LO). La víctima de trata tiene un período de restablecimiento y reflexión de **al menos 90 días** (art. 59 bis LO)."
+   ]
+  }
+ ],
+ "trampas": [
+  "La LO 4/2000 habla de «puestos» fronterizos; el Reglamento de 2024 usa «**pasos** fronterizos». Si la pregunta es del Reglamento, la palabra correcta es «paso».",
+  "**3 meses no es 90 días**: el régimen comunitario habla de 3 meses (estancia y registro); el general, de **90 días** (en cualquier período de 180 en el Reglamento). El visado de estancia de la LO (art. 25 bis) todavía dice «tres meses por semestre».",
+  "Temporada: la **LO** dice **9 meses en un período de 12 meses consecutivos** (art. 25 bis); el **Reglamento** dice 9 meses **en un año natural** y una autorización de **4 años** (arts. 100-101).",
+  "Edades distintas según la figura: descendientes de ciudadano UE **menores de 21 años**; hijos de español **menores de 26 años**; reagrupación de hijos **menores de 18 años**, cónyuge **mayor de 18** y ascendientes **mayores de 65**.",
+  "El silencio no siempre es negativo: **desestimatorio** en la solicitud inicial, **estimatorio** en renovaciones, prórrogas y larga duración (DA 1.ª LO; arts. 64.8, 80.9 y 184.6 R).",
+  "Reglamentos sucesivos (RD 557/2011, RD 629/2022, RD 1155/2024): la pregunta puede apoyarse en el último. El «arraigo para la formación» pasa a ser el **arraigo socioformativo**.",
+  "Estancia, residencia y visado son tres figuras distintas: la **estancia por estudios** es de larga duración pero no es residencia, y el visado de larga duración incorpora la autorización.",
+  "No confundir **denegación de entrada** (regreso desde la frontera), **devolución** y **expulsión** (tema 11).",
+  "UE/EEE: la caducidad del pasaporte o de la tarjeta **no puede ser causa de expulsión** y el recurso a la asistencia social **no conlleva automáticamente** la expulsión (arts. 15.7 y 9 bis.2 RD 240/2007)."
+ ],
+ "caido": [
+  {
+   "examen": "23 abr 2023",
+   "concepto": "RD 240/2007: familiares incluidos (la pareja de hecho debe estar inscrita en un registro público), efectos de la tarjeta de familiar sobre el visado y el sello de entrada, y documentación de entrada de un familiar extranjero a cargo de un español (2 preguntas). Extranjera víctima de violencia de género en situación irregular: autorización por circunstancias excepcionales."
+  },
+  {
+   "examen": "13 abr 2024",
+   "concepto": "Documentación de entrada de familiares (RD 240/2007); estancia por estudios: trabajo hasta 30 horas semanales (2 preguntas); art. 36.5 LO 4/2000: la falta de autorización no invalida el contrato respecto a los derechos del trabajador; Código de Fronteras Schengen y controles a nacionales de la UE."
+  },
+  {
+   "examen": "1 mar 2025",
+   "concepto": "Arraigo para la formación (2 años de permanencia, residencia de 12 meses) y arraigo familiar en el nuevo Reglamento; tipos de visado: residencia y trabajo de temporada (9 de cada 12 meses) y búsqueda de empleo."
+  },
+  {
+   "examen": "25 oct 2025",
+   "concepto": "Arraigo y tipos de visado (residencia y trabajo de temporada, búsqueda de empleo) según el RD 1155/2024."
+  },
+  {
+   "examen": "26 sep 2026",
+   "concepto": "El pasaporte con sello de entrada acredita la identidad y, si no se exige visado de corta duración, la estancia (art. 207 RD 1155/2024); Código de Fronteras Schengen."
+  }
+ ],
+ "mnemotecnias": [
+  "Números del tema: **90** días de estancia, **5** años de larga duración, **1** mes para la TIE, **3** meses de silencio y de registro UE.",
+  "Edades: «21 comunitario, 26 español, 18 hijos, 65 abuelos» (descendientes UE, hijos de español, reagrupación de hijos y de cónyuge, ascendientes)."
+ ],
+ "tarjetas": [
+  {
+   "p": "¿Qué es la estancia y cuánto dura?",
+   "r": "La permanencia en España **no superior a 90 días** (art. 30.1 LO 4/2000). Pasado ese tiempo hace falta prórroga de estancia o autorización de residencia."
+  },
+  {
+   "p": "¿Qué es la residencia temporal?",
+   "r": "La situación que autoriza a permanecer **más de 90 días y menos de 5 años** (art. 31.1 LO; art. 60 RD 1155/2024)."
+  },
+  {
+   "p": "¿Qué exige la residencia de larga duración?",
+   "r": "**5 años** de residencia legal continuada. Las ausencias no la interrumpen si son de hasta 6 meses seguidos y suman como máximo **10 meses** (18 si son por motivos laborales) en esos 5 años (art. 183 R)."
+  },
+  {
+   "p": "¿Cuándo debe solicitar un extranjero la TIE?",
+   "r": "Si el visado o la autorización es de **más de 6 meses**: personalmente, en **1 mes** desde la entrada o desde la concesión (art. 4.2 LO; art. 209 R)."
+  },
+  {
+   "p": "¿Qué documento de viaje se exige para estancias de hasta 90 días?",
+   "r": "Válido, como mínimo, hasta **3 meses después** de la fecha prevista de partida y expedido en los **10 años** anteriores (art. 4.1.a R)."
+  },
+  {
+   "p": "¿Qué plazo hay para declarar la entrada si no se hizo en la frontera?",
+   "r": "**3 días**, en cualquier comisaría del Cuerpo Nacional de Policía. Obligados: nacionales de terceros países sin autorización de residencia que llegan desde un Estado con acuerdo de supresión de controles (art. 13 R)."
+  },
+  {
+   "p": "¿Qué es y cuánto dura la autorización de regreso?",
+   "r": "Permite salir y volver mientras se renueva la autorización de residencia o estancia (o se repone la TIE). Vigencia **no superior a 90 días** y solo por pasos fronterizos habilitados (art. 5 R)."
+  },
+  {
+   "p": "¿Quién puede prohibir la salida de España de un extranjero?",
+   "r": "El **Ministro del Interior**, excepcionalmente, por razones de seguridad nacional o salud pública y con carácter individual (art. 28.2 LO; art. 22 R)."
+  },
+  {
+   "p": "¿Cuándo es obligatoria la salida de España?",
+   "r": "Expulsión judicial; expulsión o devolución administrativas; denegación de solicitudes para seguir en España; fin del plazo de un programa de retorno voluntario (art. 28.3 LO)."
+  },
+  {
+   "p": "¿Qué familiares incluye el art. 2 del RD 240/2007?",
+   "r": "**Cónyuge**, **pareja registrada**, **descendientes** menores de 21 años (o mayores a cargo o incapaces) y **ascendientes a cargo**."
+  },
+  {
+   "p": "¿Qué trámite tiene un ciudadano UE que va a residir más de 3 meses?",
+   "r": "Inscribirse en el Registro Central de Extranjeros **en 3 meses** desde la entrada: se le expide un **certificado de registro** (art. 7.5 RD 240/2007). El familiar no UE pide la **tarjeta de residencia de familiar** (5 años; art. 8)."
+  },
+  {
+   "p": "Residencia permanente de un ciudadano UE: ¿cuándo se adquiere y cuándo se pierde?",
+   "r": "Se adquiere a los **5 años** de residencia legal continuada (art. 10.1) y se pierde por ausencia de **más de 2 años consecutivos** (art. 10.7)."
+  },
+  {
+   "p": "¿Cuáles son los tipos de arraigo del RD 1155/2024?",
+   "r": "**Segunda oportunidad, sociolaboral, social, socioformativo y familiar** (art. 125). Duran **1 año**, salvo el familiar (**5 años**)."
+  },
+  {
+   "p": "¿Qué ingresos exige la reagrupación familiar?",
+   "r": "**150 % del IPREM** para el reagrupante y un familiar, y **50 %** por cada miembro adicional; además, vivienda adecuada y seguro de enfermedad (art. 67 R)."
+  },
+  {
+   "p": "¿Qué órgano elabora el Catálogo de ocupaciones de difícil cobertura?",
+   "r": "El **Servicio Público de Empleo Estatal**, cada trimestre y tras consultar a la Comisión Laboral Tripartita de Inmigración (art. 38.2 LO; art. 75 R)."
+  },
+  {
+   "p": "¿Qué derecho tienen todos los extranjeros, cualquiera que sea su situación administrativa?",
+   "r": "A los **servicios y prestaciones sociales básicas** (art. 14.3 LO 4/2000)."
+  },
+  {
+   "p": "Educación de los extranjeros: ¿qué edades marca el art. 9 LO?",
+   "r": "Menores de **16**: derecho y deber a la enseñanza básica, gratuita y obligatoria. Menores de **18**: también la enseñanza posobligatoria."
+  }
+ ],
+ "preguntas": [
+  {
+   "enunciado": "Según la LO 4/2000, la estancia es la permanencia en territorio español por un período de tiempo no superior a:",
+   "opciones": [
+    "90 días",
+    "seis meses",
+    "30 días"
+   ],
+   "correcta": 0,
+   "explicacion": "Art. 30.1 LO 4/2000: la estancia no supera los 90 días; pasado ese tiempo hace falta una prórroga de estancia o una autorización de residencia (art. 30.2). Seis meses es el umbral a partir del cual el visado o la autorización obligan a solicitar la TIE (art. 4.2), y 30 días no es un plazo de la norma.",
+   "ref": "art. 30 LO 4/2000",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "La situación de residencia temporal autoriza a permanecer en España por un período superior a 90 días e inferior a:",
+   "opciones": [
+    "dos años",
+    "tres años",
+    "cinco años"
+   ],
+   "correcta": 2,
+   "explicacion": "Art. 31.1 LO 4/2000 y art. 60.1 RD 1155/2024: más de 90 días y menos de cinco años. Con cinco años de residencia temporal continuada se accede a la residencia de larga duración (art. 32.2).",
+   "ref": "art. 31.1 LO 4/2000; art. 60 RD 1155/2024",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "A un extranjero se le concede un visado de residencia de un año. ¿En qué plazo debe solicitar personalmente la tarjeta de identidad de extranjero (TIE)?",
+   "opciones": [
+    "En un mes desde su entrada en España",
+    "En quince días desde su entrada en España",
+    "En tres meses desde su entrada en España"
+   ],
+   "correcta": 0,
+   "explicacion": "Art. 4.2 LO 4/2000: los extranjeros con visado o autorización por un período superior a seis meses solicitan la TIE personalmente en el plazo de un mes desde su entrada o desde la concesión (arts. 37.3 y 209 RD 1155/2024). Tres meses es el plazo de inscripción de los ciudadanos UE (art. 7.5 RD 240/2007) y quince días no figura en la norma.",
+   "ref": "art. 4.2 LO 4/2000; arts. 37.3 y 209 RD 1155/2024",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Un ciudadano alemán trabaja por cuenta ajena en España y va a residir aquí más de tres meses. Según el RD 240/2007, debe:",
+   "opciones": [
+    "solicitar un visado de residencia en el consulado de España en su país",
+    "solicitar una autorización inicial de residencia y trabajo limitada a un ámbito autonómico",
+    "solicitar su inscripción en el Registro Central de Extranjeros en el plazo de tres meses desde su entrada, con lo que se le expide un certificado de registro"
+   ],
+   "correcta": 2,
+   "explicacion": "Art. 7.5 RD 240/2007: la inscripción en el Registro Central de Extranjeros se pide personalmente en tres meses desde la entrada y se expide de inmediato el certificado de registro. El visado y la autorización con límite geográfico y de ocupación son propios del régimen general; el ciudadano de la UE accede a la actividad en las mismas condiciones que los españoles (art. 3.2).",
+   "ref": "arts. 3 y 7 RD 240/2007",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "¿Cuál de los siguientes familiares NO está incluido en el art. 2 del RD 240/2007 como beneficiario directo del régimen comunitario?",
+   "opciones": [
+    "Un hermano mayor de edad del ciudadano de la UE",
+    "Un descendiente directo del ciudadano que tiene 19 años",
+    "Un ascendiente directo del ciudadano que vive a su cargo"
+   ],
+   "correcta": 0,
+   "explicacion": "El art. 2 incluye al cónyuge, a la pareja registrada, a los descendientes directos menores de 21 años (o mayores a cargo o incapaces) y a los ascendientes directos a cargo. Un hermano solo puede acogerse a la facilitación del art. 2 bis si acredita que está a cargo del ciudadano o convive con él, o que necesita sus cuidados por motivos graves de salud o discapacidad.",
+   "ref": "arts. 2 y 2 bis RD 240/2007",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Respecto a los recursos que debe acreditar un ciudadano de la UE para residir más de tres meses sin trabajar, el RD 240/2007 establece que:",
+   "opciones": [
+    "se exige un importe fijo equivalente al 400 % del IPREM",
+    "no puede fijarse un importe fijo y, en todo caso, no superará el nivel de recursos por debajo del cual se concede asistencia social a los españoles o el importe de la pensión mínima de la Seguridad Social",
+    "basta una declaración responsable de recursos, sin seguro de enfermedad"
+   ],
+   "correcta": 1,
+   "explicacion": "Art. 7.7 RD 240/2007; además hay que contar con un seguro de enfermedad que cubra todos los riesgos, según el art. 7.1 letra b. El 400 % del IPREM es la exigencia del régimen general para la residencia temporal no lucrativa (art. 62 RD 1155/2024), no del comunitario.",
+   "ref": "art. 7 RD 240/2007",
+   "dificultad": 3
+  },
+  {
+   "enunciado": "El derecho de residencia permanente de un ciudadano de la UE en España se pierde por ausencia del territorio español durante más de:",
+   "opciones": [
+    "dos años consecutivos",
+    "seis meses consecutivos",
+    "un año consecutivo"
+   ],
+   "correcta": 0,
+   "explicacion": "Art. 10.7 RD 240/2007: ausencia de más de dos años consecutivos (en la misma línea, las interrupciones de residencia no superiores a dos años no afectan a la tarjeta de residencia permanente de los familiares, art. 11.3). Las ausencias de más de seis meses en un año afectan a la tarjeta de familiar no permanente (art. 14.3).",
+   "ref": "art. 10.7 RD 240/2007",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Conforme al RD 1155/2024, el nacional de un tercer país sin autorización de residencia que llega a España desde otro Estado con el que hay acuerdo de supresión de controles fronterizos, si no declaró su entrada al llegar, debe hacerlo ante la Policía en el plazo de:",
+   "opciones": [
+    "veinticuatro horas",
+    "quince días",
+    "tres días"
+   ],
+   "correcta": 2,
+   "explicacion": "Art. 13 RD 1155/2024: la declaración de entrada se hace personalmente ante las autoridades policiales y, si no se efectuó en el momento de la entrada, en el plazo de tres días a partir de aquélla, en cualquier comisaría del Cuerpo Nacional de Policía. Se exceptúan los nacionales de Andorra, Mónaco y San Marino.",
+   "ref": "art. 13 RD 1155/2024",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Señale la afirmación INCORRECTA sobre la autorización de regreso regulada en el RD 1155/2024:",
+   "opciones": [
+    "Puede expedirse a quien tiene su autorización de residencia en período de renovación",
+    "Permite entrar en España por cualquier punto del territorio, incluso no habilitado, mientras está vigente",
+    "Su vigencia no puede ser superior a noventa días"
+   ],
+   "correcta": 1,
+   "explicacion": "Art. 5.6 RD 1155/2024: solo es válida para entrar por los pasos fronterizos habilitados españoles. Las otras dos afirmaciones son correctas (art. 5.1 y art. 5.2). La concede el Delegado o Subdelegado del Gobierno, el Comisario General de Extranjería y Fronteras o los titulares de comisarías y puestos fronterizos del Cuerpo Nacional de Policía (art. 5.4).",
+   "ref": "art. 5 RD 1155/2024",
+   "dificultad": 3
+  },
+  {
+   "enunciado": "Según la LO 4/2000, ¿quién puede prohibir, con carácter excepcional y de forma individual, la salida de un extranjero del territorio español por razones de seguridad nacional o de salud pública?",
+   "opciones": [
+    "El Delegado del Gobierno en la comunidad autónoma",
+    "El Juez de Instrucción del lugar de salida",
+    "El Ministro del Interior"
+   ],
+   "correcta": 2,
+   "explicacion": "Art. 28.2 LO 4/2000: corresponde al Ministro del Interior, y la instrucción y resolución de los expedientes de prohibición es siempre individual (art. 22 RD 1155/2024). La autorización judicial de salida del art. 57.7 afecta a extranjeros procesados o imputados, no a esta prohibición.",
+   "ref": "art. 28.2 LO 4/2000; art. 22 RD 1155/2024",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Según el art. 25 bis de la LO 4/2000, el visado de residencia y trabajo de temporada habilita para trabajar por cuenta ajena hasta:",
+   "opciones": [
+    "nueve meses en un período de doce meses consecutivos",
+    "seis meses en un período de doce meses consecutivos",
+    "doce meses en un período de veinticuatro meses"
+   ],
+   "correcta": 0,
+   "explicacion": "Art. 25 bis.2.e LO 4/2000. El Reglamento define la situación de residencia y trabajo de temporada como la de quien trabaja por períodos máximos de nueve meses en un año natural (art. 100) y la autorización dura cuatro años (art. 101.1).",
+   "ref": "art. 25 bis LO 4/2000; arts. 100-101 RD 1155/2024",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "El visado para la búsqueda de empleo regulado en el RD 1155/2024 permite desplazarse a España a buscar trabajo durante un período de residencia de:",
+   "opciones": [
+    "tres meses",
+    "doce meses",
+    "seis meses"
+   ],
+   "correcta": 1,
+   "explicacion": "Art. 43.1 RD 1155/2024: doce meses. Si obtiene un contrato, el empleador presenta la solicitud de autorización inicial de residencia y trabajo por cuenta ajena, y esa presentación prorroga la situación de residencia hasta que se resuelva (art. 43.4).",
+   "ref": "art. 43 RD 1155/2024",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "Con carácter general, la actividad laboral de un extranjero titular de una autorización de estancia de larga duración por estudios superiores no podrá superar:",
+   "opciones": [
+    "veinte horas semanales",
+    "cuarenta horas semanales",
+    "treinta horas semanales"
+   ],
+   "correcta": 2,
+   "explicacion": "Art. 57.2 RD 1155/2024: treinta horas semanales, salvo en la formación profesional de régimen intensivo; superar el límite es causa de extinción de la autorización. La actividad debe ser además compatible con los estudios (art. 33.4 LO 4/2000).",
+   "ref": "art. 57 RD 1155/2024",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "Para solicitar una autorización de residencia temporal por arraigo (salvo el arraigo familiar), el RD 1155/2024 exige haber permanecido en España de forma continuada, al menos, durante los:",
+   "opciones": [
+    "seis meses anteriores a la solicitud",
+    "dos años anteriores a la solicitud",
+    "cinco años anteriores a la solicitud"
+   ],
+   "correcta": 1,
+   "explicacion": "Art. 126.b RD 1155/2024: dos años; el arraigo familiar no requiere permanencia mínima. Si la persona fue solicitante de protección internacional, ese tiempo no cuenta hasta la resolución firme. Cinco años es la antigüedad de los antecedentes penales que se comprueban (art. 126.d), no la permanencia.",
+   "ref": "art. 126 RD 1155/2024",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Según el RD 1155/2024, la autorización de residencia temporal por circunstancias excepcionales por razón de arraigo familiar tiene una duración de:",
+   "opciones": [
+    "cinco años",
+    "un año",
+    "dos años"
+   ],
+   "correcta": 0,
+   "explicacion": "Art. 125.2 y art. 132.1 RD 1155/2024: las autorizaciones por arraigo de segunda oportunidad, sociolaboral, social y socioformativo duran un año; la de arraigo familiar, cinco años.",
+   "ref": "art. 125.2 RD 1155/2024",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Según la LO 4/2000, los ascendientes en primer grado del reagrupante y de su cónyuge pueden ser reagrupados, en general, si están a su cargo, existen razones que justifiquen su residencia y son mayores de:",
+   "opciones": [
+    "cincuenta y cinco años",
+    "sesenta años",
+    "sesenta y cinco años"
+   ],
+   "correcta": 2,
+   "explicacion": "Art. 17.1.d LO 4/2000: más de sesenta y cinco años; excepcionalmente, por razones humanitarias, pueden reagruparse ascendientes menores de esa edad. Además, solo pueden ser reagrupados cuando el reagrupante haya adquirido la residencia de larga duración (art. 18.1).",
+   "ref": "arts. 17.1.d y 18.1 LO 4/2000",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "Para reagrupar a un familiar, el reagrupante debe acreditar ingresos periódicos que, según el RD 1155/2024, equivalgan a:",
+   "opciones": [
+    "el 150 % del IPREM, más el 50 % por cada miembro adicional",
+    "el 100 % del IPREM, más el 25 % por cada miembro adicional",
+    "el 200 % del IPREM, sin incremento por miembros adicionales"
+   ],
+   "correcta": 0,
+   "explicacion": "Art. 67.1 RD 1155/2024: 150 % del IPREM para la unidad formada por el reagrupante y un familiar y 50 % del IPREM por cada miembro adicional. Debe sumarse la vivienda adecuada y el seguro de enfermedad (art. 67.2 y 67.3). Las otras cifras no figuran en la norma.",
+   "ref": "art. 67 RD 1155/2024",
+   "dificultad": 3
+  },
+  {
+   "enunciado": "En la residencia de larga duración nacional, la continuidad de los cinco años de residencia no se rompe por ausencias de hasta seis meses continuados, siempre que, por motivos no laborales, la suma de todas ellas no supere en esos cinco años:",
+   "opciones": [
+    "tres meses",
+    "diez meses",
+    "dieciocho meses"
+   ],
+   "correcta": 1,
+   "explicacion": "Art. 183.2 RD 1155/2024: diez meses en total. Cuando las ausencias son por motivos laborales, el tope de la suma es de dieciocho meses. Esta tolerancia no opera si las salidas se hicieron de manera irregular.",
+   "ref": "art. 183.2 RD 1155/2024",
+   "dificultad": 3
+  },
+  {
+   "enunciado": "Una persona extranjera pide la renovación de su autorización de residencia y trabajo por cuenta ajena y la Administración no resuelve de forma expresa en tres meses. El silencio administrativo tiene el efecto de que la solicitud se entienda:",
+   "opciones": [
+    "desestimada",
+    "caducada y archivada",
+    "estimada"
+   ],
+   "correcta": 2,
+   "explicacion": "DA 1.ª.2 LO 4/2000 y art. 80.9 RD 1155/2024: en las renovaciones, prórrogas de residencia y solicitudes de larga duración, el transcurso de tres meses sin respuesta supone la concesión. En las solicitudes iniciales, el silencio es desestimatorio (DA 1.ª.1 LO; art. 77.6 R).",
+   "ref": "DA 1.ª LO 4/2000; art. 80.9 RD 1155/2024",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Según la LO 4/2000, ¿cuál de las siguientes afirmaciones sobre los derechos de los extranjeros es correcta?",
+   "opciones": [
+    "Los extranjeros, cualquiera que sea su situación administrativa, tienen derecho a los servicios y prestaciones sociales básicas",
+    "Solo los extranjeros residentes tienen derecho a los servicios y prestaciones sociales básicas",
+    "Los extranjeros no pueden ejercer el derecho de huelga hasta obtener la residencia de larga duración"
+   ],
+   "correcta": 0,
+   "explicacion": "Art. 14.3 LO 4/2000. Los servicios y prestaciones sociales generales y específicos se reservan a los residentes en las mismas condiciones que los españoles (art. 14.2). La huelga y la sindicación se ejercen en las mismas condiciones que los españoles (art. 11).",
+   "ref": "arts. 11 y 14 LO 4/2000",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "Una mujer extranjera en situación irregular denuncia ser víctima de violencia de género y, al hacerlo, se pone de manifiesto su estancia irregular. Según la LO 4/2000:",
+   "opciones": [
+    "se tramita el procedimiento preferente y se ejecuta la expulsión",
+    "se archiva definitivamente el expediente y se le concede automáticamente la residencia",
+    "no se incoa el expediente sancionador por estancia irregular y se suspende el que ya estuviera incoado"
+   ],
+   "correcta": 2,
+   "explicacion": "Art. 31 bis.2 LO 4/2000: no se incoa el expediente por la infracción de estancia irregular del art. 53.1 letra a, y se suspende el incoado, o la ejecución de la expulsión o devolución acordadas. La residencia y trabajo por circunstancias excepcionales se puede solicitar desde la orden de protección o el informe del Ministerio Fiscal, pero no es automática; si el proceso penal no acredita la violencia, el expediente se incoa o continúa (art. 31 bis.4).",
+   "ref": "art. 31 bis LO 4/2000",
+   "dificultad": 2
+  },
+  {
+   "enunciado": "El Reglamento de la LO 4/2000 aprobado por el RD 1155/2024 derogó expresamente el Reglamento aprobado por:",
+   "opciones": [
+    "el RD 2393/2004",
+    "el RD 557/2011",
+    "el RD 864/2001"
+   ],
+   "correcta": 1,
+   "explicacion": "Disposición derogatoria única del RD 1155/2024: queda derogado el Reglamento aprobado por el RD 557/2011. Los RD 2393/2004 y 864/2001 son reglamentos de épocas anteriores a 2011. El RD 1155/2024 entró en vigor a los seis meses de su publicación.",
+   "ref": "disposición derogatoria única y final cuarta RD 1155/2024",
+   "dificultad": 1
+  },
+  {
+   "enunciado": "Según la LO 4/2000, los extranjeros residentes en España podrán ser titulares del derecho de sufragio en las elecciones:",
+   "opciones": [
+    "autonómicas",
+    "municipales",
+    "generales"
+   ],
+   "correcta": 1,
+   "explicacion": "Art. 6.1 LO 4/2000: sufragio en las elecciones municipales, en los términos de la Constitución, los tratados internacionales y la ley. Los poderes públicos facilitan además el ejercicio del sufragio en los procesos electorales de su país de origen (art. 6.4).",
+   "ref": "art. 6 LO 4/2000",
+   "dificultad": 1
+  }
+ ],
+ "dudas": [
+  "Los anteproyectos de nueva ley de asilo y de reforma parcial de la LO 4/2000 (Consejo de Ministros, 25/08/2026) se conocen por notas de prensa oficiales; no se ha leído su texto íntegro y no están en vigor.",
+  "No se ha leído el texto del Código de Fronteras Schengen (Reglamento (UE) 2016/399) ni de los Reglamentos ETIAS y SES: solo se recogen las remisiones del Reglamento de extranjería.",
+  "No se cita la cuantía en euros del IPREM (no verificada); las preguntas usan solo los porcentajes."
+ ]
+}
