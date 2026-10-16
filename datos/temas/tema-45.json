@@ -276,76 +276,94 @@
  ],
  "tarjetas": [
   {
+   "id": "t_45_01",
    "p": "¿Cuáles son los factores del tráfico?",
    "r": "El **factor humano, el vehículo y la vía y su entorno** (ambiental). El INSST añade la **organización del trabajo** en los accidentes laborales de tráfico."
   },
   {
+   "id": "t_45_02",
    "p": "¿Qué peso atribuye la DGT a cada factor?",
    "r": "**Humano 70-90 %**; vía y entorno 10-35 %; vehículo 4-13 % (rangos de estudios, no suman 100)."
   },
   {
+   "id": "t_45_03",
    "p": "¿Cuál es el tiempo de reacción normal?",
    "r": "Unos **0,75 s** entre percibir el peligro y accionar el freno. Aumenta con alcohol, fatiga, distracciones y calor."
   },
   {
+   "id": "t_45_04",
    "p": "¿Qué distancia se recorre durante el tiempo de reacción?",
    "r": "Unos **10,4 m a 50 km/h** y unos **25 m a 120 km/h**. Distancia de detención = reacción + frenado."
   },
   {
+   "id": "t_45_05",
    "p": "¿Qué tasas de alcohol se aplican a los conductores de vehículos de urgencia?",
    "r": "**0,3 g/l** en sangre o **0,15 mg/l** en aire espirado (art. 20 RGC); la general es 0,5 g/l o 0,25 mg/l. Los noveles (dos años), igual que urgencias."
   },
   {
+   "id": "t_45_06",
    "p": "¿Qué es un accidente laboral de tráfico in itínere?",
    "r": "El que sufre el trabajador **yendo o volviendo del domicilio habitual al trabajo**, sin interrupciones y por el itinerario habitual. Si ocurre durante la jornada por motivos de trabajo es **en jornada o en misión**."
   },
   {
+   "id": "t_45_07",
    "p": "¿Qué principios sustentan el Sistema Seguro?",
    "r": "**Falibilidad, vulnerabilidad, responsabilidad compartida y enfoque integral o de redundancia**. Visión Cero: eliminar las lesiones mortales y graves."
   },
   {
+   "id": "t_45_08",
    "p": "¿Qué objetivo fija la Estrategia de Seguridad Vial 2030?",
    "r": "Reducir a la mitad (**-50 %**) los fallecidos (base 2019: 1.755) y los heridos graves (8.613) en 2030."
   },
   {
+   "id": "t_45_09",
    "p": "¿Qué dice el RD 2/2006 sobre los EPI de los funcionarios del CNP?",
    "r": "La **Administración** los proporciona adecuados y vela por su uso efectivo y correcto (art. 6.2); el funcionario debe utilizarlos correctamente (art. 12.2)."
   },
   {
+   "id": "t_45_10",
    "p": "¿Qué EPI quedan fuera de la definición del RD 773/1997?",
    "r": "Entre otros, los de **militares, policías y servicios de mantenimiento del orden** y los de los medios de transporte por carretera (art. 2.2)."
   },
   {
+   "id": "t_45_11",
    "p": "¿Cuándo debe usar el conductor el chaleco reflectante de alta visibilidad?",
    "r": "Cuando **salga del vehículo y ocupe la calzada o el arcén de vías interurbanas** (art. 118.4 RGC). Es dotación del vehículo y EPI."
   },
   {
+   "id": "t_45_12",
    "p": "¿Qué protecciones llevan los motoristas?",
    "r": "**Casco** UNECE R22 (todas las vías), **guantes** (vías interurbanas) y **calzado cerrado** (todas las vías) (art. 118.1 RGC, desde 1/10/2026)."
   },
   {
+   "id": "t_45_13",
    "p": "Tipos de mantenimiento del vehículo policial (IOPR-003).",
    "r": "**Preventivo** (programa del fabricante), **predictivo** (inspecciones técnicas) y **correctivo** (avería o accidente)."
   },
   {
+   "id": "t_45_14",
    "p": "¿Cada cuánto se verifica el vehículo policial antes de usarlo?",
    "r": "En **cada cambio de turno** en los vehículos Zs y, en el resto, **al menos cada quince días**."
   },
   {
+   "id": "t_45_15",
    "p": "¿Cuándo no es apto un vehículo policial para el servicio?",
    "r": "Si falla alguna comprobación de **neumáticos, niveles, testigos (en rojo no se circula), iluminación o documentación**, hasta que se solucione."
   },
   {
+   "id": "t_45_16",
    "p": "¿Qué profundidad mínima de dibujo deben tener los neumáticos de un turismo?",
    "r": "**1,6 mm** en las ranuras principales (M1, N1, O1, O2); **1,0 mm** en M2, M3, N2, N3, O3 y O4 (anexo VII RGV)."
   },
   {
+   "id": "t_45_17",
    "p": "¿Qué es un plan de seguridad vial laboral?",
    "r": "Instrumento de planificación de la PRL con las **estrategias, acciones, mecanismos y medidas** para evitar y controlar los riesgos de la movilidad por motivo de trabajo, basado en la evaluación de riesgos y el análisis de la movilidad (INSST). Norma de referencia: ISO 39001."
   }
  ],
  "preguntas": [
   {
+   "id": "q_45_01",
    "enunciado": "¿Cuáles son los tres factores clásicos del tráfico que intervienen en la siniestralidad vial?",
    "opciones": [
     "El factor humano, el vehículo y la vía y su entorno.",
@@ -358,6 +376,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_45_02",
    "enunciado": "Según el Manual de la DGT, los estudios atribuyen al factor humano una implicación en los accidentes de tráfico de entre:",
    "opciones": [
     "El 40 y el 50 %.",
@@ -370,6 +389,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_45_03",
    "enunciado": "En condiciones normales, el tiempo de reacción de un conductor se considera de unos:",
    "opciones": [
     "0,25 segundos.",
@@ -382,6 +402,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_45_04",
    "enunciado": "Con un tiempo de reacción de 0,75 segundos, ¿qué distancia recorre aproximadamente un vehículo a 50 km/h antes de que el conductor accione el freno?",
    "opciones": [
     "Unos 10 metros.",
@@ -394,6 +415,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_45_05",
    "enunciado": "Según el art. 20 del RGC, la tasa máxima de alcohol de los conductores de vehículos de servicio de urgencia es de:",
    "opciones": [
     "0,5 g/l en sangre o 0,25 mg/l en aire espirado.",
@@ -406,6 +428,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_45_06",
    "enunciado": "Un agente sufre un accidente de tráfico conduciendo su turismo particular desde su domicilio hasta la comisaría, por su itinerario habitual y sin interrupciones. Según el INSST, es un accidente laboral de tráfico:",
    "opciones": [
     "En jornada laboral o en misión.",
@@ -418,6 +441,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_45_07",
    "enunciado": "Además de los factores humano, vehículo y vía y entorno, el INSST incluye entre los factores de riesgo de los accidentes laborales de tráfico:",
    "opciones": [
     "La organización del trabajo.",
@@ -430,6 +454,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_45_08",
    "enunciado": "¿Cuál NO es uno de los cuatro principios del Sistema Seguro de la Estrategia de Seguridad Vial 2030?",
    "opciones": [
     "Falibilidad.",
@@ -442,6 +467,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_45_09",
    "enunciado": "La Estrategia de Seguridad Vial 2030 fija como objetivo para ese año, respecto a 2019:",
    "opciones": [
     "Reducir un 25 % los fallecidos y un 50 % los heridos graves.",
@@ -454,6 +480,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_45_10",
    "enunciado": "Según el art. 2 del RD 773/1997, quedan excluidos de la definición de equipo de protección individual:",
    "opciones": [
     "Los equipos de protección individual de los militares, de los policías y de las personas de los servicios de mantenimiento del orden.",
@@ -466,6 +493,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_45_11",
    "enunciado": "Según el RD 2/2006, proporcionar a los funcionarios del CNP los equipos de protección individual adecuados y velar por su uso efectivo y correcto corresponde:",
    "opciones": [
     "Al propio funcionario.",
@@ -478,6 +506,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_45_12",
    "enunciado": "Según el art. 118.4 del RGC, el conductor de un turismo debe utilizar el chaleco reflectante de alta visibilidad:",
    "opciones": [
     "Siempre que conduzca por una vía interurbana.",
@@ -490,6 +519,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_45_13",
    "enunciado": "Según la IOPR-003 de la Dirección General de la Policía, el mantenimiento predictivo de los vehículos policiales es:",
    "opciones": [
     "El establecido en las inspecciones técnicas.",
@@ -502,6 +532,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_45_14",
    "enunciado": "La IOPR-003 exige verificar el vehículo policial antes de usarlo en cada cambio de turno, en los vehículos Zs, y en el resto de vehículos policiales como mínimo:",
    "opciones": [
     "Una vez al mes.",
@@ -514,6 +545,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_45_15",
    "enunciado": "¿Qué profundidad mínima deben tener las ranuras principales de la banda de rodadura de los neumáticos de un turismo (categoría M1) según el anexo VII del Reglamento General de Vehículos?",
    "opciones": [
     "1,0 mm.",
@@ -526,6 +558,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_45_16",
    "enunciado": "En la revisión previa de un vehículo patrulla, ¿qué hallazgo lo hace no apto para el servicio hasta que se solucione, según la IOPR-003?",
    "opciones": [
     "Un testigo luminoso de color rojo encendido tras arrancar el motor.",
@@ -538,6 +571,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_45_17",
    "enunciado": "¿Qué es un plan de seguridad vial laboral según el INSST?",
    "opciones": [
     "Un programa de formación obligatorio para obtener el permiso de conducción profesional de los trabajadores.",

@@ -286,88 +286,109 @@
   ],
   "tarjetas": [
     {
+      "id": "t_36_01",
       "p": "¿Cuántas clases de palabras reconoce la RAE y cuáles son invariables?",
       "r": "Nueve: sustantivo, adjetivo, determinante, pronombre, verbo, adverbio, preposición, conjunción e interjección. Invariables: **adverbio, preposición, conjunción e interjección**."
     },
     {
+      "id": "t_36_02",
       "p": "¿Qué es un morfema? Pon los morfemas de «habilidades».",
       "r": "La unidad mínima aislable en el análisis morfológico: raíz **habil-**, sufijo derivativo **-idad**, sufijo flexivo **-es**."
     },
     {
+      "id": "t_36_03",
       "p": "¿Cuáles son los modos del verbo español?",
       "r": "**Indicativo, subjuntivo e imperativo**."
     },
     {
+      "id": "t_36_04",
       "p": "¿Cómo se llama «haya cantado»?",
       "r": "Pretérito **perfecto compuesto de subjuntivo**."
     },
     {
+      "id": "t_36_05",
       "p": "¿Cómo se llama «había cantado»?",
       "r": "Pretérito **pluscuamperfecto de indicativo** (antecopretérito)."
     },
     {
+      "id": "t_36_06",
       "p": "¿Cómo se llama «canté» en la terminología actual?",
       "r": "Pretérito **perfecto simple** (también pretérito indefinido)."
     },
     {
+      "id": "t_36_07",
       "p": "¿Qué tipo de irregularidad tiene decir > digo?",
       "r": "**Mixta** (vocálica y consonántica a la vez)."
     },
     {
+      "id": "t_36_08",
       "p": "Preposiciones del español (inventario actual).",
       "r": "**23**: a, ante, bajo, cabe, con, contra, de, desde, durante, en, entre, hacia, hasta, mediante, para, por, según, sin, so, sobre, tras, versus, vía."
     },
     {
+      "id": "t_36_09",
       "p": "¿Cuándo «y» se convierte en «e» y «o» en «u»?",
       "r": "«y» → «e» ante i-/hi- (madre e hija), salvo diptongo (agua y hielo); «o» → «u» ante o-/ho- (siete u ocho)."
     },
     {
+      "id": "t_36_10",
       "p": "Relativos del español.",
       "r": "**Que, quien, cual, cuyo, cuanto, donde, cuando, como** (ocho)."
     },
     {
+      "id": "t_36_11",
       "p": "¿Es correcto «Hubieron muchos problemas»?",
       "r": "No: **haber impersonal** va en singular («Hubo muchos problemas»)."
     },
     {
+      "id": "t_36_12",
       "p": "¿Cuándo es correcto el leísmo?",
       "r": "El de **persona masculino singular** («A Mario le premiaron») no se considera incorrecto; laísmo y loísmo son siempre incorrectos."
     },
     {
+      "id": "t_36_13",
       "p": "Comparativos sincréticos y sus superlativos.",
       "r": "bueno → **mejor**/óptimo; malo → **peor**/pésimo; grande → **mayor**/máximo; pequeño → **menor**/mínimo."
     },
     {
+      "id": "t_36_14",
       "p": "Plural de «régimen», «bíceps» y «carácter».",
       "r": "**regímenes**, **los bíceps** (invariable), **caracteres**."
     },
     {
+      "id": "t_36_15",
       "p": "Diferencia entre atributo y predicativo.",
       "r": "Atributo: con ser, estar o parecer; admite «lo». Predicativo: con verbo pleno («Julio llegó radiante»); no admite «lo»."
     },
     {
+      "id": "t_36_16",
       "p": "Diferencia entre pasiva refleja e impersonal con se.",
       "r": "Pasiva refleja: el verbo concuerda con el sujeto («Se alquilan habitaciones»). Impersonal: singular («Se cura a los enfermos»)."
     },
     {
+      "id": "t_36_17",
       "p": "Diferencia entre relativa especificativa y explicativa.",
       "r": "Especificativa: sin comas, delimita el antecedente. Explicativa: entre comas, solo añade información."
     },
     {
+      "id": "t_36_18",
       "p": "¿Cómo se escribe: «grosso modo» o «a grosso modo»?",
       "r": "«**Grosso modo**» (‘aproximadamente’); «a grosso modo» es incorrecto."
     },
     {
+      "id": "t_36_19",
       "p": "¿Cómo se escribe: «motu proprio» o «de motu propio»?",
       "r": "«**Motu proprio**» (‘voluntariamente’), sin preposición antepuesta."
     },
     {
+      "id": "t_36_20",
       "p": "Perífrasis de fase inicial (incoativas).",
       "r": "**Empezar a**, **comenzar a** y **ponerse a** + infinitivo."
     }
   ],
   "preguntas": [
     {
+      "id": "q_36_01",
       "enunciado": "¿Cuál de las siguientes clases de palabras es invariable?",
       "opciones": [
         "El determinante",
@@ -380,6 +401,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_36_02",
       "enunciado": "La forma verbal «haya cantado» es el:",
       "opciones": [
         "Pretérito perfecto compuesto del modo subjuntivo",
@@ -392,6 +414,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_36_03",
       "enunciado": "La forma verbal «había cantado» es el:",
       "opciones": [
         "Pretérito anterior de indicativo",
@@ -404,6 +427,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_36_04",
       "enunciado": "Los modos verbales del español son:",
       "opciones": [
         "Indicativo, subjuntivo y condicional",
@@ -416,6 +440,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_36_05",
       "enunciado": "¿Cuál de las siguientes secuencias contiene únicamente preposiciones del inventario actual de la RAE?",
       "opciones": [
         "Mientras, sobre y bajo",
@@ -428,6 +453,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_36_06",
       "enunciado": "En la oración «No es azul, sino gris», la palabra «sino» es una conjunción:",
       "opciones": [
         "Adversativa",
@@ -440,6 +466,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_36_07",
       "enunciado": "Señale la expresión correcta respecto al uso de la conjunción copulativa:",
       "opciones": [
         "Madre e hija",
@@ -452,6 +479,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_36_08",
       "enunciado": "Señale la expresión correcta respecto al uso de la conjunción disyuntiva:",
       "opciones": [
         "Siete o ocho",
@@ -464,6 +492,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_36_09",
       "enunciado": "Señale la oración que contiene un uso incorrecto del pronombre átono:",
       "opciones": [
         "Les dije que esperaran.",
@@ -476,6 +505,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_36_10",
       "enunciado": "Señale la oración correcta respecto al uso del verbo haber:",
       "opciones": [
         "Hubieron muchos problemas en la reunión.",
@@ -488,6 +518,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_36_11",
       "enunciado": "Señale la oración sin dequeísmo ni queísmo:",
       "opciones": [
         "Creo que tienes razón.",
@@ -500,6 +531,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_36_12",
       "enunciado": "¿Cuál es el comparativo sincrético del adjetivo «pequeño»?",
       "opciones": [
         "Pequeñísimo",
@@ -512,6 +544,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_36_13",
       "enunciado": "Señale la expresión correcta con un comparativo:",
       "opciones": [
         "Hoy está muy mejor.",
@@ -524,6 +557,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_36_14",
       "enunciado": "Señale la expresión correcta con la apócope del adjetivo:",
       "opciones": [
         "Es un bueno comienzo.",
@@ -536,6 +570,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_36_15",
       "enunciado": "Los sufijos -dad, -ez, -eza y -ura forman principalmente sustantivos de:",
       "opciones": [
         "Cualidad (maldad, vejez, belleza, altura)",
@@ -548,6 +583,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_36_16",
       "enunciado": "¿Cuál es el plural correcto de «régimen»?",
       "opciones": [
         "Regímenes",
@@ -560,6 +596,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_36_17",
       "enunciado": "¿Cuál de los siguientes sustantivos mantiene la misma forma en singular y en plural?",
       "opciones": [
         "Lápiz",
@@ -572,6 +609,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_36_18",
       "enunciado": "En la oración «Se alquilan habitaciones», la construcción es:",
       "opciones": [
         "Una impersonal refleja, en la que «habitaciones» es complemento directo",
@@ -584,6 +622,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_36_19",
       "enunciado": "En la oración «Julio llegó radiante», la palabra «radiante» desempeña la función de:",
       "opciones": [
         "Atributo con verbo copulativo",
@@ -596,6 +635,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_36_20",
       "enunciado": "Según la clasificación de las oraciones por su modalidad, «Tal vez tengas razón» es una oración:",
       "opciones": [
         "Dubitativa",
@@ -608,6 +648,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_36_21",
       "enunciado": "En la oración «Los documentos, que se salvaron del incendio, son fundamentales», la oración de relativo es:",
       "opciones": [
         "Especificativa, porque delimita cuáles son los documentos fundamentales",
@@ -620,6 +661,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_36_22",
       "enunciado": "Señale la oración con un uso incorrecto del gerundio:",
       "opciones": [
         "Redactó el trabajo poniendo todo el cuidado del mundo.",
@@ -632,6 +674,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_36_23",
       "enunciado": "La irregularidad del verbo «decir» en la forma «digo» es:",
       "opciones": [
         "Vocálica, como la de «pedir > pido»",
@@ -644,6 +687,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_36_24",
       "enunciado": "Señale la expresión correcta con una locución latina:",
       "opciones": [
         "Lo calculó grosso modo.",

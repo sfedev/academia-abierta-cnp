@@ -226,76 +226,94 @@
   ],
   "tarjetas": [
     {
+      "id": "t_07_01",
       "p": "¿Qué norma desarrolla la estructura orgánica básica del Ministerio del Interior?",
       "r": "El **RD 207/2024, de 27 de febrero** (deroga el RD 734/2020), modificado por el RD 353/2025 y el RD 328/2026."
     },
     {
+      "id": "t_07_02",
       "p": "¿De qué órgano dependen las DG de la Policía, de la Guardia Civil, de RIE y de Coordinación y Estudios?",
       "r": "De la **Secretaría de Estado de Seguridad** (art. 1.5.a)."
     },
     {
+      "id": "t_07_03",
       "p": "¿Qué rango tienen los titulares de las DG de la Policía y de la Guardia Civil?",
       "r": "Rango de **subsecretario** (arts. 3.1 y 4.1)."
     },
     {
+      "id": "t_07_04",
       "p": "¿Qué es el CITCO y qué cuelga de él?",
       "r": "**Centro de Inteligencia contra el Terrorismo y el Crimen Organizado**, nivel de subdirección general, depende de la SES. De él dependen la **UNECI**, la **ONIP** y la **TEPOL** (art. 2.3)."
     },
     {
+      "id": "t_07_05",
       "p": "¿Quién ejerce la Relatoría Nacional contra la Trata de Seres Humanos?",
       "r": "El titular del **Gabinete de la Secretaría de Estado de Seguridad** (art. 2.2)."
     },
     {
+      "id": "t_07_06",
       "p": "¿Qué órgano es la Unidad Nacional de CEPOL?",
       "r": "La **DG de Coordinación y Estudios** (art. 6.1.9.º)."
     },
     {
+      "id": "t_07_07",
       "p": "¿Qué órgano gestiona el NFPOC con Frontex y el NCC de Eurosur?",
       "r": "La **DG de Relaciones Internacionales y Extranjería** (art. 5.1.i)."
     },
     {
+      "id": "t_07_08",
       "p": "¿Cuántas y cuáles son las SG de la DG de Relaciones Internacionales y Extranjería?",
       "r": "**Tres**: Cooperación Policial Internacional; Relaciones Internacionales, Inmigración y Extranjería; y Asuntos Europeos (art. 5.2)."
     },
     {
+      "id": "t_07_09",
       "p": "¿De quién depende la Inspección de Personal y Servicios de Seguridad y qué nivel tiene?",
       "r": "De la **DG de Coordinación y Estudios**; nivel de **subdirección general** (art. 6.2). Dirige la ONGADH."
     },
     {
+      "id": "t_07_10",
       "p": "¿Quién preside el Comité Ejecutivo de Coordinación y quién ejerce su secretaría?",
       "r": "Lo preside el **Secretario de Estado de Seguridad**; la secretaría es de la **DG de Coordinación y Estudios** (art. 2.4)."
     },
     {
+      "id": "t_07_11",
       "p": "¿Qué órgano dirige el CETSE?",
       "r": "La **SG de Sistemas de Información y Comunicaciones para la Seguridad**, órgano dependiente de la SES (art. 2.5.b)."
     },
     {
+      "id": "t_07_12",
       "p": "¿Qué es la Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado?",
       "r": "Un **organismo autónomo adscrito a la SES** (Estatuto: RD 904/2021). Su dirección la ejerce transitoriamente el Secretario de Estado (DT 3.ª)."
     },
     {
+      "id": "t_07_13",
       "p": "¿Qué órganos directivos dependen de la Subsecretaría del Interior?",
       "r": "**Cinco**: Secretaría General Técnica, DG de Política Interior, DG de Tráfico, DG de Apoyo a Víctimas del Terrorismo y DG de Protección Internacional (art. 9.5)."
     },
     {
+      "id": "t_07_14",
       "p": "¿Qué órgano ejerce las funciones de la Oficina de Asilo y Refugio?",
       "r": "La **DG de Protección Internacional** (art. 15), a través de sus SG de Relaciones Institucionales e Información y de Instrucción y Apatridia (art. 15.4)."
     },
     {
+      "id": "t_07_15",
       "p": "¿De quién depende la DG de Protección Civil y Emergencias desde el RD 328/2026?",
       "r": "De la **Secretaría General de Protección Civil y Emergencias**, que depende del Ministro (arts. 8 bis y 8 ter)."
     },
     {
+      "id": "t_07_16",
       "p": "¿Quién puede acordar el cierre temporal de un puesto fronterizo por razones de seguridad del Estado?",
       "r": "El **Secretario de Estado de Seguridad** (DA 3.ª RD 207/2024)."
     },
     {
+      "id": "t_07_17",
       "p": "¿Qué nivel orgánico tienen el Gabinete del Ministro y la Oficina de Comunicación?",
       "r": "Gabinete: **dirección general**. Oficina de Comunicación: **subdirección general**, dependiente directamente del Ministro (art. 1.3 y 1.4)."
     }
   ],
   "preguntas": [
     {
+      "id": "q_07_01",
       "enunciado": "Según el RD 207/2024, ¿de qué órgano dependen las Direcciones Generales de la Policía, de la Guardia Civil, de Relaciones Internacionales y Extranjería y de Coordinación y Estudios?",
       "opciones": [
         "De la Subsecretaría del Interior.",
@@ -308,6 +326,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_07_02",
       "enunciado": "¿Qué órgano del Ministerio del Interior actúa como Unidad Nacional de CEPOL, la Agencia de la Unión Europea para la Formación Policial?",
       "opciones": [
         "La Dirección General de Coordinación y Estudios.",
@@ -320,6 +339,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_07_03",
       "enunciado": "Señale cuál de las siguientes unidades NO depende del Centro de Inteligencia contra el Terrorismo y el Crimen Organizado (CITCO):",
       "opciones": [
         "La Unidad Nacional de Retirada de Contenidos Ilícitos en Internet (UNECI).",
@@ -332,6 +352,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_07_04",
       "enunciado": "Las funciones de Relatoría Nacional contra la Trata de Seres Humanos, conforme a la normativa internacional y europea, las ejerce según el RD 207/2024:",
       "opciones": [
         "La persona titular de la Dirección General de Relaciones Internacionales y Extranjería.",
@@ -344,6 +365,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_07_05",
       "enunciado": "Tras el Real Decreto 328/2026, ¿cuál de las siguientes afirmaciones sobre la estructura del Ministerio del Interior es correcta?",
       "opciones": [
         "La Dirección General de Protección Civil y Emergencias depende de la Subsecretaría del Interior.",
@@ -356,6 +378,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_07_06",
       "enunciado": "¿Qué rango tienen las personas titulares de las Direcciones Generales de la Policía y de la Guardia Civil según el RD 207/2024?",
       "opciones": [
         "Rango de subsecretario.",
@@ -368,6 +391,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_07_07",
       "enunciado": "Según el art. 2.1 del RD 207/2024, ¿a quién corresponde la dirección del Sistema Nacional de Protección de Infraestructuras Críticas?",
       "opciones": [
         "Al Director General de Coordinación y Estudios.",
@@ -380,6 +404,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_07_08",
       "enunciado": "¿Cuál de las siguientes funciones corresponde a la Dirección General de Coordinación y Estudios?",
       "opciones": [
         "Dirigir el Centro Tecnológico de Seguridad (CETSE).",
@@ -392,6 +417,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_07_09",
       "enunciado": "Señale cuál de las siguientes NO es una subdirección general de la Dirección General de Relaciones Internacionales y Extranjería:",
       "opciones": [
         "La Subdirección General de Cooperación Policial Internacional.",
@@ -404,6 +430,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_07_10",
       "enunciado": "¿Qué afirmación sobre la Inspección de Personal y Servicios de Seguridad es correcta?",
       "opciones": [
         "Depende directamente del Secretario de Estado de Seguridad y tiene nivel de dirección general.",
@@ -416,6 +443,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_07_11",
       "enunciado": "En el Comité Ejecutivo de Coordinación, presidido por el Secretario de Estado de Seguridad, ¿quién ejerce las funciones de secretaría?",
       "opciones": [
         "La persona titular de la Dirección General de Coordinación y Estudios.",
@@ -428,6 +456,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_07_12",
       "enunciado": "Por razones de seguridad del Estado se hace necesario cerrar temporalmente un puesto fronterizo habilitado para el paso de personas. Según el RD 207/2024, ¿quién tiene desconcentrada la competencia para acordarlo?",
       "opciones": [
         "El Secretario de Estado de Seguridad.",
@@ -440,6 +469,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_07_13",
       "enunciado": "¿Cuál de las siguientes parejas órgano-nivel orgánico es correcta?",
       "opciones": [
         "Gabinete de la Secretaría de Estado de Seguridad: dirección general.",
@@ -452,6 +482,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_07_14",
       "enunciado": "¿Cuántos órganos directivos dependen de la Subsecretaría del Interior según la redacción vigente del RD 207/2024?",
       "opciones": [
         "Seis.",
@@ -464,6 +495,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_07_15",
       "enunciado": "¿Qué órgano directivo del Ministerio del Interior ejerce las funciones que el ordenamiento jurídico atribuye a la Oficina de Asilo y Refugio?",
       "opciones": [
         "La Dirección General de Relaciones Internacionales y Extranjería.",
@@ -476,6 +508,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_07_16",
       "enunciado": "Un expediente exige las relaciones del Ministerio con una Subdelegación del Gobierno en una cuestión de protección internacional. Según el RD 207/2024, ¿qué órgano tiene atribuida esa función de forma específica?",
       "opciones": [
         "La Dirección General de Protección Internacional.",
@@ -488,6 +521,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_07_17",
       "enunciado": "Respecto de la Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado, indique la afirmación correcta:",
       "opciones": [
         "Es una subdirección general integrada en el CITCO.",
@@ -500,6 +534,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_07_18",
       "enunciado": "¿Qué subdirección general, dependiente de la Secretaría de Estado de Seguridad, dirige el Centro Tecnológico de Seguridad (CETSE)?",
       "opciones": [
         "La Subdirección General de Planificación y Gestión de Infraestructuras y Medios para la Seguridad.",

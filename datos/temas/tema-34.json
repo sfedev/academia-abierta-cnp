@@ -227,80 +227,99 @@
   ],
   "tarjetas": [
     {
+      "id": "t_34_01",
       "p": "¿Qué es la tolerancia?",
       "r": "Disminución de la respuesta a una dosis concreta de una droga con el uso continuado: se necesitan **dosis más altas** para obtener los efectos iniciales."
     },
     {
+      "id": "t_34_02",
       "p": "¿Cuándo se diagnostica un síndrome de dependencia según la CIE-10?",
       "r": "Cuando se han experimentado **tres o más** de los criterios especificados en el plazo de **un año**."
     },
     {
+      "id": "t_34_03",
       "p": "¿Qué términos sustituyó «dependencia» según la OMS?",
       "r": "**Adicción** y **habituación** (Comité de Expertos de la OMS, 1964; recomendación consolidada en los años 60)."
     },
     {
+      "id": "t_34_04",
       "p": "Diferencia entre dependencia psicológica y física.",
       "r": "Psicológica: deterioro del control sobre el consumo (ansia, compulsión). Física: **tolerancia y síntomas de abstinencia**."
     },
     {
+      "id": "t_34_05",
       "p": "¿Qué es el síndrome de abstinencia?",
       "r": "Conjunto de síntomas que aparece al suspender o reducir un consumo repetido, habitualmente prolongado o en dosis altas."
     },
     {
+      "id": "t_34_06",
       "p": "¿Qué es la politoxicomanía?",
       "r": "Consumo de **más de una droga o de más de un tipo de droga** por la misma persona, a la vez o sucesivamente (policonsumo)."
     },
     {
+      "id": "t_34_07",
       "p": "¿Qué es un speedball?",
       "r": "Mezcla de un **estimulante y un opiáceo**: cocaína y heroína, o anfetamina y heroína."
     },
     {
+      "id": "t_34_08",
       "p": "¿Cuáles son las vías de administración?",
       "r": "Oral, inyección (intravenosa, subcutánea, intramuscular), inhalación, fumada y absorción por piel o mucosas."
     },
     {
+      "id": "t_34_09",
       "p": "¿Cómo se clasifican las drogas según su efecto en el SNC?",
       "r": "**Depresoras**, **estimulantes** y **alucinógenas** (perturbadoras)."
     },
     {
+      "id": "t_34_10",
       "p": "¿Qué tipo de sustancia es el GHB?",
       "r": "Un potente **depresor** del sistema nervioso central («éxtasis líquido», «G», «biberón»)."
     },
     {
+      "id": "t_34_11",
       "p": "¿Qué tipo de sustancia es la mescalina?",
       "r": "**Alucinógena**; procede del peyote."
     },
     {
+      "id": "t_34_12",
       "p": "¿Qué efectos tienen las benzodiazepinas?",
       "r": "Sedantes/hipnóticos, relajantes musculares y antiepilépticos (potencian el GABA); pueden dar dependencia y abstinencia."
     },
     {
+      "id": "t_34_13",
       "p": "¿Qué son las catinonas sintéticas?",
       "r": "**Estimulantes** químicamente relacionados con la catinona del khat (mefedrona, metilona, MDPV)."
     },
     {
+      "id": "t_34_14",
       "p": "¿Qué pena prevé el art. 368 CP para el tráfico de sustancias que causan grave daño a la salud?",
       "r": "Prisión de **tres a seis años** y multa; para las demás sustancias, de uno a tres años."
     },
     {
+      "id": "t_34_15",
       "p": "¿A quién se dirigen EDADES y ESTUDES?",
       "r": "EDADES: población de **15 a 64 años** en hogares (serie bienal desde 1995). ESTUDES: estudiantes de **14 a 18 años** de Enseñanzas Secundarias."
     },
     {
+      "id": "t_34_16",
       "p": "Prevalencias de consumo en 12 meses en EDADES 2024.",
       "r": "**Alcohol 76,5 %**, tabaco 36,8 %, cannabis 12,6 %, hipnosedantes 12,0 %, cocaína 2,5 %."
     },
     {
+      "id": "t_34_17",
       "p": "¿Qué mostró ESTUDES 2025 sobre tabaco y cannabis?",
       "r": "**Mínimos históricos**: 27,3 % ha fumado alguna vez y 21,0 % ha probado cannabis."
     },
     {
+      "id": "t_34_18",
       "p": "¿Qué es la EUDA?",
       "r": "La Agencia de la Unión Europea sobre Drogas, sucesora del antiguo OEDT/EMCDDA desde el 2 de julio de 2024."
     }
   ],
   "preguntas": [
     {
+      "id": "q_34_01",
       "enunciado": "En el ámbito de las drogodependencias, la tolerancia consiste en:",
       "opciones": [
         "La aparición de síntomas físicos y psíquicos al suspender o reducir bruscamente el consumo de una sustancia",
@@ -313,6 +332,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_34_02",
       "enunciado": "Según la CIE-10, recogida en el glosario de la OMS, un síndrome de dependencia debe diagnosticarse cuando se han experimentado:",
       "opciones": [
         "Tres o más de los criterios especificados en el plazo de un año",
@@ -325,6 +345,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_34_03",
       "enunciado": "En los años sesenta la OMS recomendó que dejaran de usarse los términos «adicción» y «habituación» en favor de:",
       "opciones": [
         "Politoxicomanía, que designa cualquier consumo de drogas",
@@ -337,6 +358,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_34_04",
       "enunciado": "Según el glosario de la OMS, el policonsumo o politoxicomanía es:",
       "opciones": [
         "El consumo de una sola droga por vía inyectada con dosis cada vez mayores",
@@ -349,6 +371,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_34_05",
       "enunciado": "¿Qué es un speedball?",
       "opciones": [
         "La combinación de dos estimulantes, por ejemplo cocaína y anfetamina",
@@ -361,6 +384,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_34_06",
       "enunciado": "Según el Plan Nacional sobre Drogas, el GHB, llamado «éxtasis líquido», es:",
       "opciones": [
         "Un potente depresor del sistema nervioso central, que no debe confundirse con el éxtasis, que es un estimulante",
@@ -373,6 +397,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_34_07",
       "enunciado": "La mescalina, sustancia presente en el peyote, es:",
       "opciones": [
         "Una sustancia alucinógena",
@@ -385,6 +410,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_34_08",
       "enunciado": "Las benzodiazepinas son fármacos que:",
       "opciones": [
         "Estimulan el sistema nervioso central y carecen de potencial de dependencia",
@@ -397,6 +423,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_34_09",
       "enunciado": "Señale la afirmación INCORRECTA sobre la clasificación de las drogas por sus efectos en el sistema nervioso central:",
       "opciones": [
         "Los barbitúricos y las benzodiazepinas son depresores del sistema nervioso central",
@@ -409,6 +436,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_34_10",
       "enunciado": "¿Cuál de los siguientes grupos contiene únicamente sustancias estimulantes del sistema nervioso central?",
       "opciones": [
         "Cocaína, heroína y nicotina",
@@ -421,6 +449,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_34_11",
       "enunciado": "Según el glosario de la OMS, la vía de administración de una sustancia es:",
       "opciones": [
         "El modo o forma de introducirla en el organismo: oral, inyección, inhalación, fumada o absorción por piel o mucosas",
@@ -433,6 +462,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_34_12",
       "enunciado": "En el glosario de la OMS, el consumo perjudicial (F1x.1 de la CIE-10) es:",
       "opciones": [
         "Las primeras veces en que se consume una droga, a menudo de forma inconstante",
@@ -445,6 +475,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_34_13",
       "enunciado": "Según EDADES 2024, entre la población de 15 a 64 años, ¿cuál es la sustancia ilegal con mayor prevalencia de consumo?",
       "opciones": [
         "La cocaína en polvo y/o base",
@@ -457,6 +488,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_34_14",
       "enunciado": "¿Cuál de las siguientes afirmaciones sobre las encuestas del Plan Nacional sobre Drogas es correcta?",
       "opciones": [
         "EDADES se dirige a estudiantes de 14 a 18 años y ESTUDES a la población de 15 a 64 años",
@@ -469,6 +501,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_34_15",
       "enunciado": "Según EDADES 2024, el consumo de hipnosedantes (con o sin receta) en los últimos 12 meses es:",
       "opciones": [
         "Más frecuente en mujeres (14,7 %) que en hombres (9,3 %)",
@@ -481,6 +514,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_34_16",
       "enunciado": "Según EDADES 2024, ¿qué sustancia está presente al menos en el 93,5 % de los policonsumos de dos sustancias?",
       "opciones": [
         "El alcohol",
@@ -493,6 +527,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_34_17",
       "enunciado": "Los resultados de ESTUDES 2025 (estudiantes de 14 a 18 años) muestran, respecto a la edición anterior:",
       "opciones": [
         "Un aumento del consumo de cannabis y de cocaína",
@@ -505,6 +540,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_34_18",
       "enunciado": "Las catinonas sintéticas, como la mefedrona o la metilona, son:",
       "opciones": [
         "Depresores derivados de los opiáceos",
@@ -517,6 +553,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_34_19",
       "enunciado": "Tras el cannabis, ¿cuál es la segunda droga ilícita más consumida en Europa según el Informe Europeo sobre Drogas 2026?",
       "opciones": [
         "La heroína",
@@ -529,6 +566,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_34_20",
       "enunciado": "Una persona que tomaba una benzodiazepina a diario desde hacía más de seis meses la deja bruscamente y presenta temblor, ansiedad e insomnio. El cuadro es compatible con:",
       "opciones": [
         "Un síndrome de abstinencia",

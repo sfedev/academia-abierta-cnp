@@ -196,24 +196,25 @@
     "Orden de organismos europeos de tortura: **CEDH art. 3** (derecho), **TEDH** (juzga), **CPT** (visita, Consejo de Europa); en la ONU: **CAT** (derecho), **Comité** (informes y quejas), **SPT** (visita)."
   ],
   "tarjetas": [
-    { "p": "¿Dónde y cuándo se proclamó la DUDH?", "r": "En **París, el 10 de diciembre de 1948**, por la Asamblea General de la ONU (Res. 217 A (III)). Preámbulo y **30 artículos**." },
-    { "p": "¿Qué dice el art. 16.3 de la DUDH?", "r": "La **familia** es el elemento natural y fundamental de la sociedad y tiene derecho a la protección de la sociedad y del Estado." },
-    { "p": "¿Qué artículo de la CE manda interpretar los derechos fundamentales conforme a la DUDH?", "r": "El **art. 10.2 CE**, también conforme a los tratados y acuerdos internacionales ratificados por España." },
-    { "p": "CEDH: fecha y lugar de firma, entrada en vigor y fecha para España.", "r": "Firmado en **Roma el 4/11/1950**; en vigor el **3/9/1953**; para España, el **4/10/1979** (ratificación de 26/9/1979)." },
-    { "p": "TEDH: número de jueces, elección y mandato.", "r": "**Un juez por Estado parte** (art. 20), elegido por la **Asamblea Parlamentaria** de una lista de tres candidatos (art. 22), por **9 años sin reelección** (art. 23)." },
-    { "p": "¿Qué plazo hay para demandar ante el TEDH?", "r": "**Cuatro meses** desde la decisión interna definitiva, tras agotar las vías internas (art. 35.1; antes eran seis meses)." },
-    { "p": "Formaciones del TEDH y número de jueces.", "r": "Juez único, **comités de 3**, **Salas de 7** y **Gran Sala de 17** (art. 26.1)." },
-    { "p": "¿Qué derechos del CEDH no se pueden derogar en estado de excepción?", "r": "Art. **2** (salvo muertes por actos lícitos de guerra), art. **3**, art. **4.1** y art. **7** (art. 15.2)." },
-    { "p": "Definición de tortura en la Convención de 1984 (art. 1).", "r": "Dolores o sufrimientos graves, físicos o mentales, infligidos **intencionadamente** para obtener información o confesión, castigar, intimidar o coaccionar, o por discriminación, por un **funcionario público** o con su consentimiento o aquiescencia. Excluye las sanciones legítimas." },
-    { "p": "¿Qué prohíbe el art. 3 de la Convención contra la Tortura?", "r": "**Expulsar, devolver o extraditar** a una persona a un Estado donde haya razones fundadas para creer que estaría en peligro de ser sometida a tortura." },
-    { "p": "¿Cuántos expertos tiene el Comité contra la Tortura y por cuánto tiempo?", "r": "**Diez** expertos, elegidos por **cuatro años** (art. 17 CAT)." },
-    { "p": "OPCAT: fecha de adopción, entrada en vigor y objetivo.", "r": "Adoptado el **18/12/2002**; en vigor el **22/6/2006**. Objetivo: **sistema de visitas periódicas** de órganos internacionales y nacionales independientes a los lugares de privación de libertad." },
-    { "p": "Composición y mandato del SPT.", "r": "**10 miembros**, **25** tras la **50ª ratificación** (art. 5.1); **4 años**, reelegibles **una vez** (art. 9). Visita lugares de detención, recomienda y asesora a los MNP." },
-    { "p": "¿Quién es el Mecanismo Nacional de Prevención de la Tortura en España?", "r": "El **Defensor del Pueblo** (disposición final única de la LO 3/1981, añadida por la **LO 1/2009**)." },
-    { "p": "Consejo Asesor del MNP: composición, mandato y reuniones.", "r": "**Adjuntos** (natos) y hasta **10 vocales**; vocales por **4 años**, renovados por mitades cada 2; reunión **al menos dos veces al año** (arts. 19-21 del Reglamento del Defensor del Pueblo)." }
+    { "id": "t_27_01", "p": "¿Dónde y cuándo se proclamó la DUDH?", "r": "En **París, el 10 de diciembre de 1948**, por la Asamblea General de la ONU (Res. 217 A (III)). Preámbulo y **30 artículos**." },
+    { "id": "t_27_02", "p": "¿Qué dice el art. 16.3 de la DUDH?", "r": "La **familia** es el elemento natural y fundamental de la sociedad y tiene derecho a la protección de la sociedad y del Estado." },
+    { "id": "t_27_03", "p": "¿Qué artículo de la CE manda interpretar los derechos fundamentales conforme a la DUDH?", "r": "El **art. 10.2 CE**, también conforme a los tratados y acuerdos internacionales ratificados por España." },
+    { "id": "t_27_04", "p": "CEDH: fecha y lugar de firma, entrada en vigor y fecha para España.", "r": "Firmado en **Roma el 4/11/1950**; en vigor el **3/9/1953**; para España, el **4/10/1979** (ratificación de 26/9/1979)." },
+    { "id": "t_27_05", "p": "TEDH: número de jueces, elección y mandato.", "r": "**Un juez por Estado parte** (art. 20), elegido por la **Asamblea Parlamentaria** de una lista de tres candidatos (art. 22), por **9 años sin reelección** (art. 23)." },
+    { "id": "t_27_06", "p": "¿Qué plazo hay para demandar ante el TEDH?", "r": "**Cuatro meses** desde la decisión interna definitiva, tras agotar las vías internas (art. 35.1; antes eran seis meses)." },
+    { "id": "t_27_07", "p": "Formaciones del TEDH y número de jueces.", "r": "Juez único, **comités de 3**, **Salas de 7** y **Gran Sala de 17** (art. 26.1)." },
+    { "id": "t_27_08", "p": "¿Qué derechos del CEDH no se pueden derogar en estado de excepción?", "r": "Art. **2** (salvo muertes por actos lícitos de guerra), art. **3**, art. **4.1** y art. **7** (art. 15.2)." },
+    { "id": "t_27_09", "p": "Definición de tortura en la Convención de 1984 (art. 1).", "r": "Dolores o sufrimientos graves, físicos o mentales, infligidos **intencionadamente** para obtener información o confesión, castigar, intimidar o coaccionar, o por discriminación, por un **funcionario público** o con su consentimiento o aquiescencia. Excluye las sanciones legítimas." },
+    { "id": "t_27_10", "p": "¿Qué prohíbe el art. 3 de la Convención contra la Tortura?", "r": "**Expulsar, devolver o extraditar** a una persona a un Estado donde haya razones fundadas para creer que estaría en peligro de ser sometida a tortura." },
+    { "id": "t_27_11", "p": "¿Cuántos expertos tiene el Comité contra la Tortura y por cuánto tiempo?", "r": "**Diez** expertos, elegidos por **cuatro años** (art. 17 CAT)." },
+    { "id": "t_27_12", "p": "OPCAT: fecha de adopción, entrada en vigor y objetivo.", "r": "Adoptado el **18/12/2002**; en vigor el **22/6/2006**. Objetivo: **sistema de visitas periódicas** de órganos internacionales y nacionales independientes a los lugares de privación de libertad." },
+    { "id": "t_27_13", "p": "Composición y mandato del SPT.", "r": "**10 miembros**, **25** tras la **50ª ratificación** (art. 5.1); **4 años**, reelegibles **una vez** (art. 9). Visita lugares de detención, recomienda y asesora a los MNP." },
+    { "id": "t_27_14", "p": "¿Quién es el Mecanismo Nacional de Prevención de la Tortura en España?", "r": "El **Defensor del Pueblo** (disposición final única de la LO 3/1981, añadida por la **LO 1/2009**)." },
+    { "id": "t_27_15", "p": "Consejo Asesor del MNP: composición, mandato y reuniones.", "r": "**Adjuntos** (natos) y hasta **10 vocales**; vocales por **4 años**, renovados por mitades cada 2; reunión **al menos dos veces al año** (arts. 19-21 del Reglamento del Defensor del Pueblo)." }
   ],
   "preguntas": [
     {
+      "id": "q_27_01",
       "enunciado": "¿Dónde y en qué fecha proclamó la Asamblea General de las Naciones Unidas la Declaración Universal de Derechos Humanos?",
       "opciones": [
         "En París, el 10 de diciembre de 1948",
@@ -226,6 +227,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_27_02",
       "enunciado": "Según la Declaración Universal de Derechos Humanos, ¿qué es el elemento natural y fundamental de la sociedad, con derecho a la protección de la sociedad y del Estado?",
       "opciones": [
         "La persona humana",
@@ -238,6 +240,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_27_03",
       "enunciado": "Señale la afirmación INCORRECTA sobre la Declaración Universal de Derechos Humanos:",
       "opciones": [
         "Fue proclamada por la Asamblea General de las Naciones Unidas en París en 1948",
@@ -250,6 +253,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_27_04",
       "enunciado": "¿Qué órgano elige a los jueces del Tribunal Europeo de Derechos Humanos?",
       "opciones": [
         "El Comité de Ministros del Consejo de Europa",
@@ -262,6 +266,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_27_05",
       "enunciado": "Según el Convenio Europeo de Derechos Humanos vigente, los jueces del Tribunal Europeo de Derechos Humanos son elegidos por un período de:",
       "opciones": [
         "Nueve años, sin posibilidad de reelección",
@@ -274,6 +279,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_27_06",
       "enunciado": "Tras agotar las vías internas, ¿en qué plazo debe presentarse una demanda individual ante el Tribunal Europeo de Derechos Humanos?",
       "opciones": [
         "Seis meses desde la decisión interna definitiva",
@@ -286,6 +292,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_27_07",
       "enunciado": "Un Estado parte del Convenio Europeo de Derechos Humanos declara el estado de excepción por un peligro público que amenaza la vida de la nación. ¿Qué derecho no puede derogar en ningún caso conforme al art. 15.2 del Convenio?",
       "opciones": [
         "La libertad de reunión y de asociación",
@@ -298,6 +305,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_27_08",
       "enunciado": "Según el art. 26 del Convenio Europeo de Derechos Humanos, ¿cuántos jueces integran la Gran Sala del Tribunal?",
       "opciones": [
         "Diecisiete",
@@ -310,6 +318,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_27_09",
       "enunciado": "Un funcionario sostiene que torturó a un detenido por orden de su superior jerárquico, en un contexto de inestabilidad política interna. Conforme a la Convención de la ONU contra la Tortura:",
       "opciones": [
         "La orden del superior puede eximirle de responsabilidad si constaba por escrito",
@@ -322,6 +331,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_27_10",
       "enunciado": "¿Cuál de los siguientes elementos NO es necesario para que exista «tortura» según el art. 1 de la Convención de la ONU contra la Tortura?",
       "opciones": [
         "Que se inflijan intencionadamente dolores o sufrimientos graves, físicos o mentales",
@@ -334,6 +344,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_27_11",
       "enunciado": "¿Cuántos expertos componen el Comité contra la Tortura creado por la Convención de la ONU de 1984?",
       "opciones": [
         "Diez",
@@ -346,6 +357,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_27_12",
       "enunciado": "Según el art. 5.1 del Protocolo facultativo de la Convención contra la Tortura, el Subcomité para la Prevención de la Tortura pasa de diez a veinticinco miembros cuando se registre:",
       "opciones": [
         "La vigésima ratificación o adhesión",
@@ -358,6 +370,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_27_13",
       "enunciado": "¿Cuál es la función esencial del Subcomité para la Prevención de la Tortura creado por el Protocolo facultativo de la Convención contra la Tortura?",
       "opciones": [
         "Resolver las demandas individuales de las víctimas de tortura contra los Estados partes",
@@ -370,6 +383,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_27_14",
       "enunciado": "¿Qué institución ejerce en España las funciones de Mecanismo Nacional de Prevención de la Tortura?",
       "opciones": [
         "El Defensor del Pueblo",
@@ -382,6 +396,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_27_15",
       "enunciado": "Según el Reglamento de Organización y Funcionamiento del Defensor del Pueblo, el Consejo Asesor del Mecanismo Nacional de Prevención de la Tortura se reunirá, al menos:",
       "opciones": [
         "Una vez al año",
@@ -394,6 +409,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_27_16",
       "enunciado": "¿Cuál de las siguientes afirmaciones sobre el Consejo Asesor del Mecanismo Nacional de Prevención de la Tortura es correcta?",
       "opciones": [
         "Lo integran únicamente los dos Adjuntos del Defensor del Pueblo",
@@ -406,6 +422,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_27_17",
       "enunciado": "¿Cuándo entró en vigor para España el Protocolo facultativo de la Convención de la ONU contra la Tortura (OPCAT)?",
       "opciones": [
         "El 22 de junio de 2006",
@@ -418,6 +435,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_27_18",
       "enunciado": "¿Qué Protocolo al Convenio Europeo de Derechos Humanos establece la prohibición general de la discriminación en el goce de cualquier derecho reconocido por la ley?",
       "opciones": [
         "El Protocolo n.º 4",

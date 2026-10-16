@@ -192,68 +192,84 @@
   ],
   "tarjetas": [
     {
+      "id": "t_29_01",
       "p": "Componentes de una actitud (Rosenberg y Hovland, 1960).",
       "r": "**Cognitivo** (creencias), **afectivo** (sentimientos) y **conductual** (tendencia a actuar)."
     },
     {
+      "id": "t_29_02",
       "p": "Cuatro funciones de las actitudes según Katz.",
       "r": "**Instrumental** (adaptativa o utilitaria), **defensa del yo**, **expresión de valores** y **conocimiento**."
     },
     {
+      "id": "t_29_03",
       "p": "¿Qué es un estereotipo según el Protocolo de las FCSE?",
       "r": "«Un conjunto de creencias compartidas y generalmente estructuradas acerca de los atributos personales que caracterizan a los miembros de un grupo». Pueden ser positivos o negativos."
     },
     {
+      "id": "t_29_04",
       "p": "¿Qué es un prejuicio según el Protocolo y según el DLE?",
       "r": "Protocolo: «tendencias evaluativas dirigidas hacia los grupos sociales y sus miembros». DLE: opinión previa y tenaz, por lo general desfavorable, acerca de algo que se conoce mal."
     },
     {
+      "id": "t_29_05",
       "p": "¿Qué es discriminar según el Protocolo de las FCSE?",
       "r": "Tratar de forma diferente y desfavorable a una persona o grupo basándose en la creencia de que no todos somos iguales en derechos y en dignidad."
     },
     {
+      "id": "t_29_06",
       "p": "Discriminación directa e indirecta (Ley 15/2022, art. 6).",
       "r": "**Directa**: trato menos favorable que a otros en situación análoga por una causa protegida. **Indirecta**: disposición, criterio o práctica aparentemente neutros que causa una desventaja particular por esas causas."
     },
     {
+      "id": "t_29_07",
       "p": "¿Quién introdujo «estereotipo» en su sentido psicológico moderno y cuándo?",
       "r": "**Walter Lippmann**, en «Public Opinion» (**1922**)."
     },
     {
+      "id": "t_29_08",
       "p": "¿Quién escribió «The Nature of Prejudice» y qué hipótesis propuso?",
       "r": "**Gordon Allport** (**1954**); la **hipótesis del contacto**."
     },
     {
+      "id": "t_29_09",
       "p": "Autores y año de «La personalidad autoritaria»; escala asociada.",
       "r": "Adorno, Frenkel-Brunswik, Levinson y Sanford (**1950**); **escala F**, con nueve rasgos."
     },
     {
+      "id": "t_29_10",
       "p": "¿Cómo define Rokeach el dogmatismo?",
       "r": "Organización cognitiva relativamente cerrada de creencias, centrada en la **autoridad absoluta**, que genera patrones de intolerancia hacia los demás («The Open and Closed Mind», 1960)."
     },
     {
+      "id": "t_29_11",
       "p": "Diferencia entre xenofobia y racismo según el Protocolo.",
       "r": "**Xenofobia**: rechazo de la identidad cultural ajena; acepta al extranjero solo si se asimila. **Racismo**: creencia en la superioridad natural de un grupo sobre otro."
     },
     {
+      "id": "t_29_12",
       "p": "¿Qué mostró el experimento de Robbers Cave (Sherif, 1954)?",
       "r": "Que la **competencia entre grupos** por recursos valorados genera hostilidad intergrupal sin necesidad de diferencias individuales."
     },
     {
+      "id": "t_29_13",
       "p": "¿Qué sostiene la teoría de la identidad social?",
       "r": "La identidad social es la parte del autoconcepto derivada de la pertenencia a grupos; se busca la **distintividad positiva** del grupo propio (**Tajfel y Turner**)."
     },
     {
+      "id": "t_29_14",
       "p": "Grupo primario y grupo secundario.",
       "r": "**Primario** (Cooley, 1909): pequeño, cara a cara, cohesionado (familia). **Secundario**: más amplio, formal e impersonal."
     },
     {
+      "id": "t_29_15",
       "p": "Niveles de la pirámide de Maslow.",
       "r": "Cinco: fisiológicas (base), seguridad, afiliación, estima y autorrealización (cima). Maslow, 1943."
     }
   ],
   "preguntas": [
     {
+      "id": "q_29_01",
       "enunciado": "Según el modelo tripartito clásico de Rosenberg y Hovland (1960), ¿qué tres componentes tiene una actitud?",
       "opciones": [
         "Cognitivo, afectivo y conductual",
@@ -266,6 +282,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_29_02",
       "enunciado": "¿Cuál de las siguientes NO es una función de las actitudes según Daniel Katz?",
       "opciones": [
         "Función de conocimiento",
@@ -278,6 +295,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_29_03",
       "enunciado": "Una persona mantiene una actitud favorable hacia un partido político porque con ello obtiene reconocimiento y ventajas en su entorno laboral. Según Katz, ¿qué función de la actitud predomina?",
       "opciones": [
         "La función de conocimiento",
@@ -290,6 +308,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_29_04",
       "enunciado": "Un joven defiende con vehemencia una opinión hostil hacia un colectivo para proteger su autoestima frente a sus propias inseguridades. Según Katz, esa actitud cumple principalmente la función de:",
       "opciones": [
         "Defensa del yo",
@@ -302,6 +321,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_29_05",
       "enunciado": "¿Quién introdujo el término «estereotipo» en su sentido psicológico moderno en la obra Public Opinion (1922)?",
       "opciones": [
         "Gordon Allport",
@@ -314,6 +334,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_29_06",
       "enunciado": "Según el Protocolo de actuación de las Fuerzas y Cuerpos de Seguridad para los delitos de odio, los estereotipos son:",
       "opciones": [
         "Tendencias evaluativas dirigidas hacia los grupos sociales y sus miembros",
@@ -326,6 +347,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_29_07",
       "enunciado": "En la secuencia estereotipo, prejuicio y discriminación, ¿qué componente corresponde al prejuicio?",
       "opciones": [
         "El componente afectivo-evaluativo: la valoración, por lo general negativa, hacia un grupo y sus miembros",
@@ -338,6 +360,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_29_08",
       "enunciado": "Según el Diccionario de la lengua española, el prejuicio es:",
       "opciones": [
         "Una imagen o idea aceptada comúnmente por un grupo o sociedad con carácter inmutable",
@@ -350,6 +373,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_29_09",
       "enunciado": "La obra La personalidad autoritaria (1950) y la escala F se atribuyen a:",
       "opciones": [
         "Milton Rokeach",
@@ -362,6 +386,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_29_10",
       "enunciado": "La escala F, elaborada en el estudio sobre la personalidad autoritaria, pretendía medir:",
       "opciones": [
         "El potencial fascista o predisposición antidemocrática de la persona",
@@ -374,6 +399,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_29_11",
       "enunciado": "¿Qué autor definió el dogmatismo como una organización cognitiva relativamente cerrada de creencias, centrada en la autoridad absoluta, en The Open and Closed Mind (1960)?",
       "opciones": [
         "Theodor Adorno",
@@ -386,6 +412,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_29_12",
       "enunciado": "Según el Protocolo de actuación de las Fuerzas y Cuerpos de Seguridad para los delitos de odio, la xenofobia se diferencia del racismo en que:",
       "opciones": [
         "Presupone la superioridad biológica de un grupo sobre otro",
@@ -398,6 +425,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_29_13",
       "enunciado": "En el experimento de Robbers Cave (1954), Muzafer Sherif concluyó que la hostilidad entre los dos grupos de niños surgió sobre todo de:",
       "opciones": [
         "La competencia entre los grupos por premios y recursos valorados",
@@ -410,6 +438,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_29_14",
       "enunciado": "La teoría de la identidad social se asocia a:",
       "opciones": [
         "Leon Festinger y Solomon Asch",
@@ -422,6 +451,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_29_15",
       "enunciado": "Según Cooley (Social Organization, 1909), ¿cuál es el ejemplo típico de grupo primario?",
       "opciones": [
         "Una empresa multinacional",
@@ -434,6 +464,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_29_16",
       "enunciado": "En la pirámide de necesidades de Maslow (1943), ¿qué necesidades ocupan la base?",
       "opciones": [
         "Las fisiológicas",
@@ -446,6 +477,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_29_17",
       "enunciado": "Conforme al art. 6 de la Ley 15/2022, existe discriminación indirecta cuando:",
       "opciones": [
         "Una persona es tratada de manera menos favorable que otra en situación análoga por una causa protegida",
@@ -458,6 +490,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_29_18",
       "enunciado": "La hipótesis del contacto, según la cual el contacto intergrupal en condiciones adecuadas puede reducir el prejuicio, se atribuye a:",
       "opciones": [
         "Leon Festinger",

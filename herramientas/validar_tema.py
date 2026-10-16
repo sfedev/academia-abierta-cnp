@@ -4,6 +4,9 @@
 Uso:  python -I herramientas/validar_tema.py datos/temas/tema-14.json [otro.json ...]
 
 Sale con código 1 si hay ERRORES. Los AVISOS no bloquean, pero conviene leerlos.
+
+Cada pregunta y tarjeta debe tener un `id` (q_NN_01 / t_NN_01) único en toda la aplicación: si pasas varias
+fichas a la vez, también se comprueba que no se repitan entre ficheros. Los asigna herramientas/migrar_ids.py.
 """
 import json
 import re
@@ -123,23 +126,40 @@ def validar(path):
     for i, c in enumerate(d.get("mnemotecnias", [])):
         texto_ok(c if isinstance(c, str) else "", "mnemotecnias[%d]" % i)
 
+    # `id` obligatorio: la web guarda el progreso del usuario con él. Formato q_NN_01 (preguntas) y t_NN_01
+    # (tarjetas), con NN = número de tema; los asigna herramientas/migrar_ids.py.
+    def comprobar_id(obj, donde, prefijo, vistos_ids):
+        i = obj.get("id")
+        if i is None:
+            err.append("%s: falta 'id' (ejecuta python -I herramientas/migrar_ids.py %s)" % (donde, path))
+            return
+        formato = "%s_%02d_01" % (prefijo, t if isinstance(t, int) else 0)
+        patron = r"%s_%02d_\d{2,}" % (prefijo, t if isinstance(t, int) else 0)
+        need(isinstance(i, str) and re.fullmatch(patron, i), "%s: id %r no válido (formato %s, con el número de tema)" % (donde, i, formato))
+        need(i not in vistos_ids, "%s: id repetido (%s)" % (donde, i))
+        vistos_ids.add(i)
+
     tar = d.get("tarjetas", [])
     need(isinstance(tar, list) and 10 <= len(tar) <= 24, "tarjetas: entre 10 y 24 (%d)" % len(tar))
+    ids_t = set()
     for i, c in enumerate(tar):
         need(isinstance(c, dict), "tarjetas[%d] no es objeto" % i)
         if isinstance(c, dict):
             texto_ok(c.get("p", ""), "tarjetas[%d].p" % i)
             texto_ok(c.get("r", ""), "tarjetas[%d].r" % i)
+            comprobar_id(c, "tarjetas[%d]" % i, "t", ids_t)
 
     pre = d.get("preguntas", [])
     need(isinstance(pre, list) and 15 <= len(pre) <= 24, "preguntas: entre 15 y 24 (%d)" % len(pre))
     pos = Counter()
     vistos = set()
+    ids_p = set()
     for i, q in enumerate(pre):
         w = "preguntas[%d]" % i
         if not isinstance(q, dict):
             err.append("%s no es objeto" % w)
             continue
+        comprobar_id(q, w, "q", ids_p)
         texto_ok(q.get("enunciado", ""), w + ".enunciado")
         ops = q.get("opciones")
         need(isinstance(ops, list) and len(ops) == 3, "%s: debe tener exactamente 3 opciones" % w)
@@ -151,8 +171,8 @@ def validar(path):
                         need(pr not in o.lower(), "%s: opción con '%s' (prohibido)" % (w, pr))
             need(len(set(map(str, ops))) == len(ops), "%s: opciones repetidas" % w)
         c = q.get("correcta")
-        need(c in (0, 1, 2) and isinstance(c, int), "%s: correcta debe ser 0, 1 o 2" % w)
-        if c in (0, 1, 2):
+        need(type(c) is int and c in (0, 1, 2), "%s: correcta debe ser 0, 1 o 2" % w)  # true/false no valen
+        if type(c) is int and c in (0, 1, 2):
             pos[c] += 1
         e = q.get("explicacion", "")
         texto_ok(e, w + ".explicacion")
@@ -160,7 +180,7 @@ def validar(path):
         if isinstance(e, str) and re.search(r"(opci[oó]n|respuesta|alternativa)\s+(a|b|c)\b|(?<![\w])[abc]\)", e, flags=re.I):
             avi.append("%s: la explicación cita una letra (A/B/C); la web baraja las opciones, descríbelas por su contenido" % w)
         need(isinstance(q.get("ref"), str) and q["ref"].strip(), "%s: falta 'ref' (artículo/apartado/fuente)" % w)
-        need(q.get("dificultad") in (1, 2, 3), "%s: dificultad 1-3" % w)
+        need(type(q.get("dificultad")) is int and q["dificultad"] in (1, 2, 3), "%s: dificultad 1-3" % w)
         en = str(q.get("enunciado", "")).strip().lower()
         need(en not in vistos, "%s: enunciado repetido" % w)
         vistos.add(en)
@@ -172,13 +192,33 @@ def validar(path):
     return err, avi, stats
 
 
-def main():
-    if len(sys.argv) < 2:
+def ids_de(path):
+    """Ids de preguntas y tarjetas de una ficha (vacío si el JSON no es válido)."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            d = json.load(f)
+        return [e["id"] for k in ("preguntas", "tarjetas") for e in d.get(k, []) if isinstance(e, dict) and isinstance(e.get("id"), str)]
+    except Exception:  # noqa: BLE001
+        return []
+
+
+def main(argv=None):
+    argv = sys.argv[1:] if argv is None else argv
+    try:  # la salida lleva acentos: que no dependa de la página de códigos de la consola (cp1252 en Windows)
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:  # noqa: BLE001
+        pass
+    if not argv:
         print(__doc__)
-        sys.exit(1)
+        return 1
     fallo = False
-    for p in sys.argv[1:]:
+    donde = {}  # id -> fichero donde se vio por primera vez
+    for p in argv:
         err, avi, stats = validar(p)
+        for i in ids_de(p):  # los ids deben ser únicos en toda la aplicación, no solo dentro de una ficha
+            if i in donde and donde[i] != p:
+                err.append("id %s repetido en %s y %s" % (i, donde[i], p))
+            donde.setdefault(i, p)
         print("== %s  %s" % (p, stats))
         for e in err:
             print("  ERROR: " + e)
@@ -188,8 +228,8 @@ def main():
             fallo = True
         elif not avi:
             print("  OK")
-    sys.exit(1 if fallo else 0)
+    return 1 if fallo else 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

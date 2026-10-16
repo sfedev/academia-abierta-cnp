@@ -431,104 +431,129 @@
   ],
   "tarjetas": [
     {
+      "id": "t_21_01",
       "p": "¿Plazo máximo de la detención preventiva?",
       "r": "**72 horas** para libertad o puesta a disposición judicial, y el tiempo estrictamente necesario (art. 17.2 CE; art. 520.1 LECrim)."
     },
     {
+      "id": "t_21_02",
       "p": "¿En cuánto tiempo debe el particular, la autoridad o el agente de Policía Judicial que detiene liberar o entregar al juez más próximo (art. 496)?",
       "r": "En **24 horas** desde la detención."
     },
     {
+      "id": "t_21_03",
       "p": "¿Qué plazo tiene el juez para elevar la detención a prisión o dejarla sin efecto (art. 497)?",
       "r": "**72 horas** desde que se le entregó al detenido."
     },
     {
+      "id": "t_21_04",
       "p": "¿Plazos de la detención por delitos del art. 384 bis (bandas armadas, terrorismo)?",
       "r": "**72 horas** más una prórroga de hasta **48 horas**: se pide dentro de las primeras 48 horas y el juez resuelve en 24 horas (art. 520 bis)."
     },
     {
+      "id": "t_21_05",
       "p": "¿Plazos del menor de 14 a 17 años detenido por la policía (LO 5/2000, art. 17)?",
       "r": "**24 horas** para libertad o puesta a disposición de la Sección de Menores de la Fiscalía; el Fiscal resuelve en **48 horas** desde la detención."
     },
     {
+      "id": "t_21_06",
       "p": "¿Quién puede detener y quién debe detener?",
       "r": "**Cualquier persona puede** detener en los siete casos del art. 490; la **Autoridad o agente de Policía Judicial tiene obligación** de detener (art. 492)."
     },
     {
+      "id": "t_21_07",
       "p": "¿Se puede detener por delitos leves?",
       "r": "No, salvo que el presunto autor no tenga domicilio conocido ni dé fianza bastante (art. 495)."
     },
     {
+      "id": "t_21_08",
       "p": "¿Cuántos derechos enumera el art. 520.2 LECrim y cuáles son los primeros?",
       "r": "Diez (letras a a j). Los primeros: guardar silencio y no declarar contra sí mismo ni confesarse culpable."
     },
     {
+      "id": "t_21_09",
       "p": "¿En qué plazo debe acudir al centro de detención el abogado designado (art. 520.5)?",
       "r": "En un máximo de **3 horas** desde que recibe el encargo; si no, el Colegio designa otro de oficio."
     },
     {
+      "id": "t_21_10",
       "p": "¿Cuándo puede renunciar el detenido a la asistencia de abogado (art. 520.8)?",
       "r": "Solo si la detención lo es por hechos susceptibles de tipificarse **exclusivamente** como delitos contra la seguridad del tráfico, con información clara; la renuncia es revocable. En menores no cabe."
     },
     {
+      "id": "t_21_11",
       "p": "¿Cuánto puede durar la incomunicación del art. 509 y a quién no se puede aplicar?",
       "r": "Hasta **5 días**, con otros **5** de prórroga en el art. 384 bis o delincuencia organizada; **nunca a menores de 16 años**."
     },
     {
+      "id": "t_21_12",
       "p": "¿Qué juez es competente para el habeas corpus?",
       "r": "El **Juez de Instrucción** del lugar donde está el detenido; si no consta, el del lugar de la detención; y después el de las últimas noticias. Si es por terrorismo (art. 55.2 CE), el Juez Central de Instrucción."
     },
     {
+      "id": "t_21_13",
       "p": "¿Plazo del habeas corpus?",
       "r": "**24 horas** desde el auto de incoación (art. 7 LO 6/1984). No se necesita abogado ni procurador (art. 4)."
     },
     {
+      "id": "t_21_14",
       "p": "¿Quién conoce del habeas corpus de un menor detenido?",
       "r": "El **Juez de Instrucción** del lugar donde esté privado de libertad (art. 17.6 LO 5/2000), no el Juez de Menores ni el Fiscal; si lo insta el propio menor se avisa también al Fiscal."
     },
     {
+      "id": "t_21_15",
       "p": "¿Quiénes pueden instar el habeas corpus (art. 3 LO 6/1984)?",
       "r": "El privado de libertad, su cónyuge o pareja, descendientes, ascendientes y hermanos, los representantes legales de menores, el Ministerio Fiscal, el Defensor del Pueblo y el abogado defensor; el juez puede iniciarlo de oficio."
     },
     {
+      "id": "t_21_16",
       "p": "¿Por qué principios se rige el empleo de la fuerza en la detención según la Instrucción 1/2024?",
       "r": "**Oportunidad, congruencia y proporcionalidad**; el arma de fuego es el último recurso."
     },
     {
+      "id": "t_21_17",
       "p": "¿Cuál es la alternativa a la detención que recoge la Instrucción 1/2024?",
       "r": "La figura de la **persona investigada no detenida**, tras valorar la oportunidad y necesidad de la detención."
     },
     {
+      "id": "t_21_18",
       "p": "¿De quién depende la Policía Judicial?",
       "r": "**Orgánicamente** del Ministerio del Interior y **funcionalmente** de jueces, tribunales y Ministerio Fiscal (art. 31.1 LO 2/1986)."
     },
     {
+      "id": "t_21_19",
       "p": "¿Cuánto tiempo puede pasar sin informar a la autoridad judicial o fiscal de las diligencias practicadas la Policía Judicial (art. 295)?",
       "r": "Como máximo **24 horas**, salvo fuerza mayor y el atestado sin autor conocido (art. 284.2)."
     },
     {
+      "id": "t_21_20",
       "p": "¿Qué principios rigen la actuación del Ministerio Fiscal (art. 124.2 CE)?",
       "r": "**Unidad de actuación y dependencia jerárquica**, con sujeción a **legalidad e imparcialidad**."
     },
     {
+      "id": "t_21_21",
       "p": "¿Cuántas Fiscalías Especiales hay (art. 19 EOMF)?",
       "r": "**Dos**: la Fiscalía Antidroga y la Fiscalía contra la Corrupción y la Criminalidad Organizada."
     },
     {
+      "id": "t_21_22",
       "p": "¿Duración del mandato del Fiscal General del Estado?",
       "r": "**4 años**, no renovable salvo que haya ejercido el cargo menos de 2 años (art. 31 EOMF)."
     },
     {
+      "id": "t_21_23",
       "p": "¿Puede el Fiscal ordenar la detención en sus diligencias de investigación?",
       "r": "**Sí**: las diligencias no pueden suponer medidas cautelares ni limitativas de derechos, pero el Fiscal puede ordenar la detención preventiva (art. 5 EOMF)."
     },
     {
+      "id": "t_21_24",
       "p": "¿Composición y votos del Tribunal del Jurado?",
       "r": "**9 jurados** y un magistrado presidente (más 2 suplentes). **7 votos** para hechos desfavorables y culpabilidad; **5** para hechos favorables e inculpabilidad."
     }
   ],
   "preguntas": [
     {
+      "id": "q_21_01",
       "enunciado": "Según el art. 17.2 de la Constitución, la detención preventiva no puede durar más del tiempo estrictamente necesario y, en todo caso, el detenido debe ser puesto en libertad o a disposición de la autoridad judicial en un máximo de:",
       "opciones": [
         "Veinticuatro horas.",
@@ -541,6 +566,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_21_02",
       "enunciado": "Según el art. 496 de la LECrim, el particular, la autoridad o el agente de Policía Judicial que detiene a una persona en virtud de los arts. 490 y 492 debe ponerla en libertad o entregarla al juez más próximo al lugar de la detención dentro de las:",
       "opciones": [
         "Veinticuatro horas siguientes al acto de la detención.",
@@ -553,6 +579,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_21_03",
       "enunciado": "Un joven de 16 años es detenido por la Policía Nacional a las 12:00 horas de un lunes por un delito de robo, que no es de terrorismo. ¿Cuándo, como máximo, debe ser puesto en libertad o a disposición de la Sección de Menores de la Fiscalía?",
       "opciones": [
         "El martes a las 12:00 horas (24 horas).",
@@ -565,6 +592,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_21_04",
       "enunciado": "En el procedimiento de habeas corpus, el juez debe practicar las actuaciones y dictar la resolución que proceda en el plazo de veinticuatro horas, contadas desde:",
       "opciones": [
         "La presentación de la solicitud.",
@@ -577,6 +605,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_21_05",
       "enunciado": "Un menor de 16 años detenido por la policía solicita que se tramite un procedimiento de habeas corpus. ¿Qué autoridad judicial es la competente para conocer de la solicitud?",
       "opciones": [
         "El Juez de Menores.",
@@ -589,6 +618,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_21_06",
       "enunciado": "Señale quién NO está entre los legitimados para instar el procedimiento de habeas corpus según el art. 3 de la LO 6/1984:",
       "opciones": [
         "El Defensor del Pueblo.",
@@ -601,6 +631,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_21_07",
       "enunciado": "Respecto a la detención en la Ley de Enjuiciamiento Criminal, señale la afirmación correcta:",
       "opciones": [
         "Los particulares tienen la obligación de detener a todo delincuente in fraganti.",
@@ -613,6 +644,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_21_08",
       "enunciado": "Señale cuál de los siguientes NO es un derecho del detenido recogido en el art. 520.2 de la LECrim:",
       "opciones": [
         "Guardar silencio y no declarar contra sí mismo.",
@@ -625,6 +657,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_21_09",
       "enunciado": "El abogado designado por la persona detenida, o el nombrado de oficio, debe acudir al centro de detención con la máxima premura y siempre dentro del plazo máximo de:",
       "opciones": [
         "Una hora desde la recepción del encargo.",
@@ -637,6 +670,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_21_10",
       "enunciado": "La persona detenida puede renunciar a la preceptiva asistencia de abogado:",
       "opciones": [
         "Siempre que lo haga por escrito y ante el instructor del atestado.",
@@ -649,6 +683,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_21_11",
       "enunciado": "La incomunicación del detenido acordada por el juez según el art. 509 LECrim no puede extenderse más allá de cinco días. Si se acuerda en una causa por delitos del art. 384 bis u otros cometidos concertadamente y de forma organizada por dos o más personas, puede prorrogarse por un plazo no superior a:",
       "opciones": [
         "Otros cinco días.",
@@ -661,6 +696,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_21_12",
       "enunciado": "Un joven de 15 años es detenido por su presunta pertenencia a una organización terrorista y la Policía Judicial solicita su incomunicación. ¿Qué es correcto?",
       "opciones": [
         "No procede: en ningún caso pueden ser objeto de detención incomunicada los menores de dieciséis años.",
@@ -673,6 +709,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_21_13",
       "enunciado": "En la detención de una persona presunta partícipe de alguno de los delitos del art. 384 bis LECrim, el art. 520 bis permite que, con autorización judicial, la detención se prolongue, como máximo:",
       "opciones": [
         "Otras veinticuatro horas.",
@@ -685,6 +722,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_21_14",
       "enunciado": "Los funcionarios adscritos a las Unidades de Policía Judicial dependen:",
       "opciones": [
         "Orgánicamente del Ministerio del Interior y funcionalmente de los jueces, tribunales o Ministerio Fiscal que conozcan del asunto.",
@@ -697,6 +735,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_21_15",
       "enunciado": "Según el art. 295 de la LECrim, salvo fuerza mayor y el supuesto de atestado sin autor conocido, los funcionarios de Policía Judicial no pueden dejar transcurrir más de un cierto tiempo sin dar conocimiento a la autoridad judicial o al Ministerio Fiscal de las diligencias que hubieran practicado. Ese tiempo es de:",
       "opciones": [
         "Setenta y dos horas.",
@@ -709,6 +748,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_21_16",
       "enunciado": "Conforme al art. 124.2 de la Constitución, el Ministerio Fiscal ejerce sus funciones por medio de órganos propios conforme a los principios de:",
       "opciones": [
         "Unidad de actuación y dependencia jerárquica, y con sujeción a los de legalidad e imparcialidad.",
@@ -721,6 +761,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_21_17",
       "enunciado": "El mandato del Fiscal General del Estado, según el Estatuto Orgánico del Ministerio Fiscal, tiene una duración de:",
       "opciones": [
         "Cinco años, renovable por un único período igual.",
@@ -733,6 +774,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_21_18",
       "enunciado": "Las diligencias de investigación que practica el Ministerio Fiscal conforme al art. 5 del Estatuto Orgánico no pueden suponer la adopción de medidas cautelares o limitativas de derechos. ¿Qué puede, no obstante, ordenar el Fiscal?",
       "opciones": [
         "La prisión provisional del investigado.",
@@ -745,6 +787,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_21_19",
       "enunciado": "En el Tribunal del Jurado, para declarar probado un hecho desfavorable al acusado y para declarar su culpabilidad se requieren, como mínimo:",
       "opciones": [
         "Cinco votos de los nueve jurados.",
@@ -757,6 +800,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_21_20",
       "enunciado": "Señale qué delito NO está incluido entre los de delincuencia organizada del art. 282 bis.4 de la LECrim, a efectos del agente encubierto:",
       "opciones": [
         "El secuestro de personas (arts. 164 a 166 CP).",
@@ -769,6 +813,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_21_21",
       "enunciado": "Corresponde a la Sala de lo Penal del Tribunal Supremo la instrucción y el enjuiciamiento de las causas penales contra:",
       "opciones": [
         "Los diputados y senadores.",
@@ -781,6 +826,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_21_22",
       "enunciado": "Según la Instrucción 1/2024 de la Secretaría de Estado de Seguridad (Procedimiento integral de la detención policial), cuando para efectuar una detención se requiera el empleo de la fuerza, los agentes deben actuar conforme a los principios de:",
       "opciones": [
         "Oportunidad, congruencia y proporcionalidad.",
@@ -793,6 +839,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_21_23",
       "enunciado": "Señale la afirmación INCORRECTA sobre la denuncia en la Ley de Enjuiciamiento Criminal:",
       "opciones": [
         "Puede hacerse por escrito o de palabra, personalmente o por medio de mandatario con poder especial.",
@@ -805,6 +852,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_21_24",
       "enunciado": "Una persona es detenida por la Policía Nacional a las 10:00 horas de un lunes por un delito de robo con violencia, que no está relacionado con bandas armadas ni con terrorismo. ¿Hasta qué hora, como máximo, puede permanecer detenida en dependencias policiales antes de ser puesta en libertad o a disposición judicial?",
       "opciones": [
         "Hasta las 10:00 horas del martes.",

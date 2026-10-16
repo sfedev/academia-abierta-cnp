@@ -305,80 +305,99 @@
   ],
   "tarjetas": [
     {
+      "id": "t_30_01",
       "p": "¿Qué es un delito de odio según el Protocolo de las FCSE (definición de la OSCE)?",
       "r": "Toda infracción penal en la que el bien jurídico protegido se elige por su conexión, simpatía, filiación, apoyo o pertenencia, **real o percibida**, a un grupo."
     },
     {
+      "id": "t_30_02",
       "p": "¿Qué recoge el art. 22.4.ª CP?",
       "r": "La **agravante** de cometer el delito por motivos racistas, antisemitas, antigitanos u otra discriminación (incluidas **edad** y **aporofobia o exclusión social**), con independencia de que concurran realmente en la víctima."
     },
     {
+      "id": "t_30_03",
       "p": "Penas básicas del art. 510.1 y 510.2 CP.",
       "r": "510.1: **prisión de 1 a 4 años y multa de 6 a 12 meses**. 510.2: **prisión de 6 meses a 2 años** y multa de 6 a 12 meses."
     },
     {
+      "id": "t_30_04",
       "p": "¿Cuándo se impone la pena del art. 510 en su mitad superior (apdos. 3 y 4)?",
       "r": "Si se difunde por medio de comunicación social, internet o TIC accesibles a muchas personas, o si es idóneo para alterar la paz pública o crear un grave sentimiento de inseguridad (en este caso, hasta la pena superior en grado)."
     },
     {
+      "id": "t_30_05",
       "p": "Naturaleza de los delitos del art. 510 según la Circular 7/2019.",
       "r": "Delitos de **peligro abstracto** (salvo el primer inciso del 510.2.a, de resultado); **dolo genérico** y **motivación discriminatoria**."
     },
     {
+      "id": "t_30_06",
       "p": "¿Cómo se llaman los indicios que acreditan la motivación discriminatoria en el atestado?",
       "r": "**Indicadores de polarización** (Protocolo de 2020); el III Plan prevé sustituirlos por una diligencia de indicadores por motivación discriminatoria."
     },
     {
+      "id": "t_30_07",
       "p": "¿Qué es la ONDOD y de qué depende?",
       "r": "Oficina Nacional de Lucha contra los Delitos de Odio, creada en **2018**; depende de la **Dirección General de Coordinación y Estudios** (Secretaría de Estado de Seguridad, Ministerio del Interior)."
     },
     {
+      "id": "t_30_08",
       "p": "Estructura del III Plan de Acción contra los Delitos de Odio.",
       "r": "**2025-2028**: **6 líneas de acción, 15 objetivos y 109 medidas**. El II Plan (2022-2024): 8 líneas, 15 objetivos, 86 medidas."
     },
     {
+      "id": "t_30_09",
       "p": "¿Qué son los equipos EVO y REDO?",
       "r": "**EVO**: Equipos de Extremismo Violento y Odio de la **Policía Nacional**. **REDO**: Equipos de Respuesta a los Delitos de Odio de la **Guardia Civil**."
     },
     {
+      "id": "t_30_10",
       "p": "Base legal y dependencia del OBERAXE.",
       "r": "**Art. 71 LO 4/2000** (añadido por la LO 14/2003). Depende de la **Secretaría de Estado de Migraciones** (Ministerio de Inclusión, Seguridad Social y Migraciones)."
     },
     {
+      "id": "t_30_11",
       "p": "¿Qué es el sistema FARO?",
       "r": "**Filtrado y Análisis de Odio en las Redes Sociales** del OBERAXE: usa IA para identificar y analizar discursos de odio racistas y xenófobos en redes sociales en tiempo real."
     },
     {
+      "id": "t_30_12",
       "p": "Definición de mesofobia y de disfobia (Protocolo).",
       "r": "**Mesofobia**: rechazo a la mezcla y a la convivencia intercultural (sociedades «limpias»). **Disfobia**: delito motivado por la discapacidad de la persona."
     },
     {
+      "id": "t_30_13",
       "p": "Definición de aporofobia y de gerontofobia.",
       "r": "**Aporofobia**: odio o rechazo al pobre. **Gerontofobia**: hostilidad y discriminación hacia los ancianos (discriminación generacional)."
     },
     {
+      "id": "t_30_14",
       "p": "Definición de bifobia (Ley 4/2023, art. 3).",
       "r": "Toda actitud, conducta o discurso de rechazo, repudio, prejuicio, discriminación o intolerancia hacia las **personas bisexuales** por serlo o ser percibidas como tales."
     },
     {
+      "id": "t_30_15",
       "p": "¿Cuándo se celebra el Día Internacional para la Tolerancia y quién lo proclamó?",
       "r": "El **16 de noviembre**, proclamado en la Declaración de Principios sobre la Tolerancia de la **UNESCO** (1995, art. 6)."
     },
     {
+      "id": "t_30_16",
       "p": "Valores terminales e instrumentales de Rokeach.",
       "r": "Rokeach Value Survey: **18 terminales** (fines, p. ej. felicidad) y **18 instrumentales** (medios, p. ej. honestidad); 36 en total."
     },
     {
+      "id": "t_30_17",
       "p": "Tipos de sectas de Bryan Wilson.",
       "r": "Siete: conversionista, revolucionista, introversionista, gnóstico-manipulacionista, **taumatúrgica**, reformista y utópica."
     },
     {
+      "id": "t_30_18",
       "p": "¿Qué ley crea la Comisión Estatal contra la Violencia, el Racismo, la Xenofobia y la Intolerancia en el Deporte?",
       "r": "La **Ley 19/2007, de 11 de julio** (art. 20)."
     }
   ],
   "preguntas": [
     {
+      "id": "q_30_01",
       "enunciado": "¿Qué precepto del Código Penal recoge la circunstancia agravante de cometer el delito por motivos racistas, antisemitas, antigitanos u otra clase de discriminación?",
       "opciones": [
         "El art. 22.4.ª",
@@ -391,6 +410,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_30_02",
       "enunciado": "El art. 510.1 del Código Penal castiga el fomento, la promoción o la incitación pública al odio, hostilidad, discriminación o violencia contra un grupo por motivos discriminatorios con:",
       "opciones": [
         "Prisión de seis meses a dos años y multa de seis a doce meses",
@@ -403,6 +423,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_30_03",
       "enunciado": "¿Cuál de los siguientes motivos figura en el art. 22.4.ª del Código Penal pero NO en la enumeración de motivos del art. 510.1?",
       "opciones": [
         "La aporofobia",
@@ -415,6 +436,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_30_04",
       "enunciado": "Según el art. 510.3 del Código Penal, las penas de los apartados anteriores se imponen en su mitad superior cuando los hechos se lleven a cabo:",
       "opciones": [
         "A través de un medio de comunicación social, de internet o de tecnologías de la información, de modo que sea accesible a un elevado número de personas",
@@ -427,6 +449,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_30_05",
       "enunciado": "Cuando una persona jurídica sea responsable de los delitos de odio del art. 510 del Código Penal, el art. 510 bis prevé para ella:",
       "opciones": [
         "Multa de seis meses a dos años",
@@ -439,6 +462,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_30_06",
       "enunciado": "Según la Circular 7/2019 de la Fiscalía General del Estado, los delitos de odio del art. 510 del Código Penal, salvo el supuesto de resultado del primer inciso del art. 510.2.a, son:",
       "opciones": [
         "Delitos de lesión que exigen un daño efectivo y concreto a la víctima",
@@ -451,6 +475,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_30_07",
       "enunciado": "El Protocolo de actuación de las Fuerzas y Cuerpos de Seguridad, siguiendo a la OSCE, define los «delitos de odio» como:",
       "opciones": [
         "Cualquier infracción penal, incluidas las cometidas contra personas o propiedad, en que el bien jurídico protegido se elige por su conexión, filiación o pertenencia, real o percibida, a un grupo",
@@ -463,6 +488,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_30_08",
       "enunciado": "En el atestado por un posible delito de odio, ¿cómo se denominan los indicios que ayudan a acreditar la motivación discriminatoria?",
       "opciones": [
         "Indicadores de vulnerabilidad",
@@ -475,6 +501,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_30_09",
       "enunciado": "La Oficina Nacional de Lucha contra los Delitos de Odio (ONDOD) depende de:",
       "opciones": [
         "La Dirección General de la Policía",
@@ -487,6 +514,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_30_10",
       "enunciado": "El III Plan de Acción de Lucha contra los Delitos de Odio del Ministerio del Interior tiene:",
       "opciones": [
         "Vigencia 2025-2028, seis líneas de acción, quince objetivos y 109 medidas",
@@ -499,6 +527,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_30_11",
       "enunciado": "Los Equipos EVO y REDO, especializados en la investigación de los delitos de odio, pertenecen respectivamente a:",
       "opciones": [
         "La Guardia Civil y la Policía Nacional",
@@ -511,6 +540,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_30_12",
       "enunciado": "En el Sistema Estadístico de Criminalidad, ¿cuál de los siguientes NO es un ámbito de los delitos de odio?",
       "opciones": [
         "Aporofobia",
@@ -523,6 +553,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_30_13",
       "enunciado": "Según el Protocolo de actuación de las Fuerzas y Cuerpos de Seguridad, la mesofobia es:",
       "opciones": [
         "El rechazo a la mezcla y a la convivencia intercultural, que defiende sociedades «limpias»",
@@ -535,6 +566,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_30_14",
       "enunciado": "Según el Protocolo de las Fuerzas y Cuerpos de Seguridad, la disfobia es:",
       "opciones": [
         "La hostilidad y los actos discriminatorios hacia los ancianos",
@@ -547,6 +579,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_30_15",
       "enunciado": "Conforme al art. 3 de la Ley 4/2023, la bifobia es:",
       "opciones": [
         "Toda actitud, conducta o discurso de rechazo, prejuicio, discriminación o intolerancia hacia las personas homosexuales por el hecho de serlo",
@@ -559,6 +592,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_30_16",
       "enunciado": "Según la Declaración de Principios sobre la Tolerancia de la UNESCO (1995), el Día Internacional para la Tolerancia se celebra el:",
       "opciones": [
         "16 de noviembre",
@@ -571,6 +605,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_30_17",
       "enunciado": "Según la Declaración de Principios sobre la Tolerancia de la UNESCO, la tolerancia:",
       "opciones": [
         "Equivale a concesión, condescendencia o indulgencia ante cualquier conducta",
@@ -583,6 +618,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_30_18",
       "enunciado": "En la tipología de las sectas de Bryan Wilson, ¿qué tipo busca dispensaciones mágicas locales que permitan escapar de los problemas del mundo?",
       "opciones": [
         "Revolucionista",
@@ -595,6 +631,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_30_19",
       "enunciado": "El Observatorio Español del Racismo y la Xenofobia (OBERAXE) tiene su base legal en:",
       "opciones": [
         "El art. 71 de la Ley Orgánica 4/2000, de derechos y libertades de los extranjeros en España y su integración social",
@@ -607,6 +644,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_30_20",
       "enunciado": "El sistema FARO, utilizado por el OBERAXE, sirve para:",
       "opciones": [
         "Registrar los incidentes de odio denunciados en comisaría",
@@ -619,6 +657,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_30_21",
       "enunciado": "¿Qué ley crea la Comisión Estatal contra la Violencia, el Racismo, la Xenofobia y la Intolerancia en el Deporte?",
       "opciones": [
         "La Ley 15/2022, de 12 de julio",

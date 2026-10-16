@@ -208,72 +208,89 @@
   ],
   "tarjetas": [
     {
+      "id": "t_05_01",
       "p": "¿Qué órganos son superiores en la organización central de la AGE?",
       "r": "Los **Ministros** y los **Secretarios de Estado** (art. 55.3 Ley 40/2015)."
     },
     {
+      "id": "t_05_02",
       "p": "¿Qué órganos directivos hay en la organización central?",
       "r": "Subsecretarios y Secretarios generales; Secretarios generales técnicos y Directores generales; Subdirectores generales."
     },
     {
+      "id": "t_05_03",
       "p": "¿Qué rango tienen el Delegado y el Subdelegado del Gobierno?",
       "r": "Delegado: **rango de Subsecretario**. Subdelegado: **nivel de Subdirector general** (art. 55.4)."
     },
     {
+      "id": "t_05_04",
       "p": "¿Quiénes tienen la condición de alto cargo?",
       "r": "Los órganos superiores y directivos, **excepto los Subdirectores generales y asimilados** (art. 55.6)."
     },
     {
+      "id": "t_05_05",
       "p": "¿Cómo se compone el Gobierno?",
       "r": "**Presidente, Vicepresidentes (en su caso) y Ministros** (art. 1.2 Ley 50/1997)."
     },
     {
+      "id": "t_05_06",
       "p": "¿Quién es el secretario del Consejo de Ministros?",
       "r": "El **Ministro de la Presidencia** (art. 18.1 Ley 50/1997)."
     },
     {
+      "id": "t_05_07",
       "p": "¿Qué carácter tienen las deliberaciones del Consejo de Ministros y de la Comisión General de Secretarios de Estado y Subsecretarios?",
       "r": "Consejo de Ministros: **secretas**. Comisión General: **reservadas**."
     },
     {
+      "id": "t_05_08",
       "p": "¿Cómo se determina el número y la denominación de los Ministerios?",
       "r": "Por **Real Decreto del Presidente del Gobierno** (art. 57.3 Ley 40/2015)."
     },
     {
+      "id": "t_05_09",
       "p": "¿Cómo se crean Subsecretarías, Direcciones Generales y Subdirecciones Generales?",
       "r": "Por **Real Decreto del Consejo de Ministros**, a iniciativa del Ministro y propuesta de Hacienda (art. 59 Ley 40/2015)."
     },
     {
+      "id": "t_05_10",
       "p": "¿Cuándo cesa el Gobierno?",
       "r": "Tras **elecciones generales**, por **pérdida de confianza** parlamentaria, o por **dimisión o fallecimiento del Presidente**; sigue en funciones hasta la toma de posesión del nuevo."
     },
     {
+      "id": "t_05_11",
       "p": "¿A qué se limita el Gobierno en funciones?",
       "r": "Al **despacho ordinario de los asuntos públicos**, salvo urgencia acreditada o interés general expresamente acreditado (art. 21.3 Ley 50/1997)."
     },
     {
+      "id": "t_05_12",
       "p": "¿Qué no puede hacer el Presidente del Gobierno en funciones?",
       "r": "Proponer la **disolución** de las Cámaras, plantear la **cuestión de confianza** y proponer un **referéndum consultivo** (art. 21.4)."
     },
     {
+      "id": "t_05_13",
       "p": "¿Qué no puede hacer el Gobierno en funciones?",
       "r": "Aprobar el **proyecto de Presupuestos** y **presentar proyectos de ley** al Congreso o al Senado (art. 21.5)."
     },
     {
+      "id": "t_05_14",
       "p": "¿Ante qué jurisdicción se impugna la vía de hecho del Gobierno?",
       "r": "Ante la jurisdicción **contencioso-administrativa** (art. 29.3 Ley 50/1997). Su actuación también es impugnable ante el Tribunal Constitucional."
     },
     {
+      "id": "t_05_15",
       "p": "¿Qué porcentaje de cada sexo exige el art. 55 bis de la Ley 40/2015?",
       "r": "Ni más del **60 %** ni menos del **40 %** en las Secretarías de Estado y órganos directivos de cada departamento."
     },
     {
+      "id": "t_05_16",
       "p": "¿Quién ejerce la jefatura de las Fuerzas y Cuerpos de Seguridad del Estado en una Comunidad Autónoma?",
       "r": "El **Delegado del Gobierno**, bajo la dependencia funcional del Ministerio del Interior (art. 73.3 Ley 40/2015)."
     }
   ],
   "preguntas": [
     {
+      "id": "q_05_01",
       "enunciado": "Según el art. 55.3 de la Ley 40/2015, ¿cuáles son los órganos superiores de la Administración General del Estado en la organización central?",
       "opciones": [
         "Los Ministros y los Secretarios de Estado",
@@ -286,6 +303,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_05_02",
       "enunciado": "¿Qué rango o nivel tienen, respectivamente, los Delegados del Gobierno en las Comunidades Autónomas y los Subdelegados del Gobierno en las provincias según la Ley 40/2015?",
       "opciones": [
         "Delegados con rango de Director general y Subdelegados con nivel de Subdirector general",
@@ -298,6 +316,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_05_03",
       "enunciado": "Señale la afirmación INCORRECTA sobre los principios generales de las Administraciones Públicas del art. 3 de la Ley 40/2015.",
       "opciones": [
         "Sirven con objetividad los intereses generales y actúan de acuerdo con los principios de eficacia, jerarquía, descentralización, desconcentración y coordinación",
@@ -310,6 +329,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_05_04",
       "enunciado": "Según el art. 1 de la Ley 50/1997, del Gobierno, ¿cómo se compone el Gobierno?",
       "opciones": [
         "Del Presidente, los Vicepresidentes, los Ministros y los Secretarios de Estado",
@@ -322,6 +342,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_05_05",
       "enunciado": "¿Quién actúa como secretario en las reuniones del Consejo de Ministros?",
       "opciones": [
         "El Presidente del Gobierno",
@@ -334,6 +355,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_05_06",
       "enunciado": "¿Qué carácter tienen las deliberaciones de la Comisión General de Secretarios de Estado y Subsecretarios?",
       "opciones": [
         "Secretas, como las del Consejo de Ministros",
@@ -346,6 +368,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_05_07",
       "enunciado": "Entre las funciones que el art. 5 de la Ley 50/1997 atribuye al Consejo de Ministros se encuentra:",
       "opciones": [
         "Declarar los estados de alarma y de excepción y proponer al Congreso de los Diputados la declaración del estado de sitio",
@@ -358,6 +381,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_05_08",
       "enunciado": "¿Cuál de las siguientes facultades NO puede ejercer el Presidente del Gobierno en funciones?",
       "opciones": [
         "Presidir el Consejo de Ministros",
@@ -370,6 +394,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_05_09",
       "enunciado": "Según el art. 21.5 de la Ley 50/1997, ¿qué NO puede hacer el Gobierno en funciones?",
       "opciones": [
         "Despachar los asuntos públicos de carácter ordinario",
@@ -382,6 +407,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_05_10",
       "enunciado": "Tras unas elecciones generales, el Gobierno cesante continúa en funciones. El Consejo de Ministros se plantea aprobar y remitir a las Cortes un proyecto de ley ordinario sobre una materia sectorial. ¿Es posible?",
       "opciones": [
         "No, el Gobierno en funciones no puede presentar proyectos de ley al Congreso ni al Senado",
@@ -394,6 +420,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_05_11",
       "enunciado": "Según el art. 73.3 de la Ley 40/2015, ¿a quién corresponde la jefatura de las Fuerzas y Cuerpos de Seguridad del Estado en el territorio de una Comunidad Autónoma?",
       "opciones": [
         "Al Director General de la Policía",
@@ -406,6 +433,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_05_12",
       "enunciado": "¿Quién nombra a los Subdelegados del Gobierno en las provincias y mediante qué procedimiento?",
       "opciones": [
         "El Delegado del Gobierno, mediante libre designación entre funcionarios de carrera del subgrupo A1",
@@ -418,6 +446,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_05_13",
       "enunciado": "¿Qué órgano directivo del Ministerio ostenta la representación ordinaria del departamento y dirige los servicios comunes, según el art. 63 de la Ley 40/2015?",
       "opciones": [
         "El Secretario de Estado",
@@ -430,6 +459,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_05_14",
       "enunciado": "Según el art. 59 de la Ley 40/2015, ¿cómo se crean, modifican y suprimen las Direcciones Generales?",
       "opciones": [
         "Por orden del Ministro respectivo, previa autorización del Ministro de Hacienda y Administraciones Públicas",
@@ -442,6 +472,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_05_15",
       "enunciado": "¿Mediante qué norma se determinan el número, la denominación y el ámbito de competencia de los Ministerios y de las Secretarías de Estado?",
       "opciones": [
         "Mediante Real Decreto del Presidente del Gobierno",
@@ -454,6 +485,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_05_16",
       "enunciado": "Señale cuál de las siguientes NO es un derecho de las personas en sus relaciones con las Administraciones Públicas conforme al art. 13 de la Ley 39/2015.",
       "opciones": [
         "A comunicarse con las Administraciones Públicas a través de un Punto de Acceso General electrónico",
@@ -466,6 +498,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_05_17",
       "enunciado": "Los actos, la inactividad y las actuaciones materiales constitutivas de vía de hecho del Gobierno, según el art. 29 de la Ley 50/1997, son impugnables ante:",
       "opciones": [
         "El Tribunal Constitucional en todo caso",
@@ -478,6 +511,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_05_18",
       "enunciado": "Respecto a la delegación de firma regulada en el art. 12 de la Ley 40/2015, señale la afirmación correcta.",
       "opciones": [
         "No altera la competencia del órgano delegante y para su validez no es necesaria su publicación",
@@ -490,6 +524,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_05_19",
       "enunciado": "Según el art. 55 bis de la Ley 40/2015, en el nombramiento de las Secretarías de Estado y de los órganos directivos de cada departamento ministerial debe respetarse que:",
       "opciones": [
         "Las mujeres supongan al menos el 50 % del total",

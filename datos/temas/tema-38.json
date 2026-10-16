@@ -394,80 +394,99 @@
   ],
   "tarjetas": [
     {
+      "id": "t_38_01",
       "p": "¿Qué es un sistema operativo?",
       "r": "Software de sistema que gestiona los recursos del equipo (procesador, memoria, almacenamiento, dispositivos) y presta servicios a las aplicaciones y al usuario."
     },
     {
+      "id": "t_38_02",
       "p": "¿Cuáles son las cuatro condiciones del interbloqueo (deadlock)?",
       "r": "**Exclusión mutua**, **retención y espera**, **no apropiación** y **espera circular**; han de darse a la vez."
     },
     {
+      "id": "t_38_03",
       "p": "¿Sobre qué núcleo se basa Android?",
       "r": "Sobre el núcleo **Linux** (pila de software de código abierto). Sus aplicaciones se ejecutan en **ART**."
     },
     {
+      "id": "t_38_04",
       "p": "¿Qué núcleo comparten macOS e iOS?",
       "r": "**XNU**, núcleo híbrido de **Darwin** que combina Mach con componentes de FreeBSD."
     },
     {
+      "id": "t_38_05",
       "p": "¿Tamaño máximo de un archivo en FAT32?",
       "r": "**4 GiB**."
     },
     {
+      "id": "t_38_06",
       "p": "¿Qué sistema de archivos de Windows admite ACL, cifrado y compresión?",
       "r": "**NTFS** (también journaling de metadatos y cuotas). FAT32 y exFAT no."
     },
     {
+      "id": "t_38_07",
       "p": "¿Archivo máximo en ext4 con bloques de 4 KiB y extents?",
       "r": "**16 TiB**."
     },
     {
+      "id": "t_38_08",
       "p": "¿Sistema de archivos predeterminado de macOS desde la versión 10.13?",
       "r": "**APFS**, con cifrado, instantáneas, clonado y espacio compartido."
     },
     {
+      "id": "t_38_09",
       "p": "¿Cuántas particiones admite GPT en Windows y cuántas entradas tiene MBR?",
       "r": "GPT: hasta **128** particiones. MBR: **4** entradas de partición."
     },
     {
+      "id": "t_38_10",
       "p": "¿Requisitos clave de hardware de Windows 11?",
       "r": "UEFI con arranque seguro, **TPM 2.0**, CPU de 64 bits (2 o más núcleos, 1 GHz), 4 GB de RAM y 64 GB de almacenamiento."
     },
     {
+      "id": "t_38_11",
       "p": "¿Cuándo terminó el soporte de Windows 10?",
       "r": "El **14 de octubre de 2025** (última versión: 22H2)."
     },
     {
+      "id": "t_38_12",
       "p": "Herramientas de cifrado de disco por sistema.",
       "r": "**BitLocker**: Windows. **FileVault**: macOS. **LUKS**: Linux. **VeraCrypt**: multiplataforma, basado en TrueCrypt."
     },
     {
+      "id": "t_38_13",
       "p": "¿Qué hacen RAID 0, 1, 5 y 6?",
       "r": "**0**: reparto sin redundancia. **1**: espejo. **5**: paridad distribuida (mínimo 3 discos, tolera 1 fallo). **6**: doble paridad (tolera 2 fallos)."
     },
     {
+      "id": "t_38_14",
       "p": "¿Qué atajos bloquean la sesión en Windows y en macOS?",
       "r": "Windows: **Windows+L**. macOS: **Control+Comando+Q**."
     },
     {
+      "id": "t_38_15",
       "p": "¿Qué atajo fuerza la salida de una aplicación en macOS y cuál abre el Administrador de tareas en Windows?",
       "r": "macOS: **Opción+Comando+Esc**. Windows: **Ctrl+Mayús+Esc**."
     },
     {
+      "id": "t_38_16",
       "p": "¿Qué sistemas de tipo UNIX comerciales conviene conocer?",
       "r": "**AIX** (IBM), **HP-UX** (HPE) y **Solaris** (Oracle). **macOS** es un producto registrado como UNIX 03."
     },
     {
+      "id": "t_38_17",
       "p": "¿Bajo qué licencias van el núcleo Linux y el grueso de Android?",
       "r": "Núcleo Linux: **GPL-2.0**. La mayor parte de AOSP: **Apache 2.0**; los parches del kernel de Android: GPLv2."
     },
     {
+      "id": "t_38_18",
       "p": "¿Cómo se diferencian MS-DOS y UNIX en cuanto a usuarios y tareas?",
       "r": "MS-DOS ejecuta **un programa de usuario a la vez** desde una línea de comandos; UNIX es un sistema **multiusuario** e interactivo."
     }
   ],
   "preguntas": [
     {
+      "id": "q_38_01",
       "enunciado": "Según Microsoft, ¿cuál es el tamaño máximo de un archivo individual en un volumen FAT32?",
       "opciones": [
         "2 GiB",
@@ -480,6 +499,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_38_02",
       "enunciado": "Señale la afirmación INCORRECTA sobre las condiciones necesarias para que se produzca un interbloqueo (deadlock):",
       "opciones": [
         "Exclusión mutua: los procesos reclaman el uso exclusivo de los recursos que necesitan.",
@@ -492,6 +512,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_38_03",
       "enunciado": "La documentación para desarrolladores de Android describe la plataforma como una pila de software de código abierto basada en…",
       "opciones": [
         "el núcleo Linux.",
@@ -504,6 +525,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_38_04",
       "enunciado": "¿Cuál de los siguientes sistemas operativos NO utiliza el núcleo Linux?",
       "opciones": [
         "Android",
@@ -516,6 +538,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_38_05",
       "enunciado": "¿Qué programa de cifrado de disco es de código abierto, funciona en Windows, macOS y Linux y está basado en TrueCrypt 7.1a?",
       "opciones": [
         "BitLocker",
@@ -528,6 +551,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_38_06",
       "enunciado": "¿Qué versión del módulo TPM exige Windows 11 como requisito mínimo de hardware?",
       "opciones": [
         "TPM 2.0.",
@@ -540,6 +564,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_38_07",
       "enunciado": "¿En qué fecha finalizó el soporte de Windows 10 en sus ediciones Home y Pro?",
       "opciones": [
         "El 29 de julio de 2025.",
@@ -552,6 +577,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_38_08",
       "enunciado": "Respecto a las tablas de particiones MBR y GPT, señale la afirmación correcta:",
       "opciones": [
         "MBR admite hasta 128 particiones primarias.",
@@ -564,6 +590,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_38_09",
       "enunciado": "¿Cuál de los siguientes sistemas de archivos de Windows incorpora listas de control de acceso (ACL), cifrado a nivel de sistema de archivos y compresión integrada?",
       "opciones": [
         "NTFS",
@@ -576,6 +603,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_38_10",
       "enunciado": "Un agente debe trasladar un único archivo de vídeo de 6 GiB, mediante un pendrive, entre un ordenador con Windows y otro con macOS. ¿Qué sistema de archivos conviene en el pendrive?",
       "opciones": [
         "FAT32",
@@ -588,6 +616,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_38_11",
       "enunciado": "Según la documentación del kernel de Linux, ¿cuál es el tamaño máximo de un archivo en ext4 con bloques de 4 KiB y extents?",
       "opciones": [
         "4 GiB",
@@ -600,6 +629,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_38_12",
       "enunciado": "¿Qué núcleo comparten los sistemas operativos macOS e iOS?",
       "opciones": [
         "XNU, un núcleo híbrido de Darwin que combina Mach con componentes de FreeBSD.",
@@ -612,6 +642,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_38_13",
       "enunciado": "¿Bajo qué licencia se distribuye el núcleo Linux?",
       "opciones": [
         "Apache License 2.0.",
@@ -624,6 +655,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_38_14",
       "enunciado": "¿Qué sistema operativo de tipo UNIX para servidores desarrolla la empresa IBM?",
       "opciones": [
         "HP-UX",
@@ -636,6 +668,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_38_15",
       "enunciado": "Señale la combinación de teclas INCORRECTAMENTE asociada a su función en Windows:",
       "opciones": [
         "Windows + L: bloquear el equipo.",
@@ -648,6 +681,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_38_16",
       "enunciado": "En macOS, ¿qué combinación de teclas permite forzar la salida de una aplicación que no responde?",
       "opciones": [
         "Opción + Comando + Esc.",
@@ -660,6 +694,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_38_17",
       "enunciado": "Se quiere un almacenamiento en el que los datos se guarden idénticos en dos discos para seguir funcionando si falla uno. ¿Qué nivel de RAID es el adecuado?",
       "opciones": [
         "RAID 0",
@@ -672,6 +707,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_38_18",
       "enunciado": "¿Qué es un NAS?",
       "opciones": [
         "Un dispositivo de almacenamiento conectado a la red que ofrece acceso a archivos mediante protocolos como NFS o SMB.",
@@ -684,6 +720,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_38_19",
       "enunciado": "Una usuaria de Windows selecciona un archivo y pulsa Mayús + Supr (Shift + Delete). ¿Qué ocurre?",
       "opciones": [
         "El archivo se mueve a la Papelera de reciclaje.",
@@ -696,6 +733,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_38_20",
       "enunciado": "Señale la función que NO corresponde a un sistema operativo:",
       "opciones": [
         "Asignar memoria a los procesos y aislarlos entre sí.",

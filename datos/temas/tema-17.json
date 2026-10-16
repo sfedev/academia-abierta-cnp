@@ -365,88 +365,109 @@
   ],
   "tarjetas": [
     {
+      "id": "t_17_01",
       "p": "¿Pena del homicidio y del asesinato?",
       "r": "Homicidio: prisión de **10 a 15 años** (art. 138). Asesinato: **15 a 25 años** (art. 139)."
     },
     {
+      "id": "t_17_02",
       "p": "¿Qué circunstancias convierten un homicidio en asesinato?",
       "r": "Alevosía; precio, recompensa o promesa; ensañamiento; facilitar la comisión de otro delito o evitar que se descubra (art. 139.1)."
     },
     {
+      "id": "t_17_03",
       "p": "¿Cuándo se impone prisión permanente revisable al asesinato?",
       "r": "Víctima menor de **16 años** o especialmente vulnerable; hecho subsiguiente a un delito contra la libertad sexual sobre la víctima; autor perteneciente a organización criminal; muerte de más de dos personas (art. 140)."
     },
     {
+      "id": "t_17_04",
       "p": "¿Qué pena tiene el homicidio imprudente grave y el menos grave?",
       "r": "Grave: prisión de **1 a 4 años**. Menos grave: multa de **3 a 18 meses**, con denuncia salvo vehículo a motor (art. 142)."
     },
     {
+      "id": "t_17_05",
       "p": "¿Penas del art. 143 sobre suicidio?",
       "r": "Inducir: **4 a 8 años**; cooperar con actos necesarios: **2 a 5**; ejecutar la muerte: **6 a 10**."
     },
     {
+      "id": "t_17_06",
       "p": "¿Cuándo no hay responsabilidad penal por eutanasia?",
       "r": "Cuando se cumple lo establecido en la ley orgánica reguladora de la eutanasia (art. 143.5)."
     },
     {
+      "id": "t_17_07",
       "p": "¿Qué pena corresponde al aborto sin consentimiento de la mujer?",
       "r": "Prisión de **4 a 8 años** e inhabilitación especial de 3 a 10 años (art. 144)."
     },
     {
+      "id": "t_17_08",
       "p": "¿Cuándo se aplican en su mitad superior las penas del aborto?",
       "r": "Cuando se lleva a cabo a partir de la **semana 22** de gestación (art. 145.3)."
     },
     {
+      "id": "t_17_09",
       "p": "¿Qué diferencia hay entre el art. 147.1 y el art. 147.2?",
       "r": "El 147.1 exige tratamiento médico o quirúrgico además de la primera asistencia; si solo hay primera asistencia, es el delito leve del 147.2 (multa de 1 a 3 meses)."
     },
     {
+      "id": "t_17_10",
       "p": "¿Penas de los arts. 148, 149 y 150?",
       "r": "148: **2 a 5 años**; 149: **6 a 12 años**; 150: **3 a 6 años**."
     },
     {
+      "id": "t_17_11",
       "p": "¿Qué efecto tiene el consentimiento en las lesiones?",
       "r": "Pena inferior en uno o dos grados; no es válido el del menor ni el de una persona con discapacidad necesitada de especial protección (art. 155)."
     },
     {
+      "id": "t_17_12",
       "p": "¿Pena de la detención ilegal por un particular?",
       "r": "**4 a 6 años**; **5 a 8** si dura más de 15 días; pena inferior en grado si libera en los tres primeros días sin lograr su propósito (art. 163)."
     },
     {
+      "id": "t_17_13",
       "p": "¿Qué pena accesoria se impone a la autoridad o funcionario que comete detención ilegal?",
       "r": "Inhabilitación absoluta de **8 a 12 años** (art. 167.3)."
     },
     {
+      "id": "t_17_14",
       "p": "Elementos del delito de tortura.",
       "r": "Autoridad o funcionario, abuso de cargo, fin de obtener confesión o información o de castigar, y sufrimientos físicos o mentales o atentado contra la integridad moral (art. 174.1)."
     },
     {
+      "id": "t_17_15",
       "p": "¿Penas de la tortura?",
       "r": "Grave: **2 a 6 años**; no grave: **1 a 3 años**; siempre inhabilitación absoluta de **8 a 12 años**."
     },
     {
+      "id": "t_17_16",
       "p": "¿Pena de la violencia habitual del art. 173.2?",
       "r": "Prisión de **6 meses a 3 años** y privación de armas de 3 a 5 años; mitad superior en presencia de menores, con armas, en el domicilio común o de la víctima o con quebrantamiento."
     },
     {
+      "id": "t_17_17",
       "p": "¿Qué es consentimiento sexual según el Código Penal?",
       "r": "El manifestado **libremente** mediante actos que, en atención a las circunstancias, expresen de manera clara la voluntad de la persona (art. 178.1)."
     },
     {
+      "id": "t_17_18",
       "p": "¿Penas de la agresión sexual y de la violación?",
       "r": "Agresión sexual: **1 a 4 años**; con violencia o intimidación: **1 a 5**. Violación: **4 a 12**; con violencia o intimidación: **6 a 12** (arts. 178 y 179)."
     },
     {
+      "id": "t_17_19",
       "p": "¿Qué pena tienen los actos sexuales con un menor de 16 años?",
       "r": "Prisión de **2 a 6 años** (art. 181.1); más grave con violencia, intimidación o acceso carnal."
     },
     {
+      "id": "t_17_20",
       "p": "¿Qué efecto tiene el perdón del ofendido en las agresiones y el acoso sexual?",
       "r": "No extingue la acción penal ni la responsabilidad (art. 191.2)."
     }
   ],
   "preguntas": [
     {
+      "id": "q_17_01",
       "enunciado": "Según el art. 138.1 del Código Penal, ¿con qué pena se castiga el homicidio doloso básico?",
       "opciones": [
         "Prisión de 15 a 25 años",
@@ -459,6 +480,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_17_02",
       "enunciado": "¿Cuál de las siguientes NO es una circunstancia cualificadora del asesinato en el art. 139.1 del Código Penal?",
       "opciones": [
         "Prevalerse del carácter público que tenga el culpable",
@@ -471,6 +493,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_17_03",
       "enunciado": "El asesinato se castiga con prisión permanente revisable, entre otros supuestos, cuando la víctima sea menor de:",
       "opciones": [
         "14 años",
@@ -483,6 +506,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_17_04",
       "enunciado": "Tras agredir sexualmente a una mujer, el agresor la mata para evitar que lo denuncie. ¿Qué calificación y pena corresponden?",
       "opciones": [
         "Homicidio del art. 138.1, con prisión de 10 a 15 años",
@@ -495,6 +519,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_17_05",
       "enunciado": "Al reo de asesinato que ha sido condenado por la muerte de más de dos personas, el art. 140.2 del Código Penal le impone:",
       "opciones": [
         "Prisión de 25 a 30 años",
@@ -507,6 +532,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_17_06",
       "enunciado": "Respecto del homicidio por imprudencia menos grave (art. 142.2 del Código Penal), señale la afirmación correcta:",
       "opciones": [
         "Se castiga con multa de 3 a 18 meses y, salvo que se cometa con vehículo a motor o ciclomotor, solo es perseguible previa denuncia de la persona agraviada o de su representante legal",
@@ -519,6 +545,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_17_07",
       "enunciado": "El que coopera con actos necesarios al suicidio de una persona incurre, según el art. 143 del Código Penal, en la pena de:",
       "opciones": [
         "Prisión de 2 a 5 años",
@@ -531,6 +558,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_17_08",
       "enunciado": "Tras una pelea, una persona sufre un hematoma que solo requiere una primera asistencia facultativa, sin tratamiento médico posterior. ¿Cómo se califica la lesión?",
       "opciones": [
         "Delito de lesiones del art. 147.1, con prisión de 3 meses a 3 años o multa",
@@ -543,6 +571,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_17_09",
       "enunciado": "La pérdida o inutilidad de un órgano o miembro principal, o de un sentido, causada a otro se castiga en el art. 149.1 del Código Penal con:",
       "opciones": [
         "Prisión de 3 a 6 años",
@@ -555,6 +584,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_17_10",
       "enunciado": "¿Qué efecto tiene el consentimiento válido del ofendido en los delitos de lesiones según el art. 155 del Código Penal?",
       "opciones": [
         "Excluye siempre la responsabilidad penal",
@@ -567,6 +597,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_17_11",
       "enunciado": "¿En cuál de los siguientes delitos NO se castigan la provocación, la conspiración y la proposición?",
       "opciones": [
         "Agresión sexual",
@@ -579,6 +610,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_17_12",
       "enunciado": "El encierro o la detención ilegal de una persona por un particular que dura más de quince días se castiga con la pena de prisión de:",
       "opciones": [
         "4 a 6 años",
@@ -591,6 +623,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_17_13",
       "enunciado": "Una autoridad o funcionario público que, fuera de los casos permitidos por la ley y sin mediar causa por delito, comete una detención ilegal incurre, además de en las penas del capítulo en su mitad superior, en la pena de inhabilitación absoluta de:",
       "opciones": [
         "6 a 12 años",
@@ -603,6 +636,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_17_14",
       "enunciado": "Un agente de policía golpea a un detenido y le somete a asfixia simulada para obtener su confesión. ¿Qué delito comete?",
       "opciones": [
         "Lesiones agravadas del art. 148, con prisión de 2 a 5 años",
@@ -615,6 +649,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_17_15",
       "enunciado": "Para apreciar la habitualidad en el delito de violencia habitual en el ámbito familiar (art. 173.2 y 173.3 del Código Penal), se atiende:",
       "opciones": [
         "Al número de actos de violencia acreditados y a su proximidad temporal, aunque no hayan sido enjuiciados antes y afecten a la misma o a distintas víctimas de las comprendidas en el precepto",
@@ -627,6 +662,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_17_16",
       "enunciado": "Conforme al art. 178.1 del Código Penal, tras la reforma de la LO 10/2022, ¿cuándo se entiende que hay consentimiento en materia sexual?",
       "opciones": [
         "Cuando la persona no ha manifestado oposición expresa ni ha opuesto resistencia",
@@ -639,6 +675,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_17_17",
       "enunciado": "El acceso carnal por vía vaginal, anal o bucal sin consentimiento, sin violencia ni intimidación y sin que la víctima tenga anulada su voluntad, se castiga como violación (art. 179.1 del Código Penal) con prisión de:",
       "opciones": [
         "1 a 4 años",
@@ -651,6 +688,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_17_18",
       "enunciado": "Respecto de las víctimas menores de 18 años de delitos contra la libertad sexual, ¿desde cuándo se computa el plazo de prescripción según el art. 132.1 del Código Penal?",
       "opciones": [
         "Desde que cumplan 18 años",
@@ -663,6 +701,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_17_19",
       "enunciado": "Según el art. 143.5 del Código Penal, ¿quién no incurre en responsabilidad penal por causar o cooperar activamente a la muerte de otra persona?",
       "opciones": [
         "Quien actúe por petición de un familiar de la persona que sufre una enfermedad grave",

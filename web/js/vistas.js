@@ -374,7 +374,7 @@
     }
     bloques.forEach(function (b) { cuerpo.appendChild(b); });
 
-    var indice = h("nav", { class: "toc", "aria-label": "Contenido del tema" }, h("div", { class: "eyebrow" }, "En este tema"));
+    var indice = h("nav", { class: "toc", id: "toc-tema", "aria-label": "Contenido del tema" }, h("div", { class: "eyebrow" }, "En este tema"));
     toc.forEach(function (x) {
       indice.appendChild(h("a", {
         href: "#tema-" + n,
@@ -384,8 +384,19 @@
           var plegable = el && el.querySelector("details.ampliado");
           if (plegable) plegable.open = true;
           if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+          if (AA.cerrarToc) AA.cerrarToc();
         },
       }, x[1]));
+    });
+    // En tablet y movil el indice no ocupa ancho de lectura: es un panel flotante que abre este boton (ver app.css).
+    var fabIndice = h("button", {
+      class: "toc-fab", type: "button", "aria-expanded": "false", "aria-controls": "toc-tema",
+      onclick: function () {
+        var abrir = !indice.classList.contains("abierto");
+        indice.classList.toggle("abierto", abrir);
+        fabIndice.setAttribute("aria-expanded", abrir ? "true" : "false");
+      },
+      html: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h16"/></svg>Índice',
     });
 
     var fin = h(
@@ -399,6 +410,7 @@
     );
 
     root.appendChild(h("div", { class: "ficha" }, h("div", { style: "min-width:0" }, head, avisoLeyes(n), cuerpo, fin, navegacion(n), nota(d)), indice));
+    root.appendChild(fabIndice);
     return root;
   };
 
@@ -443,33 +455,43 @@
     t = t || "";
     return t.length > n ? t.slice(0, n - 1).replace(/[\s,.;]+\S*$/, "") + "…" : t;
   }
-  function listaArticulos(e) {
-    if (!e.articulos || !e.articulos.length) return "";
-    var resto = e.nArticulos - e.articulos.length;
-    var soloArt = e.articulos.every(function (a) { return /^Art\. /.test(a); });
-    var lista = e.articulos.map(function (a) { return soloArt ? a.replace(/^Art\. /, "") : a; }).join(", ");
-    return (soloArt ? (e.nArticulos === 1 ? "Art. " : "Arts. ") : "") + lista + (resto > 0 ? " y " + resto + " más" : "");
+  /* Artículos de la novedad; con `tema`, solo los que cita esa ficha (articulosPorTema, si el vigilante los registró). */
+  function listaArticulos(e, tema) {
+    var propios = tema != null && e.articulosPorTema && e.articulosPorTema[tema];
+    var arts = propios || e.articulos;
+    if (!arts || !arts.length) return "";
+    var total = propios ? arts.length : e.nArticulos;
+    var resto = total - arts.length;
+    var soloArt = arts.every(function (a) { return /^Art\. /.test(a); });
+    var lista = arts.map(function (a) { return soloArt ? a.replace(/^Art\. /, "") : a; }).join(", ");
+    return (soloArt ? (total === 1 ? "Art. " : "Arts. ") : "") + lista + (resto > 0 ? " y " + resto + " más" : "");
   }
 
   function tarjetaNovedad(e) {
     var pend = e.estado === "pendiente";
-    var temas = h("div", { class: "row", style: "gap:6px" }, e.temas.slice(0, 12).map(function (n) {
+    var sin = !!e.sinImpacto; // ninguna ficha cita los artículos modificados
+    var otros = e.otrosTemas || [];
+    var chips = sin ? otros : e.temas;
+    var temas = h("div", { class: "row", style: "gap:6px" });
+    if (sin && chips.length) temas.appendChild(h("span", { class: "muted", style: "font-size:.85rem" }, "Citan la norma:"));
+    chips.slice(0, 12).forEach(function (n) {
       var t = AA.temas[n];
-      return h("a", { class: "chip", href: "#tema-" + n, title: t ? t.titulo : "" }, "Tema " + n);
-    }));
-    if (e.temas.length > 12) temas.appendChild(h("span", { class: "chip" }, "+" + (e.temas.length - 12)));
+      temas.appendChild(h("a", { class: "chip", href: "#tema-" + n, title: t ? t.titulo : "" }, "Tema " + n));
+    });
+    if (chips.length > 12) temas.appendChild(h("span", { class: "chip" }, "+" + (chips.length - 12)));
     var detalle = [];
     if (e.modificadora && e.modificadora.id) {
       detalle.push(h("div", {}, "Modificada por ", h("a", { href: e.modificadora.url, target: "_blank", rel: "noopener noreferrer" }, e.modificadora.titulo ? recorta(e.modificadora.titulo, 110) : e.modificadora.id), e.publicacion ? " (publicada el " + AA.fecha(e.publicacion) + ")" : ""));
     }
     var arts = listaArticulos(e);
     if (arts) detalle.push(h("div", {}, h("span", { class: "muted" }, "Afecta a: "), arts));
+    if (!sin && otros.length) detalle.push(h("div", { class: "muted" }, "También citan la norma, sin tocar esos artículos: " + otros.map(function (n) { return "tema " + n; }).join(", ") + "."));
     return h(
       "article",
       { class: "nov-card" + (pend ? " nov-card--pend" : "") },
       h("div", { class: "nov-head" },
         h("strong", { class: "nov-norma" }, e.norma.corto),
-        h("span", { class: "pill " + (pend ? "pill--pend" : "pill--ok") }, pend ? "Pendiente de revisar" : "Reflejada en las fichas")),
+        h("span", { class: "pill " + (pend ? "pill--pend" : "pill--ok") }, pend ? "Pendiente de revisar" : sin ? "Sin impacto en las fichas" : "Reflejada en las fichas")),
       h("div", { class: "nov-cuando" }, cuandoRige(e)),
       h("div", { class: "muted nov-titulo" }, recorta(e.norma.titulo, 140)),
       detalle.length ? h("div", { class: "nov-detalle" }, detalle) : null,
@@ -533,6 +555,7 @@
           h("li", {}, sinCons + " normas citadas en las fichas no tienen texto consolidado en el BOE (tratados, convenios y normas antiguas) y no se pueden vigilar automáticamente."),
           h("li", {}, (N.otrasFuentes || 0) + " referencias de las fichas no son del BOE (Derecho de la UE, RAE, INE, DGT, guías técnicas…): no se vigilan aquí. Conviene revisarlas de vez en cuando."),
           h("li", {}, "El BOE actualiza el texto consolidado días o semanas después de publicar una reforma, así que un aviso puede llegar con retraso respecto al día de publicación."),
+          h("li", {}, "Una reforma solo avisa en una ficha si cambia un artículo que esa ficha cita. Si ninguna ficha cita los artículos modificados, queda anotada como «Sin impacto en las fichas»."),
           h("li", {}, "«Pendiente de revisar» significa que la ficha todavía no se ha actualizado con el cambio. Hasta entonces, contrasta ese punto con el BOE.")))
     ));
 
@@ -547,7 +570,7 @@
     var ps = AA.novedadesPendientes(n);
     if (!ps.length) return null;
     var ul = h("ul", {}, ps.map(function (e) {
-      var arts = listaArticulos(e);
+      var arts = listaArticulos(e, n);
       return h("li", { html: rich("**" + e.norma.corto + "**: " + cuandoRige(e).toLowerCase().replace(/^./, function (c) { return c.toUpperCase(); }) + (arts ? ". " + arts : "") + ".") });
     }));
     return h("aside", { class: "aviso-ley", role: "note" },

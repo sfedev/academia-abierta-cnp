@@ -454,100 +454,124 @@
   ],
   "tarjetas": [
     {
+      "id": "t_16_01",
       "p": "¿Qué edades fija la responsabilidad penal?",
       "r": "Menor de **14**: sin responsabilidad penal (normas de protección de menores). De **14 a 17**: LO 5/2000. **18 o más**: Código Penal (art. 19 CP)."
     },
     {
+      "id": "t_16_02",
       "p": "¿Cuándo hay tentativa?",
       "r": "Cuando se da principio a la ejecución directamente por hechos exteriores y el resultado no se produce **por causas independientes de la voluntad** del autor (art. 16.1)."
     },
     {
+      "id": "t_16_03",
       "p": "¿Qué efecto tiene el desistimiento voluntario?",
       "r": "Exención de responsabilidad por el delito intentado, sin perjuicio de responder por los actos ya ejecutados si son otro delito (art. 16.2)."
     },
     {
+      "id": "t_16_04",
       "p": "¿Qué pena corresponde a la tentativa y a la complicidad?",
       "r": "Tentativa: **inferior en uno o dos grados** (art. 62). Complicidad: **inferior en un grado** (art. 63)."
     },
     {
+      "id": "t_16_05",
       "p": "Define la conspiración.",
       "r": "**Dos o más personas** se conciertan para ejecutar un delito y resuelven ejecutarlo (art. 17.1)."
     },
     {
+      "id": "t_16_06",
       "p": "Define la proposición.",
       "r": "Quien **ha resuelto** cometer un delito **invita** a otra u otras personas a participar en él (art. 17.2)."
     },
     {
+      "id": "t_16_07",
       "p": "¿Cuándo se castigan conspiración, proposición y provocación?",
       "r": "Solo **en los casos especialmente previstos** por la ley (arts. 17.3 y 18.2)."
     },
     {
+      "id": "t_16_08",
       "p": "¿Qué efecto tiene el error de prohibición vencible?",
       "r": "Pena **inferior en uno o dos grados**. Si es invencible, excluye la responsabilidad (art. 14.3)."
     },
     {
+      "id": "t_16_09",
       "p": "¿Cuándo se equipara la omisión a la acción en un delito de resultado?",
       "r": "Cuando se infringe un especial deber jurídico: **obligación legal o contractual** de actuar, o creación previa del riesgo (art. 11)."
     },
     {
+      "id": "t_16_10",
       "p": "¿Quiénes son autores según el art. 28?",
       "r": "Quienes realizan el hecho por sí, conjuntamente o por medio de otro; y los **inductores** y los **cooperadores necesarios**."
     },
     {
+      "id": "t_16_11",
       "p": "¿Cuándo responde penalmente una persona jurídica?",
       "r": "Solo en los supuestos previstos en el Código, por delitos cometidos en su **beneficio directo o indirecto** por sus directivos o por sometidos a su autoridad si hubo grave falta de control (art. 31 bis)."
     },
     {
+      "id": "t_16_12",
       "p": "¿Quién no puede ser penalmente responsable como persona jurídica?",
       "r": "El Estado, las Administraciones públicas territoriales e institucionales, los organismos reguladores, las agencias, las entidades públicas empresariales y quienes ejerzan potestades públicas (art. 31 quinquies)."
     },
     {
+      "id": "t_16_13",
       "p": "Requisitos del estado de necesidad.",
       "r": "Mal causado **no mayor**; situación **no provocada intencionadamente**; el necesitado **sin obligación de sacrificarse** por oficio o cargo (art. 20.5)."
     },
     {
+      "id": "t_16_14",
       "p": "Requisitos de la legítima defensa.",
       "r": "**Agresión ilegítima**, **necesidad racional** del medio empleado y **falta de provocación suficiente** del defensor (art. 20.4)."
     },
     {
+      "id": "t_16_15",
       "p": "¿En qué eximentes se aplican medidas de seguridad?",
       "r": "En las tres primeras del art. 20: anomalía psíquica, intoxicación plena o síndrome de abstinencia, y alteraciones en la percepción."
     },
     {
+      "id": "t_16_16",
       "p": "¿Cuántas atenuantes y agravantes hay?",
       "r": "**Siete** atenuantes (art. 21), **ocho** agravantes (art. 22) y una circunstancia mixta, el parentesco (art. 23)."
     },
     {
+      "id": "t_16_17",
       "p": "¿Cuándo hay reincidencia?",
       "r": "Al delinquir, condena ejecutoria por un delito del **mismo título** y de la **misma naturaleza**; no cuentan antecedentes cancelados ni delitos leves, salvo multirreincidencia de leves (art. 22.8)."
     },
     {
+      "id": "t_16_18",
       "p": "¿Cuál es la extensión de la prisión y de la multa?",
       "r": "Prisión: **3 meses a 20 años** (art. 36.2). Multa: **10 días a 2 años**, con cuota de **2 a 400 euros** (art. 50)."
     },
     {
+      "id": "t_16_19",
       "p": "¿Cómo se cumple la responsabilidad personal subsidiaria por impago de multa?",
       "r": "Con privación de libertad de **un día por cada dos cuotas** no satisfechas; es pena privativa de libertad (arts. 35 y 53)."
     },
     {
+      "id": "t_16_20",
       "p": "¿En cuánto prescriben los delitos?",
       "r": "**20, 15, 10 y 5 años** según la pena máxima; **1 año** los leves, las injurias y las calumnias (art. 131)."
     },
     {
+      "id": "t_16_21",
       "p": "¿Qué ley penal tiene efecto retroactivo?",
       "r": "La que **favorece al reo**, aunque haya sentencia firme y esté cumpliendo condena (art. 2.2)."
     },
     {
+      "id": "t_16_22",
       "p": "Pena del concurso ideal.",
       "r": "La de la infracción **más grave en su mitad superior**, sin exceder de la suma de las penas por separado (art. 77.2)."
     },
     {
+      "id": "t_16_23",
       "p": "¿Cuándo procede el internamiento cerrado de un menor?",
       "r": "Delito grave; o menos grave con violencia, intimidación o grave riesgo; o delito cometido en grupo o al servicio de una banda u organización (art. 9.2 LO 5/2000)."
     }
   ],
   "preguntas": [
     {
+      "id": "q_16_01",
       "enunciado": "Un menor de 13 años comete unas lesiones graves a un compañero de clase. ¿Qué régimen se le aplica?",
       "opciones": [
         "Se le aplica la Ley Orgánica 5/2000 con una medida de internamiento educativo",
@@ -560,6 +584,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_16_02",
       "enunciado": "María, que ya ha resuelto atracar una joyería, invita a Luis a participar y este se niega. ¿Qué figura concurre en María?",
       "opciones": [
         "Conspiración",
@@ -572,6 +597,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_16_03",
       "enunciado": "Pedro empieza a forzar la cerradura de un local para robar, rompiendo parte de la puerta, pero antes de entrar decide voluntariamente marcharse. ¿Cuál es su situación penal?",
       "opciones": [
         "Queda exento de responsabilidad por el robo intentado, sin perjuicio de responder por los actos ya ejecutados si constituyen otro delito",
@@ -584,6 +610,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_16_04",
       "enunciado": "Según el art. 14.3 del Código Penal, ¿qué efecto tiene el error vencible sobre la ilicitud del hecho constitutivo de la infracción penal?",
       "opciones": [
         "Excluye la responsabilidad criminal",
@@ -596,6 +623,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_16_05",
       "enunciado": "Un socorrista contratado para vigilar una piscina ve cómo un niño se ahoga y no hace nada; el niño muere. ¿Qué fundamenta, según el art. 11 CP, que su omisión se equipare a la acción de causar la muerte?",
       "opciones": [
         "Una específica obligación contractual de actuar",
@@ -608,6 +636,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_16_06",
       "enunciado": "En un robo planeado entre varios, Ana no entra en el local, pero consigue los códigos de la alarma, sin los cuales el hecho no se habría podido ejecutar. ¿Cómo responde según el art. 28 CP?",
       "opciones": [
         "Como cómplice, con la pena inferior en un grado",
@@ -620,6 +649,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_16_07",
       "enunciado": "¿Qué pena corresponde, respectivamente, a la tentativa y a la complicidad, en relación con la señalada por la ley para el delito consumado o para los autores?",
       "opciones": [
         "Tentativa: inferior en un grado; complicidad: inferior en uno o dos grados",
@@ -632,6 +662,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_16_08",
       "enunciado": "¿Cuál de los siguientes sujetos NO puede ser penalmente responsable conforme al art. 31 quinquies del Código Penal?",
       "opciones": [
         "Una Administración pública territorial, como un ayuntamiento",
@@ -644,6 +675,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_16_09",
       "enunciado": "Cuando el delito lo ha cometido un administrador de la sociedad, ¿en qué momento debe haber adoptado y ejecutado con eficacia el órgano de administración el modelo de organización y gestión para que la persona jurídica quede exenta de responsabilidad?",
       "opciones": [
         "En cualquier momento antes de dictarse sentencia",
@@ -656,6 +688,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_16_10",
       "enunciado": "¿Cuál NO es un requisito de la legítima defensa del art. 20.4.º del Código Penal?",
       "opciones": [
         "Agresión ilegítima",
@@ -668,6 +701,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_16_11",
       "enunciado": "Un montañero, para no morir de frío durante una tormenta, rompe la ventana de un refugio cerrado y entra en él, causando un pequeño daño. ¿Qué eximente cabe apreciar?",
       "opciones": [
         "Estado de necesidad (art. 20.5.º)",
@@ -680,6 +714,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_16_12",
       "enunciado": "Una persona con un trastorno psicótico grave, que en el momento de los hechos no podía comprender la ilicitud de su conducta, causa lesiones a otra. ¿Qué consecuencia penal procede?",
       "opciones": [
         "Condena con la atenuante de anomalía psíquica y pena en la mitad inferior",
@@ -692,6 +727,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_16_13",
       "enunciado": "¿Cuál de las siguientes circunstancias es una atenuante del art. 21 y no una eximente del art. 20?",
       "opciones": [
         "Haber confesado la infracción a las autoridades antes de conocer que el procedimiento judicial se dirige contra el culpable",
@@ -704,6 +740,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_16_14",
       "enunciado": "Señale la circunstancia que NO figura entre las agravantes del art. 22 del Código Penal:",
       "opciones": [
         "Obrar con abuso de confianza",
@@ -716,6 +753,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_16_15",
       "enunciado": "A efectos de la agravante de reincidencia (art. 22.8.ª CP), ¿qué antecedentes NO se computan?",
       "opciones": [
         "Los correspondientes a delitos del mismo título y de la misma naturaleza",
@@ -728,6 +766,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_16_16",
       "enunciado": "¿Qué naturaleza tiene la responsabilidad personal subsidiaria por impago de multa?",
       "opciones": [
         "Es una pena privativa de libertad",
@@ -740,6 +779,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_16_17",
       "enunciado": "Un delito tiene señalada una pena máxima de prisión de 12 años. ¿En qué plazo prescribe, según el art. 131 del Código Penal?",
       "opciones": [
         "10 años",
@@ -752,6 +792,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_16_18",
       "enunciado": "Una reforma penal posterior reduce la pena del delito por el que Rosa cumple condena en virtud de sentencia firme. ¿Qué ocurre con la nueva ley?",
       "opciones": [
         "No le es aplicable, porque la sentencia ya es firme",
@@ -764,6 +805,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_16_19",
       "enunciado": "Un solo hecho constituye dos delitos (concurso ideal). ¿Cómo se determina la pena según el art. 77.2 del Código Penal?",
       "opciones": [
         "Se suman las penas de ambos delitos",
@@ -776,6 +818,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_16_20",
       "enunciado": "Un empleado, ejecutando un plan preconcebido, sustrae cada semana pequeñas cantidades de la caja de su empresa durante varios meses. ¿Qué regla concursal prevé el art. 74 CP para este supuesto?",
       "opciones": [
         "Concurso real de delitos, con suma de todas las penas",
@@ -788,6 +831,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_16_21",
       "enunciado": "Para que la jurisdicción española conozca de un delito cometido en el extranjero por un español, ¿cuál es uno de los requisitos que exige con carácter general el art. 23.2 de la Ley Orgánica del Poder Judicial?",
       "opciones": [
         "Que el hecho sea punible en el lugar de ejecución, salvo que un tratado internacional lo excuse",
@@ -800,6 +844,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_16_22",
       "enunciado": "¿Cómo clasifica el art. 33 del Código Penal la pena de prisión de tres meses hasta cinco años?",
       "opciones": [
         "Pena leve",
@@ -812,6 +857,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_16_23",
       "enunciado": "Juan planea mentalmente con todo detalle cómo matar a su vecino, pero no se lo cuenta a nadie ni realiza acto alguno. ¿Cómo se califica penalmente su conducta?",
       "opciones": [
         "Conducta atípica por falta de una acción u omisión penalmente relevante",
@@ -824,6 +870,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_16_24",
       "enunciado": "Según el art. 6 del Código Penal, ¿en qué se fundamentan las medidas de seguridad?",
       "opciones": [
         "En la culpabilidad del sujeto por el hecho cometido",

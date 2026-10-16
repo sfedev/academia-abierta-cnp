@@ -97,6 +97,11 @@ jobs:
             --label novedades-leyes \
             --body "Este es un aviso de prueba. Cuando el BOE cambie una ley del temario, recibirás un issue como este con la lista de cambios y el enlace a la pestaña Novedades de la web: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/#novedades. Puedes cerrarlo."
 
+      - name: Validar las fichas
+        # Si una ficha tiene errores de formato (opciones, claves, tablas...), no se publica. Los avisos no bloquean.
+        # Va después de guardar las novedades para que un error de formato no impida registrar los cambios legales.
+        run: python -I herramientas/validar_tema.py datos/temas/tema-*.json
+
       - name: Generar la web
         run: |
           python -I herramientas/build.py

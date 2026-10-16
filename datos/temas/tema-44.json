@@ -294,72 +294,89 @@
  ],
  "tarjetas": [
   {
+   "id": "t_44_01",
    "p": "¿Qué distingue la seguridad activa de la pasiva?",
    "r": "**Activa**: contribuye a evitar el accidente (frenos, ABS, ESP, neumáticos, dirección). **Pasiva**: minimiza las consecuencias durante el accidente y cuando acaba (cinturón, airbag, reposacabezas, carrocería, casco)."
   },
   {
+   "id": "t_44_02",
    "p": "¿Qué hace el ABS?",
    "r": "Detecta el bloqueo de una o varias ruedas y **reduce la fuerza de frenado** en ellas para recuperar la adherencia; mantiene la direccionalidad. El pedal vibra al actuar y es normal."
   },
   {
+   "id": "t_44_03",
    "p": "¿Qué hace el ESP?",
    "r": "Corrige el derrape del eje delantero o trasero **frenando una rueda**: la trasera interior si derrapa el delantero, la delantera exterior si derrapa el trasero."
   },
   {
+   "id": "t_44_04",
    "p": "Diferencia entre TCS y ASR.",
    "r": "Ambos evitan el patinaje de las ruedas motrices. El **TCS** reduce la fuerza del motor o frena la rueda que patina; el **ASR** actúa solo sobre el motor, reduciendo la potencia."
   },
   {
+   "id": "t_44_05",
    "p": "¿Qué relación hay entre airbag y cinturón?",
    "r": "El airbag es un **complemento** del cinturón (SRS), **nunca su sustituto**; sin cinturón no cumple su objetivo."
   },
   {
+   "id": "t_44_06",
    "p": "¿Cómo se coloca el reposacabezas?",
    "r": "A unos **4 cm** de la cabeza y con el borde superior entre la parte alta de la cabeza y la altura de los ojos. Evita el latigazo cervical."
   },
   {
+   "id": "t_44_07",
    "p": "¿Qué es el EDR y qué exige el Reglamento 2019/2144?",
    "r": "El registrador de datos de incidencias o **caja negra**: guarda datos poco antes, durante e inmediatamente después de una colisión; **no puede desactivarse** y sus datos solo sirven a las autoridades para investigar accidentes."
   },
   {
+   "id": "t_44_08",
    "p": "¿Qué es el eCall y desde cuándo es obligatorio?",
    "r": "Llamada automática al **112** tras un accidente grave. Desde el **31/3/2018** solo se homologan nuevos tipos de turismos y furgonetas que lo lleven (Reglamento 2015/758)."
   },
   {
+   "id": "t_44_09",
    "p": "¿Cuándo pueden los vehículos de urgencia circular sin cinturón?",
    "r": "**Solo en poblado**; nunca en autopistas, autovías ni carreteras convencionales (art. 119.2 RGC). La DGP aconseja usarlo siempre."
   },
   {
+   "id": "t_44_10",
    "p": "Orden INT/2573/2015: vehículos de detenidos de hasta nueve plazas.",
    "r": "Categoría **M1**, climatización **18-28 ºC**, un extintor de polvo de **6 kg** accesible a la escolta, suelo con chapa de acero y compartimento de detenidos separado."
   },
   {
+   "id": "t_44_11",
    "p": "Orden INT/2573/2015: vehículos de detenidos de más de nueve plazas.",
    "r": "Categorías **M2 y M3**, pasillo y celdas, WC, intercomunicador y **dos extintores de polvo de 12 kg** (delante y detrás)."
   },
   {
+   "id": "t_44_12",
    "p": "¿Cómo deben ser los asientos del compartimento de detenidos?",
    "r": "Estructura metálica con revestimiento rígido y lavable, **reposacabezas integrado**, en el **sentido de la marcha** y con **retención homologada** que se abre desde el puesto de vigilancia."
   },
   {
+   "id": "t_44_13",
    "p": "¿Qué protección deben usar los motoristas desde el 1/10/2026?",
    "r": "**Casco** UNECE R22 (todas las vías), **guantes** (vías interurbanas) y **calzado cerrado** (todas las vías); chaleco reflectante en la dotación de la moto."
   },
   {
+   "id": "t_44_14",
    "p": "¿Desde cuándo son obligatorios los ADAS de la UE?",
    "r": "Nuevos tipos desde el **6/7/2022**; todos los vehículos nuevos desde el **7/7/2024** (Reglamento 2019/2144)."
   },
   {
+   "id": "t_44_15",
    "p": "¿Qué es la compensación del riesgo?",
    "r": "Que algunos conductores, al creerse más seguros con ABS, ESP o airbag, **conducen con más riesgo** y anulan parte del beneficio (DGT)."
   },
   {
+   "id": "t_44_16",
    "p": "¿En qué orden se regula el puesto de conducción del vehículo policial?",
    "r": "Altura del asiento, inclinación del respaldo (100º-110º), distancia al volante y pedales, reposacabezas, volante, espejos y cinturón (IOPR-003)."
   }
  ],
  "preguntas": [
   {
+   "id": "q_44_01",
    "enunciado": "¿Cuál de los siguientes elementos pertenece a la seguridad activa del vehículo?",
    "opciones": [
     "El sistema antibloqueo de frenos (ABS).",
@@ -372,6 +389,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_44_02",
    "enunciado": "Señale la afirmación INCORRECTA sobre la seguridad activa y la pasiva:",
    "opciones": [
     "La seguridad activa contribuye a evitar que se produzca el accidente.",
@@ -384,6 +402,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_44_03",
    "enunciado": "Respecto al airbag, la DGT señala que:",
    "opciones": [
     "Sustituye al cinturón en los impactos frontales.",
@@ -396,6 +415,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_44_04",
    "enunciado": "El sistema ASR evita el patinaje de las ruedas motrices al acelerar, actuando:",
    "opciones": [
     "Solo sobre el motor, reduciendo la potencia aunque el conductor mantenga el acelerador a fondo.",
@@ -408,6 +428,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_44_05",
    "enunciado": "El registrador de datos de incidencias (EDR o «caja negra») exigido por el Reglamento (UE) 2019/2144:",
    "opciones": [
     "Graba de forma continua imágenes del habitáculo y de la carretera, y su titular puede desactivarlo cuando lo desee.",
@@ -420,6 +441,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_44_06",
    "enunciado": "El sistema eCall basado en el número 112 integrado en los vehículos:",
    "opciones": [
     "Frena automáticamente el vehículo ante un obstáculo y es voluntario para el fabricante de turismos.",
@@ -432,6 +454,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_44_07",
    "enunciado": "Una dotación del CNP circula en servicio urgente por una autovía. Según el art. 119.2 del RGC, ¿puede prescindir del cinturón de seguridad?",
    "opciones": [
     "No: la exención de los vehículos en servicios de urgencia solo opera en poblado, nunca en autopistas, autovías ni carreteras convencionales.",
@@ -444,6 +467,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_44_08",
    "enunciado": "Según la Orden INT/2573/2015, un vehículo de traslado de detenidos de hasta nueve plazas, incluidos el conductor y la escolta, debe llevar:",
    "opciones": [
     "Dos extintores de polvo de 12 kg.",
@@ -456,6 +480,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_44_09",
    "enunciado": "La Orden INT/2573/2015 exige que la climatización de los vehículos de conducción de detenidos mantenga una temperatura aproximada entre:",
    "opciones": [
     "15 ºC y 25 ºC.",
@@ -468,6 +493,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_44_10",
    "enunciado": "¿A qué categoría deben corresponder los vehículos de hasta nueve plazas destinados a la conducción de detenidos según la Orden INT/2573/2015?",
    "opciones": [
     "M1.",
@@ -480,6 +506,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_44_11",
    "enunciado": "Un autobús celular de más de nueve plazas para el traslado de detenidos debe ir dotado, según la Orden INT/2573/2015, de:",
    "opciones": [
     "Un extintor de polvo de 6 kg en el compartimento delantero.",
@@ -492,6 +519,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_44_12",
    "enunciado": "Los asientos del compartimento de detenidos de los vehículos regulados por la Orden INT/2573/2015 deben:",
    "opciones": [
     "Ir colocados de espaldas a la marcha, para que la escolta vigile de frente.",
@@ -504,6 +532,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_44_13",
    "enunciado": "¿A qué distancia aproximada de la cabeza debe quedar el reposacabezas según la DGT y la Dirección General de la Policía?",
    "opciones": [
     "Unos 4 cm.",
@@ -516,6 +545,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_44_14",
    "enunciado": "Según el art. 118.1 del RGC, vigente desde el 1 de octubre de 2026, los conductores y pasajeros de motocicletas deben utilizar:",
    "opciones": [
     "Casco homologado en vías interurbanas, y guantes y calzado cerrado solo en vías urbanas.",
@@ -528,6 +558,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_44_15",
    "enunciado": "Según el Reglamento (UE) 2019/2144, ¿desde qué fecha deben incorporar todos los vehículos nuevos que se matriculen el asistente de velocidad inteligente y el registrador de datos de incidencias?",
    "opciones": [
     "Desde el 31 de marzo de 2018.",
@@ -540,6 +571,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_44_16",
    "enunciado": "¿Qué advierte el Manual de la DGT sobre la influencia en el comportamiento del conductor de sistemas como el ABS y el ESP?",
    "opciones": [
     "Que algunos conductores compensan la mayor seguridad con una conducción más arriesgada.",
@@ -552,6 +584,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_44_17",
    "enunciado": "Cuando el ABS entra en acción durante una frenada de emergencia, el pedal del freno vibra. ¿Cómo debe interpretarlo el conductor?",
    "opciones": [
     "Como una avería del sistema, por lo que debe acudir al taller.",

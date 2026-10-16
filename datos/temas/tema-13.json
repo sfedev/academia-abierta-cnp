@@ -260,76 +260,94 @@
   ],
   "tarjetas": [
     {
+      "id": "t_13_01",
       "p": "¿Cuántas actividades de seguridad privada enumera el art. 5.1 y cuál es exclusiva de los despachos de detectives?",
       "r": "**Ocho** (letras a a h). La **h, investigación privada**, es exclusiva y excluyente de los despachos de detectives (art. 5.2)."
     },
     {
+      "id": "t_13_02",
       "p": "¿Qué validez tiene la autorización administrativa de una empresa de seguridad privada?",
       "r": "**Indefinida** (art. 18.3). La declaración responsable de despachos de detectives también es indefinida (art. 24.3)."
     },
     {
+      "id": "t_13_03",
       "p": "¿Qué empresas de seguridad pueden presentar declaración responsable en lugar de pedir autorización?",
       "r": "Las que se dediquen **exclusivamente a la instalación y mantenimiento** de sistemas conectados a centrales de alarmas o centros de control o videovigilancia (art. 18.2)."
     },
     {
+      "id": "t_13_04",
       "p": "¿Quién habilita al personal de seguridad privada?",
       "r": "El Ministerio del Interior: la **Dirección General de la Policía** a todo el personal, excepto guardas rurales y sus especialidades, que habilita la **Dirección General de la Guardia Civil** (art. 27.3)."
     },
     {
+      "id": "t_13_05",
       "p": "¿Cuánto tiempo se conservan los informes de investigación de un despacho de detectives?",
       "r": "**Al menos 3 años**. Imágenes y sonidos, destruidos 3 años después de finalizar la investigación, salvo procedimiento judicial, policial o sancionador (art. 49.4)."
     },
     {
+      "id": "t_13_06",
       "p": "¿Cuándo es obligatorio que exista jefe de seguridad en una empresa de seguridad?",
       "r": "Siempre que se dedique a alguna de las actividades **a, b, c, d y e** del art. 5.1 (art. 35.2)."
     },
     {
+      "id": "t_13_07",
       "p": "¿En qué casos el usuario debe poner al frente de su seguridad a un director de seguridad?",
       "r": "Cuando lo exija la normativa de desarrollo por la dimensión de su servicio, por **decisión gubernativa** o por **disposición especial** (art. 36.2)."
     },
     {
+      "id": "t_13_08",
       "p": "¿Cuáles son los plazos de prescripción de las infracciones y de las sanciones?",
       "r": "Infracciones: **6 meses, 1 año y 2 años** (leves, graves, muy graves; art. 56.2). Sanciones: **1, 2 y 4 años** (art. 68.1)."
     },
     {
+      "id": "t_13_09",
       "p": "¿En qué plazo se ratifican las medidas provisionales previas al procedimiento y cuánto pueden durar?",
       "r": "Se ratifican, modifican o revocan en **15 días**; duran **como máximo 6 meses** (art. 55.2 y 55.3)."
     },
     {
+      "id": "t_13_10",
       "p": "¿Quién impone las sanciones en el ámbito de la Administración del Estado?",
       "r": "Ministro del Interior (extinciones); Secretario de Estado de Seguridad (resto de muy graves); Director General de la Policía (graves); Delegados y Subdelegados del Gobierno (leves) (art. 66.1)."
     },
     {
+      "id": "t_13_11",
       "p": "¿Cuántos tipos de medidas de seguridad distingue el art. 52?",
       "r": "**Cinco**: física, electrónica, informática, organizativa y personal."
     },
     {
+      "id": "t_13_12",
       "p": "Servicios que se prestan con armas de fuego (art. 40.1)",
       "r": "Dinero, valores y objetos valiosos; fábricas, depósitos y transporte de armas, cartuchería y explosivos; buques mercantes y pesqueros de bandera española en aguas de grave riesgo; vigilancia perimetral de prisiones, CIE y otras instalaciones públicas."
     },
     {
+      "id": "t_13_13",
       "p": "¿Qué servicios de vigilancia requieren autorización previa fuera del interior de los inmuebles?",
       "r": "Polígonos industriales y urbanizaciones delimitados; parques comerciales y de ocio; eventos relevantes en vías públicas; recintos abiertos delimitados (art. 41.2)."
     },
     {
+      "id": "t_13_14",
       "p": "¿Qué son las comisiones mixtas de seguridad privada?",
       "r": "Órganos **consultivos y de colaboración** entre las administraciones y el sector, nacionales, autonómicas o provinciales (art. 16.2)."
     },
     {
+      "id": "t_13_15",
       "p": "¿Qué unidad de la Policía Nacional es la Autoridad Nacional de Control de la seguridad privada?",
       "r": "La **Unidad Central de Seguridad Privada**, dentro de la Comisaría General de Seguridad Ciudadana (Orden INT/859/2023, art. 7.2.e)."
     },
     {
+      "id": "t_13_16",
       "p": "¿Cuándo es obligatoria la bandeja o dispositivo de túnel en una farmacia según el Reglamento de 1994?",
       "r": "Solo cuando la farmacia preste **servicio nocturno o de urgencia** (art. 131 del Reglamento, vigente en lo que no contradiga la Ley 5/2014)."
     },
     {
+      "id": "t_13_17",
       "p": "¿Qué deben hacer los detectives ante un delito perseguible de oficio que conocen?",
       "r": "No investigarlo y **denunciarlo inmediatamente** ante la autoridad competente, aportando la información e instrumentos que tengan (arts. 10.2 y 37.4)."
     }
   ],
   "preguntas": [
     {
+      "id": "q_13_01",
       "enunciado": "Según la Ley 5/2014 de Seguridad Privada, ¿en qué plazo prescriben las infracciones graves?",
       "opciones": [
         "A los seis meses.",
@@ -342,6 +360,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_13_02",
       "enunciado": "Cuando los miembros de las Fuerzas y Cuerpos de Seguridad adoptan medidas provisionales anteriores al procedimiento sancionador en materia de seguridad privada, ¿en qué plazo máximo deben ser ratificadas, modificadas o revocadas?",
       "opciones": [
         "Quince días.",
@@ -354,6 +373,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_13_03",
       "enunciado": "¿Durante cuánto tiempo, como mínimo, deben conservarse archivados los informes de investigación elaborados por los despachos de detectives privados?",
       "opciones": [
         "Un año.",
@@ -366,6 +386,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_13_04",
       "enunciado": "¿Qué órgano habilita a los guardas rurales y a sus especialidades?",
       "opciones": [
         "La Dirección General de la Policía.",
@@ -378,6 +399,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_13_05",
       "enunciado": "Señale la afirmación INCORRECTA sobre las actividades de seguridad privada.",
       "opciones": [
         "La investigación privada solo puede prestarse por los despachos de detectives privados, con carácter exclusivo y excluyente.",
@@ -390,6 +412,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_13_06",
       "enunciado": "¿Qué empresas de seguridad privada pueden sustituir la autorización administrativa por una declaración responsable?",
       "opciones": [
         "Las que se dediquen exclusivamente a la instalación y mantenimiento de sistemas de seguridad conectados a centrales receptoras de alarmas o a centros de control o videovigilancia.",
@@ -402,6 +425,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_13_07",
       "enunciado": "¿Cuál de las siguientes funciones corresponde a los jefes de seguridad?",
       "opciones": [
         "La interlocución y enlace con la Administración y las Fuerzas y Cuerpos de Seguridad sobre la seguridad integral de la entidad o grupo empresarial.",
@@ -414,6 +438,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_13_08",
       "enunciado": "Un vigilante de seguridad controla el acceso a una nave industrial y un visitante se niega a que revise el contenido de su paquetería. ¿Qué puede hacer el vigilante?",
       "opciones": [
         "Retener el documento de identidad del visitante hasta que acepte el control.",
@@ -426,6 +451,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_13_09",
       "enunciado": "¿En qué supuesto pueden los escoltas privados realizar identificaciones o detenciones, o restringir la libre circulación?",
       "opciones": [
         "Solo cuando resulte imprescindible por una agresión o un intento manifiesto de agresión a la persona protegida o a los propios escoltas, poniendo de inmediato al detenido a disposición de las Fuerzas y Cuerpos de Seguridad sin interrogarlo.",
@@ -438,6 +464,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_13_10",
       "enunciado": "Un cliente propone a un despacho de detectives investigar un robo con violencia cometido contra su local, delito perseguible de oficio. ¿Cómo debe actuar el despacho?",
       "opciones": [
         "Aceptar el encargo si el cliente acredita un interés legítimo, ya que el hecho le afecta directamente.",
@@ -450,6 +477,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_13_11",
       "enunciado": "Para habilitarse como guardapesca marítimo es necesario haberlo hecho previamente como:",
       "opciones": [
         "Vigilante de seguridad.",
@@ -462,6 +490,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_13_12",
       "enunciado": "La falta de respeto al honor o a la dignidad de las personas cometida por el personal que desempeña funciones de seguridad privada es una infracción:",
       "opciones": [
         "Grave.",
@@ -474,6 +503,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_13_13",
       "enunciado": "En el ámbito de la Administración General del Estado, ¿a quién corresponde, con carácter general, imponer las sanciones por infracciones graves en materia de seguridad privada?",
       "opciones": [
         "Al Secretario de Estado de Seguridad.",
@@ -486,6 +516,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_13_14",
       "enunciado": "¿Cuál de los siguientes servicios de seguridad privada se presta con armas de fuego, en los términos que reglamentariamente se determinen, según el art. 40.1 de la Ley 5/2014?",
       "opciones": [
         "La vigilancia en polígonos industriales y urbanizaciones delimitados.",
@@ -498,6 +529,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_13_15",
       "enunciado": "En relación con los servicios de videovigilancia regulados en la Ley 5/2014, señale la afirmación correcta.",
       "opciones": [
         "Cuando su finalidad sea prevenir infracciones, evitar daños a personas o bienes o impedir accesos no autorizados, han de ser prestados por vigilantes de seguridad o, en su caso, por guardas rurales.",
@@ -510,6 +542,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_13_16",
       "enunciado": "Según el Reglamento de Seguridad Privada de 1994, vigente en lo que no contravenga la Ley 5/2014, ¿cuándo es obligatorio utilizar en las oficinas de farmacia el dispositivo de túnel, bandeja de vaivén o bandeja giratoria con seguro?",
       "opciones": [
         "Siempre, durante toda la jornada de apertura.",
@@ -522,6 +555,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_13_17",
       "enunciado": "Un vigilante de seguridad de un centro comercial persigue fuera del local a una persona sorprendida en flagrante delito de hurto contra los bienes que él protege. ¿Es legal su actuación?",
       "opciones": [
         "No: los vigilantes solo pueden actuar en el interior de las propiedades, sin excepción alguna.",
@@ -534,6 +568,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_13_18",
       "enunciado": "¿Cuándo se consideran agresiones y desobediencias a agentes de la autoridad las cometidas contra el personal de seguridad privada?",
       "opciones": [
         "Cuando, debidamente identificado, desarrolle actividades de seguridad privada en cooperación y bajo el mando de las Fuerzas y Cuerpos de Seguridad.",
@@ -546,6 +581,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_13_19",
       "enunciado": "Para contratar servicios de seguridad privada en los sectores estratégicos definidos en la legislación de protección de infraestructuras críticas, las empresas de seguridad deben contar previamente con:",
       "opciones": [
         "Una autorización especial del Consejo de Ministros.",

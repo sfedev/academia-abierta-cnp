@@ -337,7 +337,7 @@
     "Art. 18"
    ],
    "detectado": "2026-10-16",
-   "estado": "pendiente",
+   "estado": "incorporada",
    "id": "60960d1a50",
    "modificadora": {
     "id": "BOE-A-2026-20528",
@@ -352,6 +352,7 @@
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-21990"
    },
    "publicacion": "2026-10-03",
+   "revisada": "2026-10-16",
    "temas": [
     23
    ],
@@ -374,7 +375,7 @@
     "Art. 15"
    ],
    "detectado": "2026-10-16",
-   "estado": "pendiente",
+   "estado": "incorporada",
    "id": "b7dd5de7e0",
    "modificadora": {
     "id": "BOE-A-2026-20528",
@@ -389,6 +390,7 @@
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632"
    },
    "publicacion": "2026-10-03",
+   "revisada": "2026-10-16",
    "temas": [
     23
    ],
@@ -400,7 +402,7 @@
     "Art. 49"
    ],
    "detectado": "2026-10-16",
-   "estado": "pendiente",
+   "estado": "incorporada",
    "id": "7ab993470d",
    "modificadora": {
     "id": "BOE-A-2026-20528",
@@ -415,6 +417,7 @@
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
    },
    "publicacion": "2026-10-03",
+   "revisada": "2026-10-16",
    "temas": [
     6,
     23
@@ -453,7 +456,7 @@
     "Art. 363"
    ],
    "detectado": "2026-10-16",
-   "estado": "pendiente",
+   "estado": "incorporada",
    "id": "54ef0a60bf",
    "modificadora": {
     "id": "BOE-A-2026-20528",
@@ -468,6 +471,7 @@
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724"
    },
    "publicacion": "2026-10-03",
+   "revisada": "2026-10-16",
    "temas": [
     24
    ],

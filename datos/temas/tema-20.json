@@ -261,76 +261,94 @@
   ],
   "tarjetas": [
     {
+      "id": "t_20_01",
       "p": "¿Pena básica del art. 197.1 CP (apoderarse de correos, interceptar telecomunicaciones, usar artificios de escucha)?",
       "r": "Prisión de **1 a 4 años** y multa de 12 a 24 meses."
     },
     {
+      "id": "t_20_02",
       "p": "¿Pena si se difunden, revelan o ceden los datos descubiertos (art. 197.3)?",
       "r": "Prisión de **2 a 5 años**."
     },
     {
+      "id": "t_20_03",
       "p": "¿Pena si el autor es el encargado o responsable de los ficheros (art. 197.4)?",
       "r": "Prisión de **3 a 5 años**."
     },
     {
+      "id": "t_20_04",
       "p": "¿Qué castiga el art. 197.7 y con qué pena?",
       "r": "Difundir sin autorización imágenes o grabaciones obtenidas con la anuencia de la persona en un lugar fuera de la mirada de terceros, si se menoscaba gravemente su intimidad: prisión de **3 meses a 1 año** o multa de 6 a 12 meses."
     },
     {
+      "id": "t_20_05",
       "p": "¿Qué conducta castiga el art. 197 bis.1?",
       "r": "Acceder a un sistema de información o mantenerse en él vulnerando sus medidas de seguridad y sin autorización: prisión de **6 meses a 2 años**."
     },
     {
+      "id": "t_20_06",
       "p": "¿Cuándo procede perseguir los delitos del art. 197 sin denuncia (art. 201)?",
       "r": "Cuando la comete autoridad o funcionario (art. 198), afecta a intereses generales o a una pluralidad de personas, o la víctima es menor o persona con discapacidad necesitada de especial protección."
     },
     {
+      "id": "t_20_07",
       "p": "¿Pena base de los daños informáticos del art. 264.1 y de su agravación del art. 264.2?",
       "r": "Base: prisión de **6 meses a 3 años**. Agravada (organización criminal, servicios públicos esenciales, infraestructura crítica...): **2 a 5 años** y multa del tanto al décuplo del perjuicio."
     },
     {
+      "id": "t_20_08",
       "p": "¿Cómo se califica usar fraudulentamente una tarjeta ajena para operar en perjuicio de su titular?",
       "r": "Como **estafa** del art. 249.1.b, con prisión de 6 meses a 3 años."
     },
     {
+      "id": "t_20_09",
       "p": "¿Cuáles son los principios rectores de las medidas de investigación tecnológica (art. 588 bis a)?",
       "r": "**Especialidad, idoneidad, excepcionalidad, necesidad y proporcionalidad**."
     },
     {
+      "id": "t_20_10",
       "p": "¿En qué plazo resuelve el juez la solicitud de una medida de investigación tecnológica (art. 588 bis c)?",
       "r": "En **24 horas** desde que se presenta la solicitud."
     },
     {
+      "id": "t_20_11",
       "p": "¿Duración de la interceptación de comunicaciones telefónicas y telemáticas (art. 588 ter g)?",
       "r": "**3 meses**, prorrogables por períodos iguales hasta un máximo de **18 meses**."
     },
     {
+      "id": "t_20_12",
       "p": "¿Duración del registro remoto sobre equipos informáticos (art. 588 septies c)?",
       "r": "**1 mes**, prorrogable por iguales períodos hasta un máximo de **3 meses**."
     },
     {
+      "id": "t_20_13",
       "p": "¿Cuánto dura la orden de conservación de datos del art. 588 octies?",
       "r": "**90 días**, prorrogable una sola vez hasta un máximo de **180 días**."
     },
     {
+      "id": "t_20_14",
       "p": "¿Qué delitos permiten el registro remoto (art. 588 septies a)?",
       "r": "Organización criminal; terrorismo; delitos contra menores o personas con capacidad modificada judicialmente; contra la Constitución, traición y defensa nacional; y delitos cometidos con instrumentos informáticos o TIC."
     },
     {
+      "id": "t_20_15",
       "p": "¿Legitima la simple incautación de un móvil en un registro domiciliario el acceso a su contenido?",
       "r": "**No**. El acceso exige que la resolución judicial lo justifique o una autorización judicial posterior (art. 588 sexies a.2)."
     },
     {
+      "id": "t_20_16",
       "p": "¿Quién puede autorizar un agente encubierto informático en canales cerrados de comunicación (art. 282 bis.6)?",
       "r": "El **juez de instrucción**."
     },
     {
+      "id": "t_20_17",
       "p": "¿Qué efecto tiene una prueba obtenida violentando derechos fundamentales (art. 11.1 LOPJ)?",
       "r": "**No surte efecto**, ni la obtenida directa ni la obtenida indirectamente."
     }
   ],
   "preguntas": [
     {
+      "id": "q_20_01",
       "enunciado": "Según el art. 197.1 del Código Penal, quien, para descubrir los secretos o vulnerar la intimidad de otro y sin su consentimiento, se apodera de sus mensajes de correo electrónico, será castigado con:",
       "opciones": [
         "Prisión de 1 a 4 años y multa de 12 a 24 meses.",
@@ -343,6 +361,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_20_02",
       "enunciado": "El responsable de un fichero de datos personales que, sin estar autorizado, accede a datos reservados de un tercero comete el delito del art. 197 CP con la pena de:",
       "opciones": [
         "Prisión de 3 a 5 años.",
@@ -355,6 +374,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_20_03",
       "enunciado": "Una persona graba con su pareja, con el consentimiento de ambos, un vídeo íntimo en el domicilio. Tras la ruptura, lo envía a terceros sin autorización de su expareja, menoscabando gravemente su intimidad. ¿Cómo debe calificarse?",
       "opciones": [
         "Es atípico, porque la grabación se hizo con consentimiento.",
@@ -367,6 +387,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_20_04",
       "enunciado": "Quien, sin estar debidamente autorizado y vulnerando las medidas de seguridad establecidas, accede a un sistema de información o se mantiene en él en contra de la voluntad de quien tenga derecho a excluirlo, incurre en el delito del art. 197 bis.1 CP, castigado con:",
       "opciones": [
         "Prisión de 3 meses a 1 año.",
@@ -379,6 +400,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_20_05",
       "enunciado": "Un atacante borra y deja inaccesibles datos del sistema informático de un operador de transporte urbano y perjudica gravemente el funcionamiento de un servicio público esencial. ¿Qué pena le corresponde en el Código Penal?",
       "opciones": [
         "La del tipo agravado del art. 264.2: prisión de 2 a 5 años y multa del tanto al décuplo del perjuicio.",
@@ -391,6 +413,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_20_06",
       "enunciado": "El uso fraudulento de una tarjeta de crédito o débito ajena para realizar operaciones en perjuicio de su titular se tipifica en el Código Penal como:",
       "opciones": [
         "Hurto del art. 234.",
@@ -403,6 +426,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_20_07",
       "enunciado": "¿Cuál de los siguientes NO es un principio rector de las medidas de investigación tecnológica según el art. 588 bis a LECrim?",
       "opciones": [
         "Idoneidad.",
@@ -415,6 +439,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_20_08",
       "enunciado": "Cuando el Ministerio Fiscal o la Policía Judicial solicitan una medida de investigación tecnológica, el juez de instrucción debe autorizarla o denegarla mediante auto motivado en el plazo máximo de:",
       "opciones": [
         "Veinticuatro horas desde que se presente la solicitud.",
@@ -427,6 +452,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_20_09",
       "enunciado": "¿Qué medida de investigación tecnológica tiene una duración máxima de un mes, prorrogable por iguales períodos hasta un máximo de tres meses?",
       "opciones": [
         "La interceptación de comunicaciones telefónicas y telemáticas.",
@@ -439,6 +465,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_20_10",
       "enunciado": "Durante un registro domiciliario autorizado, la Policía Judicial incauta un teléfono móvil del investigado. ¿Qué regla rige el acceso a su contenido?",
       "opciones": [
         "La incautación ya legitima por sí sola el acceso a todo el contenido.",
@@ -451,6 +478,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_20_11",
       "enunciado": "¿Cuál de los siguientes supuestos NO figura entre los delitos que permiten el registro remoto sobre equipos informáticos según el art. 588 septies a LECrim?",
       "opciones": [
         "Delitos de terrorismo.",
@@ -463,6 +491,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_20_12",
       "enunciado": "Respecto a la orden de conservación de datos del art. 588 octies LECrim, señale la afirmación correcta:",
       "opciones": [
         "Solo puede dictarla el juez y los datos se conservan 30 días.",
@@ -475,6 +504,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_20_13",
       "enunciado": "La Policía Judicial detecta una dirección IP desde la que se está cometiendo un delito en internet, sin que consten los datos del usuario ni la ubicación del equipo. ¿Qué debe hacer para identificarlo?",
       "opciones": [
         "Dirigirse directamente a la operadora para que le facilite la identidad del titular, igual que para conocer la titularidad de un número de teléfono.",
@@ -487,6 +517,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_20_14",
       "enunciado": "La autorización para que un policía judicial actúe bajo identidad supuesta en comunicaciones mantenidas en canales cerrados (agente encubierto informático) corresponde:",
       "opciones": [
         "Al Ministerio del Interior, que otorga la identidad supuesta.",
@@ -499,6 +530,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_20_15",
       "enunciado": "Según el art. 201 del Código Penal, ¿en cuál de los siguientes supuestos NO es necesaria la denuncia de la persona agraviada para perseguir un delito de descubrimiento y revelación de secretos?",
       "opciones": [
         "Cuando el hecho lo comete una autoridad o funcionario público prevaliéndose de su cargo (art. 198).",
@@ -511,6 +543,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_20_16",
       "enunciado": "Conforme al art. 1.3 de la LO 1/1982, los derechos al honor, a la intimidad personal y familiar y a la propia imagen son:",
       "opciones": [
         "Irrenunciables, inalienables e imprescriptibles.",
@@ -523,6 +556,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_20_17",
       "enunciado": "Las pruebas obtenidas, directa o indirectamente, violentando los derechos o libertades fundamentales, según el art. 11.1 de la LOPJ:",
       "opciones": [
         "Se valoran con menor peso probatorio.",

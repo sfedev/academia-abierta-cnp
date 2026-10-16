@@ -284,64 +284,79 @@
   ],
   "tarjetas": [
     {
+      "id": "t_28_01",
       "p": "¿Cuándo y dónde se celebró la primera edición del Foro Social Mundial?",
       "r": "En **Porto Alegre (Brasil), enero de 2001**. Se concibió como contrapunto al Foro Económico Mundial de **Davos**."
     },
     {
+      "id": "t_28_02",
       "p": "Lema del Foro Social Mundial.",
       "r": "«**Otro mundo es posible**»."
     },
     {
+      "id": "t_28_03",
       "p": "¿Cuál fue la primera edición del FSM fuera de Brasil?",
       "r": "**Bombay (Mumbai, India), enero de 2004**."
     },
     {
+      "id": "t_28_04",
       "p": "¿Dónde se celebró la edición policéntrica de 2006?",
       "r": "En **Caracas, Bamako y Karachi**."
     },
     {
+      "id": "t_28_05",
       "p": "¿Dónde se convocó el FSM de 2026 y qué número de edición era?",
       "r": "**Cotonú (Benín)**, **17.ª edición**, en agosto de 2026."
     },
     {
+      "id": "t_28_06",
       "p": "¿Qué ocurrió en Seattle entre el 30/11 y el 3/12 de 1999?",
       "r": "Protestas masivas contra la conferencia ministerial de la **OMC** (la «batalla de Seattle»); la reunión acabó sin acuerdos."
     },
     {
+      "id": "t_28_07",
       "p": "¿Qué fue el AMI y cómo acabó?",
       "r": "Acuerdo Multilateral de Inversiones negociado en secreto en la **OCDE (1995-1998)**; fracasó en 1998 tras la retirada de **Francia** y la oposición de ONG."
     },
     {
+      "id": "t_28_08",
       "p": "¿Cuándo se creó ATTAC y para qué?",
       "r": "El **3 de junio de 1998**, en Francia, tras el editorial de Ramonet de 1997; para promover la **tasa Tobin** sobre las transacciones de divisas."
     },
     {
+      "id": "t_28_09",
       "p": "¿Quién escribió «No Logo» y cuándo se publicó?",
       "r": "**Naomi Klein**, en diciembre de 1999; estudia el poder de las marcas, la deslocalización y las condiciones laborales."
     },
     {
+      "id": "t_28_10",
       "p": "¿Quién es Saskia Sassen y qué obra se le pregunta?",
       "r": "Socióloga que popularizó el concepto de «**ciudad global**» en «The Global City» (**1991**), sobre Nueva York, Londres y Tokio."
     },
     {
+      "id": "t_28_11",
       "p": "¿Qué sostiene «El malestar en la globalización» y quién lo escribió?",
       "r": "Obra de **Joseph Stiglitz** (2002; Nobel de Economía 2001), crítica con el papel del **FMI** en los países en desarrollo."
     },
     {
+      "id": "t_28_12",
       "p": "Tesis de Fukuyama y de Huntington.",
       "r": "**Fukuyama** (1992): la democracia liberal puede ser el final de la evolución ideológica. **Huntington** (1996): el conflicto será entre civilizaciones y culturas."
     },
     {
+      "id": "t_28_13",
       "p": "Cuatro aspectos de la globalización según el FMI (2000).",
       "r": "**Comercio**, **movimientos de capital**, **movimiento de personas** y **difusión del conocimiento (y la tecnología)**."
     },
     {
+      "id": "t_28_14",
       "p": "¿Quién popularizó la expresión «aldea global» y en qué obra?",
       "r": "**Marshall McLuhan**, en «La galaxia Gutenberg» (**1962**)."
     }
   ],
   "preguntas": [
     {
+      "id": "q_28_01",
       "enunciado": "El Foro Social Mundial nació como contrapunto al Foro Económico Mundial que se reúne cada año en:",
       "opciones": [
         "Davos",
@@ -354,6 +369,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_28_02",
       "enunciado": "¿Dónde se celebró la primera edición del Foro Social Mundial, en 2001?",
       "opciones": [
         "Bombay",
@@ -366,6 +382,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_28_03",
       "enunciado": "¿Qué edición del Foro Social Mundial fue la primera celebrada fuera de Brasil?",
       "opciones": [
         "Nairobi, 2007",
@@ -378,6 +395,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_28_04",
       "enunciado": "Las protestas conocidas como «batalla de Seattle» (30 de noviembre a 3 de diciembre de 1999) se dirigieron contra la conferencia ministerial de:",
       "opciones": [
         "La Organización Mundial del Comercio",
@@ -390,6 +408,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_28_05",
       "enunciado": "El Acuerdo Multilateral de Inversiones (AMI), cuya negociación fracasó en 1998 tras la retirada de Francia, se negociaba en el seno de:",
       "opciones": [
         "La Organización Mundial del Comercio",
@@ -402,6 +421,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_28_06",
       "enunciado": "¿Qué obra de Naomi Klein, publicada en diciembre de 1999, se convirtió en libro de referencia del movimiento antiglobalización?",
       "opciones": [
         "La doctrina del shock",
@@ -414,6 +434,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_28_07",
       "enunciado": "¿Qué autora popularizó el concepto de «ciudad global» en su obra de 1991 sobre Nueva York, Londres y Tokio?",
       "opciones": [
         "Naomi Klein",
@@ -426,6 +447,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_28_08",
       "enunciado": "La organización ATTAC, constituida en Francia el 3 de junio de 1998, nació para promover:",
       "opciones": [
         "Una tasa sobre las transacciones financieras internacionales, conocida como tasa Tobin",
@@ -438,6 +460,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_28_09",
       "enunciado": "El libro «El malestar en la globalización» (2002), crítico con el papel del FMI en los países en desarrollo, es obra de:",
       "opciones": [
         "Francis Fukuyama",
@@ -450,6 +473,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_28_10",
       "enunciado": "Señale la afirmación INCORRECTA sobre el movimiento antiglobalización o altermundialista:",
       "opciones": [
         "Muchos de sus integrantes rechazan la etiqueta «antiglobalización» porque defienden la cooperación global y critican su modelo neoliberal",
@@ -462,6 +486,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_28_11",
       "enunciado": "Según el Diccionario de la lengua española, en su acepción económica, la globalización es el proceso por el que las economías y los mercados, con el desarrollo de las tecnologías de la comunicación, adquieren una dimensión mundial, de modo que:",
       "opciones": [
         "Dependen cada vez más de los mercados externos y menos de la acción reguladora de los Gobiernos",
@@ -474,6 +499,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_28_12",
       "enunciado": "El informe del FMI «Globalization: Threat or Opportunity?» (2000) distingue cuatro aspectos de la globalización. ¿Cuál de los siguientes NO figura entre ellos?",
       "opciones": [
         "Los movimientos de capital",
@@ -486,6 +512,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_28_13",
       "enunciado": "¿En qué ciudad se convocó en 2026 la 17.ª edición del Foro Social Mundial?",
       "opciones": [
         "Katmandú",
@@ -498,6 +525,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_28_14",
       "enunciado": "¿Quién defendió en «El fin de la historia y el último hombre» (1992) que la democracia liberal podía representar el punto final de la evolución ideológica de la humanidad?",
       "opciones": [
         "Francis Fukuyama",
@@ -510,6 +538,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_28_15",
       "enunciado": "La expresión «aldea global», popularizada en La galaxia Gutenberg (1962), se asocia a:",
       "opciones": [
         "Theodore Levitt",
@@ -522,6 +551,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_28_16",
       "enunciado": "Ordene cronológicamente tres hechos: la constitución de ATTAC, la «batalla de Seattle» y la primera edición del Foro Social Mundial.",
       "opciones": [
         "Primero ATTAC (1998), después el Foro Social Mundial (2001) y por último Seattle (1999)",
@@ -534,6 +564,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_28_17",
       "enunciado": "La Organización Mundial del Comercio, sucesora del GATT, comenzó a funcionar el:",
       "opciones": [
         "1 de enero de 1995",
@@ -546,6 +577,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_28_18",
       "enunciado": "El Foro Social Mundial de 2006 fue «policéntrico». ¿En qué ciudades se celebró?",
       "opciones": [
         "Bombay, Nairobi y Dakar",

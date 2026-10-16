@@ -215,72 +215,89 @@
   ],
   "tarjetas": [
     {
+      "id": "t_19_01",
       "p": "¿Qué pena tiene el atentado contra autoridad (art. 550.2)?",
       "r": "Prisión de **1 a 4 años** y multa de 3 a 6 meses."
     },
     {
+      "id": "t_19_02",
       "p": "¿Qué pena tiene el atentado contra agentes de la autoridad o funcionarios públicos (art. 550.2)?",
       "r": "Prisión de **6 meses a 3 años**."
     },
     {
+      "id": "t_19_03",
       "p": "¿Qué efecto tiene cometer el atentado con armas, con vehículo de motor o con violencia peligrosa para la vida (art. 551)?",
       "r": "Pena **superior en grado** a la del art. 550."
     },
     {
+      "id": "t_19_04",
       "p": "¿Qué actos son atentado «en todo caso» según el art. 550.1?",
       "r": "Los cometidos contra **funcionarios docentes o sanitarios** en el ejercicio de sus funciones o con ocasión de ellas."
     },
     {
+      "id": "t_19_05",
       "p": "¿Qué exige el art. 554.3 para equiparar al atentado la violencia contra bomberos o sanitarios?",
       "r": "Que intervengan en un siniestro, calamidad o emergencia y que se actúe **con la finalidad de impedirles el ejercicio de sus funciones**."
     },
     {
+      "id": "t_19_06",
       "p": "¿Cuándo se equipara al atentado la agresión a personal de seguridad privada?",
       "r": "Si está **debidamente identificado** y actúa **en cooperación y bajo el mando de las FCS** (arts. 554.3 y 556.1)."
     },
     {
+      "id": "t_19_07",
       "p": "¿Pena de la resistencia o desobediencia grave a la autoridad o sus agentes (art. 556.1)?",
       "r": "Prisión de **3 meses a 1 año** o multa de **6 a 18 meses**."
     },
     {
+      "id": "t_19_08",
       "p": "¿Pena de faltar al respeto y consideración debida a la autoridad en el ejercicio de sus funciones (art. 556.2)?",
       "r": "Multa de **1 a 3 meses**."
     },
     {
+      "id": "t_19_09",
       "p": "¿Pena del tipo básico de desórdenes públicos (art. 557.1)?",
       "r": "Prisión de **6 meses a 3 años**."
     },
     {
+      "id": "t_19_10",
       "p": "¿Y si los desórdenes los comete una multitud idónea para afectar gravemente el orden público (art. 557.2)?",
       "r": "Prisión de **3 a 5 años** e inhabilitación especial para empleo o cargo público por el mismo tiempo."
     },
     {
+      "id": "t_19_11",
       "p": "¿Pena de la falsa alarma (art. 561)?",
       "r": "Prisión de **3 meses y un día a 1 año** o multa de 3 a 18 meses."
     },
     {
+      "id": "t_19_12",
       "p": "¿Qué dice la disposición común del art. 562 si el autor es autoridad?",
       "r": "La inhabilitación prevista se sustituye por **inhabilitación absoluta de 10 a 15 años**, salvo que el tipo ya lo contemple."
     },
     {
+      "id": "t_19_13",
       "p": "¿Pena de la tenencia de armas prohibidas (art. 563)?",
       "r": "Prisión de **1 a 3 años**."
     },
     {
+      "id": "t_19_14",
       "p": "¿Penas de la tenencia sin licencia de armas de fuego reglamentadas (art. 564.1)?",
       "r": "Cortas: **1 a 2 años**; largas: **6 meses a 1 año**."
     },
     {
+      "id": "t_19_15",
       "p": "¿A partir de cuántas armas de fuego reglamentadas hay depósito de armas (art. 567.3)?",
       "r": "A partir de **cinco** (fabricación, comercialización o reunión)."
     },
     {
+      "id": "t_19_16",
       "p": "¿Qué ocurrió con el delito de sedición?",
       "r": "Fue **suprimido** (arts. 544-549) por la LO 14/2022, en vigor desde el 12/01/2023."
     }
   ],
   "preguntas": [
     {
+      "id": "q_19_01",
       "enunciado": "Según el Código Penal, el atentado cometido contra una autoridad (supuesto básico del art. 550.2) se castiga con:",
       "opciones": [
         "Prisión de 6 meses a 3 años.",
@@ -293,6 +310,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_19_02",
       "enunciado": "La tenencia de armas de fuego cortas reglamentadas, careciendo de las licencias o permisos necesarios, se castiga según el art. 564.1 CP con:",
       "opciones": [
         "Prisión de 1 a 2 años.",
@@ -305,6 +323,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_19_03",
       "enunciado": "Según el art. 567.3 del Código Penal, se considera depósito de armas de fuego reglamentadas la fabricación, comercialización o reunión de un número mínimo de:",
       "opciones": [
         "Tres armas.",
@@ -317,6 +336,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_19_04",
       "enunciado": "Señale cuál de los siguientes supuestos NO figura entre los que llevan la pena superior en grado en el atentado según el art. 551 CP:",
       "opciones": [
         "Hacer uso de armas u otros objetos peligrosos.",
@@ -329,6 +349,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_19_05",
       "enunciado": "Una persona desobedece gravemente las órdenes de un agente de la autoridad en el ejercicio de sus funciones, pero no le agrede ni emplea violencia o intimidación grave. En principio, el hecho se califica como:",
       "opciones": [
         "Atentado del art. 550.",
@@ -341,6 +362,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_19_06",
       "enunciado": "Señale la afirmación INCORRECTA sobre las conductas equiparadas al atentado en el art. 554.3 CP:",
       "opciones": [
         "Alcanza a bomberos y personal sanitario que intervienen en una emergencia, cuando se actúa con la finalidad de impedirles el ejercicio de sus funciones.",
@@ -353,6 +375,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_19_07",
       "enunciado": "Los desórdenes públicos cometidos por una multitud cuyo número, organización y propósito sean idóneos para afectar gravemente el orden público (art. 557.2 CP) se castigan con:",
       "opciones": [
         "Prisión de 6 meses a 3 años.",
@@ -365,6 +388,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_19_08",
       "enunciado": "Una persona llama a emergencias y afirma falsamente que hay una bomba en un edificio público, lo que provoca la movilización de la policía y de los servicios de salvamento. El hecho constituye:",
       "opciones": [
         "Un delito del art. 561 (falsa alarma): prisión de 3 meses y un día a 1 año o multa de 3 a 18 meses.",
@@ -377,6 +401,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_19_09",
       "enunciado": "Tras la LO 14/2022, de 22 de diciembre, ¿cuál es la situación del delito de sedición en el Código Penal?",
       "opciones": [
         "Fue suprimido: los arts. 544 a 549 quedaron sin contenido.",
@@ -389,6 +414,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_19_10",
       "enunciado": "¿Cuál de los siguientes delitos NO está comprendido en el Título XXII del Libro II del Código Penal (delitos contra el orden público)?",
       "opciones": [
         "El atentado contra la autoridad.",
@@ -401,6 +427,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_19_11",
       "enunciado": "Si el autor de cualquiera de los delitos de los capítulos I a III del Título XXII del Código Penal se halla constituido en autoridad, el art. 562 sustituye la inhabilitación prevista en cada caso por:",
       "opciones": [
         "Inhabilitación absoluta de 6 a 8 años.",
@@ -413,6 +440,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_19_12",
       "enunciado": "La privación del derecho a la tenencia y porte de armas que el art. 570.1 CP permite imponer en los delitos de tenencia, tráfico y depósito de armas se fija por un tiempo:",
       "opciones": [
         "Superior en tres años a la pena de prisión impuesta.",
@@ -425,6 +453,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_19_13",
       "enunciado": "Un individuo es sorprendido con una pistola reglamentada sin licencia ni permiso, sin que concurra ninguna circunstancia del art. 564.2. Se acredita que no tenía intención de usarla con fines ilícitos. ¿Qué es correcto?",
       "opciones": [
         "Se castiga con prisión de 6 meses a 1 año y la rebaja de pena es obligatoria.",
@@ -437,6 +466,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_19_14",
       "enunciado": "Durante unos disturbios, un manifestante lanza una botella con líquido inflamable contra una dotación policial en servicio y alcanza a un agente. ¿Cómo se castiga el atentado?",
       "opciones": [
         "Con la pena superior en grado a la del art. 550, por el art. 551.2.º.",
@@ -449,6 +479,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_19_15",
       "enunciado": "Las penas señaladas en el art. 557 CP para los desórdenes públicos se imponen:",
       "opciones": [
         "En lugar de las que correspondan a los actos concretos de lesiones, amenazas, coacciones o daños cometidos.",
@@ -461,6 +492,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_19_16",
       "enunciado": "A efectos penales (art. 24 CP), tienen siempre la consideración de autoridad, entre otros:",
       "opciones": [
         "Los funcionarios del Ministerio Fiscal.",
@@ -473,6 +505,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_19_17",
       "enunciado": "¿Qué pena corresponde al atentado cometido contra un juez o magistrado según el art. 550.3 CP?",
       "opciones": [
         "Prisión de 6 meses a 3 años.",
@@ -485,6 +518,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_19_18",
       "enunciado": "Los depósitos de armas, municiones o explosivos establecidos en nombre o por cuenta de una asociación con propósito delictivo determinan, según el art. 569 CP:",
       "opciones": [
         "Una agravante de reincidencia para sus miembros.",

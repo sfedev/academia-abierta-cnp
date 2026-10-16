@@ -419,96 +419,119 @@
   ],
   "tarjetas": [
     {
+      "id": "t_04_01",
       "p": "¿Qué seis Estados firmaron en 1951 el tratado de la CECA?",
       "r": "**Alemania, Francia, Italia, Países Bajos, Bélgica y Luxemburgo** (Tratado de París, 18/4/1951). Portugal no."
     },
     {
+      "id": "t_04_02",
       "p": "¿Cuándo entró en vigor el Tratado de Maastricht y qué creó?",
       "r": "El **1/11/1993** (firmado el 7/2/1992). Creó oficialmente la **Unión Europea**."
     },
     {
+      "id": "t_04_03",
       "p": "¿Cuándo entró en vigor el Tratado de Lisboa?",
       "r": "El **1/12/2009** (firmado el 13/12/2007). La UE se funda en el TUE y el TFUE y sucede a la Comunidad Europea."
     },
     {
+      "id": "t_04_04",
       "p": "¿Cuándo ingresó España en las Comunidades Europeas?",
       "r": "El **1/1/1986**, junto con Portugal (pasaron a ser 12 Estados)."
     },
     {
+      "id": "t_04_05",
       "p": "¿Cuántos Estados miembros tiene la UE y cuándo salió el Reino Unido?",
       "r": "**27**. El Reino Unido salió el **31/1/2020**."
     },
     {
+      "id": "t_04_06",
       "p": "¿Qué instituciones enumera el art. 13 TUE?",
       "r": "**Siete**: Parlamento Europeo, Consejo Europeo, Consejo, Comisión, Tribunal de Justicia de la UE, Banco Central Europeo y Tribunal de Cuentas."
     },
     {
+      "id": "t_04_07",
       "p": "¿Qué efecto tiene cada acto del art. 288 TFUE?",
       "r": "Reglamento: obligatorio y directamente aplicable. Directiva: obliga en cuanto al resultado. Decisión: obligatoria (solo para los destinatarios si los designa). Recomendación y dictamen: **no vinculantes**."
     },
     {
+      "id": "t_04_08",
       "p": "¿Quién propone y quién adopta los actos legislativos en el procedimiento ordinario?",
       "r": "La **Comisión propone**; el **Parlamento Europeo y el Consejo adoptan conjuntamente** (arts. 289 y 294 TFUE)."
     },
     {
+      "id": "t_04_09",
       "p": "¿Cuántos escaños tiene el Parlamento Europeo en 2024-2029 y qué límites hay por Estado?",
       "r": "**720** escaños; mínimo **6** y máximo **96** por Estado. A España le corresponden 61."
     },
     {
+      "id": "t_04_10",
       "p": "¿Cómo se define la mayoría cualificada en el Consejo?",
       "r": "**55 %** de los miembros (al menos **15**) que representen el **65 %** de la población; la minoría de bloqueo exige al menos cuatro miembros (art. 16.4 TUE)."
     },
     {
+      "id": "t_04_11",
       "p": "¿Cuántos miembros tiene la Comisión Europea y cuánto dura su mandato?",
       "r": "**27** (uno por Estado, según la Decisión 2013/272/UE) y **5 años** (art. 17 TUE)."
     },
     {
+      "id": "t_04_12",
       "p": "¿Cómo se compone el Tribunal de Justicia de la UE y dónde tiene su sede?",
       "r": "**27 jueces y 11 abogados generales**, mandato de **6 años** renovable con renovación parcial cada 3. Sede en **Luxemburgo**. El Tribunal General tiene 54 jueces."
     },
     {
+      "id": "t_04_13",
       "p": "¿Qué plazo hay para el recurso de anulación del art. 263 TFUE?",
       "r": "**Dos meses** desde la publicación, la notificación o el conocimiento del acto."
     },
     {
+      "id": "t_04_14",
       "p": "¿Cuándo está obligado un tribunal nacional a plantear una cuestión prejudicial?",
       "r": "Cuando sus decisiones **no sean susceptibles de ulterior recurso judicial de Derecho interno** (art. 267 TFUE)."
     },
     {
+      "id": "t_04_15",
       "p": "¿Qué es el TEDH, cuántos jueces tiene y qué mandato?",
       "r": "Tribunal del **Consejo de Europa** (46 Estados), en Estrasburgo. **Un juez por Estado parte**, mandato de **9 años no reelegibles**."
     },
     {
+      "id": "t_04_16",
       "p": "¿Qué formaciones tiene el TEDH y qué plazo hay para demandar?",
       "r": "Juez único, Comités de 3, Salas de 7 y **Gran Sala de 17**. Demanda en **4 meses** desde la resolución interna definitiva."
     },
     {
+      "id": "t_04_17",
       "p": "¿Qué diferencia hay entre Eurosistema y SEBC?",
       "r": "**Eurosistema**: BCE + bancos centrales de los Estados con euro. **SEBC**: BCE + bancos centrales de **todos** los Estados miembros (art. 282 TFUE)."
     },
     {
+      "id": "t_04_18",
       "p": "¿Dónde están las sedes de Europol, Eurojust, CEPOL, Frontex e INTERPOL?",
       "r": "Europol y Eurojust: **La Haya**. CEPOL: **Budapest**. Frontex: **Varsovia**. INTERPOL: **Lyon**."
     },
     {
+      "id": "t_04_19",
       "p": "¿Puede Europol practicar detenciones?",
       "r": "**No**. Europol no aplica medidas coercitivas (art. 4.5 Reglamento 2016/794); las aplican las autoridades nacionales."
     },
     {
+      "id": "t_04_20",
       "p": "¿Para qué sirve una notificación roja de INTERPOL?",
       "r": "Para **localizar y detener** a una persona reclamada para ser enjuiciada o cumplir condena."
     },
     {
+      "id": "t_04_21",
       "p": "¿Qué categorías de datos regula Prüm II (Reglamento 2024/982)?",
       "r": "Perfiles de **ADN**, datos **dactiloscópicos**, determinados datos de **matriculación de vehículos**, **imágenes faciales** y **antecedentes policiales**."
     },
     {
+      "id": "t_04_22",
       "p": "¿Cada cuánto rota la Presidencia del Consejo de la UE?",
       "r": "Cada **seis meses** (en tríos de 18 meses). En el segundo semestre de 2026 la ejerce Irlanda."
     }
   ],
   "preguntas": [
     {
+      "id": "q_04_01",
       "enunciado": "¿Dónde tiene su sede el Tribunal de Justicia de la Unión Europea?",
       "opciones": [
         "Bruselas",
@@ -521,6 +544,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_04_02",
       "enunciado": "En la actualidad, ¿cuántos jueces y abogados generales forman el Tribunal de Justicia de la UE (sin contar el Tribunal General)?",
       "opciones": [
         "27 jueces y 8 abogados generales",
@@ -533,6 +557,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_04_03",
       "enunciado": "Señale la afirmación correcta sobre el mandato de los jueces del Tribunal de Justicia de la Unión Europea.",
       "opciones": [
         "Son nombrados por seis años, con renovación parcial cada tres, y pueden ser designados de nuevo",
@@ -545,6 +570,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_04_04",
       "enunciado": "¿Cuál de las siguientes afirmaciones sobre el Tribunal Europeo de Derechos Humanos es correcta?",
       "opciones": [
         "Es una institución de la Unión Europea con sede en Luxemburgo",
@@ -557,6 +583,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_04_05",
       "enunciado": "Señale la afirmación INCORRECTA sobre los actos jurídicos de la Unión del art. 288 TFUE.",
       "opciones": [
         "El reglamento tiene alcance general, es obligatorio en todos sus elementos y directamente aplicable en cada Estado miembro",
@@ -569,6 +596,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_04_06",
       "enunciado": "La Comisión Europea considera que un Estado miembro ha incumplido el Derecho de la Unión. Tras darle la posibilidad de presentar observaciones emite un dictamen motivado, pero el Estado no se atiene a él en el plazo fijado. ¿Qué puede hacer la Comisión?",
       "opciones": [
         "Recurrir al Tribunal de Justicia de la Unión Europea mediante el recurso por incumplimiento",
@@ -581,6 +609,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_04_07",
       "enunciado": "En un litigio ante el Tribunal Supremo español, cuyas sentencias no admiten ulterior recurso judicial de Derecho interno, surge una duda sobre la interpretación de un reglamento de la UE necesaria para fallar. Según el art. 267 TFUE:",
       "opciones": [
         "El Tribunal Supremo puede plantear la cuestión al TJUE, pero nunca está obligado a hacerlo",
@@ -593,6 +622,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_04_08",
       "enunciado": "¿En qué plazo debe interponerse un recurso de anulación ante el TJUE según el art. 263 TFUE?",
       "opciones": [
         "Un mes, contado desde la adopción del acto por la institución",
@@ -605,6 +635,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_04_09",
       "enunciado": "Desde el 1 de noviembre de 2014, ¿cómo define la mayoría cualificada en el Consejo la regla general del art. 16.4 TUE?",
       "opciones": [
         "Al menos el 55 % de los miembros del Consejo, incluidos al menos quince, que representen como mínimo al 65 % de la población de la Unión",
@@ -617,6 +648,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_04_10",
       "enunciado": "¿Cuántos miembros componen actualmente la Comisión Europea y cuál es la duración de su mandato?",
       "opciones": [
         "18 miembros, correspondientes a dos tercios de los Estados, con mandato de cinco años",
@@ -629,6 +661,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_04_11",
       "enunciado": "Según la Decisión (UE) 2023/2061 del Consejo Europeo, ¿cuántos escaños tiene el Parlamento Europeo en la legislatura 2024-2029 y qué límites por Estado recoge el art. 14.2 TUE?",
       "opciones": [
         "750 escaños, con un mínimo de seis y un máximo de 96 por Estado",
@@ -641,6 +674,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_04_12",
       "enunciado": "Según el art. 282 TFUE, ¿qué es el Eurosistema?",
       "opciones": [
         "El conjunto formado por el Banco Central Europeo y los bancos centrales nacionales de los Estados miembros cuya moneda es el euro",
@@ -653,6 +687,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_04_13",
       "enunciado": "¿Cuál de los siguientes Estados fue uno de los seis países que firmaron en 1951 el tratado constitutivo de la Comunidad Europea del Carbón y del Acero?",
       "opciones": [
         "Portugal",
@@ -665,6 +700,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_04_14",
       "enunciado": "¿Qué tratado creó oficialmente la «Unión Europea» y cuándo entró en vigor?",
       "opciones": [
         "El Tratado de Roma de 1957, que entró en vigor el 1 de enero de 1958",
@@ -677,6 +713,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_04_15",
       "enunciado": "Según el art. 6.1 TUE, ¿qué valor jurídico tiene la Carta de los Derechos Fundamentales de la Unión Europea?",
       "opciones": [
         "El mismo valor jurídico que los Tratados",
@@ -689,6 +726,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_04_16",
       "enunciado": "El art. 1 del Reglamento (UE) 2024/982 (Prüm II) regula la búsqueda automatizada de datos entre autoridades policiales. ¿Cuál de las siguientes categorías de datos NO figura en ese artículo?",
       "opciones": [
         "Imágenes faciales",
@@ -701,6 +739,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_04_17",
       "enunciado": "Respecto de Europol, según el Reglamento (UE) 2016/794, señale la afirmación correcta.",
       "opciones": [
         "Tiene su sede en Bruselas y sus agentes pueden practicar detenciones en cualquier Estado miembro",
@@ -713,6 +752,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_04_18",
       "enunciado": "¿Dónde tiene su sede la Secretaría General de INTERPOL?",
       "opciones": [
         "Viena",
@@ -725,6 +765,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_04_19",
       "enunciado": "Un país miembro de INTERPOL quiere que se localice y detenga a un fugitivo contra el que existe una orden de detención para su enjuiciamiento. ¿Qué notificación debe solicitar a través de su Oficina Central Nacional?",
       "opciones": [
         "Notificación roja",
@@ -737,6 +778,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_04_20",
       "enunciado": "Según el Reglamento (UE) 2018/1862, ¿qué es la oficina Sirene que designa cada Estado miembro?",
       "opciones": [
         "La agencia de la Unión dedicada a la formación de los funcionarios de policía de los Estados miembros",
@@ -749,6 +791,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_04_21",
       "enunciado": "Agentes de policía de un Estado Schengen persiguen sin autorización previa, por una frontera terrestre, a una persona hallada en flagrante delito de una de las infracciones del art. 41 del Convenio de aplicación del Acuerdo de Schengen. Durante la persecución en el otro Estado, según ese artículo:",
       "opciones": [
         "pueden entrar en domicilios si la persona perseguida se refugia en ellos",
@@ -761,6 +804,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_04_22",
       "enunciado": "Tras el Protocolo nº 15, ¿en qué plazo debe presentarse una demanda ante el Tribunal Europeo de Derechos Humanos una vez agotadas las vías internas?",
       "opciones": [
         "Seis meses desde la resolución interna definitiva",
@@ -773,6 +817,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_04_23",
       "enunciado": "¿De cuántos jueces se compone la Gran Sala del Tribunal Europeo de Derechos Humanos?",
       "opciones": [
         "Diecisiete",
@@ -785,6 +830,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_04_24",
       "enunciado": "¿Cuál de las siguientes afirmaciones sobre el Consejo Europeo es correcta según el art. 15 TUE?",
       "opciones": [
         "Ejerce, junto con el Parlamento Europeo, la función legislativa",

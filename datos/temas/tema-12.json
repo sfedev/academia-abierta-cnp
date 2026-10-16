@@ -249,76 +249,94 @@
  ],
  "tarjetas": [
   {
+   "id": "t_12_01",
    "p": "¿Qué es el derecho de asilo y qué es la protección subsidiaria?",
    "r": "Asilo: protección a quien se reconoce la **condición de refugiado** (art. 2). Protección subsidiaria: a quien, sin reunir esos requisitos, se enfrentaría a un **riesgo real de daños graves** si regresara (art. 4)."
   },
   {
+   "id": "t_12_02",
    "p": "¿En qué consiste la protección según el art. 5 de la Ley 12/2009?",
    "r": "En la **no devolución ni expulsión** de las personas a quienes se haya reconocido y en las medidas del art. 36 y de la normativa de la UE y los convenios internacionales."
   },
   {
+   "id": "t_12_03",
    "p": "¿Cuáles son los daños graves de la protección subsidiaria?",
    "r": "Tres (art. 10): **pena de muerte** o riesgo de su ejecución; **tortura** y tratos inhumanos o degradantes; **amenazas graves** contra la vida o la integridad de civiles por violencia indiscriminada en conflicto."
   },
   {
+   "id": "t_12_04",
    "p": "¿Qué órgano tramita las solicitudes de protección internacional?",
    "r": "La **Oficina de Asilo y Refugio**, dependiente del Ministerio del Interior (art. 23.1). Hoy sus funciones las ejerce la Dirección General de Protección Internacional (art. 15 RD 207/2024)."
   },
   {
+   "id": "t_12_05",
    "p": "¿Quién es la CIAR y cuál es su papel?",
    "r": "La **Comisión Interministerial de Asilo y Refugio**: órgano colegiado adscrito al Ministerio del Interior (representantes de los departamentos con competencia en política exterior, interior, justicia, inmigración, acogida e igualdad). Formula la propuesta de resolución (art. 24.2)."
   },
   {
+   "id": "t_12_06",
    "p": "¿Plazo para solicitar protección internacional desde la entrada?",
    "r": "Sin demora y como máximo **1 mes** (art. 17.2); si se presenta pasado ese plazo sin motivo justificado, puede aplicarse la tramitación de urgencia (art. 25.1.e)."
   },
   {
+   "id": "t_12_07",
    "p": "Solicitudes en puestos fronterizos: ¿qué plazos hay?",
    "r": "Resolución de inadmisión o denegación en **4 días**; reexamen: petición en **2 días** y resolución en **2 días**. Ampliación hasta **10 días** si el ACNUR lo pide razonadamente (art. 21)."
   },
   {
+   "id": "t_12_08",
    "p": "¿Qué ocurre si no se resuelve en frontera en plazo?",
    "r": "Se tramita por el procedimiento ordinario y se autoriza la entrada y la permanencia provisional del solicitante (art. 21.5)."
   },
   {
+   "id": "t_12_09",
    "p": "¿Qué plazo tiene la resolución ordinaria y qué efecto tiene el silencio?",
    "r": "**6 meses**; transcurridos, la solicitud puede entenderse **desestimada**, sin perjuicio de resolver expresamente (art. 24.3)."
   },
   {
+   "id": "t_12_10",
    "p": "¿Cómo cambian los plazos en la tramitación de urgencia?",
    "r": "Se **reducen a la mitad** (art. 25.4). Procede, por ejemplo, con solicitudes manifiestamente fundadas, con necesidades específicas (menores no acompañados), de país de origen seguro o con causas de exclusión o denegación (art. 25.1)."
   },
   {
+   "id": "t_12_11",
    "p": "¿Qué efecto tiene presentar la solicitud sobre una expulsión o devolución?",
    "r": "Impide el retorno, la devolución o la expulsión hasta que se resuelva o no se admita la solicitud (art. 19.1); el solicitante tiene derecho a la suspensión de esos procesos (art. 18.1.d)."
   },
   {
+   "id": "t_12_12",
    "p": "¿Cuándo pueden trabajar los solicitantes de protección internacional?",
    "r": "Pasados **6 meses** desde la solicitud, si está admitida a trámite y no resuelta por causa no imputable a ellos (DA 14.ª RD 1155/2024)."
   },
   {
+   "id": "t_12_13",
    "p": "¿Cómo se trata a un menor no acompañado solicitante?",
    "r": "Se remite a los servicios de protección de menores y se informa al **Ministerio Fiscal**; si hay dudas sobre la edad, el Fiscal dispone las pruebas y la negativa a someterse no impide resolver (art. 48)."
   },
   {
+   "id": "t_12_14",
    "p": "¿Cuáles son las fases del itinerario de acogida y su duración?",
    "r": "Valoración inicial y derivación (**1 mes**), acogida (hasta la resolución, 6 meses, más 6 para vulnerables) y autonomía (**6 meses**, más 6 para reasentados y vulnerables). Duración total máxima **18 meses** (RD 220/2022, art. 11.7)."
   },
   {
+   "id": "t_12_15",
    "p": "¿Dónde se solicita el estatuto de apátrida y en cuánto se resuelve?",
    "r": "Se dirige a la OAR y se presenta en **Oficinas de Extranjeros, Comisarías de Policía o la OAR**; lo resuelve el Ministro del Interior en **3 meses** (arts. 2 y 11 RD 865/2001)."
   },
   {
+   "id": "t_12_16",
    "p": "¿Quién declara la protección temporal y cuánto dura?",
    "r": "El **Consejo de la UE** (decisión a propuesta de la Comisión) o el **Consejo de Ministros**. Declarada por el Gobierno: **1 año**, prorrogable automáticamente 1 año más y otro año como máximo (arts. 4 y 7 RD 1325/2003)."
   },
   {
+   "id": "t_12_17",
    "p": "¿Cuándo cesa y cuándo se revoca la protección internacional?",
    "r": "**Cese** (art. 42): petición expresa, nueva protección o nacionalidad, residencia en otro país, desaparición de circunstancias, etc. **Revocación** (art. 44): exclusión o denegación, falsedad u omisión de hechos decisivos, peligro para la seguridad de España."
   }
  ],
  "preguntas": [
   {
+   "id": "q_12_01",
    "enunciado": "Según el art. 23 de la Ley 12/2009, ¿qué órgano es competente para la tramitación de las solicitudes de protección internacional?",
    "opciones": [
     "La Oficina de Asilo y Refugio, dependiente del Ministerio del Interior",
@@ -331,6 +349,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_12_02",
    "enunciado": "En el procedimiento ordinario de protección internacional, una vez finalizada la instrucción, ¿quién resuelve concediendo o denegando el asilo o la protección subsidiaria?",
    "opciones": [
     "El Consejo de Ministros, a propuesta de la Oficina de Asilo y Refugio",
@@ -343,6 +362,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_12_03",
    "enunciado": "La persona que desea solicitar protección internacional debe comparecer, sin demora y como máximo, en el plazo de:",
    "opciones": [
     "quince días desde su entrada en territorio español",
@@ -355,6 +375,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_12_04",
    "enunciado": "Una solicitud de protección internacional presentada en un puesto fronterizo puede ser inadmitida o denegada por el Ministro del Interior mediante resolución motivada que debe notificarse en el plazo máximo de:",
    "opciones": [
     "dos días desde su presentación",
@@ -367,6 +388,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_12_05",
    "enunciado": "Contra la resolución de inadmisión a trámite de una solicitud presentada en frontera cabe una petición de reexamen, que suspende los efectos de la resolución, en el plazo de:",
    "opciones": [
     "dos días desde su notificación",
@@ -379,6 +401,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_12_06",
    "enunciado": "En el procedimiento de frontera, el plazo de cuatro días para denegar la solicitud puede ampliarse hasta un máximo de diez días cuando:",
    "opciones": [
     "lo pida el solicitante para preparar su defensa jurídica",
@@ -391,6 +414,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_12_07",
    "enunciado": "Transcurridos seis meses desde la presentación de la solicitud en el procedimiento ordinario sin que se haya notificado resolución, la solicitud:",
    "opciones": [
     "se entiende concedida por silencio positivo",
@@ -403,6 +427,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_12_08",
    "enunciado": "Una persona en situación irregular, contra la que ya se ha incoado un expediente de expulsión, presenta una solicitud de protección internacional. Respecto a la expulsión:",
    "opciones": [
     "puede ejecutarse porque el expediente es anterior a la solicitud",
@@ -415,6 +440,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_12_09",
    "enunciado": "Conforme al art. 5 de la Ley 12/2009, la protección concedida con el derecho de asilo y la protección subsidiaria consiste en:",
    "opciones": [
     "la no devolución ni expulsión de las personas a quienes se les haya reconocido, y en las medidas previstas en el art. 36",
@@ -427,6 +453,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_12_10",
    "enunciado": "¿Cuál de los siguientes NO es un daño grave que da lugar a la protección subsidiaria según el art. 10 de la Ley 12/2009?",
    "opciones": [
     "La condena a pena de muerte o el riesgo de su ejecución material",
@@ -439,6 +466,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_12_11",
    "enunciado": "¿Cuál de los siguientes motivos NO figura en el art. 3 de la Ley 12/2009 entre los motivos de persecución que fundamentan la condición de refugiado?",
    "opciones": [
     "La orientación sexual",
@@ -451,6 +479,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_12_12",
    "enunciado": "Los menores no acompañados solicitantes de protección internacional serán, según la Ley 12/2009:",
    "opciones": [
     "remitidos a los servicios competentes en materia de protección de menores, poniéndolo en conocimiento del Ministerio Fiscal",
@@ -463,6 +492,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_12_13",
    "enunciado": "Si no puede establecerse con seguridad la minoría de edad de un solicitante de protección internacional y éste se niega a someterse al reconocimiento médico de determinación de la edad:",
    "opciones": [
     "no puede dictarse resolución sobre su solicitud hasta que se someta a las pruebas",
@@ -475,6 +505,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_12_14",
    "enunciado": "¿Cuál de los siguientes colectivos NO aparece citado expresamente entre las personas en situación de vulnerabilidad del art. 46.1 de la Ley 12/2009?",
    "opciones": [
     "Las mujeres embarazadas",
@@ -487,6 +518,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_12_15",
    "enunciado": "Según el Reglamento del sistema de acogida de protección internacional (RD 220/2022), el itinerario de acogida se desarrolla en tres fases:",
    "opciones": [
     "admisión, instrucción y resolución",
@@ -499,6 +531,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_12_16",
    "enunciado": "La fase de autonomía del itinerario del sistema de acogida de protección internacional tiene, con carácter general, una duración máxima de:",
    "opciones": [
     "seis meses",
@@ -511,6 +544,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_12_17",
    "enunciado": "La duración total del itinerario de acogida de protección internacional no debe superar, salvo autorización excepcional por razones de vulnerabilidad:",
    "opciones": [
     "seis meses",
@@ -523,6 +557,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_12_18",
    "enunciado": "La solicitud de reconocimiento del estatuto de apátrida se dirige a la Oficina de Asilo y Refugio y, según el RD 865/2001, puede presentarse en:",
    "opciones": [
     "únicamente las representaciones consulares de España",
@@ -535,6 +570,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_12_19",
    "enunciado": "La protección temporal declarada por el Consejo de Ministros en caso de afluencia masiva de personas desplazadas tiene, según el RD 1325/2003, una duración de:",
    "opciones": [
     "un año, automáticamente prorrogable por otro, y un año más como máximo si persisten los motivos",
@@ -547,6 +583,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_12_20",
    "enunciado": "Conforme a la disposición adicional 14.ª del RD 1155/2024, los solicitantes de protección internacional quedan autorizados para trabajar una vez transcurridos, desde la fecha de la solicitud, siempre que esté admitida a trámite y no resuelta por causa no imputable al interesado:",
    "opciones": [
     "tres meses",
@@ -559,6 +596,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_12_21",
    "enunciado": "Según el RD 207/2024, ¿qué órgano directivo del Ministerio del Interior ejerce las funciones que el ordenamiento jurídico atribuye a la Oficina de Asilo y Refugio?",
    "opciones": [
     "La Dirección General de Protección Internacional, dependiente de la Subsecretaría del Interior",
@@ -571,6 +609,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_12_22",
    "enunciado": "Procede la revocación del estatuto de refugiado o de la protección subsidiaria cuando:",
    "opciones": [
     "la persona beneficiaria haya adquirido una nueva nacionalidad y disfrute de la protección de ese país",

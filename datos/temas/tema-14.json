@@ -408,88 +408,109 @@
   ],
   "tarjetas": [
     {
+      "id": "t_14_01",
       "p": "¿Cuál es el tiempo máximo que puede durar la permanencia en dependencias policiales a efectos de identificación?",
       "r": "**Seis horas**, el tiempo estrictamente necesario y en ningún caso más (art. 16.2)."
     },
     {
+      "id": "t_14_02",
       "p": "¿Qué constará en el libro-registro de identificaciones y qué plazos tiene?",
       "r": "Diligencias de identificación, motivos, circunstancias y duración; **extracto mensual** al Ministerio Fiscal; cancelación de oficio a los **3 años**; a la salida se entrega un volante (art. 16.3 y 16.4)."
     },
     {
+      "id": "t_14_03",
       "p": "¿En qué dos supuestos pueden los agentes requerir la identificación de una persona?",
       "r": "Cuando existan **indicios de que ha podido participar en la comisión de una infracción** o cuando se considere **razonablemente necesario** para prevenir un delito (art. 16.1)."
     },
     {
+      "id": "t_14_04",
       "p": "¿Desde qué edad es obligatorio el DNI y qué valor tiene?",
       "r": "Desde los **14 años**; es documento público y oficial y el **único** con suficiente valor por sí solo para acreditar la identidad a todos los efectos (arts. 8 y 9)."
     },
     {
+      "id": "t_14_05",
       "p": "¿Quién expide el pasaporte?",
       "r": "En España, la **Dirección General de la Policía**; en el extranjero, las **Representaciones Diplomáticas y Consulares** (art. 12.1)."
     },
     {
+      "id": "t_14_06",
       "p": "¿Cómo debe practicarse el registro corporal externo?",
       "r": "Con indicios racionales; por un agente del **mismo sexo**; en **lugar reservado** si se dejan partes del cuerpo a la vista; con **injerencia mínima**; puede hacerse **contra la voluntad** con la compulsión indispensable (art. 20)."
     },
     {
+      "id": "t_14_07",
       "p": "¿Qué multa corresponde a cada clase de infracción?",
       "r": "**Leves**: 100 a 600 €. **Graves**: 601 a 30.000 €. **Muy graves**: 30.001 a 600.000 € (art. 39.1)."
     },
     {
+      "id": "t_14_08",
       "p": "¿Cuáles son los tramos de la multa por infracción grave?",
       "r": "Mínimo, **601 a 10.400 €**; medio, **10.401 a 20.200 €**; máximo, **20.201 a 30.000 €** (art. 39.1)."
     },
     {
+      "id": "t_14_09",
       "p": "¿Cuáles son los tramos de la multa por infracción muy grave?",
       "r": "Mínimo, **30.001 a 220.000 €**; medio, **220.001 a 410.000 €**; máximo, **410.001 a 600.000 €** (art. 39.1)."
     },
     {
+      "id": "t_14_10",
       "p": "¿Qué circunstancias llevan la multa al grado medio?",
       "r": "**Reincidencia** (más de una infracción de la misma naturaleza en dos años, por resolución firme); violencia, amenaza o intimidación; **rostro cubierto**; utilización de menores, personas con discapacidad o vulnerables (art. 33.2)."
     },
     {
+      "id": "t_14_11",
       "p": "¿Qué órgano estatal sanciona cada tipo de infracción?",
       "r": "**Ministro del Interior**: muy graves en grado máximo. **Secretario de Estado de Seguridad**: muy graves en grado medio y mínimo. **Delegados del Gobierno**: graves y leves (art. 32.1)."
     },
     {
+      "id": "t_14_12",
       "p": "¿Cuándo prescriben las infracciones?",
       "r": "Leves a los **6 meses**, graves al **año** y muy graves a los **2 años** (art. 38.1)."
     },
     {
+      "id": "t_14_13",
       "p": "¿Cuándo prescriben las sanciones y cuándo se cancelan los asientos del Registro Central?",
       "r": "Sanciones: leves **1 año**, graves **2 años**, muy graves **3 años**, desde el día siguiente a la firmeza (art. 40). Registro Central: cancelación de oficio a **1, 2 y 3 años** respectivamente (art. 43.3)."
     },
     {
+      "id": "t_14_14",
       "p": "¿Cuáles son las cuatro infracciones muy graves?",
       "r": "Reuniones no comunicadas o prohibidas junto a infraestructuras de servicios básicos con riesgo para la vida; armas y explosivos con perjuicios muy graves; espectáculos celebrados pese a prohibición o suspensión; haces de luz sobre pilotos o conductores (art. 35)."
     },
     {
+      "id": "t_14_15",
       "p": "¿Qué plazo hay para ratificar las medidas provisionales adoptadas antes de iniciar el procedimiento?",
       "r": "**Quince días**, en el acuerdo de incoación; si no se incoa o no hay pronunciamiento expreso, quedan sin efecto (art. 47.2)."
     },
     {
+      "id": "t_14_16",
       "p": "¿Cuánto pueden durar las medidas provisionales adoptadas tras la incoación?",
       "r": "Como máximo la **mitad del plazo previsto para la sanción** que pudiera corresponder, salvo acuerdo debidamente motivado (art. 49.3)."
     },
     {
+      "id": "t_14_17",
       "p": "¿Cómo funciona el procedimiento abreviado?",
       "r": "Solo graves y leves; **15 días** desde la notificación de la incoación para pagar con **reducción del 50 %**; el pago implica renuncia a alegaciones y termina el procedimiento (art. 54)."
     },
     {
+      "id": "t_14_18",
       "p": "¿A través de qué órgano ejerce el Ministerio del Interior la intervención de armas y explosivos?",
       "r": "De la **Dirección General de la Guardia Civil** (art. 28.2)."
     },
     {
+      "id": "t_14_19",
       "p": "¿Qué firma el huésped en un hotel y qué plazos fija el RD 933/2021?",
       "r": "El parte de entrada lo firma toda persona **mayor de 14 años**; registro conservado **3 años**; comunicaciones telemáticas en un máximo de **24 horas** (arts. 4 a 6 RD 933/2021)."
     },
     {
+      "id": "t_14_20",
       "p": "¿Quién está exento de responsabilidad por las infracciones?",
       "r": "Los **menores de 14 años**; la autoridad lo pone en conocimiento del Ministerio Fiscal (art. 30.2)."
     }
   ],
   "preguntas": [
     {
+      "id": "q_14_01",
       "enunciado": "Un agente solicita a un ciudadano en la vía pública que se identifique porque lo considera razonablemente necesario para prevenir un delito. La persona se niega y no es posible identificarla por ningún medio, incluidos el telefónico o el telemático. ¿Qué puede hacer el agente?",
       "opciones": [
         "Requerirle que le acompañe a las dependencias policiales más próximas con medios adecuados, solo para identificarle y por el tiempo estrictamente necesario, sin superar las seis horas",
@@ -502,6 +523,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_14_02",
       "enunciado": "Respecto al libro-registro que se lleva en las dependencias policiales donde se practican diligencias de identificación (art. 16 LO 4/2015), es correcto que:",
       "opciones": [
         "Se remite trimestralmente un extracto a la autoridad judicial y los asientos se cancelan a instancia del interesado",
@@ -514,6 +536,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_14_03",
       "enunciado": "Señale la afirmación INCORRECTA sobre los registros corporales externos regulados en el art. 20 de la LO 4/2015:",
       "opciones": [
         "Puede practicarse el registro corporal externo y superficial cuando existan indicios racionales de que puede conducir al hallazgo de objetos relevantes para la indagación y prevención",
@@ -526,6 +549,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_14_04",
       "enunciado": "Según la LO 4/2015, el Documento Nacional de Identidad es obligatorio:",
       "opciones": [
         "A partir de los catorce años",
@@ -538,6 +562,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_14_05",
       "enunciado": "Conforme al art. 8.1 de la LO 4/2015, en su redacción vigente, el Documento Nacional de Identidad:",
       "opciones": [
         "Es uno de los documentos con suficiente valor por sí solo para acreditar la identidad, junto con el pasaporte y el permiso de conducción",
@@ -550,6 +575,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_14_06",
       "enunciado": "¿A quién corresponde expedir el pasaporte de los ciudadanos españoles en el territorio nacional?",
       "opciones": [
         "A la Dirección General de la Guardia Civil",
@@ -562,6 +588,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_14_07",
       "enunciado": "Según el art. 28.2 de la LO 4/2015, la intervención de armas, explosivos, cartuchería y artículos pirotécnicos corresponde al Ministerio del Interior, que la ejerce a través de:",
       "opciones": [
         "La Dirección General de la Guardia Civil",
@@ -574,6 +601,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_14_08",
       "enunciado": "¿Cuál de las siguientes actividades NO figura entre las que el art. 25.1 de la LO 4/2015 sujeta a obligaciones de registro documental e información?",
       "opciones": [
         "Hospedaje y transporte de personas",
@@ -586,6 +614,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_14_09",
       "enunciado": "Una familia con dos adultos y un niño de 13 años se aloja en un hotel. Según el RD 933/2021, que desarrolla las obligaciones de registro del art. 25 de la LO 4/2015, ¿quién firma el parte de entrada?",
       "opciones": [
         "Todos los huéspedes, sin distinción de edad",
@@ -598,6 +627,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_14_10",
       "enunciado": "¿Qué cuantía comprende el grado medio de la multa por una infracción muy grave de la LO 4/2015?",
       "opciones": [
         "De 220.001 a 410.000 euros",
@@ -610,6 +640,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_14_11",
       "enunciado": "Para imponer la multa en grado medio, el art. 33.2 de la LO 4/2015 exige que concurra al menos una circunstancia. ¿Cuál de las siguientes NO es una de ellas?",
       "opciones": [
         "La reincidencia: más de una infracción de la misma naturaleza en el plazo de dos años, declarada por resolución firme en vía administrativa",
@@ -622,6 +653,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_14_12",
       "enunciado": "Según el art. 32.1 de la LO 4/2015, en el ámbito de la Administración General del Estado, el Secretario de Estado de Seguridad es competente para sancionar:",
       "opciones": [
         "Las infracciones muy graves en grado máximo",
@@ -634,6 +666,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_14_13",
       "enunciado": "¿En qué supuesto pueden los alcaldes imponer las sanciones y adoptar las medidas previstas en la LO 4/2015?",
       "opciones": [
         "Cuando las infracciones se cometan en espacios públicos municipales o afecten a bienes de titularidad local, siempre que ostenten competencia sobre la materia conforme a la legislación específica",
@@ -646,6 +679,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_14_14",
       "enunciado": "Las infracciones leves, graves y muy graves tipificadas en la LO 4/2015 prescriben, respectivamente, a los:",
       "opciones": [
         "Tres meses, seis meses y un año",
@@ -658,6 +692,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_14_15",
       "enunciado": "Las sanciones impuestas por infracciones graves tipificadas en la LO 4/2015 prescriben:",
       "opciones": [
         "Al año",
@@ -670,6 +705,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_14_16",
       "enunciado": "En supuestos de grave riesgo o peligro inminente, los agentes de la autoridad pueden adoptar medidas provisionales antes de iniciarse el procedimiento sancionador. ¿En qué plazo máximo deben ser ratificadas, modificadas o revocadas en el acuerdo de incoación?",
       "opciones": [
         "Quince días",
@@ -682,6 +718,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_14_17",
       "enunciado": "Salvo acuerdo debidamente motivado del órgano competente, la duración de las medidas de carácter provisional adoptadas una vez incoado el expediente no podrá exceder:",
       "opciones": [
         "De seis meses",
@@ -694,6 +731,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_14_18",
       "enunciado": "Notificado el acuerdo de incoación de un procedimiento por infracción leve, el interesado paga voluntariamente la multa dentro del plazo de quince días. ¿Qué consecuencias prevé la LO 4/2015?",
       "opciones": [
         "Se reduce la multa un 20 % y el procedimiento continúa para resolver las alegaciones que formule",
@@ -706,6 +744,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_14_19",
       "enunciado": "Antes de adoptar medidas de intervención para el mantenimiento o restablecimiento de la seguridad ciudadana en una manifestación, las unidades actuantes de las Fuerzas y Cuerpos de Seguridad deben:",
       "opciones": [
         "Avisar a las personas afectadas, pudiendo hacerlo de forma verbal si la urgencia lo hace imprescindible, salvo si se ha alterado la seguridad ciudadana con armas, artefactos explosivos u objetos contundentes o peligrosos",
@@ -718,6 +757,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_14_20",
       "enunciado": "Señale la conducta que la LO 4/2015 califica como infracción MUY GRAVE:",
       "opciones": [
         "Proyectar haces de luz sobre miembros de las Fuerzas y Cuerpos de Seguridad para impedir o dificultar el ejercicio de sus funciones",
@@ -730,6 +770,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_14_21",
       "enunciado": "¿Cuál de las siguientes conductas es infracción GRAVE según la LO 4/2015?",
       "opciones": [
         "Las faltas de respeto y consideración cuyo destinatario sea un miembro de las Fuerzas y Cuerpos de Seguridad en el ejercicio de sus funciones",
@@ -742,6 +783,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_14_22",
       "enunciado": "La ocupación de cualquier inmueble, vivienda o edificio ajenos contra la voluntad de su propietario, cuando no sea constitutiva de infracción penal, es según la LO 4/2015:",
       "opciones": [
         "Infracción leve",
@@ -754,6 +796,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_14_23",
       "enunciado": "Un grupo celebra, sin comunicación previa, una concentración junto a una central nuclear que genera riesgo para la vida o la integridad física de las personas. ¿Cómo se califica la conducta y quién responde según la LO 4/2015?",
       "opciones": [
         "Infracción grave; responden todos los asistentes",
@@ -766,6 +809,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_14_24",
       "enunciado": "Un menor de 13 años realiza una conducta tipificada como infracción en la LO 4/2015. ¿Qué consecuencia prevé la Ley?",
       "opciones": [
         "Se le impone una multa reducida y responden subsidiariamente sus padres",

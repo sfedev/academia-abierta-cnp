@@ -19,14 +19,16 @@
     return META.bloques.filter(function (b) { return b.id === id; })[0];
   };
 
-  /* Bancos de preguntas y tarjetas con identificadores estables. */
+  /* Bancos de preguntas y tarjetas. El progreso del usuario se guarda con el `id` fijo de cada una (q_NN_01,
+     t_NN_01; lo asigna herramientas/migrar_ids.py y lo exige build.py), así que se puede corregir el texto sin
+     perder el historial. */
   AA.preguntas = [];
   AA.tarjetas = [];
   AA.listaTemas.forEach(function (t) {
     if (!t.datos) return;
     (t.datos.preguntas || []).forEach(function (q) {
       AA.preguntas.push({
-        id: t.tema + "." + AA.hash(q.enunciado),
+        id: q.id,
         tema: t.tema,
         bloque: t.bloque,
         q: q.enunciado,
@@ -38,15 +40,33 @@
       });
     });
     (t.datos.tarjetas || []).forEach(function (c) {
-      AA.tarjetas.push({ id: t.tema + "." + AA.hash(c.p), tema: t.tema, bloque: t.bloque, p: c.p, r: c.r });
+      AA.tarjetas.push({ id: c.id, tema: t.tema, bloque: t.bloque, p: c.p, r: c.r });
     });
   });
   AA.preguntaPorId = {};
   AA.preguntas.forEach(function (q) { AA.preguntaPorId[q.id] = q; });
 
   /* ---------- Progreso ---------- */
+  var IDS_V = 2; // 1 = progreso guardado con «tema.hash(texto)»; 2 = con el id fijo de la ficha
   function fresh() {
-    return { v: 1, leidos: {}, preg: {}, tarj: {}, sims: [], ult: null, tema: 0, nov: [] };
+    return { v: 1, ids: IDS_V, leidos: {}, preg: {}, tarj: {}, sims: [], ult: null, tema: 0, nov: [] };
+  }
+  /* Traslada el progreso guardado con los ids antiguos (hash del texto) a los ids fijos. Los ids antiguos se
+     recalculan desde el texto actual: sirve para el contenido publicado cuando se introdujeron los ids fijos. */
+  function migrarIds(o) {
+    o.preg = o.preg || {};
+    o.tarj = o.tarj || {};
+    AA.preguntas.forEach(function (q) {
+      var viejo = q.tema + "." + AA.hash(q.q);
+      if (o.preg[viejo] && !o.preg[q.id]) o.preg[q.id] = o.preg[viejo];
+      delete o.preg[viejo];
+    });
+    AA.tarjetas.forEach(function (c) {
+      var viejo = c.tema + "." + AA.hash(c.p);
+      if (o.tarj[viejo] && !o.tarj[c.id]) o.tarj[c.id] = o.tarj[viejo];
+      delete o.tarj[viejo];
+    });
+    o.ids = IDS_V;
   }
   var S = load();
   function load() {
@@ -54,7 +74,11 @@
       var raw = localStorage.getItem(KEY);
       if (raw) {
         var o = JSON.parse(raw);
-        if (o && o.v === 1) return Object.assign(fresh(), o);
+        if (o && o.v === 1) {
+          var s = Object.assign(fresh(), o);
+          if (o.ids !== IDS_V) s.ids = 1;
+          return s;
+        }
       }
     } catch (e) {}
     return fresh();
@@ -67,6 +91,10 @@
     } catch (e) {
       persistOk = false;
     }
+  }
+  if (S.ids !== IDS_V) {
+    migrarIds(S);
+    save();
   }
   /* ---------- Novedades legislativas (generadas por herramientas/vigilar_leyes.py) ---------- */
   var NOV = window.AA_NOVEDADES || { items: [], comprobacion: "", normasVigiladas: 0, sinConsolidar: [], otrasFuentes: 0, errores: [] };
@@ -188,6 +216,10 @@
       var o = JSON.parse(texto);
       if (!o || o.v !== 1 || typeof o.preg !== "object") throw new Error("Formato no válido");
       S = Object.assign(fresh(), o);
+      if (o.ids !== IDS_V) {
+        S.ids = 1;
+        migrarIds(S);
+      }
       save();
     },
     reiniciar: function () {

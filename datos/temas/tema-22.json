@@ -172,72 +172,89 @@
   ],
   "tarjetas": [
     {
+      "id": "t_22_01",
       "p": "¿Cómo se llama y de qué fecha es la ley del Estatuto de la víctima?",
       "r": "**Ley 4/2015, de 27 de abril**, del Estatuto de la víctima del delito."
     },
     {
+      "id": "t_22_02",
       "p": "¿A quién se aplica la ley según su ámbito (art. 1)?",
       "r": "A víctimas de delitos cometidos en España o perseguibles en España, **con independencia de nacionalidad, edad y residencia legal**."
     },
     {
+      "id": "t_22_03",
       "p": "¿Quién es víctima directa (art. 2.a)?",
       "r": "La **persona física** con daño o perjuicio en su persona o patrimonio **directamente causado** por un delito."
     },
     {
+      "id": "t_22_04",
       "p": "¿Cuándo existe víctima indirecta?",
       "r": "Solo en caso de **muerte o desaparición** causada directamente por un delito, salvo que sea responsable de los hechos (art. 2.b)."
     },
     {
+      "id": "t_22_05",
       "p": "¿Qué pasa con los terceros perjudicados por el delito?",
       "r": "La ley **no** les es aplicable (art. 2, último párrafo)."
     },
     {
+      "id": "t_22_06",
       "p": "¿Qué derecho tiene la víctima al presentar la denuncia (art. 6)?",
       "r": "**Copia de la denuncia debidamente certificada**; y asistencia lingüística gratuita y traducción de la copia si no entiende las lenguas oficiales."
     },
     {
+      "id": "t_22_07",
       "p": "¿A quién se dirigen las comunicaciones si la víctima es menor o tiene la capacidad judicialmente modificada (art. 4)?",
       "r": "A su **representante o a la persona que le asista**."
     },
     {
+      "id": "t_22_08",
       "p": "¿Cuántos días de reflexión se imponen a abogados y procuradores tras una catástrofe (art. 8)?",
       "r": "**45 días** desde el hecho, salvo que la víctima los solicite expresamente; infracción disciplinaria muy grave."
     },
     {
+      "id": "t_22_09",
       "p": "¿Qué ocurre con la mediación y la conciliación en violencia sexual y de género (art. 3.1)?",
       "r": "Están **vedadas**."
     },
     {
+      "id": "t_22_10",
       "p": "¿Plazos para recurrir un auto de los previstos en el art. 13?",
       "r": "**5 días** para anunciar el recurso y **15 días** para interponerlo, desde la notificación."
     },
     {
+      "id": "t_22_11",
       "p": "¿Medidas de protección en la fase de investigación (art. 25.1)?",
       "r": "Dependencias adaptadas; profesionales con formación especial; la misma persona en todas las tomas; persona del mismo sexo si la víctima lo pide en los casos previstos."
     },
     {
+      "id": "t_22_12",
       "p": "¿Medidas de protección en la fase de enjuiciamiento (art. 25.2)?",
       "r": "Evitar contacto visual; oída sin estar presente; evitar preguntas sobre vida privada irrelevante; **vista sin público**."
     },
     {
+      "id": "t_22_13",
       "p": "¿Quién valora y decide las medidas de protección en la investigación (art. 24)?",
       "r": "El **Juez de Instrucción o el de Violencia sobre la Mujer**, con evaluación provisional del Fiscal o la policía en la fase inicial."
     },
     {
+      "id": "t_22_14",
       "p": "¿Qué se presume si hay dudas sobre la edad de la víctima (art. 26.3)?",
       "r": "Que es **menor de edad**."
     },
     {
+      "id": "t_22_15",
       "p": "¿Con qué interés se reembolsan las ayudas si se condena a la víctima por denuncia falsa (art. 35)?",
       "r": "Interés legal del dinero **incrementado en un 50 %**."
     },
     {
+      "id": "t_22_16",
       "p": "¿Qué órgano crea el RD 1109/2015 y de quién depende?",
       "r": "El **Consejo Asesor de Asistencia a las Víctimas**, órgano consultivo adscrito a la Dirección General de Relaciones con la Administración de Justicia."
     }
   ],
   "preguntas": [
     {
+      "id": "q_22_01",
       "enunciado": "Según el ámbito de aplicación de la Ley 4/2015 del Estatuto de la víctima del delito, ¿a qué víctimas se aplica?",
       "opciones": [
         "Solo a las víctimas de nacionalidad española o con residencia legal en España",
@@ -250,6 +267,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_22_02",
       "enunciado": "Tras una catástrofe con elevado número de víctimas, ¿hasta cuándo no pueden abogados y procuradores dirigirse a las víctimas para ofrecerles sus servicios, salvo que ellas los soliciten expresamente?",
       "opciones": [
         "Hasta transcurridos 45 días desde el hecho",
@@ -262,6 +280,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_22_03",
       "enunciado": "Señale la afirmación INCORRECTA sobre el concepto de víctima en el art. 2 de la Ley 4/2015:",
       "opciones": [
         "Es víctima directa la persona física que sufre un daño o perjuicio en su persona o patrimonio directamente causado por un delito",
@@ -274,6 +293,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_22_04",
       "enunciado": "Marta sufre lesiones graves causadas directamente por un delito, pero sobrevive. Sus padres piden ser reconocidos como víctimas indirectas conforme a la Ley 4/2015. ¿Qué es correcto?",
       "opciones": [
         "Procede, porque los progenitores de la víctima son siempre víctimas indirectas",
@@ -286,6 +306,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_22_05",
       "enunciado": "Si la víctima es menor de edad o tiene la capacidad judicialmente modificada, ¿a quién se dirigen, según el art. 4 de la Ley 4/2015, las comunicaciones con ella?",
       "opciones": [
         "Solo a la autoridad judicial, que las traslada a la víctima",
@@ -298,6 +319,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_22_06",
       "enunciado": "Al presentar su denuncia, ¿qué derecho reconoce expresamente el art. 6 de la Ley 4/2015 a la víctima?",
       "opciones": [
         "A obtener una copia de la denuncia, debidamente certificada",
@@ -310,6 +332,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_22_07",
       "enunciado": "Según el art. 25 de la Ley 4/2015, ¿cuál de estas medidas de protección está prevista para la fase de enjuiciamiento y no para la de investigación?",
       "opciones": [
         "Recibir declaración a la víctima en dependencias especialmente concebidas o adaptadas",
@@ -322,6 +345,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_22_08",
       "enunciado": "Entre las medidas de protección previstas para la fase de enjuiciamiento (art. 25.2), ¿cuáles pueden adoptarse también durante la fase de investigación?",
       "opciones": [
         "Todas ellas, sin excepción",
@@ -334,6 +358,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_22_09",
       "enunciado": "¿Qué requisito debe cumplir la víctima para poder recurrir, aunque no se haya mostrado parte en la causa, el auto del Juez de Vigilancia Penitenciaria que autoriza la clasificación en tercer grado antes de cumplida la mitad de la condena?",
       "opciones": [
         "Haber solicitado que se le notifiquen esas resoluciones",
@@ -346,6 +371,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_22_10",
       "enunciado": "Durante la fase de investigación, ¿a quién corresponde, según el art. 24 de la Ley 4/2015, valorar las necesidades de protección de la víctima y determinar las medidas?",
       "opciones": [
         "A los funcionarios de policía, con carácter definitivo, por ser quienes primero tienen contacto con la víctima",
@@ -358,6 +384,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_22_11",
       "enunciado": "La persona condenada por denuncia falsa o simulación de delito que se hubiera beneficiado de ayudas por su condición de víctima debe reembolsarlas. ¿Con qué interés, según el art. 35 de la Ley 4/2015?",
       "opciones": [
         "Con el interés legal del dinero, sin incremento",
@@ -370,6 +397,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_22_12",
       "enunciado": "¿Cuál NO es un requisito para que la víctima acceda a servicios de justicia restaurativa según el art. 15 de la Ley 4/2015?",
       "opciones": [
         "Que exista una sentencia condenatoria firme contra el infractor",
@@ -382,6 +410,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_22_13",
       "enunciado": "Respecto a la mediación y la conciliación, el art. 3.1 de la Ley 4/2015 establece que:",
       "opciones": [
         "Son obligatorias para la víctima antes de iniciar el proceso penal en los delitos leves",
@@ -394,6 +423,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_22_14",
       "enunciado": "Una mujer extranjera, en situación administrativa irregular, denuncia en una comisaría una agresión sufrida en Sevilla y no entiende el castellano. Según la Ley 4/2015:",
       "opciones": [
         "No tiene los derechos de la ley por carecer de residencia legal, salvo el de denunciar",
@@ -406,6 +436,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_22_15",
       "enunciado": "Una víctima que solicitó ser notificada quiere recurrir un auto del Juez de Vigilancia Penitenciaria de los previstos en el art. 13 de la Ley 4/2015. ¿Qué plazos debe respetar?",
       "opciones": [
         "Anunciar su voluntad de recurrir en cinco días e interponer el recurso en quince días desde la notificación",
@@ -418,6 +449,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_22_16",
       "enunciado": "Según el art. 28.3 de la Ley 4/2015, el acceso a los servicios de apoyo a las víctimas de las Oficinas de Asistencia a las Víctimas:",
       "opciones": [
         "Exige la presentación previa de denuncia y su ratificación ante el Juez",
@@ -430,6 +462,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_22_17",
       "enunciado": "En caso de muerte causada directamente por un delito, ¿quiénes son víctimas indirectas únicamente si no existe ninguno de los familiares del primer grupo del art. 2 de la Ley 4/2015?",
       "opciones": [
         "Los herederos testamentarios de la víctima",

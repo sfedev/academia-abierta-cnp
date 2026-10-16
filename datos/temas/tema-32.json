@@ -252,72 +252,89 @@
   ],
   "tarjetas": [
     {
+      "id": "t_32_01",
       "p": "¿Qué es el crecimiento (saldo) vegetativo?",
       "r": "La diferencia entre **nacimientos y defunciones** (INE). Es negativo cuando la natalidad es inferior a la mortalidad."
     },
     {
+      "id": "t_32_02",
       "p": "¿Qué es el crecimiento de la población?",
       "r": "La suma del **saldo vegetativo** y el **saldo migratorio** (inmigraciones − emigraciones)."
     },
     {
+      "id": "t_32_03",
       "p": "¿Qué es la densidad de población?",
       "r": "La **población relativa**: habitantes por km². España: 97,1 hab./km² en 2025 (INE)."
     },
     {
+      "id": "t_32_04",
       "p": "Tasa bruta de natalidad y de mortalidad (INE).",
       "r": "**Natalidad**: nacimientos por 1.000 habitantes. **Mortalidad**: defunciones por 1.000 habitantes. España 2024: 6,49‰ y 8,87‰."
     },
     {
+      "id": "t_32_05",
       "p": "Indicador coyuntural de fecundidad.",
       "r": "Número medio de **hijos por mujer** a lo largo de su vida fértil con la fecundidad por edad de un año. España 2024: **1,10**."
     },
     {
+      "id": "t_32_06",
       "p": "Tasa de dependencia y de envejecimiento.",
       "r": "**Dependencia**: (menores de 16 + mayores de 64) / población de 16 a 64 años. **Envejecimiento**: mayores de 64 / menores de 16."
     },
     {
+      "id": "t_32_07",
       "p": "Tipos de pirámide de población.",
       "r": "**Expansiva** (base ancha), **estacionaria** (crecimiento lento o nulo) y **regresiva** (base estrecha, envejecida)."
     },
     {
+      "id": "t_32_08",
       "p": "Etapas de la transición demográfica.",
       "r": "Cuatro (o cinco): natalidad y mortalidad altas y equilibradas; cae la mortalidad; cae la natalidad; ambas bajas con crecimiento lento o negativo."
     },
     {
+      "id": "t_32_09",
       "p": "Modelos de Burgess, Hoyt y Harris-Ullman.",
       "r": "**Burgess** (1925): zonas concéntricas. **Hoyt** (1939): sectores. **Harris y Ullman** (1945): núcleos múltiples."
     },
     {
+      "id": "t_32_10",
       "p": "¿Quién formuló la teoría de los lugares centrales y cuándo?",
       "r": "**Walter Christaller**, en **1933**."
     },
     {
+      "id": "t_32_11",
       "p": "¿Quién escribió «El urbanismo como forma de vida» y cuándo?",
       "r": "**Louis Wirth**, en **1938** (Escuela de Chicago)."
     },
     {
+      "id": "t_32_12",
       "p": "¿Qué aportó Saskia Sassen a los estudios urbanos?",
       "r": "El concepto de **ciudad global** («The Global City», 1991: Nueva York, Londres, Tokio)."
     },
     {
+      "id": "t_32_13",
       "p": "¿Qué dice el art. 45 de la Constitución?",
       "r": "Derecho a un **medio ambiente adecuado** para el desarrollo de la persona y deber de conservarlo; utilización racional de los recursos; sanciones y obligación de reparar el daño."
     },
     {
+      "id": "t_32_14",
       "p": "Objetivo de reducción de emisiones de la Ley 7/2021 para 2030.",
       "r": "Al menos un **23 %** menos que en 1990; neutralidad climática **antes de 2050**."
     },
     {
+      "id": "t_32_15",
       "p": "Conferencia de Estocolmo (1972): fecha y resultado.",
       "r": "**5-16 de junio de 1972**; primera conferencia mundial sobre el medio ambiente; Declaración con 26 principios; creación del **PNUMA**."
     },
     {
+      "id": "t_32_16",
       "p": "Cumbre de Río (1992): fecha y resultados.",
       "r": "**3-14 de junio de 1992**: Agenda 21, Declaración de Río (27 principios), Convención Marco sobre el Cambio Climático, Convenio sobre la Diversidad Biológica."
     }
   ],
   "preguntas": [
     {
+      "id": "q_32_01",
       "enunciado": "Si la natalidad de un país es inferior a su mortalidad, su crecimiento vegetativo es:",
       "opciones": [
         "Negativo",
@@ -330,6 +347,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_32_02",
       "enunciado": "Según el INE, el saldo vegetativo es:",
       "opciones": [
         "La diferencia entre inmigraciones y emigraciones",
@@ -342,6 +360,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_32_03",
       "enunciado": "La densidad de población, entendida como población relativa, expresa:",
       "opciones": [
         "El número total de habitantes de un territorio",
@@ -354,6 +373,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_32_04",
       "enunciado": "Según el INE, la tasa bruta de natalidad es:",
       "opciones": [
         "El total de nacimientos de madres de un ámbito en un año por cada 1.000 habitantes",
@@ -366,6 +386,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_32_05",
       "enunciado": "Según el INE, el índice de envejecimiento es el porcentaje que representa:",
       "opciones": [
         "La población mayor de 64 años sobre la población total",
@@ -378,6 +399,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_32_06",
       "enunciado": "Una población con tasa de crecimiento lenta o nula, con una pirámide cuya base y cuerpo tienen anchura similar, se denomina:",
       "opciones": [
         "Expansiva",
@@ -390,6 +412,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_32_07",
       "enunciado": "Según los datos definitivos del INE para 2024, ¿cuál fue en España el número medio de hijos por mujer (indicador coyuntural de fecundidad)?",
       "opciones": [
         "1,10",
@@ -402,6 +425,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_32_08",
       "enunciado": "En 2024 se registraron en España 318.005 nacimientos y 436.118 defunciones. ¿Cómo fue el crecimiento vegetativo?",
       "opciones": [
         "Positivo, de 118.113 personas",
@@ -414,6 +438,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_32_09",
       "enunciado": "En la primera etapa (preindustrial) de la transición demográfica, la natalidad y la mortalidad son:",
       "opciones": [
         "Bajas y estables",
@@ -426,6 +451,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_32_10",
       "enunciado": "¿Quién es el autor del «Ensayo sobre el principio de la población» (1798)?",
       "opciones": [
         "Thomas Robert Malthus",
@@ -438,6 +464,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_32_11",
       "enunciado": "Los modelos de estructura urbana de zonas concéntricas (1925), sectores (1939) y núcleos múltiples (1945) se atribuyen, respectivamente, a:",
       "opciones": [
         "Hoyt, Burgess, y Harris y Ullman",
@@ -450,6 +477,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_32_12",
       "enunciado": "¿Qué sociólogo urbano publicó en 1938 el ensayo «El urbanismo como forma de vida»?",
       "opciones": [
         "Ernest Burgess",
@@ -462,6 +490,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_32_13",
       "enunciado": "La teoría de los lugares centrales, introducida en 1933, se atribuye a:",
       "opciones": [
         "Walter Christaller",
@@ -474,6 +503,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_32_14",
       "enunciado": "¿En qué artículo de la Constitución Española se reconoce el derecho a disfrutar de un medio ambiente adecuado para el desarrollo de la persona?",
       "opciones": [
         "En el art. 43",
@@ -486,6 +516,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_32_15",
       "enunciado": "Según la Ley 37/2003 del Ruido, la contaminación acústica es la presencia en el ambiente de ruidos o vibraciones que impliquen:",
       "opciones": [
         "Únicamente daño para la salud de las personas",
@@ -498,6 +529,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_32_16",
       "enunciado": "La Conferencia de las Naciones Unidas sobre el Medio Humano (Estocolmo, 1972) dio lugar, entre otros resultados, a la creación de:",
       "opciones": [
         "El Programa de las Naciones Unidas para el Medio Ambiente (PNUMA)",
@@ -510,6 +542,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_32_17",
       "enunciado": "La Cumbre de la Tierra de Río de Janeiro (3 a 14 de junio de 1992) dio como resultados, entre otros:",
       "opciones": [
         "El Protocolo de Kioto y el Acuerdo de París",
@@ -522,6 +555,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_32_18",
       "enunciado": "Según el art. 3 de la Ley 7/2021 de cambio climático y transición energética, España debe reducir en 2030 las emisiones de gases de efecto invernadero, como mínimo, en:",
       "opciones": [
         "Un 10 % respecto a 1990",

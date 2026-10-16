@@ -257,80 +257,99 @@
   ],
   "tarjetas": [
     {
+      "id": "t_01_01",
       "p": "¿Cuáles son las fuentes del ordenamiento jurídico español?",
       "r": "La **ley, la costumbre y los principios generales del derecho** (art. 1.1 CC). La jurisprudencia complementa (art. 1.6)."
     },
     {
+      "id": "t_01_02",
       "p": "¿Cuándo entran en vigor las leyes si no disponen otra cosa?",
       "r": "A los **20 días** de su completa publicación en el BOE (art. 2.1 CC)."
     },
     {
+      "id": "t_01_03",
       "p": "¿Cuándo se adquiere la personalidad civil?",
       "r": "En el **nacimiento con vida**, una vez producido el **entero desprendimiento del seno materno** (art. 30 CC). Se extingue por la muerte (art. 32)."
     },
     {
+      "id": "t_01_04",
       "p": "¿Qué edad marca la mayoría de edad y cuál la emancipación por concesión de los padres?",
       "r": "Mayoría de edad a los **18 años** (art. 12 CE; art. 240 CC). Emancipación por concesión: **16 años** cumplidos y consentimiento del menor (art. 241 CC)."
     },
     {
+      "id": "t_01_05",
       "p": "¿Cuántos años de residencia exige el art. 22 CC para la nacionalidad?",
       "r": "**10** (general); **5** refugiados; **2** nacionales de origen de países iberoamericanos, Andorra, Filipinas, Guinea Ecuatorial o Portugal, y sefardíes; **1** en los supuestos del art. 22.2."
     },
     {
+      "id": "t_01_06",
       "p": "¿Qué requisitos debe cumplir la residencia para la nacionalidad?",
       "r": "Debe ser **legal, continuada e inmediatamente anterior** a la petición (art. 22.3), con buena conducta cívica y suficiente grado de integración (art. 22.4)."
     },
     {
+      "id": "t_01_07",
       "p": "¿Quién concede la nacionalidad por residencia y quién la carta de naturaleza?",
       "r": "Residencia: el **Ministro de Justicia**, que puede denegarla por orden público o interés nacional. Carta de naturaleza: **Real Decreto**, discrecional, por circunstancias excepcionales (art. 21)."
     },
     {
+      "id": "t_01_08",
       "p": "¿En qué plazo caducan las concesiones de nacionalidad por carta de naturaleza o residencia?",
       "r": "A los **180 días** de su notificación si el interesado no comparece para cumplir los requisitos del art. 23 (art. 21.4 CC)."
     },
     {
+      "id": "t_01_09",
       "p": "Requisitos comunes de la adquisición por opción, carta de naturaleza o residencia (art. 23 CC).",
       "r": "Jurar o prometer **fidelidad al Rey y obediencia a la CE y las leyes** (mayor de 14 años); **renunciar** a la anterior nacionalidad (con excepciones); **inscribir** la adquisición en el Registro Civil."
     },
     {
+      "id": "t_01_10",
       "p": "¿Quiénes son españoles de origen según el art. 17.1 CC?",
       "r": "Nacidos de padre o madre españoles; nacidos en España de padres extranjeros si uno nació también en España; nacidos en España de padres sin nacionalidad o cuya ley no la atribuye al hijo; nacidos en España con filiación no determinada."
     },
     {
+      "id": "t_01_11",
       "p": "¿En qué plazo puede optar a la nacionalidad el adoptado extranjero mayor de 18 años?",
       "r": "En **2 años** desde la constitución de la adopción (art. 19.2 CC)."
     },
     {
+      "id": "t_01_12",
       "p": "¿Cuándo caduca la opción de quien estuvo sujeto a la patria potestad de un español?",
       "r": "A los **20 años** de edad (se prolonga hasta 2 años desde la emancipación si a los 18 no estaba emancipado) (art. 20.2.c CC)."
     },
     {
+      "id": "t_01_13",
       "p": "¿Cuándo pierde la nacionalidad el emancipado residente en el extranjero que adquiere voluntariamente otra?",
       "r": "A los **3 años**, salvo que declare su voluntad de conservarla (art. 24.1 CC). No la pierde por adquirir la de un país iberoamericano, Andorra, Filipinas, Guinea Ecuatorial o Portugal."
     },
     {
+      "id": "t_01_14",
       "p": "¿Puede privarse de su nacionalidad a un español de origen?",
       "r": "**No**: «Ningún español de origen podrá ser privado de su nacionalidad» (art. 11.2 CE)."
     },
     {
+      "id": "t_01_15",
       "p": "¿Cómo se adquiere la vecindad civil por residencia?",
       "r": "Por residencia continuada de **2 años** si el interesado manifiesta su voluntad, o de **10 años** sin declaración en contrario (art. 14.5 CC). El matrimonio no la altera y, en caso de duda, prevalece el **lugar de nacimiento**."
     },
     {
+      "id": "t_01_16",
       "p": "¿Cuál es el domicilio de las personas naturales y de las jurídicas?",
       "r": "Personas naturales: el lugar de su **residencia habitual** (art. 40 CC). Personas jurídicas: el que fijen la ley o los estatutos y, si no, donde esté su representación legal o ejerzan sus principales funciones (art. 41)."
     },
     {
+      "id": "t_01_17",
       "p": "¿Qué consecuencia tiene que una disposición contradiga otra de rango superior?",
       "r": "Carece de validez (art. 1.2 CC); la CE garantiza la jerarquía normativa (art. 9.3)."
     },
     {
+      "id": "t_01_18",
       "p": "¿Cuándo procede la declaración de fallecimiento del ausente?",
       "r": "A los **10 años** desde las últimas noticias; a los **5 años** si el ausente había cumplido 75 años; **1 año** tras un riesgo inminente de muerte por violencia (3 meses en caso de siniestro) (art. 193 CC)."
     }
   ],
   "preguntas": [
     {
+      "id": "q_01_01",
       "enunciado": "Según el Código Civil, ¿cuántos años de residencia legal, continuada e inmediatamente anterior a la petición se exigen con carácter general para adquirir la nacionalidad española por residencia?",
       "opciones": [
         "Cinco años",
@@ -343,6 +362,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_01_02",
       "enunciado": "¿En cuál de los siguientes supuestos basta un año de residencia legal para adquirir la nacionalidad española por residencia?",
       "opciones": [
         "El que haya nacido en territorio español",
@@ -355,6 +375,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_01_03",
       "enunciado": "Karim, nacional marroquí, reside legalmente en España de forma continuada desde hace seis años. No es refugiado, no nació en España, no está casado con española ni se halla en ningún otro supuesto especial de reducción. ¿Puede solicitar ya la nacionalidad española por residencia?",
       "opciones": [
         "Sí, porque bastan cinco años de residencia legal",
@@ -367,6 +388,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_01_04",
       "enunciado": "Respecto a la vecindad civil, señale la afirmación INCORRECTA:",
       "opciones": [
         "El matrimonio no altera la vecindad civil, aunque cualquiera de los cónyuges no separados puede optar por la del otro",
@@ -379,6 +401,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_01_05",
       "enunciado": "Cuando nació Lucía, su padre tenía vecindad civil aragonesa y su madre vecindad civil común. La filiación materna quedó determinada antes que la paterna y los padres no han atribuido al hijo la vecindad de ninguno de ellos. ¿Qué vecindad civil tiene Lucía?",
       "opciones": [
         "La común, que es la del progenitor respecto del cual la filiación se determinó antes",
@@ -391,6 +414,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_01_06",
       "enunciado": "Según el artículo 17 del Código Civil, ¿cuál de los siguientes es español de origen?",
       "opciones": [
         "El nacido en España de padres extranjeros que llevan cinco años residiendo legalmente en ella",
@@ -403,6 +427,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_01_07",
       "enunciado": "En relación con la pérdida de la nacionalidad española, ¿cuál de las siguientes afirmaciones es correcta?",
       "opciones": [
         "Un español de origen condenado por traición puede ser privado de su nacionalidad por sentencia firme",
@@ -415,6 +440,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_01_08",
       "enunciado": "El artículo 24 del Código Civil establece que pierden la nacionalidad española los emancipados que, residiendo habitualmente en el extranjero, adquieran voluntariamente otra nacionalidad, una vez transcurrido el plazo de:",
       "opciones": [
         "Un año desde la adquisición",
@@ -427,6 +453,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_01_09",
       "enunciado": "Elena, española de origen, emancipada y residente habitual en Lisboa, adquiere voluntariamente la nacionalidad portuguesa. ¿Pierde la nacionalidad española?",
       "opciones": [
         "No: la adquisición de la nacionalidad portuguesa no produce la pérdida de la nacionalidad española de origen",
@@ -439,6 +466,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_01_10",
       "enunciado": "Según el artículo 1 del Código Civil, ¿cuáles son las fuentes del ordenamiento jurídico español?",
       "opciones": [
         "La ley, la costumbre y los principios generales del derecho",
@@ -451,6 +479,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_01_11",
       "enunciado": "Una ley dispone en su propio texto que entrará en vigor al día siguiente de su publicación en el BOE. ¿Es conforme con el Código Civil?",
       "opciones": [
         "No, porque las leyes siempre entran en vigor a los veinte días de su publicación",
@@ -463,6 +492,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_01_12",
       "enunciado": "Señale la afirmación INCORRECTA sobre la aplicación de las normas jurídicas según el Título Preliminar del Código Civil:",
       "opciones": [
         "La ignorancia de las leyes no excusa de su cumplimiento",
@@ -475,6 +505,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_01_13",
       "enunciado": "Conforme al Código Civil, la personalidad civil de la persona física se adquiere:",
       "opciones": [
         "En el momento de la concepción, a todos los efectos",
@@ -487,6 +518,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_01_14",
       "enunciado": "La declaración de opción a la nacionalidad española de quien estuvo sujeto a la patria potestad de un español puede formularla por sí solo el interesado emancipado o mayor de dieciocho años. ¿Cuándo caduca esa opción?",
       "opciones": [
         "A los veinte años de edad, con la prolongación prevista si a los dieciocho no estuviera emancipado según su ley personal",
@@ -499,6 +531,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_01_15",
       "enunciado": "Para el ejercicio de los derechos y el cumplimiento de las obligaciones civiles, el domicilio de las personas naturales es:",
       "opciones": [
         "El lugar de su nacimiento",
@@ -511,6 +544,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_01_16",
       "enunciado": "Para que un menor sea emancipado por concesión de quienes ejercen la patria potestad, el Código Civil exige que tenga cumplidos:",
       "opciones": [
         "Catorce años y que lo consientan sus progenitores",
@@ -523,6 +557,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_01_17",
       "enunciado": "¿Cuál de las siguientes afirmaciones sobre la jerarquía normativa es correcta?",
       "opciones": [
         "Carecerán de validez las disposiciones que contradigan otra de rango superior",
@@ -535,6 +570,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_01_18",
       "enunciado": "Según el Código Civil, ¿cuándo son de aplicación directa en España las normas contenidas en un tratado internacional?",
       "opciones": [
         "Desde que el Rey manifiesta el consentimiento del Estado para obligarse",
@@ -547,6 +583,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_01_19",
       "enunciado": "Respecto de la vecindad civil, el hijo puede optar por la del lugar de su nacimiento o por la última vecindad de cualquiera de sus padres:",
       "opciones": [
         "Desde los dieciséis años y hasta un año después de su emancipación",

@@ -367,96 +367,119 @@
   ],
   "tarjetas": [
     {
+      "id": "t_18_01",
       "p": "¿Pena del hurto básico y del hurto leve?",
       "r": "Más de 400 euros: prisión de **6 a 18 meses**. Hasta 400 euros: multa de **1 a 3 meses** (art. 234)."
     },
     {
+      "id": "t_18_02",
       "p": "¿Cuándo se castiga el hurto de hasta 400 euros con la pena del tipo básico?",
       "r": "Si el culpable tiene tres condenas ejecutorias por delitos de la misma naturaleza del Título XIII, al menos una leve (art. 234.2, LO 1/2026)."
     },
     {
+      "id": "t_18_03",
       "p": "¿Pena del hurto agravado?",
       "r": "Prisión de **1 a 3 años**, en mitad superior si concurren dos o más circunstancias (art. 235)."
     },
     {
+      "id": "t_18_04",
       "p": "¿Qué novedad introdujo la LO 1/2026 en el hurto agravado?",
       "r": "Los **teléfonos móviles** y otros dispositivos móviles de comunicación o de almacenamiento masivo de datos (art. 235.1.10.º), salvo los expuestos o almacenados en establecimientos comerciales."
     },
     {
+      "id": "t_18_05",
       "p": "¿Qué cuantía exige el hurto agravado de productos agrarios o ganaderos?",
       "r": "Que el valor de lo sustraído **exceda de 400 euros**, en explotaciones agrícolas o ganaderas (art. 235.1.4.º)."
     },
     {
+      "id": "t_18_06",
       "p": "Medios del robo con fuerza en las cosas.",
       "r": "Escalamiento; rompimiento de pared, techo o suelo o fractura de puerta o ventana; fractura de muebles cerrados (en el lugar o fuera); llaves falsas; inutilización de alarmas (art. 238)."
     },
     {
+      "id": "t_18_07",
       "p": "¿Qué son llaves falsas?",
       "r": "Ganzúas, llaves legítimas perdidas por el propietario u obtenidas por infracción penal, y cualesquiera no destinadas a esa cerradura; también tarjetas magnéticas o perforadas y mandos a distancia (art. 239)."
     },
     {
+      "id": "t_18_08",
       "p": "¿Pena del robo con fuerza y del robo con fuerza en casa habitada?",
       "r": "Robo con fuerza: **1 a 3 años** (art. 240.1). En casa habitada, edificio o local abiertos al público: **2 a 5 años** (art. 241.1)."
     },
     {
+      "id": "t_18_09",
       "p": "¿Pena del robo con violencia o intimidación?",
       "r": "Prisión de **2 a 5 años**; **3 años y 6 meses a 5** en casa habitada; mitad superior si usa armas (art. 242)."
     },
     {
+      "id": "t_18_10",
       "p": "¿Qué es casa habitada?",
       "r": "Todo albergue que constituya morada de una o más personas, aunque accidentalmente estén ausentes (art. 241.2)."
     },
     {
+      "id": "t_18_11",
       "p": "Define la extorsión.",
       "r": "Con ánimo de lucro, obligar a otro con violencia o intimidación a realizar u omitir un acto o negocio jurídico en perjuicio de su patrimonio o el de un tercero; prisión de **1 a 5 años** (art. 243)."
     },
     {
+      "id": "t_18_12",
       "p": "Requisitos del hurto y robo de uso de vehículos.",
       "r": "Vehículo a motor o ciclomotor ajeno, sin ánimo de apropiárselo, restituido en **48 horas**; si no, hurto o robo (art. 244)."
     },
     {
+      "id": "t_18_13",
       "p": "¿Penas de la usurpación del art. 245?",
       "r": "Con violencia o intimidación: **1 a 2 años**. Inmueble que no es morada, sin violencia: multa de **3 a 6 meses**."
     },
     {
+      "id": "t_18_14",
       "p": "¿Pena de la distracción de aguas?",
       "r": "Multa de **3 a 6 meses** (art. 247); 1 a 3 meses si la utilidad no excede de 400 euros."
     },
     {
+      "id": "t_18_15",
       "p": "Define la estafa.",
       "r": "Con ánimo de lucro, engaño bastante que produce error y lleva a un acto de disposición en perjuicio propio o ajeno; prisión de **6 meses a 3 años** (art. 248)."
     },
     {
+      "id": "t_18_16",
       "p": "¿Qué conductas se consideran también estafa en el art. 249?",
       "r": "La manipulación informática que logra una transferencia no consentida de un activo y el uso fraudulento de tarjetas u otros instrumentos de pago distintos del efectivo."
     },
     {
+      "id": "t_18_17",
       "p": "¿Cuándo se agrava la estafa por la cuantía?",
       "r": "Más de **50.000 euros**: 1 a 6 años y multa de 6 a 12 meses (art. 250.1.5.º). Más de **250.000 euros**: 4 a 8 años (art. 250.2)."
     },
     {
+      "id": "t_18_18",
       "p": "¿Qué distingue la apropiación indebida?",
       "r": "La cosa se recibió legítimamente (depósito, comisión, custodia u otro título con obligación de devolver) y se apropia o niega haberla recibido; penas de la estafa (art. 253)."
     },
     {
+      "id": "t_18_19",
       "p": "¿Pena de apropiarse de una cosa mueble ajena fuera del art. 253?",
       "r": "Multa de **3 a 6 meses** (art. 254.1); hasta 400 euros, multa de 1 a 2 meses."
     },
     {
+      "id": "t_18_20",
       "p": "¿Pena de la defraudación de fluido eléctrico?",
       "r": "Multa de **3 a 12 meses** (art. 255.1); hasta 400 euros, multa de 1 a 3 meses; exige dolo."
     },
     {
+      "id": "t_18_21",
       "p": "¿Qué parientes quedan exentos de responsabilidad criminal en delitos patrimoniales?",
       "r": "Cónyuges no separados, ascendientes, descendientes y hermanos, y afines en primer grado si viven juntos, sin violencia, intimidación ni abuso de vulnerabilidad (art. 268)."
     },
     {
+      "id": "t_18_22",
       "p": "¿En qué delitos patrimoniales se castigan provocación, conspiración y proposición?",
       "r": "Robo, extorsión, estafa y apropiación indebida, con pena inferior en uno o dos grados (art. 269)."
     }
   ],
   "preguntas": [
     {
+      "id": "q_18_01",
       "enunciado": "El hurto de cosas muebles ajenas cuya cuantía excede de 400 euros, sin circunstancias agravantes, se castiga con:",
       "opciones": [
         "Prisión de 6 a 18 meses",
@@ -469,6 +492,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_18_02",
       "enunciado": "Una persona sustrae del bolso de otra, sin violencia, un teléfono móvil valorado en 200 euros. ¿Cuál es el encaje y la pena?",
       "opciones": [
         "Delito leve de hurto, con multa de 1 a 3 meses, porque no supera los 400 euros",
@@ -481,6 +505,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_18_03",
       "enunciado": "Un cliente sustrae, sin fuerza ni violencia, un teléfono móvil de 700 euros que estaba en exposición en el expositor de una tienda de telefonía. ¿Qué pena corresponde?",
       "opciones": [
         "Prisión de 1 a 3 años, por hurto agravado de teléfono móvil",
@@ -493,6 +518,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_18_04",
       "enunciado": "Tras la LO 1/2026, ¿qué pena corresponde al hurto de 150 euros cometido por quien ha sido condenado ejecutoriamente (sin antecedentes cancelados) por tres delitos de la misma naturaleza comprendidos en el Título XIII, siendo al menos uno de ellos leve?",
       "opciones": [
         "Multa de 1 a 3 meses",
@@ -505,6 +531,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_18_05",
       "enunciado": "¿Cuál de las siguientes NO figura entre los supuestos de hurto agravado del art. 235.1 del Código Penal?",
       "opciones": [
         "Que el hurto se cometa empleando violencia o intimidación sobre las personas",
@@ -517,6 +544,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_18_06",
       "enunciado": "En un vagón del metro, aprovechando un descuido, A saca la cartera del bolsillo abierto de B sin forzar nada ni emplear violencia. ¿Qué delito comete?",
       "opciones": [
         "Robo con violencia en las personas",
@@ -529,6 +557,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_18_07",
       "enunciado": "Un sujeto encuentra unas llaves que su dueño había perdido, las utiliza para abrir el taller de este (que no es casa habitada ni local abierto al público) y se lleva herramientas. ¿Qué delito comete?",
       "opciones": [
         "Hurto, porque las llaves eran legítimas",
@@ -541,6 +570,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_18_08",
       "enunciado": "Un sujeto entra en un trastero que estaba abierto, se lleva un baúl cerrado con candado y, ya en su casa, rompe el candado para sacar el contenido. ¿Cómo se califica?",
       "opciones": [
         "Robo con fuerza en las cosas, por fractura de un objeto cerrado fuera del lugar del robo",
@@ -553,6 +583,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_18_09",
       "enunciado": "El robo con fuerza en las cosas cometido en casa habitada, edificio o local abiertos al público, o en cualquiera de sus dependencias, se castiga (art. 241.1 del Código Penal) con prisión de:",
       "opciones": [
         "1 a 3 años",
@@ -565,6 +596,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_18_10",
       "enunciado": "En el robo con violencia o intimidación en las personas, si el delincuente hace uso de armas u otros medios igualmente peligrosos, las penas (art. 242.3 del Código Penal) se imponen:",
       "opciones": [
         "En su mitad superior",
@@ -577,6 +609,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_18_11",
       "enunciado": "Un individuo, apuntando con una pistola a un empresario, le obliga a firmar un contrato de venta de su finca por un precio irrisorio. ¿Qué delito comete?",
       "opciones": [
         "Robo con intimidación",
@@ -589,6 +622,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_18_12",
       "enunciado": "En el hurto de uso de vehículos (art. 244 del Código Penal), quien sustrae sin ánimo de apropiárselo un vehículo a motor ajeno recibe la pena atenuada propia de esa figura si lo restituye en un plazo no superior a:",
       "opciones": [
         "24 horas",
@@ -601,6 +635,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_18_13",
       "enunciado": "Pedro toma sin permiso el coche de un vecino para dar una vuelta, sin ánimo de quedarse con él, y lo devuelve tres días después. ¿Cómo se castiga?",
       "opciones": [
         "Como hurto y robo de uso, con trabajos en beneficio de la comunidad o multa",
@@ -613,6 +648,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_18_14",
       "enunciado": "Un sujeto ocupa, sin violencia ni intimidación, una casa ajena deshabitada que no constituye morada de nadie. ¿Qué pena prevé el art. 245.2 del Código Penal?",
       "opciones": [
         "Prisión de 1 a 2 años",
@@ -625,6 +661,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_18_15",
       "enunciado": "Quien, sin estar autorizado, distrae las aguas de uso público de su curso o de su embalse natural o artificial, comete un delito castigado (art. 247.1 del Código Penal) con:",
       "opciones": [
         "Multa de 3 a 6 meses",
@@ -637,6 +674,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_18_16",
       "enunciado": "Una persona, simulando ser gestor de una inversión inexistente, convence a otra para que le entregue 5.000 euros. ¿Qué delito comete?",
       "opciones": [
         "Apropiación indebida",
@@ -649,6 +687,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_18_17",
       "enunciado": "Quien, sin autorización de su titular, utiliza de forma fraudulenta una tarjeta de débito ajena para realizar operaciones en perjuicio de este comete, según el art. 249.1 del Código Penal:",
       "opciones": [
         "Estafa",
@@ -661,6 +700,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_18_18",
       "enunciado": "La estafa se castiga con prisión de 1 a 6 años y multa de 6 a 12 meses, entre otros supuestos, cuando el valor de la defraudación supere:",
       "opciones": [
         "30.000 euros",
@@ -673,6 +713,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_18_19",
       "enunciado": "Marcos presta su coche a un amigo para el fin de semana y este, al llegar el lunes, se niega a devolverlo y lo vende. ¿Qué delito comete el amigo?",
       "opciones": [
         "Apropiación indebida",
@@ -685,6 +726,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_18_20",
       "enunciado": "Laura encuentra un reloj perdido en la calle y se lo queda. Fuera de los supuestos de apropiación indebida del art. 253, ¿qué pena prevé el art. 254.1 del Código Penal para quien se apropia de una cosa mueble ajena?",
       "opciones": [
         "Prisión de 6 meses a 3 años",
@@ -697,6 +739,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_18_21",
       "enunciado": "Quien altera maliciosamente el contador de electricidad para consumir energía sin pagarla comete defraudación de fluido eléctrico (art. 255 del Código Penal), castigada con:",
       "opciones": [
         "Prisión de 6 a 18 meses",
@@ -709,6 +752,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_18_22",
       "enunciado": "Un hijo mayor de edad sustrae sin violencia ni intimidación 2.000 euros de la cartera de su madre. ¿Cuál es la consecuencia penal según el art. 268 del Código Penal?",
       "opciones": [
         "Hurto con la atenuante mixta de parentesco, en la mitad inferior de la pena",
@@ -721,6 +765,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_18_23",
       "enunciado": "Según el art. 269 del Código Penal, la provocación, la conspiración y la proposición se castigan, entre otros, en los delitos de:",
       "opciones": [
         "Hurto y usurpación",
@@ -733,6 +778,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_18_24",
       "enunciado": "Tras la LO 1/2026, el hurto de productos agrarios o ganaderos, o de los instrumentos para obtenerlos, cometido en explotaciones agrícolas o ganaderas se agrava (art. 235.1.4.º del Código Penal) cuando el valor de lo sustraído:",
       "opciones": [
         "Excede de 400 euros",

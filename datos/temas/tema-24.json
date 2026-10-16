@@ -18,7 +18,7 @@
       "nombre": "Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social (arts. 156 a 158)",
       "boe": "BOE-A-2015-11724",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
-      "verificado": "Texto consolidado, actualización de 05/10/2026 (leídos los arts. 156 a 158 el 16/10/2026)"
+      "verificado": "Texto consolidado, actualización de 05/10/2026 (leídos los arts. 156 a 158 el 16/10/2026, con la versión vigente y la que entra en vigor el 23/10/2026; no cambian)"
     },
     {
       "nombre": "Constitución de la Organización Mundial de la Salud (adoptada el 22/07/1946, en vigor desde el 7/04/1948), definición de salud",
@@ -27,7 +27,8 @@
     }
   ],
   "novedades": [
-    "La Ley 1/2026, de 8 de abril, retocó el art. 7.1.a de la Ley 31/1995 (actuaciones de las Administraciones laborales); no cambia ninguna definición ni principio de este tema."
+    "La Ley 1/2026, de 8 de abril, retocó el art. 7.1.a de la Ley 31/1995 (actuaciones de las Administraciones laborales); no cambia ninguna definición ni principio de este tema.",
+    "Ley 4/2026, de 1 de octubre (en vigor desde el 23/10/2026): de la Ley General de la Seguridad Social solo modifica el art. 190 (nuevo apartado 5: la asistencia del menor al centro educativo no impide la prestación por cuidado de menores afectados por cáncer u otra enfermedad grave) y el art. 363 (rentas computables en la pensión de incapacidad no contributiva). No cambian los arts. 156 a 158 (accidente de trabajo, enfermedad profesional y accidente no laboral) ni ningún otro contenido de este tema."
   ],
   "clave": [
     "**Riesgo laboral** (art. 4.2): la **posibilidad** de que un trabajador sufra un determinado **daño derivado del trabajo**; su gravedad se valora por la **probabilidad** de que ocurra el daño y su **severidad**, conjuntamente.",
@@ -150,72 +151,89 @@
   ],
   "tarjetas": [
     {
+      "id": "t_24_01",
       "p": "¿Cómo define el art. 4 de la Ley 31/1995 el riesgo laboral?",
       "r": "La **posibilidad** de que un trabajador sufra un determinado **daño derivado del trabajo**; la gravedad se valora por probabilidad y severidad."
     },
     {
+      "id": "t_24_02",
       "p": "¿Cómo se valora la gravedad de un riesgo laboral?",
       "r": "Conjuntamente por la **probabilidad** de que se produzca el daño y la **severidad** del mismo."
     },
     {
+      "id": "t_24_03",
       "p": "¿Qué es la prevención según el art. 4?",
       "r": "El conjunto de actividades o medidas adoptadas o previstas en **todas las fases** de actividad de la empresa para **evitar o disminuir** los riesgos derivados del trabajo."
     },
     {
+      "id": "t_24_04",
       "p": "¿Qué son los daños derivados del trabajo?",
       "r": "Las enfermedades, patologías o lesiones sufridas **con motivo u ocasión del trabajo** (art. 4.3)."
     },
     {
+      "id": "t_24_05",
       "p": "¿Qué es una condición de trabajo?",
       "r": "Cualquier característica del trabajo que pueda tener una influencia **significativa** en la generación de riesgos (art. 4.7), incluida su organización y ordenación."
     },
     {
+      "id": "t_24_06",
       "p": "¿Qué es un riesgo laboral grave e inminente?",
       "r": "El que resulte **probable racionalmente** que se materialice en un **futuro inmediato** y pueda suponer un daño grave para la salud (art. 4.4)."
     },
     {
+      "id": "t_24_07",
       "p": "¿Qué es un equipo de protección individual (EPI)?",
       "r": "Cualquier equipo destinado a ser llevado o sujetado por el trabajador para protegerle de uno o varios riesgos, y sus complementos o accesorios (art. 4.8)."
     },
     {
+      "id": "t_24_08",
       "p": "¿Cómo define la OMS la salud?",
       "r": "Un estado de completo **bienestar físico, mental y social**, y no solamente la ausencia de afecciones o enfermedades."
     },
     {
+      "id": "t_24_09",
       "p": "¿Cuántos principios de la acción preventiva enumera el art. 15.1?",
       "r": "**Nueve**, de la letra a a la i."
     },
     {
+      "id": "t_24_10",
       "p": "¿Qué protección tiene prioridad según el art. 15.1.h?",
       "r": "La **colectiva** sobre la individual."
     },
     {
+      "id": "t_24_11",
       "p": "¿Qué riesgos se evalúan según el art. 15.1.b?",
       "r": "Los que **no se puedan evitar**."
     },
     {
+      "id": "t_24_12",
       "p": "¿Qué abarca adaptar el trabajo a la persona (art. 15.1.d)?",
       "r": "La concepción de los puestos, la elección de equipos y métodos de trabajo y de producción, para atenuar el trabajo monótono y repetitivo y reducir sus efectos en la salud."
     },
     {
+      "id": "t_24_13",
       "p": "¿Quién tiene el deber de protección frente a los riesgos laborales (art. 14)?",
       "r": "El **empresario** y también las **Administraciones públicas** respecto del personal a su servicio."
     },
     {
+      "id": "t_24_14",
       "p": "¿Quién soporta el coste de las medidas de seguridad y salud en el trabajo?",
       "r": "**No debe recaer sobre los trabajadores** en modo alguno (art. 14.5)."
     },
     {
+      "id": "t_24_15",
       "p": "¿Qué es un accidente de trabajo según la LGSS (art. 156)?",
       "r": "Toda **lesión corporal** que el trabajador sufra con ocasión o por consecuencia del trabajo por cuenta ajena; incluye el ocurrido al ir o volver del trabajo."
     },
     {
+      "id": "t_24_16",
       "p": "¿Qué es una enfermedad profesional según la LGSS (art. 157)?",
       "r": "La contraída a consecuencia del trabajo por cuenta ajena en las actividades del **cuadro oficial** y provocada por los elementos o sustancias que el cuadro indica."
     }
   ],
   "preguntas": [
     {
+      "id": "q_24_01",
       "enunciado": "Según el art. 4 de la Ley 31/1995, de Prevención de Riesgos Laborales, ¿qué se entiende por «riesgo laboral»?",
       "opciones": [
         "La posibilidad de que un trabajador sufra un determinado daño derivado del trabajo",
@@ -228,6 +246,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_24_02",
       "enunciado": "Para calificar un riesgo laboral desde el punto de vista de su gravedad, el art. 4 de la Ley 31/1995 establece que se valoran conjuntamente:",
       "opciones": [
         "La antigüedad del trabajador y la duración de su exposición",
@@ -240,6 +259,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_24_03",
       "enunciado": "Entre los principios de la acción preventiva del art. 15.1 de la Ley 31/1995 se encuentra:",
       "opciones": [
         "Adoptar medidas que antepongan la protección individual a la colectiva",
@@ -252,6 +272,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_24_04",
       "enunciado": "El principio de la acción preventiva de «adaptar el trabajo a la persona» se refiere, en particular, a:",
       "opciones": [
         "La concepción de los puestos de trabajo y la elección de los equipos y métodos de trabajo y de producción, para atenuar el trabajo monótono y repetitivo",
@@ -264,6 +285,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_24_05",
       "enunciado": "Según los principios de la acción preventiva (art. 15.1 de la Ley 31/1995), el empresario debe evaluar:",
       "opciones": [
         "Todos los riesgos, sean o no evitables",
@@ -276,6 +298,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_24_06",
       "enunciado": "Señale la afirmación INCORRECTA sobre la «condición de trabajo» del art. 4 de la Ley 31/1995:",
       "opciones": [
         "Es cualquier característica del trabajo que pueda tener una influencia significativa en la generación de riesgos para la seguridad y la salud",
@@ -288,6 +311,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_24_07",
       "enunciado": "Según el art. 4 de la Ley 31/1995, se consideran «daños derivados del trabajo»:",
       "opciones": [
         "Únicamente las enfermedades profesionales incluidas en el cuadro oficial",
@@ -300,6 +324,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_24_08",
       "enunciado": "Se entiende por «riesgo laboral grave e inminente», según la Ley 31/1995, aquel que:",
       "opciones": [
         "Sea posible que se materialice en algún momento de la vida laboral del trabajador",
@@ -312,6 +337,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_24_09",
       "enunciado": "Según la Organización Mundial de la Salud, la salud es:",
       "opciones": [
         "Un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades",
@@ -324,6 +350,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_24_10",
       "enunciado": "Según el art. 4 de la Ley 31/1995, la «prevención» es el conjunto de actividades o medidas adoptadas o previstas en todas las fases de actividad de la empresa con el fin de:",
       "opciones": [
         "Eliminar por completo todos los riesgos derivados del trabajo",
@@ -336,6 +363,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_24_11",
       "enunciado": "Según el art. 14.5 de la Ley 31/1995, el coste de las medidas relativas a la seguridad y la salud en el trabajo:",
       "opciones": [
         "Se reparte por mitades entre el empresario y el trabajador cuando la medida es de protección individual",
@@ -348,6 +376,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_24_12",
       "enunciado": "El deber de protección de los trabajadores frente a los riesgos laborales, además de ser un deber del empresario, es también un deber de:",
       "opciones": [
         "Las Administraciones públicas respecto del personal a su servicio",
@@ -360,6 +389,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_24_13",
       "enunciado": "Según el art. 156 de la Ley General de la Seguridad Social, se entiende por accidente de trabajo:",
       "opciones": [
         "Toda lesión que cause una incapacidad laboral superior a un día de trabajo",
@@ -372,6 +402,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_24_14",
       "enunciado": "Un trabajador sufre una caída en la vía pública cuando se dirigía desde su domicilio a su puesto de trabajo. Según la Ley General de la Seguridad Social, ese accidente:",
       "opciones": [
         "Es un accidente no laboral, porque ocurre fuera del centro de trabajo",
@@ -384,6 +415,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_24_15",
       "enunciado": "No tienen la consideración de accidente de trabajo, según el art. 156.4 de la Ley General de la Seguridad Social:",
       "opciones": [
         "Los debidos a dolo o a imprudencia temeraria del trabajador accidentado",
@@ -396,6 +428,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_24_16",
       "enunciado": "Según el art. 157 de la Ley General de la Seguridad Social, se entiende por enfermedad profesional la:",
       "opciones": [
         "Que el trabajador contrae en el centro de trabajo, aunque su causa sea ajena al trabajo",
@@ -408,6 +441,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_24_17",
       "enunciado": "Según el art. 15.4 de la Ley 31/1995, la efectividad de las medidas preventivas deberá prever:",
       "opciones": [
         "Únicamente las imprudencias temerarias que pudiera cometer el trabajador",

@@ -224,88 +224,109 @@
   ],
   "tarjetas": [
     {
+      "id": "t_25_01",
       "p": "¿Se aplica la Ley 31/1995 a la Policía?",
       "r": "No cuando las particularidades de sus funciones lo impidan (art. 3.2), pero **inspira** su normativa específica: el **RD 2/2006** para el CNP."
     },
     {
+      "id": "t_25_02",
       "p": "¿Qué derechos integran el derecho a una protección eficaz (art. 14)?",
       "r": "Información, consulta y participación; formación; paralización de la actividad ante riesgo grave e inminente; vigilancia de la salud."
     },
     {
+      "id": "t_25_03",
       "p": "¿Cómo se designan los Delegados de Prevención (Ley 31/1995, art. 35)?",
       "r": "Por y entre los representantes del personal, según una escala de 2 (50-100 trabajadores) a 8 (más de 4.000)."
     },
     {
+      "id": "t_25_04",
       "p": "¿A partir de cuántos trabajadores se constituye un Comité de Seguridad y Salud?",
       "r": "**50 o más** (art. 38). Es paritario y colegiado, y se reúne **trimestralmente**."
     },
     {
+      "id": "t_25_05",
       "p": "¿Cuánto tiene la autoridad laboral para anular o ratificar una paralización acordada por los representantes (art. 21.3)?",
       "r": "**24 horas**."
     },
     {
+      "id": "t_25_06",
       "p": "¿Cuándo es obligatorio el servicio de prevención propio (RD 39/1997, art. 14)?",
       "r": "Con **más de 500 trabajadores**, con **250 a 500** si hay actividades del anexo I, o por decisión de la autoridad laboral."
     },
     {
+      "id": "t_25_07",
       "p": "¿Cuántas especialidades mínimas tiene un servicio propio, uno mancomunado y uno ajeno?",
       "r": "**2**, **3** y **4** (medicina del trabajo, seguridad, higiene industrial y ergonomía y psicosociología aplicada)."
     },
     {
+      "id": "t_25_08",
       "p": "¿Cada cuánto se repiten las auditorías del RD 39/1997?",
       "r": "Cada **4 años**, o cada **2** si hay actividades del anexo I; la primera, en los 12 meses siguientes a la planificación."
     },
     {
+      "id": "t_25_09",
       "p": "¿A quién se aplica el RD 2/2006 (art. 2)?",
       "r": "A los funcionarios del **CNP** en los órganos **centrales y periféricos** dependientes de la **Dirección General de la Policía**."
     },
     {
+      "id": "t_25_10",
       "p": "¿Cómo son los reconocimientos médicos en el CNP (art. 10 RD 2/2006)?",
       "r": "**Voluntarios**, salvo norma en contra o patologías que puedan causar grave riesgo a los funcionarios o a los ciudadanos (entonces obligatorios, informando a los representantes)."
     },
     {
+      "id": "t_25_11",
       "p": "¿Qué conoce la DGP de los reconocimientos médicos?",
       "r": "Las **conclusiones** sobre aptitud para el puesto y sobre la necesidad de mejorar las medidas preventivas, a través del Servicio de Prevención."
     },
     {
+      "id": "t_25_12",
       "p": "¿Quién designa a los delegados de prevención del CNP?",
       "r": "Los **sindicatos con representación en el Consejo de Policía**, entre funcionarios del CNP en activo o segunda actividad (art. 14)."
     },
     {
+      "id": "t_25_13",
       "p": "¿Qué es la Comisión de seguridad y salud laboral policial y cada cuánto se reúne?",
       "r": "Órgano **nacional**, paritario y colegiado de participación de los funcionarios del CNP; al menos **cada semestre** (arts. 15 y 17)."
     },
     {
+      "id": "t_25_14",
       "p": "¿Dónde se constituyen los Comités de seguridad y salud del CNP y cada cuánto se reúnen?",
       "r": "En cada **Jefatura Superior de Policía** y en el conjunto de los **servicios centrales** de la DGP; **cada trimestre** (arts. 16 y 17)."
     },
     {
+      "id": "t_25_15",
       "p": "¿Cómo es el Servicio de Prevención del CNP (art. 18)?",
       "r": "**Propio**, de **ámbito nacional**, en la **Subdirección General de Gestión y Recursos Humanos** de la DGP."
     },
     {
+      "id": "t_25_16",
       "p": "¿Cada cuánto se evalúa el sistema de prevención del CNP y quién lo hace (art. 19)?",
       "r": "**Cada cinco años**, por la **Inspección de Personal y Servicios de Seguridad** de la Secretaría de Estado de Seguridad."
     },
     {
+      "id": "t_25_17",
       "p": "¿Cada cuánto se revisa la evaluación de riesgos en el CNP (art. 5.2)?",
       "r": "**Cada cuatro años** y, en todo caso, si hay daños para la salud, equipos nuevos con riesgos no contemplados o inadecuación."
     },
     {
+      "id": "t_25_18",
       "p": "¿Cuál es el órgano específico de participación y negociación sindical en PRL en la AGE (RD 67/2010, art. 4.2)?",
       "r": "La **Comisión Técnica de Prevención de Riesgos Laborales**, dependiente de la Mesa General de Negociación de la AGE."
     },
     {
+      "id": "t_25_19",
       "p": "¿Qué modalidad preventiva tiene prioridad en la AGE (RD 67/2010, art. 7.2)?",
       "r": "El **servicio de prevención propio**, contratando temporalmente las actividades de gran complejidad técnica."
     },
     {
+      "id": "t_25_20",
       "p": "¿Qué es el INSHT (Ley 31/1995, art. 8) y cómo se llama hoy?",
       "r": "El órgano científico técnico especializado de la AGE para el análisis y estudio de las condiciones de seguridad y salud; hoy, **INSST**."
     }
   ],
   "preguntas": [
     {
+      "id": "q_25_01",
       "enunciado": "Según su art. 2, el Real Decreto 2/2006, sobre prevención de riesgos laborales en la actividad de los funcionarios del Cuerpo Nacional de Policía, es de aplicación:",
       "opciones": [
         "A los funcionarios del CNP que presten servicios tanto en los órganos centrales como periféricos dependientes de la Dirección General de la Policía",
@@ -318,6 +339,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_25_02",
       "enunciado": "Según el RD 2/2006, los reconocimientos médicos a los funcionarios del Cuerpo Nacional de Policía son:",
       "opciones": [
         "Obligatorios en todo caso, dada la naturaleza de la función policial",
@@ -330,6 +352,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_25_03",
       "enunciado": "De los reconocimientos médicos realizados a los funcionarios del CNP, los responsables de la Dirección General de la Policía, a través del Servicio de Prevención de Riesgos Laborales, conocen:",
       "opciones": [
         "El historial clínico completo del funcionario, para decidir sobre sus destinos y ascensos",
@@ -342,6 +365,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_25_04",
       "enunciado": "Según el RD 2/2006, el sistema de prevención de riesgos del Cuerpo Nacional de Policía se somete a control periódico mediante auditorías y evaluaciones realizadas:",
       "opciones": [
         "Cada cinco años por la Inspección de Personal y Servicios de Seguridad de la Secretaría de Estado de Seguridad",
@@ -354,6 +378,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_25_05",
       "enunciado": "Según el art. 5.2 del RD 2/2006, la revisión y actualización de la evaluación de riesgos laborales de los funcionarios del CNP se realiza, además de cuando haya daños para la salud, equipos nuevos con riesgos no contemplados o inadecuación de la protección:",
       "opciones": [
         "Cada cinco años",
@@ -366,6 +391,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_25_06",
       "enunciado": "Según el RD 2/2006, la Comisión de seguridad y salud laboral policial es:",
       "opciones": [
         "Un órgano provincial de la Inspección de Personal y Servicios de Seguridad que audita el sistema de prevención",
@@ -378,6 +404,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_25_07",
       "enunciado": "Según el RD 2/2006, los Comités de seguridad y salud del Cuerpo Nacional de Policía se constituyen:",
       "opciones": [
         "En cada Jefatura Superior de Policía y en el conjunto de los servicios centrales de la Dirección General de la Policía",
@@ -390,6 +417,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_25_08",
       "enunciado": "¿Con qué periodicidad mínima se reúnen, según el RD 2/2006, la Comisión de seguridad y salud laboral policial y los Comités de seguridad y salud?",
       "opciones": [
         "La Comisión cada trimestre y los Comités cada semestre",
@@ -402,6 +430,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_25_09",
       "enunciado": "Según el RD 2/2006, los delegados de prevención del Cuerpo Nacional de Policía son:",
       "opciones": [
         "Designados por el Director General de la Policía entre los mandos de cada Jefatura Superior",
@@ -414,6 +443,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_25_10",
       "enunciado": "Según el RD 2/2006, el Servicio de Prevención de la Dirección General de la Policía es:",
       "opciones": [
         "Un servicio propio, de ámbito nacional, constituido en la Subdirección General de Gestión y Recursos Humanos de la Dirección General de la Policía",
@@ -426,6 +456,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_25_11",
       "enunciado": "¿Cuál de las siguientes funciones públicas NO figura entre las que el art. 3.2 de la Ley 31/1995 excluye de su aplicación cuando sus particularidades lo impidan?",
       "opciones": [
         "Policía, seguridad y resguardo aduanero",
@@ -438,6 +469,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_25_12",
       "enunciado": "Según el art. 14 del Reglamento de los Servicios de Prevención (RD 39/1997), el empresario debe constituir un servicio de prevención propio cuando:",
       "opciones": [
         "Tenga más de 250 trabajadores, sea cual sea su actividad",
@@ -450,6 +482,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_25_13",
       "enunciado": "Una empresa de 260 trabajadores, que no desarrolla actividades del anexo I del RD 39/1997, ¿está obligada a constituir un servicio de prevención propio?",
       "opciones": [
         "No, salvo que la autoridad laboral lo decida en función de la peligrosidad de la actividad o de la siniestralidad, y aun así puede optar por concertar con un servicio ajeno",
@@ -462,6 +495,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_25_14",
       "enunciado": "Según el art. 38 de la Ley 31/1995, se constituirá un Comité de Seguridad y Salud en todas las empresas o centros de trabajo que cuenten con:",
       "opciones": [
         "30 o más trabajadores",
@@ -474,6 +508,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_25_15",
       "enunciado": "Con arreglo a la escala del art. 35 de la Ley 31/1995, ¿cuántos Delegados de Prevención corresponden a una empresa de 800 trabajadores?",
       "opciones": [
         "Tres",
@@ -486,6 +521,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_25_16",
       "enunciado": "Si los representantes legales de los trabajadores acuerdan por mayoría la paralización de la actividad ante un riesgo grave e inminente, la autoridad laboral, a la que se comunica de inmediato, la anulará o ratificará en el plazo de:",
       "opciones": [
         "Veinticuatro horas",
@@ -498,6 +534,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_25_17",
       "enunciado": "Señale la afirmación INCORRECTA sobre la vigilancia de la salud en el art. 22 de la Ley 31/1995:",
       "opciones": [
         "Solo puede llevarse a cabo con el consentimiento del trabajador, salvo las excepciones legales, que requieren informe previo de los representantes de los trabajadores",
@@ -510,6 +547,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_25_18",
       "enunciado": "En la Administración General del Estado, ¿qué órgano es el específico de participación y negociación de las organizaciones sindicales en materia de prevención de riesgos laborales, según el RD 67/2010?",
       "opciones": [
         "La Comisión Nacional de Seguridad y Salud en el Trabajo",
@@ -522,6 +560,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_25_19",
       "enunciado": "Con carácter general, el RD 67/2010 da prioridad en la Administración General del Estado a:",
       "opciones": [
         "La contratación de servicios de prevención ajenos para todas las actividades preventivas",
@@ -534,6 +573,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_25_20",
       "enunciado": "Según el art. 8 de la Ley 31/1995, el Instituto Nacional de Seguridad e Higiene en el Trabajo es:",
       "opciones": [
         "El órgano que ordena la paralización inmediata de trabajos cuando advierte un riesgo grave e inminente",
@@ -546,6 +586,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_25_21",
       "enunciado": "Las auditorías del sistema de prevención previstas en el Reglamento de los Servicios de Prevención (RD 39/1997) deben repetirse, con carácter general, cada:",
       "opciones": [
         "Cuatro años, o cada dos años si se realizan actividades del anexo I",

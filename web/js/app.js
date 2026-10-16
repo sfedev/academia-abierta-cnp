@@ -15,8 +15,16 @@
     ["progreso", "Progreso"],
   ];
   var VALIDAS = NAV.map(function (n) { return n[0]; });
+  /* Movil: barra inferior con las cuatro secciones de estudio y un panel «Mas» con el resto. */
+  var TABS = [
+    ["panel", "Panel", '<rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/>'],
+    ["temario", "Temario", '<path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17H6.5A2.5 2.5 0 0 0 4 21.5z"/><path d="M9 7h6"/>'],
+    ["test", "Tests", '<circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/>'],
+    ["tarjetas", "Tarjetas", '<rect x="3" y="8" width="14" height="12" rx="2"/><path d="M7 8V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-2"/>'],
+  ];
+  var MAS = ["novedades", "fisicas", "proceso", "progreso"];
 
-  var host, nav, lastRendered = null;
+  var host, nav, tabbar, hoja, fondoHoja, btnMas, lastRendered = null;
 
   /* ---------- Tema claro / oscuro ---------- */
   var THEME_KEY = "academia-abierta-theme";
@@ -64,12 +72,43 @@
     }
     host.textContent = "";
     host.appendChild(vista);
-    nav.querySelectorAll("a").forEach(function (a) {
-      if (a.getAttribute("href") === "#" + activa) a.setAttribute("aria-current", "page");
-      else a.removeAttribute("aria-current");
+    [nav, tabbar, hoja].forEach(function (cont) {
+      if (!cont) return;
+      cont.querySelectorAll("a").forEach(function (a) {
+        if (a.getAttribute("href") === "#" + activa) a.setAttribute("aria-current", "page");
+        else a.removeAttribute("aria-current");
+      });
     });
+    if (btnMas) {
+      if (MAS.indexOf(activa) >= 0) btnMas.setAttribute("aria-current", "page");
+      else btnMas.removeAttribute("aria-current");
+    }
+    cerrarMas();
     window.scrollTo(0, 0);
   }
+
+  /* ---------- Panel «Mas» (movil) e indice flotante de las fichas (tablet y movil) ---------- */
+  function abrirMas() {
+    hoja.classList.add("abierto");
+    fondoHoja.classList.add("abierto");
+    btnMas.setAttribute("aria-expanded", "true");
+  }
+  function cerrarMas() {
+    if (!hoja) return;
+    hoja.classList.remove("abierto");
+    fondoHoja.classList.remove("abierto");
+    btnMas.setAttribute("aria-expanded", "false");
+  }
+  function alternarMas() {
+    if (hoja.classList.contains("abierto")) cerrarMas();
+    else abrirMas();
+  }
+  AA.cerrarToc = function () {
+    var t = document.querySelector(".toc.abierto");
+    if (t) t.classList.remove("abierto");
+    var f = document.querySelector(".toc-fab");
+    if (f) f.setAttribute("aria-expanded", "false");
+  };
 
   AA.go = function (r) {
     if (location.hash !== "#" + r) {
@@ -83,6 +122,9 @@
   });
   // Si el navegador del visor no emite hashchange, la navegación por enlaces sigue funcionando.
   document.addEventListener("click", function (e) {
+    var dentro = e.target.closest ? e.target : null;
+    if (dentro && hoja && hoja.classList.contains("abierto") && !dentro.closest(".sheet") && !dentro.closest("#btn-mas")) cerrarMas();
+    if (dentro && document.querySelector(".toc.abierto") && !dentro.closest(".toc") && !dentro.closest(".toc-fab")) AA.cerrarToc();
     var a = e.target.closest ? e.target.closest("a[href^='#']") : null;
     if (!a || e.defaultPrevented || e.metaKey || e.ctrlKey || e.shiftKey) return;
     var destino = a.getAttribute("href").slice(1);
@@ -172,9 +214,24 @@
     var app = document.getElementById("app");
     nav = h("nav", { class: "nav", "aria-label": "Secciones" }, NAV.map(function (n) {
       var kids = [n[1]];
-      if (n[0] === "novedades") kids.push(h("span", { class: "badge", id: "badge-nov", hidden: true }));
+      if (n[0] === "novedades") kids.push(h("span", { class: "badge badge-nov", hidden: true }));
       return h.apply(null, ["a", { href: "#" + n[0] }].concat(kids));
     }));
+    // Barra inferior (solo se ve en movil, ver app.css)
+    btnMas = h("button", { type: "button", id: "btn-mas", "aria-haspopup": "true", "aria-expanded": "false", "aria-controls": "hoja-mas", onclick: alternarMas,
+      html: svg('<circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/>') + "<span>Más</span>" });
+    btnMas.appendChild(h("span", { class: "badge badge-nov", hidden: true }));
+    tabbar = h("nav", { class: "tabbar", "aria-label": "Navegación principal" },
+      TABS.map(function (t) { return h("a", { href: "#" + t[0], html: svg(t[2]) + "<span>" + t[1] + "</span>" }); }).concat([btnMas]));
+    hoja = h("div", { class: "sheet", id: "hoja-mas", role: "dialog", "aria-label": "Más secciones" },
+      h("div", { class: "eyebrow" }, "Más secciones"),
+      MAS.map(function (r) {
+        var nombre = NAV.filter(function (n) { return n[0] === r; })[0][1];
+        var kids = [h("span", {}, nombre)];
+        if (r === "novedades") kids.push(h("span", { class: "badge badge-nov", hidden: true }));
+        return h.apply(null, ["a", { href: "#" + r }].concat(kids));
+      }));
+    fondoHoja = h("div", { class: "sheet-fondo", onclick: cerrarMas });
     var top = h("header", { class: "top" },
       h("div", { class: "wrap" },
         h("div", { class: "top-row" },
@@ -200,10 +257,13 @@
     app.appendChild(top);
     app.appendChild(h("main", {}, host));
     app.appendChild(pie);
+    app.appendChild(fondoHoja);
+    app.appendChild(hoja);
+    app.appendChild(tabbar);
     app.appendChild(overlay);
 
     document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape") cerrarBuscador();
+      if (e.key === "Escape") { cerrarBuscador(); cerrarMas(); AA.cerrarToc(); }
       var tag = (e.target && e.target.tagName) || "";
       if (e.key === "/" && !/INPUT|TEXTAREA|SELECT/.test(tag) && overlay.hidden) { e.preventDefault(); abrirBuscador(); }
     });
@@ -211,12 +271,12 @@
 
   // Punto de aviso en la pestaña Novedades: cambios legales pendientes que este navegador aún no ha visto.
   AA.actualizarAviso = function () {
-    var b = document.getElementById("badge-nov");
-    if (!b) return;
     var n = AA.novedadesSinVer().length;
-    b.textContent = n;
-    b.hidden = !n;
-    b.setAttribute("title", n + (n === 1 ? " novedad legal sin ver" : " novedades legales sin ver"));
+    document.querySelectorAll(".badge-nov").forEach(function (b) {
+      b.textContent = n;
+      b.hidden = !n;
+      b.setAttribute("title", n + (n === 1 ? " novedad legal sin ver" : " novedades legales sin ver"));
+    });
   };
 
   montar();

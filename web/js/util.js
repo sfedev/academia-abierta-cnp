@@ -62,6 +62,11 @@
   AA.pct = function (a, b) {
     return b ? Math.round((100 * a) / b) : 0;
   };
+  /* Nota del test sobre 10 con la fórmula oficial [A − E/(n−1)] × 10 / P: n = 3 alternativas (cada error resta
+     0,5 aciertos), P = nº de preguntas; las respuestas en blanco no restan. Puede salir negativa (no se recorta aquí). */
+  AA.notaTest = function (aciertos, errores, preguntas) {
+    return preguntas ? ((aciertos - errores / 2) * 10) / preguntas : 0;
+  };
 
   /* Constructor de nodos: h("div", {class:"x", onclick:fn}, hijos…) */
   AA.h = function (tag, attrs) {

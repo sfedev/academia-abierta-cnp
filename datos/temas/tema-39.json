@@ -606,92 +606,114 @@
   ],
   "tarjetas": [
     {
+      "id": "t_39_01",
       "p": "Capas del modelo OSI de la 7 a la 1.",
       "r": "**Aplicación, Presentación, Sesión, Transporte, Red, Enlace de datos y Física** (7 capas)."
     },
     {
+      "id": "t_39_02",
       "p": "Capas del modelo TCP/IP según el RFC 1122.",
       "r": "**4**: Aplicación, Transporte, Internet y Enlace."
     },
     {
+      "id": "t_39_03",
       "p": "¿Qué capa OSI encamina paquetes y qué dispositivo trabaja en ella?",
       "r": "La **capa de red (3)**, con direcciones IP; el **router**. En TCP/IP es la capa de **Internet**."
     },
     {
+      "id": "t_39_04",
       "p": "¿Qué capa OSI usa tramas y direcciones MAC y qué dispositivo trabaja en ella?",
       "r": "La **capa de enlace de datos (2)**; el **switch**."
     },
     {
+      "id": "t_39_05",
       "p": "Diferencias entre TCP y UDP.",
       "r": "**TCP**: orientado a conexión, fiable, 3 pasos (SYN, SYN-ACK, ACK), cabecera de 20 bytes sin opciones. **UDP**: sin conexión, sin garantías, cabecera de 8 bytes."
     },
     {
+      "id": "t_39_06",
       "p": "Hub, switch y router: capa y función.",
       "r": "**Hub**: capa 1, repite por todos los puertos. **Switch**: capa 2, reenvía por MAC. **Router**: capa 3, decide la ruta por IP."
     },
     {
+      "id": "t_39_07",
       "p": "¿Qué hace un servidor DHCP y qué puertos usa?",
       "r": "Asigna dinámicamente IP, máscara, puerta de enlace y DNS. **UDP 67** (servidor) y **UDP 68** (cliente)."
     },
     {
+      "id": "t_39_08",
       "p": "¿Qué es el proceso DORA?",
       "r": "**D**iscover, **O**ffer, **R**equest, **A**cknowledge: los cuatro mensajes con que un cliente obtiene su dirección por DHCP."
     },
     {
+      "id": "t_39_09",
       "p": "¿Qué hace el DNS y en qué puerto trabaja?",
       "r": "Traduce nombres de dominio a direcciones IP. Puerto **53**, con **UDP y TCP**."
     },
     {
+      "id": "t_39_10",
       "p": "Tipos de servidor DNS que se preguntan.",
       "r": "**Primario/maestro**, **secundario/esclavo** (copia la zona del primario) y **caché/local**."
     },
     {
+      "id": "t_39_11",
       "p": "¿Qué es la IANA?",
       "r": "Internet Assigned Numbers Authority: mantiene los registros de identificadores de Internet (zona raíz, direcciones IP y parámetros de protocolos); la opera PTI, filial de ICANN."
     },
     {
+      "id": "t_39_12",
       "p": "Proxy directo frente a proxy inverso.",
       "r": "**Directo**: intermediario que elige el cliente para sus peticiones. **Inverso (gateway)**: de cara al cliente actúa como servidor de origen y reenvía a servidores internos."
     },
     {
+      "id": "t_39_13",
       "p": "Clases de direcciones IPv4 y sus rangos del primer octeto.",
       "r": "**A** 1-126, **B** 128-191, **C** 192-223, **D** 224-239 (multicast), **E** 240-255 (reservada)."
     },
     {
+      "id": "t_39_14",
       "p": "Rangos privados del RFC 1918.",
       "r": "**10.0.0.0/8**, **172.16.0.0/12** (172.16.0.0 a 172.31.255.255) y **192.168.0.0/16**."
     },
     {
+      "id": "t_39_15",
       "p": "¿Cuántos hosts utilizables hay en una subred con n bits de host?",
       "r": "**2^n − 2** (se restan la dirección de red y la de broadcast). Ejemplos: /24 → 254; /26 → 62; /30 → 2."
     },
     {
+      "id": "t_39_16",
       "p": "¿Qué significa recibir una dirección 169.254.x.x?",
       "r": "No se obtuvo configuración por DHCP y el equipo se autoasignó una dirección de **enlace local** (RFC 3927); en Windows, APIPA."
     },
     {
+      "id": "t_39_17",
       "p": "¿Cómo es una dirección IPv6?",
       "r": "**128 bits**, **8 grupos de 16 bits** en hexadecimal separados por «:»; «::» solo una vez. Sin broadcast; cabecera fija de 40 bytes."
     },
     {
+      "id": "t_39_18",
       "p": "Prefijos IPv6 que conviene conocer.",
       "r": "**::1/128** loopback; **fe80::/10** enlace local; **fc00::/7** local única; **ff00::/8** multicast; **2000::/3** unicast global."
     },
     {
+      "id": "t_39_19",
       "p": "Puertos de los protocolos de correo.",
       "r": "**SMTP 25**, **POP3 110**, **IMAP 143**. Con TLS: IMAP 993, POP3 995 y envío de clientes 465 o 587."
     },
     {
+      "id": "t_39_20",
       "p": "Rangos de números de puerto.",
       "r": "**0-1023** bien conocidos; **1024-49151** registrados; **49152-65535** dinámicos o privados (16 bits en total)."
     },
     {
+      "id": "t_39_21",
       "p": "¿Qué diferencias tiene IPv6 frente a IPv4 en fragmentación y resolución de direcciones?",
       "r": "IPv6: solo fragmenta el nodo origen (no los routers) y la resolución la hace **NDP** en lugar de ARP."
     }
   ],
   "preguntas": [
     {
+      "id": "q_39_01",
       "enunciado": "En el modelo OSI, ¿qué capa se encarga del direccionamiento lógico y del encaminamiento de los paquetes entre redes?",
       "opciones": [
         "Enlace de datos",
@@ -704,6 +726,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_39_02",
       "enunciado": "Señale la afirmación INCORRECTA sobre el modelo TCP/IP tal como lo describe el RFC 1122:",
       "opciones": [
         "Consta de cuatro capas: aplicación, transporte, internet y enlace.",
@@ -716,6 +739,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_39_03",
       "enunciado": "¿Qué puertos utiliza el protocolo DHCP?",
       "opciones": [
         "UDP 67 (servidor) y UDP 68 (cliente).",
@@ -728,6 +752,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_39_04",
       "enunciado": "¿En qué orden se intercambian los mensajes cuando un cliente obtiene una dirección mediante DHCP (proceso DORA)?",
       "opciones": [
         "Request, Offer, Discover, Acknowledge.",
@@ -740,6 +765,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_39_05",
       "enunciado": "¿Cuál de las siguientes parejas de protocolo y puerto por defecto es correcta?",
       "opciones": [
         "SSH: puerto 22.",
@@ -752,6 +778,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_39_06",
       "enunciado": "Una dirección IPv6 se compone de…",
       "opciones": [
         "128 bits, escritos como 4 octetos decimales separados por puntos.",
@@ -764,6 +791,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_39_07",
       "enunciado": "¿Cuál de las siguientes formas de escribir una dirección IPv6 es INVÁLIDA?",
       "opciones": [
         "2001:db8::1",
@@ -776,6 +804,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_39_08",
       "enunciado": "¿Cuál de las siguientes direcciones IPv4 pertenece a un rango privado según el RFC 1918?",
       "opciones": [
         "172.20.4.7",
@@ -788,6 +817,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_39_09",
       "enunciado": "¿Cuántos equipos (hosts) utilizables admite una subred con la máscara 255.255.255.192 (/26)?",
       "opciones": [
         "64",
@@ -800,6 +830,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_39_10",
       "enunciado": "Un equipo recién conectado a la red muestra la dirección 169.254.23.8 sin que nadie la haya configurado. ¿Qué indica esa dirección?",
       "opciones": [
         "Ha obtenido una dirección pública de su proveedor de acceso.",
@@ -812,6 +843,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_39_11",
       "enunciado": "En el direccionamiento IPv4 con clases, una dirección con primer octeto 150 (por ejemplo, 150.20.5.1) pertenece a la…",
       "opciones": [
         "Clase B, con máscara por defecto 255.255.0.0.",
@@ -824,6 +856,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_39_12",
       "enunciado": "¿Qué rango de direcciones IPv4 corresponde a la clase D, reservada para multicast?",
       "opciones": [
         "De 192.0.0.0 a 223.255.255.255.",
@@ -836,6 +869,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_39_13",
       "enunciado": "Señale la afirmación INCORRECTA sobre dispositivos de red:",
       "opciones": [
         "Un concentrador (hub) opera en la capa física y repite la señal que recibe por todos sus demás puertos.",
@@ -848,6 +882,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_39_14",
       "enunciado": "Según el RFC 9110, ¿qué es un proxy inverso (gateway)?",
       "opciones": [
         "Un intermediario que, de cara al cliente, actúa como servidor de origen y reenvía las peticiones a otros servidores.",
@@ -860,6 +895,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_39_15",
       "enunciado": "¿Qué tipo de registro DNS asocia un nombre de dominio con una dirección IPv6?",
       "opciones": [
         "A",
@@ -872,6 +908,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_39_16",
       "enunciado": "El servicio DNS escucha por defecto en el puerto 53. ¿Con qué protocolos de transporte?",
       "opciones": [
         "Solo con UDP.",
@@ -884,6 +921,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_39_17",
       "enunciado": "En DNS, ¿qué caracteriza al servidor secundario (esclavo) de una zona?",
       "opciones": [
         "Obtiene una copia de la zona del servidor primario (maestro) mediante transferencia de zona.",
@@ -896,6 +934,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_39_18",
       "enunciado": "La dirección 192.168.10.77/27 pertenece a una subred cuya dirección de broadcast es…",
       "opciones": [
         "192.168.10.127",
@@ -908,6 +947,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_39_19",
       "enunciado": "¿Qué secuencia de segmentos establece una conexión TCP?",
       "opciones": [
         "SYN, ACK, FIN.",
@@ -920,6 +960,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_39_20",
       "enunciado": "La cabecera del protocolo UDP tiene un tamaño fijo de…",
       "opciones": [
         "8 bytes.",
@@ -932,6 +973,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_39_21",
       "enunciado": "Señale la afirmación correcta sobre IPv6:",
       "opciones": [
         "Mantiene las direcciones de broadcast para comunicarse con todos los equipos de la red.",
@@ -944,6 +986,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_39_22",
       "enunciado": "¿Qué capa del modelo OSI proporciona comunicación extremo a extremo entre procesos de aplicación mediante números de puerto?",
       "opciones": [
         "Sesión",

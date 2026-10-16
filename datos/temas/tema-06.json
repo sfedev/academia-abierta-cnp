@@ -12,12 +12,13 @@
       "nombre": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público (TREBEP)",
       "boe": "BOE-A-2015-11719",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
-      "verificado": "Texto consolidado, última actualización de la consolidación: 14/10/2026 (leído el 16/10/2026)"
+      "verificado": "Texto consolidado, última actualización de la consolidación: 14/10/2026 (leído el 16/10/2026, con la versión vigente y la que entra en vigor el 23/10/2026)"
     }
   ],
   "novedades": [
     "Ley 20/2021, de 28 de diciembre (precedida del Real Decreto-ley 14/2021), reformó los arts. 10 y 11: el funcionario interino por vacante no puede superar los tres años, hay nuevas causas de cese de la interinidad y los procesos de selección de interinos y de laboral temporal se rigen por la celeridad, además de por igualdad, mérito y capacidad. Material anterior a 2021 puede recoger reglas distintas.",
-    "Real Decreto-ley 9/2025, de 29 de julio: modifica el art. 7 (permisos de nacimiento, adopción, lactancia y parental del personal laboral, que se rigen por el TREBEP y no por el Estatuto de los Trabajadores)."
+    "Real Decreto-ley 9/2025, de 29 de julio: modifica el art. 7 (permisos de nacimiento, adopción, lactancia y parental del personal laboral, que se rigen por el TREBEP y no por el Estatuto de los Trabajadores).",
+    "Ley 4/2026, de 1 de octubre (en vigor desde el 23/10/2026): de este texto refundido solo modifica el art. 49.e (permiso por cuidado de hijo menor afectado por cáncer u otra enfermedad grave: la reducción de jornada puede prorrogarse más allá de los límites de edad si la persona a cargo está en situación de gran discapacidad o gran dependencia y hay convivencia). No cambia ninguno de los demás artículos que cita esta ficha (p. ej., arts. 8, 10, 11, 57, 59, 62 y 63)."
   ],
   "clave": [
     "**Empleados públicos** (art. 8.1): quienes desempeñan funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales. **Cuatro clases** (art. 8.2): funcionarios de carrera, funcionarios interinos, personal laboral (fijo, por tiempo indefinido o temporal) y personal eventual.",
@@ -105,24 +106,25 @@
     "Interino por vacante: **tres años**, igual que los programas temporales; el exceso de tareas, nueve meses dentro de dieciocho."
   ],
   "tarjetas": [
-    { "p": "¿Qué cuatro clases de empleados públicos enumera el art. 8.2 TREBEP?", "r": "Funcionarios de carrera, funcionarios interinos, personal laboral (fijo, por tiempo indefinido o temporal) y personal eventual." },
-    { "p": "¿Cómo define el art. 9.1 al funcionario de carrera?", "r": "Vinculado a una Administración por **nombramiento legal** y **relación estatutaria** de Derecho Administrativo para servicios profesionales retribuidos de **carácter permanente**." },
-    { "p": "¿Qué funciones corresponden exclusivamente a los funcionarios públicos?", "r": "Las que impliquen participación directa o indirecta en el ejercicio de **potestades públicas** o en la salvaguardia de los intereses generales del Estado y de las Administraciones (art. 9.2)." },
-    { "p": "¿Cuánto puede durar como máximo un interino por vacante?", "r": "**Tres años**; después la vacante solo puede ocuparla un funcionario de carrera (art. 10.4), salvo excepciones." },
-    { "p": "¿Qué es el personal eventual?", "r": "El nombrado con carácter no permanente solo para funciones de **confianza o asesoramiento especial**; nombramiento y cese libres; cesa con la autoridad (art. 12)." },
-    { "p": "¿Cuáles son los requisitos sucesivos para adquirir la condición de funcionario de carrera?", "r": "Superar el proceso selectivo; nombramiento publicado en el Diario Oficial; acatamiento de la Constitución; **toma de posesión** (art. 62.1)." },
-    { "p": "¿Cuáles son las causas de pérdida de la condición de funcionario de carrera?", "r": "Renuncia; pérdida de la nacionalidad; **jubilación total**; separación del servicio firme; inhabilitación absoluta o especial firme (art. 63)." },
-    { "p": "¿Cuándo no se puede aceptar la renuncia a la condición de funcionario?", "r": "Cuando el funcionario esté sujeto a **expediente disciplinario** o tenga **auto de procesamiento o de apertura de juicio oral** por delito (art. 64.2)." },
-    { "p": "¿Qué edad marca la jubilación forzosa y hasta cuándo se puede prolongar?", "r": "Se declara de oficio a los **65 años**; se puede solicitar la prolongación hasta los **70** (art. 67.3)." },
-    { "p": "¿Qué diferencia hay entre inhabilitación absoluta y especial en la pérdida de la condición?", "r": "La **absoluta** hace perder todos los empleos o cargos; la **especial**, solo los especificados en la sentencia (art. 66). Ambas, firmes." },
-    { "p": "¿Qué edad mínima y qué nacionalidad exige el art. 56.1 para los procesos selectivos?", "r": "**16 años** cumplidos y **nacionalidad española**, sin perjuicio del art. 57 (nacionales de otros Estados)." },
-    { "p": "¿Qué cupo reservan las ofertas de empleo público a personas con discapacidad?", "r": "No inferior al **7 %** de las vacantes, de las que al menos el **2 %** de las plazas ofertadas para discapacidad intelectual (art. 59.1)." },
-    { "p": "¿Qué titulación exigen los grupos de funcionarios del art. 76?", "r": "A (A1 y A2): Grado. B: Técnico Superior. C1: Bachiller o Técnico. C2: Graduado en ESO." },
-    { "p": "¿Qué ocurre si no hay resolución expresa sobre la rehabilitación de un inhabilitado?", "r": "Se entiende **desestimada** la solicitud (art. 68.2)." },
-    { "p": "¿Se aplica el TREBEP al personal de las Fuerzas y Cuerpos de Seguridad?", "r": "Solo directamente cuando su **legislación específica** lo disponga (art. 4)." }
+    { "id": "t_06_01", "p": "¿Qué cuatro clases de empleados públicos enumera el art. 8.2 TREBEP?", "r": "Funcionarios de carrera, funcionarios interinos, personal laboral (fijo, por tiempo indefinido o temporal) y personal eventual." },
+    { "id": "t_06_02", "p": "¿Cómo define el art. 9.1 al funcionario de carrera?", "r": "Vinculado a una Administración por **nombramiento legal** y **relación estatutaria** de Derecho Administrativo para servicios profesionales retribuidos de **carácter permanente**." },
+    { "id": "t_06_03", "p": "¿Qué funciones corresponden exclusivamente a los funcionarios públicos?", "r": "Las que impliquen participación directa o indirecta en el ejercicio de **potestades públicas** o en la salvaguardia de los intereses generales del Estado y de las Administraciones (art. 9.2)." },
+    { "id": "t_06_04", "p": "¿Cuánto puede durar como máximo un interino por vacante?", "r": "**Tres años**; después la vacante solo puede ocuparla un funcionario de carrera (art. 10.4), salvo excepciones." },
+    { "id": "t_06_05", "p": "¿Qué es el personal eventual?", "r": "El nombrado con carácter no permanente solo para funciones de **confianza o asesoramiento especial**; nombramiento y cese libres; cesa con la autoridad (art. 12)." },
+    { "id": "t_06_06", "p": "¿Cuáles son los requisitos sucesivos para adquirir la condición de funcionario de carrera?", "r": "Superar el proceso selectivo; nombramiento publicado en el Diario Oficial; acatamiento de la Constitución; **toma de posesión** (art. 62.1)." },
+    { "id": "t_06_07", "p": "¿Cuáles son las causas de pérdida de la condición de funcionario de carrera?", "r": "Renuncia; pérdida de la nacionalidad; **jubilación total**; separación del servicio firme; inhabilitación absoluta o especial firme (art. 63)." },
+    { "id": "t_06_08", "p": "¿Cuándo no se puede aceptar la renuncia a la condición de funcionario?", "r": "Cuando el funcionario esté sujeto a **expediente disciplinario** o tenga **auto de procesamiento o de apertura de juicio oral** por delito (art. 64.2)." },
+    { "id": "t_06_09", "p": "¿Qué edad marca la jubilación forzosa y hasta cuándo se puede prolongar?", "r": "Se declara de oficio a los **65 años**; se puede solicitar la prolongación hasta los **70** (art. 67.3)." },
+    { "id": "t_06_10", "p": "¿Qué diferencia hay entre inhabilitación absoluta y especial en la pérdida de la condición?", "r": "La **absoluta** hace perder todos los empleos o cargos; la **especial**, solo los especificados en la sentencia (art. 66). Ambas, firmes." },
+    { "id": "t_06_11", "p": "¿Qué edad mínima y qué nacionalidad exige el art. 56.1 para los procesos selectivos?", "r": "**16 años** cumplidos y **nacionalidad española**, sin perjuicio del art. 57 (nacionales de otros Estados)." },
+    { "id": "t_06_12", "p": "¿Qué cupo reservan las ofertas de empleo público a personas con discapacidad?", "r": "No inferior al **7 %** de las vacantes, de las que al menos el **2 %** de las plazas ofertadas para discapacidad intelectual (art. 59.1)." },
+    { "id": "t_06_13", "p": "¿Qué titulación exigen los grupos de funcionarios del art. 76?", "r": "A (A1 y A2): Grado. B: Técnico Superior. C1: Bachiller o Técnico. C2: Graduado en ESO." },
+    { "id": "t_06_14", "p": "¿Qué ocurre si no hay resolución expresa sobre la rehabilitación de un inhabilitado?", "r": "Se entiende **desestimada** la solicitud (art. 68.2)." },
+    { "id": "t_06_15", "p": "¿Se aplica el TREBEP al personal de las Fuerzas y Cuerpos de Seguridad?", "r": "Solo directamente cuando su **legislación específica** lo disponga (art. 4)." }
   ],
   "preguntas": [
     {
+      "id": "q_06_01",
       "enunciado": "Señale cuál NO es una clase de empleado público de las enumeradas en el art. 8.2 del Estatuto Básico del Empleado Público.",
       "opciones": [
         "Personal eventual",
@@ -135,6 +137,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_06_02",
       "enunciado": "Según el art. 9.1 del TREBEP, son funcionarios de carrera quienes:",
       "opciones": [
         "En virtud de nombramiento legal, están vinculados a una Administración Pública por una relación estatutaria regulada por el Derecho Administrativo para el desempeño de servicios profesionales retribuidos de carácter permanente",
@@ -147,6 +150,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_06_03",
       "enunciado": "Según el art. 62 del TREBEP, ¿cuál es el último de los requisitos que deben cumplirse sucesivamente para adquirir la condición de funcionario de carrera?",
       "opciones": [
         "El acto de acatamiento de la Constitución",
@@ -159,6 +163,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_06_04",
       "enunciado": "¿Cuál de las siguientes NO es causa de pérdida de la condición de funcionario de carrera según el art. 63 del TREBEP?",
       "opciones": [
         "La renuncia a la condición de funcionario",
@@ -171,6 +176,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_06_05",
       "enunciado": "Un funcionario de carrera sujeto a expediente disciplinario presenta por escrito su renuncia a la condición de funcionario. ¿Qué establece el TREBEP?",
       "opciones": [
         "La renuncia no puede ser aceptada mientras esté sujeto a expediente disciplinario",
@@ -183,6 +189,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_06_06",
       "enunciado": "Según el art. 67.3 del TREBEP, la jubilación forzosa de los funcionarios se declara de oficio al cumplir:",
       "opciones": [
         "Los 67 años, con posibilidad de prolongar la permanencia en el servicio activo hasta los 72",
@@ -195,6 +202,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_06_07",
       "enunciado": "Según el art. 10 del TREBEP, ¿cuántos años como máximo puede mantenerse el nombramiento de un funcionario interino por existencia de plaza vacante antes de que la vacante solo pueda ocuparla personal funcionario de carrera?",
       "opciones": [
         "Un año",
@@ -207,6 +215,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_06_08",
       "enunciado": "Respecto al personal eventual regulado en el art. 12 del TREBEP, señale la afirmación correcta.",
       "opciones": [
         "Su nombramiento y cese son libres, y cesa en todo caso cuando cese la autoridad a la que presta la función de confianza o asesoramiento",
@@ -219,6 +228,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_06_09",
       "enunciado": "¿Qué edad mínima exige el art. 56.1 del TREBEP, con carácter general, para poder participar en los procesos selectivos de acceso al empleo público?",
       "opciones": [
         "Dieciocho años cumplidos",
@@ -231,6 +241,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_06_10",
       "enunciado": "Según el art. 76 del TREBEP, ¿qué titulación se exige para acceder a los cuerpos o escalas del Grupo B?",
       "opciones": [
         "Título universitario de Grado",
@@ -243,6 +254,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_06_11",
       "enunciado": "La pena de inhabilitación especial para cargo público, cuando la sentencia que la impone adquiere firmeza, produce la pérdida de la condición de funcionario respecto de:",
       "opciones": [
         "Todos los empleos o cargos que tuviere",
@@ -255,6 +267,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_06_12",
       "enunciado": "Según el art. 65 del TREBEP, la pérdida de la nacionalidad que se tuvo en cuenta para el nombramiento determina la pérdida de la condición de funcionario salvo que:",
       "opciones": [
         "Simultáneamente se adquiera la nacionalidad de alguno de los Estados miembros de la UE o de los Estados a los que sea aplicable la libre circulación de trabajadores",
@@ -267,6 +280,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_06_13",
       "enunciado": "Una persona supera el proceso selectivo, es nombrada funcionaria de carrera con publicación del nombramiento en el Diario Oficial y presta el acto de acatamiento de la Constitución, pero todavía no ha tomado posesión. ¿Ha adquirido ya la condición de funcionario de carrera?",
       "opciones": [
         "Sí, la adquiere desde la publicación del nombramiento",
@@ -279,6 +293,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_06_14",
       "enunciado": "¿Qué cupo mínimo de las vacantes de las ofertas de empleo público reserva el art. 59 del TREBEP a personas con discapacidad?",
       "opciones": [
         "El 7 por ciento, de los cuales al menos el 2 por ciento de las plazas ofertadas para discapacidad intelectual",
@@ -291,6 +306,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_06_15",
       "enunciado": "Si, transcurrido el plazo para resolver, la Administración no ha dictado resolución expresa sobre la solicitud de rehabilitación de quien perdió la condición de funcionario por inhabilitación, la solicitud se entiende:",
       "opciones": [
         "Estimada por silencio administrativo",
@@ -303,6 +319,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_06_16",
       "enunciado": "Según el art. 4 del TREBEP, ¿qué colectivo solo se rige directamente por las disposiciones del Estatuto cuando su legislación específica así lo disponga?",
       "opciones": [
         "El personal funcionario de la Administración General del Estado",
@@ -315,6 +332,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_06_17",
       "enunciado": "Según el art. 20.2 del TREBEP, los sistemas de evaluación del desempeño se adecuarán, en todo caso, a criterios de:",
       "opciones": [
         "Transparencia, objetividad, imparcialidad y no discriminación",
@@ -327,6 +345,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_06_18",
       "enunciado": "Según el art. 11.1 del TREBEP, el personal laboral de las Administraciones Públicas es el que presta servicios retribuidos en virtud de:",
       "opciones": [
         "Nombramiento legal y relación estatutaria regulada por el Derecho Administrativo",

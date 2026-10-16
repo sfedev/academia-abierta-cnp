@@ -18,6 +18,25 @@ def leer(p):
         return json.load(f)
 
 
+def comprobar_ids(temas):
+    """La web guarda el progreso con el `id` de cada pregunta y tarjeta: deben existir y ser únicos en toda la app."""
+    vistos, errores = {}, []
+    for n, d in temas.items():
+        for lista, pref in (("preguntas", "q"), ("tarjetas", "t")):
+            for i, e in enumerate((d or {}).get(lista, [])):
+                ident = e.get("id")
+                donde = "tema %d, %s[%d]" % (n, lista, i)
+                if not re.fullmatch(r"%s_%02d_\d{2,}" % (pref, n), str(ident or "")):
+                    errores.append("%s: id %r no válido (formato %s_%02d_01)" % (donde, ident, pref, n))
+                elif ident in vistos:
+                    errores.append("%s: id %s repetido (ya en %s)" % (donde, ident, vistos[ident]))
+                else:
+                    vistos[ident] = donde
+    if errores:
+        raise SystemExit("ERROR en los ids (ejecuta python -I herramientas/migrar_ids.py):\n  " + "\n  ".join(errores[:20]))
+    return len(vistos)
+
+
 def main():
     dir_temas = "datos/temas"
     out = "web/data/datos.js"
@@ -45,6 +64,7 @@ def main():
         d["peso"]["confianza"] = peso.get("confianza")
         d["peso"].setdefault("nota", peso.get("nota", ""))
         temas[n] = d
+    comprobar_ids({k: v for k, v in temas.items() if v})
     # el peso también va en meta (para el temario aunque falte contenido)
     for t in meta["temas"]:
         pe = pesos.get(t["tema"], {})

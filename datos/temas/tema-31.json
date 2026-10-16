@@ -171,68 +171,84 @@
   ],
   "tarjetas": [
     {
+      "id": "t_31_01",
       "p": "¿Cómo define el INE la inmigración?",
       "r": "Acción por la cual una persona fija su residencia habitual en un territorio por un período que es, o se espera que sea, de **al menos doce meses**, habiendo sido residente habitual de otro territorio."
     },
     {
+      "id": "t_31_02",
       "p": "¿Qué es el saldo migratorio?",
       "r": "La diferencia entre **inmigraciones y emigraciones** (INE). Sumado al saldo vegetativo da el crecimiento de la población."
     },
     {
+      "id": "t_31_03",
       "p": "Cuatro grandes grupos de causas de la migración.",
       "r": "**Económicas, sociopolíticas, ambientales y sociales**; actúan como factores de expulsión y de atracción."
     },
     {
+      "id": "t_31_04",
       "p": "¿Cuándo se fundó la OIM y cuál es su relación con la ONU?",
       "r": "En **1951**; desde septiembre de **2016** es una organización vinculada a la ONU."
     },
     {
+      "id": "t_31_05",
       "p": "¿Qué son los CETI y de qué ministerio dependen?",
       "r": "Centros de Estancia Temporal de Inmigrantes de **Ceuta y Melilla**, integrados en la red pública de centros de migraciones del **Ministerio de Inclusión, Seguridad Social y Migraciones**."
     },
     {
+      "id": "t_31_06",
       "p": "¿Qué es el síndrome de Ulises y quién lo describió?",
       "r": "Cuadro de **estrés crónico y múltiple** del inmigrante, descrito por **Joseba Achotegui** (2002)."
     },
     {
+      "id": "t_31_07",
       "p": "Cuatro estresores del síndrome de Ulises.",
       "r": "Soledad por la separación familiar, **fracaso del proyecto migratorio**, **lucha por la supervivencia** y **miedo**."
     },
     {
+      "id": "t_31_08",
       "p": "Proceso de Rabat: año y ámbito.",
       "r": "**Julio de 2006**, Diálogo Euroafricano sobre Migración y Desarrollo; rutas centroafricana, occidental y norteafricana."
     },
     {
+      "id": "t_31_09",
       "p": "Proceso de Jartum: año y ámbito.",
       "r": "**Noviembre de 2014** (conferencia ministerial de Roma); Iniciativa UE-**Cuerno de África** sobre la ruta migratoria."
     },
     {
+      "id": "t_31_10",
       "p": "Pacto Mundial para una Migración Segura, Ordenada y Regular.",
       "r": "Marrakech, **10-11 de diciembre de 2018**; Res. 73/195 (19/12/2018); **23 objetivos**; **no vinculante**."
     },
     {
+      "id": "t_31_11",
       "p": "¿Qué dice el art. 2 ter de la LO 4/2000?",
       "r": "Los poderes públicos promoverán la **plena integración** de los extranjeros en un marco de convivencia de identidades y culturas diversas, sin más límite que el respeto a la Constitución y la ley."
     },
     {
+      "id": "t_31_12",
       "p": "Foro para la Integración Social de los Inmigrantes: naturaleza y composición.",
       "r": "Órgano de **consulta, información y asesoramiento** en integración, **tripartito y equilibrado** (Administraciones, asociaciones de inmigrantes y otras organizaciones, con sindicatos y empresariales) (art. 70 LO 4/2000)."
     },
     {
+      "id": "t_31_13",
       "p": "Base legal del OBERAXE.",
       "r": "**Art. 71 LO 4/2000**; depende de la Secretaría de Estado de Migraciones."
     },
     {
+      "id": "t_31_14",
       "p": "¿Por qué la población nacida en el extranjero supera a la de nacionalidad extranjera?",
       "r": "Por las **adquisiciones de nacionalidad española** (INE, 1/7/2026: 10.291.807 frente a 7.437.543)."
     },
     {
+      "id": "t_31_15",
       "p": "¿Cuándo se aplica el Pacto de la UE sobre Migración y Asilo?",
       "r": "Desde el **12 de junio de 2026**, de forma gradual, en todos los Estados miembros."
     }
   ],
   "preguntas": [
     {
+      "id": "q_31_01",
       "enunciado": "Según el INE, la inmigración es la acción por la cual una persona fija su residencia habitual en un territorio por un período que es, o se espera que sea, de al menos:",
       "opciones": [
         "Doce meses",
@@ -245,6 +261,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_31_02",
       "enunciado": "El saldo migratorio es:",
       "opciones": [
         "La diferencia entre nacimientos y defunciones",
@@ -257,6 +274,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_31_03",
       "enunciado": "Los factores económicos, sociopolíticos, ambientales y sociales se identifican, en el estudio de las migraciones, como:",
       "opciones": [
         "Efectos de la inmigración en el país de destino",
@@ -269,6 +287,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_31_04",
       "enunciado": "La Organización Internacional para las Migraciones (OIM) se fundó en:",
       "opciones": [
         "1951",
@@ -281,6 +300,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_31_05",
       "enunciado": "Los Centros de Estancia Temporal de Inmigrantes (CETI) se encuentran en:",
       "opciones": [
         "Canarias y Baleares",
@@ -293,6 +313,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_31_06",
       "enunciado": "Los CETI forman parte de la red pública de centros de migraciones del Ministerio de:",
       "opciones": [
         "Interior",
@@ -305,6 +326,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_31_07",
       "enunciado": "El síndrome de Ulises, descrito por Joseba Achotegui, es un cuadro de:",
       "opciones": [
         "Estrés crónico y múltiple en personas migrantes",
@@ -317,6 +339,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_31_08",
       "enunciado": "¿Cuál de los siguientes NO es uno de los estresores del síndrome de Ulises?",
       "opciones": [
         "La soledad por la separación forzada de la familia",
@@ -329,6 +352,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_31_09",
       "enunciado": "El Proceso de Jartum es una iniciativa de diálogo y cooperación entre la Unión Europea y:",
       "opciones": [
         "Los países del Magreb",
@@ -341,6 +365,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_31_10",
       "enunciado": "El Proceso de Rabat (Diálogo Euroafricano sobre Migración y Desarrollo) se puso en marcha en una conferencia ministerial celebrada en 2006 en:",
       "opciones": [
         "Rabat",
@@ -353,6 +378,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_31_11",
       "enunciado": "El Pacto Mundial para una Migración Segura, Ordenada y Regular se adoptó en una conferencia intergubernamental celebrada en diciembre de 2018 en:",
       "opciones": [
         "Nueva York",
@@ -365,6 +391,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_31_12",
       "enunciado": "El Pacto Mundial para una Migración Segura, Ordenada y Regular de la ONU:",
       "opciones": [
         "Es un tratado vinculante que los Estados han de ratificar",
@@ -377,6 +404,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_31_13",
       "enunciado": "Según el art. 2 ter de la Ley Orgánica 4/2000, los poderes públicos promoverán la plena integración de los extranjeros en la sociedad española:",
       "opciones": [
         "En un marco de convivencia de identidades y culturas diversas, sin más límite que el respeto a la Constitución y la ley",
@@ -389,6 +417,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_31_14",
       "enunciado": "El Foro para la Integración Social de los Inmigrantes, regulado en el art. 70 de la Ley Orgánica 4/2000, es:",
       "opciones": [
         "Un órgano judicial especializado en extranjería",
@@ -401,6 +430,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_31_15",
       "enunciado": "Según el INE, la población nacida en el extranjero que reside en España es mayor que la de nacionalidad extranjera debido principalmente a:",
       "opciones": [
         "La emigración de españoles",
@@ -413,6 +443,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_31_16",
       "enunciado": "Según el INE, ¿cuáles fueron las tres principales nacionalidades de los inmigrantes llegados a España en el segundo trimestre de 2026?",
       "opciones": [
         "Colombiana, venezolana y marroquí",
@@ -425,6 +456,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_31_17",
       "enunciado": "Según el art. 3 de la Ley 12/2009, la condición de refugiado se reconoce a la persona que, debido a fundados temores de ser perseguida por determinados motivos, se encuentra:",
       "opciones": [
         "Dentro de su país, sin poder trasladarse a otra región",
@@ -437,6 +469,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_31_18",
       "enunciado": "¿Qué instrumento comenzó a aplicarse en todos los Estados miembros de la Unión Europea el 12 de junio de 2026?",
       "opciones": [
         "El Pacto Mundial de la ONU para una Migración Segura, Ordenada y Regular",

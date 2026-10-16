@@ -341,80 +341,99 @@
  ],
  "tarjetas": [
   {
+   "id": "t_42_01",
    "p": "¿Cuándo es corta un arma de fuego según el Reglamento de Armas?",
    "r": "Cuando su cañón no excede de **30 cm** o su longitud total no excede de **60 cm** (art. 2.13). Larga es toda arma de fuego que no es corta."
   },
   {
+   "id": "t_42_02",
    "p": "¿Cuáles son los componentes esenciales de un arma de fuego corta?",
    "r": "**Armazón, cañón, tambor y corredera o cerrojo** (art. 1.2, tras el RD 726/2020). Antes eran las «piezas fundamentales»: armazón, cerrojo o cilindro y cañón."
   },
   {
+   "id": "t_42_03",
    "p": "¿Qué es un arma antigua?",
    "r": "Arma de fuego cuyo modelo o año de fabricación es anterior al **1 de enero de 1890** (art. 2.2); pertenece a la 6.ª categoría."
   },
   {
+   "id": "t_42_04",
    "p": "¿Qué comprenden las categorías 7.ª, 8.ª y 9.ª?",
    "r": "**7.ª**: inyección anestésica, ballestas, armas para lanzar cabos, Flobert, arcos y armas de pesca, alarma y señales y lanzabengalas. **8.ª**: acústicas y de salvas. **9.ª**: inutilizadas (art. 3)."
   },
   {
+   "id": "t_42_05",
    "p": "Diferencia entre arma de repetición, semiautomática y automática.",
    "r": "**Repetición**: el tirador recarga con un mecanismo tras cada disparo. **Semiautomática**: se recarga sola y da un disparo por pulsación. **Automática**: se recarga sola y dispara en ráfaga mientras se mantenga el disparador (art. 2)."
   },
   {
+   "id": "t_42_06",
    "p": "Validez y límite de las licencias B, D, E y F.",
    "r": "Las cuatro valen **5 años**. B: 1 arma por licencia y 1 licencia por persona. D: hasta 5 armas. E: hasta 6 escopetas o 6 rayadas deportivas y 12 en total. F: 1.ª clase hasta 10 armas, 2.ª hasta 6, 3.ª una."
   },
   {
+   "id": "t_42_07",
    "p": "¿Quién concede cada licencia?",
    "r": "B y F: **DG de la Guardia Civil**. C, D y E: **Jefe de la Comandancia de la Guardia Civil** de la provincia de residencia. Tarjetas de armas de la 4.ª: **Alcaldes**."
   },
   {
+   "id": "t_42_08",
    "p": "¿Qué licencia tiene un policía y cuántas armas cortas puede poseer?",
    "r": "**Licencia A**, que es su carné profesional en servicio activo o disponible. Escala Básica: **1** arma corta además de la de dotación; Escalas Superior, Ejecutiva y Subinspección: **3** (art. 118)."
   },
   {
+   "id": "t_42_09",
    "p": "¿Quién expide la guía de pertenencia de las armas del CNP?",
    "r": "La **Dirección General de la Policía**; la guía se marca **C.N.P.** y numeración correlativa (art. 115)."
   },
   {
+   "id": "t_42_10",
    "p": "¿Qué armas exigen guía de pertenencia?",
    "r": "Las de las categorías 1.ª, 2.ª, 3.ª, 6.ª, 7.ª (apartados 1 a 4) y 8.ª: **cada arma** la suya, que la acompaña en uso, depósito y transporte (arts. 88-89)."
   },
   {
+   "id": "t_42_11",
    "p": "¿Cada cuánto pasan revista las armas con guía?",
    "r": "Cada **5 años**, al solicitar la renovación de la licencia (art. 90.1). No pasar dos revistas consecutivas anula la guía."
   },
   {
+   "id": "t_42_12",
    "p": "Tarjeta Europea de Armas de Fuego: quién la expide, validez y uso.",
    "r": "La expide la **DG de la Guardia Civil**; máximo **5 años**; es **intransferible** y se lleva siempre consigo (arts. 112-113)."
   },
   {
+   "id": "t_42_13",
    "p": "¿Qué ampara la guía de circulación?",
    "r": "El traslado entre dos lugares, sin licencia ni guía de pertenencia, de armas de las categorías **1.ª, 2.ª, 3.ª, 6.ª y 8.ª** y componentes esenciales terminados, y de armas completas de la 7.ª.1 a 4 (art. 31)."
   },
   {
+   "id": "t_42_14",
    "p": "Armas prohibidas del art. 4: ¿cuántos supuestos y qué ejemplos?",
    "r": "**Ocho**: por ejemplo, pistolas y revólveres con **culatín**, armas de fuego en bastones, **puñales** (hoja de menos de 11 cm, dos filos y puntiaguda) y armas combinadas con armas blancas."
   },
   {
+   "id": "t_42_15",
    "p": "¿Qué cifras separan armas y cargadores prohibidos (art. 5)?",
    "r": "Semiautomáticas de percusión central: cortas con **más de 21** cartuchos, largas con **más de 11** (con el de la recámara). Cargadores: cortas **más de 20**, largas **más de 10**."
   },
   {
+   "id": "t_42_16",
    "p": "¿Qué es la munición y qué componentes tiene un cartucho?",
    "r": "Cartucho completo o sus componentes: **vaina, cebo, carga propulsora y bala o proyectil** (art. 2.29)."
   },
   {
+   "id": "t_42_17",
    "p": "¿Dónde se depositan las armas que interviene un agente?",
    "r": "En la **Intervención de Armas y Explosivos de la Guardia Civil**, dando cuenta con los datos de identificación y del procedimiento (art. 166.1). Las de guerra o de 1.ª categoría, o un gran número, en locales de Defensa."
   },
   {
+   "id": "t_42_18",
    "p": "¿Qué estudia cada rama de la balística?",
    "r": "**Interior**: desde el disparo hasta que el proyectil sale por la boca del arma. **Exterior**: desde que sale hasta el blanco. **De efectos o terminal**: el impacto en el blanco. **Identificativa**: marcas en vainas y proyectiles para identificar el arma."
   }
  ],
  "preguntas": [
   {
+   "id": "q_42_01",
    "enunciado": "Según el Reglamento de Armas, ¿qué condición basta por sí sola para que un arma de fuego se considere «corta»?",
    "opciones": [
     "Que su cañón no exceda de 40 cm.",
@@ -427,6 +446,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_42_02",
    "enunciado": "Señale la afirmación INCORRECTA sobre las categorías del art. 3 del Reglamento de Armas:",
    "opciones": [
     "La 8.ª categoría comprende las armas acústicas y de salvas.",
@@ -439,6 +459,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_42_03",
    "enunciado": "Según el Reglamento de Armas, es arma antigua el arma de fuego cuyo modelo o año de fabricación es anterior al:",
    "opciones": [
     "1 de enero de 1890.",
@@ -451,6 +472,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_42_04",
    "enunciado": "Tras el RD 726/2020, ¿cuáles son los componentes esenciales de las armas de fuego cortas según el art. 1.2 del Reglamento de Armas?",
    "opciones": [
     "El armazón, el cañón, el cargador y el percutor.",
@@ -463,6 +485,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_42_05",
    "enunciado": "¿Cuál de las siguientes armas se incluye entre las prohibidas del art. 4 del Reglamento de Armas?",
    "opciones": [
     "Las pistolas y revólveres que lleven adaptado un culatín.",
@@ -475,6 +498,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_42_06",
    "enunciado": "Según el art. 5.1 del Reglamento de Armas, se prohíbe la publicidad, compraventa, tenencia y uso, salvo por funcionarios especialmente habilitados, de:",
    "opciones": [
     "Las ballestas y los arcos.",
@@ -487,6 +511,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_42_07",
    "enunciado": "Respecto a la capacidad de carga de las armas semiautomáticas de percusión central, el art. 5.1 del Reglamento de Armas prohíbe, salvo funcionarios habilitados:",
    "opciones": [
     "Las cortas con capacidad superior a 20 cartuchos y las largas con más de 10, incluido el de la recámara.",
@@ -499,6 +524,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_42_08",
    "enunciado": "Según el art. 99 del Reglamento de Armas, la licencia de armas B:",
    "opciones": [
     "Tiene cinco años de validez y cada licencia no ampara más de un arma.",
@@ -511,6 +537,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_42_09",
    "enunciado": "¿Cuántas armas puede amparar como máximo una licencia E?",
    "opciones": [
     "Hasta cinco armas de cualquier clase.",
@@ -523,6 +550,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_42_10",
    "enunciado": "Un policía de la Escala Básica del CNP, en servicio activo y titular de licencia A, ¿cuántas armas cortas de propiedad privada puede poseer, además de las que reciba como dotación reglamentaria?",
    "opciones": [
     "Una.",
@@ -535,6 +563,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_42_11",
    "enunciado": "¿Qué autoridad expide la guía de pertenencia de las armas del personal del Cuerpo Nacional de Policía?",
    "opciones": [
     "La Intervención de Armas de la Guardia Civil de su provincia.",
@@ -547,6 +576,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_42_12",
    "enunciado": "Según el art. 90.1 del Reglamento de Armas, tras el RD 726/2020, las armas que precisan guía de pertenencia pasan revista:",
    "opciones": [
     "Cada tres años las de la 1.ª categoría y cada cinco las demás.",
@@ -559,6 +589,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_42_13",
    "enunciado": "¿Quién concede las tarjetas de armas de la 4.ª categoría?",
    "opciones": [
     "Los Alcaldes de los municipios en que residan los solicitantes.",
@@ -571,6 +602,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_42_14",
    "enunciado": "Respecto de la Tarjeta Europea de Armas de Fuego, es correcto afirmar que:",
    "opciones": [
     "Es transferible entre titulares de la misma licencia y vale como máximo diez años.",
@@ -583,6 +615,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_42_15",
    "enunciado": "¿Qué documento ampara el traslado entre dos lugares de un arma de la 1.ª categoría cuando no la acompañan licencia ni guía de pertenencia?",
    "opciones": [
     "La guía de circulación expedida por la Intervención de Armas.",
@@ -595,6 +628,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_42_16",
    "enunciado": "Una patrulla interviene en un control una escopeta de caza sin documentación. Según el art. 166.1 del Reglamento de Armas, el agente debe:",
    "opciones": [
     "Depositarla en el servicio de armamento de la Policía Nacional y comunicarlo a la Dirección General de la Policía.",
@@ -607,6 +641,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_42_17",
    "enunciado": "El art. 2.29 del Reglamento de Armas define la munición como el cartucho completo o sus componentes, incluidos:",
    "opciones": [
     "Únicamente las vainas, los cebos y la pólvora.",
@@ -619,6 +654,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_42_18",
    "enunciado": "En el Reglamento de Armas, la energía cinética en boca de un arma Flobert no puede sobrepasar:",
    "opciones": [
     "24,2 julios.",
@@ -631,6 +667,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_42_19",
    "enunciado": "¿Cómo se denomina la rama de la balística forense que estudia el comportamiento del proyectil desde que sale por la boca del arma hasta que impacta en el blanco?",
    "opciones": [
     "Balística exterior.",
@@ -643,6 +680,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_42_20",
    "enunciado": "Un perito estudia el orificio de entrada, la trayectoria dentro del cuerpo y la energía transferida por un proyectil. ¿Qué rama de la balística desarrolla?",
    "opciones": [
     "Balística exterior.",
@@ -655,6 +693,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_42_21",
    "enunciado": "Según el Código Penal, la tenencia de armas de fuego cortas reglamentadas careciendo de las licencias o permisos necesarios, sin otras circunstancias agravantes, se castiga con:",
    "opciones": [
     "Prisión de seis meses a un año.",
@@ -667,6 +706,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_42_22",
    "enunciado": "Según el art. 149.1 del Reglamento de Armas, por las vías y lugares públicos urbanos las armas reglamentadas solo se pueden llevar:",
    "opciones": [
     "Desmontadas o dentro de sus cajas o fundas, durante el trayecto entre el lugar donde se guardan y el de su utilización autorizada.",

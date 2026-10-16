@@ -337,100 +337,124 @@
   ],
   "tarjetas": [
     {
+      "id": "t_40_01",
       "p": "Diferencia entre dato, información e inteligencia.",
       "r": "**Dato**: elemento aislado sin contexto. **Información**: conocimiento en bruto, datos con significado. **Inteligencia**: información evaluada (fuente y fiabilidad) y analizada para decidir (UNODC: información + evaluación)."
     },
     {
+      "id": "t_40_02",
       "p": "¿Cuántas fases tiene el ciclo de inteligencia del CNI y cuál es la primera?",
       "r": "**4**: dirección, obtención, elaboración y difusión. La primera es la **dirección**."
     },
     {
+      "id": "t_40_03",
       "p": "¿Qué es la Directiva de Inteligencia?",
       "r": "Documento **secreto** que recoge los objetivos de inteligencia del Gobierno, aprobado cada año; con ella se inicia el ciclo (art. 3 Ley 11/2002)."
     },
     {
+      "id": "t_40_04",
       "p": "¿Qué se hace en la fase de elaboración del ciclo del CNI?",
       "r": "**Valoración** de calidad y origen, **examen**, **integración**, **redacción** del producto final e **interpretación**."
     },
     {
+      "id": "t_40_05",
       "p": "HUMINT, OSINT, SIGINT y GEOINT: ¿de dónde procede la información?",
       "r": "**HUMINT**: fuentes humanas. **OSINT**: fuentes abiertas. **SIGINT**: fuentes técnicas (señales). **GEOINT**: imágenes e información geográfica."
     },
     {
+      "id": "t_40_06",
       "p": "¿Cuántas disciplinas de recogida cuenta la comunidad de inteligencia de EE. UU.?",
       "r": "**Seis**: HUMINT, SIGINT, GEOINT, IMINT, MASINT y OSINT."
     },
     {
+      "id": "t_40_07",
       "p": "Tipos de inteligencia según la UNODC.",
       "r": "**Estratégica** (largo plazo, tendencias y amenazas) y **operativa** (apoyo a investigaciones concretas)."
     },
     {
+      "id": "t_40_08",
       "p": "Fuentes abiertas, cerradas y clasificadas según la UNODC.",
       "r": "**Abiertas**: públicas. **Cerradas**: bases de datos de acceso limitado (antecedentes, matrículas, armas). **Clasificadas**: medios encubiertos humanos y técnicos."
     },
     {
+      "id": "t_40_09",
       "p": "¿Qué es OSINT?",
       "r": "Inteligencia producida a partir de **información públicamente disponible**, recogida, explotada y difundida a tiempo para un requerimiento concreto."
     },
     {
+      "id": "t_40_10",
       "p": "Categorías OTAN de la información abierta.",
       "r": "**OSD** (datos en bruto), **OSIF** (información editada), **OSINT** (inteligencia para una pregunta concreta) y **OSINT-V** (validada, certeza muy alta)."
     },
     {
+      "id": "t_40_11",
       "p": "¿Para qué sirve Maltego?",
       "r": "Minería de datos y **análisis de grafos** de relaciones entre entidades o personas."
     },
     {
+      "id": "t_40_12",
       "p": "¿Para qué sirve Shodan?",
       "r": "Buscador de **dispositivos conectados a Internet**: servicios, puertos abiertos y posibles vulnerabilidades por IP o dominio."
     },
     {
+      "id": "t_40_13",
       "p": "¿Qué es el Google hacking o dorking?",
       "r": "Uso de **operadores avanzados de búsqueda** para localizar información expuesta; herramientas como GooScan lo automatizan."
     },
     {
+      "id": "t_40_14",
       "p": "¿Qué herramientas extraen metadatos de documentos?",
       "r": "**FOCA** y **ExifTool**."
     },
     {
+      "id": "t_40_15",
       "p": "¿Qué es la Surface Web?",
       "r": "El contenido **indexado por los buscadores** convencionales (Google, Bing)."
     },
     {
+      "id": "t_40_16",
       "p": "¿Qué es la Deep Web?",
       "r": "Contenido **no indexado** por los buscadores (cuentas bancarias, intranets, foros cerrados); es la **mayor parte** de Internet y no es ilegal por sí misma."
     },
     {
+      "id": "t_40_17",
       "p": "¿Qué es la Dark Web?",
       "r": "Sección **reducida de la Deep Web** accesible por redes específicas como Tor (.onion); alberga usos lícitos e ilícitos."
     },
     {
+      "id": "t_40_18",
       "p": "Darknet frente a dark web según Europol.",
       "r": "**Darknet**: la parte cifrada de Internet accesible con software específico (Tor). **Dark web**: los sitios y servicios alojados en esas redes."
     },
     {
+      "id": "t_40_19",
       "p": "¿Es ilegal acceder a la Dark Web?",
       "r": "El simple acceso **no es ilegal en sí mismo** (INCIBE); participar en actividades delictivas dentro de ella sí puede tener consecuencias legales graves."
     },
     {
+      "id": "t_40_20",
       "p": "¿Qué es el sesgo de anclaje?",
       "r": "Tomar un punto de partida como primera estimación y **ajustarlo de forma insuficiente** al recibir nueva información (Heuer)."
     },
     {
+      "id": "t_40_21",
       "p": "¿Qué es la imagen en espejo (mirror-imaging)?",
       "r": "Rellenar lagunas suponiendo que el adversario actuará como lo haría el propio analista."
     },
     {
+      "id": "t_40_22",
       "p": "¿Qué no hace el modo incógnito?",
       "r": "No oculta la actividad a los **sitios web visitados**, a la **red** (empleador, centro) ni al **proveedor de acceso**; solo evita guardar historial y cookies en el equipo."
     },
     {
+      "id": "t_40_23",
       "p": "¿Cómo se evalúan fuente e información?",
       "r": "**Por separado**. Sistemas **4x4** (fuente A, B, C, X; información 1-4) y **6x6** (fuente A-F; información 1-6)."
     }
   ],
   "preguntas": [
     {
+      "id": "q_40_01",
       "enunciado": "¿Cuál es la secuencia correcta de las fases del ciclo de inteligencia que describe el CNI?",
       "opciones": [
         "Dirección, obtención, elaboración y difusión.",
@@ -443,6 +467,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_40_02",
       "enunciado": "En el ciclo de inteligencia del CNI, ¿en qué fase se valora la calidad y el origen de la información recibida?",
       "opciones": [
         "Dirección",
@@ -455,6 +480,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_40_03",
       "enunciado": "¿Cómo se denomina el documento secreto, aprobado cada año, que recoge los objetivos de inteligencia del Gobierno y da inicio al ciclo de inteligencia?",
       "opciones": [
         "Estrategia de Seguridad Nacional.",
@@ -467,6 +493,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_40_04",
       "enunciado": "Señale la pareja INCORRECTA entre disciplina de inteligencia y tipo de fuente:",
       "opciones": [
         "HUMINT: información procedente de fuentes humanas.",
@@ -479,6 +506,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_40_05",
       "enunciado": "Una analista combina imágenes de satélite e información geográfica para localizar un campamento. ¿Qué disciplina de inteligencia aplica?",
       "opciones": [
         "HUMINT",
@@ -491,6 +519,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_40_06",
       "enunciado": "¿Cuál de las siguientes definiciones corresponde a la inteligencia de fuentes abiertas (OSINT)?",
       "opciones": [
         "Inteligencia producida a partir de información públicamente disponible, recogida, explotada y difundida a tiempo a la audiencia adecuada para responder a un requerimiento concreto.",
@@ -503,6 +532,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_40_07",
       "enunciado": "Según el manual de la OTAN sobre OSINT, ¿cómo se denomina la información abierta a la que puede atribuirse un grado de certeza muy alto?",
       "opciones": [
         "Datos abiertos (OSD).",
@@ -515,6 +545,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_40_08",
       "enunciado": "¿Qué pareja de herramienta OSINT y finalidad es correcta?",
       "opciones": [
         "Maltego: búsqueda de dispositivos conectados a Internet; Shodan: extracción de metadatos de documentos; FOCA: análisis de relaciones mediante grafos.",
@@ -527,6 +558,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_40_09",
       "enunciado": "El «Google hacking» o dorking, técnica habitual en OSINT, consiste en…",
       "opciones": [
         "usar operadores avanzados de búsqueda para filtrar y localizar información expuesta en los buscadores.",
@@ -539,6 +571,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_40_10",
       "enunciado": "En el análisis de inteligencia, el sesgo de anclaje consiste en…",
       "opciones": [
         "buscar únicamente las pruebas que confirman la hipótesis de partida.",
@@ -551,6 +584,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_40_11",
       "enunciado": "¿Cómo se llama el sesgo que consiste en rellenar lagunas de conocimiento suponiendo que el adversario actuaría como lo haría el propio analista?",
       "opciones": [
         "Sesgo de disponibilidad.",
@@ -563,6 +597,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_40_12",
       "enunciado": "Según la UNODC, ¿cómo deben evaluarse la fuente y la información recibida?",
       "opciones": [
         "De forma independiente: por un lado la fiabilidad de la fuente y por otro la validez de la información.",
@@ -575,6 +610,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_40_13",
       "enunciado": "Las bases de datos estructuradas de acceso limitado (antecedentes penales, matrículas, licencias de armas) son, según la UNODC, fuentes…",
       "opciones": [
         "abiertas.",
@@ -587,6 +623,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_40_14",
       "enunciado": "¿Cómo se denomina la parte de Internet cuyo contenido está indexado por los buscadores convencionales, como Google o Bing?",
       "opciones": [
         "Deep Web",
@@ -599,6 +636,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_40_15",
       "enunciado": "Señale la afirmación correcta sobre la Deep Web:",
       "opciones": [
         "Es la mayor parte del contenido de Internet y no está indexada por los buscadores; incluye servicios legítimos como la banca en línea o las intranets.",
@@ -611,6 +649,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_40_16",
       "enunciado": "Según Europol (IOCTA 2019), ¿cómo se distinguen los términos darknet y dark web?",
       "opciones": [
         "La darknet es el contenido ilícito y la dark web es la red cifrada a la que se accede con Tor.",
@@ -623,6 +662,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_40_17",
       "enunciado": "Las direcciones web que terminan en «.onion»…",
       "opciones": [
         "se indexan en Google como cualquier otra página.",
@@ -635,6 +675,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_40_18",
       "enunciado": "Una persona accede con el navegador Tor a una web .onion de un foro de debate, sin realizar ninguna actividad ilícita. Según INCIBE, el simple acceso a la Dark Web…",
       "opciones": [
         "no es ilegal en sí mismo, aunque participar en actividades delictivas dentro de ella puede tener consecuencias legales graves.",
@@ -647,6 +688,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_40_19",
       "enunciado": "¿Qué ocurre cuando se navega en modo incógnito (navegación privada)?",
       "opciones": [
         "Se cifra todo el tráfico y se oculta la actividad a los sitios web y al proveedor de acceso.",
@@ -659,6 +701,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_40_20",
       "enunciado": "Según la UNODC, ¿qué transforma la información en inteligencia?",
       "opciones": [
         "Su clasificación con un grado de secreto.",

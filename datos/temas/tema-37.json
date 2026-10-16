@@ -325,104 +325,129 @@
   ],
   "tarjetas": [
     {
+      "id": "t_37_01",
       "p": "¿Cuántas letras tiene el abecedario español y qué son ch y ll?",
       "r": "**27 letras**; ch y ll son **dígrafos** (junto a gu, qu y rr), no letras."
     },
     {
+      "id": "t_37_02",
       "p": "¿Cómo se escribe «guion» y por qué?",
       "r": "**Sin tilde**: es monosílabo a efectos ortográficos (también truhan, ion, muon)."
     },
     {
+      "id": "t_37_03",
       "p": "¿Cuándo llevan tilde las palabras agudas?",
       "r": "Cuando terminan en **n, s (no precedida de otra consonante) o vocal**."
     },
     {
+      "id": "t_37_04",
       "p": "¿Cuándo llevan tilde las palabras llanas?",
       "r": "Cuando terminan en consonante distinta de **n o s**, en **más de una consonante** (bíceps) o en **y**."
     },
     {
+      "id": "t_37_05",
       "p": "¿Cuándo llevan tilde las esdrújulas y sobresdrújulas?",
       "r": "**Siempre** (rápido, cómaselo)."
     },
     {
+      "id": "t_37_06",
       "p": "¿Cuándo lleva tilde un hiato?",
       "r": "Siempre que sea de **vocal cerrada tónica con abierta** (María, país, reír)."
     },
     {
+      "id": "t_37_07",
       "p": "Tilde diacrítica en monosílabos: ¿cuáles son los tónicos?",
       "r": "**tú, él, mí, sí, té, dé, sé, más** (y aún)."
     },
     {
+      "id": "t_37_08",
       "p": "¿Llevan tilde «solo», «este», «ese», «aquel»?",
       "r": "**No**, ni siquiera en caso de ambigüedad (Ortografía de 2010)."
     },
     {
+      "id": "t_37_09",
       "p": "¿Cuándo se escribe «aún» y cuándo «aun»?",
       "r": "«**aún**» = todavía; «**aun**» = incluso, hasta, aunque (aun cuando)."
     },
     {
+      "id": "t_37_10",
       "p": "¿Cuál es la diferencia entre porque, por que, porqué y por qué?",
       "r": "porque: causa; por que: preposición + que; porqué: sustantivo (los porqués); por qué: interrogativo (¿Por qué?)."
     },
     {
+      "id": "t_37_11",
       "p": "¿Cuándo se escribe «sino» y cuándo «si no»?",
       "r": "«sino»: adversativa o ‘destino’; «si no»: condicional + negación."
     },
     {
+      "id": "t_37_12",
       "p": "¿Cuál es la excepción de herm- con h?",
       "r": "**ermita** (sin h); también ogro (hog-)."
     },
     {
+      "id": "t_37_13",
       "p": "¿Desecho o deshecho?",
       "r": "**Desecho** (residuo) sin h; **deshecho** (participio de deshacer) con h."
     },
     {
+      "id": "t_37_14",
       "p": "¿Cuál es el plural de una sigla como ONG?",
       "r": "**Las ONG**: invariable; no «ONGs» ni «ONG's»."
     },
     {
+      "id": "t_37_15",
       "p": "¿Cómo se escribe la abreviatura de Estados Unidos?",
       "r": "**EE. UU.** (con puntos y espacio entre los bloques)."
     },
     {
+      "id": "t_37_16",
       "p": "¿Cuál es el orden de las comillas?",
       "r": "Primero las angulares « », luego las inglesas “ ” y después las simples ‘ ’."
     },
     {
+      "id": "t_37_17",
       "p": "¿Cuándo se escribe mayúscula tras dos puntos?",
       "r": "Tras el **saludo de una carta** y ante una **cita textual**; en los demás casos, minúscula."
     },
     {
+      "id": "t_37_18",
       "p": "¿Cómo se escribe la locución latina grosso modo y cómo se resalta?",
       "r": "«grosso modo» en **cursiva** y sin tilde; no «a grosso modo»."
     },
     {
+      "id": "t_37_19",
       "p": "¿Cómo se escribe 444 en números romanos?",
       "r": "**CDXLIV**; no se repite un signo más de tres veces."
     },
     {
+      "id": "t_37_20",
       "p": "¿Cómo se separan los miles en cifras?",
       "r": "Con un **pequeño espacio** (27 315 857), nunca con punto ni coma; los números de cuatro cifras y los años no se separan."
     },
     {
+      "id": "t_37_21",
       "p": "¿Cómo se escribe un porcentaje?",
       "r": "«**el 13 %**» (con espacio) o «el trece por ciento»; «por ciento» siempre en dos palabras."
     },
     {
+      "id": "t_37_22",
       "p": "¿Cómo se escribe la hora en los modelos de 24 y de 12 horas?",
       "r": "24 horas: números del 0 al 23 (17:48 h). 12 horas: con a. m. o p. m. (4 p. m.); las 12 de la mañana, 12 m."
     },
     {
+      "id": "t_37_23",
       "p": "¿Cómo se escribe una fecha?",
       "r": "Orden ascendente: «27 de julio de 2011» o 27.07.2011; el nombre del mes, siempre con minúscula."
     },
     {
+      "id": "t_37_24",
       "p": "¿Qué ordinal corresponde al 11.º y qué es onceavo?",
       "r": "Undécimo, decimoprimero o décimo primero; **onceavo** es el fraccionario (1/11)."
     }
   ],
   "preguntas": [
     {
+      "id": "q_37_01",
       "enunciado": "Señale la oración correctamente escrita en cuanto a la tilde diacrítica:",
       "opciones": [
         "Sí tú no vienes, iré yo sola.",
@@ -435,6 +460,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_37_02",
       "enunciado": "Señale la oración correctamente escrita en cuanto a aún y aun:",
       "opciones": [
         "Aún no ha llegado el paquete.",
@@ -447,6 +473,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_37_03",
       "enunciado": "Señale la opción correctamente escrita en cuanto a por qué, porqué y por que:",
       "opciones": [
         "¿Porqué no viniste? Quería saber porqué.",
@@ -459,6 +486,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_37_04",
       "enunciado": "Señale la oración correctamente escrita en cuanto al sustantivo «porqué»:",
       "opciones": [
         "Nadie respondió a sus por qués.",
@@ -471,6 +499,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_37_05",
       "enunciado": "Señale la oración correctamente escrita en cuanto a sino y si no:",
       "opciones": [
         "No quiere café, si no té.",
@@ -483,6 +512,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_37_06",
       "enunciado": "Señale la oración correctamente escrita en cuanto a sobre todo y sobretodo:",
       "opciones": [
         "Me gusta sobre todo su sinceridad.",
@@ -495,6 +525,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_37_07",
       "enunciado": "Señale la oración correctamente escrita en cuanto a aparte y a parte:",
       "opciones": [
         "El virus ha afectado a parte del equipo.",
@@ -507,6 +538,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_37_08",
       "enunciado": "Señale la oración correctamente escrita en cuanto a la locución «a gusto»:",
       "opciones": [
         "Se encontraba agusto en su nuevo puesto.",
@@ -519,6 +551,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_37_09",
       "enunciado": "Señale la oración correctamente escrita en cuanto a «encallar» y «a bordo»:",
       "opciones": [
         "La embarcación encayó en la costa con todos los pasajeros a bordo.",
@@ -531,6 +564,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_37_10",
       "enunciado": "Señale la palabra correctamente escrita:",
       "opciones": [
         "Hermita",
@@ -543,6 +577,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_37_11",
       "enunciado": "¿Cuál de las siguientes formas NO es válida como ordinal correspondiente al número 11?",
       "opciones": [
         "Onceavo",
@@ -555,6 +590,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_37_12",
       "enunciado": "Señale la oración correctamente escrita en cuanto a desecho y deshecho:",
       "opciones": [
         "Tiró a la basura los deshechos de la obra.",
@@ -567,6 +603,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_37_13",
       "enunciado": "Señale la palabra correctamente acentuada:",
       "opciones": [
         "Biceps",
@@ -579,6 +616,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_37_14",
       "enunciado": "Señale la forma correcta:",
       "opciones": [
         "Guión",
@@ -591,6 +629,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_37_15",
       "enunciado": "Respecto al galicismo «cliché», según el Diccionario panhispánico de dudas:",
       "opciones": [
         "Son válidas tanto «cliché» como la adaptación «clisé»",
@@ -603,6 +642,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_37_16",
       "enunciado": "Señale la oración con un uso correcto de mayúsculas y minúsculas:",
       "opciones": [
         "El presidente del Gobierno llegó con la ministra de Defensa.",
@@ -615,6 +655,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_37_17",
       "enunciado": "Señale el plural correcto de la sigla ONG (organización no gubernamental):",
       "opciones": [
         "Las ONGs",
@@ -627,6 +668,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_37_18",
       "enunciado": "¿Cómo se escribe correctamente el número 45 en cifras romanas?",
       "opciones": [
         "VL",
@@ -639,6 +681,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_37_19",
       "enunciado": "¿Cuál es la escritura correcta de la cantidad 27 315 857 en cifras?",
       "opciones": [
         "27.315.857, con puntos entre los grupos de tres cifras",
@@ -651,6 +694,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_37_20",
       "enunciado": "¿Cómo deben escribirse las locuciones latinas (ad libitum, post mortem) en un texto español?",
       "opciones": [
         "En cursiva, o entre comillas si se escribe a mano, y sin tildes",
@@ -663,6 +707,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_37_21",
       "enunciado": "Señale la oración correctamente puntuada en cuanto al vocativo:",
       "opciones": [
         "¿Pedro, cuántos años tienes?",
@@ -675,6 +720,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_37_22",
       "enunciado": "Señale la oración correctamente puntuada en cuanto a la coma entre sujeto y verbo:",
       "opciones": [
         "Mis padres, mis tíos, mis abuelos, me felicitaron ayer.",
@@ -687,6 +733,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_37_23",
       "enunciado": "Las palabras llanas llevan tilde cuando terminan en:",
       "opciones": [
         "N, s o vocal",
@@ -699,6 +746,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_37_24",
       "enunciado": "¿Cuál de las siguientes palabras se escribe con tilde por contener un hiato de vocal cerrada tónica y vocal abierta?",
       "opciones": [
         "Día",

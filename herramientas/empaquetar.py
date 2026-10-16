@@ -52,6 +52,40 @@ def css_ascii(s, ruta):
     return "".join(res)
 
 
+def comprobar_recursos(carpeta):
+    """Todo lo que cargan el HTML y el CSS existe en la carpeta publicada y nada se pide a servidores externos.
+
+    La web debe funcionar sin conexión y sin enviar peticiones a terceros (p. ej. Google Fonts): las fuentes van
+    en css/fuentes/ y se declaran con @font-face en app.css. Devuelve el número de fuentes .woff2 publicadas.
+    """
+    errores = []
+    for raiz, _, ficheros in os.walk(carpeta):
+        for f in ficheros:
+            ext = os.path.splitext(f)[1].lower()
+            if ext not in (".html", ".css"):
+                continue
+            ruta = os.path.join(raiz, f)
+            rel = os.path.relpath(ruta, carpeta)
+            with open(ruta, encoding="ascii") as fh:
+                txt = fh.read()
+            if ext == ".css":
+                refs = re.findall(r"url\(\s*[\"']?([^)\"']+)[\"']?\s*\)", txt) + re.findall(r"@import\s+[\"']([^\"']+)[\"']", txt)
+            else:
+                refs = re.findall(r"<(?:link|script|img|source)\b[^>]*?\b(?:href|src)=[\"']([^\"']+)[\"']", txt)
+            for r in refs:
+                if re.match(r"https?:|//", r, re.I):
+                    errores.append("%s: carga un recurso externo (%s)" % (rel, r[:70]))
+                elif not re.match(r"(?:data:|#|[a-z]+:)", r, re.I):
+                    destino = os.path.normpath(os.path.join(raiz, r.split("?")[0].split("#")[0]))
+                    if not os.path.exists(destino):
+                        errores.append("%s: no existe el recurso %s" % (rel, r))
+            if re.search(r"fonts\.(?:googleapis|gstatic)\.com", txt, re.I):
+                errores.append("%s: todavía hay referencias a Google Fonts" % rel)
+    if errores:
+        sys.exit("ERROR en los recursos de %s:\n  %s" % (carpeta, "\n  ".join(errores)))
+    return sum(1 for _, _, fs in os.walk(carpeta) for f in fs if f.endswith(".woff2"))
+
+
 def main():
     if os.path.isdir(DESTINO):
         shutil.rmtree(DESTINO)
@@ -108,7 +142,10 @@ def main():
                         malos.append(f)
     if malos:
         sys.exit("ERROR: quedan caracteres no ASCII en: %s" % ", ".join(malos))
-    print("dist/ generado: %d ficheros, todo el texto en ASCII" % n)
+    fuentes = comprobar_recursos(DESTINO)
+    if comprobar_recursos(SITIO) != fuentes:
+        sys.exit("ERROR: dist/ y sitio/ no llevan las mismas fuentes")
+    print("dist/ generado: %d ficheros (%d fuentes .woff2 locales), todo el texto en ASCII y sin recursos externos" % (n, fuentes))
 
 
 if __name__ == "__main__":

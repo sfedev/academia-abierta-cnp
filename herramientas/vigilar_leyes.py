@@ -13,6 +13,10 @@ Uso:
   python -I herramientas/vigilar_leyes.py revisar ID [ID...]   # marca novedades como incorporadas
   python -I herramientas/vigilar_leyes.py revisar --todo
 
+Cada novedad avisa solo en las fichas que citan algún artículo modificado («temas»); las demás fichas que
+citan la norma van en «otrosTemas». Si ninguna ficha cita los artículos tocados, la novedad se registra como
+incorporada y «sinImpacto» (visible en la web, sin issue ni banner).
+
 La primera ejecución (sin foto previa) solo guarda la línea base: no inventa cambios.
 Las fuentes que no son del BOE (UE, RAE, INE, DGT...) no se vigilan aquí: se cuentan y se avisan.
 """
@@ -29,6 +33,9 @@ import time
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # python -I no añade la carpeta del script
+import citas  # noqa: E402
 
 RAIZ = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 API = "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/%s/%s"
@@ -92,18 +99,21 @@ def guardar_json(p, datos, indent=None):
 
 
 # ---------------------------------------------------------------- normas que citan las fichas
+# Una reforma solo avisa en una ficha si toca un artículo que esa ficha cita de esa norma (ver citas.py).
 def normas_de_fichas():
+    """({norma BOE: {tema: artículos de esa norma que cita su ficha}}, nº de referencias que no son del BOE)."""
     ids, otras = {}, 0
     for p in sorted(glob.glob(os.path.join(RAIZ, "datos", "temas", "tema-*.json"))):
         with open(p, encoding="utf-8") as f:
             d = json.load(f)
+        citados = citas.citados_por_norma(d)
         for n in d.get("normas", []):
             b = n.get("boe")
             if b and re.match(r"^BOE-A-\d{4}-\d+$", b):
-                ids.setdefault(b, set()).add(d["tema"])
+                ids.setdefault(b, {})[d["tema"]] = citados.get(b, set())
             else:
                 otras += 1
-    return {k: sorted(v) for k, v in ids.items()}, otras
+    return ids, otras
 
 
 # ---------------------------------------------------------------- lectura de una norma
@@ -184,7 +194,12 @@ def titulo_de(norma_id, cache):
 
 # ---------------------------------------------------------------- comparación
 def comparar(norma_id, previo, actual, temas, h, cache_titulos, historial=None):
-    """Genera novedades agrupadas por (norma modificadora, publicación, vigencia)."""
+    """Genera novedades agrupadas por (norma modificadora, publicación, vigencia).
+
+    `temas` es {tema: artículos que cita su ficha}. `temas` de la novedad = fichas que citan algún artículo
+    modificado (o de las que no se puede descartar); `otrosTemas` = fichas que citan la norma pero no esos
+    artículos. Si ninguna ficha queda afectada, la novedad se registra ya como incorporada y «sinImpacto».
+    """
     eventos = []
     nuevos = {}  # (modificadora, pub, vig) -> [rotulos]
     prev_b = previo["bloques"] if previo else {}
@@ -207,25 +222,37 @@ def comparar(norma_id, previo, actual, temas, h, cache_titulos, historial=None):
         mod_id = mod
         futura = vig > h
         eid = hashlib.sha1(("%s|%s|%s|%s" % (norma_id, mod, pub, vig)).encode()).hexdigest()[:10]
-        eventos.append({
+        ordenados = ordenar_arts(arts)
+        por_tema = {t: citas.articulos_afectados(ordenados, citados) for t, citados in temas.items()}
+        afectados = sorted(t for t, a in por_tema.items() if a)
+        otros = sorted(set(temas) - set(afectados))
+        ev = {
             "id": eid,
             "detectado": iso(h),
             "norma": {"id": norma_id, "corto": actual["corto"], "titulo": actual["titulo"], "url": "https://www.boe.es/buscar/act.php?id=" + norma_id},
-            "temas": temas,
+            "temas": afectados,
+            "otrosTemas": otros,
             "tipo": "proxima" if futura else "modificada",
             "modificadora": {"id": mod_id, "titulo": titulo_de(mod_id, cache_titulos) if mod_id else "", "url": ("https://www.boe.es/buscar/doc.php?id=" + mod_id) if mod_id else ""},
             "publicacion": iso(pub),
             "vigencia": iso(vig),
-            "articulos": ordenar_arts(arts)[:12],
-            "nArticulos": len(arts),
+            "articulos": ordenados[:12],
+            "nArticulos": len(ordenados),
+            "articulosPorTema": {str(t): por_tema[t][:30] for t in afectados},
             "estado": "pendiente" if (previo is not None or futura) else "incorporada",
-        })
+        }
+        if not afectados:  # ninguna ficha cita los artículos modificados: queda registrado, pero no avisa
+            ev["estado"] = "incorporada"
+            ev["sinImpacto"] = True
+            ev["revisada"] = iso(h)
+        eventos.append(ev)
     if previo is not None and not previo.get("derogada") and actual["derogada"]:
         eventos.append({
             "id": hashlib.sha1(("%s|derogada|%s" % (norma_id, h)).encode()).hexdigest()[:10],
             "detectado": iso(h),
             "norma": {"id": norma_id, "corto": actual["corto"], "titulo": actual["titulo"], "url": "https://www.boe.es/buscar/act.php?id=" + norma_id},
-            "temas": temas,
+            "temas": sorted(temas),
+            "otrosTemas": [],
             "tipo": "derogada",
             "modificadora": {"id": "", "titulo": "", "url": ""},
             "publicacion": "",
@@ -260,14 +287,26 @@ def escribir_web(items, comprobacion, vigiladas, sin_consolidar, otras, errores)
         f.write("window.AA_NOVEDADES=" + json.dumps(datos, ensure_ascii=True, separators=(",", ":")) + ";\n")
 
 
+def leer_web():
+    """Datos de la última comprobación guardados en web/data/novedades.js ({} si no existe)."""
+    try:
+        with open(WEB, encoding="utf-8") as f:
+            s = f.read()
+        return json.loads(s[s.index("=") + 1:].strip().rstrip(";"))
+    except Exception:  # noqa: BLE001
+        return {}
+
+
 def resumen_markdown(nuevas, repo_url=""):
     l = ["Se %s **%d** %s en normas que usa el temario.\n" % ("ha detectado" if len(nuevas) == 1 else "han detectado", len(nuevas), "cambio" if len(nuevas) == 1 else "cambios")]
     for e in nuevas:
         arts = ", ".join(e["articulos"][:6]) + ("…" if e["nArticulos"] > 6 else "")
         cuando = ("entra en vigor el %s" % e["vigencia"]) if e["tipo"] == "proxima" else ("vigente desde %s" % e["vigencia"])
         mod = (" por [%s](%s)" % (e["modificadora"]["id"], e["modificadora"]["url"])) if e["modificadora"]["id"] else ""
-        l.append("- **%s**%s (%s; %s). Afecta a los temas: %s. %s" % (
-            e["norma"]["corto"], mod, e["tipo"], cuando, ", ".join(str(t) for t in e["temas"]), ("Artículos: " + arts) if arts else ""))
+        otros = e.get("otrosTemas") or []
+        l.append("- **%s**%s (%s; %s). Afecta a los temas: %s. %s%s" % (
+            e["norma"]["corto"], mod, e["tipo"], cuando, ", ".join(str(t) for t in e["temas"]), ("Artículos: " + arts) if arts else "",
+            (" También citan la norma, pero no esos artículos: temas %s." % ", ".join(str(t) for t in otros)) if otros else ""))
     l.append("\nRevisa las fichas afectadas y marca las novedades como incorporadas con `python -I herramientas/vigilar_leyes.py revisar ID`.")
     return "\n".join(l)
 
@@ -342,7 +381,11 @@ def cmd_listar(_):
     if not items:
         print("Sin novedades registradas.")
     for e in items:
-        print("%s  [%-11s] %-9s %-12s temas %-12s vig %s  (%d art.)" % (e["id"], e["estado"], e["tipo"], e["norma"]["corto"], ",".join(map(str, e["temas"])), e["vigencia"], e["nArticulos"]))
+        temas = ",".join(map(str, e["temas"])) or "-"
+        otros = e.get("otrosTemas") or []
+        if otros:
+            temas += " (sin tocar: %s)" % ",".join(map(str, otros))
+        print("%s  [%-11s] %-9s %-12s temas %-12s vig %s  (%d art.)%s" % (e["id"], e["estado"], e["tipo"], e["norma"]["corto"], temas, e["vigencia"], e["nArticulos"], "  sin impacto" if e.get("sinImpacto") else ""))
 
 
 def cmd_revisar(args):
@@ -356,7 +399,10 @@ def cmd_revisar(args):
             n += 1
     guardar_json(NOVEDADES, nov, indent=1)
     normas, otras = normas_de_fichas()
-    escribir_web(nov["items"], hoy(), len(estado["normas"]), [], otras, [])
+    # Revisar no vuelve a consultar el BOE: conserva fecha de comprobación, normas sin texto consolidado y errores.
+    w = leer_web()
+    escribir_web(nov["items"], (w.get("comprobacion") or iso(hoy())).replace("-", ""), w.get("normasVigiladas", len(estado["normas"])),
+                 w.get("sinConsolidar", []), otras, w.get("errores", []))
     print("Novedades marcadas como incorporadas: %d" % n)
 
 

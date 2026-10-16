@@ -9,7 +9,8 @@ Tu trabajo: escribir, para cada tema que te asignen, **una ficha de estudio exac
 
 1. **Lee el texto vigente de cada norma con `boe.py`**, no resúmenes de terceros:
    `python -I herramientas/boe.py BOE-A-XXXX-NNNN <carpeta_de_trabajo>/norma.txt`
-   La cabecera del fichero da título, fecha de última consolidación y URL. Comprueba que el título es la norma que buscas. Trabaja en una carpeta propia dentro de `trabajo/<tu_nombre>/` (no la subas a `datos/`).
+   La cabecera del fichero da título, fecha de última consolidación, fecha a la que es vigente el texto y URL. Comprueba que el título es la norma que buscas. Trabaja en una carpeta propia dentro de `trabajo/<tu_nombre>/` (no la subas a `datos/`).
+   El texto de cada artículo es el **vigente hoy**. Si el BOE ya ha publicado una reforma que todavía no ha entrado en vigor, la versión futura aparece justo después, marcada `[a49 · desde AAAA-MM-DD · BOE-…]` (la cabecera avisa de cuántos bloques la tienen): estudia lo vigente y anota el cambio próximo en `novedades`. No des por vigente un texto marcado «desde» una fecha futura.
    - Busca los identificadores BOE con WebSearch (`site:boe.es`) si no los conoces. Los que te indico en tu encargo son orientativos: confirma el título en la cabecera.
    - WebFetch devuelve un resumen hecho por otro modelo: **no lo uses como fuente de artículos, plazos ni cifras**. Úsalo, como mucho, para localizar cosas.
 2. **Cita siempre el artículo** o apartado en `ref` de las preguntas y en las explicaciones. Cada plazo, cifra, órgano o lista que escribas debe poder señalarse en el texto que has leído.
@@ -47,9 +48,10 @@ Un fichero por tema: `datos/temas/tema-NN.json` (NN con dos dígitos). UTF-8, JS
   "trampas": ["Cambian el órgano: la competencia es de X, no de Y."],
   "caido": [ { "examen": "1 mar 2025", "concepto": "Plazo de ... (art. X)" } ],
   "mnemotecnias": ["Regla breve para recordar una lista o una cifra (opcional)."],
-  "tarjetas": [ { "p": "¿Cuál es el plazo máximo de ...?", "r": "**72 horas** (art. 17.2 CE)." } ],
+  "tarjetas": [ { "id": "t_14_01", "p": "¿Cuál es el plazo máximo de ...?", "r": "**72 horas** (art. 17.2 CE)." } ],
   "preguntas": [
-    { "enunciado": "Según la LO 4/2015, ¿cuál de las siguientes es una infracción grave?",
+    { "id": "q_14_01",
+      "enunciado": "Según la LO 4/2015, ¿cuál de las siguientes es una infracción grave?",
       "opciones": ["Opción A", "Opción B", "Opción C"],
       "correcta": 1,
       "explicacion": "Art. 36.x: ... Las otras opciones son leves/muy graves porque ...",
@@ -61,6 +63,8 @@ Un fichero por tema: `datos/temas/tema-NN.json` (NN con dos dígitos). UTF-8, JS
 ```
 
 Campos: `tarjetas` 10-24; `preguntas` 15-24 (ver §4); `clave` 6-14; `trampas` 4-10; `resumen` ≥ 3 secciones; `tabla` y `mnemotecnias`, `caido`, `novedades`, `dudas` son opcionales (`[]` si no hay).
+
+**`id`** (en cada pregunta y tarjeta): identificador estable con el que la web guarda el progreso de cada usuario. Formato `q_NN_01` (preguntas) y `t_NN_01` (tarjetas), con NN = número de tema a dos dígitos. No lo escribas a mano: al terminar, ejecuta `python -I herramientas/migrar_ids.py` y da el siguiente número libre a las que no lo tengan (los números no se reutilizan). Gracias a él puedes corregir un enunciado sin que los usuarios pierdan su historial; si cambia el **sentido** de una pregunta (otra respuesta correcta), borra su `id` y vuelve a ejecutar el script para que reciba uno nuevo. El validador da error si falta, tiene otro formato o está repetido en cualquier ficha.
 
 **Marcado de texto**: solo `**negrita**` (para cifras, plazos, órganos, palabras decisivas). Nada de HTML, ni Markdown de listas, ni enlaces. Los saltos de línea no se usan: cada elemento de `puntos` es una frase o dos.
 
@@ -97,7 +101,8 @@ Campos: `tarjetas` 10-24; `preguntas` 15-24 (ver §4); `clave` 6-14; `trampas` 4
 ## 6. Entrega
 
 1. Escribe `datos/temas/tema-NN.json` para cada tema asignado.
-2. Valida: `python -I herramientas/validar_tema.py datos/temas/tema-NN.json`. Corrige hasta **0 errores** y atiende los avisos.
+2. Asigna los ids de las preguntas y tarjetas nuevas: `python -I herramientas/migrar_ids.py datos/temas/tema-NN.json`.
+   Valida: `python -I herramientas/validar_tema.py datos/temas/tema-NN.json`. Corrige hasta **0 errores** y atiende los avisos. El workflow de publicación repite esta validación y no publica si hay errores.
 3. Responde con un resumen de ≤ 150 palabras: temas entregados, normas leídas (con fecha de consolidación), `dudas` pendientes y cualquier cosa que no hayas podido verificar. No pegues el contenido de las fichas en la respuesta.
 
 Reglas finales: no toques ficheros de otros temas; no edites `web/` ni `herramientas/`; no copies redacción de terceros; no inventes.

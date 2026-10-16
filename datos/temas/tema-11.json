@@ -239,76 +239,94 @@
  ],
  "tarjetas": [
   {
+   "id": "t_11_01",
    "p": "¿Cómo se clasifican las infracciones de la LO 4/2000?",
    "r": "En **leves, graves y muy graves** (art. 51.2). No existe la categoría «menos grave»."
   },
   {
+   "id": "t_11_02",
    "p": "¿Qué multa corresponde a cada calificación?",
    "r": "Leves, hasta **500 €**; graves, **501 a 10.000 €**; muy graves, **10.001 a 100.000 €** (art. 55.1)."
   },
   {
+   "id": "t_11_03",
    "p": "¿En cuánto prescriben las infracciones y las sanciones?",
    "r": "Infracciones: muy graves **3 años**, graves **2 años**, leves **6 meses**. Sanciones: **5 años**, **2 años** y **1 año** (art. 56)."
   },
   {
+   "id": "t_11_04",
    "p": "¿Cuándo empieza a prescribir la sanción de expulsión?",
    "r": "Cuando haya transcurrido el período de prohibición de entrada fijado en la resolución, con un máximo de **10 años** (art. 56.3)."
   },
   {
+   "id": "t_11_05",
    "p": "¿Quién impone las sanciones y quién las de seguridad nacional?",
    "r": "El **Subdelegado del Gobierno** (o el Delegado en comunidades uniprovinciales). Las del art. 54.1.a, el **Secretario de Estado de Seguridad** (art. 55.2)."
   },
   {
+   "id": "t_11_06",
    "p": "¿Cuándo puede imponerse la expulsión en lugar de la multa?",
    "r": "En las infracciones **muy graves** y en las graves del art. 53.1 letras a, b, c, d y f (art. 57.1). También si hay condena por delito doloso con pena de prisión superior a un año (57.2)."
   },
   {
+   "id": "t_11_07",
    "p": "¿A quién no puede expulsarse (salvo seguridad nacional o reincidencia en un año)?",
    "r": "Nacidos en España con 5 años de residencia legal, residentes de larga duración, antiguos españoles de origen y perceptores de incapacidad permanente laboral, desempleo o prestaciones asistenciales (art. 57.5)."
   },
   {
+   "id": "t_11_08",
    "p": "¿Cuánto dura la prohibición de entrada tras una expulsión?",
    "r": "Hasta **5 años**; hasta **10** si el extranjero es una amenaza grave para el orden público, la seguridad pública o nacional o la salud pública (art. 58.1-2)."
   },
   {
+   "id": "t_11_09",
    "p": "¿Cuándo procede la devolución y qué efectos tiene?",
    "r": "Sin expediente de expulsión: expulsados que quebrantan la prohibición de entrada (se reinicia el cómputo) y quienes pretenden entrar ilegalmente (prohibición de entrada de hasta **3 años**) (art. 58.3 y 58.7)."
   },
   {
+   "id": "t_11_10",
    "p": "¿Cuál es la duración máxima del internamiento y quién lo autoriza?",
    "r": "**60 días**, autorizado por el **Juez de Instrucción**, sin nuevo internamiento por las mismas causas en el mismo expediente (art. 62)."
   },
   {
+   "id": "t_11_11",
    "p": "¿Qué medidas cautelares puede adoptar el instructor?",
    "r": "Presentación periódica, residencia obligatoria, retirada del pasaporte, detención cautelar de hasta **72 horas**, internamiento preventivo con autorización judicial y cualquier otra que el juez estime adecuada (art. 61)."
   },
   {
+   "id": "t_11_12",
    "p": "Procedimiento preferente: ¿cuándo se aplica y qué plazos tiene?",
    "r": "Cuando pueda proponerse expulsión por los arts. 53.1 letras d y f, 54.1 letras a y b o 57.2, o por estancia irregular con riesgo de incomparecencia. Alegaciones en **48 horas**, ejecución inmediata y sin salida voluntaria (art. 63 LO)."
   },
   {
+   "id": "t_11_13",
    "p": "Procedimiento ordinario de expulsión: ¿qué plazo de salida voluntaria tiene?",
    "r": "Entre **7 y 30 días** desde la notificación; prorrogable. Un plazo inferior a 15 días es excepcional y motivado (art. 63 bis LO; art. 245 R)."
   },
   {
+   "id": "t_11_14",
    "p": "¿Qué se hace en un procedimiento simplificado?",
    "r": "Se aplica a infracciones leves (salvo 52.c, d y e). Diez días para alegar y resolución en **2 meses** como máximo (arts. 237-238 R)."
   },
   {
+   "id": "t_11_15",
    "p": "¿Qué efectos tiene la denegación de entrada?",
    "r": "El extranjero **regresa a su punto de origen** de forma inmediata, en **72 horas** como máximo; si se retrasa, el **Juez de Instrucción** decide dónde permanece (art. 60 LO). El recurso no suspende el regreso."
   },
   {
+   "id": "t_11_16",
    "p": "¿Cómo se gradúan las multas de las infracciones de orden social?",
    "r": "En grados mínimo, medio y máximo: leves 50-100 / 101-250 / 251-500 €; graves 501-2.000 / 2.001-5.000 / 5.001-10.000 €; muy graves 10.001-20.000 / 20.001-50.000 / 50.001-100.000 € (art. 254.4 R)."
   },
   {
+   "id": "t_11_17",
    "p": "¿Qué dice el art. 89 del Código Penal sobre extranjeros?",
    "r": "Las penas de prisión de **más de un año** se sustituyen por la expulsión (prohibición de regreso de 5 a 10 años), salvo desproporción por arraigo; no se sustituyen las de los arts. 177 bis, 312, 313 y 318 bis."
   }
  ],
  "preguntas": [
   {
+   "id": "q_11_01",
    "enunciado": "Las infracciones leves previstas en la LO 4/2000 se sancionan con multa de:",
    "opciones": [
     "hasta 500 euros",
@@ -321,6 +339,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_11_02",
    "enunciado": "Una infracción grave de la LO 4/2000 sobre derechos y libertades de los extranjeros se sanciona con multa de:",
    "opciones": [
     "de 601 a 30.000 euros",
@@ -333,6 +352,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_11_03",
    "enunciado": "Según la LO 4/2000, las infracciones muy graves prescriben a los:",
    "opciones": [
     "cinco años",
@@ -345,6 +365,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_11_04",
    "enunciado": "Señale la afirmación correcta sobre la prescripción en la LO 4/2000:",
    "opciones": [
     "Las infracciones leves prescriben al año y las graves a los tres años",
@@ -357,6 +378,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_11_05",
    "enunciado": "La prohibición de entrada en España que lleva consigo la expulsión no excederá, con carácter general, de:",
    "opciones": [
     "cinco años",
@@ -369,6 +391,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_11_06",
    "enunciado": "¿En cuál de los siguientes supuestos procede la devolución sin necesidad de expediente de expulsión?",
    "opciones": [
     "Un extranjero que lleva dos años en España sin autorización de residencia",
@@ -381,6 +404,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_11_07",
    "enunciado": "La devolución acordada contra quien pretende entrar ilegalmente en el país lleva consigo una prohibición de entrada en España por un plazo máximo de:",
    "opciones": [
     "cinco años",
@@ -393,6 +417,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_11_08",
    "enunciado": "Un extranjero expulsado, aún dentro del plazo de prohibición de entrada, intenta entrar en España y es devuelto. ¿Qué ocurre con el plazo de prohibición fijado en la expulsión?",
    "opciones": [
     "Se reinicia el cómputo del plazo de prohibición de entrada",
@@ -405,6 +430,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_11_09",
    "enunciado": "El internamiento de un extranjero en un centro de internamiento durante la tramitación de un expediente de expulsión tiene una duración máxima de:",
    "opciones": [
     "72 horas",
@@ -417,6 +443,7 @@
    "dificultad": 1
   },
   {
+   "id": "q_11_10",
    "enunciado": "¿Quién tiene atribuida, con carácter general, la imposición de las sanciones por infracciones de la LO 4/2000?",
    "opciones": [
     "El Comisario General de Extranjería y Fronteras",
@@ -429,6 +456,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_11_11",
    "enunciado": "En los supuestos de participación en actividades contrarias a la seguridad nacional o que puedan perjudicar las relaciones de España con otros países, la competencia sancionadora corresponde:",
    "opciones": [
     "al Secretario de Estado de Seguridad",
@@ -441,6 +469,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_11_12",
    "enunciado": "Señale la afirmación INCORRECTA sobre la calificación de las infracciones de la LO 4/2000:",
    "opciones": [
     "Trabajar sin autorización de trabajo ni de residencia válida es una infracción grave",
@@ -453,6 +482,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_11_13",
    "enunciado": "¿Cuál de las siguientes conductas es una infracción MUY grave según la LO 4/2000?",
    "opciones": [
     "Encontrarse trabajando en una ocupación no contemplada por la autorización de residencia y trabajo de la que se es titular",
@@ -465,6 +495,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_11_14",
    "enunciado": "Encontrarse trabajando en España por cuenta propia sin haber solicitado la autorización administrativa para trabajar, siendo titular de una autorización de residencia temporal, es una infracción:",
    "opciones": [
     "leve",
@@ -477,6 +508,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_11_15",
    "enunciado": "¿Cuál de las siguientes infracciones graves NO permite imponer la expulsión en lugar de la multa?",
    "opciones": [
     "Encontrarse irregularmente en territorio español",
@@ -489,6 +521,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_11_16",
    "enunciado": "En el procedimiento preferente de expulsión, una vez notificado el acuerdo de iniciación, el interesado dispone para formular alegaciones de:",
    "opciones": [
     "diez días",
@@ -501,6 +534,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_11_17",
    "enunciado": "Se incoa expediente por estancia irregular a un extranjero cuya autorización caducó hace seis meses sin haber pedido la renovación, que no tiene domicilio conocido ni documentación identificativa. ¿Qué procedimiento procede?",
    "opciones": [
     "El preferente, por apreciarse riesgo de incomparecencia",
@@ -513,6 +547,7 @@
    "dificultad": 3
   },
   {
+   "id": "q_11_18",
    "enunciado": "Contra la resolución de denegación de entrada en un paso fronterizo, la mera interposición de recurso:",
    "opciones": [
     "suspende la ejecución del regreso hasta que se resuelva",
@@ -525,6 +560,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_11_19",
    "enunciado": "Cuando se deniega la entrada a un extranjero que ha sido transportado hasta la frontera, los gastos de su manutención y de su regreso corren, en principio, a cargo:",
    "opciones": [
     "del transportista que lo trajo hasta la frontera",
@@ -537,6 +573,7 @@
    "dificultad": 2
   },
   {
+   "id": "q_11_20",
    "enunciado": "Salvo actividades contrarias a la seguridad nacional o reincidencia en un año, no podrá imponerse la sanción de expulsión a:",
    "opciones": [
     "cualquier extranjero que tenga hijos en España",

@@ -256,88 +256,109 @@
   ],
   "tarjetas": [
     {
+      "id": "t_26_01",
       "p": "¿A partir de qué edad puede un menor consentir el tratamiento de sus datos según la LO 3/2018?",
       "r": "**14 años** (art. 7). Por debajo, consentimiento del titular de la patria potestad o tutela."
     },
     {
+      "id": "t_26_02",
       "p": "¿Cuál es el plazo máximo general para suprimir los datos en la LO 7/2021?",
       "r": "**20 años** (art. 8.3), salvo investigaciones abiertas, delitos no prescritos, pena sin ejecutar, reincidencia, protección de víctimas u otras circunstancias motivadas."
     },
     {
+      "id": "t_26_03",
       "p": "¿Cada cuánto debe revisar el responsable la necesidad de conservar los datos en la LO 7/2021?",
       "r": "Como máximo **cada 3 años** (art. 8.2)."
     },
     {
+      "id": "t_26_04",
       "p": "Autoridades competentes de la LO 7/2021",
       "r": "FCS, Administraciones penitenciarias, Dirección Adjunta de Vigilancia Aduanera de la AEAT, SEPBLAC y Comisión de Vigilancia de Actividades de Financiación del Terrorismo; además, autoridades judiciales del orden penal y Ministerio Fiscal (art. 4)."
     },
     {
+      "id": "t_26_05",
       "p": "¿En qué plazo se notifica una brecha de seguridad a la autoridad de protección de datos?",
       "r": "**72 horas** desde que se tiene constancia (LO 7/2021, art. 38; RGPD, art. 33)."
     },
     {
+      "id": "t_26_06",
       "p": "¿Qué derechos regula la LO 7/2021?",
       "r": "Información (art. 21), acceso (22) y rectificación, supresión y limitación (23). **No** regula portabilidad ni oposición."
     },
     {
+      "id": "t_26_07",
       "p": "En la LO 7/2021, ¿qué ocurre si no se resuelve una solicitud de derechos en un mes?",
       "r": "La solicitud se entiende **desestimada** (art. 20.4)."
     },
     {
+      "id": "t_26_08",
       "p": "¿Cuándo es repetitiva una solicitud en la LO 7/2021?",
       "r": "Cuando se realizan **tres solicitudes sobre el mismo supuesto en seis meses**, salvo causa legítima (art. 20.5)."
     },
     {
+      "id": "t_26_09",
       "p": "Videovigilancia privada (LO 3/2018, art. 22): plazos",
       "r": "Supresión en **un mes**, salvo conservación para acreditar actos; si se conservan, a disposición de la autoridad en **72 horas**."
     },
     {
+      "id": "t_26_10",
       "p": "Videovigilancia policial (LO 7/2021): plazos",
       "r": "Grabaciones de delitos a disposición judicial en **72 horas** (art. 18.1); destrucción en **3 meses** (art. 18.3); dispositivos móviles, **1 mes prorrogable por otro** (art. 17.2)."
     },
     {
+      "id": "t_26_11",
       "p": "¿Qué obligaciones tiene el responsable respecto del delegado de protección de datos en la LO 7/2021?",
       "r": "Designarlo en todo caso (salvo órganos jurisdiccionales y Ministerio Fiscal en funciones jurisdiccionales) y comunicar designación y cese a la autoridad en **10 días** (art. 40)."
     },
     {
+      "id": "t_26_12",
       "p": "¿Puede removerse al delegado de protección de datos por desempeñar sus funciones?",
       "r": "No, salvo **dolo o negligencia grave** (art. 36.2 LO 3/2018; art. 41.2 LO 7/2021). No está sujeto al régimen sancionador."
     },
     {
+      "id": "t_26_13",
       "p": "¿En qué plazo responde el delegado de protección de datos a una reclamación del afectado?",
       "r": "**2 meses** si el afectado se dirige antes a él; **1 mes** si la AEPD le remite la reclamación (art. 37 LO 3/2018)."
     },
     {
+      "id": "t_26_14",
       "p": "¿Qué es la AEPD y con qué ministerio se relaciona?",
       "r": "Autoridad administrativa independiente de ámbito estatal; se relaciona con el Gobierno a través del **Ministerio de Justicia** (art. 44 LO 3/2018)."
     },
     {
+      "id": "t_26_15",
       "p": "¿Qué mandato tienen la Presidencia y el Adjunto de la AEPD?",
       "r": "**5 años**, renovable para otro período de igual duración (art. 48.5)."
     },
     {
+      "id": "t_26_16",
       "p": "Plazos de los procedimientos de la AEPD",
       "r": "Derechos: **6 meses** (reclamación estimada por silencio); sancionador: **12 meses**; apercibimiento: **6 meses**; admisión a trámite: **3 meses**; actuaciones previas: máximo **18 meses** (arts. 64, 65 y 67)."
     },
     {
+      "id": "t_26_17",
       "p": "Prescripción de infracciones en la LO 3/2018",
       "r": "Muy graves, **3 años**; graves, **2 años**; leves, **1 año** (arts. 72 a 74)."
     },
     {
+      "id": "t_26_18",
       "p": "Multas de la LO 7/2021 para quien no es sector público",
       "r": "Muy graves, 360.001 a 1.000.000 €; graves, 60.001 a 360.000 €; leves, 6.000 a 60.000 € (art. 62)."
     },
     {
+      "id": "t_26_19",
       "p": "¿Qué ocurre cuando una Administración pública comete una infracción de la LO 3/2018?",
       "r": "No hay multa: la autoridad declara la infracción, fija medidas para que cese o se corrijan sus efectos y propone actuaciones disciplinarias (art. 77)."
     },
     {
+      "id": "t_26_20",
       "p": "¿Dónde y cómo se regulan los derechos digitales?",
       "r": "**Título X de la LO 3/2018** (arts. 79 a 97): neutralidad de Internet, acceso universal, seguridad y educación digital, desconexión digital, olvido, portabilidad en redes sociales, testamento digital."
     }
   ],
   "preguntas": [
     {
+      "id": "q_26_01",
       "enunciado": "Según la LO 3/2018, ¿a partir de qué edad puede un menor prestar por sí mismo su consentimiento para el tratamiento de sus datos personales?",
       "opciones": [
         "Catorce años.",
@@ -350,6 +371,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_26_02",
       "enunciado": "¿Cuál es el plazo máximo general para la supresión de los datos personales según la LO 7/2021?",
       "opciones": [
         "Diez años.",
@@ -362,6 +384,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_26_03",
       "enunciado": "¿Cada cuánto tiempo, como máximo, debe el responsable revisar la necesidad de conservar, limitar o suprimir los datos de cada actividad de tratamiento según la LO 7/2021?",
       "opciones": [
         "Cada año.",
@@ -374,6 +397,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_26_04",
       "enunciado": "¿Cuál de los siguientes sujetos NO tiene la consideración de autoridad competente a los efectos de la LO 7/2021?",
       "opciones": [
         "Las Administraciones penitenciarias.",
@@ -386,6 +410,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_26_05",
       "enunciado": "Una autoridad competente sufre una violación de la seguridad de datos personales que puede suponer un peligro para los derechos y libertades de las personas. ¿En qué plazo debe notificarla a la autoridad de protección de datos, según la LO 7/2021?",
       "opciones": [
         "Veinticuatro horas.",
@@ -398,6 +423,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_26_06",
       "enunciado": "¿Cuál de los siguientes derechos NO está regulado entre los derechos de los interesados de la LO 7/2021?",
       "opciones": [
         "Acceso.",
@@ -410,6 +436,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_26_07",
       "enunciado": "Una empresa de seguridad privada instala cámaras de videovigilancia en un recinto, al amparo de la LO 3/2018. ¿En qué plazo máximo deben suprimirse con carácter general las imágenes captadas?",
       "opciones": [
         "Setenta y dos horas.",
@@ -422,6 +449,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_26_08",
       "enunciado": "Las grabaciones realizadas por las Fuerzas y Cuerpos de Seguridad con videocámaras al amparo de la LO 7/2021 deben destruirse, con carácter general, en el plazo máximo de:",
       "opciones": [
         "Seis meses.",
@@ -434,6 +462,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_26_09",
       "enunciado": "Conforme a la LO 7/2021, ¿quién autoriza el uso de dispositivos móviles de toma de imágenes y sonido por las Fuerzas y Cuerpos de Seguridad del Estado y por cuánto tiempo como máximo?",
       "opciones": [
         "El titular de la Delegación o Subdelegación del Gobierno, por un máximo de un mes prorrogable por otro.",
@@ -446,6 +475,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_26_10",
       "enunciado": "¿A través de qué ministerio se relaciona con el Gobierno la Agencia Española de Protección de Datos?",
       "opciones": [
         "Ministerio del Interior.",
@@ -458,6 +488,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_26_11",
       "enunciado": "¿Qué duración tiene el mandato de la Presidencia y del Adjunto de la Agencia Española de Protección de Datos?",
       "opciones": [
         "Cinco años, renovable para otro período de igual duración.",
@@ -470,6 +501,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_26_12",
       "enunciado": "Una empresa contratada como encargada del tratamiento utiliza los datos personales que le entregó su cliente para realizar sus propias campañas comerciales. ¿Qué consideración tiene respecto de ese tratamiento?",
       "opciones": [
         "Sigue siendo encargada, porque existe un contrato con el responsable.",
@@ -482,6 +514,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_26_13",
       "enunciado": "Una menor de 13 años desea registrarse en un servicio digital cuyo tratamiento de datos se basa en el consentimiento. ¿Qué exige la LO 3/2018?",
       "opciones": [
         "El consentimiento del titular de la patria potestad o tutela.",
@@ -494,6 +527,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_26_14",
       "enunciado": "Conforme a la LO 7/2021, ¿quién NO está obligado a designar un delegado de protección de datos?",
       "opciones": [
         "Las Fuerzas y Cuerpos de Seguridad.",
@@ -506,6 +540,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_26_15",
       "enunciado": "Las infracciones leves tipificadas en la LO 7/2021 prescriben a los:",
       "opciones": [
         "Seis meses.",
@@ -518,6 +553,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_26_16",
       "enunciado": "Cuando una Administración pública comete una infracción de la LO 3/2018, ¿qué hace la autoridad de protección de datos?",
       "opciones": [
         "Le impone la multa prevista en el RGPD, reducida a la mitad.",
@@ -530,6 +566,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_26_17",
       "enunciado": "La Policía Nacional trata los datos personales de sus funcionarios para gestionar las nóminas. ¿Qué normativa de protección de datos se aplica a ese tratamiento?",
       "opciones": [
         "La LO 7/2021, por ser la Policía una autoridad competente.",
@@ -542,6 +579,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_26_18",
       "enunciado": "Un ciudadano solicita ante la Guardia Civil el acceso a sus datos conforme a la LO 7/2021 y transcurre un mes sin respuesta expresa. ¿Qué efecto tiene ese silencio?",
       "opciones": [
         "La solicitud se entiende estimada.",
@@ -554,6 +592,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_26_19",
       "enunciado": "Si una autoridad competente deniega el acceso a unos datos para no obstaculizar una investigación en curso, ¿cómo puede el interesado ejercer sus derechos según la LO 7/2021?",
       "opciones": [
         "A través de la autoridad de protección de datos competente.",

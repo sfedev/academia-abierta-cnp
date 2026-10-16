@@ -287,80 +287,99 @@
   ],
   "tarjetas": [
     {
+      "id": "t_33_01",
       "p": "¿Cómo interpretan la doctrina y la jurisprudencia los conceptos de seguridad ciudadana y seguridad pública según el preámbulo de la LO 4/2015?",
       "r": "Con matices, como **sinónimos**: la actividad dirigida a la **protección de personas y bienes** y al **mantenimiento de la tranquilidad ciudadana**."
     },
     {
+      "id": "t_33_02",
       "p": "¿De quién es la competencia en seguridad pública?",
       "r": "**Exclusiva del Estado** (art. 149.1.29.ª CE; art. 1.1 LO 2/1986); su mantenimiento corresponde al **Gobierno de la Nación**. CCAA y Corporaciones Locales participan."
     },
     {
+      "id": "t_33_03",
       "p": "¿Cómo califica el art. 1.1 LO 4/2015 la seguridad ciudadana?",
       "r": "**Requisito indispensable** para el pleno ejercicio de los derechos fundamentales y las libertades públicas y **bien jurídico de carácter colectivo**."
     },
     {
+      "id": "t_33_04",
       "p": "¿Qué relación guarda la seguridad privada con la pública?",
       "r": "Sus actividades son **complementarias y subordinadas** respecto de la seguridad pública (art. 1.1 Ley 5/2014)."
     },
     {
+      "id": "t_33_05",
       "p": "¿Quiénes prestan seguridad privada?",
       "r": "Empresas de seguridad privada, despachos de detectives privados y personal de seguridad privada habilitado (art. 2 Ley 5/2014)."
     },
     {
+      "id": "t_33_06",
       "p": "¿Cuáles son los componentes fundamentales de la Seguridad Nacional?",
       "r": "**Defensa Nacional, Seguridad Pública y Acción Exterior** (art. 9.1 Ley 36/2015)."
     },
     {
+      "id": "t_33_07",
       "p": "¿Qué es la inseguridad objetiva?",
       "r": "El riesgo real de delito: **delincuencia registrada** y **criminalidad oculta**."
     },
     {
+      "id": "t_33_08",
       "p": "¿Qué es la inseguridad subjetiva?",
       "r": "El **sentimiento de inseguridad** y el **miedo al delito** de la población, con dimensión cognitiva, emocional y conductual."
     },
     {
+      "id": "t_33_09",
       "p": "¿Qué se entiende por paradoja de la inseguridad?",
       "r": "Que la inseguridad subjetiva guarda **escasa relación** con el riesgo objetivo: la población puede sentirse más insegura aunque bajen las tasas de delincuencia."
     },
     {
+      "id": "t_33_10",
       "p": "¿Qué sostiene la teoría de las actividades rutinarias y quiénes la formularon?",
       "r": "**Cohen y Felson (1979)**: el delito requiere la convergencia de un delincuente motivado, un objetivo adecuado y la ausencia de un guardián capaz."
     },
     {
+      "id": "t_33_11",
       "p": "¿Qué sostiene la teoría de las ventanas rotas?",
       "r": "**Wilson y Kelling (1982)**: el desorden y el deterioro no atendidos favorecen más desorden, más delito y más inseguridad."
     },
     {
+      "id": "t_33_12",
       "p": "¿Qué sostiene la teoría de la asociación diferencial?",
       "r": "**Sutherland**: el comportamiento delictivo **se aprende** en la interacción con otros."
     },
     {
+      "id": "t_33_13",
       "p": "¿Cuáles son las cinco adaptaciones individuales de Merton?",
       "r": "Conformidad, innovación, ritualismo, retraimiento y rebelión."
     },
     {
+      "id": "t_33_14",
       "p": "¿Qué elementos del vínculo social señala Hirschi en su teoría del control?",
       "r": "**Apego, compromiso, implicación y creencia**."
     },
     {
+      "id": "t_33_15",
       "p": "Diferencia entre escuela clásica y escuela positiva.",
       "r": "Clásica (Beccaria, 1764): libre albedrío, pena proporcionada. Positiva (Lombroso, 1876): determinismo, criminal nato."
     },
     {
+      "id": "t_33_16",
       "p": "¿Qué es una organización criminal según el art. 570 bis CP?",
       "r": "Agrupación de **más de dos personas**, de carácter **estable o por tiempo indefinido**, que de forma concertada **se reparten tareas** para cometer delitos."
     },
     {
+      "id": "t_33_17",
       "p": "¿Qué es un grupo criminal según el art. 570 ter CP?",
       "r": "Unión de **más de dos personas** que, sin reunir alguna de las características de la organización, tiene por finalidad la **perpetración concertada de delitos**."
     },
     {
+      "id": "t_33_18",
       "p": "¿Qué dos grandes bloques distingue el Balance de Criminalidad de Interior?",
       "r": "**Criminalidad convencional** y **cibercriminalidad** (en 2025: 80,2 % y 19,8 % de las infracciones registradas)."
     }
   ],
   "preguntas": [
     {
+      "id": "q_33_01",
       "enunciado": "Según el art. 1 de la LO 2/1986, ¿a quién corresponde el mantenimiento de la seguridad pública?",
       "opciones": [
         "A las Comunidades Autónomas, que la ejercen con carácter exclusivo en su territorio",
@@ -373,6 +392,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_33_02",
       "enunciado": "Según el art. 1.1 de la LO 4/2015, la seguridad ciudadana es:",
       "opciones": [
         "Un requisito indispensable para el pleno ejercicio de los derechos fundamentales y las libertades públicas, y un bien jurídico de carácter colectivo",
@@ -385,6 +405,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_33_03",
       "enunciado": "Según la Ley 5/2014, las actividades y servicios de seguridad privada tienen la consideración de:",
       "opciones": [
         "Alternativas y sustitutivas de la seguridad pública cuando esta resulta insuficiente",
@@ -397,6 +418,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_33_04",
       "enunciado": "De las siguientes actividades, ¿cuál NO es una actividad de seguridad privada según el art. 5.1 de la Ley 5/2014?",
       "opciones": [
         "La vigilancia y protección de bienes, establecimientos, lugares y eventos, públicos o privados",
@@ -409,6 +431,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_33_05",
       "enunciado": "¿Cuáles son los componentes fundamentales de la Seguridad Nacional según el art. 9.1 de la Ley 36/2015?",
       "opciones": [
         "La Defensa Nacional, la Inteligencia y la Protección Civil",
@@ -421,6 +444,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_33_06",
       "enunciado": "El preámbulo de la LO 4/2015 afirma que la doctrina y la jurisprudencia han interpretado los conceptos de seguridad ciudadana (art. 104.1 CE) y seguridad pública (art. 149.1.29.ª CE) como:",
       "opciones": [
         "Sinónimos, con matices: actividad de protección de personas y bienes y de mantenimiento de la tranquilidad ciudadana",
@@ -433,6 +457,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_33_07",
       "enunciado": "¿Cuál de las siguientes descripciones corresponde a la inseguridad subjetiva?",
       "opciones": [
         "El sentimiento de inseguridad y el miedo al delito que experimenta la población",
@@ -445,6 +470,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_33_08",
       "enunciado": "Respecto a la relación entre la delincuencia real y el sentimiento de inseguridad, la literatura criminológica señala que:",
       "opciones": [
         "Es directa y proporcional: a más delitos registrados, siempre mayor miedo al delito",
@@ -457,6 +483,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_33_09",
       "enunciado": "Según la teoría de las actividades rutinarias de Cohen y Felson, para que se produzca un delito de contacto directo deben converger en el espacio y en el tiempo:",
       "opciones": [
         "Un delincuente motivado, una subcultura delictiva y un nivel elevado de anomia",
@@ -469,6 +496,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_33_10",
       "enunciado": "Un ayuntamiento repara de inmediato las pintadas y el mobiliario urbano roto para evitar que el deterioro acabe favoreciendo delitos. Esta política se inspira en la teoría de:",
       "opciones": [
         "La asociación diferencial de Sutherland",
@@ -481,6 +509,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_33_11",
       "enunciado": "Para Merton, la presión que lleva a delinquir (anomia o tensión) surge del desajuste entre:",
       "opciones": [
         "Las metas culturalmente valoradas y los medios legítimos disponibles para alcanzarlas",
@@ -493,6 +522,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_33_12",
       "enunciado": "La teoría de la asociación diferencial de Sutherland defiende que el comportamiento delictivo:",
       "opciones": [
         "Se explica por rasgos físicos hereditarios identificables en el delincuente",
@@ -505,6 +535,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_33_13",
       "enunciado": "Cesare Lombroso, autor de «L'uomo delinquente» (1876) y de la figura del «criminal nato», pertenece a la escuela:",
       "opciones": [
         "Clásica, basada en el libre albedrío",
@@ -517,6 +548,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_33_14",
       "enunciado": "Según el art. 570 bis del Código Penal, se entiende por organización criminal:",
       "opciones": [
         "La unión ocasional de dos o más personas para ejecutar un delito concreto",
@@ -529,6 +561,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_33_15",
       "enunciado": "Cuatro personas se conciertan para cometer varios robos, pero sin estabilidad ni reparto de funciones. La figura penal que mejor describe el supuesto es:",
       "opciones": [
         "Un grupo criminal (art. 570 ter CP)",
@@ -541,6 +574,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_33_16",
       "enunciado": "Un comerciante contrata un vigilante y una alarma conectada para proteger su tienda. En la teoría de las actividades rutinarias, está actuando sobre el elemento de:",
       "opciones": [
         "La presencia de un guardián capaz que proteja el objetivo",
@@ -553,6 +587,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_33_17",
       "enunciado": "El Balance de Criminalidad del Ministerio del Interior clasifica las infracciones penales registradas en:",
       "opciones": [
         "Delitos graves, menos graves y leves, exclusivamente",
@@ -565,6 +600,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_33_18",
       "enunciado": "Según Hirschi, la delincuencia aparece cuando se debilita el vínculo del individuo con la sociedad, formado por:",
       "opciones": [
         "Conformidad, innovación, ritualismo, retraimiento y rebelión",

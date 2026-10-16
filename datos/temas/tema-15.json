@@ -238,76 +238,94 @@
   ],
   "tarjetas": [
     {
+      "id": "t_15_01",
       "p": "¿Qué calificación tiene el Catálogo Nacional de Infraestructuras Estratégicas?",
       "r": "**SECRETO**, conferida por Acuerdo del Consejo de Ministros de 2 de noviembre de 2007 (art. 4.3 RD 704/2011)."
     },
     {
+      "id": "t_15_02",
       "p": "Define infraestructura crítica.",
       "r": "Infraestructura estratégica cuyo funcionamiento es **indispensable y no permite soluciones alternativas**, por lo que su perturbación o destrucción tendría un grave impacto sobre los servicios esenciales (art. 2.e Ley 8/2011)."
     },
     {
+      "id": "t_15_03",
       "p": "¿Qué es una infraestructura crítica europea?",
       "r": "Infraestructura crítica situada en un Estado miembro de la UE cuya perturbación o destrucción afectaría gravemente al menos a **dos Estados miembros** (art. 2.f)."
     },
     {
+      "id": "t_15_04",
       "p": "¿Cuántos sectores estratégicos hay en el anexo de la Ley 8/2011?",
       "r": "**Doce**: Administración, Espacio, Industria nuclear, Industria química, Instalaciones de investigación, Agua, Energía, Salud, TIC, Transporte, Alimentación, Sistema financiero y tributario."
     },
     {
+      "id": "t_15_05",
       "p": "¿Cuáles son los criterios horizontales de criticidad?",
       "r": "Número de personas afectadas, impacto económico, impacto medioambiental e impacto público y social (art. 2.h)."
     },
     {
+      "id": "t_15_06",
       "p": "¿Quién preside la Comisión Nacional para la Protección de las Infraestructuras Críticas y cuántas veces se reúne al año?",
       "r": "La preside el **Secretario de Estado de Seguridad**; reunión ordinaria **al menos una vez al año** (art. 11 RD)."
     },
     {
+      "id": "t_15_07",
       "p": "¿Quién preside el Grupo de Trabajo Interdepartamental y cuántas veces se reúne?",
       "r": "Lo preside el **director del CNPIC**; se reúne ordinariamente **al menos dos veces al año** (art. 12 RD)."
     },
     {
+      "id": "t_15_08",
       "p": "¿Qué plazo tiene un operador crítico para elaborar el Plan de Seguridad del Operador?",
       "r": "**Seis meses** desde la notificación de su designación (art. 22.2 RD 704/2011). El Plan de Protección Específico, 4 meses desde la aprobación del anterior."
     },
     {
+      "id": "t_15_09",
       "p": "¿Quién elabora los Planes de Apoyo Operativo y en qué plazo?",
       "r": "El cuerpo policial estatal o autonómico con competencia en la demarcación, en **4 meses** desde la aprobación del Plan de Protección Específico (art. 30.2 RD)."
     },
     {
+      "id": "t_15_10",
       "p": "¿Cada cuánto tiempo se revisan el Plan Nacional y los demás planes?",
       "r": "Plan Nacional, **cada 5 años**; Planes Estratégicos Sectoriales, de Seguridad del Operador, de Protección Específicos y de Apoyo Operativo, **cada 2 años** (arts. 18, 21, 24, 27 y 32 RD)."
     },
     {
+      "id": "t_15_11",
       "p": "¿Qué habilitación debe tener el Responsable de Seguridad y Enlace?",
       "r": "La de **Director de Seguridad** del Ministerio del Interior o la equivalente según su normativa específica (art. 16.2 Ley 8/2011)."
     },
     {
+      "id": "t_15_12",
       "p": "¿Qué infraestructuras quedan fuera de la Ley 8/2011?",
       "r": "Las dependientes del **Ministerio de Defensa** y de las **Fuerzas y Cuerpos de Seguridad** (art. 3.2)."
     },
     {
+      "id": "t_15_13",
       "p": "¿Cuáles son los CSIRT de referencia del RDL 12/2018?",
       "r": "**CCN-CERT** (entidades de la Ley 40/2015), **INCIBE-CERT** (resto de entidades, ciudadanos y entidades privadas) y **ESPDEF-CERT** (Defensa) (art. 11)."
     },
     {
+      "id": "t_15_14",
       "p": "¿Quién es el punto de contacto único del RDL 12/2018?",
       "r": "El **Consejo de Seguridad Nacional**, a través del Departamento de Seguridad Nacional (art. 13)."
     },
     {
+      "id": "t_15_15",
       "p": "¿Qué categorías de seguridad define el ENS y cómo se determinan?",
       "r": "**BÁSICA, MEDIA y ALTA**: ALTA si alguna dimensión (C, I, T, A, D) alcanza el nivel ALTO; MEDIA si alcanza MEDIO y ninguna más; BÁSICA si alcanza BAJO (anexo I RD 311/2022)."
     },
     {
+      "id": "t_15_16",
       "p": "¿Cómo se estructura la Estrategia Nacional de Ciberseguridad 2019?",
       "r": "**Un objetivo general, cinco objetivos específicos y siete líneas de acción**, bajo los principios de unidad de acción, anticipación, eficiencia y resiliencia."
     },
     {
+      "id": "t_15_17",
       "p": "¿Qué multas prevé el RDL 12/2018?",
       "r": "Muy graves, de 500.001 a 1.000.000 €; graves, de 100.001 a 500.000 €; leves, amonestación o hasta 100.000 € (art. 37)."
     }
   ],
   "preguntas": [
     {
+      "id": "q_15_01",
       "enunciado": "¿Qué calificación tiene el Catálogo Nacional de Infraestructuras Estratégicas conforme a la legislación de secretos oficiales?",
       "opciones": [
         "Reservado.",
@@ -320,6 +338,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_15_02",
       "enunciado": "¿A qué órgano corresponde la responsabilidad del Catálogo Nacional de Infraestructuras Estratégicas?",
       "opciones": [
         "Al Ministerio del Interior, a través de la Secretaría de Estado de Seguridad.",
@@ -332,6 +351,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_15_03",
       "enunciado": "¿Qué órgano designa a los operadores críticos, a propuesta del Grupo de Trabajo Interdepartamental para la Protección de las Infraestructuras Críticas?",
       "opciones": [
         "El Centro Nacional para la Protección de las Infraestructuras Críticas.",
@@ -344,6 +364,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_15_04",
       "enunciado": "¿Con qué periodicidad revisa la Secretaría de Estado de Seguridad el Plan Nacional de Protección de las Infraestructuras Críticas?",
       "opciones": [
         "Cada dos años.",
@@ -356,6 +377,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_15_05",
       "enunciado": "Un operador acaba de ser designado operador crítico y se le notifica la resolución. ¿De cuánto tiempo dispone para elaborar y presentar al CNPIC su Plan de Seguridad del Operador?",
       "opciones": [
         "Tres meses.",
@@ -368,6 +390,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_15_06",
       "enunciado": "¿Quién elabora los Planes de Apoyo Operativo de las infraestructuras críticas?",
       "opciones": [
         "El operador crítico titular de la infraestructura.",
@@ -380,6 +403,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_15_07",
       "enunciado": "¿Cuál de los siguientes NO es un criterio horizontal de criticidad de la Ley 8/2011?",
       "opciones": [
         "El impacto medioambiental.",
@@ -392,6 +416,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_15_08",
       "enunciado": "¿Qué habilitación debe tener el Responsable de Seguridad y Enlace de un operador crítico?",
       "opciones": [
         "La de director de seguridad expedida por el Ministerio del Interior, o la equivalente según su normativa específica.",
@@ -404,6 +429,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_15_09",
       "enunciado": "Con carácter general, ¿ante qué órgano comunican los operadores críticos la existencia del Delegado de Seguridad de cada infraestructura crítica?",
       "opciones": [
         "Ante la Delegación del Gobierno de la comunidad autónoma donde se ubique la infraestructura.",
@@ -416,6 +442,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_15_10",
       "enunciado": "¿Qué infraestructuras quedan exceptuadas de la aplicación de la Ley 8/2011, de protección de las infraestructuras críticas?",
       "opciones": [
         "Las de titularidad privada del sector financiero.",
@@ -428,6 +455,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_15_11",
       "enunciado": "Según el Real Decreto-ley 12/2018, ¿qué CSIRT de referencia corresponde a las entidades incluidas en el ámbito de la Ley 40/2015, de Régimen Jurídico del Sector Público?",
       "opciones": [
         "INCIBE-CERT.",
@@ -440,6 +468,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_15_12",
       "enunciado": "Según el Real Decreto-ley 12/2018, ¿qué órgano ejerce la función de punto de contacto único para la cooperación transfronteriza?",
       "opciones": [
         "El Consejo de Seguridad Nacional, a través del Departamento de Seguridad Nacional.",
@@ -452,6 +481,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_15_13",
       "enunciado": "Un sistema de información tiene todas sus dimensiones de seguridad en nivel BAJO, salvo la disponibilidad, valorada en nivel ALTO. ¿De qué categoría es según el Esquema Nacional de Seguridad (RD 311/2022)?",
       "opciones": [
         "Básica.",
@@ -464,6 +494,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_15_14",
       "enunciado": "¿Con qué periodicidad mínima se realiza la auditoría regular ordinaria de los sistemas de información sujetos al Esquema Nacional de Seguridad?",
       "opciones": [
         "Cada año.",
@@ -476,6 +507,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_15_15",
       "enunciado": "¿Cómo se estructura la Estrategia Nacional de Ciberseguridad 2019?",
       "opciones": [
         "Un objetivo general, cinco objetivos específicos y siete líneas de acción.",
@@ -488,6 +520,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_15_16",
       "enunciado": "Según el Real Decreto-ley 12/2018, ¿de qué tipo de infracción se trata cuando el régimen sancionador prevé multa de 100.001 hasta 500.000 euros?",
       "opciones": [
         "Leve.",
@@ -500,6 +533,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_15_17",
       "enunciado": "En el procedimiento del Plan de Seguridad del Operador de un operador crítico, ¿quién lo aprueba?",
       "opciones": [
         "El Secretario de Estado de Seguridad, o el órgano en quien delegue, previo informe del CNPIC.",

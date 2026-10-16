@@ -433,96 +433,119 @@
   ],
   "tarjetas": [
     {
+      "id": "t_41_01",
       "p": "¿Qué es el phishing?",
       "r": "Estafa telemática en la que el atacante suplanta a una persona o entidad de confianza para que la víctima le facilite información confidencial (INCIBE)."
     },
     {
+      "id": "t_41_02",
       "p": "Smishing, vishing, spear phishing y whaling.",
       "r": "**Smishing**: por SMS. **Vishing**: por voz. **Spear phishing**: dirigido a una víctima concreta. **Whaling**: spear phishing contra altos directivos."
     },
     {
+      "id": "t_41_03",
       "p": "¿Qué es el pharming?",
       "r": "Ataque que manipula la resolución **DNS** para llevar a la víctima a una web falsa aunque escriba bien la dirección."
     },
     {
+      "id": "t_41_04",
       "p": "Tipos de spoofing que cita INCIBE.",
       "r": "**IP**, **ARP**, **DNS**, **web** y **mail** spoofing."
     },
     {
+      "id": "t_41_05",
       "p": "¿Qué es el BEC?",
       "r": "Business E-mail Compromise: estafa dirigida a empresas mediante cuentas de correo legítimas comprometidas para ordenar transferencias no autorizadas (FBI)."
     },
     {
+      "id": "t_41_06",
       "p": "¿Qué son las cartas nigerianas?",
       "r": "Comunicaciones inesperadas que prometen negocios muy rentables y acaban pidiendo transferencias o el pago adelantado de gastos (INCIBE)."
     },
     {
+      "id": "t_41_07",
       "p": "¿Qué es el skimming?",
       "r": "Copia ilícita de los datos de la banda magnética de tarjetas de pago, por ejemplo con un dispositivo en la ranura de un cajero y una cámara para el PIN (Europol)."
     },
     {
+      "id": "t_41_08",
       "p": "Virus, gusano y troyano.",
       "r": "**Virus**: se adjunta a programas y necesita acción humana. **Gusano**: se propaga solo por la red. **Troyano**: no se autorreplica y suele requerir ingeniería social."
     },
     {
+      "id": "t_41_09",
       "p": "¿Qué es el spyware?",
       "r": "Malware que recopila información de un ordenador y la envía a una entidad remota sin el conocimiento ni el consentimiento del propietario."
     },
     {
+      "id": "t_41_10",
       "p": "¿Qué es el ransomware?",
       "r": "Malware que cifra («secuestra») la información de la víctima y pide un rescate a cambio de la clave de descifrado."
     },
     {
+      "id": "t_41_11",
       "p": "¿Qué es el cryptojacking?",
       "r": "Uso no autorizado de los recursos de un equipo para minar criptomonedas."
     },
     {
+      "id": "t_41_12",
       "p": "¿Qué es una botnet y qué es una botnet P2P?",
       "r": "Conjunto de bots controlados remotamente, normalmente mediante un servidor de mando y control (**C&C**). La **P2P** carece de un servidor C&C único."
     },
     {
+      "id": "t_41_13",
       "p": "¿Qué es una denegación de servicio y qué añade el DDoS?",
       "r": "Saturar un servidor con peticiones para que los usuarios legítimos no puedan usarlo (disponibilidad). El **DDoS** lo hace desde muchos equipos coordinados, a menudo una botnet."
     },
     {
+      "id": "t_41_14",
       "p": "¿Qué es la inyección SQL y cómo se previene?",
       "r": "Introducir código SQL en una entrada no validada para alterar una consulta. Se previene con **consultas parametrizadas** y validación con listas de valores permitidos."
     },
     {
+      "id": "t_41_15",
       "p": "¿Qué es el XSS y qué tipos hay?",
       "r": "Inyección de scripts maliciosos en un sitio de confianza que se ejecutan en el navegador de otros usuarios. Tipos: **almacenado**, **reflejado** y **basado en DOM**."
     },
     {
+      "id": "t_41_16",
       "p": "¿Qué es una vulnerabilidad zero-day?",
       "r": "Vulnerabilidad desconocida por el fabricante y los usuarios, conocida solo por ciertos atacantes y sin parche."
     },
     {
+      "id": "t_41_17",
       "p": "¿Qué es una amenaza interna (insider threat)?",
       "r": "Riesgo de que una persona con acceso autorizado, actual o pasado, dañe a la organización de forma intencionada o no (CISA)."
     },
     {
+      "id": "t_41_18",
       "p": "¿Qué es una APT?",
       "r": "Advanced Persistent Threat: adversario con experiencia sofisticada y recursos significativos, a menudo vinculado a un Estado, con campañas de larga duración."
     },
     {
+      "id": "t_41_19",
       "p": "¿Qué mueve a los hacktivistas y a los cibercriminales?",
       "r": "Hacktivistas: **ideología** o política (sobre todo DDoS). Cibercriminales: **lucro**."
     },
     {
+      "id": "t_41_20",
       "p": "¿Qué es el crimen como servicio (CaaS)?",
       "r": "Modelo en que los delincuentes ofrecen herramientas, accesos e infraestructura como servicio: ransomware como servicio, intermediarios de acceso inicial, booters, kits de phishing."
     },
     {
+      "id": "t_41_21",
       "p": "Fases de la Cyber Kill Chain.",
       "r": "**7**: reconocimiento, armamento, entrega, explotación, instalación, mando y control (C2) y acciones sobre los objetivos."
     },
     {
+      "id": "t_41_22",
       "p": "Acciones defensivas asociadas a la Kill Chain.",
       "r": "**6**: detectar, denegar, interrumpir, degradar, engañar y destruir."
     }
   ],
   "preguntas": [
     {
+      "id": "q_41_01",
       "enunciado": "Un atacante llama por teléfono a un empleado y, haciéndose pasar por el servicio de seguridad de su banco, le pide las claves de acceso. ¿Cómo se denomina esta modalidad de fraude?",
       "opciones": [
         "Vishing",
@@ -535,6 +558,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_41_02",
       "enunciado": "¿Qué caracteriza al spear phishing frente al phishing masivo?",
       "opciones": [
         "Se realiza siempre mediante mensajes SMS.",
@@ -547,6 +571,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_41_03",
       "enunciado": "El whaling es una modalidad de spear phishing dirigida a…",
       "opciones": [
         "clientes de entidades bancarias elegidos al azar.",
@@ -559,6 +584,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_41_04",
       "enunciado": "¿Qué diferencia al pharming del phishing?",
       "opciones": [
         "En el pharming se manipula la resolución de nombres de dominio para que la dirección legítima lleve a una web falsa; en el phishing se engaña a la persona, por ejemplo con un mensaje, para que facilite datos.",
@@ -571,6 +597,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_41_05",
       "enunciado": "El DNS spoofing consiste en…",
       "opciones": [
         "falsificar la dirección IP de origen de un paquete.",
@@ -583,6 +610,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_41_06",
       "enunciado": "¿Qué tipo de malware se propaga automáticamente por la red, sin necesidad de acción humana?",
       "opciones": [
         "Virus",
@@ -595,6 +623,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_41_07",
       "enunciado": "Señale la característica propia de un troyano:",
       "opciones": [
         "No tiene capacidad de autorreplicación y suele requerir ingeniería social para propagarse.",
@@ -607,6 +636,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_41_08",
       "enunciado": "¿Qué rasgo caracteriza a las botnets P2P (peer to peer)?",
       "opciones": [
         "Dependen de un servidor de mando y control (C&C) central único.",
@@ -619,6 +649,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_41_09",
       "enunciado": "Señale la descripción correcta del ransomware:",
       "opciones": [
         "Recopila información del ordenador y la envía a una entidad remota sin consentimiento del propietario.",
@@ -631,6 +662,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_41_10",
       "enunciado": "El cryptojacking consiste en…",
       "opciones": [
         "usar sin autorización los recursos de un equipo para minar criptomonedas.",
@@ -643,6 +675,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_41_11",
       "enunciado": "Un ataque de denegación de servicio afecta principalmente a la…",
       "opciones": [
         "confidencialidad de la información.",
@@ -655,6 +688,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_41_12",
       "enunciado": "La inyección SQL se produce cuando…",
       "opciones": [
         "un script malicioso se almacena en el servidor y se ejecuta en el navegador de otros usuarios.",
@@ -667,6 +701,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_41_13",
       "enunciado": "¿Qué medida es la más adecuada para prevenir la inyección SQL?",
       "opciones": [
         "Utilizar consultas parametrizadas (sentencias preparadas) y validar la entrada con listas de valores permitidos.",
@@ -679,6 +714,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_41_14",
       "enunciado": "En un ataque XSS almacenado (stored)…",
       "opciones": [
         "el script se incluye en la petición y se refleja en la respuesta sin guardarse en el servidor.",
@@ -691,6 +727,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_41_15",
       "enunciado": "Una vulnerabilidad zero-day es aquella que…",
       "opciones": [
         "ya tiene parche publicado, pero el usuario aún no lo ha aplicado.",
@@ -703,6 +740,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_41_16",
       "enunciado": "En el fraude conocido como BEC (Business E-mail Compromise)…",
       "opciones": [
         "se compromete o suplanta la cuenta de correo legítima de una empresa para ordenar transferencias de fondos no autorizadas.",
@@ -715,6 +753,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_41_17",
       "enunciado": "El skimming consiste en…",
       "opciones": [
         "redirigir al usuario a una web falsa de su banco mediante el DNS.",
@@ -727,6 +766,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_41_18",
       "enunciado": "Según CISA, una amenaza interna (insider threat)…",
       "opciones": [
         "solo la causan empleados en activo que actúan con intención maliciosa.",
@@ -739,6 +779,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_41_19",
       "enunciado": "¿Qué caracteriza a una APT (Advanced Persistent Threat)?",
       "opciones": [
         "Un adversario con alto nivel de experiencia y recursos significativos, a menudo vinculado a un Estado, que lleva a cabo campañas de intrusión prolongadas.",
@@ -751,6 +792,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_41_20",
       "enunciado": "¿Cuántas fases tiene la Cyber Kill Chain de Lockheed Martin y cuál es la última?",
       "opciones": [
         "Siete; la última es el mando y control (C2).",
@@ -763,6 +805,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_41_21",
       "enunciado": "Señale el orden correcto de las primeras fases de la Cyber Kill Chain:",
       "opciones": [
         "Reconocimiento, entrega, armamento, explotación.",
@@ -775,6 +818,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_41_22",
       "enunciado": "En una intrusión, el atacante acopla un troyano de acceso remoto con un exploit dentro de un documento PDF. ¿En qué fase de la Cyber Kill Chain se encuentra?",
       "opciones": [
         "Armamento (weaponization).",
@@ -787,6 +831,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_41_23",
       "enunciado": "Señale la afirmación correcta sobre los hacktivistas:",
       "opciones": [
         "Son siempre empleados de la organización atacada.",

@@ -360,92 +360,114 @@
   ],
   "tarjetas": [
     {
+      "id": "t_03_01",
       "p": "¿Cuántos Diputados puede tener el Congreso según la CE y cuántos fija la LOREG?",
       "r": "Mínimo **300** y máximo **400** (art. 68.1 CE); la LOREG fija **350** (art. 162)."
     },
     {
+      "id": "t_03_02",
       "p": "¿Cuántos Senadores corresponden a provincias, islas, Ceuta y Melilla y Comunidades Autónomas?",
       "r": "**4** por provincia; islas: **3** en Gran Canaria, Mallorca y Tenerife y **1** en Ibiza, Formentera, Menorca, Fuerteventura, La Gomera, El Hierro, Lanzarote y La Palma; **2** por Ceuta y por Melilla; por cada CA, **1 + 1 por millón de habitantes** (art. 69)."
     },
     {
+      "id": "t_03_03",
       "p": "¿Cuántos miembros tiene como mínimo la Diputación Permanente?",
       "r": "**21** (art. 78.1 CE)."
     },
     {
+      "id": "t_03_04",
       "p": "¿Cuáles son los periodos ordinarios de sesiones?",
       "r": "Septiembre a diciembre y **febrero a junio** (art. 73.1 CE)."
     },
     {
+      "id": "t_03_05",
       "p": "¿Qué mayoría exige la ley orgánica?",
       "r": "**Mayoría absoluta del Congreso**, en una votación final sobre el conjunto del proyecto (art. 81.2 CE)."
     },
     {
+      "id": "t_03_06",
       "p": "¿Cómo se otorga la delegación legislativa?",
       "r": "**Ley de bases** para formar textos articulados; **ley ordinaria** para refundir textos legales (art. 82.2 CE). Se llaman Decretos Legislativos (art. 85)."
     },
     {
+      "id": "t_03_07",
       "p": "¿En qué plazo debe convalidar el Congreso un decreto-ley?",
       "r": "En los **30 días** siguientes a su promulgación (art. 86.2 CE)."
     },
     {
+      "id": "t_03_08",
       "p": "¿Cuántas firmas exige la iniciativa legislativa popular?",
       "r": "No menos de **500.000** (art. 87.3 CE)."
     },
     {
+      "id": "t_03_09",
       "p": "¿Cuánto tiempo tiene el Senado para vetar o enmendar un proyecto y cuánto el Rey para sancionar?",
       "r": "Senado: **2 meses** (20 días naturales si es urgente) (art. 90). Rey: **15 días** (art. 91)."
     },
     {
+      "id": "t_03_10",
       "p": "¿Cómo se desarrolla la investidura del Presidente del Gobierno?",
       "r": "Mayoría absoluta del Congreso en primera votación; si no, nueva votación **48 horas** después con mayoría simple; si pasan **2 meses** desde la primera votación sin investidura, el Rey disuelve las Cámaras (art. 99 CE)."
     },
     {
+      "id": "t_03_11",
       "p": "¿Qué mayoría exigen la cuestión de confianza y la moción de censura?",
       "r": "Cuestión de confianza: **mayoría simple** (art. 112). Moción de censura: **mayoría absoluta**, propuesta por 1/10 de los Diputados con candidato alternativo (art. 113)."
     },
     {
+      "id": "t_03_12",
       "p": "¿Cuándo puede disolverse de nuevo el Congreso tras una disolución?",
       "r": "No antes de **un año** desde la anterior, salvo el art. 99.5; tampoco con una moción de censura en trámite (art. 115)."
     },
     {
+      "id": "t_03_13",
       "p": "¿Cómo se compone el Consejo General del Poder Judicial?",
       "r": "Presidente del Tribunal Supremo y **20 miembros** nombrados por el Rey por **5 años**: 12 jueces y magistrados, 4 a propuesta del Congreso y 4 a propuesta del Senado (3/5) (art. 122.3 CE)."
     },
     {
+      "id": "t_03_14",
       "p": "¿Cómo se compone el Tribunal Constitucional y cuánto dura el mandato?",
       "r": "**12 miembros**: 4 Congreso (3/5), 4 Senado (3/5), 2 Gobierno y 2 CGPJ. **9 años**, renovación por **terceras partes cada 3**; el Presidente, 3 años (arts. 159 y 160 CE)."
     },
     {
+      "id": "t_03_15",
       "p": "¿Quién puede interponer el recurso de inconstitucionalidad y en qué plazo?",
       "r": "Presidente del Gobierno, Defensor del Pueblo, **50 Diputados**, **50 Senadores**, órganos ejecutivos y Asambleas de las CCAA (art. 162.1.a CE). Plazo: **3 meses** desde la publicación (art. 33 LOTC)."
     },
     {
+      "id": "t_03_16",
       "p": "¿Qué dos procedimientos de reforma constitucional existen y qué mayorías exigen?",
       "r": "Ordinario (art. 167): **3/5** de cada Cámara. Agravado (art. 168): **2/3** de cada Cámara, disolución, **2/3** de las nuevas Cámaras y referéndum obligatorio."
     },
     {
+      "id": "t_03_17",
       "p": "¿Qué se exige para aplicar el art. 155 CE?",
       "r": "Requerimiento previo al Presidente de la CA y, si no es atendido, **aprobación por mayoría absoluta del Senado**."
     },
     {
+      "id": "t_03_18",
       "p": "¿Qué requisitos tiene la vía del art. 151 CE frente a la del art. 143?",
       "r": "Art. 151: **3/4 de los municipios** de cada provincia, que representen la mayoría del censo, y **referéndum** por mayoría absoluta de los electores de cada provincia. Art. 143: **2/3 de los municipios** en 6 meses; si fracasa, 5 años para reiterar."
     },
     {
+      "id": "t_03_19",
       "p": "¿Quién refrenda los actos del Rey?",
       "r": "El **Presidente del Gobierno** y, en su caso, los Ministros competentes; el **Presidente del Congreso** refrenda la propuesta y el nombramiento del Presidente del Gobierno y la disolución del art. 99 (art. 64 CE)."
     },
     {
+      "id": "t_03_20",
       "p": "¿Qué competencias de interés policial son exclusivas del Estado (art. 149.1 CE)?",
       "r": "Nacionalidad, inmigración, extranjería y asilo (2.ª); Administración de Justicia (5.ª); legislación penal y procesal (6.ª); tráfico y circulación de vehículos a motor (21.ª); armas y explosivos (26.ª); **seguridad pública** (29.ª), sin perjuicio de las policías autonómicas."
     },
     {
+      "id": "t_03_21",
       "p": "¿Quién nombra al Fiscal General del Estado?",
       "r": "El **Rey**, a propuesta del **Gobierno**, oído el Consejo General del Poder Judicial (art. 124.4 CE)."
     }
   ],
   "preguntas": [
     {
+      "id": "q_03_01",
       "enunciado": "¿Cuántos Senadores elige cada una de las poblaciones de Ceuta y Melilla según el artículo 69 de la Constitución?",
       "opciones": [
         "Uno",
@@ -458,6 +480,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_03_02",
       "enunciado": "Según el artículo 78 de la Constitución, la Diputación Permanente de cada Cámara está compuesta por un mínimo de:",
       "opciones": [
         "Quince miembros",
@@ -470,6 +493,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_03_03",
       "enunciado": "La reforma de la Constitución de 19 de mayo de 2026 modificó el apartado 3 del artículo 69. ¿Cuál es su efecto?",
       "opciones": [
         "Ibiza y Formentera pasan a constituir cada una su propia circunscripción para la elección de Senadores, con un Senador cada isla",
@@ -482,6 +506,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_03_04",
       "enunciado": "Según el artículo 81 de la Constitución, la aprobación, modificación o derogación de las leyes orgánicas exigirá:",
       "opciones": [
         "Mayoría absoluta del Congreso, en una votación final sobre el conjunto del proyecto",
@@ -494,6 +519,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_03_05",
       "enunciado": "¿Mediante qué tipo de ley se otorga la delegación legislativa cuando su objeto es la formación de textos articulados y cuál cuando se trata de refundir varios textos legales en uno solo?",
       "opciones": [
         "Ley orgánica en ambos casos",
@@ -506,6 +532,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_03_06",
       "enunciado": "Los Decretos-leyes deben ser sometidos a debate y votación de totalidad en el Congreso de los Diputados en el plazo de:",
       "opciones": [
         "Quince días siguientes a su promulgación",
@@ -518,6 +545,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_03_07",
       "enunciado": "En una votación de investidura, el candidato propuesto por el Rey no obtiene la mayoría absoluta del Congreso de los Diputados. ¿Qué ocurre?",
       "opciones": [
         "Se somete la misma propuesta a nueva votación cuarenta y ocho horas después y la confianza se entiende otorgada si obtiene la mayoría simple",
@@ -530,6 +558,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_03_08",
       "enunciado": "Según el artículo 112 de la Constitución, la confianza solicitada por el Presidente del Gobierno mediante la cuestión de confianza se entiende otorgada cuando vote a favor:",
       "opciones": [
         "La mayoría absoluta de los Diputados",
@@ -542,6 +571,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_03_09",
       "enunciado": "Señale la afirmación INCORRECTA sobre la moción de censura (art. 113 de la Constitución):",
       "opciones": [
         "Debe incluir un candidato a la Presidencia del Gobierno",
@@ -554,6 +584,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_03_10",
       "enunciado": "Según el artículo 115 de la Constitución, tras una disolución de las Cortes no procederá nueva disolución, como regla general, antes de que transcurra:",
       "opciones": [
         "Seis meses desde la anterior",
@@ -566,6 +597,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_03_11",
       "enunciado": "Según el artículo 122.3 de la Constitución, el Consejo General del Poder Judicial está integrado por el Presidente del Tribunal Supremo y por veinte miembros nombrados por el Rey por cinco años. ¿Cuántos de ellos se nombran a propuesta del Congreso y cuántos a propuesta del Senado, y con qué mayoría?",
       "opciones": [
         "Seis de cada Cámara, por mayoría absoluta",
@@ -578,6 +610,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_03_12",
       "enunciado": "¿Cómo se distribuyen los doce miembros del Tribunal Constitucional según el artículo 159 de la Constitución?",
       "opciones": [
         "Cuatro a propuesta del Congreso, cuatro a propuesta del Senado, dos a propuesta del Gobierno y dos a propuesta del Consejo General del Poder Judicial",
@@ -590,6 +623,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_03_13",
       "enunciado": "Los miembros del Tribunal Constitucional son designados por un período de:",
       "opciones": [
         "Cinco años, renovándose por mitades cada dos años y medio",
@@ -602,6 +636,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_03_14",
       "enunciado": "Según la Ley Orgánica del Tribunal Constitucional, el plazo para interponer recurso de amparo cuando la violación del derecho tenga su origen inmediato y directo en una acción u omisión de un órgano judicial es de:",
       "opciones": [
         "Veinte días desde la notificación de la resolución recaída en el proceso judicial",
@@ -614,6 +649,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_03_15",
       "enunciado": "Según el artículo 162 de la Constitución, entre los legitimados para interponer el recurso de inconstitucionalidad se encuentran:",
       "opciones": [
         "Cincuenta Diputados o cincuenta Senadores",
@@ -626,6 +662,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_03_16",
       "enunciado": "Los proyectos de reforma constitucional tramitados por el procedimiento ordinario del artículo 167 de la Constitución deben ser aprobados por:",
       "opciones": [
         "Mayoría absoluta del Congreso y del Senado",
@@ -638,6 +675,7 @@
       "dificultad": 1
     },
     {
+      "id": "q_03_17",
       "enunciado": "Se propone reformar el artículo 15 de la Constitución (derecho a la vida y a la integridad). ¿Qué procedimiento debe seguirse?",
       "opciones": [
         "El ordinario del art. 167, con mayoría de tres quintos de cada Cámara y referéndum solo si lo solicita una décima parte de los miembros de cualquiera de ellas",
@@ -650,6 +688,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_03_18",
       "enunciado": "Para que el Gobierno adopte las medidas necesarias frente a una Comunidad Autónoma que atente gravemente al interés general de España, el artículo 155 de la Constitución exige, tras el requerimiento previo al Presidente de la Comunidad:",
       "opciones": [
         "La aprobación por mayoría absoluta del Senado",
@@ -662,6 +701,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_03_19",
       "enunciado": "En la vía general de acceso a la autonomía (art. 143 de la Constitución), la iniciativa corresponde a todas las Diputaciones interesadas y a las dos terceras partes de los municipios cuya población represente, al menos:",
       "opciones": [
         "Dos tercios del censo electoral de cada provincia",
@@ -674,6 +714,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_03_20",
       "enunciado": "Respecto a las leyes de armonización del artículo 150.3 de la Constitución, la apreciación de la necesidad de armonizar corresponde:",
       "opciones": [
         "A las Cortes Generales, por mayoría absoluta de cada Cámara",
@@ -686,6 +727,7 @@
       "dificultad": 3
     },
     {
+      "id": "q_03_21",
       "enunciado": "Los actos del Rey son refrendados por el Presidente del Gobierno y, en su caso, por los Ministros competentes. ¿Quién refrenda la propuesta y el nombramiento del Presidente del Gobierno y la disolución prevista en el artículo 99?",
       "opciones": [
         "El Presidente del Gobierno en funciones",
@@ -698,6 +740,7 @@
       "dificultad": 2
     },
     {
+      "id": "q_03_22",
       "enunciado": "El Fiscal General del Estado es nombrado por:",
       "opciones": [
         "El Rey, a propuesta del Consejo General del Poder Judicial",

@@ -102,6 +102,8 @@
   }
 
   var T = (AA.test = {});
+  // Selección de preguntas: se expone para poder probarla (herramientas/tests/js).
+  T.interno = { poolBase: poolBase, pesoP: pesoP, muestra: muestra, simulacro: simulacro };
 
   T.preparar = function (o) {
     var preguntas = [];
@@ -172,7 +174,7 @@
       else { E++; pb.e++; pt.e++; }
     });
     var N = S.qs.length;
-    var bruta = ((A - E / 2) * 10) / N;
+    var bruta = AA.notaTest(A, E, N);
     return { A: A, E: E, B: B, N: N, nota: Math.max(0, bruta), bruta: bruta, porBloque: porBloque, porTema: porTema };
   }
 
