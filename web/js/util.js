@@ -53,6 +53,11 @@
     var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
     return m ? m[3] + "/" + m[2] + "/" + m[1] : iso;
   };
+  /* Fecha local AAAA-MM-DD de un Date o de una marca de tiempo (ms). */
+  AA.isoDia = function (d) {
+    d = d instanceof Date ? d : new Date(d);
+    return d.getFullYear() + "-" + AA.pad(d.getMonth() + 1) + "-" + AA.pad(d.getDate());
+  };
   AA.fmt1 = function (n) {
     return (Math.round(n * 100) / 100).toLocaleString("es-ES", { minimumFractionDigits: 0, maximumFractionDigits: 2 });
   };

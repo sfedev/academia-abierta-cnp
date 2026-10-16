@@ -21,6 +21,13 @@
   }
   AA.ui = { enlace: enlace, pillPeso: pillPeso, tagBloque: tagBloque };
 
+  /* 45 → «45 min»; 85 → «1 h 25 min»; 120 → «2 h». */
+  function duracion(min) {
+    min = Math.round(min);
+    var horas = Math.floor(min / 60), resto = min % 60;
+    return horas ? horas + " h" + (resto ? " " + resto + " min" : "") : resto + " min";
+  }
+
   /* ---------- Fila de tema (panel y temario) ---------- */
   function filaTema(t) {
     var st = store.statsTema(t.tema);
@@ -93,6 +100,12 @@
       var nCambios = (tc.modificados || []).length + (tc.nuevos || []).length + (tc.eliminados || []).length;
       pasos.push({ txt: "Ha salido la convocatoria nueva: ", fuerte: nCambios ? AA.plural(nCambios, "cambio en el temario", "cambios en el temario") : "el temario no cambia", btn: "Ver la convocatoria", ir: "novedades" });
     }
+    // El tema con la guía de 4 días a medias (salvo que ya se haya avanzado hoy: un día por sesión)
+    var hoy = AA.isoDia(Date.now());
+    var curso = AA.guia.enCurso().filter(function (x) { return AA.isoDia(x.ultimo) !== hoy; })[0];
+    if (curso) {
+      pasos.push({ txt: "Sigue con la guía del tema " + curso.tema + ": ", fuerte: "día " + curso.dia + " (" + DIAS_GUIA[curso.dia - 1].t.toLowerCase() + ")", btn: "Continuar", ir: "tema-" + curso.tema });
+    }
     // Recordatorio del idioma (A2) hasta que se marque «ya lo tengo» en Proceso
     if (!store.ajuste("a2")) {
       var fin = conv ? AA.plazoEstimado(conv.publicacion) : null;
@@ -105,12 +118,12 @@
       pasos.push({ txt: "Hay ", fuerte: AA.plural(cambiosLey.length, "cambio legal pendiente de revisar", "cambios legales pendientes de revisar"), btn: "Ver novedades", ir: "novedades" });
     }
     var pendientes = AA.listaTemas
-      .filter(function (t) { return t.datos && !store.leido(t.tema); })
+      .filter(function (t) { return t.datos && !store.leido(t.tema) && !Object.keys(store.guiaTema(t.tema)).length; }) // sin la guía ya empezada
       .sort(function (a, b) { return (b.media || 0) - (a.media || 0); });
     if (pendientes.length) {
       var p = pendientes[0];
       pasos.push({
-        txt: leidos ? "Siguiente tema por rentabilidad: " : "Empieza por el tema que más puntúa: ",
+        txt: leidos || curso ? "Siguiente tema por rentabilidad: " : "Empieza por el tema que más puntúa: ",
         fuerte: "Tema " + p.tema + ", " + p.titulo,
         btn: "Leer",
         ir: "tema-" + p.tema,
@@ -127,6 +140,8 @@
       });
       root.appendChild(h("section", { class: "section" }, h("h2", { class: "sec-title" }, "Qué hacer ahora"), h("div", { class: "card" }, lista)));
     }
+
+    AA.append(root, tarjetaRitmo()); // null si ningún tema tiene ficha
 
     // Presets
     var presets = h(
@@ -189,6 +204,87 @@
       h("h3", {}, titulo),
       h("p", {}, texto),
       h("div", {}, h("button", { class: "btn btn--sm" + (primario ? " btn--primary" : ""), onclick: fn, disabled: desactivado ? true : null }, boton))
+    );
+  }
+
+  /* ---------- Ritmo de estudio: fecha de la vuelta completa con la guía de 4 días ---------- */
+  /* Fecha de referencia: el primer aniversario de la publicación de la última convocatoria conocida (la siguiente
+     suele salir por las mismas fechas). Si ya ha pasado, la convocatoria se retrasa (`pasada`): no se salta al año
+     siguiente. Sin referencia si ya se ha detectado una convocatoria posterior, revisada o no. */
+  function referenciaConvocatoria(hoyIso) {
+    var cal = (AA.meta.proceso || {}).calendario2026;
+    var m = cal && /^(\d{4})(-\d{2}-\d{2})$/.exec(cal.publicacion || "");
+    if (!m || AA.convocatoriaPendiente()) return null;
+    var posterior = AA.novedades.items.some(function (e) { return e.tipo === "convocatoria" && (e.publicacion || "") > cal.publicacion; });
+    if (posterior) return null;
+    var fecha = Number(m[1]) + 1 + m[2];
+    return { base: cal.publicacion, fecha: fecha, pasada: hoyIso > fecha };
+  }
+
+  function tarjetaRitmo() {
+    var total = 0, nTemas = 0;
+    AA.listaTemas.forEach(function (t) {
+      var m = AA.guia.minutos(t.tema);
+      if (m) { nTemas++; total += m[0] + m[1] + m[2] + m[3]; }
+    });
+    if (!nTemas) return null;
+    var actual = store.ajuste("ritmo") || "2";
+    var seg = h("div", { class: "seg", role: "group", "aria-label": "Temas que empiezas por semana" });
+    var res = h("div", { class: "ritmo-res", "aria-live": "polite" });
+    AA.guia.RITMOS.forEach(function (r) {
+      var b = h("button", {
+        type: "button", "aria-pressed": r.id === actual ? "true" : "false",
+        onclick: function () {
+          actual = r.id;
+          store.ajuste("ritmo", r.id);
+          seg.querySelectorAll("button").forEach(function (x) { x.setAttribute("aria-pressed", x.dataset.r === actual ? "true" : "false"); });
+          pintar();
+        },
+      }, r.nombre);
+      b.dataset.r = r.id;
+      seg.appendChild(b);
+    });
+    function pintar() {
+      res.textContent = "";
+      var r = AA.guia.RITMOS.filter(function (x) { return x.id === actual; })[0] || AA.guia.RITMOS[1];
+      var v = AA.guia.vuelta(r.porSemana);
+      var enCurso = AA.guia.enCurso().length;
+      if (!v.pasos) {
+        res.appendChild(h("div", { class: "objetivo objetivo--ok" }, h("strong", {}, "Primera vuelta terminada. "),
+          "Has hecho la guía de los " + v.temas + " temas: toca la segunda vuelta con simulacros, fallos y tarjetas."));
+        return;
+      }
+      var semanas = Math.ceil(v.semanas);
+      res.appendChild(h("div", {}, "Vuelta completa al temario hacia el ", h("strong", { class: "num" }, AA.fecha(v.fecha)), h("span", { class: "muted" }, " (aprox.)")));
+      res.appendChild(h("div", { class: "muted ritmo-detalle" },
+        AA.plural(semanas, "semana", "semanas") + " · ~" + duracion(Math.round(v.minSemana / 5) * 5) + " de estudio por semana · " +
+        AA.plural(v.pasos, "día de guía pendiente", "días de guía pendientes") +
+        (v.completos || enCurso ? " · " + v.completos + " de " + v.temas + " temas completados" + (enCurso ? ", " + enCurso + " a medias" : "") : "")));
+      var ref = referenciaConvocatoria(AA.isoDia(Date.now()));
+      if (!ref) return;
+      var intro = "La convocatoria de " + ref.base.slice(0, 4) + " salió el " + AA.fecha(ref.base);
+      if (ref.pasada) {
+        res.appendChild(h("div", { class: "objetivo objetivo--no" }, intro + " y la siguiente aún no se ha publicado: puede salir en cualquier momento. Novedades avisará en cuanto aparezca en el BOE."));
+        return;
+      }
+      intro += ". Si la próxima sigue ese calendario (hacia el " + AA.fecha(ref.fecha) + "), terminarías la primera vuelta ";
+      // margen en semanas completas; a menos de una semana, por delante o por detrás, es «casi a la vez»
+      var dias = Math.round((new Date(ref.fecha + "T12:00:00") - new Date(v.fecha + "T12:00:00")) / 86400000);
+      var margen = Math.floor(Math.abs(dias) / 7);
+      res.appendChild(h("div", { class: "objetivo " + (dias >= 7 ? "objetivo--ok" : "objetivo--no") },
+        !margen ? intro + "casi a la vez, sin margen para repasar: prueba un ritmo mayor." :
+        dias > 0 ? intro + AA.plural(margen, "semana", "semanas") + " antes: margen para repasar y hacer simulacros." :
+        intro + AA.plural(margen, "semana", "semanas") + " después: sube el ritmo para llegar con el temario visto."));
+    }
+    pintar();
+    return h(
+      "section",
+      { class: "section" },
+      h("h2", { class: "sec-title" }, "Tu ritmo de estudio"),
+      h("div", { class: "card ritmo" },
+        h("p", { class: "ritmo-intro" }, "Cada tema se estudia en 4 días con la guía de su ficha (≈ " + duracion(Math.round(total / nTemas / 5) * 5) + " por tema de media). ¿Cuántos temas empiezas por semana?"),
+        seg,
+        res)
     );
   }
 
@@ -284,6 +380,122 @@
     return h("ul", {}, items.map(function (x) { return h("li", { html: rich(x) }); }));
   }
 
+  /* Despliega (si está plegada) y lleva a una sección de la ficha. */
+  function irASeccion(id) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    if (el.tagName === "DETAILS") el.open = true;
+    var plegable = el.querySelector("details.ampliado");
+    if (plegable) plegable.open = true;
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  /* ---------- Guía de estudio en 4 días (micro-objetivos del tema) ---------- */
+  var DIAS_GUIA = [
+    { t: "Estructura y claves", txt: "Lee el texto oficial del Anexo I y «Lo imprescindible»: quédate con el esqueleto del tema." },
+    { t: "Profundización", txt: "Estudia el resumen (las ampliaciones plegadas son opcionales), atento a plazos, órganos y tablas." },
+    { t: "Trampas y memoria activa", txt: "Repasa las trampas habituales y lo que ya ha caído, y haz la primera sesión de tarjetas del tema." },
+    { t: "Prueba de foco", txt: "Haz el test del tema y lee la explicación de cada pregunta que falles." },
+  ];
+
+  /* Lo que ya consta hecho en la web para ese día (sin marcarlo por el opositor). */
+  function pistaGuia(n, dia, hecho) {
+    if (hecho) return "Hecho el " + AA.fecha(AA.isoDia(hecho)) + ".";
+    if (dia === 2 && store.leido(n)) return "Ya marcaste el tema como leído: este día es para estudiarlo a fondo.";
+    if (dia === 3) {
+      var tj = AA.tarjetas.filter(function (c) { return c.tema === n; });
+      var vistas = tj.filter(function (c) { return store.tarjeta(c.id); }).length;
+      return vistas ? vistas + " de " + tj.length + " tarjetas ya vistas." : null;
+    }
+    if (dia === 4) {
+      var st = store.statsTema(n);
+      return st.vistas ? st.vistas + " de " + st.total + " preguntas respondidas, " + st.pct + " % de aciertos." : null;
+    }
+    return null;
+  }
+
+  function accionesGuia(n, d, dia) {
+    function boton(txt, fn) { return h("button", { class: "btn btn--sm", type: "button", onclick: fn }, txt); }
+    function ir(id) { return function () { irASeccion(id); }; }
+    var nTarj = (d.tarjetas || []).length;
+    var nPreg = (d.preguntas || []).length;
+    if (dia === 1) return [boton("Ver el texto oficial", ir("s-oficial")), d.clave && d.clave.length ? boton("Ir a «Lo imprescindible»", ir("s-clave")) : null];
+    if (dia === 2) {
+      var primera = -1;
+      (d.resumen || []).some(function (s, i) { if (!s.ampliado) primera = i; return !s.ampliado; });
+      return primera >= 0 ? [boton("Ir al resumen", ir("s-" + primera))] : [];
+    }
+    if (dia === 3) return [
+      d.trampas && d.trampas.length ? boton("Ir a las trampas", ir("s-trampas")) : d.caido && d.caido.length ? boton("Ir a lo que ha caído", ir("s-caido")) : null,
+      nTarj ? boton("Tarjetas del tema (" + nTarj + ")", function () { AA.tarjetasUI.preparar({ temas: [n] }); }) : null,
+    ];
+    return nPreg ? [boton("Test del tema (" + nPreg + ")", function () { AA.test.preparar({ preset: "tema", temas: [n] }); })] : [];
+  }
+
+  /* Planificador del tema: un día por sesión, con su tiempo estimado. Marcar un día solo redibuja la guía. */
+  function guiaEstudio(n, d, alCambiar) {
+    var min = AA.guia.minutos(n);
+    var total = min.reduce(function (a, b) { return a + b; }, 0);
+    var sum = h("summary");
+    var pasos = h("ol", { class: "guia-pasos" });
+    var hechos0 = Object.keys(store.guiaTema(n)).length;
+    var det = h(
+      "details",
+      { class: "guia", open: hechos0 > 0 && hechos0 < AA.guia.DIAS }, // abierta mientras el tema está a medias
+      sum,
+      pasos,
+      h("p", { class: "guia-pie" }, "Total ≈ " + duracion(total) + ", según la extensión y el peso del tema. Un día por sesión: dejar un día entre paso y paso ayuda a fijar lo estudiado sin saturarte.")
+    );
+    function pintar(foco) {
+      var g = store.guiaTema(n);
+      var sig = AA.guia.siguiente(n);
+      var hoy = AA.isoDia(Date.now());
+      var avanzoHoy = Object.keys(g).some(function (k) { return AA.isoDia(g[k]) === hoy; });
+      var mini = h("span", { class: "guia-mini" });
+      min.forEach(function (m, i) {
+        var hecho = !!g[i + 1];
+        mini.appendChild(h("span", { class: "guia-dot" + (hecho ? " hecho" : "") },
+          h("b", { "aria-hidden": "true" }, i + 1), h("span", { class: "sr" }, "Día " + (i + 1) + (hecho ? ", hecho" : "") + ": "), "~" + duracion(m)));
+      });
+      sum.textContent = "";
+      sum.appendChild(h("span", { class: "guia-tit" }, "Guía de estudio en 4 días"));
+      sum.appendChild(mini);
+      sum.appendChild(h("span", { class: "guia-prog" }, sig ? Object.keys(g).length + "/" + AA.guia.DIAS : "Completada ✓"));
+      pasos.textContent = "";
+      DIAS_GUIA.forEach(function (x, i) {
+        var dia = i + 1;
+        var hecho = g[dia];
+        var toca = dia === sig;
+        var check = h("button", {
+          class: "guia-check", type: "button", "aria-pressed": hecho ? "true" : "false", "aria-label": "Día " + dia + " hecho",
+          onclick: function () {
+            var nuevo = !store.guiaTema(n)[dia];
+            var yaLeido = store.leido(n);
+            store.pasoGuia(n, dia, nuevo);
+            pintar(dia);
+            if (alCambiar) alCambiar();
+            AA.toast(!nuevo ? "Día " + dia + " desmarcado" : !AA.guia.siguiente(n) ? "Tema completado con la guía de 4 días" :
+              dia === 2 && !yaLeido ? "Día 2 hecho: tema marcado como leído" : "Día " + dia + " hecho");
+          },
+        }, "✓");
+        var pista = pistaGuia(n, dia, hecho);
+        pasos.appendChild(h("li", { class: "guia-paso" + (hecho ? " hecho" : "") + (toca ? " toca" : "") },
+          check,
+          h("div", { class: "guia-info" },
+            h("div", { class: "guia-cab" },
+              h("strong", {}, "Día " + dia + " · " + x.t),
+              h("span", { class: "guia-min" }, "~" + duracion(min[i])),
+              toca ? h("span", { class: "pill pill--hoy" }, avanzoHoy ? "Para mañana" : "Toca hoy") : null),
+            h("p", { class: "guia-txt" }, x.txt),
+            pista ? h("div", { class: "guia-pista" }, pista) : null,
+            h("div", { class: "row" }, accionesGuia(n, d, dia)))));
+        if (foco === dia) check.focus(); // el botón pulsado se ha redibujado: el foco no se pierde
+      });
+    }
+    pintar();
+    return det;
+  }
+
   V.tema = function (n) {
     var t = AA.temas[n];
     if (!t) return V.noEncontrado();
@@ -301,7 +513,7 @@
       h("div", { class: "eyebrow" }, "Tema " + n + " · " + BLOQUE_NOMBRE[t.bloque]),
       h("h1", { class: "page-title" }, t.titulo),
       badges,
-      h("details", { class: "oficial" }, h("summary", {}, "Texto oficial del Anexo I"), h("p", {}, t.oficial))
+      h("details", { class: "oficial", id: "s-oficial" }, h("summary", {}, "Texto oficial del Anexo I"), h("p", {}, t.oficial))
     );
 
     if (!d) {
@@ -322,13 +534,17 @@
     var nPreg = (d.preguntas || []).length;
     var nTarj = (d.tarjetas || []).length;
     var leido = store.leido(n);
+    function pintarLeido() {
+      var si = store.leido(n);
+      btnLeido.textContent = si ? "✓ Leído (deshacer)" : "Marcar como leído";
+      btnLeido.classList.toggle("btn--primary", !si);
+    }
     var btnLeido = h("button", {
       class: "btn" + (leido ? "" : " btn--primary"),
       onclick: function () {
         var nuevo = !store.leido(n);
         store.marcarLeido(n, nuevo);
-        btnLeido.textContent = nuevo ? "✓ Leído (deshacer)" : "Marcar como leído";
-        btnLeido.classList.toggle("btn--primary", !nuevo);
+        pintarLeido();
         AA.toast(nuevo ? "Tema marcado como leído" : "Marca de lectura quitada");
       },
     }, leido ? "✓ Leído (deshacer)" : "Marcar como leído");
@@ -341,6 +557,7 @@
         h("button", { class: "btn", onclick: function () { AA.tarjetasUI.preparar({ temas: [n] }); } }, "Tarjetas (" + nTarj + ")")
       )
     );
+    head.appendChild(guiaEstudio(n, d, pintarLeido));
 
     // Cuerpo
     var cuerpo = h("div", { class: "read" });
@@ -397,10 +614,7 @@
         href: "#tema-" + n,
         onclick: function (e) {
           e.preventDefault();
-          var el = document.getElementById(x[0]);
-          var plegable = el && el.querySelector("details.ampliado");
-          if (plegable) plegable.open = true;
-          if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+          irASeccion(x[0]);
           if (AA.cerrarToc) AA.cerrarToc();
         },
       }, x[1]));

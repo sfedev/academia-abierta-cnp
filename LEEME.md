@@ -9,6 +9,9 @@ Anexo I de la Resolución de 7 de julio de 2026 (BOE-A-2026-15055).
 - Simulacro de 100 preguntas en 50 minutos con el reparto de los cinco últimos exámenes.
 - Calculadora de pruebas físicas (Anexo II) y resumen del proceso selectivo, con el requisito de idioma A2.
 - Práctica de psicotécnicos (series y cálculo) y examen oficial importado localmente con calibración de nivel.
+- Guía de estudio en 4 días por tema (estructura, resumen, trampas y tarjetas, test) con el tiempo estimado de cada
+  día según la extensión y el peso del tema, y un planificador de ritmo en el Panel que calcula cuándo se termina la
+  primera vuelta al temario.
 - Progreso guardado en el navegador, con copia de seguridad en texto.
 
 ## Estructura

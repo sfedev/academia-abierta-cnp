@@ -375,7 +375,7 @@ textarea.field { min-height: 110px; font-family: var(--font-mono); font-size: 0.
 .ficha-head { padding-bottom: 18px; border-bottom: 1px solid var(--line); }
 .ficha-head .badges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; align-items: center; }
 .ficha-head .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
-details.oficial { margin-top: 12px; font-size: 0.9rem; color: var(--ink-2); }
+details.oficial { margin-top: 12px; font-size: 0.9rem; color: var(--ink-2); scroll-margin-top: 130px; }
 details.oficial summary { cursor: pointer; font-weight: 600; color: var(--muted); padding-block: 4px; }
 details.oficial p { margin-top: 8px; font-family: var(--font-read); line-height: 1.55; max-width: 75ch; }
 .normas { margin-top: 12px; display: grid; gap: 6px; font-size: 0.86rem; }
@@ -545,6 +545,55 @@ details.notas-fuentes li { overflow-wrap: break-word; }
 .aviso-ley { margin-top: 20px; padding: 14px 18px; border: 1px solid var(--warn); border-left-width: 4px; border-radius: var(--radius); background: var(--warn-soft); }
 .aviso-ley ul { margin: 8px 0 0; padding-left: 1.15em; display: grid; gap: 4px; font-size: 0.94rem; overflow-wrap: break-word; }
 
+/* ---------- Guía de estudio en 4 días (ficha) y ritmo de estudio (panel) ----------
+   Plegada, la guía ocupa una línea con el tiempo de cada día; desplegada, un paso por día con su casilla. */
+details.guia { margin-top: 16px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow-sm); }
+details.guia > summary {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; min-height: 44px; padding: 10px 16px;
+  cursor: pointer; list-style: none; font-weight: 600; border-radius: var(--radius); transition: background-color 0.15s;
+}
+details.guia > summary::-webkit-details-marker { display: none; }
+details.guia > summary::after { content: "Mostrar"; margin-left: auto; font-size: 0.78rem; font-weight: 500; color: var(--accent); }
+details.guia[open] > summary::after { content: "Ocultar"; }
+details.guia > summary:hover { background: var(--surface-2); }
+details.guia[open] > summary { border-radius: var(--radius) var(--radius) 0 0; }
+.guia-tit { overflow-wrap: break-word; }
+.guia-mini { display: flex; flex-wrap: wrap; gap: 6px; }
+.guia-dot {
+  display: inline-flex; align-items: center; gap: 5px; padding: 1px 9px 1px 3px; border-radius: 999px; border: 1px solid var(--line);
+  background: var(--surface-2); color: var(--ink-2); font-size: 0.76rem; font-weight: 600; line-height: 1.6; white-space: nowrap; font-variant-numeric: tabular-nums;
+}
+.guia-dot b { display: inline-grid; place-items: center; width: 18px; height: 18px; border-radius: 50%; border: 1px solid var(--line-strong); background: var(--surface); font-size: 0.7rem; line-height: 1; }
+.guia-dot.hecho { background: var(--ok-soft); color: var(--ok); border-color: transparent; }
+.guia-dot.hecho b { background: var(--ok); border-color: var(--ok); color: var(--on-solid); }
+.guia-prog { font-size: 0.82rem; font-weight: 500; color: var(--muted); }
+.guia-pasos { list-style: none; margin: 0; padding: 0 16px; }
+.guia-paso { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 12px; padding: 14px 0; border-top: 1px solid var(--line); }
+.guia-check {
+  display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; border: 2px solid var(--line-strong);
+  background: var(--surface); color: transparent; font-size: 1.05rem; font-weight: 700; cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s, transform 0.08s;
+}
+.guia-check:hover { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
+.guia-check:active { transform: scale(0.94); }
+.guia-check[aria-pressed="true"] { background: var(--ok); border-color: var(--ok); color: var(--on-solid); }
+.guia-paso.toca .guia-check[aria-pressed="false"] { border-color: var(--accent); }
+.guia-info { min-width: 0; }
+.guia-cab { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; min-height: 26px; }
+.guia-cab strong { overflow-wrap: break-word; }
+.guia-paso.hecho .guia-cab strong { color: var(--muted); }
+.guia-min { font-size: 0.82rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.pill--hoy { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+.guia-txt { margin-top: 2px; font-size: 0.92rem; color: var(--ink-2); overflow-wrap: break-word; }
+.guia-pista { margin-top: 4px; font-size: 0.84rem; color: var(--muted); overflow-wrap: break-word; }
+.guia-paso .row { margin-top: 10px; gap: 8px; }
+.guia-paso .row:empty { display: none; }
+.guia-pie { padding: 12px 16px 14px; border-top: 1px solid var(--line); font-size: 0.84rem; color: var(--muted); overflow-wrap: break-word; }
+.ritmo .seg { margin-top: 12px; max-width: 100%; }
+.ritmo-intro { color: var(--ink-2); font-size: 0.95rem; overflow-wrap: break-word; }
+.ritmo-res { display: grid; gap: 8px; margin-top: 14px; overflow-wrap: break-word; }
+.ritmo-detalle { font-size: 0.88rem; }
+
 /* ---------- Navegacion inferior, panel «Mas» e indice flotante ---------- */
 .tabbar a, .tabbar button {
   flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
@@ -635,6 +684,13 @@ details.notas-fuentes li { overflow-wrap: break-word; }
   .read { font-size: 1.03rem; }
   .read .sec { scroll-margin-top: 80px; }
   .ficha-head .actions .btn { flex: 1 1 auto; }
+  details.oficial { scroll-margin-top: 80px; }
+  details.guia > summary { padding: 10px 14px; }
+  .guia-pasos { padding: 0 14px; }
+  .guia-paso { gap: 10px; }
+  .guia-paso .row .btn { flex: 1 1 150px; }
+  .guia-pie { padding: 12px 14px; }
+  .ritmo .seg button { padding-inline: 8px; font-size: 0.88rem; }
 
   .btn { min-height: 48px; }
   .btn--sm { min-height: 40px; }
