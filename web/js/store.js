@@ -50,7 +50,7 @@
   /* ---------- Progreso ---------- */
   var IDS_V = 2; // 1 = progreso guardado con «tema.hash(texto)»; 2 = con el id fijo de la ficha
   function fresh() {
-    return { v: 1, ids: IDS_V, leidos: {}, preg: {}, tarj: {}, sims: [], ult: null, tema: 0, nov: [], aj: {}, psico: [], guia: {} };
+    return { v: 1, ids: IDS_V, leidos: {}, preg: {}, tarj: {}, sims: [], ult: null, tema: 0, nov: [], aj: {}, psico: [], guia: {}, vel: [] };
   }
   /* Traslada el progreso guardado con los ids antiguos (hash del texto) a los ids fijos. Los ids antiguos se
      recalculan desde el texto actual: sirve para el contenido publicado cuando se introdujeron los ids fijos. */
@@ -219,6 +219,53 @@
     },
   };
 
+  /* ---------- Cuaderno de errores: por qué se ha fallado cada pregunta ---------- */
+  var MOTIVOS = [
+    { id: "despiste", nombre: "Despiste", corto: "Despiste", txt: "Lectura incorrecta o precipitación" },
+    { id: "plazo", nombre: "Plazo, cifra u órgano", corto: "Plazo / cifra / órgano", txt: "Confusión de plazo, cifra u órgano" },
+    { id: "concepto", nombre: "Concepto", corto: "No lo sabía", txt: "Desconocimiento del tema" },
+    { id: "dudosa", nombre: "Dudosa", corto: "Dudé entre dos", txt: "Duda entre dos opciones" },
+  ];
+  var MOTIVO = {};
+  MOTIVOS.forEach(function (m) { MOTIVO[m.id] = m; });
+  AA.MOTIVOS = MOTIVOS;
+  /* Motivo del último intento fallado, o null si ese intento no se ha diagnosticado. */
+  function motivoActual(r) {
+    return r && r.last === 0 && r.tipo && r.tipoTs === r.ts ? r.tipo : null;
+  }
+
+  /* ---------- Modo Repaso Intensivo («últimos 30 días») ----------
+     Reordena el Panel hacia el repaso: primero los fallos con motivo, luego «Lo imprescindible» de los temas con
+     menos aciertos y las tarjetas que siguen en las cajas 1 y 2 de Leitner. Se guarda como el ajuste «repaso». */
+  var PRIORIDAD_MOTIVO = { despiste: 3, plazo: 3, concepto: 3, dudosa: 2 }; // sin diagnosticar: 1
+  AA.repaso = {
+    activo: function () { return !!(S.aj && S.aj.repaso); },
+    activar: function (v) { AA.store.ajuste("repaso", !!v); },
+    /* Fallos pendientes por prioridad según el motivo del último fallo (el mismo que muestra el cuaderno): despiste,
+       plazo o concepto; después «dudosa»; después sin diagnosticar. A igualdad, primero los más fallados y luego los
+       más recientes. [{q, tipo, prio}] */
+    fallos: function () {
+      return AA.preguntas
+        .filter(function (q) { var r = S.preg[q.id]; return r && r.last === 0; })
+        .map(function (q) {
+          var r = S.preg[q.id];
+          var tipo = motivoActual(r);
+          return { q: q, tipo: tipo, prio: PRIORIDAD_MOTIVO[tipo] || 1, fallos: r.n - r.ok, ts: r.ts };
+        })
+        .sort(function (a, b) { return b.prio - a.prio || b.fallos - a.fallos || b.ts - a.ts; });
+    },
+    /* Temas con «Lo imprescindible» y algún intento en los tests, del menor al mayor % de aciertos (a igualdad, el
+       que más cae en examen primero). [{tema, titulo, pct, intentos, clave}] */
+    temasFlojos: function (n) {
+      return AA.listaTemas
+        .map(function (t) { return { t: t, st: AA.store.statsTema(t.tema) }; })
+        .filter(function (x) { return x.t.datos && (x.t.datos.clave || []).length && x.st.intentos; })
+        .sort(function (a, b) { return a.st.pct - b.st.pct || (b.t.media || 0) - (a.t.media || 0) || a.t.tema - b.t.tema; })
+        .slice(0, n == null ? 3 : n)
+        .map(function (x) { return { tema: x.t.tema, titulo: x.t.titulo, pct: x.st.pct, intentos: x.st.intentos, clave: x.t.datos.clave }; });
+    },
+  };
+
   AA.store = {
     /* Preferencias sueltas (p. ej. «a2»: ya tiene el certificado de idioma). Con un valor, lo guarda. */
     ajuste: function (k, v) {
@@ -279,6 +326,63 @@
     },
     commit: save,
     regPregunta: function (qid) { return S.preg[qid] || null; },
+    /* Cuaderno de errores. La etiqueta va con el último intento fallado (`tipo`, `tipoTs` = `ts` del intento) y
+       `motivos` acumula las de todos los fallos de la pregunta: cambiarla en el mismo intento la corrige, no suma
+       otra. Sin `tipo`, la quita. Solo se puede etiquetar una pregunta cuyo último intento sea un fallo. */
+    etiquetarFallo: function (qid, tipo) {
+      var r = S.preg[qid];
+      if (!r || r.last !== 0 || (tipo && !MOTIVO[tipo])) return false;
+      var m = r.motivos || {};
+      var previo = motivoActual(r);
+      if (previo) {
+        m[previo] = (m[previo] || 0) - 1;
+        if (m[previo] <= 0) delete m[previo];
+      }
+      if (tipo) {
+        m[tipo] = (m[tipo] || 0) + 1;
+        r.tipo = tipo;
+        r.tipoTs = r.ts;
+      } else if (previo) {
+        delete r.tipo;
+        delete r.tipoTs;
+      }
+      if (Object.keys(m).length) r.motivos = m;
+      else delete r.motivos;
+      save();
+      return true;
+    },
+    motivoFallo: function (qid) { return motivoActual(S.preg[qid]); },
+    /* Reparto de los motivos de todos los fallos diagnosticados (también los de exámenes oficiales) y estado de los
+       fallos pendientes del banco: {total, porTipo, pct, dominante, pendientes, sinDiagnosticar} */
+    diagnosticoFallos: function () {
+      var porTipo = {}, pct = {}, total = 0, dominante = null, pendientes = 0, sin = 0;
+      MOTIVOS.forEach(function (m) { porTipo[m.id] = 0; });
+      Object.keys(S.preg).forEach(function (k) {
+        var m = S.preg[k].motivos || {};
+        Object.keys(m).forEach(function (t) {
+          if (porTipo[t] == null) return;
+          porTipo[t] += m[t];
+          total += m[t];
+        });
+      });
+      MOTIVOS.forEach(function (m) {
+        pct[m.id] = AA.pct(porTipo[m.id], total);
+        if (porTipo[m.id] && (!dominante || porTipo[m.id] > porTipo[dominante])) dominante = m.id;
+      });
+      AA.preguntas.forEach(function (q) {
+        var r = S.preg[q.id];
+        if (!r || r.last !== 0) return;
+        pendientes++;
+        if (!motivoActual(r)) sin++;
+      });
+      return { total: total, porTipo: porTipo, pct: pct, dominante: dominante, pendientes: pendientes, sinDiagnosticar: sin };
+    },
+    /* Fallos pendientes del banco cuyo último intento no tiene motivo, el más reciente primero. */
+    fallosSinDiagnosticar: function () {
+      return AA.preguntas
+        .filter(function (q) { var r = S.preg[q.id]; return r && r.last === 0 && !motivoActual(r); })
+        .sort(function (a, b) { return S.preg[b.id].ts - S.preg[a.id].ts; });
+    },
     fallosPendientes: function () {
       return AA.preguntas.filter(function (q) { var r = S.preg[q.id]; return r && r.last === 0; });
     },
@@ -316,6 +420,12 @@
       save();
     },
     simulacros: function () { return S.sims; },
+    /* Mini-tests de velocidad: {ts, n, a, e, b, agot, nota, medio}. Se guardan los 30 últimos. */
+    guardarVelocidad: function (r) {
+      S.vel = (S.vel || []).concat([r]).slice(-30);
+      save();
+    },
+    velocidad: function () { return S.vel || []; },
 
     /* Tarjetas (Leitner): {caja, due} */
     tarjeta: function (id) { return S.tarj[id] || null; },
@@ -343,6 +453,10 @@
     },
     tarjetasVistas: function () {
       return AA.tarjetas.filter(function (c) { return S.tarj[c.id]; }).length;
+    },
+    /* Tarjetas ya vistas que están en alguna de las cajas indicadas, vencidas o no (las nuevas no tienen caja). */
+    tarjetasEnCajas: function (cajas) {
+      return AA.tarjetas.filter(function (c) { var r = S.tarj[c.id]; return r && cajas.indexOf(r.caja) >= 0; });
     },
 
     exportar: function () {

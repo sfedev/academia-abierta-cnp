@@ -92,6 +92,8 @@
       )
     );
 
+    var repaso = AA.repaso.activo();
+
     // Siguiente paso
     var pasos = [];
     var conv = AA.convocatoriaPendiente();
@@ -100,6 +102,8 @@
       var nCambios = (tc.modificados || []).length + (tc.nuevos || []).length + (tc.eliminados || []).length;
       pasos.push({ txt: "Ha salido la convocatoria nueva: ", fuerte: nCambios ? AA.plural(nCambios, "cambio en el temario", "cambios en el temario") : "el temario no cambia", btn: "Ver la convocatoria", ir: "novedades" });
     }
+    // Modo Repaso Intensivo: sus tres frentes van justo después del aviso de convocatoria
+    if (repaso) pasos = pasos.concat(pasosRepaso());
     // El tema con la guía de 4 días a medias (salvo que ya se haya avanzado hoy: un día por sesión)
     var hoy = AA.isoDia(Date.now());
     var curso = AA.guia.enCurso().filter(function (x) { return AA.isoDia(x.ultimo) !== hoy; })[0];
@@ -129,7 +133,7 @@
         ir: "tema-" + p.tema,
       });
     }
-    if (fallos) pasos.push({ txt: "Tienes ", fuerte: AA.plural(fallos, "pregunta fallada", "preguntas falladas") + " por repasar", btn: "Repasar", fn: function () { AA.test.preparar({ preset: "fallos" }); } });
+    if (fallos && !repaso) pasos.push({ txt: "Tienes ", fuerte: AA.plural(fallos, "pregunta fallada", "preguntas falladas") + " por repasar", btn: "Repasar", fn: function () { AA.test.preparar({ preset: "fallos" }); } });
     if (due) pasos.push({ txt: "Tienes ", fuerte: AA.plural(due, "tarjeta pendiente", "tarjetas pendientes"), btn: "Repasar", fn: function () { AA.tarjetasUI.preparar({}); } });
     if (!sims.length) pasos.push({ txt: "Mide tu nivel con un ", fuerte: "simulacro completo", btn: "Hacer simulacro", fn: function () { AA.test.preparar({ preset: "simulacro" }); } });
     if (pasos.length) {
@@ -141,7 +145,10 @@
       root.appendChild(h("section", { class: "section" }, h("h2", { class: "sec-title" }, "Qué hacer ahora"), h("div", { class: "card" }, lista)));
     }
 
+    // Activo, el Modo Repaso Intensivo sube justo debajo del recomendador; apagado, queda como un interruptor tras el ritmo
+    if (repaso) root.appendChild(tarjetaRepaso(true));
     AA.append(root, tarjetaRitmo()); // null si ningún tema tiene ficha
+    if (!repaso) root.appendChild(tarjetaRepaso(false));
 
     // Presets
     var presets = h(
@@ -205,6 +212,87 @@
       h("p", {}, texto),
       h("div", {}, h("button", { class: "btn btn--sm" + (primario ? " btn--primary" : ""), onclick: fn, disabled: desactivado ? true : null }, boton))
     );
+  }
+
+  /* ---------- Modo Repaso Intensivo («últimos 30 días») ---------- */
+  /* Recomendaciones del modo, por orden: fallos (los diagnosticados como despiste, plazo o concepto primero),
+     tarjetas de las cajas 1 y 2 y «Lo imprescindible» del tema con menos aciertos. */
+  function pasosRepaso() {
+    var out = [];
+    var fallos = AA.repaso.fallos();
+    var marcados = fallos.filter(function (x) { return x.prio === 3; }).length;
+    if (fallos.length) out.push({ txt: "Repaso intensivo: ", btn: "Repasar", fn: function () { AA.test.preparar({ preset: "repaso" }); },
+      fuerte: marcados ? AA.plural(marcados, "fallo por despiste, plazo o concepto", "fallos por despiste, plazo o concepto") : AA.plural(fallos.length, "pregunta fallada", "preguntas falladas") });
+    var cajas = store.tarjetasEnCajas([1, 2]).length;
+    if (cajas) out.push({ txt: "Repaso intensivo: ", fuerte: AA.plural(cajas, "tarjeta en las cajas 1 y 2", "tarjetas en las cajas 1 y 2"), btn: "Repasar", fn: function () { AA.tarjetasUI.preparar({ cajas: [1, 2] }); } });
+    var flojo = AA.repaso.temasFlojos(1)[0];
+    if (flojo) out.push({ txt: "Relee «Lo imprescindible» del ", fuerte: "tema " + flojo.tema + " (" + flojo.pct + " % de aciertos)", btn: "Abrir", ir: "tema-" + flojo.tema });
+    return out;
+  }
+
+  function bloqueRepaso(titulo, cuerpo) {
+    return h("div", { class: "repaso-bloque" }, h("h3", {}, titulo), cuerpo);
+  }
+
+  /* Interruptor del modo y, activo, sus tres accesos directos. Cambiarlo redibuja el Panel con el nuevo orden. */
+  function tarjetaRepaso(activo) {
+    var interruptor = h("button", {
+      type: "button", class: "interruptor", role: "switch", "aria-checked": activo ? "true" : "false", "aria-labelledby": "repaso-tit",
+      onclick: function () {
+        AA.repaso.activar(!activo);
+        AA.go("panel");
+        var nuevo = document.querySelector(".interruptor");
+        if (nuevo) nuevo.focus();
+        AA.toast(activo ? "Modo Repaso Intensivo desactivado" : "Modo Repaso Intensivo activado: el Panel prioriza el repaso");
+      },
+    }, h("span", { class: "interruptor-pista", "aria-hidden": "true" }), h("span", { "aria-hidden": "true" }, activo ? "Activado" : "Desactivado"));
+    var sec = h("section", { class: "section card repaso" + (activo ? " repaso--on" : "") },
+      h("div", { class: "repaso-cab" },
+        h("div", { class: "repaso-txt" },
+          h("h2", { class: "sec-title", id: "repaso-tit" }, "Modo Repaso Intensivo · últimos 30 días"),
+          h("p", {}, activo ? "El Panel pone primero tus fallos diagnosticados, «Lo imprescindible» de tus temas más flojos y las tarjetas que aún no has fijado." :
+            "Para el último mes antes del examen: el Panel deja de priorizar temas nuevos y se centra en tus fallos, tus temas más flojos y las tarjetas de las cajas 1 y 2.")),
+        interruptor));
+    if (!activo) return sec;
+
+    var fallos = AA.repaso.fallos();
+    var porTipo = {};
+    fallos.forEach(function (x) { if (x.tipo) porTipo[x.tipo] = (porTipo[x.tipo] || 0) + 1; });
+    var sinMotivo = fallos.length - Object.keys(porTipo).reduce(function (s, k) { return s + porTipo[k]; }, 0);
+    var bFallos = bloqueRepaso("Fallos prioritarios", fallos.length ? [
+      h("p", {}, AA.plural(fallos.length, "pregunta fallada pendiente", "preguntas falladas pendientes") + ": primero las de despiste, plazo o concepto."),
+      h("div", { class: "row repaso-chips" },
+        AA.MOTIVOS.filter(function (m) { return porTipo[m.id]; }).map(function (m) { return h("span", { class: "chip" }, m.nombre + " · " + porTipo[m.id]); }),
+        sinMotivo ? h("span", { class: "chip" }, "Sin diagnosticar · " + sinMotivo) : null),
+      h("div", { class: "row" },
+        h("button", { class: "btn btn--sm btn--primary", onclick: function () { AA.test.preparar({ preset: "repaso" }); } }, "Repasar " + Math.min(20, fallos.length)),
+        h("button", { class: "btn btn--sm btn--ghost", onclick: function () {
+          AA.test.inicio(); // portada de Tests aunque quede la corrección del último test
+          var c = document.querySelector(".cuaderno");
+          if (c) c.scrollIntoView({ block: "start" });
+        } }, "Cuaderno de errores")),
+    ] : h("p", { class: "muted" }, "No tienes fallos pendientes. Haz un simulacro o un test rápido para encontrar puntos débiles."));
+
+    var flojos = AA.repaso.temasFlojos(3);
+    var bClave = bloqueRepaso("Lo imprescindible de tus temas más flojos", flojos.length ? flojos.map(function (t) {
+      return h("details", { class: "clave-rapida" },
+        h("summary", {}, h("span", {}, h("b", { class: "mono" }, t.tema + ". "), t.titulo), h("span", { class: "num clave-pct" }, t.pct + " %")),
+        lista(t.clave),
+        h("div", { class: "clave-pie" }, enlace("tema-" + t.tema, "btn btn--sm", "Abrir la ficha")));
+    }) : h("p", { class: "muted" }, "Cuando hagas tests de varios temas, aquí saldrán los tres con menos aciertos y su resumen de lo imprescindible."));
+
+    var c1 = store.tarjetasEnCajas([1]).length;
+    var c2 = store.tarjetasEnCajas([2]).length;
+    var bCajas = bloqueRepaso("Tarjetas en las cajas 1 y 2", [
+      h("div", { class: "cajas" },
+        h("div", {}, h("b", {}, c1), h("span", {}, "caja 1 · cada día")),
+        h("div", {}, h("b", {}, c2), h("span", {}, "caja 2 · cada 3 días"))),
+      c1 + c2 ? h("p", {}, "Las que más te cuesta fijar: se repasan aunque hoy no les toque.") :
+        h("p", { class: "muted" }, "Aún no hay tarjetas en esas cajas: aparecen al marcar una tarjeta como «Otra vez» o al empezar a repasarla."),
+      c1 + c2 ? h("div", { class: "row" }, h("button", { class: "btn btn--sm btn--primary", onclick: function () { AA.tarjetasUI.preparar({ cajas: [1, 2] }); } }, "Repasar " + Math.min(20, c1 + c2))) : null,
+    ]);
+    sec.appendChild(h("div", { class: "repaso-grid" }, bFallos, bClave, bCajas));
+    return sec;
   }
 
   /* ---------- Ritmo de estudio: fecha de la vuelta completa con la guía de 4 días ---------- */

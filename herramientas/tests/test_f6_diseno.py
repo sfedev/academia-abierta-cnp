@@ -360,7 +360,8 @@ class HtmlYJs(unittest.TestCase):
 
     def test_las_clases_que_usa_el_js_para_el_diseno_existen_en_el_css(self):
         selectores = " ".join(s for _, s, _ in REGLAS)
-        for clase in ("tabbar", "sheet", "sheet-fondo", "toc-fab", "toc", "abierto", "badge", "overlay", "flash-card"):
+        for clase in ("tabbar", "sheet", "sheet-fondo", "toc-fab", "toc", "abierto", "badge", "overlay", "flash-card",
+                      "motivos", "diag-fila", "vel-reloj", "interruptor", "repaso-grid", "clave-rapida", "cajas"):
             self.assertIn("." + clase, selectores, clase)
 
 

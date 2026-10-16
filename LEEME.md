@@ -12,6 +12,12 @@ Anexo I de la Resolución de 7 de julio de 2026 (BOE-A-2026-15055).
 - Guía de estudio en 4 días por tema (estructura, resumen, trampas y tarjetas, test) con el tiempo estimado de cada
   día según la extensión y el peso del tema, y un planificador de ritmo en el Panel que calcula cuándo se termina la
   primera vuelta al temario.
+- Cuaderno de errores: tras fallar una pregunta se puede marcar por qué (despiste, plazo/cifra/órgano, concepto o
+  duda entre dos) y la sección de Tests muestra el reparto de motivos y el error que más se repite.
+- Entrenamiento de velocidad: mini-tests de 10 o 15 preguntas al azar con 30 segundos por pregunta y avance
+  automático, con respondidas, en blanco por tiempo y nota con la fórmula oficial.
+- Modo Repaso Intensivo («últimos 30 días») en el Panel: prioriza los fallos diagnosticados, «Lo imprescindible» de
+  los temas con menos aciertos y las tarjetas de las cajas 1 y 2.
 - Progreso guardado en el navegador, con copia de seguridad en texto.
 
 ## Estructura

@@ -397,7 +397,7 @@ details.oficial p { margin-top: 8px; font-family: var(--font-read); line-height:
 .read li { overflow-wrap: break-word; }
 .read li::marker { color: var(--muted); }
 /* Resaltado de los datos clave (negritas del texto de estudio) y de las coincidencias del buscador */
-.read strong, mark {
+.read strong, mark, .clave-rapida strong {
   font-weight: 600; color: var(--mark-fg); background-color: var(--mark-bg);
   border-bottom: 2px solid var(--mark-line); border-radius: 3px 3px 0 0; padding: 0 0.2em;
   -webkit-box-decoration-break: clone; box-decoration-break: clone;
@@ -594,6 +594,100 @@ details.guia[open] > summary { border-radius: var(--radius) var(--radius) 0 0; }
 .ritmo-res { display: grid; gap: 8px; margin-top: 14px; overflow-wrap: break-word; }
 .ritmo-detalle { font-size: 0.88rem; }
 
+/* ---------- Cuaderno de errores: motivo de cada fallo y desglose (Tests) ---------- */
+.motivos { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-top: 12px; }
+.motivos-tit { flex: 1 0 100%; font-size: 0.86rem; font-weight: 600; color: var(--ink-2); }
+.motivos-tit .muted { font-weight: 400; }
+.motivos .chipbtn { min-height: 36px; padding: 4px 12px; font-size: 0.82rem; }
+.cuaderno { scroll-margin-top: 120px; } /* el Panel lleva aquí: que la cabecera fija no tape el título */
+.cuaderno .sec-title { margin-bottom: 4px; }
+.diag { display: grid; gap: 12px; margin-top: 12px; }
+.diag-fila { display: grid; grid-template-columns: minmax(0, 12rem) minmax(0, 1fr) 6.5rem; gap: 6px 12px; align-items: center; font-size: 0.92rem; }
+.diag-nom { display: grid; min-width: 0; font-weight: 600; overflow-wrap: break-word; }
+.diag-nom small { font-weight: 400; font-size: 0.78rem; color: var(--muted); }
+.diag .bar { height: 10px; }
+.diag-bar--despiste > i { background: var(--warn); }
+.diag-bar--plazo > i { background: var(--b); }
+.diag-bar--concepto > i { background: var(--ko); }
+.diag-bar--dudosa > i { background: var(--a); }
+.diag-val { display: grid; justify-items: end; line-height: 1.25; }
+.diag-val small { font-size: 0.76rem; color: var(--muted); }
+.diag-sesgo { margin-top: 14px; font-size: 0.92rem; }
+.diag-pie { margin-top: 10px; font-size: 0.86rem; }
+details.cuaderno-lista { margin-top: 14px; border-top: 1px solid var(--line); }
+details.cuaderno-lista > summary { display: flex; align-items: center; gap: 10px; min-height: 44px; cursor: pointer; font-weight: 600; color: var(--accent); list-style: none; }
+details.cuaderno-lista > summary::-webkit-details-marker { display: none; }
+details.cuaderno-lista > summary::after { content: "Mostrar"; margin-left: auto; font-size: 0.78rem; font-weight: 500; }
+details.cuaderno-lista[open] > summary::after { content: "Ocultar"; }
+details.cuaderno-lista > summary:hover { text-decoration: underline; }
+.fallo-mas { font-size: 0.86rem; }
+.fallo-item { padding: 14px 0; border-top: 1px solid var(--line); min-width: 0; }
+.fallo-q { margin-top: 6px; font-family: var(--font-read); font-size: 1.02rem; line-height: 1.5; overflow-wrap: break-word; }
+.fallo-ok { margin-top: 6px; font-size: 0.9rem; color: var(--ink-2); overflow-wrap: break-word; }
+.fallo-ok strong { color: var(--ok); }
+.cuaderno-acc { margin-top: 14px; }
+.rev-pista { font-size: 0.88rem; margin-top: -4px; }
+
+/* ---------- Entrenamiento de velocidad: reloj por pregunta ---------- */
+.vel-card .seg { align-self: flex-start; max-width: 100%; }
+.vel-card .seg button { min-width: 64px; font-variant-numeric: tabular-nums; }
+.vel-hist { font-size: 0.84rem; overflow-wrap: break-word; }
+.vel-reloj { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 12px; align-items: center; margin-bottom: 16px; }
+.vel-reloj .bar { height: 10px; }
+.vel-reloj .bar > i { transition: width 0.25s linear, background-color 0.2s; }
+.vel-reloj.low .timer { background: var(--warn-soft); color: var(--warn); }
+.vel-reloj.low .bar > i { background: var(--warn); }
+.vel-reloj.critico .timer { background: var(--ko-soft); color: var(--ko); }
+.vel-reloj.critico .bar > i { background: var(--ko); }
+.vel-pista { font-size: 0.86rem; align-self: center; overflow-wrap: break-word; }
+.vel-formula { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: baseline; overflow-wrap: anywhere; }
+
+/* ---------- Modo Repaso Intensivo (Panel) ---------- */
+.repaso--on { border-color: var(--accent); border-left-width: 4px; box-shadow: var(--shadow); }
+.repaso-cab { display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: center; justify-content: space-between; }
+.repaso-txt { flex: 1 1 320px; min-width: 0; }
+.repaso-txt .sec-title { margin-bottom: 4px; }
+.repaso-txt p { color: var(--ink-2); font-size: 0.92rem; max-width: 64ch; overflow-wrap: break-word; }
+.interruptor {
+  display: inline-flex; align-items: center; gap: 10px; min-height: 44px; padding: 6px 14px 6px 8px; flex: 0 0 auto;
+  border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface); color: var(--ink-2);
+  font-weight: 600; font-size: 0.88rem; box-shadow: var(--shadow-sm);
+  transition: border-color 0.15s, background-color 0.15s, color 0.15s, transform 0.08s;
+}
+.interruptor:hover { border-color: var(--accent); background: var(--accent-soft); }
+.interruptor:active { transform: scale(0.97); }
+.interruptor-pista { position: relative; width: 44px; height: 26px; flex: 0 0 auto; border-radius: 999px; border: 2px solid var(--line-strong); background: var(--surface-2); transition: background-color 0.15s, border-color 0.15s; }
+.interruptor-pista::after { content: ""; position: absolute; top: 2px; left: 2px; width: 18px; height: 18px; border-radius: 50%; background: var(--line-strong); transition: transform 0.15s, background-color 0.15s; }
+.interruptor[aria-checked="true"] { border-color: var(--accent); color: var(--accent); }
+.interruptor[aria-checked="true"] .interruptor-pista { background: var(--accent); border-color: var(--accent); }
+.interruptor[aria-checked="true"] .interruptor-pista::after { transform: translateX(18px); background: var(--accent-ink); }
+.repaso-grid { display: grid; gap: 12px; margin-top: 16px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); }
+.repaso-bloque { display: flex; flex-direction: column; gap: 10px; min-width: 0; padding: 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface-2); }
+.repaso-bloque h3 { font-size: 0.98rem; }
+.repaso-bloque > p { font-size: 0.9rem; color: var(--ink-2); overflow-wrap: break-word; }
+.repaso-bloque > p.muted { color: var(--muted); }
+.repaso-bloque > .row:last-child { margin-top: auto; }
+.repaso-chips { gap: 6px; }
+.repaso-chips .chip { background: var(--surface); }
+details.clave-rapida { border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface); min-width: 0; }
+details.clave-rapida > summary {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 44px; padding: 8px 12px;
+  cursor: pointer; font-weight: 600; font-size: 0.9rem; border-radius: var(--radius-sm); overflow-wrap: anywhere; transition: background-color 0.15s;
+  list-style: none;
+}
+details.clave-rapida > summary::-webkit-details-marker { display: none; }
+details.clave-rapida > summary::after { content: "Ver"; flex: 0 0 auto; font-size: 0.78rem; font-weight: 500; color: var(--accent); }
+details.clave-rapida[open] > summary::after { content: "Ocultar"; }
+details.clave-rapida > summary:hover { background: var(--accent-soft); }
+details.clave-rapida[open] > summary { border-bottom: 1px solid var(--line); border-radius: var(--radius-sm) var(--radius-sm) 0 0; }
+.clave-pct { flex: 0 0 auto; margin-left: auto; color: var(--ko); }
+details.clave-rapida ul { margin: 10px 0 0; padding: 0 14px 0 32px; display: grid; gap: 7px; font-family: var(--font-read); font-size: 0.97rem; line-height: 1.5; overflow-wrap: break-word; }
+.clave-pie { padding: 10px 12px 12px; }
+.cajas { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.cajas > div { min-width: 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface); }
+.cajas b { display: block; font-size: 1.45rem; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.cajas span { font-size: 0.8rem; color: var(--muted); overflow-wrap: break-word; }
+
 /* ---------- Navegacion inferior, panel «Mas» e indice flotante ---------- */
 .tabbar a, .tabbar button {
   flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
@@ -691,6 +785,16 @@ details.guia[open] > summary { border-radius: var(--radius) var(--radius) 0 0; }
   .guia-paso .row .btn { flex: 1 1 150px; }
   .guia-pie { padding: 12px 14px; }
   .ritmo .seg button { padding-inline: 8px; font-size: 0.88rem; }
+  .cuaderno { scroll-margin-top: 80px; }
+  .motivos .chipbtn { flex: 1 1 calc(50% - 8px); justify-content: center; text-align: center; min-height: 44px; }
+  .diag-fila { grid-template-columns: minmax(0, 1fr) auto; }
+  .diag-fila .bar { grid-column: 1 / -1; grid-row: 2; }
+  .diag-val { grid-column: 2; grid-row: 1; }
+  .vel-reloj { gap: 10px; }
+  .vel-pista { flex: 1 1 100%; order: 2; }
+  .repaso-cab .interruptor { flex: 1 1 100%; justify-content: flex-start; }
+  .repaso-bloque { padding: 12px; }
+  .repaso-bloque .row .btn { flex: 1 1 140px; }
 
   .btn { min-height: 48px; }
   .btn--sm { min-height: 40px; }
@@ -717,6 +821,7 @@ details.guia[open] > summary { border-radius: var(--radius) var(--radius) 0 0; }
   .iconbtn { width: 46px; height: 46px; }
   .field, .seg button { min-height: 48px; }
   .toc a { padding-block: 10px; }
+  .motivos .chipbtn, .interruptor { min-height: 48px; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }
 
