@@ -7,6 +7,11 @@ on:
   schedule:
     - cron: "17 5 * * *" # 05:17 UTC cada día (07:17 en España en verano, 06:17 en invierno)
   workflow_dispatch:
+    inputs:
+      probar_aviso:
+        description: "Crear un issue de prueba para comprobar que llegan los avisos"
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths:
@@ -67,6 +72,17 @@ jobs:
             --title "Novedades legislativas: ${{ steps.vigilar.outputs.nuevas }} cambio(s) en las leyes del temario" \
             --label novedades-leyes \
             --body-file cuerpo-issue.md
+
+      - name: Probar el aviso (solo si se pide a mano)
+        if: github.event_name == 'workflow_dispatch' && inputs.probar_aviso
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create novedades-leyes --description "Cambios en las leyes del temario" --color D93F0B --force
+          gh issue create \
+            --title "Prueba de aviso: así llegará una novedad legislativa" \
+            --label novedades-leyes \
+            --body "Este es un aviso de prueba. Cuando el BOE cambie una ley del temario, recibirás un issue como este con la lista de cambios y el enlace a la pestaña Novedades de la web: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/#novedades. Puedes cerrarlo."
 
       - name: Generar la web
         run: |
