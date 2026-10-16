@@ -20,7 +20,7 @@ La web usa el almacenamiento local del navegador (`localStorage`) con tres clave
 
 | Clave | Contenido |
 |---|---|
-| `academia-abierta-policia-v1` | Tu progreso: temas leídos, respuestas a cada pregunta (intentos, aciertos, último resultado y, si lo marcas, el motivo del fallo), estado de las tarjetas de repaso, historial de simulacros, entrenamiento de velocidad y psicotécnicos, días hechos de la guía de estudio, novedades legales ya vistas y ajustes (como el Modo Repaso Intensivo). |
+| `academia-abierta-policia-v1` | Tu progreso: temas leídos, respuestas a cada pregunta (intentos, aciertos, último resultado y, si lo marcas, el motivo del fallo), estado de las tarjetas de repaso, historial de simulacros, entrenamiento de velocidad y psicotécnicos, días hechos de la guía de estudio, actividad de cada día de los últimos 400 días (para la racha, el mapa de constancia y el desafío diario), logros y récords, novedades legales ya vistas y ajustes (como el Modo Repaso Intensivo o los días de descanso de la racha). |
 | `academia-abierta-theme` | Si has forzado el tema claro u oscuro. |
 | `academia-abierta-oficiales-v1` | Los exámenes oficiales que tú hayas importado desde un fichero. |
 

@@ -29,10 +29,24 @@
     }
     return (h >>> 0).toString(36);
   };
-  AA.shuffle = function (arr) {
+  /* Generador pseudoaleatorio con semilla (mulberry32): la misma semilla da siempre la misma secuencia. Devuelve una
+     función que se usa como Math.random. La semilla puede ser un número o un texto (p. ej. «desafio-2026-10-17»). */
+  AA.azar = function (semilla) {
+    var a = typeof semilla === "number" ? semilla >>> 0 : parseInt(AA.hash(String(semilla)), 36) >>> 0;
+    return function () {
+      a = (a + 0x6d2b79f5) >>> 0;
+      var t = a;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  };
+  /* Baraja una copia. Con `rnd` (p. ej. AA.azar(semilla)), el orden es reproducible. */
+  AA.shuffle = function (arr, rnd) {
+    var azar = rnd || Math.random;
     var a = arr.slice();
     for (var i = a.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
+      var j = Math.floor(azar() * (i + 1));
       var t = a[i];
       a[i] = a[j];
       a[j] = t;
@@ -57,6 +71,21 @@
   AA.isoDia = function (d) {
     d = d instanceof Date ? d : new Date(d);
     return d.getFullYear() + "-" + AA.pad(d.getMonth() + 1) + "-" + AA.pad(d.getDate());
+  };
+  /* Fecha AAAA-MM-DD desplazada `n` días naturales (a mediodía: los cambios de hora no la mueven). */
+  AA.sumarDias = function (iso, n) {
+    var d = new Date(iso + "T12:00:00");
+    d.setDate(d.getDate() + n);
+    return AA.isoDia(d);
+  };
+  /* Días naturales de la fecha `a` a la `b` (AAAA-MM-DD); negativo si `b` es anterior. */
+  AA.diasEntre = function (a, b) {
+    return Math.round((new Date(b + "T12:00:00") - new Date(a + "T12:00:00")) / 86400000);
+  };
+  /* Lunes (AAAA-MM-DD) de la semana de esa fecha: identifica la semana natural, de lunes a domingo. */
+  AA.lunes = function (iso) {
+    var dia = new Date(iso + "T12:00:00").getDay(); // 0 = domingo
+    return AA.sumarDias(iso, -((dia + 6) % 7));
   };
   AA.fmt1 = function (n) {
     return (Math.round(n * 100) / 100).toLocaleString("es-ES", { minimumFractionDigits: 0, maximumFractionDigits: 2 });

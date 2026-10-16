@@ -231,6 +231,100 @@
   };
 
   /* ================= Progreso ================= */
+  /* ---------- Rachas y logros (web/js/motivacion.js) ---------- */
+  var DIAS_SEMANA = ["L", "M", "X", "J", "V", "S", "D"];
+  function tituloDia(x) {
+    var d = x.d || {};
+    var partes = [];
+    if (d.p) partes.push(AA.plural(d.p, "pregunta", "preguntas"));
+    if (d.t) partes.push(AA.plural(d.t, "tarjeta", "tarjetas"));
+    if (d.des && d.des.hecho) partes.push("desafío hecho");
+    if (d.g) partes.push(AA.plural(d.g, "día de guía", "días de guía"));
+    if (d.l) partes.push(AA.plural(d.l, "tema leído", "temas leídos"));
+    if (d.s) partes.push("psicotécnicos");
+    if (d.r && !partes.length) partes.push("estudio anterior al registro diario");
+    return AA.fecha(x.iso) + ": " + (partes.length ? partes.join(", ") : "sin actividad");
+  }
+
+  /* Racha, mapa de constancia de 12 semanas, días de descanso e interruptor para ocultar rachas y logros. Cambiar los
+     días de descanso redibuja solo esta tarjeta; mostrar u ocultar, la página entera. */
+  function tarjetaConstancia(foco) {
+    var visible = AA.motiv.visible();
+    var interruptor = h("button", {
+      type: "button", class: "interruptor", id: "motiv-interruptor", role: "switch", "aria-checked": visible ? "true" : "false", "aria-labelledby": "motiv-tit",
+      onclick: function () {
+        AA.motiv.mostrar(!visible);
+        AA.go("progreso");
+        var nuevo = document.getElementById("motiv-interruptor");
+        if (nuevo) nuevo.focus();
+        AA.toast(visible ? "Rachas y logros ocultos" : "Rachas y logros a la vista");
+      },
+    }, h("span", { class: "interruptor-pista", "aria-hidden": "true" }), h("span", { "aria-hidden": "true" }, visible ? "A la vista" : "Ocultos"));
+    var sec = h("section", { class: "section card constancia" },
+      h("div", { class: "repaso-cab" },
+        h("div", { class: "repaso-txt" },
+          h("h2", { class: "sec-title", id: "motiv-tit" }, "Rachas y logros"),
+          h("p", {}, visible ? "Un día cuenta como día de estudio con el desafío diario o con 10 preguntas, 10 tarjetas, un día de guía, un tema leído o una sesión de psicotécnicos." :
+            "Ocultos: el Panel y los resultados no muestran rachas ni logros. Se siguen registrando por si los vuelves a mostrar.")),
+        interruptor));
+    if (!visible) return sec;
+
+    var r = AA.motiv.racha();
+    var mapa = AA.motiv.constancia(12);
+    var hoy = AA.isoDia(Date.now());
+    sec.appendChild(h("div", { class: "cajas constancia-cifras" },
+      h("div", {}, h("b", {}, r.actual), h("span", {}, r.hoy ? "días de racha (hoy cuenta)" : "días de racha")),
+      h("div", {}, h("b", {}, r.mejor), h("span", {}, "mejor racha")),
+      h("div", {}, h("b", {}, mapa.activos), h("span", {}, "días de estudio en 12 semanas"))));
+
+    var semanas = h("div", { class: "calor-semanas" });
+    mapa.semanas.forEach(function (sem) {
+      semanas.appendChild(h("div", { class: "calor-sem" }, sem.map(function (x) {
+        return h("i", { class: "n" + x.nivel + (x.iso === hoy ? " hoy" : "") + (x.futuro ? " futuro" : ""), title: x.futuro ? null : tituloDia(x) });
+      })));
+    });
+    var primero = mapa.semanas[0][0].iso;
+    sec.appendChild(h("div", { class: "calor", role: "img", "aria-label": "Mapa de constancia del " + AA.fecha(primero) + " a hoy: " + AA.plural(mapa.activos, "día de estudio", "días de estudio") + "." },
+      h("div", { class: "calor-dias", "aria-hidden": "true" }, DIAS_SEMANA.map(function (d) { return h("span", {}, d); })),
+      semanas));
+    sec.appendChild(h("div", { class: "calor-ley", "aria-hidden": "true" },
+      h("span", {}, "Desde el " + AA.fecha(primero)),
+      h("span", { class: "calor-escala" }, "Menos", [0, 1, 2, 3].map(function (n) { return h("i", { class: "n" + n }); }), "Más")));
+
+    var seg = h("div", { class: "seg", role: "group", "aria-label": "Días de descanso por semana" });
+    AA.motiv.DESCANSOS.forEach(function (n) {
+      var b = h("button", {
+        type: "button", "aria-pressed": n === r.descansos ? "true" : "false",
+        onclick: function () {
+          store.ajuste("descansos", n);
+          var nuevo = tarjetaConstancia(n);
+          sec.parentNode.replaceChild(nuevo, sec);
+          AA.toast(n ? AA.plural(n, "día de descanso", "días de descanso") + " por semana sin romper la racha" : "Sin días de descanso: la racha exige estudiar a diario");
+        },
+      }, String(n));
+      seg.appendChild(b);
+      if (foco === n) setTimeout(function () { b.focus(); }, 0); // el botón pulsado se ha redibujado
+    });
+    sec.appendChild(h("div", { class: "constancia-desc" },
+      h("span", {}, "Días por semana sin estudio que no rompen la racha (tampoco suman):"), seg));
+    return sec;
+  }
+
+  function tarjetaLogros() {
+    var lista = AA.motiv.logros();
+    var hechos = lista.filter(function (l) { return l.ts; }).length;
+    return h("section", { class: "section card" },
+      h("h2", { class: "sec-title" }, "Logros · " + hechos + " de " + lista.length),
+      h("ul", { class: "logros" }, lista.map(function (l) {
+        return h("li", { class: "logro" + (l.ts ? " logro--on" : "") },
+          h("span", { class: "logro-ic", "aria-hidden": "true" }, l.ts ? "★" : "☆"),
+          h("span", { class: "logro-txt" },
+            h("strong", {}, l.nombre),
+            h("small", {}, l.txt),
+            l.ts ? h("small", { class: "logro-fecha" }, "Conseguido el " + AA.fecha(AA.isoDia(l.ts))) : h("span", { class: "sr" }, "Pendiente.")));
+      })));
+  }
+
   V.progreso = function () {
     var root = h("div");
     var g = store.statsGlobal();
@@ -246,6 +340,9 @@
     if (!store.guardadoActivo()) {
       root.appendChild(h("div", { class: "notice section" }, h("strong", {}, "No se puede guardar en este navegador. "), "Tu progreso se perderá al cerrar la página. Usa la copia de seguridad de abajo."));
     }
+    AA.motiv.revisar();
+    root.appendChild(tarjetaConstancia());
+    if (AA.motiv.visible()) root.appendChild(tarjetaLogros());
 
     // Simulacros
     var sims = store.simulacros().slice().reverse().slice(0, 12);
@@ -264,6 +361,16 @@
       cuerpoSims = h("div", {}, barras, h("p", { class: "muted", style: "font-size:.82rem;margin-top:10px" }, "Nota sobre 10 de los últimos tests (más reciente arriba)."));
     }
     root.appendChild(h("section", { class: "section card" }, h("h2", { class: "sec-title" }, "Tests recientes"), cuerpoSims));
+    // ¿Compensa contestar las dudas? Acumulado de los tests en modo examen (web/js/motivacion.js)
+    var dg = AA.motiv.dudasGlobal();
+    if (dg.n) {
+      root.appendChild(h("section", { class: "section card" }, h("h2", { class: "sec-title" }, "Tus dudas en modo examen"),
+        h("p", {}, "Has contestado " + AA.plural(dg.n, "pregunta marcada como duda", "preguntas marcadas como duda") + " y has acertado el " + dg.pct + " %."),
+        h("p", { class: "objetivo section-sm " + (dg.compensa ? "objetivo--ok" : "objetivo--no") }, dg.compensa ?
+          "Por encima del 33,3 %: con la fórmula oficial (cada error resta medio acierto), contestar tus dudas te compensa." :
+          "Por debajo del 33,3 %: con la fórmula oficial, contestar tus dudas te resta. Déjalas en blanco salvo que puedas descartar una de las tres opciones."),
+        dg.n < 30 ? h("p", { class: "muted section-sm" }, "Con menos de 30 dudas contestadas el porcentaje todavía es poco fiable: marca las dudas en tus próximos tests.") : null));
+    }
     // Banco propio frente a exámenes oficiales importados (web/js/oficiales.js)
     if (AA.tarjetaCalibracion) root.appendChild(h("section", { class: "section" }, AA.tarjetaCalibracion(),
       h("div", { class: "row", style: "margin-top:10px" }, AA.ui.enlace("oficiales", "btn btn--sm", "Ir a exámenes oficiales"))));
@@ -272,16 +379,18 @@
     var filas = h("tbody");
     AA.listaTemas.forEach(function (t) {
       var st = store.statsTema(t.tema);
+      var nv = AA.motiv.nivelTema(t.tema);
       filas.appendChild(h("tr", {},
         h("td", { class: "mono" }, t.tema),
         h("td", {}, h("a", { href: "#tema-" + t.tema, style: "color:inherit" }, t.titulo)),
+        h("td", {}, nv ? AA.ui.insigniaNivel(nv) : "–"),
         h("td", { class: "r" }, store.leido(t.tema) ? "✓" : ""),
         h("td", { class: "r" }, st.total ? st.vistas + "/" + st.total : "–"),
         h("td", { class: "r" }, st.intentos ? st.pct + " %" : "–")));
     });
     root.appendChild(h("section", { class: "section card" }, h("h2", { class: "sec-title" }, "Por tema"),
-      h("div", { class: "tbl", style: "border:0;margin:0" }, h("table", { class: "mini", style: "min-width:460px" },
-        h("thead", {}, h("tr", {}, h("th", {}, "Tema"), h("th", {}, "Título"), h("th", { class: "r" }, "Leído"), h("th", { class: "r" }, "Vistas"), h("th", { class: "r" }, "Acierto"))),
+      h("div", { class: "tbl", style: "border:0;margin:0" }, h("table", { class: "mini", style: "min-width:560px" },
+        h("thead", {}, h("tr", {}, h("th", {}, "Tema"), h("th", {}, "Título"), h("th", {}, "Nivel"), h("th", { class: "r" }, "Leído"), h("th", { class: "r" }, "Vistas"), h("th", { class: "r" }, "Acierto"))),
         filas))));
 
     // Copia de seguridad

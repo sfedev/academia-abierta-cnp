@@ -37,7 +37,8 @@ Claves para trabajar en el repositorio:
 
 - [Ficha de ejemplo](datos/temas/tema-14.json): tema 14, Ley de Seguridad Ciudadana.
 - [Validador de fichas](herramientas/validar_tema.py): reglas que bloquean (errores) y que solo avisan.
-- [Estado y progreso de la web](web/js/store.js): datos del temario, progreso en `localStorage`, Leitner, guía de estudio.
+- [Estado y progreso de la web](web/js/store.js): datos del temario, progreso en `localStorage`, Leitner, guía de estudio, registro diario.
+- [Motivación](web/js/motivacion.js): racha, dominio y niveles por tema, logros, desafío diario y rentabilidad de las dudas (sin DOM).
 - [Utilidades de la web](web/js/util.js): `AA.h`, `AA.rich`, `AA.esc`, `AA.notaTest`.
 - [Workflow](.github/workflows/vigilar-y-publicar.yml): vigilancia diaria, aviso por issue, validación y publicación.
 

@@ -18,6 +18,14 @@ Anexo I de la Resolución de 7 de julio de 2026 (BOE-A-2026-15055).
   automático, con respondidas, en blanco por tiempo y nota con la fórmula oficial.
 - Modo Repaso Intensivo («últimos 30 días») en el Panel: prioriza los fallos diagnosticados, «Lo imprescindible» de
   los temas con menos aciertos y las tarjetas de las cajas 1 y 2.
+- Desafío diario: 5 preguntas fijas para todo el día (2 de repaso espaciado de lo acertado hace tiempo, el fallo más
+  prioritario, una de un tema de peso alto sin dominar y una nueva), solo con preguntas verificadas o revisadas.
+- Muerte súbita: preguntas de dificultad creciente hasta el primer fallo, con 3 blancos permitidos.
+- «¿Te compensa contestar las dudas?»: en modo examen, la corrección compara la nota con las dudas marcadas
+  contestadas o en blanco, y el acierto en dudas con el umbral de rentabilidad de la fórmula oficial (1 de cada 3).
+- Racha de estudio con días de descanso semanales, mapa de constancia de 12 semanas, nivel de dominio por tema
+  (una pregunta consolidada caduca a los 60 días sin repasarla), «temario bajo control» ponderado por lo que cae en
+  examen y logros por calidad. Rachas y logros se pueden ocultar en Progreso.
 - Progreso guardado en el navegador, con copia de seguridad en texto.
 
 ## Estructura

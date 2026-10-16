@@ -41,12 +41,13 @@ Orden de los scripts (cada uno depende de los anteriores):
 |---|---|
 | `data/datos.js`, `data/fisicas.js`, `data/novedades.js` | Globales de datos: `AA_META`, `AA_TEMAS`, `AA_FISICAS`, `AA_NOVEDADES`. |
 | `js/util.js` | `AA.h`, `AA.append`, `AA.html`, `AA.esc`, `AA.rich`, `AA.plain`, `AA.norm`, `AA.hash`, `AA.shuffle`, fechas, `AA.notaTest`, `AA.toast`, `AA.copy`. |
-| `js/store.js` | `AA.meta`, `AA.temas`, `AA.listaTemas`, `AA.preguntas`, `AA.tarjetas`, novedades, `AA.guia`, `AA.repaso` y `AA.store` (todo el progreso). |
+| `js/store.js` | `AA.meta`, `AA.temas`, `AA.listaTemas`, `AA.preguntas`, `AA.tarjetas`, índices `AA.preguntasPorTema`/`AA.tarjetasPorTema`, novedades, `AA.guia`, `AA.repaso`, `AA.CONSOLIDA` y `AA.store` (todo el progreso, también el registro diario, logros y récords). |
+| `js/motivacion.js` | `AA.motiv`: racha con días de descanso, mapa de constancia, dominio y niveles por tema, «temario bajo control», logros, desafío diario y rentabilidad de las dudas. Solo lee el estado con `AA.store`; sin DOM. |
 | `js/vistas.js` | `AA.vistas` (alias `V`): `panel`, `temario`, `tema`, `novedades`, `noEncontrado`. |
-| `js/test.js` | `AA.test` (tests, simulacros, velocidad, cuaderno de errores) y `AA.tarjetasUI` (Leitner). |
+| `js/test.js` | `AA.test` (tests, simulacros, velocidad, desafío diario, muerte súbita, análisis de dudas, cuaderno de errores) y `AA.tarjetasUI` (Leitner). |
 | `js/oficiales.js` | `AA.oficiales` y `V.oficiales`: exámenes oficiales importados y calibración. |
 | `js/psicotecnicos.js` | `AA.psico` y `V.psicotecnicos`: ejercicios generados al momento. |
-| `js/paginas.js` | `V.proceso`, `V.fisicas`, `V.progreso` (copia de seguridad). |
+| `js/paginas.js` | `V.proceso`, `V.fisicas`, `V.progreso` (rachas y logros, mapa de constancia, copia de seguridad). |
 | `js/app.js` | Arranque: cabecera, navegación, router por hash, buscador global, tema claro/oscuro, insignia de novedades. |
 
 Todos los ficheros de `js/` son IIFE con sintaxis ES5 que cuelgan de `window.AA`; no hay módulos ni bundler.
@@ -107,8 +108,19 @@ Forma del progreso (`fresh()` en `store.js`):
   aj: {},          // ajustes (p. ej. aj.repaso = Modo Repaso Intensivo)
   psico: [],       // resultados de psicotécnicos (máx. 40)
   guia: {},        // días hechos de la guía de estudio por tema
-  vel: [] }        // entrenamiento de velocidad (máx. 30)
+  vel: [],         // entrenamiento de velocidad (máx. 30)
+  dias: {},        // {AAAA-MM-DD: {p, a, t, g, l, s, r?, des?}} actividad diaria (400 días): racha, constancia, desafío
+  logros: {},      // {id: marca de tiempo del desbloqueo}
+  rec: {} }        // récords y contadores: racha, subita, desafios, temasPerfectos, dudasA, dudasE
 ```
+
+- Registro diario: `responder`, `calificarTarjeta`, `pasoGuia`, `marcarLeido` y `guardarPsico` suman al día de hoy
+  (`p` preguntas, `a` aciertos, `t` tarjetas, `g` días de guía, `l` lecturas, `s` psicotécnicos). `des` guarda el
+  desafío del día (`ids` fijados al abrirlo; `hecho`, `a`, `e`, `b` del primer intento terminado). Una copia sin
+  `dias` se reconstruye al cargarla o importarla desde las fechas que ya tiene (`r: 1`) y se podan los días de más
+  de 400 de antigüedad.
+- Consolidación (`AA.CONSOLIDA`): pregunta con 2 aciertos o más y el último acertado; tarjeta en la caja 3 o más. A
+  los 60 días sin verla (la tarjeta, 60 días vencida) pasa a «por refrescar» y deja de contar para el dominio.
 
 - Lectura con `Object.assign(fresh(), guardado)`: **un campo nuevo se añade a `fresh()`** y las copias antiguas lo
   reciben con su valor inicial. No subas `v` salvo que el formato deje de ser compatible.
@@ -141,7 +153,7 @@ Algunos visores sirven los `.js` sin `charset` y el navegador los decodifica com
 - Las de JavaScript cargan `util.js`, `store.js`, `test.js`, `vistas.js` y otros ficheros de la web en un contexto `vm` de Node
   (`herramientas/tests/js/_sandbox.js`) con reloj, azar y `localStorage` simulados y **sin DOM**
   (`document.createElement` lanza un error). Por eso la lógica va separada de las vistas y expuesta en
-  `AA.test.interno`, `AA.psico.interno`, `AA.store`, `AA.guia`…
+  `AA.test.interno`, `AA.psico.interno`, `AA.store`, `AA.guia`, `AA.motiv`…
 - Ninguna prueba usa la red ni toca los datos del repositorio: el BOE se simula y se trabaja en carpetas temporales.
 - Otras pruebas comprueban el repositorio real: `datos.js` al día, auditoría al día y sin `revisar`, contraste WCAG
   del CSS, coherencia de `LEEME.md` y de las guías con los scripts existentes.

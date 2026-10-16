@@ -28,12 +28,23 @@
     return horas ? horas + " h" + (resto ? " " + resto + " min" : "") : resto + " min";
   }
 
+  /* Nivel de dominio de un tema (web/js/motivacion.js): Sin empezar, En estudio, Practicado o Dominado. */
+  function insigniaNivel(nv) {
+    return h("span", { class: "nivel nivel--" + nv.id, title: nv.txt }, nv.nombre);
+  }
+  AA.ui.insigniaNivel = insigniaNivel;
+
   /* ---------- Fila de tema (panel y temario) ---------- */
   function filaTema(t) {
     var st = store.statsTema(t.tema);
     var leido = store.leido(t.tema);
     var meta = [pillPeso(t.peso), t.media != null ? h("span", { class: "num" }, "≈ " + AA.fmt1(t.media) + " preg./examen") : null];
     if (!t.datos) meta.push(h("span", {}, "Contenido en preparación"));
+    var nv = AA.motiv.nivelTema(t.tema);
+    if (nv) {
+      meta.push(insigniaNivel(nv));
+      if (nv.refrescar) meta.push(h("span", { class: "refrescar", title: "Consolidadas que llevan más de " + AA.CONSOLIDA.caducaDias + " días sin repasarse: el desafío diario te las irá preguntando." }, nv.refrescar + " por refrescar"));
+    }
     var conv = AA.convocatoriaPendiente && AA.convocatoriaPendiente();
     var cambio = conv && AA.cambioDeTema(conv, t.tema);
     if (cambio) meta.push(h("span", { class: "insignia-conv", title: "Ver la ficha para el detalle" },
@@ -61,6 +72,12 @@
     var fallos = store.fallosPendientes().length;
     var due = store.pendientesTarjetas().length;
     var sims = store.simulacros();
+    var verMotiv = AA.motiv.visible();
+    var nuevos = AA.motiv.revisar(); // logros cumplidos fuera de un test (guía, lectura…)
+    if (nuevos.length && verMotiv) AA.toast("Logro desbloqueado: " + nuevos.map(function (l) { return l.nombre; }).join(", "));
+    var racha = AA.motiv.racha();
+    var desafio = AA.motiv.estadoDesafio();
+    var control = AA.motiv.bajoControl();
 
     var root = h("div");
     root.appendChild(
@@ -84,10 +101,18 @@
         h(
           "div",
           { class: "kv" },
-          h("div", {}, h("b", {}, leidos + "/" + conContenido), h("span", {}, "temas leídos")),
-          h("div", {}, h("b", {}, g.intentos ? g.pct + " %" : "–"), h("span", {}, "aciertos en tests")),
-          h("div", {}, h("b", {}, g.vistas + "/" + g.total), h("span", {}, "preguntas vistas")),
-          h("div", {}, h("b", {}, sims.length), h("span", {}, "simulacros hechos"))
+          verMotiv ?
+            h("div", { class: "kv-racha" + (racha.hoy ? " kv-racha--hoy" : ""), title: "Días de estudio seguidos. Cuenta el desafío diario o un mínimo de 10 preguntas, 10 tarjetas, un día de guía, un tema leído o una sesión de psicotécnicos. " +
+              AA.plural(racha.descansos, "día de descanso", "días de descanso") + " por semana no la rompen (se cambia en Progreso)." },
+              h("b", {}, racha.actual ? AA.plural(racha.actual, "día", "días") : "–"),
+              h("span", {}, racha.hoy ? "racha · hoy ya cuenta" : racha.actual ? "racha · hoy pendiente" : "racha de estudio")) :
+            h("div", {}, h("b", {}, leidos + "/" + conContenido), h("span", {}, "temas leídos")),
+          h("div", { class: desafio.hecho ? "kv-hecho" : null },
+            h("b", {}, desafio.hecho ? desafio.a + "/" + desafio.n + " ✓" : "Pendiente"), h("span", {}, "desafío de hoy")),
+          h("div", { title: "Ponderado por lo que cae en examen: de cada 100 preguntas de un examen típico, unas " + Math.round(control.preguntas) +
+              " son de lo que ya tienes consolidado (preguntas acertadas 2 veces, la última en los últimos " + AA.CONSOLIDA.caducaDias + " días, y tarjetas en la caja 3 o más)." },
+            h("b", {}, control.pct + " %"), h("span", {}, "temario bajo control")),
+          h("div", {}, h("b", {}, g.intentos ? g.pct + " %" : "–"), h("span", {}, "aciertos en tests"))
         )
       )
     );
@@ -101,6 +126,11 @@
       var tc = (conv.convocatoria || {}).temario || {};
       var nCambios = (tc.modificados || []).length + (tc.nuevos || []).length + (tc.eliminados || []).length;
       pasos.push({ txt: "Ha salido la convocatoria nueva: ", fuerte: nCambios ? AA.plural(nCambios, "cambio en el temario", "cambios en el temario") : "el temario no cambia", btn: "Ver la convocatoria", ir: "novedades" });
+    }
+    // Desafío diario: 5 preguntas de repaso espaciado, fallos y temas de peso (web/js/motivacion.js)
+    if (!desafio.hecho && AA.preguntas.length) {
+      pasos.push({ txt: "Desafío diario: ", fuerte: desafio.abierto ? "termina las 5 preguntas de hoy" : "5 preguntas, unos 3 minutos", btn: desafio.abierto ? "Seguir" : "Empezar",
+        fn: function () { AA.test.preparar({ preset: "diario" }); } });
     }
     // Modo Repaso Intensivo: sus tres frentes van justo después del aviso de convocatoria
     if (repaso) pasos = pasos.concat(pasosRepaso());
@@ -584,6 +614,18 @@
     return det;
   }
 
+  /* «Dominio 45 %: 12 de 20 preguntas consolidadas · 8 de 19 tarjetas fijadas · 2 por refrescar» */
+  function lineaDominio(nv) {
+    var p = nv.preguntas, c = nv.tarjetas;
+    var partes = [];
+    if (p.total) partes.push(p.consolidadas + " de " + p.total + " preguntas consolidadas");
+    if (c.total) partes.push(c.consolidadas + " de " + c.total + " tarjetas fijadas");
+    if (nv.refrescar) partes.push(nv.refrescar + " por refrescar");
+    return h("p", { class: "dominio-ficha", title: "Pregunta consolidada: acertada 2 veces o más, la última en los últimos " + AA.CONSOLIDA.caducaDias +
+        " días. Tarjeta fijada: en la caja " + AA.CONSOLIDA.caja + " o más de Leitner. Pasado ese plazo sin repasarlas, quedan «por refrescar»." },
+      h("strong", {}, "Dominio " + Math.round(nv.dominio * 100) + " %: "), partes.join(" · "));
+  }
+
   V.tema = function (n) {
     var t = AA.temas[n];
     if (!t) return V.noEncontrado();
@@ -594,6 +636,8 @@
     var badges = h("div", { class: "badges" }, tagBloque(t.bloque), pillPeso(t.peso));
     if (t.media != null) badges.appendChild(h("span", { class: "chip num" }, "≈ " + AA.fmt1(t.media) + " preguntas por examen"));
     if (d) badges.appendChild(h("span", { class: "chip" }, "Actualizado " + AA.fecha(d.actualizado)));
+    var nv = AA.motiv.nivelTema(n);
+    if (nv) badges.appendChild(insigniaNivel(nv));
 
     var head = h(
       "header",
@@ -601,6 +645,7 @@
       h("div", { class: "eyebrow" }, "Tema " + n + " · " + BLOQUE_NOMBRE[t.bloque]),
       h("h1", { class: "page-title" }, t.titulo),
       badges,
+      nv ? lineaDominio(nv) : null,
       h("details", { class: "oficial", id: "s-oficial" }, h("summary", {}, "Texto oficial del Anexo I"), h("p", {}, t.oficial))
     );
 

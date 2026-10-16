@@ -99,6 +99,30 @@
   var SEG_PREGUNTA = 30;
   var TAMANOS_VELOCIDAD = [10, 15];
   var GRACIA_MS = 300; // al mostrar una pregunta, margen en el que no se aceptan respuestas
+  /* Muerte súbita: escalera de dificultad creciente (hasta 40 fáciles, 40 medias y 40 difíciles, al azar dentro de
+     cada nivel) solo con preguntas verificadas o revisadas. El primer fallo la termina; se pueden dejar 3 en blanco,
+     que no suman: entrena a contestar solo lo que se sabe, como pide la fórmula del examen. */
+  var SUBITA = { porNivel: 40, blancos: 3 };
+  function escaleraSubita() {
+    var pool = AA.motiv.elegibles();
+    var out = [];
+    [1, 2, 3].forEach(function (d) {
+      out = out.concat(AA.shuffle(pool.filter(function (q) { return (q.dif || 2) === d; })).slice(0, SUBITA.porNivel));
+    });
+    return out;
+  }
+  var ORDEN_NIVEL = {};
+  AA.motiv.NIVELES.forEach(function (n, i) { ORDEN_NIVEL[n.id] = i; });
+  /* Nivel actual de los temas de esas preguntas: {tema: id del nivel} (para avisar de los cambios al terminar). */
+  function nivelesDe(preguntas) {
+    var out = {};
+    preguntas.forEach(function (q) {
+      if (out[q.tema] || !AA.temas[q.tema]) return;
+      var nv = AA.motiv.nivelTema(q.tema);
+      if (nv) out[q.tema] = nv.id;
+    });
+    return out;
+  }
 
   function nuevaSesion(cfg, preguntas) {
     clearInterval(timer);
@@ -113,7 +137,12 @@
       fin: null,
       estado: "run",
       confirmar: false,
+      antes: { niveles: nivelesDe(preguntas), hoyActivo: AA.motiv.hoyActivo() }, // para las recompensas del resultado
     };
+    if (cfg.subita) {
+      S.blancos = 0;
+      S.eliminado = false;
+    }
     if (cfg.velocidad) {
       S.agotada = preguntas.map(function () { return false; }); // en blanco porque se acabó su tiempo
       S.tiempos = preguntas.map(function () { return null; }); // segundos dedicados a cada pregunta
@@ -185,7 +214,9 @@
   T.interno = { poolBase: poolBase, pesoP: pesoP, muestra: muestra, simulacro: simulacro, composicion: composicion, MEZCLAS: MEZCLAS, OBJETIVO: OBJETIVO,
                 sesion: function () { return S; }, tick: tick, elegir: function (pos, original) { elegir(pos, original); },
                 saltar: function () { avanzarVelocidad(false); }, pausar: pausarVelocidad, reanudar: reanudarVelocidad,
-                SEG_PREGUNTA: SEG_PREGUNTA, TAMANOS_VELOCIDAD: TAMANOS_VELOCIDAD, GRACIA_MS: GRACIA_MS };
+                SEG_PREGUNTA: SEG_PREGUNTA, TAMANOS_VELOCIDAD: TAMANOS_VELOCIDAD, GRACIA_MS: GRACIA_MS,
+                SUBITA: SUBITA, escaleraSubita: escaleraSubita, siguiente: function () { avanzarSubita(false); },
+                blanco: function () { avanzarSubita(true); }, terminar: function () { terminar(false); } };
 
   /* Portada de Tests (presets y cuaderno de errores): descarta la corrección de un test ya terminado, no uno en curso. */
   T.inicio = function () {
@@ -214,6 +245,15 @@
       cfg.titulo = "Repaso intensivo: fallos prioritarios";
       preguntas = AA.shuffle(AA.repaso.fallos().slice(0, 20).map(function (x) { return x.q; }));
       if (!preguntas.length) { AA.toast("No tienes preguntas falladas pendientes"); return; }
+    } else if (o.preset === "diario") {
+      var fecha = AA.isoDia(Date.now());
+      preguntas = AA.motiv.prepararDesafio(fecha);
+      cfg.titulo = "Desafío diario · " + AA.fecha(fecha);
+      cfg.diario = fecha;
+      cfg.repetido = AA.motiv.estadoDesafio(fecha).hecho; // ya terminado hoy: se puede repetir, pero no cuenta
+    } else if (o.preset === "subita") {
+      preguntas = escaleraSubita();
+      cfg = { modo: "estudio", minutos: 0, subita: true, blancos: SUBITA.blancos, preset: "subita", titulo: "Muerte súbita" };
     } else if (o.preset === "velocidad") {
       var nv = TAMANOS_VELOCIDAD.indexOf(o.n) >= 0 ? o.n : TAMANOS_VELOCIDAD[0];
       preguntas = AA.shuffle(AA.preguntas).slice(0, nv);
@@ -256,6 +296,7 @@
       var q = S.qs[pos].q;
       store.responder(q.id, original === q.ok);
       store.commit();
+      if (cfg.subita && original !== q.ok) S.eliminado = true;
     } else if (cfg.velocidad) {
       if (pos !== S.i || S.pausa != null) return;
       if (restantePregunta() <= 0) { avanzarVelocidad(true); return; } // fuera de tiempo (p. ej. pestaña en segundo plano)
@@ -269,8 +310,23 @@
     pintar();
   }
 
+  /* Muerte súbita: pasa a la siguiente tras acertar o gastando un blanco. Tras un fallo solo queda ver el resultado. */
+  function avanzarSubita(enBlanco) {
+    if (!S || S.estado !== "run" || !S.cfg.subita || S.eliminado) return;
+    if (enBlanco) {
+      if (S.rev[S.i] || S.blancos >= S.cfg.blancos) return;
+      S.blancos++;
+    } else if (!S.rev[S.i]) {
+      return;
+    }
+    if (S.i >= S.qs.length - 1) { terminar(false); return; }
+    S.i++;
+    pintar();
+    window.scrollTo({ top: 0 });
+  }
+
   function irA(pos) {
-    if (S.cfg.velocidad) return;
+    if (S.cfg.velocidad || S.cfg.subita) return;
     S.i = Math.max(0, Math.min(S.qs.length - 1, pos));
     S.confirmar = false;
     pintar();
@@ -282,7 +338,8 @@
     var porBloque = { A: { n: 0, a: 0, e: 0 }, B: { n: 0, a: 0, e: 0 }, C: { n: 0, a: 0, e: 0 } };
     var porTema = {};
     var porDif = { 1: { n: 0, a: 0, e: 0 }, 2: { n: 0, a: 0, e: 0 }, 3: { n: 0, a: 0, e: 0 } };
-    S.qs.forEach(function (x, i) {
+    var hasta = S.cfg.subita ? S.i + 1 : S.qs.length; // muerte súbita: solo hasta la pregunta a la que se llegó
+    S.qs.slice(0, hasta).forEach(function (x, i) {
       var q = x.q;
       var r = S.resp[i];
       // las preguntas de examen oficial pueden no tener tema/bloque estimado
@@ -294,9 +351,18 @@
       else if (r === q.ok) { A++; pb.a++; pt.a++; if (pd) pd.a++; }
       else { E++; pb.e++; pt.e++; if (pd) pd.e++; }
     });
-    var N = S.qs.length;
+    var N = hasta;
     var bruta = AA.notaTest(A, E, N);
     var res = { A: A, E: E, B: B, N: N, nota: Math.max(0, bruta), bruta: bruta, netos: A - E / 2, porBloque: porBloque, porTema: porTema, porDif: porDif };
+    if (S.cfg.subita) {
+      var dif = 1;
+      S.qs.slice(0, hasta).forEach(function (x, i) { if (S.resp[i] != null) dif = Math.max(dif, x.q.dif || 2); });
+      res.subita = { racha: A, blancos: S.blancos, dif: dif, completa: !S.eliminado && A + S.blancos === S.qs.length };
+    }
+    // Dudas marcadas en modo examen: ¿habría sido mejor dejarlas en blanco?
+    if (S.cfg.modo === "examen" && !S.cfg.velocidad) {
+      res.dudas = AA.motiv.analizarDudas(S.qs.map(function (x) { return x.q.ok; }), S.resp, S.marc);
+    }
     if (S.cfg.velocidad) {
       var agotadas = S.agotada.filter(Boolean).length;
       var usados = S.tiempos.filter(function (t, i) { return t != null && S.resp[i] != null; });
@@ -326,17 +392,57 @@
     if (r.vel) {
       store.guardarVelocidad({ ts: S.fin, n: r.N, a: r.A, e: r.E, b: r.B, agot: r.vel.agotadas, nota: Math.round(r.nota * 100) / 100,
                                medio: Math.round(r.vel.medio * 10) / 10 });
-    } else if (r.N >= 20) {
-      store.guardarSimulacro({
+    } else if (r.N >= 20 && !S.cfg.subita) {
+      S.comparativa = comparar(Math.round(r.nota * 100) / 100); // antes de guardar: frente a los anteriores
+      var sim = {
         ts: S.fin, n: r.N, a: r.A, e: r.E, b: r.B, nota: Math.round(r.nota * 100) / 100,
         seg: Math.round((S.fin - S.inicio) / 1000), modo: S.cfg.modo, titulo: S.cfg.titulo,
         bloques: r.porBloque, preset: S.cfg.preset || "", oficial: S.cfg.oficial || null, mezcla: S.cfg.mezcla || null,
-      });
+      };
+      if (r.dudas) sim.du = { a: r.dudas.a, e: r.dudas.e, b: r.dudas.b };
+      store.guardarSimulacro(sim);
     } else {
       store.commit();
     }
+    S.extras = cerrarExtras(r);
     pintar();
     window.scrollTo({ top: 0 });
+  }
+
+  /* Nota frente a los tests anteriores del mismo tipo (mismo preset y título): media de los 5 últimos y récord. */
+  function comparar(nota) {
+    var previos = store.simulacros().filter(function (s) { return (s.preset || "") === (S.cfg.preset || "") && s.titulo === S.cfg.titulo; });
+    if (!previos.length) return null;
+    var ult = previos.slice(-5);
+    var media = ult.reduce(function (s, x) { return s + x.nota; }, 0) / ult.length;
+    var max = Math.max.apply(null, previos.map(function (s) { return s.nota; }));
+    return { media: media, n: ult.length, dif: nota - media, record: nota > max };
+  }
+
+  /* Lo que se cuenta al terminar además del test: desafío diario, récords, dudas, cambios de nivel de los temas,
+     logros nuevos y si hoy pasa a contar para la racha. */
+  function cerrarExtras(r) {
+    var x = {};
+    if (S.cfg.diario) x.desafio = store.cerrarDesafio(S.cfg.diario, r.A, r.E, r.B);
+    if (S.cfg.subita) {
+      x.recordAntes = store.rec("subita");
+      x.record = store.mejorarRecord("subita", r.A);
+    }
+    if (S.cfg.preset === "tema" && r.N >= 10 && !r.E && !r.B) store.sumarRecord("temasPerfectos", 1);
+    if (r.dudas && r.dudas.a + r.dudas.e) {
+      store.sumarRecord("dudasA", r.dudas.a);
+      store.sumarRecord("dudasE", r.dudas.e);
+    }
+    // Cambios de nivel que merecen aviso: subir a Practicado o a Dominado, o perder el Dominado
+    var despues = nivelesDe(S.qs.map(function (y) { return y.q; }));
+    x.niveles = Object.keys(S.antes.niveles)
+      .filter(function (k) { return despues[k] && despues[k] !== S.antes.niveles[k]; })
+      .map(function (k) { return { tema: Number(k), antes: S.antes.niveles[k], ahora: despues[k], sube: ORDEN_NIVEL[despues[k]] > ORDEN_NIVEL[S.antes.niveles[k]] }; })
+      .filter(function (n) { return n.sube ? ORDEN_NIVEL[n.ahora] >= ORDEN_NIVEL.practicado : n.antes === "dominado"; })
+      .sort(function (a, b) { return Number(b.sube) - Number(a.sube) || a.tema - b.tema; });
+    x.logros = AA.motiv.revisar();
+    x.rachaHoy = !S.antes.hoyActivo && AA.motiv.hoyActivo() ? AA.motiv.racha().actual : 0;
+    return x;
   }
 
   /* ---------- Pantallas ---------- */
@@ -354,8 +460,9 @@
     tickEl = null;
     barEl = null;
     if (!S) return pantallaInicio();
-    if (S.estado === "fin") return pantallaResultados();
+    if (S.estado === "fin") return S.cfg.subita ? pantallaResultadosSubita() : pantallaResultados();
     if (S.cfg.velocidad) return pantallaVelocidad();
+    if (S.cfg.subita) return pantallaSubita();
     pantallaPregunta();
   }
 
@@ -367,11 +474,13 @@
 
     var fallos = store.fallosPendientes().length;
     var presets = h("div", { class: "preset section" },
+      cardDesafio(),
       cardPreset("Simulacro oficial", "100 preguntas, 50 minutos, corrección por fórmula oficial. Reparto por temas y mezcla de dificultad como en los últimos exámenes.", "Empezar simulacro", function () { T.preparar({ preset: "simulacro" }); }, true),
       cardPreset("Simulacro exigente", "Igual que el oficial pero con más preguntas difíciles (30 % frente a 20 %), para entrenar por encima del objetivo de 7,5.", "Empezar", function () { T.preparar({ preset: "exigente" }); }),
       cardPreset("Test rápido", "20 preguntas con feedback inmediato, priorizando lo nuevo y lo fallado.", "Empezar", function () { T.preparar({ preset: "rapido" }); }),
       cardPreset("Mis fallos", fallos ? AA.plural(fallos, "pregunta pendiente", "preguntas pendientes") + "." : "Cuando falles preguntas, podrás repasarlas aquí.", "Repasar fallos", function () { T.preparar({ preset: "fallos" }); }, false, !fallos),
-      cardVelocidad()
+      cardVelocidad(),
+      cardSubita()
     );
     C.appendChild(presets);
     C.appendChild(cuadernoErrores());
@@ -462,6 +571,26 @@
       tam,
       h("div", {}, h("button", { class: "btn btn--sm btn--primary", onclick: function () { T.preparar({ preset: "velocidad", n: cfgForm.velN }); } }, "Empezar a contrarreloj")),
       hist.length ? h("div", { class: "muted vel-hist" }, "Últimas notas: " + hist.map(function (s) { return AA.fmt1(s.nota) + (s.agot ? " (" + s.agot + " sin tiempo)" : ""); }).join(" · ")) : null);
+  }
+
+  /* Desafío diario: 5 preguntas fijas para todo el día (web/js/motivacion.js). */
+  function cardDesafio() {
+    var d = AA.motiv.estadoDesafio();
+    return h("div", { class: "card desafio-card" + (d.hecho ? " desafio-card--hecho" : "") },
+      h("h3", {}, "Desafío diario"),
+      h("p", {}, "5 preguntas en unos 3 minutos: 2 para comprobar si recuerdas lo que acertaste hace tiempo, tu fallo más importante, una de un tema de peso alto y una nueva."),
+      d.hecho ? h("div", { class: "desafio-hecho" }, "Hecho hoy: " + d.a + " de " + d.n + ". Mañana tendrás otro.") : null,
+      h("div", {}, h("button", { class: "btn btn--sm" + (d.hecho ? "" : " btn--primary"), onclick: function () { T.preparar({ preset: "diario" }); } },
+        d.hecho ? "Repetir (no cuenta)" : d.abierto ? "Seguir con el de hoy" : "Empezar")));
+  }
+
+  function cardSubita() {
+    var rec = store.rec("subita");
+    return h("div", { class: "card" },
+      h("h3", {}, "Muerte súbita"),
+      h("p", {}, "Preguntas cada vez más difíciles hasta el primer fallo. Puedes dejar " + SUBITA.blancos + " en blanco: entrena a contestar solo lo que sabes, como pide la fórmula del examen."),
+      rec ? h("div", { class: "muted vel-hist" }, "Tu récord: " + AA.plural(rec, "acierto seguido", "aciertos seguidos") + ".") : null,
+      h("div", {}, h("button", { class: "btn btn--sm btn--primary", onclick: function () { T.preparar({ preset: "subita" }); } }, "Empezar")));
   }
 
   /* ---------- Cuaderno de errores: por qué fallas ---------- */
@@ -565,6 +694,17 @@
   }
   AA.insigniaVerificacion = insigniaVerificacion;
 
+  /* Explicación de la pregunta respondida (modo estudio) y, si se ha fallado, el selector del motivo. */
+  function explicacion(q, acierto) {
+    C.appendChild(h("div", { class: "explica" },
+      h("strong", { class: acierto ? "ok-t" : "ko-t", style: "color:" + (acierto ? "var(--ok)" : "var(--ko)") }, acierto ? "Correcto. " : "Incorrecto. "),
+      h("span", { html: rich(q.exp) }),
+      q.ref ? h("span", { class: "ref" }, q.ref) : null,
+      insigniaVerificacion(q)
+    ));
+    if (!acierto) C.appendChild(selectorMotivo(q.id));
+  }
+
   function pantallaPregunta() {
     var x = S.qs[S.i];
     var q = x.q;
@@ -599,16 +739,7 @@
     });
     C.appendChild(opts);
 
-    if (revelada) {
-      var acierto = S.resp[S.i] === q.ok;
-      C.appendChild(h("div", { class: "explica" },
-        h("strong", { class: acierto ? "ok-t" : "ko-t", style: "color:" + (acierto ? "var(--ok)" : "var(--ko)") }, acierto ? "Correcto. " : "Incorrecto. "),
-        h("span", { html: rich(q.exp) }),
-        q.ref ? h("span", { class: "ref" }, q.ref) : null,
-        insigniaVerificacion(q)
-      ));
-      if (!acierto) C.appendChild(selectorMotivo(q.id));
-    }
+    if (revelada) explicacion(q, S.resp[S.i] === q.ok);
 
     var nav = h("div", { class: "qnav" });
     nav.appendChild(h("button", { class: "btn", disabled: S.i === 0 ? true : null, onclick: function () { irA(S.i - 1); } }, "← Anterior"));
@@ -683,6 +814,113 @@
       h("button", { class: "btn btn--sm btn--ghost", onclick: function () { clearInterval(timer); S = null; pintar(); } }, "Abandonar")));
   }
 
+  /* Muerte súbita: una pregunta cada vez con su explicación al responder. Acertar deja seguir; fallar termina. */
+  var NOMBRE_DIF = { 1: "Fácil", 2: "Media", 3: "Difícil" };
+  var PLURAL_DIF = { 1: "fáciles", 2: "medias", 3: "difíciles" };
+  function pantallaSubita() {
+    var x = S.qs[S.i];
+    var q = x.q;
+    var revelada = S.rev[S.i];
+    var aciertos = S.qs.filter(function (y, i) { return S.resp[i] != null && S.resp[i] === y.q.ok; }).length;
+    var record = store.rec("subita");
+    var quedan = S.cfg.blancos - S.blancos;
+    C.appendChild(h("div", { class: "qhead" },
+      h("div", {}, h("div", { class: "eyebrow" }, S.cfg.titulo),
+        h("div", { class: "num", style: "font-weight:600" }, AA.plural(aciertos, "acierto seguido", "aciertos seguidos") + (record ? " · récord: " + record : ""))),
+      h("div", { class: "row" }, h("span", { class: "chip" }, NOMBRE_DIF[q.dif || 2]), h("span", { class: "chip" }, "Tema " + q.tema))));
+    var puntos = [];
+    for (var k = 0; k < S.cfg.blancos; k++) puntos.push(h("i", { class: k < S.blancos ? "usado" : null }));
+    C.appendChild(h("div", { class: "subita-blancos" }, h("span", { class: "subita-dots", "aria-hidden": "true" }, puntos),
+      AA.plural(quedan, "blanco disponible", "blancos disponibles") + " de " + S.cfg.blancos));
+
+    C.appendChild(h("p", { class: "qtext", html: rich(q.q) }));
+    var opts = h("div", { class: "opts", role: "group", "aria-label": "Opciones" });
+    x.orden.forEach(function (orig, k) {
+      var sel = S.resp[S.i] === orig;
+      var cls = "opt" + (revelada ? (orig === q.ok ? " ok" : sel ? " ko" : "") : "");
+      opts.appendChild(h("button", { type: "button", class: cls, "aria-pressed": sel ? "true" : "false", disabled: revelada ? true : null, onclick: function () { elegir(S.i, orig); } },
+        h("span", { class: "l" }, LETRAS[k]), h("span", { html: rich(q.ops[orig]) })));
+    });
+    C.appendChild(opts);
+    if (revelada) explicacion(q, S.resp[S.i] === q.ok);
+
+    if (S.eliminado) {
+      C.appendChild(h("div", { class: "objetivo objetivo--no section" }, h("strong", {}, "Fin de la racha. "), "Lee la explicación con calma: es la pregunta que más te conviene recordar."));
+      C.appendChild(h("div", { class: "qnav" }, h("span"), h("button", { class: "btn btn--primary", onclick: function () { terminar(false); } }, "Ver resultado")));
+      return;
+    }
+    C.appendChild(h("div", { class: "qnav" },
+      h("span", { class: "muted vel-pista" }, revelada ? "Correcto: sigue la racha." : "Un fallo termina la partida; en blanco no suma ni resta."),
+      revelada ? h("button", { class: "btn btn--primary", onclick: function () { avanzarSubita(false); } }, S.i < S.qs.length - 1 ? "Siguiente →" : "Terminar") :
+        h("button", { class: "btn", disabled: quedan ? null : true, onclick: function () { avanzarSubita(true); } }, quedan ? "Dejar en blanco (" + quedan + ")" : "Sin blancos")));
+    C.appendChild(h("div", { class: "row", style: "margin-top:18px" },
+      h("button", { class: "btn btn--sm btn--ghost", onclick: function () { terminar(false); } }, "Plantarse y ver el resultado")));
+  }
+
+  function pantallaResultadosSubita() {
+    var r = S.res;
+    var s = r.subita;
+    var x = S.extras || {};
+    C.appendChild(h("div", { class: "eyebrow" }, S.cfg.titulo));
+    C.appendChild(h("h1", { class: "page-title" }, "Resultado"));
+    C.appendChild(h("div", { class: "section row", style: "gap:28px;align-items:flex-end" },
+      h("div", { class: "score aparece" }, s.racha, h("small", {}, s.racha === 1 ? " acierto seguido" : " aciertos seguidos")),
+      h("div", {},
+        h("div", {}, x.record ? h("strong", { class: "record" }, "Récord personal") : "Tu récord: " + AA.plural(Math.max(x.recordAntes || 0, s.racha), "acierto seguido", "aciertos seguidos")),
+        h("div", { class: "muted", style: "font-size:.9rem" }, "Llegaste a las preguntas " + PLURAL_DIF[s.dif] + " · blancos usados: " + s.blancos + " de " + S.cfg.blancos))));
+    C.appendChild(h("div", { class: "notice section" }, s.completa ? "Has completado la escalera entera sin fallar." :
+      S.eliminado ? "Te eliminó la pregunta " + (S.i + 1) + ". Abre su corrección abajo y marca por qué la fallaste: así irá al cuaderno de errores." :
+      "Te has plantado: la racha cuenta igual."));
+    AA.append(C, bandaRecompensas());
+    C.appendChild(h("div", { class: "section row" },
+      h("button", { class: "btn btn--primary", onclick: function () { T.preparar({ preset: "subita" }); } }, "Otra partida"),
+      h("button", { class: "btn", onclick: function () { S = null; pintar(); } }, "Nuevo test"),
+      AA.ui.enlace("panel", "btn btn--ghost", "Volver al panel")));
+    C.appendChild(correccion(S.i + 1));
+  }
+
+  /* Recompensas del resultado: hoy pasa a contar para la racha, logros nuevos y temas que cambian de nivel. */
+  var NOMBRE_NIVEL = {};
+  AA.motiv.NIVELES.forEach(function (n) { NOMBRE_NIVEL[n.id] = n.nombre; });
+  function bandaRecompensas() {
+    var x = S.extras || {};
+    var ver = AA.motiv.visible();
+    var items = [];
+    if (ver && x.rachaHoy) items.push(h("li", { class: "premio premio--racha" }, h("strong", {}, "Hoy ya cuenta para tu racha: "), AA.plural(x.rachaHoy, "día de estudio seguido", "días de estudio seguidos") + "."));
+    if (ver) (x.logros || []).forEach(function (l) { items.push(h("li", { class: "premio premio--logro" }, h("strong", {}, "Logro: " + l.nombre + ". "), l.txt)); });
+    (x.niveles || []).forEach(function (n) {
+      items.push(h("li", { class: "premio " + (n.sube ? "premio--sube" : "premio--baja") },
+        h("strong", {}, "Tema " + n.tema + ": "), NOMBRE_NIVEL[n.antes] + " → " + NOMBRE_NIVEL[n.ahora] + (n.sube ? "." : " (has fallado preguntas que tenías consolidadas).")));
+    });
+    return items.length ? h("ul", { class: "premios section", "aria-label": "Lo que ha cambiado con este test" }, items) : null;
+  }
+
+  /* ¿Habría sido mejor dejar en blanco las dudas marcadas? (web/js/motivacion.js) */
+  function bloqueDudas(du) {
+    var umbral = "Con la fórmula oficial, contestar una duda compensa si aciertas más de 1 de cada 3 (33,3 %).";
+    var cuerpo = [];
+    if (!du.a && !du.e) {
+      cuerpo.push(h("p", {}, "Dejaste en blanco " + (du.marcadas === 1 ? "la pregunta que marcaste" : "las " + du.marcadas + " preguntas que marcaste") + " como duda. " + umbral +
+        " Contesta alguna en el próximo test para saber si te compensa."));
+    } else {
+      cuerpo.push(h("p", {}, "Marcaste " + AA.plural(du.marcadas, "duda", "dudas") + " y contestaste " + (du.a + du.e) + ": " + AA.plural(du.a, "acierto", "aciertos") + " y " +
+        AA.plural(du.e, "error", "errores") + (du.b ? "; " + du.b + " en blanco" : "") + "."));
+      cuerpo.push(h("div", { class: "dudas-cmp" },
+        h("div", {}, h("span", {}, "Contestándolas"), h("b", { class: "num" }, AA.fmt1(du.nota))),
+        h("div", {}, h("span", {}, "Si las hubieras dejado en blanco"), h("b", { class: "num" }, AA.fmt1(du.notaSin)))));
+      var aporte = Math.round(du.aporte * 100) / 100;
+      cuerpo.push(h("p", { class: "objetivo " + (du.compensa ? "objetivo--ok" : "objetivo--no") },
+        h("strong", {}, du.pct + " % de acierto en tus dudas. "),
+        (aporte > 0 ? "Contestarlas te ha sumado " + AA.fmt1(aporte) + " puntos. " : aporte < 0 ? "Contestarlas te ha restado " + AA.fmt1(-aporte) + " puntos. " : "Contestarlas no ha cambiado la nota. ") + umbral));
+    }
+    var g = AA.motiv.dudasGlobal();
+    if (g.n >= 10) {
+      cuerpo.push(h("p", { class: "muted dudas-global" }, "En todos tus tests en modo examen: " + g.pct + " % de acierto en " + g.n + " dudas contestadas. " +
+        (g.compensa ? "Por encima del 33,3 %: contestar te compensa." : "Por debajo del 33,3 %: te conviene dejar en blanco las que no tengas claras.")));
+    }
+    return h("section", { class: "section card dudas" }, h("h2", { class: "sec-title" }, "¿Te compensa contestar las dudas?"), cuerpo);
+  }
+
   function resultadosVelocidad(r) {
     var v = r.vel;
     C.appendChild(h("div", { class: "kv section" },
@@ -706,18 +944,29 @@
     var pasa = r.nota >= 5;
     C.appendChild(h("div", { class: "eyebrow" }, S.cfg.titulo + (S.porTiempo ? " · tiempo agotado" : "")));
     C.appendChild(h("h1", { class: "page-title" }, "Resultado"));
+    var x = S.extras || {};
+    var cp = S.comparativa;
     C.appendChild(h("div", { class: "section row", style: "gap:28px;align-items:flex-end" },
-      h("div", { class: "score" }, AA.fmt1(r.nota), h("small", {}, " / 10")),
+      h("div", { class: "score aparece" }, AA.fmt1(r.nota), h("small", {}, " / 10")),
       h("div", {},
         h("div", { class: "num" }, h("strong", { style: "color:var(--ok)" }, r.A), " aciertos · ", h("strong", { style: "color:var(--ko)" }, r.E), " errores · ", h("strong", {}, r.B), " en blanco"),
-        h("div", { class: "muted", style: "font-size:.9rem" }, "Tiempo: " + AA.clock(seg) + " · Fórmula: (aciertos − errores/2) × 10 / " + r.N)
+        h("div", { class: "muted", style: "font-size:.9rem" }, "Tiempo: " + AA.clock(seg) + " · Fórmula: (aciertos − errores/2) × 10 / " + r.N),
+        cp ? h("div", { class: "comparativa" + (cp.record || cp.dif > 0 ? " comparativa--mejor" : "") },
+          cp.record ? h("strong", { class: "record" }, "Récord personal en este test") :
+          (cp.dif >= 0 ? "+" : "−") + AA.fmt1(Math.abs(Math.round(cp.dif * 100) / 100)) + " respecto a tu media " +
+            (cp.n === 1 ? "del intento anterior" : "de los " + cp.n + " intentos anteriores") + " (" + AA.fmt1(Math.round(cp.media * 100) / 100) + ")") : null
       )
     ));
     var msg = r.bruta < 0 ? "El resultado bruto es negativo: se contabiliza como 0. Responde solo cuando puedas descartar al menos una opción." :
       r.nota < 3 ? "Por debajo de 3 puntos no se pasa a la siguiente prueba. Sigue con los temas de más peso." :
       "Con 3 puntos se supera el mínimo, pero para entrar entre los primeros hace falta mucho más: las notas de corte recientes rondan el 6-7,7 (orientativas).";
     if (r.vel) resultadosVelocidad(r);
-    else C.appendChild(h("div", { class: "notice section" }, msg));
+    else if (S.cfg.diario) {
+      C.appendChild(h("div", { class: "objetivo section" + (x.desafio ? " objetivo--ok" : "") }, x.desafio ?
+        [h("strong", {}, "Desafío de hoy completado: " + r.A + " de " + r.N + ". "), "Mañana tendrás otro, con preguntas elegidas según tu progreso."] :
+        "Ya habías terminado el desafío de hoy: este intento es solo práctica y no cuenta."));
+    } else C.appendChild(h("div", { class: "notice section" }, msg));
+    AA.append(C, bandaRecompensas());
     if (S.cfg.objetivo) {
       var supera = r.nota >= S.cfg.objetivo;
       C.appendChild(h("div", { class: "objetivo section " + (supera ? "objetivo--ok" : "objetivo--no") },
@@ -725,6 +974,7 @@
         h("span", {}, S.cfg.oficial ? " Es la nota de corte orientativa de ese examen." :
           " El objetivo de 7,5 queda por encima de las notas de corte recientes (7,05-7,72, orientativas)." + (S.cfg.mezcla === "exigente" ? " Este simulacro es más difícil que el real." : ""))));
     }
+    if (r.dudas) C.appendChild(bloqueDudas(r.dudas));
     var difs = r.porDif && [1, 2, 3].filter(function (d) { return r.porDif[d].n; });
     if (difs && difs.length > 1) {
       var nombres = { 1: "Fáciles", 2: "Medias", 3: "Difíciles" };
@@ -774,15 +1024,21 @@
       AA.ui.enlace("panel", "btn btn--ghost", "Volver al panel")
     ));
 
-    // Corrección
+    C.appendChild(correccion(S.qs.length));
+  }
+
+  /* Corrección pregunta a pregunta de las `hasta` primeras preguntas del test (las marcadas como duda llevan ⚑). */
+  function correccion(hasta) {
     var rev = h("div", { class: "rev section" }, h("h2", { class: "sec-title" }, "Corrección pregunta a pregunta"));
-    if (falladas.length) rev.appendChild(h("p", { class: "muted rev-pista" }, "Abre cada error y marca por qué lo has fallado: lo verás resumido en el cuaderno de errores, en la portada de Tests («Nuevo test»)."));
-    S.qs.forEach(function (x, i) {
+    var hayFallos = S.qs.slice(0, hasta).some(function (x, i) { return S.resp[i] != null && S.resp[i] !== x.q.ok; });
+    if (hayFallos) rev.appendChild(h("p", { class: "muted rev-pista" }, "Abre cada error y marca por qué lo has fallado: lo verás resumido en el cuaderno de errores, en la portada de Tests («Nuevo test»)."));
+    S.qs.slice(0, hasta).forEach(function (x, i) {
       var q = x.q;
       var rsp = S.resp[i];
       var estado = rsp == null ? (S.agotada && S.agotada[i] ? ["⏱", "bl-t", "Sin tiempo"] : ["–", "bl-t", "En blanco"]) : rsp === q.ok ? ["✓", "ok-t", "Acierto"] : ["✗", "ko-t", "Error"];
       var d = h("details", {},
-        h("summary", {}, h("span", { class: "s " + estado[1], title: estado[2] }, estado[0]), h("span", { html: rich(q.q) }), h("span", { class: "muted num", style: "font-size:.8rem" }, "T" + q.tema)),
+        h("summary", {}, h("span", { class: "s " + estado[1], title: estado[2] }, estado[0]), h("span", { html: rich(q.q) }),
+          h("span", { class: "muted num", style: "font-size:.8rem", title: S.marc[i] ? "Marcada como duda" : null }, (S.marc[i] ? "⚑ " : "") + "T" + q.tema)),
         h("div", { class: "body" },
           h("div", { class: "opts" }, x.orden.map(function (orig, k) {
             var cls = "opt" + (orig === q.ok ? " ok" : orig === rsp ? " ko" : "");
@@ -794,7 +1050,7 @@
       );
       rev.appendChild(d);
     });
-    C.appendChild(rev);
+    return rev;
   }
 
   document.addEventListener("keydown", function (e) {
@@ -805,6 +1061,15 @@
     if (e.target.closest && e.target.closest(".motivos")) return; // Intro en un motivo lo marca, no avanza
     var k = e.key.toLowerCase();
     var pos = k === "a" || k === "1" ? 0 : k === "b" || k === "2" ? 1 : k === "c" || k === "3" ? 2 : -1;
+    if (S.cfg.subita) {
+      if (pos >= 0) { elegir(S.i, S.qs[S.i].orden[pos]); e.preventDefault(); }
+      else if ((k === "arrowright" || k === "enter") && tag !== "BUTTON" && S.rev[S.i]) {
+        if (S.eliminado) terminar(false);
+        else avanzarSubita(false);
+        e.preventDefault();
+      }
+      return;
+    }
     if (S.cfg.velocidad) {
       if (pos >= 0) { elegir(S.i, S.qs[S.i].orden[pos]); e.preventDefault(); }
       else if (k === "arrowright" || (k === "enter" && tag !== "BUTTON")) { avanzarVelocidad(false); e.preventDefault(); }
@@ -844,7 +1109,8 @@
     if (!AA.tarjetas.length) { AA.toast("Todavía no hay tarjetas publicadas"); return; }
     var c = construirCola(o || {});
     if (!c.cola.length) { AA.toast("No hay tarjetas para esa selección"); return; }
-    F = { cola: c.cola, i: 0, mostrar: false, vistas: 0, bien: 0, total: c.cola.length, titulo: c.titulo, reintentadas: {} };
+    F = { cola: c.cola, i: 0, mostrar: false, vistas: 0, bien: 0, suben: 0, total: c.cola.length, titulo: c.titulo, reintentadas: {},
+          antesHoy: AA.motiv.hoyActivo() };
     AA.go("tarjetas");
   };
 
@@ -882,7 +1148,9 @@
 
   function calificar(nivel) {
     var c = F.cola[F.i];
+    var cajaAntes = (store.tarjeta(c.id) || {}).caja || 0;
     store.calificarTarjeta(c.id, nivel);
+    if (cajaAntes && store.tarjeta(c.id).caja > cajaAntes) F.suben++; // una tarjeta nueva no cuenta como subida
     F.vistas++;
     if (nivel === 2) F.bien++;
     if (nivel === 0 && !F.reintentadas[c.id]) { F.reintentadas[c.id] = true; F.cola.push(c); }
@@ -911,7 +1179,17 @@
   function finT() {
     CT.appendChild(h("div", { class: "eyebrow" }, F.titulo));
     CT.appendChild(h("h1", { class: "page-title" }, "Sesión terminada"));
-    CT.appendChild(h("p", { class: "lead" }, "Has repasado " + F.vistas + " tarjetas y marcado " + F.bien + " como sabidas."));
+    CT.appendChild(h("p", { class: "lead" }, "Has repasado " + F.vistas + " tarjetas y marcado " + F.bien + " como sabidas" +
+      (F.suben ? ": " + (F.suben === 1 ? "1 sube" : F.suben + " suben") + " de caja y tardarán más en volver." : ".")));
+    if (!F.cierre) { // una sola vez aunque se vuelva a pintar la pantalla
+      F.cierre = { logros: AA.motiv.revisar(), rachaHoy: !F.antesHoy && AA.motiv.hoyActivo() ? AA.motiv.racha().actual : 0 };
+    }
+    if (AA.motiv.visible()) {
+      var premios = [];
+      if (F.cierre.rachaHoy) premios.push(h("li", { class: "premio premio--racha" }, h("strong", {}, "Hoy ya cuenta para tu racha: "), AA.plural(F.cierre.rachaHoy, "día de estudio seguido", "días de estudio seguidos") + "."));
+      F.cierre.logros.forEach(function (l) { premios.push(h("li", { class: "premio premio--logro" }, h("strong", {}, "Logro: " + l.nombre + ". "), l.txt)); });
+      if (premios.length) CT.appendChild(h("ul", { class: "premios section" }, premios));
+    }
     CT.appendChild(h("div", { class: "section row" },
       h("button", { class: "btn btn--primary", onclick: function () { F = null; U.preparar({}); } }, "Otra sesión"),
       AA.ui.enlace("panel", "btn", "Volver al panel")

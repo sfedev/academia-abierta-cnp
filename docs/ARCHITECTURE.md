@@ -25,8 +25,9 @@ Detalle técnico para agentes de IA en [`llms/architecture.md`](../llms/architec
                 ▼
 ┌──────────────── WEB (web/, UTF-8) ───────────────────────────────────────────────────┐
 │ data/datos.js  data/novedades.js  data/fisicas.js                                    │
-│ js/util.js → store.js → vistas.js → test.js → oficiales.js → psicotecnicos.js        │
-│            → paginas.js → app.js                   css/app.css + css/fuentes/*.woff2 │
+│ js/util.js → store.js → motivacion.js → vistas.js → test.js → oficiales.js           │
+│            → psicotecnicos.js → paginas.js → app.js                                  │
+│ css/app.css + css/fuentes/*.woff2                                                    │
 └───────────────┬──────────────────────────────────────────────────────────────────────┘
                 │ empaquetar.py (todo a ASCII, sin recursos externos)
                 ▼
@@ -68,12 +69,14 @@ index.html (fragmento) ── carga en orden ──┐
                                            │
  window.AA ────────────────────────────────┤
    util.js        AA.h() (montaje del DOM), AA.rich() (**negrita** segura), fechas, nota oficial
-   store.js       temario, bancos de preguntas y tarjetas, progreso en localStorage, Leitner, guía
+   store.js       temario, bancos de preguntas y tarjetas, progreso en localStorage, Leitner, guía,
+                  registro diario, consolidación (caduca a los 60 días), logros y récords guardados
+   motivacion.js  racha, dominio y niveles por tema, logros, desafío diario, rentabilidad de las dudas
    vistas.js      Panel, Temario, ficha de tema, Novedades
-   test.js        tests, simulacros, velocidad, cuaderno de errores, tarjetas
+   test.js        tests, simulacros, velocidad, muerte súbita, desafío, cuaderno de errores, tarjetas
    oficiales.js   exámenes oficiales importados y calibración
    psicotecnicos.js  ejercicios generados al momento
-   paginas.js     Proceso, Pruebas físicas, Progreso (copia de seguridad)
+   paginas.js     Proceso, Pruebas físicas, Progreso (constancia, logros, copia de seguridad)
    app.js         router por hash (#panel, #tema-14…), navegación, buscador, claro/oscuro
                                            │
  hashchange ──► route() ──► vista() devuelve un nodo ──► sustituye #vista
