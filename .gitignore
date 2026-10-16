@@ -20,7 +20,9 @@ cuerpo-convocatoria.md
 .tmp*
 __pycache__/
 *.pyc
-.claude/
+# Configuración local de Claude Code (launch.json, settings.local.json…); las skills del proyecto sí se versionan
+.claude/*
+!.claude/skills/
 
 # Exámenes oficiales importados: solo en local (derechos y fiabilidad de las copias)
 examenes/

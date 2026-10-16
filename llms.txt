@@ -1,0 +1,49 @@
+# Academia Abierta · Policía Nacional (Escala Básica)
+
+> Web estática y gratuita para preparar la oposición de Policía Nacional, Escala Básica, con el temario del Anexo I de la Resolución de 7 de julio de 2026 (BOE-A-2026-15055). Tiene 45 fichas de tema en JSON, un banco de preguntas tipo test de 3 opciones y tarjetas de repaso Leitner, simulacros con la fórmula oficial y un vigilante diario del BOE que avisa cuando una reforma toca un artículo citado por una ficha. Está hecha con HTML, CSS y JavaScript vanilla sin dependencias, scripts en Python 3 con la biblioteca estándar y publicación en GitHub Pages desde GitHub Actions.
+
+Claves para trabajar en el repositorio:
+
+- Todo está en español: código, datos, mensajes de commit y documentación.
+- Lo delicado es el contenido: es material no oficial que se estudia como cierto. Cada plazo, cifra u órgano debe poder señalarse en el texto vigente del BOE (`herramientas/boe.py`), y las preguntas son originales.
+- No hay backend ni cuentas: el progreso del usuario vive en `localStorage`.
+- `web/` está en UTF-8; lo publicado es `dist/` y `sitio/`, una copia en ASCII puro generada por `herramientas/empaquetar.py`.
+- Antes de un commit: `python -I herramientas/ejecutar_tests.py` en verde.
+
+## Guías para agentes
+
+- [CLAUDE.md](CLAUDE.md): comandos, reglas de estilo y arquitectura, lo que comprueban las pruebas y el workflow de Git.
+- [Arquitectura](llms/architecture.md): flujo estático de datos, espacio de nombres `window.AA`, montaje del DOM con `AA.h()`, persistencia en `localStorage` y compilación a ASCII.
+- [Esquema de datos](llms/data_schema.md): fichas `tema-NN.json` (`clave`, `resumen`, `trampas`, `preguntas` con id `q_NN_XX`, `tarjetas` con id `t_NN_XX`…), `meta.json`, pesos, auditoría y novedades.
+- [Vigilancia del BOE](llms/boevigilance.md): vigilante diario de leyes, atribución de citas por artículo (`citas.py`) y comparación del Anexo I de una convocatoria nueva.
+
+## Procedimientos (skills)
+
+- [Resolver una novedad](.claude/skills/resolver-novedad/SKILL.md): actualizar las fichas cuando el vigilante detecta una reforma, una derogación o una convocatoria nueva.
+- [Auditar una pregunta](.claude/skills/auditar-pregunta/SKILL.md): verificar la cita, la respuesta, los distractores y la explicación contra la fuente, y registrar la revisión.
+- [Validar el despliegue](.claude/skills/validar-despliegue/SKILL.md): pruebas y comandos antes de subir a `main`.
+
+## Documentación del proyecto
+
+- [LEEME.md](LEEME.md): presentación, estructura de carpetas y uso de las herramientas.
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): diagramas textuales de la arquitectura.
+- [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md): cómo redactar fichas, reglas del validador y cómo contribuir.
+- [docs/PRIVACY.md](docs/PRIVACY.md): privacidad (sin cookies, sin peticiones a terceros, datos solo en el navegador).
+- [Guía para redactores](herramientas/GUIA_REDACTORES.md): criterios de redacción, verificación y formato de las fichas.
+- [Guía de actualización](herramientas/GUIA_ACTUALIZACION.md): cómo resolver una novedad legislativa o una convocatoria nueva.
+- [Guía de revisión](herramientas/GUIA_REVISION.md): revisión del sentido de las preguntas y de las notas `dudas`.
+
+## Código y datos de referencia
+
+- [Ficha de ejemplo](datos/temas/tema-14.json): tema 14, Ley de Seguridad Ciudadana.
+- [Validador de fichas](herramientas/validar_tema.py): reglas que bloquean (errores) y que solo avisan.
+- [Estado y progreso de la web](web/js/store.js): datos del temario, progreso en `localStorage`, Leitner, guía de estudio.
+- [Utilidades de la web](web/js/util.js): `AA.h`, `AA.rich`, `AA.esc`, `AA.notaTest`.
+- [Workflow](.github/workflows/vigilar-y-publicar.yml): vigilancia diaria, aviso por issue, validación y publicación.
+
+## Optional
+
+- [Anexo I literal](fuentes/anexo-I-literal.txt): texto oficial de los 45 temas.
+- [Pesos por tema](fuentes/pesos-por-tema.json): peso y media de preguntas por examen de cada tema.
+- [Informe de auditoría](fuentes/auditoria-preguntas.md): estado de verificación de cada pregunta.
+- [Datos del proceso selectivo](datos/proceso.json): calendario, requisito de idioma A2 y psicotécnicos.

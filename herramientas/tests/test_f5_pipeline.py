@@ -280,6 +280,12 @@ class GeneracionDeMeta(ConTemporal):
         self.assertEqual([t["tema"] for t in actual["temas"]], list(range(1, 46)))
 
 
+def documentacion_para_agentes():
+    """CLAUDE.md, llms.txt, llms/, docs/ y las skills de .claude/skills/ (rutas relativas a la raíz)."""
+    patrones = [("CLAUDE.md",), ("llms.txt",), ("llms", "*.md"), ("docs", "*.md"), (".claude", "skills", "*", "SKILL.md")]
+    return sorted(os.path.relpath(p, RAIZ) for pat in patrones for p in glob.glob(os.path.join(RAIZ, *pat)))
+
+
 class CoherenciaDeLaDocumentacion(unittest.TestCase):
     def test_leeme_menciona_todos_los_scripts(self):
         leeme = leer(os.path.join(RAIZ, "LEEME.md"))
@@ -288,9 +294,21 @@ class CoherenciaDeLaDocumentacion(unittest.TestCase):
 
     def test_las_guias_no_nombran_herramientas_que_ya_no_existen(self):
         existentes = {os.path.basename(p) for p in glob.glob(os.path.join(HERRAMIENTAS, "*.py"))}
-        for doc in ("LEEME.md", os.path.join("herramientas", "GUIA_ACTUALIZACION.md"), os.path.join("herramientas", "GUIA_REDACTORES.md")):
+        guias = ["LEEME.md", os.path.join("herramientas", "GUIA_ACTUALIZACION.md"), os.path.join("herramientas", "GUIA_REDACTORES.md")]
+        for doc in guias + documentacion_para_agentes():
             for nombre in set(re.findall(r"\b([a-z_]+\.py)\b", leer(os.path.join(RAIZ, doc)))):
                 self.assertIn(nombre, existentes, "%s menciona %s, que no existe" % (doc, nombre))
+
+    def test_los_enlaces_de_la_documentacion_para_agentes_existen(self):
+        docs = documentacion_para_agentes()
+        self.assertIn("CLAUDE.md", docs)
+        self.assertIn("llms.txt", docs)
+        for doc in docs:
+            for destino in re.findall(r"\]\(([^)\s]+)\)", leer(os.path.join(RAIZ, doc))):
+                if re.match(r"[a-z]+:|#", destino):  # https://…, mailto:…, anclas
+                    continue
+                ruta = os.path.normpath(os.path.join(RAIZ, os.path.dirname(doc), destino.split("#")[0]))
+                self.assertTrue(os.path.exists(ruta), "%s enlaza a %s, que no existe" % (doc, destino))
 
     def test_leeme_no_fija_cifras_exactas_que_caducan(self):
         leeme = leer(os.path.join(RAIZ, "LEEME.md"))

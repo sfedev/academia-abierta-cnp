@@ -37,6 +37,8 @@ Anexo I de la Resolución de 7 de julio de 2026 (BOE-A-2026-15055).
 | `.github/workflows/` | Vigilancia diaria y publicación en GitHub Pages. |
 | `dist/` | Copia de `web/` en ASCII puro: es lo que se publica. |
 | `herramientas/GUIA_REDACTORES.md` | Criterios de redacción, verificación y formato de las fichas. |
+| `CLAUDE.md`, `llms.txt`, `llms/`, `.claude/skills/` | Contexto y procedimientos para agentes de IA (Claude Code, Cursor, Codex…). |
+| `docs/` | Arquitectura, guía de contribución y privacidad. |
 | `trabajo/` | Textos de las normas leídas por los redactores (material de consulta, no se publica). |
 
 ## Trabajar con el contenido
