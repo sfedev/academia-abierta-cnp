@@ -809,6 +809,175 @@
    ],
    "tipo": "modificada",
    "vigencia": "2026-04-27"
+  },
+  {
+   "articulos": [
+    "Art. 61"
+   ],
+   "articulosPorTema": {},
+   "detectado": "2026-10-22",
+   "estado": "incorporada",
+   "id": "74e97e4de5",
+   "modificadora": {
+    "id": "BOE-A-2026-21872",
+    "titulo": "Real Decreto-ley 31/2026, de 20 de octubre, para la mejora de la acción protectora de la Seguridad Social y de otras normas sociales.",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-21872"
+   },
+   "nArticulos": 1,
+   "norma": {
+    "corto": "RDLeg 8/2015",
+    "id": "BOE-A-2015-11724",
+    "titulo": "Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social.",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724"
+   },
+   "otrosTemas": [
+    24
+   ],
+   "publicacion": "2026-10-21",
+   "revisada": "2026-10-22",
+   "sinImpacto": true,
+   "temas": [],
+   "tipo": "proxima",
+   "vigencia": "2026-11-01"
+  },
+  {
+   "articulos": [
+    "Art. 144",
+    "Art. 169",
+    "Art. 171",
+    "Art. 172",
+    "Art. 173"
+   ],
+   "articulosPorTema": {},
+   "detectado": "2026-10-22",
+   "estado": "incorporada",
+   "id": "f934f3449d",
+   "modificadora": {
+    "id": "BOE-A-2026-21872",
+    "titulo": "Real Decreto-ley 31/2026, de 20 de octubre, para la mejora de la acción protectora de la Seguridad Social y de otras normas sociales.",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-21872"
+   },
+   "nArticulos": 5,
+   "norma": {
+    "corto": "RDLeg 8/2015",
+    "id": "BOE-A-2015-11724",
+    "titulo": "Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social.",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724"
+   },
+   "otrosTemas": [
+    24
+   ],
+   "publicacion": "2026-10-21",
+   "revisada": "2026-10-22",
+   "sinImpacto": true,
+   "temas": [],
+   "tipo": "proxima",
+   "vigencia": "2026-12-01"
+  },
+  {
+   "articulos": [
+    "Art. 190",
+    "Art. 191"
+   ],
+   "articulosPorTema": {},
+   "detectado": "2026-10-22",
+   "estado": "incorporada",
+   "id": "7bfcb6473d",
+   "modificadora": {
+    "id": "BOE-A-2026-21872",
+    "titulo": "Real Decreto-ley 31/2026, de 20 de octubre, para la mejora de la acción protectora de la Seguridad Social y de otras normas sociales.",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-21872"
+   },
+   "nArticulos": 2,
+   "norma": {
+    "corto": "RDLeg 8/2015",
+    "id": "BOE-A-2015-11724",
+    "titulo": "Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social.",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724"
+   },
+   "otrosTemas": [
+    24
+   ],
+   "publicacion": "2026-10-21",
+   "revisada": "2026-10-22",
+   "sinImpacto": true,
+   "temas": [],
+   "tipo": "proxima",
+   "vigencia": "2026-10-23"
+  },
+  {
+   "articulos": [
+    "Art. 192",
+    "Art. 221",
+    "Art. 224",
+    "Art. 318",
+    "Disposición adicional cuadragésima",
+    "Disposición adicional primera",
+    "Disposición adicional sexagésima",
+    "Disposición transitoria cuadragésima",
+    "Disposición transitoria decimotercera"
+   ],
+   "articulosPorTema": {
+    "24": [
+     "Disposición adicional cuadragésima",
+     "Disposición adicional primera",
+     "Disposición adicional sexagésima",
+     "Disposición transitoria cuadragésima",
+     "Disposición transitoria decimotercera"
+    ]
+   },
+   "detectado": "2026-10-22",
+   "estado": "pendiente",
+   "id": "af13af713b",
+   "modificadora": {
+    "id": "BOE-A-2026-21872",
+    "titulo": "Real Decreto-ley 31/2026, de 20 de octubre, para la mejora de la acción protectora de la Seguridad Social y de otras normas sociales.",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-21872"
+   },
+   "nArticulos": 9,
+   "norma": {
+    "corto": "RDLeg 8/2015",
+    "id": "BOE-A-2015-11724",
+    "titulo": "Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social.",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724"
+   },
+   "otrosTemas": [],
+   "publicacion": "2026-10-21",
+   "temas": [
+    24
+   ],
+   "tipo": "modificada",
+   "vigencia": "2026-10-21"
+  },
+  {
+   "articulos": [
+    "Art. 309"
+   ],
+   "articulosPorTema": {},
+   "detectado": "2026-10-22",
+   "estado": "incorporada",
+   "id": "e6423cf867",
+   "modificadora": {
+    "id": "BOE-A-2026-21872",
+    "titulo": "Real Decreto-ley 31/2026, de 20 de octubre, para la mejora de la acción protectora de la Seguridad Social y de otras normas sociales.",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-21872"
+   },
+   "nArticulos": 1,
+   "norma": {
+    "corto": "RDLeg 8/2015",
+    "id": "BOE-A-2015-11724",
+    "titulo": "Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social.",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724"
+   },
+   "otrosTemas": [
+    24
+   ],
+   "publicacion": "2026-10-21",
+   "revisada": "2026-10-22",
+   "sinImpacto": true,
+   "temas": [],
+   "tipo": "proxima",
+   "vigencia": "2027-01-01"
   }
  ]
 }
