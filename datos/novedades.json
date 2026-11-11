@@ -978,6 +978,68 @@
    "temas": [],
    "tipo": "proxima",
    "vigencia": "2027-01-01"
+  },
+  {
+   "articulos": [
+    "Disposición final primera"
+   ],
+   "articulosPorTema": {
+    "23": [
+     "Disposición final primera"
+    ]
+   },
+   "detectado": "2026-11-11",
+   "estado": "pendiente",
+   "id": "3dae05aa05",
+   "modificadora": {
+    "id": "BOE-A-2026-23605",
+    "titulo": "Real Decreto-ley 36/2026, de 10 de noviembre, de medidas para el adecuado despliegue de la reforma del Sistema para la Autonomía y Atención a la Dependencia.",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-23605"
+   },
+   "nArticulos": 1,
+   "norma": {
+    "corto": "Ley 39/2006",
+    "id": "BOE-A-2006-21990",
+    "titulo": "Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia.",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-21990"
+   },
+   "otrosTemas": [],
+   "publicacion": "2026-11-11",
+   "temas": [
+    23
+   ],
+   "tipo": "proxima",
+   "vigencia": "2026-11-12"
+  },
+  {
+   "articulos": [
+    "Art. 71"
+   ],
+   "articulosPorTema": {},
+   "detectado": "2026-11-11",
+   "estado": "incorporada",
+   "id": "6385200cf9",
+   "modificadora": {
+    "id": "BOE-A-2026-23604",
+    "titulo": "Real Decreto-ley 35/2026, de 10 de noviembre, de medidas urgentes para el reconocimiento y protección a las familias monoparentales y otras medidas de apoyo a familias.",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-23604"
+   },
+   "nArticulos": 1,
+   "norma": {
+    "corto": "RDLeg 8/2015",
+    "id": "BOE-A-2015-11724",
+    "titulo": "Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social.",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724"
+   },
+   "otrosTemas": [
+    24
+   ],
+   "publicacion": "2026-11-11",
+   "revisada": "2026-11-11",
+   "sinImpacto": true,
+   "temas": [],
+   "tipo": "proxima",
+   "vigencia": "2026-11-12"
   }
  ]
 }
