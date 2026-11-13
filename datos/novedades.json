@@ -1040,6 +1040,38 @@
    "temas": [],
    "tipo": "proxima",
    "vigencia": "2026-11-12"
+  },
+  {
+   "articulos": [
+    "Art. 6"
+   ],
+   "articulosPorTema": {
+    "7": [
+     "Art. 6"
+    ]
+   },
+   "detectado": "2026-11-13",
+   "estado": "pendiente",
+   "id": "99196efee5",
+   "modificadora": {
+    "id": "BOE-A-2026-23760",
+    "titulo": "Real Decreto 981/2026, de 11 de noviembre, por el que se crea el Defensor/a de Víctimas de Accidentes de Transporte Colectivo, y se modifican el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales, y el Real Decreto 253/2024, de 12 de marzo, por el que se desarrolla la estructura orgánica básica del Ministerio de Transportes y Movilidad Sostenible.",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-23760"
+   },
+   "nArticulos": 1,
+   "norma": {
+    "corto": "RD 1009/2023",
+    "id": "BOE-A-2023-24842",
+    "titulo": "Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales.",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-24842"
+   },
+   "otrosTemas": [],
+   "publicacion": "2026-11-13",
+   "temas": [
+    7
+   ],
+   "tipo": "proxima",
+   "vigencia": "2026-11-14"
   }
  ]
 }
