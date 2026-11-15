@@ -62,7 +62,7 @@ Un fichero por tema: `datos/temas/tema-NN.json` (NN con dos dígitos). UTF-8, JS
 }
 ```
 
-Campos: `tarjetas` 10-24; `preguntas` 15-24, o hasta 30 si el tema tiene secciones ampliadas (ver §4 y §4 bis); `clave` 6-14; `trampas` 4-10; `resumen` ≥ 3 secciones; `tabla` y `mnemotecnias`, `caido`, `novedades`, `dudas` son opcionales (`[]` si no hay). Una sección de `resumen` con `"ampliado": true` se muestra plegada (ver §4 bis).
+Campos: `tarjetas` 10-24; `preguntas` desde 15 hasta un tope que crece con el peso del tema: 24 (30 si tiene secciones ampliadas, ver §4 bis) más 5 por cada pregunta que el tema aporta de media al examen (`preguntasMedia` de `fuentes/pesos-por-tema.json`; el tema 8 llega a 74, uno de peso bajo apenas pasa de 24); `clave` 6-14; `trampas` 4-10; `resumen` ≥ 3 secciones; `tabla` y `mnemotecnias`, `caido`, `novedades`, `dudas` son opcionales (`[]` si no hay). Una sección de `resumen` con `"ampliado": true` se muestra plegada (ver §4 bis).
 
 **`id`** (en cada pregunta y tarjeta): identificador estable con el que la web guarda el progreso de cada usuario. Formato `q_NN_01` (preguntas) y `t_NN_01` (tarjetas), con NN = número de tema a dos dígitos. No lo escribas a mano: al terminar, ejecuta `python -I herramientas/migrar_ids.py` y da el siguiente número libre a las que no lo tengan (los números no se reutilizan). Gracias a él puedes corregir un enunciado sin que los usuarios pierdan su historial; si cambia el **sentido** de una pregunta (otra respuesta correcta), borra su `id` y vuelve a ejecutar el script para que reciba uno nuevo. El validador da error si falta, tiene otro formato o está repetido en cualquier ficha.
 
@@ -83,7 +83,7 @@ Campos: `tarjetas` 10-24; `preguntas` 15-24, o hasta 30 si el tema tiene seccion
 ## 4. Preguntas tipo test (originales)
 
 - Formato del examen real: enunciado + **3 opciones**, **una** correcta. Penaliza el error (acierto = 1, error = -0,5).
-- Entre 15 y 24 por tema, repartidas así: ~30 % de dato literal (plazo, órgano, cifra, lista), ~50 % de concepto/comparación («señale la INCORRECTA», «cuál es la correcta»), ~20 % de caso práctico breve.
+- Al menos 15 por tema y, en los temas que más caen, todas las que admite el tope (ver §2): cuanto más pesa el tema, más variedad necesita el simulacro. Repartidas así: ~30 % de dato literal (plazo, órgano, cifra, lista), ~50 % de concepto/comparación («señale la INCORRECTA», «cuál es la correcta»), ~20 % de caso práctico breve.
 - **Reparte la opción correcta** por A/B/C de forma equilibrada (el validador avisa).
 - Distractores plausibles: cambian un plazo, un órgano, una cifra, una pareja de conceptos parecidos. Nada de «todas las anteriores» ni «ninguna de las anteriores».
 - Enunciados autónomos (que se entiendan sin ver el tema), sin ambigüedad doctrinal: si la respuesta es discutible, no la preguntes.
@@ -116,7 +116,7 @@ el título dice qué se aclara («Plazos y su cómputo», «Quién propone y qui
 no entra (ni de academias ni de memoria).
 
 **Preguntas de trampa fina**: por cada sección ampliada, escribe de 2 a 4 preguntas de `dificultad` 3 que dependan
-de ese detalle (con el tope de 30 preguntas por tema). Los distractores cambian solo el matiz (el plazo vecino, el
+de ese detalle (dentro del tope de preguntas del tema). Los distractores cambian solo el matiz (el plazo vecino, el
 órgano que informa en lugar del que aprueba, «podrá» por «deberá») y siguen siendo inequívocamente falsos según el
 texto. Después pasa la auditoría a tu tema (`GUIA_REVISION.md`) y registra lo que hayas comprobado.
 

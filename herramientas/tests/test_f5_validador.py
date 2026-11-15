@@ -88,7 +88,7 @@ class ReglasDelValidador(ConTemporal):
         self.assertError(lambda d: d.update(clave=d["clave"] * 2), "clave: entre 6 y 14")
         self.assertError(lambda d: d.update(trampas=d["trampas"][:3]), "trampas: entre 4 y 10")
         self.assertError(lambda d: d.update(tarjetas=d["tarjetas"][:9]), "tarjetas: entre 10 y 24")
-        self.assertError(lambda d: d.update(preguntas=d["preguntas"][:14]), "preguntas: entre 15 y 24")
+        self.assertError(lambda d: d.update(preguntas=d["preguntas"][:14]), "preguntas: entre 15 y")
 
     def test_listas_opcionales(self):
         self.assertError(lambda d: d.update(novedades="no es lista"), "novedades debe ser una lista")
@@ -150,7 +150,7 @@ class ReglasDelValidador(ConTemporal):
         self.assertEqual(err, [])
         self.assertFalse(any("resumen largo" in a for a in avi))
 
-    def test_tope_de_preguntas_sube_a_30_con_secciones_ampliadas(self):
+    def test_tope_de_preguntas_segun_el_peso_y_las_secciones_ampliadas(self):
         def hasta(total, ampliado):
             def mutar(d):
                 d["resumen"][0]["ampliado"] = ampliado
@@ -160,9 +160,18 @@ class ReglasDelValidador(ConTemporal):
                     d["preguntas"].append(dict(base, id="q_%02d_%d" % (d["tema"], k), enunciado="Pregunta adicional %d del tema" % k))
                     k += 1
             return mutar
-        self.assertError(hasta(25, False), "preguntas: entre 15 y 24")
-        self.assertEqual(self.comprobar(hasta(30, True))[0], [])
-        self.assertError(hasta(31, True), "hasta 30 si el tema tiene secciones ampliadas")
+        # Tema 23: 2,0 preguntas de media por examen -> 24 + 10 sin ampliado, 30 + 10 con ampliado
+        self.assertEqual(validar.media_examen(23), 2.0)
+        self.assertEqual(self.comprobar(hasta(34, False))[0], [])
+        self.assertError(hasta(35, False), "preguntas: entre 15 y 34")
+        self.assertEqual(self.comprobar(hasta(40, True))[0], [])
+        self.assertError(hasta(41, True), "preguntas: entre 15 y 40")
+
+    def test_tope_crece_con_la_media_del_tema(self):
+        self.assertEqual(validar.tope_preguntas(8, True), 30 + 44)   # 8,8 de media
+        self.assertEqual(validar.tope_preguntas(33, False), 24 + 2)  # 0,4 de media
+        self.assertEqual(validar.tope_preguntas(99, False), 24)      # sin peso conocido: la base
+        self.assertEqual(validar.tope_preguntas(99, True), 30)
 
 
 class SalidaDelValidador(ConTemporal):

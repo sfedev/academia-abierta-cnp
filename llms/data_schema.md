@@ -62,7 +62,7 @@ Una por tema, `NN` con dos dígitos (`tema-01.json` … `tema-45.json`). Ejemplo
 | `caido[]` | lista de objetos | `examen` y `concepto` no vacíos. |
 | `mnemotecnias`, `novedades`, `dudas` | listas | Opcionales (`[]` si no hay). |
 | `tarjetas[]` | lista | 10-24, cada una con `id`, `p` y `r`. |
-| `preguntas[]` | lista | 15-24, o hasta 30 si la ficha tiene alguna sección `ampliado`. |
+| `preguntas[]` | lista | Mínimo 15; tope = 24 (30 si la ficha tiene alguna sección `ampliado`) + 5 × `preguntasMedia` del tema (redondeado hacia arriba). |
 
 Reglas de texto que comprueba el validador en todas las cadenas: no vacías, sin HTML (solo `**negrita**`, con los
 `**` emparejados). En las opciones están prohibidas «todas/ninguna de las anteriores» y «todas son correctas /

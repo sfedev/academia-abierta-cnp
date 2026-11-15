@@ -9,9 +9,14 @@ Cada pregunta y tarjeta debe tener un `id` (q_NN_01 / t_NN_01) único en toda la
 fichas a la vez, también se comprueba que no se repitan entre ficheros. Los asigna herramientas/migrar_ids.py.
 """
 import json
+import math
+import os
 import re
 import sys
 from collections import Counter
+
+PESOS_POR_TEMA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "fuentes", "pesos-por-tema.json")
+POR_PREGUNTA_DE_EXAMEN = 5  # preguntas de banco que se admiten de más por cada pregunta que el tema aporta al examen
 
 BLOQUES = {range(1, 27): "A", range(27, 38): "B", range(38, 46): "C"}
 PESOS = {"alto", "medio", "bajo"}
@@ -23,6 +28,24 @@ def bloque_de(n):
         if n in r:
             return b
     return None
+
+
+def media_examen(tema):
+    """Preguntas que el tema aporta de media a cada examen (fuentes/pesos-por-tema.json); 0 si no consta."""
+    try:
+        with open(PESOS_POR_TEMA, encoding="utf-8") as f:
+            pesos = json.load(f)
+        return next((float(x.get("preguntasMedia") or 0) for x in pesos if x.get("tema") == tema), 0.0)
+    except Exception:  # noqa: BLE001
+        return 0.0
+
+
+def tope_preguntas(tema, con_ampliado):
+    """Máximo de preguntas de una ficha: 24 (30 si tiene secciones ampliadas) más 5 por cada pregunta que el
+    tema aporta de media al examen. Así los temas que más caen admiten un banco mayor y los de peso bajo no crecen
+    sin medida (tema 8, con 8,8 de media: 30 + 44 = 74; tema 33, con 0,4: 24 + 2 = 26)."""
+    base = 30 if con_ampliado else 24
+    return base + int(math.ceil(round(POR_PREGUNTA_DE_EXAMEN * media_examen(tema), 6)))
 
 
 def palabras(s):
@@ -150,11 +173,12 @@ def validar(path):
             comprobar_id(c, "tarjetas[%d]" % i, "t", ids_t)
 
     pre = d.get("preguntas", [])
-    # Los temas con secciones «ampliado» (detalle de trampa fina) admiten hasta 30: las de dificultad 3 salen de ahí
+    # Tope según el peso en el examen (ver tope_preguntas): base 24, o 30 con secciones «ampliado» (trampa fina)
     con_amp = any(isinstance(s, dict) and s.get("ampliado") is True for s in res)
-    tope = 30 if con_amp else 24
+    tope = tope_preguntas(t, con_amp)
     need(isinstance(pre, list) and 15 <= len(pre) <= tope,
-         "preguntas: entre 15 y 24, o hasta 30 si el tema tiene secciones ampliadas (%d)" % len(pre))
+         "preguntas: entre 15 y %d para este tema (24, o 30 con secciones ampliadas, más 5 por pregunta de media "
+         "en el examen) (%d)" % (tope, len(pre)))
     pos = Counter()
     vistos = set()
     ids_p = set()
