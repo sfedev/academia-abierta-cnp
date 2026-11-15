@@ -4,8 +4,8 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 no
 
 | Estado | Preguntas | % |
 |---|---|---|
-| Verificada (cifras en el artículo) | 221 | 20.3 % |
-| Revisada a mano | 863 | 79.1 % |
+| Verificada (cifras en el artículo) | 227 | 20.3 % |
+| Revisada a mano | 883 | 79.1 % |
 | Artículo vigente, sin cifras que comprobar | 0 | 0.0 % |
 | Pendiente de revisar | 0 | 0.0 % |
 | Fuente no comprobable automáticamente | 7 | 0.6 % |
@@ -32,6 +32,7 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 no
 - q_02_39 (tema 2): Una respuesta incorrecta usa una cifra que también está en el artículo: 15 dia.
 - q_03_09 (tema 3): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_03_14 (tema 3): Una respuesta incorrecta usa una cifra que también está en el artículo: 20 dia, 3 mes.
+- q_03_36 (tema 3): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 persona, 5 persona.
 - q_04_05 (tema 4): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_04_11 (tema 4): Cifras no localizadas; la ref no dice con certeza de qué norma es el artículo: 6, 720, 96.
 - q_04_16 (tema 4): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
@@ -65,6 +66,7 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 no
 - q_10_14 (tema 10): Una respuesta incorrecta usa una cifra que también está en el artículo: 5 ano.
 - q_10_15 (tema 10): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 ano.
 - q_10_18 (tema 10): Una respuesta incorrecta usa una cifra que también está en el artículo: 18 mes.
+- q_10_31 (tema 10): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_11_01 (tema 11): Una respuesta incorrecta usa una cifra que también está en el artículo: 10000 euro.
 - q_11_02 (tema 11): Una respuesta incorrecta usa una cifra que también está en el artículo: 100000 euro.
 - q_11_03 (tema 11): Una respuesta incorrecta usa una cifra que también está en el artículo: 2 ano, 5 ano.

@@ -629,7 +629,124 @@
    "explicacion": "Art. 6.1 LO 4/2000: sufragio en las elecciones municipales, en los términos de la Constitución, los tratados internacionales y la ley. Los poderes públicos facilitan además el ejercicio del sufragio en los procesos electorales de su país de origen (art. 6.4).",
    "ref": "art. 6 LO 4/2000",
    "dificultad": 1
-  }
+  },
+   {
+     "id": "q_10_24",
+     "enunciado": "Según el art. 1 de la LO 4/2000, ¿qué régimen se aplica a los nacionales de los Estados miembros de la Unión Europea?",
+     "opciones": [
+       "Se rigen por las normas que regulan el régimen comunitario, y la LO 4/2000 se les aplica en aquellos aspectos que pudieran ser más favorables.",
+       "Se rigen íntegramente por la LO 4/2000, como cualquier otro extranjero.",
+       "Quedan excluidos por completo del ámbito de la LO 4/2000, igual que el personal diplomático."
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 1.3 de la LO 4/2000 dispone que los nacionales de la UE y quienes estén sujetos al régimen comunitario se rigen por las **normas que lo regulan**, siéndoles de aplicación la Ley Orgánica **en aquellos aspectos que pudieran ser más favorables**. No están excluidos como el personal diplomático del art. 2, ni sometidos íntegramente a la Ley.",
+     "ref": "art. 1.3 LO 4/2000",
+     "dificultad": 3
+   },
+   {
+     "id": "q_10_25",
+     "enunciado": "¿Cuál de las siguientes personas queda excluida del ámbito de aplicación de la LO 4/2000, según su art. 2?",
+     "opciones": [
+       "Un estudiante extranjero titular de una autorización de estancia por estudios.",
+       "Un funcionario consular acreditado en España, exento por el Derecho internacional de inscribirse como extranjero y de obtener autorización de residencia.",
+       "Un trabajador extranjero titular de una autorización de residencia temporal y trabajo."
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 2 de la LO 4/2000 excluye a los **agentes diplomáticos y funcionarios consulares acreditados en España** y demás miembros de las misiones y oficinas consulares, y a sus familiares, exentos por el Derecho internacional de las obligaciones de inscripción y de autorización de residencia; también a los miembros de misiones ante organismos intergubernamentales y a ciertos funcionarios de organizaciones internacionales. Estudiantes y trabajadores extranjeros sí están sujetos a la Ley.",
+     "ref": "art. 2 LO 4/2000",
+     "dificultad": 1
+   },
+   {
+     "id": "q_10_26",
+     "enunciado": "Según el art. 9 de la LO 4/2000, en materia de educación:",
+     "opciones": [
+       "Solo los extranjeros residentes menores de dieciséis años tienen derecho a la enseñanza básica gratuita.",
+       "Los extranjeros menores de dieciocho años tienen el deber de cursar la enseñanza posobligatoria.",
+       "Los extranjeros menores de dieciséis años tienen el derecho y el deber a la educación, que incluye una enseñanza básica, gratuita y obligatoria, y los menores de dieciocho años tienen también derecho a la enseñanza posobligatoria."
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 9.1 de la LO 4/2000 reconoce a los extranjeros **menores de dieciséis años** el **derecho y el deber** a la educación (enseñanza básica, gratuita y obligatoria) y a los **menores de dieciocho años** el **derecho** a la enseñanza **posobligatoria**, con independencia de su situación administrativa. Para los menores de dieciocho la posobligatoria es un derecho, no un deber.",
+     "ref": "art. 9.1 LO 4/2000",
+     "dificultad": 2
+   },
+   {
+     "id": "q_10_27",
+     "enunciado": "Según el art. 11 de la LO 4/2000, los extranjeros pueden ejercer el derecho a la huelga:",
+     "opciones": [
+       "En las mismas condiciones que los españoles.",
+       "Solo si están autorizados para trabajar en España.",
+       "Solo si son residentes de larga duración."
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 11.2 de la LO 4/2000, en su redacción vigente, dispone que los extranjeros **podrán ejercer el derecho a la huelga en las mismas condiciones que los españoles**. El apartado 1 reconoce igualmente el derecho a sindicarse o afiliarse a una organización profesional en las mismas condiciones que los trabajadores españoles. La Ley no condiciona la huelga a la autorización para trabajar ni a la residencia de larga duración.",
+     "ref": "art. 11 LO 4/2000",
+     "dificultad": 1
+   },
+   {
+     "id": "q_10_28",
+     "enunciado": "Según el art. 22 de la LO 4/2000, los extranjeros que se hallen en España tienen derecho a asistencia letrada y, en su caso, de intérprete en los procedimientos administrativos que puedan llevar a:",
+     "opciones": [
+       "Cualquier sanción administrativa, sea cual sea su cuantía.",
+       "Su denegación de entrada, devolución o expulsión, y en todos los procedimientos en materia de protección internacional; estas asistencias son gratuitas si carecen de recursos económicos suficientes.",
+       "Únicamente su expulsión, y siempre de forma gratuita."
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 22.2 de la LO 4/2000 reconoce la **asistencia letrada** en los procedimientos que puedan llevar a la **denegación de entrada, devolución o expulsión** y en todos los de **protección internacional**, así como la de **intérprete** si no comprenden o hablan la lengua oficial. Son **gratuitas cuando carezcan de recursos económicos suficientes** según la normativa de asistencia jurídica gratuita, no en todo caso.",
+     "ref": "art. 22.2 LO 4/2000",
+     "dificultad": 2
+   },
+   {
+     "id": "q_10_29",
+     "enunciado": "Un extranjero se presenta en un puesto fronterizo sin reunir todos los requisitos de entrada. Según el art. 25 de la LO 4/2000, ¿puede autorizarse su entrada?",
+     "opciones": [
+       "No, en ningún caso: debe denegarse la entrada mediante resolución motivada.",
+       "Solo si se compromete a solicitar visado en el plazo de un mes.",
+       "Sí, cuando existan razones excepcionales de índole humanitaria, interés público o cumplimiento de compromisos adquiridos por España."
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 25.4 de la LO 4/2000 permite autorizar la entrada de extranjeros que no reúnan los requisitos cuando existan **razones excepcionales de índole humanitaria, interés público o cumplimiento de compromisos adquiridos por España**. Fuera de esos casos, la entrada se deniega mediante resolución motivada (art. 26.2). Además, los requisitos ordinarios no se aplican a quien solicita asilo en el momento de la entrada (art. 25.3).",
+     "ref": "art. 25.4 LO 4/2000",
+     "dificultad": 2
+   },
+   {
+     "id": "q_10_30",
+     "enunciado": "Según el art. 27.2 de la LO 4/2000, la concesión del visado:",
+     "opciones": [
+       "Habilita al extranjero para presentarse en un puesto fronterizo español y solicitar su entrada y, una vez efectuada esta, para permanecer en España en la situación para la que se expidió, sin perjuicio de tener que obtener, en su caso, la tarjeta de identidad de extranjero.",
+       "Otorga un derecho incondicionado a entrar en España, que no puede denegarse en frontera.",
+       "Sustituye en todo caso a la tarjeta de identidad de extranjero durante toda la residencia."
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 27.2 de la LO 4/2000 establece que el visado **habilita para presentarse en un puesto fronterizo y solicitar la entrada** (no la garantiza) y, efectuada la entrada, para **permanecer en la situación para la que se expidió**, **sin perjuicio de la obligatoriedad de obtener**, en su caso, la **tarjeta de identidad de extranjero**.",
+     "ref": "art. 27.2 LO 4/2000",
+     "dificultad": 3
+   },
+   {
+     "id": "q_10_31",
+     "enunciado": "¿Cuál de los siguientes NO es un supuesto de salida obligatoria del territorio español según el art. 28.3 de la LO 4/2000?",
+     "opciones": [
+       "La expulsión acordada por resolución administrativa en los casos previstos en la Ley.",
+       "La imposición de una multa por una infracción leve de la propia LO 4/2000.",
+       "La denegación administrativa de las solicitudes formuladas por el extranjero para continuar permaneciendo en territorio español."
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 28.3 de la LO 4/2000 hace obligatoria la salida en caso de expulsión por orden judicial, **expulsión o devolución administrativas**, **denegación de las solicitudes** para seguir en España o falta de autorización para encontrarse en el país, y cumplimiento del plazo comprometido en un programa de retorno voluntario. Una **multa** no figura entre esos supuestos. Por regla general, las salidas son libres (art. 28.1).",
+     "ref": "art. 28.3 LO 4/2000",
+     "dificultad": 2
+   },
+   {
+     "id": "q_10_32",
+     "enunciado": "Según el art. 32 de la LO 4/2000, la residencia de larga duración:",
+     "opciones": [
+       "Autoriza a residir en España indefinidamente, pero no a trabajar sin una autorización específica.",
+       "Se obtiene tras tres años de residencia temporal continuada.",
+       "Autoriza a residir y trabajar en España indefinidamente, en las mismas condiciones que los españoles, y requiere haber tenido residencia temporal durante cinco años de forma continuada."
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 32.1 de la LO 4/2000 define la residencia de larga duración como la situación que autoriza a **residir y trabajar en España indefinidamente, en las mismas condiciones que los españoles**, y el art. 32.2 reconoce el derecho a ella a quienes hayan tenido **residencia temporal durante cinco años de forma continuada** y reúnan las condiciones reglamentarias.",
+     "ref": "art. 32 LO 4/2000",
+     "dificultad": 1
+   }
  ],
  "dudas": [
   "Los anteproyectos de nueva ley de asilo y de reforma de la LO 4/2000 aprobados por el Consejo de Ministros el 25/08/2026 no son derecho vigente: en el examen se aplican la LO 4/2000 y su Reglamento (RD 1155/2024) en su redacción actual.",

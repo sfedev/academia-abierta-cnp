@@ -365,6 +365,36 @@
   "nota": "Art. 33.2 LOTC: nueve meses si la Comisión Bilateral acuerda negociar y se comunica al TC en tres meses",
   "por": "ia"
  },
+ "q_03_33": {
+  "fecha": "2026-11-15",
+  "huella": "3227e04a1410",
+  "nota": "Art. 73 CE: periodos ordinarios de septiembre a diciembre y de febrero a junio",
+  "por": "persona"
+ },
+ "q_03_34": {
+  "fecha": "2026-11-15",
+  "huella": "a95d51ce5297",
+  "nota": "Art. 71.2 y 71.3 CE: detención solo en flagrante delito, suplicatorio y Sala de lo Penal del Tribunal Supremo",
+  "por": "persona"
+ },
+ "q_03_36": {
+  "fecha": "2026-11-15",
+  "huella": "f4fca0d29c48",
+  "nota": "Art. 59.1 y 59.3 CE: padre o madre del Rey y, en su defecto, el pariente mayor de edad más próximo a suceder; las Cortes solo si no hay nadie",
+  "por": "persona"
+ },
+ "q_03_37": {
+  "fecha": "2026-11-15",
+  "huella": "14385fe4a9e2",
+  "nota": "Art. 76 CE: conclusiones no vinculantes para los Tribunales; comunicación al Ministerio Fiscal; comparecencia obligatoria",
+  "por": "persona"
+ },
+ "q_03_38": {
+  "fecha": "2026-11-15",
+  "huella": "068a3757004d",
+  "nota": "Art. 127.1 CE: sin otros cargos públicos ni pertenencia a partidos o sindicatos; asociación profesional por ley",
+  "por": "persona"
+ },
  "q_04_01": {
   "fecha": "2026-10-16",
   "huella": "8553da728f28",
@@ -850,6 +880,60 @@
   "huella": "cfd710f26e6a",
   "nota": "Arts. 8 bis.2, 8 bis.4 y 8 ter RD 207/2024 (RD 328/2026): la DG ejerce las competencias de la Secretaría General salvo las tecnológicas",
   "por": "ia"
+ },
+ "q_07_29": {
+  "fecha": "2026-11-15",
+  "huella": "a5a7aa1c6afe",
+  "nota": "Art. 1.4 RD 207/2024: Oficina de Comunicación dependiente del Ministro, con nivel de subdirección general; Gabinete del Ministro, dirección general (art. 1.3)",
+  "por": "persona"
+ },
+ "q_07_30": {
+  "fecha": "2026-11-15",
+  "huella": "e6c1742ba998",
+  "nota": "Art. 1.5.d RD 207/2024: la Dirección General de Tráfico depende de la Subsecretaría",
+  "por": "persona"
+ },
+ "q_07_31": {
+  "fecha": "2026-11-15",
+  "huella": "857826ec53af",
+  "nota": "Art. 1.5.b RD 207/2024: la DG de Ejecución Penal y Reinserción Social depende de la Secretaría General de Instituciones Penitenciarias",
+  "por": "persona"
+ },
+ "q_07_32": {
+  "fecha": "2026-11-15",
+  "huella": "f3bc353911c1",
+  "nota": "Art. 2.1.i RD 207/2024: relaciones con el Comité Europeo para la prevención de la tortura, función de la Secretaría de Estado de Seguridad",
+  "por": "persona"
+ },
+ "q_07_33": {
+  "fecha": "2026-11-15",
+  "huella": "877f135ef0e1",
+  "nota": "Art. 2.3.8.º RD 207/2024: el CITCO planifica y ejecuta la destrucción de alijos de drogas",
+  "por": "persona"
+ },
+ "q_07_34": {
+  "fecha": "2026-11-15",
+  "huella": "767e992cee0f",
+  "nota": "Art. 3.1 RD 207/2024: mando directo de la Policía Nacional bajo la dependencia de la Secretaría de Estado de Seguridad",
+  "por": "persona"
+ },
+ "q_07_35": {
+  "fecha": "2026-11-15",
+  "huella": "28a7760db33e",
+  "nota": "Art. 6.1.13.º y 14.º RD 207/2024: la DG de Coordinación y Estudios dirige la Oficina Nacional contra los delitos de odio y el Centro Nacional de Desaparecidos",
+  "por": "persona"
+ },
+ "q_07_36": {
+  "fecha": "2026-11-15",
+  "huella": "08a9db7b84b0",
+  "nota": "Art. 6.2.7.º RD 207/2024: la Inspección de Personal y Servicios de Seguridad dirige la ONGADH",
+  "por": "persona"
+ },
+ "q_07_37": {
+  "fecha": "2026-11-15",
+  "huella": "b9d2392a5611",
+  "nota": "Art. 5.1.i RD 207/2024: la DG de Relaciones Internacionales y Extranjería gestiona el NFPOC y el Centro Nacional de Coordinación de Eurosur",
+  "por": "persona"
  },
  "q_08_01": {
   "fecha": "2026-10-16",
@@ -1432,6 +1516,42 @@
   "huella": "e94b06cfa00b",
   "nota": "Art. 6.1 LO 4/2000 (texto vigente): sufragio de residentes en elecciones municipales",
   "por": "ia"
+ },
+ "q_10_24": {
+  "fecha": "2026-11-15",
+  "huella": "dc07e2a21596",
+  "nota": "Art. 1.3 LO 4/2000: régimen comunitario para ciudadanos de la UE; la Ley se aplica en lo que sea más favorable",
+  "por": "persona"
+ },
+ "q_10_25": {
+  "fecha": "2026-11-15",
+  "huella": "0255f8cc4509",
+  "nota": "Art. 2.a LO 4/2000: excluidos los agentes diplomáticos y funcionarios consulares exentos de inscripción y autorización de residencia",
+  "por": "persona"
+ },
+ "q_10_27": {
+  "fecha": "2026-11-15",
+  "huella": "cba0a1bd5ae7",
+  "nota": "Art. 11 LO 4/2000: sindicación y huelga en las mismas condiciones que los españoles",
+  "por": "persona"
+ },
+ "q_10_28": {
+  "fecha": "2026-11-15",
+  "huella": "a2496f2d5e82",
+  "nota": "Art. 22.2 LO 4/2000: asistencia letrada e intérprete en denegación de entrada, devolución, expulsión y protección internacional; gratuitas sin recursos suficientes",
+  "por": "persona"
+ },
+ "q_10_29": {
+  "fecha": "2026-11-15",
+  "huella": "28650754e5a1",
+  "nota": "Art. 25.4 LO 4/2000: entrada excepcional por razones humanitarias, de interés público o compromisos de España",
+  "por": "persona"
+ },
+ "q_10_31": {
+  "fecha": "2026-11-15",
+  "huella": "286dcb3ef1b6",
+  "nota": "Art. 28.3 LO 4/2000: supuestos tasados de salida obligatoria; la multa no figura",
+  "por": "persona"
  },
  "q_11_06": {
   "fecha": "2026-10-16",

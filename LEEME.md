@@ -4,7 +4,7 @@ Plataforma web gratuita de estudio para la oposición de Policía Nacional, basa
 Anexo I de la Resolución de 7 de julio de 2026 (BOE-A-2026-15055).
 
 - 45 temas con resumen, «lo imprescindible», trampas de examen y lo que ya ha caído.
-- Más de 900 preguntas tipo test originales (3 opciones, corrección con la fórmula oficial) y más de 800 tarjetas
+- Más de mil preguntas tipo test originales (3 opciones, corrección con la fórmula oficial) y más de 800 tarjetas
   (las cifras exactas salen de `build.py` y aparecen en el pie de la web).
 - Simulacro de 100 preguntas en 50 minutos con el reparto de los cinco últimos exámenes.
 - Calculadora de pruebas físicas (Anexo II) y resumen del proceso selectivo, con el requisito de idioma A2.
