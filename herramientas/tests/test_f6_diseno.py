@@ -121,6 +121,7 @@ PARES_TEXTO = [
     ("--ink", "--warn-soft"), ("--ink", "--ok-soft"), ("--ink", "--ko-soft"),
     ("--ink-2", "--bg"), ("--ink-2", "--surface"), ("--ink-2", "--surface-2"),
     ("--muted", "--bg"), ("--muted", "--surface"), ("--muted", "--surface-2"),
+    ("--muted", "--accent-soft"),  # letra de la opción y descripción del tipo de psicotécnico al pasar por encima
     ("--accent", "--bg"), ("--accent", "--surface"), ("--accent", "--surface-2"), ("--accent", "--accent-soft"),
     ("--accent-ink", "--accent"), ("--accent-ink", "--accent-2"),
     ("--on-solid", "--a"), ("--on-solid", "--b"), ("--on-solid", "--c"), ("--on-solid", "--ok"), ("--on-solid", "--ko"),
@@ -319,7 +320,8 @@ class Interaccion(unittest.TestCase):
         for sel in (".btn:hover", ".btn:active", ".btn--primary:hover", ".btn--primary:active", ".iconbtn:hover", ".iconbtn:active",
                     ".nav a:hover", ".nav a:active", ".tema-row:hover", ".tema-row:active", ".opt:hover:not([disabled])", ".opt:active:not([disabled])",
                     ".chipbtn:hover", ".chipbtn:active", ".palette button:hover", ".palette button:active", ".tabbar a:active", ".sheet a:active",
-                    ".field:focus", ".toc-fab:active", "button.flash-card:hover", "button.flash-card:active"):
+                    ".field:focus", ".toc-fab:active", "button.flash-card:hover", "button.flash-card:active",
+                    ".psico-tipo:hover", ".psico-tipo:active"):
             self.assertIn(sel, existentes, "falta el estado " + sel)
 
     def test_foco_visible_con_anillo_grueso(self):
@@ -332,6 +334,7 @@ class Interaccion(unittest.TestCase):
         self.assertGreaterEqual(px(props(".iconbtn")["width"]), 42)
         self.assertGreaterEqual(px(props(".iconbtn", "pointer: coarse")["width"]), 46)
         self.assertGreaterEqual(px(props(".opt")["min-height"]), 52)
+        self.assertGreaterEqual(px(props(".psico-tipo")["min-height"]), 44)
         self.assertGreaterEqual(px(props(".opt", "max-width: 767px")["min-height"]), 56)
         self.assertGreaterEqual(px(props(".btn", "max-width: 767px")["min-height"]), 48)
         self.assertGreaterEqual(px(props(".field")["min-height"]), 44)
