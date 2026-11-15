@@ -983,6 +983,175 @@
       "explicacion": "El art. 29.2 EOMF dispone que, recibido el informe del CGPJ, el Gobierno comunica su propuesta al Congreso de los Diputados para que pueda disponer la comparecencia de la persona elegida ante la comisión correspondiente, a fin de valorar sus méritos e idoneidad. No interviene el Senado ni hay votación de ratificación, y el nombrado presta juramento o promesa ante el Rey y toma posesión ante el Pleno del Tribunal Supremo (art. 29.3).",
       "ref": "art. 29 EOMF",
       "dificultad": 3
+    },
+    {
+      "id": "q_21_31",
+      "enunciado": "Una persona fue detenida cumpliendo todos los requisitos legales y aún no ha transcurrido el plazo máximo de detención, pero los agentes no le respetan los derechos que las leyes procesales garantizan a todo detenido. Según la LO 6/1984, ¿puede considerarse ilegalmente detenida a efectos del habeas corpus?",
+      "opciones": [
+        "Sí: el art. 1 considera ilegalmente detenidas a las personas privadas de libertad a quienes no se respetan los derechos que la Constitución y las leyes procesales garantizan a todo detenido.",
+        "No: solo hay detención ilegal si falta el supuesto legal de la detención o se supera el plazo máximo.",
+        "No: esa vulneración solo puede denunciarse en el proceso penal posterior."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 1 de la LO 6/1984 enumera cuatro supuestos de detención ilegal: detención sin los supuestos legales o sin las formalidades exigidas; internamiento ilícito; privación de libertad por plazo superior al legal; y la de quienes son privados de libertad **sin que se les respeten los derechos** que la Constitución y las leyes procesales garantizan a todo detenido (letra d). Una detención inicialmente legal puede convertirse en ilegal por esta última causa.",
+      "ref": "art. 1 LO 6/1984",
+      "dificultad": 2
+    },
+    {
+      "id": "q_21_32",
+      "enunciado": "Si la detención obedece a la aplicación de la ley orgánica que desarrolla los supuestos del artículo 55.2 de la Constitución (bandas armadas o elementos terroristas), ¿ante quién debe seguirse el procedimiento de habeas corpus?",
+      "opciones": [
+        "Ante el Juez de Instrucción del lugar en que se encuentre la persona privada de libertad.",
+        "Ante el Juez Central de Instrucción correspondiente.",
+        "Ante la Sala de lo Penal de la Audiencia Nacional."
+      ],
+      "correcta": 1,
+      "explicacion": "La regla general del art. 2 de la LO 6/1984 es la competencia del **Juez de Instrucción del lugar** en que se encuentre el privado de libertad (y, subsidiariamente, el del lugar de la detención o el de las últimas noticias). Pero si la detención obedece a la ley orgánica que desarrolla el **art. 55.2 CE**, el procedimiento se sigue ante el **Juez Central de Instrucción** correspondiente. En la jurisdicción militar es competente el Juez Togado Militar de Instrucción.",
+      "ref": "art. 2 LO 6/1984",
+      "dificultad": 2
+    },
+    {
+      "id": "q_21_33",
+      "enunciado": "Según el art. 4 de la LO 6/1984, para iniciar el procedimiento de habeas corpus mediante escrito o comparecencia:",
+      "opciones": [
+        "Es preceptiva la firma de Abogado, pero no la de Procurador.",
+        "Es preceptiva la intervención de Abogado y de Procurador.",
+        "No es preceptiva la intervención de Abogado ni de Procurador."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 4 de la LO 6/1984 dispone que el procedimiento se inicia, salvo cuando se incoa de oficio, por **escrito o comparecencia**, **no siendo preceptiva la intervención de Abogado ni de Procurador**. Basta con hacer constar los datos del solicitante y del privado de libertad, el lugar en que se halla y el motivo concreto de la solicitud.",
+      "ref": "art. 4 LO 6/1984",
+      "dificultad": 1
+    },
+    {
+      "id": "q_21_34",
+      "enunciado": "Un detenido que se encuentra en dependencias policiales formula ante los agentes una solicitud de habeas corpus. Según el art. 5 de la LO 6/1984, los agentes:",
+      "opciones": [
+        "Deben ponerla inmediatamente en conocimiento del Juez competente; si incumplen esta obligación, serán apercibidos por el Juez, sin perjuicio de otras responsabilidades.",
+        "Pueden demorar su traslado al Juez hasta finalizar el atestado, siempre que no superen el plazo de setenta y dos horas.",
+        "Deben remitirla al Ministerio Fiscal, que decidirá si la presenta ante el Juez."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5 de la LO 6/1984 obliga a la autoridad gubernativa, sus agentes o funcionarios a poner **inmediatamente en conocimiento del Juez competente** la solicitud formulada por la persona bajo su custodia. Si lo incumplen, **serán apercibidos por el Juez**, sin perjuicio de las responsabilidades penales y disciplinarias. No cabe esperar a terminar el atestado ni desviar la solicitud al Fiscal.",
+      "ref": "art. 5 LO 6/1984",
+      "dificultad": 2
+    },
+    {
+      "id": "q_21_35",
+      "enunciado": "Tras practicar las actuaciones del habeas corpus, el Juez aprecia que la privación de libertad concurre en alguno de los supuestos de ilegalidad. Según el art. 8 de la LO 6/1984, ¿cuál de las siguientes medidas puede acordar?",
+      "opciones": [
+        "El archivo de las actuaciones, declarando conforme a Derecho la privación de libertad.",
+        "La imposición de una multa coercitiva a los agentes, sin modificar la situación del detenido.",
+        "Que continúe la privación de libertad conforme a las disposiciones legales aplicables, pero, si lo considera necesario, en establecimiento distinto o bajo la custodia de personas distintas."
+      ],
+      "correcta": 2,
+      "explicacion": "Si concurre algún supuesto del art. 1, el art. 8.2 permite acordar la **puesta en libertad**, la **continuación de la privación de libertad** conforme a la ley pero **en establecimiento distinto o bajo otra custodia**, o la **inmediata puesta a disposición judicial** si ya se superó el plazo. El archivo declarando conforme a Derecho la privación de libertad procede, al contrario, cuando no concurre ningún supuesto (art. 8.1). La ley no prevé multas coercitivas.",
+      "ref": "art. 8 LO 6/1984",
+      "dificultad": 3
+    },
+    {
+      "id": "q_21_36",
+      "enunciado": "Según el Real Decreto 769/1987, constituyen la Policía Judicial en sentido estricto:",
+      "opciones": [
+        "Todos los miembros de las Fuerzas y Cuerpos de Seguridad, cualquiera que sea su naturaleza y dependencia.",
+        "Las Unidades Orgánicas previstas en el art. 30.1 de la LO 2/1986, integradas por miembros del Cuerpo Nacional de Policía y de la Guardia Civil.",
+        "Las Unidades Orgánicas del Cuerpo Nacional de Policía, la Guardia Civil y las Policías Locales."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 7 del RD 769/1987 define la Policía Judicial **en sentido estricto** como las **Unidades Orgánicas** del art. 30.1 de la LO 2/1986, integradas por miembros del **Cuerpo Nacional de Policía y de la Guardia Civil**. Las funciones **generales** de policía judicial corresponden, en cambio, a todos los miembros de las Fuerzas y Cuerpos de Seguridad (art. 1). Las Policías Locales colaboran, pero no integran esas Unidades.",
+      "ref": "arts. 1 y 7 RD 769/1987",
+      "dificultad": 1
+    },
+    {
+      "id": "q_21_37",
+      "enunciado": "Según el RD 769/1987, cuando los funcionarios de las Unidades Orgánicas de Policía Judicial realizan diligencias de investigación criminal concretadas a un hecho presuntamente delictivo, pero antes de la apertura de la actuación judicial, actúan bajo la dependencia de:",
+      "opciones": [
+        "Sus superiores policiales, hasta que un Juez asuma la investigación.",
+        "El Juez de Guardia del lugar de los hechos.",
+        "El Ministerio Fiscal, al que darán cuenta de sus investigaciones."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 20 del RD 769/1987 dispone que, con carácter previo a la apertura de la actuación judicial, estas Unidades **actúan bajo la dependencia del Ministerio Fiscal** y le dan cuenta de sus investigaciones; la Fiscalía puede en cualquier momento asumir su dirección. Una vez iniciado el procedimiento penal, el Juez o Tribunal se entiende directamente con el Jefe de la Unidad (art. 21).",
+      "ref": "art. 20 RD 769/1987",
+      "dificultad": 2
+    },
+    {
+      "id": "q_21_38",
+      "enunciado": "¿Quién preside las Comisiones Provinciales de Coordinación de la Policía Judicial según el RD 769/1987?",
+      "opciones": [
+        "El Presidente de la Audiencia Provincial.",
+        "El Fiscal Jefe de la Audiencia Provincial.",
+        "El Subdelegado del Gobierno en la provincia."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 34 del RD 769/1987 atribuye la presidencia de la Comisión Provincial al **Presidente de la Audiencia Provincial**. El Fiscal Jefe de la Audiencia es vocal, junto con el Juez Decano de la capital, el Secretario Coordinador Provincial y los Jefes de las Unidades Orgánicas de Policía Judicial del CNP y de la Guardia Civil. El Subdelegado del Gobierno no forma parte de ella.",
+      "ref": "art. 34 RD 769/1987",
+      "dificultad": 2
+    },
+    {
+      "id": "q_21_39",
+      "enunciado": "Según el RD 769/1987, ¿con qué periodicidad mínima se reúnen la Comisión Nacional y las Comisiones Provinciales de Coordinación de la Policía Judicial?",
+      "opciones": [
+        "La Nacional, al menos una vez al semestre; las Provinciales, trimestralmente.",
+        "La Nacional, al menos una reunión trimestral; las Provinciales, con periodicidad mensual.",
+        "Ambas, al menos una vez al mes."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 38 del RD 769/1987 dispone que la **Comisión Nacional** celebra **al menos una reunión trimestral** y que las **Comisiones Provinciales** se reúnen con **periodicidad mensual**, a convocatoria de su Presidente, que fija el orden del día.",
+      "ref": "art. 38 RD 769/1987",
+      "dificultad": 3
+    },
+    {
+      "id": "q_21_40",
+      "enunciado": "Los funcionarios de las Unidades Orgánicas de Policía Judicial deben guardar rigurosa reserva sobre las investigaciones encomendadas. Según el art. 15 del RD 769/1987, esa obligación:",
+      "opciones": [
+        "Impide cualquier intercambio de información, incluso dentro de la propia Unidad, salvo autorización expresa del Juez.",
+        "Solo rige mientras la causa esté declarada secreta.",
+        "No impide, salvo prohibición expresa del Juez o Fiscal competentes, el intercambio interno de información dentro de la Unidad Orgánica."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 15 impone una **rigurosa reserva** sobre la evolución y resultado de las investigaciones, cuya infracción se corrige disciplinariamente, pero precisa que **no impide**, **salvo prohibición expresa del Juez o Fiscal**, el **intercambio interno de información dentro de la Unidad Orgánica** para la mejor coordinación. No exige autorización previa ni depende del secreto de las actuaciones.",
+      "ref": "art. 15 RD 769/1987",
+      "dificultad": 3
+    },
+    {
+      "id": "q_21_41",
+      "enunciado": "Un funcionario policial ha iniciado una investigación por un hecho delictivo y comparece para hacerse cargo de ella el Juez encargado de las actuaciones. Según el RD 769/1987, el funcionario:",
+      "opciones": [
+        "Debe cesar en la investigación y entregar las diligencias practicadas, los efectos intervenidos y las personas detenidas.",
+        "Puede continuar hasta concluir el atestado, informando después al Juez.",
+        "Debe consultar a su superior policial antes de entregar la investigación."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5 del RD 769/1987 dispone que, cualquiera que sea el funcionario que haya iniciado la investigación, **habrá de cesar en ella** al comparecer para hacerse cargo la Autoridad Judicial o el Fiscal encargado, directamente o a través de la Unidad Orgánica de Policía Judicial, a quienes **entregará las diligencias, los efectos intervenidos y las personas detenidas**.",
+      "ref": "art. 5 RD 769/1987",
+      "dificultad": 2
+    },
+    {
+      "id": "q_21_42",
+      "enunciado": "Según el Estatuto Orgánico del Ministerio Fiscal, ¿cuál de las siguientes NO es causa de cese del Fiscal General del Estado antes de concluir su mandato?",
+      "opciones": [
+        "El cese del Gobierno que lo hubiera propuesto.",
+        "La pérdida de confianza del Ministro de Justicia, apreciada por este.",
+        "El incumplimiento grave o reiterado de sus funciones."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 31.1 del Estatuto establece que, antes de concluir su mandato de cuatro años, el Fiscal General **únicamente** puede cesar a petición propia, por incompatibilidad o prohibición, por incapacidad o enfermedad, por **incumplimiento grave o reiterado** de sus funciones o **cuando cese el Gobierno que lo hubiera propuesto**. La pérdida de confianza del Ministro no figura; las causas de las letras a a d las aprecia el **Consejo de Ministros** (art. 31.3).",
+      "ref": "art. 31 Ley 50/1981",
+      "dificultad": 2
+    },
+    {
+      "id": "q_21_43",
+      "enunciado": "¿Cuál de los siguientes NO es un órgano del Ministerio Fiscal según el art. 12 de su Estatuto Orgánico?",
+      "opciones": [
+        "El Consejo Fiscal.",
+        "La Fiscalía de la Audiencia Nacional.",
+        "El Consejo General del Poder Judicial."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 12 del Estatuto enumera, entre otros, al Fiscal General del Estado, el **Consejo Fiscal**, la Junta de Fiscales de Sala, la Fiscalía del Tribunal Supremo, la Fiscalía ante el Tribunal Constitucional, la **Fiscalía de la Audiencia Nacional**, las Fiscalías Especiales, las Provinciales y las de Área. El **Consejo General del Poder Judicial** es el órgano de gobierno del Poder Judicial, no del Ministerio Fiscal.",
+      "ref": "art. 12 Ley 50/1981",
+      "dificultad": 1
     }
   ],
   "dudas": [

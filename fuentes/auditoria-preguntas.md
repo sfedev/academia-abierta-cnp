@@ -4,11 +4,11 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 no
 
 | Estado | Preguntas | % |
 |---|---|---|
-| Verificada (cifras en el artículo) | 201 | 20.4 % |
-| Revisada a mano | 777 | 78.9 % |
+| Verificada (cifras en el artículo) | 227 | 20.3 % |
+| Revisada a mano | 883 | 79.1 % |
 | Artículo vigente, sin cifras que comprobar | 0 | 0.0 % |
 | Pendiente de revisar | 0 | 0.0 % |
-| Fuente no comprobable automáticamente | 7 | 0.7 % |
+| Fuente no comprobable automáticamente | 7 | 0.6 % |
 
 ## Preguntas pendientes de revisar
 
@@ -28,8 +28,11 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 no
 - q_02_16 (tema 2): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_02_20 (tema 2): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_02_27 (tema 2): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_02_35 (tema 2): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_02_39 (tema 2): Una respuesta incorrecta usa una cifra que también está en el artículo: 15 dia.
 - q_03_09 (tema 3): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_03_14 (tema 3): Una respuesta incorrecta usa una cifra que también está en el artículo: 20 dia, 3 mes.
+- q_03_36 (tema 3): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 persona, 5 persona.
 - q_04_05 (tema 4): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_04_11 (tema 4): Cifras no localizadas; la ref no dice con certeza de qué norma es el artículo: 6, 720, 96.
 - q_04_16 (tema 4): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
@@ -47,18 +50,23 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 no
 - q_08_19 (tema 8): Una respuesta incorrecta usa una cifra que también está en el artículo: 6 mes.
 - q_08_20 (tema 8): Una respuesta incorrecta usa una cifra que también está en el artículo: 6 mes.
 - q_08_25 (tema 8): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_08_48 (tema 8): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_08_53 (tema 8): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 dia, 4 dia, 6 ano.
 - q_09_04 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_09_09 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_09_14 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_09_16 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_09_21 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_09_30 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_09_31 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_09_37 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_10_01 (tema 10): Una respuesta incorrecta usa una cifra que también está en el artículo: 6 mes.
 - q_10_05 (tema 10): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas. Cifras de las opciones verdaderas no localizadas en el artículo citado: 19 ano.
 - q_10_09 (tema 10): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_10_14 (tema 10): Una respuesta incorrecta usa una cifra que también está en el artículo: 5 ano.
 - q_10_15 (tema 10): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 ano.
 - q_10_18 (tema 10): Una respuesta incorrecta usa una cifra que también está en el artículo: 18 mes.
+- q_10_31 (tema 10): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_11_01 (tema 11): Una respuesta incorrecta usa una cifra que también está en el artículo: 10000 euro.
 - q_11_02 (tema 11): Una respuesta incorrecta usa una cifra que también está en el artículo: 100000 euro.
 - q_11_03 (tema 11): Una respuesta incorrecta usa una cifra que también está en el artículo: 2 ano, 5 ano.
@@ -89,6 +97,7 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 no
 - q_14_15 (tema 14): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 ano, 3 ano.
 - q_14_20 (tema 14): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 miembro.
 - q_14_21 (tema 14): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 miembro.
+- q_14_34 (tema 14): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_15_07 (tema 15): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_16_08 (tema 16): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_16_10 (tema 16): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
@@ -97,6 +106,9 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 no
 - q_16_17 (tema 16): Una respuesta incorrecta usa una cifra que también está en el artículo: 10 ano, 20 ano.
 - q_16_27 (tema 16): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 mes.
 - q_16_29 (tema 16): Una respuesta incorrecta usa una cifra que también está en el artículo: 15 ano, 25 ano.
+- q_16_38 (tema 16): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_16_40 (tema 16): Una respuesta incorrecta usa una cifra que también está en el artículo: 5 ano, 5000 euro.
+- q_16_42 (tema 16): Una respuesta incorrecta usa una cifra que también está en el artículo: 5 ano.
 - q_17_01 (tema 17): Una respuesta incorrecta usa una cifra que también está en el artículo: 25 ano.
 - q_17_02 (tema 17): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_17_04 (tema 17): Una respuesta incorrecta usa una cifra que también está en el artículo: 15 ano, 25 ano.
@@ -124,6 +136,12 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 no
 - q_18_26 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 mes, 6 mes.
 - q_18_28 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 48 hora.
 - q_18_29 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 12 mes, 250000 euro, 6 ano.
+- q_18_31 (tema 18): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_18_32 (tema 18): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_18_35 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano, 6 ano.
+- q_18_36 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 6 ano.
+- q_18_38 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 6 mes.
+- q_18_40 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 12 mes, 6 ano.
 - q_19_01 (tema 19): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano, 3 mes.
 - q_19_02 (tema 19): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 ano, 3 ano, 6 mes.
 - q_19_04 (tema 19): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
@@ -150,6 +168,8 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 no
 - q_21_24 (tema 21): Respuesta calculada (fechas u horas): el auditor solo comprueba el artículo.
 - q_21_26 (tema 21): Una respuesta incorrecta usa una cifra que también está en el artículo: 72 hora.
 - q_21_30 (tema 21): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 vez.
+- q_21_42 (tema 21): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_21_43 (tema 21): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_22_03 (tema 22): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_22_12 (tema 22): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_23_08 (tema 23): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.

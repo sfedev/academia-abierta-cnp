@@ -910,6 +910,110 @@
       "explicacion": "Art. 33.2 LOTC: el Presidente del Gobierno y los órganos colegiados ejecutivos de las Comunidades Autónomas disponen de nueve meses si se reúne la Comisión Bilateral de Cooperación entre la Administración General del Estado y la Comunidad Autónoma, en su seno se acuerda iniciar negociaciones para resolver las discrepancias y el acuerdo se pone en conocimiento del Tribunal Constitucional dentro de los tres meses siguientes a la publicación, insertándose en el BOE y en el diario oficial autonómico. No intervienen el Consejo de Estado ni el Senado, y los demás legitimados conservan su facultad de recurrir (art. 33.3).",
       "ref": "art. 33.2 LOTC",
       "dificultad": 3
+    },
+    {
+      "id": "q_03_31",
+      "enunciado": "Según el artículo 68 de la Constitución, el Congreso de los Diputados se compone de:",
+      "opciones": [
+        "Un mínimo de 300 y un máximo de 400 Diputados.",
+        "Un mínimo de 350 y un máximo de 400 Diputados.",
+        "Exactamente 350 Diputados."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 68.1 CE fija una horquilla de **un mínimo de 300 y un máximo de 400 Diputados**, elegidos por sufragio universal, libre, igual, directo y secreto. La cifra concreta la fija la ley electoral dentro de esa horquilla; la Constitución no establece un número exacto.",
+      "ref": "art. 68.1 CE",
+      "dificultad": 1
+    },
+    {
+      "id": "q_03_32",
+      "enunciado": "Según el artículo 87.3 de la Constitución, la iniciativa legislativa popular:",
+      "opciones": [
+        "Exige al menos 300.000 firmas acreditadas y no cabe en materia tributaria.",
+        "Exige no menos de 500.000 firmas acreditadas y no procede en materias propias de ley orgánica, tributarias o de carácter internacional, ni en lo relativo a la prerrogativa de gracia.",
+        "Exige no menos de 500.000 firmas acreditadas y procede en cualquier materia, salvo la reforma constitucional."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 87.3 CE exige en todo caso **no menos de 500.000 firmas acreditadas** y excluye la iniciativa popular en **materias propias de ley orgánica, tributarias o de carácter internacional** y en lo relativo a la **prerrogativa de gracia**. Una ley orgánica regula sus formas de ejercicio y requisitos.",
+      "ref": "art. 87.3 CE",
+      "dificultad": 2
+    },
+    {
+      "id": "q_03_33",
+      "enunciado": "Según el artículo 73 de la Constitución, los dos periodos ordinarios de sesiones de las Cámaras son:",
+      "opciones": [
+        "De enero a junio y de septiembre a diciembre.",
+        "De septiembre a diciembre y de febrero a julio.",
+        "De septiembre a diciembre y de febrero a junio."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 73.1 CE establece dos periodos ordinarios: **de septiembre a diciembre** y **de febrero a junio**. Fuera de ellos, las Cámaras pueden reunirse en sesiones extraordinarias a petición del Gobierno, de la Diputación Permanente o de la mayoría absoluta de los miembros de cualquiera de las Cámaras, sobre un orden del día determinado (art. 73.2).",
+      "ref": "art. 73 CE",
+      "dificultad": 1
+    },
+    {
+      "id": "q_03_34",
+      "enunciado": "Según el artículo 71 de la Constitución, durante su mandato los Diputados y Senadores:",
+      "opciones": [
+        "Solo pueden ser detenidos en caso de flagrante delito, no pueden ser inculpados ni procesados sin la previa autorización de la Cámara respectiva, y en las causas contra ellos es competente la Sala de lo Penal del Tribunal Supremo.",
+        "No pueden ser detenidos en ningún caso, ni siquiera en flagrante delito.",
+        "Pueden ser procesados sin autorización de la Cámara si el delito es grave, siendo competente el Tribunal Superior de Justicia de su circunscripción."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 71 CE reconoce a Diputados y Senadores **inviolabilidad** por las opiniones manifestadas en el ejercicio de sus funciones e **inmunidad**: **solo pueden ser detenidos en flagrante delito** y no pueden ser **inculpados ni procesados sin la previa autorización de la Cámara** (art. 71.2). En las causas contra ellos es competente la **Sala de lo Penal del Tribunal Supremo** (art. 71.3).",
+      "ref": "art. 71 CE",
+      "dificultad": 2
+    },
+    {
+      "id": "q_03_35",
+      "enunciado": "Según el artículo 91 de la Constitución, ¿en qué plazo sanciona el Rey las leyes aprobadas por las Cortes Generales?",
+      "opciones": [
+        "En el plazo de treinta días.",
+        "En el plazo de quince días.",
+        "En el plazo de diez días."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 91 CE dispone que el Rey **sancionará en el plazo de quince días** las leyes aprobadas por las Cortes Generales, y las **promulgará y ordenará su inmediata publicación**.",
+      "ref": "art. 91 CE",
+      "dificultad": 2
+    },
+    {
+      "id": "q_03_36",
+      "enunciado": "Si el Rey fuera menor de edad, según el artículo 59.1 de la Constitución ejercerá inmediatamente la Regencia:",
+      "opciones": [
+        "Una Regencia de tres o cinco personas nombrada por las Cortes Generales.",
+        "El Presidente del Gobierno, hasta que el Rey alcance la mayoría de edad.",
+        "El padre o la madre del Rey y, en su defecto, el pariente mayor de edad más próximo a suceder en la Corona, según el orden constitucional."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 59.1 CE atribuye la Regencia durante la minoría de edad del Rey al **padre o la madre del Rey** y, **en su defecto**, al **pariente mayor de edad más próximo a suceder** en la Corona. Solo si no hubiera ninguna persona a quien corresponda, la nombran las **Cortes Generales**, y se compone de **una, tres o cinco personas** (art. 59.3). Para ejercerla hay que ser español y mayor de edad (art. 59.4).",
+      "ref": "art. 59 CE",
+      "dificultad": 3
+    },
+    {
+      "id": "q_03_37",
+      "enunciado": "Según el artículo 76 de la Constitución, las conclusiones de las Comisiones de investigación de las Cámaras:",
+      "opciones": [
+        "No son vinculantes para los Tribunales ni afectan a las resoluciones judiciales, sin perjuicio de que el resultado se comunique al Ministerio Fiscal.",
+        "Vinculan a los Tribunales en cuanto a los hechos declarados probados.",
+        "Solo pueden referirse a la actuación del Gobierno y la comparecencia ante ellas es voluntaria."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 76.1 CE permite nombrar Comisiones de investigación **sobre cualquier asunto de interés público** y precisa que sus conclusiones **no son vinculantes para los Tribunales** ni afectan a las resoluciones judiciales, sin perjuicio de comunicar el resultado al **Ministerio Fiscal**. Además, **es obligatorio comparecer** a requerimiento de las Cámaras (art. 76.2).",
+      "ref": "art. 76 CE",
+      "dificultad": 2
+    },
+    {
+      "id": "q_03_38",
+      "enunciado": "Según el artículo 127.1 de la Constitución, los Jueces, Magistrados y Fiscales, mientras se hallen en activo:",
+      "opciones": [
+        "Pueden afiliarse a sindicatos, pero no a partidos políticos.",
+        "No pueden desempeñar otros cargos públicos ni pertenecer a partidos políticos o sindicatos, y la ley establecerá su sistema de asociación profesional.",
+        "Pueden pertenecer a partidos políticos siempre que no ocupen cargos directivos."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 127.1 CE prohíbe a Jueces, Magistrados y Fiscales en activo **desempeñar otros cargos públicos** y **pertenecer a partidos políticos o sindicatos**, y remite a la ley el **sistema y modalidades de asociación profesional**. La prohibición alcanza por igual a partidos y sindicatos.",
+      "ref": "art. 127.1 CE",
+      "dificultad": 3
     }
   ],
   "dudas": []

@@ -70,7 +70,7 @@ Los errores impiden publicar (el workflow no despliega la web); los avisos no bl
 | Ninguna norma, o norma sin `nombre` o con `url` que no es `https://`. | Explicación que cita una letra («opción B», «a)»). |
 | `resumen` con menos de 3 secciones o una sección con menos de 2 puntos; tabla con filas que no cuadran con la cabecera. | Posición de la correcta por debajo del 20 % de las preguntas. |
 | `clave` fuera de 6-14; `trampas` fuera de 4-10; `tarjetas` fuera de 10-24. | |
-| `preguntas` fuera de 15-24 (hasta 30 si hay secciones `ampliado`). | |
+| `preguntas` por debajo de 15 o por encima del tope del tema: 24 (30 si hay secciones `ampliado`) más 5 por cada pregunta de media en el examen. | |
 | Pregunta sin exactamente 3 opciones, con opciones repetidas o con «todas/ninguna de las anteriores» o «todas son correctas / ninguna es correcta». | |
 | `correcta` distinta de 0, 1 o 2 (los booleanos no valen); `dificultad` distinta de 1, 2 o 3; `ref` vacía. | |
 | Enunciado repetido en la ficha. | |

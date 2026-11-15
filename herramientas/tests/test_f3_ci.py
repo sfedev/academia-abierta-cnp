@@ -70,6 +70,9 @@ class ElComandoDelWorkflowBloquea(ConTemporal):
         raiz = self.ruta("repo")
         os.makedirs(os.path.join(raiz, "herramientas"), exist_ok=True)
         shutil.copy(os.path.join(HERRAMIENTAS, "validar_tema.py"), os.path.join(raiz, "herramientas", "validar_tema.py"))
+        # el tope de preguntas de cada ficha depende de su peso en el examen (fuentes/pesos-por-tema.json)
+        os.makedirs(os.path.join(raiz, "fuentes"), exist_ok=True)
+        shutil.copy(os.path.join(RAIZ, "fuentes", "pesos-por-tema.json"), os.path.join(raiz, "fuentes", "pesos-por-tema.json"))
         for p in fichas_reales():
             escribir(os.path.join(raiz, "datos", "temas", os.path.basename(p)), leer(p))
         return raiz
