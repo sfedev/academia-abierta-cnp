@@ -81,9 +81,12 @@
         ["**1.ª Conocimientos**", "Test de **100 preguntas** con 3 opciones, **50 minutos**, sobre el temario (Anexo I). Se hace en acto único con los test psicotécnicos.", "Mínimo **3 puntos** y estar entre los mejores hasta **1,75 aspirantes por plaza** libre."],
         ["**2.ª Aptitud física**", "Circuito de agilidad, dominadas (hombres) o suspensión en barra (mujeres) y 1.000 metros.", "Media de los tres ejercicios de **5 puntos** como mínimo; un **0** en cualquiera elimina."],
         ["**3.ª** Reconocimiento médico", "Comprobación de que no hay causas de exclusión del cuadro médico (RD 326/2021) y analíticas.", "Apto / no apto."],
-        ["**3.ª** Entrevista personal", "Entrevista profesional y personal; seis criterios (socialización, comunicación, orientación a metas, personalidad, observaciones clínicas, competencias profesionales).", "Apto con los seis puntos iniciales mantenidos; con menos de seis, no apto."],
+        ["**3.ª** Entrevista personal", "Entrevista profesional y personal; seis criterios (socialización, comunicación, orientación a metas, personalidad, observaciones clínicas, competencias profesionales). Guía completa en la pestaña Entrevista.", "Apto con los seis puntos iniciales mantenidos; con menos de seis, no apto."],
         ["**3.ª** Test psicotécnicos", "Uno o varios test de aptitudes, máximo 60 minutos en total.", "Apto / no apto según el mínimo que fije el tribunal."],
       ]));
+    root.lastChild.appendChild(h("div", { class: "row", style: "margin-top:12px" },
+      AA.ui.enlace("fisicas", "btn btn--sm", "Calculadora y registro de marcas físicas"),
+      AA.ui.enlace("entrevista", "btn btn--sm", "Guía de la entrevista")));
 
     sec("La nota del test de conocimientos", h("div", { class: "card stack" },
       h("p", {}, "Fórmula oficial: ", h("span", { class: "mono" }, "[A − E/(n−1)] × 10 / P"), ", con A aciertos, E errores, n = 3 alternativas y P = 100 preguntas. Cada error resta **0,5** aciertos."),
@@ -120,27 +123,28 @@
   };
 
   /* ================= Pruebas físicas ================= */
-  var calc = { sexo: "H", agil: "", fuerza: "", min: "", seg: "" };
+  var calc = { sexo: null, agil: "", fuerza: "", min: "", seg: "" };
+  var reg = { dia: "", ej: "agilidad", v: "", min: "", seg: "" }; // formulario del registro de marcas
+  var FA = AA.fisicas;
 
-  function pts(tabla, valor, menorEsMejor) {
-    for (var i = 0; i < tabla.length; i++) {
-      if (menorEsMejor ? valor <= tabla[i][0] : valor >= tabla[i][0]) return tabla[i][1];
-    }
-    return 0;
+  function elegirBaremo(b) {
+    calc.sexo = b;
+    store.ajuste("baremo", b);
   }
 
   V.fisicas = function () {
     var FIS = window.AA_FISICAS;
+    if (!calc.sexo) calc.sexo = store.ajuste("baremo") === "M" ? "M" : "H";
     var root = h("div", { style: "max-width:860px" });
     root.appendChild(h("div", { class: "eyebrow" }, "Segunda prueba · Anexo II de la convocatoria"));
     root.appendChild(h("h1", { class: "page-title" }, "Pruebas físicas"));
-    root.appendChild(h("p", { class: "lead" }, "Tres ejercicios puntuados de 0 a 10. Se aprueba con una media de 5 y sin ningún 0. Calcula tu nota con los baremos oficiales."));
+    root.appendChild(h("p", { class: "lead" }, "Tres ejercicios puntuados de 0 a 10. Se aprueba con una media de 5 y sin ningún 0, y la nota se suma a la del test de conocimientos. Calcula tu nota con los baremos oficiales y anota tus marcas para ver cómo evolucionas."));
 
     var sal = h("div", { class: "section" });
     var form = h("div", { class: "card setup" });
-    var seg = h("div", { class: "seg", role: "group", "aria-label": "Sexo" },
-      h("button", { type: "button", "aria-pressed": calc.sexo === "H" ? "true" : "false", onclick: function () { calc.sexo = "H"; pintarTodo(); } }, "Hombres"),
-      h("button", { type: "button", "aria-pressed": calc.sexo === "M" ? "true" : "false", onclick: function () { calc.sexo = "M"; pintarTodo(); } }, "Mujeres")
+    var seg = h("div", { class: "seg", role: "group", "aria-label": "Baremo" },
+      h("button", { type: "button", "aria-pressed": calc.sexo === "H" ? "true" : "false", onclick: function () { elegirBaremo("H"); pintarTodo(); } }, "Hombres"),
+      h("button", { type: "button", "aria-pressed": calc.sexo === "M" ? "true" : "false", onclick: function () { elegirBaremo("M"); pintarTodo(); } }, "Mujeres")
     );
     form.appendChild(h("div", { class: "row", style: "margin-bottom:14px" }, h("strong", {}, "Baremo:"), seg));
     var fuerzaNombre = calc.sexo === "H" ? FIS.fuerza.H : FIS.fuerza.M;
@@ -162,15 +166,17 @@
       var mi = parseFloat(calc.min);
       var se = parseFloat(calc.seg);
       var tiene = { a: !isNaN(ag), f: !isNaN(fu), r: !isNaN(mi) || !isNaN(se) };
-      var elimina = calc.sexo === "H" ? FIS.agilidad.eliminaH : FIS.agilidad.eliminaM;
-      var pa = tiene.a ? (ag >= elimina ? 0 : pts(FIS.agilidad[calc.sexo], ag, true)) : null;
-      var pf = tiene.f ? pts(FIS.fuerza[calc.sexo].tabla, fu, false) : null;
+      var b = calc.sexo;
+      var elimina = b === "H" ? FIS.agilidad.eliminaH : FIS.agilidad.eliminaM;
+      var pa = tiene.a ? (ag >= elimina ? 0 : FA.puntos("agilidad", b, ag)) : null;
+      var pf = tiene.f ? FA.puntos("fuerza", b, fu) : null;
       var segs = tiene.r ? (isNaN(mi) ? 0 : mi) * 60 + (isNaN(se) ? 0 : se) : null;
-      var pr = tiene.r ? pts(FIS.resistencia[calc.sexo], segs, true) : null;
-      var celdas = [["Agilidad", pa], ["Fuerza", pf], ["1.000 m", pr]];
+      var pr = tiene.r ? FA.puntos("resistencia", b, segs) : null;
+      var celdas = [["Agilidad", pa, "agilidad", ag], ["Fuerza", pf, "fuerza", fu], ["1.000 m", pr, "resistencia", segs]];
       var grid = h("div", { class: "grid" });
       celdas.forEach(function (c) {
-        grid.appendChild(h("div", { class: "card" }, h("div", { class: "eyebrow" }, c[0]), h("div", { class: "pts" + (c[1] === 0 ? " ko" : "") , style: c[1] === 0 ? "color:var(--ko)" : "" }, c[1] == null ? "–" : c[1]), h("div", { class: "muted", style: "font-size:.85rem" }, "puntos")));
+        grid.appendChild(h("div", { class: "card" }, h("div", { class: "eyebrow" }, c[0]), h("div", { class: "pts" + (c[1] === 0 ? " ko" : "") , style: c[1] === 0 ? "color:var(--ko)" : "" }, c[1] == null ? "–" : c[1]), h("div", { class: "muted", style: "font-size:.85rem" }, "puntos"),
+          c[1] == null ? null : h("p", { class: "marca-sig" }, FA.textoSiguiente(c[2], b, FA.siguiente(c[2], b, c[3])))));
       });
       sal.appendChild(grid);
       if (pa != null && pf != null && pr != null) {
@@ -194,6 +200,8 @@
       var host = document.getElementById("vista");
       if (host) { host.textContent = ""; host.appendChild(V.fisicas()); }
     }
+
+    root.appendChild(seccionRegistro(calc.sexo));
 
     var reglas = h("section", { class: "section" }, h("h2", { class: "sec-title" }, "Cómo se hace cada ejercicio"),
       h("div", { class: "stack" },
@@ -229,6 +237,239 @@
     root.appendChild(h("p", { class: "muted", style: "margin-top:18px;font-size:.85rem" }, "Baremos del ", ext(CONV, "Anexo II de la convocatoria de 2026"), ". La calificación de la prueba es la media aritmética de los tres ejercicios."));
     return root;
   };
+
+  /* ---------- Registro de marcas (lógica en web/js/marcas.js, estado en AA.store) ---------- */
+  var histAbierto = {}; // historiales desplegados: siguen abiertos al anotar o borrar una marca
+  var MAX_GRAFICO = 20; // marcas más recientes en el gráfico de evolución; el historial las lista todas
+
+  function numero(txt) {
+    var t = String(txt == null ? "" : txt).trim().replace(",", ".");
+    return t === "" ? NaN : Number(t);
+  }
+
+  /* Gráfico de evolución de un ejercicio: una serie, la mejor marca arriba (en los tiempos el eje va invertido) y una
+     línea discontinua en la marca del siguiente punto. Puntos HTML encima de un SVG que se estira: los círculos y el
+     texto no se deforman en ningún ancho. */
+  function grafico(ej, b, lista, sig) {
+    var datos = lista.slice(-MAX_GRAFICO);
+    var vals = datos.map(function (m) { return m.v; });
+    if (sig && !sig.max) vals.push(sig.objetivo);
+    var min = Math.min.apply(null, vals), max = Math.max.apply(null, vals);
+    if (max === min) { min -= 1; max += 1; }
+    var mejorArriba = FA.menorEsMejor(ej);
+    function y(v) { return (mejorArriba ? (v - min) / (max - min) : (max - v) / (max - min)) * 100; }
+    function x(i) { return datos.length === 1 ? 50 : (i / (datos.length - 1)) * 100; }
+    var pts = datos.map(function (m, i) { return x(i).toFixed(2) + "," + y(m.v).toFixed(2); }).join(" ");
+    var area = h("div", { class: "evo-area" },
+      // innerHTML crea el SVG en su espacio de nombres (AA.h haría un elemento HTML); los puntos son números
+      h("div", { class: "evo-svg", "aria-hidden": "true", html: '<svg viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false">' +
+        '<polyline points="' + pts + '" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>' }));
+    if (sig && !sig.max) {
+      area.appendChild(h("div", { class: "evo-obj", style: "top:" + y(sig.objetivo).toFixed(2) + "%" },
+        h("span", {}, AA.plural(sig.puntosObjetivo, "punto", "puntos") + ": " + FA.formato(ej, b, sig.objetivo))));
+    }
+    datos.forEach(function (m, i) {
+      area.appendChild(h("span", { class: "evo-pt" + (i === datos.length - 1 ? " ult" : ""), style: "left:" + x(i).toFixed(2) + "%;top:" + y(m.v).toFixed(2) + "%",
+        title: AA.fecha(m.dia) + ": " + FA.formato(ej, b, m.v) + " (" + AA.plural(m.puntos, "punto", "puntos") + ")" }));
+    });
+    var desc = "Evolución de " + FA.nombre(ej, b) + ": " + datos.map(function (m) { return AA.fecha(m.dia) + " " + FA.formato(ej, b, m.v); }).join("; ") + ".";
+    return h("figure", { class: "evo" },
+      h("div", { class: "evo-marco", role: "img", "aria-label": desc }, area),
+      h("figcaption", { class: "evo-ejes" },
+        h("span", {}, AA.fecha(datos[0].dia)),
+        h("span", {}, mejorArriba ? "Arriba, menos tiempo" : "Arriba, mejor marca"),
+        h("span", {}, AA.fecha(datos[datos.length - 1].dia))));
+  }
+
+  function tarjetaEjercicio(ej, b, marcas, repintar) {
+    var ev = FA.evolucion(marcas, ej, b);
+    var card = h("section", { class: "card ejer" }, h("h3", {}, FA.nombre(ej, b)));
+    if (!ev.ultima) {
+      card.appendChild(h("p", { class: "muted" }, "Sin marcas todavía."));
+      return card;
+    }
+    var u = ev.ultima;
+    var sig = FA.siguiente(ej, b, u.v);
+    card.appendChild(h("div", { class: "cajas ejer-cifras" },
+      h("div", {}, h("b", { style: u.puntos ? null : "color:var(--ko)" }, FA.formato(ej, b, u.v)), h("span", {}, "última (" + AA.fecha(u.dia) + "): " + AA.plural(u.puntos, "punto", "puntos"))),
+      h("div", {}, h("b", {}, FA.formato(ej, b, ev.mejor.v)), h("span", {}, "mejor marca: " + AA.plural(ev.mejor.puntos, "punto", "puntos")))));
+    card.appendChild(h("p", { class: "objetivo section-sm " + (sig.max ? "objetivo--ok" : u.puntos ? "" : "objetivo--no") }, FA.textoSiguiente(ej, b, sig)));
+    if (ev.cambio != null) {
+      var txt = ev.cambio > 0 ? "Has mejorado " + FA.formatoDif(ej, b, ev.cambio) : ev.cambio < 0 ? "Has empeorado " + FA.formatoDif(ej, b, ev.cambio) : "Sin cambios";
+      card.appendChild(h("p", { class: "muted section-sm", style: "font-size:.88rem" }, txt + " desde tu primera marca (" + AA.fecha(ev.primera.dia) + ", " + FA.formato(ej, b, ev.primera.v) + ")."));
+    }
+    if (ev.lista.length > 1) card.appendChild(grafico(ej, b, ev.lista, sig));
+    var filas = ev.lista.slice().reverse().map(function (m) {
+      return h("li", {},
+        h("span", { class: "num" }, AA.fecha(m.dia)),
+        h("strong", { class: "num" }, FA.formato(ej, b, m.v)),
+        h("span", { class: "muted" }, AA.plural(m.puntos, "punto", "puntos")),
+        h("button", { type: "button", class: "btn btn--sm btn--ghost", "aria-label": "Borrar la marca del " + AA.fecha(m.dia) + " (" + FA.formato(ej, b, m.v) + ")",
+          onclick: function () { store.borrarMarca(m.ts); AA.toast("Marca borrada"); repintar(); } }, "Borrar"));
+    });
+    var det = h("details", { class: "marcas-hist", open: histAbierto[ej] ? true : null }, h("summary", {}, "Historial (" + ev.lista.length + ")"), h("ul", { class: "marcas-lista" }, filas));
+    det.addEventListener("toggle", function () { histAbierto[ej] = det.open; });
+    card.appendChild(det);
+    return card;
+  }
+
+  function seccionRegistro(b) {
+    var sec = h("section", { class: "section", id: "registro" });
+    var hoy = AA.isoDia(Date.now());
+    if (!reg.dia || reg.dia > hoy) reg.dia = hoy;
+
+    function repintar() {
+      var nuevo = seccionRegistro(b);
+      sec.parentNode.replaceChild(nuevo, sec);
+    }
+
+    var error = h("p", { class: "marca-error", role: "alert" });
+    var campoMarca = h("div", { class: "marca-campo" });
+    function pintarCampo() {
+      campoMarca.textContent = "";
+      if (reg.ej === "resistencia") {
+        campoMarca.appendChild(h("span", { class: "marca-lab", id: "m-lab" }, "Tiempo"));
+        campoMarca.appendChild(h("div", { class: "row", style: "gap:8px;flex-wrap:nowrap" },
+          h("input", { class: "field", id: "m-min", type: "number", step: "1", min: "0", inputmode: "numeric", placeholder: "min", "aria-label": "Minutos", value: reg.min, oninput: function (e) { reg.min = e.target.value; } }),
+          h("input", { class: "field", id: "m-seg", type: "number", step: "1", min: "0", max: "59", inputmode: "numeric", placeholder: "seg", "aria-label": "Segundos", value: reg.seg, oninput: function (e) { reg.seg = e.target.value; } })));
+        campoMarca.appendChild(h("small", {}, "minutos y segundos"));
+      } else {
+        var agil = reg.ej === "agilidad";
+        var unidad = agil ? "segundos, con una décima" : b === "H" ? "dominadas válidas" : "segundos";
+        campoMarca.appendChild(h("label", { for: "m-v", class: "marca-lab" }, agil ? "Tiempo" : b === "H" ? "Repeticiones" : "Tiempo"));
+        campoMarca.appendChild(h("input", { class: "field", id: "m-v", type: "text", inputmode: agil ? "decimal" : "numeric", autocomplete: "off", placeholder: agil ? "p. ej. 9,8" : b === "H" ? "p. ej. 10" : "p. ej. 60", value: reg.v, oninput: function (e) { reg.v = e.target.value; } }));
+        campoMarca.appendChild(h("small", {}, unidad));
+      }
+    }
+    pintarCampo();
+    var selEj = h("select", { class: "field", id: "m-ej", onchange: function (e) { reg.ej = e.target.value; reg.v = ""; error.textContent = ""; pintarCampo(); } },
+      FA.EJERCICIOS.map(function (ej) { return h("option", { value: ej, selected: reg.ej === ej }, FA.nombre(ej, b)); }));
+    var inDia = h("input", { class: "field", id: "m-dia", type: "date", max: hoy, value: reg.dia, onchange: function (e) { reg.dia = e.target.value; } });
+
+    function anotar() {
+      var v;
+      if (reg.ej === "resistencia") {
+        var mi = numero(reg.min), se = numero(reg.seg);
+        v = isNaN(mi) && isNaN(se) ? NaN : (isNaN(mi) ? 0 : mi) * 60 + (isNaN(se) ? 0 : se);
+        if (se >= 60) { error.textContent = "Los segundos van de 0 a 59."; return; }
+      } else v = numero(reg.v);
+      try {
+        store.guardarMarca({ dia: reg.dia, ej: reg.ej, b: b, v: v });
+      } catch (e) {
+        error.textContent = e.message;
+        return;
+      }
+      var p = FA.puntos(reg.ej, b, v);
+      reg.v = ""; reg.min = ""; reg.seg = "";
+      AA.toast("Marca anotada: " + FA.formato(reg.ej, b, v) + " = " + AA.plural(p, "punto", "puntos"));
+      repintar();
+    }
+
+    sec.appendChild(h("h2", { class: "sec-title" }, "Tu registro de marcas"));
+    sec.appendChild(h("p", { class: "lead", style: "margin-top:0" }, "Anota las marcas de tus entrenamientos con el baremo " + (b === "H" ? "de hombres" : "de mujeres") + ": verás su evolución y lo que te falta para el siguiente punto de cada ejercicio."));
+    sec.appendChild(h("div", { class: "notice section-sm" }, h("strong", {}, "Solo el baremo, no un plan de entrenamiento. "),
+      "Las cifras salen del Anexo II de la convocatoria. Antes de empezar o cambiar tu preparación física, consulta a un profesional sanitario o de la actividad física; para la prueba necesitarás además un certificado médico."));
+    sec.appendChild(h("form", { class: "card setup section-sm", onsubmit: function (e) { e.preventDefault(); anotar(); } },
+      h("div", { class: "calc" },
+        h("label", { for: "m-dia" }, "Fecha", inDia),
+        h("label", { for: "m-ej" }, "Ejercicio", selEj),
+        campoMarca),
+      error,
+      h("div", { class: "row", style: "margin-top:12px" }, h("button", { type: "submit", class: "btn btn--primary" }, "Anotar marca"))));
+
+    var marcas = store.marcas();
+    var r = FA.resumen(marcas, b);
+    if (r.completa) {
+      sec.appendChild(h("div", { class: "objetivo section-sm " + (r.apto ? "objetivo--ok" : "objetivo--no") },
+        h("strong", {}, "Con tus últimas marcas: " + AA.fmt1(r.media) + " puntos de media. "),
+        r.cero ? "Un ejercicio en 0 te eliminaría." : r.apto ? "Superarías la prueba." : "Te falta llegar a una media de 5."));
+    }
+    var grid = h("div", { class: "stack section-sm" });
+    FA.EJERCICIOS.forEach(function (ej) { grid.appendChild(tarjetaEjercicio(ej, b, marcas, repintar)); });
+    sec.appendChild(grid);
+    var otro = marcas.filter(function (m) { return m.b !== b; }).length;
+    if (otro) sec.appendChild(h("p", { class: "muted section-sm", style: "font-size:.88rem" }, AA.plural(otro, "marca anotada", "marcas anotadas") + " con el baremo " + (b === "H" ? "de mujeres" : "de hombres") + ": cambia de baremo arriba para verlas."));
+    return sec;
+  }
+
+  /* ================= Entrevista personal ================= */
+  V.entrevista = function () {
+    var P = AA.meta.proceso;
+    var E = P && P.entrevista;
+    var root = h("div", { style: "max-width:860px" });
+    root.appendChild(h("div", { class: "eyebrow" }, "Tercera prueba · parte b · base " + (E ? E.base : "6.1.3.b")));
+    root.appendChild(h("h1", { class: "page-title" }, "Entrevista personal"));
+    if (!E) {
+      root.appendChild(h("div", { class: "notice section" }, "No hay datos de la entrevista en esta versión. Consulta la ", ext(CONV, "convocatoria"), "."));
+      return root;
+    }
+    root.appendChild(h("p", { class: "lead" }, "Qué dice la convocatoria (", ext(CONV, "BOE-A-2026-15055"), ") sobre la entrevista, cómo se califica, qué documentos hay que llevar y una lista para ordenar tu trayectoria."));
+    function sec(titulo, cuerpo, id) {
+      root.appendChild(h("section", { class: "section", id: id || null }, h("h2", { class: "sec-title" }, titulo), cuerpo));
+    }
+    sec("Qué es", h("div", { class: "card" }, ul([E.finalidad, E.quien])));
+    sec("Los seis criterios", h("div", { class: "card stack" },
+      h("ol", { class: "criterios" }, E.criterios.map(function (c) { return h("li", {}, c); })),
+      h("p", { class: "muted" }, E.criteriosNota)));
+    sec("Cómo se califica", h("div", { class: "card stack" }, ul(E.calificacion), h("p", { class: "muted", style: "font-size:.9rem" }, E.motivacion)));
+    sec("Antes de la entrevista", h("div", { class: "card" }, ul(E.antes)));
+    sec("El día de la entrevista", h("div", { class: "card" }, ul(E.desarrollo)));
+    sec("Documentación", h("div", { class: "card stack" },
+      h("p", {}, "El día en que te citen a la entrevista entregas al tribunal (base 7.1):"),
+      ul(E.documentos),
+      h("p", {}, E.documentosSinAutorizacionTexto),
+      ul(E.documentosSinAutorizacion),
+      h("p", { class: "muted", style: "font-size:.9rem" }, E.formalidades),
+      h("div", {}, AA.ui.enlace("proceso", "btn btn--sm", "Ver los certificados de idioma admitidos"))), "documentos");
+    if (E.trayectoria) root.appendChild(seccionTrayectoria(E.trayectoria));
+    sec("Fuentes", h("div", { class: "card" }, ul([
+      "Bases 6.1.3.b (entrevista), 6.6 a 6.10 (llamamiento, sedes, calendario e identificación) y 7 (acreditación documental) de la Resolución de 7 de julio de 2026 (BOE-A-2026-15055).",
+      "Artículo 17 de la Orden INT/632/2024, de 20 de junio (motivación del «no apto»).",
+    ])));
+    root.appendChild(h("div", { class: "notice section" }, h("strong", {}, "Material de estudio no oficial. "), "Comprueba siempre la convocatoria que te afecte: la próxima puede cambiar la entrevista."));
+    return root;
+  };
+
+  function seccionTrayectoria(T) {
+    var sec = h("section", { class: "section", id: "trayectoria" });
+    var estado = store.entrevista();
+    var cuenta = h("span", { class: "pill" });
+    function contar() {
+      var n = T.items.filter(function (it) { return estado[it.id] && estado[it.id].h; }).length;
+      cuenta.textContent = n + " de " + T.items.length + " preparados";
+    }
+    contar();
+    var lista = h("ul", { class: "tray-lista" }, T.items.map(function (it) {
+      var guardado = estado[it.id] || {};
+      var chk = h("input", { type: "checkbox", id: "tray-" + it.id, class: "tray-chk" });
+      chk.checked = !!guardado.h;
+      chk.addEventListener("change", function () {
+        store.prepararEntrevista(it.id, "hecho", chk.checked);
+        estado = store.entrevista();
+        contar();
+      });
+      var ta = h("textarea", { class: "field", id: "tray-n-" + it.id, rows: 3, maxlength: "2000" });
+      ta.value = guardado.n || "";
+      ta.addEventListener("change", function () {
+        store.prepararEntrevista(it.id, "nota", ta.value);
+        estado = store.entrevista();
+        AA.toast("Nota guardada");
+      });
+      return h("li", { class: "tray-item" },
+        chk,
+        h("div", { class: "tray-txt" },
+          h("label", { for: "tray-" + it.id }, h("strong", {}, it.titulo)),
+          h("p", {}, it.pista),
+          h("details", { class: "tray-notas", open: guardado.n ? true : null },
+            h("summary", {}, guardado.n ? "Tus notas" : "Añadir notas"),
+            h("label", { for: "tray-n-" + it.id, class: "sr" }, "Notas: " + it.titulo), ta)));
+    }));
+    sec.appendChild(h("div", { class: "row-between" }, h("h2", { class: "sec-title", style: "margin:0" }, "Prepara tu trayectoria"), cuenta));
+    sec.appendChild(h("p", { class: "muted section-sm" }, T.nota));
+    sec.appendChild(h("div", { class: "card section-sm" }, lista,
+      h("p", { class: "muted", style: "font-size:.85rem;margin-top:12px" }, "Las marcas y las notas se guardan solo en este navegador y van en la copia de seguridad de Progreso.")));
+    return sec;
+  }
 
   /* ================= Progreso ================= */
   /* ---------- Rachas y logros (web/js/motivacion.js) ---------- */

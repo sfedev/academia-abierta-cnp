@@ -141,6 +141,19 @@ cálculo y una práctica cronometrada con ejercicios generados al momento: serie
 27 letras, con la Ñ), porcentajes, regla de tres y cálculo mental. Son ejercicios originales del tipo habitual en
 estas pruebas, no un modelo oficial: las bases no publican el tipo de ejercicios.
 
+## Pruebas físicas y entrevista
+
+**Pruebas físicas** calcula la nota con los baremos del Anexo II (`web/data/fisicas.js`) y guarda un registro de
+marcas por fecha de los tres ejercicios: evolución de cada uno, mejor marca, nota con las últimas marcas y la marca
+que falta para el siguiente punto del baremo. La lógica está en `web/js/marcas.js` (sin DOM) y las marcas en el
+progreso (`fis` en `store.js`). No hay planes de entrenamiento: solo el baremo y un aviso de consultar a un
+profesional.
+
+**Entrevista** resume la base 6.1.3.b y la 7 de la convocatoria (seis criterios, seis puntos iniciales, apto solo
+con los seis, grabación, documentos que se entregan ese día, como el certificado de idioma) desde la sección
+`entrevista` de `datos/proceso.json`, y añade una lista para ordenar la propia trayectoria con notas que se guardan
+en el progreso (`entrev`).
+
 ## Publicar (y por qué existe `dist/`)
 
 Las fuentes de `web/` están en UTF-8. Algunos visores sirven los `.js` sin declarar el juego de

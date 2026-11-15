@@ -41,13 +41,14 @@ Orden de los scripts (cada uno depende de los anteriores):
 |---|---|
 | `data/datos.js`, `data/fisicas.js`, `data/novedades.js` | Globales de datos: `AA_META`, `AA_TEMAS`, `AA_FISICAS`, `AA_NOVEDADES`. |
 | `js/util.js` | `AA.h`, `AA.append`, `AA.html`, `AA.esc`, `AA.rich`, `AA.plain`, `AA.norm`, `AA.hash`, `AA.shuffle`, fechas, `AA.notaTest`, `AA.toast`, `AA.copy`. |
+| `js/marcas.js` | `AA.fisicas`: puntos con los baremos del Anexo II, marca que falta para el siguiente punto, validación de marcas, evolución y nota con las últimas marcas. Sin DOM; va antes de `store.js`, que lo usa para validar. |
 | `js/store.js` | `AA.meta`, `AA.temas`, `AA.listaTemas`, `AA.preguntas`, `AA.tarjetas`, índices `AA.preguntasPorTema`/`AA.tarjetasPorTema`, novedades, `AA.guia`, `AA.repaso`, `AA.CONSOLIDA` y `AA.store` (todo el progreso, también el registro diario, logros y récords). |
 | `js/motivacion.js` | `AA.motiv`: racha con días de descanso, mapa de constancia, dominio y niveles por tema, «temario bajo control», logros, desafío diario y rentabilidad de las dudas. Solo lee el estado con `AA.store`; sin DOM. |
 | `js/vistas.js` | `AA.vistas` (alias `V`): `panel`, `temario`, `tema`, `novedades`, `noEncontrado`. |
 | `js/test.js` | `AA.test` (tests, simulacros, velocidad, desafío diario, muerte súbita, análisis de dudas, cuaderno de errores) y `AA.tarjetasUI` (Leitner). |
 | `js/oficiales.js` | `AA.oficiales` y `V.oficiales`: exámenes oficiales importados y calibración. |
 | `js/psicotecnicos.js` | `AA.psico` y `V.psicotecnicos`: ejercicios generados al momento. |
-| `js/paginas.js` | `V.proceso`, `V.fisicas`, `V.progreso` (rachas y logros, mapa de constancia, copia de seguridad). |
+| `js/paginas.js` | `V.proceso`, `V.fisicas` (calculadora y registro de marcas), `V.entrevista` (guía y lista de preparación), `V.progreso` (rachas y logros, mapa de constancia, copia de seguridad). |
 | `js/app.js` | Arranque: cabecera, navegación, router por hash, buscador global, tema claro/oscuro, insignia de novedades. |
 
 Todos los ficheros de `js/` son IIFE con sintaxis ES5 que cuelgan de `window.AA`; no hay módulos ni bundler.
@@ -55,7 +56,7 @@ Todos los ficheros de `js/` son IIFE con sintaxis ES5 que cuelgan de `window.AA`
 ## 3. Router y vistas
 
 - Rutas por hash: `#panel`, `#temario`, `#tema-NN`, `#novedades`, `#test`, `#tarjetas`, `#oficiales`,
-  `#psicotecnicos`, `#fisicas`, `#proceso`, `#progreso`. Una ruta desconocida lleva al Panel.
+  `#psicotecnicos`, `#fisicas`, `#entrevista`, `#proceso`, `#progreso`. Una ruta desconocida lleva al Panel.
 - `route()` en `app.js` llama a la función de la vista, que **devuelve un nodo nuevo**, vacía el contenedor
   `#vista` y lo inserta. Cada cambio de ruta repinta la vista entera; no hay DOM virtual ni diff.
 - Un `try/catch` alrededor de la vista muestra un aviso si algo falla, en lugar de dejar la página en blanco.
@@ -111,7 +112,9 @@ Forma del progreso (`fresh()` en `store.js`):
   vel: [],         // entrenamiento de velocidad (máx. 30)
   dias: {},        // {AAAA-MM-DD: {p, a, t, g, l, s, r?, des?}} actividad diaria (400 días): racha, constancia, desafío
   logros: {},      // {id: marca de tiempo del desbloqueo}
-  rec: {} }        // récords y contadores: racha, subita, desafios, temasPerfectos, dudasA, dudasE
+  rec: {},         // récords y contadores: racha, subita, desafios, temasPerfectos, dudasA, dudasE
+  fis: [],         // marcas físicas [{ts, dia: AAAA-MM-DD, ej: agilidad|fuerza|resistencia, b: H|M, v}] (máx. 400)
+  entrev: {} }     // preparación de la entrevista {id: {h: marcado, n: notas}}; ids de proceso.json
 ```
 
 - Registro diario: `responder`, `calificarTarjeta`, `pasoGuia`, `marcarLeido` y `guardarPsico` suman al día de hoy

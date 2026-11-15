@@ -56,7 +56,17 @@
   var IDS_V = 2; // 1 = progreso guardado con «tema.hash(texto)»; 2 = con el id fijo de la ficha
   function fresh() {
     return { v: 1, ids: IDS_V, leidos: {}, preg: {}, tarj: {}, sims: [], ult: null, tema: 0, nov: [], aj: {}, psico: [], guia: {}, vel: [],
-             dias: {}, logros: {}, rec: {} };
+             dias: {}, logros: {}, rec: {}, fis: [], entrev: {} };
+  }
+  /* Campos añadidos después de la v1: una copia antigua o manipulada no los trae o los trae con otra forma. */
+  function sanear(o) {
+    if (!Array.isArray(o.fis)) o.fis = [];
+    o.fis = o.fis.filter(function (m) {
+      return m && typeof m.v === "number" && typeof m.ts === "number" && /^\d{4}-\d{2}-\d{2}$/.test(m.dia || "") &&
+        (!AA.fisicas || !AA.fisicas.validar(m.ej, m.b, m.v));
+    });
+    if (!o.entrev || typeof o.entrev !== "object" || Array.isArray(o.entrev)) o.entrev = {};
+    return o;
   }
 
   /* ---------- Registro diario (racha, mapa de constancia y desafío diario) ----------
@@ -126,6 +136,8 @@
     });
     o.ids = IDS_V;
   }
+  var MARCAS_MAX = 400;
+  var NOTA_MAX = 2000; // caracteres de cada nota de la entrevista
   var sembrar = false; // copia guardada antes del registro diario: se reconstruye al cargar
   var S = load();
   function load() {
@@ -134,7 +146,7 @@
       if (raw) {
         var o = JSON.parse(raw);
         if (o && o.v === 1) {
-          var s = Object.assign(fresh(), o);
+          var s = sanear(Object.assign(fresh(), o));
           if (o.ids !== IDS_V) s.ids = 1;
           sembrar = !o.dias;
           return s;
@@ -635,13 +647,61 @@
       save();
     },
 
+    /* ---------- Pruebas físicas: registro de marcas (lógica en web/js/marcas.js) ----------
+       fis = [{ts: id (momento en que se anotó), dia: AAAA-MM-DD de la marca, ej: "agilidad" | "fuerza" |
+       "resistencia", b: baremo "H" | "M", v: segundos (agilidad, con décimas; 1.000 m, enteros), dominadas o segundos
+       de suspensión}]. Se guardan las 400 más recientes. */
+    marcas: function () { return (S.fis || []).slice(); },
+    /* Anota una marca y la devuelve; lanza un Error con el motivo si no es válida. */
+    guardarMarca: function (m) {
+      m = m || {};
+      var err = AA.fisicas.validar(m.ej, m.b, m.v);
+      if (!err && !/^\d{4}-\d{2}-\d{2}$/.test(m.dia || "")) err = "Elige la fecha de la marca.";
+      if (!err && m.dia > AA.isoDia(Date.now())) err = "La fecha no puede ser posterior a hoy.";
+      if (err) throw new Error(err);
+      var lista = S.fis || [];
+      var ts = Date.now();
+      while (lista.some(function (x) { return x.ts === ts; })) ts++;
+      var nueva = { ts: ts, dia: m.dia, ej: m.ej, b: m.b, v: m.v };
+      lista.push(nueva);
+      lista.sort(function (x, y) { return x.dia < y.dia ? -1 : x.dia > y.dia ? 1 : x.ts - y.ts; });
+      S.fis = lista.slice(-MARCAS_MAX);
+      save();
+      return nueva;
+    },
+    borrarMarca: function (ts) {
+      var antes = (S.fis || []).length;
+      S.fis = (S.fis || []).filter(function (x) { return x.ts !== ts; });
+      if (S.fis.length === antes) return false;
+      save();
+      return true;
+    },
+    /* Preparación de la entrevista: {id: {h: momento en que se marcó como preparado, n: notas}}. */
+    entrevista: function () { return S.entrev || {}; },
+    prepararEntrevista: function (id, campo, valor) {
+      S.entrev = S.entrev || {};
+      var e = S.entrev[id] || {};
+      if (campo === "hecho") {
+        if (valor) e.h = e.h || Date.now();
+        else delete e.h;
+      } else if (campo === "nota") {
+        var t = String(valor == null ? "" : valor).slice(0, NOTA_MAX);
+        if (t.trim()) e.n = t;
+        else delete e.n;
+      } else return false;
+      if (Object.keys(e).length) S.entrev[id] = e;
+      else delete S.entrev[id];
+      save();
+      return true;
+    },
+
     exportar: function () {
       return JSON.stringify(S);
     },
     importar: function (texto) {
       var o = JSON.parse(texto);
       if (!o || o.v !== 1 || typeof o.preg !== "object") throw new Error("Formato no válido");
-      S = Object.assign(fresh(), o);
+      S = sanear(Object.assign(fresh(), o));
       if (o.ids !== IDS_V) {
         S.ids = 1;
         migrarIds(S);
