@@ -1,7 +1,7 @@
 {
- "generado": "2026-10-16",
- "normasEnCache": 110,
- "normasNecesarias": 115,
+ "generado": "2026-11-15",
+ "normasEnCache": 116,
+ "normasNecesarias": 116,
  "porTema": {
   "1": {
    "no_verificable": 0,
@@ -11388,9 +11388,7 @@
      "norma": "BOE-A-2006-21990"
     }
    ],
-   "avisos": [
-    "El art. 26 de BOE-A-2006-21990 tiene una reforma que entra en vigor el 2026-10-23."
-   ],
+   "avisos": [],
    "estado": "revisada",
    "estado_auto": "referencia",
    "huella": "05f64b9805bb",
@@ -11410,9 +11408,7 @@
      "norma": "BOE-A-2006-21990"
     }
    ],
-   "avisos": [
-    "El art. 28 de BOE-A-2006-21990 tiene una reforma que entra en vigor el 2026-10-23."
-   ],
+   "avisos": [],
    "estado": "revisada",
    "estado_auto": "referencia",
    "huella": "24a65084392a",
@@ -11432,9 +11428,7 @@
      "norma": "BOE-A-2013-12632"
     }
    ],
-   "avisos": [
-    "El art. 4 de BOE-A-2013-12632 tiene una reforma que entra en vigor el 2026-10-23."
-   ],
+   "avisos": [],
    "estado": "verificada",
    "huella": "9a3107585b31",
    "motivos": [],
@@ -11528,10 +11522,7 @@
      "norma": "BOE-A-2013-12632"
     }
    ],
-   "avisos": [
-    "El art. 4 de BOE-A-2013-12632 tiene una reforma que entra en vigor el 2026-10-23.",
-    "Cifras comprobadas en la redacción que entra en vigor el 2026-10-23."
-   ],
+   "avisos": [],
    "estado": "verificada",
    "huella": "92100e0e425b",
    "motivos": [],
@@ -11545,9 +11536,7 @@
      "norma": "BOE-A-2006-21990"
     }
    ],
-   "avisos": [
-    "El art. 15 de BOE-A-2006-21990 tiene una reforma que entra en vigor el 2026-10-23."
-   ],
+   "avisos": [],
    "estado": "revisada",
    "estado_auto": "revisar",
    "huella": "b02827bda6e6",
@@ -11570,9 +11559,7 @@
     }
    ],
    "avisos": [
-    "El art. 5 de BOE-A-2006-21990 tiene una reforma que entra en vigor el 2026-10-23.",
-    "Cifras comprobadas en la redacción que entra en vigor el 2026-10-23.",
-    "Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano, 5 ano."
+    "Una respuesta incorrecta usa una cifra que también está en el artículo: 5 ano."
    ],
    "estado": "verificada",
    "huella": "9de3f3c93046",
@@ -11587,9 +11574,7 @@
      "norma": "BOE-A-2006-21990"
     }
    ],
-   "avisos": [
-    "El art. 14 de BOE-A-2006-21990 tiene una reforma que entra en vigor el 2026-10-23."
-   ],
+   "avisos": [],
    "estado": "revisada",
    "estado_auto": "referencia",
    "huella": "a6486e5bc7b5",

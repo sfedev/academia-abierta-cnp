@@ -927,7 +927,7 @@
     ]
    },
    "detectado": "2026-10-22",
-   "estado": "pendiente",
+   "estado": "incorporada",
    "id": "af13af713b",
    "modificadora": {
     "id": "BOE-A-2026-21872",
@@ -943,6 +943,7 @@
    },
    "otrosTemas": [],
    "publicacion": "2026-10-21",
+   "revisada": "2026-11-15",
    "temas": [
     24
    ],
@@ -989,7 +990,7 @@
     ]
    },
    "detectado": "2026-11-11",
-   "estado": "pendiente",
+   "estado": "incorporada",
    "id": "3dae05aa05",
    "modificadora": {
     "id": "BOE-A-2026-23605",
@@ -1005,6 +1006,7 @@
    },
    "otrosTemas": [],
    "publicacion": "2026-11-11",
+   "revisada": "2026-11-15",
    "temas": [
     23
    ],
@@ -1051,7 +1053,7 @@
     ]
    },
    "detectado": "2026-11-13",
-   "estado": "pendiente",
+   "estado": "incorporada",
    "id": "99196efee5",
    "modificadora": {
     "id": "BOE-A-2026-23760",
@@ -1067,6 +1069,7 @@
    },
    "otrosTemas": [],
    "publicacion": "2026-11-13",
+   "revisada": "2026-11-15",
    "temas": [
     7
    ],

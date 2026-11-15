@@ -1,6 +1,6 @@
 # Auditoría automática del banco de preguntas
 
-Generada el 2026-10-16 por `herramientas/auditar_preguntas.py` con 110 de 115 normas del BOE en caché.
+Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 normas del BOE en caché.
 
 | Estado | Preguntas | % |
 |---|---|---|
@@ -155,13 +155,7 @@ Generada el 2026-10-16 por `herramientas/auditar_preguntas.py` con 110 de 115 no
 - q_23_08 (tema 23): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_23_09 (tema 23): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_23_10 (tema 23): Una respuesta incorrecta usa una cifra que también está en el artículo: 18 mes, 6 mes.
-- q_23_14 (tema 23): El art. 26 de BOE-A-2006-21990 tiene una reforma que entra en vigor el 2026-10-23.
-- q_23_15 (tema 23): El art. 28 de BOE-A-2006-21990 tiene una reforma que entra en vigor el 2026-10-23.
-- q_23_16 (tema 23): El art. 4 de BOE-A-2013-12632 tiene una reforma que entra en vigor el 2026-10-23.
-- q_23_21 (tema 23): El art. 4 de BOE-A-2013-12632 tiene una reforma que entra en vigor el 2026-10-23. Cifras comprobadas en la redacción que entra en vigor el 2026-10-23.
-- q_23_22 (tema 23): El art. 15 de BOE-A-2006-21990 tiene una reforma que entra en vigor el 2026-10-23.
-- q_23_23 (tema 23): El art. 5 de BOE-A-2006-21990 tiene una reforma que entra en vigor el 2026-10-23. Cifras comprobadas en la redacción que entra en vigor el 2026-10-23. Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano, 5 ano.
-- q_23_24 (tema 23): El art. 14 de BOE-A-2006-21990 tiene una reforma que entra en vigor el 2026-10-23.
+- q_23_23 (tema 23): Una respuesta incorrecta usa una cifra que también está en el artículo: 5 ano.
 - q_24_06 (tema 24): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_25_05 (tema 25): Una respuesta incorrecta usa una cifra que también está en el artículo: 5 ano.
 - q_25_11 (tema 25): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.

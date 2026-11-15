@@ -2,7 +2,7 @@
   "tema": 23,
   "titulo": "Igualdad, violencia de género, discapacidad y LGTBI en la AGE",
   "bloque": "A",
-  "actualizado": "2026-10-16",
+  "actualizado": "2026-11-15",
   "peso": {
     "nivel": "bajo",
     "nota": "De 1 a 3 preguntas por examen (3 en 2023-2024, 1 en 2025-2026); cae sobre todo en definiciones: discriminación directa e indirecta, tipos de discriminación de la Ley 4/2023, grados de dependencia y acreditación de la violencia de género."
@@ -42,7 +42,7 @@
       "nombre": "Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social",
       "boe": "BOE-A-2013-12632",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632",
-      "verificado": "Texto consolidado, actualización de 06/10/2026 (leídas, artículo por artículo, la versión vigente a 16/10/2026 y la que entra en vigor el 23/10/2026; leído el 16/10/2026)"
+      "verificado": "Texto consolidado, actualización de 06/10/2026, con la redacción de la Ley 4/2026 vigente desde el 23/10/2026 (leído el 15/11/2026)"
     },
     {
       "nombre": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público (art. 59)",
@@ -54,13 +54,19 @@
       "nombre": "Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia",
       "boe": "BOE-A-2006-21990",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-21990",
-      "verificado": "Texto consolidado, actualización de 06/10/2026 (leídas, artículo por artículo, la versión vigente a 16/10/2026 y la que entra en vigor el 23/10/2026; leído el 16/10/2026)"
+      "verificado": "Texto consolidado, actualización de 11/11/2026 (leído el 15/11/2026)"
     },
     {
       "nombre": "Ley 4/2026, de 1 de octubre, por la que se modifican el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social y la Ley 39/2006",
       "boe": "BOE-A-2026-20528",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528",
       "verificado": "Texto consolidado, actualización de 05/10/2026; publicada el 03/10/2026 y en vigor el 23/10/2026 (leída el 16/10/2026)"
+    },
+    {
+      "nombre": "Real Decreto-ley 36/2026, de 10 de noviembre, de medidas para el adecuado despliegue de la reforma del Sistema para la Autonomía y Atención a la Dependencia (disp. final 1.ª: plazo de la disp. final 1.ª de la Ley 39/2006)",
+      "boe": "BOE-A-2026-23605",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-23605",
+      "verificado": "Texto original publicado en el BOE de 11/11/2026, sin consolidar (sus cambios ya figuran en la consolidación de la Ley 39/2006); leído el 15/11/2026"
     },
     {
       "nombre": "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI",
@@ -70,8 +76,9 @@
     }
   ],
   "novedades": [
-    "La Ley 4/2026, de 1 de octubre (BOE de 3/10/2026), reforma el RDLeg 1/2013 y la Ley 39/2006 y entra en vigor el 23/10/2026 (a los veinte días de su publicación, disp. final 28.ª). Hasta el 22/10/2026 rige el texto anterior; esta ficha estudia la redacción nueva (la que se aplicará en los próximos exámenes) y indica «desde el 23/10/2026» en cada dato que cambia.",
-    "Ley 39/2006 desde el 23/10/2026: «actividades básicas de la vida diaria» pasa a «actividades de la vida diaria» (arts. 2, 26 y 27); los grados I, II y III y sus nombres no cambian (art. 26); el Catálogo pasa de 5 grupos de servicios a 9 servicios (prevención, promoción de la autonomía personal, teleasistencia, ayuda a domicilio, asistencia personal, centro de día y de noche, cuidados y apoyos en viviendas, atención residencial y provisión de productos de apoyo; art. 15.1); el art. 28.1 fija un plazo máximo de 3 meses para resolver el procedimiento (la disp. final 1.ª.2 mantiene seis meses entre la solicitud y la resolución de reconocimiento de la prestación); la atención específica a la infancia pasa de «menores de 3 años» a «menores de 6 años» (art. 5.1.b y disp. adic. 13.ª); los solicitantes y beneficiarios de asilo o protección subsidiaria y los beneficiarios de protección temporal quedan exentos de los requisitos de nacionalidad y de cinco años de residencia (art. 5.1); se crea la persona cuidadora principal (arts. 2.6 y 4 bis); se impone una atención libre de sujeciones, con la urgencia vital como única excepción (arts. 4.2.g y 14.6); y el art. 8 adscribe el Consejo Territorial al «Ministerio competente en materia de Servicios Sociales» (hasta el 22/10/2026 nombra al «Ministerio de Sanidad, Servicios Sociales e Igualdad»). No cambian los arts. 1, 6 y 7 ni el art. 28.2 (resolución autonómica con validez estatal).",
+    "El Real Decreto-ley 36/2026, de 10 de noviembre (BOE de 11/11/2026, en vigor el 12/11/2026), reduce de **seis** a **tres meses** el plazo máximo entre la solicitud y la resolución de reconocimiento de la prestación de dependencia (disp. final 1.ª.2 de la Ley 39/2006). Si en ese plazo no se dicta y notifica resolución expresa, el derecho a las prestaciones nace al cumplirse los tres meses (disp. final 1.ª.3). Así coincide con los 3 meses del art. 28.1 para resolver el procedimiento.",
+    "La Ley 4/2026, de 1 de octubre (BOE de 3/10/2026), reforma el RDLeg 1/2013 y la Ley 39/2006 y está en vigor desde el 23/10/2026 (a los veinte días de su publicación, disp. final 28.ª). La ficha estudia esa redacción e indica «desde el 23/10/2026» en cada dato que cambió.",
+    "Ley 39/2006 desde el 23/10/2026: «actividades básicas de la vida diaria» pasa a «actividades de la vida diaria» (arts. 2, 26 y 27); los grados I, II y III y sus nombres no cambian (art. 26); el Catálogo pasa de 5 grupos de servicios a 9 servicios (prevención, promoción de la autonomía personal, teleasistencia, ayuda a domicilio, asistencia personal, centro de día y de noche, cuidados y apoyos en viviendas, atención residencial y provisión de productos de apoyo; art. 15.1); el art. 28.1 fija un plazo máximo de 3 meses para resolver el procedimiento (la disp. final 1.ª.2 mantuvo seis meses entre la solicitud y la resolución de la prestación hasta el 11/11/2026: ver la novedad del RDL 36/2026); la atención específica a la infancia pasa de «menores de 3 años» a «menores de 6 años» (art. 5.1.b y disp. adic. 13.ª); los solicitantes y beneficiarios de asilo o protección subsidiaria y los beneficiarios de protección temporal quedan exentos de los requisitos de nacionalidad y de cinco años de residencia (art. 5.1); se crea la persona cuidadora principal (arts. 2.6 y 4 bis); se impone una atención libre de sujeciones, con la urgencia vital como única excepción (arts. 4.2.g y 14.6); y el art. 8 adscribe el Consejo Territorial al «Ministerio competente en materia de Servicios Sociales» (hasta el 22/10/2026 nombraba al «Ministerio de Sanidad, Servicios Sociales e Igualdad»). No cambian los arts. 1, 6 y 7 ni el art. 28.2 (resolución autonómica con validez estatal).",
     "RDLeg 1/2013 desde el 23/10/2026: se redefinen vida independiente, inclusión, accesibilidad universal y ajustes razonables (su denegación es discriminación por razón de discapacidad) y se añaden capacitismo, desinstitucionalización, interseccionalidad, urgencia vital y sordoceguera (art. 2); el art. 4.2 añade que la dependencia de grado I equivale a un 33 % de discapacidad y la de grados II y III a un 65 %, solo a efectos de esa ley, con efectos únicamente donde una ley o norma lo prevea y nunca en el ámbito tributario, sin perjuicio de que la persona pida la valoración de su discapacidad real; los centros especiales de empleo pasan a llamarse «empresas para la inclusión laboral de las personas con discapacidad» (art. 43). No cambian el grado del 33 % (art. 4.2, primer párrafo) ni la cuota de reserva del art. 42.",
     "El IV Plan para la igualdad de género en la AGE (Acuerdo del Consejo de Ministros de 7/10/2025) sustituye al III Plan: no estudies con material del III Plan.",
     "La LO 10/2022 (en vigor desde el 7/10/2022) reforzó la referencia a la violencia sexual en la LO 3/2007 (arts. 48, 66 y 68) y amplió la LO 1/2004: servicios esenciales (art. 17.3), atención sanitaria (art. 19 bis) y derecho a la reparación (arts. 28 bis y 28 ter)."
@@ -160,7 +167,7 @@
         "**Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia**. Regula las condiciones básicas que garantizan la igualdad en el **derecho subjetivo de ciudadanía** a la promoción de la autonomía y la atención a la dependencia mediante el **Sistema para la Autonomía y Atención a la Dependencia (SAAD)**, con colaboración de todas las Administraciones y un contenido mínimo común garantizado por la AGE (art. 1).",
         "El SAAD es una **red de utilización pública** de centros y servicios **públicos y privados** (art. 6) con **tres niveles de protección**: el **mínimo** de la AGE, el de los **convenios AGE-comunidad** y el **adicional** de cada comunidad (art. 7). Su órgano de cooperación es el **Consejo Territorial de Servicios Sociales y del SAAD**, con mayoría autonómica (art. 8); desde el 23/10/2026 está adscrito al ministerio competente en materia de servicios sociales y lo preside su titular.",
         "**Titulares** (art. 5): españoles en situación de dependencia con **cinco años** de residencia en España, **dos** de ellos inmediatamente anteriores a la solicitud. **Desde el 23/10/2026** no se exigen la nacionalidad española ni los cinco años de residencia a los solicitantes y beneficiarios de **asilo o protección subsidiaria** ni a los beneficiarios de **protección temporal**; y la atención específica pasa de los menores de 3 años a los **menores de 6 años** (art. 5.1.b y disp. adic. 13.ª).",
-        "**Valoración y resolución**: los órganos de cada comunidad aplican un **baremo** acordado en el Consejo Territorial y aprobado por el Gobierno mediante **real decreto** (art. 27.2). La resolución la dicta la **Administración autonómica** de residencia y vale en **todo el Estado** (art. 28.2); valorar, prescribir y gestionar las prestaciones económicas **no puede delegarse ni contratarse con entidades privadas** (art. 28.6). **Desde el 23/10/2026** el art. 28.1 fija **3 meses** como plazo máximo para resolver el procedimiento; la disp. final 1.ª.2 mantiene **seis meses** entre la solicitud y la resolución de reconocimiento de la prestación.",
+        "**Valoración y resolución**: los órganos de cada comunidad aplican un **baremo** acordado en el Consejo Territorial y aprobado por el Gobierno mediante **real decreto** (art. 27.2). La resolución la dicta la **Administración autonómica** de residencia y vale en **todo el Estado** (art. 28.2); valorar, prescribir y gestionar las prestaciones económicas **no puede delegarse ni contratarse con entidades privadas** (art. 28.6). **Desde el 23/10/2026** el art. 28.1 fija **3 meses** como plazo máximo para resolver el procedimiento; y **desde el 12/11/2026** (RDL 36/2026) la disp. final 1.ª.2 fija también **3 meses** (antes, seis) entre la solicitud y la resolución de reconocimiento de la prestación. Sin resolución expresa en ese plazo, el derecho a las prestaciones nace a los **3 meses** (disp. final 1.ª.3).",
         "**Catálogo de servicios** (art. 15.1, desde el 23/10/2026): **9 servicios**: prevención de la situación de dependencia, promoción de la autonomía personal, teleasistencia, ayuda a domicilio, **asistencia personal**, centro de día y de noche, **cuidados y apoyos en viviendas**, atención residencial y **provisión de productos de apoyo**. Hasta el 22/10/2026 eran 5 grupos: prevención y promoción, teleasistencia, ayuda a domicilio, centro de día y de noche, y atención residencial.",
         "**Otros cambios de la Ley 4/2026** (desde el 23/10/2026): la persona **cuidadora principal** es la que dedica más tiempo a los cuidados y figura como tal en el PIA (arts. 2.6 y 4 bis, que lo llaman «Plan Individual de Atención»; el art. 29 lo titula «Programa Individual de Atención»); la atención debe estar **libre de sujeciones** y solo se admite una sujeción o restricción en **urgencia vital**, proporcional, por el tiempo estrictamente necesario y con consentimiento informado caso a caso (arts. 4.2.g y 14.6); las «**actividades de la vida diaria**» sustituyen a las «básicas» (art. 2.3)."
       ],
@@ -205,8 +212,8 @@
     "Número y año: **Ley 39/2006** (dependencia), no 40/2006 ni 41/2006; **LO 3/2007** (igualdad); **LO 1/2004** (violencia de género); **Ley 4/2023** (trans y LGTBI).",
     "Ley 4/2023: asociación (por la **relación** con otra persona), error (apreciación **incorrecta**), múltiple (**dos o más causas**) e interseccional (causas que **interactúan** y generan una forma específica) se confunden con facilidad.",
     "Edades de la rectificación registral: **16** sin asistencia, **14-16** con representantes legales, **12-14** con autorización judicial.",
-    "Dependencia: la resolución es **autonómica** y vale en todo el Estado; la valoración no se puede contratar con entidades privadas.",
-    "Ley 4/2026: hasta el 22/10/2026 rige el texto anterior de la Ley 39/2006 (menores de **3** años, Catálogo de **5** grupos de servicios, «actividades **básicas** de la vida diaria»); desde el 23/10/2026, **6** años, **9** servicios y «actividades de la vida diaria». Los grados de dependencia no cambian. Asimilación a discapacidad (art. 4.2 RDLeg 1/2013): grado I = **33 %**; grados II y III = **65 %**; no rige en el ámbito tributario."
+    "Dependencia: la resolución es **autonómica** y vale en todo el Estado; la valoración no se puede contratar con entidades privadas. Plazos: **3 meses** para resolver el procedimiento (art. 28.1) y, desde el 12/11/2026, también **3 meses** entre la solicitud y la resolución de la prestación (disp. final 1.ª.2); los **seis meses** son la redacción anterior y salen como distractor.",
+    "Ley 4/2026: hasta el 22/10/2026 regía el texto anterior de la Ley 39/2006 (menores de **3** años, Catálogo de **5** grupos de servicios, «actividades **básicas** de la vida diaria»); desde el 23/10/2026, **6** años, **9** servicios y «actividades de la vida diaria». Los grados de dependencia no cambian. Asimilación a discapacidad (art. 4.2 RDLeg 1/2013): grado I = **33 %**; grados II y III = **65 %**; no rige en el ámbito tributario."
   ],
   "caido": [
     {
@@ -346,6 +353,11 @@
       "id": "t_23_23",
       "p": "¿A qué menores se dirige la atención específica de la disp. adic. 13.ª de la Ley 39/2006 tras la Ley 4/2026?",
       "r": "A los **menores de 6 años** (antes, menores de 3), con una escala de valoración específica."
+    },
+    {
+      "id": "t_23_24",
+      "p": "¿Cuál es el plazo máximo entre la solicitud y la resolución de reconocimiento de la prestación de dependencia (Ley 39/2006, disp. final 1.ª.2)?",
+      "r": "**Tres meses** desde el 12/11/2026 (RDL 36/2026; antes, seis), igual que el plazo para resolver el procedimiento del art. 28.1. Sin resolución expresa, el derecho a las prestaciones nace a los **tres meses** (disp. final 1.ª.3)."
     }
   ],
   "preguntas": [
@@ -662,7 +674,5 @@
       "dificultad": 3
     }
   ],
-  "dudas": [
-    "Desde el 23/10/2026 el art. 28.1 de la Ley 39/2006 fija 3 meses para resolver el procedimiento, pero la disp. final 1.ª.2 mantiene seis meses entre la solicitud y la resolución de reconocimiento de la prestación, y la ley no aclara cómo encajan: responde según el precepto que cite la pregunta."
-  ]
+  "dudas": []
 }
