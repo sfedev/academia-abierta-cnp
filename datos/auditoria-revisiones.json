@@ -197,6 +197,72 @@
   "nota": "Art. 18.2 y 18.3 CE: flagrante delito solo exceptúa el domicilio; comunicaciones salvo resolución judicial",
   "por": "ia"
  },
+ "q_02_31": {
+  "fecha": "2026-11-15",
+  "huella": "638eb1f8c59e",
+  "nota": "Art. 1.2 CE: la soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado",
+  "por": "persona"
+ },
+ "q_02_32": {
+  "fecha": "2026-11-15",
+  "huella": "b9d053bebb8b",
+  "nota": "Art. 4.1 CE: franja amarilla de doble anchura que cada una de las rojas",
+  "por": "persona"
+ },
+ "q_02_33": {
+  "fecha": "2026-11-15",
+  "huella": "54c8bef1f148",
+  "nota": "Art. 25.3 CE: la Administración civil no puede imponer sanciones que directa o subsidiariamente impliquen privación de libertad",
+  "por": "persona"
+ },
+ "q_02_34": {
+  "fecha": "2026-11-15",
+  "huella": "19221b325924",
+  "nota": "Art. 20.5 CE: secuestro solo en virtud de resolución judicial",
+  "por": "persona"
+ },
+ "q_02_35": {
+  "fecha": "2026-11-15",
+  "huella": "c33974fb3745",
+  "nota": "Art. 22.3, 22.4 y 22.5 CE: registro a efectos de publicidad; disolución o suspensión solo por resolución judicial motivada; prohibidas secretas y paramilitares",
+  "por": "persona"
+ },
+ "q_02_36": {
+  "fecha": "2026-11-15",
+  "huella": "f5726e425ae2",
+  "nota": "Art. 26 CE: prohibidos en la Administración civil y en las organizaciones profesionales",
+  "por": "persona"
+ },
+ "q_02_37": {
+  "fecha": "2026-11-15",
+  "huella": "cc9619b19a03",
+  "nota": "Art. 29.2 CE: derecho de petición solo individual para Fuerzas o Institutos armados y Cuerpos con disciplina militar",
+  "por": "persona"
+ },
+ "q_02_38": {
+  "fecha": "2026-11-15",
+  "huella": "98cb0e6715fc",
+  "nota": "Art. 17.4 CE: habeas corpus y plazo máximo de la prisión provisional por ley; 72 horas en el art. 17.2",
+  "por": "persona"
+ },
+ "q_02_40": {
+  "fecha": "2026-11-15",
+  "huella": "84a3dca117b9",
+  "nota": "Art. 116.5 y 116.6 CE: no cabe disolver el Congreso; convocatoria automática; Diputación Permanente solo si disuelto o expirado",
+  "por": "persona"
+ },
+ "q_02_42": {
+  "fecha": "2026-11-15",
+  "huella": "47758ce2548b",
+  "nota": "Art. 6.3 LO 3/1981: solo detención en flagrante delito; Sala de lo Penal del Tribunal Supremo",
+  "por": "persona"
+ },
+ "q_02_44": {
+  "fecha": "2026-11-15",
+  "huella": "b16a422a844d",
+  "nota": "Art. 13 LO 3/1981: quejas sobre la Administración de Justicia al Ministerio Fiscal o al CGPJ, según el tipo",
+  "por": "persona"
+ },
  "q_03_03": {
   "fecha": "2026-10-16",
   "huella": "5c450a67cfe2",
@@ -1229,6 +1295,96 @@
   "nota": "LO 2/1986 (texto vigente, consolidado 17/12/2025): arts. 48.2 (aprueba e informa) y 49.1 (tareas del Comité de Expertos)",
   "por": "ia"
  },
+ "q_09_31": {
+  "fecha": "2026-11-15",
+  "huella": "0c6163158356",
+  "nota": "Art. 2 LO 2/1986: FCS del Estado, Policías autonómicas y Policías locales; la seguridad privada solo tiene la especial obligación de colaborar del art. 4.2",
+  "por": "persona"
+ },
+ "q_09_32": {
+  "fecha": "2026-11-15",
+  "huella": "1d03d5abd78b",
+  "nota": "Art. 4.2 LO 2/1986: especial obligación de auxiliar o colaborar en todo momento con las FCS",
+  "por": "persona"
+ },
+ "q_09_33": {
+  "fecha": "2026-11-15",
+  "huella": "c6f11a4d6dfb",
+  "nota": "Art. 6.6 LO 2/1986: provisión de puestos de servicio por mérito, capacidad y antigüedad",
+  "por": "persona"
+ },
+ "q_09_34": {
+  "fecha": "2026-11-15",
+  "huella": "f234c0b1e952",
+  "nota": "Art. 7.3 LO 2/1986: la Guardia Civil solo es fuerza armada en las misiones de carácter militar",
+  "por": "persona"
+ },
+ "q_09_35": {
+  "fecha": "2026-11-15",
+  "huella": "9c369548ce40",
+  "nota": "Art. 8.2 LO 2/1986: establecimientos penitenciarios ordinarios, con separación del resto de detenidos o presos",
+  "por": "persona"
+ },
+ "q_09_36": {
+  "fecha": "2026-11-15",
+  "huella": "af77a8a715a0",
+  "nota": "Art. 9.a LO 2/1986: Instituto Armado de naturaleza civil, dependiente del Ministro del Interior",
+  "por": "persona"
+ },
+ "q_09_37": {
+  "fecha": "2026-11-15",
+  "huella": "b481aed63542",
+  "nota": "Arts. 11.1 y 12.1.A.a LO 2/1986: DNI y pasaportes, competencia exclusiva del CNP; altas personalidades y protección civil son funciones comunes",
+  "por": "persona"
+ },
+ "q_09_38": {
+  "fecha": "2026-11-15",
+  "huella": "33d804676527",
+  "nota": "Art. 12.1.B.f LO 2/1986: conducción interurbana de presos y detenidos, competencia de la Guardia Civil",
+  "por": "persona"
+ },
+ "q_09_39": {
+  "fecha": "2026-11-15",
+  "huella": "1a636b3cfdc1",
+  "nota": "Art. 14.3 LO 2/1986: el Ministro de Defensa dispone el régimen de ascensos y situaciones de la Guardia Civil",
+  "por": "persona"
+ },
+ "q_09_40": {
+  "fecha": "2026-11-15",
+  "huella": "f807f3e07558",
+  "nota": "Art. 15.1 LO 2/1986: separación del servicio por el Ministro de Defensa, a propuesta del de Interior",
+  "por": "persona"
+ },
+ "q_09_41": {
+  "fecha": "2026-11-15",
+  "huella": "3aa935588d0e",
+  "nota": "Art. 32 LO 2/1986: el diploma de especialización es requisito para ocupar puestos en las Unidades de Policía Judicial",
+  "por": "persona"
+ },
+ "q_09_42": {
+  "fecha": "2026-11-15",
+  "huella": "8ed4e2ffb142",
+  "nota": "Art. 34.1 LO 2/1986: no pueden ser removidos de la investigación salvo decisión o autorización del Juez o Fiscal competente",
+  "por": "persona"
+ },
+ "q_09_43": {
+  "fecha": "2026-11-15",
+  "huella": "70fd464b3894",
+  "nota": "Art. 38.2.c LO 2/1986: función prioritaria de la Policía autonómica, sin perjuicio de la intervención estatal a requerimiento o por decisión propia",
+  "por": "persona"
+ },
+ "q_09_44": {
+  "fecha": "2026-11-15",
+  "huella": "dbe99af81aa1",
+  "nota": "Art. 41.4 LO 2/1986: la licencia de armas la otorga en todo caso el Gobierno de la Nación",
+  "por": "persona"
+ },
+ "q_09_45": {
+  "fecha": "2026-11-15",
+  "huella": "5e230a92c21e",
+  "nota": "Art. 46.2 LO 2/1986: en actuaciones concurrentes dirigen los mandos de las FCS del Estado",
+  "por": "persona"
+ },
  "q_10_05": {
   "fecha": "2026-10-16",
   "huella": "af3dcc53b388",
@@ -1708,6 +1864,78 @@
   "huella": "27b71bf62c57",
   "nota": "LO 4/2015 (consolidado 19/12/2025) art. 38.3: se reanuda si el procedimiento esta paralizado mas de un mes por causa no imputable al presunto responsable",
   "por": "ia"
+ },
+ "q_14_31": {
+  "fecha": "2026-11-15",
+  "huella": "ed4f1bf03239",
+  "nota": "Art. 5.2.e LO 4/2015: Subdelegados del Gobierno y Directores Insulares; alcaldes como autoridades locales en el art. 5.4",
+  "por": "persona"
+ },
+ "q_14_32": {
+  "fecha": "2026-11-15",
+  "huella": "431504c723c7",
+  "nota": "Art. 7.2 LO 4/2015: colaboración de particulares en la medida necesaria, sin riesgo personal, con indemnización de daños",
+  "por": "persona"
+ },
+ "q_14_33": {
+  "fecha": "2026-11-15",
+  "huella": "d52f48801222",
+  "nota": "Arts. 9.2 (DNI: tan pronto como sea posible, comisaría o puesto más próximo) y 11.4 (pasaporte: de manera inmediata, FCS o Representación) LO 4/2015",
+  "por": "persona"
+ },
+ "q_14_34": {
+  "fecha": "2026-11-15",
+  "huella": "57db9def9276",
+  "nota": "Art. 11.2 LO 4/2015: cuatro excepciones tasadas, ninguna por multas administrativas",
+  "por": "persona"
+ },
+ "q_14_35": {
+  "fecha": "2026-11-15",
+  "huella": "f37c16be1d6c",
+  "nota": "Art. 11.3 LO 4/2015: consentimiento expreso de quien ejerza la patria potestad o, en su defecto, del órgano judicial",
+  "por": "persona"
+ },
+ "q_14_36": {
+  "fecha": "2026-11-15",
+  "huella": "a4d4ab29652d",
+  "nota": "Art. 13.2 LO 4/2015: privación de la documentación de origen solo en investigaciones judiciales de carácter penal",
+  "por": "persona"
+ },
+ "q_14_38": {
+  "fecha": "2026-11-15",
+  "huella": "ad156c7811ad",
+  "nota": "Art. 18.2 LO 4/2015: ocupación temporal incluso de armas portadas con licencia, permiso o autorización",
+  "por": "persona"
+ },
+ "q_14_39": {
+  "fecha": "2026-11-15",
+  "huella": "f9a49b218dbd",
+  "nota": "Art. 19 LO 4/2015: constancia de la negativa a firmar; presunción de veracidad salvo prueba en contrario; sin formalidades de la detención",
+  "por": "persona"
+ },
+ "q_14_40": {
+  "fecha": "2026-11-15",
+  "huella": "21cfc55347b5",
+  "nota": "Art. 21 LO 4/2015: los agentes pueden adoptarlas por urgencia, incluso mediante órdenes verbales",
+  "por": "persona"
+ },
+ "q_14_41": {
+  "fecha": "2026-11-15",
+  "huella": "0bf40528f11a",
+  "nota": "Art. 23.3 LO 4/2015: disolución sin previo aviso ante alteración con armas, explosivos u objetos contundentes o peligrosos",
+  "por": "persona"
+ },
+ "q_14_42": {
+  "fecha": "2026-11-15",
+  "huella": "ff9a946e9b88",
+  "nota": "Art. 42.3 LO 4/2015: responsabilidad solidaria de padres, tutores, curadores, acogedores o guardadores del menor no emancipado",
+  "por": "persona"
+ },
+ "q_14_44": {
+  "fecha": "2026-11-15",
+  "huella": "0081d952b367",
+  "nota": "Art. 52 LO 4/2015: base suficiente previa ratificación, salvo prueba en contrario",
+  "por": "persona"
  },
  "q_15_01": {
   "fecha": "2026-10-16",

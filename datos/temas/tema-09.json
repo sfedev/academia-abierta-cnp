@@ -839,6 +839,201 @@
       "explicacion": "Aprobar directivas y recomendaciones de carácter general corresponde al propio Consejo de Política de Seguridad (art. 48.2). El Comité de Expertos asesora técnicamente al Consejo y prepara los asuntos del Pleno: elabora y propone fórmulas de coordinación, prepara acuerdos de cooperación, propone programas de formación y perfeccionamiento y elabora planes de actuación conjunta (art. 49.1).",
       "ref": "arts. 48.2 y 49.1 LO 2/1986",
       "dificultad": 3
+    },
+    {
+      "id": "q_09_31",
+      "enunciado": "Según el art. 2 de la LO 2/1986, ¿cuál de los siguientes NO forma parte de las Fuerzas y Cuerpos de Seguridad?",
+      "opciones": [
+        "El personal de seguridad privada.",
+        "Los Cuerpos de Policía dependientes de las Corporaciones Locales.",
+        "Los Cuerpos de Policía dependientes de las Comunidades Autónomas."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 2 de la LO 2/1986 enumera como Fuerzas y Cuerpos de Seguridad las **del Estado** dependientes del Gobierno de la Nación, los **Cuerpos de Policía de las Comunidades Autónomas** y los **Cuerpos de Policía de las Corporaciones Locales**. El personal de seguridad privada no es Fuerza y Cuerpo de Seguridad: el art. 4.2 solo le impone una especial obligación de auxiliar y colaborar con ellas.",
+      "ref": "arts. 2 y 4.2 LO 2/1986",
+      "dificultad": 1
+    },
+    {
+      "id": "q_09_32",
+      "enunciado": "Según el art. 4 de la LO 2/1986, las personas y entidades que ejercen funciones de vigilancia, seguridad o custodia de personal, bienes o servicios, públicos o privados:",
+      "opciones": [
+        "Solo deben colaborar con las Fuerzas y Cuerpos de Seguridad cuando lo ordene la autoridad judicial.",
+        "Tienen especial obligación de auxiliar o colaborar en todo momento con las Fuerzas y Cuerpos de Seguridad.",
+        "Tienen el mismo deber de auxilio que cualquier ciudadano, limitado a la persecución de delitos graves."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 4.1 establece el deber general de todos de prestar a las Fuerzas y Cuerpos de Seguridad el auxilio necesario en la investigación y persecución de los delitos, y el art. 4.2 añade que quienes ejercen funciones de **vigilancia, seguridad o custodia** tienen **especial obligación** de auxiliar o colaborar **en todo momento**. No depende de una orden judicial ni se limita a delitos graves.",
+      "ref": "art. 4 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "id": "q_09_33",
+      "enunciado": "Según el art. 6 de la LO 2/1986, los puestos de servicio de los miembros de las Fuerzas y Cuerpos de Seguridad en las respectivas categorías se proveen conforme a los principios de:",
+      "opciones": [
+        "Igualdad, mérito y capacidad.",
+        "Mérito, capacidad y publicidad.",
+        "Mérito, capacidad y antigüedad."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 6.6 dispone que los puestos de servicio se proveen conforme a los principios de **mérito, capacidad y antigüedad**. La «igualdad de oportunidades», junto con la objetividad, el mérito y la capacidad, aparece en el art. 6.1, referida a la promoción profesional, social y humana que deben promover los poderes públicos; la publicidad no figura en este artículo.",
+      "ref": "art. 6.6 LO 2/1986",
+      "dificultad": 3
+    },
+    {
+      "id": "q_09_34",
+      "enunciado": "Según el art. 7 de la LO 2/1986, la Guardia Civil tiene la consideración de fuerza armada:",
+      "opciones": [
+        "Solo en el cumplimiento de las misiones de carácter militar que se le encomienden.",
+        "Siempre, por ser un Instituto Armado de naturaleza militar.",
+        "Solo cuando actúa en tiempo de guerra o durante el estado de sitio."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 7.3 establece que la Guardia Civil **solo** tiene consideración de **fuerza armada** en el cumplimiento de las **misiones de carácter militar** que se le encomienden. Su naturaleza militar (art. 9.b no la convierte siempre en fuerza armada; el tiempo de guerra y el estado de sitio determinan otra cosa: su dependencia exclusiva del Ministro de Defensa (art. 9.b.",
+      "ref": "art. 7.3 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "id": "q_09_35",
+      "enunciado": "Según el art. 8 de la LO 2/1986, ¿dónde cumplen los miembros de las Fuerzas y Cuerpos de Seguridad la prisión preventiva y las penas privativas de libertad?",
+      "opciones": [
+        "En establecimientos penitenciarios militares.",
+        "En establecimientos penitenciarios ordinarios, con separación del resto de detenidos o presos.",
+        "En dependencias de su propio Cuerpo habilitadas al efecto."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 8.2 dispone que el cumplimiento de la prisión preventiva y de las penas privativas de libertad se realiza en **establecimientos penitenciarios ordinarios**, **con separación** del resto de detenidos o presos. La ley no prevé establecimientos militares ni dependencias policiales para ello.",
+      "ref": "art. 8.2 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "id": "q_09_36",
+      "enunciado": "Según el art. 9 de la LO 2/1986, el Cuerpo Nacional de Policía es:",
+      "opciones": [
+        "Un Instituto Armado de naturaleza militar, dependiente del Ministro del Interior.",
+        "Un cuerpo civil no armado, dependiente de la Secretaría de Estado de Seguridad.",
+        "Un Instituto Armado de naturaleza civil, dependiente del Ministro del Interior."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 9.a define el Cuerpo Nacional de Policía como **Instituto Armado de naturaleza civil**, dependiente del **Ministro del Interior**. La naturaleza militar corresponde a la Guardia Civil (art. 9.b, que depende del Ministro del Interior en sus funciones policiales y del de Defensa en las misiones militares.",
+      "ref": "art. 9 LO 2/1986",
+      "dificultad": 1
+    },
+    {
+      "id": "q_09_37",
+      "enunciado": "¿Cuál de las siguientes NO figura entre las funciones comunes que el art. 11.1 de la LO 2/1986 atribuye a las Fuerzas y Cuerpos de Seguridad del Estado?",
+      "opciones": [
+        "La expedición del documento nacional de identidad y de los pasaportes.",
+        "Colaborar con los servicios de protección civil en los casos de grave riesgo, catástrofe o calamidad pública.",
+        "Velar por la protección y seguridad de altas personalidades."
+      ],
+      "correcta": 0,
+      "explicacion": "La protección de altas personalidades (art. 11.1.d y la colaboración con protección civil (art. 11.1.i son funciones **comunes** a ambos Cuerpos. La **expedición del DNI y de los pasaportes** no es común: el art. 12.1.A.a la reserva al **Cuerpo Nacional de Policía**.",
+      "ref": "arts. 11.1 y 12.1 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "id": "q_09_38",
+      "enunciado": "De acuerdo con la distribución material de competencias del art. 12 de la LO 2/1986, corresponde a la Guardia Civil:",
+      "opciones": [
+        "La investigación y persecución de los delitos relacionados con la droga.",
+        "La conducción interurbana de presos y detenidos.",
+        "La vigilancia e inspección del cumplimiento de la normativa en materia de juego."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 12.1.B.f) atribuye a la **Guardia Civil** la **conducción interurbana de presos y detenidos**. La investigación de los delitos relacionados con la droga y la vigilancia e inspección del juego son competencias del **Cuerpo Nacional de Policía** (art. 12.1.A, letras e y d).",
+      "ref": "art. 12.1 LO 2/1986",
+      "dificultad": 1
+    },
+    {
+      "id": "q_09_39",
+      "enunciado": "Según el art. 14 de la LO 2/1986, ¿quién dispone lo concerniente al régimen de ascensos y situaciones del personal de la Guardia Civil?",
+      "opciones": [
+        "El Ministro del Interior.",
+        "Los Ministros de Defensa e Interior, conjuntamente.",
+        "El Ministro de Defensa."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 14.3 atribuye al **Ministro de Defensa** el régimen de **ascensos y situaciones** del personal y las misiones de carácter militar. Al Ministro del Interior le corresponden los servicios de seguridad ciudadana, retribuciones, destinos, acuartelamientos y material (art. 14.1), y conjuntamente a ambos Ministros la selección, formación, perfeccionamiento, armamento y despliegue territorial (art. 14.2).",
+      "ref": "art. 14 LO 2/1986",
+      "dificultad": 3
+    },
+    {
+      "id": "q_09_40",
+      "enunciado": "Según el art. 15 de la LO 2/1986, ¿quién es competente en todo caso para imponer la sanción de separación del servicio a un miembro de la Guardia Civil?",
+      "opciones": [
+        "El Ministro de Defensa, a propuesta del de Interior.",
+        "El Ministro del Interior, a propuesta del de Defensa.",
+        "El Consejo de Ministros, a propuesta conjunta de los Ministros de Defensa e Interior."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 15.1, párrafo segundo, dispone que en todo caso es competente para imponer la **separación del servicio** el **Ministro de Defensa, a propuesta del de Interior**. Las otras opciones invierten los papeles o atribuyen la competencia al Consejo de Ministros, que la ley no menciona.",
+      "ref": "art. 15.1 LO 2/1986",
+      "dificultad": 3
+    },
+    {
+      "id": "q_09_41",
+      "enunciado": "Según el art. 32 de la LO 2/1986, para ocupar puestos en las Unidades de Policía Judicial que se constituyan es requisito necesario:",
+      "opciones": [
+        "Contar con un mínimo de cinco años de servicio en la Escala Ejecutiva.",
+        "Estar en posesión del diploma correspondiente a la especialización en Policía Judicial.",
+        "Haber superado una prueba ante el Consejo General del Poder Judicial."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 32 configura la Policía Judicial como una función cuya especialización se cursa en los centros de formación de las Fuerzas y Cuerpos de Seguridad del Estado, con participación de la Judicatura y el Ministerio Fiscal (o, complementariamente, en el Centro de Estudios Judiciales), y exige la **posesión del diploma correspondiente** para ocupar puestos en esas Unidades. No exige antigüedad mínima ni prueba ante el CGPJ.",
+      "ref": "art. 32 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "id": "q_09_42",
+      "enunciado": "Un funcionario de una Unidad de Policía Judicial tiene encomendada una investigación concreta. Según el art. 34 de la LO 2/1986, puede ser apartado de ella antes de que finalice:",
+      "opciones": [
+        "Por decisión de su jefe de unidad, comunicándolo al Juez o Fiscal.",
+        "Por decisión del Ministerio del Interior, del que depende orgánicamente.",
+        "Solo por decisión o con la autorización del Juez o Fiscal competente."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 34.1 establece que los funcionarios de las Unidades de Policía Judicial **no pueden ser removidos o apartados** de la investigación concreta hasta que finalice esta o la fase del procedimiento judicial que la originó, **si no es por decisión o con la autorización del Juez o Fiscal competente**. La dependencia orgánica del Ministerio del Interior (art. 31.1) no permite apartarlos por decisión propia.",
+      "ref": "art. 34.1 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "id": "q_09_43",
+      "enunciado": "Según el art. 38 de la LO 2/1986, la vigilancia de los espacios públicos, la protección de las manifestaciones y el mantenimiento del orden en grandes concentraciones humanas, en una Comunidad Autónoma con Policía propia, corresponde:",
+      "opciones": [
+        "Con carácter prioritario a la Policía autonómica, sin perjuicio de la intervención de las Fuerzas y Cuerpos de Seguridad del Estado cuando lo estimen necesario las autoridades estatales, por propia decisión o a requerimiento de la Comunidad.",
+        "Exclusivamente a las Fuerzas y Cuerpos de Seguridad del Estado, con la colaboración de la Policía autonómica si se la requiere.",
+        "Exclusivamente a la Policía autonómica, sin que el Estado pueda intervenir salvo requerimiento de la Comunidad Autónoma."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 38.2.c incluye esta función entre las que la Policía autonómica ejerce **en colaboración** con las Fuerzas y Cuerpos de Seguridad del Estado y precisa que le corresponde **con carácter prioritario**, sin perjuicio de que intervengan las del Estado a requerimiento de las autoridades autonómicas **o por decisión propia** de las autoridades estatales competentes. No es exclusiva de ninguno de los dos.",
+      "ref": "art. 38.2 LO 2/1986",
+      "dificultad": 3
+    },
+    {
+      "id": "q_09_44",
+      "enunciado": "Según el art. 41 de la LO 2/1986, los miembros de los Cuerpos de Policía de las Comunidades Autónomas pueden portar armas de fuego, y el otorgamiento de la licencia de armas corresponde:",
+      "opciones": [
+        "Al órgano competente de la Comunidad Autónoma, previo informe de la Junta de Seguridad.",
+        "En todo caso, al Gobierno de la Nación.",
+        "Al Consejo de Política de Seguridad."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 41.4 permite a los miembros de las Policías autonómicas portar armas de fuego y dispone que el **otorgamiento de la licencia de armas** compete **en todo caso al Gobierno de la Nación**. Ni la Comunidad Autónoma ni el Consejo de Política de Seguridad la otorgan.",
+      "ref": "art. 41.4 LO 2/1986",
+      "dificultad": 2
+    },
+    {
+      "id": "q_09_45",
+      "enunciado": "En una actuación concreta en la que concurren simultáneamente unidades de las Fuerzas y Cuerpos de Seguridad del Estado y de la Policía de una Comunidad Autónoma, fuera de los supuestos de auxilio solicitado por la Comunidad, ¿quién asume la dirección de la operación según el art. 46 de la LO 2/1986?",
+      "opciones": [
+        "El mando de mayor graduación presente, sea del Cuerpo que sea.",
+        "Los mandos de la Policía autonómica, por actuar en su territorio.",
+        "Los mandos de las Fuerzas y Cuerpos de Seguridad del Estado."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 46.2 dispone que, cuando en un servicio o actuación concreta concurran simultáneamente miembros o unidades de ambos, son los **mandos de las Fuerzas y Cuerpos de Seguridad del Estado** los que asumen la **dirección de la operación**. El criterio no es la graduación ni el territorio.",
+      "ref": "art. 46.2 LO 2/1986",
+      "dificultad": 2
     }
   ],
   "dudas": [

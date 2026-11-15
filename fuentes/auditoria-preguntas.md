@@ -1,11 +1,11 @@
 # Auditoría automática del banco de preguntas
 
-Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 7 de 116 normas del BOE en caché.
+Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 normas del BOE en caché.
 
 | Estado | Preguntas | % |
 |---|---|---|
-| Verificada (cifras en el artículo) | 206 | 20.4 % |
-| Revisada a mano | 799 | 79.0 % |
+| Verificada (cifras en el artículo) | 211 | 20.0 % |
+| Revisada a mano | 837 | 79.3 % |
 | Artículo vigente, sin cifras que comprobar | 0 | 0.0 % |
 | Pendiente de revisar | 0 | 0.0 % |
 | Fuente no comprobable automáticamente | 7 | 0.7 % |
@@ -28,6 +28,8 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 7 de 116 norm
 - q_02_16 (tema 2): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_02_20 (tema 2): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_02_27 (tema 2): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_02_35 (tema 2): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_02_39 (tema 2): Una respuesta incorrecta usa una cifra que también está en el artículo: 15 dia.
 - q_03_09 (tema 3): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_03_14 (tema 3): Una respuesta incorrecta usa una cifra que también está en el artículo: 20 dia, 3 mes.
 - q_04_05 (tema 4): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
@@ -55,6 +57,8 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 7 de 116 norm
 - q_09_16 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_09_21 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_09_30 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_09_31 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_09_37 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_10_01 (tema 10): Una respuesta incorrecta usa una cifra que también está en el artículo: 6 mes.
 - q_10_05 (tema 10): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas. Cifras de las opciones verdaderas no localizadas en el artículo citado: 19 ano.
 - q_10_09 (tema 10): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
@@ -91,6 +95,7 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 7 de 116 norm
 - q_14_15 (tema 14): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 ano, 3 ano.
 - q_14_20 (tema 14): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 miembro.
 - q_14_21 (tema 14): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 miembro.
+- q_14_34 (tema 14): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_15_07 (tema 15): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_16_08 (tema 16): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_16_10 (tema 16): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.

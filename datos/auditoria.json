@@ -1,7 +1,7 @@
 {
  "generado": "2026-11-15",
- "normasEnCache": 7,
- "normasNecesarias": 7,
+ "normasEnCache": 116,
+ "normasNecesarias": 116,
  "porTema": {
   "1": {
    "no_verificable": 0,
@@ -41,9 +41,9 @@
   "14": {
    "no_verificable": 0,
    "referencia": 0,
-   "revisada": 20,
+   "revisada": 32,
    "revisar": 0,
-   "verificada": 10
+   "verificada": 12
   },
   "15": {
    "no_verificable": 0,
@@ -83,9 +83,9 @@
   "2": {
    "no_verificable": 0,
    "referencia": 0,
-   "revisada": 23,
+   "revisada": 34,
    "revisar": 0,
-   "verificada": 7
+   "verificada": 10
   },
   "20": {
    "no_verificable": 0,
@@ -314,7 +314,7 @@
   "9": {
    "no_verificable": 0,
    "referencia": 0,
-   "revisada": 27,
+   "revisada": 42,
    "revisar": 0,
    "verificada": 3
   }
@@ -1369,6 +1369,272 @@
     "fecha": "2026-10-16",
     "nota": "Art. 18.2 y 18.3 CE: flagrante delito solo exceptúa el domicilio; comunicaciones salvo resolución judicial",
     "por": "ia"
+   },
+   "tema": 2
+  },
+  "q_02_31": {
+   "articulos": [
+    {
+     "art": "1",
+     "encontrado": true,
+     "norma": "BOE-A-1978-31229"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "638eb1f8c59e",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 1.2 CE: la soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado",
+    "por": "persona"
+   },
+   "tema": 2
+  },
+  "q_02_32": {
+   "articulos": [
+    {
+     "art": "4",
+     "encontrado": true,
+     "norma": "BOE-A-1978-31229"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "b9d053bebb8b",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 4.1 CE: franja amarilla de doble anchura que cada una de las rojas",
+    "por": "persona"
+   },
+   "tema": 2
+  },
+  "q_02_33": {
+   "articulos": [
+    {
+     "art": "25",
+     "encontrado": true,
+     "norma": "BOE-A-1978-31229"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "54c8bef1f148",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 25.3 CE: la Administración civil no puede imponer sanciones que directa o subsidiariamente impliquen privación de libertad",
+    "por": "persona"
+   },
+   "tema": 2
+  },
+  "q_02_34": {
+   "articulos": [
+    {
+     "art": "20",
+     "encontrado": true,
+     "norma": "BOE-A-1978-31229"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "19221b325924",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 20.5 CE: secuestro solo en virtud de resolución judicial",
+    "por": "persona"
+   },
+   "tema": 2
+  },
+  "q_02_35": {
+   "articulos": [
+    {
+     "art": "22",
+     "encontrado": true,
+     "norma": "BOE-A-1978-31229"
+    }
+   ],
+   "avisos": [
+    "Pregunta en negativo: se comprueban las cifras de las opciones verdaderas."
+   ],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "c33974fb3745",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 22.3, 22.4 y 22.5 CE: registro a efectos de publicidad; disolución o suspensión solo por resolución judicial motivada; prohibidas secretas y paramilitares",
+    "por": "persona"
+   },
+   "tema": 2
+  },
+  "q_02_36": {
+   "articulos": [
+    {
+     "art": "26",
+     "encontrado": true,
+     "norma": "BOE-A-1978-31229"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "f5726e425ae2",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 26 CE: prohibidos en la Administración civil y en las organizaciones profesionales",
+    "por": "persona"
+   },
+   "tema": 2
+  },
+  "q_02_37": {
+   "articulos": [
+    {
+     "art": "29",
+     "encontrado": true,
+     "norma": "BOE-A-1978-31229"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "cc9619b19a03",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 29.2 CE: derecho de petición solo individual para Fuerzas o Institutos armados y Cuerpos con disciplina militar",
+    "por": "persona"
+   },
+   "tema": 2
+  },
+  "q_02_38": {
+   "articulos": [
+    {
+     "art": "17",
+     "encontrado": true,
+     "norma": "BOE-A-1978-31229"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "98cb0e6715fc",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 17.4 CE: habeas corpus y plazo máximo de la prisión provisional por ley; 72 horas en el art. 17.2",
+    "por": "persona"
+   },
+   "tema": 2
+  },
+  "q_02_39": {
+   "articulos": [
+    {
+     "art": "116",
+     "encontrado": true,
+     "norma": "BOE-A-1978-31229"
+    }
+   ],
+   "avisos": [
+    "Una respuesta incorrecta usa una cifra que también está en el artículo: 15 dia."
+   ],
+   "estado": "verificada",
+   "huella": "38fb83a052de",
+   "motivos": [],
+   "tema": 2
+  },
+  "q_02_40": {
+   "articulos": [
+    {
+     "art": "116",
+     "encontrado": true,
+     "norma": "BOE-A-1978-31229"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "84a3dca117b9",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 116.5 y 116.6 CE: no cabe disolver el Congreso; convocatoria automática; Diputación Permanente solo si disuelto o expirado",
+    "por": "persona"
+   },
+   "tema": 2
+  },
+  "q_02_41": {
+   "articulos": [
+    {
+     "art": "2",
+     "encontrado": true,
+     "norma": "BOE-A-1981-10325"
+    }
+   ],
+   "avisos": [],
+   "estado": "verificada",
+   "huella": "f42e2a92ea7b",
+   "motivos": [],
+   "tema": 2
+  },
+  "q_02_42": {
+   "articulos": [
+    {
+     "art": "6",
+     "encontrado": true,
+     "norma": "BOE-A-1981-10325"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "47758ce2548b",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 6.3 LO 3/1981: solo detención en flagrante delito; Sala de lo Penal del Tribunal Supremo",
+    "por": "persona"
+   },
+   "tema": 2
+  },
+  "q_02_43": {
+   "articulos": [
+    {
+     "art": "7",
+     "encontrado": true,
+     "norma": "BOE-A-1981-10325"
+    }
+   ],
+   "avisos": [],
+   "estado": "verificada",
+   "huella": "81a1123f2452",
+   "motivos": [],
+   "tema": 2
+  },
+  "q_02_44": {
+   "articulos": [
+    {
+     "art": "13",
+     "encontrado": true,
+     "norma": "BOE-A-1981-10325"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "b16a422a844d",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 13 LO 3/1981: quejas sobre la Administración de Justicia al Ministerio Fiscal o al CGPJ, según el tipo",
+    "por": "persona"
    },
    "tema": 2
   },
@@ -5476,6 +5742,320 @@
    },
    "tema": 9
   },
+  "q_09_31": {
+   "articulos": [
+    {
+     "art": "2",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    },
+    {
+     "art": "4",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    }
+   ],
+   "avisos": [
+    "Pregunta en negativo: se comprueban las cifras de las opciones verdaderas."
+   ],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "0c6163158356",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 2 LO 2/1986: FCS del Estado, Policías autonómicas y Policías locales; la seguridad privada solo tiene la especial obligación de colaborar del art. 4.2",
+    "por": "persona"
+   },
+   "tema": 9
+  },
+  "q_09_32": {
+   "articulos": [
+    {
+     "art": "4",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "1d03d5abd78b",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 4.2 LO 2/1986: especial obligación de auxiliar o colaborar en todo momento con las FCS",
+    "por": "persona"
+   },
+   "tema": 9
+  },
+  "q_09_33": {
+   "articulos": [
+    {
+     "art": "6",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "c6f11a4d6dfb",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 6.6 LO 2/1986: provisión de puestos de servicio por mérito, capacidad y antigüedad",
+    "por": "persona"
+   },
+   "tema": 9
+  },
+  "q_09_34": {
+   "articulos": [
+    {
+     "art": "7",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "f234c0b1e952",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 7.3 LO 2/1986: la Guardia Civil solo es fuerza armada en las misiones de carácter militar",
+    "por": "persona"
+   },
+   "tema": 9
+  },
+  "q_09_35": {
+   "articulos": [
+    {
+     "art": "8",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "9c369548ce40",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 8.2 LO 2/1986: establecimientos penitenciarios ordinarios, con separación del resto de detenidos o presos",
+    "por": "persona"
+   },
+   "tema": 9
+  },
+  "q_09_36": {
+   "articulos": [
+    {
+     "art": "9",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "af77a8a715a0",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 9.a LO 2/1986: Instituto Armado de naturaleza civil, dependiente del Ministro del Interior",
+    "por": "persona"
+   },
+   "tema": 9
+  },
+  "q_09_37": {
+   "articulos": [
+    {
+     "art": "11",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    },
+    {
+     "art": "12",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    }
+   ],
+   "avisos": [
+    "Pregunta en negativo: se comprueban las cifras de las opciones verdaderas."
+   ],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "b481aed63542",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Arts. 11.1 y 12.1.A.a LO 2/1986: DNI y pasaportes, competencia exclusiva del CNP; altas personalidades y protección civil son funciones comunes",
+    "por": "persona"
+   },
+   "tema": 9
+  },
+  "q_09_38": {
+   "articulos": [
+    {
+     "art": "12",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "33d804676527",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 12.1.B.f LO 2/1986: conducción interurbana de presos y detenidos, competencia de la Guardia Civil",
+    "por": "persona"
+   },
+   "tema": 9
+  },
+  "q_09_39": {
+   "articulos": [
+    {
+     "art": "14",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "1a636b3cfdc1",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 14.3 LO 2/1986: el Ministro de Defensa dispone el régimen de ascensos y situaciones de la Guardia Civil",
+    "por": "persona"
+   },
+   "tema": 9
+  },
+  "q_09_40": {
+   "articulos": [
+    {
+     "art": "15",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "f807f3e07558",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 15.1 LO 2/1986: separación del servicio por el Ministro de Defensa, a propuesta del de Interior",
+    "por": "persona"
+   },
+   "tema": 9
+  },
+  "q_09_41": {
+   "articulos": [
+    {
+     "art": "32",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "3aa935588d0e",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 32 LO 2/1986: el diploma de especialización es requisito para ocupar puestos en las Unidades de Policía Judicial",
+    "por": "persona"
+   },
+   "tema": 9
+  },
+  "q_09_42": {
+   "articulos": [
+    {
+     "art": "34",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "8ed4e2ffb142",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 34.1 LO 2/1986: no pueden ser removidos de la investigación salvo decisión o autorización del Juez o Fiscal competente",
+    "por": "persona"
+   },
+   "tema": 9
+  },
+  "q_09_43": {
+   "articulos": [
+    {
+     "art": "38",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "70fd464b3894",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 38.2.c LO 2/1986: función prioritaria de la Policía autonómica, sin perjuicio de la intervención estatal a requerimiento o por decisión propia",
+    "por": "persona"
+   },
+   "tema": 9
+  },
+  "q_09_44": {
+   "articulos": [
+    {
+     "art": "41",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "dbe99af81aa1",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 41.4 LO 2/1986: la licencia de armas la otorga en todo caso el Gobierno de la Nación",
+    "por": "persona"
+   },
+   "tema": 9
+  },
+  "q_09_45": {
+   "articulos": [
+    {
+     "art": "46",
+     "encontrado": true,
+     "norma": "BOE-A-1986-6859"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "5e230a92c21e",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 46.2 LO 2/1986: en actuaciones concurrentes dirigen los mandos de las FCS del Estado",
+    "por": "persona"
+   },
+   "tema": 9
+  },
   "q_10_01": {
    "articulos": [
     {
@@ -7946,6 +8526,281 @@
    "estado": "verificada",
    "huella": "27b71bf62c57",
    "motivos": [],
+   "tema": 14
+  },
+  "q_14_31": {
+   "articulos": [
+    {
+     "art": "5",
+     "encontrado": true,
+     "norma": "BOE-A-2015-3442"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "ed4f1bf03239",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 5.2.e LO 4/2015: Subdelegados del Gobierno y Directores Insulares; alcaldes como autoridades locales en el art. 5.4",
+    "por": "persona"
+   },
+   "tema": 14
+  },
+  "q_14_32": {
+   "articulos": [
+    {
+     "art": "7",
+     "encontrado": true,
+     "norma": "BOE-A-2015-3442"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "431504c723c7",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 7.2 LO 4/2015: colaboración de particulares en la medida necesaria, sin riesgo personal, con indemnización de daños",
+    "por": "persona"
+   },
+   "tema": 14
+  },
+  "q_14_33": {
+   "articulos": [
+    {
+     "art": "9",
+     "encontrado": true,
+     "norma": "BOE-A-2015-3442"
+    },
+    {
+     "art": "11",
+     "encontrado": true,
+     "norma": "BOE-A-2015-3442"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "d52f48801222",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Arts. 9.2 (DNI: tan pronto como sea posible, comisaría o puesto más próximo) y 11.4 (pasaporte: de manera inmediata, FCS o Representación) LO 4/2015",
+    "por": "persona"
+   },
+   "tema": 14
+  },
+  "q_14_34": {
+   "articulos": [
+    {
+     "art": "11",
+     "encontrado": true,
+     "norma": "BOE-A-2015-3442"
+    }
+   ],
+   "avisos": [
+    "Pregunta en negativo: se comprueban las cifras de las opciones verdaderas."
+   ],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "57db9def9276",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 11.2 LO 4/2015: cuatro excepciones tasadas, ninguna por multas administrativas",
+    "por": "persona"
+   },
+   "tema": 14
+  },
+  "q_14_35": {
+   "articulos": [
+    {
+     "art": "11",
+     "encontrado": true,
+     "norma": "BOE-A-2015-3442"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "f37c16be1d6c",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 11.3 LO 4/2015: consentimiento expreso de quien ejerza la patria potestad o, en su defecto, del órgano judicial",
+    "por": "persona"
+   },
+   "tema": 14
+  },
+  "q_14_36": {
+   "articulos": [
+    {
+     "art": "13",
+     "encontrado": true,
+     "norma": "BOE-A-2015-3442"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "a4d4ab29652d",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 13.2 LO 4/2015: privación de la documentación de origen solo en investigaciones judiciales de carácter penal",
+    "por": "persona"
+   },
+   "tema": 14
+  },
+  "q_14_37": {
+   "articulos": [
+    {
+     "art": "39",
+     "encontrado": true,
+     "norma": "BOE-A-2015-3442"
+    }
+   ],
+   "avisos": [],
+   "estado": "verificada",
+   "huella": "a4bc4da2c0d5",
+   "motivos": [],
+   "tema": 14
+  },
+  "q_14_38": {
+   "articulos": [
+    {
+     "art": "18",
+     "encontrado": true,
+     "norma": "BOE-A-2015-3442"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "ad156c7811ad",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 18.2 LO 4/2015: ocupación temporal incluso de armas portadas con licencia, permiso o autorización",
+    "por": "persona"
+   },
+   "tema": 14
+  },
+  "q_14_39": {
+   "articulos": [
+    {
+     "art": "19",
+     "encontrado": true,
+     "norma": "BOE-A-2015-3442"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "f9a49b218dbd",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 19 LO 4/2015: constancia de la negativa a firmar; presunción de veracidad salvo prueba en contrario; sin formalidades de la detención",
+    "por": "persona"
+   },
+   "tema": 14
+  },
+  "q_14_40": {
+   "articulos": [
+    {
+     "art": "21",
+     "encontrado": true,
+     "norma": "BOE-A-2015-3442"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "21cfc55347b5",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 21 LO 4/2015: los agentes pueden adoptarlas por urgencia, incluso mediante órdenes verbales",
+    "por": "persona"
+   },
+   "tema": 14
+  },
+  "q_14_41": {
+   "articulos": [
+    {
+     "art": "23",
+     "encontrado": true,
+     "norma": "BOE-A-2015-3442"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "0bf40528f11a",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 23.3 LO 4/2015: disolución sin previo aviso ante alteración con armas, explosivos u objetos contundentes o peligrosos",
+    "por": "persona"
+   },
+   "tema": 14
+  },
+  "q_14_42": {
+   "articulos": [
+    {
+     "art": "42",
+     "encontrado": true,
+     "norma": "BOE-A-2015-3442"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "ff9a946e9b88",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 42.3 LO 4/2015: responsabilidad solidaria de padres, tutores, curadores, acogedores o guardadores del menor no emancipado",
+    "por": "persona"
+   },
+   "tema": 14
+  },
+  "q_14_43": {
+   "articulos": [
+    {
+     "art": "43",
+     "encontrado": true,
+     "norma": "BOE-A-2015-3442"
+    }
+   ],
+   "avisos": [],
+   "estado": "verificada",
+   "huella": "c8d1a95a81e8",
+   "motivos": [],
+   "tema": 14
+  },
+  "q_14_44": {
+   "articulos": [
+    {
+     "art": "52",
+     "encontrado": true,
+     "norma": "BOE-A-2015-3442"
+    }
+   ],
+   "avisos": [],
+   "estado": "revisada",
+   "estado_auto": "referencia",
+   "huella": "0081d952b367",
+   "motivos": [],
+   "revision": {
+    "fecha": "2026-11-15",
+    "nota": "Art. 52 LO 4/2015: base suficiente previa ratificación, salvo prueba en contrario",
+    "por": "persona"
+   },
    "tema": 14
   },
   "q_15_01": {
@@ -19577,8 +20432,8 @@
  "resumen": {
   "no_verificable": 7,
   "referencia": 0,
-  "revisada": 799,
+  "revisada": 837,
   "revisar": 0,
-  "verificada": 206
+  "verificada": 211
  }
 }

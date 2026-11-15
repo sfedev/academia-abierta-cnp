@@ -976,6 +976,188 @@
       "explicacion": "Según el art. 38.3, la prescripción se interrumpe por cualquier actuación administrativa dirigida a la sanción de la infracción de la que tenga conocimiento formal el interesado, y el cómputo se reanuda si el procedimiento está paralizado más de un mes por causa no imputable al presunto responsable. La Ley no fija plazos de quince días ni de tres meses, y la paralización que cuenta es la no imputable al presunto responsable.",
       "ref": "art. 38.3 LO 4/2015",
       "dificultad": 3
+    },
+    {
+      "id": "q_14_31",
+      "enunciado": "¿Cuál de las siguientes figura expresamente en el art. 5.2 de la LO 4/2015 como autoridad competente en materia de seguridad ciudadana en el ámbito de la Administración General del Estado?",
+      "opciones": [
+        "Los Subdelegados del Gobierno en las provincias y los Directores Insulares.",
+        "Los Jefes Superiores de Policía.",
+        "Los Alcaldes de los municipios de gran población."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.2 enumera como autoridades de la Administración General del Estado al Ministro del Interior, al Secretario de Estado de Seguridad, a los titulares de órganos directivos del Ministerio que tengan atribuida esa condición, a los Delegados del Gobierno y a los **Subdelegados del Gobierno y Directores Insulares**. Los Jefes Superiores de Policía son mandos policiales, no autoridades de la lista, y los Alcaldes son autoridades locales que ejercen sus facultades conforme a la LO 2/1986 y la legislación de régimen local (art. 5.4).",
+      "ref": "art. 5 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "id": "q_14_32",
+      "enunciado": "Según el art. 7 de la LO 4/2015, las autoridades y los agentes de las Fuerzas y Cuerpos de Seguridad pueden recabar de los particulares su ayuda y colaboración para los fines de la Ley:",
+      "opciones": [
+        "Solo en los casos de grave calamidad pública o catástrofe extraordinaria, y aunque implique riesgo personal.",
+        "En la medida necesaria, especialmente en casos de grave calamidad pública o catástrofe extraordinaria, siempre que no implique riesgo personal para ellos.",
+        "En cualquier caso, y la negativa a prestarla constituye infracción grave."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 7.2 permite recabar la ayuda de los particulares **en la medida necesaria**, **especialmente** en casos de grave calamidad pública o catástrofe extraordinaria, **siempre que no implique riesgo personal** para ellos, y quienes sufran daños por ello serán indemnizados. No se limita a esos casos, no admite el riesgo personal y el precepto no configura la negativa como infracción.",
+      "ref": "art. 7.2 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "id": "q_14_33",
+      "enunciado": "Según la LO 4/2015, de la sustracción o extravío del Documento Nacional de Identidad y del pasaporte debe darse cuenta, respectivamente:",
+      "opciones": [
+        "En ambos casos, en el plazo de 24 horas, a la Dirección General de la Policía.",
+        "Del DNI, de manera inmediata a la Dirección General de la Policía; del pasaporte, en el plazo de diez días a la Representación Diplomática.",
+        "Del DNI, tan pronto como sea posible a la comisaría de Policía o puesto de las Fuerzas y Cuerpos de Seguridad más próximo; del pasaporte, de manera inmediata a las Fuerzas y Cuerpos de Seguridad o, en su caso, a la Representación Diplomática o Consular de España en el extranjero."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 9.2 exige dar cuenta de la sustracción o extravío del **DNI tan pronto como sea posible** a la comisaría o puesto de las Fuerzas y Cuerpos de Seguridad **más próximo**. Para el **pasaporte**, el art. 11.4 exige hacerlo **de manera inmediata** a las Fuerzas y Cuerpos de Seguridad o, en su caso, a la Representación Diplomática o Consular de España en el extranjero. La Ley no fija plazos en horas ni en días.",
+      "ref": "arts. 9.2 y 11.4 LO 4/2015",
+      "dificultad": 3
+    },
+    {
+      "id": "q_14_34",
+      "enunciado": "El art. 11 de la LO 4/2015 reconoce a los españoles el derecho a que se les expida el pasaporte y enumera las únicas excepciones. ¿Cuál de las siguientes NO es una de ellas?",
+      "opciones": [
+        "Tener pendiente de pago una multa impuesta por una infracción grave de la propia LO 4/2015.",
+        "Haber sido condenado a una pena privativa de libertad no extinguida, salvo autorización del órgano judicial competente.",
+        "Tener impuesta una medida de libertad vigilada con prohibición de abandonar el territorio nacional, salvo autorización judicial."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 11.2 solo permite exceptuar la expedición en cuatro supuestos: condena a penas o medidas de seguridad **privativas de libertad** no extinguidas (salvo autorización judicial), **retirada del pasaporte** acordada judicialmente, **libertad vigilada** con prohibición de abandonar el territorio (salvo autorización judicial) y **prohibición judicial** de salida o de expedición para menores o personas con la capacidad modificada judicialmente. Una multa administrativa pendiente no figura entre ellos.",
+      "ref": "art. 11.2 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "id": "q_14_35",
+      "enunciado": "Según la LO 4/2015, la obtención del pasaporte por un menor sujeto a patria potestad está condicionada a:",
+      "opciones": [
+        "La autorización del Ministerio Fiscal en todo caso.",
+        "El consentimiento expreso de quienes ejerzan la patria potestad o, en su defecto, del órgano judicial competente.",
+        "Que el menor haya cumplido catorce años."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 11.3 condiciona la obtención del pasaporte por quienes están sujetos a patria potestad o tutela al **consentimiento expreso** de las personas u órgano que tengan encomendado su ejercicio o, **en su defecto, del órgano judicial competente**. No interviene el Ministerio Fiscal ni se exige edad mínima; los catorce años son la edad a partir de la cual el DNI es obligatorio (art. 9.1).",
+      "ref": "art. 11.3 LO 4/2015",
+      "dificultad": 1
+    },
+    {
+      "id": "q_14_36",
+      "enunciado": "Según el art. 13 de la LO 4/2015, los extranjeros que se encuentren en territorio español pueden ser privados de su documentación de origen:",
+      "opciones": [
+        "Cuando se encuentren en situación irregular, mientras se tramita su expulsión.",
+        "Por orden de los agentes de la autoridad, durante un máximo de seis horas.",
+        "Solo en el curso de investigaciones judiciales de carácter penal."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 13.2 dispone que los extranjeros **no podrán ser privados de su documentación de origen, salvo en el curso de investigaciones judiciales de carácter penal**. Están obligados a exhibirla y permitir la comprobación de sus medidas de seguridad por el tiempo imprescindible (art. 13.3), pero eso no es privarles de ella. Las seis horas son el límite de permanencia en dependencias policiales para identificar (art. 16.2).",
+      "ref": "art. 13.2 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "id": "q_14_37",
+      "enunciado": "¿Con qué multa se sancionan las infracciones leves tipificadas en la LO 4/2015?",
+      "opciones": [
+        "De 100 a 600 euros.",
+        "De 60 a 600 euros.",
+        "De 100 a 1.000 euros."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 39.1 sanciona las infracciones **leves** con multa **de 100 a 600 euros**; las graves, de 601 a 30.000 euros, y las muy graves, de 30.001 a 600.000 euros.",
+      "ref": "art. 39.1 LO 4/2015",
+      "dificultad": 1
+    },
+    {
+      "id": "q_14_38",
+      "enunciado": "Según el art. 18 de la LO 4/2015, para prevenir la comisión de un delito o cuando exista peligro para la seguridad de las personas o de los bienes, los agentes pueden proceder a la ocupación temporal de objetos, instrumentos o medios de agresión:",
+      "opciones": [
+        "Salvo las armas que se porten con licencia, permiso o autorización, que no pueden ocuparse sin orden judicial.",
+        "Incluso de las armas que se porten con licencia, permiso o autorización, si se estima necesario.",
+        "Solo si previamente se ha detenido a su portador."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 18.2 permite la **ocupación temporal** de cualesquiera objetos, instrumentos o medios de agresión, **incluso de las armas que se porten con licencia, permiso o autorización** si se estima necesario, para prevenir cualquier delito o cuando exista peligro para personas o bienes. No exige orden judicial ni detención previa.",
+      "ref": "art. 18.2 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "id": "q_14_39",
+      "enunciado": "Durante un registro en la vía pública, los agentes aprehenden sustancias estupefacientes y el interesado se niega a firmar el acta. Según el art. 19 de la LO 4/2015:",
+      "opciones": [
+        "El acta carece de valor y debe solicitarse la presencia de un testigo.",
+        "Debe practicarse la detención, porque la diligencia queda sujeta a las formalidades de la detención.",
+        "Se deja constancia expresa de su negativa, y el acta goza de presunción de veracidad de los hechos consignados, salvo prueba en contrario."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 19.2 exige hacer constar la aprehensión en un acta firmada por el interesado y, **si se negara a firmarla**, **dejar constancia expresa de su negativa**; el acta goza de **presunción de veracidad** de los hechos consignados, salvo prueba en contrario. Además, el art. 19.1 aclara que estas diligencias **no están sujetas a las formalidades de la detención**.",
+      "ref": "art. 19 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "id": "q_14_40",
+      "enunciado": "Las medidas de seguridad extraordinarias del art. 21 de la LO 4/2015 (cierre o desalojo de locales, prohibición del paso, evacuación de inmuebles o espacios públicos acotados):",
+      "opciones": [
+        "Pueden adoptarlas los agentes de la autoridad si la urgencia lo hiciera imprescindible, incluso mediante órdenes verbales.",
+        "Solo puede acordarlas el Delegado del Gobierno, por escrito y motivadamente.",
+        "Requieren autorización judicial previa cuando afecten a establecimientos privados."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 21 atribuye estas medidas a las autoridades competentes en situaciones de emergencia que las hagan imprescindibles y por el tiempo estrictamente necesario, pero añade que **pueden adoptarse por los agentes de la autoridad** si la urgencia de la situación lo hiciera imprescindible, **incluso mediante órdenes verbales**. No exige autorización judicial.",
+      "ref": "art. 21 LO 4/2015",
+      "dificultad": 1
+    },
+    {
+      "id": "q_14_41",
+      "enunciado": "Según el art. 23 de la LO 4/2015, ¿en qué caso pueden las Fuerzas y Cuerpos de Seguridad disolver una reunión o manifestación sin necesidad de previo aviso?",
+      "opciones": [
+        "Siempre que la reunión no haya sido comunicada previamente a la autoridad gubernativa.",
+        "Cuando se produzca una alteración de la seguridad ciudadana con armas, artefactos explosivos u objetos contundentes o de cualquier otro modo peligrosos.",
+        "Cuando los asistentes superen el número previsto en la comunicación."
+      ],
+      "correcta": 1,
+      "explicacion": "La regla general del art. 23.3 es avisar antes a los afectados, verbalmente si la urgencia lo exige, y la disolución es el último recurso (art. 23.2). La excepción es que se produzca una **alteración de la seguridad ciudadana con armas, artefactos explosivos u objetos contundentes o de cualquier otro modo peligrosos**: entonces pueden disolver **sin previo aviso**. La falta de comunicación o el exceso de asistentes no la habilitan por sí solos.",
+      "ref": "art. 23 LO 4/2015",
+      "dificultad": 3
+    },
+    {
+      "id": "q_14_42",
+      "enunciado": "Un menor de dieciséis años no emancipado es declarado autor de una infracción de la LO 4/2015 que ha causado daños. Según el art. 42, de esos daños y perjuicios responden:",
+      "opciones": [
+        "Solo el menor, con su propio patrimonio.",
+        "Sus padres o tutores, de forma subsidiaria y solo si el menor es insolvente.",
+        "Solidariamente con él, sus padres, tutores, curadores, acogedores o guardadores legales o de hecho, según proceda."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 42.3 dispone que, cuando el autor sea un **menor de dieciocho años no emancipado** o una persona con la capacidad modificada judicialmente, responden **solidariamente** con él sus padres, tutores, curadores, acogedores o guardadores legales o de hecho. Además, la responsabilidad civil derivada de una infracción es siempre solidaria entre todos los causantes del daño (art. 42.2). Los menores de catorce años, en cambio, están exentos de responsabilidad por la infracción (art. 30.2).",
+      "ref": "art. 42 LO 4/2015",
+      "dificultad": 2
+    },
+    {
+      "id": "q_14_43",
+      "enunciado": "Los asientos del Registro Central de Infracciones contra la Seguridad Ciudadana se cancelan de oficio, a contar desde la firmeza de la sanción, transcurridos:",
+      "opciones": [
+        "Tres años para las muy graves, dos años para las graves y uno para las leves.",
+        "Cinco años para las muy graves, tres años para las graves y uno para las leves.",
+        "Dos años para las muy graves, un año para las graves y seis meses para las leves."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 43.3 dispone que los asientos se cancelan de oficio transcurridos **tres años** (muy graves), **dos años** (graves) y **uno** (leves), desde la firmeza de la sanción. El Registro se crea en el Ministerio del Interior **a efectos exclusivamente de apreciar la reincidencia** (art. 43.1).",
+      "ref": "art. 43.3 LO 4/2015",
+      "dificultad": 3
+    },
+    {
+      "id": "q_14_44",
+      "enunciado": "En un procedimiento sancionador de la LO 4/2015, ¿qué valor tiene la denuncia formulada por un agente de la autoridad que presenció los hechos, si el denunciado los niega?",
+      "opciones": [
+        "Ninguno: si el denunciado niega los hechos, la Administración debe aportar otra prueba.",
+        "Constituye prueba plena que no admite prueba en contrario.",
+        "Previa ratificación del agente, constituye base suficiente para adoptar la resolución que proceda, salvo prueba en contrario."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 52 establece que las denuncias, atestados o actas de los agentes que hubiesen **presenciado los hechos**, **previa ratificación** en caso de haber sido negados por los denunciados, constituyen **base suficiente** para resolver, **salvo prueba en contrario**, sin perjuicio de que deban aportar todos los elementos probatorios disponibles. No es prueba plena irrebatible ni pierde su valor por la mera negativa.",
+      "ref": "art. 52 LO 4/2015",
+      "dificultad": 2
     }
   ],
   "dudas": [

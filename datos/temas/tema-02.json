@@ -964,6 +964,188 @@
       "explicacion": "Art. 18.2 CE: ninguna entrada o registro puede hacerse en el domicilio sin consentimiento del titular o resolución judicial, salvo en caso de flagrante delito. Art. 18.3 CE: se garantiza el secreto de las comunicaciones y, en especial, de las postales, telegráficas y telefónicas, salvo resolución judicial. El precepto no recoge el flagrante delito ni la orden del Ministerio Fiscal como excepciones al secreto de las comunicaciones.",
       "ref": "art. 18.2 y 18.3 CE",
       "dificultad": 3
+    },
+    {
+      "id": "q_02_31",
+      "enunciado": "Según el artículo 1.2 de la Constitución, la soberanía nacional reside en:",
+      "opciones": [
+        "El pueblo español, del que emanan los poderes del Estado.",
+        "Las Cortes Generales, que representan al pueblo español.",
+        "La Nación española, cuya unidad simboliza el Rey."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 1.2 CE dispone que la **soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado**. Las Cortes Generales representan al pueblo español (art. 66.1), pero no son las titulares de la soberanía, y la forma política del Estado es la Monarquía parlamentaria (art. 1.3).",
+      "ref": "art. 1.2 CE",
+      "dificultad": 1
+    },
+    {
+      "id": "q_02_32",
+      "enunciado": "Según el artículo 4.1 de la Constitución, la bandera de España está formada por tres franjas horizontales, roja, amarilla y roja:",
+      "opciones": [
+        "Las tres de igual anchura.",
+        "Siendo la amarilla de doble anchura que cada una de las rojas.",
+        "Siendo cada una de las rojas de doble anchura que la amarilla."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 4.1 CE describe la bandera con tres franjas horizontales, roja, amarilla y roja, **siendo la amarilla de doble anchura que cada una de las rojas**. El art. 4.2 añade que las banderas autonómicas se usan **junto a** la de España en los edificios públicos y actos oficiales de las Comunidades.",
+      "ref": "art. 4 CE",
+      "dificultad": 1
+    },
+    {
+      "id": "q_02_33",
+      "enunciado": "Según el artículo 25.3 de la Constitución, la Administración civil:",
+      "opciones": [
+        "Puede imponer arresto domiciliario como sanción administrativa, con un máximo de quince días.",
+        "Solo puede imponer sanciones privativas de libertad previa autorización judicial.",
+        "No puede imponer sanciones que, directa o subsidiariamente, impliquen privación de libertad."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 25.3 CE prohíbe a la **Administración civil** imponer sanciones que, **directa o subsidiariamente**, impliquen **privación de libertad**. No admite excepciones ni con autorización judicial.",
+      "ref": "art. 25.3 CE",
+      "dificultad": 2
+    },
+    {
+      "id": "q_02_34",
+      "enunciado": "Según el artículo 20.5 de la Constitución, el secuestro de publicaciones, grabaciones y otros medios de información solo podrá acordarse:",
+      "opciones": [
+        "En virtud de resolución judicial.",
+        "Por el Ministro del Interior, dando cuenta al juez en veinticuatro horas.",
+        "Durante la vigencia de los estados de excepción o de sitio."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 20.5 CE establece que **solo** podrá acordarse el secuestro de publicaciones, grabaciones y otros medios de información **en virtud de resolución judicial**. Además, el art. 20.2 prohíbe restringir estos derechos mediante ningún tipo de **censura previa**.",
+      "ref": "art. 20.5 CE",
+      "dificultad": 1
+    },
+    {
+      "id": "q_02_35",
+      "enunciado": "Señale la afirmación INCORRECTA sobre el derecho de asociación del artículo 22 de la Constitución:",
+      "opciones": [
+        "Las asociaciones deben inscribirse en un registro a los solos efectos de publicidad.",
+        "Las asociaciones pueden ser suspendidas en sus actividades por resolución gubernativa motivada.",
+        "Se prohíben las asociaciones secretas y las de carácter paramilitar."
+      ],
+      "correcta": 1,
+      "explicacion": "Según el art. 22.4 CE, las asociaciones **solo** pueden ser disueltas o suspendidas en sus actividades **en virtud de resolución judicial motivada**, nunca por resolución gubernativa. Son correctas la inscripción en un registro **a los solos efectos de publicidad** (art. 22.3) y la prohibición de las asociaciones **secretas y paramilitares** (art. 22.5).",
+      "ref": "art. 22 CE",
+      "dificultad": 3
+    },
+    {
+      "id": "q_02_36",
+      "enunciado": "El artículo 26 de la Constitución prohíbe los Tribunales de Honor:",
+      "opciones": [
+        "En todos los ámbitos, incluido el militar.",
+        "Solo en el ámbito de las organizaciones profesionales.",
+        "En el ámbito de la Administración civil y de las organizaciones profesionales."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 26 CE prohíbe los Tribunales de Honor **en el ámbito de la Administración civil y de las organizaciones profesionales**. La prohibición no menciona el ámbito militar, de modo que no es una prohibición «en todos los ámbitos», ni se limita a las organizaciones profesionales.",
+      "ref": "art. 26 CE",
+      "dificultad": 2
+    },
+    {
+      "id": "q_02_37",
+      "enunciado": "Según el artículo 29 de la Constitución, los miembros de las Fuerzas o Institutos armados o de los Cuerpos sometidos a disciplina militar pueden ejercer el derecho de petición:",
+      "opciones": [
+        "Solo individualmente y con arreglo a lo dispuesto en su legislación específica.",
+        "Individual y colectivamente, como el resto de los españoles.",
+        "Solo colectivamente, a través de sus asociaciones profesionales."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 29.1 CE reconoce a todos los españoles el derecho de petición **individual y colectiva**, por escrito, pero el art. 29.2 limita a los miembros de las Fuerzas o Institutos armados o Cuerpos sometidos a disciplina militar a ejercerlo **solo individualmente** y con arreglo a su **legislación específica**.",
+      "ref": "art. 29 CE",
+      "dificultad": 2
+    },
+    {
+      "id": "q_02_38",
+      "enunciado": "Además de regular el procedimiento de habeas corpus, el artículo 17.4 de la Constitución remite a la ley la determinación de:",
+      "opciones": [
+        "El plazo máximo de la detención preventiva.",
+        "El plazo máximo de duración de la prisión provisional.",
+        "Los supuestos en que el detenido puede ser obligado a declarar."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 17.4 CE dispone que la ley regulará el **habeas corpus** y que por ley se determinará el **plazo máximo de duración de la prisión provisional**. El plazo máximo de la detención preventiva lo fija la propia Constitución en setenta y dos horas (art. 17.2), y el art. 17.3 establece que el detenido **no puede ser obligado a declarar**.",
+      "ref": "art. 17 CE",
+      "dificultad": 2
+    },
+    {
+      "id": "q_02_39",
+      "enunciado": "Según el artículo 116.3 de la Constitución, la duración del estado de excepción:",
+      "opciones": [
+        "No podrá exceder de quince días, prorrogables solo con autorización del Congreso.",
+        "La determina libremente el Congreso por mayoría absoluta.",
+        "No podrá exceder de treinta días, prorrogables por otro plazo igual con los mismos requisitos."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 116.3 CE fija para el **estado de excepción** una duración que **no podrá exceder de treinta días, prorrogables por otro plazo igual**, con los mismos requisitos (decreto del Gobierno previa autorización del Congreso). Los quince días corresponden al **estado de alarma** (art. 116.2) y la determinación de duración y condiciones por el Congreso, al **estado de sitio** (art. 116.4).",
+      "ref": "art. 116.3 CE",
+      "dificultad": 1
+    },
+    {
+      "id": "q_02_40",
+      "enunciado": "Según el artículo 116.5 de la Constitución, mientras esté declarado alguno de los estados de alarma, excepción o sitio:",
+      "opciones": [
+        "No podrá procederse a la disolución del Congreso, y las Cámaras quedan automáticamente convocadas si no estuvieran en periodo de sesiones.",
+        "Las competencias del Congreso las asume en todo caso su Diputación Permanente.",
+        "Queda en suspenso el principio de responsabilidad del Gobierno y de sus agentes."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 116.5 CE impide **disolver el Congreso** mientras estén declarados estos estados y dispone que las Cámaras quedan **automáticamente convocadas** si no estuvieran en periodo de sesiones. La Diputación Permanente solo asume las competencias del Congreso si este estuviera ya disuelto o hubiera expirado su mandato, y el art. 116.6 mantiene intacto el principio de responsabilidad del Gobierno y sus agentes.",
+      "ref": "art. 116.5 y 116.6 CE",
+      "dificultad": 3
+    },
+    {
+      "id": "q_02_41",
+      "enunciado": "¿Para qué periodo es elegido el Defensor del Pueblo por las Cortes Generales?",
+      "opciones": [
+        "Cuatro años.",
+        "Cinco años.",
+        "Seis años."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 2.1 de la LO 3/1981 dispone que el Defensor del Pueblo es elegido por las Cortes Generales **para un periodo de cinco años** y se dirige a ellas a través de los Presidentes del Congreso y del Senado.",
+      "ref": "art. 2 LO 3/1981",
+      "dificultad": 1
+    },
+    {
+      "id": "q_02_42",
+      "enunciado": "Fuera de los actos realizados en el ejercicio de las competencias propias de su cargo, y mientras permanezca en él, el Defensor del Pueblo:",
+      "opciones": [
+        "Goza de inmunidad absoluta y no puede ser procesado hasta su cese.",
+        "Solo puede ser detenido con autorización previa de las Mesas de ambas Cámaras.",
+        "No puede ser detenido ni retenido sino en caso de flagrante delito, y la decisión sobre su inculpación, prisión, procesamiento y juicio corresponde exclusivamente a la Sala de lo Penal del Tribunal Supremo."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 6.3 de la LO 3/1981 establece que, en los demás casos (fuera de la inviolabilidad por opiniones y actos en el ejercicio de su cargo del art. 6.2), el Defensor del Pueblo **no puede ser detenido ni retenido sino en caso de flagrante delito**, y la decisión sobre su inculpación, prisión, procesamiento y juicio corresponde **exclusivamente a la Sala de lo Penal del Tribunal Supremo**. Estas reglas se aplican también a los Adjuntos (art. 6.4).",
+      "ref": "art. 6 LO 3/1981",
+      "dificultad": 2
+    },
+    {
+      "id": "q_02_43",
+      "enunciado": "Una persona es nombrada Defensor del Pueblo mientras desempeña un cargo incompatible. Según la LO 3/1981:",
+      "opciones": [
+        "Debe cesar en la situación de incompatibilidad dentro de los diez días siguientes a su nombramiento y antes de tomar posesión; en caso contrario, se entiende que no acepta el nombramiento.",
+        "Dispone de un mes desde la toma de posesión para cesar en el cargo incompatible.",
+        "La Comisión Mixta Congreso-Senado puede dispensarle de la incompatibilidad."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 7.2 de la LO 3/1981 obliga a cesar en toda situación de incompatibilidad **dentro de los diez días siguientes al nombramiento y antes de tomar posesión**; si no lo hace, **se entiende que no acepta** el nombramiento. Si la incompatibilidad es sobrevenida tras la toma de posesión, se entiende que renuncia al cargo en la fecha en que se produjo (art. 7.3). La ley no prevé dispensas.",
+      "ref": "art. 7 LO 3/1981",
+      "dificultad": 3
+    },
+    {
+      "id": "q_02_44",
+      "enunciado": "Cuando el Defensor del Pueblo recibe quejas referidas al funcionamiento de la Administración de Justicia, según el artículo 13 de la LO 3/1981 debe:",
+      "opciones": [
+        "Investigarlas directamente, como cualquier otra queja sobre la Administración pública.",
+        "Dirigirlas al Ministerio Fiscal para que investigue su realidad, o bien dar traslado de ellas al Consejo General del Poder Judicial, según el tipo de reclamación.",
+        "Rechazarlas, por no estar el Poder Judicial sujeto a su supervisión, sin poder mencionarlas en su informe."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 13 de la LO 3/1981 ordena dirigir esas quejas **al Ministerio Fiscal** para que investigue su realidad y adopte las medidas oportunas, **o bien dar traslado al Consejo General del Poder Judicial**, según el tipo de reclamación, sin perjuicio de que el Defensor pueda referirse a ellas en su **informe general** a las Cortes. No las investiga directamente ni está impedido de mencionarlas.",
+      "ref": "art. 13 LO 3/1981",
+      "dificultad": 3
     }
   ],
   "dudas": [
