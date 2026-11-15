@@ -8,7 +8,8 @@ Anexo I de la Resolución de 7 de julio de 2026 (BOE-A-2026-15055).
   (las cifras exactas salen de `build.py` y aparecen en el pie de la web).
 - Simulacro de 100 preguntas en 50 minutos con el reparto de los cinco últimos exámenes.
 - Calculadora de pruebas físicas (Anexo II) y resumen del proceso selectivo, con el requisito de idioma A2.
-- Práctica de psicotécnicos (series y cálculo) y examen oficial importado localmente con calibración de nivel.
+- Práctica de psicotécnicos (series, cálculo, atención, razonamiento abstracto y verbal) y examen oficial importado
+  localmente con calibración de nivel.
 - Guía de estudio en 4 días por tema (estructura, resumen, trampas y tarjetas, test) con el tiempo estimado de cada
   día según la extensión y el peso del tema, y un planificador de ritmo en el Panel que calcula cuándo se termina la
   primera vuelta al temario.
@@ -137,9 +138,13 @@ aproximado del plazo (15 días hábiles sin contar sábados ni domingos; los fes
 
 La pestaña **Psicotécnicos** explica la estrategia con la penalización: con la fórmula de las bases, contestar al
 azar no gana ni pierde de media, y en cuanto se descarta una opción contestar compensa. También tiene trucos de
-cálculo y una práctica cronometrada con ejercicios generados al momento: series numéricas y de letras (alfabeto de
-27 letras, con la Ñ), porcentajes, regla de tres y cálculo mental. Son ejercicios originales del tipo habitual en
-estas pruebas, no un modelo oficial: las bases no publican el tipo de ejercicios.
+cálculo y una práctica cronometrada con ejercicios generados al momento, a elegir por tipo o mezclados: series
+numéricas y de letras (alfabeto de 27 letras, con la Ñ), porcentajes, regla de tres y cálculo mental; atención (copiar
+un código, contar pares iguales, contar un carácter entre otros parecidos); razonamiento abstracto con símbolos
+(desplazamientos, cambios de posición y matrices de 4 × 4), y razonamiento verbal (palabras cifradas con un
+desplazamiento fijo y orden alfabético). Cada generador produce una sola opción que cumple la regla, y las pruebas
+`f10` la recalculan desde el enunciado. Son ejercicios originales del tipo habitual en estas pruebas, no un modelo
+oficial: las bases no publican el tipo de ejercicios.
 
 ## Publicar (y por qué existe `dist/`)
 

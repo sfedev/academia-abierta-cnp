@@ -857,6 +857,46 @@ details.clave-rapida ul { margin: 10px 0 0; padding: 0 14px 0 32px; display: gri
 .lista-simple { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; line-height: 1.5; overflow-wrap: break-word; }
 .tbl td.r, .tbl th.r { text-align: right; font-variant-numeric: tabular-nums; }
 .tbl--estrecha table { min-width: 0; }
+/* Eleccion del tipo: tarjetas pulsables con nombre y lo que entrena */
+.psico-tipos { display: grid; gap: 8px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.psico-tipo--todos { grid-column: 1 / -1; min-height: 52px; }
+.psico-tipo {
+  display: grid; gap: 2px; align-content: start; text-align: left; padding: 10px 12px; min-height: 64px; border-radius: var(--radius);
+  border: 1.5px solid var(--line-strong); background: var(--surface); color: var(--ink); font: inherit; cursor: pointer; overflow-wrap: break-word;
+  transition: border-color 0.15s, background-color 0.15s, transform 0.08s;
+}
+.psico-tipo strong { font-weight: 600; }
+.psico-tipo span { font-size: 0.82rem; line-height: 1.35; color: var(--muted); }
+.psico-tipo:hover { border-color: var(--accent); background: var(--accent-soft); }
+.psico-tipo:active { transform: scale(0.98); }
+.psico-tipo[aria-pressed="true"] { border-color: var(--accent); background: var(--accent); color: var(--accent-ink); }
+.psico-tipo[aria-pressed="true"] span { color: var(--accent-ink); }
+/* Datos del ejercicio (codigos, filas de simbolos, matriz, palabras) en letra de ancho fijo */
+.psico-datos {
+  display: grid; gap: 8px; margin-bottom: 16px; padding: 14px 16px; border-radius: var(--radius); background: var(--surface-2); color: var(--ink);
+  font-family: var(--font-mono); font-size: 1.2rem; line-height: 1.45; overflow-x: auto; overflow-wrap: anywhere;
+}
+.psico-fila { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; }
+.psico-celda { min-width: 1.4em; text-align: center; white-space: nowrap; }
+.psico-hueco { color: var(--accent); font-weight: 500; }
+.psico-datos--pares .psico-fila, .psico-datos--palabras .psico-fila { column-gap: 1.6em; }
+.psico-datos--matriz { justify-content: start; }
+.psico-datos--matriz .psico-fila { flex-wrap: nowrap; gap: 6px; }
+.psico-datos--matriz .psico-celda { display: grid; place-items: center; width: 2.2em; height: 2.2em; border: 1px solid var(--line-strong); border-radius: 8px; background: var(--surface); }
+.psico-op { font-family: var(--font-mono); font-size: 1.12rem; letter-spacing: 0.02em; }
+/* Las figuras geometricas no estan en la fuente mono: el sistema las dibuja mas pequenas, de ahi el tamano mayor */
+.psico-datos.psico-datos--simb { font-size: 1.6rem; line-height: 1.3; }
+.psico-op--simb { font-size: 1.5rem; line-height: 1.2; }
+.psico-datos--matriz .psico-oculta { border-style: dashed; color: var(--muted); }
+.rev .psico-datos { font-size: 1rem; margin: 0 0 4px; }
+.rev .psico-datos.psico-datos--simb { font-size: 1.3rem; }
+@media (max-width: 767px) {
+  .psico-datos { font-size: 1.08rem; padding: 12px; }
+  .psico-datos.psico-datos--simb { font-size: 1.35rem; }
+  .psico-fila { column-gap: 10px; }
+}
+@media (min-width: 768px) { .psico-tipos { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 1024px) { .psico-tipos { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
 
 /* ---------- Motivacion: racha, desafio diario, niveles por tema, logros y dudas (web/js/motivacion.js) ----------
    Solo colores de la paleta. La animacion de entrada es corta, solo desplaza (si el navegador la congela en una
