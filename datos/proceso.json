@@ -52,5 +52,65 @@
     "calificacion": "Apto o no apto: el tribunal fija la puntuación mínima.",
     "cuando": "Se hacen en el mismo acto que la prueba de conocimientos (base 6.7), pero solo se corrigen a quien supera las pruebas anteriores (base 6.8).",
     "impugnacion": "Dos días hábiles desde la publicación del cuestionario para impugnar preguntas (base 6.2)."
+  },
+  "entrevista": {
+    "base": "6.1.3.b",
+    "finalidad": "Es una entrevista de carácter profesional y personal para comprobar la idoneidad de cada aspirante, con criterios que tienen incidencia directa en la función policial. Las cuestiones que plantea el tribunal van encaminadas a determinar la idoneidad para el desarrollo futuro de las funciones policiales.",
+    "quien": "La hace al menos una persona del tribunal calificador, con el asesoramiento de los especialistas que se estimen necesarios.",
+    "criterios": [
+      "Socialización",
+      "Comunicación",
+      "Orientación hacia las metas",
+      "Características de la personalidad",
+      "Observaciones clínicas",
+      "Competencias profesionales"
+    ],
+    "criteriosNota": "La convocatoria nombra los seis criterios, pero no los define ni publica las preguntas.",
+    "calificacion": [
+      "Se parte de **6 puntos**, uno por cada criterio.",
+      "Por cada criterio valorado negativamente se resta su punto.",
+      "Para ser **apto** hay que conservar los 6 puntos: con menos de 6 al terminar la entrevista, **no apto**, y quien no es apto queda excluido del proceso selectivo."
+    ],
+    "motivacion": "Un «no apto» tiene que motivarse en un informe que indique las fuentes de información del juicio técnico, los criterios de valoración usados y por qué llevan a ese resultado; se informa de esa motivación cuando el tribunal publica el resultado (art. 17.4 de la Orden INT/632/2024, al que remite la base 6.1.3.b).",
+    "antes": [
+      "Antes de la entrevista puede hacerse un **cuestionario de información biográfica**: datos y aspectos de tu vida y tu opinión sobre las cuestiones que se planteen. Tiene instrucciones específicas de obligado cumplimiento.",
+      "También pueden hacerse **pruebas de exploración del perfil de personalidad**. Son información complementaria para que el tribunal oriente la entrevista: la evaluación nunca puede depender solo de ellas.",
+      "La entrevista se evalúa con los resultados y conclusiones obtenidos **exclusivamente durante su transcurso**."
+    ],
+    "desarrollo": [
+      "La entrevista **se graba**.",
+      "Se celebra en **Madrid**, salvo que el tribunal fije otras sedes (base 6.7).",
+      "La citación se publica en policia.es con al menos **48 horas** de antelación (base 6.8).",
+      "**Llamamiento único**: quien no comparece queda excluido, sea cual sea la causa, con la única excepción que prevé el artículo 35 del Reglamento de procesos selectivos para las aspirantes (base 6.6).",
+      "Hay que identificarse con un documento **original en soporte físico**: no vale enseñarlo en el móvil (base 6.10)."
+    ],
+    "documentos": [
+      "**Currículum vitae** y **vida laboral** (base 6.1.3.b).",
+      "Título de **Bachiller** o equivalente: original y copia auténtica. Si alegas una equivalencia, cita la norma que la reconoce o aporta un certificado del Ministerio de Educación (base 7.1.a).",
+      "**Certificado de idioma** (inglés o francés) del nivel exigido, de los admitidos en el Anexo VI (base 7.1.b).",
+      "Si los alegas como méritos: certificados de idiomas de nivel superior (base 7.1.e), servicios en las Fuerzas Armadas (7.1.c) y condición de deportista de alto nivel (7.1.d)."
+    ],
+    "documentosSinAutorizacion": [
+      "DNI: original y copia auténtica.",
+      "Certificado de antecedentes penales del Ministerio de Justicia.",
+      "Permiso de conducir de la clase B sin restricciones: original y copia auténtica."
+    ],
+    "documentosSinAutorizacionTexto": "Además, si en la solicitud no autorizaste a la División de Formación y Perfeccionamiento a consultar tus datos (Registro Central de Penados, permiso de conducir en la DGT y verificación de identidad), lleva también (base 7.1):",
+    "formalidades": "Los documentos tienen que ser originales o copias autorizadas o compulsadas en todas sus páginas; no valen los enviados por fax o sistemas parecidos (base 7.2). Si falta un documento o tiene defectos, hay diez días hábiles para subsanarlo; después, el tribunal no admite ninguno y anula las actuaciones de quien no acredite los requisitos (base 7.4).",
+    "trayectoria": {
+      "nota": "Estas preguntas no salen de la convocatoria: sirven para ordenar tu propia trayectoria antes de contarla. Contesta con hechos reales; lo que digas debe coincidir con tus documentos.",
+      "items": [
+        {"id": "cv", "titulo": "Tu currículum, al día", "pista": "Estudios, trabajos, cursos e idiomas con fechas. Lo entregas el día de la entrevista."},
+        {"id": "vida-laboral", "titulo": "Tu vida laboral, revisada", "pista": "Comprueba que empresas y fechas coinciden con el currículum. De cada empleo: qué hacías, por qué empezaste y por qué terminaste."},
+        {"id": "estudios", "titulo": "Tus estudios", "pista": "Qué estudiaste, dónde y cuándo; qué terminaste, qué dejaste y por qué."},
+        {"id": "periodos", "titulo": "Los periodos sin estudiar ni trabajar", "pista": "Qué hiciste en cada uno y entre qué fechas."},
+        {"id": "decision", "titulo": "Por qué quieres ser policía", "pista": "Cuándo lo decidiste, qué te llevó a ello y cómo te has preparado (también la parte física)."},
+        {"id": "funciones", "titulo": "Las funciones de la Policía Nacional", "pista": "Repasa los principios básicos de actuación (art. 5) y las funciones (art. 11) de la LO 2/1986 en el tema 9 para hablar de la profesión con propiedad."},
+        {"id": "metas", "titulo": "Objetivos que te has propuesto", "pista": "En estudios, trabajo, deporte o la propia oposición: qué te propusiste, cómo lo organizaste y cómo salió."},
+        {"id": "grupo", "titulo": "Experiencias con otras personas", "pista": "Trabajo, equipos deportivos, voluntariado, convivencia: qué papel tenías y cómo te relacionabas."},
+        {"id": "dificultad", "titulo": "Una situación difícil", "pista": "Un problema, conflicto o error real: qué pasó, qué hiciste y qué aprendiste."},
+        {"id": "coherencia", "titulo": "Coherencia con tus documentos", "pista": "Lo que cuentes tiene que cuadrar con el currículum, la vida laboral y, si lo hiciste, el cuestionario biográfico."}
+      ]
+    }
   }
 }

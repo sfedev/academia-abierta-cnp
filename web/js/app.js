@@ -13,6 +13,7 @@
     ["oficiales", "Exámenes oficiales"],
     ["psicotecnicos", "Psicotécnicos"],
     ["fisicas", "Pruebas físicas"],
+    ["entrevista", "Entrevista"],
     ["proceso", "Proceso"],
     ["progreso", "Progreso"],
   ];
@@ -24,7 +25,7 @@
     ["test", "Tests", '<circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/>'],
     ["tarjetas", "Tarjetas", '<rect x="3" y="8" width="14" height="12" rx="2"/><path d="M7 8V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-2"/>'],
   ];
-  var MAS = ["novedades", "oficiales", "psicotecnicos", "fisicas", "proceso", "progreso"];
+  var MAS = ["novedades", "oficiales", "psicotecnicos", "fisicas", "entrevista", "proceso", "progreso"];
 
   var host, nav, tabbar, hoja, fondoHoja, btnMas, lastRendered = null;
 
@@ -67,6 +68,7 @@
       else if (r === "test") vista = AA.test.vista();
       else if (r === "tarjetas") vista = AA.tarjetasUI.vista();
       else if (r === "fisicas") vista = V.fisicas();
+      else if (r === "entrevista") vista = V.entrevista();
       else if (r === "proceso") vista = V.proceso();
       else if (r === "progreso") vista = V.progreso();
       else vista = V.noEncontrado();

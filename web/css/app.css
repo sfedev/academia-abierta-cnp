@@ -972,3 +972,48 @@ details.clave-rapida ul { margin: 10px 0 0; padding: 0 14px 0 32px; display: gri
 .logro-txt small { font-size: 0.8rem; }
 .logro--on .logro-txt small { color: var(--ink-2); }
 .logro--on .logro-txt small.logro-fecha { color: var(--ok); font-weight: 600; }
+
+/* ---------- Pruebas fisicas: registro de marcas y evolucion (web/js/paginas.js, logica en web/js/marcas.js) ---------- */
+.marca-sig { margin-top: 8px; font-size: 0.86rem; color: var(--ink-2); overflow-wrap: break-word; }
+.marca-campo { display: grid; gap: 6px; min-width: 0; font-weight: 600; font-size: 0.9rem; }
+.marca-campo small { font-weight: 400; color: var(--muted); }
+.marca-error { margin-top: 10px; color: var(--ko); font-size: 0.9rem; font-weight: 600; overflow-wrap: break-word; }
+.marca-error:empty { display: none; }
+.ejer h3 { margin-bottom: 10px; }
+.ejer-cifras b { font-size: 1.3rem; }
+.evo { margin: 14px 0 0; }
+.evo-marco { position: relative; height: 150px; border-left: 1px solid var(--line-strong); border-bottom: 1px solid var(--line-strong); background: var(--surface); }
+.evo-area { position: absolute; inset: 14px 16px 14px 14px; color: var(--accent); }
+.evo-svg, .evo-svg svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.evo-pt { position: absolute; width: 10px; height: 10px; margin: -5px 0 0 -5px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 2px var(--surface); transition: transform 0.12s; }
+.evo-pt:hover { transform: scale(1.5); }
+.evo-pt.ult { width: 14px; height: 14px; margin: -7px 0 0 -7px; }
+.evo-obj { position: absolute; left: -14px; right: -16px; border-top: 2px dashed var(--ok); }
+.evo-obj span { position: absolute; right: 4px; bottom: 2px; padding: 0 6px; border-radius: 6px; background: var(--surface); color: var(--ok); font-size: 0.74rem; font-weight: 600; white-space: nowrap; }
+.evo-ejes { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; margin-top: 6px; font-size: 0.76rem; color: var(--muted); }
+.marcas-hist { margin-top: 12px; }
+.marcas-hist summary { display: flex; align-items: center; min-height: 44px; cursor: pointer; color: var(--accent); font-weight: 600; font-size: 0.9rem; }
+.marcas-hist summary:hover { text-decoration: underline; }
+.marcas-lista { list-style: none; margin: 0; padding: 0; }
+.marcas-lista li { display: grid; grid-template-columns: minmax(0, 6.5rem) minmax(0, 1fr) minmax(0, 5.5rem) auto; gap: 8px 12px; align-items: center; padding: 6px 0; border-top: 1px solid var(--line); font-size: 0.9rem; }
+
+/* ---------- Entrevista personal ---------- */
+.criterios { margin: 0; padding-left: 1.4em; display: grid; gap: 6px 18px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); font-weight: 600; }
+.tray-lista { list-style: none; margin: 0; padding: 0; }
+.tray-item { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 12px; padding: 14px 0; border-top: 1px solid var(--line); }
+.tray-item:first-child { border-top: 0; padding-top: 0; }
+.tray-chk { width: 24px; height: 24px; margin: 0; accent-color: var(--ok); cursor: pointer; }
+.tray-txt { min-width: 0; overflow-wrap: break-word; }
+.tray-txt > label { display: inline-flex; align-items: center; min-height: 24px; cursor: pointer; }
+.tray-txt > p { margin-top: 2px; font-size: 0.92rem; color: var(--ink-2); }
+.tray-notas { margin-top: 6px; }
+.tray-notas summary { display: inline-flex; align-items: center; min-height: 44px; cursor: pointer; color: var(--accent); font-weight: 600; font-size: 0.88rem; }
+.tray-notas summary:hover { text-decoration: underline; }
+.tray-notas textarea { width: 100%; resize: vertical; }
+
+@media (max-width: 767px) {
+  .marcas-lista li { grid-template-columns: minmax(0, 5.8rem) minmax(0, 1fr) auto; gap: 2px 10px; }
+  .marcas-lista li > .muted { grid-column: 2; grid-row: 2; font-size: 0.84rem; }
+  .marcas-lista li > .btn { grid-column: 3; grid-row: 1 / span 2; }
+  .evo-marco { height: 130px; }
+}

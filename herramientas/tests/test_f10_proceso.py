@@ -82,6 +82,32 @@ class EsquemaProceso(unittest.TestCase):
         self.assertIn("n−1", ps["formula"])
         self.assertRegex(ps["calificacion"], r"[Aa]pto o no apto")
 
+    def test_entrevista(self):
+        """Base 6.1.3.b: seis criterios, seis puntos iniciales (uno por criterio) y apto solo con los seis; base 7.1:
+        documentos que se entregan el día de la entrevista."""
+        e = self.p["entrevista"]
+        self.assertEqual(e["base"], "6.1.3.b")
+        self.assertEqual(e["criterios"], ["Socialización", "Comunicación", "Orientación hacia las metas",
+                                          "Características de la personalidad", "Observaciones clínicas",
+                                          "Competencias profesionales"])
+        cal = " ".join(e["calificacion"])
+        self.assertIn("**6 puntos**", cal)
+        self.assertIn("uno por cada criterio", cal)
+        self.assertRegex(cal, r"menos de 6.*no apto")
+        self.assertIn("art. 17.4 de la Orden INT/632/2024", e["motivacion"])
+        self.assertTrue(any("se graba" in x for x in e["desarrollo"]))
+        docs = " ".join(e["documentos"])
+        for trozo in ("Currículum vitae", "vida laboral", "Bachiller", "Certificado de idioma", "Anexo VI", "7.1.b"):
+            self.assertIn(trozo, docs)
+        self.assertEqual(len(e["documentosSinAutorizacion"]), 3)
+        self.assertIn("diez días hábiles", e["formalidades"])
+        tray = e["trayectoria"]
+        self.assertIn("no salen de la convocatoria", tray["nota"])
+        ids = [x["id"] for x in tray["items"]]
+        self.assertEqual(len(ids), len(set(ids)))
+        for it in tray["items"]:
+            self.assertTrue(it["titulo"].strip() and it["pista"].strip(), it["id"])
+
     def test_sin_mojibake(self):
         txt = leer(PROCESO)
         self.assertNotRegex(txt, r"Ã.|â€|�")
@@ -126,6 +152,11 @@ class WebUsaProceso(unittest.TestCase):
             self.assertIn(trozo, txt)
         # La sección del idioma va antes de las pruebas de la oposición
         self.assertLess(txt.index("Idioma: nivel A2 obligatorio"), txt.index("Pruebas de la fase de oposición"))
+
+    def test_entrevista_lee_las_bases(self):
+        txt = leer(os.path.join(WEB_JS, "paginas.js"))
+        for trozo in ("V.entrevista", "P.entrevista", "E.criterios", "E.documentos", "store.prepararEntrevista"):
+            self.assertIn(trozo, txt)
 
     def test_panel_recuerda_el_a2_hasta_marcarlo(self):
         txt = leer(os.path.join(WEB_JS, "vistas.js"))

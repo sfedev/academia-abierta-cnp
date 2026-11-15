@@ -1,4 +1,4 @@
-// Carga util.js, store.js, motivacion.js y test.js de la web en un contexto aislado (sin navegador), con reloj, azar y
+// Carga util.js, marcas.js, store.js, motivacion.js y test.js de la web en un contexto aislado (sin navegador), con reloj, azar y
 // almacenamiento controlados, para poder probar su lógica.
 "use strict";
 const vm = require("node:vm");
@@ -43,7 +43,9 @@ function cargarWeb(opts) {
   opts = opts || {};
   const c = crearContexto(opts);
   if (opts.datosReales) cargarScript(c.ctx, path.join(WEB, "data", "datos.js"), "datos.js");
+  cargarScript(c.ctx, path.join(WEB, "data", "fisicas.js"), "fisicas.js");
   cargarScript(c.ctx, path.join(WEB, "js", "util.js"), "util.js");
+  cargarScript(c.ctx, path.join(WEB, "js", "marcas.js"), "marcas.js"); // como en index.html, antes de store.js
   cargarScript(c.ctx, path.join(WEB, "js", "store.js"), "store.js");
   cargarScript(c.ctx, path.join(WEB, "js", "motivacion.js"), "motivacion.js"); // como en index.html, justo tras store.js
   if (opts.test || opts.oficiales) cargarScript(c.ctx, path.join(WEB, "js", "test.js"), "test.js");

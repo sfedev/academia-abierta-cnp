@@ -176,7 +176,7 @@ Las de convocatoria (`vigilar_convocatoria.py`) tienen `"tipo": "convocatoria"`,
 
 ## 7. Otros
 
-- `datos/proceso.json`: bases de la convocatoria (`fuente`, `calendario2026`, `idioma`, `psicotecnicos`); `build.py`
+- `datos/proceso.json`: bases de la convocatoria (`fuente`, `calendario2026`, `idioma`, `psicotecnicos`, `entrevista`); `build.py`
   lo publica en `AA_META.proceso`.
 - `web/data/fisicas.js`: `window.AA_FISICAS`, baremos del Anexo II (listas `[límite, puntos]` de la mejor a la peor
   marca). Se edita a mano.
