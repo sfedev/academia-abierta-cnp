@@ -1,11 +1,11 @@
 # Auditoría automática del banco de preguntas
 
-Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 normas del BOE en caché.
+Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 7 de 116 normas del BOE en caché.
 
 | Estado | Preguntas | % |
 |---|---|---|
-| Verificada (cifras en el artículo) | 201 | 20.4 % |
-| Revisada a mano | 777 | 78.9 % |
+| Verificada (cifras en el artículo) | 206 | 20.4 % |
+| Revisada a mano | 799 | 79.0 % |
 | Artículo vigente, sin cifras que comprobar | 0 | 0.0 % |
 | Pendiente de revisar | 0 | 0.0 % |
 | Fuente no comprobable automáticamente | 7 | 0.7 % |
@@ -47,6 +47,8 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 no
 - q_08_19 (tema 8): Una respuesta incorrecta usa una cifra que también está en el artículo: 6 mes.
 - q_08_20 (tema 8): Una respuesta incorrecta usa una cifra que también está en el artículo: 6 mes.
 - q_08_25 (tema 8): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_08_48 (tema 8): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_08_53 (tema 8): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 dia, 4 dia, 6 ano.
 - q_09_04 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_09_09 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_09_14 (tema 9): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
