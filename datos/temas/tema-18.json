@@ -915,6 +915,149 @@
       "explicacion": "El art. 252.1 castiga con las penas de los arts. 248 o 250 a quien, teniendo facultades para administrar un patrimonio ajeno emanadas de la ley, encomendadas por la autoridad o asumidas mediante un negocio jurídico, las infringe excediéndose en su ejercicio y causa un perjuicio al patrimonio administrado. No es apropiación indebida, porque el art. 253 exige apropiarse de lo recibido o negar haberlo recibido, ni estafa, porque no hay engaño que lleve a otro a un acto de disposición (art. 248).",
       "ref": "arts. 252, 253 y 248 CP",
       "dificultad": 3
+    },
+    {
+      "id": "q_18_31",
+      "enunciado": "¿Cuál de las siguientes NO es una de las circunstancias que, según el art. 238 del Código Penal, convierten el apoderamiento en robo con fuerza en las cosas?",
+      "opciones": [
+        "Entrar por una puerta que el propietario había dejado abierta por descuido.",
+        "Inutilizar sistemas específicos de alarma o guarda.",
+        "El escalamiento."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 238 CP enumera cinco circunstancias: **escalamiento**; rompimiento de pared, techo o suelo, o fractura de puerta o ventana; fractura de muebles u objetos cerrados o forzamiento de sus cerraduras o descubrimiento de sus claves; **uso de llaves falsas**; e **inutilización de sistemas específicos de alarma o guarda**. Aprovechar una puerta abierta no supone fuerza en las cosas: el apoderamiento sería, en principio, hurto.",
+      "ref": "art. 238 CP",
+      "dificultad": 1
+    },
+    {
+      "id": "q_18_32",
+      "enunciado": "Un sujeto abre la puerta de un garaje ajeno con un mando a distancia que no es el destinado por el propietario para abrirla y se lleva una moto. Según los arts. 238 y 239 del Código Penal:",
+      "opciones": [
+        "Es hurto, porque un mando a distancia no es una llave.",
+        "Es robo con fuerza, porque a estos efectos se consideran llaves los mandos o instrumentos de apertura a distancia y ese mando es una llave falsa.",
+        "Es robo con fuerza solo si el mando se obtuvo mediante un delito."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 239 CP considera **llaves falsas**, entre otras, **cualesquiera llaves que no sean las destinadas por el propietario** para abrir la cerradura, y precisa que a estos efectos son llaves las **tarjetas magnéticas o perforadas** y los **mandos o instrumentos de apertura a distancia**. El uso de llaves falsas es una forma de fuerza en las cosas (art. 238.4.º). La obtención mediante infracción penal es solo uno de los supuestos de llave falsa (llaves legítimas obtenidas así), no un requisito general.",
+      "ref": "arts. 238 y 239 CP",
+      "dificultad": 2
+    },
+    {
+      "id": "q_18_33",
+      "enunciado": "A efectos del delito de robo, ¿qué se considera casa habitada según el art. 241.2 del Código Penal?",
+      "opciones": [
+        "Todo albergue que constituya morada de una o más personas, aunque accidentalmente se encuentren ausentes de ella cuando el robo tenga lugar.",
+        "Solo la vivienda en la que haya alguien presente en el momento del robo.",
+        "Cualquier inmueble con licencia de primera ocupación, esté o no ocupado."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 241.2 CP define casa habitada como **todo albergue que constituya morada** de una o más personas, **aunque accidentalmente se encuentren ausentes** cuando el robo tenga lugar. No exige presencia de moradores ni atiende a requisitos administrativos. Sus dependencias son los patios, garajes y demás sitios cercados y contiguos, en comunicación interior y formando una unidad física (art. 241.3).",
+      "ref": "art. 241.2 CP",
+      "dificultad": 2
+    },
+    {
+      "id": "q_18_34",
+      "enunciado": "Un robo con fuerza en las cosas se comete en un establecimiento abierto al público, pero fuera de las horas de apertura. Según el art. 241.1 del Código Penal, la pena es de prisión de:",
+      "opciones": [
+        "Dos a cinco años, igual que si se cometiera en horario de apertura.",
+        "Uno a tres años, la del robo con fuerza básico.",
+        "Uno a cinco años."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 241.1 CP castiga el robo en casa habitada, edificio o local abiertos al público o sus dependencias con prisión **de dos a cinco años**, pero, si se comete en un **establecimiento abierto al público fuera de las horas de apertura**, la pena es de **uno a cinco años**. La pena básica del robo con fuerza es de uno a tres años (art. 240.1).",
+      "ref": "art. 241.1 CP",
+      "dificultad": 3
+    },
+    {
+      "id": "q_18_35",
+      "enunciado": "Según el art. 242.1 del Código Penal, el robo con violencia o intimidación en las personas se castiga con:",
+      "opciones": [
+        "Prisión de uno a tres años.",
+        "Prisión de dos a cinco años, sin perjuicio de la pena que pudiera corresponder a los actos de violencia física que realizase.",
+        "Prisión de tres a seis años, que absorbe la de las lesiones causadas."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 242.1 CP castiga el robo con violencia o intimidación con **prisión de dos a cinco años**, **sin perjuicio** de la pena que corresponda por los **actos de violencia física** realizados, que se castigan aparte. Uno a tres años es la pena básica del robo con fuerza en las cosas (art. 240.1).",
+      "ref": "art. 242.1 CP",
+      "dificultad": 1
+    },
+    {
+      "id": "q_18_36",
+      "enunciado": "Cuando el robo con violencia o intimidación se comete en casa habitada, edificio o local abiertos al público o en cualquiera de sus dependencias, el art. 242.2 del Código Penal impone prisión de:",
+      "opciones": [
+        "Dos a seis años.",
+        "Tres a seis años.",
+        "Tres años y seis meses a cinco años."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 242.2 CP fija para ese supuesto una pena de **prisión de tres años y seis meses a cinco años**. Si además el delincuente usa armas u otros medios igualmente peligrosos, la pena se impone en su mitad superior (art. 242.3). Dos a seis años es la pena del robo con fuerza en casa habitada de especial gravedad (art. 241.4).",
+      "ref": "art. 242.2 CP",
+      "dificultad": 2
+    },
+    {
+      "id": "q_18_37",
+      "enunciado": "En un robo con intimidación, el juez valora que la intimidación ejercida fue de menor entidad. Según el art. 242.4 del Código Penal:",
+      "opciones": [
+        "Podrá imponer la pena inferior en grado, valorando además las restantes circunstancias del hecho.",
+        "Debe calificar el hecho como hurto.",
+        "Debe imponer la pena en su mitad inferior, sin posibilidad de bajar de grado."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 242.4 CP permite, **en atención a la menor entidad** de la violencia o intimidación y valorando las restantes circunstancias del hecho, imponer **la pena inferior en grado**. Es una facultad del juez («podrá»), no una obligación, y el hecho sigue siendo robo.",
+      "ref": "art. 242.4 CP",
+      "dificultad": 2
+    },
+    {
+      "id": "q_18_38",
+      "enunciado": "Quien, con violencia o intimidación en las personas, ocupa una cosa inmueble o usurpa un derecho real inmobiliario de pertenencia ajena es castigado, según el art. 245.1 del Código Penal, con:",
+      "opciones": [
+        "Multa de tres a seis meses.",
+        "Prisión de uno a dos años, además de las penas en que incurra por las violencias ejercidas.",
+        "Prisión de dos a cinco años, como el robo con violencia."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 245.1 CP castiga la usurpación violenta con **prisión de uno a dos años**, que se fija teniendo en cuenta la utilidad obtenida y el daño causado, **además de las penas por las violencias** ejercidas. La multa de tres a seis meses corresponde a la ocupación **sin violencia** de inmuebles que no constituyen morada (art. 245.2).",
+      "ref": "art. 245 CP",
+      "dificultad": 2
+    },
+    {
+      "id": "q_18_39",
+      "enunciado": "Un hijo mayor de edad y un amigo suyo sustraen juntos, sin violencia ni intimidación, dinero de la casa de la madre del primero. Según el art. 268 del Código Penal:",
+      "opciones": [
+        "Ambos quedan exentos de responsabilidad criminal y sujetos solo a la civil.",
+        "Ninguno queda exento, porque actuaron en grupo.",
+        "El hijo queda exento de responsabilidad criminal y sujeto solo a la civil; el amigo responde penalmente, porque la exención no se aplica a los extraños que participen en el delito."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 268.1 CP exime de responsabilidad criminal, dejando solo la civil, a los parientes que enumera (entre ellos los **descendientes**) por los delitos patrimoniales que se causen entre sí sin violencia, intimidación ni abuso de la vulnerabilidad de la víctima. Pero el art. 268.2 dispone que esta disposición **no es aplicable a los extraños que participaren en el delito**.",
+      "ref": "art. 268 CP",
+      "dificultad": 3
+    },
+    {
+      "id": "q_18_40",
+      "enunciado": "Una persona que no ha intervenido como autor ni como cómplice en un robo compra, con ánimo de lucro y sabiendo su procedencia, varios objetos robados. Según el art. 298.1 del Código Penal, como regla general comete:",
+      "opciones": [
+        "Receptación, castigada con prisión de seis meses a dos años.",
+        "Blanqueo de capitales, castigado con prisión de seis meses a seis años.",
+        "Encubrimiento, castigado con multa de seis a doce meses."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 298.1 CP castiga como **receptación**, con **prisión de seis meses a dos años**, a quien, con ánimo de lucro y conocimiento de un delito contra el patrimonio o el orden socioeconómico en el que no intervino como autor ni cómplice, ayude a aprovecharse de sus efectos o los **reciba, adquiera u oculte**. La pena sube a uno a tres años en los supuestos agravados del mismo apartado. El blanqueo (art. 301) es otro delito, referido a bienes de origen delictivo en general.",
+      "ref": "art. 298.1 CP",
+      "dificultad": 2
+    },
+    {
+      "id": "q_18_41",
+      "enunciado": "Según el art. 301 del Código Penal, el blanqueo de capitales doloso se castiga con prisión de seis meses a seis años y multa del tanto al triplo del valor de los bienes. ¿Qué pena prevé si los hechos se realizan por imprudencia grave?",
+      "opciones": [
+        "No es punible: el blanqueo solo se castiga si es doloso.",
+        "Prisión de seis meses a dos años y multa del tanto al triplo.",
+        "Solo multa del tanto al duplo."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 301.3 CP castiga el blanqueo cometido por **imprudencia grave** con **prisión de seis meses a dos años y multa del tanto al triplo**. Es uno de los casos en que la ley prevé expresamente la imprudencia (art. 12 CP). La modalidad dolosa del art. 301.1 se castiga con prisión de seis meses a seis años y multa del tanto al triplo, en su mitad superior si los bienes proceden del tráfico de drogas.",
+      "ref": "art. 301 CP",
+      "dificultad": 3
     }
   ],
   "dudas": [

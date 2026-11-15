@@ -4,11 +4,11 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 no
 
 | Estado | Preguntas | % |
 |---|---|---|
-| Verificada (cifras en el artículo) | 211 | 20.0 % |
-| Revisada a mano | 837 | 79.3 % |
+| Verificada (cifras en el artículo) | 221 | 20.3 % |
+| Revisada a mano | 863 | 79.1 % |
 | Artículo vigente, sin cifras que comprobar | 0 | 0.0 % |
 | Pendiente de revisar | 0 | 0.0 % |
-| Fuente no comprobable automáticamente | 7 | 0.7 % |
+| Fuente no comprobable automáticamente | 7 | 0.6 % |
 
 ## Preguntas pendientes de revisar
 
@@ -104,6 +104,9 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 no
 - q_16_17 (tema 16): Una respuesta incorrecta usa una cifra que también está en el artículo: 10 ano, 20 ano.
 - q_16_27 (tema 16): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 mes.
 - q_16_29 (tema 16): Una respuesta incorrecta usa una cifra que también está en el artículo: 15 ano, 25 ano.
+- q_16_38 (tema 16): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_16_40 (tema 16): Una respuesta incorrecta usa una cifra que también está en el artículo: 5 ano, 5000 euro.
+- q_16_42 (tema 16): Una respuesta incorrecta usa una cifra que también está en el artículo: 5 ano.
 - q_17_01 (tema 17): Una respuesta incorrecta usa una cifra que también está en el artículo: 25 ano.
 - q_17_02 (tema 17): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_17_04 (tema 17): Una respuesta incorrecta usa una cifra que también está en el artículo: 15 ano, 25 ano.
@@ -131,6 +134,12 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 no
 - q_18_26 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 mes, 6 mes.
 - q_18_28 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 48 hora.
 - q_18_29 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 12 mes, 250000 euro, 6 ano.
+- q_18_31 (tema 18): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_18_32 (tema 18): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_18_35 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano, 6 ano.
+- q_18_36 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 6 ano.
+- q_18_38 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 6 mes.
+- q_18_40 (tema 18): Una respuesta incorrecta usa una cifra que también está en el artículo: 12 mes, 6 ano.
 - q_19_01 (tema 19): Una respuesta incorrecta usa una cifra que también está en el artículo: 3 ano, 3 mes.
 - q_19_02 (tema 19): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 ano, 3 ano, 6 mes.
 - q_19_04 (tema 19): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
@@ -157,6 +166,8 @@ Generada el 2026-11-15 por `herramientas/auditar_preguntas.py` con 116 de 116 no
 - q_21_24 (tema 21): Respuesta calculada (fechas u horas): el auditor solo comprueba el artículo.
 - q_21_26 (tema 21): Una respuesta incorrecta usa una cifra que también está en el artículo: 72 hora.
 - q_21_30 (tema 21): Una respuesta incorrecta usa una cifra que también está en el artículo: 1 vez.
+- q_21_42 (tema 21): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
+- q_21_43 (tema 21): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_22_03 (tema 22): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_22_12 (tema 22): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.
 - q_23_08 (tema 23): Pregunta en negativo: se comprueban las cifras de las opciones verdaderas.

@@ -2183,6 +2183,54 @@
   "nota": "CP (consolidado 09/04/2026) art. 132.2, regla 2.ª: querella suspende hasta seis meses; interrupcion retroactiva si hay resolucion motivada",
   "por": "ia"
  },
+ "q_16_31": {
+  "fecha": "2026-11-15",
+  "huella": "46fe52d90ce2",
+  "nota": "Art. 8 CP: especialidad, subsidiariedad, consunción y, en su defecto, el precepto más grave excluye a los de pena menor",
+  "por": "persona"
+ },
+ "q_16_32": {
+  "fecha": "2026-11-15",
+  "huella": "4c1846ca21ef",
+  "nota": "Art. 12 CP: la imprudencia solo se castiga cuando expresamente lo disponga la Ley",
+  "por": "persona"
+ },
+ "q_16_33": {
+  "fecha": "2026-11-15",
+  "huella": "7eaa9120337b",
+  "nota": "Art. 13.4 CP: pena leve y menos grave a la vez, delito leve; grave y menos grave, delito grave",
+  "por": "persona"
+ },
+ "q_16_34": {
+  "fecha": "2026-11-15",
+  "huella": "4a6204a67464",
+  "nota": "Art. 17.1 y 17.3 CP: conspiración, punible solo en los casos especialmente previstos",
+  "por": "persona"
+ },
+ "q_16_35": {
+  "fecha": "2026-11-15",
+  "huella": "69cefa28fdf3",
+  "nota": "Art. 18.2 CP: si a la provocación sigue el delito, se castiga como inducción",
+  "por": "persona"
+ },
+ "q_16_36": {
+  "fecha": "2026-11-15",
+  "huella": "cab47b9ca82d",
+  "nota": "Art. 23 CP: parentesco, circunstancia que puede atenuar o agravar",
+  "por": "persona"
+ },
+ "q_16_37": {
+  "fecha": "2026-11-15",
+  "huella": "1f09cdb2cd44",
+  "nota": "Art. 30 CP: sin responsabilidad de cómplices ni favorecedores; autores en orden escalonado, primero quien redactó el texto",
+  "por": "persona"
+ },
+ "q_16_38": {
+  "fecha": "2026-11-15",
+  "huella": "7cc2faa5297a",
+  "nota": "Arts. 32 y 35 CP: la inhabilitación es pena privativa de derechos, no de libertad",
+  "por": "persona"
+ },
  "q_17_02": {
   "fecha": "2026-10-16",
   "huella": "1f94b2e1a693",
@@ -2320,6 +2368,36 @@
   "huella": "10b46edf80ca",
   "nota": "Arts. 252.1, 253.1 y 248 CP vigentes: administración desleal por exceso en facultades encomendadas por la autoridad",
   "por": "ia"
+ },
+ "q_18_31": {
+  "fecha": "2026-11-15",
+  "huella": "82fadc229d88",
+  "nota": "Art. 238 CP: cinco circunstancias tasadas de fuerza en las cosas; aprovechar una puerta abierta no es ninguna",
+  "por": "persona"
+ },
+ "q_18_32": {
+  "fecha": "2026-11-15",
+  "huella": "a9268a83cff4",
+  "nota": "Art. 239 CP: llaves que no sean las destinadas por el propietario; los mandos de apertura a distancia se consideran llaves",
+  "por": "persona"
+ },
+ "q_18_33": {
+  "fecha": "2026-11-15",
+  "huella": "c2f793b444dd",
+  "nota": "Art. 241.2 CP: albergue que constituya morada, aunque los moradores estén accidentalmente ausentes",
+  "por": "persona"
+ },
+ "q_18_37": {
+  "fecha": "2026-11-15",
+  "huella": "36c3229688f7",
+  "nota": "Art. 242.4 CP: por la menor entidad de la violencia o intimidación, podrá imponerse la pena inferior en grado",
+  "por": "persona"
+ },
+ "q_18_39": {
+  "fecha": "2026-11-15",
+  "huella": "99701fd36026",
+  "nota": "Art. 268 CP: exención del descendiente sin violencia ni intimidación; no aplicable a extraños que participen",
+  "por": "persona"
  },
  "q_19_04": {
   "fecha": "2026-10-16",
@@ -2572,6 +2650,84 @@
   "huella": "4eced71566fa",
   "nota": "Art. 29.2 y 29.3 EOMF vigente: propuesta comunicada al Congreso; juramento ante el Rey y posesión ante el Pleno del TS",
   "por": "ia"
+ },
+ "q_21_31": {
+  "fecha": "2026-11-15",
+  "huella": "7b9f37d77aae",
+  "nota": "Art. 1.d LO 6/1984: ilegalmente detenidas las personas a las que no se respetan los derechos que garantizan la Constitución y las leyes procesales",
+  "por": "persona"
+ },
+ "q_21_32": {
+  "fecha": "2026-11-15",
+  "huella": "d2a4ab6d6647",
+  "nota": "Art. 2 LO 6/1984: detenciones del art. 55.2 CE ante el Juez Central de Instrucción",
+  "por": "persona"
+ },
+ "q_21_33": {
+  "fecha": "2026-11-15",
+  "huella": "dd741c2621ab",
+  "nota": "Art. 4 LO 6/1984: escrito o comparecencia sin intervención preceptiva de Abogado ni Procurador",
+  "por": "persona"
+ },
+ "q_21_34": {
+  "fecha": "2026-11-15",
+  "huella": "eb6eef5ad8af",
+  "nota": "Art. 5 LO 6/1984: comunicación inmediata al Juez; apercibimiento si se incumple",
+  "por": "persona"
+ },
+ "q_21_35": {
+  "fecha": "2026-11-15",
+  "huella": "8ab113a31e77",
+  "nota": "Art. 8.2.b LO 6/1984: continuación de la privación de libertad en establecimiento distinto o bajo otra custodia",
+  "por": "persona"
+ },
+ "q_21_36": {
+  "fecha": "2026-11-15",
+  "huella": "537c0e74235c",
+  "nota": "Arts. 1 y 7 RD 769/1987: Policía Judicial en sentido estricto, Unidades Orgánicas del CNP y la Guardia Civil",
+  "por": "persona"
+ },
+ "q_21_37": {
+  "fecha": "2026-11-15",
+  "huella": "d8ec5b314ac0",
+  "nota": "Art. 20 RD 769/1987: antes de la actuación judicial, dependencia del Ministerio Fiscal",
+  "por": "persona"
+ },
+ "q_21_38": {
+  "fecha": "2026-11-15",
+  "huella": "7d9c594a10b9",
+  "nota": "Art. 34 RD 769/1987: preside el Presidente de la Audiencia Provincial",
+  "por": "persona"
+ },
+ "q_21_39": {
+  "fecha": "2026-11-15",
+  "huella": "fe709d9de125",
+  "nota": "Art. 38 RD 769/1987: Comisión Nacional al menos trimestral; Provinciales mensual",
+  "por": "persona"
+ },
+ "q_21_40": {
+  "fecha": "2026-11-15",
+  "huella": "2508c79980ea",
+  "nota": "Art. 15 RD 769/1987: reserva sin impedir el intercambio interno en la Unidad salvo prohibición expresa del Juez o Fiscal",
+  "por": "persona"
+ },
+ "q_21_41": {
+  "fecha": "2026-11-15",
+  "huella": "b22c32a49f4e",
+  "nota": "Art. 5 RD 769/1987: cese en la investigación y entrega de diligencias, efectos y detenidos",
+  "por": "persona"
+ },
+ "q_21_42": {
+  "fecha": "2026-11-15",
+  "huella": "1c2557791020",
+  "nota": "Art. 31.1 y 31.3 Ley 50/1981: causas tasadas de cese; la pérdida de confianza no figura",
+  "por": "persona"
+ },
+ "q_21_43": {
+  "fecha": "2026-11-15",
+  "huella": "216c06219683",
+  "nota": "Art. 12 Ley 50/1981: órganos del Ministerio Fiscal; el CGPJ es órgano de gobierno del Poder Judicial (art. 122.2 CE)",
+  "por": "persona"
  },
  "q_22_01": {
   "fecha": "2026-10-16",

@@ -1033,6 +1033,162 @@
       "explicacion": "La regla 2.ª del art. 132.2 dispone que la querella o denuncia ante un órgano judicial que atribuya a persona determinada su presunta participación suspende el cómputo de la prescripción por un plazo máximo de seis meses desde su presentación. Si en ese plazo se dicta la resolución judicial motivada de la regla 1.ª, la interrupción se entiende producida retroactivamente en la fecha de la querella o denuncia; si recae inadmisión firme o el juez no resuelve, el cómputo continúa. La querella no interrumpe por sí sola, y la suspensión no dura un año.",
       "ref": "art. 132.2 CP",
       "dificultad": 3
+    },
+    {
+      "id": "q_16_31",
+      "enunciado": "Un hecho puede calificarse con arreglo a dos preceptos del Código Penal y no se trata de un concurso de delitos. Si no resultan aplicables las reglas de especialidad, subsidiariedad ni consunción, ¿qué regla establece el art. 8 CP?",
+      "opciones": [
+        "El precepto penal más grave excluye los que castiguen el hecho con pena menor.",
+        "Se aplica el precepto que imponga la pena menor, por el principio in dubio pro reo.",
+        "Se aplican ambos preceptos y se suman las penas."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 8 CP resuelve el concurso de normas con cuatro reglas por orden: **especialidad** (el precepto especial prevalece sobre el general), **subsidiariedad**, **consunción** (el precepto más amplio o complejo absorbe a los consumidos en él) y, **en defecto de las anteriores**, **alternatividad**: el precepto **más grave excluye** los que castiguen el hecho con pena menor. Sumar penas es propio del concurso real de delitos, no del de normas.",
+      "ref": "art. 8 CP",
+      "dificultad": 2
+    },
+    {
+      "id": "q_16_32",
+      "enunciado": "Según el art. 12 del Código Penal, las acciones u omisiones imprudentes:",
+      "opciones": [
+        "Se castigan siempre, con la pena del delito doloso rebajada en un grado.",
+        "Solo se castigan cuando expresamente lo disponga la Ley.",
+        "Solo se castigan si la imprudencia es grave."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 12 CP dispone que las acciones u omisiones imprudentes **solo se castigarán cuando expresamente lo disponga la Ley** (sistema de incriminación específica de la imprudencia). No existe una rebaja general de grado para la imprudencia, y la gravedad de la imprudencia la gradúa cada tipo penal.",
+      "ref": "art. 12 CP",
+      "dificultad": 1
+    },
+    {
+      "id": "q_16_33",
+      "enunciado": "Según el art. 13.4 del Código Penal, cuando la pena de un delito, por su extensión, puede considerarse a la vez como leve y como menos grave, el delito se considera:",
+      "opciones": [
+        "En todo caso, como menos grave.",
+        "Leve o menos grave, según la pena que finalmente imponga el juez.",
+        "En todo caso, como leve."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 13.4 CP establece dos reglas distintas: si la pena puede incluirse a la vez entre las **graves y las menos graves**, el delito se considera **grave**; pero si puede considerarse **como leve y como menos grave**, el delito se considera, en todo caso, **como leve**. No depende de la pena que se imponga en concreto.",
+      "ref": "art. 13.4 CP",
+      "dificultad": 3
+    },
+    {
+      "id": "q_16_34",
+      "enunciado": "Dos personas se reúnen, se conciertan para robar en una gasolinera y resuelven ejecutarlo, pero son detenidas antes de iniciar ningún acto de ejecución. Según el art. 17 del Código Penal, su conducta es:",
+      "opciones": [
+        "Conspiración, que solo se castiga en los casos especialmente previstos en la ley.",
+        "Proposición, castigada en todo caso con la pena inferior en uno o dos grados.",
+        "Tentativa, porque ya habían resuelto cometer el delito."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 17.1 CP define la **conspiración**: dos o más personas **se conciertan** para la ejecución de un delito **y resuelven ejecutarlo**. Hay **proposición** cuando quien ha resuelto cometer un delito invita a otros a participar (art. 17.2). Ambas solo se castigan en los casos **especialmente previstos** en la ley (art. 17.3). No hay tentativa porque no se ha dado principio a la ejecución.",
+      "ref": "art. 17 CP",
+      "dificultad": 1
+    },
+    {
+      "id": "q_16_35",
+      "enunciado": "Una persona incita directamente, a través de una emisora de radio, a la comisión de un delito y, a raíz de ello, un oyente lo comete. Según el art. 18 del Código Penal, quien incitó:",
+      "opciones": [
+        "Responde solo por provocación, con independencia de que el delito se haya cometido.",
+        "Se castiga como inductor.",
+        "Responde como cómplice, porque no ejecutó el hecho."
+      ],
+      "correcta": 1,
+      "explicacion": "La incitación directa por un medio de eficacia semejante a la imprenta o la radiodifusión es **provocación** (art. 18.1 CP), punible solo en los casos que la ley prevé (art. 18.2). Pero el mismo art. 18.2 añade que, si a la provocación **hubiese seguido la perpetración del delito**, se castiga **como inducción**.",
+      "ref": "art. 18 CP",
+      "dificultad": 2
+    },
+    {
+      "id": "q_16_36",
+      "enunciado": "El art. 23 del Código Penal regula la circunstancia de parentesco (ser el agraviado cónyuge, pareja estable, ascendiente, descendiente o hermano del ofensor). ¿Qué naturaleza tiene?",
+      "opciones": [
+        "Es siempre una circunstancia agravante.",
+        "Es siempre una circunstancia atenuante.",
+        "Es una circunstancia que puede atenuar o agravar la responsabilidad, según la naturaleza, los motivos y los efectos del delito."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 23 CP configura el parentesco como circunstancia **mixta**: **puede atenuar o agravar** la responsabilidad según la **naturaleza, los motivos y los efectos del delito**. Comprende al cónyuge o persona ligada de forma estable por análoga relación de afectividad (actual o pasada) y al ascendiente, descendiente o hermano, por naturaleza o adopción, del ofensor o de su cónyuge o conviviente.",
+      "ref": "art. 23 CP",
+      "dificultad": 1
+    },
+    {
+      "id": "q_16_37",
+      "enunciado": "En un delito cometido utilizando medios o soportes de difusión mecánicos, según el art. 30 del Código Penal:",
+      "opciones": [
+        "No responden criminalmente ni los cómplices ni quienes hubieren favorecido a los autores personal o realmente, y los autores responden de forma escalonada, empezando por quienes hayan redactado el texto o producido el signo y quienes les hayan inducido.",
+        "Responden solidariamente todos los que hayan intervenido, incluidos los cómplices.",
+        "Responde en primer lugar el director de la empresa editora o emisora y, solo si no puede perseguirse a este, el autor del texto."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 30.1 CP excluye la responsabilidad de los **cómplices** y de quienes hubieren favorecido a los autores **personal o realmente**. Los autores responden de forma **escalonada, excluyente y subsidiaria** (art. 30.2): primero quienes **redactaron el texto** o produjeron el signo y quienes les indujeron; después los directores de la publicación o programa; luego los de la empresa editora, emisora o difusora, y por último los de la empresa grabadora, reproductora o impresora.",
+      "ref": "art. 30 CP",
+      "dificultad": 3
+    },
+    {
+      "id": "q_16_38",
+      "enunciado": "¿Cuál de las siguientes NO es una pena privativa de libertad según el art. 35 del Código Penal?",
+      "opciones": [
+        "La localización permanente.",
+        "La inhabilitación especial para empleo o cargo público.",
+        "La responsabilidad personal subsidiaria por impago de multa."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 35 CP enumera como penas privativas de libertad la **prisión permanente revisable**, la **prisión**, la **localización permanente** y la **responsabilidad personal subsidiaria por impago de multa**. La **inhabilitación** es una pena **privativa de derechos**, no de libertad (el art. 32 distingue penas privativas de libertad, privativas de otros derechos y multa).",
+      "ref": "arts. 32 y 35 CP",
+      "dificultad": 2
+    },
+    {
+      "id": "q_16_39",
+      "enunciado": "Según el art. 36.2 del Código Penal, salvo lo que excepcionalmente dispongan otros preceptos, la pena de prisión tiene una duración:",
+      "opciones": [
+        "Mínima de seis meses y máxima de veinticinco años.",
+        "Mínima de un mes y máxima de treinta años.",
+        "Mínima de tres meses y máxima de veinte años."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 36.2 CP fija para la prisión una duración **mínima de tres meses y máxima de veinte años**, salvo lo que excepcionalmente dispongan otros preceptos del Código. Por debajo de tres meses, el art. 71.2 obliga a sustituirla.",
+      "ref": "art. 36.2 CP",
+      "dificultad": 1
+    },
+    {
+      "id": "q_16_40",
+      "enunciado": "Según el art. 50 del Código Penal, en la pena de multa impuesta a una persona física por el sistema de días-multa:",
+      "opciones": [
+        "La extensión mínima es de diez días y la máxima de dos años, y la cuota diaria va de 2 a 400 euros.",
+        "La extensión mínima es de un mes y la máxima de cinco años, y la cuota diaria va de 30 a 5.000 euros.",
+        "La extensión mínima es de diez días y la máxima de un año, y la cuota diaria va de 6 a 300 euros."
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 50 CP fija una extensión **mínima de diez días y máxima de dos años** (art. 50.3) y una cuota diaria **de 2 a 400 euros** (art. 50.4), que el juez fija atendiendo exclusivamente a la situación económica del reo. Para las **personas jurídicas**, la extensión máxima es de cinco años y la cuota va de 30 a 5.000 euros.",
+      "ref": "art. 50 CP",
+      "dificultad": 2
+    },
+    {
+      "id": "q_16_41",
+      "enunciado": "Un condenado no satisface, ni voluntariamente ni por vía de apremio, una multa por días-multa. Según el art. 53 del Código Penal:",
+      "opciones": [
+        "Queda sujeto a un día de privación de libertad por cada cuota diaria no satisfecha, sin excepción.",
+        "Queda sujeto a un día de privación de libertad por cada dos cuotas diarias no satisfechas, pero esta responsabilidad no se impone a los condenados a pena privativa de libertad superior a cinco años.",
+        "La multa se convierte en deuda con la Hacienda Pública y no cabe privación de libertad."
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 53.1 CP establece una responsabilidad personal subsidiaria de **un día de privación de libertad por cada dos cuotas diarias** no satisfechas (en delitos leves puede cumplirse en localización permanente y, con conformidad del penado, mediante trabajos en beneficio de la comunidad). El art. 53.3 excluye esta responsabilidad para los condenados a **pena privativa de libertad superior a cinco años**.",
+      "ref": "art. 53 CP",
+      "dificultad": 3
+    },
+    {
+      "id": "q_16_42",
+      "enunciado": "Según el art. 131 del Código Penal, ¿en qué plazo prescriben los delitos leves y los delitos de injurias y calumnias?",
+      "opciones": [
+        "A los seis meses.",
+        "A los cinco años, como los demás delitos menos graves.",
+        "Al año."
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 131.1 CP establece que prescriben **al año** los **delitos leves** y los delitos de **injurias y calumnias**, como excepción a la regla de los cinco años para los demás delitos no comprendidos en los plazos superiores (diez, quince y veinte años).",
+      "ref": "art. 131.1 CP",
+      "dificultad": 2
     }
   ],
   "dudas": [
