@@ -230,6 +230,22 @@ class VigilanteConBoeSimulado(ConTemporal):
         self.assertEqual(despues["sinConsolidar"], [SIN_TEXTO])
         self.assertEqual(despues["items"][0]["estado"], "incorporada")
 
+    def test_revisar_toma_la_fecha_del_estado_si_la_web_del_repo_es_anterior(self):
+        # El workflow sube estado.json pero no novedades.js: la web del repositorio puede ser de una comprobación vieja.
+        self.comprobar()
+        self.cambiar(LEY, "a2")
+        (e,) = self.comprobar()
+        w = self.web()
+        w["comprobacion"], w["normasVigiladas"] = "2000-01-01", 1
+        with open(vl.WEB, "w", encoding="utf-8") as f:
+            f.write("window.AA_NOVEDADES=" + json.dumps(w) + ";\n")
+        with contextlib.redirect_stdout(io.StringIO()):
+            vl.cmd_revisar(argparse.Namespace(ids=[e["id"]], todo=False))
+        estado = json.load(open(vl.ESTADO, encoding="utf-8"))
+        despues = self.web()
+        self.assertEqual(despues["comprobacion"], estado["fecha"])
+        self.assertEqual(despues["normasVigiladas"], len(estado["normas"]))
+
     def test_una_norma_que_deja_de_responder_no_inventa_cambios(self):
         self.comprobar()
         antes = self.normas.pop(CE)

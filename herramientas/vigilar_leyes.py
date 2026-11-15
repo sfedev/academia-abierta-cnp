@@ -400,8 +400,13 @@ def cmd_revisar(args):
     guardar_json(NOVEDADES, nov, indent=1)
     normas, otras = normas_de_fichas()
     # Revisar no vuelve a consultar el BOE: conserva fecha de comprobación, normas sin texto consolidado y errores.
+    # El workflow sube datos/vigilancia/estado.json pero no web/data/novedades.js: si el estado es más reciente que
+    # la web del repositorio, su fecha y su número de normas son los buenos.
     w = leer_web()
-    escribir_web(nov["items"], (w.get("comprobacion") or iso(hoy())).replace("-", ""), w.get("normasVigiladas", len(estado["normas"])),
+    comprobado, vigiladas = w.get("comprobacion") or "", w.get("normasVigiladas", len(estado["normas"]))
+    if estado.get("fecha") and estado["normas"] and estado["fecha"] > comprobado:
+        comprobado, vigiladas = estado["fecha"], len(estado["normas"])
+    escribir_web(nov["items"], (comprobado or iso(hoy())).replace("-", ""), vigiladas,
                  w.get("sinConsolidar", []), otras, w.get("errores", []))
     print("Novedades marcadas como incorporadas: %d" % n)
 

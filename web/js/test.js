@@ -1180,7 +1180,7 @@
     CT.appendChild(h("div", { class: "eyebrow" }, F.titulo));
     CT.appendChild(h("h1", { class: "page-title" }, "Sesión terminada"));
     CT.appendChild(h("p", { class: "lead" }, "Has repasado " + F.vistas + " tarjetas y marcado " + F.bien + " como sabidas" +
-      (F.suben ? ": " + (F.suben === 1 ? "1 sube" : F.suben + " suben") + " de caja y tardarán más en volver." : ".")));
+      (F.suben ? ": " + (F.suben === 1 ? "1 sube de caja y tardará" : F.suben + " suben de caja y tardarán") + " más en volver." : ".")));
     if (!F.cierre) { // una sola vez aunque se vuelva a pintar la pantalla
       F.cierre = { logros: AA.motiv.revisar(), rachaHoy: !F.antesHoy && AA.motiv.hoyActivo() ? AA.motiv.racha().actual : 0 };
     }
