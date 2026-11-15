@@ -46,6 +46,7 @@ Anexo I de la Resolución de 7 de julio de 2026 (BOE-A-2026-15055).
 | `dist/` | Copia de `web/` en ASCII puro: es lo que se publica. |
 | `herramientas/GUIA_REDACTORES.md` | Criterios de redacción, verificación y formato de las fichas. |
 | `CLAUDE.md`, `llms.txt`, `llms/`, `.claude/skills/` | Contexto y procedimientos para agentes de IA (Claude Code, Cursor, Codex…). |
+| `AGENTS.md`, `.agents/skills/` | Copia de la guía y de las skills para agentes que leen `AGENTS.md` (Codex, Cursor…). |
 | `docs/` | Arquitectura, guía de contribución y privacidad. |
 | `trabajo/` | Textos de las normas leídas por los redactores (material de consulta, no se publica). |
 

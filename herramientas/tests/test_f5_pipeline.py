@@ -281,8 +281,9 @@ class GeneracionDeMeta(ConTemporal):
 
 
 def documentacion_para_agentes():
-    """CLAUDE.md, llms.txt, llms/, docs/ y las skills de .claude/skills/ (rutas relativas a la raíz)."""
-    patrones = [("CLAUDE.md",), ("llms.txt",), ("llms", "*.md"), ("docs", "*.md"), (".claude", "skills", "*", "SKILL.md")]
+    """CLAUDE.md, AGENTS.md, llms.txt, llms/, docs/ y las skills de .claude/ y .agents/ (rutas relativas a la raíz)."""
+    patrones = [("CLAUDE.md",), ("AGENTS.md",), ("llms.txt",), ("llms", "*.md"), ("docs", "*.md"),
+                (".claude", "skills", "*", "SKILL.md"), (".agents", "skills", "*", "SKILL.md")]
     return sorted(os.path.relpath(p, RAIZ) for pat in patrones for p in glob.glob(os.path.join(RAIZ, *pat)))
 
 
@@ -309,6 +310,25 @@ class CoherenciaDeLaDocumentacion(unittest.TestCase):
                     continue
                 ruta = os.path.normpath(os.path.join(RAIZ, os.path.dirname(doc), destino.split("#")[0]))
                 self.assertTrue(os.path.exists(ruta), "%s enlaza a %s, que no existe" % (doc, destino))
+
+    def test_agents_md_y_las_skills_de_agents_son_copia_de_las_de_claude(self):
+        """AGENTS.md repite CLAUDE.md para otros agentes; solo cambian el título, el orden de la lista de agentes y
+        la carpeta de las skills. Las skills de .agents/skills/ son idénticas a las de .claude/skills/."""
+        claude = leer(os.path.join(RAIZ, "CLAUDE.md")).replace("\r\n", "\n")
+        agents = (leer(os.path.join(RAIZ, "AGENTS.md")).replace("\r\n", "\n")
+                  .replace("# AGENTS.md", "# CLAUDE.md", 1)
+                  .replace("(Codex, Cursor, Claude Code…)", "(Claude Code, Cursor, Codex…)", 1)
+                  .replace(".agents/skills/", ".claude/skills/"))
+        self.assertEqual(agents, claude, "AGENTS.md se ha desviado de CLAUDE.md: copia el cambio")
+        originales = sorted(os.path.relpath(p, os.path.join(RAIZ, ".claude"))
+                            for p in glob.glob(os.path.join(RAIZ, ".claude", "skills", "*", "SKILL.md")))
+        copias = sorted(os.path.relpath(p, os.path.join(RAIZ, ".agents"))
+                        for p in glob.glob(os.path.join(RAIZ, ".agents", "skills", "*", "SKILL.md")))
+        self.assertTrue(originales)
+        self.assertEqual(copias, originales)
+        for rel in originales:
+            self.assertEqual(leer(os.path.join(RAIZ, ".agents", rel)).replace("\r\n", "\n"),
+                             leer(os.path.join(RAIZ, ".claude", rel)).replace("\r\n", "\n"), rel)
 
     def test_leeme_no_fija_cifras_exactas_que_caducan(self):
         leeme = leer(os.path.join(RAIZ, "LEEME.md"))

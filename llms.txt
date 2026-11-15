@@ -13,6 +13,7 @@ Claves para trabajar en el repositorio:
 ## Guías para agentes
 
 - [CLAUDE.md](CLAUDE.md): comandos, reglas de estilo y arquitectura, lo que comprueban las pruebas y el workflow de Git.
+- [AGENTS.md](AGENTS.md): la misma guía para agentes que leen `AGENTS.md` (Codex, Cursor…), con las skills copiadas en `.agents/skills/`.
 - [Arquitectura](llms/architecture.md): flujo estático de datos, espacio de nombres `window.AA`, montaje del DOM con `AA.h()`, persistencia en `localStorage` y compilación a ASCII.
 - [Esquema de datos](llms/data_schema.md): fichas `tema-NN.json` (`clave`, `resumen`, `trampas`, `preguntas` con id `q_NN_XX`, `tarjetas` con id `t_NN_XX`…), `meta.json`, pesos, auditoría y novedades.
 - [Vigilancia del BOE](llms/boevigilance.md): vigilante diario de leyes, atribución de citas por artículo (`citas.py`) y comparación del Anexo I de una convocatoria nueva.

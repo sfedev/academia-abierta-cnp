@@ -38,6 +38,8 @@ Node.js solo hace falta para las pruebas de la lógica de la web; si no está, s
 - `web/`: la aplicación en UTF-8 (`index.html`, `css/app.css`, `js/*.js`, `data/*.js`).
 - `dist/`, `sitio/`: copias en ASCII generadas por `empaquetar.py` (ignoradas por git). Es lo que se publica.
 - `.github/workflows/vigilar-y-publicar.yml`: vigilancia diaria del BOE y publicación en GitHub Pages.
+- `AGENTS.md` y `.agents/`: la misma guía y las mismas skills para otros agentes (Codex, Cursor…). Si cambias
+  `CLAUDE.md` o una skill de `.claude/`, copia el cambio allí (lo comprueba `test_f5_pipeline`).
 
 Detalle en [`llms/architecture.md`](llms/architecture.md) y [`llms/boevigilance.md`](llms/boevigilance.md).
 
