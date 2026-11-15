@@ -35,10 +35,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Descargar el repositorio
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Instalar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -130,12 +130,13 @@ jobs:
           python -I herramientas/empaquetar.py
 
       - name: Preparar Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Subir la web
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: sitio
+          include-hidden-files: true  # desde la v4 excluye los ficheros que empiezan por punto (sitio/.nojekyll)
 
   desplegar:
     needs: construir
@@ -146,4 +147,4 @@ jobs:
     steps:
       - name: Publicar en GitHub Pages
         id: despliegue
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
